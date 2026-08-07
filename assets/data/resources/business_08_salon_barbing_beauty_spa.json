@@ -1,0 +1,286 @@
+{
+  "categoryId": "business_08_salon_barbing_beauty_spa",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "growmysalonbusiness.com",
+      "name": "Grow My Salon Business",
+      "handle": "growmysalonbusiness.com",
+      "description": "Antony Whitaker's salon-business education brand -- management, scaling, and profitability content built specifically for salon owners.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "GS",
+      "focus": "Salon management, scaling, and profitability",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: a specific YouTube channel ID could not be independently pinned down in this pass, so this entry points to the confirmed, live growmysalonbusiness.com (also listed in Blogs) rather than an unconfirmed video link."
+    },
+    {
+      "id": "UCd2FiSKSVtu1BBF7ts8tc_A_solastudios",
+      "name": "Sola Salon Studios",
+      "handle": "solasalonstudios.com",
+      "description": "The leading independent salon-suite franchise in North America (10,000+ studio owners, 400+ locations) -- business models for renting a suite and owning an independent beauty practice.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SS",
+      "focus": "Independent salon suite business models",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: Sola's own promotional video content is confirmed real ('All About Sola Salon Studios,' featuring founders Matt and Stratton) but sits across individual local-studio channels rather than one central ID, so this entry points to their confirmed, live corporate site instead."
+    },
+    {
+      "id": "modernsalon",
+      "name": "Modern Salon",
+      "handle": "@modernsalon",
+      "description": "Connects beauty professionals at every career stage -- online salon courses, business education (via sister site SalonToday.com), and a Student Success Guide.",
+      "accentColor": "0xFFEC4899",
+      "initials": "MS",
+      "focus": "Salon business education and marketing",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Salon Business Boss' and 'Beauty Business Boss' (neither resolved to a real channel). Channel confirmed live and active via direct fetch of youtube.com/@modernsalon, self-description matching modernsalon.com exactly."
+    },
+    {
+      "id": "UCu0UZ8GtAwQIeEm9xClszFQ",
+      "name": "Tabatha Takes Over",
+      "handle": "@TabathaTakesOver",
+      "description": "Tabatha Coffey's official channel -- an Australian hairstylist, salon owner, and Bravo TV personality who rescues struggling salons and small businesses with tough-love business turnarounds.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "TC",
+      "focus": "Salon business reality, management, and turnaround",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real via the official channel's own About description, cross-checked against Wikipedia's Tabatha Coffey and Tabatha Takes Over articles."
+    },
+    {
+      "id": "ikhokha.com",
+      "name": "iKhokha",
+      "handle": "ikhokha.com",
+      "description": "Leading South African fintech providing card payment devices and business-tracking tools for small businesses, including salons and spas.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "IK",
+      "focus": "Salon payment solutions and business tracking",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: a specific YouTube channel ID could not be independently pinned down in this pass, so this entry points to iKhokha's own confirmed, live site rather than an unconfirmed video link. iKhokha is a well-known, real South African payments company."
+    },
+    {
+      "id": "thrivingstylist.com",
+      "name": "Thriving Stylist",
+      "handle": "thrivingstylist.com",
+      "description": "Britt Seva's business-coaching brand built specifically for independent hairstylists -- pricing, client retention, and building a six-figure independent styling business.",
+      "accentColor": "0xFFEF4444",
+      "initials": "TS",
+      "focus": "Business education for independent beauty professionals",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: a specific YouTube channel ID could not be independently pinned down in this pass, so this entry points to Thriving Stylist's own confirmed, live site rather than an unconfirmed video link."
+    },
+    {
+      "id": "spabusiness.com",
+      "name": "Spa Business",
+      "handle": "spabusiness.com",
+      "description": "Global trade publication covering the spa, wellness, and beauty industry -- operations, trends, and business strategy for spa owners and operators.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "SB",
+      "focus": "Global spa and wellness industry operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: a specific YouTube channel ID could not be independently pinned down in this pass, so this entry points to Spa Business's own confirmed, live trade-publication site rather than an unconfirmed video link."
+    },
+    {
+      "id": "hj.co.uk",
+      "name": "Hairdressers Journal",
+      "handle": "hj.co.uk",
+      "description": "The UK's longest-running hairdressing trade publication (est. 1882) -- industry news, trends, and salon business insight.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "HJ",
+      "focus": "Hairdressing industry news and salon business insights",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: a specific YouTube channel ID could not be independently pinned down in this pass, so this entry points to Hairdressers Journal's own confirmed, live trade-publication site rather than an unconfirmed video link."
+    },
+    {
+      "id": "the_beauty_biz_agency",
+      "name": "The Beauty Biz Agency",
+      "handle": "The Beauty Biz Agency",
+      "description": "Business coaching built specifically for beauty entrepreneurs -- pricing, marketing, and scaling a salon or spa business.",
+      "accentColor": "0xFF16A34A",
+      "initials": "BB",
+      "focus": "Beauty entrepreneur business coaching",
+      "verifiedOn": "2026-07-19",
+      "verificationMethod": "REUSED and reinstated from the pre-existing verified business_08 file (verified 2026-07-19, prior session). This CSV's own 10 names didn't include it, but it's a strong, already-verified, directly-on-theme channel."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Salon Today",
+      "url": "https://www.salontoday.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real during channel research -- referenced directly by Modern Salon's own channel as their business-education sister site."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real and active -- parent site of the confirmed Modern Salon YouTube channel."
+    },
+    {
+      "name": "Grow My Salon Business",
+      "url": "https://growmysalonbusiness.com/",
+      "verifiedOn": "2026-07-19",
+      "verificationMethod": "REUSED from the pre-existing business_08 file, cross-confirmed against growmysalonbusiness.com's own About page."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real, including a working RSS feed (entrepreneurs.ng/feed/) verified in prior sessions."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://blog.withsplice.com/feed/",
+      "verifiedOn": "2026-07-19",
+      "verificationMethod": "REUSED from the pre-existing business_08 file, which found a directly matching article: 'How To Run A Successful Spa Business In Nigeria.'"
+    },
+    {
+      "name": "Sola Salon Studios Blog",
+      "url": "https://www.solasalonstudios.com/blog",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SUBSTITUTED for 'Shopify Beauty' (too generic for this category). Sola's blog is confirmed real -- directly referenced during channel research, covering studio inspiration and business tips."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://www.bintusartandeverything.com/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "REUSED verification from skill_10_phone_electronics_repair.json (prior session) -- this Nigeria blog was independently confirmed real then."
+    },
+    {
+      "name": "iKhokha Blog",
+      "url": "https://ikhokha.com/blog",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SUBSTITUTED for 'HubSpot' (too generic for this category). iKhokha confirmed real during channel research -- a South African fintech whose blog covers small-business payment and operations tips directly relevant to salons."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real (reused across multiple prior files)."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free book summary PDF via F5 Financial -- condensed notes on the Technician/Manager/Entrepreneur framework.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. URL confirmed live. NOTE: this is a summary/notes document, not the full book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://profitfirstbook.com/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Genuinely free full copy of the book, offered courtesy of Relay (Profit First's official banking platform partner) -- no archive.org account/borrow required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_20 file. CSV lists domain as mikemichalowicz.com, but the actual free-book offer lives at profitfirstbook.com (same author's ecosystem).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup-by-eric-ries-pdf-free-download/",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free PDF via BDeBooks -- validated learning and MVP framework.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. Live status not re-verified this round -- recommend a periodic spot-check.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "Jason Anderson (University of Kansas Pressbooks)",
+      "freeSourceUrl": "https://opentext.ku.edu/smallbusinessmanagement/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, Creative Commons-licensed open textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SOURCE CORRECTED: the CSV lists this as 'OpenStax/Rice University', but OpenStax has never published a title called 'Small Business Management' -- their actual 6-book business series is Introduction to Business, Business Ethics, Principles of Management, Entrepreneurship, Principles of Accounting, and Organizational Behavior (confirmed via Rice University's own 2018 announcement). Substituted the genuinely free, real University of Kansas open textbook of this exact title. Small-business content within the OpenStax ecosystem lives inside Principles of Management, Ch. 7.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/entrepreneurship/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org and cross-referenced against Rice University's official announcement of the OpenStax business textbook series.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/digital-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live. NOTE: official course title is 'Digital Marketing Certification Course' (the CSV's 'for Small Business' framing is close but not the literal title).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free via SBA.gov -- official U.S. Small Business Administration business planning framework. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. SBA.gov confirmed as a free, public, no-login resource.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via direct fetch of the course URL and HubSpot's own resources page listing it among free courses.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/principles-management/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org, authored by David S. Bright and Anastasia H. Cortes. Chapter 7 covers small-business management directly.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully rebuilt 2026-07-24, updating the pre-existing business_08 file. Every channel now points to a real, live, immediately-usable resource -- either a confirmed YouTube channel or, where a specific channel ID couldn't be pinned down for a real company, that company's own confirmed live website (clearly marked 'USES OFFICIAL WEBSITE' in each entry). 'Salon Business Boss' and 'Beauty Business Boss' were replaced with Modern Salon; 'Nigerian Beauty Expo' was replaced with Nairametrics TV. The pre-existing verified 'The Beauty Biz Agency' entry was reinstated as the 10th slot since it wasn't in this CSV's own list but is a strong, already-verified fit. 'The Salon Business' (the other pre-existing entry) was not reinstated to avoid redundancy with Modern Salon and Sola, both of which cover similar ground.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

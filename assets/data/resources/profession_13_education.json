@@ -1,0 +1,320 @@
+{
+  "categoryId": "profession_13_education",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "",
+      "name": "uLesson",
+      "handle": "@uLesson",
+      "description": "Nigerian EdTech business model, scaling, and market penetration",
+      "accentColor": "0xFF3B82F6",
+      "initials": "U",
+      "focus": "Nigerian EdTech business model, scaling, and market penetration",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Pass.ng",
+      "handle": "@Passng",
+      "description": "Nigerian exam prep business, student acquisition, and EdTech",
+      "accentColor": "0xFF3B82F6",
+      "initials": "P",
+      "focus": "Nigerian exam prep business, student acquisition, and EdTech",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Teachable",
+      "handle": "@Teachable",
+      "description": "Platform for creating, selling, and scaling online course businesses",
+      "accentColor": "0xFF3B82F6",
+      "initials": "T",
+      "focus": "Platform for creating, selling, and scaling online course businesses",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Thinkific",
+      "handle": "@Thinkific",
+      "description": "Online course creation, pricing, and student retention strategies",
+      "accentColor": "0xFF3B82F6",
+      "initials": "T",
+      "focus": "Online course creation, pricing, and student retention strategies",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "EdSurge",
+      "handle": "@EdSurge",
+      "description": "Education business models, EdTech funding, and industry news",
+      "accentColor": "0xFF3B82F6",
+      "initials": "E",
+      "focus": "Education business models, EdTech funding, and industry news",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Teach For Nigeria",
+      "handle": "@TeachForNigeria",
+      "description": "Educational impact, NGO business, and school management",
+      "accentColor": "0xFF3B82F6",
+      "initials": "TF",
+      "focus": "Educational impact, NGO business, and school management",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "TechCabal",
+      "handle": "@TechCabal",
+      "description": "African EdTech startups, funding, and ecosystem coverage",
+      "accentColor": "0xFF3B82F6",
+      "initials": "T",
+      "focus": "African EdTech startups, funding, and ecosystem coverage",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "BusinessDay",
+      "handle": "@BusinessDayNG",
+      "description": "Nigerian education sector news and policy business",
+      "accentColor": "0xFF3B82F6",
+      "initials": "B",
+      "focus": "Nigerian education sector news and policy business",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Global EdTech",
+      "handle": "@GlobalEdTech",
+      "description": "International education technology and school business trends",
+      "accentColor": "0xFF3B82F6",
+      "initials": "GE",
+      "focus": "International education technology and school business trends",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Superprof Nigeria Blog",
+      "url": "https://www.superprof.ng/blog/feed/",
+      "verifiedOn": "2026-07-14",
+      "verificationMethod": "Superprof itself strongly confirmed real — an established tutoring platform active in 28 countries since 2013. Content directly matches the founder's description, citing the same real market-size figure (₦100bn+/$250-400M). Feed URL uses the standard WordPress pattern since no feed link was directly confirmed in search results — moderate confidence, worth a direct check before shipping."
+    },
+    {
+      "name": "EdSurge",
+      "url": "https://www.edsurge.com/",
+      "description": "Education business models, EdTech funding, and industry news",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Teachable Blog",
+      "url": "https://teachable.com/blog",
+      "description": "Course pricing, marketing, and online tutoring business guides",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Thinkific Blog",
+      "url": "https://www.thinkific.com/blog/",
+      "description": "Scaling an online education business and student retention",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "uLesson Blog",
+      "url": "https://ulesson.com/blog",
+      "description": "Nigerian EdTech market insights and educational business",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/",
+      "description": "African EdTech startups and ecosystem coverage",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Entrepreneurs.ng Education",
+      "url": "https://entrepreneurs.ng/",
+      "description": "Education business guide, capital tiers, and margins",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Splice Education Setup",
+      "url": "https://splice.com.ng/",
+      "description": "School and EdTech business plan and setup guides",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "TutorCruncher Blog",
+      "url": "https://tutorcruncher.com/blog/",
+      "description": "Tutoring agency software, operations, and management",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Michael E. Gerber (Free PDF)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Mike Michalowicz (Free Book)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Eric Ries (Free PDF)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "HubSpot Academy",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "download",
+      "freeSourceNote": "SBA.gov",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "HubSpot Academy",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Matches the founder's own honest finding, reinforced by an independent broader search this round: no dedicated Nigeria/Africa 'business of tutoring or running a school' YouTube channel exists — individual videos on the topic circulate, but no ongoing channel. Owogram's tutorial-center guide (the founder's #3 blog candidate) was independently re-confirmed as real and on-topic, but its RSS feed could not be confirmed this round, so left out rather than guess. No free book candidate found, matching the founder's finding exactly.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

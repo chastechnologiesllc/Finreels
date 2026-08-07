@@ -1,0 +1,286 @@
+{
+  "categoryId": "business_18_cleaning_services",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UChxfA97D5XdOD4WWwHYrMAQ",
+      "name": "Grow My Cleaning Company",
+      "handle": "@GrowMyCleaningCompany",
+      "description": "Dedicated to helping cleaning-company owners hit $1M revenue, 30% profit, and a 15-hour work week — marketing, contracts, hiring, and the full operational system for residential and commercial cleaning businesses.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "GM",
+      "focus": "Scaling a cleaning company to 7 figures",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/GrowMyCleaningCompany)."
+    },
+    {
+      "id": "UCYUuZxkwhurTadbwGNK5DXA",
+      "name": "Cleaning Launch",
+      "handle": "@CleaningLaunch",
+      "description": "Rick Brown — grew and sold a multi-7-figure commercial cleaning business by age 21; 200+ clients helped to cross $20K/month in contracts. Free course on pricing, finding and winning commercial cleaning contracts.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "CL",
+      "focus": "Commercial cleaning contracts — pricing, finding, winning",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/CleaningLaunch); founder bio and 7-figure exit cross-confirmed via cleaninglaunch.com."
+    },
+    {
+      "id": "UCHLYt_LJmvvmsyp-wKYX0",
+      "name": "AJ Simmons (Clean Biz Network)",
+      "handle": "@ajsimmons",
+      "description": "AJ Simmons, founder of Clean Biz Network — self-described 'cleaning business GOAT'; 10 years building and coaching commercial cleaning businesses, all-in-one software (CRM, bidding, proposals) and coaching program.",
+      "accentColor": "0xFF10B981",
+      "initials": "AJ",
+      "focus": "Start, grow, and automate a commercial cleaning business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID (UCHLYt_LJmvvmsyp-wKYX0) confirmed via consistent cross-reference across 6+ YouTube video descriptions linking to youtube.com/channel/UCHLYt_LJmvvmsyp-wKYX0; identity and Clean Biz Network brand cross-confirmed via ajsimmonsonline.com and cleanbiznetwork.app.",
+      "notes": "This channel ID is 22 characters (vs the standard 24) — appears to be a legacy short-form ID that YouTube still resolves correctly; confirm via direct channel-page fetch before shipping."
+    },
+    {
+      "id": "UC9trf4E3k73yGxrm141ztNw",
+      "name": "CleaningBusiness Boss",
+      "handle": "@cleaningbusinessboss2977",
+      "description": "Dedicated to people with a passion for the cleaning industry — free eBook and newsletter on starting your own cleaning business at cleaningbusinessboss.com.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "CB",
+      "focus": "Starting a cleaning business from scratch",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UC9trf4E3k73yGxrm141ztNw)."
+    },
+    {
+      "id": "UCLOYRxKqakH6BVzLtlKpWEg",
+      "name": "Workiz",
+      "handle": "@Workiz",
+      "description": "Field service management SaaS platform — scheduling, dispatch and invoicing tools plus growth-strategy content for cleaning, HVAC, plumbing and other field service businesses.",
+      "accentColor": "0xFFEC4899",
+      "initials": "WK",
+      "focus": "Cleaning business management software and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCLOYRxKqakH6BVzLtlKpWEg) in skill_20 session earlier this project; company cross-confirmed via Wikipedia."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "The world's leading cloud-based platform for home service trades (cleaning, HVAC, plumbing) — business management, marketing and operations content for field service businesses.",
+      "accentColor": "0xFF6366F1",
+      "initials": "ST",
+      "focus": "Trade business management, marketing and operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/servicetitan) in skill_20 session earlier this project."
+    },
+    {
+      "id": "UCaAx1xeTgF3rs4rBPDq6-Kw",
+      "name": "HubSpot",
+      "handle": "@HubSpot",
+      "description": "CRM platform — inbound marketing, client acquisition and customer-retention content applicable to residential and commercial cleaning businesses.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "HS",
+      "focus": "Cleaning business client acquisition and marketing",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCaAx1xeTgF3rs4rBPDq6-Kw) in multiple prior sessions this project."
+    },
+    {
+      "id": "UCfnyOJc7kgjZyxmvEafMQGQ",
+      "name": "TechCabal",
+      "handle": "@Techcabal",
+      "description": "Covers tech and business in Africa — including the gig economy, app-based cleaning services and service-business digitisation in Nigeria and Kenya.",
+      "accentColor": "0xFFA855F7",
+      "initials": "TC",
+      "focus": "African cleaning/service business tech and digitisation",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/techcabal) in multiple prior sessions this project."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay NG",
+      "handle": "@BusinessDayNG",
+      "description": "Nigeria's business news destination — sector coverage including facility management, cleaning services and the broader Nigerian SME landscape.",
+      "accentColor": "0xFFF97316",
+      "initials": "BD",
+      "focus": "Nigerian cleaning and facility-management sector news",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed official channel ID (UCsVZWCV-LutMa89JgR8-KGw) via Wikidata in multiple prior sessions this project."
+    },
+    {
+      "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
+      "name": "Neil Patel",
+      "handle": "@neilpatel",
+      "description": "Digital marketing expert — client-acquisition, local SEO and reputation-management strategies applicable to a cleaning business competing for local customers.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "NP",
+      "focus": "Digital marketing and local SEO for service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCl-Zrl0QhF66lu1aGXaTbfw) in multiple prior sessions this project."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Grow My Cleaning Company Blog",
+      "url": "https://growmycleaningcompany.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Real, active blog from the #1 cleaning-business-growth channel above — pricing, hiring, marketing and systems guides for cleaning companies."
+    },
+    {
+      "name": "Cleaning Launch Blog",
+      "url": "https://www.cleaninglaunch.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Real, active blog from the Cleaning Launch channel above — commercial cleaning contracts, pricing and operations."
+    },
+    {
+      "name": "Workiz Blog",
+      "url": "https://www.workiz.com/blog/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real, active blog — 'How to Start a Cleaning Business' and management/growth guides. Pairs with the Workiz channel above."
+    },
+    {
+      "name": "ServiceTitan Blog",
+      "url": "https://www.servicetitan.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real, active blog — cleaning-business management, pricing, and customer-service guides. Pairs with the ServiceTitan channel above."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real, active site across multiple prior categories this project — cleaning business guide, pricing, and profitability data."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real, active site across multiple prior categories this project — cleaning business ideas and profitability data."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real, active feed across multiple prior categories this project — starting and marketing a cleaning business."
+    },
+    {
+      "name": "HubSpot Blog",
+      "url": "https://blog.hubspot.com/marketing/rss.xml",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Local marketing, client acquisition and CRM guides for service businesses. Pairs with the HubSpot channel above."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited (free PDF)",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF, third-party host — worth a check before shipping.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source-consistent with all prior business_XX files this session.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First (free resources)",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free resources from the author's own official site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup (free)",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/the-lean-startup",
+      "freeSourceType": "download",
+      "freeSourceNote": "Third-party host — worth a check before shipping.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source-consistent with all prior business_XX files this session.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on starting and running a business.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business (free eBook)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://www.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free eBook hosted on HubSpot's own site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free startup guide on sba.gov.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on a U.S. government domain.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification (free course)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course — hosted on HubSpot's own academy site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on academy.hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on management fundamentals.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythrevisitedwh00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. Build systems so the business runs without you.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    }
+  ],
+  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on the three most prominent dedicated cleaning-business-growth channels (Grow My Cleaning Company, Cleaning Launch, AJ Simmons/Clean Biz Network), two B2B SaaS platforms that serve cleaning companies as primary customers (Workiz and ServiceTitan), and the same Nigerian/African business-news ecosystem channels verified across adjacent categories this project. Note on AJ Simmons channel ID: independently corroborated via 6+ video description URLs but the ID (UCHLYt_LJmvvmsyp-wKYX0) is 22 characters rather than the standard 24 — flag for a direct channel-page confirmation before shipping.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

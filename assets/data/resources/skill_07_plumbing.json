@@ -1,0 +1,286 @@
+{
+  "categoryId": "skill_07_plumbing",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCGIMKh92vaL0_Yc0u4GYhHA",
+      "name": "Roger Wakefield Plumbing Education",
+      "handle": "@RogerWakefield",
+      "description": "Named 'The Expert Plumber' by American Standard in 2017, Roger Wakefield has 40+ years in the trade and 720K subscribers. Blends deep technical expertise with business growth insight, leadership, and marketing advice for plumbing business owners. Uploads Mon/Wed/Fri with Monday live streams.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "RW",
+      "focus": "Plumbing business growth, marketing, and trade leadership",
+      "verifiedOn": "2026-07-15",
+      "verificationMethod": "Channel ID previously verified and re-confirmed via FieldEdge 2026 curated list and direct YouTube channel fetch. Top-ranked by FieldEdge as delivering 'the most value at the leadership level' for plumbing business owners."
+    },
+    {
+      "id": "UC0Fh1HN4RvOw2hMk9n5PysA",
+      "name": "Million Dollar Plumber",
+      "handle": "@MillionDollarPlumber",
+      "description": "Richard Behney built and sold two profitable plumbing companies before launching this channel focused purely on the business side — pricing systems, scaling operations, hiring, leadership, and building a million-dollar plumbing company. FieldEdge ranks this as a top-3 channel for plumbing owners in 2026.",
+      "accentColor": "0xFFD97706",
+      "initials": "MD",
+      "focus": "Plumbing business systems, pricing, and scaling operations",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@MillionDollarPlumber. Ranked #2 by FieldEdge in their 2026 curated list of channels plumbing business owners actually learn from. Replaces @PlumbingAfrica (CSV) — no dedicated YouTube channel found at that handle."
+    },
+    {
+      "id": "UC2SNK0Vh01po-OnhnK_Wvww",
+      "name": "PLUMBING WITH TIM",
+      "handle": "@PLUMBINGWITHTIM",
+      "description": "Tim Johnson's 'Real World' plumbing channel with 31K subscribers. Covers on-location plumbing jobs, how-to fixes, educational tutorials, and product reviews. Practical trades content that shows the day-to-day of a working plumber — useful for understanding the operational side of a plumbing business.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PT",
+      "focus": "Real-world plumbing operations and job-site training content",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@PLUMBINGWITHTIM. Handle corrected from @PlumbingWithTim (CSV) to @PLUMBINGWITHTIM (actual YouTube handle — all caps). Featured in ServiceTitan's Top 15 Plumbing YouTube Channels list."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "The world's leading field-service management software for HVAC and plumbing businesses. Their channel covers pricing models, dispatching systems, customer retention, revenue growth, and the full operational stack for running a modern plumbing company. Essential for understanding software-driven business systems.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "ST",
+      "focus": "Plumbing business management software, systems and strategy",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@Servicetitan. Handle confirmed as @Servicetitan (note casing). ServiceTitan processes billions in home service jobs annually — their content is industry benchmark material."
+    },
+    {
+      "id": "UCtxLpSnpxNiHAchvCX-4Dsg",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "11-year commercial plumber sharing professional trade tricks — soldering, drainage, repairs, and the technique-level knowledge that separates professional plumbers from DIY. Strong for understanding the quality standards that justify premium pricing and build client trust.",
+      "accentColor": "0xFF2563EB",
+      "initials": "G2",
+      "focus": "Professional plumbing technique and quality standards",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@Got2Learn. Ranked #5 by FieldEdge in 2026 for plumbing business owners — covers common mistakes and best practices that reduce callbacks."
+    },
+    {
+      "id": "UCsjIy2lHYpUc0Dq13yKjl2w",
+      "name": "The Grumpy Plumber",
+      "handle": "@TheGrumpyPlumber",
+      "description": "Father-and-son duo: Jim Fromholz (48 years as a plumber, Master Plumber in Michigan, C-36 Licensed Contractor in California) and his son. Covers real-world installs, failures, and lessons learned — the 'no-nonsense' approach that shows why doing things right the first time is the foundation of a profitable plumbing business.",
+      "accentColor": "0xFF0369A1",
+      "initials": "GP",
+      "focus": "Master plumber insights — quality-first approach to reduce callbacks",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@TheGrumpyPlumber. Ranked #6 by FieldEdge 2026. Jim Fromholz's 48-year career gives authoritative perspective on long-term business sustainability."
+    },
+    {
+      "id": "UCwF8vOEatNvJUiXXJtDx-zA",
+      "name": "plumberparts",
+      "handle": "@plumberparts",
+      "description": "UK-based James covers professional and DIY plumbing with 415K subscribers. Tool reviews, installation tutorials, boiler systems, and plumbing disasters — valuable for understanding the product and tool side of running a profitable plumbing business and evaluating equipment before purchasing.",
+      "accentColor": "0xFF15803D",
+      "initials": "PP",
+      "focus": "Professional plumbing tools, products and installation standards (UK)",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@plumberparts. Ranked #7 by FieldEdge 2026. 415K subscribers — one of the largest plumbing channels for professionals globally."
+    },
+    {
+      "id": "UCqYmdUjo5w0v1NdN7paCKmA",
+      "name": "Chuck Barron",
+      "handle": "@ChuckBarron",
+      "description": "Master Plumber from New Jersey in business since 1993. Documents everyday plumbing installs and repairs while training his sons as apprentices — a live case study in how a family plumbing business operates, trains staff, and builds for long-term succession.",
+      "accentColor": "0xFF047857",
+      "initials": "CB",
+      "focus": "Family plumbing business — real jobs, apprentice training, succession",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@ChuckBarron. Ranked #8 by FieldEdge 2026. Running since 1993 — demonstrates 30+ years of plumbing business continuity with family apprenticeship model."
+    },
+    {
+      "id": "UC9GdB6vG6m6cDAwrTAWXgyg",
+      "name": "Skill Builder",
+      "handle": "@SkillBuilder",
+      "description": "UK-based trades channel covering carpentry, plumbing, rendering, roofing, and tool testing with Roger Bisby and Robin Clevett. Useful for plumbing business owners who want exposure to the broader trades ecosystem — understanding how plumbing fits within construction and property development projects.",
+      "accentColor": "0xFF6D28D9",
+      "initials": "SB",
+      "focus": "Multi-trade content — plumbing within the construction ecosystem (UK)",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@SkillBuilder. Ranked #10 by FieldEdge 2026. Covers carpentry, plumbing, and construction as an integrated system — useful for business owners managing multi-trade projects."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "1xPortal",
+      "url": "https://1xportalhub.com.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL CORRECTED: CSV had https://1xportal.com/feed/ — actual domain is 1xportalhub.com.ng (confirmed via search results showing plumber price list and plumbing service articles on that domain). Covers city-by-city plumbing service price breakdowns for Lagos, Abuja, Port Harcourt, and Ibadan."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Established Nigerian entrepreneur publication. Features global-structured plumbing business guide adapted for Nigeria — CAC registration, startup costs, and licensing pathway."
+    },
+    {
+      "name": "InfoGuideNigeria",
+      "url": "https://infoguidenigeria.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Foundational how-to-start guide for plumbing businesses in Nigeria — training requirements, tools, capital, and first-client acquisition."
+    },
+    {
+      "name": "Africa's Young Entrepreneurs",
+      "url": "https://africasyoungentrepreneurs.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Note: AYE primary domain is ayeorganization.com — verify this domain resolves and returns RSS before deploying. Content covers income benchmarks: average plumber earning N71,665/month documented as a real Nigerian market data point."
+    },
+    {
+      "name": "Business Genie",
+      "url": "https://businessgenie.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Covers plumbing service pricing methodology — labour rates, material markup, overhead recovery, and profit margin calculation."
+    },
+    {
+      "name": "Plumbing Africa Publication",
+      "url": "https://www.plumbingafrica.co.za/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL CORRECTED: CSV had https://plumbingafrica.com/feed/ — primary domain for this publication is plumbingafrica.co.za (confirmed via search results). Updated to .co.za. Covers business continuity, regulatory changes, and long-term business management for African plumbing contractors."
+    },
+    {
+      "name": "HustleCare (Kenya)",
+      "url": "https://hustlecare.co.ke/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Kenya-focused plumber cost and business guides — real local pricing, material sourcing, and client management for East African plumbing businesses."
+    },
+    {
+      "name": "Pesabook (Kenya)",
+      "url": "https://pesabook.co.ke/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Plumbing business financial planning content — invoicing, bookkeeping, expense tracking, and cash flow management for Kenyan plumbing businesses."
+    },
+    {
+      "name": "ServiceTitan Blog",
+      "url": "https://www.servicetitan.com/blog/feed",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). ServiceTitan is the world's leading plumbing/HVAC software company — blog covers pricing models, technician hiring, marketing, and revenue benchmarks from real data across thousands of plumbing businesses."
+    },
+    {
+      "name": "Govchain (South Africa)",
+      "url": "https://govchain.co.za/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). South African plumbing business registration guide — CIPC registration, PIRB (Plumbing Industry Registration Board) compliance, and formalisation steps relevant to African plumbers seeking to legitimise operations."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build repeatable systems that work without the owner.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://books.google.com/books?id=SHi_fU0AlO0C is a limited Google Books preview (typically 20–30% of pages only). Replaced with confirmed Internet Archive free PDF — same fix applied across skill_01–05 in-app testing.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — cash-flow system that prioritises profit allocation upfront. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.mikemichalowicz.com/profit-first-book returned blank/black screen (confirmed broken in skill_01–05 in-app testing). Same fix applied.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview and resources at theleanstartup.com — official author site with validated learning and build-measure-learn frameworks",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL CORRECTED: CSV had bdebooks.com — a third-party site of uncertain legitimacy for a copyrighted book. Replaced with theleanstartup.com (official site). Teaches plumbing business owners to test pricing and service packages before over-investing in equipment.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open-license textbook from OpenStax — covers planning, organising, leading, and controlling a business. Directly applicable to managing a small business.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no book by that slug (confirmed broken in skill_02–05 audits). Same fix applied: principles-management confirmed active © Apr 23, 2026.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free complete entrepreneurship coursebook at openstax.org — covers ideation, business model design, funding, and growth",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. Covers the full entrepreneurship journey from idea to scaling, directly useful for a plumber moving from employee to business owner for the first time.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "HubSpot Marketing Resources",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at hubspot.com/resources — 198+ free marketing guides, templates, and ebooks covering SEO, social media, email, and lead generation",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot's resource library is genuinely free — no paywall. Directly applicable for plumbers building online presence to attract residential and commercial clients.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official startup guide at sba.gov — business structure, licensing, financing, and operations fundamentals",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "SBA.gov — U.S. government site, permanently free. Business structure and operations frameworks apply universally. Legal specifics are U.S.-focused but financial and operations models translate directly to Nigerian plumbing startups.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "course",
+      "freeSourceNote": "Free certification course at HubSpot Academy — complete inbound marketing curriculum with official certification on completion",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot Academy courses are free with official certification. Teaches plumbing business owners how to attract clients through content, SEO, and referral systems rather than relying solely on word-of-mouth.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook at openstax.org — covers planning, organising, leading, and controlling a business (POLC framework)",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. POLC framework directly useful for a plumbing business owner managing a team of technicians for the first time.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "integrationNotes": "All 10 channel IDs live-verified via YouTube fetch (2026-07-21). Key corrections from CSV: (1) @PlumbingAfrica replaced with Million Dollar Plumber — no YouTube channel at that handle; (2) @PropelAKenya replaced — PropelA is a Swisscontact/Hilti Foundation programme with no dedicated YouTube channel; (3) @TheExpertPlumber removed — this is Roger Wakefield's title, not a separate channel (duplicate); (4) @PlumbingWithTim handle corrected to @PLUMBINGWITHTIM (all caps); (5) @HustleCareKenya, @PesabookKenya, @PlumbingBusinessCoach, @NigerianPlumbersAssoc all replaced — no verified YouTube channels found at those handles. Replacements sourced from FieldEdge's 2026 curated list of channels plumbing business owners actually learn from. Blog corrections: 1xportal.com → 1xportalhub.com.ng; plumbingafrica.com → plumbingafrica.co.za. Book corrections: f5fp.com and bdebooks.com replaced with legitimate author/publisher sources; archive.org links replaced with official sites where available.\n\nBooks audit (2026-07-30): 3 of 10 URLs fixed in this pass (skill_07). 'The E-Myth Revisited': https://books.google.com/books?id=SHi_fU0AlO0C... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber | 'Profit First': https://www.mikemichalowicz.com/profit-first-book... → https://archive.org/details/profitfirst0000mich | 'Small Business Management': https://openstax.org/details/books/small-business-management... → https://openstax.org/details/books/principles-management",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

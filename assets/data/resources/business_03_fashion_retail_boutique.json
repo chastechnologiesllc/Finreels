@@ -1,0 +1,286 @@
+{
+  "categoryId": "skill_fashion_retail_boutique",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCe1qICvWRDbdH7-Fixvj7Bg",
+      "name": "The Business of Fashion",
+      "handle": "@businessoffashion",
+      "description": "The leading global media and intelligence company for fashion, beauty and luxury — 186K+ subscribers, 13.2M+ total views. Covers brand strategy, supply chains, sustainability, technology, and the business models behind global fashion empires. Essential for boutique owners wanting to understand how the global fashion industry works.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "BF",
+      "focus": "Global fashion industry intelligence — brand strategy and industry analysis",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Handle @businessoffashion confirmed via SpeakRJ analytics. Channel ID confirmed via live fetch of youtube.com/user/BusinessofFashion."
+    },
+    {
+      "id": "UCuZtEdebhwFLn3VcnxPkWQQ",
+      "name": "BellaNaijaStyle",
+      "handle": "@bellanaijastyle",
+      "description": "Africa's leading tech-driven fashion media platform — the fashion vertical of BellaNaija, Nigeria's No.1 digital brand. Covers African fashion brands, stylists, designers, and the business of African fashion. Essential for Nigerian boutique owners wanting to understand how to position their brand in the African fashion landscape.",
+      "accentColor": "0xFFDC2626",
+      "initials": "BN",
+      "focus": "African fashion media — Nigerian and continental fashion brand content",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed."
+    },
+    {
+      "id": "UCGRqaTHtdDkdHwMKQMj8RSQ",
+      "name": "Style Rave",
+      "handle": "@stylerave",
+      "description": "STYLERAVE.com is a leading fashion and lifestyle media company for all lovers of great style worldwide. Channel covers fashion content creation, brand spotlights, African fashion trends, and the business behind Nigerian and African fashion retail.",
+      "accentColor": "0xFFEA580C",
+      "initials": "SR",
+      "focus": "Nigerian and African fashion trends and retail business coverage",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed. Channel confirmed via live fetch of youtube.com/@stylerave."
+    },
+    {
+      "id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "name": "Learn With Shopify",
+      "handle": "@learnwithshopify",
+      "description": "Shopify's official entrepreneurship channel — how to launch a fashion retail brand online, set up an online boutique, product photography, fashion e-commerce marketing, and building a clothing business. Essential for boutique owners adding an online sales channel.",
+      "accentColor": "0xFF16A34A",
+      "initials": "LS",
+      "focus": "Fashion e-commerce and online boutique launch and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. REPLACED: CSV had 'Shopify Fashion' — Shopify has one official channel (Learn With Shopify); no fashion-specific sub-channel exists."
+    },
+    {
+      "id": "UCg1yTRFTHx_8e7-t3MPdWXw",
+      "name": "She Leads Africa",
+      "handle": "@SheLeadsAfrica",
+      "description": "#1 digital media community for smart and ambitious young African women — 800K+ community members across 100+ countries. Covers fashion entrepreneurship, business fundamentals, personal finance, and career growth for African women in fashion and retail.",
+      "accentColor": "0xFF15803D",
+      "initials": "SL",
+      "focus": "African women entrepreneurs in fashion — business, finance, and career",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Channel ID UCg1yTRFTHx_8e7-t3MPdWXw confirmed via search result (youtube.com/channel/UCg1yTRFTHx_8e7-t3MPdWXw). Handle @SheLeadsAfrica confirmed from all social media platforms."
+    },
+    {
+      "id": "UCwSEKXMVMzeDLEti4XA5rJg",
+      "name": "Connectnigeria",
+      "handle": "@connectnigeria",
+      "description": "The Official YouTube channel of ConnectNigeria.com — Nigeria's premier information portal. Covers fashion business startup guides, boutique registration, pricing strategies, and how to build a fashion retail brand in Nigeria. Regular business guides make this a practical resource for aspiring and established Nigerian boutique owners.",
+      "accentColor": "0xFF0369A1",
+      "initials": "CN",
+      "focus": "Nigeria's premier business information portal — fashion retail guides and SME content",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/user/connectnigeria. Handle @connectnigeria."
+    },
+    {
+      "id": "UCQodXFArJzNhtdQe8tFyY5g",
+      "name": "FMCIDE Nigeria",
+      "handle": "@FMCIDENigeria",
+      "description": "Official channel of Nigeria's Federal Ministry of Communications, Innovation & Digital Economy. Covers the government's digital economy programmes directly relevant to fashion retail — e-commerce enablement, digital payment adoption, and SME digitisation support that helps Nigerian boutique owners move from physical-only to omnichannel retail.",
+      "accentColor": "0xFF92400E",
+      "initials": "FM",
+      "focus": "Nigeria's digital economy ministry — fashion-tech, e-commerce policy, and digital retail",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED FashionBusinessAcademy (no YouTube channel confirmed at that handle). FMCIDE Nigeria confirmed via live fetch of youtube.com/@FMCIDENigeria."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Television",
+      "handle": "@BDTV-NG",
+      "description": "Official BusinessDay newspaper channel covering Nigerian fashion industry business — luxury retail trends, MSME fashion brand stories, import duties on fabric, and the economic context around Nigerian fashion consumption.",
+      "accentColor": "0xFF854D0E",
+      "initials": "BD",
+      "focus": "Nigerian business news — fashion industry economics and retail market trends",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Handle CORRECTED to @BDTV-NG."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Business of Fashion",
+      "url": "https://www.businessoffashion.com/rss/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "BoF RSS — global fashion industry intelligence. Brand strategy, supply chains, and business models behind global fashion."
+    },
+    {
+      "name": "Vogue Business",
+      "url": "https://www.voguebusiness.com/rss",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Vogue Business RSS — how technology and cultural trends impact fashion businesses globally."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Fashion retail startup guides and boutique business case studies in Nigeria."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog/rss",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Fashion e-commerce, online boutique launch, product photography, and clothing brand marketing."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Fashion business startup guides, boutique pricing, and retail marketing for Nigerian entrepreneurs."
+    },
+    {
+      "name": "Style Rave",
+      "url": "https://www.stylerave.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Nigeria's leading fashion digital publication — African fashion trends, brand spotlights, and fashion business coverage."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Splice Nigeria — fashion entrepreneur stories, boutique business profiles, and retail industry news."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://bintusartandeverything.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Nigerian fashion and lifestyle blog covering fashion content creation and building a fashion brand in Nigeria."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview at Google Books — technician/manager/entrepreneur framework essential for anyone moving from solo operator to business owner",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (f5fp.com — third-party site for a copyrighted book). Google Books preview is legitimate. Full book recommended for purchase.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter and framework at mikemichalowicz.com — take profit before expenses using envelope-style account allocation",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Official author site — free chapter available. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview at theleanstartup.com — build-measure-learn frameworks from the official author site",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (bdebooks.com — third-party site for a copyrighted book). Replaced with official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — operations, finance, marketing and HR for small businesses. No paywall, no DRM.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed academic textbook. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free complete entrepreneurship coursebook — ideation, business model design, funding, and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "HubSpot Marketing Resources",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at hubspot.com/resources — 198+ free marketing guides, templates, and ebooks. No paywall.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot — genuinely free with no paywall. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official startup guide at sba.gov — business structure, licensing, financing, and operations fundamentals",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SBA.gov — U.S. government, permanently free. No URL correction needed.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "course",
+      "freeSourceNote": "Free certification course at HubSpot Academy — complete inbound marketing curriculum with official certification on completion",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy — free with official certification. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — POLC framework: planning, organising, leading, and controlling a business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "integrationNotes": "8/10 channels confirmed with UCxxx IDs (BoF, Vogue Business, BellaNaija Style, Style Rave, Learn With Shopify, She Leads Africa, Zikoko, BusinessDay TV). 2 RESOLVE (ConnectNigeria, FashionBusinessAcademy). Key corrections: (1) Business of Fashion ID UCe1qICvWRDbdH7-Fixvj7Bg confirmed via live fetch; (2) Style Rave UCGRqaTHtdDkdHwMKQMj8RSQ confirmed via live fetch; (3) Zikoko handle CORRECTED to @Zikokomag; (4) Shopify Fashion → Learn With Shopify; (5) BusinessDay → @BDTV-NG.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

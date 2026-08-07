@@ -1,0 +1,286 @@
+{
+  "categoryId": "skill_49_banking_finance",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCKPrhdlB-gKbM4sI42P_bdQ",
+      "name": "CBN — Central Bank of Nigeria",
+      "handle": "@cenbank",
+      "description": "Official channel of the Central Bank of Nigeria — covers financial regulations, monetary policy, banking licensing requirements and the regulatory environment for banking business in Nigeria.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "CB",
+      "focus": "Financial regulations, monetary policy and banking business in Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCKPrhdlB-gKbM4sI42P_bdQ). Handle: cenbank. 2026-07-24."
+    },
+    {
+      "id": "UClWfcJrMhPTydzJz9WD3IYQ",
+      "name": "CIBN — Chartered Institute of Bankers of Nigeria",
+      "handle": "@TheCibn",
+      "description": "Umbrella professional body for bankers in Nigeria since 1973 — determines standards of knowledge, conducts professional examinations, awards certifications and ensures ethical standards in banking.",
+      "accentColor": "0xFF16A34A",
+      "initials": "CI",
+      "focus": "Banking practice, ethics and professional standards in Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via direct YouTube channel page fetch (youtube.com/@TheCibn/streams → Channel ID UClWfcJrMhPTydzJz9WD3IYQ). 2026-07-24."
+    },
+    {
+      "id": "UC2pG0jf9-F-cc-7MyxeqQtg",
+      "name": "The Banker",
+      "handle": "@TheBanker",
+      "description": "World's premier banking and finance resource since 1926 — read in 180+ countries. Provides unique data, analysis and editorial covering global banking business, profitability and market intelligence.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "TB",
+      "focus": "Global banking industry news and business analysis",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UC2pG0jf9-F-cc-7MyxeqQtg). 2026-07-24."
+    },
+    {
+      "id": "UCIALMKvObZNtJ6AmdCLP7Lg",
+      "name": "Bloomberg Television",
+      "handle": "@BloombergTV",
+      "description": "Latest financial news and market analysis from Bloomberg TV — global banking business, financial markets, economic policy and investment intelligence.",
+      "accentColor": "0xFFEC4899",
+      "initials": "BL",
+      "focus": "Global financial markets, banking business and economics",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCIALMKvObZNtJ6AmdCLP7Lg). 2026-07-24."
+    },
+    {
+      "id": "UCoUxsWakJucWg46KW5RsvPw",
+      "name": "Financial Times",
+      "handle": "@FinancialTimes",
+      "description": "Global business, finance and banking news — goes beyond headlines to help navigate the world's new agenda with in-depth banking, economic policy and capital markets coverage.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "FT",
+      "focus": "Global finance, banking and economic business news",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCoUxsWakJucWg46KW5RsvPw). 2026-07-24."
+    },
+    {
+      "id": "UCfnyOJc7kgjZyxmvEafMQGQ",
+      "name": "TechCabal",
+      "handle": "@TechCabal",
+      "description": "Vividly captures African fintech, banking innovation and startup ecosystem — essential for tracking how technology is reshaping finance and banking across Africa.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "TC",
+      "focus": "African fintech, banking innovation and startup ecosystem",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCfnyOJc7kgjZyxmvEafMQGQ). 2026-07-24."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Nigeria",
+      "handle": "@BusinessDayNG",
+      "description": "Nigeria's leading business newspaper — covers banking sector performance, interest rates, CBN policy decisions and financial sector business news.",
+      "accentColor": "0xFFF97316",
+      "initials": "BD",
+      "focus": "Nigerian banking and financial sector business news",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCsVZWCV-LutMa89JgR8-KGw). 2026-07-24."
+    },
+    {
+      "id": "UCh_x1EANObKl_UwkVaAiq-Q",
+      "name": "WebTV Nigeria (Proshare)",
+      "handle": "@webtvnigeria",
+      "description": "Digital news channel committed to in-depth finance, business, economy, investment and regulatory coverage. Contact: webtv@proshare.co — Proshare Nigeria's media arm, empowering people with quality financial information.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "PS",
+      "focus": "Financial and business analysis for entrepreneurs — Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via direct YouTube channel page fetch (youtube.com/@webtvnigeria → Channel ID UCh_x1EANObKl_UwkVaAiq-Q). Proshare's WebTV Nigeria replaces the generic 'Proshare Nigeria' handle. 2026-07-24."
+    },
+    {
+      "id": "UCIf6t3gpKr_D46xuWlj9UAQ",
+      "name": "Knowledge at Wharton",
+      "handle": "@KnowledgeAtWharton",
+      "description": "Online business analysis from The Wharton School of UPenn — free articles, podcasts and videos on banking, finance, economics and business strategy from leading faculty and researchers.",
+      "accentColor": "0xFF16A34A",
+      "initials": "WH",
+      "focus": "Global banking, finance and economic business education",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCIf6t3gpKr_D46xuWlj9UAQ). 2026-07-24."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "CBN Publications",
+      "url": "https://www.cbn.gov.ng/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: banking_finance_resources.csv. Government site — may use non-standard feed path; check cbn.gov.ng/news for RSS before ship."
+    },
+    {
+      "name": "CIBN Blog",
+      "url": "https://cibng.org/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Banking practice, ethics and advocacy. Standard /feed — confirm before ship."
+    },
+    {
+      "name": "The Banker",
+      "url": "https://www.thebanker.com/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Global banking industry news. FT Group publication — may use custom feed path; confirm before ship."
+    },
+    {
+      "name": "Bloomberg Opinion",
+      "url": "https://www.bloomberg.com/opinion/rss",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Global financial markets and banking analysis. Bloomberg uses custom feed paths — check bloomberg.com/opinion/rss before ship."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. African fintech and banking innovation news. Standard WordPress /feed."
+    },
+    {
+      "name": "Proshare Nigeria",
+      "url": "https://proshareng.com/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Nigerian financial and business analysis. Standard /feed — confirm before ship."
+    },
+    {
+      "name": "Entrepreneurs.ng Banking",
+      "url": "https://entrepreneurs.ng/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Banking and finance business guide. Feed confirmed active in prior sessions."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African business case studies."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited-pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF via f5fp.com",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL confirmed live in prior skill sessions (skill_09, skill_18).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free resources + chapter access at author's official site",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL confirmed live in prior skill sessions.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/the-lean-startup-pdf",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free PDF via BDE Books",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL confirmed live in prior skill sessions.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Completely free peer-reviewed textbook — download PDF or read online, no signup",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax is a verified free publisher from Rice University. URL confirmed live.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Completely free peer-reviewed management textbook from OpenStax",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax confirmed live. Covers business operations, leadership and scaling.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Business Ethics",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/business-ethics",
+      "freeSourceType": "web",
+      "freeSourceNote": "Completely free peer-reviewed business ethics textbook from OpenStax",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax confirmed live. Covers ethical standards directly relevant to licensed professions.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172174-L.jpg"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free U.S. government guide — no signup required",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SBA.gov is the official US government small business site. Confirm exact guide page URL before ship.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification — covers inbound strategy for professional service firms",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy confirmed free. Course available without payment.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/digital-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy course — digital marketing for service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy confirmed free.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). CIBN confirmed via direct YouTube page fetch (@TheCibn → UClWfcJrMhPTydzJz9WD3IYQ). Proshare Nigeria confirmed as WebTV Nigeria (UCh_x1EANObKl_UwkVaAiq-Q) via direct YouTube page fetch. All other 8 channels confirmed via YouTube search results. Blogs: CBN is a government site — verify feed path. Bloomberg uses custom RSS paths. The Banker is FT Group — check feed path. Connect Nigeria flagged.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

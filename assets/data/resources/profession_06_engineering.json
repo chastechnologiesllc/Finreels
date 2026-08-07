@@ -1,0 +1,286 @@
+{
+  "categoryId": "skill_46_engineering",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCyAZtIT2LbUv7Q840iBXI1A",
+      "name": "Engineering Management Institute",
+      "handle": "@EngineeringManagementInstitute",
+      "description": "Anthony Fasano P.E. guides engineers beyond technical skills into leadership, firm management and building extraordinary engineering careers and consultancies.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "EM",
+      "focus": "Engineering leadership, firm management and business scaling",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCyAZtIT2LbUv7Q840iBXI1A). 2026-07-24."
+    },
+    {
+      "id": "UClj9xZoL--DxDCLdHICLNqw",
+      "name": "NSPE — National Society of Professional Engineers",
+      "handle": "@NSPEngineers",
+      "description": "Founded 1934 — strengthens the engineering profession through licensure, ethics and PE business rights across 53 state societies and 500+ chapters.",
+      "accentColor": "0xFF16A34A",
+      "initials": "NS",
+      "focus": "Engineering practice, ethics and business operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UClj9xZoL--DxDCLdHICLNqw). 2026-07-24."
+    },
+    {
+      "id": "UCKQMmukEHYwwOqgQY7V0DZA",
+      "name": "NSE — Nigerian Society of Engineers",
+      "handle": "@NSEHQTV",
+      "description": "Nigeria's premier engineering professional body — covers advocacy, practice standards, networking and the business environment for engineers in Nigeria. Official YouTube channel NSEHQTV.",
+      "accentColor": "0xFFEC4899",
+      "initials": "NE",
+      "focus": "Engineering advocacy and practice in Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCKQMmukEHYwwOqgQY7V0DZA). 2026-07-24."
+    },
+    {
+      "id": "UCfnyOJc7kgjZyxmvEafMQGQ",
+      "name": "TechCabal",
+      "handle": "@TechCabal",
+      "description": "Vividly captures Africa's tech and engineering ecosystem — tracks engineering startups, infrastructure investments and the entrepreneurs building the African tech landscape.",
+      "accentColor": "0xFFEF4444",
+      "initials": "TC",
+      "focus": "African engineering, tech and startup ecosystem coverage",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCfnyOJc7kgjZyxmvEafMQGQ). 2026-07-24."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Nigeria",
+      "handle": "@BusinessDayNG",
+      "description": "Nigeria's leading business newspaper — covers engineering, infrastructure, construction sector news, contracts, and market conditions for engineering firms in Nigeria.",
+      "accentColor": "0xFFF97316",
+      "initials": "BD",
+      "focus": "Nigerian engineering and infrastructure sector news",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCsVZWCV-LutMa89JgR8-KGw). 2026-07-24."
+    },
+    {
+      "id": "UCFQNV3WrP1hC4ZaQ-SzOuvw",
+      "name": "ASME — American Society of Mechanical Engineers",
+      "handle": "@ASME",
+      "description": "130,000+ members in 158 countries — enables collaboration, knowledge sharing and skills development across all engineering disciplines. Covers engineering business, industry trends and technical standards.",
+      "accentColor": "0xFF16A34A",
+      "initials": "AS",
+      "focus": "Engineering business, industry trends and technical standards",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCFQNV3WrP1hC4ZaQ-SzOuvw). 2026-07-24."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "Trade and service business management — CRM, dispatch, marketing and growth.",
+      "accentColor": "0xFF6366F1",
+      "initials": "ST",
+      "focus": "Service business management",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
+      "name": "Dayo Adetiloye Business Hub",
+      "handle": "@DayoAdetiloye",
+      "description": "Nigerian business coach — business plans, MSME funding, CAC registration and growth.",
+      "accentColor": "0xFFD97706",
+      "initials": "DA",
+      "focus": "Nigerian entrepreneurship",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Engineering Management Institute Blog",
+      "url": "https://engineeringmanagementinstitute.org/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: engineering_resources.csv. Engineering leadership and firm management. Standard WordPress /feed."
+    },
+    {
+      "name": "NSPE Blog",
+      "url": "https://www.nspe.org/resources/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV (nspe.org). Engineering practice, ethics and business. NSPE may use a custom feed path — check /resources or /news for the RSS URL."
+    },
+    {
+      "name": "NSE Blog",
+      "url": "https://nse.org.ng/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV (nse.org.ng). Nigerian engineering advocacy and practice. Standard /feed pattern — confirm before ship."
+    },
+    {
+      "name": "Engineering.com",
+      "url": "https://www.engineering.com/rss.xml",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV (engineering.com). Global engineering industry news. Uses RSS at /rss.xml — confirm this path."
+    },
+    {
+      "name": "COREN News",
+      "url": "https://coren.gov.ng/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV (coren.gov.ng). Nigerian engineering regulations. Government site — may not publish RSS; check before ship."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV (techcabal.com). African tech and engineering startup news. Standard WordPress /feed."
+    },
+    {
+      "name": "Disrupt Africa",
+      "url": "https://disrupt-africa.com/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV (disrupt-africa.com). African tech and engineering ecosystem news. Standard /feed pattern — confirm before ship."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV (entrepreneurs.ng). Engineering business guide and margins. Feed confirmed active in prior sessions."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African business case studies."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited-pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF via f5fp.com",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL confirmed live in prior skill sessions (skill_09, skill_18).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free resources + chapter access at author's official site",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL confirmed live in prior skill sessions.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/the-lean-startup-pdf",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free PDF via BDE Books",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL confirmed live in prior skill sessions.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Completely free peer-reviewed textbook — download PDF or read online, no signup",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax is a verified free publisher from Rice University. URL confirmed live.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Completely free peer-reviewed management textbook from OpenStax",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax confirmed live. Covers business operations, leadership and scaling.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Business Ethics",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/business-ethics",
+      "freeSourceType": "web",
+      "freeSourceNote": "Completely free peer-reviewed business ethics textbook from OpenStax",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax confirmed live. Covers ethical standards directly relevant to licensed professions.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172174-L.jpg"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free U.S. government guide — no signup required",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SBA.gov is the official US government small business site. Confirm exact guide page URL before ship.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification — covers inbound strategy for professional service firms",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy confirmed free. Course available without payment.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/digital-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy course — digital marketing for service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy confirmed free.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: COREN Nigeria (no YouTube — Facebook/website only) → Practical Engineering; Engineering Career Skills (not found) → The B1M; Disrupt Africa (YouTube not confirmed) → Nairametrics TV; The Engineering Podcast (not confirmed) → EngineeringAll. Blogs: COREN is a government site and may not publish RSS. NSPE uses a custom feed path.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

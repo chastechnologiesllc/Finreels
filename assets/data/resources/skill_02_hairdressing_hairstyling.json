@@ -1,0 +1,285 @@
+{
+  "categoryId": "skill_02_hairdressing_hairstyling",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UC5_ZJ2QMb-19TLKDl6JuVbg",
+      "name": "Louis Ihuefo",
+      "handle": "@Louisihuefo",
+      "description": "Lagos-based hairstylist and YouTuber — self-described 'No 1 hairstylist and YouTuber in Africa'. Runs paid workshops teaching the hairstyling trade alongside tutorial content.",
+      "accentColor": "0xFFEC4899",
+      "initials": "LI",
+      "focus": "Hairstyling business & workshops",
+      "verifiedOn": "2026-07-11",
+      "verificationMethod": "Cross-corroborated across 4 independent search results (channel page + 3 video pages) all pointing to the same channel ID; self-description and Lagos workshop link confirm topical + regional match."
+    },
+    {
+      "id": "UCAh3w8uN7SWB0QYFJ8AZH_A",
+      "name": "Grow My Salon Business",
+      "handle": "@Growmysalonbusiness",
+      "description": "Led by Antony Whitaker — short, practical videos for beauty and salon owners on running the business side of a salon, from a coach who has trained hairdressers, salon managers and their teams in 50+ countries.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "GM",
+      "focus": "Salon management and growth",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCAh3w8uN7SWB0QYFJ8AZH_A); About-section content matches the source directory's description and the founder's own growmysalonbusiness.com site."
+    },
+    {
+      "id": "UCX-yMj_mwNUL37OrGGvWDXg",
+      "name": "Thriving Stylist (Britt Seva)",
+      "handle": "@BrittSeva",
+      "description": "Britt Seva, Social Media & Marketing Strategist for hair stylists — the YouTube home of the Thriving Stylist brand and podcast, covering marketing and business-building for stylists and salon owners.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "TS",
+      "focus": "Business-focused content for hair professionals",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory listed the brand handle '@thrivingstylist', which YouTube no longer resolves directly; fetched the channel's current canonical URL (youtube.com/c/BrittSeva) and confirmed it is the same Thriving Stylist brand/host (thrivingstylist.com, same podcast) now publishing under creator name 'Britt Seva'."
+    },
+    {
+      "id": "UCa4WbwzCsrQENRkKyHCxsPw",
+      "name": "iKhokha",
+      "handle": "@ikhokha",
+      "description": "South African fintech offering card machines, payment gateways and business tools for small businesses, including salons — publishes free courses/webinars on using payments and social platforms to grow a business.",
+      "accentColor": "0xFF10B981",
+      "initials": "IK",
+      "focus": "Salon business guide with payment solutions",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/Ikhokha); About-section confirms it is the official iKhokha company channel matching ikhokha.com."
+    },
+    {
+      "id": "UCknS--yNghlON5C3TlHiTWw",
+      "name": "Tabatha Coffey",
+      "handle": "@TabathaCoffey",
+      "description": "Australian hairstylist, salon owner and Bravo TV personality (Tabatha's Salon Takeover / Tabatha Takes Over) — covers the reality of turning around struggling salon businesses.",
+      "accentColor": "0xFFEF4444",
+      "initials": "TC",
+      "focus": "Bravo TV personality covering salon business reality",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@TabathaCoffey); identity cross-confirmed against Wikipedia bio (hairstylist, salon owner, Tabatha Takes Over host)."
+    },
+    {
+      "id": "UCUUOUXV5xmEqGWGf9eUyjdQ",
+      "name": "Sam Villa Hair Tutorials",
+      "handle": "@SamVillaHair",
+      "description": "Sam Villa, Redken Global Artistic Ambassador — free cutting/styling education plus business systems content for salon owners and stylists, from a 30-year hair educator with 500k+ subscribers.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "SV",
+      "focus": "Business systems for salon owners and stylists",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Channel ID cross-confirmed via a third-party YouTube analytics listing (vidiq) referencing the 'Sam Villa Hair Tutorials' channel; identity matched against Beauty Launchpad and Luxy Hair profiles of Sam Villa. Not fetched directly from the channel page itself — worth a direct confirm before shipping."
+    },
+    {
+      "id": "UCnFzOCx_dheaB5yUjVnzjSw",
+      "name": "The Salon Business",
+      "handle": "@TheSalonBusiness",
+      "description": "Powered by Mangomint (salon/spa software) — practical marketing ideas and free weekly education for hair salon, nail salon, spa, beauty salon, and barbershop owners.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "SB",
+      "focus": "Salon marketing and growth",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Same channel already independently verified for business_08_salon_barbing_beauty_spa (direct channel-page fetch, ID UCnFzOCx_dheaB5yUjVnzjSw); reused here since salon/spa marketing education is directly on-topic for hairdressing business."
+    },
+    {
+      "id": "UCmi9wFeEZCV9gMDO-Sw_F-w",
+      "name": "TheSalonGuy",
+      "handle": "@TheSalonGuy",
+      "description": "1.1M+ subscriber channel from a 30-year salon, fashion and media industry veteran — haircut tutorials, styling tips, and a full brand including haircare products, books and courses.",
+      "accentColor": "0xFFF97316",
+      "initials": "SG",
+      "focus": "Haircut tutorials, styling & personal brand-building",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/TheSalonGuy → channel/UCmi9wFeEZCV9gMDO-Sw_F-w); About-section confirms salon/hairstyling focus and subscriber count."
+    },
+    {
+      "id": "UCc9Tp0Ctm-MVOU6DBw9xLRg",
+      "name": "SalonBiz",
+      "handle": "@SalonBiz",
+      "description": "Salon and spa management software company (est. 1984, Denver CO) — client engagement, staff scheduling and business-operations content for salon owners.",
+      "accentColor": "0xFF6366F1",
+      "initials": "SB",
+      "focus": "Salon business software & operations",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCc9Tp0Ctm-MVOU6DBw9xLRg); identity cross-confirmed against SalonBiz's own site (salonbizsoftware.com) and LinkedIn/Crunchbase profiles."
+    },
+    {
+      "id": "UCoU7oC0WD6vDkEC6X7kfg3g",
+      "name": "The Beauty Biz Agency",
+      "handle": "@thebeautybizagency",
+      "description": "Explicitly for salon owners, spa owners, beauty business owners and independent stylists — salon leadership, pricing for profit, team management, client retention.",
+      "accentColor": "0xFFEC4899",
+      "initials": "BB",
+      "focus": "Salon/spa business systems, pricing, team management",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Same channel already independently verified for business_08_salon_barbing_beauty_spa (direct channel-page fetch, ID UCoU7oC0WD6vDkEC6X7kfg3g); reused here since it's directly on-topic for hairdressing/salon business."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 'How To Set Up, Run & Start a Hair Salon in Nigeria' on Splice's blog. Note: a related Splice feed (blog.withsplice.com/feed/) is already used for skill_03 (Barbing) and business_08 (Salon/Barbing/Spa) — worth a duplicate check between the two domains before shipping."
+    },
+    {
+      "name": "Shopify Nigeria Blog",
+      "url": "https://www.shopify.com/ng/blog.atom",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: '12 Hair Salon Promotions' article covering client retention and loyalty, on Shopify's Nigeria blog."
+    },
+    {
+      "name": "Grow My Salon Business",
+      "url": "https://growmysalonbusiness.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Antony Whitaker's own salon-management blog, matching the verified channel above."
+    },
+    {
+      "name": "Salon Business Boss",
+      "url": "https://salonbusinessboss.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed real, active blog (salonbusinessboss.com) run by Shawn Chun / Honest Business Plans LLC, with salon-specific operations and marketing articles. The companion YouTube channel in the source directory could not be independently confirmed this round (see notes)."
+    },
+    {
+      "name": "Thriving Stylist",
+      "url": "https://thrivingstylist.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Britt Seva's business-education site for independent stylists, matching the verified channel above."
+    },
+    {
+      "name": "Pesabook (Kenya)",
+      "url": "https://www.pesabook.co.ke/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: profit-margin math and financial-planning content for salons, from a Kenyan financial-tools platform."
+    },
+    {
+      "name": "iKhokha",
+      "url": "https://www.ikhokha.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Salon guide with payment integration, on the official iKhokha blog — matches the verified channel above."
+    },
+    {
+      "name": "Melan Magazine",
+      "url": "https://melanmagazine.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: interview with a Ghanaian-born London salon owner."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://bintusart.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: salon business guide covering WhatsApp marketing, Nigeria-focused."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    }
+  ],
+  "books": [
+    {
+      "title": "The Fantastic Hairdresser — Free Blog",
+      "author": "Alan Austin-Smith",
+      "freeSourceUrl": "https://www.thefantastichairdresser.com/blog",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free business-growth articles for salon professionals from the author of the 'Hairdressers Bible' — covers motivation, team management, client experience, and salon profitability.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://thefantastichairdresser.com/resources not found in any search index (2026-07-30). Replaced with /blog — confirmed active via web search (search snippet: 'GROW YOUR SALON BUSINESS FOR FREE! THIS BLOG WILL OFFER VALUABLE, SOUND ADVICE/TIPS FOR ANY INDIVIDUAL IN THE HAIR AND BEAUTY INDUSTRY.').",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781907333002-L.jpg"
+    },
+    {
+      "title": "Salon Business Start-Up Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, complete small-business startup guide from the U.S. Small Business Administration — covers planning, launch, management, and growth. Fully applicable to opening a hair salon.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.sba.gov/business-guide/salon returned 404 — SBA has no /salon subpage (confirmed via web search, 2026-07-30). Replaced with the canonical SBA business guide landing page sba.gov/business-guide — a stable U.S. government domain URL.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Million Dollar Stylist",
+      "author": "Marquetta Breslin",
+      "freeSourceUrl": "https://www.marquettabreslin.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official site of Million Dollar Stylist author Marquetta Breslin — free business articles, coaching resources, and blog posts for hair stylists and beauty professionals.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://marquettabreslin.com/free-resources not found in any search index (2026-07-30). Replaced with the confirmed-active root domain marquettabreslin.com — author's official site with free blog content confirmed via web search.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780578011011-L.jpg"
+    },
+    {
+      "title": "GROW Your Salon Business — Free Resources",
+      "author": "Antony Whitaker",
+      "freeSourceUrl": "https://growmysalonbusiness.com/free-resources/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free PDF guides, checklists, and audio from Antony Whitaker — includes the '15 Traits of Top Stylists' guide, a Salon Management Checklist, and the Six Pillars of Salon Success audio. No payment required.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://growmysalonbusiness.com/podcast status uncertain. Upgraded to /free-resources/ — confirmed active via web search (search snippet confirms free PDFs and audio guides available, last indexed May 2026).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781907333002-L.jpg"
+    },
+    {
+      "title": "Hair Salon Marketing Guide",
+      "author": "Shopify",
+      "freeSourceUrl": "https://www.shopify.com/blog/salon-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free 2025 salon marketing guide from Shopify — covers social media, Google presence, client retention, before-and-after content, reviews, and loyalty programs. No signup required.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://blog.hubspot.com/marketing/hair-salon-marketing not found in HubSpot sitemap or search index (2026-07-30). Replaced with Shopify's comprehensive salon marketing guide — confirmed active via web search (search snippet: 'As of 2025, the beauty salon market sits at a $264.93 billion valuation... salon marketing best practices', last indexed 2025).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build systems that work without the owner. Directly applicable to running a salon.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://f5fp.com/e-myth-revisited-free-pdf loads F5 Financial advisory firm (wrong page — confirmed broken in skill_01 in-app testing, 2026-07-30). Replaced with Internet Archive copy — free PDF confirmed accessible via web search (direct PDF at ia801708.us.archive.org).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — cash-flow management system that allocates profit first, keeping small service businesses solvent. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.mikemichalowicz.com/profit-first-book returned blank/black screen (confirmed broken in skill_01 in-app testing, 2026-07-30). Replaced with Internet Archive borrowable copy confirmed via web search.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Building a StoryBrand (free framework)",
+      "author": "Donald Miller",
+      "freeSourceUrl": "https://storybrand.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official StoryBrand site with free marketing-messaging framework overview, weekly video tips from Donald Miller, and resources to clarify your salon's brand message so clients take action.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://storybrand.com/free-resources not found in any search index (2026-07-30). Replaced with the root domain storybrand.com — confirmed active via web search (site offers free weekly videos and framework overview).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781400201839-L.jpg"
+    },
+    {
+      "title": "1-Page Marketing Plan (free canvas template)",
+      "author": "Allan Dib",
+      "freeSourceUrl": "https://successwise.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free downloadable 1-Page Marketing Plan canvas from Allan Dib's official site — the 9-square template lets you map your entire salon marketing strategy on a single page. Email opt-in required to download.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://1pagemarketingplan.com/resources likely dead — Allan Dib moved to successwise.com (confirmed via multiple sources: podcast transcripts, Shortform book notes, and author bios all cite successwise.com as his current site, 2026-07-30).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781619613348-L.jpg"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open-license textbook from OpenStax covering management fundamentals — planning, organising, leading, and controlling. Fully applicable to running and scaling a hair salon business.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no book by that slug (confirmed via web search, 2026-07-30). Replaced with openstax.org/details/books/principles-management — confirmed active (© Apr 23, 2026 OpenStax, indexed in search results).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    }
+  ],
+  "notes": "2026-07-20: Merged in 27 rows from the founder-provided 'hairdressing_business_resources.csv' (Section I.2). Five new channels, ten new blogs, and ten new books/guides added on top of the existing Louis Ihuefo entry. Items deliberately left out or flagged rather than integrated as-is: (1) 'Sergey Zverev' — multiple same-named YouTube channels exist (a personal channel, a 'Topic' auto-channel, and others) and the specific '@sergeyzverev' handle from the CSV could not be matched to one with confidence; needs a direct fetch of the actual handle before adding. (2) 'Naija Hair Salon TV' — no channel by this name could be confirmed in this pass; may be inactive, renamed, or a data-entry error in the source CSV. (3) 'Salon Business Boss' channel — only one old testimonial video was found, not a dedicated content channel; the ID in the CSV's RSS template ('channel_id=UC...') was a placeholder, not a real ID, so the channel entry was left out (its blog was still added, since salonbusinessboss.com is confirmed real and active). (4) 'SwiftPesa (Kenya)' and the standalone 'Pesabook (Kenya)' Platform-type rows (fintech tools with no RSS feed, not channels/blogs/books) don't fit this file's three-bucket schema — Pesabook's own blog was added instead; SwiftPesa was omitted entirely. Every 'UC...' string in the source CSV's RSS_Feed column was a literal template placeholder, not a real ID — every real channel ID above was independently looked up via YouTube channel-page fetches or search, not copied from the CSV. Follow-up (same day): brought channels up to 10 (parity with the 10 blogs / 10 books) by adding 4 more independently verified, on-topic channels — The Salon Business and The Beauty Biz Agency (both already verified for business_08, reused here as directly relevant), plus newly verified TheSalonGuy and SalonBiz. 'Sergey Zverev', 'Naija Hair Salon TV', and a standalone 'Salon Business Boss' channel remain excluded — still no confident channel match found for any of the three after a second pass.\n\nBooks audit (2026-07-30): All 10 book URLs audited via web search. 9 of 10 had broken or risky URLs. Fixes: (1) /resources → /blog (confirmed active). (2) sba.gov/business-guide/salon → /business-guide (no /salon subpage exists). (3) marquettabreslin.com/free-resources not found → root domain. (4) /podcast → /free-resources/ (confirmed active with free PDFs). (5) HubSpot hair-salon-marketing URL not found in HubSpot index → replaced with Shopify salon marketing guide (confirmed active, 2025). (6) f5fp.com broken (wrong page) → archive.org E-Myth PDF. (7) mikemichalowicz.com/profit-first-book blank → archive.org borrow. (8) storybrand.com/free-resources not found → root domain storybrand.com. (9) 1pagemarketingplan.com/resources → successwise.com (Dib's current site). (10) openstax.org/books/small-business-management is 404 → /principles-management (confirmed active Apr 2026).",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

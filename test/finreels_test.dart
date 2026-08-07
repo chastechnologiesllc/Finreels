@@ -1,0 +1,287 @@
+import 'package:finreels/config/app_config.dart';
+import 'package:finreels/data/channel_data.dart';
+import 'package:finreels/models/resource_category.dart';
+import 'package:finreels/models/video.dart';
+import 'package:finreels/utils/category_search.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+
+void main() {
+  // ── Video Model ─────────────────────────────────────────────────────────────
+  group('Video model', () {
+    final video = Video(
+      id: 'abc123',
+      title: 'Test Video',
+      description: 'A test description',
+      channelId: 'ch1',
+      channelName: 'Test Channel',
+      publishedAt: DateTime(2024, 6, 15),
+      thumbnailUrl: 'https://img.youtube.com/vi/abc123/mqdefault.jpg',
+    );
+
+    test('watchUrl is correct', () {
+      expect(video.watchUrl, 'https://www.youtube.com/watch?v=abc123');
+    });
+
+    test('thumbnailHd is correct', () {
+      expect(
+        video.thumbnailHd,
+        'https://img.youtube.com/vi/abc123/maxresdefault.jpg',
+      );
+    });
+
+    test('thumbnailMq is correct', () {
+      expect(
+        video.thumbnailMq,
+        'https://img.youtube.com/vi/abc123/mqdefault.jpg',
+      );
+    });
+
+    test('equality by id', () {
+      final duplicate = Video(
+        id: 'abc123',
+        title: 'Different title',
+        description: '',
+        channelId: 'ch2',
+        channelName: 'Other',
+        publishedAt: DateTime.now(),
+        thumbnailUrl: '',
+      );
+      expect(video, equals(duplicate));
+    });
+
+    test('JSON round-trip', () {
+      final json = video.toJson();
+      final restored = Video.fromJson(json);
+      expect(restored.id, video.id);
+      expect(restored.title, video.title);
+      expect(restored.channelId, video.channelId);
+      expect(restored.publishedAt, video.publishedAt);
+    });
+  });
+
+  // ── Channel Data ────────────────────────────────────────────────────────────
+  group('ChannelData', () {
+    test('has exactly 12 channels', () {
+      expect(ChannelData.all.length, 12);
+    });
+
+    test('School of Hard Knocks is in the list', () {
+      expect(
+        ChannelData.all.any((ch) => ch.name == 'School of Hard Knocks'),
+        isTrue,
+      );
+    });
+
+    test('all channels have non-empty IDs', () {
+      for (final ch in ChannelData.all) {
+        expect(ch.id.isNotEmpty, isTrue, reason: '${ch.name} has empty ID');
+      }
+    });
+
+    test('all channels have valid RSS URLs', () {
+      for (final ch in ChannelData.all) {
+        expect(ch.rssUrl, contains('channel_id=${ch.id}'));
+      }
+    });
+
+    test('all channels have 2-char initials', () {
+      for (final ch in ChannelData.all) {
+        expect(ch.initials.length, 2, reason: '${ch.name} initials wrong');
+      }
+    });
+
+    test('all accent colors are non-transparent', () {
+      for (final ch in ChannelData.all) {
+        expect(ch.accentColor.a, greaterThan(0));
+      }
+    });
+  });
+
+  // ── AppConfig ───────────────────────────────────────────────────────────────
+  group('AppConfig', () {
+    test('package name is correct', () {
+      expect(AppConfig.packageName, 'com.chastechgroup.finreels');
+    });
+
+    test('3 IAP product IDs defined', () {
+      expect(AppConfig.iapProductIds.length, 3);
+    });
+
+    test('IAP IDs have correct format', () {
+      for (final id in AppConfig.iapProductIds) {
+        expect(id, startsWith('finreels_'));
+      }
+    });
+
+    test('has 4 connectivity endpoints', () {
+      expect(AppConfig.connectivityEndpoints.length, 4);
+    });
+
+    test('has 4 ad-check endpoints', () {
+      expect(AppConfig.adCheckEndpoints.length, 4);
+    });
+
+    test('connectivity endpoints are HTTPS', () {
+      for (final url in AppConfig.connectivityEndpoints) {
+        expect(url, startsWith('https://'));
+      }
+    });
+  });
+
+  // ── Theme Colours ────────────────────────────────────────────────────────────
+  group('Theme colours', () {
+    test('gold is correct hex', () {
+      const gold = Color(0xFFF59E0B);
+      expect(gold.r, closeTo(245 / 255, 0.01));
+      expect(gold.g, closeTo(158 / 255, 0.01));
+      expect(gold.b, closeTo(11 / 255, 0.01));
+    });
+
+    test('dark background is pure black', () {
+      const black = Color(0xFF000000);
+      expect(black.r, 0);
+      expect(black.g, 0);
+      expect(black.b, 0);
+    });
+
+    test('light background is pure white', () {
+      const white = Color(0xFFFFFFFF);
+      expect(white.r, 1.0);
+      expect(white.g, 1.0);
+      expect(white.b, 1.0);
+    });
+  });
+
+  // ── ResourceCategory.searchKeywords ─────────────────────────────────────────
+  group('ResourceCategory searchKeywords', () {
+    const baseJson = {
+      'id': 'skill_01_tailoring_fashion_design',
+      'section': 'skill',
+      'number': 1,
+      'name': 'Tailoring & Fashion Design',
+    };
+
+    test('parses searchKeywords when present', () {
+      final category = ResourceCategory.fromJson({
+        ...baseJson,
+        'searchKeywords': ['tailor', 'sew', 'ankara'],
+      });
+      expect(category.searchKeywords, ['tailor', 'sew', 'ankara']);
+    });
+
+    test('defaults to an empty list when absent (older/partial data)', () {
+      final category = ResourceCategory.fromJson(baseJson);
+      expect(category.searchKeywords, isEmpty);
+    });
+  });
+
+  // ── CategorySearch ───────────────────────────────────────────────────────────
+  group('CategorySearch', () {
+    const tailoring = ResourceCategory(
+      id: 'skill_01_tailoring_fashion_design',
+      section: ResourceSection.skill,
+      number: 1,
+      name: 'Tailoring & Fashion Design',
+      searchKeywords: ['tailor', 'sew', 'ankara', 'seamstress'],
+    );
+    const medicine = ResourceCategory(
+      id: 'profession_01_medicine',
+      section: ResourceSection.profession,
+      number: 1,
+      name: 'Medicine',
+      searchKeywords: ['doctor', 'physician'],
+    );
+    final categories = [tailoring, medicine];
+
+    test('empty query matches everything', () {
+      expect(CategorySearch.matches(tailoring, ''), isTrue);
+      expect(CategorySearch.matches(medicine, ''), isTrue);
+    });
+
+    test('matches on a substring of the category name', () {
+      expect(CategorySearch.matches(tailoring, 'tailoring'), isTrue);
+      expect(CategorySearch.matches(medicine, 'medicine'), isTrue);
+    });
+
+    test('matches on a keyword the name itself does not contain', () {
+      // "sew" never appears in "Tailoring & Fashion Design" — this only
+      // passes because of searchKeywords, proving the allocation feature
+      // actually adds coverage beyond a plain name match.
+      expect(CategorySearch.matches(tailoring, 'sew'), isTrue);
+      expect(CategorySearch.matches(medicine, 'doctor'), isTrue);
+    });
+
+    test('a keyword from one category does not match another', () {
+      expect(CategorySearch.matches(tailoring, 'doctor'), isFalse);
+      expect(CategorySearch.matches(medicine, 'ankara'), isFalse);
+    });
+
+    test('search() filters a list down to only the matches', () {
+      expect(CategorySearch.search(categories, 'sew'), [tailoring]);
+      expect(CategorySearch.search(categories, 'physician'), [medicine]);
+      expect(CategorySearch.search(categories, 'zzz-no-such-trade'), isEmpty);
+    });
+
+    test('sectionOrder is Profession, then Skill, then Business', () {
+      expect(CategorySearch.sectionOrder, [
+        ResourceSection.profession,
+        ResourceSection.skill,
+        ResourceSection.business,
+      ]);
+    });
+
+    test('othersId never collides with a real category id shape', () {
+      // Real ids all look like 'skill_01_...' / 'business_07_...' /
+      // 'profession_12_...' — 'others' deliberately doesn't match that
+      // pattern, so it can never accidentally be treated as a real,
+      // resource-file-backed category.
+      expect(CategorySearch.othersId, 'others');
+      expect(RegExp(r'^(skill|business|profession)_\d{2}_').hasMatch(CategorySearch.othersId),
+          isFalse);
+    });
+  });
+
+  // ── Video verified_book handling ────────────────────────────────────────────
+  group('Video verified_book support', () {
+    final verifiedBook = Video(
+      id: 'vbook_skill_01_fashion_for_profit',
+      title: 'Fashion for Profit',
+      description: 'Frances Harder',
+      channelId: 'verified_book',
+      channelName: 'Frances Harder',
+      publishedAt: DateTime(2000),
+      thumbnailUrl: '', // no cover source — BookCoverImage shows a placeholder
+      freeSourceUrl: 'https://example.com/fashion-for-profit',
+      freeSourceType: 'web',
+      sourceCategoryId: 'skill_01_tailoring_fashion_design',
+    );
+
+    test('never gets treated as a real YouTube id for its thumbnail', () {
+      expect(verifiedBook.thumbnailHd, ''); // falls back to thumbnailUrl, not a youtube.com URL
+      expect(verifiedBook.thumbnailMq, '');
+    });
+
+    test('round-trips its extra fields through JSON', () {
+      final restored = Video.fromJson(verifiedBook.toJson());
+      expect(restored.freeSourceUrl, verifiedBook.freeSourceUrl);
+      expect(restored.freeSourceType, verifiedBook.freeSourceType);
+      expect(restored.sourceCategoryId, verifiedBook.sourceCategoryId);
+    });
+
+    test('a plain video never carries verified_book fields', () {
+      final plain = Video(
+        id: 'abc123',
+        title: 'Test',
+        description: '',
+        channelId: 'ch1',
+        channelName: 'Test Channel',
+        publishedAt: DateTime.now(),
+        thumbnailUrl: '',
+      );
+      expect(plain.freeSourceUrl, isNull);
+      expect(plain.freeSourceType, isNull);
+      expect(plain.sourceCategoryId, isNull);
+    });
+  });
+}

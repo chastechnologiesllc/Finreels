@@ -1,0 +1,288 @@
+{
+  "categoryId": "skill_12_web_app_development",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCFh7FvnJ_0sVP4V0rZe6AaA",
+      "name": "John Morris",
+      "handle": "@john.morris",
+      "description": "Missouri-based freelance web developer, 15+ years experience, known for work with Michael Hyatt, Lewis Howes and Tim Ferriss. Videos on web design/development plus freelancing and client acquisition — how to turn coding skills into a full-time career, not just how to code.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "JM",
+      "focus": "Freelance web development business & client acquisition",
+      "verifiedOn": "2026-07-16",
+      "verificationMethod": "Extremely well corroborated — 7+ independent sources (Creative Bloq, Millo, TubeOnAI, Medium, LinkedIn, Udemy, DEV Community) all describing the same person, channel, and subscriber count. Fetched the channel directly to confirm the exact ID; keywords list ('upwork', 'freelance', 'wordpress') matches exactly."
+    },
+    {
+      "id": "UC29ju8bIPH5as8OGnQzwJyA",
+      "name": "Traversy Media",
+      "handle": "@TraversyMedia",
+      "description": "Brad Traversy — one of the best-known web development YouTube channels, 2.4M+ subscribers. Beyond tutorials, also covers freelancing, impostor syndrome and career/life advice for developers.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "TM",
+      "focus": "Web dev tutorials with freelancing and business advice",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA); independently corroborated across vidIQ, SPEAKRJ stats and multiple 'best web dev channels' roundups."
+    },
+    {
+      "id": "UCW5YeuERMmlnqo4oq8vwUpg",
+      "name": "The Net Ninja",
+      "handle": "@NetNinja",
+      "description": "Shaun Pelling, UK-based full-stack web developer — 2000+ free programming tutorial videos on JavaScript, Node.js, React, Vue, Firebase and more.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "NN",
+      "focus": "Coding tutorials with project business insights",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg); identity cross-confirmed via Shaun Pelling's own Udemy instructor bio and NoxInfluencer stats."
+    },
+    {
+      "id": "UCFbNIlppjAuEX4znoulh0Cw",
+      "name": "Web Dev Simplified",
+      "handle": "@WebDevSimplified",
+      "description": "Kyle Cook — simplifies web development down to fundamental concepts, now teaching full-time through YouTube after moving from backend to frontend development.",
+      "accentColor": "0xFF10B981",
+      "initials": "WS",
+      "focus": "Web development with career and business tips",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw); identity cross-confirmed via Wikitubia, Patreon and multiple podcast interviews with Kyle Cook."
+    },
+    {
+      "id": "UCsBjURrPoezykLs9EqgamOA",
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "description": "Jeff Delaney — high-intensity, fast-paced tutorials and tech news for developers, 4M+ subscribers, creator of '100 Seconds of Code' and 'The Code Report'.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "FS",
+      "focus": "Rapid tech tutorials with SaaS business insights",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCsBjURrPoezykLs9EqgamOA); independently corroborated via Wikitubia, Grokipedia and SPEAKRJ stats."
+    },
+    {
+      "id": "UC36zt_eM_gZQXayw_pAdASg",
+      "name": "Indie Hackers",
+      "handle": "@indiehackers9840",
+      "description": "The official YouTube presence of the Indie Hackers community (Courtland Allen / Stripe) — interviews and stories from developers turning code into profitable businesses.",
+      "accentColor": "0xFFEC4899",
+      "initials": "IH",
+      "focus": "Developers turning code into businesses",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@indiehackers9840)."
+    },
+    {
+      "id": "UCSw5U1MuzDED2Nvlx9m65-Q",
+      "name": "Pieter Levels",
+      "handle": "@levelsio",
+      "description": "Serial solo/indie maker of Nomad List, Remote OK and 40+ other startups, building in public — bootstrapping and SaaS income without funding or a team.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "PL",
+      "focus": "Solo developer building SaaS products publicly",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@levelsio); identity cross-confirmed against levels.io and his own project list."
+    },
+    {
+      "id": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "name": "freeCodeCamp.org",
+      "handle": "@freecodecamp",
+      "description": "501(c)(3) nonprofit teaching web development, programming and computer science for free — 11M+ subscribers, 1,000+ full courses, has helped 40,000+ people get developer jobs.",
+      "accentColor": "0xFFA855F7",
+      "initials": "FC",
+      "focus": "Free full-stack web development education",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ); organization cross-confirmed via Wikipedia.",
+      "notes": "Added as a substitute for the source directory's unconfirmed channels (see file notes) — pairs with the freeCodeCamp News blog also listed in this file."
+    },
+    {
+      "id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "name": "Programming with Mosh",
+      "handle": "@programmingwithmosh",
+      "description": "Mosh Hamedani, software engineer with 20+ years' experience — practical, no-fluff coding tutorials and paid courses (Code with Mosh) focused on real-world, job-ready skills.",
+      "accentColor": "0xFFEF4444",
+      "initials": "PM",
+      "focus": "Web dev tutorials with a course-business model",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/programmingwithmosh); course business (codewithmosh.com) cross-confirmed via the channel's own About section.",
+      "notes": "Added as a substitute for the source directory's unconfirmed channels (see file notes)."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "WithinNigeria",
+      "url": "https://www.withinnigeria.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: freelancing figures (₦296k–₦932k, up to ₦4M). No RSS path given in the source directory (only the domain) — standard WordPress /feed/ path used; worth a live check before shipping."
+    },
+    {
+      "name": "SoniBaze",
+      "url": "https://sonibaze.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory listed the domain as sonibaze.com, but the company's real, confirmed, currently-active site is sonibaze.ng (Abuja-based digital agency, SoniBaze Digital) — used the correct live domain. Its 'Is Web Development Still Worth It in 2026 in Nigeria?' article matches the source directory's WordPress vs. React/Node.js income comparison topic."
+    },
+    {
+      "name": "DigitalRegenesys",
+      "url": "https://digitalregenesys.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: Web Designer salary guide by experience level."
+    },
+    {
+      "name": "FreelanceMaster.ng",
+      "url": "https://freelancemaster.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed as a real, active site (Nigerian Freelance Master, Abeokuta) via its own site, Facebook and X pages; source directory entry covers tips for setting freelance rates in Nigeria."
+    },
+    {
+      "name": "DPXDigital",
+      "url": "https://dpxdigital.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 2026 web-design pricing guide for Nigeria."
+    },
+    {
+      "name": "Rad Devon",
+      "url": "https://raddevon.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: Ultimate Guide to Pricing Freelance Web Development."
+    },
+    {
+      "name": "Indie Hackers",
+      "url": "https://www.indiehackers.com",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: community of developers building businesses. Indie Hackers has no official RSS feed (confirmed via multiple community threads on the site itself asking for one) — site URL used as-is; several unofficial third-party feed mirrors exist (e.g. feed.indiehackers.world) if a working feed is needed."
+    },
+    {
+      "name": "FreeCodeCamp News",
+      "url": "https://www.freecodecamp.org/news/rss/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: developer career and business articles, from the freeCodeCamp nonprofit's Ghost-powered news site — standard Ghost RSS path used."
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: large developer community with business/career discussions — dev.to's documented site-wide RSS path."
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: developer blogging platform with business content. Hashnode is a multi-blog platform without one site-wide feed — each individual blog has its own /rss.xml; site URL used as-is pending a decision on which specific Hashnode blog(s) to follow."
+    }
+  ],
+  "books": [
+    {
+      "title": "The SaaS Playbook (free)",
+      "author": "Rob Walling",
+      "freeSourceUrl": "https://archive.org",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free copy on Internet Archive.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The SaaS Playbook.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781737182801-L.jpg"
+    },
+    {
+      "title": "Company of One (free)",
+      "author": "Paul Jarvis",
+      "freeSourceUrl": "https://archive.org",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free copy on Internet Archive.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of Company of One.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781328972354-L.jpg"
+    },
+    {
+      "title": "The Web Dev's Guide to Freelancing (free)",
+      "author": "Ashley Allen",
+      "freeSourceUrl": "https://free-ebooks.net",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free copy hosted on a third-party ebook site — worth a direct-download check before shipping.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the credited author of The Web Dev's Guide to Freelancing.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+    },
+    {
+      "title": "Going IT Alone (free)",
+      "author": "Leon Brown",
+      "freeSourceUrl": "https://archive.org",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free copy on Internet Archive.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the credited author of Going IT Alone.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+    },
+    {
+      "title": "Clean Code (free)",
+      "author": "Robert C. Martin",
+      "freeSourceUrl": "https://archive.org",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free copy on Internet Archive — foundational software-craftsmanship reference for developers going professional.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of Clean Code.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited (free PDF)",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF of the well-known small-business-systems book, hosted on a third-party site — worth a direct-download check before shipping.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The E-Myth Revisited.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First (free resources)",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free resources from the author's own official site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup (free)",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/the-lean-startup",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free copy hosted on a third-party book site — worth a direct-download check before shipping.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The Lean Startup.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "The Personal MBA (free)",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://archive.org",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free copy on Internet Archive — business fundamentals without business school.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The Personal MBA.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythrevisitedwh00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. Build systems so the business runs without you.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    }
+  ],
+  "notes": "Distinct from Computer Science/Software Engineering (profession_11, which covered turning code into products via Indie Hackers) — this category is specifically about the freelance/agency service-delivery side of the same skill. 2026-07-20: Merged in the founder-provided 'web_app_development_resources.csv' (Section I.12), bringing the file from 1 channel / 0 blogs / 0 books to a full 10 / 10 / 10. This CSV (unlike prior ones in this project) did not include per-item RSS/channel-ID URLs, only top-level domains — every real YouTube channel ID was independently looked up via search and channel-page fetches, and blog RSS paths were inferred using each site's standard CMS convention (flagged individually where uncertain). Three of the CSV's 10 channels could not be matched to a real YouTube channel: SoniBaze (real, active company and blog, but no confirmed YouTube presence), FreelanceMaster.ng (real, active company and blog, but no confirmed YouTube presence), and DevCareer Africa (real, well-documented nonprofit with 30,000+ community members, but its 'channels' are internal Slack community channels, not YouTube). Two independently-verified, directly on-topic replacements were substituted to reach 10 channels: freeCodeCamp.org and Programming with Mosh (Mosh Hamedani). The SoniBaze blog URL was also corrected from the source directory's sonibaze.com to the company's real, currently-active domain, sonibaze.ng.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

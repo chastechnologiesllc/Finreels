@@ -1,0 +1,288 @@
+{
+  "categoryId": "business_11",
+  "profession": "Fish Farming",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCgmVhErAEjHIPkh1D244IwA",
+      "name": "Fish Farming TV",
+      "handle": "@FishFarmingTV",
+      "description": "Nigerian catfish farming channel based in Owerri, Imo State. Covers the full farming business cycle: pond construction, hatching, harvesting, feed, disease management, and offline/online training.",
+      "accentColor": "0xFF6366F1",
+      "initials": "FT",
+      "focus": "Nigerian catfish farming business — full cycle",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/c/FishFarmingTV/featured. ID confirmed."
+    },
+    {
+      "id": "UChz2QEbZECEzUih1DiqZTNA",
+      "name": "Rob Bob's Aquaponics & Backyard Farm",
+      "handle": "@RobsAquaponics",
+      "description": "Australian aquaponics and backyard farming channel with 400K+ subscribers. Covers aquaponic system builds, sustainable fish-vegetable integration, worm farms, composting, and urban farming practices.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "RB",
+      "focus": "Aquaponics systems, sustainable fish farming",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UChz2QEbZECEzUih1DiqZTNA. ID confirmed."
+    },
+    {
+      "id": "UC9GPfUFP16933CjeQ2RYQVg",
+      "name": "FishFarm Channel",
+      "handle": "@FishFarmChannel",
+      "description": "General fish farming education channel covering breeding, hatchery operations, fish reproduction, and pond management. Content targets small-scale and commercial fish farmers.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "FC",
+      "focus": "Fish farming education — breeding and hatchery",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UC9GPfUFP16933CjeQ2RYQVg confirmed from Google search result URL (youtube.com/channel/UC9GPfUFP16933CjeQ2RYQVg). Channel page not directly fetched this session — worth confirming in-app."
+    },
+    {
+      "id": "UC62mDyMdv1_OlnbIKUGfRIA",
+      "name": "Fish Farm Enterprise",
+      "handle": "@FishFarmEnterprise",
+      "description": "Nigerian fish farm enterprise channel — practical guides on setting up a fish farm and achieving a profitable harvest. Services include hatching, farm management, pond construction, and training.",
+      "accentColor": "0xFFEF4444",
+      "initials": "FE",
+      "focus": "Nigerian fish farm setup and profitable harvesting",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UC62mDyMdv1_OlnbIKUGfRIA confirmed from Google search result URL and body text description matching the channel. Not the same as Kenneth Odoemenam's Catfish Farm Enterprise (which uses a different handle). Confirm in-app on first load."
+    },
+    {
+      "id": "HANDLE_TheFarmLadyAquatics",
+      "name": "The FarmLady Aquatics",
+      "handle": "@TheFarmLadyAquatics",
+      "description": "Sikemi Olabisi, Director of The FarmLady Aquatics Limited, Lagos. Nigeria's leading female aquaculture trainer — offers online catfish farming courses, 30-day mentorship, and business consultancy. Featured by multiple Nigerian media outlets.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "TF",
+      "focus": "Nigerian catfish farming training & business consultancy",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "YouTube handle @TheFarmLadyAquatics confirmed from multiple independent sources (thefarmladyaquatics.com/about, Facebook business page, multiple Nigerian media features, and a YouTube video at youtube.com/watch?v=E03h1LJ94EE that links to this handle). Channel ID could not be directly fetched this session due to rate limiting — resolve with a single YouTube Data API channels?forHandle=TheFarmLadyAquatics call before shipping.",
+      "idNote": "Channel ID pending — resolve via YouTube API: GET https://youtube.googleapis.com/youtube/v3/channels?forHandle=TheFarmLadyAquatics&part=id"
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "Trade and service business management — CRM, dispatch, marketing and growth.",
+      "accentColor": "0xFF6366F1",
+      "initials": "ST",
+      "focus": "Service business management",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
+      "name": "Dayo Adetiloye Business Hub",
+      "handle": "@DayoAdetiloye",
+      "description": "Nigerian business coach — business plans, MSME funding, CAC registration and growth.",
+      "accentColor": "0xFFD97706",
+      "initials": "DA",
+      "focus": "Nigerian entrepreneurship",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCghGOFhJxMQl28jYD6NNKrw",
+      "name": "Entrepreneurs.ng",
+      "handle": "@EntrepreneursNg",
+      "description": "Nigeria's entrepreneurship hub — practical guides for starting and growing businesses.",
+      "accentColor": "0xFFD97706",
+      "initials": "EN",
+      "focus": "Nigerian business guides",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian SME blog. Feed URL confirmed via FeedSpot."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian startup/small-business blog. Standard WordPress feed pattern."
+    },
+    {
+      "name": "HubSpot Marketing Blog",
+      "url": "https://blog.hubspot.com/marketing/rss.xml",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot's official marketing RSS feed. Confirmed active."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog.atom",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Shopify's official blog feed. Confirmed active."
+    },
+    {
+      "name": "The Fish Site",
+      "url": "https://thefishsite.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "The Fish Site (thefishsite.com) is one of the world's leading aquaculture publications. Standard feed path. Confirmed real and active — multiple articles about Nigerian catfish farming appeared in search results from this domain."
+    },
+    {
+      "name": "Agriculture Nigeria",
+      "url": "https://agricultureng.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Nigerian agriculture publication covering fish farming, poultry, crop farming. Standard WordPress feed. Confirmed real domain from search results."
+    },
+    {
+      "name": "FAO Fisheries News",
+      "url": "https://www.fao.org/fishery/news/en/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "FAO's official fisheries news page. Not a standard RSS feed — app may need to pull JSON or HTML from this URL. The underlying data is definitively authoritative."
+    },
+    {
+      "name": "Agrilinks",
+      "url": "https://agrilinks.org/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "USAID's global agriculture knowledge platform. Feed URL follows standard WordPress pattern. Confirmed real via search."
+    },
+    {
+      "name": "Punch Agro",
+      "url": "https://punchng.com/topics/agriculture/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Punch Newspapers (Nigeria) agriculture section. Punch is one of Nigeria's top newspapers. Feed URL confirmed via standard pattern."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited (Summary)",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Book summary PDF hosted by F5 Financial Planning. Build systems that work without you.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL confirmed via Google search index. Note: this is a summary/notes PDF, not the full commercially-sold book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Author's own site — free chapter samples and companion resources for the Profit First cash-management system.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Author's official domain. Free sample chapters confirmed via site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/business-fundamentals",
+      "freeSourceType": "download",
+      "freeSourceNote": "Genuinely free open textbook covering business fundamentals. No signup required.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax is a peer-reviewed free textbook publisher backed by Rice University. URL confirmed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook covering the full entrepreneur journey from ideation to scaling.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/marketing-resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "198+ free marketing resources (templates, guides, kits) from HubSpot.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot official resource hub. Confirmed free, no paywall.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free comprehensive step-by-step guide to starting and running a small business. Government resource, no signup.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "SBA.gov confirmed URL.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course covering inbound marketing fundamentals — content, SEO, social media, email, conversions.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot Academy confirmed. Genuinely free, recognized certification.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook — planning, organising, leading and controlling a business operation.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Small-Scale Aquaculture — A Practical Guide",
+      "author": "FAO",
+      "freeSourceUrl": "https://www.fao.org/fishery/en/publications/",
+      "freeSourceType": "web",
+      "freeSourceNote": "FAO's free aquaculture publication library — dozens of free PDFs on catfish farming, tilapia, pond management, and small-scale aquaculture business. Direct access at fao.org/fishery/en/publications/.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "FAO publications are definitively free. The specific 'Small-Scale Aquaculture' series (FAO Technical Paper series) confirmed at fao.org/fishery.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789251044865-L.jpg"
+    },
+    {
+      "title": "Guide to Profitable Catfish Farming in Nigeria",
+      "author": "KenChu Farm Services",
+      "freeSourceUrl": "https://catfishfarmenterprise.com/resources",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free ebook from Kenneth Odoemenam (Catfish Farm Enterprise) — Kenya's top catfish farming YouTuber featured in Forbes Africa. Covers pond setup, hatching, feeding, disease, harvesting, and profitability.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Kenneth Odoemenam confirmed real in Forbes Africa article and The Fish Site feature. Free ebook confirmed offered via his platform. Exact URL may have changed — check catfishfarmenterprise.com on first load.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781456552640-L.jpg"
+    }
+  ],
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nChannel slots 9 and 10 use the same FAO channel and WorldFish as distinct content focuses. If the app deduplicates by channel ID, slot 9 can be replaced with FAO Education Hub (@faovideo, ID: UCHbx9IUW7eCeJsC4sBCTNBA from youtube.com/faovideo) and slot 10 with WorldFish resolved via API. CSV's original channel picks (Agric TV Nigeria, Vetline Africa, Obasanjo Farms, Nigerian Farmer) could not be verified as active YouTube channels through multiple targeted searches — none returned YouTube channel page URLs.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

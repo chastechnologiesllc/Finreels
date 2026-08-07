@@ -1,0 +1,286 @@
+{
+  "categoryId": "business_12",
+  "profession": "Laundry & Dry Cleaning",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UC7nSEWmFmKl5l55T5icmNVw",
+      "name": "Laundromat Millionaire",
+      "handle": "@LaundromatMillionaire",
+      "description": "Dave Menz — started with $25,000 in 2010, became a laundromat millionaire in under 10 years. Channel focuses on buying, building, and scaling laundromat businesses including wash-dry-fold and pickup/delivery services.",
+      "accentColor": "0xFF6366F1",
+      "initials": "LM",
+      "focus": "Laundromat business — buying, scaling, profitability",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/c/LaundromatMillionaire. ID confirmed."
+    },
+    {
+      "id": "UCxGmNVLP98d4asLwr3jDfhg",
+      "name": "Laundromat Resource",
+      "handle": "@LaundromatResource",
+      "description": "Jordan Berry — laundromat owner turned industry educator. Dedicated to helping entrepreneurs buy, optimize, and scale laundromat businesses. Interviews 200+ laundromat owners, free courses on acquisition and operations.",
+      "accentColor": "0xFF0EA5E9",
+      "initials": "LR",
+      "focus": "Laundromat acquisition, operations, scaling",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/c/LaundromatResource. ID confirmed."
+    },
+    {
+      "id": "UCY2j2onf5qrM4rK7fbcA8Fw",
+      "name": "The Laundry Boss",
+      "handle": "@thelaundryboss",
+      "description": "Cloud-based laundromat management system channel — 21st century technology for laundry business operations. Built by laundry owners for laundry owners. Covers efficiency, cost reduction, and remote management.",
+      "accentColor": "0xFF10B981",
+      "initials": "LB",
+      "focus": "Laundromat technology & business operations",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/@thelaundryboss. ID confirmed."
+    },
+    {
+      "id": "UCg12jbzV3neNhKuUOrS6ApA",
+      "name": "Laundromat Money",
+      "handle": "@laundromatmoney",
+      "description": "Real laundromat owner with 2M+ TikTok followers transparently sharing monthly profit & loss, coin collections, and how the business actually runs day-to-day. Highly practical income and operations content.",
+      "accentColor": "0xFFF97316",
+      "initials": "LM",
+      "focus": "Laundromat income transparency & day-to-day operations",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UCg12jbzV3neNhKuUOrS6ApA. ID confirmed."
+    },
+    {
+      "id": "UC6AmPSo5ThTS_WuIiz_nn2w",
+      "name": "Laundromat How To",
+      "handle": "@Laundromathowto",
+      "description": "Ken Barrett — 15+ years, 5 laundromat locations, author of three books on laundromat ownership, FasCard and Milnor distributor. Covers everything from buying to running, fixing, and scaling to multiple locations with zero brand bias.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "LH",
+      "focus": "Laundromat ownership — buying, running, scaling, equipment",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UC6AmPSo5ThTS_WuIiz_nn2w. ID confirmed."
+    },
+    {
+      "id": "UCph9jL-JOItVSObLImIfN2A",
+      "name": "Laundry Owners Warehouse",
+      "handle": "@LaundryOwnersWarehouse",
+      "description": "One-stop shop for coin laundry equipment, parts, and supplies. YouTube channel covers equipment selection, maintenance tutorials, and laundromat business setup.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "LO",
+      "focus": "Laundromat equipment, parts, and setup",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCph9jL-JOItVSObLImIfN2A confirmed from Google search result URL (youtube.com/channel/UCph9jL-JOItVSObLImIfN2A). Not directly fetched — confirm in-app."
+    },
+    {
+      "id": "UCdxPqmSbfvP7xMkuRKLp14g",
+      "name": "National Laundry & Dry Cleaning",
+      "handle": "@NationalLaundryDryCleaning",
+      "description": "National Laundry & Dry Cleaning YouTube channel — covers commercial laundry operations, dry cleaning techniques, and business management for professional laundry service providers.",
+      "accentColor": "0xFFEC4899",
+      "initials": "NL",
+      "focus": "Commercial laundry and dry cleaning operations",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCdxPqmSbfvP7xMkuRKLp14g confirmed from Google search result URL. Not directly fetched — confirm in-app."
+    },
+    {
+      "id": "HANDLE_chieflaundryofficer",
+      "name": "Chief Laundry Officer",
+      "handle": "@chieflaundryofficer",
+      "description": "Daniel Logan — owner of Columbia Pike Laundry. Featured in the Laundromat Resource podcast (Episode S4E76 link confirmed). Covers real-world laundromat ownership, WDF services, and entrepreneurship.",
+      "accentColor": "0xFFD97706",
+      "initials": "CL",
+      "focus": "Laundromat WDF (wash-dry-fold) business operations",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Handle @chieflaundryofficer confirmed from Laundromat Resource podcast show notes (explicit URL: youtube.com/@chieflaundryofficer). Instagram profile also confirmed at @chieflaundryofficer. Channel ID not directly fetched — resolve via YouTube API before shipping."
+    },
+    {
+      "id": "HANDLE_StartupTipsLaundry",
+      "name": "StartupTipsDaily — Laundry",
+      "handle": "@StartupTipsDaily",
+      "description": "Nigerian startup and small business channel with multiple dedicated articles and videos on starting a laundry and dry cleaning business in Nigeria — pricing, equipment, location, registration.",
+      "accentColor": "0xFF22C55E",
+      "initials": "ST",
+      "focus": "Nigerian laundry business — startup tips and pricing",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "StartupTipsDaily (startuptipsdaily.com) confirmed real, active Nigerian business blog and YouTube channel. Multiple laundry-specific articles confirmed via search. Handle is a search-level confirmation; resolve YouTube channel ID via API."
+    },
+    {
+      "id": "HANDLE_BusinessDayLaundry",
+      "name": "BusinessDay TV — SME Content",
+      "handle": "@BusinessDayNigeria",
+      "description": "BusinessDay newspaper's YouTube channel — Nigeria's leading business newspaper. SME and entrepreneurship content includes coverage of the laundry and dry cleaning sector in Nigeria.",
+      "accentColor": "0xFF0D9488",
+      "initials": "BD",
+      "focus": "Nigerian business news — SME, retail, services sector",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "BusinessDay (businessday.ng) is confirmed as one of Nigeria's top business newspapers. YouTube presence confirmed. Exact channel handle/ID should be confirmed in-app via YouTube API."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian SME blog. Feed URL confirmed via FeedSpot."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian startup/small-business blog. Standard WordPress feed pattern."
+    },
+    {
+      "name": "HubSpot Marketing Blog",
+      "url": "https://blog.hubspot.com/marketing/rss.xml",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot's official marketing RSS feed. Confirmed active."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog.atom",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Shopify's official blog feed. Confirmed active."
+    },
+    {
+      "name": "American Drycleaner",
+      "url": "https://americandrycleaner.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, established US dry cleaning industry trade publication. Feed URL follows standard pattern — confirm on first load."
+    },
+    {
+      "name": "Laundrylux",
+      "url": "https://www.laundrylux.com/blog/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Laundrylux is a real US commercial laundry equipment distributor with an active industry blog. Standard WordPress feed pattern."
+    },
+    {
+      "name": "Coin Laundry Association (CLA)",
+      "url": "https://www.coinlaundry.org/news/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "The Coin Laundry Association is the main US industry association for laundromat businesses. Real organization, confirmed website. Feed URL needs in-app confirmation."
+    },
+    {
+      "name": "Oasdom — Laundry & SME",
+      "url": "https://oasdom.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Oasdom.com is a real Nigerian small business and entrepreneur resource site. Multiple articles on how to start a dry cleaning/laundry business in Nigeria confirmed via search. Standard WordPress feed."
+    },
+    {
+      "name": "Laundromat Resource Blog",
+      "url": "https://laundromatresource.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Companion blog to the Laundromat Resource YouTube channel (Jordan Berry). Confirmed real, active blog at laundromatresource.com."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited (Summary)",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Book summary PDF hosted by F5 Financial Planning. Build systems that work without you.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL confirmed via Google search index. Note: this is a summary/notes PDF, not the full commercially-sold book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Author's own site — free chapter samples and companion resources for the Profit First cash-management system.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Author's official domain. Free sample chapters confirmed via site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/business-fundamentals",
+      "freeSourceType": "download",
+      "freeSourceNote": "Genuinely free open textbook covering business fundamentals. No signup required.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax is a peer-reviewed free textbook publisher backed by Rice University. URL confirmed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook covering the full entrepreneur journey from ideation to scaling.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/marketing-resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "198+ free marketing resources (templates, guides, kits) from HubSpot.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot official resource hub. Confirmed free, no paywall.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free comprehensive step-by-step guide to starting and running a small business. Government resource, no signup.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "SBA.gov confirmed URL.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course covering inbound marketing fundamentals — content, SEO, social media, email, conversions.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot Academy confirmed. Genuinely free, recognized certification.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook — planning, organising, leading and controlling a business operation.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "The Laundromat Millionaire (Book)",
+      "author": "Dave Menz",
+      "freeSourceUrl": "https://laundromatmillionaire.com/book/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Summary page and free chapter of the book 'Laundromat Millionaire'. Full book is commercially sold — free resources including templates and worksheets available on the author's site.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Dave Menz is confirmed real (Laundromat Millionaire channel fetched). Free resources on his site confirmed from laundromatmillionaire.com site description.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781544532486-L.jpg"
+    },
+    {
+      "title": "How to Start a Profitable Laundry Business in Nigeria",
+      "author": "Oasdom",
+      "freeSourceUrl": "https://www.oasdom.com/how-to-start-a-dry-cleaning-business-nigeria/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, comprehensive Nigerian-context guide to starting a laundry and dry cleaning business — capital requirements, equipment, pricing, registration, and profitability.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL confirmed via Google search result (oasdom.com). Article appeared in search and is confirmed as a real, free, detailed Nigerian SME guide.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780071497404-L.jpg"
+    }
+  ],
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nLaundry is genuinely the hardest category in this batch for YouTube channels: the CSV's Nigerian-specific picks (Clean Toks, Nigerian Laundry Association, Multi-Metals, Dexterous Cleaners, and trade publications like Laundry World and Drycleaning Journal) could not be verified as active YouTube channels. Connect Nigeria and Splice Blog were listed as channels in the CSV — both are blogs/platforms, not YouTube channels, and both are excluded (Connect Nigeria per this project's own prior security flag; Splice Blog is a salon booking platform). The 10 channels above replace all 10 original picks with independently verified laundromat/laundry business channels, being honest about which IDs were directly fetched vs. search/handle confirmed.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

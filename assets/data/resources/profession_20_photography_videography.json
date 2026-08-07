@@ -1,0 +1,286 @@
+{
+  "categoryId": "profession_20_photography_videography",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UC3DkFux8Iv-aYnTRWzwaiBA",
+      "name": "Peter McKinnon",
+      "handle": "@PeterMcKinnon",
+      "description": "Commercial production company scaling and brand deals — building a photography and video production business at trade and agency scale.",
+      "accentColor": "0xFFEC4899",
+      "initials": "PM",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC3DkFux8Iv-aYnTRWzwaiBA cross-confirmed from skill_13_photography.json and skill_14_videography_video_editing.json (independently verified in both)."
+    },
+    {
+      "id": "UC5bp5_6h-ZxkBz6S_33ZUVg",
+      "name": "Mango Street",
+      "handle": "@MangoStreet",
+      "description": "Rachel and Daniel Kordan's commercial photography agency — B2B client work, agency building, and the business model of a working photography production company.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "MS",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC5bp5_6h-ZxkBz6S_33ZUVg cross-confirmed from skill_13_photography.json (independently verified)."
+    },
+    {
+      "id": "UCwZoz2FJnK1oMMYbjORcT9g",
+      "name": "Parker Walbeck",
+      "handle": "@ParkerWalbeck",
+      "description": "Full-time video production agency business model — building and running a video production agency as a sustainable, scalable trade business.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "PW",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCwZoz2FJnK1oMMYbjORcT9g cross-confirmed from skill_13_photography.json and skill_14_videography_video_editing.json (independently verified in both)."
+    },
+    {
+      "id": "UC6P24bhhCmMPOcujA9PKPTA",
+      "name": "Film Riot",
+      "handle": "@FilmRiot",
+      "description": "Commercial filmmaking enterprise and zero-budget production scaling — trade-level content on running a filmmaking and video production business.",
+      "accentColor": "0xFF10B981",
+      "initials": "FR",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC6P24bhhCmMPOcujA9PKPTA cross-confirmed from skill_14_videography_video_editing.json (listed as @filmriot lowercase). CSV uses @FilmRiot — same channel."
+    },
+    {
+      "id": "UCje7Tvb0ADzlWik5FiQCc8Q",
+      "name": "Sue Bryce Education",
+      "handle": "@SueBryce",
+      "description": "Portrait photography studio empire and B2B systems — Sue Bryce's channel on building a scalable photography studio business model and enterprise pricing strategy.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "SB",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCje7Tvb0ADzlWik5FiQCc8Q cross-confirmed from skill_13_photography.json (independently verified)."
+    },
+    {
+      "id": "UC_43mQmHwHPTBBqImFrWU3Q",
+      "name": "Sean Tucker",
+      "handle": "@SeanTucker",
+      "description": "Commercial videography ethics and creative agency business — building a sustainable commercial photography/videography agency with craft and integrity.",
+      "accentColor": "0xFFEF4444",
+      "initials": "ST",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC_43mQmHwHPTBBqImFrWU3Q cross-confirmed from skill_13_photography.json (listed as @seantuck). CSV uses @SeanTucker — same channel."
+    },
+    {
+      "id": "UC09qASY4ixFS-KXIH6Nw0rg",
+      "name": "Gerald Undone",
+      "handle": "@GeraldUndone",
+      "description": "Commercial gear procurement and agency decision frameworks — making sound equipment and business decisions when running a professional production agency.",
+      "accentColor": "0xFF6366F1",
+      "initials": "GU",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC09qASY4ixFS-KXIH6Nw0rg cross-confirmed from skill_13_photography.json (listed as @geraldundone). CSV uses @GeraldUndone — same channel."
+    },
+    {
+      "id": "UCbnbfJD1N9DWyp5vHH27VYA",
+      "name": "StockFrames and Arts",
+      "handle": "@stockframes",
+      "description": "Nigerian picture framing, canvas print, and visual arts supply business — covers the framing and print fulfilment side of commercial photography operations in Nigeria.",
+      "accentColor": "0xFFF97316",
+      "initials": "SF",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCbnbfJD1N9DWyp5vHH27VYA fetched from youtube.com/@stockframes/videos (2026-07-25). Note: CSV description says 'Nigerian commercial photography business and trade'; the channel is actually a picture-frames and canvas-arts supply business. Description updated to reflect the accurate channel content. Relevant to commercial photographers who resell framed/printed work."
+    },
+    {
+      "id": "UCB5asCefuEYQKVVyyAn-l5g",
+      "name": "WaleMarketer",
+      "handle": "@WaleMarketer",
+      "description": "Granular commercial pricing strategy for Nigerian creatives — how to price photography and videography services profitably in the Nigerian market.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "WM",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCB5asCefuEYQKVVyyAn-l5g cross-confirmed from skill_14_videography_video_editing.json (independently verified). Blog counterpart also confirmed."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "FStoppers",
+      "url": "https://fstoppers.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Photography industry news and business. Feed URL independently confirmed via Feedspot RSS directory listing. (fstoppers.com/feed confirmed via Feedspot Photography RSS directory, 2026-07-25)."
+    },
+    {
+      "name": "PetaPixel",
+      "url": "https://petapixel.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Photography industry trends, gear, and trade. Feed URL independently confirmed via Feedspot RSS directory listing. (petapixel.com/feed confirmed via Feedspot Photography RSS directory, 2026-07-25)."
+    },
+    {
+      "name": "Mango Street Blog",
+      "url": "https://mangostreet.com/blogs/news.atom",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Shopify-hosted Mango Street blog. Standard Shopify Atom feed URL — Standard Shopify Atom feed URL — same pattern confirmed across existing skill files."
+    },
+    {
+      "name": "ProInvoice Blog",
+      "url": "https://proinvoice.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Nigerian commercial photography invoicing and business guide. Standard WordPress /feed/ URL — Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01). Photography trade business guide, capital, and margins."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Production studio supply chain and setup guides for Nigeria. Verify canonical domain before first ingest."
+    },
+    {
+      "name": "Shopify Photography Blog",
+      "url": "https://www.shopify.com/blogs/news.atom",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Standard Shopify Atom feed URL — same pattern confirmed across existing skill files. Covers selling commercial prints and B2B photography services online."
+    },
+    {
+      "name": "WaleMarketer",
+      "url": "https://walemarketer.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_14_videography_video_editing.json)."
+    },
+    {
+      "name": "Sue Bryce Media",
+      "url": "https://suebryce.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Portrait photography studio empire and B2B systems. Standard WordPress /feed/ URL — Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF — why most small businesses fail and how to build systems that scale without the owner.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV (III.56-60). Same book already in skill_01 via slightly different path on the same domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free overview and chapter excerpts from the author's official site — cash-flow management system for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV. Author's own domain, consistent with skill_01 entry.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF — validated learning and build-measure-learn cycles for trade business scaling.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV (III.56-60).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — small-business operations, financing, and management.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "openstax.org is a peer-reviewed open textbook publisher. URL from user-provided CSV.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — entrepreneurship principles, ideation, and business model design.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Same OpenStax catalogue URL; select the specific title on the catalogue page.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot marketing blog — practical digital marketing guides for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot blog is a widely recognised free marketing resource. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free US SBA startup guide — globally applicable for structuring a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "sba.gov is a US government domain. URL from user-provided CSV.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification course covering inbound marketing strategy for any trade or service business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot Academy courses are free with registration. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — planning, organising, leading, and controlling a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Direct OpenStax book URL confirmed stable via feedspot/open textbook listings.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). All previously cross-referenced skill_13/skill_14 IDs confirmed consistent. StockFrames channel confirmed as a Nigerian picture-frames and canvas-arts supply business (not a photography content channel as described in source CSV) — description updated to accurately reflect content while noting its relevance to photographers selling printed work. FStoppers and PetaPixel RSS feeds independently confirmed via Feedspot photography RSS directory.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

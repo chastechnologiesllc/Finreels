@@ -1,0 +1,108 @@
+name: Build Android
+
+on:
+  push:
+    branches: [main, master]
+    tags: ['v*.*.*']
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  build-android:
+    name: Build Android APK + AAB
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      # ── Checkout ────────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v6                        # ← updated from v4
+
+      # ── Java ─────────────────────────────────────────────────────────────────
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'gradle'
+
+      # ── Flutter ───────────────────────────────────────────────────────────────
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.44.0'                     # ← updated from 3.27.0
+          channel: 'stable'
+          cache: true
+
+      # ── Dependencies ──────────────────────────────────────────────────────────
+      - name: Install dependencies
+        run: flutter pub get
+
+      # ── Analyse ───────────────────────────────────────────────────────────────
+      - name: Analyse
+        run: flutter analyze --no-fatal-infos
+
+      # ── Tests ─────────────────────────────────────────────────────────────────
+      - name: Run tests
+        run: flutter test
+
+      # ── PR compile check ─────────────────────────────────────────────────────
+      
+      - name: Build APK (PR compile check only — not uploaded)
+        if: github.event_name == 'pull_request'
+        run: flutter build apk --debug
+
+      # ── Keystore ──────────────────────────────────────────────────────────────
+      
+      - name: Decode keystore
+        if: github.event_name != 'pull_request'
+        run: |
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/finreels.jks
+          cat > android/key.properties <<EOF
+          storeFile=finreels.jks
+          storePassword=${{ secrets.KEYSTORE_STORE_PASSWORD }}
+          keyAlias=${{ secrets.KEYSTORE_KEY_ALIAS }}
+          keyPassword=${{ secrets.KEYSTORE_KEY_PASSWORD }}
+          EOF
+
+      # ── Build production apk
+      - name: Build production APK (universal — all phones, one file)
+        if: github.event_name != 'pull_request'
+        run: flutter build apk --release --build-number=${{ github.run_number }}
+
+      # ── Build production AAB ────────────────────────────────────────────────────
+      - name: Build production AAB
+        if: github.event_name != 'pull_request'
+        run: flutter build appbundle --release --build-number=${{ github.run_number }}
+
+      # ── Upload production APK ──────────────────────────────────────────────────
+      - name: Upload APK (production, universal)
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v7                # ← updated from v4
+        with:
+          name: finreels-production-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 90
+
+      # ── Upload production AAB ───────────────────────────────────────────────────
+      - name: Upload AAB (production)
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v7                # ← updated from v4
+        with:
+          name: finreels-production-aab
+          path: build/app/outputs/bundle/release/app-release.aab
+          retention-days: 90
+
+      # ── GitHub Release ────────────────────────────────────────────────────────
+    
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v3            # ← updated from v2
+        with:
+          files: |
+            build/app/outputs/flutter-apk/app-release.apk
+            build/app/outputs/bundle/release/app-release.aab
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

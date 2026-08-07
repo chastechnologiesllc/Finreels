@@ -1,0 +1,79 @@
+{
+  "skill_01_tailoring_fashion_design": {
+    "channels": [
+      {
+        "id": "UCMt5gaZ26hjIW-XFWoYDAHA",
+        "name": "Kim Dave",
+        "handle": "@KimDave",
+        "description": "Priscillia Okpan — Nigerian fashion designer & content creator. Pattern cutting, Ankara fashion, sewing tutorials and the business side of running a fashion brand.",
+        "accentColor": "0xFFEC4899",
+        "initials": "KD",
+        "focus": "Fashion design & tailoring business",
+        "verifiedOn": "2026-07-11",
+        "verificationMethod": "Fetched youtube.com/@KimDave directly, confirmed canonical channel ID."
+      },
+      {
+        "id": "UCQCL3GrCtBtJK7hnMy0x_cQ",
+        "name": "Ann Usman",
+        "handle": "@annusman",
+        "description": "Fashion design, couture and bridal — pattern cutting, sewing techniques and building a fashion design career.",
+        "accentColor": "0xFFF59E0B",
+        "initials": "AU",
+        "focus": "Fashion design & tailoring business",
+        "verifiedOn": "2026-07-11",
+        "verificationMethod": "Fetched youtube.com/channel/UCQCL3GrCtBtJK7hnMy0x_cQ directly, confirmed canonical channel ID and topical match."
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Entrepreneurs.ng",
+        "url": "https://entrepreneurs.ng/feed/",
+        "verifiedOn": "2026-07-11",
+        "verificationMethod": "Confirmed real article matching directory description; feed URL confirmed via FeedSpot's curated Nigeria Business RSS directory. Raw XML not fetched directly (no outbound network in the build sandbox) — worth one curl check before shipping."
+      }
+    ]
+  },
+  "skill_02_hairdressing_hairstyling": {
+    "channels": [
+      {
+        "id": "UC5_ZJ2QMb-19TLKDl6JuVbg",
+        "name": "Louis Ihuefo",
+        "handle": "@Louisihuefo",
+        "description": "Lagos-based hairstylist and YouTuber — self-described 'No 1 hairstylist and YouTuber in Africa'. Runs paid workshops teaching the hairstyling trade alongside tutorial content.",
+        "accentColor": "0xFFEC4899",
+        "initials": "LI",
+        "focus": "Hairstyling business & workshops",
+        "verifiedOn": "2026-07-11",
+        "verificationMethod": "Cross-corroborated across 4 independent search results (channel page + 3 video pages) all pointing to the same channel ID; self-description and Lagos workshop link confirm topical + regional match."
+      }
+    ],
+    "blogs": []
+  },
+  "skill_03_barbing": {
+    "channels": [],
+    "blogs": [
+      {
+        "name": "The Splice Blog",
+        "url": "https://blog.withsplice.com/feed/",
+        "verifiedOn": "2026-07-11",
+        "verificationMethod": "Splice is a real African salon/spa booking & business-management platform (confirmed via its own Facebook page). Fetched a live article on the blog matching the resource directory's barbing description almost word for word; page metadata confirms WordPress + Elementor, which defaults to a /feed/ RSS endpoint. Raw XML not fetched directly (no outbound network in the build sandbox) — same one-curl check as entrepreneurs.ng before shipping. NOTE: do not confuse with splice.com/blog, an unrelated music-production company."
+      }
+    ]
+  },
+  "skill_04_makeup_artistry": {
+    "channels": [
+      {
+        "id": "UCfEQFjH0J--H3cV8pis62TA",
+        "name": "Damilare Oshodi",
+        "handle": "@DamilareOshodi",
+        "description": "Lagos-based makeup artist and beauty entrepreneur. Covers makeup tutorials plus tips for beginner makeup artists and the business side of the craft.",
+        "accentColor": "0xFFF59E0B",
+        "initials": "DO",
+        "focus": "Makeup artistry business & beginner MUA tips",
+        "verifiedOn": "2026-07-11",
+        "verificationMethod": "Fetched youtube.com/@DamilareOshodi directly, confirmed canonical channel ID. Independently corroborated by a second source (The Beautiful Societies) describing the same channel as 'an educational hub for Nigerian bridal looks'."
+      }
+    ],
+    "blogs": []
+  }
+}

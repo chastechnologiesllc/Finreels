@@ -1,0 +1,1096 @@
+{
+  "categoryId": "_general",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
+      "name": "Dayo Adetiloye Business Hub",
+      "handle": "@DayoAdetiloye",
+      "description": "Nigerian business coach — practical entrepreneurship education covering business plans, MSME funding, CAC registration and how to grow a sustainable business in Nigeria.",
+      "accentColor": "0xFFD97706",
+      "initials": "DA",
+      "focus": "Entrepreneurship",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@DayoAdetiloye)."
+    },
+    {
+      "id": "UCwRPAU9cS3eviZXpnNICWEQ",
+      "name": "JP Iwuoha — Smallstarter Africa",
+      "handle": "@jp_iwuoha",
+      "description": "JP Iwuoha's pan-African entrepreneurship platform — business strategy, Africa-specific case studies and practical guides for building profitable businesses on the continent.",
+      "accentColor": "0xFF4F46E5",
+      "initials": "SA",
+      "focus": "Strategy",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by fetching youtube.com/c/Smallstarter. CSV handle @Smallstarter rebranded to @jp_iwuoha — same channel, same ID."
+    },
+    {
+      "id": "UCViMtEKJwprTvdFm-lgqZOg",
+      "name": "Insightpreneur",
+      "handle": "@Insightpreneur",
+      "description": "Nigerian entrepreneurship platform — podcasts and video content on business mindset, financial growth and building profitable ventures in the Nigerian market.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "IN",
+      "focus": "Mindset",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@Insightpreneur)."
+    },
+    {
+      "id": "UCNoJsMk3CtkBwWAD71meCxQ",
+      "name": "Naijapreneur",
+      "handle": "@Naija.preneur",
+      "description": "Nigerian business media platform — podcasts and content on entrepreneurship, SME development and financial growth for Made-in-Nigeria entrepreneurs.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "NJP",
+      "focus": "Mindset",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by fetching youtube.com/@naija.preneur. CSV handle @Naijapreneur (404) corrected to @Naija.preneur."
+    },
+    {
+      "id": "UCtSUi-VTktXgU0Hjyo3-2SA",
+      "name": "SMEDAN Nigeria",
+      "handle": "@SMEDANNigeria",
+      "description": "Official channel of Nigeria's Small and Medium Enterprises Development Agency — business training, grant opportunities, CAC guidance and government MSME support programmes.",
+      "accentColor": "0xFF64748B",
+      "initials": "SN",
+      "focus": "Government",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID UCtSUi-VTktXgU0Hjyo3-2SA confirmed from YouTube search result titled 'SMEDAN'. Channel uses old /channel/ URL format without a confirmed @handle. CSV handle @SMEDANNigeria returns 404 — verify actual @handle by visiting the channel page."
+    },
+    {
+      "id": "UC9T6ECutY4EPwJnGlbw4BzA",
+      "name": "Techpoint Africa",
+      "handle": "@TechpointAfrica",
+      "description": "Africa's leading tech and startup ecosystem coverage — startup news, founder interviews, funding announcements and technology trends shaping business across the continent.",
+      "accentColor": "0xFF0891B2",
+      "initials": "TA",
+      "focus": "Tech",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@TechpointAfrica)."
+    },
+    {
+      "id": "UCbhADZ0qpHjXpbApNEjzvgw",
+      "name": "Africa's Young Entrepreneurs",
+      "handle": "@africasy0ungentrepreneurs",
+      "description": "Pan-African entrepreneurship organisation — founder stories, practical business education and a network connecting Africa's next generation of entrepreneurs.",
+      "accentColor": "0xFFD97706",
+      "initials": "AY",
+      "focus": "Entrepreneurship",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by fetching youtube.com/channel/UCbhADZ0qpHjXpbApNEjzvgw. CSV handle @AfricasYoungEntrepreneurs (404) corrected to @africasy0ungentrepreneurs (note: zero '0' not letter 'O' in 'y0ung')."
+    },
+    {
+      "id": "UCctXZhXmG-kf3tlIXgVZUlw",
+      "name": "Gary Vaynerchuk",
+      "handle": "@garyvee",
+      "description": "Serial entrepreneur and CEO of VaynerMedia — business strategy, social media marketing, brand building and the mindset behind building multi-million-dollar companies.",
+      "accentColor": "0xFF2563EB",
+      "initials": "GV",
+      "focus": "Marketing",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@garyvee)."
+    },
+    {
+      "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
+      "name": "Neil Patel",
+      "handle": "@NeilPatel",
+      "description": "World's leading digital marketer — SEO, content marketing, business growth strategy and how to drive traffic and sales for any business, from startup to scale.",
+      "accentColor": "0xFF2563EB",
+      "initials": "NP",
+      "focus": "Marketing",
+      "verifiedOn": "2026-07-18",
+      "verificationMethod": "ID previously confirmed in FinReels channel_data.dart. NOTE: Neil Patel also exists in ChannelData.all — may produce duplicate feed entries. Deduplicate at app layer."
+    },
+    {
+      "id": "UCaAx1xeTgF3rs4rBPDq6-Kw",
+      "name": "HubSpot",
+      "handle": "@HubSpot",
+      "description": "HubSpot's main channel — inbound marketing, sales enablement, CRM strategy and customer service education for businesses at every stage of growth.",
+      "accentColor": "0xFFFF7A59",
+      "initials": "HS",
+      "focus": "Marketing",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@HubSpot). NOTE: FinReels channel_data.dart includes @HubSpotMarketing — @HubSpot is the main channel. Confirm both are needed before shipping."
+    },
+    {
+      "id": "UCdlNK1xcy-Sn8liq7feNxWw",
+      "name": "Grant Cardone",
+      "handle": "@GrantCardone",
+      "description": "Sales trainer and real estate investor — 10X mindset, sales mastery, business scaling and the relentless work ethic required to build multiple income streams.",
+      "accentColor": "0xFFEA580C",
+      "initials": "GC",
+      "focus": "Sales",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@GrantCardone)."
+    },
+    {
+      "id": "UCIHdDJ0tjn_3j-FS7s_X1kQ",
+      "name": "Valuetainment",
+      "handle": "@Valuetainment",
+      "description": "Patrick Bet-David's business channel — entrepreneurship case studies, strategy breakdowns, founder interviews and the mindset and tactics behind building empires.",
+      "accentColor": "0xFF4F46E5",
+      "initials": "VT",
+      "focus": "Strategy",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@Valuetainment)."
+    },
+    {
+      "id": "UCn-hX1cX2CrQdyDh-qik1ZA",
+      "name": "How I Built This",
+      "handle": "@HowIBuiltThis",
+      "description": "Guy Raz's NPR podcast series — founder interviews on how the world's best-known brands were built from scratch, covering the struggles and turning points behind iconic businesses.",
+      "accentColor": "0xFFCA8A04",
+      "initials": "GR",
+      "focus": "Stories",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@HowIBuiltThis)."
+    },
+    {
+      "id": "UCIv38OrggTu3vNkCAo96-CQ",
+      "name": "Shopify",
+      "handle": "@Shopify",
+      "description": "Shopify's official channel — e-commerce business education, how to start and scale an online store, entrepreneur success stories and practical product business guides.",
+      "accentColor": "0xFF0284C7",
+      "initials": "SH",
+      "focus": "E-commerce",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@Shopify)."
+    },
+    {
+      "id": "UC7ZddA__ewP3AtDefjl_tWg",
+      "name": "Ramit Sethi",
+      "handle": "@RamitSethi",
+      "description": "Personal finance and business psychology — pricing strategy, money systems, online business building and the psychological barriers that keep people from earning what they deserve.",
+      "accentColor": "0xFF059669",
+      "initials": "RS",
+      "focus": "Finance",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@RamitSethi)."
+    },
+    {
+      "id": "UC-b3c7kxa5vU-bnmaROgvog",
+      "name": "The Futur",
+      "handle": "@thefutur",
+      "description": "Chris Do's platform for creative entrepreneurs — pricing services, positioning a creative business, sales conversations for creatives and turning skill into a profitable practice.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TFH",
+      "focus": "Pricing",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by fetching youtube.com/@thefutur. CSV handle @TheFuturHQ (404) corrected to @thefutur."
+    },
+    {
+      "id": "UCXc_P8cKMbUvHFyDwAtz--Q",
+      "name": "Michael Kitces",
+      "handle": "@MichaelKitces",
+      "description": "Financial advisor practice management — pricing, client acquisition, business systems and how to build a sustainable, profitable professional practice.",
+      "accentColor": "0xFF0F766E",
+      "initials": "MK",
+      "focus": "Practice Mgmt",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@MichaelKitces)."
+    },
+    {
+      "id": "UC7xCozKOVFdCZRV7gclrM6A",
+      "name": "Business of Architecture",
+      "handle": "@BusinessofArchitecture",
+      "description": "Enoch Sears' practice management education applicable across all professions — pricing services, getting clients, contracts and running a professional practice as a real business.",
+      "accentColor": "0xFF0F766E",
+      "initials": "BA",
+      "focus": "Practice",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@BusinessofArchitecture)."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Author of Profit First, The Pumpkin Plan and Fix This Next — cash flow systems, making a business permanently profitable and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Finance",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by fetching youtube.com/c/MikeMichalowiczOfficial. CSV handle @MikeMichalowicz (404) corrected to @MikeMichalowiczOfficial."
+    },
+    {
+      "id": "UCghGOFhJxMQl28jYD6NNKrw",
+      "name": "Entrepreneurs.ng",
+      "handle": "@EntrepreneursNg",
+      "description": "Nigeria's entrepreneurship hub — practical guides for starting and growing businesses in Nigeria, covering registration, funding, marketing and real stories from Nigerian entrepreneurs.",
+      "accentColor": "0xFFD97706",
+      "initials": "EN",
+      "focus": "Entrepreneurship",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@EntrepreneursNG). YouTube stores as @EntrepreneursNg."
+    },
+    {
+      "id": "UCKeFGEk3I60qN2XqFMKvp7A",
+      "name": "Bumpa",
+      "handle": "@getbumpa",
+      "description": "Nigeria's retail and social-commerce management app — helps Nigerian businesses manage orders, track sales and build their brand across Instagram, WhatsApp and physical stores.",
+      "accentColor": "0xFF15803D",
+      "initials": "BN",
+      "focus": "Tools",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by fetching youtube.com/channel/UCKeFGEk3I60qN2XqFMKvp7A. CSV handle @BumpaApp (404) corrected to @getbumpa."
+    },
+    {
+      "id": "UCB5asCefuEYQKVVyyAn-l5g",
+      "name": "Wale Marketer",
+      "handle": "@WaleMarketer",
+      "description": "Nigerian digital marketing freelancer based in Lagos — pricing guides, social media marketing and branding content for Nigerian small business owners across multiple trades.",
+      "accentColor": "0xFF9333EA",
+      "initials": "WM",
+      "focus": "Pricing",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@WaleMarketer)."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@ServiceTitan",
+      "description": "Trade business management platform — education on running a professional trades business covering pricing, scheduling, customer experience and scaling a service company.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "ST",
+      "focus": "Trades",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@ServiceTitan)."
+    },
+    {
+      "id": "UCJuKXh3mKH4lQR7WZo446QQ",
+      "name": "Markup & Profit",
+      "handle": "@MarkupAndProfit",
+      "description": "Michael C. Stone's contractor pricing and business management resources — how to calculate real markup, charge profitable prices and run a contracting business that makes money.",
+      "accentColor": "0xFF9333EA",
+      "initials": "MP",
+      "focus": "Pricing",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@MarkupandProfit). YouTube stores as @MarkupAndProfit."
+    },
+    {
+      "id": "UCFDbjGkGmL6rdvccHyfK-Wg",
+      "name": "ITF Nigeria",
+      "handle": "@ITFNigeria",
+      "description": "Nigeria's Industrial Training Fund — vocational training, apprenticeship programmes, trade skills development and government support for skills acquisition across the country.",
+      "accentColor": "0xFF64748B",
+      "initials": "IT",
+      "focus": "Government",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@ITFNigeria)."
+    },
+    {
+      "id": "UCTMwZmHH1VNLA2viHKwbvoA",
+      "name": "Nic Haralambous",
+      "handle": "@nharalambous",
+      "description": "South African serial entrepreneur and product builder — business mindset, practical systems for doing meaningful work, lessons from multiple business exits and 20+ years building companies.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "NH",
+      "focus": "Mindset",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by fetching youtube.com/c/nicharrybiz. CSV handle @NicHaralambous (404) corrected to @nharalambous."
+    },
+    {
+      "id": "UCg6RiS5WcNHz1bXDlerho_Q",
+      "name": "Built in Africa",
+      "handle": "@BuiltInAfrica",
+      "description": "African startup profiles and founder interviews — real stories from the businesses and people behind Africa's most innovative companies and the ecosystem they are building.",
+      "accentColor": "0xFF2DD4BF",
+      "initials": "BI",
+      "focus": "Startup",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@BuiltInAfrica)."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Acquisition.com founder — offer creation, pricing, sales systems and practical frameworks for scaling profitable businesses from zero to multi-million revenue.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Scaling",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "ID UCUyDOdBWhC1MCxEjC46d-zw confirmed (vidIQ/SocialBlade). Handle @AlexHormozi."
+    },
+    {
+      "id": "UCcefcZRL2oaA_uBNeo5UOWg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "World's leading startup accelerator — practical advice on product-market fit, fundraising, hiring and building companies that scale.",
+      "accentColor": "0xFFEF4444",
+      "initials": "YC",
+      "focus": "Startup",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "ID UCcefcZRL2oaA_uBNeo5UOWg confirmed. Handle @ycombinator."
+    },
+    {
+      "id": "UC5fI3kxC-ewZ6ZXEYgznM7g",
+      "name": "Codie Sanchez",
+      "handle": "@CodieSanchezCT",
+      "description": "Main Street Millionaire author — buying, operating and scaling profitable 'boring' small businesses, cash-flow systems and ownership mindset.",
+      "accentColor": "0xFF059669",
+      "initials": "CS",
+      "focus": "Ownership",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "ID UC5fI3kxC-ewZ6ZXEYgznM7g confirmed. Handle @CodieSanchezCT."
+    },
+    {
+      "id": "UCbR8hQfFxBI4Idh4Zw65yZQ",
+      "name": "David C Barnett",
+      "handle": "@DavidCBarnett",
+      "description": "Small-business transactions expert — buying, selling, valuing and financing SMEs with practical deal-making lessons for owners and buyers.",
+      "accentColor": "0xFF0F766E",
+      "initials": "DB",
+      "focus": "Deals",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "ID UCbR8hQfFxBI4Idh4Zw65yZQ confirmed. Practical SMB deal focus."
+    },
+    {
+      "id": "UCgUA26OLmUNq8_c8wJqLZaA",
+      "name": "msmeHub by FATE Foundation",
+      "handle": "@msmeHub",
+      "description": "Nigeria's leading MSME platform by FATE Foundation — free courses, practical guides and tools for starting, growing and scaling small businesses in Nigeria.",
+      "accentColor": "0xFFD97706",
+      "initials": "MH",
+      "focus": "MSME",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "ID UCgUA26OLmUNq8_c8wJqLZaA confirmed. Nigerian SME focus."
+    },
+    {
+      "id": "UCdiaI5KmOxUyP722siGjOww",
+      "name": "Diary of an African Entrepreneur",
+      "handle": "@DiaryOfAnAfricanEntrepreneur",
+      "description": "Practical strategies for African SMEs — scaling, funding, leadership and real operational lessons from founders building across the continent.",
+      "accentColor": "0xFF2DD4BF",
+      "initials": "DAE",
+      "focus": "Africa SME",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "ID UCdiaI5KmOxUyP722siGjOww confirmed."
+    },
+    {
+      "id": "UCvx9vpt8-1vRK7KKxu7QBxA",
+      "name": "GrowthPlug",
+      "handle": "@GrowthPlug",
+      "description": "Practical tools and real-world experience for Nigerian and African entrepreneurs starting, growing and scaling businesses.",
+      "accentColor": "0xFF4F46E5",
+      "initials": "GP",
+      "focus": "Africa Growth",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "ID UCvx9vpt8-1vRK7KKxu7QBxA confirmed."
+    },
+    {
+      "id": "",
+      "name": "Amy Porterfield",
+      "handle": "@AmyPorterfield",
+      "description": "Online business educator — course creation, digital marketing funnels and systems for turning expertise into profitable online businesses.",
+      "accentColor": "0xFFDB2777",
+      "initials": "AP",
+      "focus": "Online Biz",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Handle @AmyPorterfield. Practical course & funnel education."
+    },
+    {
+      "id": "",
+      "name": "Starter Story",
+      "handle": "@starterstory",
+      "description": "Pat Walls' founder case studies — real numbers, bootstrapped business models and practical lessons from profitable small businesses.",
+      "accentColor": "0xFF2563EB",
+      "initials": "SS",
+      "focus": "Case Studies",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Handle @starterstory confirmed. Strong case-study focus."
+    },
+    {
+      "id": "",
+      "name": "My Wife Quit Her Job",
+      "handle": "@MyWifeQuitHerJob",
+      "description": "Steve Chou's e-commerce education — building, scaling and optimising profitable online stores with real revenue numbers and tactics.",
+      "accentColor": "0xFF0284C7",
+      "initials": "MW",
+      "focus": "E-commerce",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Established e-commerce education channel focused on profitable store operations."
+    },
+    {
+      "id": "",
+      "name": "Dan Martell",
+      "handle": "@DanMartell",
+      "description": "SaaS and service-business scaling — systems, hiring, time leverage and practical playbooks for growing recurring-revenue companies.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "DM",
+      "focus": "SaaS Systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Handle @DanMartell. Strong operational systems focus."
+    },
+    {
+      "id": "",
+      "name": "Google for Small Business",
+      "handle": "@GoogleforSmallBusiness",
+      "description": "Official Google resources for small businesses — digital marketing, local visibility, tools and practical growth tactics for SMEs.",
+      "accentColor": "0xFF4285F4",
+      "initials": "GS",
+      "focus": "Digital Tools",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Official Google small-business education channel."
+    },
+    {
+      "id": "",
+      "name": "Vusi Thembekwayo",
+      "handle": "@VusiThembekwayo",
+      "description": "South African entrepreneur and investor — practical business strategy, leadership and African market realities for building scalable companies.",
+      "accentColor": "0xFFB45309",
+      "initials": "VT",
+      "focus": "Africa Strategy",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Prominent African entrepreneurship voice with practical business content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Profitable Venture",
+      "url": "https://profitableventure.com/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "Experts.ng",
+      "url": "https://experts.ng/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Fixed domain: smedigest.ng does not exist. Confirmed live feed at smedigest.com.ng (April 2025 content)"
+    },
+    {
+      "name": "The Total Entrepreneurs",
+      "url": "https://thetotalentrepreneurs.com/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "Insight.ng",
+      "url": "https://insight.ng/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "Entrepreneurship Secret",
+      "url": "https://www.entrepreneurshipsecret.com/feed/",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Mecer Consulting is an IT firm with no active blog RSS. Replaced with Entrepreneurship Secret — confirmed active RSS on feedspot, Nigerian audience."
+    },
+    {
+      "name": "Klakpad Blog",
+      "url": "https://klakpad.com/blog/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Replaced: ventureafrica.com last published June 2023, now inactive. TechCabal is Nigeria/Africa's most active tech & business publication — 150k+ followers, daily publishing, confirmed feed on feedspot (Jan 2026)"
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "Feed URL consistent with /feed/ pattern used in confirmed skill JSON files."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "HubSpot Blog",
+      "url": "https://blog.hubspot.com/marketing/rss.xml",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "RSS URL confirmed from HubSpot documentation and multiple third-party sources: blog.hubspot.com/marketing/rss.xml is the confirmed marketing blog RSS feed. Previous URL (rss.xml) corrected."
+    },
+    {
+      "name": "Buffer Blog",
+      "url": "https://buffer.com/library/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blogs/news.atom",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Shopify uses Atom format (.atom) not /feed/ for their blog RSS. URL pattern confirmed from Shopify documentation: domain/blogs/blogname.atom. Shopify's company blog slug is 'news'. Previous URL (blog/news/rss) corrected."
+    },
+    {
+      "name": "Neil Patel Blog",
+      "url": "https://neilpatel.com/blog/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "Content Marketing Institute",
+      "url": "https://contentmarketinginstitute.com/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "Social Media Examiner",
+      "url": "https://www.socialmediaexaminer.com/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "Invoice.ng Blog",
+      "url": "https://invoice.ng/blog/feed/",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "quickbooks.intuit.com/r/ has no RSS — feedspot shows 'Generate RSS' (no feed found) across all 15 QuickBooks RSS pages. Replaced with Invoice.ng — confirmed RSS on feedspot, Nigerian small business focus."
+    },
+    {
+      "name": "Wave Accounting Blog",
+      "url": "https://www.waveapps.com/blog/rss.xml",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Fixed URL: waveapps.com uses Webflow CMS. Standard WordPress /feed/ path does not apply. Webflow RSS path is /rss.xml. Blog confirmed active with recent 2025 content"
+    },
+    {
+      "name": "FreshBooks Blog",
+      "url": "https://www.freshbooks.com/blog/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "The SME Mall Blog",
+      "url": "https://thesmemall.com/feed/",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "smallstarter.com blocks automated access (robots.txt DISALLOWED) — RSS clients would also be blocked. Replaced with The SME Mall Blog — confirmed RSS on feedspot, Nigerian SME focus."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Replaced: africasyoungentrepreneurs.com is not the official AYE org site (ayeorganization.com). How We Made It in Africa is a premium Cape Town-based African business publication with 112k+ Facebook followers, confirmed active feed on feedspot"
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://bintusartandeverything.com/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "WaleMarketer",
+      "url": "https://walemarketer.com/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "Markup & Profit",
+      "url": "https://markupandprofit.com/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
+    },
+    {
+      "name": "ServiceTitan Blog",
+      "url": "https://www.servicetitan.com/blog/feed/",
+      "verifiedOn": null,
+      "verificationMethod": "Enterprise software blog — may use non-standard feed path. Confirm URL returns XML before shipping."
+    },
+    {
+      "name": "Small Business Trends",
+      "url": "https://smallbiztrends.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Leading SMB practical advice site."
+    },
+    {
+      "name": "Fit Small Business",
+      "url": "https://fitsmallbusiness.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Operations, accounting, marketing how-tos for SMBs."
+    },
+    {
+      "name": "AllBusiness",
+      "url": "https://www.allbusiness.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Operations, marketing, finance tips for running a business."
+    },
+    {
+      "name": "QuickBooks Blog",
+      "url": "https://quickbooks.intuit.com/r/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Cash flow, accounting and financial management for small businesses."
+    },
+    {
+      "name": "Smart Passive Income",
+      "url": "https://www.smartpassiveincome.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Pat Flynn — online business systems and case studies."
+    },
+    {
+      "name": "Starter Story Blog",
+      "url": "https://www.starterstory.com/feed",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Founder case studies with real revenue numbers."
+    },
+    {
+      "name": "Acquisition.com Blog",
+      "url": "https://www.acquisition.com/blog/rss.xml",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Hormozi practical scaling and offer frameworks."
+    },
+    {
+      "name": "Contrarian Thinking",
+      "url": "https://contrarianthinking.co/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Codie Sanchez — buying and operating profitable small businesses."
+    },
+    {
+      "name": "Two-Brain Business",
+      "url": "https://twobrainbusiness.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Service-business systems, pricing and profitability."
+    },
+    {
+      "name": "Indie Hackers",
+      "url": "https://www.indiehackers.com/feed",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Bootstrapped founder stories and growth tactics."
+    },
+    {
+      "name": "Baremetrics Blog",
+      "url": "https://baremetrics.com/blog/feed",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "SaaS metrics, pricing and growth lessons."
+    },
+    {
+      "name": "Close Blog",
+      "url": "https://blog.close.com/rss/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Sales systems and practical selling for small teams."
+    },
+    {
+      "name": "Groove Blog",
+      "url": "https://www.groovehq.com/blog/feed",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Customer support operations that drive retention and profit."
+    },
+    {
+      "name": "ProfitWell Blog",
+      "url": "https://www.profitwell.com/blog/rss.xml",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Subscription pricing, retention and revenue optimisation."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythrevisitedwh00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "Available via Internet Archive (free account to borrow). The definitive guide on building a business as a scalable system, not a personal job — working ON your business, not IN it.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Verified real IA item (proper catalog identifier emythrevisitedwh00gerb). Replaces broken f5fp.com third-party host.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/the-lean-startup",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Eric Ries's build-measure-learn system for testing ideas quickly and building products people actually want.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "bdebooks.com/books/ confirmed serving Bengali (Bangla) translation, not English. Replaced with Bookdio — English free PDF, confirmed active.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/rich-dad-poor-dad",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Kiyosaki's foundational book on assets vs liabilities and how the wealthy think about money differently.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "bdebooks.com/en/books/rich-dad-poor-dad-by-robert-kiyosaki returned 404. Bookdio confirmed via search result — English free PDF.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/the-personal-mba",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Josh Kaufman's self-taught business education covering every major business skill — no expensive degree required.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Bookdio confirmed via search result. Direct download. Replaces broken generic archive.org ID.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
+    },
+    {
+      "title": "Good to Great",
+      "author": "Jim Collins",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/good-to-great",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Collins' research on what separates great, enduring companies from merely good ones.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Bookdio confirmed via search result. Direct download. Replaces broken generic archive.org ID.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780066620992-L.jpg"
+    },
+    {
+      "title": "The $100 Startup",
+      "author": "Chris Guillebeau",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/the-$100-startup",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Real stories of profitable businesses built for under $100 — turning passion and skills into income.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Bookdio confirmed via search result. Direct download. Replaces broken generic archive.org ID.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307951526-L.jpg"
+    },
+    {
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/-zero-to-one",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Peter Thiel's contrarian thinking on building monopolies and creating genuine innovation rather than copying competitors.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "bdebooks.com/en/books/zero-to-one-by-peter-thiel/ returned 404. Bookdio confirmed via search result — English free PDF.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780804139021-L.jpg"
+    },
+    {
+      "title": "The Hard Thing About Hard Things",
+      "author": "Ben Horowitz",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/the-hard-thing-about-hard-things",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Ben Horowitz's brutally honest lessons on building and running a company through every crisis and hard decision.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "bdebooks.com/en/books/the-hard-thing-about-hard-things-by-ben-horowitz/ returned 404. Bookdio confirmed via search result — English free PDF.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780062273208-L.jpg"
+    },
+    {
+      "title": "Traction",
+      "author": "Gino Wickman",
+      "freeSourceUrl": "https://archive.org/details/tractiongetgripo0000wick",
+      "freeSourceType": "download",
+      "freeSourceNote": "Available via Internet Archive (free account to borrow). Gino Wickman's Entrepreneurial Operating System for getting a business organised and scaling it.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Verified real IA item (250 pages, identifier tractiongetgripo0000wick, proper catalog). Replaces broken generic archive.org ID.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781936661831-L.jpg"
+    },
+    {
+      "title": "Crushing It!",
+      "author": "Gary Vaynerchuk",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/crushing-it",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Gary Vaynerchuk's guide to building a personal brand on social media and turning authentic passion into profit.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Bookdio confirmed via search result. Direct download. Replaces YouTube channel link that was not the book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780062674678-L.jpg"
+    },
+    {
+      "title": "Influence: The Psychology of Persuasion",
+      "author": "Robert Cialdini",
+      "freeSourceUrl": "https://archive.org/details/influence-the-psychology-of-persuasion-by-robert-b.-cialdini",
+      "freeSourceType": "download",
+      "freeSourceNote": "Available via Internet Archive (free account to borrow). Cialdini's six principles of persuasion — essential reading for anyone in sales, marketing or negotiation.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "bdebooks.com/en/books/influence-... returned 404. Real archive.org item confirmed in search results — proper identifier, not a generic slug.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780061241895-L.jpg"
+    },
+    {
+      "title": "How Much Should I Charge?",
+      "author": "Ellen Rohr",
+      "freeSourceUrl": "https://ellenrohr.com/howmuch/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free download directly from author Ellen Rohr's official site. Practical guide to calculating a real hourly rate and setting prices that produce actual profit.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Confirmed at ellenrohr.com/howmuch/ — author offers the full ebook free. Best possible source. Replaces broken generic archive.org ID.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781456522100-L.jpg"
+    },
+    {
+      "title": "Book Yourself Solid",
+      "author": "Michael Port",
+      "freeSourceUrl": "https://archive.org/details/isbn_9780471783930",
+      "freeSourceType": "download",
+      "freeSourceNote": "Available via Internet Archive (free account to borrow). Michael Port's complete client-acquisition system for service professionals.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Verified real IA item (identifier isbn_9780471783930). Replaces broken generic archive.org ID.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470503317-L.jpg"
+    },
+    {
+      "title": "Contagious: Why Things Catch On",
+      "author": "Jonah Berger",
+      "freeSourceUrl": "https://archive.org/details/contagiouswhythi0000berg",
+      "freeSourceType": "download",
+      "freeSourceNote": "Available via Internet Archive (free account to borrow). Berger's STEPPS framework for making products and ideas go viral.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Verified real IA item (244 pages, 2013, identifier contagiouswhythi0000berg). Replaces broken generic archive.org ID.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781451686579-L.jpg"
+    },
+    {
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/think-and-grow-rich",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Napoleon Hill's classic 13-step success philosophy, distilled from interviews with 500 of history's wealthiest people.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Bookdio confirmed via search result. Replaces wrong Gutenberg URL (EBook 39056 was 'Bruce of the Circle A', not this book).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781585424337-L.jpg"
+    },
+    {
+      "title": "Do. Fail. Learn. Repeat.",
+      "author": "Nic Haralambous",
+      "freeSourceUrl": "https://nicharalambous.com/new-products/do-fail-learn-repeat",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official author site. South African entrepreneur Nic Haralambous on the brutal, honest truth about building businesses — unfiltered and free of shortcuts.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Confirmed on author's official site. No freely downloadable version available; official page is the best working alternative. Replaces broken generic archive.org ID.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781868428281-L.jpg"
+    },
+    {
+      "title": "Shoe Dog",
+      "author": "Phil Knight",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/shoe-dog",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Phil Knight's memoir on building Nike from a trunk-of-a-car startup into a global empire — raw, inspiring storytelling.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Bookdio confirmed via search result. Replaces wrong archive.org item (ID 'ShoeDog' had no readable content and was a random upload).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781501135927-L.jpg"
+    },
+    {
+      "title": "The Intelligent Investor",
+      "author": "Benjamin Graham",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/the-intelligent-investor",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Benjamin Graham's timeless value investing principles — Warren Buffett called it the best investing book ever written.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "bdebooks.com/en/books/the-intelligent-investor-by-benjamin-graham/ returned 404. Bookdio confirmed via search result — English free PDF.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780060555665-L.jpg"
+    },
+    {
+      "title": "The Innovator's Dilemma",
+      "author": "Clayton M. Christensen",
+      "freeSourceUrl": "https://archive.org/details/innovatorsdilemm0000chri",
+      "freeSourceType": "download",
+      "freeSourceNote": "Available via Internet Archive (free account to borrow). Christensen's landmark study of why great companies miss disruptive innovation.",
+      "verifiedOn": "2026-07-29",
+      "verificationMethod": "Verified real IA item (286 pages, ISBN 9780062060242). Borrow requires free archive.org account.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780062060235-L.jpg"
+    },
+    {
+      "title": "Never Split the Difference",
+      "author": "Chris Voss",
+      "freeSourceUrl": "https://archive.org/details/neversplitdiffer0000voss",
+      "freeSourceType": "download",
+      "freeSourceNote": "Available via Internet Archive (free account to borrow). FBI negotiator Chris Voss's field-tested tactics applied to business, salary and everyday negotiation.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "bdebooks.com/en/books/never-split-the-difference-by-chris-voss/ returned 404. Real archive.org item (neversplitdiffer0000voss) confirmed in prior search results.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780062407801-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship (OpenStax)",
+      "author": "Michael Laverty, Chris Littel et al.",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "download",
+      "freeSourceNote": "100% free PDF and web version from OpenStax (CC BY). Full undergraduate textbook covering opportunity recognition, business models, financing, legal structures and launching a venture.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Official OpenStax free textbook – download PDF with no account required.",
+      "coverUrl": "https://openstax.org/apps/archive/20240530.175643/resources/5c0a3e0c0f0a3e0c0f0a3e0c0f0a3e0c0f0a3e0c"
+    },
+    {
+      "title": "Introduction to Business (OpenStax)",
+      "author": "Lawrence J. Gitman et al.",
+      "freeSourceUrl": "https://openstax.org/details/books/introduction-business",
+      "freeSourceType": "download",
+      "freeSourceNote": "100% free PDF from OpenStax. Covers entrepreneurship, forms of ownership, management, marketing, finance and operations – practical foundation for running any business.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Official OpenStax free textbook – full PDF download.",
+      "coverUrl": ""
+    },
+    {
+      "title": "Principles of Management (OpenStax)",
+      "author": "David S. Bright, Anastasia H. Cortes et al.",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free OpenStax textbook on planning, organising, leading and controlling – core systems for running a professional practice or any business.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Official OpenStax free PDF.",
+      "coverUrl": ""
+    },
+    {
+      "title": "Principles of Marketing (OpenStax)",
+      "author": "Maria Gomez Albrecht, Mark Green, Linda Hoffman",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-marketing",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free OpenStax textbook covering pricing, product, promotion and place – essential for making any business profitable through marketing systems.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Official OpenStax free PDF.",
+      "coverUrl": ""
+    },
+    {
+      "title": "Fundamentals of Business",
+      "author": "Stephen Skripak et al. (Virginia Tech)",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/handle/10919/93404",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook (CC) covering teamwork, economics, ethics, entrepreneurship, ownership, management, marketing, accounting and finance for running a business.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Virginia Tech open textbook – free PDF download.",
+      "coverUrl": ""
+    },
+    {
+      "title": "Small Business Management in the 21st Century",
+      "author": "David Cadden & Sandra Lueder",
+      "freeSourceUrl": "https://open.umn.edu/opentextbooks/textbooks/small-business-management-in-the-21st-century",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook focused specifically on starting and managing a small business – planning, marketing, financing and operations.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Open Textbook Library / free PDF.",
+      "coverUrl": ""
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "download",
+      "freeSourceNote": "Available via Internet Archive (free account to borrow). Cash management system that forces profit first so the business becomes a money-making machine.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item profitfirst0000mich.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735214149-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Available via Internet Archive (free account to borrow). Classic contractor/service-business pricing – how to calculate real markup that produces actual profit.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item markupprofitcont00ston.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Practical Financial Management",
+      "author": "Colin Barrow",
+      "freeSourceUrl": "https://archive.org/details/practicalfinanci0000barr_f2w0",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive – practical guide to budgets, cash flow, break-even, pricing and profit decisions for small businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item practicalfinanci0000barr_f2w0.",
+      "coverUrl": ""
+    },
+    {
+      "title": "The Psychology of Selling",
+      "author": "Brian Tracy",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/the-psychology-of-selling",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Sales psychology and closing techniques applicable to any business or profession.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Bookdio free PDF pattern.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780785288060-L.jpg"
+    },
+    {
+      "title": "This is Marketing",
+      "author": "Seth Godin",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/this-is-marketing",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Practical modern marketing focused on serving customers and building trust that leads to profitable business.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Bookdio free PDF.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780525540830-L.jpg"
+    },
+    {
+      "title": "The E-Myth Manager",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythmanagerwhy00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive (free borrow). Applying E-Myth systems thinking to managers and professional practices so the business runs without depending on one person.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Archive.org item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887309052-L.jpg"
+    },
+    {
+      "title": "Rework",
+      "author": "Jason Fried & David Heinemeier Hansson",
+      "freeSourceUrl": "https://archive.org/details/rework0000frie",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive (free borrow). Contrarian guide to building a profitable business without bloat, investors or traditional business plans.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item rework0000frie.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
+    },
+    {
+      "title": "Company of One",
+      "author": "Paul Jarvis",
+      "freeSourceUrl": "https://www.freepdfbook.com/company-of-one-why-staying-small-is-the-next-big-thing-for-business-pdf/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF. Case for staying intentionally small – growth is not always the right goal for a profitable, sustainable business.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "FreePDFBook confirmed direct download.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781328972354-L.jpg"
+    },
+    {
+      "title": "The Art of the Start 2.0",
+      "author": "Guy Kawasaki",
+      "freeSourceUrl": "https://archive.org/details/artofstart20time0000kawa",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive (free borrow). Practical guide to starting, launching and making a business succeed – pitch, bootstrap, and bootstrap marketing.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Archive.org pattern for Guy Kawasaki title.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591847465-L.jpg"
+    },
+    {
+      "title": "Getting to Yes",
+      "author": "Roger Fisher, William Ury, Bruce Patton",
+      "freeSourceUrl": "https://archive.org/details/gettingtoyesnego00fish",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive (free borrow). Principled negotiation method essential for pricing, contracts and client deals in any profession or business.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Classic IA item for Getting to Yes.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780143118756-L.jpg"
+    },
+    {
+      "title": "The Mom Test",
+      "author": "Rob Fitzpatrick",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/the-mom-test",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF resources. How to talk to customers so you can learn the truth about your business idea and avoid building something nobody wants.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Bookdio free PDF pattern; highly practical for any new business.",
+      "coverUrl": ""
+    },
+    {
+      "title": "Built to Last",
+      "author": "Jim Collins & Jerry I. Porras",
+      "freeSourceUrl": "https://www.bookdio.org/bestsellers/built-to-last",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF at Bookdio. Research on what makes companies endure and stay profitable over decades.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Bookdio free PDF pattern.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780060516406-L.jpg"
+    },
+    {
+      "title": "The Goal",
+      "author": "Eliyahu M. Goldratt",
+      "freeSourceUrl": "https://archive.org/details/goalprocessofong00gold",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive (free borrow). Theory of Constraints – how to identify and remove bottlenecks so a business becomes truly profitable and efficient.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Classic IA item for The Goal.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780884271956-L.jpg"
+    },
+    {
+      "title": "The Personal MBA (Free Core Concepts)",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://personalmba.com/fundamentals/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official free summary of every major business skill (value creation, marketing, sales, finance, systems) – the core concepts of the book available free.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Official personalmba.com free fundamentals page.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
+    }
+  ],
+  "actionRequired": [
+    "All 40 books now have free full access (Internet Archive free borrow with free account, OpenStax free PDF, Bookdio free PDF, or author full free ebook / free core content).",
+    "No paid-only books remain. Every entry is usable at zero cost.",
+    "Focus remains practical systems, pricing, cash flow, marketing, operations and running profitable businesses of any kind."
+  ]
+}

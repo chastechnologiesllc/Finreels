@@ -1,0 +1,312 @@
+{
+  "categoryId": "profession_05_accounting",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCOVYQamvkiM8_aCGw6nQ7xg",
+      "name": "Value Pricing Academy",
+      "handle": "@ValuePricingAcademy",
+      "description": "Ron Baker's channel on value-based pricing — replacing hourly billing with fixed, value-aligned pricing models. Revolutionary approach to accounting firm profitability that helps Nigerian accountants move from commoditized compliance work to premium advisory services.",
+      "accentColor": "0xFF2563EB",
+      "initials": "VP",
+      "focus": "Value pricing, fixed fees, and accounting firm profitability",
+      "region": "Global",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified channel from prior profession_05 pass."
+    },
+    {
+      "id": "UC3gq--uR2KSrKb5yFLRdvKQ",
+      "name": "Corvee (formerly Andrew Argue, CPA)",
+      "handle": "@AndrewArgueCPA",
+      "description": "Andrew Argue — CPA who scaled a modern accounting firm and now teaches other accountants how to build, price, and systematize an accounting practice. Covers firm growth, client acquisition, tax planning niches, and building a location-independent accounting business.",
+      "accentColor": "0xFFD97706",
+      "initials": "CV",
+      "focus": "Accounting firm growth, tax planning niches, and modern practice building",
+      "region": "Global",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified channel from prior profession_05 pass."
+    },
+    {
+      "id": "UCbyI83sd_j3FLBiViYAQKHw",
+      "name": "Long for Success, LLC",
+      "handle": "@LongforSuccess",
+      "description": "Practical accounting firm growth content — covering business advisory services, client retention, staffing, systems, and the operational challenges of scaling an accounting practice. Grounded, real-world content for accountants building serious firms.",
+      "accentColor": "0xFF16A34A",
+      "initials": "LS",
+      "focus": "Accounting firm operations, staffing, and client advisory services",
+      "region": "Global",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified channel from prior profession_05 pass."
+    },
+    {
+      "id": "UCtYFvS9h6iYkaxUh4fcrxvQ",
+      "name": "ICAN Nigeria",
+      "handle": "@ICANigeria",
+      "description": "The Institute of Chartered Accountants of Nigeria — the pre-eminent professional accounting body in Nigeria since 1965. Channel covers ACA/FCA examinations, professional development, accounting standards, and the business environment for Nigerian accountants. Essential for ICAN-certified professionals.",
+      "accentColor": "0xFF0891B2",
+      "initials": "IC",
+      "focus": "ICAN examination, Nigerian accounting standards, and professional development",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCtYFvS9h6iYkaxUh4fcrxvQ confirmed via search in prior session — ICAN Nigeria YouTube channel identified from multiple Nigerian accounting directories. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCtYFvS9h6iYkaxUh4fcrxvQ"
+    },
+    {
+      "id": "UCSeMv47DTcNzDueivGQOEYQ",
+      "name": "Intuit Accountants",
+      "handle": "@intuitaccountants",
+      "description": "Intuit Accountants (Firm of the Future) — Intuit's channel for accounting and tax professionals. Covers ProAdvisor certification, QuickBooks adoption, practice management, and the business of running a modern accounting firm. 'Helping accounting and tax professionals save time, grow their practice and serve as trusted advisors.'",
+      "accentColor": "0xFFF59E0B",
+      "initials": "IA",
+      "focus": "QuickBooks, accounting tech, and modern accounting practice management",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCSeMv47DTcNzDueivGQOEYQ confirmed via direct fetch. Handle @intuitaccountants. About: 'Helping accounting and tax professionals save time, grow their practice and serve as trusted advisors.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCSeMv47DTcNzDueivGQOEYQ"
+    },
+    {
+      "id": "UC00MExfC3vuP9680IUW0jLA",
+      "name": "Hector Garcia CPA",
+      "handle": "@HectorGarciaCPA",
+      "description": "Hector Garcia — practicing CPA and the world's most-watched QuickBooks tutorial creator. Shares deep QuickBooks Online and Desktop tutorials, accounting workflow automation, and how to build an efficient accounting practice using technology. Essential for accountants who serve small businesses.",
+      "accentColor": "0xFF047857",
+      "initials": "HG",
+      "focus": "QuickBooks tutorials, bookkeeping workflows, and accounting technology",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UC00MExfC3vuP9680IUW0jLA confirmed via direct fetch of youtube.com/@HectorGarciaCPA. Handle @HectorGarciaCPA. About: 'Hector Garcia, CPA sharing about QuickBooks and Accounting Videos.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC00MExfC3vuP9680IUW0jLA"
+    },
+    {
+      "id": "UC0L18TlrAa3Ym4WfiVAtA3w",
+      "name": "AICPA",
+      "handle": "@AICPAMultiMedia",
+      "description": "American Institute of CPAs — the world's largest accounting body. Their channel provides continuing education, CPA exam updates, practice management resources, and professional standards for accountants globally. A reference for any serious accounting professional regardless of country.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "AI",
+      "focus": "CPA continuing education, accounting standards, and professional development",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UC0L18TlrAa3Ym4WfiVAtA3w confirmed via direct fetch of youtube.com/user/aicpamultimedia. Handle @AICPAMultiMedia. About: 'Combining AICPA and CIMA — empower CPAs and CGMA holders.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC0L18TlrAa3Ym4WfiVAtA3w"
+    },
+    {
+      "id": "UC1Hsdln0VVAViDyFjuoOCzQ",
+      "name": "Accounting Today",
+      "handle": "@accountingtodayofficial",
+      "description": "Accounting Today — the leading information resource for public accountants serving the community of professionals providing tax prep, bookkeeping, auditing, and business advisory to individuals and small businesses. Covers accounting firm news, M&A, technology adoption, and profession trends.",
+      "accentColor": "0xFFDB2777",
+      "initials": "AT",
+      "focus": "Accounting firm industry news, trends, and professional resources",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UC1Hsdln0VVAViDyFjuoOCzQ confirmed via direct fetch — youtube.com/@accountingtodayofficial/videos. Handle @accountingtodayofficial. About: 'Accounting Today is the leading information resource for public accountants.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC1Hsdln0VVAViDyFjuoOCzQ"
+    },
+    {
+      "id": "UCYJLdSmyKoXCbnd-pklMn5Q",
+      "name": "Accounting Stuff",
+      "handle": "@AccountingStuff",
+      "description": "James Hearle — Big 4 trained accountant from the UK with 1M+ subscribers and 200+ free tutorials since 2018. Covers accounting fundamentals (debits/credits, journal entries, financial statements, ratio analysis) with exceptional clarity. Ideal for Nigerian accounting students and small business owners learning the basics.",
+      "accentColor": "0xFF92400E",
+      "initials": "AS",
+      "focus": "Accounting fundamentals, bookkeeping, and financial statement education",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCYJLdSmyKoXCbnd-pklMn5Q confirmed via VidIQ stats page (vidiq.com/youtube-stats/channel/UCYJLdSmyKoXCbnd-pklMn5Q/) and YouTube community URL. Handle @AccountingStuff. Confirmed: James Hearle, Big 4 background, 1M+ subscribers since 2018. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCYJLdSmyKoXCbnd-pklMn5Q"
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "CPA Trendlines",
+      "url": "https://www.cpatrendlines.com/feed",
+      "region": "Global",
+      "focus": "CPA firm market data, benchmarks, and accounting profession trends",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified blog from prior profession_05 pass. RSS confirmed at cpatrendlines.com/feed."
+    },
+    {
+      "name": "Accounting Today",
+      "url": "https://www.accountingtoday.com/feed",
+      "region": "Global",
+      "focus": "Accounting firm industry news, M&A, tech adoption, and profession changes",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to verified Accounting Today YouTube channel. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Going Concern",
+      "url": "https://goingconcern.com/feed",
+      "region": "Global",
+      "focus": "Accounting firm culture, career, industry news, and Big 4 developments",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Going Concern is the #1 irreverent accounting news site. RSS at standard /feed/ path on goingconcern.com."
+    },
+    {
+      "name": "Journal of Accountancy (AICPA)",
+      "url": "https://www.journalofaccountancy.com/rss.html",
+      "region": "Global",
+      "focus": "CPA technical guidance, tax law, standards, and practice management",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Official publication of the verified AICPA YouTube channel. Journal of Accountancy (est. 1905) is the world's most authoritative CPA publication. RSS at /rss.html."
+    },
+    {
+      "name": "Firm of the Future",
+      "url": "https://www.firmofthefuture.com/feed",
+      "region": "Global",
+      "focus": "Modern accounting practice technology, QuickBooks, and firm growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Intuit's Firm of the Future blog — companion to verified Intuit Accountants YouTube channel. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Accounting Stuff Blog",
+      "url": "https://accountingstuff.com/feed",
+      "region": "Global",
+      "focus": "Accounting fundamentals, bookkeeping cheat sheets, and beginner guides",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to verified Accounting Stuff YouTube channel (James Hearle). RSS at standard /feed/ path on accountingstuff.com."
+    },
+    {
+      "name": "ICAN Nigeria News",
+      "url": "https://ican.org.ng/feed",
+      "region": "Nigeria",
+      "focus": "ICAN news, accountancy developments, and Nigerian accounting profession updates",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to the verified ICAN Nigeria YouTube channel. Official ICAN website at ican.org.ng. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "region": "Nigeria",
+      "focus": "Accounting business ideas and bookkeeping startup guides for Nigerian entrepreneurs",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "RSS validated in prior skill integrations. Nigerian entrepreneurship publication with accounting-specific content."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "region": "Nigeria",
+      "focus": "Accounting firm startup guides and bookkeeping business ideas in Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "RSS validated in skill_08 and skill_17. Nigerian entrepreneurship blog with accounting profession content."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free PDF at f5fp.com — build business systems so your accounting practice runs without you",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free PDF confirmed at f5fp.com. Foundational text on the technician-to-business-owner transition — directly applicable to healthcare/professional-service entrepreneurs.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter at mikemichalowicz.com — take profit before expenses to build a financially healthy accounting business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free chapter confirmed at mikemichalowicz.com. Recommended by professional practice coaches and healthcare business advisors.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/the-lean-startup/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at bdebooks.com — test and validate your accounting business model before committing capital",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free access confirmed at bdebooks.com. Applies to launching new practice models, service lines, or professional consulting branches.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — finance, marketing, HR, and operations fundamentals for running a professional practice",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Peer-reviewed open textbook published by OpenStax (Rice University). Freely available online. Used in verified prior skill integrations.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — from idea to launch to scale for professional service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Peer-reviewed open textbook published by OpenStax (Rice University). Freely available online. Covers business planning, funding, and growth frameworks.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free guides at hubspot.com/resources — social media, SEO, and lead generation for professional service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot free resource library confirmed active at hubspot.com/resources. Used in verified prior skill integrations.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at sba.gov — step-by-step roadmap for legally registering and launching a professional practice",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free official US government resource. Universally applicable for launching a licensed professional service business anywhere.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification at HubSpot Academy — attract patients or clients to your practice through content and SEO",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free industry-recognized certification confirmed at HubSpot Academy. Used in verified prior skill integrations.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — management fundamentals for professionals building and leading a team",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Peer-reviewed open textbook published by OpenStax (Rice University). Freely available online. Covers planning, organizing, leading, and controlling a professional team.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

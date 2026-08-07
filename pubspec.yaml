@@ -1,0 +1,77 @@
+name: finreels
+description: FinReels - Financial Literacy Video Hub by chAs Tech Group
+publish_to: none
+version: 1.0.0+7
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  xml: ^6.5.0
+  connectivity_plus: ^6.0.5
+  google_mobile_ads: ^5.3.0
+  # Billing library 8.0.0 is required by Google Play from Aug 31, 2026.
+  # Constraint loosened to allow the version that targets billing 8 natively;
+  # the build.gradle resolutionStrategy forces billing 8 as a belt-and-suspenders
+  # guard while the plugin publishes its own update.
+  in_app_purchase: ^3.2.0
+  in_app_purchase_storekit: ^0.3.17
+  flutter_local_notifications: ^18.0.1
+  workmanager: ^0.5.2
+  shared_preferences: ^2.3.2
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.1
+  provider: ^6.1.2
+  shimmer: ^3.0.0
+  timeago: ^3.6.1
+  share_plus: ^10.0.2
+  flutter_animate: ^4.5.0
+  package_info_plus: ^8.1.0
+  webview_flutter: ^4.10.0
+  webview_flutter_android: ^4.3.0
+  webview_flutter_wkwebview: ^3.18.0
+  in_app_review: ^2.0.9
+  # ── Content & Performance Overhaul ───────────────────────────────────────────
+  # YouTube in-app playback — iFrame Player API, no API key, Android + iOS
+  youtube_player_flutter: ^9.1.1
+  # Inline feed auto-play: fires when card is >50% visible
+  visibility_detector: ^0.4.0+2
+  # Blog / article inline web renderer with navigation interception
+  flutter_inappwebview: ^6.1.5
+  # EPUB in-app reader (Epub.js engine); URL/file/assets, CFI, scrolled flow
+  flutter_epub_viewer: ^1.0.4
+  # Reading progress persistence (CFI for EPUB)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  # Bundled local PDF books (Five Buckets masterclass playbooks)
+  flutter_pdfview: ^1.4.0+1
+  # App-internal file storage — used by PdfDownloadService to cache downloaded
+  # PDFs. No extra Android/iOS permissions needed for the app documents dir.
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/sounds/
+    - assets/books/
+    - assets/data/
+    - assets/data/resources/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "assets/icons/app_icon_bg.png"
+  adaptive_icon_foreground: "assets/icons/app_icon_fg.png"
+  min_sdk_android: 23

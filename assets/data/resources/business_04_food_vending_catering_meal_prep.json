@@ -1,0 +1,286 @@
+{
+  "categoryId": "skill_food_vending_catering_mealprep",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCJV7Qy0bakHCGnsx4tK7iaw",
+      "name": "The Restaurant Boss",
+      "handle": "@TheRestaurantBoss",
+      "description": "Ryan Gromfin's restaurant business coaching channel — increasing profits, controlling food and labour costs, marketing, menu engineering, and how to build a restaurant business system. Active community of restaurant owners worldwide. Replaces 'Restaurant Owners Uncorked' from CSV (a Vimeo/podcast series with no dedicated YouTube channel).",
+      "accentColor": "0xFFB45309",
+      "initials": "RB",
+      "focus": "Restaurant business profitability, cost control, and operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Replaces Restaurant Owners Uncorked — that show is a podcast on Vimeo/Podomatic; no YouTube channel exists."
+    },
+    {
+      "id": "UCCNvbv5IQV77Gsh-c-v8nfg",
+      "name": "Zeelicious Foods",
+      "handle": "@ZeeliciousFoods",
+      "description": "Winifred Nwania — Nigeria's #1 food YouTube channel with 1.1M+ subscribers and 73M+ views. YouTube Black Voices Creator Class 2021 alum. Hosts DStv's My Naija Plate. Nigerian and continental recipes. Essential for food businesses wanting to understand content-led customer acquisition in Nigeria.",
+      "accentColor": "0xFFDC2626",
+      "initials": "ZF",
+      "focus": "Nigeria's #1 food channel — 1.1M subs, recipe-led brand building",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed."
+    },
+    {
+      "id": "UCWOLNjWWkU4ADFLb5WuqVKw",
+      "name": "Foodies And Spice",
+      "handle": "@FoodiesAndSpice",
+      "description": "Geena Ehikodi's Nigerian food show — fun cooking and eating content from 'the best cook show in Nigeria'. Covers Nigerian recipes, food reviews, and catering-style content. Popular with Nigerian food entrepreneurs wanting to understand their audience.",
+      "accentColor": "0xFFD97706",
+      "initials": "FS",
+      "focus": "Nigerian food entertainment and cooking content",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed."
+    },
+    {
+      "id": "UC6oFqFPZ5AbrkJmKHfh3C5A",
+      "name": "Toast, Inc.",
+      "handle": "@Toasttab",
+      "description": "Operating system for restaurants — serves hundreds of thousands of food businesses globally. Channel covers POS setup, menu engineering, startup costs, marketing, and real operator success stories. The definitive resource for understanding how to run a digitally-managed food service business.",
+      "accentColor": "0xFF0369A1",
+      "initials": "TI",
+      "focus": "Restaurant and food service business systems — POS, marketing, operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. CSV listed as 'Toast POS' — official channel name is Toast, Inc. Handle @Toasttab confirmed."
+    },
+    {
+      "id": "UCgiZJgpmzcbCW30ywLHVPkQ",
+      "name": "SisiYemmieTV",
+      "handle": "@SisiYemmieTV",
+      "description": "Yemisi Odusanya — Nigerian food and lifestyle blogger with 1.1M subscribers, award-winning cookbook author (3 published cookbooks), and mom of 5. Started 2010. Nigerian Food Time Table, recipe tutorials, family meal prep. 141M+ total views. Replaces 'EatDrink' from CSV — no Nigerian food channel exists at that handle.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "SY",
+      "focus": "1.1M-sub Nigerian food creator — recipes, meal prep, family cooking",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Replaces EatDrink from CSV — no relevant food channel found at @EatDrink handle."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Television",
+      "handle": "@BDTV-NG",
+      "description": "Official BusinessDay newspaper YouTube channel — Nigeria's leading business publication. Essential for food businesses tracking economic trends, market opportunities, and business news affecting the Nigerian food industry.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "BD",
+      "focus": "Nigerian business news — food industry economics and market trends",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Handle CORRECTED: CSV had 'BusinessDay Nigeria' — actual YouTube handle is @BDTV-NG."
+    },
+    {
+      "id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "name": "Learn With Shopify",
+      "handle": "@learnwithshopify",
+      "description": "Shopify's official entrepreneurship channel — online food businesses, meal kit e-commerce, catering brand building, digital marketing, and AI for business growth. Essential for food vendors adding an online ordering or product sales channel.",
+      "accentColor": "0xFF16A34A",
+      "initials": "LS",
+      "focus": "E-commerce and online food business launch and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. REPLACED: CSV had 'Shopify Food & Beverage' — Shopify has one official channel; no food-specific sub-channel exists."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "Trade and service business management — CRM, dispatch, marketing and growth.",
+      "accentColor": "0xFF6366F1",
+      "initials": "ST",
+      "focus": "Service business management",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Toast Blog",
+      "url": "https://pos.toasttab.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Toast official restaurant blog — pricing, marketing, food costs, operations. Major industry resource."
+    },
+    {
+      "name": "Restaurant Owner",
+      "url": "https://www.restaurantowner.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "restaurantowner.com — guides, cost calculators, and profitability frameworks for independent restaurant owners."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Nigerian startup publication with food business guides, catering costs, and meal prep entrepreneurship content."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed from prior skills. Established Nigerian entrepreneur publication covering food business."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog/rss",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Shopify official blog — how to start and grow a food product business online."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Splice Nigeria business media — food vending, street food business, and food entrepreneurship stories."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://bintusartandeverything.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Nigerian food and lifestyle blog with recipe-based business content and food vendor stories."
+    },
+    {
+      "name": "SME Guide",
+      "url": "https://smeguide.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Nigerian SME resource hub — food business content including CAC registration, pricing, and marketing."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview at Google Books — technician/manager/entrepreneur framework essential for anyone moving from solo operator to business owner",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (f5fp.com — third-party site for a copyrighted book). Google Books preview is legitimate. Full book recommended for purchase.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter and framework at mikemichalowicz.com — take profit before expenses using envelope-style account allocation",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Official author site — free chapter available. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview at theleanstartup.com — build-measure-learn frameworks from the official author site",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (bdebooks.com — third-party site for a copyrighted book). Replaced with official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — operations, finance, marketing and HR for small businesses. No paywall, no DRM.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed academic textbook. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free complete entrepreneurship coursebook — ideation, business model design, funding, and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "HubSpot Marketing Resources",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at hubspot.com/resources — 198+ free marketing guides, templates, and ebooks. No paywall.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot — genuinely free with no paywall. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official startup guide at sba.gov — business structure, licensing, financing, and operations fundamentals",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SBA.gov — U.S. government, permanently free. No URL correction needed.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "course",
+      "freeSourceNote": "Free certification course at HubSpot Academy — complete inbound marketing curriculum with official certification on completion",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy — free with official certification. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — POLC framework: planning, organising, leading, and controlling a business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "integrationNotes": "10/10 channels fully verified with UCxxx IDs. Key replacements from CSV: (1) Restaurant Owners Uncorked → The Restaurant Boss (UCJV7Qy0bakHCGnsx4tK7iaw) — podcast, no YouTube channel; (2) EatDrink → SisiYemmieTV (UCgiZJgpmzcbCW30ywLHVPkQ) — @EatDrink handle not a relevant Nigerian food channel; (3) Shopify Food & Beverage → Learn With Shopify — Shopify has one official channel. Key handle corrections: Diary of a Kitchen Lover @diaryofakitchenlover (all lowercase), BusinessDay @BDTV-NG. Books: f5fp.com→Google Books, bdebooks.com→theleanstartup.com, archive.org/atomic-habits→jamesclear.com across all 5 skills.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

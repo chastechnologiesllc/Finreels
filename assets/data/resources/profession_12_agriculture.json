@@ -1,0 +1,319 @@
+{
+  "categoryId": "profession_12_agriculture",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCFTyooWNsbzRBtOBYfGbELg",
+      "name": "Nigeria Agribusiness Group (NABG)",
+      "handle": "@nabg_ng",
+      "description": "The umbrella private-sector platform for Nigeria's agribusiness sector — policy commentary and business content across the entire value chain, from smallholder farmers to export markets and food manufacturing.",
+      "accentColor": "0xFF16A34A",
+      "initials": "NG",
+      "focus": "Nigerian agribusiness sector policy & business",
+      "verifiedOn": "2026-07-14",
+      "verificationMethod": "Fetched the channel page directly; About section matches NABG's own website (nabg.ng) and X account (@NABG_ng) word for word — strong cross-platform handle consistency. Matches the founder's #2 candidate exactly. Could not cleanly confirm the founder's #1 candidate ('Agri Channel') this round — the name collides with unrelated Japanese and Italian gardening channels on YouTube, and the real agrichannelng.com's specific channel wasn't pinned down with confidence, so left out rather than guess which result was theirs."
+    },
+    {
+      "id": "",
+      "name": "Thrive Agric",
+      "handle": "@ThriveAgric",
+      "description": "Agricultural investment, scaling, and agribusiness operations",
+      "accentColor": "0xFF3B82F6",
+      "initials": "TA",
+      "focus": "Agricultural investment, scaling, and agribusiness operations",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Agric TV",
+      "handle": "@AgricTVNigeria",
+      "description": "Nigerian agriculture, agribusiness, and farming realities",
+      "accentColor": "0xFF3B82F6",
+      "initials": "AT",
+      "focus": "Nigerian agriculture, agribusiness, and farming realities",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "FAO (UN)",
+      "handle": "@FAOoftheUN",
+      "description": "Global food security, agribusiness standards, and sustainability",
+      "accentColor": "0xFF3B82F6",
+      "initials": "F",
+      "focus": "Global food security, agribusiness standards, and sustainability",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "IFAD",
+      "handle": "@IFAD",
+      "description": "Rural poverty, agricultural investment, and farming business",
+      "accentColor": "0xFF3B82F6",
+      "initials": "I",
+      "focus": "Rural poverty, agricultural investment, and farming business",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Modern Farmer",
+      "handle": "@ModernFarmerMag",
+      "description": "Commercial farming business, equipment, and ag-economics",
+      "accentColor": "0xFF3B82F6",
+      "initials": "MF",
+      "focus": "Commercial farming business, equipment, and ag-economics",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "TechCabal",
+      "handle": "@TechCabal",
+      "description": "African agri-tech startups, funding, and ecosystem coverage",
+      "accentColor": "0xFF3B82F6",
+      "initials": "T",
+      "focus": "African agri-tech startups, funding, and ecosystem coverage",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "BusinessDay",
+      "handle": "@BusinessDayNG",
+      "description": "Nigerian agriculture, FMCG, and agribusiness sector news",
+      "accentColor": "0xFF3B82F6",
+      "initials": "B",
+      "focus": "Nigerian agriculture, FMCG, and agribusiness sector news",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "AgriFarming",
+      "handle": "@AgriFarming",
+      "description": "Commercial farming techniques, yields, and profit margins",
+      "accentColor": "0xFF3B82F6",
+      "initials": "A",
+      "focus": "Commercial farming techniques, yields, and profit margins",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Afrimash",
+      "url": "https://afrimash.com/feed",
+      "verifiedOn": "2026-07-14",
+      "verificationMethod": "Found via broader search beyond the founder's named candidates. Real Nigerian agricultural marketplace/blog (poultry, fish, agricultural items) with an exact feed URL confirmed via FeedSpot's Nigeria Farming RSS directory."
+    },
+    {
+      "name": "Agriculture Nigeria",
+      "url": "https://agricultureng.com/",
+      "description": "Nigerian agricultural market, policies, and agribusiness news",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Farmcrowdy Blog",
+      "url": "https://blog.farmcrowdy.com/",
+      "description": "Nigerian agri-tech market insights and farm business",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Thrive Agric Blog",
+      "url": "https://thriveagric.com/blog/",
+      "description": "Agricultural investment and agribusiness operations",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "FAO News",
+      "url": "https://www.fao.org/newsroom/en/",
+      "description": "Global food security, agribusiness standards, and markets",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Modern Farmer",
+      "url": "https://modernfarmer.com/",
+      "description": "Commercial farming business, equipment, and ag-economics",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/",
+      "description": "African agri-tech startups and ecosystem coverage",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Entrepreneurs.ng Agric",
+      "url": "https://entrepreneurs.ng/",
+      "description": "Agribusiness guide, capital tiers, and profit margins",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Splice Agric Setup",
+      "url": "https://splice.com.ng/",
+      "description": "Farm business plan and agricultural setup guides",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    }
+  ],
+  "books": [
+    {
+      "title": "Setting Up A Poultry Farming Business",
+      "author": "Lagos State Employment Trust Fund (LSETF)",
+      "freeSourceUrl": "https://lsetf.ng/sites/default/files/Setting%20up%20a%20Poultry%20Business%20in%20Nigeria_0.pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free direct PDF, hosted on the official Lagos State Employment Trust Fund site, no signup required",
+      "verifiedOn": "2026-07-14",
+      "verificationMethod": "Found via broader search since the founder's own research found no confident free candidate. Hosted directly on lsetf.ng, a real Lagos State Government agency — covers value chain, market analysis, financials, and feed sourcing specifically for the Nigerian market. More institutionally credible than the many 'free ebook' poultry guides found elsewhere, several of which turned out to be paid ($7) products marketed misleadingly as free, or user-uploaded business-plan templates of uncertain origin — both correctly excluded.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781456552640-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Michael E. Gerber (Free PDF)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Mike Michalowicz (Free Book)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Eric Ries (Free PDF)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "HubSpot Academy",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "download",
+      "freeSourceNote": "SBA.gov",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "HubSpot Academy",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    }
+  ],
+  "notes": "Matches the founder's own honest finding — the first profession where Nigeria's content ecosystem is genuinely rich rather than thin. FinReels' edge here is curation and structure, not filling a void.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

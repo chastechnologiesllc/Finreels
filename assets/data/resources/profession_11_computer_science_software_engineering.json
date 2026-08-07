@@ -1,0 +1,321 @@
+{
+  "categoryId": "profession_11_computer_science_software_engineering",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UC36zt_eM_gZQXayw_pAdASg",
+      "name": "Indie Hackers",
+      "handle": "@indiehackers9840",
+      "description": "The official YouTube presence of Indie Hackers, Courtland Allen's community of developers turning code into standalone products and small businesses. Courtland himself appears mostly as a guest on OTHER channels (Y Combinator, egghead.io) rather than hosting his own regularly — this official channel is the more reliable long-term reference.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "IH",
+      "focus": "Developers building products/businesses, not just freelancing",
+      "verifiedOn": "2026-07-14",
+      "verificationMethod": "Confirmed the same channel ID via two independent lookups (direct channel URL and the @indiehackers9840 handle). Lower confidence than most entries this session since no About-section description came through either time — worth a manual spot-check of upload activity before fully trusting it."
+    },
+    {
+      "id": "",
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "description": "Rapid tech tutorials, SaaS business, and dev economics",
+      "accentColor": "0xFF3B82F6",
+      "initials": "F",
+      "focus": "Rapid tech tutorials, SaaS business, and dev economics",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Traversy Media",
+      "handle": "@TraversyMedia",
+      "description": "Web dev freelancing, agency scaling, and business advice",
+      "accentColor": "0xFF3B82F6",
+      "initials": "TM",
+      "focus": "Web dev freelancing, agency scaling, and business advice",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "freeCodeCamp",
+      "handle": "@freecodecamp",
+      "description": "Open-source dev education and tech career business",
+      "accentColor": "0xFF3B82F6",
+      "initials": "F",
+      "focus": "Open-source dev education and tech career business",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "AltSchool Africa",
+      "handle": "@AltSchoolAfrica",
+      "description": "African software engineering education and tech business",
+      "accentColor": "0xFF3B82F6",
+      "initials": "AA",
+      "focus": "African software engineering education and tech business",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "TechCabal",
+      "handle": "@TechCabal",
+      "description": "African tech, startup funding, and dev ecosystem coverage",
+      "accentColor": "0xFF3B82F6",
+      "initials": "T",
+      "focus": "African tech, startup funding, and dev ecosystem coverage",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Andela",
+      "handle": "@Andela",
+      "description": "African developer talent, outsourcing, and B2B tech business",
+      "accentColor": "0xFF3B82F6",
+      "initials": "A",
+      "focus": "African developer talent, outsourcing, and B2B tech business",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "InfoQ",
+      "handle": "@InfoQ",
+      "description": "Enterprise software architecture and engineering management",
+      "accentColor": "0xFF3B82F6",
+      "initials": "I",
+      "focus": "Enterprise software architecture and engineering management",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Honeypotio",
+      "handle": "@Honeypotio",
+      "description": "Developer culture, tech business, and engineering documentaries",
+      "accentColor": "0xFF3B82F6",
+      "initials": "H",
+      "focus": "Developer culture, tech business, and engineering documentaries",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "freeCodeCamp News",
+      "url": "https://www.freecodecamp.org/news/",
+      "description": "Developer career, tech business, and open-source articles",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/",
+      "description": "Developer community with business, freelancing, and SaaS discussions",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/",
+      "description": "Developer blogging platform with tech business content",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/",
+      "description": "Engineering management, dev economics, and industry trends",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "GitHub Blog",
+      "url": "https://github.blog/",
+      "description": "Open-source business, dev tools, and software economics",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/",
+      "description": "African tech startup news and developer ecosystem",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "AltSchool Africa Blog",
+      "url": "https://altschoolafrica.com/blog",
+      "description": "Software engineering education and tech career in Africa",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Andela Blog",
+      "url": "https://andela.com/blog/",
+      "description": "Global tech talent, outsourcing, and B2B dev business",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Entrepreneurs.ng Tech",
+      "url": "https://entrepreneurs.ng/",
+      "description": "Software engineering business guide, capital, and margins",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Michael E. Gerber (Free PDF)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Mike Michalowicz (Free Book)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Eric Ries (Free PDF)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/computing",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "HubSpot Academy",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "download",
+      "freeSourceNote": "SBA.gov",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "HubSpot Academy",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Matches the founder's own honest finding, with more nuance: Nigeria has real, current, well-developed content here (Business Elites Africa, WithinNigeria, Writertain Creatives, Anutio) but it teaches freelancing logistics (which platforms pay in dollars, which payment rails avoid conversion loss) — not the further step of turning that income into a product or agency, which is what this category needs. Business Elites Africa's specific RSS feed could not be confirmed this round (a broader Nigeria-business RSS search surfaced many real adjacent blogs but not this exact one) — worth a direct, narrower search rather than guessing. On books: both candidates (The SaaS Playbook, Company of One) are commercially paid; the only 'free' copies found were on piracy sites (Yumpu, Scribd re-uploads) or were third-party paid summary services (Shortform, Four Minute Books) rather than the actual free book — neither counts, so left at 0 rather than substitute either.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

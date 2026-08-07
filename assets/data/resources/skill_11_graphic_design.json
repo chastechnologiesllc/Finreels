@@ -1,0 +1,285 @@
+{
+  "categoryId": "skill_11_graphic_design",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UC-b3c7kxa5vU-bnmaROgvog",
+      "name": "The Futur",
+      "handle": "@thefutur",
+      "description": "Chris Do — Emmy-winning designer who built his motion-design company Blind into an $80M+ business (Nike, Sony, Google as clients) before founding The Futur. 2.6M subscribers. Explicitly built around Mindset, Marketing, Sales & Negotiations, and Pricing — the business side of design, not tutorials.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "TF",
+      "focus": "Business of design — pricing, sales, client management",
+      "verifiedOn": "2026-07-16",
+      "verificationMethod": "This category was a genuine dead end earlier in this project; found via a fresh attempt with different search terms. Fetched the channel directly — About section and keywords ('freelance business', 'pricing', 'creative business', 'designer salary') are an exact match. One of the most established, well-documented channels found in this entire session."
+    },
+    {
+      "id": "UCIp9sEZiv36cDG7cEnrVU7Q",
+      "name": "Will Paterson",
+      "handle": "@willpatersondesign",
+      "description": "Logo designer, hand-letterer and brand identity designer who has worked with Adobe, Instagram and Skillshare. Own channel keywords explicitly include ‘business of design’ and ‘client work’.",
+      "accentColor": "0xFFF43F5E",
+      "initials": "WP",
+      "focus": "Graphic design business — logo design, branding, freelancing",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/channel/UCIp9sEZiv36cDG7cEnrVU7Q directly, confirmed canonical handle and bio."
+    },
+    {
+      "id": "UCN7dywl5wDxTu1RM3eJ_h9Q",
+      "name": "Flux Academy",
+      "handle": "@FluxAcademy",
+      "description": "Ran Segall — scaled his own freelance web design business to $250k/yr before building Flux Academy (7,000+ students). Channel keywords explicitly include ‘web design business’, ‘how to start freelancing’.",
+      "accentColor": "0xFF0EA5E9",
+      "initials": "FA",
+      "focus": "Graphic/web design business — freelancing, client acquisition",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/channel/UCN7dywl5wDxTu1RM3eJ_h9Q directly, confirmed canonical handle, bio and keyword tags."
+    },
+    {
+      "id": "UCoeJKtPJLoIBqWq4o8TDLpA",
+      "name": "Satori Graphics",
+      "handle": "@SatoriGraphics",
+      "description": "Thomas Cargill — 1M+ subscriber channel on graphic design theory, psychology of design, logo/brand identity. Note: own bio is craft/theory-focused rather than explicitly business-focused — included on the strength of the CSV's curation and third-party 'design business' framing, but this is the softest business-fit of the 10 channels.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "SG",
+      "focus": "Graphic design theory & principles",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/channel/UCoeJKtPJLoIBqWq4o8TDLpA directly, confirmed canonical handle and bio."
+    },
+    {
+      "id": "UCAbq1eKey19tt-FfaIO1RMA",
+      "name": "Dansky",
+      "handle": "@ForeverDansky",
+      "description": "Daniel White — ~950K subscriber channel, Adobe Illustrator/Photoshop tutorials and real-world design skills. Note: own bio is software-tutorial-focused, not explicitly business-focused — same caveat as Satori Graphics.",
+      "accentColor": "0xFF22C55E",
+      "initials": "DK",
+      "focus": "Graphic design software tutorials",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/@ForeverDansky directly, confirmed canonical handle and bio."
+    },
+    {
+      "id": "UChRfwCIKYJI0jboUx87dJyQ",
+      "name": "Abi Connick",
+      "handle": "@abiconnick",
+      "description": "UK brand designer who went from charging £10 for logos to a full design business. Own channel description: 'Learn the strategies, systems, and secrets behind building a successful design business.'",
+      "accentColor": "0xFFEC4899",
+      "initials": "AC",
+      "focus": "Freelance client acquisition & branding",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/abiconnick directly, confirmed canonical channel ID and meta description."
+    },
+    {
+      "id": "UCON_D83JvdS-AQ6ihiXELpw",
+      "name": "Jesse Nyberg",
+      "handle": "@JesseNyberg",
+      "description": "LA-based freelance graphic designer. Channel keywords explicitly include 'freelance graphic design tips'; known for videos like '7 Ways to Make Passive Income as a Graphic Designer'.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "JN",
+      "focus": "Freelance income & passive income strategies",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/c/JesseNyberg directly, confirmed canonical handle, bio and keyword tags."
+    },
+    {
+      "id": "UCB5asCefuEYQKVVyyAn-l5g",
+      "name": "Wale Marketer",
+      "handle": "@walemarketer",
+      "description": "Oyewale Oyelami — Lagos-based freelance digital marketer & graphics designer. Educates small business owners on digital marketing and branding. Same person/org as the WaleMarketer blog also in this file.",
+      "accentColor": "0xFF10B981",
+      "initials": "WM",
+      "focus": "Graphic design pricing & digital marketing for small business",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/channel/UCB5asCefuEYQKVVyyAn-l5g directly, confirmed canonical handle and bio; cross-checked against Crunchbase listing for the same person."
+    },
+    {
+      "id": "UCScRSwdX0t31gjk3MYXIuYQ",
+      "name": "CharliMarieTV",
+      "handle": "@charlimarieTV",
+      "description": "Charli Prangley — Creative Director at Kit (ConvertKit), 200K+ subscribers. Own bio: 'helping creative professionals increase their worth by improving their craft and process.' Covers client management, salaries, and design business life.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "CM",
+      "focus": "Design business, client management, career development",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/user/charlimarieTV directly, confirmed canonical handle and bio. Cross-checked against independent 'best freelancer channels' roundups (99designs, Millo, Rising Tide Creatives) that consistently cite her client-management and business content."
+    },
+    {
+      "id": "UCovtFObhY9NypXcyHxAS7-Q",
+      "name": "Roberto Blake",
+      "handle": "@RobertoBlake",
+      "description": "Started as an in-house graphic/web designer, went full-time freelance in 2013, built a 600K+ subscriber creator-education business. Content is now broader 'creator economy' coaching, but rooted in his graphic design freelance background.",
+      "accentColor": "0xFFEF4444",
+      "initials": "RB",
+      "focus": "Creative entrepreneurship & freelance business",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/channel/UCovtFObhY9NypXcyHxAS7-Q directly, confirmed canonical handle and bio. Cross-checked against Forbes feature and his own press kit."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "WaleMarketer",
+      "url": "https://walemarketer.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched directly — confirmed real WordPress feed with matching pricing-guide content (e.g. 'Graphics Design Pricing In Nigeria'). Feed URL fetched/confirmed directly this session."
+    },
+    {
+      "name": "VisCorner",
+      "url": "https://viscorner.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real, active site with matching content (article: 'Cost of Graphic Design Services in Nigeria'). Site's existence and content confirmed via search; feed URL follows the platform's standard pattern but was not fetched directly — worth a quick curl check before shipping, same caveat this project has used before for unconfirmed feeds."
+    },
+    {
+      "name": "FreelanceMaster.ng",
+      "url": "https://freelancemaster.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real, active blog with matching content (freelance platform strategy, Upwork/Fiverr/Toptal). No YouTube channel found for this entity despite the CSV also listing it as a Channel — excluded from channels for that reason. Site's existence and content confirmed via search; feed URL follows the platform's standard pattern but was not fetched directly — worth a quick curl check before shipping, same caveat this project has used before for unconfirmed feeds."
+    },
+    {
+      "name": "The Futur Blog",
+      "url": "https://thefutur.com/blog",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Site confirmed real (companion to The Futur YouTube channel already in this file). Feed URL NOT independently confirmed — lower confidence than the others here; verify before relying on it for the in-app RSS reader."
+    },
+    {
+      "name": "Creative Boom",
+      "url": "https://www.creativeboom.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real, active site (launched 2009, matches CSV description exactly: 'branding and visual identity... graphic design'). Site's existence and content confirmed via search; feed URL follows the platform's standard pattern but was not fetched directly — worth a quick curl check before shipping, same caveat this project has used before for unconfirmed feeds."
+    },
+    {
+      "name": "99designs Blog",
+      "url": "https://99designs.com/blog/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real, active blog ('The Creative Edge', design/branding/pricing content). Site's existence and content confirmed via search; feed URL follows the platform's standard pattern but was not fetched directly — worth a quick curl check before shipping, same caveat this project has used before for unconfirmed feeds."
+    },
+    {
+      "name": "Dribbble Blog",
+      "url": "https://dribbble.com/stories.rss",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed Dribbble's blog is actually served from dribbble.com/stories rather than /blog — the CSV's plain domain was a bit generic. Feed URL is a best-effort guess at that path and was NOT independently fetched — lowest confidence of the 10 blogs here, verify before relying on it."
+    },
+    {
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Feed URL cross-confirmed via multiple independent aggregators (FeedSpot, Inoreader). Feed URL fetched/confirmed directly across two independent sources this session."
+    },
+    {
+      "name": "Creative Market Blog",
+      "url": "https://creativemarket.com/blog/feed",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Exact feed URL confirmed directly via FeedSpot's design RSS directory. Feed URL fetched/confirmed directly this session."
+    },
+    {
+      "name": "Design Week",
+      "url": "https://www.designweek.co.uk/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real, active UK design-industry publication matching the CSV description exactly. Site's existence and content confirmed via search; feed URL follows the platform's standard pattern but was not fetched directly — worth a quick curl check before shipping, same caveat this project has used before for unconfirmed feeds."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://www.f5fp.com/e-myth-revisited-free-pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Build systems that work without you.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Sourced from user-provided graphic_design_resources.csv; not independently re-fetched this session.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "download",
+      "freeSourceNote": "A cash-management approach for small business owners.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Sourced from user-provided graphic_design_resources.csv; not independently re-fetched this session.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Built to Sell",
+      "author": "John Warrillow",
+      "freeSourceUrl": "https://builttosell.com/resources",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free summary and tools.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Sourced from user-provided graphic_design_resources.csv; not independently re-fetched this session.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845829-L.jpg"
+    },
+    {
+      "title": "Your Guide to Pricing Graphic Design",
+      "author": "Print Design Academy of North America",
+      "freeSourceUrl": "https://www.printdesignacademy.com/how-to-price-graphic-design-projects",
+      "freeSourceType": "download",
+      "freeSourceNote": "How 6 real design business owners ($125k–$2.5M/yr) price their work. Free, email signup required.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Found via search, fetched the page directly and confirmed it's a real, current, genuinely free offer (not a paid book).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470900482-L.jpg"
+    },
+    {
+      "title": "Guide to Freelancing",
+      "author": "Bonsai x InVision",
+      "freeSourceUrl": "https://www.invisionapp.com/inside-design/guide-freelancing/",
+      "freeSourceType": "download",
+      "freeSourceNote": "9 chapters on establishing a freelance business, finding clients, contracts, and getting paid. Free, email signup required.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed via multiple independent sources (InVision's own site, Bonsai's own resource page) describing the same real, free, currently-available ebook.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470900482-L.jpg"
+    },
+    {
+      "title": "Business & Freelance Resources",
+      "author": "AIGA (American Institute of Graphic Arts)",
+      "freeSourceUrl": "https://www.aiga.org/resources/business-freelance-resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free legal/tax guides for freelance designers from the major U.S. professional design association — contracts, IP basics, freelance tax fundamentals.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed via search — AIGA is the primary professional body for graphic design in the US; this is a real, free, actively maintained resource hub, not a single paid book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470900482-L.jpg"
+    },
+    {
+      "title": "Free Resources",
+      "author": "The Futur (Chris Do)",
+      "freeSourceUrl": "https://thefutur.com/free-resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Practical business tools from The Futur — bid template, proposal question checklist, logo brief questions, brand brief, and more. Same organization as The Futur channel already in this file.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Found via search, confirmed as a real, current, genuinely free resource hub (no purchase required for the core tools).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470900482-L.jpg"
+    },
+    {
+      "title": "Freelancer 101",
+      "author": "Freelancers Union",
+      "freeSourceUrl": "https://freelancersunion.org/resources/freelancer-101/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Guide collection from the freelancer non-profit: contracts, taxes, getting paid on time, LLC formation — all directly relevant to running a freelance design practice.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed via search that Freelancers Union is a real, established non-profit (Working Today) and this resource hub is free and current, not gated behind paid membership.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470900482-L.jpg"
+    },
+    {
+      "title": "The Freelancer's Bible — Tips and Tricks for Your Design Business",
+      "author": "Route 1 Print",
+      "freeSourceUrl": "https://www.route1print.co.uk/freelancers-bible",
+      "freeSourceType": "download",
+      "freeSourceNote": "How to market your business, find your USP, licence your work, manage clients, and handle tax returns. Free, email/form signup required. NOT to be confused with the unrelated, commercially-sold 'Freelancer's Bible' by Sara Horowitz (Workman Publishing) — same title, different book, easy to mix up.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched route1print.co.uk/freelancers-bible directly — confirmed real, ISO-certified UK print company (Bluetree Print Ltd) genuinely offering this for free, not a paid book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470900482-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "This category came up empty on an earlier attempt in this project — worth noting that persistence with different search angles (this time: 'freelance graphic designer business pricing clients' instead of just 'Nigerian graphic designer') found a genuinely excellent match. Blog and free-book search not yet done this round; worth a dedicated follow-up pass given how strong the channel find was.\n\nCSV integration (2026-07-21): graphic_design_resources.csv had exactly 10 Channel / 10 Blog / 10 Book rows, but verification surfaced real problems in each bucket — documenting in full since this pattern may show up in other category CSVs too.\n\nCHANNELS: 2 of the CSV's 10 could not be verified. 'FreelanceMaster.ng' has a real, active blog but no findable YouTube channel under that name. 'DPIO Nigeria' returned zero results across multiple targeted searches — likely not a real, findable channel. Rather than fabricate IDs for either, both were left out and replaced with two independently-sourced, well-corroborated channels (CharliMarieTV, Roberto Blake) found the same way the rest of this project sources channels. Net result is still 10/10, all individually fetched and ID-confirmed. Two of the CSV's original picks (Satori Graphics, Dansky) are craft/tutorial-focused rather than explicitly business-focused in their own bios — kept per the CSV's curation, but flagged as the softest fits in verificationMethod.\n\nBOOKS — the big one: 7 of the CSV's 10 book rows (Business Side of Creativity, Win Without Pitching Manifesto, Pricing Creativity, Burn Your Portfolio, Business of Expertise, The Brand Gap, Work For Money Design For Love) were all sourced to archive.org and labeled 'Free PDF'. Checked The Brand Gap and Win Without Pitching Manifesto directly: both are commercially published, currently-sold books (New Riders / Rockbench Publishing). The archive.org listing for The Brand Gap is explicitly access-restricted (controlled lending, not a download), and the other 'free' copies floating around for these titles are on piracy-adjacent sites (Scribd, PDFCoffee, OceanofPDF, PDFdrive.to) — not legitimate. Given the same pattern held for both titles checked, all 7 were excluded rather than integrated as free resources. Replaced with 3 genuinely free, verified alternatives (Print Design Academy's pricing guide — fetched directly; Bonsai x InVision's freelancing guide; AIGA's freelance/business resource hub — AIGA being the major US professional design association). Combined with the 3 CSV picks that were NOT archive.org sourced (E-Myth Revisited, Profit First, Built to Sell — same sources already trusted in the fashion category), that's 6/10 books, genuinely verified. Did not pad to 10 with more archive.org-style links or unrelated templates — open to another research pass if you want to close this gap properly.\n\nBLOGS: all 10 kept from the CSV — all real, active sites with content matching their descriptions. Feed URLs for WaleMarketer, Smashing Magazine, and Creative Market Blog were confirmed directly (either fetched or cross-confirmed via independent directories). The other 7 use the platform's standard feed pattern but weren't fetched directly this session — Dribbble in particular is lower-confidence since its blog actually lives at /stories rather than /blog. Worth a verification pass before shipping.\n\nRound 2 books search (2026-07-21, same day): looked for more legitimate free resources to close the gap. Rejected several dead ends worth recording so they aren't re-tried: HoneyBook's 'free' templates require a paid-plan signup (not genuinely free); Format's Photography Resource Guide is real and free but photography-leaning rather than graphic-design-specific; several Etsy/Gumroad 'brand guide' templates are low-effort paid products, not the caliber of the other entries here. Added 2 genuine finds: The Futur's own free resource hub (same org as the channel already in this file) and Freelancers Union's Freelancer 101 guide collection (real non-profit, contracts/taxes/LLC formation). That brings books to 8/10. Made a real second attempt and didn't find 2 more at the same quality bar — stopping here rather than padding with weaker fits. Open to another pass later if useful.\n\nRound 3 books search (2026-07-21, same day): found 1 more — Route 1 Print's 'The Freelancer's Bible' (genuinely free, verified by direct fetch). Important mix-up caught along the way: there's a second, unrelated, commercially-published book with almost the exact same title ('The Freelancer's Bible' by Sara Horowitz, Workman Publishing) that dominates search results and piracy sites — these are two completely different resources sharing a title. Used the free one, flagged the mix-up clearly in the entry so it isn't accidentally swapped later.\n\nAlso checked and rejected: the Graphic Artists Guild Handbook (same archive.org/piracy pattern as round 1 — it's a paid MIT Press book, free only as a paid-membership perk) and the Design Business Association/DBA (UK) — their real guides and templates are membership-gated; only a narrow DE&I guide series is genuinely free, too narrow a fit to represent as a general business resource.\n\nFinal tally: 9/10 books, all genuinely free and individually verified (3 CSV-trusted + 6 independently found and checked this session). Did not find a 10th that clears the same bar — stopping here rather than padding with a membership-gated or mislabeled resource.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

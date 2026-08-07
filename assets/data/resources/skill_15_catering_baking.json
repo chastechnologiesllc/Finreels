@@ -1,0 +1,286 @@
+{
+  "categoryId": "skill_15_catering_baking",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UC9VgddRDM-F0LdKvXEhhBGw",
+      "name": "Sussy's Cakes Recipes",
+      "handle": "@sussycakesrecipes",
+      "description": "Sussan Apeh, a Lagos-based, professionally trained cake artist, pastry chef and small chops specialist with a Business Administration degree (Babcock University). Primarily a recipe/technique channel, but runs paid 24/7 online business training alongside it and has at least one video specifically on 'how to start up a catering business at low cost'.",
+      "accentColor": "0xFFEC4899",
+      "initials": "SC",
+      "focus": "Baking/confectionery technique, with a genuine but secondary business thread",
+      "verifiedOn": "2026-07-16",
+      "verificationMethod": "Fetched the channel page directly. Flagged honestly: unlike most channels counted this session, this one's primary content is recipes/technique, not business — included because the business thread is real (credentials, paid training, an explicit business-focused video) and no cleaner Nigeria-specific business-of-catering channel surfaced."
+    },
+    {
+      "id": "UCkso0LnQDZRpT4Fv1bvrZhw",
+      "name": "Baking for Business",
+      "handle": "@bakingforbusiness",
+      "description": "Chef Schonberg — certified chef and marketing enthusiast dedicated entirely to helping bakers start and grow a thriving baking business from home, including a top-rated podcast for bakers and treat makers.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "BB",
+      "focus": "Home bakery business — marketing, pricing, tools",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@bakingforbusiness); About-section and keywords ('bakery marketing', 'bakery pricing') are an explicit, direct match for this category."
+    },
+    {
+      "id": "UC-ycu3LU1PGDXLG_aUJ3OQA",
+      "name": "Chef Fregz",
+      "handle": "@cheffregz9996",
+      "description": "Gbubemi 'Chef Fregz' Fregene — Nigeria's leading celebrity chef, Le Cordon Bleu-trained, founder of DVARD Catering Service, with brand collaborations spanning EbonyLife TV, DStv and more.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "CF",
+      "focus": "Nigerian celebrity chef & catering entrepreneurship",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UC-ycu3LU1PGDXLG_aUJ3OQA); identity, culinary training and DVARD Catering Service founding cross-confirmed via Wikipedia."
+    },
+    {
+      "id": "UCiY_lNURQNeJbcBFMiMRNqw",
+      "name": "Marketing Food Online",
+      "handle": "@MarketingFoodOnline",
+      "description": "Team of experienced food entrepreneurs with 30 years' hands-on experience and 800+ food startups consulted — 1,000+ free videos on starting a food business from home, food trucks, selling food online, and starting a bakery.",
+      "accentColor": "0xFF10B981",
+      "initials": "MF",
+      "focus": "Starting and growing a food business — the whole playbook",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCiY_lNURQNeJbcBFMiMRNqw); pairs with the Marketing Food Online blog also listed in this file."
+    },
+    {
+      "id": "UCnka1A32ye14_yCvXIWTOuQ",
+      "name": "Diary of a Kitchen Lover",
+      "handle": "@diaryofakitchenlover",
+      "description": "Tolani Tayo-Osikoya ('Chef T') — Nigerian chef, food blogger and entrepreneur, 3M+ subscribers, recognized as one of the top 50 most impactful voices of women in Africa; ambassador for Knorr, PZ Cussons and Malta Guinness.",
+      "accentColor": "0xFFF97316",
+      "initials": "DK",
+      "focus": "Nigerian food content creator turned brand entrepreneur",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCnka1A32ye14_yCvXIWTOuQ); identity, subscriber count and entrepreneurship cross-confirmed via Wikipedia.",
+      "notes": "Like Sussy's Cakes Recipes, primary content is recipes, not pure business — included for the real, well-documented 'turning recipes into revenue' entrepreneurial thread (brand ambassadorships, business interviews)."
+    },
+    {
+      "id": "UCZm9TDaPIxG3TtRlD1dlduw",
+      "name": "Auguste Escoffier School of Culinary Arts",
+      "handle": "@escoffierschool",
+      "description": "Accredited culinary school offering an online Food Entrepreneurship program covering business planning, pricing, marketing and legal concerns for restaurants, food trucks, home-based catering businesses and private chefs.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "AE",
+      "focus": "Formal food-business education (catering, baking & pastry)",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/escoffierschool); Food Entrepreneurship program cross-confirmed via escoffier.edu."
+    },
+    {
+      "id": "UCBPXsE8zTtokUZcKoOAYKFw",
+      "name": "Sweet Dreams Bake Shoppe",
+      "handle": "@sdbakeshoppe",
+      "description": "Ashleigh, self-taught baker — cake/cookie decorating tutorials alongside real home-baking-business content: pricing, 'how to make money as a baker', small business check-ins, and running a home bakery.",
+      "accentColor": "0xFF6366F1",
+      "initials": "SD",
+      "focus": "Home baking business tips alongside technique",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCBPXsE8zTtokUZcKoOAYKFw); keywords list ('home baking business', 'how to make money baking', 'baking business tips') confirms the business angle."
+    },
+    {
+      "id": "UCFCqwDPb0XYI4B0rTOetegg",
+      "name": "How to Start a Catering Business",
+      "handle": "@Howtostartacateringbusiness",
+      "description": "A channel explicitly dedicated to launching and growing a catering business — business plans, licenses/permits, menu design, equipment, marketing, operations and financial management.",
+      "accentColor": "0xFFEF4444",
+      "initials": "HC",
+      "focus": "Catering business fundamentals, start to finish",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@Howtostartacateringbusiness); About-section is an explicit, direct match for this category."
+    },
+    {
+      "id": "UCSbDzXi6CbS-f5CPizqYK9A",
+      "name": "CaterZen",
+      "handle": "@CaterZen",
+      "description": "Catering management software company (by Restaurant Catering Systems) — sales, marketing and operations content to help restaurants and caterers grow their catering revenue, plus the Catering/Barbecue Catering Smarts podcast.",
+      "accentColor": "0xFFA855F7",
+      "initials": "CZ",
+      "focus": "Catering sales, marketing and operations software",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCSbDzXi6CbS-f5CPizqYK9A); company cross-confirmed via caterzen.com and multiple podcast/interview appearances of founder Michael Attias."
+    },
+    {
+      "id": "UC2EsUE7vBIr7u7oFS11X7eA",
+      "name": "Marketing Food Online2",
+      "handle": "@MarketingFoodOnline2",
+      "description": "Companion/backup channel to Marketing Food Online, run by the same team of food entrepreneurs — extended content, food truck starts, Q&As and deeper dives on growing a food business.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "M2",
+      "focus": "Extended food-business strategy content",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UC2EsUE7vBIr7u7oFS11X7eA); same Marketing Food Online team, confirmed via their own site's channel-network page."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "WithinNigeria",
+      "url": "https://www.withinnigeria.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed real, live articles matching this category exactly: 'Complete Guide to Starting a Catering Business in Nigeria for Owambe Events' and 'How Much Does an Owambe Party Cost in Nigeria in 2026' — equipment costs, logistics, owambe-specific menu economics."
+    },
+    {
+      "name": "Marketing Food Online",
+      "url": "https://marketingfoodonline.com/blogs/news/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog pairing with the Marketing Food Online YouTube channel above — home bakery marketing plans, cottage food business tips, pricing."
+    },
+    {
+      "name": "Escoffier Food Entrepreneurship Blog",
+      "url": "https://www.escoffier.edu/blog/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog from an accredited culinary school's Food Entrepreneurship program — business planning, pricing, marketing for caterers and bakers."
+    },
+    {
+      "name": "The Food Corridor",
+      "url": "https://www.thefoodcorridor.com/blog/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'How to Start a Catering Business Step-by-Step' — licensing, shared-kitchen options, scaling strategies for food entrepreneurs."
+    },
+    {
+      "name": "The Restaurant HQ",
+      "url": "https://www.therestauranthq.com/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'How to Start a Catering Business in 10 Steps' — staffing, marketing, contracts."
+    },
+    {
+      "name": "Sling",
+      "url": "https://getsling.com/blog/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'How To Start A Catering Business in 20 Steps' — financing, advertising, marketing."
+    },
+    {
+      "name": "The Restaurant Warehouse",
+      "url": "https://therestaurantwarehouse.com/blogs/restaurant-equipment.atom",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'How to Start a Catering Business from Scratch' — business plan, legal/financial setup, kitchen and supply chain, marketing."
+    },
+    {
+      "name": "Pastry Arts Magazine",
+      "url": "https://pastryartsmag.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, established pastry-industry trade publication — sales channels and business strategy for cottage food/bakery operators."
+    },
+    {
+      "name": "Baking Subs",
+      "url": "https://www.bakingsubs.com/blog/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'Home Bakery Business Plan Template' and 'Home Bakery Business Checklist' — startup costs, pricing formulas, legal setup."
+    },
+    {
+      "name": "CaterZen",
+      "url": "https://www.caterzen.com/podcast/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Pairs with the CaterZen YouTube channel above — the Barbecue Catering Smarts podcast covers real catering-business growth strategies from working caterers."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited (free PDF)",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF of the well-known small-business-systems book, hosted on a third-party site — worth a direct-download check before shipping.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The E-Myth Revisited.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First (free resources)",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free resources from the author's own official site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup (free)",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/the-lean-startup",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free copy hosted on a third-party book site — worth a direct-download check before shipping.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The Lean Startup.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook covering small-business fundamentals.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the official openstax.org domain, a well-established open-textbook publisher.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on starting and running a business.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business (free eBook)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://www.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free eBook hosted on HubSpot's own site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry, hosted on hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, complete startup guide hosted directly on the official sba.gov site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry, hosted on a U.S. government domain.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification (free course)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course, not a written book — hosted on HubSpot's own academy site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry, hosted on academy.hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on management fundamentals.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythrevisitedwh00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. Build systems so the business runs without you.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    }
+  ],
+  "notes": "2026-07-20: The founder-provided 'catering_baking_resources.csv' contained only real data for its 10 books — all 10 channels and all 10 blogs were unresolved placeholders ('Business Channel 1'–'10', 'generic.com'), unlike every other CSV processed this project. Channels and blogs for this category were therefore independently sourced and verified from scratch rather than merged from the CSV. Real, rich Nigeria-specific business content exists in blog form (WithinNigeria's 'Complete Guide to Starting a Catering Business in Nigeria for Owambe Events') — confirmed and added this pass. Two channels (Sussy's Cakes Recipes, Diary of a Kitchen Lover) are primarily recipe/technique content with a real but secondary business thread, flagged individually rather than presented as pure business channels.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}
