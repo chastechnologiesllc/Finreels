@@ -34,7 +34,9 @@ class BackgroundService {
       AppConfig.rssCheckTaskName,
       frequency: AppConfig.rssCheckFrequency,
       initialDelay: const Duration(minutes: 1),
-      existingWorkPolicy: ExistingWorkPolicy.replace,
+      // workmanager 0.9+ uses ExistingPeriodicWorkPolicy for periodic tasks
+      // (ExistingWorkPolicy is only for one-off tasks).
+      existingWorkPolicy: ExistingPeriodicWorkPolicy.replace,
       constraints: Constraints(
         networkType: NetworkType.connected,
         requiresBatteryNotLow: false,

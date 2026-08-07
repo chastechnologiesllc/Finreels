@@ -5,7 +5,8 @@ version: 1.0.0+7
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
-  flutter: ">=3.27.0"
+  # workmanager 0.10.x requires Flutter >= 3.38.0
+  flutter: ">=3.38.0"
 
 dependencies:
   flutter:
@@ -21,7 +22,9 @@ dependencies:
   in_app_purchase: ^3.2.0
   in_app_purchase_storekit: ^0.3.17
   flutter_local_notifications: ^18.0.1
-  workmanager: ^0.5.2
+  # 0.5.2 used removed Flutter v1 embedding APIs (shim / PluginRegistrantCallback).
+  # 0.10.x is the federated, modern embedding release required by Flutter 3.38+.
+  workmanager: ^0.10.7
   shared_preferences: ^2.3.2
   cached_network_image: ^3.4.1
   url_launcher: ^6.3.1

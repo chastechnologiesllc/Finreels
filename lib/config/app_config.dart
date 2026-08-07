@@ -197,7 +197,7 @@ class AppConfig {
   static const Duration appOpenAdCooldown = Duration(hours: 2);
 
   // ── Background Task ───────────────────────────────────────────────────────────
-  static const String rssCheckTaskId      = 'finreels_rss_check';
+  static const String rssCheckTaskId = 'com.chastechgroup.finreels.rsscheck';
   static const String rssCheckTaskName    = 'rssCheckTask';
   static const Duration rssCheckFrequency = Duration(minutes: 15);
 
