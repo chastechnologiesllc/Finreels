@@ -1,4 +1,6 @@
 import 'package:flutter/foundation.dart';
+import '../config/app_config.dart';
+import '../utils/web_jsonp.dart';
 import 'package:http/http.dart' as http;
 import 'package:xml/xml.dart';
 
@@ -171,6 +173,14 @@ class BlogRssService {
     String? categoryId,
   }) async {
     try {
+      if (kIsWeb) {
+        return await _fetchFeedWeb(
+          url: url,
+          sourceName: sourceName,
+          categoryId: categoryId,
+        );
+      }
+
       final response = await http.get(Uri.parse(url), headers: {
         'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
         'Accept': 'application/rss+xml, application/xml, text/xml',
@@ -187,6 +197,47 @@ class BlogRssService {
       debugPrint('[BlogRssService] $sourceName failed: $e');
       return [];
     }
+  }
+
+  Future<List<BlogArticle>> _fetchFeedWeb({
+    required String url,
+    required String sourceName,
+    String? categoryId,
+  }) async {
+    final api = Uri.parse(AppConfig.webRss2JsonEndpoint).replace(
+      queryParameters: {'rss_url': url},
+    );
+    final data = await fetchJsonp(api.toString());
+    if (data['status'] != 'ok') return [];
+    final items = data['items'];
+    if (items is! List) return [];
+
+    final articles = <BlogArticle>[];
+    for (final raw in items) {
+      if (raw is! Map) continue;
+      final map = Map<String, dynamic>.from(raw);
+      final link = ((map['link'] as String?) ?? '').trim();
+      if (link.isEmpty) continue;
+      final title = ((map['title'] as String?) ?? '').trim();
+      if (title.isEmpty) continue;
+      final pubStr = (map['pubDate'] as String?) ?? '';
+      final publishedAt = DateTime.tryParse(pubStr) ?? DateTime.now();
+      final thumb = (map['thumbnail'] as String?)?.trim();
+      final excerpt = ((map['description'] as String?) ?? '')
+          .replaceAll(RegExp(r'<[^>]*>'), ' ')
+          .replaceAll(RegExp(r'\s+'), ' ')
+          .trim();
+      articles.add(BlogArticle(
+        title: title,
+        url: link,
+        sourceName: sourceName,
+        publishedAt: publishedAt,
+        thumbnailUrl: (thumb != null && thumb.isNotEmpty) ? thumb : null,
+        excerpt: excerpt.length > 280 ? '${excerpt.substring(0, 280)}…' : excerpt,
+        categoryId: categoryId,
+      ));
+    }
+    return articles;
   }
 
   static List<BlogArticle> _parse(String body, String sourceName, [String? categoryId]) {

@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'dart:io';
+import 'package:flutter/foundation.dart';
 
 import 'package:http/http.dart' as http;
 
@@ -39,6 +39,13 @@ class AdBlockService {
 
   // ── Init ─────────────────────────────────────────────────────────────────────
   Future<void> init() async {
+    // Ad-block probing relies on DNS/TCP failure signatures that are not
+    // meaningful in a browser (extensions, CORS). Skip on web.
+    if (kIsWeb) {
+      _emit(AdBlockStatus.clear);
+      return;
+    }
+
     // React to connectivity changes
     ConnectivityService.instance.statusStream.listen((status) async {
       if (_disposed) return;
@@ -104,16 +111,16 @@ class AdBlockService {
         } else {
           // 5xx — server error, not ad block; don't count.
         }
-      } on SocketException catch (_) {
-        // DNS failed or connection refused — classic ad-blocker signature.
-        dnsBlockCount++;
       } on TimeoutException catch (_) {
         // Silently blocked (null-routes / sinkhole) — ad-blocker signature.
         dnsBlockCount++;
-      } on HandshakeException catch (_) {
-        // TLS intercept by some blockers — count as block.
-        dnsBlockCount++;
-      } on Exception catch (_) {
+      } on Exception catch (e) {
+        // SocketException / HandshakeException (dart:io) only exist on VM.
+        // Match by type name so this file stays web-safe without importing dart:io.
+        final name = e.runtimeType.toString();
+        if (name.contains('Socket') || name.contains('Handshake')) {
+          dnsBlockCount++;
+        }
         // Other network exception — be conservative, don't count.
       }
     });

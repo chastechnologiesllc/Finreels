@@ -1,4 +1,4 @@
-import 'dart:io';
+import 'package:flutter/foundation.dart';
 
 /// Central configuration for FinReels — by chAs Tech Group
 class AppConfig {
@@ -16,11 +16,11 @@ class AppConfig {
   // actually able to serve impressions through that mediation group).
   static const bool kDebugAds = false;
 
-  static String get admobAppId => Platform.isAndroid
+  static String get admobAppId => defaultTargetPlatform == TargetPlatform.android
       ? 'ca-app-pub-2492078126313994\~7729948254'
       : 'ca-app-pub-2492078126313994\~7729948254';
 
-  static String get bannerAdUnitId => Platform.isAndroid
+  static String get bannerAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/6300978111'
           : 'ca-app-pub-2492078126313994/9210550883')
@@ -28,7 +28,7 @@ class AppConfig {
           ? 'ca-app-pub-3940256099942544/2934735716'
           : 'ca-app-pub-2492078126313994/9210550883');
 
-  static String get interstitialAdUnitId => Platform.isAndroid
+  static String get interstitialAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/1033173712'
           : 'ca-app-pub-2492078126313994/2175580693')
@@ -36,7 +36,7 @@ class AppConfig {
           ? 'ca-app-pub-3940256099942544/4411468910'
           : 'ca-app-pub-2492078126313994/2175580693');
 
-  static String get rewardedAdUnitId => Platform.isAndroid
+  static String get rewardedAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/5224354917'
           : 'ca-app-pub-2492078126313994/3017889074')
@@ -44,7 +44,7 @@ class AppConfig {
           ? 'ca-app-pub-3940256099942544/1712485313'
           : 'ca-app-pub-2492078126313994/3017889074');
 
-  static String get rewardedInterstitialAdUnitId => Platform.isAndroid
+  static String get rewardedInterstitialAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/5354046379'
           : 'ca-app-pub-2492078126313994/5422743877')
@@ -52,7 +52,7 @@ class AppConfig {
           ? 'ca-app-pub-3940256099942544/6978759866'
           : 'ca-app-pub-2492078126313994/5422743877');
 
-  static String get nativeAdUnitId => Platform.isAndroid
+  static String get nativeAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/2247696110'
           : 'ca-app-pub-2492078126313994/1332060862')
@@ -66,11 +66,11 @@ class AppConfig {
   // into the iOS branch below (currently mirrors Android as a placeholder).
   static String? get appOpenAdUnitId {
     if (kDebugAds) {
-      return Platform.isAndroid
+      return defaultTargetPlatform == TargetPlatform.android
           ? 'ca-app-pub-3940256099942544/9257395921'
           : 'ca-app-pub-3940256099942544/5575463023';
     }
-    return Platform.isAndroid
+    return defaultTargetPlatform == TargetPlatform.android
         ? 'ca-app-pub-2492078126313994/7947671149'
         : null; // TODO(dev): create iOS App Open unit and paste its ID here
   }
@@ -157,6 +157,20 @@ class AppConfig {
     'https://clients3.google.com/generate_204',
     'https://www.google.com/favicon.ico',
   ];
+
+  /// Browser-safe probes. Google generate_204 responses omit
+  /// Access-Control-Allow-Origin, so XHR from github.io is blocked and
+  /// every probe appears to fail → false "No internet". These endpoints
+  /// return ACAO and work from a browser origin.
+  static const List<String> connectivityEndpointsWeb = [
+    'https://httpbin.org/status/204',
+    'https://cloudflare.com/cdn-cgi/trace',
+  ];
+
+  /// Free public JSONP-capable RSS→JSON bridge used only on web (CORS).
+  /// Native Android/iOS never use this — they fetch YouTube/blog RSS directly.
+  static const String webRss2JsonEndpoint =
+      'https://api.rss2json.com/v1/api.json';
 
   // ── Ad-Block Detection ────────────────────────────────────────────────────────
   static const List<String> adCheckEndpoints = [

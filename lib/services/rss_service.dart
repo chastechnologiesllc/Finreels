@@ -6,6 +6,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xml/xml.dart';
 
 import '../models/video.dart';
+import '../config/app_config.dart';
+import '../utils/web_jsonp.dart';
 
 /// Top-level function (required by compute()) — runs XML parsing on a
 /// background isolate instead of the UI isolate. With 12 channels fetched
@@ -159,8 +161,84 @@ class RssService {
   // ── Single HTTP attempt ───────────────────────────────────────────────────────
 
   Future<List<Video>?> _tryFetch(String channelId) async {
-    // Primary URL: channel_id param (works for all standard channels).
-    // Fallback URL: playlist_id param using uploads playlist (UU prefix).
+    // Web: browsers block cross-origin reads of youtube.com RSS (no ACAO).
+    // Use rss2json JSONP — a CORS-safe path that returns the same feed items.
+    // Android/iOS: native HTTP is not subject to browser CORS; fetch XML direct.
+    if (kIsWeb) {
+      return _tryFetchWeb(channelId);
+    }
+    return _tryFetchNative(channelId);
+  }
+
+  Future<List<Video>?> _tryFetchWeb(String channelId) async {
+    final feedUrl =
+        'https://www.youtube.com/feeds/videos.xml?channel_id=$channelId';
+    final api = Uri.parse(AppConfig.webRss2JsonEndpoint).replace(
+      queryParameters: {'rss_url': feedUrl},
+    );
+    try {
+      final data = await fetchJsonp(api.toString());
+      if (data['status'] != 'ok') {
+        debugPrint('[RssService] web rss2json status=${data['status']} for $channelId');
+        return null;
+      }
+      final items = data['items'];
+      if (items is! List || items.isEmpty) return [];
+      final videos = <Video>[];
+      for (final raw in items) {
+        if (raw is! Map) continue;
+        final map = Map<String, dynamic>.from(raw);
+        final video = _videoFromRss2Json(map, channelId);
+        if (video != null) videos.add(video);
+      }
+      return videos;
+    } on Exception catch (e) {
+      debugPrint('[RssService] web fetch failed for $channelId: $e');
+      return null;
+    }
+  }
+
+  /// Maps one rss2json item into our [Video] model.
+  Video? _videoFromRss2Json(Map<String, dynamic> item, String channelId) {
+    final guid = (item['guid'] as String?) ?? '';
+    final link = (item['link'] as String?) ?? '';
+    var videoId = '';
+    final guidMatch = RegExp(r'yt:video:(.+)$').firstMatch(guid);
+    if (guidMatch != null) {
+      videoId = guidMatch.group(1)!;
+    } else {
+      final linkMatch = RegExp(
+        r'(?:youtube\.com/(?:watch\?v=|shorts/)|youtu\.be/)([\w-]{6,})',
+      ).firstMatch(link);
+      videoId = linkMatch?.group(1) ?? '';
+    }
+    if (videoId.isEmpty) return null;
+
+    final title = ((item['title'] as String?) ?? '').trim();
+    if (title.isEmpty || title == 'Private video' || title == 'Deleted video') {
+      return null;
+    }
+
+    final pubStr = (item['pubDate'] as String?) ?? '';
+    final publishedAt = DateTime.tryParse(pubStr) ?? DateTime.now();
+    final channelName = ((item['author'] as String?) ?? '').trim();
+    final description = ((item['description'] as String?) ?? '').trim();
+    final thumb = (item['thumbnail'] as String?) ??
+        'https://img.youtube.com/vi/$videoId/mqdefault.jpg';
+
+    return Video(
+      id: videoId,
+      title: title,
+      description: description,
+      channelId: channelId,
+      channelName: channelName,
+      publishedAt: publishedAt,
+      thumbnailUrl: thumb,
+      originalLink: link.isNotEmpty ? link : null,
+    );
+  }
+
+  Future<List<Video>?> _tryFetchNative(String channelId) async {
     final urls = [
       'https://www.youtube.com/feeds/videos.xml?channel_id=$channelId',
       'https://www.youtube.com/feeds/videos.xml?playlist_id=UU${channelId.substring(2)}',
@@ -177,7 +255,7 @@ class RssService {
           'Accept-Language': 'en-US,en;q=0.9',
         }).timeout(const Duration(seconds: 10));
 
-        if (res.statusCode == 429) return null; // rate-limited — retry
+        if (res.statusCode == 429) return null;
         if (res.statusCode != 200) {
           debugPrint('[RssService] HTTP ${res.statusCode} for $channelId');
           continue;
