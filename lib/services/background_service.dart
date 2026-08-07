@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:workmanager/workmanager.dart';
 import '../config/app_config.dart';
@@ -22,6 +23,8 @@ class BackgroundService {
   static final BackgroundService instance = BackgroundService._();
 
   Future<void> init() async {
+    // Workmanager is Android/iOS only — no browser background task API equivalent.
+    if (kIsWeb) return;
     WidgetsFlutterBinding.ensureInitialized();
     await Workmanager().initialize(
       workManagerCallbackDispatcher,
@@ -29,6 +32,7 @@ class BackgroundService {
   }
 
   Future<void> registerRssCheck() async {
+    if (kIsWeb) return;
     await Workmanager().registerPeriodicTask(
       AppConfig.rssCheckTaskId,
       AppConfig.rssCheckTaskName,
@@ -47,6 +51,7 @@ class BackgroundService {
   }
 
   Future<void> cancelAll() async {
+    if (kIsWeb) return;
     await Workmanager().cancelAll();
   }
 }

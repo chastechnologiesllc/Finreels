@@ -1,20 +1,16 @@
-import 'dart:io';
-
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 /// Detects whether this install came from the Google Play Store, so the
 /// app can pick the right purchase rail:
 ///   • Play Store install  → Google Play Billing (lib/services/iap_service.dart)
 ///   • anything else        → Paystack fallback (same products, same
-///                            durations, different payment rail — see
-///                            IapService.purchaseViaPaystack)
+///                            durations, different payment rail)
 ///
 /// Play Billing only works reliably for apps installed through the Play
 /// Store, so this check runs once at startup and the result is cached —
 /// it's a deliberate, lightweight signal, not a tamper-proof integrity
-/// check (Play Integrity API exists for that and is a heavier lift; this
-/// is enough to route to the right checkout, which is all that's needed
-/// here).
+/// check.
 class InstallSourceService {
   InstallSourceService._();
   static final InstallSourceService instance = InstallSourceService._();
@@ -25,10 +21,21 @@ class InstallSourceService {
 
   bool? _cachedIsPlayStore;
 
-  /// iOS has no equivalent ambiguity — the App Store is the only realistic
-  /// distribution channel, so standard StoreKit IAP always applies there.
+  /// Web: not a Play Store install (no Play Billing).
+  /// iOS: App Store only — treat as available so StoreKit path can run on mobile.
+  /// Android: query installer package name via platform channel.
+  ///
+  /// Uses [defaultTargetPlatform] instead of dart:io [Platform] so this file
+  /// is safe to compile and run on web.
   Future<bool> isPlayStoreInstall() async {
-    if (!Platform.isAndroid) return true;
+    if (kIsWeb) {
+      _cachedIsPlayStore = false;
+      return false;
+    }
+    if (defaultTargetPlatform != TargetPlatform.android) {
+      _cachedIsPlayStore = true;
+      return true;
+    }
     if (_cachedIsPlayStore != null) return _cachedIsPlayStore!;
 
     try {

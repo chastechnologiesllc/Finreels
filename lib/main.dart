@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:ui';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hive_flutter/hive_flutter.dart';
@@ -57,19 +58,21 @@ void main() {
     };
 
     // Only orientation lock here — a fast synchronous call.
-    await SystemChrome.setPreferredOrientations([
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
+    if (!kIsWeb) {
+      await SystemChrome.setPreferredOrientations([
+        DeviceOrientation.portraitUp,
+        DeviceOrientation.portraitDown,
+      ]);
 
-    // Edge-to-edge: the app draws fully behind the status bar and
-    // navigation bar/gesture area, with MediaQuery padding correctly
-    // reporting those insets so SafeArea/Scaffold still lay content out
-    // correctly. Combined with the transparent statusBarColor set below,
-    // this is what lets the Scaffold's own background colour paint all
-    // the way to the physical top of the screen instead of leaving a
-    // visibly different strip behind the time/signal/battery icons.
-    await SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+      // Edge-to-edge: the app draws fully behind the status bar and
+      // navigation bar/gesture area, with MediaQuery padding correctly
+      // reporting those insets so SafeArea/Scaffold still lay content out
+      // correctly. Combined with the transparent statusBarColor set below,
+      // this is what lets the Scaffold's own background colour paint all
+      // the way to the physical top of the screen instead of leaving a
+      // visibly different strip behind the time/signal/battery icons.
+      await SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+    }
 
     // runApp immediately — splash is shown on the very first frame.
     runApp(const FinReelsApp());

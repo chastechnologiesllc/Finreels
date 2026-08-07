@@ -84,6 +84,11 @@ class AdService extends ChangeNotifier {
 
   // ── Init ──────────────────────────────────────────────────────────────────
   Future<void> init() async {
+    if (kIsWeb) {
+      // AdMob is mobile-only. Web ships without ads for now.
+      _initialized = true;
+      return;
+    }
     await _loadAdsRemovedStatus();
     if (_adsRemoved) return;
 

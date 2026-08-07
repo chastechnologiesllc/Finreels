@@ -50,6 +50,14 @@ class IapService extends ChangeNotifier {
 
   // ── Init ────────────────────────────────────────────────────────────────────
   Future<void> init() async {
+    if (kIsWeb) {
+      // Play Billing / StoreKit not available in the browser.
+      _sourceChecked = true;
+      _usePlayBilling = false;
+      _available = false;
+      notifyListeners();
+      return;
+    }
     _usePlayBilling = await InstallSourceService.instance.isPlayStoreInstall();
     _sourceChecked = true;
     notifyListeners();

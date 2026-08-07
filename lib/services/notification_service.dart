@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../config/app_config.dart';
@@ -17,6 +18,10 @@ class NotificationService {
 
   // ── Init ────────────────────────────────────────────────────────────────────
   Future<void> init() async {
+    if (kIsWeb) {
+      _initialized = true;
+      return;
+    }
     const androidSettings =
         AndroidInitializationSettings('@mipmap/ic_launcher');
     const iosSettings = DarwinInitializationSettings(
@@ -71,6 +76,7 @@ class NotificationService {
 
   // ── Permission Request ──────────────────────────────────────────────────────
   Future<bool> requestPermission() async {
+    if (kIsWeb) return false;
     final iosPlugin = _plugin
         .resolvePlatformSpecificImplementation<
             IOSFlutterLocalNotificationsPlugin>();
