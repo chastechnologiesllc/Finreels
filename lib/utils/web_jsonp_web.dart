@@ -2,7 +2,6 @@
 // Web-only file (conditional export). JSONP needs script-tag injection.
 
 import 'dart:async';
-import 'dart:convert';
 import 'dart:js_interop';
 import 'dart:js_interop_unsafe';
 
@@ -14,18 +13,25 @@ Future<Map<String, dynamic>> fetchJsonp(String url) {
   final cbName =
       'finreels_jsonp_${DateTime.now().microsecondsSinceEpoch}';
 
+  // package:web Window implements JSObject — use js_interop_unsafe extensions.
+  final JSObject windowObj = web.window as JSObject;
+
   void cleanup() {
-    web.window.deleteProperty(cbName.toJS);
+    windowObj.delete(cbName.toJS);
     web.document.getElementById(cbName)?.remove();
   }
 
   // Global callback invoked by the remote script.
-  web.window.setProperty(
+  windowObj.setProperty(
     cbName.toJS,
     ((JSAny? data) {
       try {
-        final jsonStr = (web.JSON.stringify(data) as JSString).toDart;
-        final decoded = json.decode(jsonStr) as Map<String, dynamic>;
+        // Convert the JS object graph to Dart Maps/Lists without JSON.stringify.
+        final dartValue = data?.dartify();
+        if (dartValue is! Map) {
+          throw StateError('JSONP callback did not return a Map');
+        }
+        final decoded = Map<String, dynamic>.from(dartValue);
         if (!completer.isCompleted) completer.complete(decoded);
       } on Object catch (e, st) {
         if (!completer.isCompleted) completer.completeError(e, st);

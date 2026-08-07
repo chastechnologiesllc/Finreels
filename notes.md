@@ -1,40 +1,24 @@
-# Analyze fix (CI exit code 1)
+# Fix web_jsonp analyze errors
 
-## Cause
-`flutter analyze --no-fatal-infos` still fails on **warnings**.
-The failing warning was:
-
+## What failed
 ```
-unused_import — package:path_provider in pdf_download_service.dart
+error • deleteProperty isn't defined for Window  (web_jsonp_web.dart)
+error • JSON isn't defined through prefix web   (web_jsonp_web.dart)
 ```
 
-## Fixed in this package
-1. Removed unused `path_provider` import from `pdf_download_service.dart`
-2. Import ordering in `rss_service.dart` / `blog_rss_service.dart`
-3. Unnecessary `\\~` escapes in AdMob app IDs (`app_config.dart`)
-4. JSONP helper migrated off deprecated `dart:html` / `dart:js` → `package:web` + `dart:js_interop`
+`package:web`'s Window is not the same API as the previous draft used.
+Correct interop (from dart:js_interop_unsafe):
 
-## Dependency
-Flutter already pulls `package:web` transitively. If analyze reports missing `package:web`, add under dependencies:
+- `JSObject.setProperty` / `JSObject.delete` (not deleteProperty)
+- Convert JS values with `JSAny.dartify()` (no web.JSON.stringify)
 
-```yaml
-  web: ^1.1.0
+## Copy into your repo
 ```
-
-## Remaining infos (pre-existing screens — not fatal with --no-fatal-infos)
-home_screen cacheExtent, notification_settings activeColor, shorts/video catch clauses, prefer_const_constructors, etc. Safe to leave; they do not fail CI with your current flags.
-
-## Copy paths
-```
-lib/config/app_config.dart
-lib/services/pdf_download_service.dart
-lib/services/pdf_io_io.dart
-lib/services/pdf_io_stub.dart
-lib/services/connectivity_service.dart
-lib/services/rss_service.dart
-lib/services/blog_rss_service.dart
-lib/services/ad_block_service.dart
-lib/utils/web_jsonp.dart
 lib/utils/web_jsonp_web.dart
+lib/utils/web_jsonp.dart
 lib/utils/web_jsonp_stub.dart
+lib/services/connectivity_service.dart   (optional, quiets 2 infos)
 ```
+
+Remaining items in the log are **info**-only on older screens and do not fail
+`flutter analyze --no-fatal-infos`.

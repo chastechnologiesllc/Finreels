@@ -66,7 +66,8 @@ class ConnectivityService {
   }
 
   Future<bool> _verifyInternetAccess() async {
-    final List<String> endpoints = kIsWeb
+    // Pick platform probe list (both AppConfig lists are compile-time const).
+    final endpoints = kIsWeb
         ? AppConfig.connectivityEndpointsWeb
         : AppConfig.connectivityEndpoints;
 
