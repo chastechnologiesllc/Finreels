@@ -1,6 +1,8 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:hive/hive.dart';
 
@@ -60,9 +62,20 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
 
   // ── Lifecycle ──────────────────────────────────────────────────────────────
 
+  Future<void> _openExternal() async {
+    final uri = Uri.tryParse(widget.url);
+    if (uri != null && await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    }
+  }
+
   @override
   void initState() {
     super.initState();
+    if (kIsWeb) {
+      // InAppWebView is unreliable for arbitrary third-party articles on web.
+      WidgetsBinding.instance.addPostFrameCallback((_) => _openExternal());
+    }
     _allowedHost = Uri.tryParse(widget.url)?.host ?? '';
 
     if (widget.categoryId != null) {
@@ -178,42 +191,70 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
       body: Column(
         children: [
           Expanded(
-            child: InAppWebView(
-              initialUrlRequest: URLRequest(url: WebUri(widget.url)),
-              initialSettings: InAppWebViewSettings(
-                useShouldOverrideUrlLoading: true,
-                allowsInlineMediaPlayback: true,
-              ),
-              onWebViewCreated: (_) {},
-              onLoadStart: (_, __) {
-                if (mounted) setState(() => _loading = true);
-              },
-              onLoadStop: (controller, __) async {
-                if (mounted) setState(() => _loading = false);
-                unawaited(_maybeRestoreScroll(controller));
-              },
-              onProgressChanged: (_, progress) {
-                if (mounted) {
-                  setState(() {
-                    _progress = progress / 100.0;
-                    if (progress >= 100) _loading = false;
-                  });
-                }
-              },
-              onScrollChanged: _onScrollChanged,
-              // Block navigation away from the article's origin domain
-              shouldOverrideUrlLoading: (_, action) async {
-                final uri = action.request.url;
-                if (uri == null) return NavigationActionPolicy.CANCEL;
-                final host = uri.host;
-                if (host == _allowedHost ||
-                    host.endsWith('.$_allowedHost') ||
-                    _allowedHost.isEmpty) {
-                  return NavigationActionPolicy.ALLOW;
-                }
-                return NavigationActionPolicy.CANCEL;
-              },
-            ),
+            child: kIsWeb
+                ? Center(
+                    child: Padding(
+                      padding: const EdgeInsets.all(32),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Icon(Icons.article_rounded,
+                              size: 56, color: AppTheme.gold),
+                          const SizedBox(height: 16),
+                          Text(
+                            'Articles open in a new browser tab on web.',
+                            textAlign: TextAlign.center,
+                            style: Theme.of(context).textTheme.titleSmall,
+                          ),
+                          const SizedBox(height: 20),
+                          FilledButton.icon(
+                            onPressed: _openExternal,
+                            icon: const Icon(Icons.open_in_new_rounded),
+                            label: const Text('Open article'),
+                            style: FilledButton.styleFrom(
+                              backgroundColor: AppTheme.gold,
+                              foregroundColor: Colors.black,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  )
+                : InAppWebView(
+                    initialUrlRequest: URLRequest(url: WebUri(widget.url)),
+                    initialSettings: InAppWebViewSettings(
+                      useShouldOverrideUrlLoading: true,
+                      allowsInlineMediaPlayback: true,
+                    ),
+                    onWebViewCreated: (_) {},
+                    onLoadStart: (_, __) {
+                      if (mounted) setState(() => _loading = true);
+                    },
+                    onLoadStop: (controller, __) async {
+                      if (mounted) setState(() => _loading = false);
+                      unawaited(_maybeRestoreScroll(controller));
+                    },
+                    onProgressChanged: (_, progress) {
+                      if (mounted) {
+                        setState(() {
+                          _progress = progress / 100.0;
+                          if (progress >= 100) _loading = false;
+                        });
+                      }
+                    },
+                    onScrollChanged: _onScrollChanged,
+                    shouldOverrideUrlLoading: (_, action) async {
+                      final uri = action.request.url;
+                      if (uri == null) return NavigationActionPolicy.CANCEL;
+                      final host = uri.host;
+                      if (host == _allowedHost ||
+                          host.endsWith('.$_allowedHost') ||
+                          _allowedHost.isEmpty) {
+                        return NavigationActionPolicy.ALLOW;
+                      }
+                      return NavigationActionPolicy.CANCEL;
+                    },
+                  ),
           ),
           // Sticky banner ad — pinned to the bottom while the user reads.
           ListenableBuilder(

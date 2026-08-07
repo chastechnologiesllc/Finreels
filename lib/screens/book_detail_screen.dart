@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:typed_data';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_epub_viewer/flutter_epub_viewer.dart';
@@ -496,6 +497,44 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
   // ── Reader router ──────────────────────────────────────────────────────────
 
+  Future<void> _openBookExternally(String url) async {
+    final uri = Uri.tryParse(url);
+    if (uri == null) return;
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    }
+  }
+
+  Widget _webBookPlaceholder(String url, {required String label}) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(32),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(Icons.menu_book_rounded, size: 56, color: AppTheme.gold),
+            const SizedBox(height: 16),
+            Text(
+              label,
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontWeight: FontWeight.w600),
+            ),
+            const SizedBox(height: 20),
+            FilledButton.icon(
+              onPressed: () => _openBookExternally(url),
+              icon: const Icon(Icons.open_in_new_rounded),
+              label: const Text('Open book'),
+              style: FilledButton.styleFrom(
+                backgroundColor: AppTheme.gold,
+                foregroundColor: Colors.black,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   Widget _buildReader() {
     if (_source.type == _SourceType.epub) {
       return _buildEpubReader(_source.epubUrl!);
@@ -513,6 +552,9 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
   // ── EPUB reader ────────────────────────────────────────────────────────────
 
   Widget _buildEpubReader(String url) {
+    if (kIsWeb) {
+      return _webBookPlaceholder(url, label: 'EPUB reading opens in a new tab on web.');
+    }
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.book.title.split('—').first.trim(),
@@ -578,6 +620,10 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
   // ── PDF reader (bundled asset books) ────────────────────────────────────────
 
   Widget _buildPdfReader(String assetPath) {
+    if (kIsWeb) {
+      // Asset PDFs are not served the same way on web builds — open store/source if URL-like, else message.
+      return _webBookPlaceholder(assetPath, label: 'PDF viewer is available in the mobile app. On web, use Open when a public URL is available.');
+    }
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.book.title.split(':').first.trim(),
@@ -647,6 +693,9 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
   // ── Local (downloaded) PDF reader ──────────────────────────────────────────
 
   Widget _buildLocalPdfReader(String filePath) {
+    if (kIsWeb) {
+      return _webBookPlaceholder(filePath, label: 'Local PDF cache is not available on web.');
+    }
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.book.title.split('—').first.trim(),

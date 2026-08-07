@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -79,14 +80,18 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
     super.initState();
     _currentIndex = widget.initialIndex;
     _pageController = PageController(initialPage: widget.initialIndex);
-    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+    if (!kIsWeb) {
+      SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+      SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+    }
     _syncControllerPool();
   }
 
   @override
   void dispose() {
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+    if (!kIsWeb) {
+      SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+    }
     _pageController.dispose();
     for (final c in _controllers.values) {
       c.dispose();
@@ -205,38 +210,50 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
 
   @override
   Widget build(BuildContext context) {
+    // Mobile: Youtube WebView steals vertical drags — custom GestureDetector
+    // owns scrolling with NeverScrollableScrollPhysics.
+    // Web: iframe + custom drag fights the browser; use native PageView physics.
+    final pageView = PageView.builder(
+      controller: _pageController,
+      scrollDirection: Axis.vertical,
+      physics: kIsWeb
+          ? const PageScrollPhysics()
+          : const NeverScrollableScrollPhysics(),
+      itemCount: widget.shorts.length,
+      onPageChanged: (index) {
+        setState(() {
+          _currentIndex = index;
+          _isDragging = false;
+        });
+        _syncControllerPool();
+        unawaited(AdService.instance.onShortScrolled());
+      },
+      itemBuilder: (context, index) => _ShortPage(
+        key: ValueKey(widget.shorts[index].id),
+        video: widget.shorts[index],
+        controller: _controllerFor(index),
+        isActive: index == _currentIndex,
+        autoPlayOnActivate:
+            index != widget.initialIndex || widget.autoPlayFirst,
+        pauseForScroll: !kIsWeb && _isDragging && index == _currentIndex,
+      ),
+    );
+
+    final body = kIsWeb
+        ? pageView
+        : GestureDetector(
+            behavior: HitTestBehavior.opaque,
+            onVerticalDragStart: _onDragStart,
+            onVerticalDragUpdate: _onDragUpdate,
+            onVerticalDragEnd: _onDragEnd,
+            child: pageView,
+          );
+
     return Scaffold(
       backgroundColor: Colors.black,
-      body: GestureDetector(
-        behavior: HitTestBehavior.opaque,
-        onVerticalDragStart: _onDragStart,
-        onVerticalDragUpdate: _onDragUpdate,
-        onVerticalDragEnd: _onDragEnd,
-        child: Stack(
-          children: [
-            PageView.builder(
-              controller: _pageController,
-              scrollDirection: Axis.vertical,
-              physics: const NeverScrollableScrollPhysics(),
-              itemCount: widget.shorts.length,
-              onPageChanged: (index) {
-                setState(() => _currentIndex = index);
-                _syncControllerPool();
-                unawaited(AdService.instance.onShortScrolled());
-              },
-              itemBuilder: (context, index) => _ShortPage(
-                key: ValueKey(widget.shorts[index].id),
-                video: widget.shorts[index],
-                // Pass the pooled controller. May be null for one frame if
-                // the pool has not yet created it (should not happen for
-                // the initial window, but the page handles null safely).
-                controller: _controllerFor(index),
-                isActive: index == _currentIndex,
-                autoPlayOnActivate:
-                    index != widget.initialIndex || widget.autoPlayFirst,
-                pauseForScroll: _isDragging && index == _currentIndex,
-              ),
-            ),
+      body: Stack(
+        children: [
+          body,
 
             Positioned(
               top: MediaQuery.of(context).padding.top + 8,
@@ -272,7 +289,6 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
               ),
           ],
         ),
-      ),
     );
   }
 }

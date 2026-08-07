@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart';
@@ -68,7 +69,9 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   void initState() {
     super.initState();
     unawaited(EngagementService.instance.recordView(widget.video));
-    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+    if (!kIsWeb) {
+      SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+    }
     _progressNotifier = ValueNotifier<double>(0);
     _positionNotifier = ValueNotifier<Duration>(Duration.zero);
     _durationNotifier = ValueNotifier<Duration>(Duration.zero);
@@ -79,11 +82,13 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
     // Sound ON from the start. Thumbnail covers until position > 0 so the
     // WebView's black init surface is never visible.
+    // Web: unmuted autoplay is blocked by browsers → start muted, unmute on tap.
+    // Android/iOS: start with sound as before.
     _controller = YoutubePlayerController(
       initialVideoId: widget.video.id,
-      flags: const YoutubePlayerFlags(
+      flags: YoutubePlayerFlags(
         autoPlay: true,
-        mute: false,
+        mute: kIsWeb,
         hideControls: true,
         enableCaption: false,
       ),
@@ -157,7 +162,9 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       ..dispose();
     // Always restore portrait when leaving this screen.
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+    if (!kIsWeb) {
+      SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+    }
     super.dispose();
   }
 
@@ -181,6 +188,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     if (willPause) {
       _controller.pause();
     } else {
+      // User gesture — safe to unmute under browser autoplay policy.
+      if (kIsWeb) _forceSoundOn();
       _controller.play();
     }
     unawaited(AdService.instance.onVideoPlayPauseTapped());

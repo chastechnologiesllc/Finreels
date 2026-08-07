@@ -120,15 +120,27 @@ class BlogRssService {
   Future<List<BlogArticle>> fetchAll({bool forceRefresh = false}) async {
     if (!forceRefresh && _isCacheFresh) return _cache!;
 
-    final futures = combinedBlogFeeds.map(
-      (feed) => _fetchFeed(
-        url: feed['url']!,
-        sourceName: feed['name']!,
-        categoryId: feed['categoryId'],
-      ),
-    );
-
-    final results = await Future.wait(futures);
+    // Web JSONP (rss2json) rate-limits under high concurrency. Fetch feeds
+    // sequentially on web; keep parallel native HTTP on Android/iOS.
+    final List<List<BlogArticle>> results = [];
+    if (kIsWeb) {
+      for (final feed in combinedBlogFeeds) {
+        results.add(await _fetchFeed(
+          url: feed['url']!,
+          sourceName: feed['name']!,
+          categoryId: feed['categoryId'],
+        ));
+      }
+    } else {
+      final futures = combinedBlogFeeds.map(
+        (feed) => _fetchFeed(
+          url: feed['url']!,
+          sourceName: feed['name']!,
+          categoryId: feed['categoryId'],
+        ),
+      );
+      results.addAll(await Future.wait(futures));
+    }
     final articles = results.expand((l) => l).toList();
     final selected = UserProfileService.instance.selectedCategoryIds;
     final mixed = await compute(
