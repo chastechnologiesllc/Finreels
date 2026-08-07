@@ -7,7 +7,7 @@ FinReels curates videos, shorts, blogs, and books from 40+ verified channels and
 60-category taxonomy of skills, businesses, and professions, built for entrepreneurs
 and professionals across Africa.
 
---------
+-------
 
 ## Content
 
