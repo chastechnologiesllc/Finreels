@@ -17,8 +17,8 @@ class AppConfig {
   static const bool kDebugAds = false;
 
   static String get admobAppId => defaultTargetPlatform == TargetPlatform.android
-      ? 'ca-app-pub-2492078126313994\~7729948254'
-      : 'ca-app-pub-2492078126313994\~7729948254';
+      ? 'ca-app-pub-2492078126313994~7729948254'
+      : 'ca-app-pub-2492078126313994~7729948254';
 
   static String get bannerAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds

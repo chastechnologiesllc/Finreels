@@ -66,7 +66,7 @@ class ConnectivityService {
   }
 
   Future<bool> _verifyInternetAccess() async {
-    final endpoints = kIsWeb
+    final List<String> endpoints = kIsWeb
         ? AppConfig.connectivityEndpointsWeb
         : AppConfig.connectivityEndpoints;
 

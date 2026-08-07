@@ -5,8 +5,8 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xml/xml.dart';
 
-import '../models/video.dart';
 import '../config/app_config.dart';
+import '../models/video.dart';
 import '../utils/web_jsonp.dart';
 
 /// Top-level function (required by compute()) — runs XML parsing on a

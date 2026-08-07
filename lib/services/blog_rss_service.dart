@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
-import '../config/app_config.dart';
-import '../utils/web_jsonp.dart';
 import 'package:http/http.dart' as http;
 import 'package:xml/xml.dart';
 
+import '../config/app_config.dart';
 import '../data/resource_category_data.dart';
+import '../utils/web_jsonp.dart';
 import 'user_profile_service.dart';
 
 /// A single parsed blog article from an RSS/Atom feed.
@@ -224,7 +224,7 @@ class BlogRssService {
       final publishedAt = DateTime.tryParse(pubStr) ?? DateTime.now();
       final thumb = (map['thumbnail'] as String?)?.trim();
       final excerpt = ((map['description'] as String?) ?? '')
-          .replaceAll(RegExp(r'<[^>]*>'), ' ')
+          .replaceAll(RegExp('<[^>]*>'), ' ')
           .replaceAll(RegExp(r'\s+'), ' ')
           .trim();
       articles.add(BlogArticle(

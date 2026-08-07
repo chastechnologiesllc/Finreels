@@ -38,6 +38,7 @@ dependencies:
   webview_flutter_android: ^4.3.0
   webview_flutter_wkwebview: ^3.18.0
   in_app_review: ^2.0.9
+  web: ^1.1.0
   # ── Content & Performance Overhaul ───────────────────────────────────────────
   # YouTube in-app playback — iFrame Player API, no API key, Android + iOS
   youtube_player_flutter: ^9.1.1
