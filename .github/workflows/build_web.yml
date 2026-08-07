@@ -1,0 +1,80 @@
+name: Build Web
+
+on:
+  push:
+    branches: [main, master]
+    tags: ['v*.*.*']
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+# Required so the deploy job can push to the gh-pages branch
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: \( {{ github.workflow }}- \){{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-web:
+    name: Build Flutter Web
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      # ── Checkout ────────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      # ── Flutter ─────────────────────────────────────────────────────────────
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.44.0'
+          channel: 'stable'
+          cache: true
+
+      # ── Dependencies ────────────────────────────────────────────────────────
+      - name: Install dependencies
+        run: flutter pub get
+
+      # ── Ensure web platform exists ──────────────────────────────────────────
+      - name: Ensure web platform
+        run: flutter create . --platforms=web --project-name finreels
+
+      # ── Analyse (same bar as Android workflow) ──────────────────────────────
+      - name: Analyse
+        run: flutter analyze --no-fatal-infos
+
+      # ── Build ───────────────────────────────────────────────────────────────
+      # base-href must match the GitHub Pages path for this repo:
+      #   https://chastechnologiesllc.github.io/Finreels/
+      # If you later use a custom domain at the site root, change to "/" .
+      - name: Build web (release)
+        run: |
+          flutter build web --release \
+            --base-href "/Finreels/" \
+            --build-number=${{ github.run_number }}
+
+      # ── Upload artifact (always, including PRs) ─────────────────────────────
+      - name: Upload web build artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: finreels-web
+          path: build/web
+          retention-days: 30
+
+      # ── Deploy to GitHub Pages (main/master only, not PRs) ──────────────────
+      - name: Deploy to GitHub Pages
+        if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/web
+          force_orphan: true
+          # Optional: keep a .nojekyll so GitHub Pages does not run Jekyll
+          # (Flutter assets often start with _ which Jekyll would ignore)
+          enable_jekyll: false
