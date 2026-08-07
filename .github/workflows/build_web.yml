@@ -41,13 +41,22 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      # ── Ensure web platform exists ──────────────────────────────────────────
+      # ── Ensure web platform (only if missing; never overwrite tests) ────────
       - name: Ensure web platform
-        run: flutter create . --platforms=web --project-name finreels
+        run: |
+          if [ ! -d web ]; then
+            flutter create . --platforms=web --project-name finreels
+          fi
+          # flutter create can regenerate the template test that references MyApp
+          rm -f test/widget_test.dart
 
       # ── Analyse (same bar as Android workflow) ──────────────────────────────
       - name: Analyse
         run: flutter analyze --no-fatal-infos
+
+      # ── Tests ───────────────────────────────────────────────────────────────
+      - name: Run tests
+        run: flutter test
 
       # ── Build ───────────────────────────────────────────────────────────────
       # base-href must match the GitHub Pages path for this repo:
@@ -75,6 +84,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build/web
           force_orphan: true
-          # Optional: keep a .nojekyll so GitHub Pages does not run Jekyll
-          # (Flutter assets often start with _ which Jekyll would ignore)
+          # Flutter assets can start with _; disable Jekyll so they are served
           enable_jekyll: false
