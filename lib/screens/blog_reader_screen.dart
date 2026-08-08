@@ -77,6 +77,12 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
     // Mobile keeps flutter_inappwebview.
     _allowedHost = Uri.tryParse(widget.url)?.host ?? '';
 
+    if (kIsWeb) {
+      // Iframe has no load progress callbacks into Flutter — clear the bar.
+      _loading = false;
+      _progress = 1;
+    }
+
     if (widget.categoryId != null) {
       unawaited(
         EngagementService.instance.recordCategoryInterest(widget.categoryId!),
@@ -191,24 +197,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
         children: [
           Expanded(
             child: kIsWeb
-                ? Stack(
-                    children: [
-                      WebIframeView(url: widget.url, title: widget.title),
-                      // Fallback open-in-tab if publisher blocks iframe (X-Frame-Options).
-                      Positioned(
-                        right: 12,
-                        bottom: 12,
-                        child: FloatingActionButton.extended(
-                          heroTag: 'blog_open_external',
-                          backgroundColor: AppTheme.gold,
-                          foregroundColor: Colors.black,
-                          icon: const Icon(Icons.open_in_new_rounded, size: 18),
-                          label: const Text('Open tab'),
-                          onPressed: _openExternal,
-                        ),
-                      ),
-                    ],
-                  )
+                ? WebIframeView(url: widget.url, title: widget.title)
                 : InAppWebView(
                     initialUrlRequest: URLRequest(url: WebUri(widget.url)),
                     initialSettings: InAppWebViewSettings(

@@ -19,6 +19,7 @@ import '../services/pdf_io_stub.dart'
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/book_cover_image.dart';
+import '../widgets/web_iframe_view.dart';
 import 'blog_reader_screen.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -497,40 +498,32 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
   // ── Reader router ──────────────────────────────────────────────────────────
 
-  Future<void> _openBookExternally(String url) async {
-    final uri = Uri.tryParse(url);
-    if (uri == null) return;
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    }
-  }
-
-  Widget _webBookPlaceholder(String url, {required String label}) {
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(32),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(Icons.menu_book_rounded, size: 56, color: AppTheme.gold),
-            const SizedBox(height: 16),
-            Text(
-              label,
-              textAlign: TextAlign.center,
-              style: const TextStyle(fontWeight: FontWeight.w600),
-            ),
-            const SizedBox(height: 20),
-            FilledButton.icon(
-              onPressed: () => _openBookExternally(url),
-              icon: const Icon(Icons.open_in_new_rounded),
-              label: const Text('Open book'),
-              style: FilledButton.styleFrom(
-                backgroundColor: AppTheme.gold,
-                foregroundColor: Colors.black,
-              ),
-            ),
-          ],
+  /// Web in-app reader: always embed inside FinReels (no external browser tab).
+  Widget _webInAppReader(String url) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.book.title.split('—').first.trim(),
+            maxLines: 1, overflow: TextOverflow.ellipsis),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back_rounded),
+          onPressed: () => setState(() {
+            _showReader = false;
+            _isLoading = true;
+          }),
         ),
+      ),
+      body: Column(
+        children: [
+          Expanded(
+            child: WebIframeView(url: url, title: widget.book.title),
+          ),
+          ListenableBuilder(
+            listenable: AdService.instance,
+            builder: (_, __) => AdService.instance.adsRemoved
+                ? const SizedBox.shrink()
+                : const StickyBannerBar(),
+          ),
+        ],
       ),
     );
   }
@@ -552,8 +545,11 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
   // ── EPUB reader ────────────────────────────────────────────────────────────
 
   Widget _buildEpubReader(String url) {
+    // Web: embed the public-domain source page / reader in-platform.
+    // (flutter_epub_viewer ^1.x is mobile-oriented; the page still stays
+    // inside FinReels via BlogReaderScreen iframe — never a new browser tab.)
     if (kIsWeb) {
-      return _webBookPlaceholder(url, label: 'EPUB reading opens in a new tab on web.');
+      return _webInAppReader(url);
     }
     return Scaffold(
       appBar: AppBar(
@@ -621,8 +617,9 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
   Widget _buildPdfReader(String assetPath) {
     if (kIsWeb) {
-      // Asset PDFs are not served the same way on web builds — open store/source if URL-like, else message.
-      return _webBookPlaceholder(assetPath, label: 'PDF viewer is available in the mobile app. On web, use Open when a public URL is available.');
+      // Flutter web serves assets under the same base href — embed via iframe.
+      final assetUrl = Uri.base.resolve(assetPath).toString();
+      return _webInAppReader(assetUrl);
     }
     return Scaffold(
       appBar: AppBar(
@@ -694,7 +691,12 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
   Widget _buildLocalPdfReader(String filePath) {
     if (kIsWeb) {
-      return _webBookPlaceholder(filePath, label: 'Local PDF cache is not available on web.');
+      // Local filesystem paths don't exist on web — fall back to freeSourceUrl.
+      final url = widget.book.freeSourceUrl ?? '';
+      if (url.isNotEmpty) return _webInAppReader(url);
+      return const Center(
+        child: Text('PDF is not available offline on web.'),
+      );
     }
     return Scaffold(
       appBar: AppBar(

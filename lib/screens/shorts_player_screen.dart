@@ -10,6 +10,7 @@ import '../models/video.dart';
 import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
 import '../theme/app_theme.dart';
+import '../widgets/web_youtube_player.dart';
 
 /// Full-screen 9:16 Shorts player — TikTok/Reels-quality scroll UX.
 ///
@@ -528,7 +529,16 @@ class _ShortPageState extends State<_ShortPage>
         children: [
           const ColoredBox(color: Colors.black),
 
-          if (controller != null)
+          // Web: official YouTube embed (v9 package has no reliable web player).
+          if (kIsWeb && widget.isActive)
+            WebYoutubePlayer(
+              videoId: widget.video.id,
+              autoPlay: widget.autoPlayOnActivate || _userStarted,
+              mute: true,
+              loop: true,
+              isShort: true,
+            )
+          else if (!kIsWeb && controller != null)
             ClipRect(
               child: FittedBox(
                 fit: BoxFit.cover,
@@ -547,7 +557,7 @@ class _ShortPageState extends State<_ShortPage>
                           controller
                             ..mute()
                             ..play();
-                        } catch (_) {}
+                        } on Object catch (_) {}
                       }
                     },
                     bufferIndicator: const SizedBox.shrink(),
@@ -555,6 +565,22 @@ class _ShortPageState extends State<_ShortPage>
                 ),
               ),
             ),
+
+          // Web: treat embed as started so UI overlays don't block forever.
+          if (kIsWeb && widget.isActive && !_hasVideoStarted)
+            Builder(builder: (_) {
+              Future.microtask(() {
+                if (mounted && !_hasVideoStarted) {
+                  setState(() {
+                    _hasVideoStarted = true;
+                    _playing = true;
+                    _ready = true;
+                    _unmuted = true;
+                  });
+                }
+              });
+              return const SizedBox.shrink();
+            }),
 
           // Thumbnail until first decoded frame.
           if (!_hasVideoStarted)

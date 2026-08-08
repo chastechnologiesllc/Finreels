@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shimmer/shimmer.dart';
@@ -13,6 +14,7 @@ import '../models/video.dart';
 import '../screens/channel_videos_screen.dart';
 import '../services/ad_service.dart';
 import '../theme/app_theme.dart';
+import 'web_youtube_player.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Fixes in this file:
@@ -560,7 +562,16 @@ class _InlineVideoCardState extends State<InlineVideoCard>
             // gesture before the ListView can claim it. IgnorePointer fixes
             // this definitively — when hidden, the entire player layer
             // receives NO pointer events, so the ListView scrolls freely.
-            if (_controller != null)
+            // Web: official YouTube embed when expanded (v9 has no web player).
+            if (kIsWeb && _expanded)
+              Positioned.fill(
+                child: WebYoutubePlayer(
+                  videoId: widget.video.id,
+                  autoPlay: true,
+                  mute: true,
+                ),
+              )
+            else if (!kIsWeb && _controller != null)
               IgnorePointer(
                 // Block touch to the WebView whenever it's not visible to the
                 // user. Only allow touch when fully revealed (expanded + ready).

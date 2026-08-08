@@ -17,6 +17,7 @@ import '../services/engagement_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/no_flash_page_route.dart';
+import '../widgets/web_youtube_player.dart';
 import 'channel_videos_screen.dart';
 
 /// In-app video player (Round 16 — sound, timed watermark, in-place landscape).
@@ -82,16 +83,29 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
     // Sound ON from the start. Thumbnail covers until position > 0 so the
     // WebView's black init surface is never visible.
-    // Web: unmuted autoplay is blocked by browsers → start muted, unmute on tap.
+    // Web: use official HTML embed (WebYoutubePlayer) — youtube_player_flutter
+    // v9 has no reliable web engine. Muted autoplay required by browsers.
     // Android/iOS: start with sound as before.
-    _controller = YoutubePlayerController(
-      initialVideoId: widget.video.id,
-      flags: YoutubePlayerFlags(
-        mute: kIsWeb,
-        hideControls: true,
-        enableCaption: false,
-      ),
-    )..addListener(_onUpdate);
+    if (!kIsWeb) {
+      _controller = YoutubePlayerController(
+        initialVideoId: widget.video.id,
+        flags: const YoutubePlayerFlags(
+          hideControls: true,
+          enableCaption: false,
+        ),
+      )..addListener(_onUpdate);
+    } else {
+      // Dummy controller so late fields stay valid; never attached on web.
+      _controller = YoutubePlayerController(
+        initialVideoId: widget.video.id,
+        flags: const YoutubePlayerFlags(
+          autoPlay: false,
+          mute: true,
+          hideControls: true,
+          enableCaption: false,
+        ),
+      );
+    }
   }
 
   int _lastUpdateMs = 0;
@@ -476,7 +490,14 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       child: Stack(
         fit: StackFit.expand,
         children: [
-          if (_playerAttached)
+          if (_playerAttached && kIsWeb)
+            WebYoutubePlayer(
+              videoId: widget.video.id,
+              autoPlay: true,
+              mute: true,
+              loop: false,
+            )
+          else if (_playerAttached)
             YoutubePlayer(
               controller: _controller,
               onReady: () {
@@ -502,7 +523,23 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               },
               bufferIndicator: const SizedBox.shrink(),
             ),
-          if (!_hasStartedPlaying)
+          // On web the official embed paints immediately — drop the cover
+          // after a short settle so the user can use native YT controls.
+          if (kIsWeb && _playerAttached && !_hasStartedPlaying)
+            Builder(builder: (context) {
+              Future.microtask(() {
+                if (mounted && !_hasStartedPlaying) {
+                  setState(() {
+                    _hasStartedPlaying = true;
+                    _playing = true;
+                    _ready = true;
+                    _showYtCover = false;
+                  });
+                }
+              });
+              return const SizedBox.shrink();
+            }),
+          if (!_hasStartedPlaying && !kIsWeb)
             CachedNetworkImage(
               imageUrl: widget.video.thumbnailHd,
               fit: BoxFit.cover,
