@@ -1,10 +1,12 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import '../config/app_config.dart';
 import '../services/ad_service.dart';
+import 'adsense_banner_web.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // BannerAdWidget
@@ -119,6 +121,14 @@ class _LabelledBannerAdState extends State<LabelledBannerAd> {
   @override
   Widget build(BuildContext context) {
     if (AdService.instance.adsRemoved) return const SizedBox.shrink();
+
+    // Web: AdMob is unavailable — show AdSense test unit in the same slots.
+    if (kIsWeb) {
+      return const Padding(
+        padding: EdgeInsets.symmetric(vertical: 6),
+        child: AdSenseBanner(height: 90),
+      );
+    }
 
     return LayoutBuilder(
       builder: (context, constraints) {
@@ -239,6 +249,16 @@ class _StickyBannerBarState extends State<StickyBannerBar> {
   @override
   Widget build(BuildContext context) {
     if (AdService.instance.adsRemoved) return const SizedBox.shrink();
+
+    if (kIsWeb) {
+      return const Material(
+        elevation: 4,
+        child: SafeArea(
+          top: false,
+          child: AdSenseBanner(height: 70),
+        ),
+      );
+    }
 
     return LayoutBuilder(
       builder: (context, constraints) {

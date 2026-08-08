@@ -617,17 +617,25 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // Layer 4: FinReels cover (rounded) while YT logo is expected.
+            // Layer 4: FinReels cover while YT logo is expected.
+            // Relative insets so the chip tracks the logo across screen sizes.
             if (_expanded &&
                 _controller != null &&
                 !_ended &&
                 _revealPlayer &&
                 (_showYtCover || !_isPlaying))
-              // Video tab 
-              Positioned(
-                right: 30,
-                bottom: 18,
-                child: _InlineFinReelsWatermark(),
+              LayoutBuilder(
+                builder: (context, constraints) {
+                  final shortSide = constraints.maxWidth < constraints.maxHeight
+                      ? constraints.maxWidth
+                      : constraints.maxHeight;
+                  final inset = (shortSide * 0.055).clamp(10.0, 48.0);
+                  return Positioned(
+                    right: inset,
+                    bottom: (inset * 0.55).clamp(8.0, 28.0),
+                    child: _InlineFinReelsWatermark(),
+                  );
+                },
               ),
 
             // Layer 5: our end screen hides YouTube's recommendation cards.
@@ -724,7 +732,9 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   }
 }
 
-/// Theme-aware sharp-corner cover for the YouTube logo region (inline feed).
+/// Theme-aware cover for the YouTube logo region (inline feed).
+/// Sized slightly larger than the native YT logo so relative positioning
+/// still fully covers it across densities and card widths.
 class _InlineFinReelsWatermark extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -732,7 +742,7 @@ class _InlineFinReelsWatermark extends StatelessWidget {
     final bg = isDark ? const Color(0xF2000000) : const Color(0xF2FFFFFF);
     final fg = isDark ? AppTheme.gold : const Color(0xFF1A1A1A);
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
+      padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5.5),
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: bg,
@@ -756,7 +766,7 @@ class _InlineFinReelsWatermark extends StatelessWidget {
             'FinReels',
             style: TextStyle(
               color: fg,
-              fontSize: 11,
+              fontSize: 11.5,
               fontWeight: FontWeight.w700,
               letterSpacing: 0.2,
             ),

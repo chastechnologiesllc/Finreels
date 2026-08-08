@@ -524,17 +524,26 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               child: CircularProgressIndicator(
                   color: AppTheme.gold, strokeWidth: 3),
             ),
-          // YouTube logo is at the bottom-right of the iframe surface
-          // (confirmed from device screenshots). Cover that exact region.
+          // YouTube logo sits at bottom-right of the iframe. Fixed px offsets
+          // break across screen sizes / densities / landscape. Use relative
+          // insets from the player bounds so the FinReels chip always covers
+          // the logo region.
           if (_hasStartedPlaying &&
               !_ended &&
               (_showYtCover || !_playing))
-            // Channel: R21 + 1.5x left only (right 58, bottom 18).
-            // Landscape: kept R22 (right 56, bottom 28) — user confirmed good.
-            Positioned(
-              right: _isLandscape ? 56 : 58,
-              bottom: _isLandscape ? 28 : 18,
-              child: const _FinReelsWatermark(),
+            LayoutBuilder(
+              builder: (context, constraints) {
+                final w = constraints.maxWidth;
+                final h = constraints.maxHeight;
+                // ~7–9% of the shorter side keeps the chip over the YT logo
+                // across phones, tablets, and landscape without overshooting.
+                final inset = (w < h ? w : h) * (_isLandscape ? 0.045 : 0.055);
+                return Positioned(
+                  right: inset.clamp(12.0, 72.0),
+                  bottom: (inset * 0.55).clamp(10.0, 36.0),
+                  child: const _FinReelsWatermark(),
+                );
+              },
             ),
           if (_ended) _buildEndOverlay(),
           if (!_ended) _buildControls(context),
@@ -745,9 +754,10 @@ class _FinReelsWatermark extends StatelessWidget {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final bg = isDark ? const Color(0xF2000000) : const Color(0xF2FFFFFF);
     final fg = isDark ? AppTheme.gold : const Color(0xFF1A1A1A);
-    // Sized to fully cover the native YouTube logo at bottom-right.
+    // Slightly larger than the native YT logo so relative positioning still
+    // fully covers it across densities and player aspect ratios.
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: bg,
@@ -758,12 +768,12 @@ class _FinReelsWatermark extends StatelessWidget {
         children: [
           Image.asset(
             'assets/icons/app_icon.png',
-            width: 15,
-            height: 15,
+            width: 16,
+            height: 16,
             errorBuilder: (_, __, ___) => Icon(
               Icons.play_arrow_rounded,
               color: fg,
-              size: 15,
+              size: 16,
             ),
           ),
           const SizedBox(width: 6),
@@ -771,7 +781,7 @@ class _FinReelsWatermark extends StatelessWidget {
             'FinReels',
             style: TextStyle(
               color: fg,
-              fontSize: 12,
+              fontSize: 12.5,
               fontWeight: FontWeight.w700,
               letterSpacing: 0.2,
             ),

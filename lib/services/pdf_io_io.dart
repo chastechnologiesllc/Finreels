@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:typed_data';
 
 import 'package:path_provider/path_provider.dart';
 
@@ -26,4 +27,9 @@ Future<String?> write(String filename, List<int> bytes) async {
 Future<void> delete(String filename) async {
   final f = File(await _path(filename));
   if (f.existsSync()) f.deleteSync();
+}
+
+/// Read an absolute file path (used by local PDF viewer).
+Future<Uint8List> readBytes(String absolutePath) async {
+  return File(absolutePath).readAsBytes();
 }

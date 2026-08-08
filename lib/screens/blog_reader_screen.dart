@@ -10,6 +10,7 @@ import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/web_iframe_view.dart';
 
 /// Opens a blog article or free-book URL inside the app using
 /// flutter_inappwebview.  Navigation is intercepted — only the article's
@@ -72,10 +73,8 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
   @override
   void initState() {
     super.initState();
-    if (kIsWeb) {
-      // InAppWebView is unreliable for arbitrary third-party articles on web.
-      WidgetsBinding.instance.addPostFrameCallback((_) => _openExternal());
-    }
+    // Web: embed in-platform via iframe (no automatic external redirect).
+    // Mobile keeps flutter_inappwebview.
     _allowedHost = Uri.tryParse(widget.url)?.host ?? '';
 
     if (widget.categoryId != null) {
@@ -192,39 +191,36 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
         children: [
           Expanded(
             child: kIsWeb
-                ? Center(
-                    child: Padding(
-                      padding: const EdgeInsets.all(32),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Icon(Icons.article_rounded,
-                              size: 56, color: AppTheme.gold),
-                          const SizedBox(height: 16),
-                          Text(
-                            'Articles open in a new browser tab on web.',
-                            textAlign: TextAlign.center,
-                            style: Theme.of(context).textTheme.titleSmall,
-                          ),
-                          const SizedBox(height: 20),
-                          FilledButton.icon(
-                            onPressed: _openExternal,
-                            icon: const Icon(Icons.open_in_new_rounded),
-                            label: const Text('Open article'),
-                            style: FilledButton.styleFrom(
-                              backgroundColor: AppTheme.gold,
-                              foregroundColor: Colors.black,
-                            ),
-                          ),
-                        ],
+                ? Stack(
+                    children: [
+                      WebIframeView(url: widget.url, title: widget.title),
+                      // Fallback open-in-tab if publisher blocks iframe (X-Frame-Options).
+                      Positioned(
+                        right: 12,
+                        bottom: 12,
+                        child: FloatingActionButton.extended(
+                          heroTag: 'blog_open_external',
+                          backgroundColor: AppTheme.gold,
+                          foregroundColor: Colors.black,
+                          icon: const Icon(Icons.open_in_new_rounded, size: 18),
+                          label: const Text('Open tab'),
+                          onPressed: _openExternal,
+                        ),
                       ),
-                    ),
+                    ],
                   )
                 : InAppWebView(
                     initialUrlRequest: URLRequest(url: WebUri(widget.url)),
                     initialSettings: InAppWebViewSettings(
                       useShouldOverrideUrlLoading: true,
                       allowsInlineMediaPlayback: true,
+                      javaScriptEnabled: true,
+                      domStorageEnabled: true,
+                      mediaPlaybackRequiresUserGesture: false,
+                      // Improves tap targets / link handling on many publishers.
+                      supportZoom: true,
+                      builtInZoomControls: false,
+                      displayZoomControls: false,
                     ),
                     onWebViewCreated: (_) {},
                     onLoadStart: (_, __) {
@@ -243,15 +239,43 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                       }
                     },
                     onScrollChanged: _onScrollChanged,
-                    shouldOverrideUrlLoading: (_, action) async {
+                    shouldOverrideUrlLoading: (controller, action) async {
                       final uri = action.request.url;
                       if (uri == null) return NavigationActionPolicy.CANCEL;
+                      final scheme = uri.scheme.toLowerCase();
+                      // Allow about:blank / data / blob used by some readers.
+                      if (scheme == 'about' ||
+                          scheme == 'data' ||
+                          scheme == 'blob') {
+                        return NavigationActionPolicy.ALLOW;
+                      }
+                      if (scheme != 'http' && scheme != 'https') {
+                        // mailto:, tel:, etc. — hand off to the OS.
+                        final u = Uri.tryParse(uri.toString());
+                        if (u != null && await canLaunchUrl(u)) {
+                          await launchUrl(u, mode: LaunchMode.externalApplication);
+                        }
+                        return NavigationActionPolicy.CANCEL;
+                      }
                       final host = uri.host;
+                      // Same site (incl. subdomains) stays in this WebView.
                       if (host == _allowedHost ||
                           host.endsWith('.$_allowedHost') ||
                           _allowedHost.isEmpty) {
                         return NavigationActionPolicy.ALLOW;
                       }
+                      // External article link: open inside FinReels in a new
+                      // reader so taps never feel "dead".
+                      if (!mounted) return NavigationActionPolicy.CANCEL;
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => BlogReaderScreen(
+                            url: uri.toString(),
+                            title: uri.host,
+                            categoryId: widget.categoryId,
+                          ),
+                        ),
+                      );
                       return NavigationActionPolicy.CANCEL;
                     },
                   ),

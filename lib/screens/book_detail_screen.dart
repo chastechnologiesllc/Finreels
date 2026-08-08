@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:flutter/foundation.dart';
@@ -9,6 +8,9 @@ import 'package:flutter_epub_viewer/flutter_epub_viewer.dart';
 import 'package:flutter_pdfview/flutter_pdfview.dart';
 import 'package:hive/hive.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import '../services/pdf_io_stub.dart'
+    if (dart.library.io) '../services/pdf_io_io.dart' as pdf_io;
 
 import '../data/book_insights_data.dart';
 import '../data/category_playbook_data.dart';
@@ -712,7 +714,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
         children: [
           Expanded(
             child: FutureBuilder<Uint8List>(
-              future: File(filePath).readAsBytes(),
+              future: pdf_io.readBytes(filePath),
               builder: (context, snapshot) {
                 if (snapshot.hasError) {
                   return Center(

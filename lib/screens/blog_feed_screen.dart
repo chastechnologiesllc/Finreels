@@ -46,6 +46,11 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
       if (mounted) {
         setState(() {
           _articles = List.unmodifiable(articles); // atomic replace
+          // Soft failure: service returned empty without throwing (rate
+          // limit / all feeds down). Surface the same Retry UI.
+          if (articles.isEmpty) {
+            _error = 'Could not load articles.';
+          }
         });
       }
     } on Exception catch (_) {
@@ -60,20 +65,19 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
     // Shimmer shown only on the very first load (no cached articles yet).
     if (_loading && _articles.isEmpty) return _buildShimmer(context);
 
-    // ── Error state ───────────────────────────────────────────────────────
-    // The RefreshIndicator + CustomScrollView + SliverFillRemaining pattern
-    // is the production-correct way to make a non-scrollable state draggable
-    // so pull-to-refresh still triggers even when there's no list content.
-    // Without this, the error state returns a bare Center() that can't
-    // receive overscroll events and pull-to-refresh silently does nothing.
-    if (_error != null && _articles.isEmpty) {
+    // ── Empty / error state (after shimmer) ───────────────────────────────
+    // Covers both explicit errors and "loaded but zero articles" (silent
+    // RSS failure / rate-limit). AlwaysScrollableScrollPhysics + Retry
+    // button so the user can recover without leaving the tab.
+    if (!_loading && _articles.isEmpty) {
+      final message = _error ?? 'No articles available right now.';
+      final subtitle = _error != null
+          ? 'Pull down to try again, or tap Retry below.'
+          : 'Pull down or tap Retry to reload the feeds.';
       return RefreshIndicator(
         color: AppTheme.gold,
         onRefresh: () => _load(force: true),
         child: CustomScrollView(
-          // AlwaysScrollableScrollPhysics is required: it allows the user to
-          // drag even when the content doesn't overflow the viewport, which
-          // is the case here (single centered error widget).
           physics: const AlwaysScrollableScrollPhysics(),
           slivers: [
             SliverFillRemaining(
@@ -88,7 +92,8 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
                           size: 56, color: AppTheme.textMuted(context)),
                       const SizedBox(height: 16),
                       Text(
-                        'Could not load articles',
+                        message,
+                        textAlign: TextAlign.center,
                         style: Theme.of(context)
                             .textTheme
                             .titleSmall
@@ -96,7 +101,7 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        'Pull down to try again, or tap Retry below.',
+                        subtitle,
                         textAlign: TextAlign.center,
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
                               color: AppTheme.textMuted(context),

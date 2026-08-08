@@ -16,6 +16,13 @@ class AppConfig {
   // actually able to serve impressions through that mediation group).
   static const bool kDebugAds = false;
 
+  // ── AdSense (Flutter web) — TEST client/slot ────────────────────────────────
+  // Official AdSense test publisher ID. Replace with your production ca-pub
+  // and data-ad-slot before shipping. Set adsenseTestMode=false in production.
+  static const String adsenseClientId = 'ca-pub-3940256099942544';
+  static const String adsenseTestSlot = '6300978111';
+  static const bool adsenseTestMode = true;
+
   static String get admobAppId => defaultTargetPlatform == TargetPlatform.android
       ? 'ca-app-pub-2492078126313994~7729948254'
       : 'ca-app-pub-2492078126313994~7729948254';

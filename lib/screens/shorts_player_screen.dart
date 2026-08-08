@@ -100,11 +100,12 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
     super.dispose();
   }
 
-  /// Ensure controllers exist for [current-1, current, current+1].
-  /// Dispose anything outside that window to bound WebView memory.
+  /// Ensure controllers exist for [current-2 … current+2].
+  /// Wider window = next swipe lands on an already-buffering WebView.
+  /// Dispose anything outside that window to bound memory.
   void _syncControllerPool() {
     final wanted = <int>{};
-    for (var i = _currentIndex - 1; i <= _currentIndex + 1; i++) {
+    for (var i = _currentIndex - 2; i <= _currentIndex + 2; i++) {
       if (i >= 0 && i < widget.shorts.length) wanted.add(i);
     }
 
@@ -121,6 +122,7 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
     for (final i in wanted) {
       if (_controllers.containsKey(i)) continue;
       final isActive = i == _currentIndex;
+      final distance = (i - _currentIndex).abs();
       _controllers[i] = YoutubePlayerController(
         initialVideoId: widget.shorts[i].id,
         flags: YoutubePlayerFlags(
@@ -131,14 +133,12 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
           enableCaption: false,
         ),
       );
-      // Neighbours: pause after a short moment so they buffer the start
-      // without racing the active short's bandwidth forever. The active
-      // one is left playing (still muted) so its first frame arrives fast.
+      // Neighbours: pause after buffering the first segment so they stay
+      // warm without racing the active short's bandwidth. Closer neighbours
+      // get a longer warm window; ±2 get a shorter one.
       if (!isActive) {
-        // Pause shortly after creation — the autoPlay flag already kicked
-        // off the buffer request; pausing after ~800 ms keeps the first
-        // segment warm without continuous download.
-        Future.delayed(const Duration(milliseconds: 800), () {
+        final warmMs = distance == 1 ? 1200 : 600;
+        Future.delayed(Duration(milliseconds: warmMs), () {
           final c = _controllers[i];
           if (c == null) return;
           // Only pause if this index is still a neighbour (not now active).
@@ -396,12 +396,17 @@ class _ShortPageState extends State<_ShortPage>
     if (widget.isActive && !old.isActive && widget.autoPlayOnActivate) {
       _userStarted = true;
       unawaited(EngagementService.instance.recordView(widget.video));
-      // Seek to start for a clean entry, then play. Stay muted until frame.
+      // Prefer resume from the warm buffer. Only seek-to-zero when the
+      // neighbour never painted a frame (cold) so we avoid a visible hitch
+      // on already-buffered shorts.
       try {
-        _boundController
-          ?..mute()
-          ..seekTo(Duration.zero)
-          ..play();
+        final c = _boundController;
+        if (c == null) return;
+        c.mute();
+        if (!_hasVideoStarted) {
+          c.seekTo(Duration.zero);
+        }
+        c.play();
       } catch (_) {}
     }
 
