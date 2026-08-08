@@ -61,6 +61,24 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
 
   String get _scrollKey => 'webview_scroll_${widget.bookId}';
 
+  /// Web-only: map article URLs to an embeddable reader.
+  /// Sites that forbid framing (X-Frame-Options / CSP) render blank otherwise.
+  static String _webReadableUrl(String url) {
+    final u = url.trim();
+    if (u.isEmpty) return u;
+    // Already a known reader/proxy or Gutenberg HTML file — use as-is.
+    final lower = u.toLowerCase();
+    if (lower.contains('gutenberg.org/files/') ||
+        lower.contains('r.jina.ai/') ||
+        lower.contains('archive.org/stream/') ||
+        lower.contains('archive.org/details/')) {
+      return u;
+    }
+    // jina.ai reader returns clean article text and permits framing.
+    final encoded = u.startsWith('http') ? u : 'https://$u';
+    return 'https://r.jina.ai/$encoded';
+  }
+
   // ── Lifecycle ──────────────────────────────────────────────────────────────
 
   @override
@@ -190,7 +208,10 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
         children: [
           Expanded(
             child: kIsWeb
-                ? WebIframeView(url: widget.url, title: widget.title)
+                ? WebIframeView(
+                    url: _webReadableUrl(widget.url),
+                    title: widget.title,
+                  )
                 : InAppWebView(
                     initialUrlRequest: URLRequest(url: WebUri(widget.url)),
                     initialSettings: InAppWebViewSettings(

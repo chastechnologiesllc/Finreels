@@ -409,7 +409,8 @@ class _BooksTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final books = context.read<FeedProvider>().feedVideos;
+    // watch so the list rebuilds when feed finishes loading / refreshes.
+    final books = context.watch<FeedProvider>().feedVideos;
     final adsRemoved = context.watch<AdService>().adsRemoved;
     if (books.isEmpty) {
       return Center(
@@ -427,9 +428,14 @@ class _BooksTab extends StatelessWidget {
     }
 
     return ListView.builder(
-      physics: const ClampingScrollPhysics(),
+      // AlwaysScrollable keeps pull-to-refresh / nested scroll working on web.
+      physics: const AlwaysScrollableScrollPhysics(
+        parent: BouncingScrollPhysics(),
+      ),
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),
       itemCount: items.length,
+      // Cap off-screen work — large book lists were janking / hanging on web.
+      cacheExtent: 600,
       itemBuilder: (context, idx) {
         final item = items[idx];
 

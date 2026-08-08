@@ -121,15 +121,22 @@ class BlogRssService {
     if (!forceRefresh && _isCacheFresh) return _cache!;
 
     // Web JSONP (rss2json) rate-limits under high concurrency. Fetch feeds
-    // sequentially on web; keep parallel native HTTP on Android/iOS.
+    // in small batches on web; keep full parallel native HTTP on Android/iOS.
     final List<List<BlogArticle>> results = [];
     if (kIsWeb) {
-      for (final feed in combinedBlogFeeds) {
-        results.add(await _fetchFeed(
-          url: feed['url']!,
-          sourceName: feed['name']!,
-          categoryId: feed['categoryId'],
+      // Cap + batch: dozens of sequential feeds hung the Blogs tab on web.
+      final feeds = combinedBlogFeeds.take(24).toList();
+      const batch = 3;
+      for (var i = 0; i < feeds.length; i += batch) {
+        final slice = feeds.skip(i).take(batch);
+        final batchResults = await Future.wait(slice.map(
+          (feed) => _fetchFeed(
+            url: feed['url']!,
+            sourceName: feed['name']!,
+            categoryId: feed['categoryId'],
+          ),
         ));
+        results.addAll(batchResults);
       }
     } else {
       final futures = combinedBlogFeeds.map(

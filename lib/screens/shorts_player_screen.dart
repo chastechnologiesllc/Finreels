@@ -104,7 +104,9 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
   /// Ensure controllers exist for [current-2 … current+2].
   /// Wider window = next swipe lands on an already-buffering WebView.
   /// Dispose anything outside that window to bound memory.
+  /// Web uses HTML embeds only — skip the mobile controller pool.
   void _syncControllerPool() {
+    if (kIsWeb) return;
     final wanted = <int>{};
     for (var i = _currentIndex - 2; i <= _currentIndex + 2; i++) {
       if (i >= 0 && i < widget.shorts.length) wanted.add(i);
@@ -210,15 +212,13 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Mobile: Youtube WebView steals vertical drags — custom GestureDetector
-    // owns scrolling with NeverScrollableScrollPhysics.
-    // Web: iframe + custom drag fights the browser; use native PageView physics.
+    // Mobile + Web: platform views steal vertical drags. Keep
+    // NeverScrollableScrollPhysics and own swipes with GestureDetector.
+    // Web YouTube embeds use pointer-events:none so this detector always wins.
     final pageView = PageView.builder(
       controller: _pageController,
       scrollDirection: Axis.vertical,
-      physics: kIsWeb
-          ? const PageScrollPhysics()
-          : const NeverScrollableScrollPhysics(),
+      physics: const NeverScrollableScrollPhysics(),
       itemCount: widget.shorts.length,
       onPageChanged: (index) {
         setState(() {
@@ -235,19 +235,17 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
         isActive: index == _currentIndex,
         autoPlayOnActivate:
             index != widget.initialIndex || widget.autoPlayFirst,
-        pauseForScroll: !kIsWeb && _isDragging && index == _currentIndex,
+        pauseForScroll: _isDragging && index == _currentIndex,
       ),
     );
 
-    final body = kIsWeb
-        ? pageView
-        : GestureDetector(
-            behavior: HitTestBehavior.opaque,
-            onVerticalDragStart: _onDragStart,
-            onVerticalDragUpdate: _onDragUpdate,
-            onVerticalDragEnd: _onDragEnd,
-            child: pageView,
-          );
+    final body = GestureDetector(
+      behavior: HitTestBehavior.opaque,
+      onVerticalDragStart: _onDragStart,
+      onVerticalDragUpdate: _onDragUpdate,
+      onVerticalDragEnd: _onDragEnd,
+      child: pageView,
+    );
 
     return Scaffold(
       backgroundColor: Colors.black,

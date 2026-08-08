@@ -544,12 +544,39 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
   // ── EPUB reader ────────────────────────────────────────────────────────────
 
+  /// Map direct .epub file URLs to HTML readers browsers can render in an iframe.
+  /// Raw .epub bytes show as a blank/download page inside <iframe>.
+  String _webReadableBookUrl(String epubUrl) {
+    // Project Gutenberg: .../cache/epub/{id}/pg{id}-images.epub
+    final gut = RegExp(r'gutenberg\.org/cache/epub/(\d+)/', caseSensitive: false)
+        .firstMatch(epubUrl);
+    if (gut != null) {
+      final id = gut.group(1)!;
+      // HTML with images — iframe-friendly, stays on gutenberg.org.
+      return 'https://www.gutenberg.org/files/$id/$id-h/$id-h.htm';
+    }
+    // Global Grey: no stable HTML mirror — use their book page if possible,
+    // otherwise Internet Archive reader search is not reliable. Fall back to
+    // the EPUB URL only if we cannot map; prefer the public domain HTML page
+    // pattern used on their site when the slug is known.
+    final gg = RegExp(
+            r'globalgreyebooks\.com/ebooks/([^/]+)\.epub',
+            caseSensitive: false)
+        .firstMatch(epubUrl);
+    if (gg != null) {
+      final slug = gg.group(1)!;
+      // Global Grey HTML book pages (public domain texts).
+      return 'https://www.globalgreyebooks.com/$slug.html';
+    }
+    // Already an HTML/reader URL (Archive.org, Google Books, etc.).
+    return epubUrl;
+  }
+
   Widget _buildEpubReader(String url) {
-    // Web: embed the public-domain source page / reader in-platform.
-    // (flutter_epub_viewer ^1.x is mobile-oriented; the page still stays
-    // inside FinReels via BlogReaderScreen iframe — never a new browser tab.)
+    // Web: embed HTML reader in-platform (raw .epub is blank in iframes).
+    // Mobile keeps flutter_epub_viewer.
     if (kIsWeb) {
-      return _webInAppReader(url);
+      return _webInAppReader(_webReadableBookUrl(url));
     }
     return Scaffold(
       appBar: AppBar(

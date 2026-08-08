@@ -518,8 +518,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               },
               bufferIndicator: const SizedBox.shrink(),
             ),
-          // On web the official embed paints immediately — drop the cover
-          // after a short settle so the user can use native YT controls.
+          // Web embed: mark ready immediately, arm FinReels watermark briefly.
           if (kIsWeb && _playerAttached && !_hasStartedPlaying)
             Builder(builder: (context) {
               Future.microtask(() {
@@ -527,9 +526,12 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                   setState(() {
                     _hasStartedPlaying = true;
                     _playing = true;
+                    _intendedPlaying = true;
                     _ready = true;
-                    _showYtCover = false;
+                    _showCenterIcon = false;
+                    _showYtCover = true;
                   });
+                  _armYtCover();
                 }
               });
               return const SizedBox.shrink();
@@ -550,24 +552,20 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                 memCacheHeight: 405,
               ),
             ),
-          if (_playerAttached && !_hasStartedPlaying && !_ended)
+          // Spinner only on mobile (web embed has no controller state lag).
+          if (!kIsWeb && _playerAttached && !_hasStartedPlaying && !_ended)
             const Center(
               child: CircularProgressIndicator(
                   color: AppTheme.gold, strokeWidth: 3),
             ),
-          // YouTube logo sits at bottom-right of the iframe. Fixed px offsets
-          // break across screen sizes / densities / landscape. Use relative
-          // insets from the player bounds so the FinReels chip always covers
-          // the logo region.
+          // FinReels watermark — covers YT logo region (mobile + web).
           if (_hasStartedPlaying &&
               !_ended &&
-              (_showYtCover || !_playing))
+              (_showYtCover || (!_playing && !kIsWeb)))
             LayoutBuilder(
               builder: (context, constraints) {
                 final w = constraints.maxWidth;
                 final h = constraints.maxHeight;
-                // ~7–9% of the shorter side keeps the chip over the YT logo
-                // across phones, tablets, and landscape without overshooting.
                 final inset = (w < h ? w : h) * (_isLandscape ? 0.045 : 0.055);
                 return Positioned(
                   right: inset.clamp(12.0, 72.0),
@@ -577,7 +575,9 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               },
             ),
           if (_ended) _buildEndOverlay(),
-          if (!_ended) _buildControls(context),
+          // Web: native YT controls handle play/pause — do not overlay a
+          // full-screen Flutter play button (it stayed visible while playing).
+          if (!_ended && !kIsWeb) _buildControls(context),
           if (_isLandscape)
             Positioned(
               top: 8,
