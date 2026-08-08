@@ -565,11 +565,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
             // Web: official YouTube embed when expanded (v9 has no web player).
             if (kIsWeb && _expanded)
               Positioned.fill(
-                child: WebYoutubePlayer(
-                  videoId: widget.video.id,
-                  autoPlay: true,
-                  mute: true,
-                ),
+                child: WebYoutubePlayer(videoId: widget.video.id),
               )
             else if (!kIsWeb && _controller != null)
               IgnorePointer(

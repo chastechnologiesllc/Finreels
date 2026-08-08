@@ -534,7 +534,6 @@ class _ShortPageState extends State<_ShortPage>
             WebYoutubePlayer(
               videoId: widget.video.id,
               autoPlay: widget.autoPlayOnActivate || _userStarted,
-              mute: true,
               loop: true,
               isShort: true,
             )

@@ -491,12 +491,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
         fit: StackFit.expand,
         children: [
           if (_playerAttached && kIsWeb)
-            WebYoutubePlayer(
-              videoId: widget.video.id,
-              autoPlay: true,
-              mute: true,
-              loop: false,
-            )
+            WebYoutubePlayer(videoId: widget.video.id)
           else if (_playerAttached)
             YoutubePlayer(
               controller: _controller,

@@ -63,13 +63,6 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
 
   // ── Lifecycle ──────────────────────────────────────────────────────────────
 
-  Future<void> _openExternal() async {
-    final uri = Uri.tryParse(widget.url);
-    if (uri != null && await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    }
-  }
-
   @override
   void initState() {
     super.initState();
