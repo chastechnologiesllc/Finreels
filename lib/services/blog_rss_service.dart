@@ -120,33 +120,27 @@ class BlogRssService {
   Future<List<BlogArticle>> fetchAll({bool forceRefresh = false}) async {
     if (!forceRefresh && _isCacheFresh) return _cache!;
 
-    // Web JSONP (rss2json) rate-limits under high concurrency. Fetch feeds
-    // in small batches on web; keep full parallel native HTTP on Android/iOS.
-    final List<List<BlogArticle>> results = [];
+    // Web: only the 5 general feeds (parallel). Category feeds made the tab
+    // hang and often returned empty under free rss2json rate limits.
+    // Android/iOS: full parallel HTTP of combinedBlogFeeds.
+    final List<List<BlogArticle>> results;
     if (kIsWeb) {
-      // Cap + batch: dozens of sequential feeds hung the Blogs tab on web.
-      final feeds = combinedBlogFeeds.take(24).toList();
-      const batch = 3;
-      for (var i = 0; i < feeds.length; i += batch) {
-        final slice = feeds.skip(i).take(batch);
-        final batchResults = await Future.wait(slice.map(
-          (feed) => _fetchFeed(
-            url: feed['url']!,
-            sourceName: feed['name']!,
-            categoryId: feed['categoryId'],
-          ),
-        ));
-        results.addAll(batchResults);
-      }
-    } else {
-      final futures = combinedBlogFeeds.map(
+      final feeds = kBlogFeeds;
+      results = await Future.wait(feeds.map(
         (feed) => _fetchFeed(
           url: feed['url']!,
           sourceName: feed['name']!,
           categoryId: feed['categoryId'],
         ),
-      );
-      results.addAll(await Future.wait(futures));
+      ));
+    } else {
+      results = await Future.wait(combinedBlogFeeds.map(
+        (feed) => _fetchFeed(
+          url: feed['url']!,
+          sourceName: feed['name']!,
+          categoryId: feed['categoryId'],
+        ),
+      ));
     }
     final articles = results.expand((l) => l).toList();
     final selected = UserProfileService.instance.selectedCategoryIds;
@@ -223,13 +217,45 @@ class BlogRssService {
     required String sourceName,
     String? categoryId,
   }) async {
-    final api = Uri.parse(AppConfig.webRss2JsonEndpoint).replace(
-      queryParameters: {'rss_url': url},
-    );
-    final data = await fetchJsonp(api.toString());
-    if (data['status'] != 'ok') return [];
+    Map<String, dynamic>? data;
+
+    // 1) rss2json via JSONP (primary).
+    try {
+      final api = Uri.parse(AppConfig.webRss2JsonEndpoint).replace(
+        queryParameters: {'rss_url': url},
+      );
+      data = await fetchJsonp(api.toString())
+          .timeout(const Duration(seconds: 12));
+    } on Object catch (e) {
+      debugPrint('[BlogRssService] JSONP $sourceName: $e');
+    }
+
+    // 2) Fallback: allorigins CORS proxy → raw RSS → local parse.
+    if (data == null ||
+        (data['status'] != 'ok' &&
+            (data['items'] is! List || (data['items'] as List).isEmpty))) {
+      try {
+        final proxy = Uri.parse(
+          'https://api.allorigins.win/raw?url=${Uri.encodeComponent(url)}',
+        );
+        final response = await http
+            .get(proxy)
+            .timeout(const Duration(seconds: 12));
+        if (response.statusCode == 200 && response.body.isNotEmpty) {
+          return _parse(
+            response.body,
+            sourceName,
+            categoryId,
+          );
+        }
+      } on Object catch (e) {
+        debugPrint('[BlogRssService] allorigins $sourceName: $e');
+      }
+    }
+
+    if (data == null) return [];
     final items = data['items'];
-    if (items is! List) return [];
+    if (items is! List || items.isEmpty) return [];
 
     final articles = <BlogArticle>[];
     for (final raw in items) {

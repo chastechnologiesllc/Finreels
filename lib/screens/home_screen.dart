@@ -427,15 +427,21 @@ class _BooksTab extends StatelessWidget {
       }
     }
 
-    return ListView.builder(
-      // AlwaysScrollable keeps pull-to-refresh / nested scroll working on web.
+    return RefreshIndicator(
+      color: AppTheme.gold,
+      onRefresh: () =>
+          context.read<FeedProvider>().refresh(force: true),
+      child: ListView.builder(
+      // Clamping is more reliable on Flutter web than BouncingScrollPhysics.
       physics: const AlwaysScrollableScrollPhysics(
-        parent: BouncingScrollPhysics(),
+        parent: ClampingScrollPhysics(),
       ),
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),
       itemCount: items.length,
-      // Cap off-screen work — large book lists were janking / hanging on web.
-      cacheExtent: 600,
+      // Small cache + fixed-ish rows keep web scroll smooth with many covers.
+      cacheExtent: 400,
+      addAutomaticKeepAlives: false,
+      addRepaintBoundaries: false,
       itemBuilder: (context, idx) {
         final item = items[idx];
 
@@ -526,6 +532,7 @@ class _BooksTab extends StatelessWidget {
           ),
         );
       },
+    ),
     );
   }
 }

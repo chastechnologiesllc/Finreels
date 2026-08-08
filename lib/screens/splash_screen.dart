@@ -88,7 +88,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
             // ── By Chas ───────────────────────────────────────────────────────
             Text(
-              'by chAs',
+              'by chAs Technologies LLC',
               style: TextStyle(
                 color: textColor,
                 fontSize: 16,

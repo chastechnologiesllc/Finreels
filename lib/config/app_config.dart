@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 
-/// Central configuration for FinReels — by chAs Tech Group
+/// Central configuration for FinReels — by chAs Technologies LLC
 class AppConfig {
   AppConfig._();
 
   static const String appName = 'FinReels';
-  static const String byLine = 'by chAs';
-  static const String company = 'chAs Tech Group';
+  static const String byLine = 'by chAs Technologies LLC';
+  static const String company = 'chAs Technologies LLC';
   static const String packageName = 'com.chastechgroup.finreels';
 
   // ── AdMob — PRODUCTION IDs (Android) ────────────────────────────────────────

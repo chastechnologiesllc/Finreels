@@ -13,8 +13,8 @@ class PrivacyPolicyScreen extends StatelessWidget {
         _LegalSection(
           heading: 'Introduction',
           body:
-              'FinReels ("we", "our", or "us") is operated by chAs Technologies LLC '
-              '(trading as chAs Tech Group). This Privacy Policy explains how we '
+              'FinReels ("we", "our", or "us") is operated by chAs Technologies LLC. '
+              'This Privacy Policy explains how we '
               'collect, use, and protect your information when you use the FinReels '
               'mobile application — a financial literacy content aggregator for videos, '
               'shorts, blogs, and books across 60 business, skill, and profession '
@@ -159,8 +159,8 @@ class TermsOfServiceScreen extends StatelessWidget {
         _LegalSection(
           heading: 'Introduction',
           body:
-              'Welcome to FinReels, operated by chAs Technologies LLC (trading as '
-              'chAs Tech Group). By downloading or using this app, you agree to be '
+              'Welcome to FinReels, operated by chAs Technologies LLC. '
+              'By downloading or using this app, you agree to be '
               'bound by these Terms of Service ("Terms"). Please read them carefully. '
               'If you do not agree, do not use FinReels.',
         ),

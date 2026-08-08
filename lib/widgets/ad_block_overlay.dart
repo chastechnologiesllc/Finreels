@@ -150,7 +150,7 @@ class _AdBlockSheet extends StatelessWidget {
               ),
               const Spacer(flex: 3),
               Text(
-                'FinReels by chAs Tech Group',
+                'FinReels by chAs Technologies LLC',
                 style: Theme.of(context).textTheme.labelSmall,
               ),
             ],
