@@ -126,7 +126,7 @@ class _LabelledBannerAdState extends State<LabelledBannerAd> {
     if (kIsWeb) {
       return const Padding(
         padding: EdgeInsets.symmetric(vertical: 6),
-        child: AdSenseBanner(height: 90),
+        child: AdSenseBanner(),
       );
     }
 

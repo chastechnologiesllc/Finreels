@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:hive/hive.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
@@ -146,18 +146,18 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
 
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: const Row(
+      const SnackBar(
+        content: Row(
           children: [
             Icon(Icons.bookmark_rounded, color: AppTheme.gold, size: 16),
             SizedBox(width: 8),
             Text('Resuming from where you left off'),
           ],
         ),
-        duration: const Duration(seconds: 2),
+        duration: Duration(seconds: 2),
         behavior: SnackBarBehavior.floating,
-        backgroundColor: const Color(0xFF1E1E1E),
-        shape: const RoundedRectangleBorder(
+        backgroundColor: Color(0xFF1E1E1E),
+        shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(10)),
         ),
       ),
@@ -214,13 +214,8 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                     initialSettings: InAppWebViewSettings(
                       useShouldOverrideUrlLoading: true,
                       allowsInlineMediaPlayback: true,
-                      javaScriptEnabled: true,
-                      domStorageEnabled: true,
                       mediaPlaybackRequiresUserGesture: false,
-                      // Improves tap targets / link handling on many publishers.
-                      supportZoom: true,
                       builtInZoomControls: false,
-                      displayZoomControls: false,
                     ),
                     onWebViewCreated: (_) {},
                     onLoadStart: (_, __) {
@@ -267,12 +262,14 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                       // External article link: open inside FinReels in a new
                       // reader so taps never feel "dead".
                       if (!mounted) return NavigationActionPolicy.CANCEL;
-                      Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (_) => BlogReaderScreen(
-                            url: uri.toString(),
-                            title: uri.host,
-                            categoryId: widget.categoryId,
+                      unawaited(
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (_) => BlogReaderScreen(
+                              url: uri.toString(),
+                              title: uri.host,
+                              categoryId: widget.categoryId,
+                            ),
                           ),
                         ),
                       );

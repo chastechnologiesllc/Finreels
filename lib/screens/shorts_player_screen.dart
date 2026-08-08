@@ -125,8 +125,7 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
       final distance = (i - _currentIndex).abs();
       _controllers[i] = YoutubePlayerController(
         initialVideoId: widget.shorts[i].id,
-        flags: YoutubePlayerFlags(
-          autoPlay: true,
+        flags: const YoutubePlayerFlags(
           mute: true,
           loop: true,
           hideControls: true,
@@ -145,7 +144,7 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
           if (i != _currentIndex) {
             try {
               c.pause();
-            } catch (_) {}
+            } on Object catch (_) {}
           }
         });
       }

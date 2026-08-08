@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:typed_data';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -9,15 +8,14 @@ import 'package:flutter_pdfview/flutter_pdfview.dart';
 import 'package:hive/hive.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../services/pdf_io_stub.dart'
-    if (dart.library.io) '../services/pdf_io_io.dart' as pdf_io;
-
 import '../data/book_insights_data.dart';
 import '../data/category_playbook_data.dart';
 import '../models/video.dart';
 import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
 import '../services/pdf_download_service.dart';
+import '../services/pdf_io_stub.dart'
+    if (dart.library.io) '../services/pdf_io_io.dart' as pdf_io;
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/book_cover_image.dart';

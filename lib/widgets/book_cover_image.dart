@@ -109,7 +109,7 @@ class _BookCoverImageState extends State<BookCoverImage> {
 
     // Deduplicate while preserving order.
     final seen = <String>{};
-    return out.where((e) => seen.add(e)).toList();
+    return out.where(seen.add).toList();
   }
 
   String get _currentUrl =>
