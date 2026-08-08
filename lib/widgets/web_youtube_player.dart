@@ -5,8 +5,8 @@ import 'web_youtube_player_stub.dart'
     if (dart.library.html) 'web_youtube_player_web.dart' as impl;
 
 /// In-platform YouTube player for Flutter web via the official embed iframe
-/// (youtube-nocookie.com). Browsers require muted autoplay; user can unmute
-/// with the native YT controls after a gesture.
+/// (youtube-nocookie.com). Embed uses pointer-events:none so channel/title
+/// taps never leave FinReels. Flutter owns play/pause and channel navigation.
 class WebYoutubePlayer extends StatelessWidget {
   final String videoId;
   final bool autoPlay;
@@ -22,6 +22,12 @@ class WebYoutubePlayer extends StatelessWidget {
     this.isShort = false,
     super.key,
   });
+
+  /// Send playVideo / pauseVideo to the embed (web only).
+  static void command(String videoId, String func) {
+    if (!kIsWeb) return;
+    impl.webYoutubeCommand(videoId, func);
+  }
 
   @override
   Widget build(BuildContext context) {

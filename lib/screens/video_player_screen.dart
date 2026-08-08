@@ -198,11 +198,19 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
   void _togglePlay() {
     final willPause = _intendedPlaying;
-    if (willPause) {
+    if (kIsWeb) {
+      // Embed is pointer-events:none — drive playback via YT postMessage.
+      WebYoutubePlayer.command(
+        widget.video.id,
+        willPause ? 'pauseVideo' : 'playVideo',
+      );
+      if (!willPause) {
+        WebYoutubePlayer.command(widget.video.id, 'unMute');
+      }
+    } else if (willPause) {
       _controller.pause();
     } else {
-      // User gesture — safe to unmute under browser autoplay policy.
-      if (kIsWeb) _forceSoundOn();
+      _forceSoundOn();
       _controller.play();
     }
     unawaited(AdService.instance.onVideoPlayPauseTapped());
@@ -315,8 +323,18 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
             AppBar(
               backgroundColor: bg,
               elevation: 0,
-              title: Text(widget.channel.name,
-                  style: const TextStyle(fontSize: 15)),
+              // Channel name stays inside FinReels — never opens YouTube.
+              title: GestureDetector(
+                onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) =>
+                        ChannelVideosScreen(channel: widget.channel),
+                  ),
+                ),
+                child: Text(widget.channel.name,
+                    style: const TextStyle(fontSize: 15)),
+              ),
               actions: [
                 IconButton(
                   icon: const Icon(Icons.share_outlined),
@@ -575,9 +593,9 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               },
             ),
           if (_ended) _buildEndOverlay(),
-          // Web: native YT controls handle play/pause — do not overlay a
-          // full-screen Flutter play button (it stayed visible while playing).
-          if (!_ended && !kIsWeb) _buildControls(context),
+          // Flutter owns play/pause on all platforms. Web embed is
+          // pointer-events:none so channel/title taps cannot open YouTube.
+          if (!_ended) _buildControls(context),
           if (_isLandscape)
             Positioned(
               top: 8,
