@@ -8,8 +8,12 @@ import 'package:web/web.dart' as web;
 
 /// Official YouTube IFrame embed for Flutter web.
 ///
-/// pointer-events: none so taps never escape to youtube.com (channel name,
-/// title, logo). Playback is muted autoplay; Flutter owns chrome/gestures.
+/// LOCKED IN PLATFORM (no "Watch on YouTube" escape):
+/// - pointer-events: none — all taps stay in Flutter
+/// - controls=0, fs=0, disablekb=1, modestbranding=1, rel=0
+/// - sandbox without allow-top-navigation / allow-popups
+/// - youtube-nocookie + origin bound to this host
+/// Playback is muted autoplay where required; Flutter owns chrome.
 Widget buildWebYoutubePlayer({
   required String videoId,
   required bool autoPlay,

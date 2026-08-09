@@ -544,6 +544,7 @@ class _ShortPageState extends State<_ShortPage>
                   height: size.width * (16 / 9),
                   child: YoutubePlayer(
                     controller: controller,
+                    thumbnail: const ColoredBox(color: Color(0xFF000000)),
                     onReady: () {
                       if (!mounted) return;
                       setState(() => _ready = true);
@@ -676,54 +677,6 @@ class _ShortPageState extends State<_ShortPage>
                       color: Colors.white, size: 38),
                 ),
               ),
-            ),
-
-          // FinReels chip over native YouTube logo (bottom-right on Shorts).
-          if (_hasVideoStarted)
-            LayoutBuilder(
-              builder: (context, constraints) {
-                final shortSide = constraints.maxWidth < constraints.maxHeight
-                    ? constraints.maxWidth
-                    : constraints.maxHeight;
-                final inset = (shortSide * 0.045).clamp(12.0, 48.0);
-                return Positioned(
-                  right: inset,
-                  bottom: (inset * 0.85).clamp(48.0, 120.0),
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-                    decoration: BoxDecoration(
-                      color: const Color(0xCC0D0D0D),
-                      borderRadius: BorderRadius.circular(8),
-                      border: Border.all(
-                          color: AppTheme.gold.withValues(alpha: 0.35)),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Image.asset(
-                          'assets/icons/app_icon.png',
-                          width: 14,
-                          height: 14,
-                          errorBuilder: (_, __, ___) => const Icon(
-                            Icons.play_arrow_rounded,
-                            color: AppTheme.gold,
-                            size: 14,
-                          ),
-                        ),
-                        const SizedBox(width: 5),
-                        const Text(
-                          'FinReels',
-                          style: TextStyle(
-                            color: AppTheme.gold,
-                            fontSize: 11.5,
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                );
-              },
             ),
 
           Positioned(

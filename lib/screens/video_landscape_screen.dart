@@ -151,6 +151,7 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
                 aspectRatio: 16 / 9,
                 child: YoutubePlayer(
                   controller: _controller!,
+                  thumbnail: const ColoredBox(color: Color(0xFF000000)),
                   width: size.width,
                   onReady: () {
                     if (!mounted) return;

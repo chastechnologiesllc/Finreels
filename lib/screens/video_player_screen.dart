@@ -60,10 +60,11 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   late final ValueNotifier<Duration> _durationNotifier;
 
   bool _playerAttached = false;
-  bool _showYtCover = true;
-  Timer? _ytCoverTimer;
   bool _isLandscape = false;
   final GlobalKey _playerKey = GlobalKey();
+  /// Show FinReels cover while YT logo is expected (pause or first ~4s play).
+  bool _showYtCover = true;
+  Timer? _ytCoverTimer;
 
   @override
   void initState() {
@@ -143,7 +144,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
         _ready = ready;
         if (justStarted) {
           _hasStartedPlaying = true;
-      _onPlaybackStarted();
           _intendedPlaying = true;
           _showCenterIcon = false;
           _centerIconTimer?.cancel();
@@ -154,9 +154,11 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       });
       if (justStarted || (playing && !wasPlaying)) {
         _forceSoundOn();
-        
+        _armYtCover();
       } else if (!playing && wasPlaying) {
         // Paused — YouTube logo reappears; keep cover visible.
+        _ytCoverTimer?.cancel();
+        if (mounted) setState(() => _showYtCover = true);
       }
     }
   }
@@ -164,7 +166,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   @override
   void dispose() {
     _centerIconTimer?.cancel();
-    
+    _ytCoverTimer?.cancel();
     _progressNotifier.dispose();
     _positionNotifier.dispose();
     _durationNotifier.dispose();
@@ -192,10 +194,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       _controller.unMute();
       _controller.setVolume(100);
     } catch (_) {}
-  }
-
-  void _onPlaybackStarted() {
-    _armYtCover();
   }
 
   void _togglePlay() {
@@ -510,12 +508,13 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       child: Stack(
         fit: StackFit.expand,
         children: [
-          const ColoredBox(color: Color(0xFF000000)),
           if (_playerAttached && kIsWeb)
             WebYoutubePlayer(videoId: widget.video.id)
           else if (_playerAttached)
             YoutubePlayer(
               controller: _controller,
+              thumbnail: const ColoredBox(color: Color(0xFF000000)),
+              bufferIndicator: const SizedBox.shrink(),
               onReady: () {
                 if (!mounted) return;
                 setState(() => _ready = true);
@@ -546,18 +545,18 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                 if (mounted && !_hasStartedPlaying) {
                   setState(() {
                     _hasStartedPlaying = true;
-      _onPlaybackStarted();
                     _playing = true;
                     _intendedPlaying = true;
                     _ready = true;
                     _showCenterIcon = false;
+                    _showYtCover = true;
                   });
-                  
+                  _armYtCover();
                 }
               });
               return const SizedBox.shrink();
             }),
-          if (!_hasStartedPlaying)
+          if (!_hasStartedPlaying && !kIsWeb)
             CachedNetworkImage(
               imageUrl: widget.video.thumbnailHd,
               fit: BoxFit.cover,
@@ -579,10 +578,10 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               child: CircularProgressIndicator(
                   color: AppTheme.gold, strokeWidth: 3),
             ),
-          // FinReels chip over native YouTube logo (bottom-right), all sizes.
+          // FinReels watermark — covers YT logo region (mobile + web).
           if (_hasStartedPlaying &&
               !_ended &&
-              (_showYtCover || !_playing))
+              (_showYtCover || (!_playing && !kIsWeb)))
             LayoutBuilder(
               builder: (context, constraints) {
                 final w = constraints.maxWidth;
@@ -803,37 +802,37 @@ class _FinReelsWatermark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Always dark translucent chip + gold — never a white/blurred plate over
-    // the player (that read as a "white blur overlay" on light theme).
-    const bg = Color(0xCC0D0D0D);
-    const fg = AppTheme.gold;
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final bg = const Color(0xCC0D0D0D);
+    final fg = AppTheme.gold;
+    // Slightly larger than the native YT logo so relative positioning still
+    // fully covers it across densities and player aspect ratios.
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: bg,
         borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: AppTheme.gold.withValues(alpha: 0.35)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
             'assets/icons/app_icon.png',
-            width: 15,
-            height: 15,
-            errorBuilder: (_, __, ___) => const Icon(
+            width: 16,
+            height: 16,
+            errorBuilder: (_, __, ___) => Icon(
               Icons.play_arrow_rounded,
               color: fg,
-              size: 15,
+              size: 16,
             ),
           ),
           const SizedBox(width: 6),
-          const Text(
+          Text(
             'FinReels',
             style: TextStyle(
               color: fg,
-              fontSize: 12,
+              fontSize: 12.5,
               fontWeight: FontWeight.w700,
               letterSpacing: 0.2,
             ),

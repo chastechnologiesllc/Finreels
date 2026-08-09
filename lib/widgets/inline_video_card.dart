@@ -53,10 +53,9 @@ import 'web_youtube_player.dart';
 //    Same controller, same position, zero restart.
 //    We only set orientation in the callbacks.
 //
-// 4. YOUTUBE BRANDING
-//    FinReels chip at bottom-right over the native YT logo region.
+// 4. YOUTUBE BRANDING COVERED
+//    36 px black bar at the bottom of the player.
 //    Flutter replay overlay covers end-screen cards.
-//    No full-frame white/transparent plate over the playing video.
 //
 // 5. NATIVE PLAY-BUTTON FLASH (real fix — hideControls:true)
 //    youtube_player_flutter's own TouchShutter/PlayPauseButton overlay is
@@ -108,14 +107,14 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   YoutubePlayerController? _controller;
   bool _playerReady  = false; // YouTube IFrame API onReady fired
   bool _revealPlayer = false; // true only after onReady + grace delay
-  bool _showYtCover = false; // FinReels chip over native YT logo region
-  Timer? _ytCoverTimer;
   bool _expanded     = false; // true once the user has tapped
   bool _ended        = false;
   bool _isPlaying    = false; // mirrors PlayerState for watermark timing
   /// True for ~4s after play starts — matches when YT logo is typically visible.
+  bool _showYtCover  = false;
   Timer? _revealTimer;
   Timer? _soundRetryTimer;
+  Timer? _ytCoverTimer;
   int _soundRetryCount = 0;
 
   /// Tracks the previous PlayerState so we can detect playing → paused.
@@ -167,6 +166,16 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     });
   }
 
+  void _armYtCover() {
+    // YouTube logo (controls=0 / hideControls): visible on pause, at start,
+    // and briefly after play begins, then often fades. Mirror that window.
+    _ytCoverTimer?.cancel();
+    if (mounted) setState(() => _showYtCover = true);
+    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
+      if (mounted) setState(() => _showYtCover = false);
+    });
+  }
+
   // ── Play / pause coordination ─────────────────────────────────────────────
 
   void _onActiveChanged() {
@@ -207,7 +216,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     Timer(const Duration(milliseconds: 2500), () {
       if (!mounted || _revealPlayer || !_expanded) return;
       setState(() => _revealPlayer = true);
-      _armYtCover();
     });
   }
 
@@ -258,10 +266,10 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     if (playing != _isPlaying && _revealPlayer) {
       setState(() => _isPlaying = playing);
       if (playing) {
-        
+        _armYtCover();
         _forceSoundOn();
       } else {
-        // Paused — YT logo reappears; show FinReels chip only (no full-frame cover).
+        // Paused — YT logo reappears; keep our cover visible.
         _ytCoverTimer?.cancel();
         if (mounted) setState(() => _showYtCover = true);
       }
@@ -509,15 +517,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   // inserted on top once the user taps. This is the structural fix for the
   // black-flash issue: no subtree is ever unmounted+remounted on tap.
 
-
-  void _armYtCover() {
-    _ytCoverTimer?.cancel();
-    if (mounted) setState(() => _showYtCover = true);
-    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
-      if (mounted) setState(() => _showYtCover = false);
-    });
-  }
-
   Widget _buildMediaArea(BuildContext context) {
     final media = AspectRatio(
       aspectRatio: 16 / 9,
@@ -527,8 +526,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         child: Stack(
           fit: StackFit.expand,
           children: [
-            // Solid black base — prevents white flash before thumbnail/player.
-            const ColoredBox(color: Color(0xFF000000)),
             // Layer 0: thumbnail — always mounted, never rebuilt on tap.
             CachedNetworkImage(
               imageUrl: widget.video.thumbnailHd,
@@ -538,7 +535,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
               placeholder: (_, __) => Shimmer.fromColors(
                 baseColor:      const Color(0xFF1E1E1E),
                 highlightColor: const Color(0xFF2C2C2C),
-                child: const ColoredBox(color: Color(0xFF121212)),
+                child: const ColoredBox(color: Color(0xFF000000)),
               ),
               errorWidget: (_, __, ___) => CachedNetworkImage(
                 imageUrl: widget.video.thumbnailMq,
@@ -548,7 +545,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 placeholder: (_, __) => Shimmer.fromColors(
                   baseColor:      const Color(0xFF1E1E1E),
                   highlightColor: const Color(0xFF2C2C2C),
-                  child: const ColoredBox(color: Color(0xFF121212)),
+                  child: const ColoredBox(color: Color(0xFF000000)),
                 ),
                 errorWidget: (_, __, ___) =>
                     ColoredBox(color: AppTheme.surfaceElevated(context)),
@@ -557,16 +554,13 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 
             // Layer 1: YouTube player.
             //
-            // CRITICAL (white-wash diagnosis):
-            // On Android, platform views (WebView inside YoutubePlayer) often
-            // IGNORE Flutter Opacity. AnimatedOpacity(0) still paints a white
-            // rectangle over the thumbnail — that is the full-card wash users
-            // see while loading AND can linger if opacity/reveal races.
+            // White-wash root cause (v9 youtube_player_flutter):
+            // 1) Default loading surface / missing `thumbnail` paints light.
+            // 2) AnimatedOpacity(0) does NOT hide Android platform views —
+            //    the WebView still composites a pale rectangle over the card.
             //
-            // Fix: do not composite the player over the card until
-            // _revealPlayer. Pre-warm uses a 1×1 off-screen player so the
-            // WebView can initialise without covering the thumbnail.
-            // IgnorePointer still used so a pre-warmed view never steals scroll.
+            // Fix: black `thumbnail` on YoutubePlayer; full-size player only
+            // after _revealPlayer; pre-warm as 1×1 off-screen (not opacity).
             if (kIsWeb && _expanded && _revealPlayer)
               Positioned.fill(
                 child: WebYoutubePlayer(videoId: widget.video.id),
@@ -583,11 +577,13 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                     playedColor: AppTheme.gold,
                     handleColor: AppTheme.gold,
                   ),
+                  // Black until first decoded frame — prevents white init surface.
+                  thumbnail: const ColoredBox(color: Color(0xFF000000)),
+                  bufferIndicator: const SizedBox.shrink(),
                   onReady: _markReady,
                   onEnded: (_) {
                     if (mounted) setState(() => _ended = true);
                   },
-                  bufferIndicator: const SizedBox.shrink(),
                 ),
                 builder: (context, player) => player,
               )
@@ -601,8 +597,9 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                   child: YoutubePlayer(
                     controller: _controller!,
                     showVideoProgressIndicator: false,
-                    onReady: _markReady,
+                    thumbnail: const ColoredBox(color: Color(0xFF000000)),
                     bufferIndicator: const SizedBox.shrink(),
+                    onReady: _markReady,
                   ),
                 ),
               ),
@@ -634,24 +631,22 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // Layer 4: FinReels chip over the native YouTube logo region
-            // (bottom-right). Relative insets scale across phone sizes.
-            // Shown while the YT logo is expected: first ~4s of play, or paused.
+            // Layer 4: FinReels cover while YT logo is expected.
+            // Relative insets so the chip tracks the logo across screen sizes.
             if (_expanded &&
-                (_controller != null || kIsWeb) &&
+                _controller != null &&
                 !_ended &&
-                (_revealPlayer || kIsWeb) &&
+                _revealPlayer &&
                 (_showYtCover || !_isPlaying))
               LayoutBuilder(
                 builder: (context, constraints) {
                   final shortSide = constraints.maxWidth < constraints.maxHeight
                       ? constraints.maxWidth
                       : constraints.maxHeight;
-                  // YT logo sits bottom-right; inset tracks short side.
-                  final inset = (shortSide * 0.048).clamp(10.0, 56.0);
+                  final inset = (shortSide * 0.055).clamp(10.0, 48.0);
                   return Positioned(
                     right: inset,
-                    bottom: (inset * 0.5).clamp(8.0, 32.0),
+                    bottom: (inset * 0.55).clamp(8.0, 28.0),
                     child: const _InlineFinReelsWatermark(),
                   );
                 },
@@ -758,13 +753,12 @@ class _InlineFinReelsWatermark extends StatelessWidget {
   const _InlineFinReelsWatermark();
   @override
   Widget build(BuildContext context) {
-    const bg = Color(0xCC0D0D0D);
-    const fg = AppTheme.gold;
+    // Always dark translucent + gold — never light-theme white (0xF2FFFFFF).
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5.5),
       alignment: Alignment.center,
       decoration: BoxDecoration(
-        color: bg,
+        color: const Color(0xCC0D0D0D),
         borderRadius: BorderRadius.circular(8),
         border: Border.all(color: AppTheme.gold.withValues(alpha: 0.35)),
       ),
@@ -777,7 +771,7 @@ class _InlineFinReelsWatermark extends StatelessWidget {
             height: 14,
             errorBuilder: (_, __, ___) => const Icon(
               Icons.play_arrow_rounded,
-              color: fg,
+              color: AppTheme.gold,
               size: 14,
             ),
           ),
@@ -785,7 +779,7 @@ class _InlineFinReelsWatermark extends StatelessWidget {
           const Text(
             'FinReels',
             style: TextStyle(
-              color: fg,
+              color: AppTheme.gold,
               fontSize: 11.5,
               fontWeight: FontWeight.w700,
               letterSpacing: 0.2,
