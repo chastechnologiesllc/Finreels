@@ -115,7 +115,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   /// True for ~4s after play starts — matches when YT logo is typically visible.
   Timer? _revealTimer;
   Timer? _soundRetryTimer;
-  Timer? _ytCoverTimer;
   int _soundRetryCount = 0;
 
   /// Tracks the previous PlayerState so we can detect playing → paused.
@@ -207,6 +206,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     Timer(const Duration(milliseconds: 2500), () {
       if (!mounted || _revealPlayer || !_expanded) return;
       setState(() => _revealPlayer = true);
+      _armYtCover();
     });
   }
 
@@ -248,7 +248,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       _forceSoundOn();
       setState(() {
         _revealPlayer = true;
-        _showYtCover = true;
         _isPlaying = true;
       });
       
@@ -261,8 +260,9 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         
         _forceSoundOn();
       } else {
-        // Paused — YT logo reappears; keep our cover visible.
+        // Paused — YT logo reappears; show FinReels chip only (no full-frame cover).
         _ytCoverTimer?.cancel();
+        if (mounted) setState(() => _showYtCover = true);
       }
     }
 
@@ -598,32 +598,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
             ),
-
-            // Layer 1b: keep the thumbnail fully opaque on top until the
-            // player has real frames. YouTube's WebView paints white during
-            // init — without this cover the feed shows a washed/white video.
-            if (_expanded && !_ended && !_revealPlayer)
-              Positioned.fill(
-                child: CachedNetworkImage(
-                  imageUrl: widget.video.thumbnailHd,
-                  fit: BoxFit.cover,
-                  memCacheWidth: 720,
-                  memCacheHeight: 405,
-                  fadeInDuration: Duration.zero,
-                  fadeOutDuration: Duration.zero,
-                  placeholder: (_, __) =>
-                      const ColoredBox(color: Color(0xFF000000)),
-                  errorWidget: (_, __, ___) => CachedNetworkImage(
-                    imageUrl: widget.video.thumbnailMq,
-                    fit: BoxFit.cover,
-                    fadeInDuration: Duration.zero,
-                    memCacheWidth: 720,
-                    memCacheHeight: 405,
-                    errorWidget: (_, __, ___) =>
-                        const ColoredBox(color: Color(0xFF000000)),
-                  ),
-                ),
-              ),
 
             // Layer 2: spinner — only while the user is actively waiting
             // for the reveal (after tap, before _revealPlayer latches).

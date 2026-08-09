@@ -143,6 +143,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
         _ready = ready;
         if (justStarted) {
           _hasStartedPlaying = true;
+      _onPlaybackStarted();
           _intendedPlaying = true;
           _showCenterIcon = false;
           _centerIconTimer?.cancel();
@@ -191,6 +192,10 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       _controller.unMute();
       _controller.setVolume(100);
     } catch (_) {}
+  }
+
+  void _onPlaybackStarted() {
+    _armYtCover();
   }
 
   void _togglePlay() {
@@ -541,6 +546,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                 if (mounted && !_hasStartedPlaying) {
                   setState(() {
                     _hasStartedPlaying = true;
+      _onPlaybackStarted();
                     _playing = true;
                     _intendedPlaying = true;
                     _ready = true;

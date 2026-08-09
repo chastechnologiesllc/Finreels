@@ -776,10 +776,6 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
                     PDFView(
                       pdfData: snapshot.data,
                       defaultPage: _lastPdfPage ?? 0,
-                      enableSwipe: true,
-                      swipeHorizontal: false,
-                      autoSpacing: true,
-                      pageFling: true,
                       nightMode:
                           Theme.of(context).brightness == Brightness.dark,
                       onRender: (_) {
