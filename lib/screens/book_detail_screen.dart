@@ -1303,7 +1303,7 @@ class _WebAssetPdfReaderState extends State<_WebAssetPdfReader> {
       final url = await createPdfBlobUrl(bytes);
       if (!mounted) return;
       setState(() => _blobUrl = url);
-    } on Object catch (e) {
+    } on Object {
       // Fallback: try relative asset path under base href.
       final fallback = Uri.base.resolve(widget.assetPath).toString();
       if (!mounted) return;
