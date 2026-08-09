@@ -53,9 +53,10 @@ import 'web_youtube_player.dart';
 //    Same controller, same position, zero restart.
 //    We only set orientation in the callbacks.
 //
-// 4. YOUTUBE BRANDING COVERED
-//    36 px black bar at the bottom of the player.
+// 4. YOUTUBE BRANDING
+//    FinReels chip at bottom-right over the native YT logo region.
 //    Flutter replay overlay covers end-screen cards.
+//    No full-frame white/transparent plate over the playing video.
 //
 // 5. NATIVE PLAY-BUTTON FLASH (real fix — hideControls:true)
 //    youtube_player_flutter's own TouchShutter/PlayPauseButton overlay is
@@ -250,7 +251,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         _revealPlayer = true;
         _isPlaying = true;
       });
-      
+      _armYtCover();
     }
 
     final playing = currentState == PlayerState.playing;
@@ -554,50 +555,57 @@ class _InlineVideoCardState extends State<InlineVideoCard>
               ),
             ),
 
-            // Layer 1: player — only inserted once the controller exists.
-            // CRITICAL: wrapped in IgnorePointer when not visible (opacity 0).
-            // AnimatedOpacity at 0.0 does NOT remove the widget from Flutter's
-            // hit-test tree — the WebView inside still intercepts ALL touch
-            // events (including vertical scroll drags) even when completely
-            // invisible. This is why the feed hangs while scrolling past cards
-            // that were pre-warmed: their hidden WebViews consume every scroll
-            // gesture before the ListView can claim it. IgnorePointer fixes
-            // this definitively — when hidden, the entire player layer
-            // receives NO pointer events, so the ListView scrolls freely.
-            // Web: official YouTube embed when expanded (v9 has no web player).
-            if (kIsWeb && _expanded)
+            // Layer 1: YouTube player.
+            //
+            // CRITICAL (white-wash diagnosis):
+            // On Android, platform views (WebView inside YoutubePlayer) often
+            // IGNORE Flutter Opacity. AnimatedOpacity(0) still paints a white
+            // rectangle over the thumbnail — that is the full-card wash users
+            // see while loading AND can linger if opacity/reveal races.
+            //
+            // Fix: do not composite the player over the card until
+            // _revealPlayer. Pre-warm uses a 1×1 off-screen player so the
+            // WebView can initialise without covering the thumbnail.
+            // IgnorePointer still used so a pre-warmed view never steals scroll.
+            if (kIsWeb && _expanded && _revealPlayer)
               Positioned.fill(
                 child: WebYoutubePlayer(videoId: widget.video.id),
               )
-            else if (!kIsWeb && _controller != null)
-              IgnorePointer(
-                // Block touch to the WebView whenever it's not visible to the
-                // user. Only allow touch when fully revealed (expanded + ready).
-                ignoring: !(_expanded && _revealPlayer),
-                child: AnimatedOpacity(
-                  opacity:  (_expanded && _revealPlayer) ? 1.0 : 0.0,
-                  duration: const Duration(milliseconds: 200),
-                  child: YoutubePlayerBuilder(
-                  onEnterFullScreen: _onEnterFullScreen,
-                  onExitFullScreen:  _onExitFullScreen,
-                  player: YoutubePlayer(
+            else if (!kIsWeb && _controller != null && _revealPlayer)
+              YoutubePlayerBuilder(
+                onEnterFullScreen: _onEnterFullScreen,
+                onExitFullScreen: _onExitFullScreen,
+                player: YoutubePlayer(
+                  controller: _controller!,
+                  showVideoProgressIndicator: true,
+                  progressIndicatorColor: AppTheme.gold,
+                  progressColors: const ProgressBarColors(
+                    playedColor: AppTheme.gold,
+                    handleColor: AppTheme.gold,
+                  ),
+                  onReady: _markReady,
+                  onEnded: (_) {
+                    if (mounted) setState(() => _ended = true);
+                  },
+                  bufferIndicator: const SizedBox.shrink(),
+                ),
+                builder: (context, player) => player,
+              )
+            else if (!kIsWeb && _controller != null && !_revealPlayer)
+              Positioned(
+                left: -10000,
+                top: 0,
+                width: 1,
+                height: 1,
+                child: IgnorePointer(
+                  child: YoutubePlayer(
                     controller: _controller!,
-                    showVideoProgressIndicator: true,
-                    progressIndicatorColor: AppTheme.gold,
-                    progressColors: const ProgressBarColors(
-                      playedColor: AppTheme.gold,
-                      handleColor: AppTheme.gold,
-                    ),
+                    showVideoProgressIndicator: false,
                     onReady: _markReady,
-                    onEnded: (_) {
-                      if (mounted) setState(() => _ended = true);
-                    },
                     bufferIndicator: const SizedBox.shrink(),
                   ),
-                  builder: (context, player) => player,
                 ),
               ),
-            ),
 
             // Layer 2: spinner — only while the user is actively waiting
             // for the reveal (after tap, before _revealPlayer latches).
