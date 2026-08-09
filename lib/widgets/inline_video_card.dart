@@ -107,6 +107,8 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   YoutubePlayerController? _controller;
   bool _playerReady  = false; // YouTube IFrame API onReady fired
   bool _revealPlayer = false; // true only after onReady + grace delay
+  bool _showYtCover = false; // FinReels chip over native YT logo region
+  Timer? _ytCoverTimer;
   bool _expanded     = false; // true once the user has tapped
   bool _ended        = false;
   bool _isPlaying    = false; // mirrors PlayerState for watermark timing
@@ -246,6 +248,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       _forceSoundOn();
       setState(() {
         _revealPlayer = true;
+        _showYtCover = true;
         _isPlaying = true;
       });
       
@@ -505,6 +508,15 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   // inserted on top once the user taps. This is the structural fix for the
   // black-flash issue: no subtree is ever unmounted+remounted on tap.
 
+
+  void _armYtCover() {
+    _ytCoverTimer?.cancel();
+    if (mounted) setState(() => _showYtCover = true);
+    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
+      if (mounted) setState(() => _showYtCover = false);
+    });
+  }
+
   Widget _buildMediaArea(BuildContext context) {
     final media = AspectRatio(
       aspectRatio: 16 / 9,
@@ -587,6 +599,32 @@ class _InlineVideoCardState extends State<InlineVideoCard>
               ),
             ),
 
+            // Layer 1b: keep the thumbnail fully opaque on top until the
+            // player has real frames. YouTube's WebView paints white during
+            // init — without this cover the feed shows a washed/white video.
+            if (_expanded && !_ended && !_revealPlayer)
+              Positioned.fill(
+                child: CachedNetworkImage(
+                  imageUrl: widget.video.thumbnailHd,
+                  fit: BoxFit.cover,
+                  memCacheWidth: 720,
+                  memCacheHeight: 405,
+                  fadeInDuration: Duration.zero,
+                  fadeOutDuration: Duration.zero,
+                  placeholder: (_, __) =>
+                      const ColoredBox(color: Color(0xFF000000)),
+                  errorWidget: (_, __, ___) => CachedNetworkImage(
+                    imageUrl: widget.video.thumbnailMq,
+                    fit: BoxFit.cover,
+                    fadeInDuration: Duration.zero,
+                    memCacheWidth: 720,
+                    memCacheHeight: 405,
+                    errorWidget: (_, __, ___) =>
+                        const ColoredBox(color: Color(0xFF000000)),
+                  ),
+                ),
+              ),
+
             // Layer 2: spinner — only while the user is actively waiting
             // for the reveal (after tap, before _revealPlayer latches).
             // Never shown during silent pre-warm.
@@ -614,21 +652,25 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // Layer 4: FinReels watermark chip (no full-frame white/blur overlay).
+            // Layer 4: FinReels chip over the native YouTube logo region
+            // (bottom-right). Relative insets scale across phone sizes.
+            // Shown while the YT logo is expected: first ~4s of play, or paused.
             if (_expanded &&
                 (_controller != null || kIsWeb) &&
                 !_ended &&
-                (_revealPlayer || kIsWeb))
+                (_revealPlayer || kIsWeb) &&
+                (_showYtCover || !_isPlaying))
               LayoutBuilder(
                 builder: (context, constraints) {
                   final shortSide = constraints.maxWidth < constraints.maxHeight
                       ? constraints.maxWidth
                       : constraints.maxHeight;
-                  final inset = (shortSide * 0.055).clamp(10.0, 48.0);
+                  // YT logo sits bottom-right; inset tracks short side.
+                  final inset = (shortSide * 0.048).clamp(10.0, 56.0);
                   return Positioned(
                     right: inset,
-                    bottom: (inset * 0.55).clamp(8.0, 28.0),
-                    child: _InlineFinReelsWatermark(),
+                    bottom: (inset * 0.5).clamp(8.0, 32.0),
+                    child: const _InlineFinReelsWatermark(),
                   );
                 },
               ),
@@ -731,6 +773,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 /// Sized slightly larger than the native YT logo so relative positioning
 /// still fully covers it across densities and card widths.
 class _InlineFinReelsWatermark extends StatelessWidget {
+  const _InlineFinReelsWatermark();
   @override
   Widget build(BuildContext context) {
     const bg = Color(0xCC0D0D0D);

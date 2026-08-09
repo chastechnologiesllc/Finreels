@@ -60,6 +60,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   late final ValueNotifier<Duration> _durationNotifier;
 
   bool _playerAttached = false;
+  bool _showYtCover = true;
+  Timer? _ytCoverTimer;
   bool _isLandscape = false;
   final GlobalKey _playerKey = GlobalKey();
 
@@ -174,6 +176,14 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     }
     super.dispose();
+  }
+
+  void _armYtCover() {
+    _ytCoverTimer?.cancel();
+    if (mounted) setState(() => _showYtCover = true);
+    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
+      if (mounted) setState(() => _showYtCover = false);
+    });
   }
 
   void _forceSoundOn() {
@@ -541,7 +551,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               });
               return const SizedBox.shrink();
             }),
-          if (!_hasStartedPlaying && !kIsWeb)
+          if (!_hasStartedPlaying)
             CachedNetworkImage(
               imageUrl: widget.video.thumbnailHd,
               fit: BoxFit.cover,
@@ -563,8 +573,10 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               child: CircularProgressIndicator(
                   color: AppTheme.gold, strokeWidth: 3),
             ),
-          // FinReels watermark chip (bottom-right). No full-frame white/blur plate.
-          if (_hasStartedPlaying && !_ended)
+          // FinReels chip over native YouTube logo (bottom-right), all sizes.
+          if (_hasStartedPlaying &&
+              !_ended &&
+              (_showYtCover || !_playing))
             LayoutBuilder(
               builder: (context, constraints) {
                 final w = constraints.maxWidth;
