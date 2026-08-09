@@ -536,7 +536,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                   });
                 }
               },
-              bufferIndicator: const SizedBox.shrink(),
             ),
           // Web embed: mark ready immediately, arm FinReels watermark briefly.
           if (kIsWeb && _playerAttached && !_hasStartedPlaying)
@@ -802,17 +801,14 @@ class _FinReelsWatermark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bg = const Color(0xCC0D0D0D);
-    final fg = AppTheme.gold;
-    // Slightly larger than the native YT logo so relative positioning still
-    // fully covers it across densities and player aspect ratios.
+    // Always dark + gold — never light-theme white plate.
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
       alignment: Alignment.center,
       decoration: BoxDecoration(
-        color: bg,
+        color: const Color(0xCC0D0D0D),
         borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: AppTheme.gold.withValues(alpha: 0.35)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -821,17 +817,17 @@ class _FinReelsWatermark extends StatelessWidget {
             'assets/icons/app_icon.png',
             width: 16,
             height: 16,
-            errorBuilder: (_, __, ___) => Icon(
+            errorBuilder: (_, __, ___) => const Icon(
               Icons.play_arrow_rounded,
-              color: fg,
+              color: AppTheme.gold,
               size: 16,
             ),
           ),
           const SizedBox(width: 6),
-          Text(
+          const Text(
             'FinReels',
             style: TextStyle(
-              color: fg,
+              color: AppTheme.gold,
               fontSize: 12.5,
               fontWeight: FontWeight.w700,
               letterSpacing: 0.2,
