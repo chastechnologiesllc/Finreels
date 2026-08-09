@@ -576,10 +576,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               child: CircularProgressIndicator(
                   color: AppTheme.gold, strokeWidth: 3),
             ),
-          // FinReels watermark — covers YT logo region (mobile + web).
-          if (_hasStartedPlaying &&
-              !_ended &&
-              (_showYtCover || (!_playing && !kIsWeb)))
+          // FinReels watermark chip (bottom-right). No full-frame white/blur plate.
+          if (_hasStartedPlaying && !_ended)
             LayoutBuilder(
               builder: (context, constraints) {
                 final w = constraints.maxWidth;
@@ -800,37 +798,37 @@ class _FinReelsWatermark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bg = isDark ? const Color(0xF2000000) : const Color(0xF2FFFFFF);
-    final fg = isDark ? AppTheme.gold : const Color(0xFF1A1A1A);
-    // Slightly larger than the native YT logo so relative positioning still
-    // fully covers it across densities and player aspect ratios.
+    // Always dark translucent chip + gold — never a white/blurred plate over
+    // the player (that read as a "white blur overlay" on light theme).
+    const bg = Color(0xCC0D0D0D);
+    const fg = AppTheme.gold;
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: bg,
         borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: AppTheme.gold.withValues(alpha: 0.35)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
             'assets/icons/app_icon.png',
-            width: 16,
-            height: 16,
-            errorBuilder: (_, __, ___) => Icon(
+            width: 15,
+            height: 15,
+            errorBuilder: (_, __, ___) => const Icon(
               Icons.play_arrow_rounded,
               color: fg,
-              size: 16,
+              size: 15,
             ),
           ),
           const SizedBox(width: 6),
-          Text(
+          const Text(
             'FinReels',
             style: TextStyle(
               color: fg,
-              fontSize: 12.5,
+              fontSize: 12,
               fontWeight: FontWeight.w700,
               letterSpacing: 0.2,
             ),

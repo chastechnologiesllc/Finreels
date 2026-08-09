@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_epub_viewer/flutter_epub_viewer.dart';
@@ -20,6 +21,7 @@ import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/book_cover_image.dart';
 import '../widgets/web_iframe_view.dart';
+import '../widgets/web_pdf_blob.dart';
 import 'blog_reader_screen.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -79,6 +81,67 @@ const Map<String, _BookSource> _sources = {
   ),
   'book_five_buckets_complete': _BookSource.pdfAsset(
     'assets/books/five_buckets_complete.pdf',
+  ),
+  // ── Online Hustle bundled PDFs ──────────────────────────────────────────
+  'book_online_hustles_01_surveys_microtasks': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_01_surveys_microtasks.pdf',
+  ),
+  'book_online_hustles_02_affiliate_marketing': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_02_affiliate_marketing.pdf',
+  ),
+  'book_online_hustles_03_freelance_writing': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_03_freelance_writing.pdf',
+  ),
+  'book_online_hustles_04_canva_graphic_design': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_04_canva_graphic_design.pdf',
+  ),
+  'book_online_hustles_05_social_media_management': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_05_social_media_management.pdf',
+  ),
+  'book_online_hustles_06_virtual_assistance': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_06_virtual_assistance.pdf',
+  ),
+  'book_online_hustles_07_online_tutoring': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_07_online_tutoring.pdf',
+  ),
+  'book_online_hustles_08_transcription_captioning': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_08_transcription_captioning.pdf',
+  ),
+  'book_online_hustles_09_content_creation': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_09_content_creation.pdf',
+  ),
+  'book_online_hustles_10_ai_services': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_10_ai_services.pdf',
+  ),
+  'book_online_hustles_11_digital_products': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_11_digital_products.pdf',
+  ),
+  'book_online_hustles_12_vtu_airtime_data': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_12_vtu_airtime_data.pdf',
+  ),
+  'book_online_hustles_13_video_editing_clipping': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_13_video_editing_clipping.pdf',
+  ),
+  'book_online_hustles_14_blogging_seo': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_14_blogging_seo.pdf',
+  ),
+  'book_online_hustles_15_ads_management': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_15_ads_management.pdf',
+  ),
+  'book_online_hustles_16_dropshipping_pod': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_16_dropshipping_pod.pdf',
+  ),
+  'book_online_hustles_17_web_nocode': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_17_web_nocode.pdf',
+  ),
+  'book_online_hustles_18_online_courses': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_18_online_courses.pdf',
+  ),
+  'book_online_hustles_19_ecommerce_mini_import': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_19_ecommerce_mini_import.pdf',
+  ),
+  'book_online_hustles_20_digital_agency': _BookSource.pdfAsset(
+    'assets/books/online_hustles/online_hustles_20_digital_agency.pdf',
   ),
 };
 
@@ -644,9 +707,16 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
   Widget _buildPdfReader(String assetPath) {
     if (kIsWeb) {
-      // Flutter web serves assets under the same base href — embed via iframe.
-      final assetUrl = Uri.base.resolve(assetPath).toString();
-      return _webInAppReader(assetUrl);
+      // Best web path: load asset bytes → blob: URL → iframe.
+      // Relative asset paths alone often 404 under GitHub Pages base-href.
+      return _WebAssetPdfReader(
+        assetPath: assetPath,
+        title: widget.book.title,
+        onBack: () => setState(() {
+          _showReader = false;
+          _isLoading = true;
+        }),
+      );
     }
     return Scaffold(
       appBar: AppBar(
@@ -1196,6 +1266,80 @@ class _BuyFullBookCard extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+
+/// Web-only: rootBundle → blob URL → in-app iframe (works on GitHub Pages).
+class _WebAssetPdfReader extends StatefulWidget {
+  final String assetPath;
+  final String title;
+  final VoidCallback onBack;
+
+  const _WebAssetPdfReader({
+    required this.assetPath,
+    required this.title,
+    required this.onBack,
+  });
+
+  @override
+  State<_WebAssetPdfReader> createState() => _WebAssetPdfReaderState();
+}
+
+class _WebAssetPdfReaderState extends State<_WebAssetPdfReader> {
+  String? _blobUrl;
+  String? _error;
+
+  @override
+  void initState() {
+    super.initState();
+    _load();
+  }
+
+  Future<void> _load() async {
+    try {
+      final data = await rootBundle.load(widget.assetPath);
+      final bytes = data.buffer.asUint8List();
+      // Prefer blob URL so the browser native PDF viewer works offline after load.
+      final url = await createPdfBlobUrl(bytes);
+      if (!mounted) return;
+      setState(() => _blobUrl = url);
+    } on Object catch (e) {
+      // Fallback: try relative asset path under base href.
+      final fallback = Uri.base.resolve(widget.assetPath).toString();
+      if (!mounted) return;
+      setState(() {
+        _blobUrl = fallback;
+        _error = e.toString();
+      });
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title.split('—').first.trim(),
+            maxLines: 1, overflow: TextOverflow.ellipsis),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back_rounded),
+          onPressed: widget.onBack,
+        ),
+      ),
+      body: _blobUrl == null
+          ? const Center(child: CircularProgressIndicator(color: AppTheme.gold))
+          : Column(
+              children: [
+                Expanded(child: WebIframeView(url: _blobUrl!, title: widget.title)),
+                ListenableBuilder(
+                  listenable: AdService.instance,
+                  builder: (_, __) => AdService.instance.adsRemoved
+                      ? const SizedBox.shrink()
+                      : const StickyBannerBar(),
+                ),
+              ],
+            ),
     );
   }
 }
