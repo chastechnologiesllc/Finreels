@@ -8,13 +8,15 @@
 /// This file only defines the shapes.
 library;
 
-enum ResourceSection { skill, business, profession }
+enum ResourceSection { skill, business, profession, onlineHustle }
 
 extension ResourceSectionX on ResourceSection {
   static ResourceSection fromJson(String raw) => switch (raw) {
         'skill' => ResourceSection.skill,
         'business' => ResourceSection.business,
         'profession' => ResourceSection.profession,
+        // JSON uses snake_case; accept camelCase too for forward-compat.
+        'online_hustle' || 'onlineHustle' => ResourceSection.onlineHustle,
         _ => throw ArgumentError('Unknown ResourceSection: $raw'),
       };
 
@@ -23,12 +25,22 @@ extension ResourceSectionX on ResourceSection {
         ResourceSection.skill => 'Skill / Trade',
         ResourceSection.business => 'Business',
         ResourceSection.profession => 'Profession',
+        ResourceSection.onlineHustle => 'Online Hustle',
       };
 
   String get pluralLabel => switch (this) {
         ResourceSection.skill => 'Skills & Trades',
         ResourceSection.business => 'Businesses',
         ResourceSection.profession => 'Professions',
+        ResourceSection.onlineHustle => 'Online Hustles',
+      };
+
+  /// Stable asset/filename key (snake_case) — enum.name is camelCase.
+  String get assetKey => switch (this) {
+        ResourceSection.skill => 'skill',
+        ResourceSection.business => 'business',
+        ResourceSection.profession => 'profession',
+        ResourceSection.onlineHustle => 'online_hustle',
       };
 }
 

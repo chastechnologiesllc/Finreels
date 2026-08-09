@@ -35,6 +35,7 @@ class CategorySearch {
     ResourceSection.profession,
     ResourceSection.skill,
     ResourceSection.business,
+    ResourceSection.onlineHustle,
   ];
 
   /// True if [category] matches [rawQuery] — checked against its name and

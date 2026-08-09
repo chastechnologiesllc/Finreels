@@ -89,7 +89,7 @@ class CategoryPlaybookData {
         channelId: 'books',
         channelName: 'FinReels Business Playbooks',
         publishedAt: _epoch,
-        thumbnailUrl: 'assets/books/playbook_${c.section.name}_cover.jpg',
+        thumbnailUrl: 'assets/books/playbook_${c.section.assetKey}_cover.jpg',
       );
 
   static BookInsightData _buildInsight(ResourceCategory c) {
@@ -98,6 +98,8 @@ class CategoryPlaybookData {
         ResourceSection.skill => _skillChapters(c),
         ResourceSection.business => _businessChapters(c),
         ResourceSection.profession => _professionChapters(c),
+        // Online hustles share the same money-side questions as small businesses.
+        ResourceSection.onlineHustle => _businessChapters(c),
       },
     ];
 
@@ -135,6 +137,8 @@ class CategoryPlaybookData {
       ResourceSection.skill => 'a skill practised by apprenticeship and hands-on trade',
       ResourceSection.business => 'a business run day to day, not just a job',
       ResourceSection.profession => 'a licensed profession with its own money rules',
+      ResourceSection.onlineHustle =>
+          'an online hustle that can grow into a real remote business',
     };
     return '${c.name} is $label. This playbook is FinReels\' own research into '
         'the money side of it — not how to do the craft, but how the craft '
