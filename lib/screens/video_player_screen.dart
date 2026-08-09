@@ -62,9 +62,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   bool _playerAttached = false;
   bool _isLandscape = false;
   final GlobalKey _playerKey = GlobalKey();
-  /// Show FinReels cover while YT logo is expected (pause or first ~4s play).
-  bool _showYtCover = true;
-  Timer? _ytCoverTimer;
 
   @override
   void initState() {
@@ -154,11 +151,9 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       });
       if (justStarted || (playing && !wasPlaying)) {
         _forceSoundOn();
-        _armYtCover();
+        
       } else if (!playing && wasPlaying) {
         // Paused — YouTube logo reappears; keep cover visible.
-        _ytCoverTimer?.cancel();
-        if (mounted) setState(() => _showYtCover = true);
       }
     }
   }
@@ -166,7 +161,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   @override
   void dispose() {
     _centerIconTimer?.cancel();
-    _ytCoverTimer?.cancel();
+    
     _progressNotifier.dispose();
     _positionNotifier.dispose();
     _durationNotifier.dispose();
@@ -179,14 +174,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     }
     super.dispose();
-  }
-
-  void _armYtCover() {
-    _ytCoverTimer?.cancel();
-    if (mounted) setState(() => _showYtCover = true);
-    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
-      if (mounted) setState(() => _showYtCover = false);
-    });
   }
 
   void _forceSoundOn() {
@@ -547,9 +534,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                     _intendedPlaying = true;
                     _ready = true;
                     _showCenterIcon = false;
-                    _showYtCover = true;
                   });
-                  _armYtCover();
+                  
                 }
               });
               return const SizedBox.shrink();

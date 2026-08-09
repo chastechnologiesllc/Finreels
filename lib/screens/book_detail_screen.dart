@@ -1,9 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/services.dart';
 import 'package:flutter_epub_viewer/flutter_epub_viewer.dart';
 import 'package:flutter_pdfview/flutter_pdfview.dart';
 import 'package:hive/hive.dart';
@@ -1289,7 +1288,6 @@ class _WebAssetPdfReader extends StatefulWidget {
 
 class _WebAssetPdfReaderState extends State<_WebAssetPdfReader> {
   String? _blobUrl;
-  String? _error;
 
   @override
   void initState() {
@@ -1311,7 +1309,6 @@ class _WebAssetPdfReaderState extends State<_WebAssetPdfReader> {
       if (!mounted) return;
       setState(() {
         _blobUrl = fallback;
-        _error = e.toString();
       });
     }
   }

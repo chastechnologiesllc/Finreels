@@ -111,7 +111,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   bool _ended        = false;
   bool _isPlaying    = false; // mirrors PlayerState for watermark timing
   /// True for ~4s after play starts — matches when YT logo is typically visible.
-  bool _showYtCover  = false;
   Timer? _revealTimer;
   Timer? _soundRetryTimer;
   Timer? _ytCoverTimer;
@@ -163,16 +162,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       _soundRetryCount++;
       _forceSoundOn();
       if (_soundRetryCount >= 8 || !mounted) t.cancel();
-    });
-  }
-
-  void _armYtCover() {
-    // YouTube logo (controls=0 / hideControls): visible on pause, at start,
-    // and briefly after play begins, then often fades. Mirror that window.
-    _ytCoverTimer?.cancel();
-    if (mounted) setState(() => _showYtCover = true);
-    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
-      if (mounted) setState(() => _showYtCover = false);
     });
   }
 
@@ -259,19 +248,18 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         _revealPlayer = true;
         _isPlaying = true;
       });
-      _armYtCover();
+      
     }
 
     final playing = currentState == PlayerState.playing;
     if (playing != _isPlaying && _revealPlayer) {
       setState(() => _isPlaying = playing);
       if (playing) {
-        _armYtCover();
+        
         _forceSoundOn();
       } else {
         // Paused — YT logo reappears; keep our cover visible.
         _ytCoverTimer?.cancel();
-        if (mounted) setState(() => _showYtCover = true);
       }
     }
 
@@ -624,13 +612,11 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // Layer 4: FinReels cover while YT logo is expected.
-            // Relative insets so the chip tracks the logo across screen sizes.
+            // Layer 4: FinReels watermark chip (no full-frame white/blur overlay).
             if (_expanded &&
-                _controller != null &&
+                (_controller != null || kIsWeb) &&
                 !_ended &&
-                _revealPlayer &&
-                (_showYtCover || !_isPlaying))
+                (_revealPlayer || kIsWeb))
               LayoutBuilder(
                 builder: (context, constraints) {
                   final shortSide = constraints.maxWidth < constraints.maxHeight
@@ -745,15 +731,15 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 class _InlineFinReelsWatermark extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bg = isDark ? const Color(0xF2000000) : const Color(0xF2FFFFFF);
-    final fg = isDark ? AppTheme.gold : const Color(0xFF1A1A1A);
+    const bg = Color(0xCC0D0D0D);
+    const fg = AppTheme.gold;
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5.5),
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: bg,
         borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: AppTheme.gold.withValues(alpha: 0.35)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -762,14 +748,14 @@ class _InlineFinReelsWatermark extends StatelessWidget {
             'assets/icons/app_icon.png',
             width: 14,
             height: 14,
-            errorBuilder: (_, __, ___) => Icon(
+            errorBuilder: (_, __, ___) => const Icon(
               Icons.play_arrow_rounded,
               color: fg,
               size: 14,
             ),
           ),
           const SizedBox(width: 5),
-          Text(
+          const Text(
             'FinReels',
             style: TextStyle(
               color: fg,
