@@ -54,7 +54,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
   }
 
   Widget _buildList(BuildContext context) {
-    // Same Profession -> Skill -> Business order as onboarding (see
+    // Same Profession -> Skill -> Business -> Online Hustles order as onboarding (see
     // CategorySearch.sectionOrder) so the two pickers never disagree on
     // ordering. Discover browses the full 60 always — no reduced default
     // list and no "Others" here, since this screen exists specifically to

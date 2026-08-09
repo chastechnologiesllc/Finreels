@@ -223,22 +223,24 @@ void main() {
       expect(CategorySearch.search(categories, 'zzz-no-such-trade'), isEmpty);
     });
 
-    test('sectionOrder is Profession, then Skill, then Business', () {
+    test('sectionOrder is Profession, Skill, Business, then Online Hustles', () {
       expect(CategorySearch.sectionOrder, [
         ResourceSection.profession,
         ResourceSection.skill,
         ResourceSection.business,
+        ResourceSection.onlineHustle,
       ]);
     });
 
     test('othersId never collides with a real category id shape', () {
-      // Real ids all look like 'skill_01_...' / 'business_07_...' /
-      // 'profession_12_...' — 'others' deliberately doesn't match that
-      // pattern, so it can never accidentally be treated as a real,
-      // resource-file-backed category.
+      // Real ids look like skill_01_... / business_07_... / profession_12_...
+      // / online_hustles_01_... — 'others' must not match those patterns.
       expect(CategorySearch.othersId, 'others');
-      expect(RegExp(r'^(skill|business|profession)_\d{2}_').hasMatch(CategorySearch.othersId),
-          isFalse);
+      expect(
+        RegExp(r'^(skill|business|profession|online_hustles)_\d{2}_')
+            .hasMatch(CategorySearch.othersId),
+        isFalse,
+      );
     });
   });
 

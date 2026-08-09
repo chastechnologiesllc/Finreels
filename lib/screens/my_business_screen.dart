@@ -17,7 +17,7 @@ import '../utils/category_search.dart';
 /// artistry on the side, and both should get priority.
 ///
 /// Two ways to find your category, both always available:
-///  1. Browse — Professions, then Skills & Trades, then Businesses (see
+///  1. Browse — Professions, Skills & Trades, Businesses, then Online Hustles (see
 ///     CategorySearch.sectionOrder). Only the first
 ///     [CategorySearch.defaultVisiblePerSection] of each show up front so
 ///     the first screen isn't a 60-item wall — the rest are one search away.
