@@ -26,7 +26,7 @@
 
 	<!-- ── AdMob App ID ────────────────────────────────────────────────────── -->
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-2492078126313994~7729948254</string>
+	<string>ca-app-pub-2492078126313994~4602974422</string>
 
 	<!-- ── SKAdNetwork IDs (required for iOS 14+ attribution) ─────────── -->
 	<key>SKAdNetworkItems</key>

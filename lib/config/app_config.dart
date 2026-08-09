@@ -10,10 +10,8 @@ class AppConfig {
   static const String packageName = 'com.chastechgroup.finreels';
 
   // ── AdMob — PRODUCTION IDs (Android) ────────────────────────────────────────
-  // Real ads are now live: AdMob direct + Unity Ads mediation (configured
-  // via the AdMob mediation dashboard — see android/app/build.gradle for
-  // the native Unity Ads SDK + adapter dependencies that make Unity Ads
-  // actually able to serve impressions through that mediation group).
+  // Real ads are live via AdMob direct (no mediation). Ad unit IDs match the
+  // units created in the AdMob console for the FinReels app.
   static const bool kDebugAds = false;
 
   // ── AdSense (Flutter web) — TEST client/slot ────────────────────────────────
@@ -24,51 +22,51 @@ class AppConfig {
   static const bool adsenseTestMode = true;
 
   static String get admobAppId => defaultTargetPlatform == TargetPlatform.android
-      ? 'ca-app-pub-2492078126313994~7729948254'
-      : 'ca-app-pub-2492078126313994~7729948254';
+      ? 'ca-app-pub-2492078126313994~4602974422'
+      : 'ca-app-pub-2492078126313994~4602974422';
 
   static String get bannerAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/6300978111'
-          : 'ca-app-pub-2492078126313994/9210550883')
+          : 'ca-app-pub-2492078126313994/7558254910')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/2934735716'
-          : 'ca-app-pub-2492078126313994/9210550883');
+          : 'ca-app-pub-2492078126313994/7558254910');
 
   static String get interstitialAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/1033173712'
-          : 'ca-app-pub-2492078126313994/2175580693')
+          : 'ca-app-pub-2492078126313994/6245173247')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/4411468910'
-          : 'ca-app-pub-2492078126313994/2175580693');
+          : 'ca-app-pub-2492078126313994/6245173247');
 
   static String get rewardedAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/5224354917'
-          : 'ca-app-pub-2492078126313994/3017889074')
+          : 'ca-app-pub-2492078126313994/7037566074')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/1712485313'
-          : 'ca-app-pub-2492078126313994/3017889074');
+          : 'ca-app-pub-2492078126313994/7037566074');
 
   static String get rewardedInterstitialAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/5354046379'
-          : 'ca-app-pub-2492078126313994/5422743877')
+          : 'ca-app-pub-2492078126313994/3749771769')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/6978759866'
-          : 'ca-app-pub-2492078126313994/5422743877');
+          : 'ca-app-pub-2492078126313994/3749771769');
 
   static String get nativeAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/2247696110'
-          : 'ca-app-pub-2492078126313994/1332060862')
+          : 'ca-app-pub-2492078126313994/4874437160')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/3986624511'
-          : 'ca-app-pub-2492078126313994/1332060862');
+          : 'ca-app-pub-2492078126313994/4874437160');
 
-  // App Open ad unit — production unit now created in AdMob.
-  // Android unit ID: ca-app-pub-2492078126313994/7947671149
+  // App Open ad unit — production unit created in AdMob.
+  // Android unit ID: ca-app-pub-2492078126313994/4740519888
   // iOS: create a separate App Open unit in AdMob for iOS and paste its ID
   // into the iOS branch below (currently mirrors Android as a placeholder).
   static String? get appOpenAdUnitId {
@@ -78,7 +76,7 @@ class AppConfig {
           : 'ca-app-pub-3940256099942544/5575463023';
     }
     return defaultTargetPlatform == TargetPlatform.android
-        ? 'ca-app-pub-2492078126313994/7947671149'
+        ? 'ca-app-pub-2492078126313994/4740519888'
         : null; // TODO(dev): create iOS App Open unit and paste its ID here
   }
 

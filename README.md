@@ -100,7 +100,7 @@ RSS feeds — no API key required.
 | **Feed** | YouTube RSS via `dart:http` — no API key, no backend |
 | **Codebase** | Pure Flutter (Dart) — single codebase for Android + iOS |
 | **Theme** | System-adaptive — pure white light / pure black dark |
-| **AdMob** | Banner + Interstitial + App Open + Unity Ads mediation |
+| **AdMob** | Banner + Interstitial + App Open + Rewarded + Native (AdMob direct, no mediation) |
 | **IAP** | 3 ad-free tiers (one-time, non-recurring purchases) |
 | **Payment fallback** | Paystack via local WebView + Inline.js (sideloaded installs) |
 | **Background** | WorkManager RSS polling + local push notifications |

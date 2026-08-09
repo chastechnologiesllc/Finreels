@@ -30,7 +30,7 @@
         <!-- AdMob App ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-2492078126313994~7729948254" />
+            android:value="ca-app-pub-2492078126313994~4602974422" />
 
         <!-- Delay AdMob init to allow UMP consent first -->
         <meta-data
