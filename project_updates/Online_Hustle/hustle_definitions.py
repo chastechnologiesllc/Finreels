@@ -1,0 +1,173 @@
+#!/usr/bin/env python3
+"""
+Online Hustle definitions for FinReels project.
+20 hustles ranging from ₦0 capital to moderate investment.
+Priority: Nigeria → Africa → Global.
+"""
+
+HUSTLES = [
+    {
+        "number": 1,
+        "id": "online_hustles_01_surveys_microtasks",
+        "name": "Online Surveys & Microtasks",
+        "capital": "₦0",
+        "summary": "Earn by completing surveys, app tests, data labeling, and small digital tasks on platforms that pay Nigerians.",
+        "keywords": ["survey", "microtask", "picoworkers", "prolific", "remotasks", "swagbucks", "inboxdollars", "user testing", "clickworker"],
+    },
+    {
+        "number": 2,
+        "id": "online_hustles_02_affiliate_marketing",
+        "name": "Affiliate Marketing",
+        "capital": "₦0",
+        "summary": "Promote digital and physical products via unique links and earn commissions (Stakecut, Selar, Expertnaire, Jumia, global networks).",
+        "keywords": ["affiliate", "stakecut", "selar", "expertnaire", "jumia affiliate", "commission", "referral marketing"],
+    },
+    {
+        "number": 3,
+        "id": "online_hustles_03_freelance_writing",
+        "name": "Freelance Writing & Copywriting",
+        "capital": "₦0",
+        "summary": "Write articles, blog posts, product descriptions, sales copy and emails for local and international clients.",
+        "keywords": ["freelance writing", "copywriting", "content writing", "ghostwriting", "seo writing", "fiverr writing"],
+    },
+    {
+        "number": 4,
+        "id": "online_hustles_04_canva_graphic_design",
+        "name": "Canva Graphic Design Freelancing",
+        "capital": "₦0",
+        "summary": "Design social media graphics, flyers, logos, presentations and brand kits using Canva for Nigerian businesses and global clients.",
+        "keywords": ["canva", "graphic design", "flyer design", "social media design", "logo design", "brand kit"],
+    },
+    {
+        "number": 5,
+        "id": "online_hustles_05_social_media_management",
+        "name": "Social Media Management",
+        "capital": "₦0",
+        "summary": "Manage Instagram, TikTok, Facebook and LinkedIn pages for businesses — content creation, posting, engagement and growth.",
+        "keywords": ["social media management", "smm", "instagram manager", "content calendar", "community management"],
+    },
+    {
+        "number": 6,
+        "id": "online_hustles_06_virtual_assistance",
+        "name": "Virtual Assistance",
+        "capital": "₦0",
+        "summary": "Provide remote admin support: email management, scheduling, research, data entry, customer service and light bookkeeping.",
+        "keywords": ["virtual assistant", "va", "remote admin", "executive assistant", "online assistant"],
+    },
+    {
+        "number": 7,
+        "id": "online_hustles_07_online_tutoring",
+        "name": "Online Tutoring",
+        "capital": "₦0",
+        "summary": "Teach academic subjects, languages, exam prep (WAEC, JAMB, IELTS, SAT) or skills via Zoom, Google Meet or WhatsApp.",
+        "keywords": ["online tutoring", "private tutor", "jamb tutor", "ielts", "waec", "zoom teaching"],
+    },
+    {
+        "number": 8,
+        "id": "online_hustles_08_transcription_captioning",
+        "name": "Transcription & Captioning",
+        "capital": "₦0",
+        "summary": "Convert audio/video to text or create subtitles for content creators, researchers and companies.",
+        "keywords": ["transcription", "captioning", "subtitling", "rev", "transcribeme", "otter"],
+    },
+    {
+        "number": 9,
+        "id": "online_hustles_09_content_creation",
+        "name": "Short-form Content Creation",
+        "capital": "₦0–low",
+        "summary": "Create TikTok, Instagram Reels and YouTube Shorts content; monetize via Creator Fund, brand deals, affiliates and digital products.",
+        "keywords": ["tiktok", "reels", "youtube shorts", "content creator", "faceless content", "ugc"],
+    },
+    {
+        "number": 10,
+        "id": "online_hustles_10_ai_services",
+        "name": "AI Prompt Engineering & AI Services",
+        "capital": "₦0",
+        "summary": "Offer AI-powered services: custom GPTs, prompt libraries, content generation systems, automation and AI consulting for businesses.",
+        "keywords": ["ai services", "prompt engineering", "chatgpt", "claude", "ai automation", "custom gpt"],
+    },
+    {
+        "number": 11,
+        "id": "online_hustles_11_digital_products",
+        "name": "Digital Product Creation & Sales",
+        "capital": "₦0–low",
+        "summary": "Create and sell ebooks, templates, planners, courses, Notion systems and printables on Selar, Gumroad and own sites.",
+        "keywords": ["digital products", "selar", "gumroad", "ebook", "templates", "notion template", "printables"],
+    },
+    {
+        "number": 12,
+        "id": "online_hustles_12_vtu_airtime_data",
+        "name": "VTU / Airtime & Data Reselling",
+        "capital": "Low (₦2,000–₦15,000 float)",
+        "summary": "Buy airtime and data at wholesale rates and resell via apps, WhatsApp or agent networks with automated delivery.",
+        "keywords": ["vtu", "airtime reseller", "data reseller", "mtn vtu", "airtime business", "data business"],
+    },
+    {
+        "number": 13,
+        "id": "online_hustles_13_video_editing_clipping",
+        "name": "Video Editing & Clipping",
+        "capital": "₦0",
+        "summary": "Edit long-form videos into Shorts/Reels, create captions, thumbnails and full edits for creators and brands using CapCut or Premiere.",
+        "keywords": ["video editing", "clipping", "capcut", "shorts editor", "reels editor", "youtube editor"],
+    },
+    {
+        "number": 14,
+        "id": "online_hustles_14_blogging_seo",
+        "name": "Blogging & SEO Content Sites",
+        "capital": "Low (domain + hosting)",
+        "summary": "Build niche blogs or content sites, rank on Google, and monetize with AdSense, affiliates and digital products.",
+        "keywords": ["blogging", "seo", "content site", "adsense", "niche site", "wordpress blog"],
+    },
+    {
+        "number": 15,
+        "id": "online_hustles_15_ads_management",
+        "name": "Facebook & Instagram Ads Management",
+        "capital": "₦0 (skill) + client ad spend",
+        "summary": "Set up, run and optimize Meta ads for local businesses and e-commerce brands; charge management fees + performance bonuses.",
+        "keywords": ["facebook ads", "instagram ads", "meta ads", "ads manager", "media buying", "performance marketing"],
+    },
+    {
+        "number": 16,
+        "id": "online_hustles_16_dropshipping_pod",
+        "name": "Dropshipping & Print-on-Demand",
+        "capital": "Low–medium",
+        "summary": "Sell products online without holding inventory — suppliers ship directly (AliExpress, Printful, local Nigerian POD).",
+        "keywords": ["dropshipping", "print on demand", "printful", "shopify", "woocommerce", "printify"],
+    },
+    {
+        "number": 17,
+        "id": "online_hustles_17_web_nocode",
+        "name": "Web Development & No-code Freelancing",
+        "capital": "₦0 (skill)",
+        "summary": "Build websites and landing pages with WordPress, Webflow, Framer or Bubble for businesses and creators.",
+        "keywords": ["web development", "no-code", "webflow", "framer", "wordpress", "landing page"],
+    },
+    {
+        "number": 18,
+        "id": "online_hustles_18_online_courses",
+        "name": "Online Course Creation",
+        "capital": "Low",
+        "summary": "Package your knowledge into structured courses sold on Selar, Teachable or own platform; combine with coaching.",
+        "keywords": ["online course", "course creation", "teachable", "selar course", "udemy", "skillshare"],
+    },
+    {
+        "number": 19,
+        "id": "online_hustles_19_ecommerce_mini_import",
+        "name": "Online E-commerce & Mini Importation",
+        "capital": "Medium",
+        "summary": "Source products (China, Turkey, local) and sell via Instagram, WhatsApp, Jumia, Konga or own store.",
+        "keywords": ["mini importation", "ecommerce", "instagram shop", "whatsapp business", "sourcing", "alibaba"],
+    },
+    {
+        "number": 20,
+        "id": "online_hustles_20_digital_agency",
+        "name": "Digital Marketing Agency",
+        "capital": "Medium–higher",
+        "summary": "Offer packaged digital services (SMM + ads + content + web) to multiple clients; scale with freelancers and systems.",
+        "keywords": ["digital agency", "marketing agency", "full service", "client retainers", "agency model"],
+    },
+]
+
+if __name__ == "__main__":
+    for h in HUSTLES:
+        print(f"{h['number']:02d}. {h['id']} — {h['name']} ({h['capital']})")

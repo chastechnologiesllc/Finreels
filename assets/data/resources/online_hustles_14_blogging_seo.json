@@ -1,0 +1,283 @@
+{
+  "categoryId": "online_hustles_14_blogging_seo",
+  "status": "channels_enriched_v1",
+  "lastUpdated": "2026-08-09",
+  "channels": [
+    {
+      "id": "UC",
+      "name": "Nigerian blogging & SEO educators",
+      "handle": "search blogging SEO Nigeria tutorial",
+      "description": "Search latest Nigerian creators teaching practical blogging and SEO for local search traffic.",
+      "accentColor": "0xFF2563EB",
+      "initials": "NG",
+      "focus": "Blogging & SEO for Nigerian searchers",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Strong local written + video content on ranking for Nigerian keywords."
+    },
+    {
+      "id": "UC",
+      "name": "Daily Reality NG style / Nigerian SEO guides",
+      "handle": "search SEO for Nigerian bloggers",
+      "description": "Practical Nigerian-focused SEO content (keyword research for local searches, E-E-A-T, etc.).",
+      "accentColor": "0xFF059669",
+      "initials": "DR",
+      "focus": "SEO fundamentals for Nigerian blogs",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "High-quality local SEO teaching."
+    },
+    {
+      "id": "UC",
+      "name": "WordPress blogging tutors (Nigeria)",
+      "handle": "search WordPress blog Nigeria tutorial",
+      "description": "Channels teaching how to set up and grow a WordPress blog from Nigeria.",
+      "accentColor": "0xFFD97706",
+      "initials": "WP",
+      "focus": "WordPress blogging setup",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Core technical skill for serious bloggers."
+    },
+    {
+      "id": "UC",
+      "name": "Keyword research for Nigerian niches",
+      "handle": "search keyword research Nigeria blogging",
+      "description": "Channels focused on finding low-competition, high-intent Nigerian keywords.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KW",
+      "focus": "Local keyword research",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Biggest advantage for Nigerian bloggers."
+    },
+    {
+      "id": "UC",
+      "name": "Blog monetisation (AdSense, affiliate)",
+      "handle": "search blog monetisation Nigeria AdSense",
+      "description": "Channels teaching how Nigerian bloggers monetise with AdSense, affiliates and digital products.",
+      "accentColor": "0xFFDC2626",
+      "initials": "MN",
+      "focus": "Blog monetisation strategies",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Income side of blogging."
+    },
+    {
+      "id": "UC",
+      "name": "African blogging & SEO educators",
+      "handle": "search blogging SEO Africa tutorial",
+      "description": "African creators teaching blogging and SEO across the continent.",
+      "accentColor": "0xFF0891B2",
+      "initials": "AF",
+      "focus": "Blogging & SEO across Africa",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Africa-wide after Nigeria priority."
+    },
+    {
+      "id": "UC",
+      "name": "On-page SEO & content structure",
+      "handle": "search on-page SEO beginners",
+      "description": "Practical channels on writing SEO-friendly articles that rank.",
+      "accentColor": "0xFFEA580C",
+      "initials": "OP",
+      "focus": "On-page SEO skills",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Core ranking skill."
+    },
+    {
+      "id": "UC",
+      "name": "Traffic without ads (Pinterest, WhatsApp, groups)",
+      "handle": "search blog traffic Nigeria WhatsApp Pinterest",
+      "description": "Channels teaching free traffic methods popular with Nigerian bloggers.",
+      "accentColor": "0xFF4F46E5",
+      "initials": "TR",
+      "focus": "Organic traffic strategies",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Practical for low-budget creators."
+    },
+    {
+      "id": "UC",
+      "name": "Ahrefs / professional SEO tools",
+      "handle": "Ahrefs",
+      "description": "High-quality global SEO education (useful after local foundations).",
+      "accentColor": "0xFF16A34A",
+      "initials": "AH",
+      "focus": "Advanced SEO tools & strategy",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Industry standard learning resource."
+    },
+    {
+      "id": "UC",
+      "name": "Solid global blogging foundations",
+      "handle": "search blogging SEO beginners practical",
+      "description": "High-quality practical global blogging and SEO teachers useful after local channels.",
+      "accentColor": "0xFFB45309",
+      "initials": "GL",
+      "focus": "Foundational blogging & SEO skills",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Global layer after Nigeria/Africa."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "ClickStartNG",
+      "url": "https://www.clickstartng.com.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian make-money-online practical guides."
+    },
+    {
+      "name": "NaijaMonie",
+      "url": "https://naijamonie.com/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian online income resource."
+    },
+    {
+      "name": "Money.ng",
+      "url": "https://www.money.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian personal finance and side hustles."
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech and digital economy."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian entrepreneurship."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech coverage."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian startup and business tips."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Selar Blog",
+      "url": "https://selar.com/blog/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian digital product and creator economy blog."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Google Books preview.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Company of One",
+      "author": "Paul Jarvis",
+      "freeSourceUrl": "https://companyofone.co",
+      "freeSourceType": "web",
+      "freeSourceNote": "Staying small and profitable.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781328972354-L.jpg"
+    },
+    {
+      "title": "Rework",
+      "author": "Jason Fried & David Heinemeier Hansson",
+      "freeSourceUrl": "https://basecamp.com/books/rework",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Basecamp books.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://personalmba.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free concepts list.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591843528-L.jpg"
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "freeSourceUrl": "https://jamesclear.com/atomic-habits",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free resources on building consistency.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+    },
+    {
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/deep-work/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Focused work habits.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg"
+    },
+    {
+      "title": "So Good They Can't Ignore You",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/so-good/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Career capital framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455505623-L.jpg"
+    },
+    {
+      "title": "OpenStax Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Fully free open textbook.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "OpenStax.",
+      "coverUrl": ""
+    }
+  ],
+  "integrationNotes": "Stub for Blogging & SEO Content Sites. Capital: Low (domain + hosting). Summary: Build niche blogs or content sites, rank on Google, and monetize with AdSense, affiliates and digital products.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": "Nigeria-first list focused on local keyword advantage and practical SEO. Continue to 15 next."
+}

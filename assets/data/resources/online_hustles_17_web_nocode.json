@@ -1,0 +1,283 @@
+{
+  "categoryId": "online_hustles_17_web_nocode",
+  "status": "channels_enriched_v1",
+  "lastUpdated": "2026-08-09",
+  "channels": [
+    {
+      "id": "UC",
+      "name": "Nocode Africa",
+      "handle": "@NocodeAfrica",
+      "description": "African no-code community teaching Bubble, Adalo, FlutterFlow and course creation.",
+      "accentColor": "0xFF2563EB",
+      "initials": "NA",
+      "focus": "No-code app building (Africa)",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Active African no-code education."
+    },
+    {
+      "id": "UC",
+      "name": "WebCodeTut",
+      "handle": "WebCodeTut",
+      "description": "Nigerian WordPress developer teaching website setup without heavy coding.",
+      "accentColor": "0xFF059669",
+      "initials": "WC",
+      "focus": "WordPress for Nigerians",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Local WordPress tutorials."
+    },
+    {
+      "id": "UC",
+      "name": "TechSavvy Africa",
+      "handle": "TechSavvy",
+      "description": "African channel focused on no-code website building and templates.",
+      "accentColor": "0xFFD97706",
+      "initials": "TS",
+      "focus": "No-code websites",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Practical template-based builds."
+    },
+    {
+      "id": "UC",
+      "name": "WordPress + Elementor tutors Nigeria",
+      "handle": "search WordPress Elementor Nigeria",
+      "description": "Channels teaching the most popular long-term website stack for Nigerian freelancers.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "WP",
+      "focus": "WordPress freelancing",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Highest demand web skill."
+    },
+    {
+      "id": "UC",
+      "name": "Carrd / simple landing page builders",
+      "handle": "search Carrd website Nigeria",
+      "description": "Fast single-page website solutions popular for beginners.",
+      "accentColor": "0xFFDC2626",
+      "initials": "CR",
+      "focus": "Simple landing pages",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Lowest barrier entry."
+    },
+    {
+      "id": "UC",
+      "name": "Bubble / advanced no-code apps",
+      "handle": "search Bubble.io Nigeria Africa",
+      "description": "Channels teaching Bubble for more complex no-code applications.",
+      "accentColor": "0xFF0891B2",
+      "initials": "BB",
+      "focus": "Advanced no-code apps",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Higher-value service."
+    },
+    {
+      "id": "UC",
+      "name": "Website freelancing for Nigerian clients",
+      "handle": "search build website for clients Nigeria",
+      "description": "Channels teaching how to sell website services to local businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "FL",
+      "focus": "Website freelancing business",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Monetisation path."
+    },
+    {
+      "id": "UC",
+      "name": "Wix / Squarespace alternatives",
+      "handle": "search Wix Squarespace Nigeria",
+      "description": "Channels covering other popular no-code website builders.",
+      "accentColor": "0xFF4F46E5",
+      "initials": "WX",
+      "focus": "Alternative website builders",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Options for different needs."
+    },
+    {
+      "id": "UC",
+      "name": "African no-code educators",
+      "handle": "search no code Africa tutorial",
+      "description": "Broader African no-code teaching community.",
+      "accentColor": "0xFF16A34A",
+      "initials": "AF",
+      "focus": "No-code across Africa",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Africa-wide layer."
+    },
+    {
+      "id": "UC",
+      "name": "Solid global no-code foundations",
+      "handle": "search no code website beginners practical",
+      "description": "High-quality global no-code teachers after local ones.",
+      "accentColor": "0xFFB45309",
+      "initials": "GL",
+      "focus": "Foundational no-code skills",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Global layer."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "ClickStartNG",
+      "url": "https://www.clickstartng.com.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian make-money-online practical guides."
+    },
+    {
+      "name": "NaijaMonie",
+      "url": "https://naijamonie.com/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian online income resource."
+    },
+    {
+      "name": "Money.ng",
+      "url": "https://www.money.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian personal finance and side hustles."
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech and digital economy."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian entrepreneurship."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech coverage."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian startup and business tips."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Selar Blog",
+      "url": "https://selar.com/blog/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian digital product and creator economy blog."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Google Books preview.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Company of One",
+      "author": "Paul Jarvis",
+      "freeSourceUrl": "https://companyofone.co",
+      "freeSourceType": "web",
+      "freeSourceNote": "Staying small and profitable.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781328972354-L.jpg"
+    },
+    {
+      "title": "Rework",
+      "author": "Jason Fried & David Heinemeier Hansson",
+      "freeSourceUrl": "https://basecamp.com/books/rework",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Basecamp books.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://personalmba.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free concepts list.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591843528-L.jpg"
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "freeSourceUrl": "https://jamesclear.com/atomic-habits",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free resources on building consistency.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+    },
+    {
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/deep-work/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Focused work habits.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg"
+    },
+    {
+      "title": "So Good They Can't Ignore You",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/so-good/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Career capital framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455505623-L.jpg"
+    },
+    {
+      "title": "OpenStax Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Fully free open textbook.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "OpenStax.",
+      "coverUrl": ""
+    }
+  ],
+  "integrationNotes": "Stub for Web Development & No-code Freelancing. Capital: \u20a60 (skill). Summary: Build websites and landing pages with WordPress, Webflow, Framer or Bubble for businesses and creators.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": "Nigeria/Africa-first. Nocode Africa, WebCodeTut, TechSavvy prioritised."
+}
