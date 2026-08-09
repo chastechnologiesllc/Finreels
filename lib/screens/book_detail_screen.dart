@@ -704,10 +704,20 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
   // ── PDF reader (bundled asset books) ────────────────────────────────────────
 
+  /// Cached so FutureBuilder does not re-load the asset every rebuild.
+  final Map<String, Future<Uint8List>> _pdfAssetFutures = {};
+
+  Future<Uint8List> _loadPdfAsset(String assetPath) {
+    return _pdfAssetFutures.putIfAbsent(
+      assetPath,
+      () => rootBundle.load(assetPath).then(
+            (d) => d.buffer.asUint8List(d.offsetInBytes, d.lengthInBytes),
+          ),
+    );
+  }
+
   Widget _buildPdfReader(String assetPath) {
     if (kIsWeb) {
-      // Best web path: load asset bytes → blob: URL → iframe.
-      // Relative asset paths alone often 404 under GitHub Pages base-href.
       return _WebAssetPdfReader(
         assetPath: assetPath,
         title: widget.book.title,
@@ -717,15 +727,24 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
         }),
       );
     }
+    // Clear the overlay spinner quickly even if PDFView is slow to report.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      Future<void>.delayed(const Duration(milliseconds: 1200), () {
+        if (mounted && _isLoading && _showReader) {
+          setState(() => _isLoading = false);
+        }
+      });
+    });
     return Scaffold(
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
-        title: Text(widget.book.title.split(':').first.trim(),
+        title: Text(widget.book.title.split('—').first.trim(),
             maxLines: 1, overflow: TextOverflow.ellipsis),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_rounded),
           onPressed: () => setState(() {
             _showReader = false;
-            _isLoading  = true;
+            _isLoading = true;
           }),
         ),
       ),
@@ -733,12 +752,20 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
         children: [
           Expanded(
             child: FutureBuilder<Uint8List>(
-              // Load the bundled PDF bytes once. Bundled assets are
-              // instant to read (no network), but we still show a spinner
-              // for the brief decode time on lower-end devices.
-              future: rootBundle.load(assetPath).then((d) => d.buffer
-                  .asUint8List(d.offsetInBytes, d.lengthInBytes)),
+              future: _loadPdfAsset(assetPath),
               builder: (context, snapshot) {
+                if (snapshot.hasError) {
+                  return Center(
+                    child: Padding(
+                      padding: const EdgeInsets.all(24),
+                      child: Text(
+                        'Could not open this playbook.\n${snapshot.error}',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(color: AppTheme.textMuted(context)),
+                      ),
+                    ),
+                  );
+                }
                 if (!snapshot.hasData) {
                   return const Center(
                     child: CircularProgressIndicator(color: AppTheme.gold),
@@ -749,6 +776,10 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
                     PDFView(
                       pdfData: snapshot.data,
                       defaultPage: _lastPdfPage ?? 0,
+                      enableSwipe: true,
+                      swipeHorizontal: false,
+                      autoSpacing: true,
+                      pageFling: true,
                       nightMode:
                           Theme.of(context).brightness == Brightness.dark,
                       onRender: (_) {
@@ -759,7 +790,10 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
                         _lastPdfPage = page;
                         _progressBox?.put(_pdfProgressKey, page.toString());
                       },
-                      onError: (error) {
+                      onError: (_) {
+                        if (mounted) setState(() => _isLoading = false);
+                      },
+                      onPageError: (_, __) {
                         if (mounted) setState(() => _isLoading = false);
                       },
                     ),

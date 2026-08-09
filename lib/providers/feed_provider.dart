@@ -362,7 +362,7 @@ class FeedProvider extends ChangeNotifier {
       channelName: 'Online Hustle Playbooks',
       publishedAt: _epoch,
       // Shared FinReels playbook cover art (real JPG asset so list tiles render).
-      thumbnailUrl: 'assets/books/five_buckets_playbook_cover.jpg',
+      thumbnailUrl: 'assets/books/online_hustles_playbook_cover.jpg',
       sourceCategoryId: categoryId,
     );
   }

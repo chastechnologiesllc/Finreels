@@ -495,6 +495,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       child: Stack(
         fit: StackFit.expand,
         children: [
+          const ColoredBox(color: Color(0xFF000000)),
           if (_playerAttached && kIsWeb)
             WebYoutubePlayer(videoId: widget.video.id)
           else if (_playerAttached)

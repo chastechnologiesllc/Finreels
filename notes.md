@@ -1,25 +1,27 @@
-# Category-scoped Online Hustle PDFs + covers + open path
+# OH category PDFs + dedicated cover + PDF open fix + no white video flash
 
-## Behaviour
-- Each `online_hustles_XX_*` category gets **one** FinReels bundled PDF.
-- That PDF appears **only when that category is selected**, and is listed
-  **first** in the Books tab (before other verified books for that category).
-- Not a global dump of all 20 at the top of Books for every user.
+## PDF stuck loading
+- FutureBuilder recreated the asset Future every rebuild → endless spinner.
+- Fixed with cached `_pdfAssetFutures` + error UI + 1.2s safety clear of overlay.
+- `onRender` / `onError` / `onPageError` clear `_isLoading`.
 
 ## Cover
-- Uses `assets/books/five_buckets_playbook_cover.jpg` (real asset) so the
-  Books grid shows a real cover instead of the empty-state icon.
+- New asset: `assets/books/online_hustles_playbook_cover.jpg`
+  (FinReels Online Hustles branded cover for all 20 OH playbooks).
+- Feed uses that path (not Five Buckets cover).
 
-## Open
-- Video id is `book_<categoryId>` (e.g. `book_online_hustles_01_surveys_microtasks`).
-- `book_detail_screen.dart` `_sources` maps that id → `pdfAsset` path under
-  `assets/books/online_hustles/…pdf` (mobile `PDFView` + web blob iframe).
+## White flash on video
+- Shimmer placeholder was pure white → dark `#121212`.
+- Black base layer under thumbnail/player stack (inline + full player).
 
-## Files
+## Copy
 ```
 lib/providers/feed_provider.dart
-lib/screens/book_detail_screen.dart   # pdf source maps + web reader
-lib/widgets/web_pdf_blob*.dart
+lib/screens/book_detail_screen.dart
 lib/screens/video_player_screen.dart
 lib/widgets/inline_video_card.dart
+lib/widgets/web_pdf_blob.dart
+lib/widgets/web_pdf_blob_stub.dart
+lib/widgets/web_pdf_blob_web.dart
+assets/books/online_hustles_playbook_cover.jpg
 ```

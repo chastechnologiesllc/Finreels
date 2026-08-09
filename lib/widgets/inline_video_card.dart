@@ -514,6 +514,8 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         child: Stack(
           fit: StackFit.expand,
           children: [
+            // Solid black base — prevents white flash before thumbnail/player.
+            const ColoredBox(color: Color(0xFF000000)),
             // Layer 0: thumbnail — always mounted, never rebuilt on tap.
             CachedNetworkImage(
               imageUrl: widget.video.thumbnailHd,
@@ -523,7 +525,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
               placeholder: (_, __) => Shimmer.fromColors(
                 baseColor:      const Color(0xFF1E1E1E),
                 highlightColor: const Color(0xFF2C2C2C),
-                child: const ColoredBox(color: Colors.white),
+                child: const ColoredBox(color: Color(0xFF121212)),
               ),
               errorWidget: (_, __, ___) => CachedNetworkImage(
                 imageUrl: widget.video.thumbnailMq,
@@ -533,7 +535,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 placeholder: (_, __) => Shimmer.fromColors(
                   baseColor:      const Color(0xFF1E1E1E),
                   highlightColor: const Color(0xFF2C2C2C),
-                  child: const ColoredBox(color: Colors.white),
+                  child: const ColoredBox(color: Color(0xFF121212)),
                 ),
                 errorWidget: (_, __, ___) =>
                     ColoredBox(color: AppTheme.surfaceElevated(context)),
