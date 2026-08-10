@@ -251,11 +251,10 @@ class _FeedBodyState extends State<_FeedBody> {
       child: ListView.builder(
         physics: const ClampingScrollPhysics(),
         // Bound how far beyond the viewport Flutter builds items.
-        // InlineVideoCard no longer pre-warms WebViews, but we still keep
-        // this tight so VisibilityDetector and image decoding stay cheap.
-        // ~1 card height is enough for smooth scroll without building far
-        // ahead on lower-end devices.
-        scrollCacheExtent: const ScrollCacheExtent.pixels(280),
+        // Use cacheExtent (not ScrollCacheExtent) so this compiles on CI
+        // Flutter builds that still lack the 3.44 ScrollCacheExtent type.
+        // ignore: deprecated_member_use
+        cacheExtent: 280,
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 120),
         itemCount: videos.length,
         itemBuilder: (context, i) {
@@ -438,7 +437,8 @@ class _BooksTab extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),
       itemCount: items.length,
       // Small cache + fixed-ish rows keep web scroll smooth with many covers.
-      scrollCacheExtent: const ScrollCacheExtent.pixels(400),
+      // ignore: deprecated_member_use
+      cacheExtent: 400,
       addAutomaticKeepAlives: false,
       addRepaintBoundaries: false,
       itemBuilder: (context, idx) {
