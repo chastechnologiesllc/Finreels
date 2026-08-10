@@ -133,6 +133,7 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
           loop: true,
           hideControls: true,
           enableCaption: false,
+          useHybridComposition: true,
         ),
       );
       // Neighbours: pause after buffering the first segment so they stay

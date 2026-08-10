@@ -50,12 +50,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   /// Latches true once position > 0 — first real decoded frame.
   /// Never resets after start (prevents thumbnail flash on pause/play).
   bool _hasStartedPlaying = false;
-  // Web autoplay is muted and may be blocked by the browser. Treat the
-  // first tap as the user's explicit request to start/unmute rather than
-  // assuming autoplay succeeded. After that tap, normal play/pause toggling
-  // resumes.
   bool _intendedPlaying = true;
-  bool _webUserInteracted = false;
   bool _showCenterIcon = false;
   int _tapCount = 0;
   Timer? _centerIconTimer;
@@ -97,6 +92,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
         flags: const YoutubePlayerFlags(
           hideControls: true,
           enableCaption: false,
+          useHybridComposition: true,
         ),
       )..addListener(_onUpdate);
     } else {
@@ -108,6 +104,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
           mute: true,
           hideControls: true,
           enableCaption: false,
+          useHybridComposition: true,
         ),
       );
     }
@@ -221,7 +218,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     unawaited(AdService.instance.onVideoPlayPauseTapped());
 
     setState(() {
-      if (kIsWeb) _webUserInteracted = true;
       _intendedPlaying = !willPause;
       _playing = !willPause;
       _tapCount++;
@@ -355,18 +351,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
             SizedBox(
               width: double.infinity,
               height: playerH,
-              child: ColoredBox(
-                color: Colors.black,
-                child: Center(
-                  // Keep the embedded video at its native 16:9 shape. On a
-                  // wide landscape viewport this intentionally adds black
-                  // side-bars instead of stretching the video.
-                  child: AspectRatio(
-                    aspectRatio: 16 / 9,
-                    child: _buildPlayerStack(context),
-                  ),
-                ),
-              ),
+              child: _buildPlayerStack(context),
             ),
 
             if (!_isLandscape) ...[
@@ -630,10 +615,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
   Widget _buildControls(BuildContext context) {
     final showPersistentPlay =
-        _hasStartedPlaying &&
-        (!_intendedPlaying) &&
-        !_showCenterIcon &&
-        (!kIsWeb || _webUserInteracted);
+        _hasStartedPlaying && !_intendedPlaying && !_showCenterIcon;
 
     return Stack(
       fit: StackFit.expand,

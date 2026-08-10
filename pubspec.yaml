@@ -43,7 +43,9 @@ dependencies:
   web: ^1.1.0
   # ── Content & Performance Overhaul ───────────────────────────────────────────
   # YouTube in-app playback — iFrame Player API, no API key, Android + iOS
-  youtube_player_flutter: ^9.1.1
+  youtube_player_flutter: ^9.1.3
+  # Web playback uses the maintained official IFrame API implementation.
+  youtube_player_iframe: ^6.0.2
   # Inline feed auto-play: fires when card is >50% visible
   visibility_detector: ^0.4.0+2
   # Blog / article inline web renderer with navigation interception

@@ -300,6 +300,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         mute: muted,
         enableCaption: false,
         hideControls: true,
+        useHybridComposition: true,
       ),
     )..addListener(_onControllerUpdate);
     if (mounted) setState(() {});
