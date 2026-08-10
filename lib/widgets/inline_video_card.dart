@@ -152,7 +152,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     try {
       c.unMute();
       c.setVolume(100);
-    } catch (_) {}
+    } on Exception catch (_) {}
   }
 
   void _startSoundRetries() {
@@ -197,7 +197,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       try {
         _controller?.play();
         _forceSoundOn();
-      } catch (_) {}
+      } on Exception catch (_) {}
     }
 
     // Do NOT reveal the player layer until frames paint (position > 0).
@@ -209,7 +209,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       try {
         _controller?.play();
         _forceSoundOn();
-      } catch (_) {}
+      } on Exception catch (_) {}
     });
     // Last-resort reveal at 2.5s so a stalled stream still becomes interactive
     // (retry play button is shown whenever expanded && !playing).
@@ -336,7 +336,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
           ..setVolume(100)
           ..seekTo(Duration.zero)
           ..play();
-      } catch (_) {}
+      } on Exception catch (_) {}
       _startSoundRetries();
     } else if (!_ended) {
       // Already expanded: toggle if playing, otherwise FORCE retry play.
@@ -351,10 +351,10 @@ class _InlineVideoCardState extends State<InlineVideoCard>
             ..unMute()
             ..setVolume(100)
             ..play();
-        } catch (_) {
+        } on Exception catch (_) {
           try {
             _controller!.play();
-          } catch (_) {}
+          } on Exception catch (_) {}
         }
         _startSoundRetries();
       }
@@ -596,7 +596,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 child: IgnorePointer(
                   child: YoutubePlayer(
                     controller: _controller!,
-                    showVideoProgressIndicator: false,
                     thumbnail: const ColoredBox(color: Color(0xFF000000)),
                     bufferIndicator: const SizedBox.shrink(),
                     onReady: _markReady,

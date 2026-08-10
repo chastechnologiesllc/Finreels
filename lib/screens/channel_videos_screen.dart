@@ -161,7 +161,6 @@ class _ChannelHeader extends StatelessWidget {
           // description line never paints under "Videos" / "Shorts".
           padding: const EdgeInsets.fromLTRB(16, 40, 16, 56),
           child: Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
                 width: 56, height: 56,

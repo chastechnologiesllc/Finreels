@@ -398,6 +398,7 @@ class FeedProvider extends ChangeNotifier {
     );
   }
 
+  // ignore: unused_element
   List<Video> _roundRobin(List<Video> videos) {
     if (videos.isEmpty) return const [];
     final grouped = <String, List<Video>>{};

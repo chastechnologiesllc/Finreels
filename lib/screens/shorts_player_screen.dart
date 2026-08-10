@@ -174,7 +174,7 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
     final active = _controllers[_currentIndex];
     try {
       active?.pause();
-    } catch (_) {}
+    } on Exception catch (_) {}
   }
 
   void _onDragUpdate(DragUpdateDetails details) {
@@ -379,7 +379,7 @@ class _ShortPageState extends State<_ShortPage>
       // Mute when leaving so a background-buffered neighbour stays silent.
       try {
         _boundController?.mute();
-      } catch (_) {}
+      } on Exception catch (_) {}
       _unmuted = false;
       _pauseIconTimer?.cancel();
       if (mounted) {
@@ -405,7 +405,7 @@ class _ShortPageState extends State<_ShortPage>
           c.seekTo(Duration.zero);
         }
         c.play();
-      } catch (_) {}
+      } on Exception catch (_) {}
     }
 
     if (!widget.pauseForScroll && old.pauseForScroll && widget.isActive) {
@@ -451,7 +451,7 @@ class _ShortPageState extends State<_ShortPage>
       try {
         _boundController!.unMute();
         _unmuted = true;
-      } catch (_) {}
+      } on Exception catch (_) {}
     }
 
     if (ready != _ready ||

@@ -105,7 +105,7 @@ class _NotificationSettingsScreenState
                     Switch(
                       value: _enabled,
                       onChanged: _toggle,
-                      activeColor: AppTheme.gold,
+                      activeThumbColor: AppTheme.gold,
                     ),
                   ],
                 ),

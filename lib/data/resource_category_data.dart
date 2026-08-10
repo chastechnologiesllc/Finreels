@@ -6,6 +6,7 @@ import 'package:flutter/services.dart' show rootBundle;
 
 import '../models/channel.dart';
 import '../models/resource_category.dart';
+import 'channel_data.dart';
 
 /// Loads and indexes `assets/data/resource_categories.json` — the app-side
 /// copy of FinReels' 60-category research (see resource_category.dart) —

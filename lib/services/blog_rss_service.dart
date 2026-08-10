@@ -125,7 +125,7 @@ class BlogRssService {
     // Android/iOS: full parallel HTTP of combinedBlogFeeds.
     final List<List<BlogArticle>> results;
     if (kIsWeb) {
-      final feeds = kBlogFeeds;
+      const feeds = kBlogFeeds;
       results = await Future.wait(feeds.map(
         (feed) => _fetchFeed(
           url: feed['url']!,

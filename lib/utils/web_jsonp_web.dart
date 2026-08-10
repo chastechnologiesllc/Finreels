@@ -14,7 +14,7 @@ Future<Map<String, dynamic>> fetchJsonp(String url) {
       'finreels_jsonp_${DateTime.now().microsecondsSinceEpoch}';
 
   // package:web Window implements JSObject — use js_interop_unsafe extensions.
-  final JSObject windowObj = web.window as JSObject;
+  final windowObj = web.window as JSObject;
 
   void cleanup() {
     windowObj.delete(cbName.toJS);

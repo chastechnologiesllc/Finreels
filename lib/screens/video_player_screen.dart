@@ -193,7 +193,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     try {
       _controller.unMute();
       _controller.setVolume(100);
-    } catch (_) {}
+    } on Exception catch (_) {}
   }
 
   void _togglePlay() {
@@ -272,7 +272,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       if (_intendedPlaying) {
         try {
           _controller.play();
-        } catch (_) {}
+        } on Exception catch (_) {}
       }
     }
   }
@@ -290,7 +290,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       excludeVideoId: widget.video.id,
       excludeChannelId: widget.channel.id,
       categoryId: widget.channel.resourceCategoryId,
-      limit: 12,
     );
   }
 
