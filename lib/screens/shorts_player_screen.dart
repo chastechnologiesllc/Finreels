@@ -23,23 +23,13 @@ import '../widgets/web_youtube_player.dart';
 /// with HitTestBehavior.opaque sits *above* the PageView in the widget tree,
 /// so Flutter consults it first and it claims vertical drags exclusively.
 ///
-/// ─── CONTROLLER POOL (Round 13 — instant short starts) ───────────────────
-/// Previous version kept a separate muted Offstage prefetch controller for
-/// index+1. That warmed DNS/TLS/JS but did NOT transfer the buffered stream
-/// to the real _ShortPage, so every swipe still cold-started a new WebView.
-///
-/// This version owns a sliding window of controllers at the parent:
-///   { currentIndex - 1, currentIndex, currentIndex + 1 }
-/// Each _ShortPage receives its controller from the pool (or null while the
-/// pool is still spinning up). Controllers outside the window are disposed.
-/// Because the next short's controller + YoutubePlayer already exist (kept
-/// alive via AutomaticKeepAliveClientMixin on the page, and created early
-/// via the pool when the neighbour index enters the window), the swipe
-/// lands on a WebView that has already been buffering — not a brand-new one.
-///
-/// Adjacent pages are also kept in the tree by PageView when the user has
-/// visited them (keepAlive). The pool ensures the *next* unvisited page is
-/// pre-created before the swipe.
+/// ─── CONTROLLER POOL (memory-bounded) ────────────────────────────────────
+/// Sliding window of controllers at the parent:
+///   { currentIndex - 1, currentIndex, currentIndex + 1 }  (max 3)
+/// Each _ShortPage receives its controller from the pool. Controllers
+/// outside the window are disposed immediately so we never hold more than
+/// three WebViews. Neighbours buffer briefly then pause so the next swipe
+/// lands on a warm surface without exhausting device media resources.
 ///
 /// ─── MUTE-UNTIL-FRAME ────────────────────────────────────────────────────
 /// Same race as the long-form player: PlayerState.playing can fire (and
@@ -101,14 +91,16 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
     super.dispose();
   }
 
-  /// Ensure controllers exist for [current-2 … current+2].
-  /// Wider window = next swipe lands on an already-buffering WebView.
-  /// Dispose anything outside that window to bound memory.
+  /// Ensure controllers exist for [current-1 … current+1].
+  /// Tight window = at most 3 live WebViews. Previous ±2 window could
+  /// still pressure low-end Android devices; ±1 is enough for smooth
+  /// next/prev swipe while keeping memory bounded.
+  /// Dispose anything outside that window.
   /// Web uses HTML embeds only — skip the mobile controller pool.
   void _syncControllerPool() {
     if (kIsWeb) return;
     final wanted = <int>{};
-    for (var i = _currentIndex - 2; i <= _currentIndex + 2; i++) {
+    for (var i = _currentIndex - 1; i <= _currentIndex + 1; i++) {
       if (i >= 0 && i < widget.shorts.length) wanted.add(i);
     }
 
@@ -125,7 +117,6 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
     for (final i in wanted) {
       if (_controllers.containsKey(i)) continue;
       final isActive = i == _currentIndex;
-      final distance = (i - _currentIndex).abs();
       _controllers[i] = YoutubePlayerController(
         initialVideoId: widget.shorts[i].id,
         flags: const YoutubePlayerFlags(
@@ -136,12 +127,10 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
           useHybridComposition: true,
         ),
       );
-      // Neighbours: pause after buffering the first segment so they stay
-      // warm without racing the active short's bandwidth. Closer neighbours
-      // get a longer warm window; ±2 get a shorter one.
+      // Neighbours: pause after a short warm so they buffer the first
+      // segment without racing the active short's bandwidth.
       if (!isActive) {
-        final warmMs = distance == 1 ? 1200 : 600;
-        Future.delayed(Duration(milliseconds: warmMs), () {
+        Future.delayed(const Duration(milliseconds: 900), () {
           final c = _controllers[i];
           if (c == null) return;
           // Only pause if this index is still a neighbour (not now active).

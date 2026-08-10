@@ -251,12 +251,11 @@ class _FeedBodyState extends State<_FeedBody> {
       child: ListView.builder(
         physics: const ClampingScrollPhysics(),
         // Bound how far beyond the viewport Flutter builds items.
-        // Without this Flutter eagerly renders cards well off-screen,
-        // triggering VisibilityDetector callbacks and pre-warming WebViews
-        // for cards the user may never reach — causing scroll jank on
-        // lower-end devices. 350 ≈ 1 card height below the fold: enough
-        // for smooth scrolling without building the whole list at once.
-        cacheExtent: 350,
+        // InlineVideoCard no longer pre-warms WebViews, but we still keep
+        // this tight so VisibilityDetector and image decoding stay cheap.
+        // ~1 card height is enough for smooth scroll without building far
+        // ahead on lower-end devices.
+        cacheExtent: 280,
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 120),
         itemCount: videos.length,
         itemBuilder: (context, i) {
