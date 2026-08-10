@@ -21,10 +21,6 @@ class AppConfig {
   static const String adsenseTestSlot = '6300978111';
   static const bool adsenseTestMode = true;
 
-  static String get admobAppId => defaultTargetPlatform == TargetPlatform.android
-      ? 'ca-app-pub-2492078126313994~4602974422'
-      : 'ca-app-pub-2492078126313994~4602974422';
-
   static String get bannerAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/6300978111'

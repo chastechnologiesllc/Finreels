@@ -116,8 +116,12 @@ class FeedProvider extends ChangeNotifier {
   FeedTab _activeTab = FeedTab.videos;
   FeedTab get activeTab => _activeTab;
 
-  /// All cached video lists across every tab — used for deep-link lookup.
+  /// All cached video lists across tabs that hold real videos.
+  /// Used for deep-link lookup (notification taps searching by video ID).
+  /// FeedTab.blogs is excluded — it always returns [] because the Blogs tab
+  /// is served by BlogFeedScreen directly, not by FeedProvider.
   List<List<Video>> get allVideos => FeedTab.values
+      .where((t) => t != FeedTab.blogs)
       .map((t) => _tabCache[t] ?? _compute(t))
       .toList();
 
@@ -206,8 +210,12 @@ class FeedProvider extends ChangeNotifier {
         _smartMix(all.where((v) => !v.isShort && !_isBook(v)).toList()),
       FeedTab.shorts =>
         _smartMix(all.where((v) => v.isShort  && !_isBook(v)).toList()),
-      FeedTab.blogs  =>
-        _roundRobin(all.where((v) => _isBlog(v) && !_isBook(v)).toList()),
+      // Blogs tab is served entirely by BlogFeedScreen (which reads
+      // BlogRssService directly). FeedProvider never populates this slot —
+      // home_screen.dart routes FeedTab.blogs to BlogFeedScreen before it
+      // ever reaches feedVideos. Returning const [] keeps the switch
+      // exhaustive without running the dead filter.
+      FeedTab.blogs  => const [],
       FeedTab.books  => List.unmodifiable(_allBookVideos),
     };
   }
@@ -421,15 +429,6 @@ class FeedProvider extends ChangeNotifier {
   }
 
   // ── Content detection ─────────────────────────────────────────────────────────
-
-  bool _isBlog(Video v) {
-    if (v.isShort || _isBook(v)) return false;
-    final t = v.title.toLowerCase();
-    return t.startsWith('how to') || t.startsWith('why ') || t.startsWith('what ') ||
-        RegExp(r'^\d+ (ways|tips|things|rules|reasons|lessons|steps|mistakes)').hasMatch(t) ||
-        t.contains(' tips') || t.contains(' guide') || t.contains(' rules') ||
-        t.contains(' lessons') || t.contains(' mistakes');
-  }
 
   bool _isBook(Video v) => v.channelId == 'books' || v.channelId == 'verified_book';
 

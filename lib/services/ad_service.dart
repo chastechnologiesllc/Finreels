@@ -39,13 +39,15 @@ class AdService extends ChangeNotifier {
   static final AdService instance = AdService._();
 
   // ── Ad objects ────────────────────────────────────────────────────────────
-  BannerAd?               _bannerAd;
+  // Note: BannerAd is NOT managed here. LabelledBannerAd and StickyBannerBar
+  // each own their own BannerAd instance and lifecycle — keeping a second one
+  // in AdService would load (and count as an impression) an ad that is never
+  // actually placed in the widget tree.
   InterstitialAd?         _interstitialAd;
   AppOpenAd?              _appOpenAd;
   RewardedAd?             _rewardedAd;
   RewardedInterstitialAd? _rewardedInterstitialAd;
 
-  bool _bannerReady               = false;
   bool _interstitialReady         = false;
   bool _appOpenReady              = false;
   bool _rewardedReady             = false;
@@ -78,9 +80,6 @@ class AdService extends ChangeNotifier {
   bool _initialized = false;
 
   bool get adsRemoved => _adsRemoved;
-  /// Legacy getter — StickyBannerBar and LabelledBannerAd each own their
-  /// own BannerAd instances now. Kept for any external callers.
-  BannerAd? get bannerAd => (_bannerReady && !_adsRemoved) ? _bannerAd : null;
 
   // ── Init ──────────────────────────────────────────────────────────────────
   Future<void> init() async {
@@ -102,7 +101,6 @@ class AdService extends ChangeNotifier {
     _initialized = true;
 
     await Future.wait([
-      _loadBanner(),
       _loadInterstitial(),
       _loadAppOpen(),
       _loadRewarded(),
@@ -131,28 +129,6 @@ class AdService extends ChangeNotifier {
       _adsRemoved = false;
     }
     if (_adsRemoved != wasRemoved) notifyListeners();
-  }
-
-  // ── Banner ────────────────────────────────────────────────────────────────
-  Future<void> _loadBanner() async {
-    if (_bannerAd != null) { unawaited(_bannerAd!.dispose()); }
-    _bannerAd    = null;
-    _bannerReady = false;
-
-    _bannerAd = BannerAd(
-      adUnitId: AppConfig.bannerAdUnitId,
-      size:     AdSize.banner,
-      request:  const AdRequest(),
-      listener: BannerAdListener(
-        onAdLoaded: (_) => _bannerReady = true,
-        onAdFailedToLoad: (ad, _) {
-          ad.dispose();
-          _bannerReady = false;
-          Timer(const Duration(seconds: 30), () => unawaited(_loadBanner()));
-        },
-      ),
-    );
-    await _bannerAd!.load();
   }
 
   // ── Interstitial ──────────────────────────────────────────────────────────
@@ -497,8 +473,6 @@ class AdService extends ChangeNotifier {
     await prefs.setInt(
         AppConfig.prefAdsRemovedUntil, until.millisecondsSinceEpoch);
     _adsRemoved = true;
-    unawaited(_bannerAd?.dispose()              ?? Future.value());
-    _bannerAd              = null; _bannerReady           = false;
     unawaited(_interstitialAd?.dispose()        ?? Future.value());
     _interstitialAd        = null; _interstitialReady     = false;
     unawaited(_appOpenAd?.dispose()             ?? Future.value());
@@ -520,7 +494,7 @@ class AdService extends ChangeNotifier {
     _adsRemoved = false;
     if (_initialized) {
       await Future.wait([
-        _loadBanner(), _loadInterstitial(), _loadAppOpen(),
+        _loadInterstitial(), _loadAppOpen(),
         _loadRewarded(), _loadRewardedInterstitial(),
       ]);
     }
@@ -534,7 +508,6 @@ class AdService extends ChangeNotifier {
 
   @override
   void dispose() {
-    _bannerAd?.dispose();
     _interstitialAd?.dispose();
     _appOpenAd?.dispose();
     _rewardedAd?.dispose();

@@ -145,6 +145,12 @@ class ResourceCategoryData {
     _verifiedChannels = List.unmodifiable(channels);
     _verifiedBlogs = List.unmodifiable(blogs);
     _verifiedBooks = List.unmodifiable(books);
+
+    // The verified channels are now in ResourceCategoryData.verifiedChannels.
+    // Invalidate ChannelData's lazy caches so the next access to
+    // ChannelData.combined / ChannelData.byId picks up the full channel set
+    // instead of returning a stale build from before this load completed.
+    ChannelData.invalidateCache();
   }
 
   static Future<Map<String, dynamic>?> _tryLoadResourceFile(String path) async {

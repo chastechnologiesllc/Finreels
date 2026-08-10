@@ -20,7 +20,9 @@ dependencies:
   # the build.gradle resolutionStrategy forces billing 8 as a belt-and-suspenders
   # guard while the plugin publishes its own update.
   in_app_purchase: ^3.2.0
-  in_app_purchase_storekit: ^0.3.17
+  # in_app_purchase_storekit removed — in_app_purchase is a federated plugin
+  # that brings in its own iOS implementation automatically. Listing the
+  # platform impl separately can cause version constraint conflicts.
   flutter_local_notifications: ^18.0.1
   # 0.5.2 used removed Flutter v1 embedding APIs (shim / PluginRegistrantCallback).
   # 0.10.x is the federated, modern embedding release required by Flutter 3.38+.

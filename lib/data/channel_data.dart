@@ -205,12 +205,32 @@ class ChannelData {
   /// → _general.json channels. A channel that is both category-specific and
   /// general keeps its category resourceCategoryId so _dateMixed can apply
   /// the 3-day boost when that category is selected.
+  // ── Lazy caches ──────────────────────────────────────────────────────────
+  // `combined` and `byId` used to be live getters that allocated a fresh
+  // List / Map on every call. That was fine with 12 const channels, but
+  // becomes expensive once ResourceCategoryData loads 400+ verified channels
+  // — and both are called inside ListView/GridView itemBuilders (i.e. per
+  // scroll frame). The caches below are populated on first access and
+  // invalidated once by ResourceCategoryData after its async load finishes.
+
+  static List<Channel>? _combinedCache;
+  static Map<String, Channel>? _byIdCache;
+
+  /// Invalidate the lazy caches. Must be called once, at the end of
+  /// ResourceCategoryData._loadVerifiedResources(), so the first access
+  /// after startup sees the complete set of channels (not just the 12 consts).
+  static void invalidateCache() {
+    _combinedCache = null;
+    _byIdCache = null;
+  }
+
   static List<Channel> get combined {
+    if (_combinedCache != null) return _combinedCache!;
     final seen = <String>{};
-    return [
+    return _combinedCache = List.unmodifiable([
       for (final ch in [...all, ...ResourceCategoryData.verifiedChannels])
         if (ch.id.isNotEmpty && seen.add(ch.id)) ch,
-    ];
+    ]);
   }
 
   /// The subset of [combined] that should actually be fetched over the
@@ -229,14 +249,17 @@ class ChannelData {
       .toList();
 
   /// Lookup map by channel id — covers ALL channels including verified
-  /// category channels (e.g. fashion design, barbing). Must be a live
-  /// getter, not a static final field, because the verified channels come
-  /// from ResourceCategoryData which is loaded asynchronously at startup.
-  /// A static final would be computed at class init time (before that load
-  /// completes) and only ever contain the 12 const channels.
-  static Map<String, Channel> get byId => {
-    for (final ch in combined) ch.id: ch,
-  };
+  /// category channels (e.g. fashion design, barbing).
+  ///
+  /// Lazy-cached: rebuilt once after ResourceCategoryData finishes loading,
+  /// then reused. Calling this inside a scroll itemBuilder is now O(1)
+  /// instead of O(n) with a full List + Map allocation on every frame.
+  static Map<String, Channel> get byId {
+    if (_byIdCache != null) return _byIdCache!;
+    return _byIdCache = Map.unmodifiable({
+      for (final ch in combined) ch.id: ch,
+    });
+  }
 
   static Channel get fallback => all.first;
 }

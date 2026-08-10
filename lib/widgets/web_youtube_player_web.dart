@@ -1,10 +1,21 @@
-// ignore_for_file: avoid_web_libraries_in_flutter
-
 import 'dart:js_interop';
 import 'dart:ui_web' as ui_web;
 
 import 'package:flutter/material.dart';
 import 'package:web/web.dart' as web;
+
+/// Tracks which platform-view factory types have already been registered.
+///
+/// `ui_web.platformViewRegistry.registerViewFactory` inserts into a global,
+/// permanent registry — there is no unregister API. Using a timestamp-based
+/// viewType (the old approach) registered a new factory on every call and
+/// every parent rebuild, growing the registry without bound over a session.
+///
+/// The fix: one factory per videoId, registered exactly once. Subsequent
+/// calls with the same videoId reuse the existing factory; the underlying
+/// iframe is recreated by the engine when the HtmlElementView is mounted,
+/// so replaying the same video still creates a fresh embed.
+final _registeredViewTypes = <String>{};
 
 /// Official YouTube IFrame embed for Flutter web.
 ///
@@ -43,9 +54,13 @@ Widget buildWebYoutubePlayer({
       .join('&');
   final src = 'https://www.youtube-nocookie.com/embed/$videoId?$qs';
 
-  final viewType =
-      'finreels-yt-$videoId-${DateTime.now().microsecondsSinceEpoch}';
+  // Stable key: one factory per videoId, never per-rebuild.
+  // The Set guard ensures registerViewFactory is called at most once —
+  // calling it a second time with the same type is undefined behaviour
+  // across Flutter engine versions.
+  final viewType = 'finreels-yt-$videoId';
 
+  if (_registeredViewTypes.add(viewType)) {
   ui_web.platformViewRegistry.registerViewFactory(viewType, (int viewId) {
     final iframe = web.HTMLIFrameElement()
       ..src = src
@@ -65,6 +80,7 @@ Widget buildWebYoutubePlayer({
         'sandbox', 'allow-scripts allow-same-origin allow-presentation');
     return iframe;
   });
+  } // end registration guard — factory registered at most once per videoId
 
   return HtmlElementView(viewType: viewType);
 }

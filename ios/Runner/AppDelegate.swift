@@ -24,4 +24,16 @@ import workmanager_apple
         // Google Mobile Ads SDK initialised via Flutter plugin
         return super.application(application, didFinishLaunchingWithOptions: launchOptions)
     }
+
+    /// Delegate per-screen orientation locking to Flutter's
+    /// SystemChrome.setPreferredOrientations(). Without this override iOS
+    /// ignores runtime orientation requests and locks the whole app to the
+    /// orientations listed in UISupportedInterfaceOrientations, making the
+    /// video-player landscape toggle a silent no-op.
+    override func application(
+        _ application: UIApplication,
+        supportedInterfaceOrientationsFor window: UIWindow?
+    ) -> UIInterfaceOrientationMask {
+        return .all
+    }
 }
