@@ -92,7 +92,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
         flags: const YoutubePlayerFlags(
           hideControls: true,
           enableCaption: false,
-          useHybridComposition: true,
         ),
       )..addListener(_onUpdate);
     } else {
@@ -104,7 +103,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
           mute: true,
           hideControls: true,
           enableCaption: false,
-          useHybridComposition: true,
         ),
       );
     }
@@ -195,7 +193,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     try {
       _controller.unMute();
       _controller.setVolume(100);
-    } on Exception catch (_) {}
+    } catch (_) {}
   }
 
   void _togglePlay() {
@@ -274,7 +272,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       if (_intendedPlaying) {
         try {
           _controller.play();
-        } on Exception catch (_) {}
+        } catch (_) {}
       }
     }
   }
@@ -292,6 +290,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       excludeVideoId: widget.video.id,
       excludeChannelId: widget.channel.id,
       categoryId: widget.channel.resourceCategoryId,
+      limit: 12,
     );
   }
 
@@ -510,7 +509,11 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
         fit: StackFit.expand,
         children: [
           if (_playerAttached && kIsWeb)
-            WebYoutubePlayer(videoId: widget.video.id)
+            WebYoutubePlayer(
+              videoId: widget.video.id,
+              autoPlay: true,
+              mute: false,
+            )
           else if (_playerAttached)
             YoutubePlayer(
               controller: _controller,
@@ -538,10 +541,11 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                 }
               },
             ),
-          // Web embed: mark ready immediately, arm FinReels watermark briefly.
+          // Web: treat embed as started after a short delay (iframe has no
+          // reliable position stream here). Thumbnail covers until then.
           if (kIsWeb && _playerAttached && !_hasStartedPlaying)
             Builder(builder: (context) {
-              Future.microtask(() {
+              Future.delayed(const Duration(milliseconds: 900), () {
                 if (mounted && !_hasStartedPlaying) {
                   setState(() {
                     _hasStartedPlaying = true;
@@ -552,11 +556,15 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                     _showYtCover = true;
                   });
                   _armYtCover();
+                  WebYoutubePlayer.command(widget.video.id, 'playVideo');
+                  WebYoutubePlayer.command(widget.video.id, 'unMute');
                 }
               });
               return const SizedBox.shrink();
             }),
-          if (!_hasStartedPlaying && !kIsWeb)
+          // Thumbnail cover until first real frames (mobile) or web delay.
+          // Also re-cover on pause so gray YT surface never shows.
+          if ((!_hasStartedPlaying || (!_playing && !kIsWeb)) && !_ended)
             CachedNetworkImage(
               imageUrl: widget.video.thumbnailHd,
               fit: BoxFit.cover,
@@ -572,7 +580,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                 memCacheHeight: 405,
               ),
             ),
-          // Spinner only on mobile (web embed has no controller state lag).
           if (!kIsWeb && _playerAttached && !_hasStartedPlaying && !_ended)
             const Center(
               child: CircularProgressIndicator(
@@ -802,14 +809,17 @@ class _FinReelsWatermark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Always dark + gold — never light-theme white plate.
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final bg = const Color(0xCC0D0D0D);
+    final fg = AppTheme.gold;
+    // Slightly larger than the native YT logo so relative positioning still
+    // fully covers it across densities and player aspect ratios.
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
       alignment: Alignment.center,
       decoration: BoxDecoration(
-        color: const Color(0xCC0D0D0D),
+        color: bg,
         borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: AppTheme.gold.withValues(alpha: 0.35)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -818,17 +828,17 @@ class _FinReelsWatermark extends StatelessWidget {
             'assets/icons/app_icon.png',
             width: 16,
             height: 16,
-            errorBuilder: (_, __, ___) => const Icon(
+            errorBuilder: (_, __, ___) => Icon(
               Icons.play_arrow_rounded,
-              color: AppTheme.gold,
+              color: fg,
               size: 16,
             ),
           ),
           const SizedBox(width: 6),
-          const Text(
+          Text(
             'FinReels',
             style: TextStyle(
-              color: AppTheme.gold,
+              color: fg,
               fontSize: 12.5,
               fontWeight: FontWeight.w700,
               letterSpacing: 0.2,
