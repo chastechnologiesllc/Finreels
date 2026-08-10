@@ -809,9 +809,8 @@ class _FinReelsWatermark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bg = const Color(0xCC0D0D0D);
-    final fg = AppTheme.gold;
+    const bg = Color(0xCC0D0D0D);
+    const fg = AppTheme.gold;
     // Slightly larger than the native YT logo so relative positioning still
     // fully covers it across densities and player aspect ratios.
     return Container(

@@ -85,20 +85,27 @@ Widget buildWebYoutubePlayer({
     iframe.onLoad.listen((_) {
       sendListening();
       // Extra retries while YT JS boots inside the frame.
-      web.window.setTimeout((() {
-        sendListening();
-        if (autoPlay) {
-          _postCommand(iframe, 'playVideo');
-          if (!mute) _postCommand(iframe, 'unMute');
-        }
-      }).toJS, 400);
-      web.window.setTimeout((() {
-        sendListening();
-        if (autoPlay) {
-          _postCommand(iframe, 'playVideo');
-          if (!mute) _postCommand(iframe, 'unMute');
-        }
-      }).toJS, 1200);
+      // Delay must be JSAny (JSNumber), not Dart int — package:web typing.
+      web.window.setTimeout(
+        (() {
+          sendListening();
+          if (autoPlay) {
+            _postCommand(iframe, 'playVideo');
+            if (!mute) _postCommand(iframe, 'unMute');
+          }
+        }).toJS,
+        400.toJS,
+      );
+      web.window.setTimeout(
+        (() {
+          sendListening();
+          if (autoPlay) {
+            _postCommand(iframe, 'playVideo');
+            if (!mute) _postCommand(iframe, 'unMute');
+          }
+        }).toJS,
+        1200.toJS,
+      );
     });
 
     return iframe;

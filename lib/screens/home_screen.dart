@@ -255,7 +255,7 @@ class _FeedBodyState extends State<_FeedBody> {
         // this tight so VisibilityDetector and image decoding stay cheap.
         // ~1 card height is enough for smooth scroll without building far
         // ahead on lower-end devices.
-        cacheExtent: 280,
+        scrollCacheExtent: const ScrollCacheExtent.pixels(280),
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 120),
         itemCount: videos.length,
         itemBuilder: (context, i) {
@@ -438,7 +438,7 @@ class _BooksTab extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),
       itemCount: items.length,
       // Small cache + fixed-ish rows keep web scroll smooth with many covers.
-      cacheExtent: 400,
+      scrollCacheExtent: const ScrollCacheExtent.pixels(400),
       addAutomaticKeepAlives: false,
       addRepaintBoundaries: false,
       itemBuilder: (context, idx) {
