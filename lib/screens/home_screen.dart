@@ -256,7 +256,7 @@ class _FeedBodyState extends State<_FeedBody> {
         // for cards the user may never reach — causing scroll jank on
         // lower-end devices. 350 ≈ 1 card height below the fold: enough
         // for smooth scrolling without building the whole list at once.
-        scrollCacheExtent: 350,
+        scrollCacheExtent: const ScrollCacheExtent.pixels(350),
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 120),
         itemCount: videos.length,
         itemBuilder: (context, i) {
@@ -439,7 +439,7 @@ class _BooksTab extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),
       itemCount: items.length,
       // Small cache + fixed-ish rows keep web scroll smooth with many covers.
-      scrollCacheExtent: 400,
+      scrollCacheExtent: const ScrollCacheExtent.pixels(400),
       addAutomaticKeepAlives: false,
       addRepaintBoundaries: false,
       itemBuilder: (context, idx) {
