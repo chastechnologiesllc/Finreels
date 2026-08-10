@@ -4,27 +4,18 @@ import 'dart:ui_web' as ui_web;
 import 'package:flutter/material.dart';
 import 'package:web/web.dart' as web;
 
-/// Tracks which platform-view factory types have already been registered.
-///
-/// `ui_web.platformViewRegistry.registerViewFactory` inserts into a global,
-/// permanent registry — there is no unregister API. Using a timestamp-based
-/// viewType (the old approach) registered a new factory on every call and
-/// every parent rebuild, growing the registry without bound over a session.
-///
-/// The fix: one factory per videoId, registered exactly once. Subsequent
-/// calls with the same videoId reuse the existing factory; the underlying
-/// iframe is recreated by the engine when the HtmlElementView is mounted,
-/// so replaying the same video still creates a fresh embed.
+/// Flutter web's platform-view registry is process-wide and has no unregister
+/// operation. Keep one factory per video id so rebuilds do not register an
+/// unbounded number of factories.
 final _registeredViewTypes = <String>{};
 
-/// Official YouTube IFrame embed for Flutter web.
+String _viewTypeFor(String videoId) => 'finreels-youtube-${Uri.encodeComponent(videoId)}';
+
+/// Official YouTube iframe embed used only on Flutter web.
 ///
-/// LOCKED IN PLATFORM (no "Watch on YouTube" escape):
-/// - pointer-events: none — all taps stay in Flutter
-/// - controls=0, fs=0, disablekb=1, modestbranding=1, rel=0
-/// - sandbox without allow-top-navigation / allow-popups
-/// - youtube-nocookie + origin bound to this host
-/// Playback is muted autoplay where required; Flutter owns chrome.
+/// The iframe is deliberately non-interactive: Flutter owns the controls and
+/// navigation, so YouTube's own links cannot take the user out of FinReels.
+/// The iframe is also sandboxed without top-navigation/pop-up permissions.
 Widget buildWebYoutubePlayer({
   required String videoId,
   required bool autoPlay,
@@ -33,72 +24,76 @@ Widget buildWebYoutubePlayer({
   required bool isShort,
 }) {
   final params = <String, String>{
-    if (autoPlay) 'autoplay': '1',
-    if (mute) 'mute': '1',
-    if (loop) 'loop': '1',
-    if (loop) 'playlist': videoId,
+    'autoplay': autoPlay ? '1' : '0',
+    'mute': mute ? '1' : '0',
     'playsinline': '1',
-    'rel': '0',
-    'modestbranding': '1',
-    // No native YT chrome — channel/title links would open youtube.com.
     'controls': '0',
     'fs': '0',
     'disablekb': '1',
     'iv_load_policy': '3',
     'cc_load_policy': '0',
+    'rel': '0',
     'enablejsapi': '1',
+    // YouTube recommends binding IFrame API embeds to the host origin.
     'origin': web.window.location.origin,
+    if (loop) 'loop': '1',
+    if (loop) 'playlist': videoId,
   };
-  final qs = params.entries
+
+  final query = params.entries
       .map((e) => '${e.key}=${Uri.encodeComponent(e.value)}')
       .join('&');
-  final src = 'https://www.youtube-nocookie.com/embed/$videoId?$qs';
-
-  // Stable key: one factory per videoId, never per-rebuild.
-  // The Set guard ensures registerViewFactory is called at most once —
-  // calling it a second time with the same type is undefined behaviour
-  // across Flutter engine versions.
-  final viewType = 'finreels-yt-$videoId';
+  final src = 'https://www.youtube-nocookie.com/embed/$videoId?$query';
+  final viewType = _viewTypeFor(videoId);
 
   if (_registeredViewTypes.add(viewType)) {
-  ui_web.platformViewRegistry.registerViewFactory(viewType, (int viewId) {
-    final iframe = web.HTMLIFrameElement()
-      ..src = src
-      ..style.border = 'none'
-      ..style.width = '100%'
-      ..style.height = '100%'
-      ..style.backgroundColor = '#000000'
-      // Critical: Flutter receives all taps — no navigation to YouTube.
-      ..style.pointerEvents = 'none'
-      ..allow =
-          'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen'
-      ..allowFullscreen = false;
-    iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
-    iframe.setAttribute('loading', 'eager');
-    // Block top-level navigation from the frame.
-    iframe.setAttribute(
-        'sandbox', 'allow-scripts allow-same-origin allow-presentation');
-    return iframe;
-  });
-  } // end registration guard — factory registered at most once per videoId
+    ui_web.platformViewRegistry.registerViewFactory(viewType, (int viewId) {
+      final iframe = web.HTMLIFrameElement()
+        ..src = src
+        ..style.border = '0'
+        ..style.margin = '0'
+        ..style.padding = '0'
+        ..style.width = '100%'
+        ..style.height = '100%'
+        ..style.display = 'block'
+        ..style.backgroundColor = '#000'
+        // Flutter's GestureDetector receives every tap. This prevents native
+        // YouTube title/logo/related-video links from navigating away.
+        ..style.pointerEvents = 'none'
+        ..allow = 'autoplay; encrypted-media; picture-in-picture'
+        ..allowFullscreen = false;
+
+      iframe.setAttribute('title', 'FinReels video player');
+      iframe.setAttribute('loading', 'eager');
+      iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+      // No allow-top-navigation, allow-top-navigation-by-user-activation,
+      // allow-popups, or allow-popups-to-escape-sandbox. The embedded player
+      // therefore cannot promote a YouTube link into a browser navigation.
+      iframe.setAttribute(
+        'sandbox',
+        'allow-scripts allow-same-origin allow-presentation',
+      );
+      return iframe;
+    });
+  }
 
   return HtmlElementView(viewType: viewType);
 }
 
-/// Send a YT iframe API command (playVideo / pauseVideo) via postMessage.
+/// Send an IFrame API command to the matching YouTube iframe.
+/// `enablejsapi=1` + `origin` are required by YouTube's current API contract.
 void webYoutubeCommand(String videoId, String func) {
   try {
     final frames = web.document.querySelectorAll('iframe');
-    final len = frames.length;
-    for (var i = 0; i < len; i++) {
-      final el = frames.item(i);
-      if (el == null) continue;
-      final iframe = el as web.HTMLIFrameElement;
-      if (!iframe.src.contains(videoId)) continue;
-      final payload = '{"event":"command","func":"$func","args":""}';
-      iframe.contentWindow?.postMessage(payload.toJS, '*'.toJS);
+    for (var i = 0; i < frames.length; i++) {
+      final element = frames.item(i);
+      if (element is! web.HTMLIFrameElement) continue;
+      if (!element.src.contains('/embed/$videoId?')) continue;
+
+      final message = '{"event":"command","func":"$func","args":[]}';
+      element.contentWindow?.postMessage(message.toJS, web.window.location.origin.toJS);
     }
   } on Object {
-    // Embed may not be ready yet.
+    // The iframe may still be loading. A later user tap can retry the command.
   }
 }
