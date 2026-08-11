@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App launcher icon background -->
     <color name="ic_launcher_background">#F0AA1D</color>
+
+    <!-- Pre-Flutter splash background — LIGHT MODE (day qualifier).
+         Must match AppTheme.lightBg (#FFFFFF) so the native → Flutter
+         transition is imperceptible on light-theme devices. -->
+    <color name="launch_background">#FFFFFF</color>
 </resources>

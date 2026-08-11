@@ -7,6 +7,11 @@
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="FinReels - Financial Literacy Video Hub by chAs Technologies LLC">
 
+  <!-- Declare support for both light and dark colour schemes.
+       This alone makes most modern browsers use the correct system scrollbar,
+       form control, and default background colours before any CSS runs. -->
+  <meta name="color-scheme" content="light dark">
+
   <!-- Open Graph / WhatsApp / social share — absolute icon so previews show logo -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="FinReels">
@@ -25,17 +30,51 @@
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="FinReels">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Favicon — app launcher icon (follows the shared link) -->
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
   <title>FinReels</title>
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#F5A623">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#000000">
+
+  <style>
+    /*
+     * Pre-Flutter-load body background.
+     * Matches AppTheme.lightBg / AppTheme.darkBg so the page-load blank
+     * frame is the same colour the Flutter splash will render, eliminating
+     * the white-flash-before-dark-app (or vice-versa) that users see on
+     * slow connections before flutter_bootstrap.js takes over.
+     */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #ffffff; /* light default — AppTheme.lightBg */
+    }
+    @media (prefers-color-scheme: dark) {
+      html, body {
+        background-color: #000000; /* dark — AppTheme.darkBg */
+      }
+    }
+
+    /*
+     * YouTube iframe platform-view containers.
+     * Flutter web wraps each HtmlElementView in a <flt-platform-view> div.
+     * Without this rule the outer div is transparent; on a white body this
+     * means a white flash is visible while the iframe's own black background
+     * hasn't painted yet.
+     */
+    flt-platform-view,
+    flt-platform-view > * {
+      background-color: #000000 !important;
+    }
+  </style>
 
   <!-- AdSense loader (test client). Replace client= with production ca-pub. -->
   <script async
