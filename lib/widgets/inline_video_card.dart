@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -15,60 +16,43 @@ import '../theme/app_theme.dart';
 import 'web_youtube_player.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Gray-flash / white-flash root-cause analysis & fixes (Aug 2026)
+// Video playing design (merged from old + current fixes):
 //
-// ROOT CAUSE — WHY THE GRAY APPEARED ON PLAY/PAUSE (mobile)
-// ──────────────────────────────────────────────────────────
-// Previous code used TWO different widget-tree structures depending on
-// _revealPlayer:
+// 1. PRE-WARMING (from old)
+//    Controller is created the moment a card scrolls >30 % into view —
+//    BEFORE the user taps. muted=true, autoPlay=false so nothing is audible.
+//    By tap time the native WebView surface has already initialised → no
+//    black/gray flash on reveal. Pre-warmed-but-never-tapped controllers are
+//    disposed once the card scrolls <5 % visible.
 //
-//   _revealPlayer=false → Positioned(left:-10000, width:1, height:1)
-//                           └─ IgnorePointer └─ YoutubePlayer(ctrl)
-//   _revealPlayer=true  → YoutubePlayerBuilder
-//                           └─ YoutubePlayer(ctrl)
+// 2. INSTANT CANCEL (new feature)
+//    _onActiveChanged tears down the current card immediately whenever another
+//    video becomes active — covers all states: pre-warming, loading, playing.
 //
-// When _revealPlayer flipped true the widget TYPES changed (Positioned →
-// YoutubePlayerBuilder). Flutter treats different parent types as different
-// elements → it unmounted the old Positioned subtree and mounted a brand-new
-// YoutubePlayerBuilder subtree. That mounted a BRAND-NEW platform view
-// (WebView). The new WebView's first frame is always the native gray/white
-// WebView background. At the same tick the thumbnail was removed
-// (showLiveVideo = true). Result: one or more gray frames visible to the user.
+// 3. STABLE WIDGET TREE / NO GRAY FLASH
+//    YoutubePlayerBuilder lives at a FIXED Stack position whenever
+//    _controller != null. It is never moved or re-typed based on _revealPlayer.
+//    IgnorePointer (opacity=0 path) prevents the hidden WebView from stealing
+//    scroll gestures while not visible.
+//    AnimatedOpacity fades the PLAYER in over the always-present thumbnail so
+//    the thumbnail shows through during the 200 ms window — any gray from the
+//    WebView's native surface is never visible to the user.
 //
-// FIX A — Stable widget tree (no more parking)
-// ─────────────────────────────────────────────
-// YoutubePlayerBuilder is gone. YoutubePlayer lives at a FIXED position in
-// the Stack whenever _controller != null. Flutter never unmounts it mid-play,
-// so the platform view is created ONCE and reused for the whole session. No
-// widget-type change → no second platform view → no gray frame.
+// 4. useHybridComposition: false (Virtual Display mode)
+//    WebView renders to a GPU texture Flutter composites normally. This is
+//    required for Flutter overlay layers (thumbnail, play button, watermark)
+//    to appear ABOVE the WebView on Android.
 //
-// FIX B — AnimatedOpacity crossfade on the thumbnail
-// ───────────────────────────────────────────────────
-// The thumbnail layer no longer disappears abruptly. It uses AnimatedOpacity:
-// • opacity=1.0  while !showLiveVideo  (thumbnail fully visible)
-// • opacity=0.0  while  showLiveVideo  (thumbnail fades over 200 ms)
+// 5. THEME-AWARE WATERMARK (from old)
+//    _InlineFinReelsWatermark adapts bg/fg to dark/light mode.
 //
-// When showLiveVideo first becomes true (position>0 && playing), the thumbnail
-// starts at opacity 1.0 and fades out over 200 ms. The platform view has
-// 200 ms of "breathing room" to render real video frames before the thumbnail
-// is gone — even if there were a new platform view (from initial tap), the
-// gray would never show through the semi-opaque thumbnail.
+// 6. FULLSCREEN via YoutubePlayerBuilder (from old)
+//    Moves the existing WebView into an Overlay — same controller, same
+//    position, zero restart. Only orientation is set in the callbacks.
 //
-// On pause (showLiveVideo=false): thumbnail fades back IN over 200 ms,
-// covering the YouTube logo/gray before it becomes visible.
-//
-// FIX C — useHybridComposition: false (Virtual Display mode)
-// ──────────────────────────────────────────────────────────
-// In Hybrid Composition (the default) the WebView is a native Android View
-// placed ABOVE the Flutter surface; Flutter widgets (thumbnail, play button,
-// watermark) are rendered on the Flutter canvas BELOW the WebView. They are
-// invisible — they cannot overlay the WebView. Virtual Display (HC=false)
-// renders the WebView to a GPU texture that Flutter composites like any other
-// layer; Flutter overlays work correctly. This was already set here, kept.
-//
-// FIX D — Web: ColoredBox + black container div
-// ─────────────────────────────────────────────
-// See web_youtube_player_web.dart for the iframe-side fix.
+// 7. WEB EMBED
+//    kIsWeb path uses WebYoutubePlayer (HTML iframe) since youtube_player_flutter
+//    has no reliable web engine.
 // ─────────────────────────────────────────────────────────────────────────────
 
 class InlineVideoCard extends StatefulWidget {
@@ -113,9 +97,8 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   bool get _isActive =>
       widget.activeVideoNotifier.value == widget.video.id;
 
-  // KeepAlive only while this card is the ACTIVE expanded player.
-  // Dropping it when inactive allows ListView to recycle the element and
-  // free the WebView — the primary fix for gray-box exhaustion on long feeds.
+  // KeepAlive only while this card is the active expanded player.
+  // Dropping it when inactive lets ListView recycle and free the WebView.
   @override
   bool get wantKeepAlive => _expanded && _isActive;
 
@@ -167,19 +150,29 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     });
   }
 
-  // ── Active-slot coordination ───────────────────────────────────────────────
+  // ── Active-slot coordination — INSTANT CANCEL ─────────────────────────────
+  //
+  // Called whenever activeVideoNotifier changes (any card tapped anywhere in
+  // the feed). When this card is no longer active, tear it down immediately
+  // regardless of state — pre-warming, loading, or playing. This gives the
+  // "stop instantly when another video is tapped" behaviour.
 
   void _onActiveChanged() {
     if (!mounted) return;
-    if (!_expanded || _controller == null) {
-      updateKeepAlive();
+    if (!_isActive) {
+      // Covers every state: pre-warmed (controller exists, !_expanded),
+      // loading (_expanded, !_playerReady), and playing.
+      _tearDownPlayer();
       return;
     }
-    if (_isActive && _playerReady) {
-      try { _controller!.play(); } on Object catch (_) {}
-    } else if (!_isActive) {
-      _tearDownPlayer();
+    // This card just became active — resume if already loaded.
+    if (_expanded && _playerReady) {
+      try {
+        _controller?.play();
+        _forceSoundOn();
+      } on Object catch (_) {}
     }
+    updateKeepAlive();
   }
 
   // ── Player ready / controller updates ─────────────────────────────────────
@@ -194,7 +187,8 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       } on Object catch (_) {}
     }
 
-    // Safety-net play retry 800 ms after onReady fires.
+    // Safety-net: retry play 800 ms after onReady. Keeps the spinner moving
+    // toward a reveal even if the first play() call was ignored by the package.
     _revealTimer?.cancel();
     _revealTimer = Timer(const Duration(milliseconds: 800), () {
       if (!mounted || _revealPlayer || !_expanded) return;
@@ -203,10 +197,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         _forceSoundOn();
       } on Object catch (_) {}
     });
-    // Last-resort: reveal after 2.5 s regardless of positionMs. Keeps the
-    // player interactive even if the position-tick signal never arrives
-    // (rare network stall). Thumbnail stays visible because showLiveVideo
-    // checks _isPlaying which remains false until the controller reports it.
+    // Last-resort: reveal at 2.5 s so a stalled stream is still interactive.
     Timer(const Duration(milliseconds: 2500), () {
       if (!mounted || _revealPlayer || !_expanded) return;
       setState(() => _revealPlayer = true);
@@ -217,21 +208,21 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 
   void _onControllerUpdate() {
     if (!mounted) return;
-
+    // Rate-limit to ~15 calls/sec — listener fires on every WebView tick.
     final nowMs = DateTime.now().millisecondsSinceEpoch;
-    if (nowMs - _lastCardUpdateMs < 66) return; // 15 fps cap
+    if (nowMs - _lastCardUpdateMs < 66) return;
     _lastCardUpdateMs = nowMs;
 
-    final v           = _controller!.value;
-    final ready       = v.isReady;
+    final v            = _controller!.value;
+    final ready        = v.isReady;
     final currentState = v.playerState;
-    final positionMs  = v.position.inMilliseconds;
+    final positionMs   = v.position.inMilliseconds;
 
     if (ready != _playerReady) _markReady();
 
-    // PRIMARY reveal trigger: position > 0 proves real frames are decoded.
-    // PlayerState.playing can fire before any frame is visible on screen —
-    // using positionMs eliminates the gray-flash window.
+    // PRIMARY reveal trigger: positionMs > 0 proves real frames are decoded.
+    // PlayerState.playing can flip before any frame is visible on screen —
+    // using positionMs eliminates the gray-flash window entirely.
     if (currentState == PlayerState.playing &&
         positionMs > 0 &&
         !_revealPlayer &&
@@ -240,7 +231,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       _forceSoundOn();
       setState(() {
         _revealPlayer = true;
-        _isPlaying = true;
+        _isPlaying    = true;
       });
       _armYtCover();
     }
@@ -252,14 +243,13 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         _armYtCover();
         _forceSoundOn();
       } else {
-        // Paused — YT logo reappears; thumbnail (AnimatedOpacity) will fade
-        // back in, covering it. Keep YtCover active too for belt-and-suspenders.
+        // Paused — YT logo reappears; keep cover visible.
         _ytCoverTimer?.cancel();
         if (mounted) setState(() => _showYtCover = true);
       }
     }
 
-    // Ad trigger on playing → paused.
+    // Ad trigger on playing → paused transition.
     if (_prevState == PlayerState.playing &&
         currentState == PlayerState.paused) {
       unawaited(AdService.instance.onVideoTapped());
@@ -269,12 +259,12 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 
   // ── Controller lifecycle ───────────────────────────────────────────────────
 
-  /// Creates the player controller only on first user tap.
-  /// useHybridComposition: false → Virtual Display mode → Flutter overlays
-  /// (thumbnail, play button, watermark) composite ABOVE the WebView texture.
-  /// With HC=true (the package default) the WebView is a native Android View
-  /// lifted above the Flutter canvas — all our overlay widgets are invisible.
-  void _createController({required bool autoPlay, bool muted = false}) {
+  /// Creates the YouTube controller.
+  /// [autoPlay] = false during silent pre-warm; true for direct tap.
+  /// [muted]    = true during pre-warm (no audio while scrolling); false for tap.
+  /// useHybridComposition: false → Virtual Display mode — Flutter overlay
+  /// widgets (thumbnail, play button, watermark) composite above the WebView.
+  void _createController({required bool autoPlay, bool muted = true}) {
     if (_controller != null) return;
     _controller = YoutubePlayerController(
       initialVideoId: widget.video.id,
@@ -283,13 +273,14 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         mute: muted,
         enableCaption: false,
         hideControls: true,
-        useHybridComposition: false, // required for Flutter overlays to work
+        useHybridComposition: false, // required for Flutter overlays on Android
       ),
     )..addListener(_onControllerUpdate);
     if (mounted) setState(() {});
   }
 
-  /// Full teardown: dispose controller, reset all state, return to thumbnail.
+  /// Full teardown: dispose controller, cancel all timers, reset all state.
+  /// Called on active-change (instant cancel) and off-screen visibility.
   void _tearDownPlayer() {
     _revealTimer?.cancel();
     _soundRetryTimer?.cancel();
@@ -297,25 +288,42 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     _controller?.removeListener(_onControllerUpdate);
     try { _controller?.pause(); } on Object catch (_) {}
     _controller?.dispose();
-    _controller     = null;
-    _playerReady    = false;
-    _revealPlayer   = false;
-    _expanded       = false;
-    _ended          = false;
-    _isPlaying      = false;
-    _showYtCover    = false;
-    _prevState      = PlayerState.unknown;
+    _controller   = null;
+    _playerReady  = false;
+    _revealPlayer = false;
+    _expanded     = false;
+    _ended        = false;
+    _isPlaying    = false;
+    _showYtCover  = false;
+    _prevState    = PlayerState.unknown;
     if (mounted) {
       setState(() {});
       updateKeepAlive();
     }
   }
 
+  // ── Fullscreen (mobile) — orientation only ─────────────────────────────────
+
+  void _onEnterFullScreen() {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
+    ]);
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+  }
+
+  void _onExitFullScreen() {
+    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+  }
+
   // ── Tap handler ───────────────────────────────────────────────────────────
 
   void _onTap() {
+
+    // ── Web path ──────────────────────────────────────────────────────────
     if (kIsWeb) {
-      final willPlay   = !_isPlaying || !_expanded;
+      final willPlay    = !_isPlaying || !_expanded;
       final firstExpand = !_expanded;
       if (mounted) {
         setState(() {
@@ -338,12 +346,10 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         _armYtCover();
         if (firstExpand) {
           Future.delayed(const Duration(milliseconds: 400), () {
-            if (!mounted) return;
-            sendPlay();
+            if (mounted) sendPlay();
           });
           Future.delayed(const Duration(milliseconds: 1200), () {
-            if (!mounted) return;
-            sendPlay();
+            if (mounted) sendPlay();
           });
         } else {
           sendPlay();
@@ -355,10 +361,23 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       return;
     }
 
+    // ── Mobile path ───────────────────────────────────────────────────────
     if (_controller == null) {
-      _createController(autoPlay: true);
+      // No controller (first tap or was disposed). Start with sound.
+      _createController(autoPlay: true, muted: false);
+      _startSoundRetries();
+    } else if (!_expanded) {
+      // Pre-warmed (muted, !_expanded). Unmute, seek to start, and play.
+      try {
+        _controller!
+          ..unMute()
+          ..setVolume(100)
+          ..seekTo(Duration.zero)
+          ..play();
+      } on Object catch (_) {}
       _startSoundRetries();
     } else if (!_ended) {
+      // Already expanded: toggle if playing, force-retry if stalled.
       final state = _controller!.value.playerState;
       if (state == PlayerState.playing && _revealPlayer) {
         _controller!.pause();
@@ -374,11 +393,9 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         _startSoundRetries();
       }
     }
+
     if (mounted) {
-      setState(() {
-        _expanded = true;
-        _ended    = false;
-      });
+      setState(() { _expanded = true; _ended = false; });
       updateKeepAlive();
     }
     widget.activeVideoNotifier.value = widget.video.id;
@@ -394,14 +411,29 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     } on Object catch (_) {}
   }
 
-  // ── Visibility ─────────────────────────────────────────────────────────────
+  // ── Visibility: pre-warm + off-screen teardown ────────────────────────────
+  //
+  // PRE-WARM: Create the controller (silently, muted) the moment the card
+  // scrolls >30 % into view — well before the user decides to tap. By tap
+  // time the native WebView surface has already finished its own initialisation
+  // (which renders black/gray for its first few frames at the OS compositing
+  // level — something Flutter-side Opacity cannot fully mask). The result is
+  // an instant reveal with no flash.
+  //
+  // OFF-SCREEN: Dispose when <5 % visible. Keeps live WebView count bounded
+  // regardless of feed length — typically "cards within ~1 screen height".
 
   void _onVisibilityChanged(VisibilityInfo info) {
     if (!mounted) return;
     final frac = info.visibleFraction;
 
-    if (_controller == null) return;
+    // Pre-warm: silently create when meaningfully visible (mobile only).
+    if (!kIsWeb && _controller == null && frac > 0.3) {
+      _createController(autoPlay: false, muted: true);
+      return;
+    }
 
+    // Off-screen: full teardown regardless of state (pre-warm or expanded).
     if (frac < 0.05) {
       _tearDownPlayer();
       return;
@@ -410,9 +442,9 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     if (!_expanded) return;
 
     if (frac < 0.30) {
-      try { _controller!.pause(); } on Object catch (_) {}
+      try { _controller?.pause(); } on Object catch (_) {}
     } else if (frac >= 0.50 && _isActive && _playerReady) {
-      try { _controller!.play(); } on Object catch (_) {}
+      try { _controller?.play(); } on Object catch (_) {}
     }
   }
 
@@ -503,24 +535,23 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   // Widget-tree layout (mobile):
   //
   //   Stack (expand)
-  //   ├─ Layer 0  ColoredBox(black)         — opaque black base, never gray
-  //   ├─ Layer 1  YoutubePlayer             — always full-size when controller
-  //   │            (Virtual Display mode)     exists; NEVER remounted to a
-  //   │                                       different widget type mid-session
-  //   ├─ Layer 2  AnimatedOpacity(thumbnail) — opacity 1.0 until showLiveVideo,
-  //   │                                       then fades to 0.0 over 200 ms
-  //   │                                       (platform view has 200 ms to
-  //   │                                       paint real frames before exposed)
-  //   ├─ Layer 3  Spinner                  — only while waiting for pos>0
-  //   ├─ Layer 4  Play / pause button      — Flutter-owned, no YT native
-  //   ├─ Layer 5  FinReels watermark       — covers YT logo region when visible
-  //   └─ Layer 6  End-screen overlay
+  //   ├─ Layer 0  Thumbnail (CachedNetworkImage) — ALWAYS mounted, never
+  //   │                                            torn down. Provides visual
+  //   │                                            continuity during pre-warm
+  //   │                                            and load, and persists as
+  //   │                                            the background if needed.
+  //   ├─ Layer 1  IgnorePointer                  — blocks the pre-warmed /
+  //   │  └─ AnimatedOpacity (0 → 1)               hidden WebView from stealing
+  //   │     └─ YoutubePlayerBuilder               scroll gestures while not
+  //   │        └─ YoutubePlayer                   visible (opacity=0 does NOT
+  //   │           (HC: false, VD mode)            remove from hit-test tree).
+  //   ├─ Layer 1b WebYoutubePlayer (kIsWeb only)
+  //   ├─ Layer 2  Spinner (loading, mobile only)
+  //   ├─ Layer 3  Play / pause button
+  //   ├─ Layer 4  FinReels watermark (theme-aware)
+  //   └─ Layer 5  End-screen overlay
 
   Widget _buildMediaArea(BuildContext context) {
-    // showLiveVideo: video is decoded, playing, and the platform view should
-    // be the primary visual layer. Thumbnail fades out when this is true.
-    final showLiveVideo = _revealPlayer && _isPlaying && !_ended;
-
     final media = AspectRatio(
       aspectRatio: 16 / 9,
       child: GestureDetector(
@@ -530,26 +561,56 @@ class _InlineVideoCardState extends State<InlineVideoCard>
           fit: StackFit.expand,
           children: [
 
-            // ── Layer 0: opaque black base ────────────────────────────────
-            const ColoredBox(color: Color(0xFF000000)),
+            // ── Layer 0: Thumbnail — always mounted ───────────────────────
+            CachedNetworkImage(
+              imageUrl: widget.video.thumbnailHd,
+              fit: BoxFit.cover,
+              memCacheWidth: 720,
+              memCacheHeight: 405,
+              placeholder: (_, __) =>
+                  const ColoredBox(color: Color(0xFF1E1E1E)),
+              errorWidget: (_, __, ___) => CachedNetworkImage(
+                imageUrl: widget.video.thumbnailMq,
+                fit: BoxFit.cover,
+                memCacheWidth: 720,
+                memCacheHeight: 405,
+                errorWidget: (_, __, ___) =>
+                    ColoredBox(color: AppTheme.surfaceElevated(context)),
+              ),
+            ),
 
-            // ── Layer 1: YouTube player (mobile) — stable widget position ─
-            // CRITICAL: this if-block is conditioned only on _controller != null.
-            // We never switch between YoutubePlayerBuilder and a Positioned park
-            // depending on _revealPlayer — that widget-type swap recreated the
-            // platform view every time _revealPlayer flipped, causing the gray
-            // flash. Now the same YoutubePlayer widget stays in the same Stack
-            // slot for the entire session; only its controller changes.
+            // ── Layer 1: YouTube player (mobile) ─────────────────────────
+            // Only mounted when controller exists. Widget type NEVER changes
+            // based on _revealPlayer — that would unmount/remount the platform
+            // view and cause a gray flash. IgnorePointer blocks the hidden
+            // WebView from consuming scroll gestures (opacity:0 still
+            // participates in hit-testing without this wrapper).
             if (!kIsWeb && _controller != null)
-              YoutubePlayer(
-                controller: _controller!,
-                // Black package-thumbnail covers iframe's own init surface.
-                thumbnail: const ColoredBox(color: Color(0xFF000000)),
-                bufferIndicator: const SizedBox.shrink(),
-                onReady: _markReady,
-                onEnded: (_) {
-                  if (mounted) setState(() => _ended = true);
-                },
+              IgnorePointer(
+                ignoring: !(_expanded && _revealPlayer),
+                child: AnimatedOpacity(
+                  opacity: (_expanded && _revealPlayer) ? 1.0 : 0.0,
+                  duration: const Duration(milliseconds: 200),
+                  child: YoutubePlayerBuilder(
+                    onEnterFullScreen: _onEnterFullScreen,
+                    onExitFullScreen:  _onExitFullScreen,
+                    player: YoutubePlayer(
+                      controller: _controller!,
+                      showVideoProgressIndicator: true,
+                      progressIndicatorColor: AppTheme.gold,
+                      progressColors: const ProgressBarColors(
+                        playedColor: AppTheme.gold,
+                        handleColor: AppTheme.gold,
+                      ),
+                      onReady: _markReady,
+                      onEnded: (_) {
+                        if (mounted) setState(() => _ended = true);
+                      },
+                      bufferIndicator: const SizedBox.shrink(),
+                    ),
+                    builder: (context, player) => player,
+                  ),
+                ),
               ),
 
             // ── Layer 1b: Web embed ───────────────────────────────────────
@@ -560,41 +621,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // ── Layer 2: Thumbnail (AnimatedOpacity crossfade) ────────────
-            // Stays at opacity 1.0 until showLiveVideo, then fades to 0 over
-            // 200 ms. The platform view has that 200 ms to render a real frame
-            // before the thumbnail fully disappears — no gray flash even if a
-            // new platform view was just created. When paused (showLiveVideo
-            // goes false), thumbnail fades back IN, covering the YT gray
-            // pause surface before it becomes visible.
-            if (!_ended)
-              Positioned.fill(
-                child: AnimatedOpacity(
-                  opacity: showLiveVideo ? 0.0 : 1.0,
-                  duration: const Duration(milliseconds: 200),
-                  child: CachedNetworkImage(
-                    imageUrl: widget.video.thumbnailHd,
-                    fit: BoxFit.cover,
-                    fadeInDuration: Duration.zero,
-                    fadeOutDuration: Duration.zero,
-                    memCacheWidth: 720,
-                    memCacheHeight: 405,
-                    placeholder: (_, __) =>
-                        const ColoredBox(color: Color(0xFF000000)),
-                    errorWidget: (_, __, ___) => CachedNetworkImage(
-                      imageUrl: widget.video.thumbnailMq,
-                      fit: BoxFit.cover,
-                      fadeInDuration: Duration.zero,
-                      memCacheWidth: 720,
-                      memCacheHeight: 405,
-                      errorWidget: (_, __, ___) =>
-                          const ColoredBox(color: Color(0xFF000000)),
-                    ),
-                  ),
-                ),
-              ),
-
-            // ── Layer 3: Spinner (mobile, waiting for first frame) ─────────
+            // ── Layer 2: Spinner — mobile, while waiting for first frame ──
             if (_expanded &&
                 !kIsWeb &&
                 _controller != null &&
@@ -605,41 +632,40 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                     color: AppTheme.gold, strokeWidth: 2.5),
               ),
 
-            // ── Layer 4: Flutter play/pause button — NEVER the YT native ──
-            if (!_ended && (!showLiveVideo || !_expanded))
+            // ── Layer 3: Play / pause button ──────────────────────────────
+            // • Not yet expanded  → initial play affordance
+            // • Expanded + stalled/paused → retry play affordance so the user
+            //   is never stuck staring at the thumbnail with no way forward
+            if (!_expanded ||
+                (_expanded && !_ended && !_isPlaying && _controller != null))
               Center(
                 child: Container(
-                  width: 56,
-                  height: 56,
+                  width: 54, height: 54,
                   decoration: BoxDecoration(
-                    color: Colors.black.withValues(alpha: 0.55),
+                    color: Colors.black.withValues(alpha: 0.6),
                     shape: BoxShape.circle,
                   ),
                   child: const Icon(Icons.play_arrow_rounded,
-                      color: Colors.white, size: 34),
+                      color: Colors.white, size: 32),
                 ),
               ),
 
-            // ── Layer 5: FinReels watermark ───────────────────────────────
+            // ── Layer 4: FinReels watermark (theme-aware) ─────────────────
+            // Covers the YouTube logo at bottom-right while it is visible
+            // (first ~4 s of play, on pause, and on web where controls=0
+            // leaves the logo permanently present).
             if (_expanded &&
+                _controller != null &&
                 !_ended &&
-                showLiveVideo &&
+                _revealPlayer &&
                 (_showYtCover || !_isPlaying))
-              LayoutBuilder(
-                builder: (context, constraints) {
-                  final shortSide = constraints.maxWidth < constraints.maxHeight
-                      ? constraints.maxWidth
-                      : constraints.maxHeight;
-                  final inset = (shortSide * 0.055).clamp(10.0, 48.0);
-                  return Positioned(
-                    right: inset,
-                    bottom: (inset * 0.55).clamp(8.0, 28.0),
-                    child: const _InlineFinReelsWatermark(),
-                  );
-                },
+              const Positioned(
+                right: 27,
+                bottom: 17,
+                child: _InlineFinReelsWatermark(),
               ),
 
-            // ── Layer 6: end-screen overlay ────────────────────────────────
+            // ── Layer 5: end-screen overlay ───────────────────────────────
             if (_ended) _buildEndOverlay(),
           ],
         ),
@@ -731,19 +757,24 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   }
 }
 
-// ── FinReels watermark (inline card) ─────────────────────────────────────────
+// ── FinReels watermark (inline card) — theme-aware ───────────────────────────
+//
+// Background and foreground adapt to the system dark/light theme so the chip
+// is always legible regardless of thumbnail colour and app theme setting.
 
 class _InlineFinReelsWatermark extends StatelessWidget {
   const _InlineFinReelsWatermark();
+
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final bg = isDark ? const Color(0xF2000000) : const Color(0xF2FFFFFF);
+    final fg = isDark ? AppTheme.gold : const Color(0xFF1A1A1A);
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5.5),
-      alignment: Alignment.center,
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
       decoration: BoxDecoration(
-        color: const Color(0xCC0D0D0D),
+        color: bg,
         borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: AppTheme.gold.withValues(alpha: 0.35)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -752,18 +783,18 @@ class _InlineFinReelsWatermark extends StatelessWidget {
             'assets/icons/app_icon.png',
             width: 14,
             height: 14,
-            errorBuilder: (_, __, ___) => const Icon(
+            errorBuilder: (_, __, ___) => Icon(
               Icons.play_arrow_rounded,
-              color: AppTheme.gold,
+              color: fg,
               size: 14,
             ),
           ),
           const SizedBox(width: 5),
-          const Text(
+          Text(
             'FinReels',
             style: TextStyle(
-              color: AppTheme.gold,
-              fontSize: 11.5,
+              color: fg,
+              fontSize: 11,
               fontWeight: FontWeight.w700,
               letterSpacing: 0.2,
             ),
