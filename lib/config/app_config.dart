@@ -168,11 +168,6 @@ class AppConfig {
     'https://cloudflare.com/cdn-cgi/trace',
   ];
 
-  /// Free public JSONP-capable RSS→JSON bridge used only on web (CORS).
-  /// Native Android/iOS never use this — they fetch YouTube/blog RSS directly.
-  static const String webRss2JsonEndpoint =
-      'https://api.rss2json.com/v1/api.json';
-
   // ── Ad-Block Detection ────────────────────────────────────────────────────────
   static const List<String> adCheckEndpoints = [
     'https://pagead2.googlesyndication.com/pagead/show_ads.js',

@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
@@ -5,9 +6,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xml/xml.dart';
 
-import '../config/app_config.dart';
 import '../models/video.dart';
-import '../utils/web_jsonp.dart';
 
 /// Top-level function (required by compute()) — runs XML parsing on a
 /// background isolate instead of the UI isolate. With 12 channels fetched
@@ -158,11 +157,11 @@ class RssService {
     return [];
   }
 
-  // ── Single HTTP attempt ───────────────────────────────────────────────────────
+  // ── Single fetch attempt (web: CORS proxy race; native: direct HTTP) ─────────
 
   Future<List<Video>?> _tryFetch(String channelId) async {
-    // Web: browsers block cross-origin reads of youtube.com RSS (no ACAO).
-    // Use rss2json JSONP — a CORS-safe path that returns the same feed items.
+    // Web: browsers block cross-origin reads of youtube.com RSS (no ACAO header).
+    // Use a CORS proxy to fetch the Atom XML then parse it locally.
     // Android/iOS: native HTTP is not subject to browser CORS; fetch XML direct.
     if (kIsWeb) {
       return _tryFetchWeb(channelId);
@@ -173,69 +172,56 @@ class RssService {
   Future<List<Video>?> _tryFetchWeb(String channelId) async {
     final feedUrl =
         'https://www.youtube.com/feeds/videos.xml?channel_id=$channelId';
-    final api = Uri.parse(AppConfig.webRss2JsonEndpoint).replace(
-      queryParameters: {'rss_url': feedUrl},
-    );
-    try {
-      final data = await fetchJsonp(api.toString());
-      if (data['status'] != 'ok') {
-        debugPrint('[RssService] web rss2json status=${data['status']} for $channelId');
-        return null;
-      }
-      final items = data['items'];
-      if (items is! List || items.isEmpty) return [];
-      final videos = <Video>[];
-      for (final raw in items) {
-        if (raw is! Map) continue;
-        final map = Map<String, dynamic>.from(raw);
-        final video = _videoFromRss2Json(map, channelId);
-        if (video != null) videos.add(video);
-      }
-      return videos;
-    } on Exception catch (e) {
-      debugPrint('[RssService] web fetch failed for $channelId: $e');
-      return null;
+    final encoded = Uri.encodeComponent(feedUrl);
+
+    // Concurrent proxy race — both proxies start simultaneously; the first one
+    // to return valid Atom XML wins.  This replaces the old rss2json JSONP path
+    // which had no fallback: when rss2json rate-limited (its free tier severely
+    // restricts unauthenticated concurrent requests), all channels returned
+    // nothing on web with no recovery.
+    //
+    // Parsing reuses _parseXmlIsolate(), so the Video model output is identical
+    // to the native path — no separate rss2json field-mapping needed.
+    final proxyUrls = [
+      'https://corsproxy.io/?$encoded',
+      'https://api.allorigins.win/raw?url=$encoded',
+    ];
+
+    final completer = Completer<List<Video>?>();
+    var pending = proxyUrls.length;
+
+    for (final proxyUrl in proxyUrls) {
+      () async {
+        try {
+          final response = await http
+              .get(Uri.parse(proxyUrl))
+              .timeout(const Duration(seconds: 12));
+
+          if (response.statusCode == 200) {
+            final body = response.body.trim();
+            if (_looksLikeXml(body)) {
+              final videos = await compute(
+                _parseXmlIsolate,
+                (xml: body, channelId: channelId),
+              );
+              if (videos.isNotEmpty && !completer.isCompleted) {
+                completer.complete(videos);
+                return; // Skip pending decrement; completer is resolved.
+              }
+            }
+          }
+        } on Object catch (e) {
+          debugPrint('[RssService] $channelId via $proxyUrl: $e');
+        }
+        // Reached only on failure or empty parse.
+        pending--;
+        if (pending == 0 && !completer.isCompleted) {
+          completer.complete(null); // null → _fetchWithRetry tries again.
+        }
+      }();
     }
-  }
 
-  /// Maps one rss2json item into our [Video] model.
-  Video? _videoFromRss2Json(Map<String, dynamic> item, String channelId) {
-    final guid = (item['guid'] as String?) ?? '';
-    final link = (item['link'] as String?) ?? '';
-    var videoId = '';
-    final guidMatch = RegExp(r'yt:video:(.+)$').firstMatch(guid);
-    if (guidMatch != null) {
-      videoId = guidMatch.group(1)!;
-    } else {
-      final linkMatch = RegExp(
-        r'(?:youtube\.com/(?:watch\?v=|shorts/)|youtu\.be/)([\w-]{6,})',
-      ).firstMatch(link);
-      videoId = linkMatch?.group(1) ?? '';
-    }
-    if (videoId.isEmpty) return null;
-
-    final title = ((item['title'] as String?) ?? '').trim();
-    if (title.isEmpty || title == 'Private video' || title == 'Deleted video') {
-      return null;
-    }
-
-    final pubStr = (item['pubDate'] as String?) ?? '';
-    final publishedAt = DateTime.tryParse(pubStr) ?? DateTime.now();
-    final channelName = ((item['author'] as String?) ?? '').trim();
-    final description = ((item['description'] as String?) ?? '').trim();
-    final thumb = (item['thumbnail'] as String?) ??
-        'https://img.youtube.com/vi/$videoId/mqdefault.jpg';
-
-    return Video(
-      id: videoId,
-      title: title,
-      description: description,
-      channelId: channelId,
-      channelName: channelName,
-      publishedAt: publishedAt,
-      thumbnailUrl: thumb,
-      originalLink: link.isNotEmpty ? link : null,
-    );
+    return completer.future;
   }
 
   Future<List<Video>?> _tryFetchNative(String channelId) async {

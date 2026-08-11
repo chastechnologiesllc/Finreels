@@ -1,10 +1,10 @@
+import 'dart:async';
+
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:xml/xml.dart';
 
-import '../config/app_config.dart';
 import '../data/resource_category_data.dart';
-import '../utils/web_jsonp.dart';
 import 'user_profile_service.dart';
 
 /// A single parsed blog article from an RSS/Atom feed.
@@ -120,8 +120,9 @@ class BlogRssService {
   Future<List<BlogArticle>> fetchAll({bool forceRefresh = false}) async {
     if (!forceRefresh && _isCacheFresh) return _cache!;
 
-    // Web: only the 5 general feeds (parallel). Category feeds made the tab
-    // hang and often returned empty under free rss2json rate limits.
+    // Web: the 5 general feeds fetched concurrently via CORS proxies.
+    // Category-tagged feeds are excluded here for scale reasons (see
+    // combinedBlogFeeds doc-comment) — not because of proxy rate limits.
     // Android/iOS: full parallel HTTP of combinedBlogFeeds.
     final List<List<BlogArticle>> results;
     if (kIsWeb) {
@@ -217,72 +218,72 @@ class BlogRssService {
     required String sourceName,
     String? categoryId,
   }) async {
-    Map<String, dynamic>? data;
+    final encoded = Uri.encodeComponent(url);
 
-    // 1) rss2json via JSONP (primary).
-    try {
-      final api = Uri.parse(AppConfig.webRss2JsonEndpoint).replace(
-        queryParameters: {'rss_url': url},
-      );
-      data = await fetchJsonp(api.toString())
-          .timeout(const Duration(seconds: 12));
-    } on Object catch (e) {
-      debugPrint('[BlogRssService] JSONP $sourceName: $e');
-    }
+    // Two CORS proxies launched concurrently — first valid parse wins.
+    //
+    // Why concurrent instead of serial?
+    //   The old chain (rss2json JSONP 15 s → allorigins 12 s serially) meant
+    //   a worst-case 27 s wait per feed before the error state appeared.  With
+    //   five feeds running in parallel via Future.wait, any single failure
+    //   blocked the entire Blogs tab for up to 27 s before returning empty.
+    //   Running both proxies at once caps the wait at 14 s regardless of how
+    //   many feeds are in flight.
+    //
+    // Why these proxies?
+    //   • corsproxy.io — open-source (github.com/nicholaswasabi), no API key,
+    //     actively maintained, widely used in production Flutter web apps.
+    //     RSS/Atom feeds carry no Access-Control-Allow-Origin header, so a
+    //     browser-side fetch requires a proxy; corsproxy.io adds that header
+    //     and forwards the raw body unchanged.
+    //   • allorigins.win — retained as a parallel backup with different
+    //     infrastructure, so the two services have independent failure modes.
+    //
+    // Why not rss2json JSONP?
+    //   rss2json's free tier now rate-limits unauthenticated requests severely
+    //   (and may require a registered API key entirely).  With five feeds
+    //   firing concurrently, all requests exceed the free-tier quota instantly,
+    //   every single time — making it effectively unusable without a paid plan.
+    //   Fetching the raw RSS via a CORS proxy and parsing it locally with the
+    //   same _parse() the native path already uses is both more reliable and
+    //   removes a hard external-service dependency.
+    final proxyUrls = [
+      'https://corsproxy.io/?$encoded',
+      'https://api.allorigins.win/raw?url=$encoded',
+    ];
 
-    // 2) Fallback: allorigins CORS proxy → raw RSS → local parse.
-    if (data == null ||
-        (data['status'] != 'ok' &&
-            (data['items'] is! List || (data['items'] as List).isEmpty))) {
-      try {
-        final proxy = Uri.parse(
-          'https://api.allorigins.win/raw?url=${Uri.encodeComponent(url)}',
-        );
-        final response = await http
-            .get(proxy)
-            .timeout(const Duration(seconds: 12));
-        if (response.statusCode == 200 && response.body.isNotEmpty) {
-          return _parse(
-            response.body,
-            sourceName,
-            categoryId,
-          );
+    final completer = Completer<List<BlogArticle>>();
+    var pending = proxyUrls.length;
+
+    for (final proxyUrl in proxyUrls) {
+      () async {
+        try {
+          final response = await http
+              .get(Uri.parse(proxyUrl))
+              .timeout(const Duration(seconds: 14));
+
+          if (response.statusCode == 200 && response.body.length > 50) {
+            final articles = await compute<List<String>, List<BlogArticle>>(
+              (args) => _parse(args[0], args[1], args[2].isEmpty ? null : args[2]),
+              [response.body, sourceName, categoryId ?? ''],
+            );
+            if (articles.isNotEmpty && !completer.isCompleted) {
+              completer.complete(articles);
+              return; // Skip the pending decrement; completer is resolved.
+            }
+          }
+        } on Object catch (e) {
+          debugPrint('[BlogRssService] $sourceName via $proxyUrl: $e');
         }
-      } on Object catch (e) {
-        debugPrint('[BlogRssService] allorigins $sourceName: $e');
-      }
+        // Reached only when this proxy failed or returned nothing parseable.
+        pending--;
+        if (pending == 0 && !completer.isCompleted) {
+          completer.complete([]); // All proxies exhausted with no articles.
+        }
+      }();
     }
 
-    if (data == null) return [];
-    final items = data['items'];
-    if (items is! List || items.isEmpty) return [];
-
-    final articles = <BlogArticle>[];
-    for (final raw in items) {
-      if (raw is! Map) continue;
-      final map = Map<String, dynamic>.from(raw);
-      final link = ((map['link'] as String?) ?? '').trim();
-      if (link.isEmpty) continue;
-      final title = ((map['title'] as String?) ?? '').trim();
-      if (title.isEmpty) continue;
-      final pubStr = (map['pubDate'] as String?) ?? '';
-      final publishedAt = DateTime.tryParse(pubStr) ?? DateTime.now();
-      final thumb = (map['thumbnail'] as String?)?.trim();
-      final excerpt = ((map['description'] as String?) ?? '')
-          .replaceAll(RegExp('<[^>]*>'), ' ')
-          .replaceAll(RegExp(r'\s+'), ' ')
-          .trim();
-      articles.add(BlogArticle(
-        title: title,
-        url: link,
-        sourceName: sourceName,
-        publishedAt: publishedAt,
-        thumbnailUrl: (thumb != null && thumb.isNotEmpty) ? thumb : null,
-        excerpt: excerpt.length > 280 ? '${excerpt.substring(0, 280)}…' : excerpt,
-        categoryId: categoryId,
-      ));
-    }
-    return articles;
+    return completer.future;
   }
 
   static List<BlogArticle> _parse(String body, String sourceName, [String? categoryId]) {
