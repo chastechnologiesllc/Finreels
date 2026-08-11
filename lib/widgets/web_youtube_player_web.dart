@@ -8,12 +8,27 @@ import 'package:web/web.dart' as web;
 
 /// YouTube embed for Flutter web — respects real browser autoplay rules.
 ///
-/// Failures fixed vs earlier attempts:
-/// 1. Stable viewType per videoId (no DateTime → no infinite iframe reload)
-/// 2. Always mute=1 + autoplay=1 in the URL (Chrome/Safari require mute)
-/// 3. Listening handshake + delayed playVideo/unMute retries
-/// 4. Window message listener for YT onReady / infoDelivery
-/// 5. No sandbox attribute (blocks YT player scripts)
+/// Gray-flash fixes vs earlier versions
+/// ─────────────────────────────────────
+/// 1. registerViewFactory now returns a black <div> wrapper around the
+///    <iframe> so the flutter-managed container element is never transparent.
+///    (Previously the iframe element itself was returned directly; the
+///    Flutter-managed outer <flt-platform-view> div had no background, showing
+///    white/gray for a frame on light-theme pages before the iframe painted.)
+///
+/// 2. buildWebYoutubePlayer returns a ColoredBox(black) below HtmlElementView
+///    so even the Flutter canvas layer beneath the platform-view is black.
+///
+/// 3. web/index.html adds `flt-platform-view { background:#000 }` as a belt-
+///    and-suspenders CSS rule (works even before the factory fires).
+///
+/// Other invariants kept from prior version
+/// ─────────────────────────────────────────
+/// • Stable viewType per videoId (no DateTime → no infinite iframe reload)
+/// • Always mute=1 + autoplay=1 in the URL (Chrome/Safari require mute)
+/// • Listening handshake + delayed playVideo/unMute retries
+/// • Window message listener for YT onReady / infoDelivery
+/// • No sandbox attribute (blocks YT player scripts)
 final Set<String> _registered = <String>{};
 final Map<String, web.HTMLIFrameElement> _iframes = {};
 bool _messageHooked = false;
@@ -56,7 +71,7 @@ Widget buildWebYoutubePlayer({
   final origin = web.window.location.origin;
   final params = <String, String>{
     'autoplay': autoPlay ? '1' : '0',
-    'mute': '1',
+    'mute': '1', // always muted in URL — browser policy; we unmute via postMessage
     if (loop) 'loop': '1',
     if (loop) 'playlist': videoId,
     'playsinline': '1',
@@ -74,18 +89,26 @@ Widget buildWebYoutubePlayer({
   final qs = params.entries
       .map((e) => '${e.key}=${Uri.encodeComponent(e.value)}')
       .join('&');
-  // youtube-nocookie.com: privacy-enhanced embed domain that does not check
-  // the viewer's Google account session. youtube.com/embed triggers a Google
-  // "Service unavailable — this service isn't available for your account"
-  // error for any user signed into a Google Workspace account with YouTube
-  // access restricted by their admin. nocookie bypasses that gate entirely.
-  // Both domains support the same iframe JS API (enablejsapi, postMessage).
+  // youtube-nocookie.com bypasses Google Workspace YouTube restrictions
   final src = 'https://www.youtube-nocookie.com/embed/$videoId?$qs';
   final viewType = 'finreels-yt-v2-$videoId';
 
   if (!_registered.contains(viewType)) {
     _registered.add(viewType);
     ui_web.platformViewRegistry.registerViewFactory(viewType, (int viewId) {
+      // ── Black container div ─────────────────────────────────────────────
+      // The Flutter engine wraps whatever element we return here inside its
+      // own <flt-platform-view> div. That outer div has no background by
+      // default; returning a plain <iframe> meant a white/gray flash was
+      // visible for a frame before the iframe's black background painted.
+      // Wrapping in a black <div> ensures no background colour gap.
+      final container = web.HTMLDivElement()
+        ..style.width = '100%'
+        ..style.height = '100%'
+        ..style.backgroundColor = '#000000'
+        ..style.overflow = 'hidden'
+        ..style.position = 'relative';
+
       final iframe = web.HTMLIFrameElement()
         ..src = src
         ..id = 'yt-$videoId'
@@ -94,12 +117,16 @@ Widget buildWebYoutubePlayer({
         ..style.height = '100%'
         ..style.backgroundColor = '#000000'
         ..style.pointerEvents = 'none'
+        ..style.position = 'absolute'
+        ..style.top = '0'
+        ..style.left = '0'
         ..allow =
             'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
         ..allowFullscreen = false;
       iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
       iframe.setAttribute('loading', 'eager');
 
+      container.append(iframe);
       _iframes[videoId] = iframe;
 
       void listenAndPlay() {
@@ -112,25 +139,22 @@ Widget buildWebYoutubePlayer({
 
       iframe.onLoad.listen((_) {
         listenAndPlay();
-        web.window.setTimeout((() {
-          listenAndPlay();
-        }).toJS, 300.toJS);
-        web.window.setTimeout((() {
-          listenAndPlay();
-        }).toJS, 800.toJS);
-        web.window.setTimeout((() {
-          listenAndPlay();
-        }).toJS, 1600.toJS);
-        web.window.setTimeout((() {
-          listenAndPlay();
-        }).toJS, 3200.toJS);
+        web.window.setTimeout((() => listenAndPlay()).toJS, 300.toJS);
+        web.window.setTimeout((() => listenAndPlay()).toJS, 800.toJS);
+        web.window.setTimeout((() => listenAndPlay()).toJS, 1600.toJS);
+        web.window.setTimeout((() => listenAndPlay()).toJS, 3200.toJS);
       });
 
-      return iframe;
+      return container;
     });
   }
 
-  return HtmlElementView(viewType: viewType);
+  // ColoredBox(black) sits on the Flutter canvas layer directly beneath the
+  // platform-view slot, adding a second line of defence against any gap.
+  return const ColoredBox(
+    color: Color(0xFF000000),
+    child: HtmlElementView(viewType: viewType),
+  );
 }
 
 void _kick(

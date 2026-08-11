@@ -117,6 +117,11 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
     for (final i in wanted) {
       if (_controllers.containsKey(i)) continue;
       final isActive = i == _currentIndex;
+      // useHybridComposition: false → Virtual Display mode.
+      // Without this, the WebView is a native Android View ABOVE Flutter's
+      // canvas, making every Flutter overlay (thumbnail, progress bar, play
+      // icon) invisible beneath it. VD mode renders to a GPU texture that
+      // Flutter composites correctly with its own widgets.
       _controllers[i] = YoutubePlayerController(
         initialVideoId: widget.shorts[i].id,
         flags: const YoutubePlayerFlags(
@@ -124,7 +129,7 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
           loop: true,
           hideControls: true,
           enableCaption: false,
-          useHybridComposition: true,
+          useHybridComposition: false, // required for overlays — see above
         ),
       );
       // Neighbours: pause after a short warm so they buffer the first
@@ -570,9 +575,20 @@ class _ShortPageState extends State<_ShortPage>
               return const SizedBox.shrink();
             }),
 
-          // Thumbnail until first decoded frame.
-          if (!_hasVideoStarted)
-            Positioned.fill(
+          // ── Thumbnail (AnimatedOpacity crossfade) ──────────────────
+          // opacity=1.0 until _hasVideoStarted (first decoded frame),
+          // then fades to 0.0 over 150 ms on mobile / 600 ms on web.
+          // Gives the platform view time to paint a real frame before the
+          // thumbnail is gone — no gray-flash transition.
+          // _hasVideoStarted is reset to false in _bindController whenever
+          // the controller changes (swipe to next short), so the thumbnail
+          // returns immediately for the incoming short — correct UX.
+          Positioned.fill(
+            child: AnimatedOpacity(
+              opacity: _hasVideoStarted ? 0.0 : 1.0,
+              duration: kIsWeb
+                  ? const Duration(milliseconds: 600)
+                  : const Duration(milliseconds: 150),
               child: CachedNetworkImage(
                 imageUrl: widget.video.thumbnailHd,
                 fit: BoxFit.cover,
@@ -589,6 +605,7 @@ class _ShortPageState extends State<_ShortPage>
                 ),
               ),
             ),
+          ),
 
           GestureDetector(
             behavior: HitTestBehavior.opaque,
@@ -596,6 +613,7 @@ class _ShortPageState extends State<_ShortPage>
             child: const SizedBox.expand(),
           ),
 
+          // Spinner only until first decoded frame.
           if (!_hasVideoStarted)
             const Center(
               child: CircularProgressIndicator(

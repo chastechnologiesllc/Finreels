@@ -87,11 +87,20 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     // v9 has no reliable web engine. Muted autoplay required by browsers.
     // Android/iOS: start with sound as before.
     if (!kIsWeb) {
-      _controller = YoutubePlayerController(
+      // useHybridComposition: false → Virtual Display mode.
+    // The WebView renders to a GPU texture that Flutter composites normally.
+    // This is required for our Flutter overlay layers (thumbnail cover,
+    // progress bar, controls, watermark) to appear ABOVE the WebView.
+    // With the default useHybridComposition: true the WebView is a native
+    // Android View placed in the Android View hierarchy ABOVE the Flutter
+    // canvas — every Flutter overlay is invisible beneath it.
+    _controller = YoutubePlayerController(
         initialVideoId: widget.video.id,
         flags: const YoutubePlayerFlags(
+          autoPlay: true,
           hideControls: true,
           enableCaption: false,
+          useHybridComposition: false, // required — see note above
         ),
       )..addListener(_onUpdate);
     } else {
@@ -575,24 +584,34 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               });
               return const SizedBox.shrink();
             }),
-          // Thumbnail cover until first real frames (mobile) or web delay.
-          // Also re-cover on pause so gray YT surface never shows.
-          if ((!_hasStartedPlaying || (!_playing && !kIsWeb)) && !_ended)
-            CachedNetworkImage(
-              imageUrl: widget.video.thumbnailHd,
-              fit: BoxFit.cover,
-              fadeInDuration: Duration.zero,
-              fadeOutDuration: Duration.zero,
-              memCacheWidth: 720,
-              memCacheHeight: 405,
-              errorWidget: (_, __, ___) => CachedNetworkImage(
-                imageUrl: widget.video.thumbnailMq,
+          // ── Thumbnail cover (AnimatedOpacity crossfade) ───────────────
+          // opacity=1.0 while the video hasn't started or is paused (mobile),
+          // fades to 0.0 over 200 ms once real frames are playing.
+          // The 200 ms window lets the platform view (WebView texture) paint
+          // a real frame before the thumbnail is fully gone — no gray flash.
+          // On pause the thumbnail fades back IN, covering the YT gray/logo
+          // before it becomes visible to the user.
+          if (!_ended)
+            AnimatedOpacity(
+              opacity: (_hasStartedPlaying && (_playing || kIsWeb)) ? 0.0 : 1.0,
+              duration: const Duration(milliseconds: 200),
+              child: CachedNetworkImage(
+                imageUrl: widget.video.thumbnailHd,
                 fit: BoxFit.cover,
                 fadeInDuration: Duration.zero,
+                fadeOutDuration: Duration.zero,
                 memCacheWidth: 720,
                 memCacheHeight: 405,
+                errorWidget: (_, __, ___) => CachedNetworkImage(
+                  imageUrl: widget.video.thumbnailMq,
+                  fit: BoxFit.cover,
+                  fadeInDuration: Duration.zero,
+                  memCacheWidth: 720,
+                  memCacheHeight: 405,
+                ),
               ),
             ),
+          // Spinner: only while waiting for first decoded frame on mobile.
           if (!kIsWeb && _playerAttached && !_hasStartedPlaying && !_ended)
             const Center(
               child: CircularProgressIndicator(
