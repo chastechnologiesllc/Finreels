@@ -541,12 +541,23 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                 }
               },
             ),
-          // Web: treat embed as started after a short delay (iframe has no
-          // reliable position stream here). Thumbnail covers until then.
+          // Web: iframe autoplays muted; we unmute + mark started after load.
           if (kIsWeb && _playerAttached && !_hasStartedPlaying)
             Builder(builder: (context) {
-              Future.delayed(const Duration(milliseconds: 900), () {
-                if (mounted && !_hasStartedPlaying) {
+              void kick() {
+                WebYoutubePlayer.command(widget.video.id, 'playVideo');
+                WebYoutubePlayer.command(widget.video.id, 'unMute');
+                WebYoutubePlayer.command(widget.video.id, 'setVolume');
+              }
+
+              Future.delayed(const Duration(milliseconds: 600), () {
+                if (!mounted) return;
+                kick();
+              });
+              Future.delayed(const Duration(milliseconds: 1400), () {
+                if (!mounted) return;
+                kick();
+                if (!_hasStartedPlaying) {
                   setState(() {
                     _hasStartedPlaying = true;
                     _playing = true;
@@ -556,9 +567,11 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                     _showYtCover = true;
                   });
                   _armYtCover();
-                  WebYoutubePlayer.command(widget.video.id, 'playVideo');
-                  WebYoutubePlayer.command(widget.video.id, 'unMute');
                 }
+              });
+              Future.delayed(const Duration(milliseconds: 2800), () {
+                if (!mounted) return;
+                kick();
               });
               return const SizedBox.shrink();
             }),

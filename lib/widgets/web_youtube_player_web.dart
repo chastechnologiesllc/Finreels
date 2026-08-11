@@ -6,17 +6,45 @@ import 'dart:ui_web' as ui_web;
 import 'package:flutter/material.dart';
 import 'package:web/web.dart' as web;
 
-/// Official YouTube IFrame embed for Flutter web (reliable playback).
+/// YouTube embed for Flutter web — respects real browser autoplay rules.
 ///
-/// Critical requirements for postMessage control (confirmed vs YT IFrame API):
-/// 1. `enablejsapi=1` in the embed URL
-/// 2. `origin` matching the host page
-/// 3. After iframe load, send a "listening" handshake so YT accepts commands
-/// 4. `allow="autoplay"` on the iframe element
-/// 5. pointer-events:none so Flutter owns all taps (no escape to youtube.com)
-///
-/// Without the listening handshake, playVideo/pauseVideo are ignored and the
-/// embed sits on a loading surface forever.
+/// Failures fixed vs earlier attempts:
+/// 1. Stable viewType per videoId (no DateTime → no infinite iframe reload)
+/// 2. Always mute=1 + autoplay=1 in the URL (Chrome/Safari require mute)
+/// 3. Listening handshake + delayed playVideo/unMute retries
+/// 4. Window message listener for YT onReady / infoDelivery
+/// 5. No sandbox attribute (blocks YT player scripts)
+final Set<String> _registered = <String>{};
+final Map<String, web.HTMLIFrameElement> _iframes = {};
+bool _messageHooked = false;
+
+void _ensureMessageHook() {
+  if (_messageHooked) return;
+  _messageHooked = true;
+  web.window.addEventListener(
+    'message',
+    ((web.Event e) {
+      try {
+        final me = e as web.MessageEvent;
+        final data = me.data;
+        if (data == null) return;
+        final raw = data.dartify();
+        final text = raw is String ? raw : raw?.toString() ?? '';
+        if (!text.contains('onReady') &&
+            !text.contains('infoDelivery') &&
+            !text.contains('initialDelivery')) {
+          return;
+        }
+        for (final entry in _iframes.entries) {
+          _kick(entry.value, entry.key, unmute: true);
+        }
+      } on Object {
+        // ignore unrelated messages
+      }
+    }).toJS,
+  );
+}
+
 Widget buildWebYoutubePlayer({
   required String videoId,
   required bool autoPlay,
@@ -24,10 +52,11 @@ Widget buildWebYoutubePlayer({
   required bool loop,
   required bool isShort,
 }) {
+  _ensureMessageHook();
   final origin = web.window.location.origin;
   final params = <String, String>{
-    if (autoPlay) 'autoplay': '1',
-    if (mute) 'mute': '1',
+    'autoplay': autoPlay ? '1' : '0',
+    'mute': '1',
     if (loop) 'loop': '1',
     if (loop) 'playlist': videoId,
     'playsinline': '1',
@@ -40,92 +69,103 @@ Widget buildWebYoutubePlayer({
     'cc_load_policy': '0',
     'enablejsapi': '1',
     'origin': origin,
+    'widget_referrer': origin,
   };
   final qs = params.entries
       .map((e) => '${e.key}=${Uri.encodeComponent(e.value)}')
       .join('&');
-  // youtube.com embed (not nocookie) is more reliable for enablejsapi handshake
-  // on some browsers; origin is still locked to this host.
   final src = 'https://www.youtube.com/embed/$videoId?$qs';
+  final viewType = 'finreels-yt-v2-$videoId';
 
-  final viewType =
-      'finreels-yt-$videoId-${DateTime.now().microsecondsSinceEpoch}';
+  if (!_registered.contains(viewType)) {
+    _registered.add(viewType);
+    ui_web.platformViewRegistry.registerViewFactory(viewType, (int viewId) {
+      final iframe = web.HTMLIFrameElement()
+        ..src = src
+        ..id = 'yt-$videoId'
+        ..style.border = 'none'
+        ..style.width = '100%'
+        ..style.height = '100%'
+        ..style.backgroundColor = '#000000'
+        ..style.pointerEvents = 'none'
+        ..allow =
+            'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+        ..allowFullscreen = false;
+      iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+      iframe.setAttribute('loading', 'eager');
 
-  ui_web.platformViewRegistry.registerViewFactory(viewType, (int viewId) {
-    final iframe = web.HTMLIFrameElement()
-      ..src = src
-      ..id = 'yt-player-$videoId'
-      ..style.border = 'none'
-      ..style.width = '100%'
-      ..style.height = '100%'
-      ..style.backgroundColor = '#000000'
-      ..style.pointerEvents = 'none'
-      ..allow =
-          'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-      ..allowFullscreen = false;
-    iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
-    iframe.setAttribute('loading', 'eager');
-    iframe.setAttribute(
-      'sandbox',
-      'allow-scripts allow-same-origin allow-presentation',
-    );
+      _iframes[videoId] = iframe;
 
-    // Handshake: tell YT we are listening so it accepts subsequent commands.
-    // Retry a few times because the iframe script may not be ready on first load.
-    void sendListening() {
-      try {
-        final payload =
-            '{"event":"listening","id":"$videoId","channel":"widget"}';
-        iframe.contentWindow?.postMessage(payload.toJS, '*'.toJS);
-      } on Object {
-        // ignore
+      void listenAndPlay() {
+        _post(
+          iframe,
+          '{"event":"listening","id":"$videoId","channel":"widget"}',
+        );
+        _kick(iframe, videoId, unmute: !mute);
       }
-    }
 
-    iframe.onLoad.listen((_) {
-      sendListening();
-      // Extra retries while YT JS boots inside the frame.
-      // Delay must be JSAny (JSNumber), not Dart int — package:web typing.
-      web.window.setTimeout(
-        (() {
-          sendListening();
-          if (autoPlay) {
-            _postCommand(iframe, 'playVideo');
-            if (!mute) _postCommand(iframe, 'unMute');
-          }
-        }).toJS,
-        400.toJS,
-      );
-      web.window.setTimeout(
-        (() {
-          sendListening();
-          if (autoPlay) {
-            _postCommand(iframe, 'playVideo');
-            if (!mute) _postCommand(iframe, 'unMute');
-          }
-        }).toJS,
-        1200.toJS,
-      );
+      iframe.onLoad.listen((_) {
+        listenAndPlay();
+        web.window.setTimeout((() {
+          listenAndPlay();
+        }).toJS, 300.toJS);
+        web.window.setTimeout((() {
+          listenAndPlay();
+        }).toJS, 800.toJS);
+        web.window.setTimeout((() {
+          listenAndPlay();
+        }).toJS, 1600.toJS);
+        web.window.setTimeout((() {
+          listenAndPlay();
+        }).toJS, 3200.toJS);
+      });
+
+      return iframe;
     });
-
-    return iframe;
-  });
+  }
 
   return HtmlElementView(viewType: viewType);
 }
 
-void _postCommand(web.HTMLIFrameElement iframe, String func) {
-  try {
-    final payload = '{"event":"command","func":"$func","args":""}';
-    iframe.contentWindow?.postMessage(payload.toJS, '*'.toJS);
-  } on Object {
-    // ignore
+void _kick(
+  web.HTMLIFrameElement iframe,
+  String videoId, {
+  required bool unmute,
+}) {
+  _post(
+    iframe,
+    '{"event":"listening","id":"$videoId","channel":"widget"}',
+  );
+  _post(iframe, '{"event":"command","func":"playVideo","args":""}');
+  if (unmute) {
+    _post(iframe, '{"event":"command","func":"unMute","args":""}');
+    _post(iframe, '{"event":"command","func":"setVolume","args":[100]}');
   }
 }
 
-/// Send a YT iframe API command (playVideo / pauseVideo / unMute / mute).
+void _post(web.HTMLIFrameElement iframe, String json) {
+  try {
+    iframe.contentWindow?.postMessage(json.toJS, '*'.toJS);
+  } on Object {
+    // Cross-origin timing; retries handle this.
+  }
+}
+
 void webYoutubeCommand(String videoId, String func) {
   try {
+    final known = _iframes[videoId];
+    if (known != null) {
+      _post(
+        known,
+        '{"event":"listening","id":"$videoId","channel":"widget"}',
+      );
+      if (func == 'setVolume') {
+        _post(known, '{"event":"command","func":"setVolume","args":[100]}');
+      } else {
+        _post(known, '{"event":"command","func":"$func","args":""}');
+      }
+      return;
+    }
     final frames = web.document.querySelectorAll('iframe');
     final len = frames.length;
     for (var i = 0; i < len; i++) {
@@ -133,14 +173,18 @@ void webYoutubeCommand(String videoId, String func) {
       if (el == null) continue;
       final iframe = el as web.HTMLIFrameElement;
       if (!iframe.src.contains(videoId)) continue;
-      // Re-assert listening, then command.
-      final listen =
-          '{"event":"listening","id":"$videoId","channel":"widget"}';
-      iframe.contentWindow?.postMessage(listen.toJS, '*'.toJS);
-      final payload = '{"event":"command","func":"$func","args":""}';
-      iframe.contentWindow?.postMessage(payload.toJS, '*'.toJS);
+      _iframes[videoId] = iframe;
+      _post(
+        iframe,
+        '{"event":"listening","id":"$videoId","channel":"widget"}',
+      );
+      if (func == 'setVolume') {
+        _post(iframe, '{"event":"command","func":"setVolume","args":[100]}');
+      } else {
+        _post(iframe, '{"event":"command","func":"$func","args":""}');
+      }
     }
   } on Object {
-    // Embed may not be ready yet.
+    // ignore
   }
 }

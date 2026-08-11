@@ -6,8 +6,13 @@ Widget buildWebYoutubePlayer({
   required bool mute,
   required bool loop,
   required bool isShort,
-}) => const SizedBox.shrink();
+}) {
+  return const ColoredBox(
+    color: Colors.black,
+    child: Center(
+      child: Text('YouTube web player', style: TextStyle(color: Colors.white54)),
+    ),
+  );
+}
 
 void webYoutubeCommand(String videoId, String func) {}
-
-Future<void> disposeWebYoutubePlayer(String videoId) async {}

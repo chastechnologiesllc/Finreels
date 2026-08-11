@@ -330,8 +330,10 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 
   void _onTap() {
     if (kIsWeb) {
-      // Web: no mobile controller. Toggle local play state + postMessage.
+      // Web: no mobile controller. Mount embed first, then command after
+      // the iframe exists in the DOM (postMessage is a no-op otherwise).
       final willPlay = !_isPlaying || !_expanded;
+      final firstExpand = !_expanded;
       if (mounted) {
         setState(() {
           _expanded = true;
@@ -342,10 +344,27 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         });
         updateKeepAlive();
       }
-      if (willPlay) {
+      void sendPlay() {
         WebYoutubePlayer.command(widget.video.id, 'playVideo');
         WebYoutubePlayer.command(widget.video.id, 'unMute');
+        WebYoutubePlayer.command(widget.video.id, 'setVolume');
+      }
+
+      if (willPlay) {
         _armYtCover();
+        // First expand: iframe is created this frame — delay commands.
+        if (firstExpand) {
+          Future.delayed(const Duration(milliseconds: 400), () {
+            if (!mounted) return;
+            sendPlay();
+          });
+          Future.delayed(const Duration(milliseconds: 1200), () {
+            if (!mounted) return;
+            sendPlay();
+          });
+        } else {
+          sendPlay();
+        }
       } else {
         WebYoutubePlayer.command(widget.video.id, 'pauseVideo');
       }
