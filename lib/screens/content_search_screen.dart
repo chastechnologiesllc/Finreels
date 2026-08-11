@@ -293,6 +293,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
             url:        b.freeSourceUrl!,
             title:      b.title,
             categoryId: b.sourceCategoryId,
+            bookId:     b.id,
           ),
         ),
       );
@@ -310,9 +311,13 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
       context,
       MaterialPageRoute(
         builder: (_) => BlogReaderScreen(
-          url:        a.url,
-          title:      a.title,
-          categoryId: a.categoryId,
+          url:          a.url,
+          title:        a.title,
+          sourceName:   a.sourceName,
+          thumbnailUrl: a.thumbnailUrl,
+          excerpt:      a.excerpt.isNotEmpty ? a.excerpt : null,
+          publishedAt:  a.publishedAt,
+          categoryId:   a.categoryId,
         ),
       ),
     );

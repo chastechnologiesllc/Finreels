@@ -434,9 +434,15 @@ class _BlogTile extends StatelessWidget {
         onTap: () => Navigator.of(context).push(
           MaterialPageRoute(
             builder: (_) => BlogReaderScreen(
-              url: article.url,
-              title: article.title,
-              categoryId: article.categoryId,
+              url:          article.url,
+              title:        article.title,
+              sourceName:   article.sourceName,
+              thumbnailUrl: article.thumbnailUrl,
+              excerpt:      article.excerpt.isNotEmpty
+                  ? article.excerpt
+                  : null,
+              publishedAt:  article.publishedAt,
+              categoryId:   article.categoryId,
             ),
           ),
         ),
