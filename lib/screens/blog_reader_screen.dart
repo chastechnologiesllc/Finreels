@@ -61,35 +61,15 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
 
   String get _scrollKey => 'webview_scroll_${widget.bookId}';
 
-  /// Web-only: map article URLs to an embeddable reader.
-  /// Sites that forbid framing (X-Frame-Options / CSP) render blank otherwise.
-  static String _webReadableUrl(String url) {
-    final u = url.trim();
-    if (u.isEmpty) return u;
-    // Already a known reader/proxy or Gutenberg HTML file — use as-is.
-    final lower = u.toLowerCase();
-    if (lower.contains('gutenberg.org/files/') ||
-        lower.contains('r.jina.ai/') ||
-        lower.contains('archive.org/stream/') ||
-        lower.contains('archive.org/details/')) {
-      return u;
-    }
-    // jina.ai reader returns clean article text and permits framing.
-    final encoded = u.startsWith('http') ? u : 'https://$u';
-    return 'https://r.jina.ai/$encoded';
-  }
-
   // ── Lifecycle ──────────────────────────────────────────────────────────────
 
   @override
   void initState() {
     super.initState();
-    // Web: embed in-platform via iframe (no automatic external redirect).
-    // Mobile keeps flutter_inappwebview.
     _allowedHost = Uri.tryParse(widget.url)?.host ?? '';
 
     if (kIsWeb) {
-      // Iframe has no load progress callbacks into Flutter — clear the bar.
+      // Iframe has no load-progress callbacks into Flutter — clear the bar.
       _loading = false;
       _progress = 1;
     }
@@ -181,6 +161,55 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
     );
   }
 
+  // ── Open-in-browser fallback (web only) ────────────────────────────────────
+
+  /// Some publishers set X-Frame-Options / CSP frame-ancestors which causes
+  /// the iframe to render blank.  We cannot detect this from Flutter (the
+  /// browser silently blocks the frame), so we offer a persistent fallback
+  /// button so the reader is never completely stranded.
+  Widget _webFallbackBar(BuildContext context) {
+    return Material(
+      color: Theme.of(context).colorScheme.surface,
+      child: InkWell(
+        onTap: () async {
+          final uri = Uri.tryParse(widget.url);
+          if (uri != null && await canLaunchUrl(uri)) {
+            await launchUrl(uri, mode: LaunchMode.externalApplication);
+          }
+        },
+        child: Container(
+          width: double.infinity,
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+          decoration: BoxDecoration(
+            border: Border(
+              top: BorderSide(
+                color: AppTheme.dividerColor(context),
+                width: 0.5,
+              ),
+            ),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.open_in_browser_rounded,
+                size: 15,
+                color: AppTheme.gold.withValues(alpha: 0.8),
+              ),
+              const SizedBox(width: 6),
+              Text(
+                'Article not displaying? Open in browser',
+                style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                      color: AppTheme.gold.withValues(alpha: 0.8),
+                    ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   // ── Build ──────────────────────────────────────────────────────────────────
 
   @override
@@ -208,8 +237,13 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
         children: [
           Expanded(
             child: kIsWeb
+                // Web: load the article URL directly in an iframe so it
+                // renders as a proper web page.  The previous approach of
+                // routing through r.jina.ai returned plain-text/markdown
+                // instead of HTML, which is why the screen showed raw
+                // "Title:", "URL Source:", "Markdown Content:" output.
                 ? WebIframeView(
-                    url: _webReadableUrl(widget.url),
+                    url: widget.url,
                     title: widget.title,
                   )
                 : InAppWebView(
@@ -280,6 +314,10 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                     },
                   ),
           ),
+          // Web-only fallback: if the site's X-Frame-Options / CSP blocks
+          // the iframe (renders blank), the reader can still open the
+          // article in a real browser tab.  Shown above the ad bar.
+          if (kIsWeb) _webFallbackBar(context),
           // Sticky banner ad — pinned to the bottom while the user reads.
           ListenableBuilder(
             listenable: AdService.instance,
