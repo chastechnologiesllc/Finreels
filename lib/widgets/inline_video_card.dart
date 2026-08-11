@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -146,7 +145,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     try {
       c.unMute();
       c.setVolume(100);
-    } catch (_) {}
+    } on Object catch (_) {}
   }
 
   void _startSoundRetries() {
@@ -177,7 +176,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       return;
     }
     if (_isActive && _playerReady) {
-      try { _controller!.play(); } catch (_) {}
+      try { _controller!.play(); } on Object catch (_) {}
     } else if (!_isActive) {
       _tearDownPlayer();
     }
@@ -192,7 +191,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       try {
         _controller?.play();
         _forceSoundOn();
-      } catch (_) {}
+      } on Object catch (_) {}
     }
 
     // Safety-net play retry 800 ms after onReady fires.
@@ -202,7 +201,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       try {
         _controller?.play();
         _forceSoundOn();
-      } catch (_) {}
+      } on Object catch (_) {}
     });
     // Last-resort: reveal after 2.5 s regardless of positionMs. Keeps the
     // player interactive even if the position-tick signal never arrives
@@ -296,7 +295,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     _soundRetryTimer?.cancel();
     _ytCoverTimer?.cancel();
     _controller?.removeListener(_onControllerUpdate);
-    try { _controller?.pause(); } catch (_) {}
+    try { _controller?.pause(); } on Object catch (_) {}
     _controller?.dispose();
     _controller     = null;
     _playerReady    = false;
@@ -357,7 +356,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     }
 
     if (_controller == null) {
-      _createController(autoPlay: true, muted: false);
+      _createController(autoPlay: true);
       _startSoundRetries();
     } else if (!_ended) {
       final state = _controller!.value.playerState;
@@ -369,8 +368,8 @@ class _InlineVideoCardState extends State<InlineVideoCard>
             ..unMute()
             ..setVolume(100)
             ..play();
-        } catch (_) {
-          try { _controller!.play(); } catch (_) {}
+        } on Object catch (_) {
+          try { _controller!.play(); } on Object catch (_) {}
         }
         _startSoundRetries();
       }
@@ -392,7 +391,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       _controller!
         ..seekTo(Duration.zero)
         ..play();
-    } catch (_) {}
+    } on Object catch (_) {}
   }
 
   // ── Visibility ─────────────────────────────────────────────────────────────
@@ -411,9 +410,9 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     if (!_expanded) return;
 
     if (frac < 0.30) {
-      try { _controller!.pause(); } catch (_) {}
+      try { _controller!.pause(); } on Object catch (_) {}
     } else if (frac >= 0.50 && _isActive && _playerReady) {
-      try { _controller!.play(); } catch (_) {}
+      try { _controller!.play(); } on Object catch (_) {}
     }
   }
 
@@ -544,7 +543,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
             if (!kIsWeb && _controller != null)
               YoutubePlayer(
                 controller: _controller!,
-                showVideoProgressIndicator: false,
                 // Black package-thumbnail covers iframe's own init surface.
                 thumbnail: const ColoredBox(color: Color(0xFF000000)),
                 bufferIndicator: const SizedBox.shrink(),
@@ -559,8 +557,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
               Positioned.fill(
                 child: WebYoutubePlayer(
                   videoId: widget.video.id,
-                  autoPlay: true,
-                  mute: false,
                 ),
               ),
 

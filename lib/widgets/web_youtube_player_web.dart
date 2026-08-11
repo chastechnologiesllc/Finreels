@@ -139,10 +139,10 @@ Widget buildWebYoutubePlayer({
 
       iframe.onLoad.listen((_) {
         listenAndPlay();
-        web.window.setTimeout((() => listenAndPlay()).toJS, 300.toJS);
-        web.window.setTimeout((() => listenAndPlay()).toJS, 800.toJS);
-        web.window.setTimeout((() => listenAndPlay()).toJS, 1600.toJS);
-        web.window.setTimeout((() => listenAndPlay()).toJS, 3200.toJS);
+        web.window.setTimeout(listenAndPlay.toJS, 300.toJS);
+        web.window.setTimeout(listenAndPlay.toJS, 800.toJS);
+        web.window.setTimeout(listenAndPlay.toJS, 1600.toJS);
+        web.window.setTimeout(listenAndPlay.toJS, 3200.toJS);
       });
 
       return container;
@@ -151,8 +151,8 @@ Widget buildWebYoutubePlayer({
 
   // ColoredBox(black) sits on the Flutter canvas layer directly beneath the
   // platform-view slot, adding a second line of defence against any gap.
-  return const ColoredBox(
-    color: Color(0xFF000000),
+  return ColoredBox(
+    color: const Color(0xFF000000),
     child: HtmlElementView(viewType: viewType),
   );
 }

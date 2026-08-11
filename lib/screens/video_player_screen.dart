@@ -97,7 +97,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     _controller = YoutubePlayerController(
         initialVideoId: widget.video.id,
         flags: const YoutubePlayerFlags(
-          autoPlay: true,
           hideControls: true,
           enableCaption: false,
           useHybridComposition: false, // required — see note above
@@ -202,7 +201,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     try {
       _controller.unMute();
       _controller.setVolume(100);
-    } catch (_) {}
+    } on Object catch (_) {}
   }
 
   void _togglePlay() {
@@ -281,7 +280,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       if (_intendedPlaying) {
         try {
           _controller.play();
-        } catch (_) {}
+        } on Object catch (_) {}
       }
     }
   }
@@ -299,7 +298,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       excludeVideoId: widget.video.id,
       excludeChannelId: widget.channel.id,
       categoryId: widget.channel.resourceCategoryId,
-      limit: 12,
     );
   }
 
@@ -520,8 +518,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
           if (_playerAttached && kIsWeb)
             WebYoutubePlayer(
               videoId: widget.video.id,
-              autoPlay: true,
-              mute: false,
             )
           else if (_playerAttached)
             YoutubePlayer(
@@ -859,14 +855,14 @@ class _FinReelsWatermark extends StatelessWidget {
             'assets/icons/app_icon.png',
             width: 16,
             height: 16,
-            errorBuilder: (_, __, ___) => Icon(
+            errorBuilder: (_, __, ___) => const Icon(
               Icons.play_arrow_rounded,
               color: fg,
               size: 16,
             ),
           ),
           const SizedBox(width: 6),
-          Text(
+          const Text(
             'FinReels',
             style: TextStyle(
               color: fg,
