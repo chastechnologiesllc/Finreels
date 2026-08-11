@@ -295,6 +295,15 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         mute: muted,
         enableCaption: false,
         hideControls: true,
+        // Virtual Display mode: the WebView renders as a Flutter texture
+        // instead of a native Android View. This is the only way to let
+        // Flutter widgets (thumbnail cover, play button, spinner — Layers
+        // 2-4 in _buildMediaArea) actually composite ABOVE the WebView.
+        // With the default useHybridComposition:true the WebView is lifted
+        // to the native View hierarchy, above Flutter's render tree, so
+        // every overlay layer is invisible and YouTube's gray loading
+        // surface / "Watch on YouTube" button bleeds through uncovered.
+        useHybridComposition: false,
       ),
     )..addListener(_onControllerUpdate);
     if (mounted) setState(() {});

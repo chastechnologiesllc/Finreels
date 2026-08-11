@@ -74,7 +74,13 @@ Widget buildWebYoutubePlayer({
   final qs = params.entries
       .map((e) => '${e.key}=${Uri.encodeComponent(e.value)}')
       .join('&');
-  final src = 'https://www.youtube.com/embed/$videoId?$qs';
+  // youtube-nocookie.com: privacy-enhanced embed domain that does not check
+  // the viewer's Google account session. youtube.com/embed triggers a Google
+  // "Service unavailable — this service isn't available for your account"
+  // error for any user signed into a Google Workspace account with YouTube
+  // access restricted by their admin. nocookie bypasses that gate entirely.
+  // Both domains support the same iframe JS API (enablejsapi, postMessage).
+  final src = 'https://www.youtube-nocookie.com/embed/$videoId?$qs';
   final viewType = 'finreels-yt-v2-$videoId';
 
   if (!_registered.contains(viewType)) {
@@ -136,9 +142,9 @@ void _kick(
     iframe,
     '{"event":"listening","id":"$videoId","channel":"widget"}',
   );
-  _post(iframe, '{"event":"command","func":"playVideo","args":""}');
+  _post(iframe, '{"event":"command","func":"playVideo","args":[]}');
   if (unmute) {
-    _post(iframe, '{"event":"command","func":"unMute","args":""}');
+    _post(iframe, '{"event":"command","func":"unMute","args":[]}');
     _post(iframe, '{"event":"command","func":"setVolume","args":[100]}');
   }
 }
@@ -162,7 +168,7 @@ void webYoutubeCommand(String videoId, String func) {
       if (func == 'setVolume') {
         _post(known, '{"event":"command","func":"setVolume","args":[100]}');
       } else {
-        _post(known, '{"event":"command","func":"$func","args":""}');
+        _post(known, '{"event":"command","func":"$func","args":[]}');
       }
       return;
     }
@@ -181,7 +187,7 @@ void webYoutubeCommand(String videoId, String func) {
       if (func == 'setVolume') {
         _post(iframe, '{"event":"command","func":"setVolume","args":[100]}');
       } else {
-        _post(iframe, '{"event":"command","func":"$func","args":""}');
+        _post(iframe, '{"event":"command","func":"$func","args":[]}');
       }
     }
   } on Object {
