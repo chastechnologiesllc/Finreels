@@ -693,10 +693,10 @@ class _ShortPageState extends State<_ShortPage>
           // Mobile: FittedBox.cover crops the sides so the YT logo is
           //         off-screen; watermark shows as branding above the title.
           if (_hasVideoStarted && widget.isActive)
-            Positioned(
+            const Positioned(
               right: kIsWeb ? 27 : 12,
               bottom: kIsWeb ? 17 : 160,
-              child: const FinReelsWatermark(),
+              child: FinReelsWatermark(),
             ),
 
           Positioned(

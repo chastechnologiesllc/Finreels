@@ -409,7 +409,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 
     // Pre-warm: silently create when meaningfully visible (mobile only).
     if (!kIsWeb && _controller == null && frac > 0.3) {
-      _createController(autoPlay: false, muted: true);
+      _createController(autoPlay: false);
       return;
     }
 

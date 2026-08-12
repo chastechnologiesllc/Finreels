@@ -75,8 +75,6 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
       _controller = YoutubePlayerController(
         initialVideoId: widget.videoId,
         flags: const YoutubePlayerFlags(
-          autoPlay: true,
-          mute: false,
           hideControls: true,
           enableCaption: false,
           useHybridComposition: false, // Virtual Display — overlays work on Android
@@ -227,7 +225,7 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
 
           // ── FinReels watermark (device-confirmed: right 56, bottom 28) ─
           // FinReels watermark — static, flush to bottom-right corner.
-          if (_hasStarted && !_ended)
+          if (_hasStarted)
             const Positioned(
               right: 0,
               bottom: 0,
