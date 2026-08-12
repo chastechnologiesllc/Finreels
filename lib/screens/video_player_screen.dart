@@ -614,16 +614,16 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               child: CircularProgressIndicator(
                   color: AppTheme.gold, strokeWidth: 3),
             ),
-          // FinReels watermark — covers YT logo region (mobile + web).
-          // LayoutBuilder gives the live player dimensions so the shared
-          // formula targets the YouTube logo at any density/orientation.
+          // FinReels watermark — confirmed positions from device screenshots.
+          // Portrait:  right 58, bottom 18.
+          // Landscape: right 56, bottom 28.
           if (_hasStartedPlaying &&
               !_ended &&
               (_showYtCover || (!_playing && !kIsWeb)))
-            Positioned.fill(
-              child: LayoutBuilder(
-                builder: (_, c) => FinReelsWatermark.layer(c),
-              ),
+            Positioned(
+              right: _isLandscape ? 56 : 58,
+              bottom: _isLandscape ? 28 : 18,
+              child: const FinReelsWatermark(),
             ),
           if (_ended) _buildEndOverlay(),
           // Flutter owns play/pause on all platforms. Web embed is

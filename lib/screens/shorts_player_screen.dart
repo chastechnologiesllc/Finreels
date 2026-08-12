@@ -688,21 +688,15 @@ class _ShortPageState extends State<_ShortPage>
               ),
             ),
 
-          // FinReels watermark — covers the YouTube logo.
-          // Web:    logo is at bottom-right of the full-screen embed → layer()
-          //         targets it precisely via the proportional formula.
-          // Mobile: FittedBox.cover zooms the 16:9 video to fill 9:16,
-          //         clipping ~45 dp from each side. The YouTube logo (right:8)
-          //         ends up ~35 dp off-screen. layerShorts() shows the chip
-          //         as branding above the title gradient instead.
+          // FinReels watermark.
+          // Web:    YouTube logo is visible at bottom-right of the embed.
+          // Mobile: FittedBox.cover crops the sides so the YT logo is
+          //         off-screen; watermark shows as branding above the title.
           if (_hasVideoStarted && widget.isActive)
-            Positioned.fill(
-              child: LayoutBuilder(
-                builder: (_, c) => FinReelsWatermark.layerShorts(
-                  c,
-                  isWeb: kIsWeb,
-                ),
-              ),
+            Positioned(
+              right: kIsWeb ? 27 : 12,
+              bottom: kIsWeb ? 17 : 160,
+              child: const FinReelsWatermark(),
             ),
 
           Positioned(

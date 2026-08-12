@@ -652,21 +652,17 @@ class _InlineVideoCardState extends State<InlineVideoCard>
               ),
 
             // ── Layer 4: FinReels watermark ───────────────────────────────
-            // Covers the YouTube logo at bottom-right while it is visible
-            // (first ~4 s of play, on pause, and on web where controls=0
-            // leaves the logo permanently present).
-            // LayoutBuilder gives the actual player pixel dimensions so the
-            // formula can compute the exact YouTube logo position at any
-            // screen density and size — see FinReelsWatermark for details.
+            // Position confirmed from device screenshots (right: 27, bottom: 17).
+            // Covers the YouTube native logo at the bottom-right of the IFrame.
             if (_expanded &&
                 _controller != null &&
                 !_ended &&
                 _revealPlayer &&
                 (_showYtCover || !_isPlaying))
-              Positioned.fill(
-                child: LayoutBuilder(
-                  builder: (_, c) => FinReelsWatermark.layer(c),
-                ),
+              const Positioned(
+                right: 27,
+                bottom: 17,
+                child: FinReelsWatermark(),
               ),
 
             // ── Layer 5: end-screen overlay ───────────────────────────────
