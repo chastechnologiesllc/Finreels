@@ -46,11 +46,9 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
   YoutubePlayerController? _controller;
   bool _playing      = false;
   bool _hasStarted   = false;
-  bool _showYtCover  = false;
   bool _showIcon     = false;
   int  _tapCount     = 0;
   Timer? _iconTimer;
-  Timer? _ytCoverTimer;
 
   final ValueNotifier<double>   _progress = ValueNotifier(0);
   final ValueNotifier<Duration> _position = ValueNotifier(Duration.zero);
@@ -91,7 +89,6 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
   @override
   void dispose() {
     _iconTimer?.cancel();
-    _ytCoverTimer?.cancel();
     _progress.dispose();
     _position.dispose();
     _duration.dispose();
@@ -125,22 +122,9 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
     if (playing != _playing || justStarted) {
       setState(() {
         _playing = playing;
-        if (justStarted) {
-          _hasStarted  = true;
-          _armYtCover();
-        }
-        // YT logo re-appears on pause.
-        if (!playing && _hasStarted) _showYtCover = true;
+        if (justStarted) _hasStarted = true;
       });
     }
-  }
-
-  void _armYtCover() {
-    _ytCoverTimer?.cancel();
-    _showYtCover = true;
-    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
-      if (mounted) setState(() => _showYtCover = false);
-    });
   }
 
   void _pop() {
@@ -242,12 +226,11 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
             ),
 
           // ── FinReels watermark (device-confirmed: right 56, bottom 28) ─
-          // Covers the YouTube native logo in the bottom-right of the
-          // landscape IFrame. Position has been verified on physical device.
-          if (_hasStarted && (_showYtCover || !_playing))
+          // FinReels watermark — static, flush to bottom-right corner.
+          if (_hasStarted && !_ended)
             const Positioned(
-              right: 56,
-              bottom: 28,
+              right: 0,
+              bottom: 0,
               child: FinReelsWatermark(),
             ),
 

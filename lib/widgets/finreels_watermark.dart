@@ -1,27 +1,34 @@
 import 'package:flutter/material.dart';
-
 import '../theme/app_theme.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
-// FinReels watermark — covers the native YouTube logo
+// FinReels watermark — static corner chip, covers YouTube native logo
 // ─────────────────────────────────────────────────────────────────────────────
 //
-// CONFIRMED POSITIONS (from device screenshots — do not change without
-// re-testing on physical hardware):
+// SHAPE
+//   Flush to the bottom-right corner of the player.
+//   Only the top-left corner is rounded — the other three are square so the
+//   chip sits clean against the player edges with no visible gap.
 //
-//   Inline feed card (16:9)   → Positioned(right: 27,  bottom: 17)
-//   Video player — portrait   → Positioned(right: 58,  bottom: 18)
-//   Video player — landscape  → Positioned(right: 56,  bottom: 28)
-//   Landscape screen          → Positioned(right: 56,  bottom: 28)
+//   ┌────────────────────────────────┐  ← player top
+//   │                                │
+//   │                                │
+//   │                    ╭───────────┤  ← top-left of chip is rounded
+//   │                    │ 🎬FinReels│
+//   └────────────────────┴───────────┘  ← bottom edge flush
+//                                  └── right edge flush
 //
-// YouTube places its logo at a fixed CSS pixel position inside the IFrame.
-// The values above map those CSS pixels to Flutter dp and have been verified
-// across 360 dp, 393 dp, and 412 dp phones.
+// POSITIONING
+//   Always: Positioned(right: 0, bottom: 0, child: FinReelsWatermark())
 //
-// SIZING: icon 22 dp | gap 8 dp | "FinReels" at 14 dp bold ≈ 130 × 40 dp
-// chip — deliberately larger than the YouTube logo (~68 × 15 dp) so the
-// chip fully covers it at every screen density.
+// VISIBILITY (static — no timer needed)
+//   • inline card    : _expanded && !_ended && _revealPlayer
+//   • video player   : _hasStartedPlaying && !_ended
+//   • landscape      : _hasStarted && !_ended
 //
+// THEME
+//   Adapts bg/fg to dark/light mode so the chip stays legible on any
+//   thumbnail or background.
 // ─────────────────────────────────────────────────────────────────────────────
 
 class FinReelsWatermark extends StatelessWidget {
@@ -37,7 +44,11 @@ class FinReelsWatermark extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 9),
       decoration: BoxDecoration(
         color: bg,
-        borderRadius: BorderRadius.circular(8),
+        // Only the top-left corner is rounded — all other edges are flush
+        // with the bottom-right corner of the player frame.
+        borderRadius: const BorderRadius.only(
+          topLeft: Radius.circular(10),
+        ),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,

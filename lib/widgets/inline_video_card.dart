@@ -85,12 +85,10 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   bool _revealPlayer = false; // true only after onReady + real frame decoded
   bool _expanded     = false; // true once the user has tapped
   bool _ended        = false;
-  bool _isPlaying    = false; // mirrors PlayerState for watermark timing
-  /// True for ~4 s after play starts — matches when YT logo is typically visible.
-  bool _showYtCover  = false;
+  bool _isPlaying    = false; // mirrors PlayerState for play-button visibility
   Timer? _revealTimer;
   Timer? _soundRetryTimer;
-  Timer? _ytCoverTimer;
+
   int _soundRetryCount = 0;
 
   PlayerState _prevState = PlayerState.unknown;
@@ -114,7 +112,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     widget.activeVideoNotifier.removeListener(_onActiveChanged);
     _revealTimer?.cancel();
     _soundRetryTimer?.cancel();
-    _ytCoverTimer?.cancel();
     _controller?.removeListener(_onControllerUpdate);
     _controller?.dispose();
     _controller = null;
@@ -140,14 +137,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       _soundRetryCount++;
       _forceSoundOn();
       if (_soundRetryCount >= 8 || !mounted) t.cancel();
-    });
-  }
-
-  void _armYtCover() {
-    _ytCoverTimer?.cancel();
-    if (mounted) setState(() => _showYtCover = true);
-    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
-      if (mounted) setState(() => _showYtCover = false);
     });
   }
 
@@ -234,19 +223,13 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         _revealPlayer = true;
         _isPlaying    = true;
       });
-      _armYtCover();
     }
 
     final playing = currentState == PlayerState.playing;
     if (playing != _isPlaying && _revealPlayer) {
       setState(() => _isPlaying = playing);
       if (playing) {
-        _armYtCover();
         _forceSoundOn();
-      } else {
-        // Paused — YT logo reappears; keep cover visible.
-        _ytCoverTimer?.cancel();
-        if (mounted) setState(() => _showYtCover = true);
       }
     }
 
@@ -285,7 +268,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   void _tearDownPlayer() {
     _revealTimer?.cancel();
     _soundRetryTimer?.cancel();
-    _ytCoverTimer?.cancel();
     _controller?.removeListener(_onControllerUpdate);
     try { _controller?.pause(); } on Object catch (_) {}
     _controller?.dispose();
@@ -295,7 +277,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     _expanded     = false;
     _ended        = false;
     _isPlaying    = false;
-    _showYtCover  = false;
     _prevState    = PlayerState.unknown;
     if (mounted) {
       setState(() {});
@@ -332,7 +313,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
           _ended        = false;
           _revealPlayer = true;
           _isPlaying    = willPlay;
-          if (willPlay) _showYtCover = true;
         });
         updateKeepAlive();
       }
@@ -344,7 +324,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       }
 
       if (willPlay) {
-        _armYtCover();
         if (firstExpand) {
           Future.delayed(const Duration(milliseconds: 400), () {
             if (mounted) sendPlay();
@@ -430,7 +409,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 
     // Pre-warm: silently create when meaningfully visible (mobile only).
     if (!kIsWeb && _controller == null && frac > 0.3) {
-      _createController(autoPlay: false);
+      _createController(autoPlay: false, muted: true);
       return;
     }
 
@@ -651,17 +630,14 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // ── Layer 4: FinReels watermark ───────────────────────────────
-            // Position confirmed from device screenshots (right: 27, bottom: 17).
-            // Covers the YouTube native logo at the bottom-right of the IFrame.
-            if (_expanded &&
-                _controller != null &&
-                !_ended &&
-                _revealPlayer &&
-                (_showYtCover || !_isPlaying))
+            // ── Layer 4: FinReels watermark — static, flush corner ────────
+            // Always visible once the player is revealed. Flush to bottom-right
+            // with only top-left rounded — fully covers the YouTube logo on
+            // all phones regardless of exact logo position.
+            if (_expanded && !_ended && _revealPlayer)
               const Positioned(
-                right: 27,
-                bottom: 17,
+                right: 0,
+                bottom: 0,
                 child: FinReelsWatermark(),
               ),
 

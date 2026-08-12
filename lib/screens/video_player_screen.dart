@@ -63,9 +63,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   bool _playerAttached = false;
   bool _isLandscape = false;
   final GlobalKey _playerKey = GlobalKey();
-  /// Show FinReels cover while YT logo is expected (pause or first ~4s play).
-  bool _showYtCover = true;
-  Timer? _ytCoverTimer;
 
   @override
   void initState() {
@@ -163,11 +160,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       });
       if (justStarted || (playing && !wasPlaying)) {
         _forceSoundOn();
-        _armYtCover();
-      } else if (!playing && wasPlaying) {
-        // Paused — YouTube logo reappears; keep cover visible.
-        _ytCoverTimer?.cancel();
-        if (mounted) setState(() => _showYtCover = true);
       }
     }
   }
@@ -175,7 +167,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   @override
   void dispose() {
     _centerIconTimer?.cancel();
-    _ytCoverTimer?.cancel();
     _progressNotifier.dispose();
     _positionNotifier.dispose();
     _durationNotifier.dispose();
@@ -188,14 +179,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     }
     super.dispose();
-  }
-
-  void _armYtCover() {
-    _ytCoverTimer?.cancel();
-    if (mounted) setState(() => _showYtCover = true);
-    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
-      if (mounted) setState(() => _showYtCover = false);
-    });
   }
 
   void _forceSoundOn() {
@@ -570,9 +553,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                     _intendedPlaying = true;
                     _ready = true;
                     _showCenterIcon = false;
-                    _showYtCover = true;
                   });
-                  _armYtCover();
                 }
               });
               Future.delayed(const Duration(milliseconds: 2800), () {
@@ -614,16 +595,14 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               child: CircularProgressIndicator(
                   color: AppTheme.gold, strokeWidth: 3),
             ),
-          // FinReels watermark — confirmed positions from device screenshots.
-          // Portrait:  right 58, bottom 18.
-          // Landscape: right 56, bottom 28.
-          if (_hasStartedPlaying &&
-              !_ended &&
-              (_showYtCover || (!_playing && !kIsWeb)))
-            Positioned(
-              right: _isLandscape ? 56 : 58,
-              bottom: _isLandscape ? 28 : 18,
-              child: const FinReelsWatermark(),
+          // FinReels watermark — static, flush to bottom-right corner.
+          // Visible as soon as playback starts; top-left rounded, all
+          // other edges flush with the player frame.
+          if (_hasStartedPlaying && !_ended)
+            const Positioned(
+              right: 0,
+              bottom: 0,
+              child: FinReelsWatermark(),
             ),
           if (_ended) _buildEndOverlay(),
           // Flutter owns play/pause on all platforms. Web embed is
