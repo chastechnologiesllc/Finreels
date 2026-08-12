@@ -13,6 +13,7 @@ import '../models/video.dart';
 import '../screens/channel_videos_screen.dart';
 import '../services/ad_service.dart';
 import '../theme/app_theme.dart';
+import 'finreels_watermark.dart';
 import 'web_youtube_player.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -650,19 +651,22 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // ── Layer 4: FinReels watermark (theme-aware) ─────────────────
+            // ── Layer 4: FinReels watermark ───────────────────────────────
             // Covers the YouTube logo at bottom-right while it is visible
             // (first ~4 s of play, on pause, and on web where controls=0
             // leaves the logo permanently present).
+            // LayoutBuilder gives the actual player pixel dimensions so the
+            // formula can compute the exact YouTube logo position at any
+            // screen density and size — see FinReelsWatermark for details.
             if (_expanded &&
                 _controller != null &&
                 !_ended &&
                 _revealPlayer &&
                 (_showYtCover || !_isPlaying))
-              const Positioned(
-                right: 27,
-                bottom: 17,
-                child: _InlineFinReelsWatermark(),
+              Positioned.fill(
+                child: LayoutBuilder(
+                  builder: (_, c) => FinReelsWatermark.layer(c),
+                ),
               ),
 
             // ── Layer 5: end-screen overlay ───────────────────────────────
@@ -757,50 +761,4 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   }
 }
 
-// ── FinReels watermark (inline card) — theme-aware ───────────────────────────
-//
-// Background and foreground adapt to the system dark/light theme so the chip
-// is always legible regardless of thumbnail colour and app theme setting.
-
-class _InlineFinReelsWatermark extends StatelessWidget {
-  const _InlineFinReelsWatermark();
-
-  @override
-  Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bg = isDark ? const Color(0xF2000000) : const Color(0xF2FFFFFF);
-    final fg = isDark ? AppTheme.gold : const Color(0xFF1A1A1A);
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
-      decoration: BoxDecoration(
-        color: bg,
-        borderRadius: BorderRadius.circular(8),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Image.asset(
-            'assets/icons/app_icon.png',
-            width: 14,
-            height: 14,
-            errorBuilder: (_, __, ___) => Icon(
-              Icons.play_arrow_rounded,
-              color: fg,
-              size: 14,
-            ),
-          ),
-          const SizedBox(width: 5),
-          Text(
-            'FinReels',
-            style: TextStyle(
-              color: fg,
-              fontSize: 11,
-              fontWeight: FontWeight.w700,
-              letterSpacing: 0.2,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
+// Watermark: see lib/widgets/finreels_watermark.dart — FinReelsWatermark.

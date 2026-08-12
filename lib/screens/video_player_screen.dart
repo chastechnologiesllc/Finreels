@@ -16,6 +16,7 @@ import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/finreels_watermark.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/web_youtube_player.dart';
 import 'channel_videos_screen.dart';
@@ -614,20 +615,15 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                   color: AppTheme.gold, strokeWidth: 3),
             ),
           // FinReels watermark — covers YT logo region (mobile + web).
+          // LayoutBuilder gives the live player dimensions so the shared
+          // formula targets the YouTube logo at any density/orientation.
           if (_hasStartedPlaying &&
               !_ended &&
               (_showYtCover || (!_playing && !kIsWeb)))
-            LayoutBuilder(
-              builder: (context, constraints) {
-                final w = constraints.maxWidth;
-                final h = constraints.maxHeight;
-                final inset = (w < h ? w : h) * (_isLandscape ? 0.045 : 0.055);
-                return Positioned(
-                  right: inset.clamp(12.0, 72.0),
-                  bottom: (inset * 0.55).clamp(10.0, 36.0),
-                  child: const _FinReelsWatermark(),
-                );
-              },
+            Positioned.fill(
+              child: LayoutBuilder(
+                builder: (_, c) => FinReelsWatermark.layer(c),
+              ),
             ),
           if (_ended) _buildEndOverlay(),
           // Flutter owns play/pause on all platforms. Web embed is
@@ -832,50 +828,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
 // ── FinReels watermark chip (covers YouTube logo) ───────────────────────────
 
-class _FinReelsWatermark extends StatelessWidget {
-  const _FinReelsWatermark();
-
-  @override
-  Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bg = isDark ? const Color(0xF2000000) : const Color(0xF2FFFFFF);
-    final fg = isDark ? AppTheme.gold : const Color(0xFF1A1A1A);
-    // Sized to fully cover the native YouTube logo at bottom-right.
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-      alignment: Alignment.center,
-      decoration: BoxDecoration(
-        color: bg,
-        borderRadius: BorderRadius.circular(8),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Image.asset(
-            'assets/icons/app_icon.png',
-            width: 15,
-            height: 15,
-            errorBuilder: (_, __, ___) => Icon(
-              Icons.play_arrow_rounded,
-              color: fg,
-              size: 15,
-            ),
-          ),
-          const SizedBox(width: 6),
-          Text(
-            'FinReels',
-            style: TextStyle(
-              color: fg,
-              fontSize: 12,
-              fontWeight: FontWeight.w700,
-              letterSpacing: 0.2,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
+// Watermark: see lib/widgets/finreels_watermark.dart — FinReelsWatermark.
 
 // ── Suggested video tile ────────────────────────────────────────────────────
 

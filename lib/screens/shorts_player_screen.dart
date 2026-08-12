@@ -10,6 +10,7 @@ import '../models/video.dart';
 import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
 import '../theme/app_theme.dart';
+import '../widgets/finreels_watermark.dart';
 import '../widgets/web_youtube_player.dart';
 
 /// Full-screen 9:16 Shorts player — TikTok/Reels-quality scroll UX.
@@ -683,6 +684,23 @@ class _ShortPageState extends State<_ShortPage>
                   ),
                   child: const Icon(Icons.play_arrow_rounded,
                       color: Colors.white, size: 38),
+                ),
+              ),
+            ),
+
+          // FinReels watermark — covers the YouTube logo.
+          // Web:    logo is at bottom-right of the full-screen embed → layer()
+          //         targets it precisely via the proportional formula.
+          // Mobile: FittedBox.cover zooms the 16:9 video to fill 9:16,
+          //         clipping ~45 dp from each side. The YouTube logo (right:8)
+          //         ends up ~35 dp off-screen. layerShorts() shows the chip
+          //         as branding above the title gradient instead.
+          if (_hasVideoStarted && widget.isActive)
+            Positioned.fill(
+              child: LayoutBuilder(
+                builder: (_, c) => FinReelsWatermark.layerShorts(
+                  c,
+                  isWeb: kIsWeb,
                 ),
               ),
             ),
