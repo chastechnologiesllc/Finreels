@@ -208,11 +208,9 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
     final origin = '${uri.scheme}://${uri.host}';
     if (html.toLowerCase().contains('<base')) return html; // already present
     final match =
-        RegExp(r'<head[^>]*>', caseSensitive: false).firstMatch(html);
+        RegExp('<head[^>]*>', caseSensitive: false).firstMatch(html);
     if (match != null) {
-      return html.substring(0, match.end) +
-          '<base href="$origin">' +
-          html.substring(match.end);
+      return '${html.substring(0, match.end)}<base href="$origin">${html.substring(match.end)}';
     }
     return '<base href="$origin">$html'; // no <head> found — prepend
   }
@@ -395,8 +393,8 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
             maxLines: 1, overflow: TextOverflow.ellipsis),
         // Subtle gold progress bar while the proxy fetch is in-flight.
         bottom: _webFetching
-            ? PreferredSize(
-                preferredSize: const Size.fromHeight(3),
+            ? const PreferredSize(
+                preferredSize: Size.fromHeight(3),
                 child: LinearProgressIndicator(
                   color: AppTheme.gold,
                   backgroundColor: Colors.transparent,
@@ -457,6 +455,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
     }
 
     // ── Both proxies failed: retry / open-in-browser ───────────────────────
+    if (!_webFailed) return const SizedBox.shrink();
     return Center(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 32),
