@@ -16,27 +16,33 @@ import '../widgets/web_iframe_view.dart';
 
 /// Opens a blog article or a free-book URL.
 ///
-/// NATIVE (Android / iOS)
-///   Uses flutter_inappwebview — full in-app browser with navigation
-///   interception, progress bar, and scroll-position persistence (books).
+/// ─── NATIVE (Android / iOS) ───────────────────────────────────────────────
+/// Uses flutter_inappwebview.  Navigation is intercepted so only the
+/// article's own domain is followed inline; external links push a new
+/// BlogReaderScreen.  A gold LinearProgressIndicator shows load progress.
+/// Books (bookId ≠ null) additionally persist and restore scroll position.
 ///
-/// WEB — blog articles  (bookId == null)
-///   Major news publishers (inc.com, entrepreneur.com, forbes.com, hbr.org)
-///   set X-Frame-Options: DENY, so embedding their pages in an <iframe> is
-///   actively refused by the browser.  The correct solution — used by Pocket,
-///   Google News, Flipboard, and Apple News on web — is to show a rich
-///   article preview card (thumbnail, title, source, excerpt) and open the
-///   full article in a new browser tab.
+/// ─── WEB — blog articles (sourceName ≠ null) ──────────────────────────────
+/// Major news publishers (inc.com, entrepreneur.com, forbes.com, hbr.org …)
+/// set X-Frame-Options: DENY, so iframes are actively refused.
+/// Solution (same pattern used by Google News, LinkedIn, Twitter/X on web):
+///   1. The article opens in a new browser tab the moment the screen mounts.
+///   2. The screen itself shows a rich article preview card with the article's
+///      thumbnail, source, headline, and excerpt from the RSS feed.
+///   3. The AppBar back-arrow returns the user to the feed — identical to
+///      pressing Back in any other FinReels screen.
+///   4. A "Reopen Article" button is available if the user needs the tab again.
 ///
-/// WEB — books  (bookId != null)
-///   Public-domain book sources (Gutenberg HTML pages, blob URLs for PDF
-///   assets) do allow framing, so WebIframeView continues to work for them.
+/// ─── WEB — books / external URLs (sourceName == null) ────────────────────
+/// Public-domain book sources (Gutenberg HTML pages, blob URLs for local PDF
+/// assets) allow framing, so WebIframeView continues to be used for them.
 class BlogReaderScreen extends StatefulWidget {
   final String url;
   final String title;
 
-  /// Extra article metadata — used for the web preview card.
-  /// Passed from BlogFeedScreen; null when opened from other contexts.
+  /// Article metadata — used only for the web preview card.
+  /// Populated by BlogFeedScreen / CategoryDetailScreen / ContentSearchScreen.
+  /// Null when this screen is opened for a book or an unknown URL.
   final String?   sourceName;
   final String?   thumbnailUrl;
   final String?   excerpt;
@@ -45,10 +51,9 @@ class BlogReaderScreen extends StatefulWidget {
   /// Set when this came from a category-tagged feed.
   final String? categoryId;
 
-  /// Set when this screen is opened for a *book* rather than a blog post.
-  /// Enables Hive-backed scroll-progress tracking, the "resuming" snackbar,
-  /// AND keeps WebIframeView on web (book sources allow framing).
-  /// Leave null for regular blog articles.
+  /// Set when this screen is opened for a *book*.
+  /// Enables Hive scroll-progress tracking AND keeps WebIframeView on web
+  /// (book sources allow framing; news sites do not).
   final String? bookId;
 
   const BlogReaderScreen({
@@ -68,12 +73,13 @@ class BlogReaderScreen extends StatefulWidget {
 }
 
 class _BlogReaderScreenState extends State<BlogReaderScreen> {
-  // ── Page-load state ────────────────────────────────────────────────────────
+
+  // ── Page-load state (native only) ─────────────────────────────────────────
   double _progress = 0;
   bool   _loading  = true;
   late final String _allowedHost;
 
-  // ── Scroll-progress tracking (books only) ──────────────────────────────────
+  // ── Scroll-progress tracking (native books only) ───────────────────────────
   Box<String>?  _progressBox;
   int?          _savedScrollPercent;
   bool          _hasRestored  = false;
@@ -88,10 +94,24 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
     super.initState();
     _allowedHost = Uri.tryParse(widget.url)?.host ?? '';
 
-    if (kIsWeb && widget.bookId != null) {
-      // Book iframe — no load-progress callbacks into Flutter.
+    // Web has no InAppWebView progress callbacks — clear the loading state.
+    if (kIsWeb) {
       _loading = false;
       _progress = 1;
+    }
+
+    // Web blog article: open the URL in a new browser tab on the first frame.
+    // The preview card (this screen) stays open so the user keeps context
+    // and the AppBar back-arrow to return to the feed — exactly the pattern
+    // used by Google News, LinkedIn, and Twitter/X for external links on web.
+    if (kIsWeb && widget.sourceName != null) {
+      WidgetsBinding.instance.addPostFrameCallback((_) async {
+        if (!mounted) return;
+        final uri = Uri.tryParse(widget.url);
+        if (uri != null) {
+          await launchUrl(uri, mode: LaunchMode.externalApplication);
+        }
+      });
     }
 
     if (widget.categoryId != null) {
@@ -100,10 +120,10 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
       );
     }
 
-    if (widget.bookId != null) {
-      _progressBox       = Hive.box<String>('reading_progress');
-      _savedScrollPercent =
-          int.tryParse(_progressBox?.get(_scrollKey) ?? '');
+    // Scroll-progress is a native-only feature (InAppWebView JS API).
+    if (widget.bookId != null && !kIsWeb) {
+      _progressBox        = Hive.box<String>('reading_progress');
+      _savedScrollPercent = int.tryParse(_progressBox?.get(_scrollKey) ?? '');
     }
   }
 
@@ -127,9 +147,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
           double.tryParse(raw?.toString().replaceAll('"', '') ?? '') ?? 0;
       if (scrollHeight > 0) {
         final percent = (y / scrollHeight * 100).clamp(0, 100).toInt();
-        if (_progressBox != null) {
-          unawaited(_progressBox!.put(_scrollKey, percent.toString()));
-        }
+        unawaited(_progressBox!.put(_scrollKey, percent.toString()));
       }
     });
   }
@@ -152,8 +170,8 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
 
     final targetY = (scrollHeight * _savedScrollPercent! / 100).toInt();
     await controller.scrollTo(x: 0, y: targetY, animated: true);
-
     if (!mounted) return;
+
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
         content: Row(
@@ -177,14 +195,15 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Web — blog articles: show a rich preview card, open full article in
-    // a new browser tab.  Publishers block iframe embedding by design.
-    if (kIsWeb && widget.bookId == null) {
+    // ── Web: blog article ──────────────────────────────────────────────────
+    // sourceName being non-null is the signal that this is a blog article
+    // (not a book URL), so the preview card + auto-launch path is used.
+    // All kIsWeb branches are compile-time dead on Android / iOS.
+    if (kIsWeb && widget.sourceName != null) {
       return _buildWebArticlePreview(context);
     }
 
-    // Web — books: Gutenberg HTML and PDF blob URLs allow framing → iframe.
-    // Native (Android / iOS): full in-app webview for all content.
+    // ── Web: book / external URL  AND  native: all content ────────────────
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -208,7 +227,9 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
         children: [
           Expanded(
             child: kIsWeb
+                // Web books: Gutenberg HTML / blob URLs allow framing.
                 ? WebIframeView(url: widget.url, title: widget.title)
+                // Native: full in-app browser with navigation interception.
                 : InAppWebView(
                     initialUrlRequest: URLRequest(url: WebUri(widget.url)),
                     initialSettings: InAppWebViewSettings(
@@ -284,19 +305,15 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
     );
   }
 
-  // ── Web article preview ────────────────────────────────────────────────────
+  // ── Web article preview card ───────────────────────────────────────────────
 
-  /// Shown on web when opening a blog article (bookId == null).
+  /// Displayed on web when this screen is opened for a blog article.
   ///
-  /// Displays the article's thumbnail, source, title, and excerpt —
-  /// everything already available from the RSS feed — then opens the full
-  /// article in a new browser tab via launchUrl.  This pattern matches how
-  /// Pocket, Google News, and Flipboard handle publishers that block iframes.
+  /// The article has already been launched in a new browser tab by initState.
+  /// This card keeps the user oriented within FinReels: they can read the
+  /// article in the new tab and tap the AppBar ← to return to the feed —
+  /// identical UX to Google News, LinkedIn, and Twitter/X on web.
   Widget _buildWebArticlePreview(BuildContext context) {
-    final hasMeta = widget.thumbnailUrl != null ||
-        widget.sourceName != null ||
-        (widget.excerpt != null && widget.excerpt!.isNotEmpty);
-
     return Scaffold(
       backgroundColor: AppTheme.bgColor(context),
       appBar: AppBar(
@@ -308,12 +325,37 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
       ),
       body: Column(
         children: [
+          // ── "Opened in tab" status bar ─────────────────────────────────
+          Container(
+            width: double.infinity,
+            color: AppTheme.gold.withValues(alpha: 0.1),
+            padding:
+                const EdgeInsets.symmetric(horizontal: 16, vertical: 9),
+            child: Row(
+              children: [
+                const Icon(Icons.open_in_new_rounded,
+                    size: 14, color: AppTheme.gold),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    'Article opened in a new tab',
+                    style: TextStyle(
+                      color: AppTheme.gold,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
           Expanded(
             child: SingleChildScrollView(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // ── Thumbnail ────────────────────────────────────────────
+                  // ── Thumbnail ──────────────────────────────────────────
                   AspectRatio(
                     aspectRatio: 16 / 9,
                     child: widget.thumbnailUrl != null
@@ -327,16 +369,16 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                         : _heroPlaceholder(context),
                   ),
 
-                  // ── Gold accent strip ─────────────────────────────────────
+                  // ── Gold accent strip ──────────────────────────────────
                   Container(height: 3, color: AppTheme.gold),
 
                   Padding(
-                    padding:
-                        const EdgeInsets.fromLTRB(20, 20, 20, 28),
+                    padding: const EdgeInsets.fromLTRB(20, 20, 20, 28),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        // ── Source + date ────────────────────────────────────
+
+                        // ── Source + date ──────────────────────────────
                         if (widget.sourceName != null ||
                             widget.publishedAt != null)
                           Padding(
@@ -377,7 +419,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                             ),
                           ),
 
-                        // ── Headline ─────────────────────────────────────────
+                        // ── Headline ───────────────────────────────────
                         Text(
                           widget.title,
                           style: Theme.of(context)
@@ -389,7 +431,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                               ),
                         ),
 
-                        // ── Excerpt ──────────────────────────────────────────
+                        // ── Excerpt ────────────────────────────────────
                         if (widget.excerpt != null &&
                             widget.excerpt!.isNotEmpty) ...[
                           const SizedBox(height: 12),
@@ -399,8 +441,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                                 .textTheme
                                 .bodyMedium
                                 ?.copyWith(
-                                  color:
-                                      AppTheme.textSecondary(context),
+                                  color: AppTheme.textSecondary(context),
                                   height: 1.7,
                                 ),
                           ),
@@ -408,7 +449,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
 
                         const SizedBox(height: 32),
 
-                        // ── Primary CTA ──────────────────────────────────────
+                        // ── Reopen button ──────────────────────────────
                         SizedBox(
                           width: double.infinity,
                           height: 54,
@@ -422,21 +463,18 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                                 );
                               }
                             },
-                            icon: const Icon(
-                                Icons.open_in_new_rounded,
+                            icon: const Icon(Icons.open_in_new_rounded,
                                 size: 18),
                             label: const Text(
-                              'Read Full Article',
+                              'Reopen Article',
                               style: TextStyle(
-                                  fontWeight: FontWeight.w700,
-                                  fontSize: 16),
+                                  fontWeight: FontWeight.w700, fontSize: 16),
                             ),
                             style: FilledButton.styleFrom(
                               backgroundColor: AppTheme.gold,
                               foregroundColor: Colors.black,
                               shape: RoundedRectangleBorder(
-                                borderRadius:
-                                    BorderRadius.circular(14),
+                                borderRadius: BorderRadius.circular(14),
                               ),
                             ),
                           ),
@@ -445,7 +483,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                         const SizedBox(height: 10),
                         Center(
                           child: Text(
-                            'Opens in your browser',
+                            'Tap ← above to return to the feed',
                             style: TextStyle(
                               color: AppTheme.textMuted(context),
                               fontSize: 11,
@@ -453,24 +491,22 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
                           ),
                         ),
 
-                        // ── Domain chip ──────────────────────────────────────
+                        // ── Domain chip ────────────────────────────────
                         if (_allowedHost.isNotEmpty)
                           Padding(
-                            padding: const EdgeInsets.only(top: 20),
+                            padding: const EdgeInsets.only(top: 16),
                             child: Center(
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Icon(Icons.link_rounded,
                                       size: 13,
-                                      color: AppTheme.textMuted(
-                                          context)),
+                                      color: AppTheme.textMuted(context)),
                                   const SizedBox(width: 4),
                                   Text(
                                     _allowedHost,
                                     style: TextStyle(
-                                      color:
-                                          AppTheme.textMuted(context),
+                                      color: AppTheme.textMuted(context),
                                       fontSize: 11,
                                     ),
                                   ),
@@ -486,7 +522,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
             ),
           ),
 
-          // ── Ad bar ───────────────────────────────────────────────────────
+          // ── Ad bar ────────────────────────────────────────────────────
           ListenableBuilder(
             listenable: AdService.instance,
             builder: (_, __) => AdService.instance.adsRemoved
@@ -498,9 +534,9 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
     );
   }
 
-  // ── Placeholder helpers ────────────────────────────────────────────────────
+  // ── Helpers ───────────────────────────────────────────────────────────────
 
-  Widget _heroPlaceholder(BuildContext context) => Container(
+  Widget _heroPlaceholder(BuildContext context) => DecoratedBox(
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
@@ -512,12 +548,11 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
           ),
         ),
         child: const Center(
-          child: Icon(Icons.article_rounded,
-              color: AppTheme.gold, size: 56),
+          child: Icon(Icons.article_rounded, color: AppTheme.gold, size: 56),
         ),
       );
 
-  Widget _shimmer(BuildContext context) => Container(
+  Widget _shimmer(BuildContext context) => ColoredBox(
         color: AppTheme.surfaceColor(context),
       );
 }

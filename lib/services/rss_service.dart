@@ -191,7 +191,7 @@ class RssService {
     var pending = proxyUrls.length;
 
     for (final proxyUrl in proxyUrls) {
-      () async {
+      unawaited(() async {
         try {
           final response = await http
               .get(Uri.parse(proxyUrl))
@@ -218,7 +218,7 @@ class RssService {
         if (pending == 0 && !completer.isCompleted) {
           completer.complete(null); // null → _fetchWithRetry tries again.
         }
-      }();
+      }());
     }
 
     return completer.future;

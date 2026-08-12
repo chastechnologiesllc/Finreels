@@ -293,7 +293,6 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
             url:        b.freeSourceUrl!,
             title:      b.title,
             categoryId: b.sourceCategoryId,
-            bookId:     b.id,
           ),
         ),
       );

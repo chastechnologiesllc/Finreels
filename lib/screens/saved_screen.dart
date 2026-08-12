@@ -31,10 +31,9 @@ class _SavedScreenState extends State<SavedScreen> {
         context,
         MaterialPageRoute(
           builder: (_) => BlogReaderScreen(
-            url:      video.freeSourceUrl!,
-            title:    video.title,
+            url:        video.freeSourceUrl!,
+            title:      video.title,
             categoryId: video.sourceCategoryId,
-            bookId:   video.id,
           ),
         ),
       );

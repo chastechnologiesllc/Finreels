@@ -256,7 +256,7 @@ class BlogRssService {
     var pending = proxyUrls.length;
 
     for (final proxyUrl in proxyUrls) {
-      () async {
+      unawaited(() async {
         try {
           final response = await http
               .get(Uri.parse(proxyUrl))
@@ -280,7 +280,7 @@ class BlogRssService {
         if (pending == 0 && !completer.isCompleted) {
           completer.complete([]); // All proxies exhausted with no articles.
         }
-      }();
+      }());
     }
 
     return completer.future;
