@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// Non-web stub.
-Widget buildWebIframe(String url, {String? title}) {
+Widget buildWebIframe(String url, {String? title, String? htmlContent}) {
   return ColoredBox(
     color: const Color(0xFF121212),
     child: Center(
