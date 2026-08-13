@@ -46,9 +46,11 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
   YoutubePlayerController? _controller;
   bool _playing      = false;
   bool _hasStarted   = false;
+  bool _showYtCover  = false;
   bool _showIcon     = false;
   int  _tapCount     = 0;
   Timer? _iconTimer;
+  Timer? _ytCoverTimer;
 
   final ValueNotifier<double>   _progress = ValueNotifier(0);
   final ValueNotifier<Duration> _position = ValueNotifier(Duration.zero);
@@ -87,6 +89,7 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
   @override
   void dispose() {
     _iconTimer?.cancel();
+    _ytCoverTimer?.cancel();
     _progress.dispose();
     _position.dispose();
     _duration.dispose();
@@ -120,9 +123,21 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
     if (playing != _playing || justStarted) {
       setState(() {
         _playing = playing;
-        if (justStarted) _hasStarted = true;
+        if (justStarted) {
+          _hasStarted = true;
+          _armYtCover();
+        }
+        if (!playing && _hasStarted) _showYtCover = true;
       });
     }
+  }
+
+  void _armYtCover() {
+    _ytCoverTimer?.cancel();
+    _showYtCover = true;
+    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
+      if (mounted) setState(() => _showYtCover = false);
+    });
   }
 
   void _pop() {
@@ -224,11 +239,12 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
             ),
 
           // ── FinReels watermark (device-confirmed: right 56, bottom 28) ─
-          // FinReels watermark — static, flush to bottom-right corner.
-          if (_hasStarted)
+          // FinReels watermark — right:56, bottom:28 confirmed on device.
+          // Shows first ~4 s of play and whenever paused.
+          if (_hasStarted && (_showYtCover || !_playing))
             const Positioned(
-              right: 0,
-              bottom: 0,
+              right: 56,
+              bottom: 28,
               child: FinReelsWatermark(),
             ),
 

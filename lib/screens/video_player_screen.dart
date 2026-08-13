@@ -63,6 +63,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   bool _playerAttached = false;
   bool _isLandscape = false;
   final GlobalKey _playerKey = GlobalKey();
+  bool _showYtCover = false; // true for ~4 s after play starts + while paused
+  Timer? _ytCoverTimer;
 
   @override
   void initState() {
@@ -160,13 +162,26 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       });
       if (justStarted || (playing && !wasPlaying)) {
         _forceSoundOn();
+        _armYtCover();
+      } else if (!playing && wasPlaying) {
+        _ytCoverTimer?.cancel();
+        if (mounted) setState(() => _showYtCover = true);
       }
     }
+  }
+
+  void _armYtCover() {
+    _ytCoverTimer?.cancel();
+    if (mounted) setState(() => _showYtCover = true);
+    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
+      if (mounted) setState(() => _showYtCover = false);
+    });
   }
 
   @override
   void dispose() {
     _centerIconTimer?.cancel();
+    _ytCoverTimer?.cancel();
     _progressNotifier.dispose();
     _positionNotifier.dispose();
     _durationNotifier.dispose();
@@ -327,6 +342,21 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                     style: const TextStyle(fontSize: 15)),
               ),
               actions: [
+                ValueListenableBuilder<int>(
+                  valueListenable: ValueNotifier(0), // rebuild when provider notifies
+                  builder: (_, __, ___) {
+                    final fp    = FeedProvider.instance;
+                    final saved = fp?.isVideoSaved(widget.video.id) ?? false;
+                    return IconButton(
+                      icon: Icon(saved
+                          ? Icons.bookmark_rounded
+                          : Icons.bookmark_add_outlined),
+                      tooltip: saved ? 'Remove bookmark' : 'Bookmark',
+                      onPressed: () =>
+                          FeedProvider.instance?.toggleSaved(widget.video),
+                    );
+                  },
+                ),
                 IconButton(
                   icon: const Icon(Icons.share_outlined),
                   onPressed: () => Share.share(
@@ -554,6 +584,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                     _ready = true;
                     _showCenterIcon = false;
                   });
+                  _armYtCover();
                 }
               });
               Future.delayed(const Duration(milliseconds: 2800), () {
@@ -595,14 +626,16 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               child: CircularProgressIndicator(
                   color: AppTheme.gold, strokeWidth: 3),
             ),
-          // FinReels watermark — static, flush to bottom-right corner.
-          // Visible as soon as playback starts; top-left rounded, all
-          // other edges flush with the player frame.
-          if (_hasStartedPlaying && !_ended)
-            const Positioned(
-              right: 0,
-              bottom: 0,
-              child: FinReelsWatermark(),
+          // FinReels watermark — covers YouTube logo when it is visible.
+          // Portrait:  right 58, bottom 18  (device-confirmed)
+          // Landscape: right 56, bottom 28  (device-confirmed)
+          if (_hasStartedPlaying &&
+              !_ended &&
+              (_showYtCover || (!_playing && !kIsWeb)))
+            Positioned(
+              right: _isLandscape ? 56 : 58,
+              bottom: _isLandscape ? 28 : 18,
+              child: const FinReelsWatermark(),
             ),
           if (_ended) _buildEndOverlay(),
           // Flutter owns play/pause on all platforms. Web embed is
