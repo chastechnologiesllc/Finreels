@@ -688,13 +688,17 @@ class _ShortPageState extends State<_ShortPage>
               ),
             ),
 
-          // FinReels watermark for Shorts (9:16).
-          // Slight inset so fully-rounded corners are not clipped by the
-          // player edge; still covers the native YouTube logo region.
+          // FinReels watermark for Shorts.
+          // The FittedBox.cover scale factor is screenH / (screenW * 16/9).
+          // On a 360×800dp phone: scale = 800/640 = 1.25, clips 45dp each side.
+          // The YouTube logo at right:8dp in the 360dp IFrame ends up at
+          // right:≈10dp on-screen after clipping — so we anchor at right:0.
+          // Bottom: logo is at bottom:6dp in the IFrame → bottom:8dp on-screen.
+          // On web the logo is visible at the same relative position.
           if (_hasVideoStarted && widget.isActive)
             const Positioned(
-              right: 8,
-              bottom: 10,
+              right: 0,
+              bottom: 8,
               child: FinReelsWatermark(),
             ),
 

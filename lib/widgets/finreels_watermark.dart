@@ -2,17 +2,29 @@ import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
-// FinReels watermark — rounded corner chip, covers YouTube native logo
+// FinReels watermark — static corner chip, covers YouTube native logo
 // ─────────────────────────────────────────────────────────────────────────────
 //
 // SHAPE
-//   Fully rounded pill (all four corners) so the watermark reads as a
-//   polished chip rather than a flush corner plate.
+//   Flush to the bottom-right corner of the player.
+//   Only the top-left corner is rounded — the other three are square so the
+//   chip sits clean against the player edges with no visible gap.
 //
-// POSITIONING (call sites own the offsets)
-//   • shorts / inline : right: 0–8, bottom: 0–8
-//   • portrait player : right slightly inset (covers YT logo)
-//   • landscape       : right + bottom inset (covers YT logo)
+//   ┌────────────────────────────────┐  ← player top
+//   │                                │
+//   │                                │
+//   │                    ╭───────────┤  ← top-left of chip is rounded
+//   │                    │ 🎬FinReels│
+//   └────────────────────┴───────────┘  ← bottom edge flush
+//                                  └── right edge flush
+//
+// POSITIONING
+//   Always: Positioned(right: 0, bottom: 0, child: FinReelsWatermark())
+//
+// VISIBILITY (static — no timer needed)
+//   • inline card    : _expanded && !_ended && _revealPlayer
+//   • video player   : _hasStartedPlaying && !_ended
+//   • landscape      : _hasStarted && !_ended
 //
 // THEME
 //   Adapts bg/fg to dark/light mode so the chip stays legible on any
@@ -32,8 +44,11 @@ class FinReelsWatermark extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 9),
       decoration: BoxDecoration(
         color: bg,
-        // Fully rounded on all corners.
-        borderRadius: BorderRadius.circular(12),
+        // Only the top-left corner is rounded — all other edges are flush
+        // with the bottom-right corner of the player frame.
+        borderRadius: const BorderRadius.only(
+          topLeft: Radius.circular(10),
+        ),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
