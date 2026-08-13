@@ -86,10 +86,8 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   bool _expanded     = false; // true once the user has tapped
   bool _ended        = false;
   bool _isPlaying    = false; // mirrors PlayerState for play-button visibility
-  bool _showYtCover  = false; // true for ~4 s after play starts + whenever paused
   Timer? _revealTimer;
   Timer? _soundRetryTimer;
-  Timer? _ytCoverTimer;
 
   int _soundRetryCount = 0;
 
@@ -114,7 +112,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     widget.activeVideoNotifier.removeListener(_onActiveChanged);
     _revealTimer?.cancel();
     _soundRetryTimer?.cancel();
-    _ytCoverTimer?.cancel();
     _controller?.removeListener(_onControllerUpdate);
     _controller?.dispose();
     _controller = null;
@@ -140,14 +137,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       _soundRetryCount++;
       _forceSoundOn();
       if (_soundRetryCount >= 8 || !mounted) t.cancel();
-    });
-  }
-
-  void _armYtCover() {
-    _ytCoverTimer?.cancel();
-    if (mounted) setState(() => _showYtCover = true);
-    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
-      if (mounted) setState(() => _showYtCover = false);
     });
   }
 
@@ -234,19 +223,12 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         _revealPlayer = true;
         _isPlaying    = true;
       });
-      _armYtCover();
     }
 
     final playing = currentState == PlayerState.playing;
     if (playing != _isPlaying && _revealPlayer) {
       setState(() => _isPlaying = playing);
-      if (playing) {
-        _armYtCover();
-        _forceSoundOn();
-      } else {
-        _ytCoverTimer?.cancel();
-        if (mounted) setState(() => _showYtCover = true);
-      }
+      if (playing) _forceSoundOn();
     }
 
     // Ad trigger on playing → paused transition.
@@ -284,7 +266,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   void _tearDownPlayer() {
     _revealTimer?.cancel();
     _soundRetryTimer?.cancel();
-    _ytCoverTimer?.cancel();
     _controller?.removeListener(_onControllerUpdate);
     try { _controller?.pause(); } on Object catch (_) {}
     _controller?.dispose();
@@ -294,7 +275,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     _expanded     = false;
     _ended        = false;
     _isPlaying    = false;
-    _showYtCover  = false;
     _prevState    = PlayerState.unknown;
     if (mounted) {
       setState(() {});
@@ -648,18 +628,12 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // ── Layer 4: FinReels watermark ───────────────────────────────
-            // Shows when the YouTube logo is expected to be visible:
-            // • First ~4 s of playback (_showYtCover via _armYtCover timer)
-            // • While paused (!_isPlaying) — YT logo reappears on pause
-            // Position right:27, bottom:17 confirmed on device screenshots.
-            if (_expanded &&
-                !_ended &&
-                _revealPlayer &&
-                (_showYtCover || !_isPlaying))
+            // ── Layer 4: FinReels watermark — static, always visible once
+            // video is revealed. Flush corner, top-left rounded only.
+            if (_expanded && !_ended && _revealPlayer)
               const Positioned(
-                right: 27,
-                bottom: 17,
+                right: 0,
+                bottom: 0,
                 child: FinReelsWatermark(),
               ),
 

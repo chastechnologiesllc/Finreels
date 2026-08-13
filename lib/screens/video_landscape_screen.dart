@@ -238,16 +238,6 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
                   color: AppTheme.gold, strokeWidth: 3),
             ),
 
-          // ── FinReels watermark (device-confirmed: right 56, bottom 28) ─
-          // FinReels watermark — right:56, bottom:28 confirmed on device.
-          // Shows first ~4 s of play and whenever paused.
-          if (_hasStarted && (_showYtCover || !_playing))
-            const Positioned(
-              right: 56,
-              bottom: 28,
-              child: FinReelsWatermark(),
-            ),
-
           // ── Tap to toggle play / pause ────────────────────────────────
           GestureDetector(
             behavior: HitTestBehavior.opaque,
@@ -372,6 +362,16 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
               ),
             ),
           ),
+
+          // FinReels watermark — LAST in Stack so it renders above the
+          // progress bar and all other overlays.
+          // right:56, bottom:28 confirmed on device for landscape.
+          if (_hasStarted && (_showYtCover || !_playing))
+            const Positioned(
+              right: 56,
+              bottom: 28,
+              child: FinReelsWatermark(),
+            ),
         ],
       ),
     );
