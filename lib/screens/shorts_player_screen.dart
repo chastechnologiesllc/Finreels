@@ -474,6 +474,38 @@ class _ShortPageState extends State<_ShortPage>
   }
 
   void _togglePlay() {
+    // Web has no YoutubePlayerController pool — drive the iframe embed.
+    if (kIsWeb) {
+      _userStarted = true;
+      _tapCount++;
+      final wasPlaying = _playing;
+      WebYoutubePlayer.command(
+        widget.video.id,
+        wasPlaying ? 'pauseVideo' : 'playVideo',
+      );
+      if (!wasPlaying) {
+        WebYoutubePlayer.command(widget.video.id, 'unMute');
+        WebYoutubePlayer.command(widget.video.id, 'setVolume');
+      }
+      _pauseIconTimer?.cancel();
+      _playFeedbackTimer?.cancel();
+      setState(() {
+        _playing = !wasPlaying;
+        _showPauseIcon = wasPlaying;
+        _showPlayFeedback = !wasPlaying;
+      });
+      if (wasPlaying) {
+        _pauseIconTimer = Timer(const Duration(milliseconds: 700), () {
+          if (mounted) setState(() => _showPauseIcon = false);
+        });
+      } else {
+        _playFeedbackTimer = Timer(const Duration(milliseconds: 700), () {
+          if (mounted) setState(() => _showPlayFeedback = false);
+        });
+      }
+      return;
+    }
+
     if (_boundController == null) return;
     _userStarted = true;
     _tapCount++;
@@ -503,6 +535,41 @@ class _ShortPageState extends State<_ShortPage>
         if (mounted) setState(() => _showPlayFeedback = false);
       });
     }
+  }
+
+  /// Double-tap left → rewind 10s; double-tap right → forward 10s.
+  /// Android/iOS: YoutubePlayerController.seekTo
+  /// Web: YouTube IFrame API seekTo via postMessage
+  void _seekBySeconds(int seconds) {
+    if (!_hasVideoStarted) return;
+
+    if (kIsWeb) {
+      // Shorts progress is 0–1 of a typical ~60s loop when duration unknown.
+      // Prefer relative seek via current progress estimate, then absolute.
+      final approxDurSec = 60.0;
+      final currentSec = (_progress * approxDurSec);
+      final targetSec = (currentSec + seconds).clamp(0.0, approxDurSec);
+      WebYoutubePlayer.command(
+        widget.video.id,
+        'seekTo',
+        [targetSec, true],
+      );
+      if (mounted) {
+        setState(() => _progress = (targetSec / approxDurSec).clamp(0.0, 1.0));
+      }
+      return;
+    }
+
+    final c = _boundController;
+    if (c == null) return;
+    final pos = c.value.position;
+    final dur = c.value.metaData.duration;
+    final maxMs = dur.inMilliseconds > 0 ? dur.inMilliseconds : 0;
+    // If duration not ready yet, still allow relative seek from position.
+    final targetMs = maxMs > 0
+        ? (pos.inMilliseconds + seconds * 1000).clamp(0, maxMs)
+        : (pos.inMilliseconds + seconds * 1000).clamp(0, 1 << 31);
+    c.seekTo(Duration(milliseconds: targetMs));
   }
 
   @override
@@ -608,10 +675,27 @@ class _ShortPageState extends State<_ShortPage>
             ),
           ),
 
-          GestureDetector(
-            behavior: HitTestBehavior.opaque,
-            onTap: _togglePlay,
-            child: const SizedBox.expand(),
+          // Single-tap: play/pause. Double-tap left/right: ±10s seek
+          // (Facebook / Instagram style). Works on Android, iOS, and Web.
+          Row(
+            children: [
+              Expanded(
+                child: GestureDetector(
+                  behavior: HitTestBehavior.opaque,
+                  onTap: _togglePlay,
+                  onDoubleTap: () => _seekBySeconds(-10),
+                  child: const SizedBox.expand(),
+                ),
+              ),
+              Expanded(
+                child: GestureDetector(
+                  behavior: HitTestBehavior.opaque,
+                  onTap: _togglePlay,
+                  onDoubleTap: () => _seekBySeconds(10),
+                  child: const SizedBox.expand(),
+                ),
+              ),
+            ],
           ),
 
           // Spinner only until first decoded frame.

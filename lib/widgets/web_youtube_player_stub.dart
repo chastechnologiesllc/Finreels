@@ -15,4 +15,4 @@ Widget buildWebYoutubePlayer({
   );
 }
 
-void webYoutubeCommand(String videoId, String func) {}
+void webYoutubeCommand(String videoId, String func, [List<Object>? args]) {}

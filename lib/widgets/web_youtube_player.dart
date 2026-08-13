@@ -24,10 +24,13 @@ class WebYoutubePlayer extends StatelessWidget {
     super.key,
   });
 
-  /// Send playVideo / pauseVideo to the embed (web only).
-  static void command(String videoId, String func) {
+  /// Send a player command to the embed (web only).
+  /// Examples: playVideo, pauseVideo, unMute, setVolume, seekTo.
+  /// [args] are forwarded as the YouTube IFrame API args array
+  /// (e.g. seekTo → [seconds, allowSeekAhead]).
+  static void command(String videoId, String func, [List<Object>? args]) {
     if (!kIsWeb) return;
-    impl.webYoutubeCommand(videoId, func);
+    impl.webYoutubeCommand(videoId, func, args);
   }
 
   @override

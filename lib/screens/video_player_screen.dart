@@ -248,27 +248,59 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       _intendedPlaying = true;
       _playing = true;
     });
-    _controller
-      ..seekTo(Duration.zero)
-      ..play();
+    if (kIsWeb) {
+      WebYoutubePlayer.command(widget.video.id, 'seekTo', [0, true]);
+      WebYoutubePlayer.command(widget.video.id, 'playVideo');
+      WebYoutubePlayer.command(widget.video.id, 'unMute');
+    } else {
+      _controller
+        ..seekTo(Duration.zero)
+        ..play();
+    }
   }
 
   void _seekTo(double fraction) {
     final dur = _durationNotifier.value;
-    if (dur.inMilliseconds > 0) {
-      _controller.seekTo(Duration(
-          milliseconds: (fraction * dur.inMilliseconds).round()));
+    if (dur.inMilliseconds <= 0) return;
+    final target = Duration(
+        milliseconds: (fraction * dur.inMilliseconds).round());
+    if (kIsWeb) {
+      // YouTube IFrame API: seekTo(seconds, allowSeekAhead)
+      WebYoutubePlayer.command(
+        widget.video.id,
+        'seekTo',
+        [target.inMilliseconds / 1000.0, true],
+      );
+      _positionNotifier.value = target;
+      _progressNotifier.value = fraction.clamp(0.0, 1.0);
+    } else {
+      _controller.seekTo(target);
     }
   }
 
   /// Double-tap left → rewind 10s; double-tap right → forward 10s.
+  /// Works on Android, iOS (YoutubePlayerController) and Web (IFrame API).
   void _seekBySeconds(int seconds) {
     if (!_hasStartedPlaying || _ended) return;
     final pos = _positionNotifier.value;
     final dur = _durationNotifier.value;
-    final targetMs = (pos.inMilliseconds + seconds * 1000)
-        .clamp(0, dur.inMilliseconds > 0 ? dur.inMilliseconds : 0);
-    _controller.seekTo(Duration(milliseconds: targetMs));
+    final maxMs = dur.inMilliseconds > 0 ? dur.inMilliseconds : 0;
+    final targetMs =
+        (pos.inMilliseconds + seconds * 1000).clamp(0, maxMs);
+    final target = Duration(milliseconds: targetMs);
+    if (kIsWeb) {
+      WebYoutubePlayer.command(
+        widget.video.id,
+        'seekTo',
+        [targetMs / 1000.0, true],
+      );
+      _positionNotifier.value = target;
+      if (maxMs > 0) {
+        _progressNotifier.value = (targetMs / maxMs).clamp(0.0, 1.0);
+      }
+    } else {
+      _controller.seekTo(target);
+    }
   }
 
   /// In-place landscape: keep the SAME controller so the video continues

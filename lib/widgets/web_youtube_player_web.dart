@@ -181,19 +181,30 @@ void _post(web.HTMLIFrameElement iframe, String json) {
   }
 }
 
-void webYoutubeCommand(String videoId, String func) {
+void webYoutubeCommand(String videoId, String func, [List<Object>? args]) {
   try {
-    final known = _iframes[videoId];
-    if (known != null) {
+    final argList = args ?? const <Object>[];
+    // setVolume defaults to 100 when no args provided (legacy call sites).
+    final effectiveArgs = (func == 'setVolume' && argList.isEmpty)
+        ? <Object>[100]
+        : argList;
+    final argsJson = effectiveArgs
+        .map((a) => a is String ? '"$a"' : a.toString())
+        .join(',');
+    final payload =
+        '{"event":"command","func":"$func","args":[$argsJson]}';
+
+    void send(web.HTMLIFrameElement iframe) {
       _post(
-        known,
+        iframe,
         '{"event":"listening","id":"$videoId","channel":"widget"}',
       );
-      if (func == 'setVolume') {
-        _post(known, '{"event":"command","func":"setVolume","args":[100]}');
-      } else {
-        _post(known, '{"event":"command","func":"$func","args":[]}');
-      }
+      _post(iframe, payload);
+    }
+
+    final known = _iframes[videoId];
+    if (known != null) {
+      send(known);
       return;
     }
     final frames = web.document.querySelectorAll('iframe');
@@ -204,15 +215,7 @@ void webYoutubeCommand(String videoId, String func) {
       final iframe = el as web.HTMLIFrameElement;
       if (!iframe.src.contains(videoId)) continue;
       _iframes[videoId] = iframe;
-      _post(
-        iframe,
-        '{"event":"listening","id":"$videoId","channel":"widget"}',
-      );
-      if (func == 'setVolume') {
-        _post(iframe, '{"event":"command","func":"setVolume","args":[100]}');
-      } else {
-        _post(iframe, '{"event":"command","func":"$func","args":[]}');
-      }
+      send(iframe);
     }
   } on Object {
     // ignore
