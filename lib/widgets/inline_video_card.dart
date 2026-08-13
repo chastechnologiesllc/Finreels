@@ -629,11 +629,12 @@ class _InlineVideoCardState extends State<InlineVideoCard>
               ),
 
             // ── Layer 4: FinReels watermark — static, always visible once
-            // video is revealed. Flush corner, top-left rounded only.
+            // video is revealed. Fully rounded; slight inset so corners
+            // are not clipped by the player edge.
             if (_expanded && !_ended && _revealPlayer)
               const Positioned(
-                right: 0,
-                bottom: 0,
+                right: 8,
+                bottom: 8,
                 child: FinReelsWatermark(),
               ),
 

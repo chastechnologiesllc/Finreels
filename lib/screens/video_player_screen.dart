@@ -24,8 +24,10 @@ import 'channel_videos_screen.dart';
 /// In-app video player (Round 16 — sound, timed watermark, in-place landscape).
 ///
 /// • Starts with sound; unMute+setVolume retried briefly (package quirk).
-/// • FinReels watermark only while YouTube logo is expected (paused / first
-///   ~4s of play), theme-aware, sharp corners.
+/// • Portrait video tab: no FinReels watermark.
+/// • Landscape: watermark while YT logo is expected (paused / first ~4s),
+///   fully rounded, shifted right + down.
+/// • Double-tap left/right seeks ±10 seconds (Facebook-style).
 /// • Fullscreen is in-place landscape on the SAME controller so playback
 ///   continues without restart (no second WebView).
 /// • "See more" suggested videos from other channels in the category.
@@ -259,6 +261,16 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     }
   }
 
+  /// Double-tap left → rewind 10s; double-tap right → forward 10s.
+  void _seekBySeconds(int seconds) {
+    if (!_hasStartedPlaying || _ended) return;
+    final pos = _positionNotifier.value;
+    final dur = _durationNotifier.value;
+    final targetMs = (pos.inMilliseconds + seconds * 1000)
+        .clamp(0, dur.inMilliseconds > 0 ? dur.inMilliseconds : 0);
+    _controller.seekTo(Duration(milliseconds: targetMs));
+  }
+
   /// In-place landscape: keep the SAME controller so the video continues
   /// without restarting. Only this screen rotates; the rest of the app stays
   /// portrait when we leave.
@@ -375,9 +387,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
             ),
 
             if (!_isLandscape) ...[
-            // Slim accent under the player (not a black bar).
-            Container(height: 2, color: widget.channel.accentColor),
-
             Expanded(
               child: SingleChildScrollView(
                 physics: const ClampingScrollPhysics(),
@@ -629,16 +638,16 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
           if (_ended) _buildEndOverlay(),
           // Flutter owns play/pause on all platforms.
           if (!_ended) _buildControls(context),
-          // Watermark AFTER controls so it renders above the gradient.
-          // Portrait:  right 58, bottom 18  (device-confirmed)
-          // Landscape: right 56, bottom 28  (device-confirmed)
-          if (_hasStartedPlaying &&
+          // Watermark: hidden on portrait video tab; shown only in landscape
+          // (shifted further right + down to cover the YT logo cleanly).
+          if (_isLandscape &&
+              _hasStartedPlaying &&
               !_ended &&
               (_showYtCover || (!_playing && !kIsWeb)))
-            Positioned(
-              right: _isLandscape ? 56 : 58,
-              bottom: _isLandscape ? 28 : 18,
-              child: const FinReelsWatermark(),
+            const Positioned(
+              right: 40,
+              bottom: 36,
+              child: FinReelsWatermark(),
             ),
           if (_isLandscape)
             Positioned(
@@ -662,10 +671,27 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     return Stack(
       fit: StackFit.expand,
       children: [
-        GestureDetector(
-          onTap: _togglePlay,
-          behavior: HitTestBehavior.opaque,
-          child: const SizedBox.expand(),
+        // Split hit targets: single-tap toggles play; double-tap left/right
+        // seeks ±10s (Facebook / Instagram style).
+        Row(
+          children: [
+            Expanded(
+              child: GestureDetector(
+                behavior: HitTestBehavior.opaque,
+                onTap: _togglePlay,
+                onDoubleTap: () => _seekBySeconds(-10),
+                child: const SizedBox.expand(),
+              ),
+            ),
+            Expanded(
+              child: GestureDetector(
+                behavior: HitTestBehavior.opaque,
+                onTap: _togglePlay,
+                onDoubleTap: () => _seekBySeconds(10),
+                child: const SizedBox.expand(),
+              ),
+            ),
+          ],
         ),
         if (_showCenterIcon && _hasStartedPlaying)
           IgnorePointer(

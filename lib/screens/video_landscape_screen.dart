@@ -24,8 +24,8 @@ import '../widgets/finreels_watermark.dart';
 /// • Controller is created one frame after orientation lock to avoid the
 ///   "stuck poster" bug that occurs when WebView mounts into an unsettled
 ///   landscape surface.
-/// • FinReels watermark at right: 56, bottom: 28 — device-confirmed position
-///   that fully covers the YouTube native logo in landscape mode.
+/// • FinReels watermark at right: 40, bottom: 36 — shifted further right +
+///   down so the fully-rounded chip covers the YouTube native logo.
 class VideoLandscapeScreen extends StatefulWidget {
   final String videoId;
   final Duration startAt;
@@ -163,6 +163,16 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
     });
   }
 
+  /// Double-tap left → rewind 10s; double-tap right → forward 10s.
+  void _seekBySeconds(int seconds) {
+    if (_controller == null || !_hasStarted) return;
+    final pos = _position.value;
+    final dur = _duration.value;
+    final targetMs = (pos.inMilliseconds + seconds * 1000)
+        .clamp(0, dur.inMilliseconds > 0 ? dur.inMilliseconds : 0);
+    _controller!.seekTo(Duration(milliseconds: targetMs));
+  }
+
   String _fmt(Duration d) {
     final h = d.inHours;
     final m = d.inMinutes.remainder(60).toString().padLeft(2, '0');
@@ -238,11 +248,26 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
                   color: AppTheme.gold, strokeWidth: 3),
             ),
 
-          // ── Tap to toggle play / pause ────────────────────────────────
-          GestureDetector(
-            behavior: HitTestBehavior.opaque,
-            onTap: _toggle,
-            child: const SizedBox.expand(),
+          // ── Tap to toggle play / pause; double-tap left/right ±10s ───
+          Row(
+            children: [
+              Expanded(
+                child: GestureDetector(
+                  behavior: HitTestBehavior.opaque,
+                  onTap: _toggle,
+                  onDoubleTap: () => _seekBySeconds(-10),
+                  child: const SizedBox.expand(),
+                ),
+              ),
+              Expanded(
+                child: GestureDetector(
+                  behavior: HitTestBehavior.opaque,
+                  onTap: _toggle,
+                  onDoubleTap: () => _seekBySeconds(10),
+                  child: const SizedBox.expand(),
+                ),
+              ),
+            ],
           ),
 
           // ── Animated play/pause icon ──────────────────────────────────
@@ -365,11 +390,11 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
 
           // FinReels watermark — LAST in Stack so it renders above the
           // progress bar and all other overlays.
-          // right:56, bottom:28 confirmed on device for landscape.
+          // Shifted further right + down to cover the YT logo cleanly.
           if (_hasStarted && (_showYtCover || !_playing))
             const Positioned(
-              right: 56,
-              bottom: 28,
+              right: 40,
+              bottom: 36,
               child: FinReelsWatermark(),
             ),
         ],
