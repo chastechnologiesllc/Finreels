@@ -748,7 +748,8 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                   ),
                 ),
               ),
-          ],
+            ],
+          ),
         ),
       ),
     );

@@ -187,12 +187,14 @@ void webYoutubeSeek(String videoId, int seconds) {
     if (iframe == null) return;
     _post(
       iframe,
-      '{\"event\":\"command\",\"func\":\"seekTo\",\"args\":[$seconds,true]}',
+      '{"event":"command","func":"seekTo","args":[$seconds,true]}',
     );
   } on Object {
     // ignore
   }
 }
+
+void webYoutubeCommand(String videoId, String func) {
   try {
     final known = _iframes[videoId];
     if (known != null) {
