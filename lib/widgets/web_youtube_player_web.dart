@@ -181,7 +181,18 @@ void _post(web.HTMLIFrameElement iframe, String json) {
   }
 }
 
-void webYoutubeCommand(String videoId, String func) {
+void webYoutubeSeek(String videoId, int seconds) {
+  try {
+    final iframe = _iframes[videoId];
+    if (iframe == null) return;
+    _post(
+      iframe,
+      '{\"event\":\"command\",\"func\":\"seekTo\",\"args\":[$seconds,true]}',
+    );
+  } on Object {
+    // ignore
+  }
+}
   try {
     final known = _iframes[videoId];
     if (known != null) {

@@ -326,9 +326,12 @@ class _ShortPageState extends State<_ShortPage>
 
   bool _showPauseIcon = false;
   bool _showPlayFeedback = false;
+  bool _showSeekLeft  = false;
+  bool _showSeekRight = false;
   int _tapCount = 0;
   Timer? _pauseIconTimer;
   Timer? _playFeedbackTimer;
+  Timer? _seekFeedbackTimer;
 
   int _lastMs = 0;
   YoutubePlayerController? _boundController;
@@ -468,9 +471,31 @@ class _ShortPageState extends State<_ShortPage>
     WidgetsBinding.instance.removeObserver(this);
     _pauseIconTimer?.cancel();
     _playFeedbackTimer?.cancel();
+    _seekFeedbackTimer?.cancel();
     // Do NOT dispose the controller — the parent pool owns it.
     _boundController?.removeListener(_onUpdate);
     super.dispose();
+  }
+
+  void _seekRelative(int seconds) {
+    if (!_hasVideoStarted) return;
+    if (kIsWeb) {
+      WebYoutubePlayer.seekTo(widget.video.id, seconds);
+    } else {
+      final c = _boundController;
+      if (c == null) return;
+      final pos    = c.value.position;
+      final target = pos + Duration(seconds: seconds);
+      c.seekTo(target.isNegative ? Duration.zero : target);
+    }
+    _seekFeedbackTimer?.cancel();
+    setState(() {
+      _showSeekLeft  = seconds < 0;
+      _showSeekRight = seconds > 0;
+    });
+    _seekFeedbackTimer = Timer(const Duration(milliseconds: 700), () {
+      if (mounted) setState(() { _showSeekLeft = false; _showSeekRight = false; });
+    });
   }
 
   void _togglePlay() {
@@ -536,8 +561,14 @@ class _ShortPageState extends State<_ShortPage>
               child: FittedBox(
                 fit: BoxFit.cover,
                 child: SizedBox(
-                  width: size.width,
-                  height: size.width * (16 / 9),
+                  // 9:16 Shorts content sits in the CENTER of the YouTube
+                  // 16:9 IFrame. To make that content fill the screen width,
+                  // the IFrame must be (16/9)² times the screen width tall
+                  // and (16/9) times the screen width wide. FittedBox.cover
+                  // then scales and clips so the 9:16 content fills 100% of
+                  // the portrait screen — same behaviour as TikTok/Reels.
+                  width: size.height * (16 / 9),
+                  height: size.height,
                   child: YoutubePlayer(
                     controller: controller,
                     thumbnail: const ColoredBox(color: Color(0xFF000000)),
@@ -608,11 +639,66 @@ class _ShortPageState extends State<_ShortPage>
             ),
           ),
 
-          GestureDetector(
-            behavior: HitTestBehavior.opaque,
-            onTap: _togglePlay,
-            child: const SizedBox.expand(),
+          LayoutBuilder(
+            builder: (_, constraints) => GestureDetector(
+              behavior: HitTestBehavior.opaque,
+              onTap: _togglePlay,
+              onDoubleTapDown: (d) {
+                _seekRelative(
+                    d.localPosition.dx < constraints.maxWidth / 2 ? -10 : 10);
+              },
+              onDoubleTap: () {},
+              child: const SizedBox.expand(),
+            ),
           ),
+
+          // Seek feedback overlays
+          if (_showSeekLeft)
+            Align(
+              alignment: Alignment.centerLeft,
+              child: IgnorePointer(
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 24),
+                  child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    Container(
+                      width: 64, height: 64,
+                      decoration: BoxDecoration(
+                        color: Colors.black.withValues(alpha: 0.5),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(Icons.replay_10_rounded,
+                          color: Colors.white, size: 36),
+                    ),
+                    const SizedBox(height: 6),
+                    const Text('-10s', style: TextStyle(color: Colors.white,
+                        fontSize: 12, fontWeight: FontWeight.w600)),
+                  ]),
+                ),
+              ),
+            ),
+          if (_showSeekRight)
+            Align(
+              alignment: Alignment.centerRight,
+              child: IgnorePointer(
+                child: Padding(
+                  padding: const EdgeInsets.only(right: 24),
+                  child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    Container(
+                      width: 64, height: 64,
+                      decoration: BoxDecoration(
+                        color: Colors.black.withValues(alpha: 0.5),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(Icons.forward_10_rounded,
+                          color: Colors.white, size: 36),
+                    ),
+                    const SizedBox(height: 6),
+                    const Text('+10s', style: TextStyle(color: Colors.white,
+                        fontSize: 12, fontWeight: FontWeight.w600)),
+                  ]),
+                ),
+              ),
+            ),
 
           // Spinner only until first decoded frame.
           if (!_hasVideoStarted)
@@ -688,17 +774,14 @@ class _ShortPageState extends State<_ShortPage>
               ),
             ),
 
-          // FinReels watermark for Shorts.
-          // The FittedBox.cover scale factor is screenH / (screenW * 16/9).
-          // On a 360×800dp phone: scale = 800/640 = 1.25, clips 45dp each side.
-          // The YouTube logo at right:8dp in the 360dp IFrame ends up at
-          // right:≈10dp on-screen after clipping — so we anchor at right:0.
-          // Bottom: logo is at bottom:6dp in the IFrame → bottom:8dp on-screen.
-          // On web the logo is visible at the same relative position.
+          // FinReels watermark for Shorts — screen-relative positioning.
+          // With the new SizedBox ratio (size.height × 16/9, size.height),
+          // the YouTube logo is off-screen (clipped by FittedBox).
+          // The watermark serves as branding, shown just above the title bar.
           if (_hasVideoStarted && widget.isActive)
             const Positioned(
-              right: 0,
-              bottom: 8,
+              right: 12,
+              bottom: 100,
               child: FinReelsWatermark(),
             ),
 

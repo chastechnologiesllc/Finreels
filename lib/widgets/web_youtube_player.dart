@@ -30,6 +30,12 @@ class WebYoutubePlayer extends StatelessWidget {
     impl.webYoutubeCommand(videoId, func);
   }
 
+  /// Seek to current position ± [seconds] (web only).
+  static void seekTo(String videoId, int seconds) {
+    if (!kIsWeb) return;
+    impl.webYoutubeSeek(videoId, seconds);
+  }
+
   @override
   Widget build(BuildContext context) {
     if (!kIsWeb) return const SizedBox.shrink();

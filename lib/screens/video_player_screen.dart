@@ -63,8 +63,12 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   bool _playerAttached = false;
   bool _isLandscape = false;
   final GlobalKey _playerKey = GlobalKey();
-  bool _showYtCover = false; // true for ~4 s after play starts + while paused
+  bool _showYtCover = false;
   Timer? _ytCoverTimer;
+  // Double-tap seek feedback
+  bool _showSeekLeft  = false;
+  bool _showSeekRight = false;
+  Timer? _seekFeedbackTimer;
 
   @override
   void initState() {
@@ -178,10 +182,27 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     });
   }
 
+  /// Seek ±[seconds] from current position. Shows a ripple feedback.
+  /// Works on Android, iOS, and Web.
+  void _seekRelative(int seconds) {
+    final pos    = _positionNotifier.value;
+    final target = pos + Duration(seconds: seconds);
+    _controller.seekTo(target.isNegative ? Duration.zero : target);
+    _seekFeedbackTimer?.cancel();
+    setState(() {
+      _showSeekLeft  = seconds < 0;
+      _showSeekRight = seconds > 0;
+    });
+    _seekFeedbackTimer = Timer(const Duration(milliseconds: 700), () {
+      if (mounted) setState(() { _showSeekLeft = false; _showSeekRight = false; });
+    });
+  }
+
   @override
   void dispose() {
     _centerIconTimer?.cancel();
     _ytCoverTimer?.cancel();
+    _seekFeedbackTimer?.cancel();
     _progressNotifier.dispose();
     _positionNotifier.dispose();
     _durationNotifier.dispose();
@@ -375,8 +396,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
             ),
 
             if (!_isLandscape) ...[
-            // Slim accent under the player (not a black bar).
-            Container(height: 2, color: widget.channel.accentColor),
 
             Expanded(
               child: SingleChildScrollView(
@@ -620,8 +639,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                 ),
               ),
             ),
-          // Spinner: only while waiting for first decoded frame on mobile.
-          if (!kIsWeb && _playerAttached && !_hasStartedPlaying && !_ended)
+          // Spinner — shown on mobile AND web while waiting for first frame.
+          if (_playerAttached && !_hasStartedPlaying && !_ended)
             const Center(
               child: CircularProgressIndicator(
                   color: AppTheme.gold, strokeWidth: 3),
@@ -630,13 +649,12 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
           // Flutter owns play/pause on all platforms.
           if (!_ended) _buildControls(context),
           // Watermark AFTER controls so it renders above the gradient.
-          // Portrait:  right 58, bottom 18  (device-confirmed)
-          // Landscape: right 56, bottom 28  (device-confirmed)
+          // Shifted right vs old values so it sits closer to the YT logo.
           if (_hasStartedPlaying &&
               !_ended &&
               (_showYtCover || (!_playing && !kIsWeb)))
             Positioned(
-              right: _isLandscape ? 56 : 58,
+              right: _isLandscape ? 42 : 44,
               bottom: _isLandscape ? 28 : 18,
               child: const FinReelsWatermark(),
             ),
@@ -662,11 +680,91 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     return Stack(
       fit: StackFit.expand,
       children: [
-        GestureDetector(
-          onTap: _togglePlay,
-          behavior: HitTestBehavior.opaque,
-          child: const SizedBox.expand(),
+        // Left half — double-tap = seek back 10 s
+        // Right half — double-tap = seek forward 10 s
+        // Single tap anywhere = play / pause
+        Row(
+          children: [
+            Expanded(
+              child: GestureDetector(
+                behavior: HitTestBehavior.opaque,
+                onTap: _togglePlay,
+                onDoubleTap: () => _seekRelative(-10),
+                child: const SizedBox.expand(),
+              ),
+            ),
+            Expanded(
+              child: GestureDetector(
+                behavior: HitTestBehavior.opaque,
+                onTap: _togglePlay,
+                onDoubleTap: () => _seekRelative(10),
+                child: const SizedBox.expand(),
+              ),
+            ),
+          ],
         ),
+
+        // Seek-back ripple (left side)
+        if (_showSeekLeft)
+          Align(
+            alignment: Alignment.centerLeft,
+            child: IgnorePointer(
+              child: Padding(
+                padding: const EdgeInsets.only(left: 24),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Container(
+                      width: 64, height: 64,
+                      decoration: BoxDecoration(
+                        color: Colors.black.withValues(alpha: 0.45),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(
+                        Icons.replay_10_rounded,
+                        color: Colors.white, size: 36,
+                      ),
+                    ),
+                    const SizedBox(height: 6),
+                    const Text('-10s',
+                        style: TextStyle(color: Colors.white,
+                            fontSize: 12, fontWeight: FontWeight.w600)),
+                  ],
+                ),
+              ),
+            ),
+          ),
+
+        // Seek-forward ripple (right side)
+        if (_showSeekRight)
+          Align(
+            alignment: Alignment.centerRight,
+            child: IgnorePointer(
+              child: Padding(
+                padding: const EdgeInsets.only(right: 24),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Container(
+                      width: 64, height: 64,
+                      decoration: BoxDecoration(
+                        color: Colors.black.withValues(alpha: 0.45),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(
+                        Icons.forward_10_rounded,
+                        color: Colors.white, size: 36,
+                      ),
+                    ),
+                    const SizedBox(height: 6),
+                    const Text('+10s',
+                        style: TextStyle(color: Colors.white,
+                            fontSize: 12, fontWeight: FontWeight.w600)),
+                  ],
+                ),
+              ),
+            ),
+          ),
         if (_showCenterIcon && _hasStartedPlaying)
           IgnorePointer(
             child: Center(

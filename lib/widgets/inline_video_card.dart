@@ -85,9 +85,14 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   bool _revealPlayer = false; // true only after onReady + real frame decoded
   bool _expanded     = false; // true once the user has tapped
   bool _ended        = false;
-  bool _isPlaying    = false; // mirrors PlayerState for play-button visibility
+  bool _isPlaying    = false;
+  bool _showYtCover  = false;
+  bool _showSeekLeft  = false;
+  bool _showSeekRight = false;
   Timer? _revealTimer;
   Timer? _soundRetryTimer;
+  Timer? _ytCoverTimer;
+  Timer? _seekFeedbackTimer;
 
   int _soundRetryCount = 0;
 
@@ -112,6 +117,8 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     widget.activeVideoNotifier.removeListener(_onActiveChanged);
     _revealTimer?.cancel();
     _soundRetryTimer?.cancel();
+    _ytCoverTimer?.cancel();
+    _seekFeedbackTimer?.cancel();
     _controller?.removeListener(_onControllerUpdate);
     _controller?.dispose();
     _controller = null;
@@ -137,6 +144,35 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       _soundRetryCount++;
       _forceSoundOn();
       if (_soundRetryCount >= 8 || !mounted) t.cancel();
+    });
+  }
+
+  void _armYtCover() {
+    _ytCoverTimer?.cancel();
+    if (mounted) setState(() => _showYtCover = true);
+    _ytCoverTimer = Timer(const Duration(seconds: 4), () {
+      if (mounted) setState(() => _showYtCover = false);
+    });
+  }
+
+  /// Double-tap ±10 s seek — works on Android, iOS, and Web.
+  void _seekRelative(int seconds) {
+    if (!_expanded) return;
+    if (kIsWeb) {
+      WebYoutubePlayer.seekTo(widget.video.id, seconds);
+    } else {
+      if (_controller == null) return;
+      final pos    = _controller!.value.position;
+      final target = pos + Duration(seconds: seconds);
+      _controller!.seekTo(target.isNegative ? Duration.zero : target);
+    }
+    _seekFeedbackTimer?.cancel();
+    setState(() {
+      _showSeekLeft  = seconds < 0;
+      _showSeekRight = seconds > 0;
+    });
+    _seekFeedbackTimer = Timer(const Duration(milliseconds: 700), () {
+      if (mounted) setState(() { _showSeekLeft = false; _showSeekRight = false; });
     });
   }
 
@@ -219,16 +255,20 @@ class _InlineVideoCardState extends State<InlineVideoCard>
         _expanded) {
       _revealTimer?.cancel();
       _forceSoundOn();
-      setState(() {
-        _revealPlayer = true;
-        _isPlaying    = true;
-      });
+      setState(() { _revealPlayer = true; _isPlaying = true; });
+      _armYtCover();
     }
 
     final playing = currentState == PlayerState.playing;
     if (playing != _isPlaying && _revealPlayer) {
       setState(() => _isPlaying = playing);
-      if (playing) _forceSoundOn();
+      if (playing) {
+        _armYtCover();
+        _forceSoundOn();
+      } else {
+        _ytCoverTimer?.cancel();
+        if (mounted) setState(() => _showYtCover = true);
+      }
     }
 
     // Ad trigger on playing → paused transition.
@@ -266,6 +306,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   void _tearDownPlayer() {
     _revealTimer?.cancel();
     _soundRetryTimer?.cancel();
+    _ytCoverTimer?.cancel();
     _controller?.removeListener(_onControllerUpdate);
     try { _controller?.pause(); } on Object catch (_) {}
     _controller?.dispose();
@@ -275,6 +316,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
     _expanded     = false;
     _ended        = false;
     _isPlaying    = false;
+    _showYtCover  = false;
     _prevState    = PlayerState.unknown;
     if (mounted) {
       setState(() {});
@@ -307,10 +349,10 @@ class _InlineVideoCardState extends State<InlineVideoCard>
       final firstExpand = !_expanded;
       if (mounted) {
         setState(() {
-          _expanded     = true;
-          _ended        = false;
-          _revealPlayer = true;
-          _isPlaying    = willPlay;
+          _expanded  = true;
+          _ended     = false;
+          // _revealPlayer stays false — set true once the iframe plays (~1.5 s)
+          _isPlaying = willPlay;
         });
         updateKeepAlive();
       }
@@ -328,6 +370,13 @@ class _InlineVideoCardState extends State<InlineVideoCard>
           });
           Future.delayed(const Duration(milliseconds: 1200), () {
             if (mounted) sendPlay();
+          });
+          // Reveal the iframe once it has loaded and started playing.
+          Future.delayed(const Duration(milliseconds: 1500), () {
+            if (mounted && _expanded && !_ended) {
+              setState(() => _revealPlayer = true);
+              _armYtCover();
+            }
           });
         } else {
           sendPlay();
@@ -532,12 +581,19 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   Widget _buildMediaArea(BuildContext context) {
     final media = AspectRatio(
       aspectRatio: 16 / 9,
-      child: GestureDetector(
-        onTap: _onTap,
-        behavior: HitTestBehavior.opaque,
-        child: Stack(
-          fit: StackFit.expand,
-          children: [
+      child: LayoutBuilder(
+        builder: (_, constraints) => GestureDetector(
+          behavior: HitTestBehavior.opaque,
+          onTap: _onTap,
+          onDoubleTapDown: (d) {
+            if (!_expanded) return;
+            _seekRelative(
+                d.localPosition.dx < constraints.maxWidth / 2 ? -10 : 10);
+          },
+          onDoubleTap: () {}, // required for onDoubleTapDown to fire
+          child: Stack(
+            fit: StackFit.expand,
+            children: [
 
             // ── Layer 0: Thumbnail — always mounted ───────────────────────
             CachedNetworkImage(
@@ -591,20 +647,20 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // ── Layer 1b: Web embed ───────────────────────────────────────
+            // ── Layer 1b: Web embed — fades in once iframe is playing ─────
             if (kIsWeb && _expanded)
               Positioned.fill(
-                child: WebYoutubePlayer(
-                  videoId: widget.video.id,
+                child: AnimatedOpacity(
+                  opacity: _revealPlayer ? 1.0 : 0.0,
+                  duration: const Duration(milliseconds: 400),
+                  child: WebYoutubePlayer(
+                    videoId: widget.video.id,
+                  ),
                 ),
               ),
 
-            // ── Layer 2: Spinner — mobile, while waiting for first frame ──
-            if (_expanded &&
-                !kIsWeb &&
-                _controller != null &&
-                !_revealPlayer &&
-                !_ended)
+            // ── Layer 2: Spinner — mobile AND web while loading ───────────
+            if (_expanded && !_revealPlayer && !_ended)
               const Center(
                 child: CircularProgressIndicator(
                     color: AppTheme.gold, strokeWidth: 2.5),
@@ -628,9 +684,12 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // ── Layer 4: FinReels watermark — static, always visible once
-            // video is revealed. Flush corner, top-left rounded only.
-            if (_expanded && !_ended && _revealPlayer)
+            // ── Layer 4: FinReels watermark — timer-based ─────────────────
+            // Shows for ~4 s after play starts and whenever paused.
+            if (_expanded &&
+                !_ended &&
+                _revealPlayer &&
+                (_showYtCover || !_isPlaying))
               const Positioned(
                 right: 0,
                 bottom: 0,
@@ -639,6 +698,56 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 
             // ── Layer 5: end-screen overlay ───────────────────────────────
             if (_ended) _buildEndOverlay(),
+
+            // ── Layer 6: seek feedback (double-tap) ───────────────────────
+            if (_showSeekLeft)
+              Align(
+                alignment: Alignment.centerLeft,
+                child: IgnorePointer(
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 16),
+                    child: Column(mainAxisSize: MainAxisSize.min, children: [
+                      Container(
+                        width: 54, height: 54,
+                        decoration: BoxDecoration(
+                          color: Colors.black.withValues(alpha: 0.5),
+                          shape: BoxShape.circle,
+                        ),
+                        child: const Icon(Icons.replay_10_rounded,
+                            color: Colors.white, size: 30),
+                      ),
+                      const SizedBox(height: 4),
+                      const Text('-10s',
+                          style: TextStyle(color: Colors.white,
+                              fontSize: 11, fontWeight: FontWeight.w600)),
+                    ]),
+                  ),
+                ),
+              ),
+            if (_showSeekRight)
+              Align(
+                alignment: Alignment.centerRight,
+                child: IgnorePointer(
+                  child: Padding(
+                    padding: const EdgeInsets.only(right: 16),
+                    child: Column(mainAxisSize: MainAxisSize.min, children: [
+                      Container(
+                        width: 54, height: 54,
+                        decoration: BoxDecoration(
+                          color: Colors.black.withValues(alpha: 0.5),
+                          shape: BoxShape.circle,
+                        ),
+                        child: const Icon(Icons.forward_10_rounded,
+                            color: Colors.white, size: 30),
+                      ),
+                      const SizedBox(height: 4),
+                      const Text('+10s',
+                          style: TextStyle(color: Colors.white,
+                              fontSize: 11, fontWeight: FontWeight.w600)),
+                    ]),
+                  ),
+                ),
+              ),
           ],
         ),
       ),
