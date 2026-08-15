@@ -25,7 +25,7 @@ import 'channel_videos_screen.dart';
 ///
 /// • Starts with sound; unMute+setVolume retried briefly (package quirk).
 /// • FinReels watermark only while YouTube logo is expected (paused / first
-///   ~4s of play), theme-aware, sharp corners.
+///   ~4s of play). Right-side bar design with gold accent covers the logo.
 /// • Fullscreen is in-place landscape on the SAME controller so playback
 ///   continues without restart (no second WebView).
 /// • "See more" suggested videos from other channels in the category.
@@ -649,14 +649,15 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
           // Flutter owns play/pause on all platforms.
           if (!_ended) _buildControls(context),
           // Watermark AFTER controls so it renders above the gradient.
-          // Shifted right vs old values so it sits closer to the YT logo.
+          // Flush bottom-right — new bar design covers the YouTube logo zone.
+          // Visibility mirrors YouTube logo: ~4 s after play + while paused.
           if (_hasStartedPlaying &&
               !_ended &&
               (_showYtCover || (!_playing && !kIsWeb)))
-            Positioned(
-              right: _isLandscape ? 42 : 44,
-              bottom: _isLandscape ? 28 : 18,
-              child: const FinReelsWatermark(),
+            const Positioned(
+              right: 0,
+              bottom: 0,
+              child: FinReelsWatermark(),
             ),
           if (_isLandscape)
             Positioned(
@@ -935,9 +936,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   }
 }
 
-// ── FinReels watermark chip (covers YouTube logo) ───────────────────────────
-
-// Watermark: see lib/widgets/finreels_watermark.dart — FinReelsWatermark.
+// ── FinReels watermark (covers YouTube logo) ────────────────────────────────
+// Right-side bar design — see lib/widgets/finreels_watermark.dart.
 
 // ── Suggested video tile ────────────────────────────────────────────────────
 

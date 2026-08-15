@@ -774,13 +774,13 @@ class _ShortPageState extends State<_ShortPage>
               ),
             ),
 
-          // FinReels watermark for Shorts — screen-relative positioning.
-          // With the new SizedBox ratio (size.height × 16/9, size.height),
-          // the YouTube logo is off-screen (clipped by FittedBox).
-          // The watermark serves as branding, shown just above the title bar.
+          // FinReels watermark for Shorts — right-side bar design.
+          // YouTube logo is usually off-screen (clipped by FittedBox 9:16 crop),
+          // so this is primarily branding. Shown while the short is active and
+          // has started; sits just above the bottom title / action bar.
           if (_hasVideoStarted && widget.isActive)
             const Positioned(
-              right: 12,
+              right: 0,
               bottom: 100,
               child: FinReelsWatermark(),
             ),

@@ -24,8 +24,8 @@ import '../widgets/finreels_watermark.dart';
 /// • Controller is created one frame after orientation lock to avoid the
 ///   "stuck poster" bug that occurs when WebView mounts into an unsettled
 ///   landscape surface.
-/// • FinReels watermark at right: 56, bottom: 28 — device-confirmed position
-///   that fully covers the YouTube native logo in landscape mode.
+/// • FinReels watermark flush bottom-right — new bar design covers the
+///   YouTube native logo; visibility tied to the same ~4 s / paused timer.
 class VideoLandscapeScreen extends StatefulWidget {
   final String videoId;
   final Duration startAt;
@@ -365,11 +365,12 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
 
           // FinReels watermark — LAST in Stack so it renders above the
           // progress bar and all other overlays.
-          // right:56, bottom:28 confirmed on device for landscape.
+          // Flush bottom-right — new bar design covers the YouTube logo zone.
+          // Visibility mirrors YouTube logo: ~4 s after play + while paused.
           if (_hasStarted && (_showYtCover || !_playing))
             const Positioned(
-              right: 56,
-              bottom: 28,
+              right: 0,
+              bottom: 0,
               child: FinReelsWatermark(),
             ),
         ],

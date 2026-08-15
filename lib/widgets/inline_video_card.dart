@@ -44,8 +44,9 @@ import 'web_youtube_player.dart';
 //    required for Flutter overlay layers (thumbnail, play button, watermark)
 //    to appear ABOVE the WebView on Android.
 //
-// 5. THEME-AWARE WATERMARK (from old)
-//    _InlineFinReelsWatermark adapts bg/fg to dark/light mode.
+// 5. FINREELS WATERMARK (covers YouTube logo)
+//    Right-side dark bar + gold accent + icon/text. Shown ~4 s after play
+//    starts and while paused — same window the YouTube logo is visible.
 //
 // 6. FULLSCREEN via YoutubePlayerBuilder (from old)
 //    Moves the existing WebView into an Overlay — same controller, same
@@ -685,7 +686,9 @@ class _InlineVideoCardState extends State<InlineVideoCard>
               ),
 
             // ── Layer 4: FinReels watermark — timer-based ─────────────────
-            // Shows for ~4 s after play starts and whenever paused.
+            // Right-side bar design covers the YouTube logo zone.
+            // Shows for ~4 s after play starts and whenever paused
+            // (same window the official YouTube logo is on-screen).
             if (_expanded &&
                 !_ended &&
                 _revealPlayer &&
