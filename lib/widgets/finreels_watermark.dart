@@ -2,81 +2,88 @@ import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
-// FinReels watermark — covers YouTube native logo (bottom-right)
+// FinReels watermark — full-width lower-third (covers YouTube logo)
 // ─────────────────────────────────────────────────────────────────────────────
 //
-// DESIGN (matches approved mock)
-//   Dark bar segment with gold top accent edge.
-//   FinReels app icon + "FinReels" text aligned to the RIGHT.
-//   Curved / angled leading edge so it reads as a deliberate lower-third
-//   rather than a plain rectangle.
-//
-//   ┌────────────────────────────────────────────┐
-//   │              video content                 │
-//   │                                            │
-//   │         ╭──────────────────────────────────┤
-//   │         │  (gold edge)     🎬 FinReels     │
-//   └─────────┴──────────────────────────────────┘
-//
-// POSITIONING (call sites)
-//   • inline card      : Positioned(right: 0, bottom: 0)
-//   • video player     : Positioned(right: 0, bottom: 0)  [was offset]
-//   • landscape        : Positioned(right: 0, bottom: 0)  [was offset]
-//   • shorts           : Positioned(right: 0, bottom: …)
-//
-// VISIBILITY (owned by each screen — do not hardcode timers here)
-//   Appears while the YouTube logo is expected on-screen:
-//     • first ~4 s after play starts  (_showYtCover)
-//     • while paused
-//   Disappears when the YouTube logo is hidden by the official player.
+// DESIGN (exact match to approved mock)
+//   Full-width bar across the bottom of the player.
+//   Gold rim along the top with a smooth center notch/curve.
+//   FinReels rounded icon + "FinReels" text on the RIGHT.
+//   Left side of the bar is solid fill (same chrome).
 //
 // THEME
-//   Always dark chrome + gold accent so it stays legible on any frame.
+//   Light → white bar, dark text
+//   Dark  → black bar, white text
+//   Gold accent always (AppTheme.gold)
+//
+// POSITIONING (call sites MUST use full width)
+//   Positioned(left: 0, right: 0, bottom: 0, child: FinReelsWatermark())
+//
+// VISIBILITY (owned by each screen)
+//   ~4 s after play starts + while paused (same window as YouTube logo)
 // ─────────────────────────────────────────────────────────────────────────────
 
 class FinReelsWatermark extends StatelessWidget {
   const FinReelsWatermark({super.key});
 
-  static const double _barHeight = 36;
-  static const double _iconSize = 20;
-  static const Color _barBg = Color(0xF2000000); // near-opaque black
+  static const double barHeight = 40;
+  static const double _iconSize = 22;
   static const Color _gold = AppTheme.gold;
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final bg = isDark ? const Color(0xF2000000) : const Color(0xF2FFFFFF);
+    final fg = isDark ? Colors.white : const Color(0xFF1A1A1A);
+
     return SizedBox(
-      height: _barHeight,
+      height: barHeight,
+      width: double.infinity,
       child: CustomPaint(
-        painter: _WatermarkBarPainter(),
-        child: Padding(
-          // Push content to the right; leave room for the angled leading edge.
-          padding: const EdgeInsets.only(left: 28, right: 12),
-          child: Row(
-            mainAxisSize: MainAxisSize.min,
-            mainAxisAlignment: MainAxisAlignment.end,
-            children: [
-              Image.asset(
-                'assets/icons/app_icon.png',
-                width: _iconSize,
-                height: _iconSize,
-                errorBuilder: (_, __, ___) => const Icon(
-                  Icons.play_arrow_rounded,
-                  color: _gold,
-                  size: _iconSize,
+        painter: _FullBarPainter(bg: bg, gold: _gold),
+        child: Align(
+          alignment: Alignment.centerRight,
+          child: Padding(
+            padding: const EdgeInsets.only(right: 14),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // Rounded FinReels icon
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(6),
+                  child: Image.asset(
+                    'assets/icons/app_icon.png',
+                    width: _iconSize,
+                    height: _iconSize,
+                    fit: BoxFit.cover,
+                    errorBuilder: (_, __, ___) => Container(
+                      width: _iconSize,
+                      height: _iconSize,
+                      decoration: BoxDecoration(
+                        color: _gold,
+                        borderRadius: BorderRadius.circular(6),
+                      ),
+                      child: Icon(
+                        Icons.play_arrow_rounded,
+                        color: isDark ? Colors.black : Colors.white,
+                        size: 16,
+                      ),
+                    ),
+                  ),
                 ),
-              ),
-              const SizedBox(width: 7),
-              const Text(
-                'FinReels',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 14,
-                  fontWeight: FontWeight.w700,
-                  letterSpacing: 0.3,
-                  height: 1.0,
+                const SizedBox(width: 8),
+                Text(
+                  'FinReels',
+                  style: TextStyle(
+                    color: fg,
+                    fontSize: 15,
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: 0.2,
+                    height: 1.0,
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
@@ -84,58 +91,97 @@ class FinReelsWatermark extends StatelessWidget {
   }
 }
 
-/// Paints the dark bar body + gold accent edge with an angled leading cut.
-class _WatermarkBarPainter extends CustomPainter {
+/// Full-width bar with gold top rim and a smooth center notch (matches mock).
+class _FullBarPainter extends CustomPainter {
+  final Color bg;
+  final Color gold;
+
+  const _FullBarPainter({required this.bg, required this.gold});
+
   @override
   void paint(Canvas canvas, Size size) {
     final w = size.width;
     final h = size.height;
 
-    // Angled leading edge (mirrors the mock: left side curves up).
-    // The cut starts ~18 px in from the left at the top and meets the
-    // bottom-left corner, giving the bar its distinctive shape.
-    const cut = 18.0;
+    // Notch geometry — smooth valley in the center of the top edge.
+    final notchCenter = w * 0.42;
+    final notchHalfW = w * 0.13;
+    final notchDepth = h * 0.55;
 
-    final path = Path()
-      ..moveTo(cut, 0)
-      ..lineTo(w, 0)
-      ..lineTo(w, h)
-      ..lineTo(0, h)
-      ..lineTo(cut, 0)
-      ..close();
+    final path = Path();
+
+    path.moveTo(0, h);
+    path.lineTo(0, 0);
+
+    // Top edge left segment
+    path.lineTo(notchCenter - notchHalfW, 0);
+
+    // Smooth notch (cubic curves down then up)
+    path.cubicTo(
+      notchCenter - notchHalfW * 0.45,
+      0,
+      notchCenter - notchHalfW * 0.35,
+      notchDepth,
+      notchCenter,
+      notchDepth,
+    );
+    path.cubicTo(
+      notchCenter + notchHalfW * 0.35,
+      notchDepth,
+      notchCenter + notchHalfW * 0.45,
+      0,
+      notchCenter + notchHalfW,
+      0,
+    );
+
+    // Top edge right segment → top-right corner
+    path.lineTo(w, 0);
+    path.lineTo(w, h);
+    path.close();
 
     // Fill
-    final fill = Paint()
-      ..color = FinReelsWatermark._barBg
-      ..style = PaintingStyle.fill;
-    canvas.drawPath(path, fill);
-
-    // Gold accent along the top edge only (the visible “rim”).
-    final gold = Paint()
-      ..color = FinReelsWatermark._gold
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 1.6
-      ..strokeCap = StrokeCap.round;
-
-    final topEdge = Path()
-      ..moveTo(cut, 0.8)
-      ..lineTo(w, 0.8);
-    canvas.drawPath(topEdge, gold);
-
-    // Subtle gold highlight on the angled leading edge.
-    final leadEdge = Path()
-      ..moveTo(0, h)
-      ..lineTo(cut, 0.8);
     canvas.drawPath(
-      leadEdge,
+      path,
       Paint()
-        ..color = FinReelsWatermark._gold.withValues(alpha: 0.85)
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 1.4
-        ..strokeCap = StrokeCap.round,
+        ..color = bg
+        ..style = PaintingStyle.fill
+        ..isAntiAlias = true,
     );
+
+    // Gold rim along the entire top edge (including the notch curve)
+    final goldPaint = Paint()
+      ..color = gold
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 1.8
+      ..strokeCap = StrokeCap.round
+      ..strokeJoin = StrokeJoin.round
+      ..isAntiAlias = true;
+
+    final rim = Path();
+    rim.moveTo(0, 0.9);
+    rim.lineTo(notchCenter - notchHalfW, 0.9);
+    rim.cubicTo(
+      notchCenter - notchHalfW * 0.45,
+      0.9,
+      notchCenter - notchHalfW * 0.35,
+      notchDepth + 0.5,
+      notchCenter,
+      notchDepth + 0.5,
+    );
+    rim.cubicTo(
+      notchCenter + notchHalfW * 0.35,
+      notchDepth + 0.5,
+      notchCenter + notchHalfW * 0.45,
+      0.9,
+      notchCenter + notchHalfW,
+      0.9,
+    );
+    rim.lineTo(w, 0.9);
+
+    canvas.drawPath(rim, goldPaint);
   }
 
   @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
+  bool shouldRepaint(covariant _FullBarPainter old) =>
+      old.bg != bg || old.gold != gold;
 }

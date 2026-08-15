@@ -694,6 +694,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 _revealPlayer &&
                 (_showYtCover || !_isPlaying))
               const Positioned(
+                left: 0,
                 right: 0,
                 bottom: 0,
                 child: FinReelsWatermark(),

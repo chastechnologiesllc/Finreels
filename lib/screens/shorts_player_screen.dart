@@ -780,6 +780,7 @@ class _ShortPageState extends State<_ShortPage>
           // has started; sits just above the bottom title / action bar.
           if (_hasVideoStarted && widget.isActive)
             const Positioned(
+              left: 0,
               right: 0,
               bottom: 100,
               child: FinReelsWatermark(),

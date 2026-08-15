@@ -655,6 +655,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               !_ended &&
               (_showYtCover || (!_playing && !kIsWeb)))
             const Positioned(
+              left: 0,
               right: 0,
               bottom: 0,
               child: FinReelsWatermark(),
