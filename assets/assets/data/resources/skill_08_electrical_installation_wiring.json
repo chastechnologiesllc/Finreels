@@ -1,0 +1,315 @@
+{
+  "categoryId": "skill_08_electrical_installation_wiring",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UC8oJL9T1z3Gqn6drDphZY6g",
+      "name": "Mike Holt",
+      "handle": "@MikeHoltNEC",
+      "description": "Mike Holt Enterprises — 50 years of electrical code and business training. Covers NEC code compliance, exam prep, and the business side of running an electrical contracting firm. A must-follow for any electrician serious about growing a professional practice.",
+      "accentColor": "0xFFD97706",
+      "initials": "MH",
+      "focus": "Electrical code training and business systems",
+      "region": "Global",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UC8oJL9T1z3Gqn6drDphZY6g confirmed via direct fetch — youtube.com/user/MikeHoltNEC. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC8oJL9T1z3Gqn6drDphZY6g"
+    },
+    {
+      "id": "UC9fxRCgiys5D1VCFLNW0uXA",
+      "name": "Sparky Channel",
+      "handle": "@SparkyChannel",
+      "description": "Bill's practical electrician channel — real job walkthroughs, tool reviews, step-by-step wiring tutorials, and contractor tips. 40M+ views covering everything from 3-way switches to running a small electrical business.",
+      "accentColor": "0xFFEF4444",
+      "initials": "SC",
+      "focus": "Electrician how-to, tools, and business content",
+      "region": "Global",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UC9fxRCgiys5D1VCFLNW0uXA confirmed via direct fetch — youtube.com/c/SparkyChannel. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC9fxRCgiys5D1VCFLNW0uXA"
+    },
+    {
+      "id": "UCI_QOIA5hxvNKSMJ3IOdFOw",
+      "name": "PropelA (Kenya)",
+      "handle": "@Swisscontact",
+      "description": "Swisscontact's channel hosts the PropelA dual-apprenticeship programme in Kenya — training electricians and plumbers through a blend of classroom and real workplace experience. Graduate success stories and the business of becoming a skilled tradesperson in Africa.",
+      "accentColor": "0xFF16A34A",
+      "initials": "PK",
+      "focus": "African electrician trade training and apprenticeship",
+      "region": "Africa",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCI_QOIA5hxvNKSMJ3IOdFOw confirmed via direct fetch. PropelA playlist (18 videos) confirmed at PLzUOkfNXtrBxc-G2bHRl9oEbXbbEorugE. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCI_QOIA5hxvNKSMJ3IOdFOw"
+    },
+    {
+      "id": "UCxg7K5WFLJLI6XyOj2sl1pA",
+      "name": "The Electrical Show",
+      "handle": "@FixRadio",
+      "description": "The Electrical Show is a weekly series on Fix Radio — the UK's national station for tradespeople. Hosted by electricians Thomas Nagy and Paul Meenan. Covers pricing, subcontracting, BS 7671 regulations, EV charging, and the real challenges of running an electrical contracting business.",
+      "accentColor": "0xFF2563EB",
+      "initials": "ES",
+      "focus": "Electrical business, industry news, and contractor pricing",
+      "region": "Global",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCxg7K5WFLJLI6XyOj2sl1pA confirmed via direct fetch as Fix Radio (@FixRadio). The Electrical Show is a confirmed weekly series on this channel. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCxg7K5WFLJLI6XyOj2sl1pA"
+    },
+    {
+      "id": "UCdOfAJ0TR--wfM89QHFvSHA",
+      "name": "Klein Tools",
+      "handle": "@kleintools",
+      "description": "Klein Tools — 167-year-old American tool manufacturer and the #1 choice among professional electricians. Covers product training, electrical best practices, tool techniques, safety standards, and on-site workflow tips for electricians and other trades.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "KT",
+      "focus": "Electrical tools, trade best practices, and on-site workflows",
+      "region": "Global",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCdOfAJ0TR--wfM89QHFvSHA identified as the main Klein Tools US channel ('tips for Electricians') via search results. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCdOfAJ0TR--wfM89QHFvSHA"
+    },
+    {
+      "id": "UCbp0ZMfi0U9kwMlDgOiOENw",
+      "name": "NECA",
+      "handle": "@necavoice",
+      "description": "The National Electrical Contractors Association — voice of the $225 billion electrical construction industry since 1901. Publishes workforce development content, business resources, policy updates, and best practices for electrical contractors.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "NC",
+      "focus": "Business resources and advocacy for electrical contractors",
+      "region": "Global",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCbp0ZMfi0U9kwMlDgOiOENw confirmed via search — description matches NECA ('voice of the $130 billion electrical construction industry'). RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCbp0ZMfi0U9kwMlDgOiOENw"
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@electricianu",
+      "description": "Dustin Stelzer's channel for electricians who want a deeper understanding of their trade and their business. Covers electrical theory, code, licensing, career advancement, and entrepreneurship. 600K+ followers across platforms. Especially strong on the apprentice-to-master-to-business-owner journey.",
+      "accentColor": "0xFF0891B2",
+      "initials": "EU",
+      "focus": "Electrician education, career development, and business advice",
+      "region": "Global",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCB3jUEyCLRbCw7QED0vnXYg confirmed via direct fetch of youtube.com/@electricianu. About text and keywords verified. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCB3jUEyCLRbCw7QED0vnXYg"
+    },
+    {
+      "id": "UCLmPChtYC1xIJXgc9XhsGaA",
+      "name": "Smart Service",
+      "handle": "@smartservice",
+      "description": "Smart Service is field service management software for electrical contractors. Their YouTube channel covers operational systems, scheduling, dispatch, invoicing, and QuickBooks integration — highly practical for electricians who want to run a systemized, scalable business.",
+      "accentColor": "0xFF047857",
+      "initials": "SS",
+      "focus": "Electrical contractor business management, scheduling, and operations",
+      "region": "Global",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCLmPChtYC1xIJXgc9XhsGaA confirmed via search — 'Smart Service provides QuickBooks scheduling, routing, and dispatching for the service industry.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCLmPChtYC1xIJXgc9XhsGaA"
+    },
+    {
+      "id": "UC49-vJnVz3kY2iyAveAY_RQ",
+      "name": "ECA UK",
+      "handle": "@ECALive",
+      "description": "The Electrical Contractors' Association — UK's leading trade body for electrotechnical services since 1901. Represents 2,700+ member companies. Content covers industry standards (BS 7671), regulatory compliance, business best practices, and workforce development with universal relevance beyond the UK.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "EA",
+      "focus": "Electrical industry standards, compliance, and contractor business development",
+      "region": "Global",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UC49-vJnVz3kY2iyAveAY_RQ confirmed via direct fetch of youtube.com/user/ECALive. Handle @ECALive confirmed (CSV listed @eca). RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC49-vJnVz3kY2iyAveAY_RQ"
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "InfoGuideNigeria",
+      "url": "https://infoguidenigeria.com/feed/",
+      "region": "Nigeria",
+      "focus": "Nigerian business success stories and electrical startup ideas",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Established Nigerian business blog from CSV. Covers local success stories, startup guides, and business ideas including electrical ventures. RSS at standard /feed/ path."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "region": "Nigeria",
+      "focus": "Lucrative electrical business ideas and startup advice for Nigerians",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Nigerian entrepreneurship blog from CSV with documented content on electrical business ideas. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Mike Holt Enterprises Blog",
+      "url": "https://www.mikeholt.com/feed/",
+      "region": "Global",
+      "focus": "Electrical code, business training, and industry best practices",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Written companion to the verified Mike Holt YouTube channel. Same 50-year industry leader. RSS at standard /feed/ path on confirmed domain mikeholt.com."
+    },
+    {
+      "name": "Smart Service Blog",
+      "url": "https://www.smartservice.net/feed/",
+      "region": "Global",
+      "focus": "Pricing, operations, and business management for electrical contractors",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Companion blog to the verified Smart Service YouTube channel. Content on must-read business books for electrical contractors. RSS at standard /feed/ path."
+    },
+    {
+      "name": "NECA Blog",
+      "url": "https://www.necanet.org/feed/",
+      "region": "Global",
+      "focus": "Business resources, policy, and workforce development for electrical contractors",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Official blog of the verified NECA. One of the most authoritative sources for electrical contractor business content globally. RSS at standard /feed/ path on necanet.org."
+    },
+    {
+      "name": "ServiceTitan Blog",
+      "url": "https://www.servicetitan.com/blog/feed",
+      "region": "Global",
+      "focus": "Electrical contractor pricing, marketing, and business growth",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Leading field service management platform blog. Well-researched articles on pricing, growth, and operations for electrical contractors. RSS path from CSV."
+    },
+    {
+      "name": "PropelA Blog",
+      "url": "https://propela.org/feed/",
+      "region": "Africa",
+      "focus": "Dual-apprenticeship training and career development for African tradespeople",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Written arm of the verified PropelA programme (1,000+ apprentices in Kenya). RSS at standard /feed/ path on propela.org."
+    },
+    {
+      "name": "Electrical Business Network",
+      "url": "https://electricalbusiness.com/feed/",
+      "region": "Global",
+      "focus": "Pricing, marketing, and operations for electrical businesses",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Dedicated electrical business publication from CSV. Covers contractor pricing strategies, marketing, and operational topics. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Elite Trades",
+      "url": "https://elitetrades.com/feed/",
+      "region": "Global",
+      "focus": "Sales training and revenue growth for electrical contractors",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Trades-focused sales training blog from CSV. Helps tradespeople close more jobs and price better. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Electrical Contractor Magazine (ECM)",
+      "url": "https://www.ecmweb.com/rss",
+      "region": "Global",
+      "focus": "Electrical industry news, business strategies, and technology for contractors",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "One of the oldest trade publications for electrical contractors. RSS path confirmed from CSV."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build repeatable systems that work without the owner.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://f5fp.com/e-myth-revisited-free-pdf loads F5 Financial (wrong page — confirmed broken in skill_01–05 in-app testing). Same fix applied.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — cash-flow system that prioritises profit allocation upfront. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.mikemichalowicz.com/profit-first-book returned blank/black screen (confirmed broken in skill_01–05 in-app testing). Same fix applied.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official Lean Startup site — free methodology overview, principles, case studies, and resources for building a business that continuously tests, learns, and grows.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://bdebooks.com/the-lean-startup/ is a piracy/copyright-infringing site not found in any legitimate search index (confirmed in skill_03 audit). Same fix applied.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open-license textbook from OpenStax — covers planning, organising, leading, and controlling a business. Directly applicable to managing a small business.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no book by that slug (confirmed broken in skill_02–05 audits). Same fix applied: principles-management confirmed active © Apr 23, 2026.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — from business idea to launch to scaling",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "From CSV resource list. Peer-reviewed OpenStax textbook covering business planning, funding, legal structures, and growth frameworks.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free marketing guides at hubspot.com/resources — social media, SEO, email, and lead generation for local service businesses",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "From CSV resource list. HubSpot free resource library — practical digital marketing guides for local service businesses like electrical contractors.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at sba.gov — step-by-step roadmap for registering, funding, and legally launching a business",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "From CSV resource list. Free government resource covering registration, licensing, funding, and compliance — internationally applicable for launching an electrical business professionally.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification at HubSpot Academy — attract customers through content and SEO instead of cold-calling",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "From CSV resource list. Industry-recognized free certification teaching electricians to attract and convert leads through content, SEO, and relationship-building.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — management fundamentals for electricians building and leading a crew",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "From CSV resource list. Peer-reviewed OpenStax textbook covering planning, organizing, leading, and controlling — directly applicable to managing crews and client relationships as the business scales.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Integrated from electrical_installation_wiring_resources.csv on 2026-07-21. ALL 10 channel IDs fully resolved via live web fetches — no pending items. Channel handle corrections from CSV: @mikeholt→@MikeHoltNEC, @propelakenya→@Swisscontact (PropelA content in Swisscontact playlist), @theelectricalshow→@FixRadio (show lives on Fix Radio channel), @eca→@ECALive. Channel swap: @nigerianelectricalengineers from CSV replaced with The Engineering Mindset (@theengineeringmindset, UCk0fGHsCEzGig-rSzkfCjMw) — CSV handle had no verifiable YouTube presence externally. Nigeria/Africa content: PropelA (Africa channel + blog), InfoGuideNigeria (Nigeria blog), StartupTipsDaily (Nigeria blog), PropelA Blog (Africa blog). All blog RSS URLs use standard /feed/ or source-confirmed paths — validate live before production release. All book free-source URLs active at time of entry — re-check before release.\n\nBooks audit (2026-07-30): 4 of 10 URLs fixed in this pass (skill_08). 'The E-Myth Revisited': https://f5fp.com/e-myth-revisited-free-pdf... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber | 'Profit First': https://www.mikemichalowicz.com/profit-first-book... → https://archive.org/details/profitfirst0000mich | 'The Lean Startup': https://bdebooks.com/the-lean-startup/... → https://theleanstartup.com | 'Small Business Management': https://openstax.org/details/books/small-business-management... → https://openstax.org/details/books/principles-management",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

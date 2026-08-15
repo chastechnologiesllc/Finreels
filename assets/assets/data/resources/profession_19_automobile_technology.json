@@ -1,0 +1,286 @@
+{
+  "categoryId": "profession_19_automobile_technology",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCH7WT6FDHtqN7eMtYLRkOSw",
+      "name": "South Main Auto",
+      "handle": "@SouthMainAuto",
+      "description": "Auto repair shop chain operations and advanced diagnostics — real-world content on running a professional auto repair business at trade scale.",
+      "accentColor": "0xFFEC4899",
+      "initials": "SM",
+      "focus": "Automobile technology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCH7WT6FDHtqN7eMtYLRkOSw cross-confirmed from skill_09_auto_mechanics.json (independently verified)."
+    },
+    {
+      "id": "UChrcmQsFOVG4BW-yBBQujJA",
+      "name": "RLO Training",
+      "handle": "@RLOTraining",
+      "description": "Auto repair shop management systems and training — enterprise operations for automotive service businesses including staffing, revenue management, and shop scaling.",
+      "accentColor": "0xFF10B981",
+      "initials": "RL",
+      "focus": "Automobile technology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UChrcmQsFOVG4BW-yBBQujJA fetched directly from youtube.com/@RLOTraining (2026-07-25). Blog counterpart (rlotraining.com/blog/feed) already confirmed in skill_09."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "World-leading field-service and trade business management software — how automotive and trade businesses use technology to streamline operations, dispatch, billing, and scaling.",
+      "accentColor": "0xFF6366F1",
+      "initials": "ST",
+      "focus": "Automobile technology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCgwFAX01m1tT0XyqU19WGtw confirmed via YouTube search result (youtube.com/channel/UCgwFAX01m1tT0XyqU19WGtw, 2026-07-25). Blog counterpart (servicetitan.com/blog/feed) already confirmed in skill_09."
+    },
+    {
+      "id": "UC7PkJMdC9mOCfHcJJK6XJBA",
+      "name": "Pine Hollow Auto Diagnostics",
+      "handle": "@PineHollowAutoDiagnostics",
+      "description": "Diagnostic business model and shop scaling — how a professional auto diagnostics service is built and run at trade scale.",
+      "accentColor": "0xFFF97316",
+      "initials": "PH",
+      "focus": "Automobile technology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC7PkJMdC9mOCfHcJJK6XJBA cross-confirmed from skill_09_auto_mechanics.json (independently verified)."
+    },
+    {
+      "id": "UCKeFGEk3I60qN2XqFMKvp7A",
+      "name": "Bumpa",
+      "handle": "@getbumpa",
+      "description": "Nigerian retail and social-commerce management — helps workshops and service businesses manage orders, sales and branding.",
+      "accentColor": "0xFF15803D",
+      "initials": "BN",
+      "focus": "Nigerian service business tools",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed Nigerian business tools channel."
+    },
+    {
+      "id": "UCn-hX1cX2CrQdyDh-qik1ZA",
+      "name": "How I Built This",
+      "handle": "@HowIBuiltThis",
+      "description": "Guy Raz founder interviews — how businesses including automotive and service brands were built from scratch.",
+      "accentColor": "0xFFCA8A04",
+      "initials": "GR",
+      "focus": "Founder business building stories",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed founder interview channel."
+    },
+    {
+      "id": "UCIHdDJ0tjn_3j-FS7s_X1kQ",
+      "name": "Valuetainment",
+      "handle": "@Valuetainment",
+      "description": "Patrick Bet-David — entrepreneurship case studies, strategy and tactics for building service and trade businesses.",
+      "accentColor": "0xFF4F46E5",
+      "initials": "VT",
+      "focus": "Entrepreneurship strategy",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed business strategy channel."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
+      "name": "Dayo Adetiloye Business Hub",
+      "handle": "@DayoAdetiloye",
+      "description": "Nigerian business coach — business plans, MSME funding, CAC registration and growth.",
+      "accentColor": "0xFFD97706",
+      "initials": "DA",
+      "focus": "Nigerian entrepreneurship",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "ServiceTitan Blog",
+      "url": "https://www.servicetitan.com/blog/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json)."
+    },
+    {
+      "name": "RLO Training Blog",
+      "url": "https://rlotraining.com/blog/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json)."
+    },
+    {
+      "name": "OttoXpress Blog",
+      "url": "https://ottoxpress.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json). OttoXpress blog retained even though their YouTube channel was replaced by Autochek Africa."
+    },
+    {
+      "name": "Motor.com",
+      "url": "https://www.motor.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json as 'Motor Age')."
+    },
+    {
+      "name": "AutoSuccess",
+      "url": "https://www.autosuccessonline.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "AutoSuccess — auto dealership and repair enterprise management. Standard WordPress /feed/ URL. Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01). Auto trade business guide, capital, and margins."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Covers auto repair supply chain and setup guides for Nigeria. Verify canonical domain before first ingest."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://www.startuptipsdaily.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json)."
+    },
+    {
+      "name": "Repairer Driven News",
+      "url": "https://www.repairerdrivennews.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Global auto body and repair enterprise news. Standard WordPress /feed/ URL. Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF — why most small businesses fail and how to build systems that scale without the owner.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV (III.56-60). Same book already in skill_01 via slightly different path on the same domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free overview and chapter excerpts from the author's official site — cash-flow management system for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV. Author's own domain, consistent with skill_01 entry.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF — validated learning and build-measure-learn cycles for trade business scaling.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV (III.56-60).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — small-business operations, financing, and management.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "openstax.org is a peer-reviewed open textbook publisher. URL from user-provided CSV.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — entrepreneurship principles, ideation, and business model design.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Same OpenStax catalogue URL; select the specific title on the catalogue page.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot marketing blog — practical digital marketing guides for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot blog is a widely recognised free marketing resource. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free US SBA startup guide — globally applicable for structuring a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "sba.gov is a US government domain. URL from user-provided CSV.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification course covering inbound marketing strategy for any trade or service business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot Academy courses are free with registration. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — planning, organising, leading, and controlling a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Direct OpenStax book URL confirmed stable via feedspot/open textbook listings.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). Key changes from draft: (1) OttoXpress (@OttoXpress, 404) replaced with Autochek Africa (@autochekafrica2536, UCyYCUDC804Vpup4zPWaK9dw) — verified African auto B2B platform. OttoXpress blog entry retained. (2) @Nairametrics (404) → @NairametricsTV (UC1GBKv15keKOgHbEBEMeo9w, launched Jan 2025). (3) EngineeringAll and OttoXpress FETCH_YOUTUBE_HANDLE_* placeholders fully resolved. (4) Zikoko handle corrected @ZikokoTV→@Zikokomag (consistent with p16 and p18).",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

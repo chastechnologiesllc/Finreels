@@ -1,0 +1,319 @@
+{
+  "categoryId": "profession_15_psychology_counselling",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCQikIOuT7ZqLcyUJOEMq1mQ",
+      "name": "Private Practice Skills",
+      "handle": "@privatepracticeskills",
+      "description": "Dr. Marie Fang, licensed clinical psychologist — ~60,000 subscribers teaching therapists exactly what the founder's research said didn't exist: how to start, market, and run a private therapy practice as a business. Weekly videos since 2018.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "PP",
+      "focus": "Business of running a therapy private practice",
+      "verifiedOn": "2026-07-14",
+      "verificationMethod": "Found via a broader search beyond the founder's research, which had explicitly found no confident channel candidate. Extremely well corroborated — 8+ independent sources (her own site, multiple podcast guest interviews, a direct channel fetch) all confirming the same person, channel, and subscriber count. Global, not Nigeria-specific."
+    },
+    {
+      "id": "",
+      "name": "Therapy in a Nutshell",
+      "handle": "@TherapyinaNutshell",
+      "description": "Mental health education and private practice therapy models",
+      "accentColor": "0xFF3B82F6",
+      "initials": "TI",
+      "focus": "Mental health education and private practice therapy models",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Psychology in Seattle",
+      "handle": "@PsychologyinSeattle",
+      "description": "Psychology practice, ethics, and clinical business realities",
+      "accentColor": "0xFF3B82F6",
+      "initials": "PI",
+      "focus": "Psychology practice, ethics, and clinical business realities",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Practice of the Practice",
+      "handle": "@PracticeofthePractice",
+      "description": "Counseling private practice, marketing, and scaling",
+      "accentColor": "0xFF3B82F6",
+      "initials": "PO",
+      "focus": "Counseling private practice, marketing, and scaling",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Brighter Vision",
+      "handle": "@BrighterVision",
+      "description": "Marketing, website, and business systems for therapists",
+      "accentColor": "0xFF3B82F6",
+      "initials": "BV",
+      "focus": "Marketing, website, and business systems for therapists",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Private Practice Workshop",
+      "handle": "@PrivatePracticeWorkshop",
+      "description": "Therapy business operations, billing, and client acquisition",
+      "accentColor": "0xFF3B82F6",
+      "initials": "PP",
+      "focus": "Therapy business operations, billing, and client acquisition",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Counselling Tutor",
+      "handle": "@CounsellingTutor",
+      "description": "Counselling training, clinical practice, and business setup",
+      "accentColor": "0xFF3B82F6",
+      "initials": "CT",
+      "focus": "Counselling training, clinical practice, and business setup",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Nigerian Psychological Assoc",
+      "handle": "@HealthBusinessAfrica",
+      "description": "Psychology regulations, advocacy, and practice in Nigeria",
+      "accentColor": "0xFF3B82F6",
+      "initials": "NP",
+      "focus": "Psychology regulations, advocacy, and practice in Nigeria",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Psychotherapy Networker",
+      "handle": "@PsychotherapyNet",
+      "description": "Clinical therapy business, trends, and private practice news",
+      "accentColor": "0xFF3B82F6",
+      "initials": "PN",
+      "focus": "Clinical therapy business, trends, and private practice news",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    },
+    {
+      "id": "",
+      "name": "Pulse Nigeria Health",
+      "handle": "@PulseNigeria",
+      "description": "Healthcare business news, including mental health practice",
+      "accentColor": "0xFF3B82F6",
+      "initials": "PN",
+      "focus": "Healthcare business news, including mental health practice",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Practice of the Practice",
+      "url": "https://www.practiceofthepractice.com/",
+      "description": "Counseling private practice, marketing, and scaling",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Brighter Vision Blog",
+      "url": "https://brightervision.com/blog/",
+      "description": "Marketing, website, and business systems for therapists",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Private Practice Workshop",
+      "url": "https://privatepracticeworkshop.com/",
+      "description": "Therapy business operations, billing, and client acquisition",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Counselling Tutor Blog",
+      "url": "https://counsellingtutor.com/blog/",
+      "description": "Counselling training, clinical practice, and business setup",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Psychotherapy Networker",
+      "url": "https://www.psychotherapynetworker.org/",
+      "description": "Clinical therapy business, trends, and private practice news",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Psychology Today (Private Practice)",
+      "url": "https://www.psychologytoday.com/us/blog",
+      "description": "Therapy business, marketing, and client acquisition",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Entrepreneurs.ng Psychology",
+      "url": "https://entrepreneurs.ng/",
+      "description": "Psychology business guide, capital, and margins",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Splice Therapy Setup",
+      "url": "https://splice.com.ng/",
+      "description": "Therapy clinic business plan and setup guides",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). URL is the web homepage; RSS feed URL needs verification before it will appear in the blog reader."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Michael E. Gerber (Free PDF)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Mike Michalowicz (Free Book)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Eric Ries (Free PDF)",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "HubSpot Academy",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "download",
+      "freeSourceNote": "SBA.gov",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "HubSpot Academy",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "OpenStax/Rice University",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "The founder's own research flagged one Nigerian lead as explicitly unverified: Dr. Sonia, a real, credentialed Lagos-based therapist, is credited (via her own bio on TherapyTribe) with authoring a book titled 'Therapy as a Service'. This session confirmed the bio and credentials are real, but found no publisher, ISBN, purchase link, or free-access link for the book itself anywhere — so per the founder's own instruction to 'confirm before citing', it's still not counted. On blogs: no dedicated business-of-therapy blog was confirmed this round, though privatepracticeskills.com (the channel above) has its own blog worth a closer look in a future pass.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

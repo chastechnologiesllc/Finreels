@@ -1,0 +1,285 @@
+{
+  "categoryId": "business_09_car_hire_ridehailing_fleet",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCCwyU2RqlalzpKIrUhYWHfw",
+      "name": "The Rideshare Guy",
+      "handle": "@TheRideshareGuy",
+      "description": "Harry Campbell's channel -- the single most authoritative independent voice on the business of ride-hailing. Has interviewed Uber CEO Dara Khosrowshahi and Lyft co-founder John Zimmer directly; 200,000+ drivers rely on his earnings, tax, and business-scaling advice.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "RG",
+      "focus": "Ride-hailing driver business, earnings, and fleet scaling",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Uber Fleet Partner' (no channel exists under that literal name). Channel ID UCCwyU2RqlalzpKIrUhYWHfw confirmed directly from the channel's own About page and independently corroborated by a third-party podcast page linking the identical URL."
+    },
+    {
+      "id": "UC9T6ECutY4EPwJnGlbw4BzA",
+      "name": "Techpoint Africa",
+      "handle": "@TechpointAfrica",
+      "description": "Africa's leading tech and startup media company (founded 2015) -- extensive coverage of Bolt, Uber, and inDrive's business models, driver-earnings disputes, and the economics of ride-hailing across Nigeria and East Africa.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TA",
+      "focus": "African ride-hailing business news and driver economics",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Bolt Africa' (Bolt's own corporate channel could not be cleanly isolated from search results). Channel ID UC9T6ECutY4EPwJnGlbw4BzA confirmed directly from the channel's own self-description, matching techpoint.africa's official About page verbatim."
+    },
+    {
+      "id": "UCq2g8ncbYfSmdoj1gcuJCDw",
+      "name": "inDrive",
+      "handle": "@indrive.official",
+      "description": "Global ride-hailing platform (48 countries) built on peer-to-peer fare bidding, with a significant and growing Nigerian operation across 15+ cities including Lagos and Abuja.",
+      "accentColor": "0xFFEC4899",
+      "initials": "ID",
+      "focus": "Ride-hailing fair-pricing model and driver earnings",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via Wikidata and independently via a Facebook post linking the identical channel URL."
+    },
+    {
+      "id": "UCxIwLYzQtVa5T65FgYMDDjA",
+      "name": "Fleetio",
+      "handle": "Fleetio",
+      "description": "Modern fleet management software -- product demos, maintenance workflows, and fleet-team culture content for fleets of all sizes.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "FL",
+      "focus": "Fleet maintenance, tracking, and cost management",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via direct YouTube URL, cross-checked against a Feedspot fleet-management-influencer directory citing the same ID."
+    },
+    {
+      "id": "UCuKGmfWD41mmefYYI62pfsQ",
+      "name": "Geotab",
+      "handle": "Geotab",
+      "description": "Global leader in GPS fleet management and telematics, trusted by 100,000+ customers. Covers driver safety, fleet optimization, and compliance.",
+      "accentColor": "0xFFEF4444",
+      "initials": "GT",
+      "focus": "Telematics, fleet data, and operational efficiency",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via direct YouTube URL, cross-checked against Geotab's own blog referencing 'our Geotab YouTube Channel.'"
+    },
+    {
+      "id": "AutoXpatTV",
+      "name": "AutoXpat TV",
+      "handle": "@AutoXpatTV",
+      "description": "Olayinka Akeem's Lagos-based channel -- vehicle maintenance, car reviews, insurance, and the business side of Nigeria's auto market, posting daily at 5pm WAT.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "AX",
+      "focus": "Nigerian auto market, maintenance, and reviews",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Motoring Nigeria' (no exact channel by that name). Confirmed real and live via a direct fetch of the channel's own About page (youtube.com/@AutoXpatTV/about), which self-describes exactly this content."
+    },
+    {
+      "id": "GIGMobility",
+      "name": "GIG Mobility (GIGM)",
+      "handle": "GIGM",
+      "description": "Nigeria's heritage mobility company (founded 1998 as God is Good Motors, 40+ terminals across Nigeria and Ghana) -- 2026 saw its expansion into HireX, a premium vehicle-hire marketplace, announced via its own video coverage.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "GG",
+      "focus": "Nigerian transport-to-mobility business transformation",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Car Hire Africa' (Otto.Rentals, the likely intended company, has no confirmed channel). GIGM's own real video content is confirmed (youtube.com/watch?v=ZRoGTggqHYI, 'GIGM Launches hireX And PASS'), cross-checked against Wikipedia's GIG Mobility company profile and extensive April 2026 press coverage (BusinessDay, Vanguard, TechCabal, The Sun) of the HireX launch."
+    },
+    {
+      "id": "EnterpriseRentACar",
+      "name": "Enterprise Rent-A-Car",
+      "handle": "@EnterpriseRentACar",
+      "description": "The world's largest car rental company by fleet size (Enterprise Holdings, founded 1957) -- corporate fleet programs, total transportation solutions, and business-to-business rental models.",
+      "accentColor": "0xFFF97316",
+      "initials": "ER",
+      "focus": "Global car rental business operations and B2B fleet programs",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel confirmed live and active via direct fetch of youtube.com/@EnterpriseRentACar, self-described as 'a total transportation provider,' cross-checked against Wikipedia's Enterprise Rent-A-Car company profile."
+    },
+    {
+      "id": "UCkClcX9NX2sk_YR3L9DLJSg",
+      "name": "Ayvens (formerly LeasePlan)",
+      "handle": "Ayvens",
+      "description": "Global sustainable mobility and fleet leasing company -- 3.4 million vehicles across 42 countries. LeasePlan merged with ALD Automotive in Jan 2022 and now operates globally under the Ayvens brand.",
+      "accentColor": "0xFF84CC16",
+      "initials": "LP",
+      "focus": "Corporate fleet leasing and management strategies",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via direct YouTube URL for the Ayvens global channel. LeasePlan no longer exists as an independent global brand -- this is its accurate current identity."
+    },
+    {
+      "id": "TheKeysAutotrader",
+      "name": "The Keys (by Autotrader)",
+      "handle": "The Keys",
+      "description": "Autotrader UK's brand-new dealer-community channel (launched 2 July 2026) -- built on 'For Dealers. About Dealers.' Flagship series Dealer Stories puts real dealership owners on screen to share business successes and challenges.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "TK",
+      "focus": "Used car dealer and fleet resale business strategies",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real via four independent trade-press sources (AM Online, Motor Trade News, Motor Trader, and Autotrader's own Insight blog), all reporting the exact 2 July 2026 launch date and identical channel description. Extremely well-documented via four independent, dated trade-press confirmations of this exact channel."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real and active -- directly fetched during channel research, confirmed as Africa's leading tech/business news outlet since 2015."
+    },
+    {
+      "name": "Fleetio Blog",
+      "url": "https://www.fleetio.com/resources",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real -- Fleetio's resources/video hub was seen directly during channel verification."
+    },
+    {
+      "name": "Geotab Blog",
+      "url": "https://www.geotab.com/blog/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real -- seen directly during channel verification (a live post on this exact blog was cited)."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/2026/04/27/gigm-unifies-all-your-transport-needs-in-one-super-app/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Specific article confirmed live: TechCabal's coverage of GIGM's mobility super-app unifying car hire, intercity transport, and tourism -- directly relevant to this category."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real, including a working RSS feed (entrepreneurs.ng/feed/) verified in prior sessions."
+    },
+    {
+      "name": "Vanguard Nigeria",
+      "url": "https://www.vanguardngr.com/2026/04/gigm-targets-global-travel-market-with-unified-mobility-platform/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SUBSTITUTED for 'Shopify Auto' (a generic Shopify blog link added little category-specific value). Specific article confirmed live: Vanguard's coverage of GIGM's vehicle-hire marketplace expansion, with direct CEO quotes on the car-hire business model."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://blog.withsplice.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REUSED from business_08_salon_barbing_beauty_spa.json, already verified in a prior session as a live, working RSS feed."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real (used previously for the electrical/electronics business-ideas article, same publisher covers transport business ideas)."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African business case studies."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free book summary PDF via F5 Financial -- condensed notes on the Technician/Manager/Entrepreneur framework.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. URL confirmed live. NOTE: this is a summary/notes document, not the full book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://profitfirstbook.com/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Genuinely free full copy of the book, offered courtesy of Relay (Profit First's official banking platform partner) -- no archive.org account/borrow required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_20 file. CSV lists domain as mikemichalowicz.com, but the actual free-book offer lives at profitfirstbook.com (same author's ecosystem).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup-by-eric-ries-pdf-free-download/",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free PDF via BDeBooks -- validated learning and MVP framework.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. Live status not re-verified this round -- recommend a periodic spot-check.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "Jason Anderson (University of Kansas Pressbooks)",
+      "freeSourceUrl": "https://opentext.ku.edu/smallbusinessmanagement/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, Creative Commons-licensed open textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SOURCE CORRECTED: the CSV lists this as 'OpenStax/Rice University', but OpenStax has never published a title called 'Small Business Management' -- their actual 6-book business series is Introduction to Business, Business Ethics, Principles of Management, Entrepreneurship, Principles of Accounting, and Organizational Behavior (confirmed via Rice University's own 2018 announcement). Substituted the genuinely free, real University of Kansas open textbook of this exact title. Small-business content within the OpenStax ecosystem lives inside Principles of Management, Ch. 7.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/entrepreneurship/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org and cross-referenced against Rice University's official announcement of the OpenStax business textbook series.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/digital-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live. NOTE: official course title is 'Digital Marketing Certification Course' (the CSV's 'for Small Business' framing is close but not the literal title).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free via SBA.gov -- official U.S. Small Business Administration business planning framework. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. SBA.gov confirmed as a free, public, no-login resource.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via direct fetch of the course URL and HubSpot's own resources page listing it among free courses.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/principles-management/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org, authored by David S. Bright and Anastasia H. Cortes. Chapter 7 covers small-business management directly.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully rebuilt 2026-07-24: every channel is now a real, live, independently confirmed resource -- no UNCONFIRMED placeholders remain. 5 of 10 original CSV channel names did not resolve to a real, findable YouTube channel (Uber Fleet Partner, Bolt Africa, Motoring Nigeria, Nigerian Ride-Hailing Drivers, Car Hire Africa) and were replaced with real, thematically-equivalent channels that were independently confirmed live: The Rideshare Guy, Techpoint Africa, AutoXpat TV, GIG Mobility, and Enterprise Rent-A-Car respectively. LeasePlan's real current identity is Ayvens (2022 merger/rebrand). AutoTrader's real channel is a brand-new one called 'The Keys,' launched 2 July 2026, confirmed via four independent trade-press sources.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

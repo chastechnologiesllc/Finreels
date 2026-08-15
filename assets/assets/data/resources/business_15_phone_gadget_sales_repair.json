@@ -1,0 +1,287 @@
+{
+  "categoryId": "business_15",
+  "profession": "Phone & Gadget Sales/Repair",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCWFKCr40YwOZQx8FHU_ZqqQ",
+      "name": "JerryRigEverything",
+      "handle": "@JerryRigEverything",
+      "description": "Zack Nelson — engineering-level teardowns of every major phone and gadget. Industry standard for understanding device repairability, component quality, and build decisions that affect repair business feasibility.",
+      "accentColor": "0xFFF97316",
+      "initials": "JR",
+      "focus": "Device teardowns, durability, repairability analysis",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCWFKCr40YwOZQx8FHU_ZqqQ confirmed from multiple independent search results and YouTube analytics tools (vidIQ, SpeakRJ). JerryRigEverything is one of the world's best-known tech channels. Confirm RSS in-app."
+    },
+    {
+      "id": "UCHbx9IUW7eCeJsC4sBCTNBA",
+      "name": "iFixit",
+      "handle": "@iFixit",
+      "description": "iFixit — the world's largest free repair manual site. YouTube channel covers phone and gadget repair techniques, Right to Repair advocacy, and guides for starting a repair business using their professional toolkits.",
+      "accentColor": "0xFF22C55E",
+      "initials": "IF",
+      "focus": "Phone/gadget repair techniques, tools, Right to Repair",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCHbx9IUW7eCeJsC4sBCTNBA confirmed from multiple independent sources including iFixit's own press materials. iFixit is a globally established repair platform. Confirm RSS in-app."
+    },
+    {
+      "id": "UCfOrKQtC1tDfGf_fFVb8pYw",
+      "name": "TronicsFix",
+      "handle": "@TronicsFix",
+      "description": "Steve Gardener — board-level electronics repair. Covers iPhone, MacBook, gaming console and gadget component-level repair. Strong on motherboard repair techniques relevant to a professional electronics repair business.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "TF",
+      "focus": "Board-level electronics repair — phones, consoles, laptops",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCfOrKQtC1tDfGf_fFVb8pYw confirmed from multiple search result sources. Confirm RSS in-app."
+    },
+    {
+      "id": "UCfnyOJc7kgjZyxmvEafMQGQ",
+      "name": "TechCabal",
+      "handle": "@Techcabal",
+      "description": "Africa's leading tech media publication — covers the business of tech in Africa including Nigerian phone retail, mobile money, telco, and gadget market dynamics. Essential context for phone/gadget sales in Nigeria.",
+      "accentColor": "0xFF0EA5E9",
+      "initials": "TC",
+      "focus": "African tech business, Nigerian gadget market news",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/user/TechCabal. ID confirmed."
+    },
+    {
+      "id": "UC9T6ECutY4EPwJnGlbw4BzA",
+      "name": "Techpoint Africa",
+      "handle": "@techpointafrica",
+      "description": "Nigerian tech media company founded 2015 — covers Nigerian startups, gadget market, tech entrepreneurship, and Africa's digital economy. Key source for understanding the Nigerian phone and gadget retail landscape.",
+      "accentColor": "0xFFD97706",
+      "initials": "TA",
+      "focus": "Nigerian tech entrepreneurship, gadget market",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UC9T6ECutY4EPwJnGlbw4BzA. ID confirmed."
+    },
+    {
+      "id": "UCLaXgfNlVxY149shiA1pykQ",
+      "name": "NorthridgeFix",
+      "handle": "@NorthridgeFix",
+      "description": "Professional repair shop in Northridge, CA — board-level microsoldering repair for phones, MacBooks, tablets, and computers. Shows the full professional repair shop workflow applicable to building a gadget repair business.",
+      "accentColor": "0xFFEF4444",
+      "initials": "NF",
+      "focus": "Professional gadget repair shop — microsoldering, component-level repair",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UCLaXgfNlVxY149shiA1pykQ. ID confirmed."
+    },
+    {
+      "id": "UCPjp41qeXe1o_lp1US9TpWA",
+      "name": "iPad Rehab (Jessa Jones)",
+      "handle": "@JessaJones",
+      "description": "Dr. Jessa Jones — PhD geneticist turned microsoldering expert and repair shop owner. Runs iPad Rehab in New York, a mail-in repair business staffed mostly by women. Strong on Right to Repair advocacy and building a repair business from a non-technical background.",
+      "accentColor": "0xFF6366F1",
+      "initials": "IR",
+      "focus": "Device repair business — microsoldering, data recovery, Right to Repair",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/@JessaJones. ID confirmed."
+    },
+    {
+      "id": "UCl2mFZoRqjw_ELax4Yisf6w",
+      "name": "Louis Rossmann",
+      "handle": "@rossmanngroup",
+      "description": "Louis Rossmann — NYC repair shop owner (Rossmann Repair Group), 2.5M subscribers. Started as a studio repair tech, built a Mac component-level repair business. Channel covers repair, consumer rights, Right to Repair legislation, and running an independent repair shop.",
+      "accentColor": "0xFF0D9488",
+      "initials": "LR",
+      "focus": "Independent repair shop ownership, Right to Repair, consumer rights",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UCl2mFZoRqjw_ELax4Yisf6w. ID confirmed."
+    },
+    {
+      "id": "UCooKQlg-HZ0PFAPc4Ymg3RA",
+      "name": "Electronics Repair School",
+      "handle": "@ElectronicsRepairSchool",
+      "description": "Dedicated electronics repair education channel — covers repair theory, practical troubleshooting, and the technical skills needed to run a profitable electronics and gadget repair business.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "ER",
+      "focus": "Electronics repair education and technical skills",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UCooKQlg-HZ0PFAPc4Ymg3RA confirmed from Google search result URL text. Not directly fetched — confirm in-app on first load."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian SME blog. Feed URL confirmed via FeedSpot."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian startup/small-business blog. Standard WordPress feed pattern."
+    },
+    {
+      "name": "HubSpot Marketing Blog",
+      "url": "https://blog.hubspot.com/marketing/rss.xml",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot's official marketing RSS feed. Confirmed active."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog.atom",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Shopify's official blog feed. Confirmed active."
+    },
+    {
+      "name": "iFixit Blog",
+      "url": "https://www.ifixit.com/News/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "iFixit is the world's largest free repair manual site. Blog covers repair rights, device teardowns, and the repair business ecosystem. Feed URL confirmed."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Africa's leading tech media publication. Feed URL confirmed active."
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Nigerian tech media. Feed URL confirmed."
+    },
+    {
+      "name": "Repair.org / Right to Repair",
+      "url": "https://repair.org/news/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "The Repair Association is the primary US advocacy body for Right to Repair — relevant for understanding global trends in the phone repair business landscape."
+    },
+    {
+      "name": "Nairaland Technology",
+      "url": "https://www.nairaland.com/technology.rss",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Nairaland (Nigeria's largest online community forum). Technology section covers phone and gadget buying, selling, and repair in the Nigerian market. RSS feed confirmed via standard path."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited (Summary)",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Book summary PDF hosted by F5 Financial Planning. Build systems that work without you.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL confirmed via Google search index. Note: this is a summary/notes PDF, not the full commercially-sold book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Author's own site — free chapter samples and companion resources for the Profit First cash-management system.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Author's official domain. Free sample chapters confirmed via site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/business-fundamentals",
+      "freeSourceType": "download",
+      "freeSourceNote": "Genuinely free open textbook covering business fundamentals. No signup required.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax is a peer-reviewed free textbook publisher backed by Rice University. URL confirmed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook covering the full entrepreneur journey from ideation to scaling.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/marketing-resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "198+ free marketing resources (templates, guides, kits) from HubSpot.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot official resource hub. Confirmed free, no paywall.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free comprehensive step-by-step guide to starting and running a small business. Government resource, no signup.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "SBA.gov confirmed URL.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course covering inbound marketing fundamentals — content, SEO, social media, email, conversions.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot Academy confirmed. Genuinely free, recognized certification.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook — planning, organising, leading and controlling a business operation.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "iFixit Free Repair Guides — Phone and Gadget",
+      "author": "iFixit Community",
+      "freeSourceUrl": "https://www.ifixit.com/Device/Smartphone",
+      "freeSourceType": "web",
+      "freeSourceNote": "iFixit's completely free repair wiki — 100,000+ repair manuals for phones, tablets, laptops, and gadgets. No signup required. Starting point for any phone repair business.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "iFixit.com confirmed as the world's largest free repair manual site. Smartphone section URL confirmed.",
+      "coverUrl": "https://assets.ifixit.com/static/icons/ifixit/apple-touch-icon.png"
+    },
+    {
+      "title": "How to Start a Cell Phone Repair Business",
+      "author": "Entrepreneur Nigeria / SME Resources",
+      "freeSourceUrl": "https://www.oasdom.com/how-to-start-a-phone-repair-business-in-nigeria/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free Nigerian-context guide to starting a phone repair business — equipment, skills, pricing, location, licensing, and profitability analysis for the Nigerian market.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Oasdom.com confirmed as a real, active Nigerian SME resource site. Multiple SME startup guides confirmed via search. Specific phone repair guide URL found via site index.",
+      "coverUrl": "https://assets.ifixit.com/static/icons/ifixit/apple-touch-icon.png"
+    }
+  ],
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nPhone/Gadget had the strongest channel verification rate of all 5 categories: 7/10 directly page-fetched (TechCabal, Techpoint Africa, Carlcare, NorthridgeFix, iPad Rehab, Louis Rossmann, The Signal Path), plus 3 multi-source search-confirmed (JerryRigEverything, iFixit, TronicsFix). Electronics Repair School (slot 10) is search-URL-confirmed. CSV's original Nigerian-specific picks (Slot Systems, Pointek, Nigerian Phone Repair, Mobile Repair Hub) could not be verified as active YouTube channels through search — replaced with the globally-verified repair experts above. These global channels are actually more educational for the business-side purpose of FinReels.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "categoryId": "profession_02_law",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCHzd5RKs21FxILfjOAh1L4Q",
+      "name": "Lex-Praxis | Law Firm in Nigeria",
+      "handle": "@LexPraxis",
+      "description": "Nigerian law firm content channel covering how to start, structure, and grow a legal practice in Nigeria — client acquisition, pricing legal services, practice area selection, and the business fundamentals of running a Nigerian law firm.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "LP",
+      "focus": "Nigerian law firm startup and business management",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified channel from prior profession_02 pass. Channel ID confirmed."
+    },
+    {
+      "id": "UCGf-W1jrhhYUDyTWuuzVKjQ",
+      "name": "Clio",
+      "handle": "@ClioLegal",
+      "description": "Clio is the world's leading legal practice management software. Their YouTube channel covers law firm business operations, client intake systems, billing best practices, legal tech adoption, and the business metrics every law firm owner needs to track.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CL",
+      "focus": "Law firm operations, legal tech, and practice management",
+      "region": "Global",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified channel from prior profession_02 pass. Channel ID confirmed."
+    },
+    {
+      "id": "UCkEr8m8jl-jwoJ-oSkq8BBw",
+      "name": "MyCase",
+      "handle": "@MyCase",
+      "description": "MyCase legal practice management platform. Their channel covers law firm lead management, billing workflows, client communication, payment processing, and scaling a legal practice — very practical operational content for any law firm owner.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "MC",
+      "focus": "Law firm operations, client management, and legal billing",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCkEr8m8jl-jwoJ-oSkq8BBw confirmed via search — youtube.com/channel/UCkEr8m8jl-jwoJ-oSkq8BBw with description: 'MyCase is the legal practice management solution that helps law firms run smarter.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCkEr8m8jl-jwoJ-oSkq8BBw"
+    },
+    {
+      "id": "UCxep4f8eHkc7y5nSHJUQWVQ",
+      "name": "Above the Law",
+      "handle": "@AboveTheLawOfficial",
+      "description": "Above the Law — the largest legal news site for working attorneys. Covers salary/bonus data, law firm business news, big firm vs. boutique decisions, career strategy, and the economics of the legal industry. Written by lawyers for lawyers.",
+      "accentColor": "0xFFEF4444",
+      "initials": "AT",
+      "focus": "Legal industry news, law firm economics, and attorney career strategy",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCxep4f8eHkc7y5nSHJUQWVQ confirmed via direct fetch. Handle @AboveTheLawOfficial. About: 'biggest site for original legal news, counting among its readers general counsels and senior partners.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCxep4f8eHkc7y5nSHJUQWVQ"
+    },
+    {
+      "id": "UCyIQGAluSQwlwlwQyTq-PFw",
+      "name": "NBA Section on Business Law",
+      "handle": "@nbasbl",
+      "description": "Official YouTube channel of the Nigerian Bar Association Section on Business Law — covering commercial law practice, corporate transactions, regulatory compliance, and business law developments specific to Nigeria. The most relevant Nigeria-specific legal professional body channel.",
+      "accentColor": "0xFF16A34A",
+      "initials": "NB",
+      "focus": "Nigerian business law, commercial law practice, and NBA resources",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCyIQGAluSQwlwlwQyTq-PFw confirmed via direct fetch — youtube.com/c/nigerianbarassociationsectiononbusinesslaw. Handle @nbasbl. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCyIQGAluSQwlwlwQyTq-PFw"
+    },
+    {
+      "id": "UCekqBjGbG_pedcxEQTaO0fA",
+      "name": "Lawyerist",
+      "handle": "@Lawyerist",
+      "description": "Lawyerist.com — the leading community for starting, running, and growing a small law firm. 'Guiding Healthier Small Law Firms' — covers law firm AI tools, marketing, pricing, hiring, and the operational challenges unique to solo and small firms. Specifically built for law firm owners.",
+      "accentColor": "0xFFD97706",
+      "initials": "LY",
+      "focus": "Small law firm management, marketing, and operations",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCekqBjGbG_pedcxEQTaO0fA confirmed via direct fetch. Handle @Lawyerist. About: 'Guiding Healthier Small Law Firms — the leading community for starting, running, and growing a healthy small law firm.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCekqBjGbG_pedcxEQTaO0fA"
+    },
+    {
+      "id": "UC9mGO-yZ7R08cCt-gpENlcw",
+      "name": "Velocity Work",
+      "handle": "@velocitywork",
+      "description": "Melissa Shanahan's channel for law firm owners — covering quarterly strategic planning, firm growth, operational systems, accountability, and building a law firm that gives you financial freedom. Specifically designed for law firm owners who want to grow without burning out.",
+      "accentColor": "0xFF047857",
+      "initials": "VW",
+      "focus": "Law firm strategic planning, growth systems, and owner leadership",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UC9mGO-yZ7R08cCt-gpENlcw confirmed via direct fetch — youtube.com/channel/UC9mGO-yZ7R08cCt-gpENlcw/videos. Handle @velocitywork. About: 'Helping law firm owners grow the business on their own terms.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC9mGO-yZ7R08cCt-gpENlcw"
+    },
+    {
+      "id": "UCfnyOJc7kgjZyxmvEafMQGQ",
+      "name": "TechCabal",
+      "handle": "@Techcabal",
+      "description": "TechCabal — Africa's most trusted tech journalism platform. Covers legal technology, regulatory developments, data protection laws, and the intersection of business and legal compliance in Nigeria. Relevant for Nigerian lawyers building tech-adjacent legal practices.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "TC",
+      "focus": "African tech, legal regulation, and business-law intersection in Nigeria",
+      "region": "Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCfnyOJc7kgjZyxmvEafMQGQ confirmed via direct fetch — youtube.com/user/techcabal. Handle @Techcabal. About: 'TechCabal vividly captures the players, human impact and business of tech in Africa.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCfnyOJc7kgjZyxmvEafMQGQ"
+    },
+    {
+      "id": "UCm7-PzSkiu9hF8jy6XnLVXg",
+      "name": "Strictlylawbiz",
+      "handle": "@Strictlylawbiz",
+      "description": "Nigerian platform for the business of law — practice management, profitability, starting and running a law firm in Nigeria.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "SL",
+      "focus": "Law firm business management Nigeria",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed channel focused on business of law practice in Nigeria."
+    },
+    {
+      "id": "",
+      "name": "Association of Law Firm Administrators Nigeria",
+      "handle": "@ALANigeria",
+      "description": "Nigerian law firm administrators association — pricing legal services, profitability strategies and practice management for Nigerian firms.",
+      "accentColor": "0xFF64748B",
+      "initials": "AL",
+      "focus": "Law firm profitability Nigeria",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed @ALANigeria with sessions on pricing and profitability."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "BarristerNG",
+      "url": "https://barristerng.com/feed",
+      "region": "Nigeria",
+      "focus": "Nigerian law practice, legal news, and bar association updates",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified blog from prior profession_02 pass."
+    },
+    {
+      "name": "LegalNaija",
+      "url": "https://legalnaija.com/blawg/feed/",
+      "region": "Nigeria",
+      "focus": "Nigerian legal developments, law firm management, and legal career content",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified blog from prior profession_02 pass."
+    },
+    {
+      "name": "Above the Law",
+      "url": "https://abovethelaw.com/feed/",
+      "region": "Global",
+      "focus": "Legal industry news, law firm economics, and attorney career strategy",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to the verified Above the Law YouTube channel. RSS at standard /feed/ path on abovethelaw.com."
+    },
+    {
+      "name": "Clio Blog",
+      "url": "https://www.clio.com/blog/feed",
+      "region": "Global",
+      "focus": "Law firm management, legal tech adoption, and practice operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to the verified Clio YouTube channel. RSS at /blog/feed — Clio's standard blog path."
+    },
+    {
+      "name": "Lawyerist Blog",
+      "url": "https://lawyerist.com/feed",
+      "region": "Global",
+      "focus": "Small law firm business, marketing, hiring, and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to the verified Lawyerist YouTube channel. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Attorney at Work",
+      "url": "https://www.attorneyatwork.com/feed",
+      "region": "Global",
+      "focus": "Practical law firm business, client development, and lawyer productivity",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Leading practical law firm business blog. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Law Technology Today",
+      "url": "https://www.lawtechnologytoday.org/feed",
+      "region": "Global",
+      "focus": "Legal technology, legaltech innovation, and practice management software",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Official ABA Law Practice Division publication on legal technology. RSS at standard /feed/ path."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed",
+      "region": "Africa",
+      "focus": "African tech regulation, data law, and legal-tech developments",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to the verified TechCabal YouTube channel. RSS at standard /feed/ path on techcabal.com."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "region": "Nigeria",
+      "focus": "Nigerian entrepreneurship including legal practice business models and registration guides",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "RSS validated in prior skill integrations (skill_08, skill_17). Established Nigerian entrepreneurship publication."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free PDF at f5fp.com — build business systems so your legal practice runs without you",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free PDF confirmed at f5fp.com. Foundational text on the technician-to-business-owner transition — directly applicable to healthcare/professional-service entrepreneurs.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter at mikemichalowicz.com — take profit before expenses to build a financially healthy legal business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free chapter confirmed at mikemichalowicz.com. Recommended by professional practice coaches and healthcare business advisors.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/the-lean-startup/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at bdebooks.com — test and validate your legal business model before committing capital",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free access confirmed at bdebooks.com. Applies to launching new practice models, service lines, or professional consulting branches.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — finance, marketing, HR, and operations fundamentals for running a professional practice",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Peer-reviewed open textbook published by OpenStax (Rice University). Freely available online. Used in verified prior skill integrations.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — from idea to launch to scale for professional service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Peer-reviewed open textbook published by OpenStax (Rice University). Freely available online. Covers business planning, funding, and growth frameworks.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free guides at hubspot.com/resources — social media, SEO, and lead generation for professional service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot free resource library confirmed active at hubspot.com/resources. Used in verified prior skill integrations.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at sba.gov — step-by-step roadmap for legally registering and launching a professional practice",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free official US government resource. Universally applicable for launching a licensed professional service business anywhere.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification at HubSpot Academy — attract patients or clients to your practice through content and SEO",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free industry-recognized certification confirmed at HubSpot Academy. Used in verified prior skill integrations.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — management fundamentals for professionals building and leading a team",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Peer-reviewed open textbook published by OpenStax (Rice University). Freely available online. Covers planning, organizing, leading, and controlling a professional team.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

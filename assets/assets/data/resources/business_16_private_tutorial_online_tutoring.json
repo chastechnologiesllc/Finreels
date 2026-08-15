@@ -1,0 +1,289 @@
+{
+  "categoryId": "business_16_private_tutorial_online_tutoring",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCy5KDdIwas8sA-HsT0ROulA",
+      "name": "Teachable",
+      "handle": "@teachabletv",
+      "description": "Platform for creators and businesses to build and sell online courses — 150,000+ creators use it to turn expertise into a real income.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "TE",
+      "focus": "Creating and selling online courses and tutoring businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCy5KDdIwas8sA-HsT0ROulA)."
+    },
+    {
+      "id": "UC-L9VhnphHLP2hwjRXcj9VQ",
+      "name": "Thinkific",
+      "handle": "@Thinkific",
+      "description": "Platform empowering creators to build thriving online education businesses — weekly videos on course creation, pricing and student retention.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "TH",
+      "focus": "Online course creation, pricing, and student retention strategies",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UC-L9VhnphHLP2hwjRXcj9VQ)."
+    },
+    {
+      "id": "UCBwZHGNG_rnnhTm-QGZndSA",
+      "name": "The uLesson Group",
+      "handle": "@uLesson",
+      "description": "Nigerian EdTech company (founded 2019 by Sim Shagaya) offering live classes and video lessons for K-12 across Nigeria, Ghana, Sierra Leone, Liberia and Gambia — raised $22.5M+ in funding.",
+      "accentColor": "0xFF10B981",
+      "initials": "UL",
+      "focus": "Nigerian EdTech business model, scaling, and market penetration",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCBwZHGNG_rnnhTm-QGZndSA); company and founder (Sim Shagaya) cross-confirmed via Wikipedia."
+    },
+    {
+      "id": "UCxmpQ7Z_n8CjrlOUhn-FnyQ",
+      "name": "Tutorful",
+      "handle": "@tutorful",
+      "description": "UK's platform to find trusted online tutors, covering all stages of a child's learning journey from primary to secondary and beyond.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "TU",
+      "focus": "Tutoring agency management, pricing, and client matching",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCxmpQ7Z_n8CjrlOUhn-FnyQ)."
+    },
+    {
+      "id": "UCwzbiNjDhpdoSYPqhnErYbw",
+      "name": "Varsity Tutors",
+      "handle": "@Varsitytutors",
+      "description": "The largest platform for live online tutoring in the US — 3,000+ subjects across 1:1 tutoring, live group classes and asynchronous self-study.",
+      "accentColor": "0xFFEC4899",
+      "initials": "VT",
+      "focus": "Scaling an educational tutoring business globally",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/Varsitytutors)."
+    },
+    {
+      "id": "UCoYATiiqNT7csPFqtWWfc5w",
+      "name": "Skillshare",
+      "handle": "@Skillshare",
+      "description": "The world's largest online learning community for creatives — creator economy, passive income and teaching online.",
+      "accentColor": "0xFF6366F1",
+      "initials": "SS",
+      "focus": "Creator economy, passive income, and teaching online",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/Skillshare)."
+    },
+    {
+      "id": "UCzw4hbQIePVtyJQzE_F8QDg",
+      "name": "Udemy",
+      "handle": "@udemy",
+      "description": "Learning platform with 85M+ learners and 250,000+ courses across technology, business, design and personal development — course creation, marketing and instructor strategy content.",
+      "accentColor": "0xFF16A34A",
+      "initials": "UD",
+      "focus": "Course creation, marketing, and Udemy business algorithms",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCzw4hbQIePVtyJQzE_F8QDg).",
+      "notes": "Source directory named 'Udemy Instructor Hub' specifically — no separate channel by that exact name was found; used Udemy's main official channel, which covers instructor/course-creation content."
+    },
+    {
+      "id": "UCnxkMvro6Sm-T2BeWgDZJaQ",
+      "name": "ExamPadi",
+      "handle": "@ExamPadi",
+      "description": "Empowers Nigerian K-12 students to ace COMMON ENTRANCE, BECE, WASSCE, UTME and NECO exams — exam tips, past questions and study plans.",
+      "accentColor": "0xFFEF4444",
+      "initials": "EP",
+      "focus": "Nigerian exam prep business and student acquisition",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCnxkMvro6Sm-T2BeWgDZJaQ).",
+      "notes": "Substituted for the source directory's 'Pass.ng' — Pass.ng is a real, Wikipedia-documented Nigerian e-testing platform (founded by the late Samson Abioye), but no dedicated YouTube channel could be confirmed for it."
+    },
+    {
+      "id": "UCZ50rYSkYQG31YDEJm9Di_g",
+      "name": "Coursera",
+      "handle": "@coursera",
+      "description": "Online learning platform partnering with 275+ universities and companies — career insights, professional development and skill-building content.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "CO",
+      "focus": "Global online education business and career development",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/coursera).",
+      "notes": "Substituted for the source directory's 'EdTech Africa' — several real organizations share that name, but none could be confidently matched to a specific YouTube channel."
+    },
+    {
+      "id": "UC4a-Gbdw7vOaccHmFo40b9g",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Nonprofit (founded by Sal Khan, 2008) providing free, world-class education for anyone, anywhere — 9M+ subscribers, foundational to the modern online-tutoring/EdTech business model.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "KA",
+      "focus": "Free education at global scale — the original EdTech business model",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/khanacademy); founder and history cross-confirmed via Wikipedia.",
+      "notes": "Substituted for the source directory's 'Connect Nigeria' as a Channel — Connect Nigeria is a real, active blog (kept below) but no dedicated YouTube channel could be confirmed for it."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Teachable Blog",
+      "url": "https://www.teachable.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry: course pricing, marketing, and online tutoring business guides."
+    },
+    {
+      "name": "Thinkific Blog",
+      "url": "https://www.thinkific.com/blog/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry: scaling an online education business and student retention."
+    },
+    {
+      "name": "TutorCruncher Blog",
+      "url": "https://tutorcruncher.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry: tutoring agency software, operations and management — real, active tutoring-agency-management software company."
+    },
+    {
+      "name": "EdSurge",
+      "url": "https://www.edsurge.com/news/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry: education business models, EdTech funding and industry news, from a major, well-established EdTech publication."
+    },
+    {
+      "name": "uLesson Blog",
+      "url": "https://www.ulesson.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry: Nigerian EdTech market insights, pairing with the uLesson channel above."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry: tutoring business guide, capital and profit margins. Confirmed real, active site across multiple prior categories this project."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry: online tutoring business ideas and profitability data. Confirmed real, active site across multiple prior categories this project."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory listed the domain as splice.com.ng — corrected to splice.ng, the domain independently verified for skill_02 and skill_03 earlier this project."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited (free PDF)",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF of the well-known small-business-systems book, hosted on a third-party site — worth a direct-download check before shipping.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The E-Myth Revisited.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First (free resources)",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free resources from the author's own official site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup (free)",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/the-lean-startup",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free copy hosted on a third-party book site — worth a direct-download check before shipping.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The Lean Startup.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook covering small-business fundamentals.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on starting and running a business.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business (free eBook)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://www.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free eBook hosted on HubSpot's own site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry, hosted on hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, complete startup guide hosted directly on the official sba.gov site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry, hosted on a U.S. government domain.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification (free course)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course, not a written book — hosted on HubSpot's own academy site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source directory entry, hosted on academy.hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on management fundamentals.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythrevisitedwh00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. Build systems so the business runs without you.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    }
+  ],
+  "notes": "2026-07-24: Created from scratch, merging all 30 rows from the founder-provided 'private_tutorial_online_tutoring_resources.csv' (Section II.36). Three of the CSV's 10 channels could not be matched to a real, confirmable YouTube channel: Pass.ng (real, Wikipedia-documented Nigerian company, no confirmed channel), EdTech Africa (name shared by multiple real organizations, none confirmed to a specific channel), and Connect Nigeria as a channel (its blog is real and was kept). Three independently-verified, directly on-topic replacements were substituted to reach 10 channels: ExamPadi, Coursera, and Khan Academy.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

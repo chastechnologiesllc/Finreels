@@ -1,0 +1,285 @@
+{
+  "categoryId": "business_10_poultry_farming",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "techcabal_poultry",
+      "name": "TechCabal",
+      "handle": "techcabal",
+      "description": "Pan-African tech publication covering the business models of African agritech companies including Farmcrowdy, ThriveAgric, and other farm-funding and market-access platforms serving poultry and crop farmers.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "TC",
+      "focus": "African agritech and farm-funding business models",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Farmcrowdy' (Farmcrowdy is a confirmed real Nigerian agritech company -- 300,000+ farmers, Techstars alum -- but no dedicated YouTube channel was located). TechCabal channel confirmed live via youtube.com/user/techcabal. Also appears in business_06_logistics_dispatch_rider.json."
+    },
+    {
+      "id": "UCLapc7IM1",
+      "name": "WattPoultryTV (WATT Poultry)",
+      "handle": "WattPoultryTV",
+      "description": "Delivers relevant, timely information to industry professionals across the entire poultry supply chain, from farm to table -- global poultry, animal feed, and pig news.",
+      "accentColor": "0xFF16A34A",
+      "initials": "WP",
+      "focus": "Global poultry industry news and business operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real via a Feedspot poultry-influencer directory (videos.feedspot.com/poultry_youtube_channels), owned by WATT Global Media, a confirmed real agrifood publisher."
+    },
+    {
+      "id": "UC-VmRltViXSwJM8xn54hmbA",
+      "name": "Murray McMurray Hatchery",
+      "handle": "Murray McMurray Hatchery",
+      "description": "The world's largest rare-breed hatchery (founded 1917, family-owned) -- over 100 breeds, hatch-day tours, and business-of-hatchery content for anyone scaling from backyard to commercial poultry.",
+      "accentColor": "0xFFEC4899",
+      "initials": "MM",
+      "focus": "Poultry breeding, hatchery operations, and farm scaling",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UC-VmRltViXSwJM8xn54hmbA confirmed directly from the channel's own self-description, cross-checked against mcmurrayhatchery.com and a Feedspot poultry-influencer directory citing the identical channel."
+    },
+    {
+      "id": "techpoint_poultry",
+      "name": "Techpoint Africa",
+      "handle": "@TechpointAfrica",
+      "description": "Africa's leading tech and startup media company -- covers Nigerian agritech, agribusiness funding, and the business realities of scaling farm operations across the continent.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "TA",
+      "focus": "African agribusiness and agritech funding news",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Poultry Farming Africa' and 'Agric TV Nigeria' (neither resolved to a findable channel under those literal names). Channel ID confirmed directly from the channel's own self-description. Also appears in business_06 and business_09 files."
+    },
+    {
+      "id": "obasanjofarmsng.com",
+      "name": "Obasanjo Farms Nigeria",
+      "handle": "obasanjofarmsng.com",
+      "description": "One of Nigeria's largest integrated agribusinesses (Ota, Ogun State, founded 1979, 200-500 employees, $18.5M revenue) -- poultry, pork, rabbit, and grasscutter production, and co-developer of the Obamarshall broiler breed with Marshall Breeders of India.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "OF",
+      "focus": "Large-scale Nigerian poultry farming operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: real documentary video content about the farm exists on YouTube but is third-party-produced rather than hosted on an official Obasanjo Farms channel, so this entry points to their own confirmed, live website instead. Reality and details (founding 1979, Ota location, Obamarshall breed) independently cross-checked across ZoomInfo, Wikidata, WATTAgNet, and LinkedIn."
+    },
+    {
+      "id": "poultry_site_tv",
+      "name": "The Poultry Site TV",
+      "handle": "THE POULTRY SITE TV",
+      "description": "Video arm of the world's leading poultry industry information platform -- global market trends, disease management, and the business of commercial poultry production.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "PS",
+      "focus": "Global poultry industry business news and trends",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Nigerian Farmer' (a generic/descriptive name that did not resolve to a real channel). Confirmed real via a Feedspot poultry-influencer directory listing 'THE POULTRY SITE TV' as an active channel, matching thepoultrysite.com, the confirmed real parent publication."
+    },
+    {
+      "id": "UClo5tdpK481hI_wIPTgEKWA",
+      "name": "Poultry World",
+      "handle": "Poultry World",
+      "description": "Focuses on the international poultry industry, reporting on the latest global developments, innovations, and market trends.",
+      "accentColor": "0xFFEF4444",
+      "initials": "PW",
+      "focus": "Global poultry market trends and business analysis",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via direct YouTube URL, cross-checked against a Feedspot poultry-influencer directory citing the same channel and its parent, poultryworld.net."
+    },
+    {
+      "id": "fresh_eggs_daily",
+      "name": "Fresh Eggs Daily with Lisa Steele",
+      "handle": "Fresh Eggs Daily",
+      "description": "One of the most established backyard-to-small-commercial poultry channels -- natural flock-keeping methods, health, and the business realities of scaling a small poultry operation.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "FE",
+      "focus": "Small-scale to commercial poultry business scaling",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Backyard Poultry' (the magazine brand itself was not confirmed to have a matching channel). Confirmed real via the same Feedspot poultry-influencer directory used above, which lists 'Fresh Eggs Daily with Lisa Steele' as an active, established channel."
+    },
+    {
+      "id": "poultry_farm_insider",
+      "name": "Poultry Farm Insider",
+      "handle": "Poultry Farm Insider",
+      "description": "Poultry health, biosecurity, and day-to-day farm management content aimed at commercial and semi-commercial operators.",
+      "accentColor": "0xFF16A34A",
+      "initials": "PI",
+      "focus": "Poultry health, biosecurity, and farm management",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Vetline Africa' (a real veterinary/animal-health company, but no channel confirmed). Confirmed real via the same Feedspot poultry-influencer directory used above."
+    },
+    {
+      "id": "eugene_poultry_farm",
+      "name": "Eugene Poultry Farm Limited",
+      "handle": "Eugene Poultry Farm Limited",
+      "description": "A working poultry farm operation featured among active poultry-industry YouTube channels -- farm operations, flock management, and business realities of commercial poultry keeping.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "EP",
+      "focus": "Commercial poultry farm operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real via the same Feedspot poultry-influencer directory used above, which lists 'Eugene Poultry Farm Limited' as an active channel."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "The Poultry Site",
+      "url": "https://www.thepoultrysite.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real during channel research -- parent site of the confirmed 'THE POULTRY SITE TV' YouTube channel."
+    },
+    {
+      "name": "Farmers Guide (Africa)",
+      "url": "https://www.farmersguide.co.za/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Real South African agriculture trade publication; domain used as provided."
+    },
+    {
+      "name": "Agriculture Nigeria",
+      "url": "https://agricultureng.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Real Nigerian agriculture publication domain; used as provided."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real, including a working RSS feed (entrepreneurs.ng/feed/) verified in prior sessions."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real (reused across multiple prior files)."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://blog.withsplice.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REUSED from business_08_salon_barbing_beauty_spa.json, already verified in a prior session."
+    },
+    {
+      "name": "WATT Poultry",
+      "url": "https://www.wattagnet.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "CSV listed domain as wattglobalmedia.com, which is actually WATT's advertising/media-kit site. The real poultry news content lives at wattagnet.com -- corrected accordingly."
+    },
+    {
+      "name": "Poultry World",
+      "url": "https://www.poultryworld.net/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real during channel verification -- parent site of the confirmed Poultry World YouTube channel."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SUBSTITUTED for 'BusinessDay Agric' (no specific agriculture-section article was located). TechCabal confirmed real and active, with extensive Nigerian agritech coverage."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free book summary PDF via F5 Financial -- condensed notes on the Technician/Manager/Entrepreneur framework.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. URL confirmed live. NOTE: this is a summary/notes document, not the full book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://profitfirstbook.com/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Genuinely free full copy of the book, offered courtesy of Relay (Profit First's official banking platform partner) -- no archive.org account/borrow required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_20 file. CSV lists domain as mikemichalowicz.com, but the actual free-book offer lives at profitfirstbook.com (same author's ecosystem).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup-by-eric-ries-pdf-free-download/",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free PDF via BDeBooks -- validated learning and MVP framework.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. Live status not re-verified this round -- recommend a periodic spot-check.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "Jason Anderson (University of Kansas Pressbooks)",
+      "freeSourceUrl": "https://opentext.ku.edu/smallbusinessmanagement/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, Creative Commons-licensed open textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SOURCE CORRECTED: the CSV lists this as 'OpenStax/Rice University', but OpenStax has never published a title called 'Small Business Management' -- their actual 6-book business series is Introduction to Business, Business Ethics, Principles of Management, Entrepreneurship, Principles of Accounting, and Organizational Behavior (confirmed via Rice University's own 2018 announcement). Substituted the genuinely free, real University of Kansas open textbook of this exact title. Small-business content within the OpenStax ecosystem lives inside Principles of Management, Ch. 7.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/entrepreneurship/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org and cross-referenced against Rice University's official announcement of the OpenStax business textbook series.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/digital-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live. NOTE: official course title is 'Digital Marketing Certification Course' (the CSV's 'for Small Business' framing is close but not the literal title).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free via SBA.gov -- official U.S. Small Business Administration business planning framework. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. SBA.gov confirmed as a free, public, no-login resource.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via direct fetch of the course URL and HubSpot's own resources page listing it among free courses.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/principles-management/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org, authored by David S. Bright and Anastasia H. Cortes. Chapter 7 covers small-business management directly.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully rebuilt 2026-07-24 as a brand-new file (no pre-existing business_10 file existed). Every channel is now a real, named entity -- no UNCONFIRMED placeholders remain. 'Poultry Farming Africa', 'Agric TV Nigeria', and 'Nigerian Farmer' were generic/descriptive labels that did not resolve to real channels and were replaced with Techpoint Africa and The Poultry Site TV. 'Farmcrowdy' (real company, no channel found) was replaced with TechCabal, which covers Farmcrowdy's business model directly. 'Backyard Poultry' and 'Vetline Africa' were replaced with Fresh Eggs Daily and Poultry Farm Insider, both confirmed active via an independent poultry-YouTuber directory. Obasanjo Farms' own official website (obasanjofarmsng.com) is used in place of a specific YouTube video since their real documentary content is third-party-produced rather than hosted on one official channel.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

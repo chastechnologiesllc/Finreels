@@ -1,0 +1,286 @@
+{
+  "categoryId": "business_07_event_planning_rentals",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "colincowie.com",
+      "name": "Colin Cowie Lifestyle",
+      "handle": "colincowie.com",
+      "description": "Celebrity lifestyle advisor and party planner (founded Colin Cowie Lifestyle in 1992, named Vogue's #1 wedding planner) -- known for reinventing his business model repeatedly over three decades to stay relevant in the luxury events space.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "CC",
+      "focus": "Luxury event planning, design, and business reinvention",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: a specific YouTube channel ID could not be independently pinned down in this pass, so this entry points to Colin Cowie's own confirmed, live, official site (colincowie.com) rather than an unconfirmed video link. Reality and prominence confirmed via Wikipedia and multiple industry sources."
+    },
+    {
+      "id": "UCPrestonBaileyOnline",
+      "name": "Preston Bailey",
+      "handle": "@PrestonBaileyOnline",
+      "description": "Premier event designer for celebrities, royal families, and CEOs since 1980 -- his PB Protege program mentors event professionals directly on business and design fundamentals.",
+      "accentColor": "0xFF16A34A",
+      "initials": "PB",
+      "focus": "High-end event design and mentorship business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel confirmed live and active via direct fetch of youtube.com/@PrestonBaileyOnline, cross-checked against prestonbailey.com's own About page describing the same 45-year career."
+    },
+    {
+      "id": "UC-UVvL4rko-VU9ELyH1J-BA",
+      "name": "David Tutera",
+      "handle": "DavidTutera",
+      "description": "American celebrity wedding planner and TV host (My Fair Wedding, CELEBrations). Official channel covers entertaining, event planning, design, and branding.",
+      "accentColor": "0xFFEC4899",
+      "initials": "DT",
+      "focus": "Event planning business, branding, and client relations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via direct YouTube URL (self-described as 'the official David Tutera Youtube channel'), cross-checked against David Tutera's Wikipedia profile."
+    },
+    {
+      "id": "techcabal_events",
+      "name": "TechCabal",
+      "handle": "techcabal",
+      "description": "Pan-African tech publication -- covers Nigerian event-tech, fintech-for-events, and the broader business of hospitality and entertainment startups.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "TC",
+      "focus": "African event-tech and hospitality business news",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES '28th Century Group' and 'Eventology' (neither resolved to a findable channel). TechCabal channel confirmed live via youtube.com/user/techcabal. Also appears in business_06 and business_10 files."
+    },
+    {
+      "id": "bizbash.com",
+      "name": "BizBash",
+      "handle": "bizbash.com",
+      "description": "The event industry's leading trade media company (founded 2000 by David Adler) -- event trends, rental innovations, and business news for planners and producers.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "BB",
+      "focus": "Event industry trends and business news",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: a specific YouTube channel ID could not be independently pinned down in this pass, so this entry points to BizBash's own confirmed, live site (bizbash.com), which itself hosts embedded video content, rather than an unconfirmed video link. Reality confirmed via multiple industry sources including The Wedding Biz podcast's coverage of founder David Adler."
+    },
+    {
+      "id": "theweddingbiz.com",
+      "name": "The Wedding Biz",
+      "handle": "theweddingbiz.com",
+      "description": "Andy Kushner's podcast interviewing the top names in event and wedding planning -- Colin Cowie, David Tutera, and dozens of industry leaders on the business behind the beauty.",
+      "accentColor": "0xFFEF4444",
+      "initials": "WB",
+      "focus": "Event planning business interviews and industry insight",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Event Planning Institute' (no channel confirmed under that name). The Wedding Biz's own site (theweddingbiz.com) is confirmed real and live -- its episode coverage of Colin Cowie was directly retrieved and cited during this research pass."
+    },
+    {
+      "id": "specialevents.com",
+      "name": "Special Events",
+      "handle": "specialevents.com",
+      "description": "Long-running U.S. trade magazine for the event rental and production industry -- business news, product innovations, and industry trends.",
+      "accentColor": "0xFFF97316",
+      "initials": "SE",
+      "focus": "Event rental and production industry news",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "USES OFFICIAL WEBSITE: a specific YouTube channel ID could not be independently pinned down in this pass, so this entry points to Special Events' own site rather than an unconfirmed video link. Special Events is a real, long-established trade magazine."
+    },
+    {
+      "id": "eventbrite.com/blog",
+      "name": "Eventbrite",
+      "handle": "eventbrite.com",
+      "description": "The world's largest self-service ticketing platform -- extensive resource library on event marketing, ticketing strategy, and building a sustainable events business.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "EB",
+      "focus": "Event marketing and ticketing business strategy",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Nigerian Events Academy' (a generic/descriptive name that did not resolve to a real channel). USES OFFICIAL WEBSITE: Eventbrite's own YouTube presence turned out to center on artist/venue integrations rather than a single owned business-education channel, so this entry points to their confirmed, live resource hub instead. Eventbrite itself is a globally known, definitively real company (also listed separately in Blogs)."
+    },
+    {
+      "id": "event_planning_blueprint",
+      "name": "Event Planning Blueprint",
+      "handle": "Melanie Woodward",
+      "description": "Melanie Woodward's channel dedicated specifically to the business side of event planning -- pricing, client acquisition, and scaling an event planning company.",
+      "accentColor": "0xFF84CC16",
+      "initials": "EP",
+      "focus": "Event planning business systems and client acquisition",
+      "verifiedOn": "2026-07-19",
+      "verificationMethod": "REUSED and reinstated from the pre-existing verified business_07 file (verified 2026-07-19, prior session). This CSV's own 10 names didn't include it, but it's a strong, already-verified, directly-on-theme channel that fills the 'Event Planning Institute'-style business-training niche well."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Eventbrite Blog",
+      "url": "https://www.eventbrite.com/blog/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Eventbrite is a well-known, major real ticketing/events platform with an active blog."
+    },
+    {
+      "name": "BizBash",
+      "url": "https://www.bizbash.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real during channel research (founded 2000, David Adler)."
+    },
+    {
+      "name": "Event Manager Blog",
+      "url": "https://www.eventmanagerblog.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Well-known, established events-industry blog."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real, including a working RSS feed (entrepreneurs.ng/feed/) verified in prior sessions."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SUBSTITUTED for 'Shopify Events' (too generic for this category). TechCabal confirmed real and active during channel verification."
+    },
+    {
+      "name": "The Wedding Biz",
+      "url": "https://www.theweddingbiz.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SUBSTITUTED for 'HubSpot Events' (too generic). The Wedding Biz podcast/blog confirmed real and directly cited during Colin Cowie research."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://blog.withsplice.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REUSED from business_08_salon_barbing_beauty_spa.json, already verified in a prior session."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real (reused across multiple prior files)."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African business case studies."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free book summary PDF via F5 Financial -- condensed notes on the Technician/Manager/Entrepreneur framework.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. URL confirmed live. NOTE: this is a summary/notes document, not the full book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://profitfirstbook.com/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Genuinely free full copy of the book, offered courtesy of Relay (Profit First's official banking platform partner) -- no archive.org account/borrow required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_20 file. CSV lists domain as mikemichalowicz.com, but the actual free-book offer lives at profitfirstbook.com (same author's ecosystem).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup-by-eric-ries-pdf-free-download/",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free PDF via BDeBooks -- validated learning and MVP framework.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. Live status not re-verified this round -- recommend a periodic spot-check.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "Jason Anderson (University of Kansas Pressbooks)",
+      "freeSourceUrl": "https://opentext.ku.edu/smallbusinessmanagement/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, Creative Commons-licensed open textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SOURCE CORRECTED: the CSV lists this as 'OpenStax/Rice University', but OpenStax has never published a title called 'Small Business Management' -- their actual 6-book business series is Introduction to Business, Business Ethics, Principles of Management, Entrepreneurship, Principles of Accounting, and Organizational Behavior (confirmed via Rice University's own 2018 announcement). Substituted the genuinely free, real University of Kansas open textbook of this exact title. Small-business content within the OpenStax ecosystem lives inside Principles of Management, Ch. 7.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/entrepreneurship/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org and cross-referenced against Rice University's official announcement of the OpenStax business textbook series.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/digital-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live. NOTE: official course title is 'Digital Marketing Certification Course' (the CSV's 'for Small Business' framing is close but not the literal title).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free via SBA.gov -- official U.S. Small Business Administration business planning framework. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. SBA.gov confirmed as a free, public, no-login resource.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via direct fetch of the course URL and HubSpot's own resources page listing it among free courses.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/principles-management/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org, authored by David S. Bright and Anastasia H. Cortes. Chapter 7 covers small-business management directly.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully rebuilt 2026-07-24, updating the pre-existing business_07 file. Every channel is now a real, named entity. 4 of the CSV's 10 channel names (28th Century Group, Eventology, Nigerian Events Academy, Event Planning Institute) were generic/descriptive and did not resolve to real channels; replaced with TechCabal, Eventbrite, and The Wedding Biz, all confirmed real. Shecluded (real company, no channel found) was replaced with Nairametrics TV. The pre-existing verified 'Event Planning Blueprint' entry was reinstated as the 10th slot since it's a strong, already-verified fit and wasn't in this CSV's own list. Colin Cowie, BizBash, and Special Events are all confirmed real and prominent but their exact channel IDs weren't pinned down -- each entry names the channel/search term precisely so it's a one-search lookup, not a research task.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

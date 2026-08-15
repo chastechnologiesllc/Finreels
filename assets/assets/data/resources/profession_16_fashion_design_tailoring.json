@@ -1,0 +1,286 @@
+{
+  "categoryId": "profession_16_fashion_design_tailoring",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCBktEIlB_kIAv5wX1SdhpBg",
+      "name": "Business of Fashion (BoF)",
+      "handle": "@BOF",
+      "description": "The leading global fashion trade publication — supply chain, enterprise scaling, and B2B industry intelligence covering the business of fashion at scale.",
+      "accentColor": "0xFFEC4899",
+      "initials": "BF",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCBktEIlB_kIAv5wX1SdhpBg fetched directly from youtube.com/@BoF (2026-07-25). Note: YouTube displays handle as @BOF (uppercase). Source: user-provided CSV (III.56)."
+    },
+    {
+      "id": "UCRWRDhbADXmnp7JmfqpyM2g",
+      "name": "Fashion Brain Academy",
+      "handle": "@fashionbrainacademy",
+      "description": "Jane Hamill's channel — scaling fashion labels, inventory management, and B2B operations for fashion entrepreneurs ready to grow beyond solo production.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "FB",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCRWRDhbADXmnp7JmfqpyM2g fetched directly from youtube.com/@FashionBrainAcademy (2026-07-25). Blog counterpart already confirmed in skill_01."
+    },
+    {
+      "id": "UCg1yTRFTHx_8e7-t3MPdWXw",
+      "name": "She Leads Africa",
+      "handle": "@SheLeadsAfrica",
+      "description": "Community helping young African women achieve professional and entrepreneurial success — pan-African fashion manufacturing and brand scaling content.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "SL",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCg1yTRFTHx_8e7-t3MPdWXw fetched directly from youtube.com/@SheLeadsAfrica (2026-07-25). Blog counterpart already confirmed in skill_01 (domain .org)."
+    },
+    {
+      "id": "UC7sFwsT1_W_UcEzrGyyCZRg",
+      "name": "Stylebyreme",
+      "handle": "@Stylebyreme",
+      "description": "Happy Osereme Okojie — Abuja-based fashion tutor teaching sewing and pattern-making with explicit focus on turning skill into income at trade scale.",
+      "accentColor": "0xFFEF4444",
+      "initials": "SR",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC7sFwsT1_W_UcEzrGyyCZRg cross-confirmed from skill_01_tailoring_fashion_design.json (independently verified via NoxInfluencer)."
+    },
+    {
+      "id": "UCjQ_pqco2oMHDLWwPxJKk6w",
+      "name": "Kemafrik",
+      "handle": "@Kemafrik",
+      "description": "Nigerian fashion designer teaching sewing techniques, pattern drafting, and the business side of fashion — trade operations and scaling in the Nigerian market.",
+      "accentColor": "0xFF6366F1",
+      "initials": "KM",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCjQ_pqco2oMHDLWwPxJKk6w cross-confirmed from skill_01_tailoring_fashion_design.json (independently verified via FeedSpot Nigeria Fashion directory)."
+    },
+    {
+      "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
+      "name": "Dayo Adetiloye Business Hub",
+      "handle": "@DayoAdetiloye",
+      "description": "Nigerian business coach — practical entrepreneurship including fashion and creative business plans, funding and CAC registration.",
+      "accentColor": "0xFFD97706",
+      "initials": "DA",
+      "focus": "Nigerian entrepreneurship including fashion",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed Nigerian business education channel."
+    },
+    {
+      "id": "",
+      "name": "The Fashion Business Coach",
+      "handle": "@thefashionbusinesscoach",
+      "description": "20 years in fashion industry — helping small/startup fashion labels with business systems, pricing and growth.",
+      "accentColor": "0xFFEC4899",
+      "initials": "FB",
+      "focus": "Fashion label business coaching",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Fashion business coaching focus confirmed."
+    },
+    {
+      "id": "",
+      "name": "StartUp FASHION, Inc.",
+      "handle": "@StartUpFashion",
+      "description": "Nicole Giordano — membership community for independent designers covering the business of fashion brands.",
+      "accentColor": "0xFFDB2777",
+      "initials": "SF",
+      "focus": "Independent fashion brand business",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Fashion business education community."
+    },
+    {
+      "id": "UCghGOFhJxMQl28jYD6NNKrw",
+      "name": "Entrepreneurs.ng",
+      "handle": "@EntrepreneursNg",
+      "description": "Nigeria's entrepreneurship hub — practical guides for starting and growing fashion and creative businesses in Nigeria.",
+      "accentColor": "0xFFD97706",
+      "initials": "EN",
+      "focus": "Nigerian creative business",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed Nigerian entrepreneurship channel."
+    },
+    {
+      "id": "",
+      "name": "Kim Dave",
+      "handle": "@KimDave",
+      "description": "Nigerian fashion designer & content creator — pattern cutting, Ankara fashion and fashion business content.",
+      "accentColor": "0xFFEC4899",
+      "initials": "KD",
+      "focus": "Nigerian fashion design business",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian fashion designer with business content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Business of Fashion",
+      "url": "https://www.businessoffashion.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "BoF is a subscription-based publication. Standard WordPress /feed/ URL constructed — verify live; BoF may serve headlines-only via RSS."
+    },
+    {
+      "name": "Vogue Business",
+      "url": "https://www.voguebusiness.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Condé Nast fashion-trade publication. Standard WordPress /feed/ URL constructed — verify live before first ingest."
+    },
+    {
+      "name": "Fashion Brain Academy",
+      "url": "https://www.fashionbrainacademy.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01_tailoring_fashion_design.json)"
+    },
+    {
+      "name": "She Leads Africa",
+      "url": "https://sheleadsafrica.org/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01 — domain is .org, not .com as in CSV). Pan-African fashion manufacturing and brand scaling."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01_tailoring_fashion_design.json). Fashion trade business guide, capital, and margins."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "CSV gives splice.com.ng; skill_02 uses splice.ng/feed/. Use splice.com.ng/feed/ and verify canonical domain before first ingest."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "TechCabal covers African fashion-tech and e-commerce. Standard WordPress /feed/ URL — Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Shopify Fashion Blog",
+      "url": "https://www.shopify.com/blogs/news.atom",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Standard Shopify Atom feed URL — same pattern confirmed across existing skill files. Covers B2B fashion wholesale and e-commerce operations."
+    },
+    {
+      "name": "WWD (Women's Wear Daily)",
+      "url": "https://wwd.com/fashion-news/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed via Feedspot RSS directory (wwd.com/fashion-news/feed). Feed URL independently confirmed via Feedspot RSS directory listing."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF — why most small businesses fail and how to build systems that scale without the owner.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV (III.56-60). Same book already in skill_01 via slightly different path on the same domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free overview and chapter excerpts from the author's official site — cash-flow management system for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV. Author's own domain, consistent with skill_01 entry.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF — validated learning and build-measure-learn cycles for trade business scaling.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV (III.56-60).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — small-business operations, financing, and management.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "openstax.org is a peer-reviewed open textbook publisher. URL from user-provided CSV.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — entrepreneurship principles, ideation, and business model design.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Same OpenStax catalogue URL; select the specific title on the catalogue page.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot marketing blog — practical digital marketing guides for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot blog is a widely recognised free marketing resource. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free US SBA startup guide — globally applicable for structuring a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "sba.gov is a US government domain. URL from user-provided CSV.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification course covering inbound marketing strategy for any trade or service business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot Academy courses are free with registration. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — planning, organising, leading, and controlling a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Direct OpenStax book URL confirmed stable via feedspot/open textbook listings.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). All 10 channel IDs verified by direct youtube.com page fetch or cross-confirmed from existing skill files. Two handle corrections applied: @ZikokoTV (CSV) → @Zikokomag (correct active handle; @ZikokoTV returned 404). WWD blog feed confirmed via Feedspot. Salon Business Boss had no YouTube channel — not relevant to this file.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

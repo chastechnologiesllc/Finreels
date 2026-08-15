@@ -1,0 +1,286 @@
+{
+  "categoryId": "profession_18_catering_event_planning",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCsRDDzikEosoUrV-3_HxWNw",
+      "name": "Restaurant Owners Uncorked",
+      "handle": "@RestaurantOwnersUncorked",
+      "description": "Schedulefly's top-5 worldwide hospitality podcast on YouTube — successful independent restaurant and catering owners sharing operational realities, scaling advice, and business lessons.",
+      "accentColor": "0xFFEC4899",
+      "initials": "RO",
+      "focus": "Catering & event planning trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCsRDDzikEosoUrV-3_HxWNw confirmed via Apple Podcasts listing (2026-07-25): 'You can watch this episode on YouTube here: https://www.youtube.com/channel/UCsRDDzikEosoUrV-3_HxWNw'. Hosted by Schedulefly."
+    },
+    {
+      "id": "UC5srHQplt5m4YZA-CRQ1cmw",
+      "name": "Colin Cowie",
+      "handle": "@ColinCowie",
+      "description": "Celebrity event planner and luxury event production — scaling a high-end event company, B2B partnerships, and building an enterprise event-design business.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "CC",
+      "focus": "Catering & event planning trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC5srHQplt5m4YZA-CRQ1cmw fetched from youtube.com/user/colincowie (2026-07-25). YouTube displays handle as @ColinCowie. Note: CSV listed @ColinCowieLifestyle which returned 404; @ColinCowie is the correct active handle."
+    },
+    {
+      "id": "UCq-RNGyPgsFrojXW74zbVBQ",
+      "name": "Preston Bailey",
+      "handle": "@PrestonBaileyOnline",
+      "description": "High-end event design enterprise and floral trade — international event design at scale, B2B trade relationships, and building a professional event design firm.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "PB",
+      "focus": "Catering & event planning trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCq-RNGyPgsFrojXW74zbVBQ fetched from youtube.com/@PrestonBaileyOnline (2026-07-25). Note: CSV listed @PrestonBailey which returned 404; @PrestonBaileyOnline is the correct active handle."
+    },
+    {
+      "id": "UCCNvbv5IQV77Gsh-c-v8nfg",
+      "name": "Zeelicious Foods",
+      "handle": "@ZeeliciousFoods",
+      "description": "Winifred Nwania's Nigerian food brand — catering contract wins, food production scaling, and building a food trade business in the Nigerian market.",
+      "accentColor": "0xFF10B981",
+      "initials": "ZF",
+      "focus": "Catering & event planning trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCCNvbv5IQV77Gsh-c-v8nfg fetched directly from youtube.com/@ZeeliciousFoods (2026-07-25)."
+    },
+    {
+      "id": "UCnka1A32ye14_yCvXIWTOuQ",
+      "name": "Diary of a Kitchen Lover",
+      "handle": "@DiaryOfAKitchenLover",
+      "description": "Tolani Tayo-Osikoya (Chef T) — Nigerian food trade, catering operations, and branding. Channel has 3M+ subscribers. Practical content on running a Nigerian food business.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "DK",
+      "focus": "Catering & event planning trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCnka1A32ye14_yCvXIWTOuQ cross-confirmed from skill_15_catering_baking.json (independently verified). Wikipedia confirms 3M subscribers as of 2024."
+    },
+    {
+      "id": "UCtzRkaKB6yQvLnp_4fGsSUA",
+      "name": "BizBash",
+      "handle": "@BizBash",
+      "description": "The leading trade publication for event professionals — event production industry trends, B2B venue and equipment rentals, and large-scale event business operations.",
+      "accentColor": "0xFFEF4444",
+      "initials": "BB",
+      "focus": "Catering & event planning trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCtzRkaKB6yQvLnp_4fGsSUA fetched directly from youtube.com/@BizBash (2026-07-25)."
+    },
+    {
+      "id": "UC6oFqFPZ5AbrkJmKHfh3C5A",
+      "name": "Toast, Inc.",
+      "handle": "@Toasttab",
+      "description": "Enterprise restaurant and catering management systems — how food and catering businesses use Toast's POS technology for operations, reporting, and scaling.",
+      "accentColor": "0xFF6366F1",
+      "initials": "TT",
+      "focus": "Catering & event planning trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC6oFqFPZ5AbrkJmKHfh3C5A fetched from youtube.com/@Toasttab (2026-07-25). Note: CSV listed @Toast which is a UK comedy channel; @Toasttab is the correct Toast Inc. (POS company) handle."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Television",
+      "handle": "@BDTV-NG",
+      "description": "Official BusinessDay Nigeria YouTube channel — Nigerian hospitality, event, and catering sector news alongside broad business and financial market coverage.",
+      "accentColor": "0xFF84CC16",
+      "initials": "BD",
+      "focus": "Catering & event planning trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCsVZWCV-LutMa89JgR8-KGw fetched from youtube.com/@BDTV-NG (2026-07-25). Note: CSV listed @BusinessDayTV which returned 404; @BDTV-NG is the correct active handle. Confirmed via BusinessDay Facebook page which links to youtube.com/@BusinessDayNG/ — @BDTV-NG is the active channel."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Toast Blog",
+      "url": "https://pos.toasttab.com/blog/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Standard WordPress /feed/ URL for Toast's restaurant management blog. Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Restaurant Owner",
+      "url": "https://www.restaurantowner.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "restaurantowner.com — large-scale catering profitability and costing. Standard /feed/ URL. Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "BizBash",
+      "url": "https://www.bizbash.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "BizBash — leading event-industry trade publication. Standard WordPress /feed/ URL. Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Eventbrite Blog",
+      "url": "https://www.eventbrite.com/blog/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Eventbrite's blog — event marketing, ticketing, and enterprise operations. Standard /feed/ URL. Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01). Event production business guide, capital, and margins."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Covers catering supply chain and event setup guides. Verify canonical domain (splice.com.ng vs splice.ng) before first ingest."
+    },
+    {
+      "name": "Shopify Events Blog",
+      "url": "https://www.shopify.com/blogs/news.atom",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Standard Shopify Atom feed URL — same pattern confirmed across existing skill files. Covers B2B event booking and enterprise marketing."
+    },
+    {
+      "name": "Catering.com",
+      "url": "https://www.catering.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Global commercial catering trade news. Standard WordPress /feed/ URL — Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF — why most small businesses fail and how to build systems that scale without the owner.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV (III.56-60). Same book already in skill_01 via slightly different path on the same domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free overview and chapter excerpts from the author's official site — cash-flow management system for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV. Author's own domain, consistent with skill_01 entry.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free PDF — validated learning and build-measure-learn cycles for trade business scaling.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV (III.56-60).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — small-business operations, financing, and management.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "openstax.org is a peer-reviewed open textbook publisher. URL from user-provided CSV.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — entrepreneurship principles, ideation, and business model design.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Same OpenStax catalogue URL; select the specific title on the catalogue page.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot marketing blog — practical digital marketing guides for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot blog is a widely recognised free marketing resource. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free US SBA startup guide — globally applicable for structuring a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "sba.gov is a US government domain. URL from user-provided CSV.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification course covering inbound marketing strategy for any trade or service business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot Academy courses are free with registration. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — planning, organising, leading, and controlling a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Direct OpenStax book URL confirmed stable via feedspot/open textbook listings.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). Key handle corrections: @ColinCowieLifestyle→@ColinCowie, @PrestonBailey→@PrestonBaileyOnline, @Toast→@Toasttab, @BusinessDayTV→@BDTV-NG. All four corrected handles confirmed by direct YouTube page fetch. Restaurant Owners Uncorked ID confirmed via Apple Podcasts source linking to the YouTube channel URL.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

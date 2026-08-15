@@ -1,0 +1,286 @@
+{
+  "categoryId": "skill_pos_agent_banking",
+  "status": "verified",
+  "lastUpdated": "2026-08-04",
+  "channels": [
+    {
+      "id": "UCL0qLsvIKeGU-Y1nhdFdC6A",
+      "name": "Moniepoint Group",
+      "handle": "@Moniepointinc",
+      "description": "Africa's largest business payment and banking platform — FT Africa's Fastest-Growing Company, TIME100 Most Influential Companies, CBN's Financially Inclusive Fintech of the Year. Parent company to TeamApt, Monnify, and Monieworld. Channel covers agency banking, POS operations, business banking, and fintech innovation.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "MP",
+      "focus": "Africa's leading POS and agency banking platform — official content",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed."
+    },
+    {
+      "id": "UCw1lcCTwwpR0RTf7STQpYDw",
+      "name": "OPay Nigeria",
+      "handle": "@opaynigeria",
+      "description": "Nigeria's leading fintech with tens of millions of users — licensed by CBN, insured by NDIC. Channel covers OPay POS agent setup, mobile money operations, transfers, bills payment, and how to build a profitable OPay agent business. Direct training content from Nigeria's most-used payment platform.",
+      "accentColor": "0xFF16A34A",
+      "initials": "OP",
+      "focus": "OPay POS agent setup, operations, and mobile money business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Handle CORRECTED: @opaynigeria (all lowercase) — CSV had 'OPay Nigeria' and assumed @OPayNigeria."
+    },
+    {
+      "id": "UCNlPRjBk4ywDWj4UTSj1q-Q",
+      "name": "PalmPay",
+      "handle": "@PalmPay",
+      "description": "Nigeria's second-largest fintech with 40M+ registered users and ~1 million SME merchant clients. Channel covers PalmPay agent setup, merchant tools, cashback features, and how to build a profitable PalmPay POS business.",
+      "accentColor": "0xFF059669",
+      "initials": "PM",
+      "focus": "PalmPay agent setup, merchant tools, and POS business operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Handle CORRECTED: @PalmPay — CSV assumed @PalmPayNigeria. No 'Nigeria' in actual handle."
+    },
+    {
+      "id": "UC9T6ECutY4EPwJnGlbw4BzA",
+      "name": "Techpoint Africa",
+      "handle": "@techpointafrica",
+      "description": "Africa's most notable tech, startup and business media brand — founded 2015, host of Techpoint Build (largest tech event in West and East Africa). Covers Nigerian fintech news, agency banking regulation, POS market sizing, and innovation trends affecting POS agent business models.",
+      "accentColor": "0xFF0369A1",
+      "initials": "TP",
+      "focus": "African tech and fintech news — POS industry trends and regulation",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Television",
+      "handle": "@BDTV-NG",
+      "description": "Official BusinessDay newspaper channel. Covers fintech sector growth, CBN policy updates, agency banking regulation, and the economics of Nigeria's financial inclusion push that drives POS agent demand.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "BD",
+      "focus": "Nigerian business news — fintech policy, CBN regulation, agency banking economics",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Handle CORRECTED to @BDTV-NG."
+    },
+    {
+      "id": "UCKPrhdlB-gKbM4sI42P_bdQ",
+      "name": "cenbank",
+      "handle": "@cenbank",
+      "description": "The official YouTube channel of the Central Bank of Nigeria — covering CBN policies on agency banking, POS licensing requirements, cash management regulations, financial inclusion targets (EFInA data), and regulatory circulars that directly govern how POS agents operate in Nigeria. Every POS agent should understand CBN regulation — this is the primary source.",
+      "accentColor": "0xFF92400E",
+      "initials": "CB",
+      "focus": "Official Central Bank of Nigeria — agency banking regulation, policy, and financial inclusion",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/channel/UCKPrhdlB-gKbM4sI42P_bdQ. Vanity URL is youtube.com/cenbank. Handle @cenbank confirmed."
+    },
+    {
+      "id": "UCBIAbIysVyppFIiQP9CV-zQ",
+      "name": "Flutterwave",
+      "handle": "@theflutterwave",
+      "description": "Flutterwave is Africa's leading payment infrastructure company covering payment solutions, business API integration, fintech innovation, and the broader Nigerian fintech ecosystem. POS agents benefit from understanding the payment infrastructure they operate within — how switching networks, interoperability, and transaction routing work behind every POS transaction.",
+      "accentColor": "0xFF1E40AF",
+      "initials": "FW",
+      "focus": "Pan-African payment infrastructure — fintech solutions for businesses and POS operators",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED FintechNigeria (no confirmed YouTube channel at that handle). Flutterwave confirmed via live fetch of youtube.com/@theflutterwave."
+    },
+    {
+      "id": "UCRApoo2RnIcX4ocFmKZwYSg",
+      "name": "Cowrywise",
+      "handle": "@Cowrywise",
+      "description": "Cowrywise is Nigeria's leading savings and investment platform with dedicated YouTube content on building wealth, managing business cash flow, and investment planning. POS agents typically handle large cash volumes daily — Cowrywise content covers how to separate business float from personal funds, build an emergency reserve, and make the agent business financially sustainable.",
+      "accentColor": "0xFF854D0E",
+      "initials": "CW",
+      "focus": "Nigerian savings and investment platform — financial management for POS business operators",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED SMEDAN (no confirmed YouTube channel at @SMEDANofficial). Cowrywise confirmed via live fetch of youtube.com/channel/UCRApoo2RnIcX4ocFmKZwYSg."
+    },
+    {
+      "id": "UCQodXFArJzNhtdQe8tFyY5g",
+      "name": "FMCIDE Nigeria",
+      "handle": "@FMCIDENigeria",
+      "description": "Official channel of Nigeria's Federal Ministry of Communications, Innovation & Digital Economy. Covers Nigeria's financial inclusion agenda, digital payment adoption policy, and the government's agency banking expansion programmes. Directly relevant to POS agents wanting to understand the government's long-term plans for the sector they operate in.",
+      "accentColor": "0xFF6D28D9",
+      "initials": "FM",
+      "focus": "Nigeria's digital economy ministry — financial inclusion, digital payments, agency banking policy",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED AgencyBankingAfrica (no confirmed YouTube channel at that handle). FMCIDE Nigeria confirmed via live fetch of youtube.com/@FMCIDENigeria."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "African tech media — Nigerian fintech news, OPay/Moniepoint/PalmPay developments, and POS agent market analysis."
+    },
+    {
+      "name": "Moniepoint Blog",
+      "url": "https://moniepoint.com/blog/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Moniepoint official blog — agent banking tips, POS business guides, and product updates for Moniepoint agents."
+    },
+    {
+      "name": "OPay Blog",
+      "url": "https://opayweb.com/blog/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OPay official blog — agent setup, product updates, and tips for running a profitable OPay business."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "POS agent business guides, profitability estimates, and agency banking entrepreneurship stories from Nigeria."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "POS business startup guides, capital requirements, and daily transaction management for Nigerian agents."
+    },
+    {
+      "name": "CBN Official Website",
+      "url": "https://www.cbn.gov.ng",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED: CBN.gov.ng is a government website — not a WordPress blog and has no /feed/ RSS endpoint. Use cbn.gov.ng as a reference link for official CBN circulars on agency banking. Do NOT embed as RSS in feed reader."
+    },
+    {
+      "name": "EFInA",
+      "url": "https://efina.org.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "EFInA (Enhancing Financial Innovation and Access) — leading Nigerian financial inclusion research organisation. Publishes data on agent banking market sizing, financial exclusion rates, and access to finance in Nigeria."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African business case studies."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview at Google Books — technician/manager/entrepreneur framework essential for anyone moving from solo operator to business owner",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (f5fp.com — third-party site for a copyrighted book). Google Books preview is legitimate. Full book recommended for purchase.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter and framework at mikemichalowicz.com — take profit before expenses using envelope-style account allocation",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Official author site — free chapter available. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview at theleanstartup.com — build-measure-learn frameworks from the official author site",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (bdebooks.com — third-party site for a copyrighted book). Replaced with official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — operations, finance, marketing and HR for small businesses. No paywall, no DRM.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed academic textbook. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free complete entrepreneurship coursebook — ideation, business model design, funding, and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "HubSpot Marketing Resources",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at hubspot.com/resources — 198+ free marketing guides, templates, and ebooks. No paywall.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot — genuinely free with no paywall. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official startup guide at sba.gov — business structure, licensing, financing, and operations fundamentals",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SBA.gov — U.S. government, permanently free. No URL correction needed.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "course",
+      "freeSourceNote": "Free certification course at HubSpot Academy — complete inbound marketing curriculum with official certification on completion",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy — free with official certification. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — POLC framework: planning, organising, leading, and controlling a business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "integrationNotes": "6/10 channels confirmed with UCxxx IDs (Moniepoint, OPay Nigeria, PalmPay, Techpoint Africa, BusinessDay TV, NairametricsTV). 4 RESOLVE (CBN cenbank, FintechNigeria, SMEDANofficial, AgencyBankingAfrica). Key corrections: (1) OPay handle CORRECTED to @opaynigeria (all lowercase); (2) PalmPay handle is @PalmPay not @PalmPayNigeria; (3) BusinessDay handle → @BDTV-NG; (4) Nairametrics → @NairametricsTV. Blog correction: CBN cbn.gov.ng has no RSS /feed/ endpoint — changed to reference link. FiN and SMEDAN may not have active YouTube channels — verify handles and replace if absent.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

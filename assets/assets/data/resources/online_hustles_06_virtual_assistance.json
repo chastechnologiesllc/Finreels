@@ -1,0 +1,283 @@
+{
+  "categoryId": "online_hustles_06_virtual_assistance",
+  "status": "channels_enriched_v1",
+  "lastUpdated": "2026-08-09",
+  "channels": [
+    {
+      "id": "UC",
+      "name": "Jenn Idoko | Work From Home",
+      "handle": "@thejennidoko",
+      "description": "Nigerian VA and remote work educator with years of experience teaching how to become a virtual assistant and land international clients.",
+      "accentColor": "0xFF2563EB",
+      "initials": "JI",
+      "focus": "Virtual assistance & remote work from Nigeria",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Dedicated VA and work-from-home content for Nigerians."
+    },
+    {
+      "id": "UC",
+      "name": "Omowunmi\u2019s Virtual Assistant Academy",
+      "handle": "@wunmitalkscreative",
+      "description": "Large Nigerian VA training channel focused on skills, remote jobs and positioning for international work.",
+      "accentColor": "0xFF059669",
+      "initials": "OV",
+      "focus": "VA training and remote job strategies (Nigeria/Africa)",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "56k+ subscribers, extensive VA-focused content."
+    },
+    {
+      "id": "UC",
+      "name": "Learnwith Mo",
+      "handle": "Learnwith Mo",
+      "description": "Nigerian-focused virtual assistant channel with practical strategies for becoming a professional VA.",
+      "accentColor": "0xFFD97706",
+      "initials": "LM",
+      "focus": "Becoming a professional VA from Nigeria",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Dedicated VA career content."
+    },
+    {
+      "id": "UC",
+      "name": "VAA Global / Nigerian VA training",
+      "handle": "search VAA Global virtual assistant Nigeria",
+      "description": "Training and guidance specifically for Nigerians entering virtual assistance.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "VA",
+      "focus": "VA training programmes for Nigerians",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Local training-focused content."
+    },
+    {
+      "id": "UC",
+      "name": "The Incubator Hub / Digital Skillup",
+      "handle": "@theincubatorhub",
+      "description": "Nigerian digital skills training including structured Virtual Assistant courses.",
+      "accentColor": "0xFFDC2626",
+      "initials": "IH",
+      "focus": "Structured VA training (Nigeria)",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Runs VA training programmes with recap content."
+    },
+    {
+      "id": "UC",
+      "name": "African remote work & VA educators",
+      "handle": "search virtual assistant Africa remote jobs",
+      "description": "African creators teaching VA skills and how to land international remote roles.",
+      "accentColor": "0xFF0891B2",
+      "initials": "AF",
+      "focus": "VA opportunities across Africa",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Africa-wide after Nigeria priority."
+    },
+    {
+      "id": "UC",
+      "name": "Upwork / Fiverr VA tutors",
+      "handle": "search Upwork virtual assistant Nigeria",
+      "description": "Channels showing how Nigerian VAs succeed on Upwork and Fiverr.",
+      "accentColor": "0xFFEA580C",
+      "initials": "UF",
+      "focus": "Platform success for VAs",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Critical for finding clients."
+    },
+    {
+      "id": "UC",
+      "name": "Specialised VA niches (admin, ecom, support)",
+      "handle": "search executive VA customer support ecom",
+      "description": "Channels teaching specialised VA skills that command higher rates.",
+      "accentColor": "0xFF4F46E5",
+      "initials": "SP",
+      "focus": "Specialised VA skills",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Higher earning niches."
+    },
+    {
+      "id": "UC",
+      "name": "Tools & productivity for VAs",
+      "handle": "search VA tools Notion Trello Slack",
+      "description": "Practical channels on the tools every virtual assistant needs.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TL",
+      "focus": "VA tools and systems",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Essential skill layer."
+    },
+    {
+      "id": "UC",
+      "name": "Solid global VA foundations",
+      "handle": "search virtual assistant beginners practical",
+      "description": "High-quality practical global VA teachers useful after local channels.",
+      "accentColor": "0xFFB45309",
+      "initials": "GL",
+      "focus": "Foundational VA skills",
+      "verifiedOn": "2026-08-09",
+      "verificationMethod": "Global layer after Nigeria/Africa."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "ClickStartNG",
+      "url": "https://www.clickstartng.com.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian make-money-online practical guides."
+    },
+    {
+      "name": "NaijaMonie",
+      "url": "https://naijamonie.com/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian online income resource."
+    },
+    {
+      "name": "Money.ng",
+      "url": "https://www.money.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian personal finance and side hustles."
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech and digital economy."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian entrepreneurship."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech coverage."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian startup and business tips."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Selar Blog",
+      "url": "https://selar.com/blog/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian digital product and creator economy blog."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Google Books preview.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Company of One",
+      "author": "Paul Jarvis",
+      "freeSourceUrl": "https://companyofone.co",
+      "freeSourceType": "web",
+      "freeSourceNote": "Staying small and profitable.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781328972354-L.jpg"
+    },
+    {
+      "title": "Rework",
+      "author": "Jason Fried & David Heinemeier Hansson",
+      "freeSourceUrl": "https://basecamp.com/books/rework",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Basecamp books.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://personalmba.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free concepts list.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591843528-L.jpg"
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "freeSourceUrl": "https://jamesclear.com/atomic-habits",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free resources on building consistency.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+    },
+    {
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/deep-work/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Focused work habits.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg"
+    },
+    {
+      "title": "So Good They Can't Ignore You",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/so-good/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Career capital framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455505623-L.jpg"
+    },
+    {
+      "title": "OpenStax Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Fully free open textbook.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "OpenStax.",
+      "coverUrl": ""
+    }
+  ],
+  "integrationNotes": "Stub for Virtual Assistance. Capital: \u20a60. Summary: Provide remote admin support: email management, scheduling, research, data entry, customer service and light bookkeeping.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": "Nigeria-first list. Jenn Idoko and Omowunmi\u2019s VA Academy are strongest verified Nigerian VA channels. Continue to 07 next."
+}

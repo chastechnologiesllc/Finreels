@@ -1,0 +1,3676 @@
+{
+  "modules": [
+    {
+      "code": "M1",
+      "name": "Pricing & Valuing Your Skill",
+      "description": "Costing a service or product properly instead of guessing or copying a competitor"
+    },
+    {
+      "code": "M2",
+      "name": "Separating Personal & Business Money",
+      "description": "Why mixing accounts hides whether the business is actually profitable, and creates tax risk"
+    },
+    {
+      "code": "M3",
+      "name": "Record-Keeping & Bookkeeping",
+      "description": "The minimum records every professional needs, even solo"
+    },
+    {
+      "code": "M4",
+      "name": "Getting & Keeping Clients",
+      "description": "Turning one-off customers into repeat and referral business"
+    },
+    {
+      "code": "M5",
+      "name": "Contracts, Deposits & Getting Paid",
+      "description": "Protecting income before, during, and after the work is done"
+    },
+    {
+      "code": "M6",
+      "name": "Tax, Registration & Compliance",
+      "description": "What changed under the 2026 tax reform, and what it means for this profession specifically"
+    },
+    {
+      "code": "M7",
+      "name": "Cash Flow & Seasonal Income",
+      "description": "Managing money when income is lumpy but expenses are constant"
+    },
+    {
+      "code": "M8",
+      "name": "Saving, Reinvesting & Growing",
+      "description": "Building a reserve and deciding what to reinvest in next"
+    },
+    {
+      "code": "M9",
+      "name": "Scaling — Solo to Team",
+      "description": "What changes, legally and financially, the moment you hire your first person"
+    },
+    {
+      "code": "M10",
+      "name": "Protecting the Business",
+      "description": "Insurance, liability, and risk most solo professionals skip"
+    }
+  ],
+  "taxReform": {
+    "headline": "Nigeria's tax system was overhauled by four laws effective 1 January 2026.",
+    "facts": [
+      "Roughly ₦800,000 of annual income is now tax-free outright; some official guidance",
+      "\"Small\" businesses — turnover under ₦50m for income tax purposes, under ₦100m for VAT",
+      "But professional service firms are explicitly excluded from that exemption, regardless",
+      "Everyone earning income — employees, freelancers, remote/foreign-client workers, business",
+      "Bank and fintech transactions are increasingly visible to tax authorities as enforcement digitizes.",
+      "Rent relief is now 20% of annual rent paid, capped at ₦500,000."
+    ],
+    "whyItMatters": "a tailor, salon owner, caterer, mechanic, or photographer who formalizes now gets a real tax break. A doctor, lawyer, accountant, or engineer does not — no matter how small their practice is. That gap is surprising, true, specific, and almost nobody on either side knows it yet. It's strong enough to be its own launch series."
+  },
+  "categories": [
+    {
+      "id": "skill_01_tailoring_fashion_design",
+      "section": "skill",
+      "number": 1,
+      "name": "Tailoring & Fashion Design",
+      "skillQuestions": [
+        "How does a tailor make money beyond per-piece sewing jobs?",
+        "Who really pays for tailoring — individuals, boutiques, or event planners — and how does that change pricing?",
+        "How do you price a design based on skill and time, not just fabric cost?",
+        "What turns a tailoring skill into a fashion brand or label?",
+        "What assets can a tailor build (patterns, a brand, a workshop, apprentices) that outlast any single job?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "tailor",
+        "tailoring",
+        "seamstress",
+        "sewing",
+        "sew",
+        "fashion designer",
+        "fashion design",
+        "ankara",
+        "aso ebi",
+        "pattern cutting",
+        "cloth making",
+        "fabric",
+        "couture",
+        "bespoke clothing",
+        "dressmaking",
+        "dressmaker",
+        "style"
+      ]
+    },
+    {
+      "id": "skill_02_hairdressing_hairstyling",
+      "section": "skill",
+      "number": 2,
+      "name": "Hairdressing & Hairstyling",
+      "skillQuestions": [
+        "How does a hairstylist earn beyond charging per customer?",
+        "What problems does great hairstyling solve for a client beyond just \"looking good\"?",
+        "How does a stylist attract repeat clients instead of one-off walk-ins?",
+        "What tools or systems (booking, product retail, a chair-rental model) turn a skill into a business?",
+        "What common money mistakes do hairstylists make (undercharging, no separate business account, no records)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "hairdresser",
+        "hairstylist",
+        "hair salon",
+        "braiding",
+        "braider",
+        "weaving",
+        "hair styling",
+        "natural hair",
+        "wig making",
+        "wig maker",
+        "relaxer",
+        "plaiting",
+        "cornrow",
+        "salon",
+        "hair stylist"
+      ]
+    },
+    {
+      "id": "skill_03_barbing",
+      "section": "skill",
+      "number": 3,
+      "name": "Barbing",
+      "skillQuestions": [
+        "Who actually pays for barbing, and how often — and what does that mean for pricing a chair vs. a haircut?",
+        "What turns a barbing skill into a barbershop business with staff and a brand?",
+        "How does a barber build recurring income instead of one-off cuts?",
+        "What assets can a barber build (a shop, a loyal client book, product sales)?",
+        "What are the common ways barbers lose money (no fixed pricing, cash leakage, no reinvestment)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "barber",
+        "barbershop",
+        "barbing salon",
+        "haircut",
+        "hair cut",
+        "fade",
+        "clipper",
+        "shaving",
+        "low cut",
+        "hair cutting"
+      ]
+    },
+    {
+      "id": "skill_04_makeup_artistry",
+      "section": "skill",
+      "number": 4,
+      "name": "Makeup Artistry",
+      "skillQuestions": [
+        "How does a makeup artist earn beyond one bridal job at a time?",
+        "How do you price makeup based on the value delivered (a bride's confidence on her one day), not just time spent?",
+        "What turns makeup artistry into a brand, academy, or product line?",
+        "How does an MUA attract higher-paying clients instead of competing on the lowest price?",
+        "What assets can be built (a kit, a training academy, a product line)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "makeup artist",
+        "mua",
+        "bridal makeup",
+        "gele",
+        "gele tying",
+        "beauty artist",
+        "cosmetics application",
+        "glam",
+        "face beat",
+        "makeup"
+      ]
+    },
+    {
+      "id": "skill_05_welding_metal_fabrication",
+      "section": "skill",
+      "number": 5,
+      "name": "Welding & Metal Fabrication",
+      "skillQuestions": [
+        "Who pays for welding work, and how do contracts/projects differ from one-off repairs?",
+        "How do you price a fabrication job to cover materials, time, and skill, not just guess a number?",
+        "What turns a welder into a fabrication business with contracts and a workshop?",
+        "What assets can a welder build (equipment, a workshop, a portfolio of projects)?",
+        "What are common financial mistakes (no separate materials budget, underpricing custom work)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "welder",
+        "welding",
+        "fabrication",
+        "metal work",
+        "iron bending",
+        "gate making",
+        "burglary proof",
+        "metal fabricator",
+        "iron works",
+        "aluminium works",
+        "grill making"
+      ]
+    },
+    {
+      "id": "skill_06_carpentry_furniture_making",
+      "section": "skill",
+      "number": 6,
+      "name": "Carpentry & Furniture Making",
+      "skillQuestions": [
+        "How does a carpenter earn beyond one-off furniture orders?",
+        "Who pays the most for carpentry — individuals, hotels, offices — and how does that change how you sell?",
+        "How do you price furniture to include design time and skill, not just wood cost?",
+        "What turns carpentry into a furniture brand or supply business?",
+        "What assets can be built (designs, a workshop, a showroom, a supplier network)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "carpenter",
+        "carpentry",
+        "furniture maker",
+        "wood work",
+        "woodwork",
+        "joinery",
+        "cabinet making",
+        "furniture making",
+        "wood worker"
+      ]
+    },
+    {
+      "id": "skill_07_plumbing",
+      "section": "skill",
+      "number": 7,
+      "name": "Plumbing",
+      "skillQuestions": [
+        "Who pays for plumbing, and how do emergency jobs differ in pricing from planned installation contracts?",
+        "What problems does good plumbing prevent for a client (property damage, health risks) that justify higher pricing?",
+        "How does a plumber move from one-off call-outs to maintenance contracts with estates or businesses?",
+        "What assets can a plumber build (tools, a team, recurring maintenance clients)?",
+        "What are common money mistakes (undercharging call-out fees, no tracking of materials cost)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "plumber",
+        "pipe fitting",
+        "water system",
+        "borehole",
+        "drainage",
+        "plumbing works",
+        "pipe fitter",
+        "water fitting"
+      ]
+    },
+    {
+      "id": "skill_08_electrical_installation_wiring",
+      "section": "skill",
+      "number": 8,
+      "name": "Electrical Installation & Wiring",
+      "skillQuestions": [
+        "Who pays for electrical work, and how does pricing differ between small repairs and full building wiring contracts?",
+        "What turns an electrician into a business that handles estates, offices, or solar-adjacent work?",
+        "How do you price a job to account for safety, certification, and liability, not just wire and labour?",
+        "What assets can be built (a certified team, recurring maintenance contracts, supplier relationships)?",
+        "What common financial mistakes do electricians make (no safety-related pricing premium, cash-only jobs with no records)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "electrician",
+        "wiring",
+        "electrical installation",
+        "house wiring",
+        "cabling",
+        "power installation",
+        "electrical works"
+      ]
+    },
+    {
+      "id": "skill_09_auto_mechanics",
+      "section": "skill",
+      "number": 9,
+      "name": "Auto Mechanics",
+      "skillQuestions": [
+        "How does a mechanic earn beyond the labour charge on a single repair?",
+        "Who pays the most for mechanic work — individuals, corporate fleets, or dealerships — and how does that change the business model?",
+        "What turns a mechanic into a full workshop business with specialists and parts sales?",
+        "What assets can be built (a workshop, tools, a parts supply side-business, trained apprentices)?",
+        "What are common ways mechanics lose money (guessing prices, not separating parts markup from labour)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "mechanic",
+        "auto repair",
+        "car repair",
+        "vehicle repair",
+        "panel beater",
+        "automobile technician",
+        "engine repair",
+        "auto technician",
+        "car mechanic"
+      ]
+    },
+    {
+      "id": "skill_10_phone_electronics_repair",
+      "section": "skill",
+      "number": 10,
+      "name": "Phone & Electronics Repair",
+      "skillQuestions": [
+        "Who pays for phone repair, and how does a walk-in repair differ in value from a maintenance/warranty deal with a shop?",
+        "How do you price a repair based on skill and risk, not just the part cost?",
+        "What turns a repair skill into a shop, accessories business, or refurbished-phone resale business?",
+        "What assets can be built (a shop location, supplier relationships for parts, a resale inventory)?",
+        "What common money mistakes happen (not pricing in the risk of a failed repair, mixing personal and shop cash)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "phone repair",
+        "phone technician",
+        "gsm repair",
+        "electronics repair",
+        "phone engineer",
+        "screen replacement",
+        "phone repairer",
+        "gadget repair"
+      ]
+    },
+    {
+      "id": "skill_11_graphic_design",
+      "section": "skill",
+      "number": 11,
+      "name": "Graphic Design",
+      "skillQuestions": [
+        "How does design actually solve a business problem for a client, not just \"make it look nice\"?",
+        "How do you price a design based on the value it creates for the client's business, not just hours worked?",
+        "What turns a design skill into an agency, a product (templates), or a retainer-based business?",
+        "How does a designer attract clients who pay well instead of competing for the cheapest gig?",
+        "What common money mistakes do designers make (undercharging, no contracts, scope creep)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "graphic designer",
+        "logo design",
+        "branding design",
+        "flyer design",
+        "graphics design",
+        "adobe illustrator",
+        "photoshop design",
+        "designer"
+      ]
+    },
+    {
+      "id": "skill_12_web_app_development",
+      "section": "skill",
+      "number": 12,
+      "name": "Web/App Development",
+      "skillQuestions": [
+        "Who actually pays for code, and what's the difference in value between a one-off project and an ongoing product?",
+        "How do you price development work — by the hour, the project, or the value it creates for the client's business?",
+        "What turns a coding skill into a SaaS product, an agency, or freelance consulting?",
+        "What assets can be built (reusable code, a product, a portfolio that generates inbound leads)?",
+        "What are common financial mistakes developers make (underpricing custom work, no maintenance/retainer income)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "web developer",
+        "app developer",
+        "software developer",
+        "programmer",
+        "coding",
+        "website design",
+        "web design",
+        "software engineer",
+        "developer"
+      ]
+    },
+    {
+      "id": "skill_13_photography",
+      "section": "skill",
+      "number": 13,
+      "name": "Photography",
+      "skillQuestions": [
+        "How does a photographer earn beyond one event at a time?",
+        "Who pays the most for photography — individuals, brands, or events — and how does pricing differ across them?",
+        "How do you price a shoot based on usage rights and value, not just time behind the camera?",
+        "What turns photography into a studio, a stock-photo business, or a training academy?",
+        "What assets can be built (a portfolio, equipment, licensing income, a brand)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "photographer",
+        "photo shoot",
+        "wedding photography",
+        "portrait photography",
+        "camera man",
+        "photo studio"
+      ]
+    },
+    {
+      "id": "skill_14_videography_video_editing",
+      "section": "skill",
+      "number": 14,
+      "name": "Videography & Video Editing",
+      "skillQuestions": [
+        "Who pays for video work, and how does a wedding video differ in pricing from a brand/commercial video?",
+        "How do you price editing and filming based on the outcome it creates for a client (sales, views, brand image)?",
+        "What turns a videography skill into a production company or content agency?",
+        "What assets can be built (equipment, a reel/portfolio, recurring retainer clients)?",
+        "What common money mistakes happen (underpricing revisions, no contracts on usage rights)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "videographer",
+        "video editor",
+        "video editing",
+        "cinematography",
+        "film making",
+        "video production",
+        "video shooting"
+      ]
+    },
+    {
+      "id": "skill_15_catering_baking",
+      "section": "skill",
+      "number": 15,
+      "name": "Catering & Baking",
+      "skillQuestions": [
+        "How does a caterer or baker earn beyond one order at a time?",
+        "Who pays the most — individuals, event planners, or corporate clients — and how should pricing differ?",
+        "How do you price a cake or meal to include ingredients, time, and skill, not just cost of materials?",
+        "What turns baking into a bakery brand, a training school, or a supply business?",
+        "What are common money mistakes (not pricing in wastage, underpricing custom orders)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "caterer",
+        "catering",
+        "baker",
+        "baking",
+        "cake making",
+        "cake maker",
+        "small chops",
+        "event catering",
+        "cook",
+        "cooking",
+        "pastry"
+      ]
+    },
+    {
+      "id": "skill_16_event_decoration_planning",
+      "section": "skill",
+      "number": 16,
+      "name": "Event Decoration & Planning",
+      "skillQuestions": [
+        "Who pays for event decoration, and how does pricing differ between a small party and a large wedding or corporate event?",
+        "How do you price decoration based on the experience created, not just materials used?",
+        "What turns a decorating skill into a full event-planning company?",
+        "What assets can be built (a rental inventory of decor items, vendor relationships, a portfolio)?",
+        "What common financial mistakes happen (no deposit structure, underestimating logistics costs)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "event decorator",
+        "event planner",
+        "party decoration",
+        "decor",
+        "event styling",
+        "party planning",
+        "event decoration",
+        "party decorator"
+      ]
+    },
+    {
+      "id": "skill_17_shoemaking_leatherwork",
+      "section": "skill",
+      "number": 17,
+      "name": "Shoemaking & Leatherwork",
+      "skillQuestions": [
+        "Who pays for handmade shoes or leather goods, and how does that differ from mass-market competition?",
+        "How do you price a handmade product to reflect skill and materials, not compete with imported shoes on price alone?",
+        "What turns a shoemaking skill into a brand that sells beyond just local walk-ins?",
+        "What assets can be built (a brand, molds/lasts, a small workshop, an online store)?",
+        "What common money mistakes happen (pricing to match cheap imports, no cost tracking on materials)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "shoemaker",
+        "cobbler",
+        "shoe making",
+        "leather work",
+        "bag making",
+        "sandal making",
+        "shoe maker",
+        "leatherwork"
+      ]
+    },
+    {
+      "id": "skill_18_pop_tiling_interior_decor",
+      "section": "skill",
+      "number": 18,
+      "name": "POP/Tiling & Interior Decor",
+      "skillQuestions": [
+        "Who pays for POP and tiling work, and how does pricing differ between a small room and a full building contract?",
+        "How do you price a job to include design skill, not just materials and labour?",
+        "What turns this skill into an interior décor or contracting business?",
+        "What assets can be built (a portfolio, a trained team, supplier relationships)?",
+        "What common money mistakes happen (underquoting large contracts, no tracking of material waste)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "pop ceiling",
+        "tiler",
+        "tiling",
+        "interior decorator",
+        "ceiling design",
+        "interior design",
+        "screeding",
+        "pop design",
+        "interior decoration"
+      ]
+    },
+    {
+      "id": "skill_19_solar_installation_renewable_energy",
+      "section": "skill",
+      "number": 19,
+      "name": "Solar Installation & Renewable Energy",
+      "skillQuestions": [
+        "Who pays for solar installation, and how does pricing work for a household system versus a commercial contract?",
+        "What problem does solar solve for a client (unreliable power, generator costs) that justifies the price?",
+        "What turns a solar installation skill into a full energy business (sales, installation, maintenance)?",
+        "What assets can be built (certifications, supplier partnerships, a maintenance-contract client base)?",
+        "What common financial mistakes happen (underpricing against generator running costs, no after-sales maintenance income)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "solar installer",
+        "solar panel",
+        "inverter installation",
+        "renewable energy",
+        "solar power",
+        "solar energy",
+        "inverter installer"
+      ]
+    },
+    {
+      "id": "skill_20_ac_refrigeration_repair",
+      "section": "skill",
+      "number": 20,
+      "name": "AC & Refrigeration Repair",
+      "skillQuestions": [
+        "Who pays for AC and fridge repair, and how does a one-off repair differ in value from a maintenance contract with a business?",
+        "How do you price a repair or service to reflect skill and the cost of the customer's downtime, not just parts?",
+        "What turns this skill into a business with contracts (offices, hotels, restaurants) instead of one-off house calls?",
+        "What assets can be built (a client list on maintenance contracts, a stocked parts inventory, a small team)?",
+        "What common money mistakes happen (undercharging service calls, no tracking of parts markup)?"
+      ],
+      "businessQA": null,
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "ac repair",
+        "air conditioner repair",
+        "fridge repair",
+        "refrigerator technician",
+        "hvac",
+        "cooling repair",
+        "ac technician",
+        "refrigeration"
+      ]
+    },
+    {
+      "id": "business_01_pos_agent_banking",
+      "section": "business",
+      "number": 1,
+      "name": "POS/Agent Banking",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Charges a small commission/convenience fee on every withdrawal, transfer, deposit, airtime top-up, and bill payment."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Everyday customers without easy bank/ATM access, and small traders who need cash moved fast."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves the \"no bank nearby\" problem — brings basic banking within walking distance."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Location on a busy corner, visible signage, reliability (float and network always available), speed, trust."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "A POS terminal, a funded float/settlement account, steady power and network."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Price is mostly fixed by the fintech provider's commission table — margin comes from transaction volume, not markup."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Multiple terminals across locations, sub-agents under you, cross-selling savings/loans/airtime."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Prime-location goodwill, a loyal walk-in customer base, an agent network if you scale to sub-agents."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Poor float/cash management, robbery exposure, network downtime that kills a day's income, informal \"loan\" side-deals gone bad."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Reinvest commission income into more locations or sub-agents, or move into savings/lending products on the same customer base."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "pos agent",
+        "pos business",
+        "agent banking",
+        "mobile money",
+        "bank agent",
+        "pos machine"
+      ]
+    },
+    {
+      "id": "business_02_provision_store_mini_mart",
+      "section": "business",
+      "number": 2,
+      "name": "Provision Store/Mini-Mart",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Buys goods in bulk at wholesale price, sells in small units at a markup."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Nearby households and workers who want convenience over a trip to the main market."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves \"I need this now, close by\" — proximity and small-unit affordability."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Stock availability (never \"we don't have it\"), fair pricing, credit/trust for regulars."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Shelving, a reliable wholesaler relationship, a simple stock ledger (notebook or app)."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Cost price plus a margin that covers spoilage/theft risk and still beats the next shop."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Consistent stock-taking, a second branch, or supplying smaller retailers around you."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Supplier credit lines, a loyal customer base, shop reputation in the neighbourhood."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Giving too much \"owing\" credit that's never repaid, poor stock tracking, overstocking slow-moving items."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Turn cash flow into savings/investment, expand into wholesale supply to other small shops, or franchise the model."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "provision store",
+        "mini mart",
+        "supermarket",
+        "retail shop",
+        "convenience store",
+        "provisions",
+        "shop owner"
+      ]
+    },
+    {
+      "id": "business_03_fashion_retail_boutique",
+      "section": "business",
+      "number": 3,
+      "name": "Fashion Retail/Boutique",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Buys or produces clothing/accessories, sells at a retail markup, in-store or online."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Everyday buyers seeking style, and event-based buyers (weddings, parties) paying more for the right look."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves an identity/image problem — how people want to look and be seen."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Instagram/TikTok content, word of mouth from well-dressed customers, a recognisable style niche."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "A phone camera, Instagram/WhatsApp Business, a reliable tailor or supplier, a payment link (Paystack/transfer)."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced on perceived value and scarcity, not just cost — \"only one in your size\" sells above cost-plus math."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "A consistent brand look, repeat customers, moving from one-off sales to a recognisable label."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "A brand name, a content archive/following, supplier relationships, a made-to-measure client list."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Overstocking trend pieces that go out of style, underpricing to \"compete,\" mixing business and personal cash."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Build a label people request by name, wholesale the designs, or open a second location/city."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "boutique",
+        "fashion retail",
+        "clothing store",
+        "clothes shop",
+        "fashion shop",
+        "clothing business"
+      ]
+    },
+    {
+      "id": "business_04_food_vending_catering_meal_prep",
+      "section": "business",
+      "number": 4,
+      "name": "Food Vending/Catering/Meal-Prep",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Sells prepared food per plate/portion, or per contract for events and offices."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Anyone who needs to eat but lacks time or desire to cook — workers, students, event hosts."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves hunger plus time scarcity — convenience with taste and trust."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent taste, cleanliness, delivery reliability, a signature dish people talk about."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "A kitchen setup, food-safe packaging, a delivery method, a simple order system (WhatsApp/phone)."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Cost of ingredients plus labour plus margin — priced against what the target customer can pay daily."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Fixed daily/weekly subscribers, catering contracts instead of one-off sales, a menu people order without asking."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "A trusted brand name, a repeat-customer/subscription list, recipes/processes staff can be taught."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Ingredient waste from over-preparing, underpricing delivery/labour, no separation of raw-material cost from profit."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Move from single-plate sales to contracts (offices, schools, events), then packaged/frozen products with longer shelf life."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "food vendor",
+        "food business",
+        "mama put",
+        "meal prep",
+        "food seller",
+        "restaurant business",
+        "food vending"
+      ]
+    },
+    {
+      "id": "business_05_real_estate_agency",
+      "section": "business",
+      "number": 5,
+      "name": "Real Estate Agency",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Earns commission (a % of sale, or agreed months of rent) for connecting owners to buyers/tenants."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Landlords who don't want to manage searches, and buyers/tenants who don't know the market."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves an information and trust gap — who really owns this, is the price fair, is the paperwork clean."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Verified listings, fast response time, a reputation for not wasting people's time or money."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "A network of property owners, WhatsApp/phone for showings, basic knowledge of local documentation."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Commission is largely standard practice — value is in speed and trust, not haggling."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat landlord relationships (exclusive listings), a documented process, staff who can show properties alone."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "A trusted network of landlords and past clients, a verified property database, local reputation."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Chasing one-off deals instead of landlord relationships, no contracts protecting commission, being cut out post-introduction."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Move from one-off commissions into property management (steady monthly fees), or personal property investment."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "real estate agent",
+        "property agent",
+        "land sales",
+        "house agent",
+        "realtor",
+        "property business",
+        "real estate business"
+      ]
+    },
+    {
+      "id": "business_06_logistics_dispatch_rider",
+      "section": "business",
+      "number": 6,
+      "name": "Logistics/Dispatch Rider",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Charges per delivery (distance/weight-based) or a subscription for bulk runs."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Online sellers, restaurants, and businesses that need goods moved without owning vehicles."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves the \"last mile\" problem — getting a product from seller to buyer fast and safely."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Speed, reliability (nothing lost/damaged), being cheaper or faster than the alternative."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "A bike/vehicle, fuel, a phone for coordination, ideally an app or simple booking system."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced per distance and urgency — rush delivery earns a premium over standard."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "A fleet of riders instead of one, contracts with businesses instead of one-off runs, route optimisation."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "A rider network, standing business contracts, delivery-time data that proves reliability."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Fuel/maintenance eating margins unnoticed, riders running side jobs with your bike, no insurance for lost goods."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Grow from solo rider to fleet owner, earning from other riders' deliveries instead of just your own."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "dispatch rider",
+        "logistics business",
+        "courier",
+        "delivery service",
+        "bike delivery",
+        "dispatch business",
+        "logistics company"
+      ]
+    },
+    {
+      "id": "business_07_event_planning_rentals",
+      "section": "business",
+      "number": 7,
+      "name": "Event Planning & Rentals",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Charges a planning fee and/or rents décor, chairs, canopies, and sound equipment per event."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Families and companies hosting weddings, parties, and corporate events."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves coordination stress — too many vendors, too little time, too much room for error."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "A strong portfolio, referrals from happy clients, vendor relationships that guarantee availability."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "A vendor network, a booking calendar, rental inventory or trusted rental partners."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced per package/scale of event, with rentals priced separately from planning/coordination fees."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat corporate clients, a recognisable style, a team that can run events without the founder present."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Rental inventory (owned equipment), a vendor network, a portfolio/brand name."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Under-quoting and absorbing last-minute overruns, poor deposit/contract terms, uncosted equipment damage."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Build owned rental inventory (income even without planning gigs), move into venue ownership, or franchise."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "event rental",
+        "chairs and canopy rental",
+        "event planner business",
+        "party rental",
+        "canopy rental",
+        "event equipment rental"
+      ]
+    },
+    {
+      "id": "business_08_salon_barbing_beauty_spa",
+      "section": "business",
+      "number": 8,
+      "name": "Salon/Barbing/Beauty Spa",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Charges per service (cut, style, braiding, facial, manicure) or via packages/memberships."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Anyone who wants to look good — a recurring need, not a one-off."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves appearance and self-care needs, plus the social/relaxation experience of the visit."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Skill/consistency, cleanliness, location, social proof (before/after posts)."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Tools of the trade, a booking system, a steady product supplier."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced by service complexity and time, benchmarked against nearby competitors."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "A full booking calendar, multiple staff under one brand, product retail add-on sales."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "A trained team, a loyal client book, a recognisable brand/location."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "No-shows and cancellations, product wastage, staff \"carrying\" clients away when they leave."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Add product sales, train and place multiple stylists under the brand, franchise or open more branches."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "salon business",
+        "spa business",
+        "beauty parlour",
+        "salon owner",
+        "barbing shop business",
+        "beauty spa"
+      ]
+    },
+    {
+      "id": "business_09_car_hire_ride_hailing_fleet",
+      "section": "business",
+      "number": 9,
+      "name": "Car Hire/Ride-Hailing Fleet",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Buys or leases vehicles, earns from renting to drivers or running them on ride-hailing apps."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Drivers who want to work but can't afford a car, and riders needing rides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a capital problem for drivers and an availability problem for riders."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Reliable, well-maintained vehicles; fair terms so drivers don't disappear with the car."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Vehicles, GPS tracking, a maintenance plan, clear rental/lease-to-own agreements."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced as a daily/weekly rental fee, set against what the driver can realistically earn after fuel."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Multiple vehicles instead of one, standard driver contracts, a maintenance system instead of reactive repairs."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "A fleet of vehicles, driver relationships, route/earnings data."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Unbudgeted repairs, drivers under-remitting earnings, theft/damage without tracking or insurance."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Scale from one car to a fleet, add lease-to-own for drivers, or move into vehicle financing itself."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "car hire",
+        "uber business",
+        "bolt business",
+        "ride hailing",
+        "fleet business",
+        "taxi business",
+        "ride share business"
+      ]
+    },
+    {
+      "id": "business_10_poultry_farming",
+      "section": "business",
+      "number": 10,
+      "name": "Poultry Farming",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Sells live birds, dressed meat, or eggs to households, restaurants, and retailers."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Households (protein staple), restaurants/hotels, and food vendors buying in bulk."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a steady protein-supply need in a market where chicken/egg demand is constant."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent supply and quality, competitive pricing at harvest time, direct bulk-buyer relationships."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Housing/pen, feed, clean water, a vaccination schedule, a vet relationship."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced against the prevailing market rate at sale time, which swings with feed cost and disease."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Moving from backyard-scale to structured cycles timed to market demand, with proper records."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "The flock/breeding stock, land/housing infrastructure, buyer relationships."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Disease outbreaks wiping out a flock, poor feed-cost tracking, selling at the wrong time."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Reinvest into feed production or hatchery — owning more of the value chain instead of only selling grown birds."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "poultry farmer",
+        "chicken farming",
+        "egg business",
+        "poultry business",
+        "chicken business",
+        "poultry farm"
+      ]
+    },
+    {
+      "id": "business_11_fish_farming",
+      "section": "business",
+      "number": 11,
+      "name": "Fish Farming",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Sells live or smoked catfish/tilapia to households, restaurants, and markets."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Households and food vendors seeking affordable protein."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves the same protein-supply need as poultry, often with faster turnaround for some species."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent pond/tank management, harvest timing matched to demand, processing for shelf life and margin."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Ponds/tanks, water-quality testing, feed, and (for processing) a smoking kiln or cold storage."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced by size/weight at harvest; smoked fish commands a premium over live."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Predictable harvest cycles, processing to extend shelf life, contracts with local eateries."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "The stock/ponds, processing equipment, buyer relationships."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Poor water quality causing mass die-offs, over-feeding, selling only live instead of processing for margin."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Move into processing and packaging to capture more margin than selling live fish alone."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "fish farmer",
+        "catfish farming",
+        "fishery",
+        "aquaculture",
+        "fish farm",
+        "fish pond business"
+      ]
+    },
+    {
+      "id": "business_12_laundry_dry_cleaning",
+      "section": "business",
+      "number": 12,
+      "name": "Laundry & Dry-Cleaning",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Charges per item or per weight/load for washing, ironing, and dry-cleaning."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Busy professionals, students, and households without time or equipment."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time-and-convenience problem, plus specialist care for delicate fabrics."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Pickup/delivery convenience, turnaround speed, never losing or damaging clothes."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Washing/drying and ironing equipment, a pickup-delivery process, a tracking/labelling system."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced per item or load, with premiums for same-day service and delicate care."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Subscription customers instead of one-off drop-ins, corporate contracts (hotels, uniforms)."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Equipment, a subscription customer list, corporate/hotel contracts."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Utility costs eating margins unnoticed, lost/damaged items costing more than the job's profit."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Move from one machine to a full laundromat, add corporate contracts for predictable volume."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "laundry business",
+        "dry cleaning",
+        "washing service",
+        "laundromat",
+        "dry cleaners",
+        "laundry service"
+      ]
+    },
+    {
+      "id": "business_13_bakery_confectionery",
+      "section": "business",
+      "number": 13,
+      "name": "Bakery/Confectionery",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Sells baked goods per unit or per order/contract."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Households, event hosts, and retail shops that stock your products."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a daily-need problem (bread) and a celebration problem (custom cakes)."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Taste consistency, presentation, reliable delivery for event-day orders."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Oven/baking equipment, ingredient suppliers, packaging, an order-booking system for events."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Everyday items priced for volume; custom/event items priced for design complexity and urgency."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Standing wholesale accounts (shops, schools, offices) instead of only walk-ins."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Recipes/processes, a brand name customers request, wholesale accounts."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Ingredient waste from overproduction, underpricing custom labour/design time, no deposit policy."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Scale to a bakery with wholesale contracts, or franchise a recognised brand/recipe."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "bakery",
+        "confectionery",
+        "bread making business",
+        "pastry business",
+        "bread business",
+        "cake business"
+      ]
+    },
+    {
+      "id": "business_14_cosmetics_skincare",
+      "section": "business",
+      "number": 14,
+      "name": "Cosmetics & Skincare",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Sells beauty/skincare products at retail markup, or produces and brands its own line."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "People maintaining appearance and skin health — a recurring, repeat-purchase category."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves confidence and skin-health problems, and growing ingredient-safety concerns."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Instagram/TikTok content (before/after, tutorials), influencer reviews, word-of-mouth on results."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Reliable suppliers or a formulation partner, packaging, NAFDAC registration, a delivery system."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced on perceived efficacy and brand, not just ingredient cost."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat-purchase subscriptions, moving from reselling to an owned, labelled product line."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "A brand/following, a regulatory-compliant product line, a repeat-customer list."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Selling unregistered/unsafe products, overspending on ads without repeat-purchase data, counterfeit supplier stock."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Build an owned, NAFDAC-registered brand, wholesale to salons/shops, expand beyond one hero product."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "cosmetics business",
+        "skincare business",
+        "beauty products",
+        "cream making",
+        "skincare products",
+        "cosmetics brand"
+      ]
+    },
+    {
+      "id": "business_15_phone_gadget_sales_repair",
+      "section": "business",
+      "number": 15,
+      "name": "Phone & Gadget Sales/Repair",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Sells new/fairly-used devices at a markup, or charges per repair (parts plus labour)."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Anyone needing a phone, or anyone whose phone just broke."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves an urgent-access problem plus a trust problem (fear of being scammed on repairs)."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Visible testing before/after repair, warranty on parts/work, pricing that doesn't change mid-job."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Diagnostic tools, genuine spare-parts suppliers, a workspace, a job/warranty tracker."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Repairs priced on parts plus skill/time; sales priced on device grade against market rate."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Multiple technicians under one shop, a sales-plus-repair combo, trade-in/upgrade programs."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Supplier relationships for genuine parts, technician skill, a repeat customer base."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Fake/low-quality parts damaging reputation, underpricing skilled labour, no warranty terms."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Move to a multi-technician shop, add device financing/trade-in, or wholesale accessories."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "phone sales",
+        "gadget shop",
+        "phone accessories business",
+        "gadget business",
+        "phone selling"
+      ]
+    },
+    {
+      "id": "business_16_private_tutorial_online_tutoring",
+      "section": "business",
+      "number": 16,
+      "name": "Private Tutorial/Online Tutoring",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Charges per student per term/session, or per course for online content."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Parents wanting children to pass exams (WAEC/JAMB), and adults upskilling."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves an exam-pressure and skills-gap problem regular school alone doesn't fix."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Track record (pass rates), referrals from satisfied parents, visible results."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Teaching expertise, a space (physical or Zoom), past-question banks, a fee-collection system."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced per term/subject/class-size, or as a flat fee for recorded content."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Batch classes instead of 1-on-1 only, recorded courses that sell repeatedly, franchised branches."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "A syllabus, a teaching-staff team, a marketable track record of results."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Students who don't pay on time, underpricing 1-on-1 versus batch time, teacher turnover losing knowledge."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Turn live teaching into recorded/online courses that earn without your physical presence."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "tutor",
+        "home lessons",
+        "private lessons",
+        "online tutor",
+        "tutorial center",
+        "tutorial centre",
+        "lesson teacher",
+        "extra lessons"
+      ]
+    },
+    {
+      "id": "business_17_mini_importation_e_commerce",
+      "section": "business",
+      "number": 17,
+      "name": "Mini-Importation/E-commerce",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Buys goods cheaply from international suppliers (mainly China), sells locally at a multiple of cost."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Nigerians wanting trending items without paying full import/retail price."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves an access and affordability problem — global trends at a locally payable price."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Content marketing (status, Instagram, TikTok), trend-spotting before saturation, proof of delivery."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "A sourcing platform, a way to collect payment upfront, a logistics/delivery partner."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced at a multiple of landed cost (product plus shipping plus customs), against what a trending item can fetch."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Moving from one-off trend chasing to a repeatable catalogue/brand people follow."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Supplier relationships, a customer following, proven-selling product data."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Buying stock before validating demand, exchange-rate losses, customers waiting on goods stuck in customs."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Reinvest into a recognised store/brand, diversify beyond a single trending product."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "importation business",
+        "online store",
+        "e-commerce",
+        "ecommerce",
+        "dropshipping",
+        "mini importation",
+        "online selling"
+      ]
+    },
+    {
+      "id": "business_18_cleaning_services",
+      "section": "business",
+      "number": 18,
+      "name": "Cleaning Services",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Charges per visit, per square metre, or via a standing contract."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Busy households, offices, and property managers who need consistent cleanliness."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time and standards problem most people can't meet themselves."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Reliability, trustworthiness (working inside homes/offices), consistent quality."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "Cleaning equipment/supplies, a trained and vetted team, a scheduling system."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced per job size/frequency; contracts priced lower per visit to secure recurring revenue."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Standing contracts instead of one-off jobs, a team that runs jobs without the founder present."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Trained staff, equipment, a portfolio of recurring contracts — the real asset."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Underpricing recurring contracts to win them, staff trust incidents, uncosted supplies."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Move from one-off home cleaning to corporate/estate contracts, which pay steadier and scale faster."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "cleaning business",
+        "cleaning company",
+        "janitorial services",
+        "home cleaning",
+        "cleaning service"
+      ]
+    },
+    {
+      "id": "business_19_pure_water_sachet_bottled_water",
+      "section": "business",
+      "number": 19,
+      "name": "Pure Water/Sachet & Bottled Water",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Sells sachets or bottles at a small per-unit margin, in very high volume."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Everyone — one of the most universal daily-consumption products in Nigeria."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves basic safe-drinking-water access, especially where tap water isn't trusted."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Price (thin margins mean price matters), distribution reach, a NAFDAC-registered trust mark."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "A sachet-filling/production line, water treatment, NAFDAC registration, distribution (vans, hawkers)."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced at the prevailing market rate — margin comes from volume and lower unit cost."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Wholesale distribution deals, bulk event/office supply, moving into bottled water (better margin)."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Production equipment, NAFDAC registration/brand trust, distribution relationships."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Unregistered production (legal risk, lost bulk contracts), power costs eating thin margins, distribution losses."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Add a bottled-water line, win institutional supply contracts, or supply other small producers as a distributor."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "pure water business",
+        "sachet water",
+        "bottled water production",
+        "water factory",
+        "pure water factory"
+      ]
+    },
+    {
+      "id": "business_20_social_media_digital_marketing_agency",
+      "section": "business",
+      "number": 20,
+      "name": "Social Media/Digital Marketing Agency",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this business make money in the real world?",
+          "answer": "Charges a monthly retainer or per-project fee for managing content, ads, and online presence."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Small business owners who know they need to be online but lack time or skill."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a visibility and sales problem for businesses that can't afford in-house marketing."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "A visible portfolio/results, referrals, your own well-run social presence as proof."
+        },
+        {
+          "question": "What tools, systems, or platforms does it need to run and earn?",
+          "answer": "A phone/camera, design tools (Canva), scheduling tools, an ads account."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Priced on retainer plus ad spend passed through, scaled by results delivered."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Multiple client retainers at once, a small team handling content/ads/strategy separately."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Case studies/results data, a client roster, repeatable systems that don't depend on the founder alone."
+        },
+        {
+          "question": "Where do people in this business commonly lose money?",
+          "answer": "Underpricing retainers, scope creep, no clear contract on ad-spend handling."
+        },
+        {
+          "question": "How does it build long-term wealth, not just daily income?",
+          "answer": "Move from single-client hustling into a small agency with specialists and recurring retainer revenue."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "smma",
+        "social media manager",
+        "digital marketing agency",
+        "social media agency",
+        "marketing agency"
+      ]
+    },
+    {
+      "id": "profession_01_medicine",
+      "section": "profession",
+      "number": 1,
+      "name": "Medicine",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "HMO/NHIS reimbursements arrive late and partial, but rent, salaries, and diesel don't wait.",
+      "businessQuestions": [
+        "How does a doctor earn beyond salary?",
+        "What medical services can be turned into a business (diagnostics, telemedicine, wellness)?",
+        "How can a doctor build a clinic, brand, or health platform?",
+        "What financial mistakes do most health workers make?"
+      ],
+      "dontKnowFact": "Private clinics are excluded from the new 0% small-company tax rate no matter their revenue.",
+      "dontKnowModule": "M6",
+      "dontKnowModules": [
+        "M6"
+      ],
+      "searchKeywords": [
+        "doctor",
+        "physician",
+        "medical doctor",
+        "medicine",
+        "medical practice"
+      ]
+    },
+    {
+      "id": "profession_02_law",
+      "section": "profession",
+      "number": 2,
+      "name": "Law",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Clients delay or dodge paying legal fees once a case is won or a deal closes.",
+      "businessQuestions": [
+        "How does a lawyer earn beyond court appearances and salary?",
+        "What legal problems can be packaged into a repeatable service — contract review, compliance retainers?",
+        "How does a lawyer build a brand or firm instead of just taking cases?",
+        "What financial mistakes keep young lawyers broke despite steady work?"
+      ],
+      "dontKnowFact": "Chambers run as a professional practice don't qualify for the small-business exemption either.",
+      "dontKnowModule": "M6",
+      "dontKnowModules": [
+        "M6"
+      ],
+      "searchKeywords": [
+        "lawyer",
+        "barrister",
+        "solicitor",
+        "legal practice",
+        "attorney",
+        "law firm"
+      ]
+    },
+    {
+      "id": "profession_03_pharmacy",
+      "section": "profession",
+      "number": 3,
+      "name": "Pharmacy",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Cash is tied up in stock that can expire or lose value before it sells.",
+      "businessQuestions": [
+        "How does a pharmacist earn beyond dispensing at counter price?",
+        "What turns a pharmacy into a business — stocking strategy, private label, delivery?",
+        "Who really pays for pharmaceutical expertise beyond the walk-in customer?",
+        "What money mistakes keep pharmacies cash-poor despite full shelves?"
+      ],
+      "dontKnowFact": "Stock-heavy businesses need a different cash-flow rhythm than service businesses.",
+      "dontKnowModule": "M7",
+      "dontKnowModules": [
+        "M7"
+      ],
+      "searchKeywords": [
+        "pharmacist",
+        "pharmacy",
+        "chemist",
+        "drug store"
+      ]
+    },
+    {
+      "id": "profession_04_nursing",
+      "section": "profession",
+      "number": 4,
+      "name": "Nursing",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Hospital pay is low, but a private home-care practice needs business skills nursing school never taught.",
+      "businessQuestions": [
+        "How can a nurse earn beyond hospital salary?",
+        "What nursing skills can become a private service — home care, corporate health, training?",
+        "How does a nurse build a brand, agency, or platform from clinical experience?",
+        "What financial mistakes do many nurses make with their income?"
+      ],
+      "dontKnowFact": "Hiring one nurse creates payroll and PAYE obligations most never planned for.",
+      "dontKnowModule": "M9",
+      "dontKnowModules": [
+        "M9"
+      ],
+      "searchKeywords": [
+        "nurse",
+        "nursing",
+        "registered nurse"
+      ]
+    },
+    {
+      "id": "profession_05_accounting",
+      "section": "profession",
+      "number": 5,
+      "name": "Accounting",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Accountants build perfect books for clients and neglect structure in their own firm.",
+      "businessQuestions": [
+        "How does an accountant earn beyond a salary or one-off audit fee?",
+        "What accounting knowledge can become a recurring, sellable service?",
+        "How does an accountant build a firm or brand instead of chasing single jobs?",
+        "What financial mistakes do accountants make in their OWN business, despite knowing the numbers?"
+      ],
+      "dontKnowFact": "Their own firm is also excluded from the small-company 0% rate — the same rule they may explain to clients doesn't apply to them.",
+      "dontKnowModule": "M6",
+      "dontKnowModules": [
+        "M6"
+      ],
+      "searchKeywords": [
+        "accountant",
+        "accounting",
+        "bookkeeping",
+        "auditor",
+        "bookkeeper"
+      ]
+    },
+    {
+      "id": "profession_06_engineering",
+      "section": "profession",
+      "number": 6,
+      "name": "Engineering",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Materials are paid upfront, but clients pay in milestones — sometimes late.",
+      "businessQuestions": [
+        "What business or startup problems can engineering knowledge actually solve?",
+        "How can an engineer create a product instead of only selling hours?",
+        "How are engineering skills sold to companies and clients beyond a payslip?",
+        "What financial decisions actually build wealth for an engineer over time?"
+      ],
+      "dontKnowFact": "A written, milestone-based contract with a penalty clause protects far more than a verbal agreement.",
+      "dontKnowModule": "M5",
+      "dontKnowModules": [
+        "M5"
+      ],
+      "searchKeywords": [
+        "engineer",
+        "engineering"
+      ]
+    },
+    {
+      "id": "profession_07_architecture",
+      "section": "profession",
+      "number": 7,
+      "name": "Architecture",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Unlicensed \"designers\" undercut registered architects on price.",
+      "businessQuestions": [
+        "How does architecture solve a business problem, not just a design one?",
+        "How does an architect get clients and charge what the work is actually worth?",
+        "How do architectural skills turn into products, services, or firm/agency work?",
+        "What makes one architect more valuable — and more paid — than another?"
+      ],
+      "dontKnowFact": "ARCON publishes fee-scale guidance that can anchor a client conversation instead of negotiating from zero.",
+      "dontKnowModule": "M1",
+      "dontKnowModules": [
+        "M1"
+      ],
+      "searchKeywords": [
+        "architect",
+        "architecture"
+      ]
+    },
+    {
+      "id": "profession_08_estate_management_surveying",
+      "section": "profession",
+      "number": 8,
+      "name": "Estate Management/Surveying",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Commission income is unpredictable, and informal \"agents\" undercut registered surveyors.",
+      "businessQuestions": [
+        "How does a surveyor earn beyond a flat commission?",
+        "Who really pays for this expertise — buyer, seller, developer, or bank?",
+        "What turns estate management into a business, not just deal-chasing?",
+        "What assets (data, relationships, listings) can be built from this profession over time?"
+      ],
+      "dontKnowFact": "ESVARBON registration is a real differentiator to market, not just paperwork.",
+      "dontKnowModule": "M4",
+      "dontKnowModules": [
+        "M4"
+      ],
+      "searchKeywords": [
+        "estate surveyor",
+        "valuer",
+        "surveying",
+        "estate management",
+        "land surveyor"
+      ]
+    },
+    {
+      "id": "profession_09_banking_finance",
+      "section": "profession",
+      "number": 9,
+      "name": "Banking & Finance",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Clients trust their bank's brand more than an individual adviser, however good.",
+      "businessQuestions": [
+        "How does someone with a finance background earn beyond a bank salary?",
+        "What financial problems can this knowledge solve for individuals or businesses as a paid service?",
+        "How does a finance professional build a brand or client base outside a bank's name?",
+        "What turns financial expertise into a business instead of a 9-to-5?"
+      ],
+      "dontKnowFact": "Giving investment advice without SEC registration is real regulatory exposure, not a technicality.",
+      "dontKnowModule": "M10",
+      "dontKnowModules": [
+        "M10"
+      ],
+      "searchKeywords": [
+        "banker",
+        "finance professional",
+        "investment banking",
+        "banking"
+      ]
+    },
+    {
+      "id": "profession_10_mass_communication_media_pr",
+      "section": "profession",
+      "number": 10,
+      "name": "Mass Communication/Media & PR",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Clients offer \"exposure\" instead of payment; pricing an intangible service is genuinely hard.",
+      "businessQuestions": [
+        "How does communication skill actually make money in the real world?",
+        "Who pays for storytelling, PR, and media skills, and how much?",
+        "What tools or platforms are needed to earn independently from this skill?",
+        "What turns a media professional into an agency or brand instead of a freelancer chasing gigs?"
+      ],
+      "dontKnowFact": "Invoicing through a registered business name instead of a personal account changes both how they get paid and how they're taxed.",
+      "dontKnowModule": "M2",
+      "dontKnowModules": [
+        "M2"
+      ],
+      "searchKeywords": [
+        "journalist",
+        "media professional",
+        "public relations",
+        "broadcaster",
+        "pr",
+        "mass communication"
+      ]
+    },
+    {
+      "id": "profession_11_computer_science_software_engineering",
+      "section": "profession",
+      "number": 11,
+      "name": "Computer Science/Software Engineering",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Foreign clients pay in dollars, and legally receiving/converting that income is unclear.",
+      "businessQuestions": [
+        "How does a developer earn beyond a single employer's salary?",
+        "What problems can coding skills solve for businesses that will pay well for it?",
+        "How does a developer turn skill into a product (SaaS, app) instead of only billable hours?",
+        "What financial mistakes do well-paid developers still make?"
+      ],
+      "dontKnowFact": "Residents are now taxed on worldwide income under the new law — dollar income from abroad is squarely in scope, not a grey area.",
+      "dontKnowModule": "M6",
+      "dontKnowModules": [
+        "M6"
+      ],
+      "searchKeywords": [
+        "software engineer",
+        "computer scientist",
+        "programmer",
+        "it professional",
+        "computer science"
+      ]
+    },
+    {
+      "id": "profession_12_agriculture",
+      "section": "profession",
+      "number": 12,
+      "name": "Agriculture",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Income arrives once a season at harvest, but input and living costs are constant all year.",
+      "businessQuestions": [
+        "How does farming move from survival to actual profit?",
+        "Where is the real money in the farming value chain — growing, processing, or distribution?",
+        "How do farmers reduce loss and increase margin, not just yield?",
+        "How can farming become a scalable business instead of a subsistence activity?"
+      ],
+      "dontKnowFact": "BOI and input-supplier-linked financing schemes exist specifically to smooth this cycle, but most farmers never hear about them.",
+      "dontKnowModule": "M8",
+      "dontKnowModules": [
+        "M8"
+      ],
+      "searchKeywords": [
+        "agriculturist",
+        "farmer",
+        "agronomist",
+        "agric",
+        "agriculture"
+      ]
+    },
+    {
+      "id": "profession_13_education",
+      "section": "profession",
+      "number": 13,
+      "name": "Education",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Parents pay school fees late or in installments that never quite arrive on schedule.",
+      "businessQuestions": [
+        "How can teaching become a business, not just a salaried job?",
+        "How can a teacher earn from tutoring, courses, books, or content built once and sold repeatedly?",
+        "What is the real market value of this teacher's specific knowledge outside the classroom?",
+        "How can a teacher build passive income from expertise already paid for by a school?"
+      ],
+      "dontKnowFact": "A tutoring business registered properly can access small-business tax treatment that an informal one can't.",
+      "dontKnowModule": "M6",
+      "dontKnowModules": [
+        "M6"
+      ],
+      "searchKeywords": [
+        "teacher",
+        "educator",
+        "lecturer",
+        "teaching",
+        "school teacher"
+      ]
+    },
+    {
+      "id": "profession_14_dentistry",
+      "section": "profession",
+      "number": 14,
+      "name": "Dentistry",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Equipment (chairs, X-ray) is imported and dollar-priced, so naira depreciation hits hard.",
+      "businessQuestions": [
+        "How does a dentist earn beyond the per-procedure fee?",
+        "What dental services can be packaged into recurring revenue — maintenance plans, corporate contracts?",
+        "How can a dentist build a brand or multi-chair practice instead of one chair, one dentist?",
+        "What financial mistakes keep dental practices asset-rich but cash-poor?"
+      ],
+      "dontKnowFact": "Same professional-services tax exclusion as doctors and lawyers — not common knowledge among dentists either.",
+      "dontKnowModule": "M6",
+      "dontKnowModules": [
+        "M6"
+      ],
+      "searchKeywords": [
+        "dentist",
+        "dental practice",
+        "dentistry"
+      ]
+    },
+    {
+      "id": "profession_15_psychology_counselling",
+      "section": "profession",
+      "number": 15,
+      "name": "Psychology/Counselling",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Stigma slows client acquisition, and almost no HMO covers therapy.",
+      "businessQuestions": [
+        "How does a psychologist earn beyond the one-hour session fee?",
+        "What problems can this expertise solve for companies, schools, or platforms, not just individuals?",
+        "How does a counsellor build trust and a client base without breaking confidentiality in marketing?",
+        "What turns therapy expertise into a scalable business — content, training, corporate wellness?"
+      ],
+      "dontKnowFact": "How to market a confidential service without compromising the confidentiality it depends on.",
+      "dontKnowModule": "M4",
+      "dontKnowModules": [
+        "M4"
+      ],
+      "searchKeywords": [
+        "psychologist",
+        "counsellor",
+        "counselor",
+        "therapist",
+        "counselling",
+        "counseling"
+      ]
+    },
+    {
+      "id": "profession_16_fashion_design_tailoring",
+      "section": "profession",
+      "number": 16,
+      "name": "Fashion Design & Tailoring (Trade)",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Most tailors price a garment by guesswork, not by costing fabric + labour + overhead.",
+      "businessQuestions": [
+        "How does a tailor earn beyond the price of one outfit?",
+        "What turns tailoring into a brand instead of a service — ready-to-wear, a label, wholesale?",
+        "Who actually pays the most for this skill — individual clients, events, or retail?",
+        "What common money mistakes keep skilled tailors broke despite full order books?"
+      ],
+      "dontKnowFact": "Unlike doctors and lawyers, a registered tailoring business under the turnover threshold DOES qualify for 0% company tax — a real incentive to formalize that most never claim.",
+      "dontKnowModule": "M1",
+      "dontKnowModules": [
+        "M1",
+        "M6"
+      ],
+      "searchKeywords": [
+        "fashion design profession",
+        "tailoring profession"
+      ]
+    },
+    {
+      "id": "profession_17_hairdressing_cosmetology",
+      "section": "profession",
+      "number": 17,
+      "name": "Hairdressing/Cosmetology (Trade)",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Rent is due whether or not clients show up that week.",
+      "businessQuestions": [
+        "How does a stylist earn beyond one head of hair at a time?",
+        "What turns a salon into a business — products, training others, franchising the name?",
+        "Who pays the most for this skill, and how do you reach them?",
+        "What common mistakes keep busy salons unprofitable?"
+      ],
+      "dontKnowFact": "That choice changes their tax and legal exposure — most owners never realize it's a decision at all.",
+      "dontKnowModule": "M9",
+      "dontKnowModules": [
+        "M9"
+      ],
+      "searchKeywords": [
+        "cosmetology",
+        "hairdressing profession"
+      ]
+    },
+    {
+      "id": "profession_18_catering_event_planning",
+      "section": "profession",
+      "number": 18,
+      "name": "Catering & Event Planning (Trade)",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Ingredients, décor, and venue deposits are paid upfront, long before the client pays in full.",
+      "businessQuestions": [
+        "How does a caterer earn beyond one plate at a time?",
+        "What turns event skills into a scalable business — packages, corporate contracts, a product line?",
+        "Who really pays the most for this skill — individuals, corporates, or vendors?",
+        "What common money mistakes keep busy caterers cash-poor?"
+      ],
+      "dontKnowFact": "A simple deposit-and-contract structure protects against last-minute cancellations and guest-count changes.",
+      "dontKnowModule": "M5",
+      "dontKnowModules": [
+        "M5"
+      ],
+      "searchKeywords": [
+        "catering profession",
+        "event planning profession"
+      ]
+    },
+    {
+      "id": "profession_19_automobile_technology",
+      "section": "profession",
+      "number": 19,
+      "name": "Automobile Technology (Trade)",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Customers dispute the price after the work is already done.",
+      "businessQuestions": [
+        "How does a mechanic earn beyond one repair at a time?",
+        "What turns mechanic skills into a business — specialization, a workshop brand, parts supply?",
+        "Who pays the most for this skill — individuals, fleets, or dealerships?",
+        "What common mistakes keep skilled mechanics cash-poor despite full bays?"
+      ],
+      "dontKnowFact": "A written estimate or even a WhatsApp message confirming price prevents most payment disputes.",
+      "dontKnowModule": "M5",
+      "dontKnowModules": [
+        "M5"
+      ],
+      "searchKeywords": [
+        "automobile technology",
+        "auto technology profession"
+      ]
+    },
+    {
+      "id": "profession_20_photography_videography",
+      "section": "profession",
+      "number": 20,
+      "name": "Photography & Videography (Trade)",
+      "skillQuestions": null,
+      "businessQA": null,
+      "realProblem": "Camera gear is a huge upfront cost that depreciates and is a theft target.",
+      "businessQuestions": [
+        "How does a photographer earn beyond one shoot at a time?",
+        "What turns this skill into a business — content licensing, training others, a studio brand?",
+        "Who pays the most for this skill — individuals, events, or brands/companies?",
+        "What common money mistakes keep photographers broke despite a full calendar?"
+      ],
+      "dontKnowFact": "Equipment insurance exists and is cheap relative to the cost of losing a camera — almost nobody in this trade has it.",
+      "dontKnowModule": "M10",
+      "dontKnowModules": [
+        "M10"
+      ],
+      "searchKeywords": [
+        "photography profession",
+        "videography profession"
+      ]
+    },
+    {
+      "id": "online_hustles_01_surveys_microtasks",
+      "section": "online_hustle",
+      "number": 1,
+      "name": "Online Surveys & Microtasks",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Earn by completing surveys, app tests, data labeling, and small digital tasks on platforms that pay Nigerians."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of online surveys & microtasks."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "survey",
+        "microtask",
+        "picoworkers",
+        "prolific",
+        "remotasks",
+        "swagbucks",
+        "inboxdollars",
+        "user testing",
+        "clickworker"
+      ]
+    },
+    {
+      "id": "online_hustles_02_affiliate_marketing",
+      "section": "online_hustle",
+      "number": 2,
+      "name": "Affiliate Marketing",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Promote digital and physical products via unique links and earn commissions (Stakecut, Selar, Expertnaire, Jumia, global networks)."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of affiliate marketing."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "affiliate",
+        "stakecut",
+        "selar",
+        "expertnaire",
+        "jumia affiliate",
+        "commission",
+        "referral marketing"
+      ]
+    },
+    {
+      "id": "online_hustles_03_freelance_writing",
+      "section": "online_hustle",
+      "number": 3,
+      "name": "Freelance Writing & Copywriting",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Write articles, blog posts, product descriptions, sales copy and emails for local and international clients."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of freelance writing & copywriting."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "freelance writing",
+        "copywriting",
+        "content writing",
+        "ghostwriting",
+        "seo writing",
+        "fiverr writing"
+      ]
+    },
+    {
+      "id": "online_hustles_04_canva_graphic_design",
+      "section": "online_hustle",
+      "number": 4,
+      "name": "Canva Graphic Design Freelancing",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Design social media graphics, flyers, logos, presentations and brand kits using Canva for Nigerian businesses and global clients."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of canva graphic design freelancing."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "canva",
+        "graphic design",
+        "flyer design",
+        "social media design",
+        "logo design",
+        "brand kit"
+      ]
+    },
+    {
+      "id": "online_hustles_05_social_media_management",
+      "section": "online_hustle",
+      "number": 5,
+      "name": "Social Media Management",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Manage Instagram, TikTok, Facebook and LinkedIn pages for businesses — content creation, posting, engagement and growth."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of social media management."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "social media management",
+        "smm",
+        "instagram manager",
+        "content calendar",
+        "community management"
+      ]
+    },
+    {
+      "id": "online_hustles_06_virtual_assistance",
+      "section": "online_hustle",
+      "number": 6,
+      "name": "Virtual Assistance",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Provide remote admin support: email management, scheduling, research, data entry, customer service and light bookkeeping."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of virtual assistance."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "virtual assistant",
+        "va",
+        "remote admin",
+        "executive assistant",
+        "online assistant"
+      ]
+    },
+    {
+      "id": "online_hustles_07_online_tutoring",
+      "section": "online_hustle",
+      "number": 7,
+      "name": "Online Tutoring",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Teach academic subjects, languages, exam prep (WAEC, JAMB, IELTS, SAT) or skills via Zoom, Google Meet or WhatsApp."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of online tutoring."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "online tutoring",
+        "private tutor",
+        "jamb tutor",
+        "ielts",
+        "waec",
+        "zoom teaching"
+      ]
+    },
+    {
+      "id": "online_hustles_08_transcription_captioning",
+      "section": "online_hustle",
+      "number": 8,
+      "name": "Transcription & Captioning",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Convert audio/video to text or create subtitles for content creators, researchers and companies."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of transcription & captioning."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "transcription",
+        "captioning",
+        "subtitling",
+        "rev",
+        "transcribeme",
+        "otter"
+      ]
+    },
+    {
+      "id": "online_hustles_09_content_creation",
+      "section": "online_hustle",
+      "number": 9,
+      "name": "Short-form Content Creation",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Create TikTok, Instagram Reels and YouTube Shorts content; monetize via Creator Fund, brand deals, affiliates and digital products."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of short-form content creation."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "tiktok",
+        "reels",
+        "youtube shorts",
+        "content creator",
+        "faceless content",
+        "ugc"
+      ]
+    },
+    {
+      "id": "online_hustles_10_ai_services",
+      "section": "online_hustle",
+      "number": 10,
+      "name": "AI Prompt Engineering & AI Services",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Offer AI-powered services: custom GPTs, prompt libraries, content generation systems, automation and AI consulting for businesses."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of ai prompt engineering & ai services."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "ai services",
+        "prompt engineering",
+        "chatgpt",
+        "claude",
+        "ai automation",
+        "custom gpt"
+      ]
+    },
+    {
+      "id": "online_hustles_11_digital_products",
+      "section": "online_hustle",
+      "number": 11,
+      "name": "Digital Product Creation & Sales",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Create and sell ebooks, templates, planners, courses, Notion systems and printables on Selar, Gumroad and own sites."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of digital product creation & sales."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "digital products",
+        "selar",
+        "gumroad",
+        "ebook",
+        "templates",
+        "notion template",
+        "printables"
+      ]
+    },
+    {
+      "id": "online_hustles_12_vtu_airtime_data",
+      "section": "online_hustle",
+      "number": 12,
+      "name": "VTU / Airtime & Data Reselling",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Buy airtime and data at wholesale rates and resell via apps, WhatsApp or agent networks with automated delivery."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of vtu / airtime & data reselling."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "vtu",
+        "airtime reseller",
+        "data reseller",
+        "mtn vtu",
+        "airtime business",
+        "data business"
+      ]
+    },
+    {
+      "id": "online_hustles_13_video_editing_clipping",
+      "section": "online_hustle",
+      "number": 13,
+      "name": "Video Editing & Clipping",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Edit long-form videos into Shorts/Reels, create captions, thumbnails and full edits for creators and brands using CapCut or Premiere."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of video editing & clipping."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "video editing",
+        "clipping",
+        "capcut",
+        "shorts editor",
+        "reels editor",
+        "youtube editor"
+      ]
+    },
+    {
+      "id": "online_hustles_14_blogging_seo",
+      "section": "online_hustle",
+      "number": 14,
+      "name": "Blogging & SEO Content Sites",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Build niche blogs or content sites, rank on Google, and monetize with AdSense, affiliates and digital products."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of blogging & seo content sites."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "blogging",
+        "seo",
+        "content site",
+        "adsense",
+        "niche site",
+        "wordpress blog"
+      ]
+    },
+    {
+      "id": "online_hustles_15_ads_management",
+      "section": "online_hustle",
+      "number": 15,
+      "name": "Facebook & Instagram Ads Management",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Set up, run and optimize Meta ads for local businesses and e-commerce brands; charge management fees + performance bonuses."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of facebook & instagram ads management."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "facebook ads",
+        "instagram ads",
+        "meta ads",
+        "ads manager",
+        "media buying",
+        "performance marketing"
+      ]
+    },
+    {
+      "id": "online_hustles_16_dropshipping_pod",
+      "section": "online_hustle",
+      "number": 16,
+      "name": "Dropshipping & Print-on-Demand",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Sell products online without holding inventory — suppliers ship directly (AliExpress, Printful, local Nigerian POD)."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of dropshipping & print-on-demand."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "dropshipping",
+        "print on demand",
+        "printful",
+        "shopify",
+        "woocommerce",
+        "printify"
+      ]
+    },
+    {
+      "id": "online_hustles_17_web_nocode",
+      "section": "online_hustle",
+      "number": 17,
+      "name": "Web Development & No-code Freelancing",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Build websites and landing pages with WordPress, Webflow, Framer or Bubble for businesses and creators."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of web development & no-code freelancing."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "web development",
+        "no-code",
+        "webflow",
+        "framer",
+        "wordpress",
+        "landing page"
+      ]
+    },
+    {
+      "id": "online_hustles_18_online_courses",
+      "section": "online_hustle",
+      "number": 18,
+      "name": "Online Course Creation",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Package your knowledge into structured courses sold on Selar, Teachable or own platform; combine with coaching."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of online course creation."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "online course",
+        "course creation",
+        "teachable",
+        "selar course",
+        "udemy",
+        "skillshare"
+      ]
+    },
+    {
+      "id": "online_hustles_19_ecommerce_mini_import",
+      "section": "online_hustle",
+      "number": 19,
+      "name": "Online E-commerce & Mini Importation",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Source products (China, Turkey, local) and sell via Instagram, WhatsApp, Jumia, Konga or own store."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of online e-commerce & mini importation."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "mini importation",
+        "ecommerce",
+        "instagram shop",
+        "whatsapp business",
+        "sourcing",
+        "alibaba"
+      ]
+    },
+    {
+      "id": "online_hustles_20_digital_agency",
+      "section": "online_hustle",
+      "number": 20,
+      "name": "Digital Marketing Agency",
+      "skillQuestions": null,
+      "businessQA": [
+        {
+          "question": "How does this hustle make money in the real world?",
+          "answer": "Offer packaged digital services (SMM + ads + content + web) to multiple clients; scale with freelancers and systems."
+        },
+        {
+          "question": "Who actually pays, and why?",
+          "answer": "Individuals, small businesses, creators, or platforms that need the specific service or product the hustler provides."
+        },
+        {
+          "question": "What problem does it solve for the customer?",
+          "answer": "Solves a time, skill, reach or convenience gap that the customer cannot or does not want to handle themselves in the context of digital marketing agency."
+        },
+        {
+          "question": "How does it attract and keep customers?",
+          "answer": "Consistent delivery, clear communication, visible results, social proof, and easy payment/onboarding paths that work for Nigerian clients (Paystack, bank transfer, OPay, etc.)."
+        },
+        {
+          "question": "What tools, systems or platforms does it need to run and earn?",
+          "answer": "Smartphone or laptop, reliable data, the relevant platforms (listed in the detailed PDF), a payment method that accepts Nigerian accounts or Payoneer/Grey/Wise, and basic record-keeping."
+        },
+        {
+          "question": "How is the price/value set?",
+          "answer": "Market rates for the skill/service in Nigeria and on global platforms; value-based pricing for higher-ticket work; volume + margin for product-based models."
+        },
+        {
+          "question": "What turns it from a hustle into a real business?",
+          "answer": "Repeat clients or residual income, documented processes, separation of personal and business money, and systems that can be handed to someone else."
+        },
+        {
+          "question": "What assets can be built from it?",
+          "answer": "Portfolio, audience/list, templates/processes, reputation, and in some cases intellectual property (courses, digital products, brand)."
+        },
+        {
+          "question": "Where do people in this hustle commonly lose money or time?",
+          "answer": "Undercharging, chasing free work, ignoring payment terms, platform dependency without own audience, and poor cash-flow tracking."
+        },
+        {
+          "question": "How does it build long-term leverage?",
+          "answer": "By converting one-off gigs into retainers, products, or systems, and by building an audience or network that compounds over time."
+        }
+      ],
+      "realProblem": null,
+      "businessQuestions": null,
+      "dontKnowFact": null,
+      "dontKnowModule": null,
+      "dontKnowModules": null,
+      "searchKeywords": [
+        "digital agency",
+        "marketing agency",
+        "full service",
+        "client retainers",
+        "agency model"
+      ]
+    }
+  ]
+}
