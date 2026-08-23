@@ -16,20 +16,17 @@ import '../utils/category_search.dart';
 /// Multi-select on purpose: someone can be a nurse who also does makeup
 /// artistry on the side, and both should get priority.
 ///
-/// Two ways to find your category, both always available:
-///  1. Browse — Professions, Skills & Trades, Businesses, then Online Hustles (see
-///     CategorySearch.sectionOrder). Only the first
-///     [CategorySearch.defaultVisiblePerSection] of each show up front so
-///     the first screen isn't a 60-item wall — the rest are one search away.
-///  2. Search — type what you do ("sew", "law", "fridge repair"...) and it
-///     matches against each category's name AND its curated search
-///     keywords/aliases (see CategorySearch.matches), across all 60, not
-///     just the ones currently visible.
-/// "Others" is always pinned at the end of the list — for a trade that
-/// genuinely isn't one of the 60, or while FinReels doesn't have a keyword
+/// Search-only category selection shared by onboarding and Settings →
+/// Personalize → My Business. No profession, skill, business, or online-hustle
+/// categories are shown until the person types a query. The query is matched
+/// against each category's name and curated search keywords/aliases (see
+/// CategorySearch.matches), across all 60 categories.
+///
+/// "Others" is offered only after a query has been entered, for a trade that
+/// genuinely isn't one of the 60 or while FinReels doesn't have a keyword
 /// match yet. Picking it is a safe no-op everywhere content is filtered by
-/// category (ChannelData.eagerFor, BlogRssService, FeedProvider's Books
-/// tab): nothing has that id, so it simply resolves to general content.
+/// category (ChannelData.eagerFor, BlogRssService, FeedProvider's Books tab):
+/// nothing has that id, so it simply resolves to general content.
 ///
 /// Built entirely from existing AppTheme colors/typography/spacing —
 /// no new visual language, just this app's existing look applied to a
@@ -136,7 +133,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                       child: search,
                     ),
                     Expanded(
-                      child: _buildList(context, showDefaultCategories: false),
+                      child: _buildList(context),
                     ),
                   ],
                 )
@@ -207,23 +204,18 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
     );
   }
 
-  Widget _buildList(
-    BuildContext context, {
-    bool showDefaultCategories = true,
-  }) {
+  Widget _buildList(BuildContext context) {
     final hasQuery = _query.isNotEmpty;
-    // Onboarding must stay on its prompt while the field is merely focused;
-    // category results are only valid after the user has entered a query.
-    if (!hasQuery && !showDefaultCategories) return const SizedBox.shrink();
+    // Both onboarding and Settings → Personalize are search-only. Never
+    // render the default category catalogue before the person types.
+    if (!hasQuery) return const SizedBox.shrink();
 
     final children = <Widget>[];
     var matchedAnyRealCategory = false;
 
     for (final section in CategorySearch.sectionOrder) {
       final all = ResourceCategoryData.bySection(section);
-      final items = hasQuery
-          ? CategorySearch.search(all, _query)
-          : all.take(CategorySearch.defaultVisiblePerSection).toList();
+      final items = CategorySearch.search(all, _query);
       if (items.isEmpty) continue;
       matchedAnyRealCategory = true;
       children.add(_SectionLabel(section.pluralLabel));
@@ -243,7 +235,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
       children.add(_NoMatchNote(query: _query));
     }
 
-    // Always present, regardless of query — the permanent catch-all.
+    // Offer the catch-all only alongside actual search results.
     children.add(const _SectionLabel('Others'));
     children.add(_CategoryTile(
       name: CategorySearch.othersName,

@@ -4,6 +4,8 @@ import '../models/resource_category.dart';
 /// one place, so the onboarding picker (my_business_screen.dart) and the
 /// Discover browse/search screen (discover_screen.dart) can't quietly drift
 /// out of sync on section order, matching rules, or the "Others" fallback.
+/// My Business is intentionally search-only; Discover is the separate place
+/// for browsing the complete category catalogue.
 class CategorySearch {
   CategorySearch._();
 
@@ -21,12 +23,6 @@ class CategorySearch {
   static const String othersDescription =
       "Don't see your exact trade, business or profession? Pick this and "
       "FinReels will keep your feed general instead of guessing.";
-
-  /// Onboarding shows this many categories per section before the person
-  /// types anything — the rest are still reachable by search. Keeps the
-  /// first screen short; search (with [searchKeywords] behind it) is the
-  /// primary way most people will actually find their category.
-  static const int defaultVisiblePerSection = 6;
 
   /// Section display order across the app: Profession first, then Skill,
   /// then Business — Others is handled separately by the caller (it isn't
