@@ -135,7 +135,9 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                       padding: const EdgeInsets.fromLTRB(20, 20, 20, 8),
                       child: search,
                     ),
-                    Expanded(child: _buildList(context)),
+                    Expanded(
+                      child: _buildList(context, showDefaultCategories: false),
+                    ),
                   ],
                 )
               : SingleChildScrollView(
@@ -205,8 +207,15 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
     );
   }
 
-  Widget _buildList(BuildContext context) {
+  Widget _buildList(
+    BuildContext context, {
+    bool showDefaultCategories = true,
+  }) {
     final hasQuery = _query.isNotEmpty;
+    // Onboarding must stay on its prompt while the field is merely focused;
+    // category results are only valid after the user has entered a query.
+    if (!hasQuery && !showDefaultCategories) return const SizedBox.shrink();
+
     final children = <Widget>[];
     var matchedAnyRealCategory = false;
 
