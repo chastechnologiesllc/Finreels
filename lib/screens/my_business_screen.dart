@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../data/resource_category_data.dart';
-import '../models/resource_category.dart';
 import '../services/user_profile_service.dart';
 import '../theme/app_theme.dart';
-import '../utils/category_search.dart';
 
 /// Lets the person tell FinReels what they actually do — their trade,
 /// their side business, their profession — from the 60-category research
@@ -16,17 +13,10 @@ import '../utils/category_search.dart';
 /// Multi-select on purpose: someone can be a nurse who also does makeup
 /// artistry on the side, and both should get priority.
 ///
-/// Search-only category selection shared by onboarding and Settings →
-/// Personalize → My Business. No profession, skill, business, or online-hustle
-/// categories are shown until the person types a query. The query is matched
-/// against each category's name and curated search keywords/aliases (see
-/// CategorySearch.matches), across all 60 categories.
-///
-/// "Others" is offered only after a query has been entered, for a trade that
-/// genuinely isn't one of the 60 or while FinReels doesn't have a keyword
-/// match yet. Picking it is a safe no-op everywhere content is filtered by
-/// category (ChannelData.eagerFor, BlogRssService, FeedProvider's Books tab):
-/// nothing has that id, so it simply resolves to general content.
+/// Search-only entry screen shared by onboarding and Settings → Personalize
+/// → My Business. The first prompt and search field remain on screen after
+/// typing; this screen intentionally does not render a category-results page.
+/// Category selection is handled elsewhere in the app.
 ///
 /// Built entirely from existing AppTheme colors/typography/spacing —
 /// no new visual language, just this app's existing look applied to a
@@ -53,23 +43,11 @@ class MyBusinessScreen extends StatefulWidget {
 
 class _MyBusinessScreenState extends State<MyBusinessScreen> {
   late Set<String> _selected;
-  String _query = '';
-  bool _loading = !ResourceCategoryData.isLoaded;
-
   @override
   void initState() {
     super.initState();
     _selected = {...UserProfileService.instance.selectedCategoryIds};
-    if (_loading) {
-      ResourceCategoryData.load().then((_) {
-        if (mounted) setState(() => _loading = false);
-      });
-    }
   }
-
-  void _toggle(String id) => setState(() {
-        if (!_selected.remove(id)) _selected.add(id);
-      });
 
   Future<void> _save() async {
     await UserProfileService.instance.setSelection(_selected);
@@ -108,70 +86,51 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                     .titleMedium
                     ?.copyWith(fontWeight: FontWeight.w800)),
       ),
-      body: _loading
-          ? const Center(child: CircularProgressIndicator(color: AppTheme.gold))
-          : widget.isOnboarding
-              ? _buildOnboardingBody(context)
-              : _buildSettingsBody(context),
+      body: widget.isOnboarding
+          ? _buildOnboardingBody(context)
+          : _buildSettingsBody(context),
     );
   }
 
   Widget _buildOnboardingBody(BuildContext context) {
-    final hasQuery = _query.isNotEmpty;
-    final search = _SearchField(
-      onChanged: (v) => setState(() => _query = v.trim().toLowerCase()),
-    );
-
     return Column(
       children: [
         Expanded(
-          child: hasQuery
-              ? Column(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.fromLTRB(20, 110, 20, 32),
+            child: Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 520),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(20, 20, 20, 8),
-                      child: search,
+                    const Icon(Icons.explore_rounded,
+                        size: 46, color: AppTheme.gold),
+                    const SizedBox(height: 20),
+                    Text(
+                      'What do you want to do with FinReels?',
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                            fontWeight: FontWeight.w800,
+                            letterSpacing: -0.4,
+                          ),
                     ),
-                    Expanded(
-                      child: _buildList(context),
+                    const SizedBox(height: 10),
+                    Text(
+                      'Search your profession, skills and businesses',
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            color: AppTheme.textSecondary(context),
+                            height: 1.45,
+                          ),
                     ),
+                    const SizedBox(height: 28),
+                    const _SearchField(),
                   ],
-                )
-              : SingleChildScrollView(
-                  padding: const EdgeInsets.fromLTRB(20, 110, 20, 32),
-                  child: Center(
-                    child: ConstrainedBox(
-                      constraints: const BoxConstraints(maxWidth: 520),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          const Icon(Icons.explore_rounded,
-                              size: 46, color: AppTheme.gold),
-                          const SizedBox(height: 20),
-                          Text(
-                            'What do you want to do with FinReels?',
-                            textAlign: TextAlign.center,
-                            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                                  fontWeight: FontWeight.w800,
-                                  letterSpacing: -0.4,
-                                ),
-                          ),
-                          const SizedBox(height: 10),
-                          Text(
-                            'Search your profession, skills and businesses',
-                            textAlign: TextAlign.center,
-                            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                  color: AppTheme.textSecondary(context),
-                                  height: 1.45,
-                                ),
-                          ),
-                          const SizedBox(height: 28),
-                          search,
-                        ],
-                      ),
-                    ),
-                  ),
                 ),
+              ),
+            ),
+          ),
         ),
         _buildSaveBar(context),
       ],
@@ -191,62 +150,13 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                 color: AppTheme.textSecondary(context)),
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
-          child: _SearchField(
-            onChanged: (v) => setState(() => _query = v.trim().toLowerCase()),
-          ),
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 20),
+          child: _SearchField(),
         ),
-        const SizedBox(height: 8),
-        Expanded(child: _buildList(context)),
+        const Spacer(),
         _buildSaveBar(context),
       ],
-    );
-  }
-
-  Widget _buildList(BuildContext context) {
-    final hasQuery = _query.isNotEmpty;
-    // Both onboarding and Settings → Personalize are search-only. Never
-    // render the default category catalogue before the person types.
-    if (!hasQuery) return const SizedBox.shrink();
-
-    final children = <Widget>[];
-    var matchedAnyRealCategory = false;
-
-    for (final section in CategorySearch.sectionOrder) {
-      final all = ResourceCategoryData.bySection(section);
-      final items = CategorySearch.search(all, _query);
-      if (items.isEmpty) continue;
-      matchedAnyRealCategory = true;
-      children.add(_SectionLabel(section.pluralLabel));
-      for (final c in items) {
-        children.add(_CategoryTile(
-          name: c.name,
-          description: c.shortDescription,
-          selected: _selected.contains(c.id),
-          onTap: () => _toggle(c.id),
-        ));
-      }
-    }
-
-    // Every search that comes up empty against the real 60 categories still
-    // gets a productive next step — Others below — instead of a dead end.
-    if (hasQuery && !matchedAnyRealCategory) {
-      children.add(_NoMatchNote(query: _query));
-    }
-
-    // Offer the catch-all only alongside actual search results.
-    children.add(const _SectionLabel('Others'));
-    children.add(_CategoryTile(
-      name: CategorySearch.othersName,
-      description: CategorySearch.othersDescription,
-      selected: _selected.contains(CategorySearch.othersId),
-      onTap: () => _toggle(CategorySearch.othersId),
-    ));
-
-    return ListView(
-      padding: const EdgeInsets.only(bottom: 16),
-      children: children,
     );
   }
 
@@ -310,8 +220,7 @@ class _OnboardingBrand extends StatelessWidget {
 }
 
 class _SearchField extends StatelessWidget {
-  final ValueChanged<String> onChanged;
-  const _SearchField({required this.onChanged});
+  const _SearchField();
 
   @override
   Widget build(BuildContext context) {
@@ -322,7 +231,6 @@ class _SearchField extends StatelessWidget {
         border: Border.all(color: AppTheme.dividerColor(context), width: 0.5),
       ),
       child: TextField(
-        onChanged: onChanged,
         style: TextStyle(color: AppTheme.textColor(context)),
         decoration: InputDecoration(
           hintText: 'Type what you do — e.g. "tailor", "law", "solar"…',
@@ -330,123 +238,6 @@ class _SearchField extends StatelessWidget {
           prefixIcon: Icon(Icons.search_rounded, color: AppTheme.textMuted(context)),
           border: InputBorder.none,
           contentPadding: const EdgeInsets.symmetric(vertical: 12),
-        ),
-      ),
-    );
-  }
-}
-
-class _SectionLabel extends StatelessWidget {
-  final String title;
-  const _SectionLabel(this.title);
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 20, 20, 8),
-      child: Text(
-        title.toUpperCase(),
-        style: Theme.of(context).textTheme.labelSmall?.copyWith(
-              color: AppTheme.gold,
-              letterSpacing: 1.4,
-              fontWeight: FontWeight.w800,
-              fontSize: 11,
-            ),
-      ),
-    );
-  }
-}
-
-/// A friendly next step instead of a dead end when a search matches none of
-/// the 60 real categories — Others (always rendered right after this) is
-/// the answer, so this note points straight at it rather than just saying
-/// "no results".
-class _NoMatchNote extends StatelessWidget {
-  final String query;
-  const _NoMatchNote({required this.query});
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 4, 20, 4),
-      child: Text(
-        'No exact match for "$query" yet — pick Others below and '
-        "FinReels will keep things general for you.",
-        style: Theme.of(context)
-            .textTheme
-            .bodySmall
-            ?.copyWith(color: AppTheme.textMuted(context), fontStyle: FontStyle.italic),
-      ),
-    );
-  }
-}
-
-/// Renders one selectable row — used for all 60 real categories AND for
-/// the "Others" catch-all, which isn't a [ResourceCategory] at all. Taking
-/// plain strings (rather than a ResourceCategory) is what lets both share
-/// this exact same look with no special-casing.
-class _CategoryTile extends StatelessWidget {
-  final String name;
-  final String description;
-  final bool selected;
-  final VoidCallback onTap;
-
-  const _CategoryTile({
-    required this.name,
-    required this.description,
-    required this.selected,
-    required this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
-      child: GestureDetector(
-        onTap: onTap,
-        behavior: HitTestBehavior.opaque,
-        child: Container(
-          padding: const EdgeInsets.all(14),
-          decoration: BoxDecoration(
-            color: selected
-                ? AppTheme.gold.withValues(alpha: 0.10)
-                : AppTheme.surfaceColor(context),
-            borderRadius: BorderRadius.circular(14),
-            border: Border.all(
-              color: selected ? AppTheme.gold : AppTheme.dividerColor(context),
-              width: selected ? 1.2 : 0.5,
-            ),
-          ),
-          child: Row(
-            children: [
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(name,
-                        style: Theme.of(context)
-                            .textTheme
-                            .titleSmall
-                            ?.copyWith(fontWeight: FontWeight.w700)),
-                    const SizedBox(height: 2),
-                    Text(
-                      description,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: AppTheme.textSecondary(context)),
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(width: 10),
-              Icon(
-                selected ? Icons.check_circle_rounded : Icons.circle_outlined,
-                color: selected ? AppTheme.gold : AppTheme.textMuted(context),
-                size: 22,
-              ),
-            ],
-          ),
         ),
       ),
     );
