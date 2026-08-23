@@ -4,114 +4,244 @@
   "lastUpdated": "2026-08-23",
   "channels": [
     {
-      "id": "UC",
-      "name": "Nigerian blogging & SEO educators",
-      "handle": "search blogging SEO Nigeria tutorial",
-      "description": "Search latest Nigerian creators teaching practical blogging and SEO for local search traffic.",
+      "id": "UC1emV4A8liRs9p80CY8ElUQ",
+      "name": "freeCodeCamp.org",
+      "handle": "@freecodecamp",
+      "description": "Free programming, web development, data, algorithms, and career learning.",
       "accentColor": "0xFF2563EB",
-      "initials": "NG",
-      "focus": "Blogging & SEO for Nigerian searchers",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Strong local written + video content on ranking for Nigerian keywords."
+      "initials": "F",
+      "focus": "Blogging & SEO Content Sites: Free programming, web development, data, algorithms, and career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1emV4A8liRs9p80CY8ElUQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Daily Reality NG style / Nigerian SEO guides",
-      "handle": "search SEO for Nigerian bloggers",
-      "description": "Practical Nigerian-focused SEO content (keyword research for local searches, E-E-A-T, etc.).",
-      "accentColor": "0xFF059669",
-      "initials": "DR",
-      "focus": "SEO fundamentals for Nigerian blogs",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "High-quality local SEO teaching."
-    },
-    {
-      "id": "UC",
-      "name": "WordPress blogging tutors (Nigeria)",
-      "handle": "search WordPress blog Nigeria tutorial",
-      "description": "Channels teaching how to set up and grow a WordPress blog from Nigeria.",
-      "accentColor": "0xFFD97706",
-      "initials": "WP",
-      "focus": "WordPress blogging setup",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Core technical skill for serious bloggers."
-    },
-    {
-      "id": "UC",
-      "name": "Keyword research for Nigerian niches",
-      "handle": "search keyword research Nigeria blogging",
-      "description": "Channels focused on finding low-competition, high-intent Nigerian keywords.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "KW",
-      "focus": "Local keyword research",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Biggest advantage for Nigerian bloggers."
-    },
-    {
-      "id": "UC",
-      "name": "Blog monetisation (AdSense, affiliate)",
-      "handle": "search blog monetisation Nigeria AdSense",
-      "description": "Channels teaching how Nigerian bloggers monetise with AdSense, affiliates and digital products.",
-      "accentColor": "0xFFDC2626",
-      "initials": "MN",
-      "focus": "Blog monetisation strategies",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Income side of blogging."
-    },
-    {
-      "id": "UC",
-      "name": "African blogging & SEO educators",
-      "handle": "search blogging SEO Africa tutorial",
-      "description": "African creators teaching blogging and SEO across the continent.",
-      "accentColor": "0xFF0891B2",
-      "initials": "AF",
-      "focus": "Blogging & SEO across Africa",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Africa-wide after Nigeria priority."
-    },
-    {
-      "id": "UC",
-      "name": "On-page SEO & content structure",
-      "handle": "search on-page SEO beginners",
-      "description": "Practical channels on writing SEO-friendly articles that rank.",
-      "accentColor": "0xFFEA580C",
-      "initials": "OP",
-      "focus": "On-page SEO skills",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Core ranking skill."
-    },
-    {
-      "id": "UC",
-      "name": "Traffic without ads (Pinterest, WhatsApp, groups)",
-      "handle": "search blog traffic Nigeria WhatsApp Pinterest",
-      "description": "Channels teaching free traffic methods popular with Nigerian bloggers.",
-      "accentColor": "0xFF4F46E5",
-      "initials": "TR",
-      "focus": "Organic traffic strategies",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Practical for low-budget creators."
-    },
-    {
-      "id": "UC",
-      "name": "Ahrefs / professional SEO tools",
-      "handle": "Ahrefs",
-      "description": "High-quality global SEO education (useful after local foundations).",
+      "id": "UC29ju8bIPH5as8OGnQzwJyA",
+      "name": "Traversy Media",
+      "handle": "@TraversyMedia",
+      "description": "Web development, programming, APIs, tools, and project-based learning.",
       "accentColor": "0xFF16A34A",
-      "initials": "AH",
-      "focus": "Advanced SEO tools & strategy",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Industry standard learning resource."
+      "initials": "TM",
+      "focus": "Blogging & SEO Content Sites: Web development, programming, APIs, tools, and project-based learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC29ju8bIPH5as8OGnQzwJyA; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Solid global blogging foundations",
-      "handle": "search blogging SEO beginners practical",
-      "description": "High-quality practical global blogging and SEO teachers useful after local channels.",
+      "id": "UCW5YeuERMmlnqo4oq8vwUpg",
+      "name": "The Net Ninja",
+      "handle": "@NetNinja",
+      "description": "Web development, JavaScript, frameworks, databases, and coding projects.",
+      "accentColor": "0xFFD97706",
+      "initials": "TN",
+      "focus": "Blogging & SEO Content Sites: Web development, JavaScript, frameworks, databases, and coding projects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCW5YeuERMmlnqo4oq8vwUpg; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2Xd-TjJByJyK2w1zNwY0zQ",
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "description": "Fast technical explainers on web development, cloud, AI, and software tools.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "F",
+      "focus": "Blogging & SEO Content Sites: Fast technical explainers on web development, cloud, AI, and software tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2Xd-TjJByJyK2w1zNwY0zQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCJoS8wONbN1zKh2oKn1RbEw",
+      "name": "Corey Schafer",
+      "handle": "@CoreySchafer",
+      "description": "Python, programming fundamentals, automation, and developer workflows.",
+      "accentColor": "0xFF0891B2",
+      "initials": "CS",
+      "focus": "Blogging & SEO Content Sites: Python, programming fundamentals, automation, and developer workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCJoS8wONbN1zKh2oKn1RbEw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "name": "Programming with Mosh",
+      "handle": "@ProgrammingwithMosh",
+      "description": "Programming, software engineering, web development, and career skills.",
+      "accentColor": "0xFFDB4437",
+      "initials": "PW",
+      "focus": "Blogging & SEO Content Sites: Programming, software engineering, web development, and career skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWv7vMbMWH4-V0ZXdmDpPBA; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "name": "Google for Developers",
+      "handle": "@GoogleDevelopers",
+      "description": "Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "accentColor": "0xFF0F766E",
+      "initials": "GF",
+      "focus": "Blogging & SEO Content Sites: Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_x5XG1OV2P6uZZ5FSM9Ttw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl7NIJlHZjJB_VisjGIhLUw",
+      "name": "Canva",
+      "handle": "@Canva",
+      "description": "Design, visual communication, social media content, and creator workflows.",
+      "accentColor": "0xFF9333EA",
+      "initials": "C",
+      "focus": "Blogging & SEO Content Sites: Design, visual communication, social media content, and creator workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl7NIJlHZjJB_VisjGIhLUw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
       "accentColor": "0xFFB45309",
-      "initials": "GL",
-      "focus": "Foundational blogging & SEO skills",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Global layer after Nigeria/Africa."
+      "initials": "A",
+      "focus": "Blogging & SEO Content Sites: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF475569",
+      "initials": "HM",
+      "focus": "Blogging & SEO Content Sites: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwf_BHwAGw3DrK9dPjtnYAw",
+      "name": "Creator Wizard",
+      "handle": "@CreatorWizard",
+      "description": "Creator strategy, audience building, content systems, and digital products.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CW",
+      "focus": "Blogging & SEO Content Sites: Creator strategy, audience building, content systems, and digital products.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwf_BHwAGw3DrK9dPjtnYAw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKegeYEy0lJxpkjWRthaRMw",
+      "name": "Think Media",
+      "handle": "@ThinkMediaTV",
+      "description": "YouTube strategy, video systems, content marketing, and audience growth.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TM",
+      "focus": "Blogging & SEO Content Sites: YouTube strategy, video systems, content marketing, and audience growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKegeYEy0lJxpkjWRthaRMw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCSApI9wlWUEJMToyFvyIRKQ",
+      "name": "Pat Flynn",
+      "handle": "@patflynn",
+      "description": "Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "accentColor": "0xFFD97706",
+      "initials": "PF",
+      "focus": "Blogging & SEO Content Sites: Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCSApI9wlWUEJMToyFvyIRKQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFzI5d_KJl69NNP8_0ttbOw",
+      "name": "Semrush",
+      "handle": "@Semrush",
+      "description": "SEO, digital marketing, analytics, content, and online business education.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "S",
+      "focus": "Blogging & SEO Content Sites: SEO, digital marketing, analytics, content, and online business education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFzI5d_KJl69NNP8_0ttbOw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCs26XZBwrSZLiTEH8wcoVXw",
+      "name": "Moz",
+      "handle": "@Moz",
+      "description": "SEO, search strategy, content, local marketing, and web visibility.",
+      "accentColor": "0xFF0891B2",
+      "initials": "M",
+      "focus": "Blogging & SEO Content Sites: SEO, search strategy, content, local marketing, and web visibility.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCs26XZBwrSZLiTEH8wcoVXw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "OF",
+      "focus": "Blogging & SEO Content Sites: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "Y",
+      "focus": "Blogging & SEO Content Sites: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SO",
+      "focus": "Blogging & SEO Content Sites: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFFB45309",
+      "initials": "KA",
+      "focus": "Blogging & SEO Content Sites: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF475569",
+      "initials": "C",
+      "focus": "Blogging & SEO Content Sites: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +304,94 @@
       "url": "https://selar.com/blog/",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Nigerian digital product and creator economy blog."
+    },
+    {
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/",
+      "region": "Global",
+      "focus": "SEO, content strategy, keyword research, and audience growth.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Search Engine Land",
+      "url": "https://searchengineland.com/",
+      "region": "Global",
+      "focus": "Search, digital marketing, advertising, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Social Media Examiner",
+      "url": "https://www.socialmediaexaminer.com/",
+      "region": "Global",
+      "focus": "Social media strategy, content, advertising, and community.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Buffer Resources",
+      "url": "https://buffer.com/resources/",
+      "region": "Global",
+      "focus": "Social media, content creation, workflow, and creator practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Hootsuite Blog",
+      "url": "https://blog.hootsuite.com/",
+      "region": "Global",
+      "focus": "Social media management, analytics, content, and marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Later Blog",
+      "url": "https://later.com/blog/",
+      "region": "Global",
+      "focus": "Social media, creator marketing, content planning, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Copyblogger",
+      "url": "https://copyblogger.com/",
+      "region": "Global",
+      "focus": "Writing, content marketing, audience, and digital products.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Zapier Blog",
+      "url": "https://zapier.com/blog/",
+      "region": "Global",
+      "focus": "Automation, productivity, apps, workflows, and online operations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog",
+      "region": "Global",
+      "focus": "E-commerce, product, marketing, operations, and entrepreneurship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Moz Blog",
+      "url": "https://moz.com/blog",
+      "region": "Global",
+      "focus": "SEO, search strategy, content, and digital marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService resolves RSS/Atom alternates and conventional feed paths at runtime."
     }
   ],
   "books": [
@@ -608,5 +826,5 @@
   "actionRequired": [
     "2026-08-23: Review the 35 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ],
-  "notes": "2026-08-23: Added 35 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
+  "notes": "2026-08-23: Added 35 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
 }

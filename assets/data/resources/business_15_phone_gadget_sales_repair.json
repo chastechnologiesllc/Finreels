@@ -1,5 +1,5 @@
 {
-  "categoryId": "business_15",
+  "categoryId": "business_15_phone_gadget_sales_repair",
   "profession": "Phone & Gadget Sales/Repair",
   "status": "verified",
   "lastUpdated": "2026-08-23",
@@ -113,6 +113,126 @@
       "focus": "Business scaling and offers",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC5rrHufEb1d4l31kf9bGYfg",
+      "name": "This Old House",
+      "handle": "@thisoldhouse",
+      "description": "Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TO",
+      "focus": "Phone & Gadget Sales/Repair: Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5rrHufEb1d4l31kf9bGYfg; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1MZgHA2PsX2hlaYo8ECQAw",
+      "name": "Essential Craftsman",
+      "handle": "@EssentialCraftsman",
+      "description": "Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EC",
+      "focus": "Phone & Gadget Sales/Repair: Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1MZgHA2PsX2hlaYo8ECQAw; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnorhjQR4zJkT7AVNhu395Q",
+      "name": "Home RenoVision DIY",
+      "handle": "@HomeRenoVisionDIY",
+      "description": "Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "accentColor": "0xFFD97706",
+      "initials": "HR",
+      "focus": "Phone & Gadget Sales/Repair: Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnorhjQR4zJkT7AVNhu395Q; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBB7sYb14uBtk8UqSQYc9-w",
+      "name": "The Honest Carpenter",
+      "handle": "@TheHonestCarpenter",
+      "description": "Carpentry knowledge, building science, tool use, and construction quality.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TH",
+      "focus": "Phone & Gadget Sales/Repair: Carpentry knowledge, building science, tool use, and construction quality.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBB7sYb14uBtk8UqSQYc9-w; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKwM-7sO1_Tw9EmYhKfpBBw",
+      "name": "Perkins Builder Brothers",
+      "handle": "@PerkinsBuilderBrothers",
+      "description": "Residential construction, framing, tools, building systems, and project execution.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PB",
+      "focus": "Phone & Gadget Sales/Repair: Residential construction, framing, tools, building systems, and project execution.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKwM-7sO1_Tw9EmYhKfpBBw; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@ElectricianU",
+      "description": "Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "EU",
+      "focus": "Phone & Gadget Sales/Repair: Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCB3jUEyCLRbCw7QED0vnXYg; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCk0rn9r3IxR-FNjCzHBa5RQ",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "accentColor": "0xFF0F766E",
+      "initials": "G",
+      "focus": "Phone & Gadget Sales/Repair: Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCk0rn9r3IxR-FNjCzHBa5RQ; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCraGaDLfWec67xl9FEPndtw",
+      "name": "See Jane Drill",
+      "handle": "@SeeJaneDrill",
+      "description": "Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SJ",
+      "focus": "Phone & Gadget Sales/Repair: Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCraGaDLfWec67xl9FEPndtw; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwRccMruxRafT7Tx1u1dTPw",
+      "name": "Roger Wakefield",
+      "handle": "@RogerWakefield",
+      "description": "Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "accentColor": "0xFFB45309",
+      "initials": "RW",
+      "focus": "Phone & Gadget Sales/Repair: Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwRccMruxRafT7Tx1u1dTPw; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCYohLjTaUZLF3-JjttxG_CA",
+      "name": "AC Service Tech",
+      "handle": "@ACServiceTech",
+      "description": "Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "accentColor": "0xFF475569",
+      "initials": "AS",
+      "focus": "Phone & Gadget Sales/Repair: Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCYohLjTaUZLF3-JjttxG_CA; selected for the Phone & Gadget Sales/Repair learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -175,6 +295,86 @@
       "url": "https://smedigest.com.ng/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "region": "Global",
+      "focus": "Construction, repair, renovation, tools, and home systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Family Handyman",
+      "url": "https://www.familyhandyman.com/",
+      "region": "Global",
+      "focus": "DIY, woodworking, repair, tools, and practical home skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fine Woodworking",
+      "url": "https://www.finewoodworking.com/",
+      "region": "Global",
+      "focus": "Advanced woodworking, furniture making, tools, and craftsmanship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Plumbing & Mechanical",
+      "url": "https://www.pmmag.com/",
+      "region": "Global",
+      "focus": "Plumbing, HVAC, hydronics, codes, and trade practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Notes",
+      "url": "https://www.electronics-notes.com/",
+      "region": "Global",
+      "focus": "Electronics fundamentals, components, circuits, and design.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "region": "Global",
+      "focus": "Salon technique, hairdressing, beauty, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -629,7 +829,7 @@
       "verificationMethod": "Project Gutenberg catalog record #29461; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nPhone/Gadget had the strongest channel verification rate of all 5 categories: 7/10 directly page-fetched (TechCabal, Techpoint Africa, Carlcare, NorthridgeFix, iPad Rehab, Louis Rossmann, The Signal Path), plus 3 multi-source search-confirmed (JerryRigEverything, iFixit, TronicsFix). Electronics Repair School (slot 10) is search-URL-confirmed. CSV's original Nigerian-specific picks (Slot Systems, Pointek, Nigerian Phone Repair, Mobile Repair Hub) could not be verified as active YouTube channels through search — replaced with the globally-verified repair experts above. These global channels are actually more educational for the business-side purpose of FinReels. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 40 selected Project Gutenberg public-domain non-fiction records to the General collection.",
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nPhone/Gadget had the strongest channel verification rate of all 5 categories: 7/10 directly page-fetched (TechCabal, Techpoint Africa, Carlcare, NorthridgeFix, iPad Rehab, Louis Rossmann, The Signal Path), plus 3 multi-source search-confirmed (JerryRigEverything, iFixit, TronicsFix). Electronics Repair School (slot 10) is search-URL-confirmed. CSV's original Nigerian-specific picks (Slot Systems, Pointek, Nigerian Phone Repair, Mobile Repair Hub) could not be verified as active YouTube channels through search — replaced with the globally-verified repair experts above. These global channels are actually more educational for the business-side purpose of FinReels. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 40 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

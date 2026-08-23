@@ -1,5 +1,5 @@
 {
-  "categoryId": "skill_50_mass_communication_media_pr",
+  "categoryId": "profession_10_mass_communication_media_pr",
   "status": "verified",
   "lastUpdated": "2026-08-23",
   "channels": [
@@ -112,6 +112,126 @@
       "focus": "Business scaling and offers",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "OF",
+      "focus": "Mass Communication/Media & PR: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "Y",
+      "focus": "Mass Communication/Media & PR: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFD97706",
+      "initials": "SO",
+      "focus": "Mass Communication/Media & PR: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "Mass Communication/Media & PR: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "Mass Communication/Media & PR: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFDB4437",
+      "initials": "V",
+      "focus": "Mass Communication/Media & PR: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF0F766E",
+      "initials": "S",
+      "focus": "Mass Communication/Media & PR: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
+      "name": "The School of Life",
+      "handle": "@TheSchoolOfLife",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "Mass Communication/Media & PR: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8c9l98f2Zq4l9YnbmutPTw; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFB45309",
+      "initials": "S",
+      "focus": "Mass Communication/Media & PR: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF475569",
+      "initials": "N",
+      "focus": "Mass Communication/Media & PR: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Mass Communication/Media & PR learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -164,16 +284,98 @@
       "verificationMethod": "Source: CSV. Mass communication and PR business guide. Feed confirmed active in prior sessions."
     },
     {
-      "name": "Entrepreneurs.ng",
-      "url": "https://entrepreneurs.ng/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Nigerian entrepreneurship practical guides."
-    },
-    {
       "name": "SME Digest",
       "url": "https://smedigest.com.ng/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService resolves RSS/Atom alternates and conventional feed paths at runtime."
     }
   ],
   "books": [
@@ -848,7 +1050,7 @@
       "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-professional-and-technical-editing-with-handbook"
     }
   ],
-  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). NIPR Nigeria confirmed via direct YouTube page fetch (@niprofficial → UCnlpGXz2gI8uROR2tIMHAJw). Proshare replaced as WebTV Nigeria in skill_49. Media Brief Nigeria (YouTube not confirmed) → Nairametrics TV (UC1GBKv15keKOgHbEBEMeo9w). Blogs: HubSpot uses /rss.xml. CIPR uses newsroom subdomain. AdAge may use /rss.xml. Connect Nigeria flagged. 2026-08-23: Added 64 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). NIPR Nigeria confirmed via direct YouTube page fetch (@niprofficial → UCnlpGXz2gI8uROR2tIMHAJw). Proshare replaced as WebTV Nigeria in skill_49. Media Brief Nigeria (YouTube not confirmed) → Nairametrics TV (UC1GBKv15keKOgHbEBEMeo9w). Blogs: HubSpot uses /rss.xml. CIPR uses newsroom subdomain. AdAge may use /rss.xml. Connect Nigeria flagged. 2026-08-23: Added 64 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

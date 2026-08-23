@@ -114,6 +114,246 @@
       "focus": "Business scaling and offers",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "OF",
+      "focus": "Web/App Development: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "Y",
+      "focus": "Web/App Development: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFD97706",
+      "initials": "SO",
+      "focus": "Web/App Development: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "Web/App Development: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "Web/App Development: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFDB4437",
+      "initials": "V",
+      "focus": "Web/App Development: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF0F766E",
+      "initials": "S",
+      "focus": "Web/App Development: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
+      "name": "The School of Life",
+      "handle": "@TheSchoolOfLife",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "Web/App Development: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8c9l98f2Zq4l9YnbmutPTw; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFB45309",
+      "initials": "S",
+      "focus": "Web/App Development: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF475569",
+      "initials": "N",
+      "focus": "Web/App Development: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF2563EB",
+      "initials": "3",
+      "focus": "Web/App Development: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCq8ZAAsI89IoJ-fn1gYpO3g",
+      "name": "Kurzgesagt – In a Nutshell",
+      "handle": "@Kurzgesagt",
+      "description": "Research-based explanations of science, society, technology, and long-term human questions.",
+      "accentColor": "0xFF16A34A",
+      "initials": "KI",
+      "focus": "Web/App Development: Research-based explanations of science, society, technology, and long-term human questions.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCq8ZAAsI89IoJ-fn1gYpO3g; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5Jnt7OgEHro3W7kr-jjCrw",
+      "name": "Big Think",
+      "handle": "@BigThink",
+      "description": "Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "accentColor": "0xFFD97706",
+      "initials": "BT",
+      "focus": "Web/App Development: Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5Jnt7OgEHro3W7kr-jjCrw; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCpH3Eia7Qsncq-qmhltZ6uQ",
+      "name": "PBS Idea Channel",
+      "handle": "@PBSIdeaChannel",
+      "description": "Media literacy, culture, technology, philosophy, and critical analysis.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "PI",
+      "focus": "Web/App Development: Media literacy, culture, technology, philosophy, and critical analysis.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCpH3Eia7Qsncq-qmhltZ6uQ; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLv7Gzc3VTO6ggFlXY0sOyw",
+      "name": "Harvard Online",
+      "handle": "@HarvardOnline",
+      "description": "University learning and professional education across leadership, health, data, and society.",
+      "accentColor": "0xFF0891B2",
+      "initials": "HO",
+      "focus": "Web/App Development: University learning and professional education across leadership, health, data, and society.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLv7Gzc3VTO6ggFlXY0sOyw; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC16niRr50-MSBwiO3YDb3RA",
+      "name": "BBC Ideas",
+      "handle": "@BBCIdeas",
+      "description": "Short explainers on society, philosophy, science, history, culture, and everyday decision-making.",
+      "accentColor": "0xFFDB4437",
+      "initials": "BI",
+      "focus": "Web/App Development: Short explainers on society, philosophy, science, history, culture, and everyday decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC16niRr50-MSBwiO3YDb3RA; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCxIJaCMEptJjxmmQgGFsnCg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "YC",
+      "focus": "Web/App Development: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "name": "Harvard Business Review",
+      "handle": "@HarvardBusinessReview",
+      "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
+      "accentColor": "0xFF9333EA",
+      "initials": "HB",
+      "focus": "Web/App Development: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWLGZL69LhjjgGRKhcAE_w",
+      "name": "Google for Startups",
+      "handle": "@GoogleforStartups",
+      "description": "Startup growth, technology, product, marketing, and founder education.",
+      "accentColor": "0xFFB45309",
+      "initials": "GF",
+      "focus": "Web/App Development: Startup growth, technology, product, marketing, and founder education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Web/App Development learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF475569",
+      "initials": "HM",
+      "focus": "Web/App Development: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Web/App Development learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -176,6 +416,94 @@
       "url": "https://hashnode.com",
       "verifiedOn": "2026-07-20",
       "verificationMethod": "Source directory entry: developer blogging platform with business content. Hashnode is a multi-blog platform without one site-wide feed — each individual blog has its own /rss.xml; site URL used as-is pending a decision on which specific Hashnode blog(s) to follow."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -1290,7 +1618,7 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781998944224-L.jpg"
     }
   ],
-  "notes": "Distinct from Computer Science/Software Engineering (profession_11, which covered turning code into products via Indie Hackers) — this category is specifically about the freelance/agency service-delivery side of the same skill. 2026-07-20: Merged in the founder-provided 'web_app_development_resources.csv' (Section I.12), bringing the file from 1 channel / 0 blogs / 0 books to a full 10 / 10 / 10. This CSV (unlike prior ones in this project) did not include per-item RSS/channel-ID URLs, only top-level domains — every real YouTube channel ID was independently looked up via search and channel-page fetches, and blog RSS paths were inferred using each site's standard CMS convention (flagged individually where uncertain). Three of the CSV's 10 channels could not be matched to a real YouTube channel: SoniBaze (real, active company and blog, but no confirmed YouTube presence), FreelanceMaster.ng (real, active company and blog, but no confirmed YouTube presence), and DevCareer Africa (real, well-documented nonprofit with 30,000+ community members, but its 'channels' are internal Slack community channels, not YouTube). Two independently-verified, directly on-topic replacements were substituted to reach 10 channels: freeCodeCamp.org and Programming with Mosh (Mosh Hamedani). The SoniBaze blog URL was also corrected from the source directory's sonibaze.com to the company's real, currently-active domain, sonibaze.ng. 2026-08-23: Added 111 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
+  "notes": "Distinct from Computer Science/Software Engineering (profession_11, which covered turning code into products via Indie Hackers) — this category is specifically about the freelance/agency service-delivery side of the same skill. 2026-07-20: Merged in the founder-provided 'web_app_development_resources.csv' (Section I.12), bringing the file from 1 channel / 0 blogs / 0 books to a full 10 / 10 / 10. This CSV (unlike prior ones in this project) did not include per-item RSS/channel-ID URLs, only top-level domains — every real YouTube channel ID was independently looked up via search and channel-page fetches, and blog RSS paths were inferred using each site's standard CMS convention (flagged individually where uncertain). Three of the CSV's 10 channels could not be matched to a real YouTube channel: SoniBaze (real, active company and blog, but no confirmed YouTube presence), FreelanceMaster.ng (real, active company and blog, but no confirmed YouTube presence), and DevCareer Africa (real, well-documented nonprofit with 30,000+ community members, but its 'channels' are internal Slack community channels, not YouTube). Two independently-verified, directly on-topic replacements were substituted to reach 10 channels: freeCodeCamp.org and Programming with Mosh (Mosh Hamedani). The SoniBaze blog URL was also corrected from the source directory's sonibaze.com to the company's real, currently-active domain, sonibaze.ng. 2026-08-23: Added 111 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

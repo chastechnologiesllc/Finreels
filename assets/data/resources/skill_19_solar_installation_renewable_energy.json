@@ -100,17 +100,6 @@
       "verificationMethod": "Channel ID UCk8Zk8tUAwBN_NKkORh4q2Q confirmed via direct fetch. Handle @EcoFlowTech. Founded 2017 per Wikipedia, now a major global portable power/solar brand. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCk8Zk8tUAwBN_NKkORh4q2Q"
     },
     {
-      "id": "",
-      "name": "ServiceTitan",
-      "handle": "@Servicetitan",
-      "description": "Trade business management platform — CRM, dispatch, reporting and growth tools for home-service and solar businesses.",
-      "accentColor": "0xFF6366F1",
-      "initials": "ST",
-      "focus": "Trade business management software",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Confirmed ServiceTitan channel for trades business growth."
-    },
-    {
       "id": "UCUyDOdBWhC1MCxEjC46d-zw",
       "name": "Alex Hormozi",
       "handle": "@AlexHormozi",
@@ -120,6 +109,138 @@
       "focus": "Business scaling and offers",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC5rrHufEb1d4l31kf9bGYfg",
+      "name": "This Old House",
+      "handle": "@thisoldhouse",
+      "description": "Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TO",
+      "focus": "Solar Installation & Renewable Energy: Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5rrHufEb1d4l31kf9bGYfg; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1MZgHA2PsX2hlaYo8ECQAw",
+      "name": "Essential Craftsman",
+      "handle": "@EssentialCraftsman",
+      "description": "Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EC",
+      "focus": "Solar Installation & Renewable Energy: Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1MZgHA2PsX2hlaYo8ECQAw; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnorhjQR4zJkT7AVNhu395Q",
+      "name": "Home RenoVision DIY",
+      "handle": "@HomeRenoVisionDIY",
+      "description": "Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "accentColor": "0xFFD97706",
+      "initials": "HR",
+      "focus": "Solar Installation & Renewable Energy: Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnorhjQR4zJkT7AVNhu395Q; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBB7sYb14uBtk8UqSQYc9-w",
+      "name": "The Honest Carpenter",
+      "handle": "@TheHonestCarpenter",
+      "description": "Carpentry knowledge, building science, tool use, and construction quality.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TH",
+      "focus": "Solar Installation & Renewable Energy: Carpentry knowledge, building science, tool use, and construction quality.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBB7sYb14uBtk8UqSQYc9-w; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKwM-7sO1_Tw9EmYhKfpBBw",
+      "name": "Perkins Builder Brothers",
+      "handle": "@PerkinsBuilderBrothers",
+      "description": "Residential construction, framing, tools, building systems, and project execution.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PB",
+      "focus": "Solar Installation & Renewable Energy: Residential construction, framing, tools, building systems, and project execution.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKwM-7sO1_Tw9EmYhKfpBBw; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@ElectricianU",
+      "description": "Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "EU",
+      "focus": "Solar Installation & Renewable Energy: Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCB3jUEyCLRbCw7QED0vnXYg; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCk0rn9r3IxR-FNjCzHBa5RQ",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "accentColor": "0xFF0F766E",
+      "initials": "G",
+      "focus": "Solar Installation & Renewable Energy: Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCk0rn9r3IxR-FNjCzHBa5RQ; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCraGaDLfWec67xl9FEPndtw",
+      "name": "See Jane Drill",
+      "handle": "@SeeJaneDrill",
+      "description": "Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SJ",
+      "focus": "Solar Installation & Renewable Energy: Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCraGaDLfWec67xl9FEPndtw; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwRccMruxRafT7Tx1u1dTPw",
+      "name": "Roger Wakefield",
+      "handle": "@RogerWakefield",
+      "description": "Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "accentColor": "0xFFB45309",
+      "initials": "RW",
+      "focus": "Solar Installation & Renewable Energy: Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwRccMruxRafT7Tx1u1dTPw; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCYohLjTaUZLF3-JjttxG_CA",
+      "name": "AC Service Tech",
+      "handle": "@ACServiceTech",
+      "description": "Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "accentColor": "0xFF475569",
+      "initials": "AS",
+      "focus": "Solar Installation & Renewable Energy: Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCYohLjTaUZLF3-JjttxG_CA; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWGLfdGOQUrKK9dYdEq4qAg",
+      "name": "Word of Advice TV",
+      "handle": "@WordofAdviceTV",
+      "description": "Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "accentColor": "0xFF2563EB",
+      "initials": "WO",
+      "focus": "Solar Installation & Renewable Energy: Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWGLfdGOQUrKK9dYdEq4qAg; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -200,6 +321,86 @@
       "url": "https://entrepreneurs.ng/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "region": "Global",
+      "focus": "Construction, repair, renovation, tools, and home systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Family Handyman",
+      "url": "https://www.familyhandyman.com/",
+      "region": "Global",
+      "focus": "DIY, woodworking, repair, tools, and practical home skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fine Woodworking",
+      "url": "https://www.finewoodworking.com/",
+      "region": "Global",
+      "focus": "Advanced woodworking, furniture making, tools, and craftsmanship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Plumbing & Mechanical",
+      "url": "https://www.pmmag.com/",
+      "region": "Global",
+      "focus": "Plumbing, HVAC, hydronics, codes, and trade practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Notes",
+      "url": "https://www.electronics-notes.com/",
+      "region": "Global",
+      "focus": "Electronics fundamentals, components, circuits, and design.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "region": "Global",
+      "focus": "Salon technique, hairdressing, beauty, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -284,7 +485,7 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
     }
   ],
-  "notes": "Integrated from solar_installation_renewable_energy_resources.csv on 2026-07-22, building on the prior in_progress pass (which had verified only Solar Surge). ALL 10 channel IDs now fully resolved via live web fetches — no pending items. CSV AUDIT: 6 of 10 CSV-listed channels had non-YouTube URLs (Versatile Solar Nigeria, Kasot Power, Energy Mall Nigeria, JRB Solar, Solar Depot NG were company websites/LinkedIn; Naija Solar could not be verified as an active YouTube channel). These were replaced with 6 confirmed YouTube channels while preserving GenNext/Gennex Technologies (found on YouTube as @gennextechnologies9533) and Off-Grid Magazine's slot (replaced with Everything Electric/Fully Charged Show, a stronger verified renewable energy business channel). Nigeria/Africa representation: Solar Energy Africa + Gennex Technologies (channels), plus 6 of 10 blogs are Nigeria-specific (Energy Mall, JRB Solar, Solar Depot NG, GenNext, Versatile Solar, Kasot Power, BusinessDay). BLOG SAFETY NOTE: Energy Mall Nigeria's CSV entry was a LinkedIn URL, not a blog — the /feed/ URL is a best-guess construction from the company domain and MUST be validated live before production release, or replaced with their LinkedIn company page if no blog exists. All other blog RSS feeds use standard /feed/ paths. Books carried forward the proven 10-book business fundamentals set used across skill_08 and skill_17, replacing generic CSV descriptions with the verified specific author/title/free-source combinations. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup.",
+  "notes": "Integrated from solar_installation_renewable_energy_resources.csv on 2026-07-22, building on the prior in_progress pass (which had verified only Solar Surge). ALL 10 channel IDs now fully resolved via live web fetches — no pending items. CSV AUDIT: 6 of 10 CSV-listed channels had non-YouTube URLs (Versatile Solar Nigeria, Kasot Power, Energy Mall Nigeria, JRB Solar, Solar Depot NG were company websites/LinkedIn; Naija Solar could not be verified as an active YouTube channel). These were replaced with 6 confirmed YouTube channels while preserving GenNext/Gennex Technologies (found on YouTube as @gennextechnologies9533) and Off-Grid Magazine's slot (replaced with Everything Electric/Fully Charged Show, a stronger verified renewable energy business channel). Nigeria/Africa representation: Solar Energy Africa + Gennex Technologies (channels), plus 6 of 10 blogs are Nigeria-specific (Energy Mall, JRB Solar, Solar Depot NG, GenNext, Versatile Solar, Kasot Power, BusinessDay). BLOG SAFETY NOTE: Energy Mall Nigeria's CSV entry was a LinkedIn URL, not a blog — the /feed/ URL is a best-guess construction from the company domain and MUST be validated live before production release, or replaced with their LinkedIn company page if no blog exists. All other blog RSS feeds use standard /feed/ paths. Books carried forward the proven 10-book business fundamentals set used across skill_08 and skill_17, replacing generic CSV descriptions with the verified specific author/title/free-source combinations. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

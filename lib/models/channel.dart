@@ -35,5 +35,14 @@ class Channel {
 
   String get channelUrl => 'https://www.youtube.com/channel/$id';
 
-  String get youtubeHandle => 'https://www.youtube.com/$handle';
+  String get youtubeHandle {
+    final value = handle.trim();
+    if (value.startsWith('http://') || value.startsWith('https://')) return value;
+    if (value.startsWith('@') && !value.contains(' ')) {
+      return 'https://www.youtube.com/$value';
+    }
+    // Some older catalog records stored a display name instead of a handle.
+    // The verified channel ID is the authoritative, always-valid fallback.
+    return channelUrl;
+  }
 }

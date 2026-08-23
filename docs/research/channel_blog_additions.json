@@ -1,0 +1,730 @@
+{
+  "date": "2026-08-23",
+  "resolvedChannels": 127,
+  "checkedBlogs": 103,
+  "categories": {
+    "skill_01_tailoring_fashion_design": {
+      "pool": "creative",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 30
+    },
+    "skill_02_hairdressing_hairstyling": {
+      "pool": "beauty",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 21
+    },
+    "skill_03_barbing": {
+      "pool": "beauty",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 21
+    },
+    "skill_04_makeup_artistry": {
+      "pool": "beauty",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 21
+    },
+    "skill_05_welding_metal_fabrication": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 29,
+      "finalBlogs": 27
+    },
+    "skill_06_carpentry_furniture_making": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 27
+    },
+    "skill_07_plumbing": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 27
+    },
+    "skill_08_electrical_installation_wiring": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 27
+    },
+    "skill_09_auto_mechanics": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 27
+    },
+    "skill_10_phone_electronics_repair": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 28,
+      "finalBlogs": 27
+    },
+    "skill_11_graphic_design": {
+      "pool": "creative",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 29
+    },
+    "skill_12_web_app_development": {
+      "pool": "general",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 21
+    },
+    "skill_13_photography": {
+      "pool": "creative",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 30
+    },
+    "skill_14_videography_video_editing": {
+      "pool": "creative",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 30,
+      "finalBlogs": 30
+    },
+    "skill_15_catering_baking": {
+      "pool": "food",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "skill_16_event_decoration_planning": {
+      "pool": "creative",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "skill_17_shoemaking_leatherwork": {
+      "pool": "creative",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "skill_18_pop_tiling_interior_decor": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "skill_19_solar_installation_renewable_energy": {
+      "pool": "crafts",
+      "channelsAdded": 1,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "skill_20_ac_refrigeration_repair": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_01_pos_agent_banking": {
+      "pool": "finance",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_02_provision_store_mini_mart": {
+      "pool": "business",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_03_fashion_retail_boutique": {
+      "pool": "creative",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_04_food_vending_catering_meal_prep": {
+      "pool": "food",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_05_real_estate_agency": {
+      "pool": "business",
+      "channelsAdded": 2,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_06_logistics_dispatch_rider": {
+      "pool": "business",
+      "channelsAdded": 4,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_07_event_planning_rentals": {
+      "pool": "creative",
+      "channelsAdded": 8,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_08_salon_barbing_beauty_spa": {
+      "pool": "beauty",
+      "channelsAdded": 8,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_09_car_hire_ride_hailing_fleet": {
+      "pool": "business",
+      "channelsAdded": 4,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_10_poultry_farming": {
+      "pool": "agriculture",
+      "channelsAdded": 8,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_11_fish_farming": {
+      "pool": "agriculture",
+      "channelsAdded": 1,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_12_laundry_dry_cleaning": {
+      "pool": "business",
+      "channelsAdded": 3,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_13_bakery_confectionery": {
+      "pool": "business",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_14_cosmetics_skincare": {
+      "pool": "business",
+      "channelsAdded": 2,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_15_phone_gadget_sales_repair": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_16_private_tutorial_online_tutoring": {
+      "pool": "education",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_17_mini_importation_e_commerce": {
+      "pool": "online",
+      "channelsAdded": 0,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "business_18_cleaning_services": {
+      "pool": "business",
+      "channelsAdded": 1,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_19_pure_water_sachet_bottled_water": {
+      "pool": "business",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "business_20_social_media_digital_marketing_agency": {
+      "pool": "online",
+      "channelsAdded": 0,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "profession_01_medicine": {
+      "pool": "medicine",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_02_law": {
+      "pool": "law",
+      "channelsAdded": 1,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_03_pharmacy": {
+      "pool": "medicine",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_04_nursing": {
+      "pool": "medicine",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_05_accounting": {
+      "pool": "finance",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_06_engineering": {
+      "pool": "engineering",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_07_architecture": {
+      "pool": "engineering",
+      "channelsAdded": 0,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_08_estate_management_surveying": {
+      "pool": "general",
+      "channelsAdded": 0,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_09_banking_finance": {
+      "pool": "finance",
+      "channelsAdded": 0,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_10_mass_communication_media_pr": {
+      "pool": "general",
+      "channelsAdded": 0,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_11_computer_science_software_engineering": {
+      "pool": "engineering",
+      "channelsAdded": 8,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_12_agriculture": {
+      "pool": "agriculture",
+      "channelsAdded": 8,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_13_education": {
+      "pool": "education",
+      "channelsAdded": 9,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_14_dentistry": {
+      "pool": "medicine",
+      "channelsAdded": 10,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_15_psychology_counselling": {
+      "pool": "psychology",
+      "channelsAdded": 9,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_16_fashion_design_tailoring": {
+      "pool": "creative",
+      "channelsAdded": 3,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_17_hairdressing_cosmetology": {
+      "pool": "beauty",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_18_catering_event_planning": {
+      "pool": "food",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_19_automobile_technology": {
+      "pool": "crafts",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "profession_20_photography_videography": {
+      "pool": "creative",
+      "channelsAdded": 0,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "online_hustles_01_surveys_microtasks": {
+      "pool": "general",
+      "channelsAdded": 8,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "online_hustles_02_affiliate_marketing": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_03_freelance_writing": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_04_canva_graphic_design": {
+      "pool": "creative",
+      "channelsAdded": 10,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "online_hustles_05_social_media_management": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_06_virtual_assistance": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_07_online_tutoring": {
+      "pool": "education",
+      "channelsAdded": 10,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "online_hustles_08_transcription_captioning": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_09_content_creation": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_10_ai_services": {
+      "pool": "engineering",
+      "channelsAdded": 10,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "online_hustles_11_digital_products": {
+      "pool": "general",
+      "channelsAdded": 10,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "online_hustles_12_vtu_airtime_data": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_13_video_editing_clipping": {
+      "pool": "general",
+      "channelsAdded": 10,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "online_hustles_14_blogging_seo": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_15_ads_management": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_16_dropshipping_pod": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_17_web_nocode": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_18_online_courses": {
+      "pool": "general",
+      "channelsAdded": 10,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    },
+    "online_hustles_19_ecommerce_mini_import": {
+      "pool": "online",
+      "channelsAdded": 10,
+      "blogsAdded": 1,
+      "finalChannels": 20,
+      "finalBlogs": 21
+    },
+    "online_hustles_20_digital_agency": {
+      "pool": "general",
+      "channelsAdded": 10,
+      "blogsAdded": 0,
+      "finalChannels": 20,
+      "finalBlogs": 20
+    }
+  },
+  "unresolvedHandles": [
+    "bhphotovideo",
+    "branch_education",
+    "cinecom.net",
+    "fao",
+    "googletalks",
+    "greatscott!",
+    "instituteofhumananatomy",
+    "iowastateextension",
+    "lawcrimenetwork",
+    "learnengineering",
+    "mattbeck",
+    "mitopencourseware",
+    "nationalgeographic",
+    "ninjanerdscience",
+    "nptel",
+    "ohiostateextension",
+    "pennstateextension",
+    "schoolism",
+    "stanfordecorner",
+    "strongmedicine",
+    "ted-ed",
+    "texasamagrilife",
+    "thefuturishere",
+    "universityofguelph",
+    "unodc"
+  ],
+  "rejectedBlogs": [
+    "https://behindthechair.com",
+    "https://blog.datawrapper.de",
+    "https://blog.google/technology/ai",
+    "https://blog.mozilla.org",
+    "https://blogs.cdc.gov",
+    "https://blogs.cfainstitute.org/investor",
+    "https://blogs.worldbank.org",
+    "https://childmind.org/article",
+    "https://convertkit.com/resources",
+    "https://digest.bps.org.uk",
+    "https://ecorner.stanford.edu",
+    "https://extension.psu.edu",
+    "https://food52.com/blog",
+    "https://newsinhealth.nih.gov",
+    "https://ocw.mit.edu/blog",
+    "https://ourworldindata.org/blog",
+    "https://publichealth.jhu.edu",
+    "https://theconversation.com",
+    "https://ucanr.edu/blogs",
+    "https://www.agweb.com",
+    "https://www.aquaculturealliance.org/advocate",
+    "https://www.autoserviceprofessional.com",
+    "https://www.bakingbites.com",
+    "https://www.bbc.com/future",
+    "https://www.canva.com/designschool",
+    "https://www.ecmag.com",
+    "https://www.fao.org/news/en",
+    "https://www.findlaw.com",
+    "https://www.foodbusinessnews.net",
+    "https://www.imf.org/en/blogs",
+    "https://www.investopedia.com",
+    "https://www.justia.com",
+    "https://www.jwatch.org",
+    "https://www.open.edu/openlearn",
+    "https://www.poultryworld.net",
+    "https://www.psychologytoday.com",
+    "https://www.scientificamerican.com/mind",
+    "https://www.seriouseats.com",
+    "https://www.sewnews.com",
+    "https://www.theengineer.co.uk",
+    "https://www.thekitchn.com",
+    "https://www.thelancet.com",
+    "https://www.thespruceeats.com",
+    "https://www.threadsmagazine.com",
+    "https://www.usda.gov/media/blog",
+    "https://www.woodmagazine.com"
+  ],
+  "files": [
+    "skill_01_tailoring_fashion_design.json",
+    "skill_02_hairdressing_hairstyling.json",
+    "skill_03_barbing.json",
+    "skill_04_makeup_artistry.json",
+    "skill_05_welding_metal_fabrication.json",
+    "skill_06_carpentry_furniture_making.json",
+    "skill_07_plumbing.json",
+    "skill_08_electrical_installation_wiring.json",
+    "skill_09_auto_mechanics.json",
+    "skill_10_phone_electronics_repair.json",
+    "skill_11_graphic_design.json",
+    "skill_12_web_app_development.json",
+    "skill_13_photography.json",
+    "skill_14_videography_video_editing.json",
+    "skill_15_catering_baking.json",
+    "skill_16_event_decoration_planning.json",
+    "skill_17_shoemaking_leatherwork.json",
+    "skill_18_pop_tiling_interior_decor.json",
+    "skill_19_solar_installation_renewable_energy.json",
+    "skill_20_ac_refrigeration_repair.json",
+    "business_01_pos_agent_banking.json",
+    "business_02_provision_store_mini_mart.json",
+    "business_03_fashion_retail_boutique.json",
+    "business_04_food_vending_catering_meal_prep.json",
+    "business_05_real_estate_agency.json",
+    "business_06_logistics_dispatch_rider.json",
+    "business_07_event_planning_rentals.json",
+    "business_08_salon_barbing_beauty_spa.json",
+    "business_09_car_hire_ride_hailing_fleet.json",
+    "business_10_poultry_farming.json",
+    "business_11_fish_farming.json",
+    "business_12_laundry_dry_cleaning.json",
+    "business_13_bakery_confectionery.json",
+    "business_14_cosmetics_skincare.json",
+    "business_15_phone_gadget_sales_repair.json",
+    "business_16_private_tutorial_online_tutoring.json",
+    "business_17_mini_importation_e_commerce.json",
+    "business_18_cleaning_services.json",
+    "business_19_pure_water_sachet_bottled_water.json",
+    "business_20_social_media_digital_marketing_agency.json",
+    "profession_01_medicine.json",
+    "profession_02_law.json",
+    "profession_03_pharmacy.json",
+    "profession_04_nursing.json",
+    "profession_05_accounting.json",
+    "profession_06_engineering.json",
+    "profession_07_architecture.json",
+    "profession_08_estate_management_surveying.json",
+    "profession_09_banking_finance.json",
+    "profession_10_mass_communication_media_pr.json",
+    "profession_11_computer_science_software_engineering.json",
+    "profession_12_agriculture.json",
+    "profession_13_education.json",
+    "profession_14_dentistry.json",
+    "profession_15_psychology_counselling.json",
+    "profession_16_fashion_design_tailoring.json",
+    "profession_17_hairdressing_cosmetology.json",
+    "profession_18_catering_event_planning.json",
+    "profession_19_automobile_technology.json",
+    "profession_20_photography_videography.json",
+    "online_hustles_01_surveys_microtasks.json",
+    "online_hustles_02_affiliate_marketing.json",
+    "online_hustles_03_freelance_writing.json",
+    "online_hustles_04_canva_graphic_design.json",
+    "online_hustles_05_social_media_management.json",
+    "online_hustles_06_virtual_assistance.json",
+    "online_hustles_07_online_tutoring.json",
+    "online_hustles_08_transcription_captioning.json",
+    "online_hustles_09_content_creation.json",
+    "online_hustles_10_ai_services.json",
+    "online_hustles_11_digital_products.json",
+    "online_hustles_12_vtu_airtime_data.json",
+    "online_hustles_13_video_editing_clipping.json",
+    "online_hustles_14_blogging_seo.json",
+    "online_hustles_15_ads_management.json",
+    "online_hustles_16_dropshipping_pod.json",
+    "online_hustles_17_web_nocode.json",
+    "online_hustles_18_online_courses.json",
+    "online_hustles_19_ecommerce_mini_import.json",
+    "online_hustles_20_digital_agency.json"
+  ],
+  "general": {
+    "channelsAdded": 0,
+    "blogsAdded": 0,
+    "finalChannels": 10,
+    "finalBlogs": 10
+  }
+}

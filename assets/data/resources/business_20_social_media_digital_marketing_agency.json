@@ -112,6 +112,126 @@
       "focus": "Business scaling and offers",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC1emV4A8liRs9p80CY8ElUQ",
+      "name": "freeCodeCamp.org",
+      "handle": "@freecodecamp",
+      "description": "Free programming, web development, data, algorithms, and career learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "F",
+      "focus": "Social Media/Digital Marketing Agency: Free programming, web development, data, algorithms, and career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1emV4A8liRs9p80CY8ElUQ; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC29ju8bIPH5as8OGnQzwJyA",
+      "name": "Traversy Media",
+      "handle": "@TraversyMedia",
+      "description": "Web development, programming, APIs, tools, and project-based learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TM",
+      "focus": "Social Media/Digital Marketing Agency: Web development, programming, APIs, tools, and project-based learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC29ju8bIPH5as8OGnQzwJyA; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCW5YeuERMmlnqo4oq8vwUpg",
+      "name": "The Net Ninja",
+      "handle": "@NetNinja",
+      "description": "Web development, JavaScript, frameworks, databases, and coding projects.",
+      "accentColor": "0xFFD97706",
+      "initials": "TN",
+      "focus": "Social Media/Digital Marketing Agency: Web development, JavaScript, frameworks, databases, and coding projects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCW5YeuERMmlnqo4oq8vwUpg; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2Xd-TjJByJyK2w1zNwY0zQ",
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "description": "Fast technical explainers on web development, cloud, AI, and software tools.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "F",
+      "focus": "Social Media/Digital Marketing Agency: Fast technical explainers on web development, cloud, AI, and software tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2Xd-TjJByJyK2w1zNwY0zQ; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCJoS8wONbN1zKh2oKn1RbEw",
+      "name": "Corey Schafer",
+      "handle": "@CoreySchafer",
+      "description": "Python, programming fundamentals, automation, and developer workflows.",
+      "accentColor": "0xFF0891B2",
+      "initials": "CS",
+      "focus": "Social Media/Digital Marketing Agency: Python, programming fundamentals, automation, and developer workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCJoS8wONbN1zKh2oKn1RbEw; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "name": "Programming with Mosh",
+      "handle": "@ProgrammingwithMosh",
+      "description": "Programming, software engineering, web development, and career skills.",
+      "accentColor": "0xFFDB4437",
+      "initials": "PW",
+      "focus": "Social Media/Digital Marketing Agency: Programming, software engineering, web development, and career skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWv7vMbMWH4-V0ZXdmDpPBA; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "name": "Google for Developers",
+      "handle": "@GoogleDevelopers",
+      "description": "Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "accentColor": "0xFF0F766E",
+      "initials": "GF",
+      "focus": "Social Media/Digital Marketing Agency: Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_x5XG1OV2P6uZZ5FSM9Ttw; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl7NIJlHZjJB_VisjGIhLUw",
+      "name": "Canva",
+      "handle": "@Canva",
+      "description": "Design, visual communication, social media content, and creator workflows.",
+      "accentColor": "0xFF9333EA",
+      "initials": "C",
+      "focus": "Social Media/Digital Marketing Agency: Design, visual communication, social media content, and creator workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl7NIJlHZjJB_VisjGIhLUw; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
+      "accentColor": "0xFFB45309",
+      "initials": "A",
+      "focus": "Social Media/Digital Marketing Agency: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF475569",
+      "initials": "HM",
+      "focus": "Social Media/Digital Marketing Agency: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Social Media/Digital Marketing Agency learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +294,94 @@
       "url": "https://howwemadeitinafrica.com/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/",
+      "region": "Global",
+      "focus": "SEO, content strategy, keyword research, and audience growth.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Search Engine Land",
+      "url": "https://searchengineland.com/",
+      "region": "Global",
+      "focus": "Search, digital marketing, advertising, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Social Media Examiner",
+      "url": "https://www.socialmediaexaminer.com/",
+      "region": "Global",
+      "focus": "Social media strategy, content, advertising, and community.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Buffer Resources",
+      "url": "https://buffer.com/resources/",
+      "region": "Global",
+      "focus": "Social media, content creation, workflow, and creator practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Hootsuite Blog",
+      "url": "https://blog.hootsuite.com/",
+      "region": "Global",
+      "focus": "Social media management, analytics, content, and marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Later Blog",
+      "url": "https://later.com/blog/",
+      "region": "Global",
+      "focus": "Social media, creator marketing, content planning, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Copyblogger",
+      "url": "https://copyblogger.com/",
+      "region": "Global",
+      "focus": "Writing, content marketing, audience, and digital products.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Zapier Blog",
+      "url": "https://zapier.com/blog/",
+      "region": "Global",
+      "focus": "Automation, productivity, apps, workflows, and online operations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog",
+      "region": "Global",
+      "focus": "E-commerce, product, marketing, operations, and entrepreneurship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Moz Blog",
+      "url": "https://moz.com/blog",
+      "region": "Global",
+      "focus": "SEO, search strategy, content, and digital marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService resolves RSS/Atom alternates and conventional feed paths at runtime."
     }
   ],
   "books": [
@@ -510,7 +718,7 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9798996140732-L.jpg"
     }
   ],
-  "notes": "2026-07-24: Created from scratch, merging all 30 rows from the founder-provided 'social_media_digital_marketing_agency_resources.csv' (Section II.40). Three of the CSV's 10 channels could not be matched to a real, confirmable YouTube channel: Noah's Ark Communications and Anakle (both real, well-documented Nigerian agencies with major-brand clients, but no confirmed dedicated channel — their Tumblr/website presence was their primary content hub), and Webcooks (could not be independently verified as a real entity this pass). Three independently-verified, directly on-topic replacements were substituted to reach 10 channels: Buffer, Techpoint Africa, and NairametricsTV. 2026-08-23: Added 27 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
+  "notes": "2026-07-24: Created from scratch, merging all 30 rows from the founder-provided 'social_media_digital_marketing_agency_resources.csv' (Section II.40). Three of the CSV's 10 channels could not be matched to a real, confirmable YouTube channel: Noah's Ark Communications and Anakle (both real, well-documented Nigerian agencies with major-brand clients, but no confirmed dedicated channel — their Tumblr/website presence was their primary content hub), and Webcooks (could not be independently verified as a real entity this pass). Three independently-verified, directly on-topic replacements were substituted to reach 10 channels: Buffer, Techpoint Africa, and NairametricsTV. 2026-08-23: Added 27 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

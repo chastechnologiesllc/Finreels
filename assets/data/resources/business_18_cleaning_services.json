@@ -26,18 +26,6 @@
       "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/CleaningLaunch); founder bio and 7-figure exit cross-confirmed via cleaninglaunch.com."
     },
     {
-      "id": "UCHLYt_LJmvvmsyp-wKYX0",
-      "name": "AJ Simmons (Clean Biz Network)",
-      "handle": "@ajsimmons",
-      "description": "AJ Simmons, founder of Clean Biz Network — self-described 'cleaning business GOAT'; 10 years building and coaching commercial cleaning businesses, all-in-one software (CRM, bidding, proposals) and coaching program.",
-      "accentColor": "0xFF10B981",
-      "initials": "AJ",
-      "focus": "Start, grow, and automate a commercial cleaning business",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Channel ID (UCHLYt_LJmvvmsyp-wKYX0) confirmed via consistent cross-reference across 6+ YouTube video descriptions linking to youtube.com/channel/UCHLYt_LJmvvmsyp-wKYX0; identity and Clean Biz Network brand cross-confirmed via ajsimmonsonline.com and cleanbiznetwork.app.",
-      "notes": "This channel ID is 22 characters (vs the standard 24) — appears to be a legacy short-form ID that YouTube still resolves correctly; confirm via direct channel-page fetch before shipping."
-    },
-    {
       "id": "UC9trf4E3k73yGxrm141ztNw",
       "name": "CleaningBusiness Boss",
       "handle": "@cleaningbusinessboss2977",
@@ -113,6 +101,138 @@
       "focus": "Digital marketing and local SEO for service businesses",
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCl-Zrl0QhF66lu1aGXaTbfw) in multiple prior sessions this project."
+    },
+    {
+      "id": "UCxIJaCMEptJjxmmQgGFsnCg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "YC",
+      "focus": "Cleaning Services: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "name": "Harvard Business Review",
+      "handle": "@HarvardBusinessReview",
+      "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
+      "accentColor": "0xFF16A34A",
+      "initials": "HB",
+      "focus": "Cleaning Services: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWLGZL69LhjjgGRKhcAE_w",
+      "name": "Google for Startups",
+      "handle": "@GoogleforStartups",
+      "description": "Startup growth, technology, product, marketing, and founder education.",
+      "accentColor": "0xFFD97706",
+      "initials": "GF",
+      "focus": "Cleaning Services: Startup growth, technology, product, marketing, and founder education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "HM",
+      "focus": "Cleaning Services: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
+      "accentColor": "0xFF0891B2",
+      "initials": "A",
+      "focus": "Cleaning Services: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCA2CiHJ0xCLC6Dt7w5_Hxvw",
+      "name": "Money & Macro",
+      "handle": "@MoneyMacro",
+      "description": "Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "MM",
+      "focus": "Cleaning Services: Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCA2CiHJ0xCLC6Dt7w5_Hxvw; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOErWFfNOQzXsgE7f5S_ULw",
+      "name": "Ben Felix",
+      "handle": "@BenFelixCSI",
+      "description": "Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "accentColor": "0xFF0F766E",
+      "initials": "BF",
+      "focus": "Cleaning Services: Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOErWFfNOQzXsgE7f5S_ULw; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFCEuCsyWP0YkP3CZ3Mr01Q",
+      "name": "The Plain Bagel",
+      "handle": "@ThePlainBagel",
+      "description": "Investing, economics, personal finance, risk, and financial decision-making.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TP",
+      "focus": "Cleaning Services: Investing, economics, personal finance, risk, and financial decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFCEuCsyWP0YkP3CZ3Mr01Q; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLvnJL8htRR1T9cbSccaoVw",
+      "name": "Aswath Damodaran",
+      "handle": "@AswathDamodaranonValuation",
+      "description": "Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "accentColor": "0xFFB45309",
+      "initials": "AD",
+      "focus": "Cleaning Services: Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLvnJL8htRR1T9cbSccaoVw; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCHwkW7lTTzf19xg5R4gfwVw",
+      "name": "CFA Institute",
+      "handle": "@CFAInstitute",
+      "description": "Investment analysis, ethics, portfolio management, and professional finance.",
+      "accentColor": "0xFF475569",
+      "initials": "CI",
+      "focus": "Cleaning Services: Investment analysis, ethics, portfolio management, and professional finance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHwkW7lTTzf19xg5R4gfwVw; selected for the Cleaning Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChjfv8-vAA1CZA84f-h5X_Q",
+      "name": "GaryVee",
+      "handle": "@GaryVee",
+      "description": "Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "accentColor": "0xFF2563EB",
+      "initials": "G",
+      "focus": "Cleaning Services: Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChjfv8-vAA1CZA84f-h5X_Q; selected for the Cleaning Services learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -175,6 +295,86 @@
       "url": "https://techcabal.com/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "African tech & business practical coverage."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -529,7 +729,7 @@
       "verificationMethod": "Project Gutenberg catalog record #65430; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on the three most prominent dedicated cleaning-business-growth channels (Grow My Cleaning Company, Cleaning Launch, AJ Simmons/Clean Biz Network), two B2B SaaS platforms that serve cleaning companies as primary customers (Workiz and ServiceTitan), and the same Nigerian/African business-news ecosystem channels verified across adjacent categories this project. Note on AJ Simmons channel ID: independently corroborated via 6+ video description URLs but the ID (UCHLYt_LJmvvmsyp-wKYX0) is 22 characters rather than the standard 24 — flag for a direct channel-page confirmation before shipping. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 30 selected Project Gutenberg public-domain non-fiction records to the General collection.",
+  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on the three most prominent dedicated cleaning-business-growth channels (Grow My Cleaning Company, Cleaning Launch, AJ Simmons/Clean Biz Network), two B2B SaaS platforms that serve cleaning companies as primary customers (Workiz and ServiceTitan), and the same Nigerian/African business-news ecosystem channels verified across adjacent categories this project. Note on AJ Simmons channel ID: independently corroborated via 6+ video description URLs but the ID (UCHLYt_LJmvvmsyp-wKYX0) is 22 characters rather than the standard 24 — flag for a direct channel-page confirmation before shipping. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 30 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",

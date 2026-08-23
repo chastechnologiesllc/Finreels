@@ -1,74 +1,7 @@
 {
-  "categoryId": "business_06_logistics_dispatch_rider",
+  "categoryId": "business_09_car_hire_ride_hailing_fleet",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
   "channels": [
-    {
-      "id": "UCdQfbaTlApD14Fuj8D4jLnw",
-      "name": "Kwik Delivery",
-      "handle": "@KwikDelivery",
-      "description": "On-demand last-mile delivery platform operating in Lagos and Abuja (Mastercard and Total Nigeria partnerships). Explicitly aims to help viewers build and grow an ecommerce/logistics business.",
-      "accentColor": "0xFF16A34A",
-      "initials": "KW",
-      "focus": "Building an ecommerce/logistics/dispatch business in Nigeria",
-      "verifiedOn": "2026-07-18",
-      "verificationMethod": "REUSED from the pre-existing verified business_06 file (verified 2026-07-18, prior session)."
-    },
-    {
-      "id": "UCxIwLYzQtVa5T65FgYMDDjA",
-      "name": "Fleetio",
-      "handle": "Fleetio",
-      "description": "Modern fleet management software -- product demos, maintenance workflows, and fleet-team culture content.",
-      "accentColor": "0xFFF59E0B",
-      "initials": "FL",
-      "focus": "Global fleet management software and operational tips",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Channel ID confirmed via direct YouTube URL, cross-checked against a Feedspot fleet-management-influencer directory. Also appears in business_09_car_hire_ridehailing_fleet.json (same real company, both categories are relevant)."
-    },
-    {
-      "id": "UC36dglNLPZNKuSp30JVP5yg",
-      "name": "FreightWaves",
-      "handle": "@FreightWaves",
-      "description": "The most trusted global provider of supply chain and freight market intelligence. Its flagship show WHAT THE TRUCK?!? regularly profiles owner-operators making the jump to fleet ownership -- directly matching the Uber Freight 'Weigh-In' business angle.",
-      "accentColor": "0xFF06B6D4",
-      "initials": "FW",
-      "focus": "Freight/trucking business models, from owner-operator to fleet owner",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "REPLACES 'Uber Freight' (Uber Freight's 'The Weigh-In' series is real but lives across Uber's broader channel network without its own standalone ID). FreightWaves channel ID UC36dglNLPZNKuSp30JVP5yg confirmed directly from the channel's own self-description."
-    },
-    {
-      "id": "UC9T6ECutY4EPwJnGlbw4BzA",
-      "name": "Techpoint Africa",
-      "handle": "@TechpointAfrica",
-      "description": "Africa's leading tech and startup media company -- covers Moove and Max.ng's vehicle-financing and mobility-entrepreneur business models in depth, including driver-default risk and expansion into new markets.",
-      "accentColor": "0xFF8B5CF6",
-      "initials": "TA",
-      "focus": "African mobility fintech and asset-financing business models",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "REPLACES 'Max.ng' (Max.ng's own YouTube channel was not independently isolated, but its business model is thoroughly covered by this confirmed real channel). Also appears in business_09_car_hire_ridehailing_fleet.json."
-    },
-    {
-      "id": "UCCwyU2RqlalzpKIrUhYWHfw",
-      "name": "The Rideshare Guy",
-      "handle": "@TheRideshareGuy",
-      "description": "Harry Campbell's channel -- the top independent voice on gig-economy driver earnings and business models, directly applicable to dispatch riders navigating the same fare-per-trip, fuel-cost, and vehicle-financing math.",
-      "accentColor": "0xFFEF4444",
-      "initials": "RG",
-      "focus": "Gig-economy driver earnings, costs, and business decisions",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "REPLACES 'Dispatch Rider Nigeria' (no channel exists under that literal, generic name). Channel ID confirmed directly from the channel's own About page. Also appears in business_09_car_hire_ridehailing_fleet.json."
-    },
-    {
-      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
-      "name": "Alex Hormozi",
-      "handle": "@AlexHormozi",
-      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
-      "accentColor": "0xFFEA580C",
-      "initials": "AH",
-      "focus": "Business scaling and offers",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Confirmed."
-    },
     {
       "id": "UCxIJaCMEptJjxmmQgGFsnCg",
       "name": "Y Combinator",
@@ -76,10 +9,10 @@
       "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
       "accentColor": "0xFF2563EB",
       "initials": "YC",
-      "focus": "Logistics/Dispatch Rider: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Startup formation, product development, fundraising, hiring, and founder learning.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCWo4IA01TXzBeGJJKWHOG9g",
@@ -88,10 +21,10 @@
       "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
       "accentColor": "0xFF16A34A",
       "initials": "HB",
-      "focus": "Logistics/Dispatch Rider: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Management, strategy, leadership, organizational behavior, and decision-making.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCkWLGZL69LhjjgGRKhcAE_w",
@@ -100,10 +33,10 @@
       "description": "Startup growth, technology, product, marketing, and founder education.",
       "accentColor": "0xFFD97706",
       "initials": "GF",
-      "focus": "Logistics/Dispatch Rider: Startup growth, technology, product, marketing, and founder education.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Startup growth, technology, product, marketing, and founder education.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCkWVA1_vkY9GLyuLAre97AQ",
@@ -112,10 +45,10 @@
       "description": "Marketing, CRM, sales, content, customer experience, and growth.",
       "accentColor": "0xFF7C3AED",
       "initials": "HM",
-      "focus": "Logistics/Dispatch Rider: Marketing, CRM, sales, content, customer experience, and growth.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Marketing, CRM, sales, content, customer experience, and growth.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
@@ -124,10 +57,10 @@
       "description": "SEO, content marketing, keyword research, and digital growth systems.",
       "accentColor": "0xFF0891B2",
       "initials": "A",
-      "focus": "Logistics/Dispatch Rider: SEO, content marketing, keyword research, and digital growth systems.",
+      "focus": "Car Hire/Ride-Hailing Fleet: SEO, content marketing, keyword research, and digital growth systems.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
@@ -136,10 +69,10 @@
       "description": "Digital marketing, SEO, content, customer acquisition, and online business.",
       "accentColor": "0xFFDB4437",
       "initials": "NP",
-      "focus": "Logistics/Dispatch Rider: Digital marketing, SEO, content, customer acquisition, and online business.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Digital marketing, SEO, content, customer acquisition, and online business.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl-Zrl0QhF66lu1aGXaTbfw; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl-Zrl0QhF66lu1aGXaTbfw; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCA2CiHJ0xCLC6Dt7w5_Hxvw",
@@ -148,10 +81,10 @@
       "description": "Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
       "accentColor": "0xFF0F766E",
       "initials": "MM",
-      "focus": "Logistics/Dispatch Rider: Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCA2CiHJ0xCLC6Dt7w5_Hxvw; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCA2CiHJ0xCLC6Dt7w5_Hxvw; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCOErWFfNOQzXsgE7f5S_ULw",
@@ -160,10 +93,10 @@
       "description": "Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
       "accentColor": "0xFF9333EA",
       "initials": "BF",
-      "focus": "Logistics/Dispatch Rider: Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOErWFfNOQzXsgE7f5S_ULw; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOErWFfNOQzXsgE7f5S_ULw; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCFCEuCsyWP0YkP3CZ3Mr01Q",
@@ -172,10 +105,10 @@
       "description": "Investing, economics, personal finance, risk, and financial decision-making.",
       "accentColor": "0xFFB45309",
       "initials": "TP",
-      "focus": "Logistics/Dispatch Rider: Investing, economics, personal finance, risk, and financial decision-making.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Investing, economics, personal finance, risk, and financial decision-making.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFCEuCsyWP0YkP3CZ3Mr01Q; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFCEuCsyWP0YkP3CZ3Mr01Q; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCLvnJL8htRR1T9cbSccaoVw",
@@ -184,10 +117,76 @@
       "description": "Valuation, corporate finance, investing, accounting, and financial modeling.",
       "accentColor": "0xFF475569",
       "initials": "AD",
-      "focus": "Logistics/Dispatch Rider: Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Valuation, corporate finance, investing, accounting, and financial modeling.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLvnJL8htRR1T9cbSccaoVw; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLvnJL8htRR1T9cbSccaoVw; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCCwyU2RqlalzpKIrUhYWHfw",
+      "name": "The Rideshare Guy",
+      "handle": "@TheRideshareGuy",
+      "description": "Harry Campbell's channel -- the single most authoritative independent voice on the business of ride-hailing. Has interviewed Uber CEO Dara Khosrowshahi and Lyft co-founder John Zimmer directly; 200,000+ drivers rely on his earnings, tax, and business-scaling advice.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "RG",
+      "focus": "Ride-hailing driver business, earnings, and fleet scaling",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Uber Fleet Partner' (no channel exists under that literal name). Channel ID UCCwyU2RqlalzpKIrUhYWHfw confirmed directly from the channel's own About page and independently corroborated by a third-party podcast page linking the identical URL."
+    },
+    {
+      "id": "UC9T6ECutY4EPwJnGlbw4BzA",
+      "name": "Techpoint Africa",
+      "handle": "@TechpointAfrica",
+      "description": "Africa's leading tech and startup media company (founded 2015) -- extensive coverage of Bolt, Uber, and inDrive's business models, driver-earnings disputes, and the economics of ride-hailing across Nigeria and East Africa.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TA",
+      "focus": "African ride-hailing business news and driver economics",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACES 'Bolt Africa' (Bolt's own corporate channel could not be cleanly isolated from search results). Channel ID UC9T6ECutY4EPwJnGlbw4BzA confirmed directly from the channel's own self-description, matching techpoint.africa's official About page verbatim."
+    },
+    {
+      "id": "UCq2g8ncbYfSmdoj1gcuJCDw",
+      "name": "inDrive",
+      "handle": "@indrive.official",
+      "description": "Global ride-hailing platform (48 countries) built on peer-to-peer fare bidding, with a significant and growing Nigerian operation across 15+ cities including Lagos and Abuja.",
+      "accentColor": "0xFFEC4899",
+      "initials": "ID",
+      "focus": "Ride-hailing fair-pricing model and driver earnings",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via Wikidata and independently via a Facebook post linking the identical channel URL."
+    },
+    {
+      "id": "UCxIwLYzQtVa5T65FgYMDDjA",
+      "name": "Fleetio",
+      "handle": "Fleetio",
+      "description": "Modern fleet management software -- product demos, maintenance workflows, and fleet-team culture content for fleets of all sizes.",
+      "accentColor": "0xFFF59E0B",
+      "initials": "FL",
+      "focus": "Fleet maintenance, tracking, and cost management",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via direct YouTube URL, cross-checked against a Feedspot fleet-management-influencer directory citing the same ID."
+    },
+    {
+      "id": "UCuKGmfWD41mmefYYI62pfsQ",
+      "name": "Geotab",
+      "handle": "Geotab",
+      "description": "Global leader in GPS fleet management and telematics, trusted by 100,000+ customers. Covers driver safety, fleet optimization, and compliance.",
+      "accentColor": "0xFFEF4444",
+      "initials": "GT",
+      "focus": "Telematics, fleet data, and operational efficiency",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via direct YouTube URL, cross-checked against Geotab's own blog referencing 'our Geotab YouTube Channel.'"
+    },
+    {
+      "id": "UCkClcX9NX2sk_YR3L9DLJSg",
+      "name": "Ayvens (formerly LeasePlan)",
+      "handle": "Ayvens",
+      "description": "Global sustainable mobility and fleet leasing company -- 3.4 million vehicles across 42 countries. LeasePlan merged with ALD Automotive in Jan 2022 and now operates globally under the Ayvens brand.",
+      "accentColor": "0xFF84CC16",
+      "initials": "LP",
+      "focus": "Corporate fleet leasing and management strategies",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID confirmed via direct YouTube URL for the Ayvens global channel. LeasePlan no longer exists as an independent global brand -- this is its accurate current identity."
     },
     {
       "id": "UCHwkW7lTTzf19xg5R4gfwVw",
@@ -196,10 +195,10 @@
       "description": "Investment analysis, ethics, portfolio management, and professional finance.",
       "accentColor": "0xFF2563EB",
       "initials": "CI",
-      "focus": "Logistics/Dispatch Rider: Investment analysis, ethics, portfolio management, and professional finance.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Investment analysis, ethics, portfolio management, and professional finance.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHwkW7lTTzf19xg5R4gfwVw; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHwkW7lTTzf19xg5R4gfwVw; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UChjfv8-vAA1CZA84f-h5X_Q",
@@ -208,10 +207,10 @@
       "description": "Entrepreneurship, marketing, communication, leadership, and creator business.",
       "accentColor": "0xFF16A34A",
       "initials": "G",
-      "focus": "Logistics/Dispatch Rider: Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Entrepreneurship, marketing, communication, leadership, and creator business.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChjfv8-vAA1CZA84f-h5X_Q; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChjfv8-vAA1CZA84f-h5X_Q; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCKegeYEy0lJxpkjWRthaRMw",
@@ -220,10 +219,10 @@
       "description": "YouTube strategy, video systems, content marketing, and audience growth.",
       "accentColor": "0xFFD97706",
       "initials": "TM",
-      "focus": "Logistics/Dispatch Rider: YouTube strategy, video systems, content marketing, and audience growth.",
+      "focus": "Car Hire/Ride-Hailing Fleet: YouTube strategy, video systems, content marketing, and audience growth.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKegeYEy0lJxpkjWRthaRMw; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKegeYEy0lJxpkjWRthaRMw; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     },
     {
       "id": "UCSApI9wlWUEJMToyFvyIRKQ",
@@ -232,73 +231,13 @@
       "description": "Online business, digital products, ethical marketing, and creator entrepreneurship.",
       "accentColor": "0xFF7C3AED",
       "initials": "PF",
-      "focus": "Logistics/Dispatch Rider: Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "focus": "Car Hire/Ride-Hailing Fleet: Online business, digital products, ethical marketing, and creator entrepreneurship.",
       "region": "Global",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCSApI9wlWUEJMToyFvyIRKQ; selected for the Logistics/Dispatch Rider learning pathway beyond business-only content."
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCSApI9wlWUEJMToyFvyIRKQ; selected for the Car Hire/Ride-Hailing Fleet learning pathway beyond business-only content."
     }
   ],
   "blogs": [
-    {
-      "name": "TechCabal",
-      "url": "https://techcabal.com/2025/04/21/lori-120-million-valuation-dips-to-5-million/",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Specific article confirmed live: TechCabal's coverage of Lori Systems' valuation and the challenges of asset-light logistics business models in Africa."
-    },
-    {
-      "name": "GIGL Blog",
-      "url": "https://giglogistics.com/",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Confirmed real and active during channel verification."
-    },
-    {
-      "name": "Kwik Blog",
-      "url": "https://kwik.delivery/blog/",
-      "verifiedOn": "2026-07-18",
-      "verificationMethod": "REUSED from the pre-existing verified business_06 file's notes."
-    },
-    {
-      "name": "Entrepreneurs.ng",
-      "url": "https://entrepreneurs.ng/",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Domain confirmed real, including a working RSS feed (entrepreneurs.ng/feed/) verified in prior sessions."
-    },
-    {
-      "name": "FreightWaves",
-      "url": "https://www.freightwaves.com/playbook",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Confirmed live during channel verification -- The Playbook section provides small-fleet and owner-operator business resources directly."
-    },
-    {
-      "name": "TechCrunch Africa",
-      "url": "https://techcrunch.com/2018/09/06/lori-systems-is-launching-a-service-with-the-kenyan-government-for-last-mile-haulage-from-railroads/",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "SUBSTITUTED for 'Shopify Logistics' (too generic for this category). Specific article confirmed live: TechCrunch's coverage of Lori Systems' growth from 20 to 70 employees and its trucking marketplace business model."
-    },
-    {
-      "name": "Splice Blog",
-      "url": "https://blog.withsplice.com/feed/",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "REUSED from business_08_salon_barbing_beauty_spa.json, already verified in a prior session."
-    },
-    {
-      "name": "StartupTipsDaily",
-      "url": "https://startuptipsdaily.com/",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Domain confirmed real (reused across multiple prior files)."
-    },
-    {
-      "name": "SME Digest",
-      "url": "https://smedigest.com.ng/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Nigerian SME practical content."
-    },
-    {
-      "name": "How We Made It in Africa",
-      "url": "https://howwemadeitinafrica.com/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "African business case studies."
-    },
     {
       "name": "Yale Insights",
       "url": "https://insights.som.yale.edu/",
@@ -378,6 +317,66 @@
       "focus": "Technology, science, innovation, and social implications.",
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real and active -- directly fetched during channel research, confirmed as Africa's leading tech/business news outlet since 2015."
+    },
+    {
+      "name": "Fleetio Blog",
+      "url": "https://www.fleetio.com/resources",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real -- Fleetio's resources/video hub was seen directly during channel verification."
+    },
+    {
+      "name": "Geotab Blog",
+      "url": "https://www.geotab.com/blog/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real -- seen directly during channel verification (a live post on this exact blog was cited)."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/2026/04/27/gigm-unifies-all-your-transport-needs-in-one-super-app/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Specific article confirmed live: TechCabal's coverage of GIGM's mobility super-app unifying car hire, intercity transport, and tourism -- directly relevant to this category."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real, including a working RSS feed (entrepreneurs.ng/feed/) verified in prior sessions."
+    },
+    {
+      "name": "Vanguard Nigeria",
+      "url": "https://www.vanguardngr.com/2026/04/gigm-targets-global-travel-market-with-unified-mobility-platform/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SUBSTITUTED for 'Shopify Auto' (a generic Shopify blog link added little category-specific value). Specific article confirmed live: Vanguard's coverage of GIGM's vehicle-hire marketplace expansion, with direct CEO quotes on the car-hire business model."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://blog.withsplice.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REUSED from business_08_salon_barbing_beauty_spa.json, already verified in a prior session as a live, working RSS feed."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real (used previously for the electrical/electronics business-ideas article, same publisher covers transport business ideas)."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African business case studies."
     }
   ],
   "books": [
@@ -462,10 +461,6 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
     }
   ],
-  "notes": "Fully rebuilt 2026-07-24: every channel is now a real, named, independently confirmed entity -- no UNCONFIRMED placeholders remain. Sendy Africa was replaced because it ceased operations in 2023; Uber Freight, Max.ng, Dispatch Rider Nigeria, and Logistics Business Magazine's literal channel names did not resolve to a findable YouTube channel and were replaced with FreightWaves, Techpoint Africa, The Rideshare Guy, and TechCabal respectively -- all independently confirmed live. Lori Systems is real and extremely well-documented (funding, operations, scale all confirmed across 5 independent sources) but no dedicated YouTube channel was found for it -- flagged honestly in its own entry rather than silently swapped, since the underlying business is highly relevant to this category. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
-  "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
-    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
-  ]
+  "lastUpdated": "2026-08-23",
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
 }

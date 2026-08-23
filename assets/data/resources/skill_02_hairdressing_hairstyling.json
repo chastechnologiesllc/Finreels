@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_02_hairdressing_hairstyling",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC5_ZJ2QMb-19TLKDl6JuVbg",
@@ -112,6 +112,246 @@
       "focus": "Salon/spa business systems, pricing, team management",
       "verifiedOn": "2026-07-20",
       "verificationMethod": "Same channel already independently verified for business_08_salon_barbing_beauty_spa (direct channel-page fetch, ID UCoU7oC0WD6vDkEC6X7kfg3g); reused here since it's directly on-topic for hairdressing/salon business."
+    },
+    {
+      "id": "UCeasbjVyx227l2ETO-xAssw",
+      "name": "Free Salon Education",
+      "handle": "@FreeSalonEducation",
+      "description": "Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "FS",
+      "focus": "Hairdressing & Hairstyling: Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCeasbjVyx227l2ETO-xAssw; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChWcYTNVbFfBDbjWnhdHrBw",
+      "name": "Brad Mondo",
+      "handle": "@BradMondo",
+      "description": "Hair color, haircut analysis, salon technique, and hair-care education.",
+      "accentColor": "0xFF16A34A",
+      "initials": "BM",
+      "focus": "Hairdressing & Hairstyling: Hair color, haircut analysis, salon technique, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChWcYTNVbFfBDbjWnhdHrBw; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCEcT5Ttsnl3kBMqyHmojobQ",
+      "name": "Makeup by Mario",
+      "handle": "@MakeupbyMARIO",
+      "description": "Professional makeup artistry, complexion, technique, and product application.",
+      "accentColor": "0xFFD97706",
+      "initials": "MB",
+      "focus": "Hairdressing & Hairstyling: Professional makeup artistry, complexion, technique, and product application.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCEcT5Ttsnl3kBMqyHmojobQ; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFghPtzFcmyDiID1ASMA4Dg",
+      "name": "Lisa Eldridge",
+      "handle": "@LisaEldridge",
+      "description": "Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "LE",
+      "focus": "Hairdressing & Hairstyling: Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFghPtzFcmyDiID1ASMA4Dg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCS7mVvlpXr7Rd7opwQbvgjQ",
+      "name": "Jackie Aina",
+      "handle": "@JackieAina",
+      "description": "Makeup technique, product education, representation, and beauty industry knowledge.",
+      "accentColor": "0xFF0891B2",
+      "initials": "JA",
+      "focus": "Hairdressing & Hairstyling: Makeup technique, product education, representation, and beauty industry knowledge.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCS7mVvlpXr7Rd7opwQbvgjQ; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWOzDU-st_OsZHNrOEPjR4Q",
+      "name": "The Makeup Chair",
+      "handle": "@TheMakeupChair",
+      "description": "Makeup fundamentals, application, face structure, and technique.",
+      "accentColor": "0xFFDB4437",
+      "initials": "TM",
+      "focus": "Hairdressing & Hairstyling: Makeup fundamentals, application, face structure, and technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWOzDU-st_OsZHNrOEPjR4Q; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCzTKskwIc_-a0cGvCXA848Q",
+      "name": "NikkieTutorials",
+      "handle": "@NikkieTutorials",
+      "description": "Makeup artistry, product technique, creative looks, and beauty communication.",
+      "accentColor": "0xFF0F766E",
+      "initials": "N",
+      "focus": "Hairdressing & Hairstyling: Makeup artistry, product technique, creative looks, and beauty communication.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCzTKskwIc_-a0cGvCXA848Q; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_L8_r3xbfLZnQWX8vKaStg",
+      "name": "Hairlicious Inc",
+      "handle": "@HairliciousInc",
+      "description": "Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "accentColor": "0xFF9333EA",
+      "initials": "HI",
+      "focus": "Hairdressing & Hairstyling: Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_L8_r3xbfLZnQWX8vKaStg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkGyDv3DZjIa4wYsb1aUPaA",
+      "name": "Manes by Mell",
+      "handle": "@ManesByMell",
+      "description": "Curly hair science, technique, routines, and hair-care education.",
+      "accentColor": "0xFFB45309",
+      "initials": "MB",
+      "focus": "Hairdressing & Hairstyling: Curly hair science, technique, routines, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkGyDv3DZjIa4wYsb1aUPaA; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF475569",
+      "initials": "OF",
+      "focus": "Hairdressing & Hairstyling: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "Y",
+      "focus": "Hairdressing & Hairstyling: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SO",
+      "focus": "Hairdressing & Hairstyling: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFFD97706",
+      "initials": "KA",
+      "focus": "Hairdressing & Hairstyling: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "C",
+      "focus": "Hairdressing & Hairstyling: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFF0891B2",
+      "initials": "V",
+      "focus": "Hairdressing & Hairstyling: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFFDB4437",
+      "initials": "S",
+      "focus": "Hairdressing & Hairstyling: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
+      "name": "The School of Life",
+      "handle": "@TheSchoolOfLife",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF0F766E",
+      "initials": "TS",
+      "focus": "Hairdressing & Hairstyling: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8c9l98f2Zq4l9YnbmutPTw; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFF9333EA",
+      "initials": "S",
+      "focus": "Hairdressing & Hairstyling: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFFB45309",
+      "initials": "N",
+      "focus": "Hairdressing & Hairstyling: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF475569",
+      "initials": "3",
+      "focus": "Hairdressing & Hairstyling: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +414,94 @@
       "url": "https://entrepreneurs.ng/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -278,7 +606,7 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
     }
   ],
-  "notes": "2026-07-20: Merged in 27 rows from the founder-provided 'hairdressing_business_resources.csv' (Section I.2). Five new channels, ten new blogs, and ten new books/guides added on top of the existing Louis Ihuefo entry. Items deliberately left out or flagged rather than integrated as-is: (1) 'Sergey Zverev' — multiple same-named YouTube channels exist (a personal channel, a 'Topic' auto-channel, and others) and the specific '@sergeyzverev' handle from the CSV could not be matched to one with confidence; needs a direct fetch of the actual handle before adding. (2) 'Naija Hair Salon TV' — no channel by this name could be confirmed in this pass; may be inactive, renamed, or a data-entry error in the source CSV. (3) 'Salon Business Boss' channel — only one old testimonial video was found, not a dedicated content channel; the ID in the CSV's RSS template ('channel_id=UC...') was a placeholder, not a real ID, so the channel entry was left out (its blog was still added, since salonbusinessboss.com is confirmed real and active). (4) 'SwiftPesa (Kenya)' and the standalone 'Pesabook (Kenya)' Platform-type rows (fintech tools with no RSS feed, not channels/blogs/books) don't fit this file's three-bucket schema — Pesabook's own blog was added instead; SwiftPesa was omitted entirely. Every 'UC...' string in the source CSV's RSS_Feed column was a literal template placeholder, not a real ID — every real channel ID above was independently looked up via YouTube channel-page fetches or search, not copied from the CSV. Follow-up (same day): brought channels up to 10 (parity with the 10 blogs / 10 books) by adding 4 more independently verified, on-topic channels — The Salon Business and The Beauty Biz Agency (both already verified for business_08, reused here as directly relevant), plus newly verified TheSalonGuy and SalonBiz. 'Sergey Zverev', 'Naija Hair Salon TV', and a standalone 'Salon Business Boss' channel remain excluded — still no confident channel match found for any of the three after a second pass.\n\nBooks audit (2026-07-30): All 10 book URLs audited via web search. 9 of 10 had broken or risky URLs. Fixes: (1) /resources → /blog (confirmed active). (2) sba.gov/business-guide/salon → /business-guide (no /salon subpage exists). (3) marquettabreslin.com/free-resources not found → root domain. (4) /podcast → /free-resources/ (confirmed active with free PDFs). (5) HubSpot hair-salon-marketing URL not found in HubSpot index → replaced with Shopify salon marketing guide (confirmed active, 2025). (6) f5fp.com broken (wrong page) → archive.org E-Myth PDF. (7) mikemichalowicz.com/profit-first-book blank → archive.org borrow. (8) storybrand.com/free-resources not found → root domain storybrand.com. (9) 1pagemarketingplan.com/resources → successwise.com (Dib's current site). (10) openstax.org/books/small-business-management is 404 → /principles-management (confirmed active Apr 2026).",
+  "notes": "2026-07-20: Merged in 27 rows from the founder-provided 'hairdressing_business_resources.csv' (Section I.2). Five new channels, ten new blogs, and ten new books/guides added on top of the existing Louis Ihuefo entry. Items deliberately left out or flagged rather than integrated as-is: (1) 'Sergey Zverev' — multiple same-named YouTube channels exist (a personal channel, a 'Topic' auto-channel, and others) and the specific '@sergeyzverev' handle from the CSV could not be matched to one with confidence; needs a direct fetch of the actual handle before adding. (2) 'Naija Hair Salon TV' — no channel by this name could be confirmed in this pass; may be inactive, renamed, or a data-entry error in the source CSV. (3) 'Salon Business Boss' channel — only one old testimonial video was found, not a dedicated content channel; the ID in the CSV's RSS template ('channel_id=UC...') was a placeholder, not a real ID, so the channel entry was left out (its blog was still added, since salonbusinessboss.com is confirmed real and active). (4) 'SwiftPesa (Kenya)' and the standalone 'Pesabook (Kenya)' Platform-type rows (fintech tools with no RSS feed, not channels/blogs/books) don't fit this file's three-bucket schema — Pesabook's own blog was added instead; SwiftPesa was omitted entirely. Every 'UC...' string in the source CSV's RSS_Feed column was a literal template placeholder, not a real ID — every real channel ID above was independently looked up via YouTube channel-page fetches or search, not copied from the CSV. Follow-up (same day): brought channels up to 10 (parity with the 10 blogs / 10 books) by adding 4 more independently verified, on-topic channels — The Salon Business and The Beauty Biz Agency (both already verified for business_08, reused here as directly relevant), plus newly verified TheSalonGuy and SalonBiz. 'Sergey Zverev', 'Naija Hair Salon TV', and a standalone 'Salon Business Boss' channel remain excluded — still no confident channel match found for any of the three after a second pass.\n\nBooks audit (2026-07-30): All 10 book URLs audited via web search. 9 of 10 had broken or risky URLs. Fixes: (1) /resources → /blog (confirmed active). (2) sba.gov/business-guide/salon → /business-guide (no /salon subpage exists). (3) marquettabreslin.com/free-resources not found → root domain. (4) /podcast → /free-resources/ (confirmed active with free PDFs). (5) HubSpot hair-salon-marketing URL not found in HubSpot index → replaced with Shopify salon marketing guide (confirmed active, 2025). (6) f5fp.com broken (wrong page) → archive.org E-Myth PDF. (7) mikemichalowicz.com/profit-first-book blank → archive.org borrow. (8) storybrand.com/free-resources not found → root domain storybrand.com. (9) 1pagemarketingplan.com/resources → successwise.com (Dib's current site). (10) openstax.org/books/small-business-management is 404 → /principles-management (confirmed active Apr 2026). 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
   ]

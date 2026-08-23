@@ -4,6 +4,90 @@
   "lastUpdated": "2026-08-23",
   "channels": [
     {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "OF",
+      "focus": "General Learning: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the General Learning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "Y",
+      "focus": "General Learning: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the General Learning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFD97706",
+      "initials": "SO",
+      "focus": "General Learning: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the General Learning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "General Learning: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the General Learning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "General Learning: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the General Learning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFB45309",
+      "initials": "S",
+      "focus": "General Learning: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the General Learning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
+      "name": "The School of Life",
+      "handle": "@TheSchoolOfLife",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "General Learning: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8c9l98f2Zq4l9YnbmutPTw; selected for the General Learning learning pathway beyond business-only content."
+    },
+    {
       "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
       "name": "Dayo Adetiloye Business Hub",
       "handle": "@DayoAdetiloye",
@@ -35,416 +119,49 @@
       "focus": "Mindset",
       "verifiedOn": "2026-07-25",
       "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@Insightpreneur)."
-    },
-    {
-      "id": "UCNoJsMk3CtkBwWAD71meCxQ",
-      "name": "Naijapreneur",
-      "handle": "@Naija.preneur",
-      "description": "Nigerian business media platform — podcasts and content on entrepreneurship, SME development and financial growth for Made-in-Nigeria entrepreneurs.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "NJP",
-      "focus": "Mindset",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by fetching youtube.com/@naija.preneur. CSV handle @Naijapreneur (404) corrected to @Naija.preneur."
-    },
-    {
-      "id": "UCtSUi-VTktXgU0Hjyo3-2SA",
-      "name": "SMEDAN Nigeria",
-      "handle": "@SMEDANNigeria",
-      "description": "Official channel of Nigeria's Small and Medium Enterprises Development Agency — business training, grant opportunities, CAC guidance and government MSME support programmes.",
-      "accentColor": "0xFF64748B",
-      "initials": "SN",
-      "focus": "Government",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID UCtSUi-VTktXgU0Hjyo3-2SA confirmed from YouTube search result titled 'SMEDAN'. Channel uses old /channel/ URL format without a confirmed @handle. CSV handle @SMEDANNigeria returns 404 — verify actual @handle by visiting the channel page."
-    },
-    {
-      "id": "UC9T6ECutY4EPwJnGlbw4BzA",
-      "name": "Techpoint Africa",
-      "handle": "@TechpointAfrica",
-      "description": "Africa's leading tech and startup ecosystem coverage — startup news, founder interviews, funding announcements and technology trends shaping business across the continent.",
-      "accentColor": "0xFF0891B2",
-      "initials": "TA",
-      "focus": "Tech",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@TechpointAfrica)."
-    },
-    {
-      "id": "UCbhADZ0qpHjXpbApNEjzvgw",
-      "name": "Africa's Young Entrepreneurs",
-      "handle": "@africasy0ungentrepreneurs",
-      "description": "Pan-African entrepreneurship organisation — founder stories, practical business education and a network connecting Africa's next generation of entrepreneurs.",
-      "accentColor": "0xFFD97706",
-      "initials": "AY",
-      "focus": "Entrepreneurship",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by fetching youtube.com/channel/UCbhADZ0qpHjXpbApNEjzvgw. CSV handle @AfricasYoungEntrepreneurs (404) corrected to @africasy0ungentrepreneurs (note: zero '0' not letter 'O' in 'y0ung')."
-    },
-    {
-      "id": "UCctXZhXmG-kf3tlIXgVZUlw",
-      "name": "Gary Vaynerchuk",
-      "handle": "@garyvee",
-      "description": "Serial entrepreneur and CEO of VaynerMedia — business strategy, social media marketing, brand building and the mindset behind building multi-million-dollar companies.",
-      "accentColor": "0xFF2563EB",
-      "initials": "GV",
-      "focus": "Marketing",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@garyvee)."
-    },
-    {
-      "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
-      "name": "Neil Patel",
-      "handle": "@NeilPatel",
-      "description": "World's leading digital marketer — SEO, content marketing, business growth strategy and how to drive traffic and sales for any business, from startup to scale.",
-      "accentColor": "0xFF2563EB",
-      "initials": "NP",
-      "focus": "Marketing",
-      "verifiedOn": "2026-07-18",
-      "verificationMethod": "ID previously confirmed in FinReels channel_data.dart. NOTE: Neil Patel also exists in ChannelData.all — may produce duplicate feed entries. Deduplicate at app layer."
-    },
-    {
-      "id": "UCaAx1xeTgF3rs4rBPDq6-Kw",
-      "name": "HubSpot",
-      "handle": "@HubSpot",
-      "description": "HubSpot's main channel — inbound marketing, sales enablement, CRM strategy and customer service education for businesses at every stage of growth.",
-      "accentColor": "0xFFFF7A59",
-      "initials": "HS",
-      "focus": "Marketing",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@HubSpot). NOTE: FinReels channel_data.dart includes @HubSpotMarketing — @HubSpot is the main channel. Confirm both are needed before shipping."
-    },
-    {
-      "id": "UCdlNK1xcy-Sn8liq7feNxWw",
-      "name": "Grant Cardone",
-      "handle": "@GrantCardone",
-      "description": "Sales trainer and real estate investor — 10X mindset, sales mastery, business scaling and the relentless work ethic required to build multiple income streams.",
-      "accentColor": "0xFFEA580C",
-      "initials": "GC",
-      "focus": "Sales",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@GrantCardone)."
-    },
-    {
-      "id": "UCIHdDJ0tjn_3j-FS7s_X1kQ",
-      "name": "Valuetainment",
-      "handle": "@Valuetainment",
-      "description": "Patrick Bet-David's business channel — entrepreneurship case studies, strategy breakdowns, founder interviews and the mindset and tactics behind building empires.",
-      "accentColor": "0xFF4F46E5",
-      "initials": "VT",
-      "focus": "Strategy",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@Valuetainment)."
-    },
-    {
-      "id": "UCn-hX1cX2CrQdyDh-qik1ZA",
-      "name": "How I Built This",
-      "handle": "@HowIBuiltThis",
-      "description": "Guy Raz's NPR podcast series — founder interviews on how the world's best-known brands were built from scratch, covering the struggles and turning points behind iconic businesses.",
-      "accentColor": "0xFFCA8A04",
-      "initials": "GR",
-      "focus": "Stories",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@HowIBuiltThis)."
-    },
-    {
-      "id": "UCIv38OrggTu3vNkCAo96-CQ",
-      "name": "Shopify",
-      "handle": "@Shopify",
-      "description": "Shopify's official channel — e-commerce business education, how to start and scale an online store, entrepreneur success stories and practical product business guides.",
-      "accentColor": "0xFF0284C7",
-      "initials": "SH",
-      "focus": "E-commerce",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@Shopify)."
-    },
-    {
-      "id": "UC7ZddA__ewP3AtDefjl_tWg",
-      "name": "Ramit Sethi",
-      "handle": "@RamitSethi",
-      "description": "Personal finance and business psychology — pricing strategy, money systems, online business building and the psychological barriers that keep people from earning what they deserve.",
-      "accentColor": "0xFF059669",
-      "initials": "RS",
-      "focus": "Finance",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@RamitSethi)."
-    },
-    {
-      "id": "UC-b3c7kxa5vU-bnmaROgvog",
-      "name": "The Futur",
-      "handle": "@thefutur",
-      "description": "Chris Do's platform for creative entrepreneurs — pricing services, positioning a creative business, sales conversations for creatives and turning skill into a profitable practice.",
-      "accentColor": "0xFF9333EA",
-      "initials": "TFH",
-      "focus": "Pricing",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by fetching youtube.com/@thefutur. CSV handle @TheFuturHQ (404) corrected to @thefutur."
-    },
-    {
-      "id": "UCXc_P8cKMbUvHFyDwAtz--Q",
-      "name": "Michael Kitces",
-      "handle": "@MichaelKitces",
-      "description": "Financial advisor practice management — pricing, client acquisition, business systems and how to build a sustainable, profitable professional practice.",
-      "accentColor": "0xFF0F766E",
-      "initials": "MK",
-      "focus": "Practice Mgmt",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@MichaelKitces)."
-    },
-    {
-      "id": "UC7xCozKOVFdCZRV7gclrM6A",
-      "name": "Business of Architecture",
-      "handle": "@BusinessofArchitecture",
-      "description": "Enoch Sears' practice management education applicable across all professions — pricing services, getting clients, contracts and running a professional practice as a real business.",
-      "accentColor": "0xFF0F766E",
-      "initials": "BA",
-      "focus": "Practice",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@BusinessofArchitecture)."
-    },
-    {
-      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
-      "name": "Mike Michalowicz",
-      "handle": "@MikeMichalowiczOfficial",
-      "description": "Author of Profit First, The Pumpkin Plan and Fix This Next — cash flow systems, making a business permanently profitable and operational clarity for small business owners.",
-      "accentColor": "0xFF059669",
-      "initials": "MM",
-      "focus": "Finance",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by fetching youtube.com/c/MikeMichalowiczOfficial. CSV handle @MikeMichalowicz (404) corrected to @MikeMichalowiczOfficial."
-    },
-    {
-      "id": "UCghGOFhJxMQl28jYD6NNKrw",
-      "name": "Entrepreneurs.ng",
-      "handle": "@EntrepreneursNg",
-      "description": "Nigeria's entrepreneurship hub — practical guides for starting and growing businesses in Nigeria, covering registration, funding, marketing and real stories from Nigerian entrepreneurs.",
-      "accentColor": "0xFFD97706",
-      "initials": "EN",
-      "focus": "Entrepreneurship",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@EntrepreneursNG). YouTube stores as @EntrepreneursNg."
-    },
-    {
-      "id": "UCKeFGEk3I60qN2XqFMKvp7A",
-      "name": "Bumpa",
-      "handle": "@getbumpa",
-      "description": "Nigeria's retail and social-commerce management app — helps Nigerian businesses manage orders, track sales and build their brand across Instagram, WhatsApp and physical stores.",
-      "accentColor": "0xFF15803D",
-      "initials": "BN",
-      "focus": "Tools",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by fetching youtube.com/channel/UCKeFGEk3I60qN2XqFMKvp7A. CSV handle @BumpaApp (404) corrected to @getbumpa."
-    },
-    {
-      "id": "UCB5asCefuEYQKVVyyAn-l5g",
-      "name": "Wale Marketer",
-      "handle": "@WaleMarketer",
-      "description": "Nigerian digital marketing freelancer based in Lagos — pricing guides, social media marketing and branding content for Nigerian small business owners across multiple trades.",
-      "accentColor": "0xFF9333EA",
-      "initials": "WM",
-      "focus": "Pricing",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@WaleMarketer)."
-    },
-    {
-      "id": "UCgwFAX01m1tT0XyqU19WGtw",
-      "name": "ServiceTitan",
-      "handle": "@ServiceTitan",
-      "description": "Trade business management platform — education on running a professional trades business covering pricing, scheduling, customer experience and scaling a service company.",
-      "accentColor": "0xFF1D4ED8",
-      "initials": "ST",
-      "focus": "Trades",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@ServiceTitan)."
-    },
-    {
-      "id": "UCJuKXh3mKH4lQR7WZo446QQ",
-      "name": "Markup & Profit",
-      "handle": "@MarkupAndProfit",
-      "description": "Michael C. Stone's contractor pricing and business management resources — how to calculate real markup, charge profitable prices and run a contracting business that makes money.",
-      "accentColor": "0xFF9333EA",
-      "initials": "MP",
-      "focus": "Pricing",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@MarkupandProfit). YouTube stores as @MarkupAndProfit."
-    },
-    {
-      "id": "UCFDbjGkGmL6rdvccHyfK-Wg",
-      "name": "ITF Nigeria",
-      "handle": "@ITFNigeria",
-      "description": "Nigeria's Industrial Training Fund — vocational training, apprenticeship programmes, trade skills development and government support for skills acquisition across the country.",
-      "accentColor": "0xFF64748B",
-      "initials": "IT",
-      "focus": "Government",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@ITFNigeria)."
-    },
-    {
-      "id": "UCTMwZmHH1VNLA2viHKwbvoA",
-      "name": "Nic Haralambous",
-      "handle": "@nharalambous",
-      "description": "South African serial entrepreneur and product builder — business mindset, practical systems for doing meaningful work, lessons from multiple business exits and 20+ years building companies.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "NH",
-      "focus": "Mindset",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by fetching youtube.com/c/nicharrybiz. CSV handle @NicHaralambous (404) corrected to @nharalambous."
-    },
-    {
-      "id": "UCg6RiS5WcNHz1bXDlerho_Q",
-      "name": "Built in Africa",
-      "handle": "@BuiltInAfrica",
-      "description": "African startup profiles and founder interviews — real stories from the businesses and people behind Africa's most innovative companies and the ecosystem they are building.",
-      "accentColor": "0xFF2DD4BF",
-      "initials": "BI",
-      "focus": "Startup",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "ID confirmed by direct YouTube page fetch (youtube.com/@BuiltInAfrica)."
-    },
-    {
-      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
-      "name": "Alex Hormozi",
-      "handle": "@AlexHormozi",
-      "description": "Acquisition.com founder — offer creation, pricing, sales systems and practical frameworks for scaling profitable businesses from zero to multi-million revenue.",
-      "accentColor": "0xFFEA580C",
-      "initials": "AH",
-      "focus": "Scaling",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "ID UCUyDOdBWhC1MCxEjC46d-zw confirmed (vidIQ/SocialBlade). Handle @AlexHormozi."
-    },
-    {
-      "id": "UCcefcZRL2oaA_uBNeo5UOWg",
-      "name": "Y Combinator",
-      "handle": "@ycombinator",
-      "description": "World's leading startup accelerator — practical advice on product-market fit, fundraising, hiring and building companies that scale.",
-      "accentColor": "0xFFEF4444",
-      "initials": "YC",
-      "focus": "Startup",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "ID UCcefcZRL2oaA_uBNeo5UOWg confirmed. Handle @ycombinator."
-    },
-    {
-      "id": "UC5fI3kxC-ewZ6ZXEYgznM7g",
-      "name": "Codie Sanchez",
-      "handle": "@CodieSanchezCT",
-      "description": "Main Street Millionaire author — buying, operating and scaling profitable 'boring' small businesses, cash-flow systems and ownership mindset.",
-      "accentColor": "0xFF059669",
-      "initials": "CS",
-      "focus": "Ownership",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "ID UC5fI3kxC-ewZ6ZXEYgznM7g confirmed. Handle @CodieSanchezCT."
-    },
-    {
-      "id": "UCbR8hQfFxBI4Idh4Zw65yZQ",
-      "name": "David C Barnett",
-      "handle": "@DavidCBarnett",
-      "description": "Small-business transactions expert — buying, selling, valuing and financing SMEs with practical deal-making lessons for owners and buyers.",
-      "accentColor": "0xFF0F766E",
-      "initials": "DB",
-      "focus": "Deals",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "ID UCbR8hQfFxBI4Idh4Zw65yZQ confirmed. Practical SMB deal focus."
-    },
-    {
-      "id": "UCgUA26OLmUNq8_c8wJqLZaA",
-      "name": "msmeHub by FATE Foundation",
-      "handle": "@msmeHub",
-      "description": "Nigeria's leading MSME platform by FATE Foundation — free courses, practical guides and tools for starting, growing and scaling small businesses in Nigeria.",
-      "accentColor": "0xFFD97706",
-      "initials": "MH",
-      "focus": "MSME",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "ID UCgUA26OLmUNq8_c8wJqLZaA confirmed. Nigerian SME focus."
-    },
-    {
-      "id": "UCdiaI5KmOxUyP722siGjOww",
-      "name": "Diary of an African Entrepreneur",
-      "handle": "@DiaryOfAnAfricanEntrepreneur",
-      "description": "Practical strategies for African SMEs — scaling, funding, leadership and real operational lessons from founders building across the continent.",
-      "accentColor": "0xFF2DD4BF",
-      "initials": "DAE",
-      "focus": "Africa SME",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "ID UCdiaI5KmOxUyP722siGjOww confirmed."
-    },
-    {
-      "id": "UCvx9vpt8-1vRK7KKxu7QBxA",
-      "name": "GrowthPlug",
-      "handle": "@GrowthPlug",
-      "description": "Practical tools and real-world experience for Nigerian and African entrepreneurs starting, growing and scaling businesses.",
-      "accentColor": "0xFF4F46E5",
-      "initials": "GP",
-      "focus": "Africa Growth",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "ID UCvx9vpt8-1vRK7KKxu7QBxA confirmed."
-    },
-    {
-      "id": "",
-      "name": "Amy Porterfield",
-      "handle": "@AmyPorterfield",
-      "description": "Online business educator — course creation, digital marketing funnels and systems for turning expertise into profitable online businesses.",
-      "accentColor": "0xFFDB2777",
-      "initials": "AP",
-      "focus": "Online Biz",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Handle @AmyPorterfield. Practical course & funnel education."
-    },
-    {
-      "id": "",
-      "name": "Starter Story",
-      "handle": "@starterstory",
-      "description": "Pat Walls' founder case studies — real numbers, bootstrapped business models and practical lessons from profitable small businesses.",
-      "accentColor": "0xFF2563EB",
-      "initials": "SS",
-      "focus": "Case Studies",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Handle @starterstory confirmed. Strong case-study focus."
-    },
-    {
-      "id": "",
-      "name": "My Wife Quit Her Job",
-      "handle": "@MyWifeQuitHerJob",
-      "description": "Steve Chou's e-commerce education — building, scaling and optimising profitable online stores with real revenue numbers and tactics.",
-      "accentColor": "0xFF0284C7",
-      "initials": "MW",
-      "focus": "E-commerce",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Established e-commerce education channel focused on profitable store operations."
-    },
-    {
-      "id": "",
-      "name": "Dan Martell",
-      "handle": "@DanMartell",
-      "description": "SaaS and service-business scaling — systems, hiring, time leverage and practical playbooks for growing recurring-revenue companies.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "DM",
-      "focus": "SaaS Systems",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Handle @DanMartell. Strong operational systems focus."
-    },
-    {
-      "id": "",
-      "name": "Google for Small Business",
-      "handle": "@GoogleforSmallBusiness",
-      "description": "Official Google resources for small businesses — digital marketing, local visibility, tools and practical growth tactics for SMEs.",
-      "accentColor": "0xFF4285F4",
-      "initials": "GS",
-      "focus": "Digital Tools",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Official Google small-business education channel."
-    },
-    {
-      "id": "",
-      "name": "Vusi Thembekwayo",
-      "handle": "@VusiThembekwayo",
-      "description": "South African entrepreneur and investor — practical business strategy, leadership and African market realities for building scalable companies.",
-      "accentColor": "0xFFB45309",
-      "initials": "VT",
-      "focus": "Africa Strategy",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Prominent African entrepreneurship voice with practical business content."
     }
   ],
   "blogs": [
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
     {
       "name": "Profitable Venture",
       "url": "https://profitableventure.com/feed/",
@@ -474,216 +191,6 @@
       "url": "https://insight.ng/feed/",
       "verifiedOn": null,
       "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "Entrepreneurship Secret",
-      "url": "https://www.entrepreneurshipsecret.com/feed/",
-      "verifiedOn": "2026-07-30",
-      "verificationMethod": "Mecer Consulting is an IT firm with no active blog RSS. Replaced with Entrepreneurship Secret — confirmed active RSS on feedspot, Nigerian audience."
-    },
-    {
-      "name": "Klakpad Blog",
-      "url": "https://klakpad.com/blog/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "TechCabal",
-      "url": "https://techcabal.com/feed/",
-      "verifiedOn": "2026-07-30",
-      "verificationMethod": "Replaced: ventureafrica.com last published June 2023, now inactive. TechCabal is Nigeria/Africa's most active tech & business publication — 150k+ followers, daily publishing, confirmed feed on feedspot (Jan 2026)"
-    },
-    {
-      "name": "Entrepreneurs.ng",
-      "url": "https://entrepreneurs.ng/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "Feed URL consistent with /feed/ pattern used in confirmed skill JSON files."
-    },
-    {
-      "name": "StartupTipsDaily",
-      "url": "https://startuptipsdaily.com/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "Techpoint Africa",
-      "url": "https://techpoint.africa/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "HubSpot Blog",
-      "url": "https://blog.hubspot.com/marketing/rss.xml",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "RSS URL confirmed from HubSpot documentation and multiple third-party sources: blog.hubspot.com/marketing/rss.xml is the confirmed marketing blog RSS feed. Previous URL (rss.xml) corrected."
-    },
-    {
-      "name": "Buffer Blog",
-      "url": "https://buffer.com/library/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "Shopify Blog",
-      "url": "https://www.shopify.com/blogs/news.atom",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "Shopify uses Atom format (.atom) not /feed/ for their blog RSS. URL pattern confirmed from Shopify documentation: domain/blogs/blogname.atom. Shopify's company blog slug is 'news'. Previous URL (blog/news/rss) corrected."
-    },
-    {
-      "name": "Neil Patel Blog",
-      "url": "https://neilpatel.com/blog/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "Content Marketing Institute",
-      "url": "https://contentmarketinginstitute.com/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "Social Media Examiner",
-      "url": "https://www.socialmediaexaminer.com/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "Invoice.ng Blog",
-      "url": "https://invoice.ng/blog/feed/",
-      "verifiedOn": "2026-07-30",
-      "verificationMethod": "quickbooks.intuit.com/r/ has no RSS — feedspot shows 'Generate RSS' (no feed found) across all 15 QuickBooks RSS pages. Replaced with Invoice.ng — confirmed RSS on feedspot, Nigerian small business focus."
-    },
-    {
-      "name": "Wave Accounting Blog",
-      "url": "https://www.waveapps.com/blog/rss.xml",
-      "verifiedOn": "2026-07-30",
-      "verificationMethod": "Fixed URL: waveapps.com uses Webflow CMS. Standard WordPress /feed/ path does not apply. Webflow RSS path is /rss.xml. Blog confirmed active with recent 2025 content"
-    },
-    {
-      "name": "FreshBooks Blog",
-      "url": "https://www.freshbooks.com/blog/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "The SME Mall Blog",
-      "url": "https://thesmemall.com/feed/",
-      "verifiedOn": "2026-07-30",
-      "verificationMethod": "smallstarter.com blocks automated access (robots.txt DISALLOWED) — RSS clients would also be blocked. Replaced with The SME Mall Blog — confirmed RSS on feedspot, Nigerian SME focus."
-    },
-    {
-      "name": "How We Made It in Africa",
-      "url": "https://howwemadeitinafrica.com/feed/",
-      "verifiedOn": "2026-07-30",
-      "verificationMethod": "Replaced: africasyoungentrepreneurs.com is not the official AYE org site (ayeorganization.com). How We Made It in Africa is a premium Cape Town-based African business publication with 112k+ Facebook followers, confirmed active feed on feedspot"
-    },
-    {
-      "name": "Bintus Art and Everything",
-      "url": "https://bintusartandeverything.com/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "WaleMarketer",
-      "url": "https://walemarketer.com/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "Markup & Profit",
-      "url": "https://markupandprofit.com/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "RSS URL uses confirmed WordPress /feed/ pattern."
-    },
-    {
-      "name": "ServiceTitan Blog",
-      "url": "https://www.servicetitan.com/blog/feed/",
-      "verifiedOn": null,
-      "verificationMethod": "Enterprise software blog — may use non-standard feed path. Confirm URL returns XML before shipping."
-    },
-    {
-      "name": "Small Business Trends",
-      "url": "https://smallbiztrends.com/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Leading SMB practical advice site."
-    },
-    {
-      "name": "Fit Small Business",
-      "url": "https://fitsmallbusiness.com/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Operations, accounting, marketing how-tos for SMBs."
-    },
-    {
-      "name": "AllBusiness",
-      "url": "https://www.allbusiness.com/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Operations, marketing, finance tips for running a business."
-    },
-    {
-      "name": "QuickBooks Blog",
-      "url": "https://quickbooks.intuit.com/r/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Cash flow, accounting and financial management for small businesses."
-    },
-    {
-      "name": "Smart Passive Income",
-      "url": "https://www.smartpassiveincome.com/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Pat Flynn — online business systems and case studies."
-    },
-    {
-      "name": "Starter Story Blog",
-      "url": "https://www.starterstory.com/feed",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Founder case studies with real revenue numbers."
-    },
-    {
-      "name": "Acquisition.com Blog",
-      "url": "https://www.acquisition.com/blog/rss.xml",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Hormozi practical scaling and offer frameworks."
-    },
-    {
-      "name": "Contrarian Thinking",
-      "url": "https://contrarianthinking.co/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Codie Sanchez — buying and operating profitable small businesses."
-    },
-    {
-      "name": "Two-Brain Business",
-      "url": "https://twobrainbusiness.com/feed/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Service-business systems, pricing and profitability."
-    },
-    {
-      "name": "Indie Hackers",
-      "url": "https://www.indiehackers.com/feed",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Bootstrapped founder stories and growth tactics."
-    },
-    {
-      "name": "Baremetrics Blog",
-      "url": "https://baremetrics.com/blog/feed",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "SaaS metrics, pricing and growth lessons."
-    },
-    {
-      "name": "Close Blog",
-      "url": "https://blog.close.com/rss/",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Sales systems and practical selling for small teams."
-    },
-    {
-      "name": "Groove Blog",
-      "url": "https://www.groovehq.com/blog/feed",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Customer support operations that drive retention and profit."
-    },
-    {
-      "name": "ProfitWell Blog",
-      "url": "https://www.profitwell.com/blog/rss.xml",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Subscription pricing, retention and revenue optimisation."
     }
   ],
   "books": [
@@ -109488,5 +108995,5 @@
     "2026-08-23: Cover candidates use ordered exact-edition sources; keep the placeholder when no verified edition cover exists.",
     "2026-08-23: Cover candidates use ordered exact-edition sources; keep the placeholder when no verified edition cover exists."
   ],
-  "notes": "2026-08-23: Added 303 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 250 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added 0 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Filled missing author metadata on Project Gutenberg records with an explicit fallback rather than leaving the field blank. 2026-08-23: Added 500 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added 500 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added 2266 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added 3500 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added exact Project Gutenberg edition cover candidates and accepted only title-matched page-specific cover images from trusted free-book hosts; unresolved books intentionally fall back to the branded placeholder rather than a guessed cover. 2026-08-23: Added exact Project Gutenberg edition cover candidates and accepted only title-matched page-specific cover images from trusted free-book hosts; unresolved books intentionally fall back to the branded placeholder rather than a guessed cover. 2026-08-23: Added exact Project Gutenberg edition cover candidates and accepted only title-matched page-specific cover images from trusted free-book hosts; unresolved books intentionally fall back to the branded placeholder rather than a guessed cover."
+  "notes": "2026-08-23: Added 303 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 250 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added 0 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Filled missing author metadata on Project Gutenberg records with an explicit fallback rather than leaving the field blank. 2026-08-23: Added 500 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added 500 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added 2266 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added 3500 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added exact Project Gutenberg edition cover candidates and accepted only title-matched page-specific cover images from trusted free-book hosts; unresolved books intentionally fall back to the branded placeholder rather than a guessed cover. 2026-08-23: Added exact Project Gutenberg edition cover candidates and accepted only title-matched page-specific cover images from trusted free-book hosts; unresolved books intentionally fall back to the branded placeholder rather than a guessed cover. 2026-08-23: Added exact Project Gutenberg edition cover candidates and accepted only title-matched page-specific cover images from trusted free-book hosts; unresolved books intentionally fall back to the branded placeholder rather than a guessed cover. 2026-08-23: Added ten broad educational channels and ten learning blogs for General discovery. 2026-08-23: General is intentionally limited to ten broad discovery channels and ten broad learning blogs; specialized sources live in their categories. 2026-08-23: Added ten broad educational channels and ten learning blogs for General discovery. 2026-08-23: General is intentionally limited to ten broad discovery channels and ten broad learning blogs; specialized sources live in their categories."
 }

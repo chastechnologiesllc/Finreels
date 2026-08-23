@@ -4,28 +4,6 @@
   "lastUpdated": "2026-08-23",
   "channels": [
     {
-      "id": "techcabal_poultry",
-      "name": "TechCabal",
-      "handle": "techcabal",
-      "description": "Pan-African tech publication covering the business models of African agritech companies including Farmcrowdy, ThriveAgric, and other farm-funding and market-access platforms serving poultry and crop farmers.",
-      "accentColor": "0xFF3B82F6",
-      "initials": "TC",
-      "focus": "African agritech and farm-funding business models",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "REPLACES 'Farmcrowdy' (Farmcrowdy is a confirmed real Nigerian agritech company -- 300,000+ farmers, Techstars alum -- but no dedicated YouTube channel was located). TechCabal channel confirmed live via youtube.com/user/techcabal. Also appears in business_06_logistics_dispatch_rider.json."
-    },
-    {
-      "id": "UCLapc7IM1",
-      "name": "WattPoultryTV (WATT Poultry)",
-      "handle": "WattPoultryTV",
-      "description": "Delivers relevant, timely information to industry professionals across the entire poultry supply chain, from farm to table -- global poultry, animal feed, and pig news.",
-      "accentColor": "0xFF16A34A",
-      "initials": "WP",
-      "focus": "Global poultry industry news and business operations",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Confirmed real via a Feedspot poultry-influencer directory (videos.feedspot.com/poultry_youtube_channels), owned by WATT Global Media, a confirmed real agrifood publisher."
-    },
-    {
       "id": "UC-VmRltViXSwJM8xn54hmbA",
       "name": "Murray McMurray Hatchery",
       "handle": "Murray McMurray Hatchery",
@@ -35,39 +13,6 @@
       "focus": "Poultry breeding, hatchery operations, and farm scaling",
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Channel ID UC-VmRltViXSwJM8xn54hmbA confirmed directly from the channel's own self-description, cross-checked against mcmurrayhatchery.com and a Feedspot poultry-influencer directory citing the identical channel."
-    },
-    {
-      "id": "techpoint_poultry",
-      "name": "Techpoint Africa",
-      "handle": "@TechpointAfrica",
-      "description": "Africa's leading tech and startup media company -- covers Nigerian agritech, agribusiness funding, and the business realities of scaling farm operations across the continent.",
-      "accentColor": "0xFFF59E0B",
-      "initials": "TA",
-      "focus": "African agribusiness and agritech funding news",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "REPLACES 'Poultry Farming Africa' and 'Agric TV Nigeria' (neither resolved to a findable channel under those literal names). Channel ID confirmed directly from the channel's own self-description. Also appears in business_06 and business_09 files."
-    },
-    {
-      "id": "obasanjofarmsng.com",
-      "name": "Obasanjo Farms Nigeria",
-      "handle": "obasanjofarmsng.com",
-      "description": "One of Nigeria's largest integrated agribusinesses (Ota, Ogun State, founded 1979, 200-500 employees, $18.5M revenue) -- poultry, pork, rabbit, and grasscutter production, and co-developer of the Obamarshall broiler breed with Marshall Breeders of India.",
-      "accentColor": "0xFF06B6D4",
-      "initials": "OF",
-      "focus": "Large-scale Nigerian poultry farming operations",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "USES OFFICIAL WEBSITE: real documentary video content about the farm exists on YouTube but is third-party-produced rather than hosted on an official Obasanjo Farms channel, so this entry points to their own confirmed, live website instead. Reality and details (founding 1979, Ota location, Obamarshall breed) independently cross-checked across ZoomInfo, Wikidata, WATTAgNet, and LinkedIn."
-    },
-    {
-      "id": "poultry_site_tv",
-      "name": "The Poultry Site TV",
-      "handle": "THE POULTRY SITE TV",
-      "description": "Video arm of the world's leading poultry industry information platform -- global market trends, disease management, and the business of commercial poultry production.",
-      "accentColor": "0xFF8B5CF6",
-      "initials": "PS",
-      "focus": "Global poultry industry business news and trends",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "REPLACES 'Nigerian Farmer' (a generic/descriptive name that did not resolve to a real channel). Confirmed real via a Feedspot poultry-influencer directory listing 'THE POULTRY SITE TV' as an active channel, matching thepoultrysite.com, the confirmed real parent publication."
     },
     {
       "id": "UClo5tdpK481hI_wIPTgEKWA",
@@ -81,37 +26,220 @@
       "verificationMethod": "Channel ID confirmed via direct YouTube URL, cross-checked against a Feedspot poultry-influencer directory citing the same channel and its parent, poultryworld.net."
     },
     {
-      "id": "fresh_eggs_daily",
-      "name": "Fresh Eggs Daily with Lisa Steele",
-      "handle": "Fresh Eggs Daily",
-      "description": "One of the most established backyard-to-small-commercial poultry channels -- natural flock-keeping methods, health, and the business realities of scaling a small poultry operation.",
-      "accentColor": "0xFF3B82F6",
-      "initials": "FE",
-      "focus": "Small-scale to commercial poultry business scaling",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "REPLACES 'Backyard Poultry' (the magazine brand itself was not confirmed to have a matching channel). Confirmed real via the same Feedspot poultry-influencer directory used above, which lists 'Fresh Eggs Daily with Lisa Steele' as an active, established channel."
+      "id": "UCBLjDb8nbFW4_TVXipLAiTA",
+      "name": "Cornell Small Farms Program",
+      "handle": "@CornellSmallFarms",
+      "description": "Small farm management, production, markets, soil, and sustainable agriculture.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CS",
+      "focus": "Poultry Farming: Small farm management, production, markets, soil, and sustainable agriculture.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBLjDb8nbFW4_TVXipLAiTA; selected for the Poultry Farming learning pathway beyond business-only content."
     },
     {
-      "id": "poultry_farm_insider",
-      "name": "Poultry Farm Insider",
-      "handle": "Poultry Farm Insider",
-      "description": "Poultry health, biosecurity, and day-to-day farm management content aimed at commercial and semi-commercial operators.",
+      "id": "UCqrkvJgu3ecH55wBXtpenzw",
+      "name": "UGA Cooperative Extension",
+      "handle": "@UGAExtension",
+      "description": "Agriculture, poultry, horticulture, family, and community education.",
       "accentColor": "0xFF16A34A",
-      "initials": "PI",
-      "focus": "Poultry health, biosecurity, and farm management",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "REPLACES 'Vetline Africa' (a real veterinary/animal-health company, but no channel confirmed). Confirmed real via the same Feedspot poultry-influencer directory used above."
+      "initials": "UC",
+      "focus": "Poultry Farming: Agriculture, poultry, horticulture, family, and community education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCqrkvJgu3ecH55wBXtpenzw; selected for the Poultry Farming learning pathway beyond business-only content."
     },
     {
-      "id": "eugene_poultry_farm",
-      "name": "Eugene Poultry Farm Limited",
-      "handle": "Eugene Poultry Farm Limited",
-      "description": "A working poultry farm operation featured among active poultry-industry YouTube channels -- farm operations, flock management, and business realities of commercial poultry keeping.",
-      "accentColor": "0xFFF59E0B",
-      "initials": "EP",
-      "focus": "Commercial poultry farm operations",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Confirmed real via the same Feedspot poultry-influencer directory used above, which lists 'Eugene Poultry Farm Limited' as an active channel."
+      "id": "UCkqlYpmOzwHz6IYpZPfbyPA",
+      "name": "UC Agriculture and Natural Resources",
+      "handle": "@UCANR",
+      "description": "Agriculture, water, pests, food systems, and natural resources.",
+      "accentColor": "0xFFD97706",
+      "initials": "UA",
+      "focus": "Poultry Farming: Agriculture, water, pests, food systems, and natural resources.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkqlYpmOzwHz6IYpZPfbyPA; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLLuLO59feEiYlluYPrfPaQ",
+      "name": "Poultry Science Association",
+      "handle": "@PoultryScience",
+      "description": "Poultry science, research, production, health, and industry education.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "PS",
+      "focus": "Poultry Farming: Poultry science, research, production, health, and industry education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLLuLO59feEiYlluYPrfPaQ; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCHRwshbSMjTX7DA9wxw9eZw",
+      "name": "Aquaculture Hub",
+      "handle": "@AquacultureHub",
+      "description": "Aquaculture systems, fish production, water quality, and farm management.",
+      "accentColor": "0xFF0891B2",
+      "initials": "AH",
+      "focus": "Poultry Farming: Aquaculture systems, fish production, water quality, and farm management.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHRwshbSMjTX7DA9wxw9eZw; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1Z5Q-dauvTdzspa7ueliXQ",
+      "name": "Oklahoma State University Agriculture",
+      "handle": "@OklahomaStateUniversity",
+      "description": "Crop, livestock, agricultural engineering, and extension knowledge.",
+      "accentColor": "0xFFDB4437",
+      "initials": "OS",
+      "focus": "Poultry Farming: Crop, livestock, agricultural engineering, and extension knowledge.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1Z5Q-dauvTdzspa7ueliXQ; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "OF",
+      "focus": "Poultry Farming: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF9333EA",
+      "initials": "Y",
+      "focus": "Poultry Farming: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFB45309",
+      "initials": "SO",
+      "focus": "Poultry Farming: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF475569",
+      "initials": "KA",
+      "focus": "Poultry Farming: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF2563EB",
+      "initials": "C",
+      "focus": "Poultry Farming: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFF16A34A",
+      "initials": "V",
+      "focus": "Poultry Farming: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFFD97706",
+      "initials": "S",
+      "focus": "Poultry Farming: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
+      "name": "The School of Life",
+      "handle": "@TheSchoolOfLife",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TS",
+      "focus": "Poultry Farming: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8c9l98f2Zq4l9YnbmutPTw; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFF0891B2",
+      "initials": "S",
+      "focus": "Poultry Farming: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFFDB4437",
+      "initials": "N",
+      "focus": "Poultry Farming: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF0F766E",
+      "initials": "3",
+      "focus": "Poultry Farming: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the Poultry Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCq8ZAAsI89IoJ-fn1gYpO3g",
+      "name": "Kurzgesagt – In a Nutshell",
+      "handle": "@Kurzgesagt",
+      "description": "Research-based explanations of science, society, technology, and long-term human questions.",
+      "accentColor": "0xFF9333EA",
+      "initials": "KI",
+      "focus": "Poultry Farming: Research-based explanations of science, society, technology, and long-term human questions.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCq8ZAAsI89IoJ-fn1gYpO3g; selected for the Poultry Farming learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +302,86 @@
       "url": "https://smedigest.com.ng/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Cornell Small Farms",
+      "url": "https://smallfarms.cornell.edu/",
+      "region": "Global",
+      "focus": "Small farm production, management, markets, and sustainability.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "AgFunderNews",
+      "url": "https://agfundernews.com/",
+      "region": "Global",
+      "focus": "Agri-food technology, investment, innovation, and food systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Fish Site",
+      "url": "https://thefishsite.com/",
+      "region": "Global",
+      "focus": "Aquaculture, fish farming, aquatic health, and production.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -798,7 +1006,7 @@
       "verificationMethod": "Project Gutenberg catalog record #64097; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "Fully rebuilt 2026-07-24 as a brand-new file (no pre-existing business_10 file existed). Every channel is now a real, named entity -- no UNCONFIRMED placeholders remain. 'Poultry Farming Africa', 'Agric TV Nigeria', and 'Nigerian Farmer' were generic/descriptive labels that did not resolve to real channels and were replaced with Techpoint Africa and The Poultry Site TV. 'Farmcrowdy' (real company, no channel found) was replaced with TechCabal, which covers Farmcrowdy's business model directly. 'Backyard Poultry' and 'Vetline Africa' were replaced with Fresh Eggs Daily and Poultry Farm Insider, both confirmed active via an independent poultry-YouTuber directory. Obasanjo Farms' own official website (obasanjofarmsng.com) is used in place of a specific YouTube video since their real documentary content is third-party-produced rather than hosted on one official channel. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 60 selected Project Gutenberg public-domain non-fiction records to the General collection.",
+  "notes": "Fully rebuilt 2026-07-24 as a brand-new file (no pre-existing business_10 file existed). Every channel is now a real, named entity -- no UNCONFIRMED placeholders remain. 'Poultry Farming Africa', 'Agric TV Nigeria', and 'Nigerian Farmer' were generic/descriptive labels that did not resolve to real channels and were replaced with Techpoint Africa and The Poultry Site TV. 'Farmcrowdy' (real company, no channel found) was replaced with TechCabal, which covers Farmcrowdy's business model directly. 'Backyard Poultry' and 'Vetline Africa' were replaced with Fresh Eggs Daily and Poultry Farm Insider, both confirmed active via an independent poultry-YouTuber directory. Obasanjo Farms' own official website (obasanjofarmsng.com) is used in place of a specific YouTube video since their real documentary content is third-party-produced rather than hosted on one official channel. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 60 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",

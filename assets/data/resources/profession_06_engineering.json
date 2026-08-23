@@ -1,5 +1,5 @@
 {
-  "categoryId": "skill_46_engineering",
+  "categoryId": "profession_06_engineering",
   "status": "verified",
   "lastUpdated": "2026-08-23",
   "channels": [
@@ -112,6 +112,126 @@
       "focus": "Nigerian entrepreneurship",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCMOqf8ab-42UUQIdVoKwjlQ",
+      "name": "Practical Engineering",
+      "handle": "@PracticalEngineeringChannel",
+      "description": "Civil infrastructure, engineering systems, hazards, and real-world design.",
+      "accentColor": "0xFF2563EB",
+      "initials": "PE",
+      "focus": "Engineering: Civil infrastructure, engineering systems, hazards, and real-world design.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCMOqf8ab-42UUQIdVoKwjlQ; selected for the Engineering learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC176GAQozKKjhz62H8u9vQQ",
+      "name": "Real Engineering",
+      "handle": "@RealEngineering",
+      "description": "Engineering history, technology, aerospace, energy, and systems analysis.",
+      "accentColor": "0xFF16A34A",
+      "initials": "RE",
+      "focus": "Engineering: Engineering history, technology, aerospace, energy, and systems analysis.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC176GAQozKKjhz62H8u9vQQ; selected for the Engineering learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCsrY4q8xGPJQbQ8HPQZn6iA",
+      "name": "Engineering Explained",
+      "handle": "@EngineeringExplained",
+      "description": "Automotive engineering, mechanics, energy, and technical analysis.",
+      "accentColor": "0xFFD97706",
+      "initials": "EE",
+      "focus": "Engineering: Automotive engineering, mechanics, energy, and technical analysis.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCsrY4q8xGPJQbQ8HPQZn6iA; selected for the Engineering learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCcs0ZkP_as4PpHDhFcmCHyA",
+      "name": "Applied Science",
+      "handle": "@AppliedScience",
+      "description": "Materials, chemistry, electronics, laboratory work, and experimental engineering.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "AS",
+      "focus": "Engineering: Materials, chemistry, electronics, laboratory work, and experimental engineering.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCcs0ZkP_as4PpHDhFcmCHyA; selected for the Engineering learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCXAS_Ekkq0iFJ9dSUIkcAkw",
+      "name": "The Efficient Engineer",
+      "handle": "@TheEfficientEngineer",
+      "description": "Mechanical engineering fundamentals, design, mechanics, and materials.",
+      "accentColor": "0xFF0891B2",
+      "initials": "TE",
+      "focus": "Engineering: Mechanical engineering fundamentals, design, mechanics, and materials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCXAS_Ekkq0iFJ9dSUIkcAkw; selected for the Engineering learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCY1kMZp36IQSyNx_9h4mpCg",
+      "name": "ElectroBOOM",
+      "handle": "@ElectroBOOM",
+      "description": "Electrical engineering, circuits, safety, and measurement.",
+      "accentColor": "0xFFDB4437",
+      "initials": "E",
+      "focus": "Engineering: Electrical engineering, circuits, safety, and measurement.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCY1kMZp36IQSyNx_9h4mpCg; selected for the Engineering learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF0F766E",
+      "initials": "SO",
+      "focus": "Engineering: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Engineering learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF9333EA",
+      "initials": "OF",
+      "focus": "Engineering: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Engineering learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFFB45309",
+      "initials": "Y",
+      "focus": "Engineering: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Engineering learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF475569",
+      "initials": "KA",
+      "focus": "Engineering: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Engineering learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +294,86 @@
       "url": "https://howwemadeitinafrica.com/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/",
+      "region": "Global",
+      "focus": "Engineering, computing, technology, research, and innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "ASME",
+      "url": "https://www.asme.org/topics-resources/content",
+      "region": "Global",
+      "focus": "Mechanical engineering, standards, design, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Engineering.com",
+      "url": "https://www.engineering.com/",
+      "region": "Global",
+      "focus": "Engineering design, manufacturing, software, and industry knowledge.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NIST",
+      "url": "https://www.nist.gov/blogs/taking-measure",
+      "region": "Global",
+      "focus": "Measurement, standards, engineering, science, and technology.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/blogs/",
+      "region": "Global",
+      "focus": "Aerospace, space science, engineering, and missions.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/",
+      "region": "Global",
+      "focus": "Technology, science, computing, and engineering analysis.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Hackaday",
+      "url": "https://hackaday.com/",
+      "region": "Global",
+      "focus": "Electronics, embedded systems, fabrication, and open hardware.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Weekly",
+      "url": "https://www.electronicsweekly.com/",
+      "region": "Global",
+      "focus": "Electronics engineering, components, systems, and industry.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Practical Engineering",
+      "url": "https://practical.engineering/",
+      "region": "Global",
+      "focus": "Engineering systems, infrastructure, and applied problem-solving.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -1496,7 +1696,7 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584655-L.jpg"
     }
   ],
-  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: COREN Nigeria (no YouTube — Facebook/website only) → Practical Engineering; Engineering Career Skills (not found) → The B1M; Disrupt Africa (YouTube not confirmed) → Nairametrics TV; The Engineering Podcast (not confirmed) → EngineeringAll. Blogs: COREN is a government site and may not publish RSS. NSPE uses a custom feed path. 2026-08-23: Added 131 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: COREN Nigeria (no YouTube — Facebook/website only) → Practical Engineering; Engineering Career Skills (not found) → The B1M; Disrupt Africa (YouTube not confirmed) → Nairametrics TV; The Engineering Podcast (not confirmed) → EngineeringAll. Blogs: COREN is a government site and may not publish RSS. NSPE uses a custom feed path. 2026-08-23: Added 131 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

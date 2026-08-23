@@ -4,114 +4,6 @@
   "lastUpdated": "2026-08-23",
   "channels": [
     {
-      "id": "",
-      "name": "uLesson",
-      "handle": "@uLesson",
-      "description": "Nigerian EdTech business model, scaling, and market penetration",
-      "accentColor": "0xFF3B82F6",
-      "initials": "U",
-      "focus": "Nigerian EdTech business model, scaling, and market penetration",
-      "region": "Nigeria",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
-    },
-    {
-      "id": "",
-      "name": "Pass.ng",
-      "handle": "@Passng",
-      "description": "Nigerian exam prep business, student acquisition, and EdTech",
-      "accentColor": "0xFF3B82F6",
-      "initials": "P",
-      "focus": "Nigerian exam prep business, student acquisition, and EdTech",
-      "region": "Nigeria",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
-    },
-    {
-      "id": "",
-      "name": "Teachable",
-      "handle": "@Teachable",
-      "description": "Platform for creating, selling, and scaling online course businesses",
-      "accentColor": "0xFF3B82F6",
-      "initials": "T",
-      "focus": "Platform for creating, selling, and scaling online course businesses",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
-    },
-    {
-      "id": "",
-      "name": "Thinkific",
-      "handle": "@Thinkific",
-      "description": "Online course creation, pricing, and student retention strategies",
-      "accentColor": "0xFF3B82F6",
-      "initials": "T",
-      "focus": "Online course creation, pricing, and student retention strategies",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
-    },
-    {
-      "id": "",
-      "name": "EdSurge",
-      "handle": "@EdSurge",
-      "description": "Education business models, EdTech funding, and industry news",
-      "accentColor": "0xFF3B82F6",
-      "initials": "E",
-      "focus": "Education business models, EdTech funding, and industry news",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
-    },
-    {
-      "id": "",
-      "name": "Teach For Nigeria",
-      "handle": "@TeachForNigeria",
-      "description": "Educational impact, NGO business, and school management",
-      "accentColor": "0xFF3B82F6",
-      "initials": "TF",
-      "focus": "Educational impact, NGO business, and school management",
-      "region": "Nigeria",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
-    },
-    {
-      "id": "",
-      "name": "TechCabal",
-      "handle": "@TechCabal",
-      "description": "African EdTech startups, funding, and ecosystem coverage",
-      "accentColor": "0xFF3B82F6",
-      "initials": "T",
-      "focus": "African EdTech startups, funding, and ecosystem coverage",
-      "region": "Africa",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
-    },
-    {
-      "id": "",
-      "name": "BusinessDay",
-      "handle": "@BusinessDayNG",
-      "description": "Nigerian education sector news and policy business",
-      "accentColor": "0xFF3B82F6",
-      "initials": "B",
-      "focus": "Nigerian education sector news and policy business",
-      "region": "Nigeria",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
-    },
-    {
-      "id": "",
-      "name": "Global EdTech",
-      "handle": "@GlobalEdTech",
-      "description": "International education technology and school business trends",
-      "accentColor": "0xFF3B82F6",
-      "initials": "GE",
-      "focus": "International education technology and school business trends",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724). YouTube channel ID requires manual lookup before the video feed will work."
-    },
-    {
       "id": "UCUyDOdBWhC1MCxEjC46d-zw",
       "name": "Alex Hormozi",
       "handle": "@AlexHormozi",
@@ -121,6 +13,234 @@
       "focus": "Business scaling and offers",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCsT-Y0dMKWn6_3_8eNoUdPg",
+      "name": "Edutopia",
+      "handle": "@Edutopia",
+      "description": "Evidence-informed teaching, learning design, classroom practice, and education leadership.",
+      "accentColor": "0xFF2563EB",
+      "initials": "E",
+      "focus": "Education: Evidence-informed teaching, learning design, classroom practice, and education leadership.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCsT-Y0dMKWn6_3_8eNoUdPg; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCxEKnVOYnzM70yH7kDrU7bQ",
+      "name": "Cult of Pedagogy",
+      "handle": "@cultofpedagogy",
+      "description": "Teaching methods, classroom management, assessment, and teacher development.",
+      "accentColor": "0xFF16A34A",
+      "initials": "CO",
+      "focus": "Education: Teaching methods, classroom management, assessment, and teacher development.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxEKnVOYnzM70yH7kDrU7bQ; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCibvNgcTZQ02PucorqcTvLg",
+      "name": "Teaching Channel",
+      "handle": "@TeachingChannel",
+      "description": "Teacher practice, instructional strategies, curriculum, and professional learning.",
+      "accentColor": "0xFFD97706",
+      "initials": "TC",
+      "focus": "Education: Teacher practice, instructional strategies, curriculum, and professional learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCibvNgcTZQ02PucorqcTvLg; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "OF",
+      "focus": "Education: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF0891B2",
+      "initials": "Y",
+      "focus": "Education: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFFDB4437",
+      "initials": "C",
+      "focus": "Education: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF0F766E",
+      "initials": "KA",
+      "focus": "Education: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCrNATZgcaxpYjoUpD2pgSEA",
+      "name": "ASCD",
+      "handle": "@ASCD",
+      "description": "Curriculum, instruction, school leadership, and education improvement.",
+      "accentColor": "0xFF9333EA",
+      "initials": "A",
+      "focus": "Education: Curriculum, instruction, school leadership, and education improvement.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCrNATZgcaxpYjoUpD2pgSEA; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1Up4TuDvGZraQUj9vxUaxQ",
+      "name": "Harvard Graduate School of Education",
+      "handle": "@HarvardEducation",
+      "description": "Research, education policy, teaching, learning, and human development.",
+      "accentColor": "0xFFB45309",
+      "initials": "HG",
+      "focus": "Education: Research, education policy, teaching, learning, and human development.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1Up4TuDvGZraQUj9vxUaxQ; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCL-yKZ_kCuKBHyeRfePpvuw",
+      "name": "Education Week",
+      "handle": "@EducationWeek",
+      "description": "Education policy, practice, leadership, and teaching profession coverage.",
+      "accentColor": "0xFF475569",
+      "initials": "EW",
+      "focus": "Education: Education policy, practice, leadership, and teaching profession coverage.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCL-yKZ_kCuKBHyeRfePpvuw; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCQXK1NOakx7-IPrBbFcMc6Q",
+      "name": "The New York Times Learning Network",
+      "handle": "@TheLearningNetwork",
+      "description": "Classroom activities, media literacy, writing, and critical thinking.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TN",
+      "focus": "Education: Classroom activities, media literacy, writing, and critical thinking.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCQXK1NOakx7-IPrBbFcMc6Q; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SO",
+      "focus": "Education: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFD97706",
+      "initials": "V",
+      "focus": "Education: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "S",
+      "focus": "Education: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
+      "name": "The School of Life",
+      "handle": "@TheSchoolOfLife",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF0891B2",
+      "initials": "TS",
+      "focus": "Education: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8c9l98f2Zq4l9YnbmutPTw; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFDB4437",
+      "initials": "S",
+      "focus": "Education: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF0F766E",
+      "initials": "N",
+      "focus": "Education: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF9333EA",
+      "initials": "3",
+      "focus": "Education: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the Education learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCq8ZAAsI89IoJ-fn1gYpO3g",
+      "name": "Kurzgesagt – In a Nutshell",
+      "handle": "@Kurzgesagt",
+      "description": "Research-based explanations of science, society, technology, and long-term human questions.",
+      "accentColor": "0xFFB45309",
+      "initials": "KI",
+      "focus": "Education: Research-based explanations of science, society, technology, and long-term human questions.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCq8ZAAsI89IoJ-fn1gYpO3g; selected for the Education learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -199,6 +319,86 @@
       "url": "https://entrepreneurs.ng/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Education Week",
+      "url": "https://www.edweek.org/",
+      "region": "Global",
+      "focus": "Education policy, schools, teaching, leadership, and research.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Inside Higher Ed",
+      "url": "https://www.insidehighered.com/",
+      "region": "Global",
+      "focus": "Higher education, teaching, policy, research, and academic work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "TeachThought",
+      "url": "https://www.teachthought.com/",
+      "region": "Global",
+      "focus": "Pedagogy, critical thinking, learning design, and classroom practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Cult of Pedagogy",
+      "url": "https://www.cultofpedagogy.com/",
+      "region": "Global",
+      "focus": "Teaching methods, classroom management, assessment, and teacher growth.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Faculty Focus",
+      "url": "https://www.facultyfocus.com/",
+      "region": "Global",
+      "focus": "College teaching, instructional design, assessment, and faculty development.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "EdTech Magazine",
+      "url": "https://edtechmagazine.com/",
+      "region": "Global",
+      "focus": "Education technology, institutions, IT, and learning environments.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindShift",
+      "url": "https://www.kqed.org/mindshift",
+      "region": "Global",
+      "focus": "Learning, schools, technology, and education change.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -1812,7 +2012,7 @@
       "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-ai-and-ethics-in-higher-education"
     }
   ],
-  "notes": "Matches the founder's own honest finding, reinforced by an independent broader search this round: no dedicated Nigeria/Africa 'business of tutoring or running a school' YouTube channel exists — individual videos on the topic circulate, but no ongoing channel. Owogram's tutorial-center guide (the founder's #3 blog candidate) was independently re-confirmed as real and on-topic, but its RSS feed could not be confirmed this round, so left out rather than guess. No free book candidate found, matching the founder's finding exactly. 2026-08-23: Added 164 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
+  "notes": "Matches the founder's own honest finding, reinforced by an independent broader search this round: no dedicated Nigeria/Africa 'business of tutoring or running a school' YouTube channel exists — individual videos on the topic circulate, but no ongoing channel. Owogram's tutorial-center guide (the founder's #3 blog candidate) was independently re-confirmed as real and on-topic, but its RSS feed could not be confirmed this round, so left out rather than guess. No free book candidate found, matching the founder's finding exactly. 2026-08-23: Added 164 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

@@ -1,117 +1,247 @@
 {
   "categoryId": "online_hustles_13_video_editing_clipping",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
-      "id": "UC",
-      "name": "The Incubator Hub (Video Editing training)",
-      "handle": "@theincubatorhub",
-      "description": "Nigerian digital skills hub with structured video editing training including CapCut and Premiere Pro.",
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
       "accentColor": "0xFF2563EB",
-      "initials": "IH",
-      "focus": "Video editing training (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Runs practical video editing courses with live sessions."
+      "initials": "OF",
+      "focus": "Video Editing & Clipping: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Video Editing & Clipping learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Nigerian CapCut tutors",
-      "handle": "search CapCut tutorial Nigeria",
-      "description": "Search latest Nigerian creators teaching CapCut for short-form and YouTube editing.",
-      "accentColor": "0xFF059669",
-      "initials": "CC",
-      "focus": "CapCut for Nigerian creators",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "CapCut is the primary mobile tool for most Nigerian editors."
-    },
-    {
-      "id": "UC",
-      "name": "Short-form / Reels / Shorts editors",
-      "handle": "search CapCut Reels Shorts Nigeria",
-      "description": "Channels focused on editing Instagram Reels, TikTok and YouTube Shorts for clients.",
-      "accentColor": "0xFFD97706",
-      "initials": "SF",
-      "focus": "Short-form video editing freelancing",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Highest demand freelance editing service."
-    },
-    {
-      "id": "UC",
-      "name": "YouTube video editing freelancers",
-      "handle": "search YouTube video editor Nigeria",
-      "description": "Nigerian editors teaching how to edit long-form YouTube videos and land creator clients.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "YT",
-      "focus": "YouTube long-form editing",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Higher-paying editing niche."
-    },
-    {
-      "id": "UC",
-      "name": "Mobile video editing (phone-based)",
-      "handle": "search video editing on phone Nigeria CapCut VN",
-      "description": "Channels teaching professional results using only a smartphone (CapCut, VN, etc.).",
-      "accentColor": "0xFFDC2626",
-      "initials": "MB",
-      "focus": "Phone-only video editing",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Most accessible path for Nigerian beginners."
-    },
-    {
-      "id": "UC",
-      "name": "African video editing educators",
-      "handle": "search video editing Africa CapCut",
-      "description": "African creators teaching video editing skills across the continent.",
-      "accentColor": "0xFF0891B2",
-      "initials": "AF",
-      "focus": "Video editing across Africa",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Africa-wide after Nigeria priority."
-    },
-    {
-      "id": "UC",
-      "name": "Premiere Pro / DaVinci upgrade path",
-      "handle": "search Premiere Pro DaVinci Nigeria",
-      "description": "Channels teaching desktop software for editors ready to move beyond CapCut.",
-      "accentColor": "0xFFEA580C",
-      "initials": "PR",
-      "focus": "Advanced editing software",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Higher rates and more complex projects."
-    },
-    {
-      "id": "UC",
-      "name": "Clipping & podcast editing",
-      "handle": "search podcast clipping video editor",
-      "description": "Channels focused on turning long content into short clips (a high-demand service).",
-      "accentColor": "0xFF4F46E5",
-      "initials": "CL",
-      "focus": "Content clipping services",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Growing freelance niche."
-    },
-    {
-      "id": "UC",
-      "name": "Pricing & client acquisition for editors",
-      "handle": "search video editor rates Nigeria freelance",
-      "description": "Practical guidance on pricing editing services and finding clients.",
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
       "accentColor": "0xFF16A34A",
-      "initials": "PC",
-      "focus": "Business side of video editing",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Critical for earning."
+      "initials": "Y",
+      "focus": "Video Editing & Clipping: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Video Editing & Clipping learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Solid global video editing foundations",
-      "handle": "search CapCut video editing beginners practical",
-      "description": "High-quality practical global CapCut and editing teachers useful after local channels.",
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFD97706",
+      "initials": "SO",
+      "focus": "Video Editing & Clipping: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "Video Editing & Clipping: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "Video Editing & Clipping: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFDB4437",
+      "initials": "V",
+      "focus": "Video Editing & Clipping: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF0F766E",
+      "initials": "S",
+      "focus": "Video Editing & Clipping: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
+      "name": "The School of Life",
+      "handle": "@TheSchoolOfLife",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "Video Editing & Clipping: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8c9l98f2Zq4l9YnbmutPTw; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
       "accentColor": "0xFFB45309",
-      "initials": "GL",
-      "focus": "Foundational editing skills",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Global layer after Nigeria/Africa."
+      "initials": "S",
+      "focus": "Video Editing & Clipping: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF475569",
+      "initials": "N",
+      "focus": "Video Editing & Clipping: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF2563EB",
+      "initials": "3",
+      "focus": "Video Editing & Clipping: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCq8ZAAsI89IoJ-fn1gYpO3g",
+      "name": "Kurzgesagt – In a Nutshell",
+      "handle": "@Kurzgesagt",
+      "description": "Research-based explanations of science, society, technology, and long-term human questions.",
+      "accentColor": "0xFF16A34A",
+      "initials": "KI",
+      "focus": "Video Editing & Clipping: Research-based explanations of science, society, technology, and long-term human questions.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCq8ZAAsI89IoJ-fn1gYpO3g; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5Jnt7OgEHro3W7kr-jjCrw",
+      "name": "Big Think",
+      "handle": "@BigThink",
+      "description": "Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "accentColor": "0xFFD97706",
+      "initials": "BT",
+      "focus": "Video Editing & Clipping: Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5Jnt7OgEHro3W7kr-jjCrw; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCpH3Eia7Qsncq-qmhltZ6uQ",
+      "name": "PBS Idea Channel",
+      "handle": "@PBSIdeaChannel",
+      "description": "Media literacy, culture, technology, philosophy, and critical analysis.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "PI",
+      "focus": "Video Editing & Clipping: Media literacy, culture, technology, philosophy, and critical analysis.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCpH3Eia7Qsncq-qmhltZ6uQ; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLv7Gzc3VTO6ggFlXY0sOyw",
+      "name": "Harvard Online",
+      "handle": "@HarvardOnline",
+      "description": "University learning and professional education across leadership, health, data, and society.",
+      "accentColor": "0xFF0891B2",
+      "initials": "HO",
+      "focus": "Video Editing & Clipping: University learning and professional education across leadership, health, data, and society.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLv7Gzc3VTO6ggFlXY0sOyw; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC16niRr50-MSBwiO3YDb3RA",
+      "name": "BBC Ideas",
+      "handle": "@BBCIdeas",
+      "description": "Short explainers on society, philosophy, science, history, culture, and everyday decision-making.",
+      "accentColor": "0xFFDB4437",
+      "initials": "BI",
+      "focus": "Video Editing & Clipping: Short explainers on society, philosophy, science, history, culture, and everyday decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC16niRr50-MSBwiO3YDb3RA; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCxIJaCMEptJjxmmQgGFsnCg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "YC",
+      "focus": "Video Editing & Clipping: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "name": "Harvard Business Review",
+      "handle": "@HarvardBusinessReview",
+      "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
+      "accentColor": "0xFF9333EA",
+      "initials": "HB",
+      "focus": "Video Editing & Clipping: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWLGZL69LhjjgGRKhcAE_w",
+      "name": "Google for Startups",
+      "handle": "@GoogleforStartups",
+      "description": "Startup growth, technology, product, marketing, and founder education.",
+      "accentColor": "0xFFB45309",
+      "initials": "GF",
+      "focus": "Video Editing & Clipping: Startup growth, technology, product, marketing, and founder education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Video Editing & Clipping learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF475569",
+      "initials": "HM",
+      "focus": "Video Editing & Clipping: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Video Editing & Clipping learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +304,86 @@
       "url": "https://selar.com/blog/",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Nigerian digital product and creator economy blog."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -182,7 +392,7 @@
       "author": "Michael E. Gerber",
       "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
       "freeSourceType": "web",
-      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Google Books preview.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
@@ -192,7 +402,7 @@
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
       "freeSourceType": "web",
-      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
@@ -222,7 +432,7 @@
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://basecamp.com/books/rework",
       "freeSourceType": "web",
-      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Basecamp books.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
@@ -278,6 +488,7 @@
       "coverUrl": ""
     }
   ],
-  "integrationNotes": "Stub for Video Editing & Clipping. Capital: \u20a60. Summary: Edit long-form videos into Shorts/Reels, create captions, thumbnails and full edits for creators and brands using CapCut or Premiere.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
-  "actionRequired": "Nigeria-first list. CapCut and mobile editing prioritised. The Incubator Hub has structured training. Continue to 14 next."
+  "integrationNotes": "Stub for Video Editing & Clipping. Capital: ₦0. Summary: Edit long-form videos into Shorts/Reels, create captions, thumbnails and full edits for creators and brands using CapCut or Premiere.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": "Nigeria-first list. CapCut and mobile editing prioritised. The Incubator Hub has structured training. Continue to 14 next.",
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
 }

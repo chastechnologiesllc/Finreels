@@ -4,114 +4,244 @@
   "lastUpdated": "2026-08-23",
   "channels": [
     {
-      "id": "UC",
-      "name": "Bizliftng",
-      "handle": "@Bizliftng",
-      "description": "Nigerian channel teaching how to run Facebook/Meta ads for clients and agency setup.",
+      "id": "UC1emV4A8liRs9p80CY8ElUQ",
+      "name": "freeCodeCamp.org",
+      "handle": "@freecodecamp",
+      "description": "Free programming, web development, data, algorithms, and career learning.",
       "accentColor": "0xFF2563EB",
-      "initials": "BL",
-      "focus": "Meta ads agency & client management (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Practical 2026 client ads setup content for Nigerian media buyers."
+      "initials": "F",
+      "focus": "Facebook & Instagram Ads Management: Free programming, web development, data, algorithms, and career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1emV4A8liRs9p80CY8ElUQ; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Damini Williams",
-      "handle": "Damini Williams",
-      "description": "Nigerian educator teaching Facebook & Instagram ads for local businesses.",
-      "accentColor": "0xFF059669",
-      "initials": "DW",
-      "focus": "Facebook & Instagram ads in Nigeria",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Clear, local-budget focused ads teaching."
-    },
-    {
-      "id": "UC",
-      "name": "Nigerian Meta / Facebook ads tutors",
-      "handle": "search Facebook ads Nigeria tutorial 2026",
-      "description": "Search latest Nigerian creators teaching Meta Ads Manager, pixel, and local payment setups.",
-      "accentColor": "0xFFD97706",
-      "initials": "NG",
-      "focus": "Meta Ads for Nigerian market",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "High local demand skill."
-    },
-    {
-      "id": "UC",
-      "name": "Google Ads for Nigerian businesses",
-      "handle": "search Google Ads Nigeria tutorial",
-      "description": "Channels teaching Google Search & Display ads tailored to Nigerian search behaviour and budgets.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "GA",
-      "focus": "Google Ads management",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Complementary high-intent channel."
-    },
-    {
-      "id": "UC",
-      "name": "TikTok Ads for African markets",
-      "handle": "search TikTok ads Nigeria Africa",
-      "description": "Channels covering TikTok advertising for Nigerian and African audiences.",
-      "accentColor": "0xFFDC2626",
-      "initials": "TT",
-      "focus": "TikTok Ads",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Growing platform for younger audiences."
-    },
-    {
-      "id": "UC",
-      "name": "African digital ads educators",
-      "handle": "search Facebook ads Africa tutorial",
-      "description": "African creators teaching paid ads across the continent.",
-      "accentColor": "0xFF0891B2",
-      "initials": "AF",
-      "focus": "Ads management across Africa",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Africa-wide after Nigeria priority."
-    },
-    {
-      "id": "UC",
-      "name": "Media buyer / agency setup",
-      "handle": "search media buyer Nigeria Facebook ads",
-      "description": "Channels teaching how to become a media buyer and manage ads for multiple clients.",
-      "accentColor": "0xFFEA580C",
-      "initials": "MB",
-      "focus": "Media buying as a service",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Higher-earning freelance path."
-    },
-    {
-      "id": "UC",
-      "name": "Ad creative & copy for Nigerian audiences",
-      "handle": "search Facebook ad creative Nigeria",
-      "description": "Channels focused on creating ads that convert with local language, culture and offers.",
-      "accentColor": "0xFF4F46E5",
-      "initials": "CR",
-      "focus": "Local ad creative & copy",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Critical for performance."
-    },
-    {
-      "id": "UC",
-      "name": "Tracking, pixel & conversion optimisation",
-      "handle": "search Meta pixel CAPI Nigeria",
-      "description": "Practical channels on proper tracking setup for accurate results.",
+      "id": "UC29ju8bIPH5as8OGnQzwJyA",
+      "name": "Traversy Media",
+      "handle": "@TraversyMedia",
+      "description": "Web development, programming, APIs, tools, and project-based learning.",
       "accentColor": "0xFF16A34A",
-      "initials": "TR",
-      "focus": "Tracking & optimisation",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Essential technical skill."
+      "initials": "TM",
+      "focus": "Facebook & Instagram Ads Management: Web development, programming, APIs, tools, and project-based learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC29ju8bIPH5as8OGnQzwJyA; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Solid global ads foundations",
-      "handle": "search Meta Google ads beginners practical",
-      "description": "High-quality practical global ads teachers useful after local channels.",
+      "id": "UCW5YeuERMmlnqo4oq8vwUpg",
+      "name": "The Net Ninja",
+      "handle": "@NetNinja",
+      "description": "Web development, JavaScript, frameworks, databases, and coding projects.",
+      "accentColor": "0xFFD97706",
+      "initials": "TN",
+      "focus": "Facebook & Instagram Ads Management: Web development, JavaScript, frameworks, databases, and coding projects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCW5YeuERMmlnqo4oq8vwUpg; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2Xd-TjJByJyK2w1zNwY0zQ",
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "description": "Fast technical explainers on web development, cloud, AI, and software tools.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "F",
+      "focus": "Facebook & Instagram Ads Management: Fast technical explainers on web development, cloud, AI, and software tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2Xd-TjJByJyK2w1zNwY0zQ; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCJoS8wONbN1zKh2oKn1RbEw",
+      "name": "Corey Schafer",
+      "handle": "@CoreySchafer",
+      "description": "Python, programming fundamentals, automation, and developer workflows.",
+      "accentColor": "0xFF0891B2",
+      "initials": "CS",
+      "focus": "Facebook & Instagram Ads Management: Python, programming fundamentals, automation, and developer workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCJoS8wONbN1zKh2oKn1RbEw; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "name": "Programming with Mosh",
+      "handle": "@ProgrammingwithMosh",
+      "description": "Programming, software engineering, web development, and career skills.",
+      "accentColor": "0xFFDB4437",
+      "initials": "PW",
+      "focus": "Facebook & Instagram Ads Management: Programming, software engineering, web development, and career skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWv7vMbMWH4-V0ZXdmDpPBA; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "name": "Google for Developers",
+      "handle": "@GoogleDevelopers",
+      "description": "Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "accentColor": "0xFF0F766E",
+      "initials": "GF",
+      "focus": "Facebook & Instagram Ads Management: Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_x5XG1OV2P6uZZ5FSM9Ttw; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl7NIJlHZjJB_VisjGIhLUw",
+      "name": "Canva",
+      "handle": "@Canva",
+      "description": "Design, visual communication, social media content, and creator workflows.",
+      "accentColor": "0xFF9333EA",
+      "initials": "C",
+      "focus": "Facebook & Instagram Ads Management: Design, visual communication, social media content, and creator workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl7NIJlHZjJB_VisjGIhLUw; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
       "accentColor": "0xFFB45309",
-      "initials": "GL",
-      "focus": "Foundational ads skills",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Global layer after Nigeria/Africa."
+      "initials": "A",
+      "focus": "Facebook & Instagram Ads Management: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF475569",
+      "initials": "HM",
+      "focus": "Facebook & Instagram Ads Management: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwf_BHwAGw3DrK9dPjtnYAw",
+      "name": "Creator Wizard",
+      "handle": "@CreatorWizard",
+      "description": "Creator strategy, audience building, content systems, and digital products.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CW",
+      "focus": "Facebook & Instagram Ads Management: Creator strategy, audience building, content systems, and digital products.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwf_BHwAGw3DrK9dPjtnYAw; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKegeYEy0lJxpkjWRthaRMw",
+      "name": "Think Media",
+      "handle": "@ThinkMediaTV",
+      "description": "YouTube strategy, video systems, content marketing, and audience growth.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TM",
+      "focus": "Facebook & Instagram Ads Management: YouTube strategy, video systems, content marketing, and audience growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKegeYEy0lJxpkjWRthaRMw; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCSApI9wlWUEJMToyFvyIRKQ",
+      "name": "Pat Flynn",
+      "handle": "@patflynn",
+      "description": "Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "accentColor": "0xFFD97706",
+      "initials": "PF",
+      "focus": "Facebook & Instagram Ads Management: Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCSApI9wlWUEJMToyFvyIRKQ; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFzI5d_KJl69NNP8_0ttbOw",
+      "name": "Semrush",
+      "handle": "@Semrush",
+      "description": "SEO, digital marketing, analytics, content, and online business education.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "S",
+      "focus": "Facebook & Instagram Ads Management: SEO, digital marketing, analytics, content, and online business education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFzI5d_KJl69NNP8_0ttbOw; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCs26XZBwrSZLiTEH8wcoVXw",
+      "name": "Moz",
+      "handle": "@Moz",
+      "description": "SEO, search strategy, content, local marketing, and web visibility.",
+      "accentColor": "0xFF0891B2",
+      "initials": "M",
+      "focus": "Facebook & Instagram Ads Management: SEO, search strategy, content, local marketing, and web visibility.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCs26XZBwrSZLiTEH8wcoVXw; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "OF",
+      "focus": "Facebook & Instagram Ads Management: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "Y",
+      "focus": "Facebook & Instagram Ads Management: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SO",
+      "focus": "Facebook & Instagram Ads Management: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFFB45309",
+      "initials": "KA",
+      "focus": "Facebook & Instagram Ads Management: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF475569",
+      "initials": "C",
+      "focus": "Facebook & Instagram Ads Management: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Facebook & Instagram Ads Management learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +304,94 @@
       "url": "https://selar.com/blog/",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Nigerian digital product and creator economy blog."
+    },
+    {
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/",
+      "region": "Global",
+      "focus": "SEO, content strategy, keyword research, and audience growth.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Search Engine Land",
+      "url": "https://searchengineland.com/",
+      "region": "Global",
+      "focus": "Search, digital marketing, advertising, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Social Media Examiner",
+      "url": "https://www.socialmediaexaminer.com/",
+      "region": "Global",
+      "focus": "Social media strategy, content, advertising, and community.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Buffer Resources",
+      "url": "https://buffer.com/resources/",
+      "region": "Global",
+      "focus": "Social media, content creation, workflow, and creator practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Hootsuite Blog",
+      "url": "https://blog.hootsuite.com/",
+      "region": "Global",
+      "focus": "Social media management, analytics, content, and marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Later Blog",
+      "url": "https://later.com/blog/",
+      "region": "Global",
+      "focus": "Social media, creator marketing, content planning, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Copyblogger",
+      "url": "https://copyblogger.com/",
+      "region": "Global",
+      "focus": "Writing, content marketing, audience, and digital products.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Zapier Blog",
+      "url": "https://zapier.com/blog/",
+      "region": "Global",
+      "focus": "Automation, productivity, apps, workflows, and online operations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog",
+      "region": "Global",
+      "focus": "E-commerce, product, marketing, operations, and entrepreneurship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Moz Blog",
+      "url": "https://moz.com/blog",
+      "region": "Global",
+      "focus": "SEO, search strategy, content, and digital marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService resolves RSS/Atom alternates and conventional feed paths at runtime."
     }
   ],
   "books": [
@@ -469,5 +687,5 @@
   "actionRequired": [
     "2026-08-23: Review the 20 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ],
-  "notes": "2026-08-23: Added 20 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
+  "notes": "2026-08-23: Added 20 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
 }

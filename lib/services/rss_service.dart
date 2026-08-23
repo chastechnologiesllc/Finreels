@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xml/xml.dart';
 
 import '../models/video.dart';
+import 'youtube_channel_service.dart';
 
 /// Top-level function (required by compute()) — runs XML parsing on a
 /// background isolate instead of the UI isolate. With 12 channels fetched
@@ -113,10 +114,13 @@ class RssService {
     String channelId, {
     bool forceRefresh = false,
     int staggerMs = 0,
+    bool includeHistory = false,
   }) async {
-    if (!forceRefresh && _isMemFresh(channelId)) return _mem[channelId]!;
+    if (!includeHistory && !forceRefresh && _isMemFresh(channelId)) {
+      return _mem[channelId]!;
+    }
 
-    if (!forceRefresh && await _isDiskFresh(channelId)) {
+    if (!includeHistory && !forceRefresh && await _isDiskFresh(channelId)) {
       final disk = await _diskRead(channelId);
       if (disk.isNotEmpty) {
         _setMem(channelId, disk);
@@ -128,7 +132,10 @@ class RssService {
       await Future<void>.delayed(Duration(milliseconds: staggerMs));
     }
 
-    final videos = await _fetchWithRetry(channelId);
+    final videos = await _fetchWithRetry(
+      channelId,
+      includeHistory: includeHistory,
+    );
     if (videos.isNotEmpty) {
       _setMem(channelId, videos);
       await _diskWrite(channelId, videos);
@@ -141,7 +148,10 @@ class RssService {
 
   // ── Retry ─────────────────────────────────────────────────────────────────────
 
-  Future<List<Video>> _fetchWithRetry(String channelId) async {
+  Future<List<Video>?> _fetchWithRetry(
+    String channelId, {
+    bool includeHistory = false,
+  }) async {
     // Three attempts: immediate, 600ms, 2000ms.
     // Faster than the old [0, 1500, 5000] schedule — YouTube's RSS is rarely
     // slow enough to need more than a 600ms pause before the second try.
@@ -151,7 +161,15 @@ class RssService {
         await Future<void>.delayed(Duration(milliseconds: delays[i]));
       }
       final result = await _tryFetch(channelId);
-      if (result != null) return result;
+      if (result != null) {
+        if (includeHistory && result.isNotEmpty) {
+          return YoutubeChannelService.instance.fetchHistory(
+            channelId,
+            seed: result,
+          );
+        }
+        return result;
+      }
       debugPrint('[RssService] attempt ${i + 1} failed for $channelId');
     }
     return [];

@@ -48,8 +48,11 @@ class _ChannelVideosScreenState extends State<ChannelVideosScreen>
 
   Future<void> _load({bool force = false}) async {
     setState(() => _loading = true);
-    final videos = await RssService.instance
-        .fetchVideos(widget.channel.id, forceRefresh: force);
+    final videos = await RssService.instance.fetchVideos(
+      widget.channel.id,
+      forceRefresh: force,
+      includeHistory: true,
+    );
     if (mounted) setState(() { _all = videos; _loading = false; });
   }
 

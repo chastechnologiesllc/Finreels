@@ -1,117 +1,247 @@
 {
   "categoryId": "online_hustles_18_online_courses",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
-      "id": "UC",
-      "name": "Kesington Abdurrazaq",
-      "handle": "Kesington Abdurrazaq",
-      "description": "Nigerian creator teaching how to sell courses on Selar step-by-step.",
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
       "accentColor": "0xFF2563EB",
-      "initials": "KA",
-      "focus": "Selling courses on Selar",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Practical Selar course creation tutorials."
+      "initials": "OF",
+      "focus": "Online Course Creation: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Online Course Creation learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Nocode Africa (course creation)",
-      "handle": "@NocodeAfrica",
-      "description": "Teaching how to create and sell courses on Udemy, Selar, Patreon etc.",
-      "accentColor": "0xFF059669",
-      "initials": "NA",
-      "focus": "Course creation & monetisation",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Covers multiple platforms."
-    },
-    {
-      "id": "UC",
-      "name": "Selar course tutors",
-      "handle": "search create course Selar Nigeria",
-      "description": "Channels teaching course packaging and sales specifically on Selar.",
-      "accentColor": "0xFFD97706",
-      "initials": "SL",
-      "focus": "Selar course business",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Dominant local platform."
-    },
-    {
-      "id": "UC",
-      "name": "Course content creation systems",
-      "handle": "search how to create online course Nigeria",
-      "description": "Channels on recording, structuring and packaging course content.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "CC",
-      "focus": "Course production",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Core production skill."
-    },
-    {
-      "id": "UC",
-      "name": "Udemy / global course platforms",
-      "handle": "search Udemy course creation Nigeria",
-      "description": "Channels covering Udemy and international course marketplaces.",
-      "accentColor": "0xFFDC2626",
-      "initials": "UD",
-      "focus": "Global course platforms",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Dollar income path."
-    },
-    {
-      "id": "UC",
-      "name": "African course creators",
-      "handle": "search online course Africa Selar",
-      "description": "African educators teaching course businesses.",
-      "accentColor": "0xFF0891B2",
-      "initials": "AF",
-      "focus": "Courses across Africa",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Africa-wide layer."
-    },
-    {
-      "id": "UC",
-      "name": "Pricing & launch strategies for courses",
-      "handle": "search course pricing launch Nigeria",
-      "description": "Channels on pricing, funnels and launching courses successfully.",
-      "accentColor": "0xFFEA580C",
-      "initials": "PR",
-      "focus": "Course marketing & launch",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Conversion skills."
-    },
-    {
-      "id": "UC",
-      "name": "Evergreen vs live course models",
-      "handle": "search evergreen course vs cohort",
-      "description": "Channels comparing different course delivery models.",
-      "accentColor": "0xFF4F46E5",
-      "initials": "MD",
-      "focus": "Course business models",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Strategic choice."
-    },
-    {
-      "id": "UC",
-      "name": "Audience building for course creators",
-      "handle": "search build audience for online course",
-      "description": "Channels teaching how to attract students before launching.",
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
       "accentColor": "0xFF16A34A",
-      "initials": "AU",
-      "focus": "Audience & waitlists",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Pre-launch critical."
+      "initials": "Y",
+      "focus": "Online Course Creation: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Online Course Creation learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Solid global course creation foundations",
-      "handle": "search create sell online course beginners",
-      "description": "High-quality global course teachers after local ones.",
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFD97706",
+      "initials": "SO",
+      "focus": "Online Course Creation: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "Online Course Creation: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "Online Course Creation: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFDB4437",
+      "initials": "V",
+      "focus": "Online Course Creation: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF0F766E",
+      "initials": "S",
+      "focus": "Online Course Creation: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
+      "name": "The School of Life",
+      "handle": "@TheSchoolOfLife",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "Online Course Creation: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8c9l98f2Zq4l9YnbmutPTw; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
       "accentColor": "0xFFB45309",
-      "initials": "GL",
-      "focus": "Foundational course skills",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Global layer."
+      "initials": "S",
+      "focus": "Online Course Creation: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF475569",
+      "initials": "N",
+      "focus": "Online Course Creation: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF2563EB",
+      "initials": "3",
+      "focus": "Online Course Creation: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCq8ZAAsI89IoJ-fn1gYpO3g",
+      "name": "Kurzgesagt – In a Nutshell",
+      "handle": "@Kurzgesagt",
+      "description": "Research-based explanations of science, society, technology, and long-term human questions.",
+      "accentColor": "0xFF16A34A",
+      "initials": "KI",
+      "focus": "Online Course Creation: Research-based explanations of science, society, technology, and long-term human questions.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCq8ZAAsI89IoJ-fn1gYpO3g; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5Jnt7OgEHro3W7kr-jjCrw",
+      "name": "Big Think",
+      "handle": "@BigThink",
+      "description": "Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "accentColor": "0xFFD97706",
+      "initials": "BT",
+      "focus": "Online Course Creation: Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5Jnt7OgEHro3W7kr-jjCrw; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCpH3Eia7Qsncq-qmhltZ6uQ",
+      "name": "PBS Idea Channel",
+      "handle": "@PBSIdeaChannel",
+      "description": "Media literacy, culture, technology, philosophy, and critical analysis.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "PI",
+      "focus": "Online Course Creation: Media literacy, culture, technology, philosophy, and critical analysis.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCpH3Eia7Qsncq-qmhltZ6uQ; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLv7Gzc3VTO6ggFlXY0sOyw",
+      "name": "Harvard Online",
+      "handle": "@HarvardOnline",
+      "description": "University learning and professional education across leadership, health, data, and society.",
+      "accentColor": "0xFF0891B2",
+      "initials": "HO",
+      "focus": "Online Course Creation: University learning and professional education across leadership, health, data, and society.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLv7Gzc3VTO6ggFlXY0sOyw; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC16niRr50-MSBwiO3YDb3RA",
+      "name": "BBC Ideas",
+      "handle": "@BBCIdeas",
+      "description": "Short explainers on society, philosophy, science, history, culture, and everyday decision-making.",
+      "accentColor": "0xFFDB4437",
+      "initials": "BI",
+      "focus": "Online Course Creation: Short explainers on society, philosophy, science, history, culture, and everyday decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC16niRr50-MSBwiO3YDb3RA; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCxIJaCMEptJjxmmQgGFsnCg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "YC",
+      "focus": "Online Course Creation: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "name": "Harvard Business Review",
+      "handle": "@HarvardBusinessReview",
+      "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
+      "accentColor": "0xFF9333EA",
+      "initials": "HB",
+      "focus": "Online Course Creation: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWLGZL69LhjjgGRKhcAE_w",
+      "name": "Google for Startups",
+      "handle": "@GoogleforStartups",
+      "description": "Startup growth, technology, product, marketing, and founder education.",
+      "accentColor": "0xFFB45309",
+      "initials": "GF",
+      "focus": "Online Course Creation: Startup growth, technology, product, marketing, and founder education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Online Course Creation learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF475569",
+      "initials": "HM",
+      "focus": "Online Course Creation: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Online Course Creation learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +304,86 @@
       "url": "https://selar.com/blog/",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Nigerian digital product and creator economy blog."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -182,7 +392,7 @@
       "author": "Michael E. Gerber",
       "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
       "freeSourceType": "web",
-      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Google Books preview.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
@@ -192,7 +402,7 @@
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
       "freeSourceType": "web",
-      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
@@ -222,7 +432,7 @@
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://basecamp.com/books/rework",
       "freeSourceType": "web",
-      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Basecamp books.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
@@ -279,5 +489,6 @@
     }
   ],
   "integrationNotes": "Stub for Online Course Creation. Capital: Low. Summary: Package your knowledge into structured courses sold on Selar, Teachable or own platform; combine with coaching.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
-  "actionRequired": "Nigeria-first. Selar-focused tutors prioritised."
+  "actionRequired": "Nigeria-first. Selar-focused tutors prioritised.",
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
 }

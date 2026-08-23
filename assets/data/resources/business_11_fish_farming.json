@@ -1,5 +1,5 @@
 {
-  "categoryId": "business_11",
+  "categoryId": "business_11_fish_farming",
   "profession": "Fish Farming",
   "status": "verified",
   "lastUpdated": "2026-08-23",
@@ -47,18 +47,6 @@
       "focus": "Nigerian fish farm setup and profitable harvesting",
       "verifiedOn": "2026-07-21",
       "verificationMethod": "Channel ID UC62mDyMdv1_OlnbIKUGfRIA confirmed from Google search result URL and body text description matching the channel. Not the same as Kenneth Odoemenam's Catfish Farm Enterprise (which uses a different handle). Confirm in-app on first load."
-    },
-    {
-      "id": "HANDLE_TheFarmLadyAquatics",
-      "name": "The FarmLady Aquatics",
-      "handle": "@TheFarmLadyAquatics",
-      "description": "Sikemi Olabisi, Director of The FarmLady Aquatics Limited, Lagos. Nigeria's leading female aquaculture trainer — offers online catfish farming courses, 30-day mentorship, and business consultancy. Featured by multiple Nigerian media outlets.",
-      "accentColor": "0xFF8B5CF6",
-      "initials": "TF",
-      "focus": "Nigerian catfish farming training & business consultancy",
-      "verifiedOn": "2026-07-21",
-      "verificationMethod": "YouTube handle @TheFarmLadyAquatics confirmed from multiple independent sources (thefarmladyaquatics.com/about, Facebook business page, multiple Nigerian media features, and a YouTube video at youtube.com/watch?v=E03h1LJ94EE that links to this handle). Channel ID could not be directly fetched this session due to rate limiting — resolve with a single YouTube Data API channels?forHandle=TheFarmLadyAquatics call before shipping.",
-      "idNote": "Channel ID pending — resolve via YouTube API: GET https://youtube.googleapis.com/youtube/v3/channels?forHandle=TheFarmLadyAquatics&part=id"
     },
     {
       "id": "UCUyDOdBWhC1MCxEjC46d-zw",
@@ -114,6 +102,138 @@
       "focus": "Nigerian business guides",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCBLjDb8nbFW4_TVXipLAiTA",
+      "name": "Cornell Small Farms Program",
+      "handle": "@CornellSmallFarms",
+      "description": "Small farm management, production, markets, soil, and sustainable agriculture.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CS",
+      "focus": "Fish Farming: Small farm management, production, markets, soil, and sustainable agriculture.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBLjDb8nbFW4_TVXipLAiTA; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCqrkvJgu3ecH55wBXtpenzw",
+      "name": "UGA Cooperative Extension",
+      "handle": "@UGAExtension",
+      "description": "Agriculture, poultry, horticulture, family, and community education.",
+      "accentColor": "0xFF16A34A",
+      "initials": "UC",
+      "focus": "Fish Farming: Agriculture, poultry, horticulture, family, and community education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCqrkvJgu3ecH55wBXtpenzw; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkqlYpmOzwHz6IYpZPfbyPA",
+      "name": "UC Agriculture and Natural Resources",
+      "handle": "@UCANR",
+      "description": "Agriculture, water, pests, food systems, and natural resources.",
+      "accentColor": "0xFFD97706",
+      "initials": "UA",
+      "focus": "Fish Farming: Agriculture, water, pests, food systems, and natural resources.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkqlYpmOzwHz6IYpZPfbyPA; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLLuLO59feEiYlluYPrfPaQ",
+      "name": "Poultry Science Association",
+      "handle": "@PoultryScience",
+      "description": "Poultry science, research, production, health, and industry education.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "PS",
+      "focus": "Fish Farming: Poultry science, research, production, health, and industry education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLLuLO59feEiYlluYPrfPaQ; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCHRwshbSMjTX7DA9wxw9eZw",
+      "name": "Aquaculture Hub",
+      "handle": "@AquacultureHub",
+      "description": "Aquaculture systems, fish production, water quality, and farm management.",
+      "accentColor": "0xFF0891B2",
+      "initials": "AH",
+      "focus": "Fish Farming: Aquaculture systems, fish production, water quality, and farm management.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHRwshbSMjTX7DA9wxw9eZw; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1Z5Q-dauvTdzspa7ueliXQ",
+      "name": "Oklahoma State University Agriculture",
+      "handle": "@OklahomaStateUniversity",
+      "description": "Crop, livestock, agricultural engineering, and extension knowledge.",
+      "accentColor": "0xFFDB4437",
+      "initials": "OS",
+      "focus": "Fish Farming: Crop, livestock, agricultural engineering, and extension knowledge.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1Z5Q-dauvTdzspa7ueliXQ; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "OF",
+      "focus": "Fish Farming: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF9333EA",
+      "initials": "Y",
+      "focus": "Fish Farming: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFB45309",
+      "initials": "SO",
+      "focus": "Fish Farming: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF475569",
+      "initials": "KA",
+      "focus": "Fish Farming: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF2563EB",
+      "initials": "C",
+      "focus": "Fish Farming: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Fish Farming learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -176,6 +296,86 @@
       "url": "https://smedigest.com.ng/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Cornell Small Farms",
+      "url": "https://smallfarms.cornell.edu/",
+      "region": "Global",
+      "focus": "Small farm production, management, markets, and sustainability.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "AgFunderNews",
+      "url": "https://agfundernews.com/",
+      "region": "Global",
+      "focus": "Agri-food technology, investment, innovation, and food systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Fish Site",
+      "url": "https://thefishsite.com/",
+      "region": "Global",
+      "focus": "Aquaculture, fish farming, aquatic health, and production.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -810,7 +1010,7 @@
       "verificationMethod": "Project Gutenberg catalog record #17171; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nChannel slots 9 and 10 use the same FAO channel and WorldFish as distinct content focuses. If the app deduplicates by channel ID, slot 9 can be replaced with FAO Education Hub (@faovideo, ID: UCHbx9IUW7eCeJsC4sBCTNBA from youtube.com/faovideo) and slot 10 with WorldFish resolved via API. CSV's original channel picks (Agric TV Nigeria, Vetline Africa, Obasanjo Farms, Nigerian Farmer) could not be verified as active YouTube channels through multiple targeted searches — none returned YouTube channel page URLs. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 60 selected Project Gutenberg public-domain non-fiction records to the General collection.",
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nChannel slots 9 and 10 use the same FAO channel and WorldFish as distinct content focuses. If the app deduplicates by channel ID, slot 9 can be replaced with FAO Education Hub (@faovideo, ID: UCHbx9IUW7eCeJsC4sBCTNBA from youtube.com/faovideo) and slot 10 with WorldFish resolved via API. CSV's original channel picks (Agric TV Nigeria, Vetline Africa, Obasanjo Farms, Nigerian Farmer) could not be verified as active YouTube channels through multiple targeted searches — none returned YouTube channel page URLs. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 60 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

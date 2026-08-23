@@ -1,117 +1,247 @@
 {
   "categoryId": "online_hustles_02_affiliate_marketing",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
-      "id": "UC",
-      "name": "Abraham Aiyejinna",
-      "handle": "@AbrahamAiyejinna",
-      "description": "Nigerian creator with practical tutorials on becoming an affiliate on Selar, Stakecut and Expertnaire.",
+      "id": "UC1emV4A8liRs9p80CY8ElUQ",
+      "name": "freeCodeCamp.org",
+      "handle": "@freecodecamp",
+      "description": "Free programming, web development, data, algorithms, and career learning.",
       "accentColor": "0xFF2563EB",
-      "initials": "AA",
-      "focus": "Stakecut, Selar, Expertnaire affiliate how-to (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Has dedicated videos on joining the three main Nigerian platforms."
+      "initials": "F",
+      "focus": "Affiliate Marketing: Free programming, web development, data, algorithms, and career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1emV4A8liRs9p80CY8ElUQ; selected for the Affiliate Marketing learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Sola Mathew",
-      "handle": "@SolaMathew",
-      "description": "Nigerian affiliate marketing tutorials focused on Expertnaire and practical systems.",
-      "accentColor": "0xFF059669",
-      "initials": "SM",
-      "focus": "Expertnaire affiliate marketing (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Playlist and videos specifically on Expertnaire affiliate strategies."
-    },
-    {
-      "id": "UC",
-      "name": "ClickStartNG / Johnson Baso related",
-      "handle": "search ClickStartNG affiliate",
-      "description": "Practical Nigerian affiliate marketing content around Stakecut, Selar and zero-capital methods.",
-      "accentColor": "0xFFD97706",
-      "initials": "CS",
-      "focus": "Stakecut & Selar beginner systems (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Strong written + video content focused on Nigerian platforms."
-    },
-    {
-      "id": "UC",
-      "name": "Joshuasteve Sopulu / Smart Affiliate",
-      "handle": "search Joshuasteve Sopulu Stakecut",
-      "description": "Nigerian top Stakecut affiliate sharing practical methods that work on the platform.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "JS",
-      "focus": "Stakecut affiliate strategies (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Known top performer on Stakecut with teaching content."
-    },
-    {
-      "id": "UC",
-      "name": "Toyin Omotoso / Expertnaire related",
-      "handle": "search Toyin Omotoso Expertnaire",
-      "description": "Content connected to Expertnaire founder and high-ticket Nigerian affiliate systems.",
-      "accentColor": "0xFFDC2626",
-      "initials": "TO",
-      "focus": "Expertnaire ecosystem (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Core platform content and affiliate training."
-    },
-    {
-      "id": "UC",
-      "name": "Nigerian Stakecut / Selar tutors",
-      "handle": "search Stakecut affiliate tutorial Nigeria",
-      "description": "Search latest Nigerian creators teaching Stakecut and Selar step-by-step with payment proofs.",
-      "accentColor": "0xFF0891B2",
-      "initials": "NG",
-      "focus": "Current Stakecut & Selar tutorials (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Many active Nigerian creators post regular platform walkthroughs."
-    },
-    {
-      "id": "UC",
-      "name": "African digital product affiliates",
-      "handle": "search affiliate marketing Ghana Kenya Selar",
-      "description": "African creators (Ghana, Kenya, etc.) teaching Selar and cross-border digital product affiliate methods.",
-      "accentColor": "0xFFEA580C",
-      "initials": "AF",
-      "focus": "Selar and African digital product affiliates",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Growing African creator content on the same platforms."
-    },
-    {
-      "id": "UC",
-      "name": "Systeme.io / recurring affiliate teachers",
-      "handle": "search Systeme.io affiliate Nigeria",
-      "description": "Channels teaching Systeme.io and other recurring commission models accessible to Nigerians.",
-      "accentColor": "0xFF4F46E5",
-      "initials": "SY",
-      "focus": "Recurring affiliate systems",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Useful for higher-ticket long-term income."
-    },
-    {
-      "id": "UC",
-      "name": "Practical global affiliate educators (non-hype)",
-      "handle": "search affiliate marketing beginners no hype",
-      "description": "Global channels that teach real affiliate systems without extreme hype (useful after local platforms).",
+      "id": "UC29ju8bIPH5as8OGnQzwJyA",
+      "name": "Traversy Media",
+      "handle": "@TraversyMedia",
+      "description": "Web development, programming, APIs, tools, and project-based learning.",
       "accentColor": "0xFF16A34A",
-      "initials": "GL",
-      "focus": "Solid global affiliate fundamentals",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Selected for practical value after Nigerian platforms."
+      "initials": "TM",
+      "focus": "Affiliate Marketing: Web development, programming, APIs, tools, and project-based learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC29ju8bIPH5as8OGnQzwJyA; selected for the Affiliate Marketing learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Jumia / physical product affiliate creators",
-      "handle": "search Jumia affiliate tutorial Nigeria",
-      "description": "Nigerian creators showing how to promote physical products via Jumia Affiliate and similar programmes.",
+      "id": "UCW5YeuERMmlnqo4oq8vwUpg",
+      "name": "The Net Ninja",
+      "handle": "@NetNinja",
+      "description": "Web development, JavaScript, frameworks, databases, and coding projects.",
+      "accentColor": "0xFFD97706",
+      "initials": "TN",
+      "focus": "Affiliate Marketing: Web development, JavaScript, frameworks, databases, and coding projects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCW5YeuERMmlnqo4oq8vwUpg; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2Xd-TjJByJyK2w1zNwY0zQ",
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "description": "Fast technical explainers on web development, cloud, AI, and software tools.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "F",
+      "focus": "Affiliate Marketing: Fast technical explainers on web development, cloud, AI, and software tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2Xd-TjJByJyK2w1zNwY0zQ; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCJoS8wONbN1zKh2oKn1RbEw",
+      "name": "Corey Schafer",
+      "handle": "@CoreySchafer",
+      "description": "Python, programming fundamentals, automation, and developer workflows.",
+      "accentColor": "0xFF0891B2",
+      "initials": "CS",
+      "focus": "Affiliate Marketing: Python, programming fundamentals, automation, and developer workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCJoS8wONbN1zKh2oKn1RbEw; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "name": "Programming with Mosh",
+      "handle": "@ProgrammingwithMosh",
+      "description": "Programming, software engineering, web development, and career skills.",
+      "accentColor": "0xFFDB4437",
+      "initials": "PW",
+      "focus": "Affiliate Marketing: Programming, software engineering, web development, and career skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWv7vMbMWH4-V0ZXdmDpPBA; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "name": "Google for Developers",
+      "handle": "@GoogleDevelopers",
+      "description": "Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "accentColor": "0xFF0F766E",
+      "initials": "GF",
+      "focus": "Affiliate Marketing: Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_x5XG1OV2P6uZZ5FSM9Ttw; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl7NIJlHZjJB_VisjGIhLUw",
+      "name": "Canva",
+      "handle": "@Canva",
+      "description": "Design, visual communication, social media content, and creator workflows.",
+      "accentColor": "0xFF9333EA",
+      "initials": "C",
+      "focus": "Affiliate Marketing: Design, visual communication, social media content, and creator workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl7NIJlHZjJB_VisjGIhLUw; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
       "accentColor": "0xFFB45309",
-      "initials": "JU",
-      "focus": "Jumia and physical product affiliates (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Complements digital product platforms."
+      "initials": "A",
+      "focus": "Affiliate Marketing: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF475569",
+      "initials": "HM",
+      "focus": "Affiliate Marketing: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwf_BHwAGw3DrK9dPjtnYAw",
+      "name": "Creator Wizard",
+      "handle": "@CreatorWizard",
+      "description": "Creator strategy, audience building, content systems, and digital products.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CW",
+      "focus": "Affiliate Marketing: Creator strategy, audience building, content systems, and digital products.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwf_BHwAGw3DrK9dPjtnYAw; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKegeYEy0lJxpkjWRthaRMw",
+      "name": "Think Media",
+      "handle": "@ThinkMediaTV",
+      "description": "YouTube strategy, video systems, content marketing, and audience growth.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TM",
+      "focus": "Affiliate Marketing: YouTube strategy, video systems, content marketing, and audience growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKegeYEy0lJxpkjWRthaRMw; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCSApI9wlWUEJMToyFvyIRKQ",
+      "name": "Pat Flynn",
+      "handle": "@patflynn",
+      "description": "Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "accentColor": "0xFFD97706",
+      "initials": "PF",
+      "focus": "Affiliate Marketing: Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCSApI9wlWUEJMToyFvyIRKQ; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFzI5d_KJl69NNP8_0ttbOw",
+      "name": "Semrush",
+      "handle": "@Semrush",
+      "description": "SEO, digital marketing, analytics, content, and online business education.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "S",
+      "focus": "Affiliate Marketing: SEO, digital marketing, analytics, content, and online business education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFzI5d_KJl69NNP8_0ttbOw; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCs26XZBwrSZLiTEH8wcoVXw",
+      "name": "Moz",
+      "handle": "@Moz",
+      "description": "SEO, search strategy, content, local marketing, and web visibility.",
+      "accentColor": "0xFF0891B2",
+      "initials": "M",
+      "focus": "Affiliate Marketing: SEO, search strategy, content, local marketing, and web visibility.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCs26XZBwrSZLiTEH8wcoVXw; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "OF",
+      "focus": "Affiliate Marketing: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "Y",
+      "focus": "Affiliate Marketing: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SO",
+      "focus": "Affiliate Marketing: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFFB45309",
+      "initials": "KA",
+      "focus": "Affiliate Marketing: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Affiliate Marketing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF475569",
+      "initials": "C",
+      "focus": "Affiliate Marketing: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Affiliate Marketing learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +304,94 @@
       "url": "https://techcabal.com/feed/",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "African tech media with creator and monetization coverage."
+    },
+    {
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/",
+      "region": "Global",
+      "focus": "SEO, content strategy, keyword research, and audience growth.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Search Engine Land",
+      "url": "https://searchengineland.com/",
+      "region": "Global",
+      "focus": "Search, digital marketing, advertising, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Social Media Examiner",
+      "url": "https://www.socialmediaexaminer.com/",
+      "region": "Global",
+      "focus": "Social media strategy, content, advertising, and community.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Buffer Resources",
+      "url": "https://buffer.com/resources/",
+      "region": "Global",
+      "focus": "Social media, content creation, workflow, and creator practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Hootsuite Blog",
+      "url": "https://blog.hootsuite.com/",
+      "region": "Global",
+      "focus": "Social media management, analytics, content, and marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Later Blog",
+      "url": "https://later.com/blog/",
+      "region": "Global",
+      "focus": "Social media, creator marketing, content planning, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Copyblogger",
+      "url": "https://copyblogger.com/",
+      "region": "Global",
+      "focus": "Writing, content marketing, audience, and digital products.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Zapier Blog",
+      "url": "https://zapier.com/blog/",
+      "region": "Global",
+      "focus": "Automation, productivity, apps, workflows, and online operations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog",
+      "region": "Global",
+      "focus": "E-commerce, product, marketing, operations, and entrepreneurship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Moz Blog",
+      "url": "https://moz.com/blog",
+      "region": "Global",
+      "focus": "SEO, search strategy, content, and digital marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService resolves RSS/Atom alternates and conventional feed paths at runtime."
     }
   ],
   "books": [
@@ -182,7 +400,7 @@
       "author": "Michael E. Gerber",
       "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
       "freeSourceType": "web",
-      "freeSourceNote": "Free preview \u2014 essential for turning random affiliate activity into a systematic business.",
+      "freeSourceNote": "Free preview — essential for turning random affiliate activity into a systematic business.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Google Books preview.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
@@ -192,7 +410,7 @@
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
       "freeSourceType": "web",
-      "freeSourceNote": "Free chapter \u2014 critical for managing commission income and avoiding lifestyle inflation.",
+      "freeSourceNote": "Free chapter — critical for managing commission income and avoiding lifestyle inflation.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
@@ -202,7 +420,7 @@
       "author": "Eric Ries",
       "freeSourceUrl": "https://theleanstartup.com",
       "freeSourceType": "web",
-      "freeSourceNote": "Free methodology \u2014 test product angles and traffic sources quickly.",
+      "freeSourceNote": "Free methodology — test product angles and traffic sources quickly.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
@@ -222,7 +440,7 @@
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://basecamp.com/books/rework",
       "freeSourceType": "web",
-      "freeSourceNote": "Free excerpts \u2014 simplicity in building an online income stream.",
+      "freeSourceNote": "Free excerpts — simplicity in building an online income stream.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Basecamp books.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
@@ -232,7 +450,7 @@
       "author": "Josh Kaufman",
       "freeSourceUrl": "https://personalmba.com",
       "freeSourceType": "web",
-      "freeSourceNote": "Free concepts list \u2014 business fundamentals for affiliates.",
+      "freeSourceNote": "Free concepts list — business fundamentals for affiliates.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591843528-L.jpg"
@@ -262,7 +480,7 @@
       "author": "Cal Newport",
       "freeSourceUrl": "https://www.calnewport.com/books/so-good/",
       "freeSourceType": "web",
-      "freeSourceNote": "Career capital \u2014 why skill and trust matter more than pure hustle.",
+      "freeSourceNote": "Career capital — why skill and trust matter more than pure hustle.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455505623-L.jpg"
@@ -278,6 +496,7 @@
       "coverUrl": ""
     }
   ],
-  "integrationNotes": "Affiliate Marketing is the highest-leverage \u20a60 starting hustle for most Nigerians in 2026. Primary platforms: StakeCut (best beginner naira, free join, weekly bank transfer), Selar (creator marketplace, 20\u201350%), Expertnaire (higher commissions up to 75%, better for those with audience). Secondary: Jumia/Konga for physical, Systeme.io/ClickBank for dollar recurring. Promotion channels that work without a website: WhatsApp Status + broadcast, TikTok, Facebook groups, Instagram. Always verify current payout rules and product quality before promoting. Official StakeCut channel ID confirmed.",
-  "actionRequired": "Nigeria-first list created. Exact UC IDs still need lookup for most. Continue to Category 03 next."
+  "integrationNotes": "Affiliate Marketing is the highest-leverage ₦0 starting hustle for most Nigerians in 2026. Primary platforms: StakeCut (best beginner naira, free join, weekly bank transfer), Selar (creator marketplace, 20–50%), Expertnaire (higher commissions up to 75%, better for those with audience). Secondary: Jumia/Konga for physical, Systeme.io/ClickBank for dollar recurring. Promotion channels that work without a website: WhatsApp Status + broadcast, TikTok, Facebook groups, Instagram. Always verify current payout rules and product quality before promoting. Official StakeCut channel ID confirmed.",
+  "actionRequired": "Nigeria-first list created. Exact UC IDs still need lookup for most. Continue to Category 03 next.",
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
 }

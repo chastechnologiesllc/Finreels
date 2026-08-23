@@ -1,7 +1,7 @@
 {
-  "categoryId": "skill_real_estate_agency",
+  "categoryId": "business_05_real_estate_agency",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCFvGW2SGrjigO5QzT7DPkJQ",
@@ -59,28 +59,6 @@
       "verificationMethod": "Channel ID live-verified via YouTube page fetch. CORRECTED: CSV had 'BusinessDay Real Estate' as a separate sub-channel — no such channel exists. Using main @BDTV-NG."
     },
     {
-      "id": "",
-      "name": "Dayo Adetiloye Business Hub",
-      "handle": "@DayoAdetiloye",
-      "description": "Nigerian business coach covering real estate agency business plans, funding and growth strategies.",
-      "accentColor": "0xFFD97706",
-      "initials": "DA",
-      "focus": "Nigerian real estate business education",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Nigerian business education with real estate content."
-    },
-    {
-      "id": "",
-      "name": "JP Iwuoha — Smallstarter Africa",
-      "handle": "@jp_iwuoha",
-      "description": "Pan-African entrepreneurship — business strategy and practical guides including property and agency businesses.",
-      "accentColor": "0xFF4F46E5",
-      "initials": "SA",
-      "focus": "African business strategy",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Confirmed African entrepreneurship platform."
-    },
-    {
       "id": "UCIHdDJ0tjn_3j-FS7s_X1kQ",
       "name": "Valuetainment",
       "handle": "@Valuetainment",
@@ -112,6 +90,150 @@
       "focus": "Nigerian real estate business",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed Nigerian entrepreneurship channel."
+    },
+    {
+      "id": "UCxIJaCMEptJjxmmQgGFsnCg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "YC",
+      "focus": "Real Estate Agency: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "name": "Harvard Business Review",
+      "handle": "@HarvardBusinessReview",
+      "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
+      "accentColor": "0xFF16A34A",
+      "initials": "HB",
+      "focus": "Real Estate Agency: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWLGZL69LhjjgGRKhcAE_w",
+      "name": "Google for Startups",
+      "handle": "@GoogleforStartups",
+      "description": "Startup growth, technology, product, marketing, and founder education.",
+      "accentColor": "0xFFD97706",
+      "initials": "GF",
+      "focus": "Real Estate Agency: Startup growth, technology, product, marketing, and founder education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "HM",
+      "focus": "Real Estate Agency: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
+      "accentColor": "0xFF0891B2",
+      "initials": "A",
+      "focus": "Real Estate Agency: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
+      "name": "Neil Patel",
+      "handle": "@NeilPatel",
+      "description": "Digital marketing, SEO, content, customer acquisition, and online business.",
+      "accentColor": "0xFFDB4437",
+      "initials": "NP",
+      "focus": "Real Estate Agency: Digital marketing, SEO, content, customer acquisition, and online business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl-Zrl0QhF66lu1aGXaTbfw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCA2CiHJ0xCLC6Dt7w5_Hxvw",
+      "name": "Money & Macro",
+      "handle": "@MoneyMacro",
+      "description": "Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "MM",
+      "focus": "Real Estate Agency: Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCA2CiHJ0xCLC6Dt7w5_Hxvw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOErWFfNOQzXsgE7f5S_ULw",
+      "name": "Ben Felix",
+      "handle": "@BenFelixCSI",
+      "description": "Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "accentColor": "0xFF9333EA",
+      "initials": "BF",
+      "focus": "Real Estate Agency: Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOErWFfNOQzXsgE7f5S_ULw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFCEuCsyWP0YkP3CZ3Mr01Q",
+      "name": "The Plain Bagel",
+      "handle": "@ThePlainBagel",
+      "description": "Investing, economics, personal finance, risk, and financial decision-making.",
+      "accentColor": "0xFFB45309",
+      "initials": "TP",
+      "focus": "Real Estate Agency: Investing, economics, personal finance, risk, and financial decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFCEuCsyWP0YkP3CZ3Mr01Q; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLvnJL8htRR1T9cbSccaoVw",
+      "name": "Aswath Damodaran",
+      "handle": "@AswathDamodaranonValuation",
+      "description": "Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "accentColor": "0xFF475569",
+      "initials": "AD",
+      "focus": "Real Estate Agency: Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLvnJL8htRR1T9cbSccaoVw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCHwkW7lTTzf19xg5R4gfwVw",
+      "name": "CFA Institute",
+      "handle": "@CFAInstitute",
+      "description": "Investment analysis, ethics, portfolio management, and professional finance.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CI",
+      "focus": "Real Estate Agency: Investment analysis, ethics, portfolio management, and professional finance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHwkW7lTTzf19xg5R4gfwVw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChjfv8-vAA1CZA84f-h5X_Q",
+      "name": "GaryVee",
+      "handle": "@GaryVee",
+      "description": "Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "accentColor": "0xFF16A34A",
+      "initials": "G",
+      "focus": "Real Estate Agency: Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChjfv8-vAA1CZA84f-h5X_Q; selected for the Real Estate Agency learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +296,86 @@
       "url": "https://howwemadeitinafrica.com/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -282,5 +484,6 @@
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
-  ]
+  ],
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
 }

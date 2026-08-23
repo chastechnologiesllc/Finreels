@@ -197,20 +197,80 @@ class BlogRssService {
 
       final response = await http.get(Uri.parse(url), headers: {
         'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
-        'Accept': 'application/rss+xml, application/xml, text/xml',
+        'Accept': 'application/rss+xml, application/xml, text/html;q=0.9',
       }).timeout(const Duration(seconds: 12));
 
       if (response.statusCode != 200) return [];
-
       final body = response.body;
-      return await compute<List<String>, List<BlogArticle>>(
-        (args) => _parse(args[0], args[1], args[2].isEmpty ? null : args[2]),
-        [body, sourceName, categoryId ?? ''],
-      );
+      if (_looksLikeXml(body)) {
+        return await _parseBody(body, sourceName, categoryId);
+      }
+
+      // Many high-quality sources publish a homepage in their catalog rather
+      // than a raw feed URL. Discover the declared RSS/Atom alternate, then
+      // fetch that feed. This keeps the JSON human-friendly and makes the
+      // source work on native builds without requiring a hard-coded /feed path.
+      for (final discovered in _discoverFeedUrls(body, url)) {
+        final feedResponse = await http.get(Uri.parse(discovered), headers: {
+          'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
+          'Accept': 'application/rss+xml, application/xml, text/xml',
+        }).timeout(const Duration(seconds: 12));
+        if (feedResponse.statusCode != 200 || !_looksLikeXml(feedResponse.body)) {
+          continue;
+        }
+        final articles = await _parseBody(feedResponse.body, sourceName, categoryId);
+        if (articles.isNotEmpty) return articles;
+      }
+      return [];
     } on Exception catch (e) {
       debugPrint('[BlogRssService] $sourceName failed: $e');
       return [];
     }
+  }
+
+  Future<List<BlogArticle>> _parseBody(
+      String body, String sourceName, String? categoryId) async {
+    return compute<List<String>, List<BlogArticle>>(
+      (args) => _parse(args[0], args[1], args[2].isEmpty ? null : args[2]),
+      [body, sourceName, categoryId ?? ''],
+    );
+  }
+
+  /// Discovers RSS/Atom alternates from an HTML landing page and includes a
+  /// small set of conventional feed paths as a fallback for sites that omit
+  /// the HTML declaration. It never guesses article URLs.
+  static List<String> _discoverFeedUrls(String html, String sourceUrl) {
+    final found = <String>[];
+    final tagPattern = RegExp(r'<link\b[^>]*>', caseSensitive: false);
+    final attrPattern = RegExp(r'([a-zA-Z:-]+)\s*=\s*["\']([^"\']+)["\']');
+    for (final tag in tagPattern.allMatches(html)) {
+      final raw = tag.group(0) ?? '';
+      final attrs = <String, String>{
+        for (final match in attrPattern.allMatches(raw))
+          match.group(1)!.toLowerCase(): match.group(2)!,
+      };
+      final rel = (attrs['rel'] ?? '').toLowerCase();
+      final type = (attrs['type'] ?? '').toLowerCase();
+      if (rel.contains('alternate') &&
+          (type.contains('rss') || type.contains('atom') || type.contains('xml'))) {
+        final href = attrs['href'];
+        if (href != null && href.isNotEmpty) {
+          found.add(Uri.parse(sourceUrl).resolve(href).toString());
+        }
+      }
+    }
+
+    final base = Uri.parse(sourceUrl);
+    final origin = '${base.scheme}://${base.host}${base.hasPort ? ':${base.port}' : ''}';
+    final conventional = <String>[
+      '$origin/feed/',
+      '$origin/feed',
+      '$origin/rss.xml',
+      '$origin/feed.xml',
+      '$origin/atom.xml',
+    ];
+    found.addAll(conventional);
+    return List.unmodifiable(found.toSet());
   }
 
   Future<List<BlogArticle>> _fetchFeedWeb({
@@ -218,71 +278,50 @@ class BlogRssService {
     required String sourceName,
     String? categoryId,
   }) async {
-    final encoded = Uri.encodeComponent(url);
+    final firstBody = await _fetchWebBody(url, sourceName);
+    if (firstBody == null) return [];
+    if (_looksLikeXml(firstBody)) {
+      return _parseBody(firstBody, sourceName, categoryId);
+    }
 
-    // Two CORS proxies launched concurrently — first valid parse wins.
-    //
-    // Why concurrent instead of serial?
-    //   The old chain (rss2json JSONP 15 s → allorigins 12 s serially) meant
-    //   a worst-case 27 s wait per feed before the error state appeared.  With
-    //   five feeds running in parallel via Future.wait, any single failure
-    //   blocked the entire Blogs tab for up to 27 s before returning empty.
-    //   Running both proxies at once caps the wait at 14 s regardless of how
-    //   many feeds are in flight.
-    //
-    // Why these proxies?
-    //   • corsproxy.io — open-source (github.com/nicholaswasabi), no API key,
-    //     actively maintained, widely used in production Flutter web apps.
-    //     RSS/Atom feeds carry no Access-Control-Allow-Origin header, so a
-    //     browser-side fetch requires a proxy; corsproxy.io adds that header
-    //     and forwards the raw body unchanged.
-    //   • allorigins.win — retained as a parallel backup with different
-    //     infrastructure, so the two services have independent failure modes.
-    //
-    // Why not rss2json JSONP?
-    //   rss2json's free tier now rate-limits unauthenticated requests severely
-    //   (and may require a registered API key entirely).  With five feeds
-    //   firing concurrently, all requests exceed the free-tier quota instantly,
-    //   every single time — making it effectively unusable without a paid plan.
-    //   Fetching the raw RSS via a CORS proxy and parsing it locally with the
-    //   same _parse() the native path already uses is both more reliable and
-    //   removes a hard external-service dependency.
+    // If the catalog URL is HTML, discover its declared RSS/Atom alternate
+    // and fetch each candidate through the same two-proxy race.
+    for (final discovered in _discoverFeedUrls(firstBody, url)) {
+      final feedBody = await _fetchWebBody(discovered, sourceName);
+      if (feedBody != null && _looksLikeXml(feedBody)) {
+        final articles = await _parseBody(feedBody, sourceName, categoryId);
+        if (articles.isNotEmpty) return articles;
+      }
+    }
+    return [];
+  }
+
+  Future<String?> _fetchWebBody(String url, String sourceName) async {
+    final encoded = Uri.encodeComponent(url);
     final proxyUrls = [
       'https://corsproxy.io/?$encoded',
       'https://api.allorigins.win/raw?url=$encoded',
     ];
-
-    final completer = Completer<List<BlogArticle>>();
+    final completer = Completer<String?>();
     var pending = proxyUrls.length;
-
     for (final proxyUrl in proxyUrls) {
       unawaited(() async {
         try {
           final response = await http
               .get(Uri.parse(proxyUrl))
               .timeout(const Duration(seconds: 14));
-
-          if (response.statusCode == 200 && response.body.length > 50) {
-            final articles = await compute<List<String>, List<BlogArticle>>(
-              (args) => _parse(args[0], args[1], args[2].isEmpty ? null : args[2]),
-              [response.body, sourceName, categoryId ?? ''],
-            );
-            if (articles.isNotEmpty && !completer.isCompleted) {
-              completer.complete(articles);
-              return; // Skip the pending decrement; completer is resolved.
-            }
+          if (response.statusCode == 200 && response.body.length > 50 &&
+              !completer.isCompleted) {
+            completer.complete(response.body);
+            return;
           }
         } on Object catch (e) {
           debugPrint('[BlogRssService] $sourceName via $proxyUrl: $e');
         }
-        // Reached only when this proxy failed or returned nothing parseable.
         pending--;
-        if (pending == 0 && !completer.isCompleted) {
-          completer.complete([]); // All proxies exhausted with no articles.
-        }
+        if (pending == 0 && !completer.isCompleted) completer.complete(null);
       }());
     }
-
     return completer.future;
   }
 

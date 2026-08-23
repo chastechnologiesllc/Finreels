@@ -70,28 +70,6 @@
       "verificationMethod": "Confirmed Nigerian business education channel."
     },
     {
-      "id": "",
-      "name": "The Fashion Business Coach",
-      "handle": "@thefashionbusinesscoach",
-      "description": "20 years in fashion industry — helping small/startup fashion labels with business systems, pricing and growth.",
-      "accentColor": "0xFFEC4899",
-      "initials": "FB",
-      "focus": "Fashion label business coaching",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Fashion business coaching focus confirmed."
-    },
-    {
-      "id": "",
-      "name": "StartUp FASHION, Inc.",
-      "handle": "@StartUpFashion",
-      "description": "Nicole Giordano — membership community for independent designers covering the business of fashion brands.",
-      "accentColor": "0xFFDB2777",
-      "initials": "SF",
-      "focus": "Independent fashion brand business",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Fashion business education community."
-    },
-    {
       "id": "UCghGOFhJxMQl28jYD6NNKrw",
       "name": "Entrepreneurs.ng",
       "handle": "@EntrepreneursNg",
@@ -103,15 +81,160 @@
       "verificationMethod": "Confirmed Nigerian entrepreneurship channel."
     },
     {
-      "id": "",
-      "name": "Kim Dave",
-      "handle": "@KimDave",
-      "description": "Nigerian fashion designer & content creator — pattern cutting, Ankara fashion and fashion business content.",
-      "accentColor": "0xFFEC4899",
-      "initials": "KD",
-      "focus": "Nigerian fashion design business",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Nigerian fashion designer with business content."
+      "id": "UC47XN5bhLTBH5TRFyKaUpKg",
+      "name": "PHLEARN",
+      "handle": "@PHLEARN",
+      "description": "Photography, retouching, compositing, lighting, and image-making technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "P",
+      "focus": "Fashion Design & Tailoring (Trade): Photography, retouching, compositing, lighting, and image-making technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC47XN5bhLTBH5TRFyKaUpKg; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCDknUbOK1D3_XoTMJAOApOw",
+      "name": "Peter McKinnon",
+      "handle": "@PeterMcKinnon",
+      "description": "Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "accentColor": "0xFF16A34A",
+      "initials": "PM",
+      "focus": "Fashion Design & Tailoring (Trade): Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCDknUbOK1D3_XoTMJAOApOw; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC6P24bhhCmMPOcujA9PKPTA",
+      "name": "Film Riot",
+      "handle": "@FilmRiot",
+      "description": "Filmmaking, directing, cinematography, production, and visual storytelling.",
+      "accentColor": "0xFFD97706",
+      "initials": "FR",
+      "focus": "Fashion Design & Tailoring (Trade): Filmmaking, directing, cinematography, production, and visual storytelling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC6P24bhhCmMPOcujA9PKPTA; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCMmA0XxraDP7ZVbv4eY3Omg",
+      "name": "DSLR Video Shooter",
+      "handle": "@DSLRVideoShooter",
+      "description": "Camera systems, lighting, audio, production workflows, and video technique.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "DV",
+      "focus": "Fashion Design & Tailoring (Trade): Camera systems, lighting, audio, production workflows, and video technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCMmA0XxraDP7ZVbv4eY3Omg; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5_SBQbLA9Kg7Jh5GpXoP3g",
+      "name": "Adobe Creative Cloud",
+      "handle": "@AdobeCreativeCloud",
+      "description": "Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "accentColor": "0xFF0891B2",
+      "initials": "AC",
+      "focus": "Fashion Design & Tailoring (Trade): Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5_SBQbLA9Kg7Jh5GpXoP3g; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnvgtzmvlb6d58d9BbOKuMA",
+      "name": "Fstoppers",
+      "handle": "@fstoppers",
+      "description": "Photography, lighting, visual storytelling, business, and professional image-making.",
+      "accentColor": "0xFFDB4437",
+      "initials": "F",
+      "focus": "Fashion Design & Tailoring (Trade): Photography, lighting, visual storytelling, business, and professional image-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnvgtzmvlb6d58d9BbOKuMA; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCTSgfO_OkfRX8dm4YhCg3fg",
+      "name": "SLR Lounge",
+      "handle": "@SLRLounge",
+      "description": "Photography education, posing, lighting, workflow, and professional practice.",
+      "accentColor": "0xFF0F766E",
+      "initials": "SL",
+      "focus": "Fashion Design & Tailoring (Trade): Photography education, posing, lighting, workflow, and professional practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCTSgfO_OkfRX8dm4YhCg3fg; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGglTkQEIBnOr3urMuxEkUw",
+      "name": "PiXimperfect",
+      "handle": "@PiXimperfect",
+      "description": "Photoshop, compositing, retouching, design, and digital image technique.",
+      "accentColor": "0xFF9333EA",
+      "initials": "P",
+      "focus": "Fashion Design & Tailoring (Trade): Photoshop, compositing, retouching, design, and digital image technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGglTkQEIBnOr3urMuxEkUw; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOKHwx1VCdgnxwbjyb9Iu1g",
+      "name": "Blender Guru",
+      "handle": "@BlenderGuru",
+      "description": "3D modeling, materials, lighting, rendering, and computer graphics.",
+      "accentColor": "0xFFB45309",
+      "initials": "BG",
+      "focus": "Fashion Design & Tailoring (Trade): 3D modeling, materials, lighting, rendering, and computer graphics.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOKHwx1VCdgnxwbjyb9Iu1g; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC0lLeNdvLrFozQRsQ1TQiAw",
+      "name": "Aaron Blaise",
+      "handle": "@AaronBlaiseArt",
+      "description": "Animation, drawing, character design, illustration, and visual storytelling.",
+      "accentColor": "0xFF475569",
+      "initials": "AB",
+      "focus": "Fashion Design & Tailoring (Trade): Animation, drawing, character design, illustration, and visual storytelling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC0lLeNdvLrFozQRsQ1TQiAw; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkiC21kJxYO_eUEJ5GgFLnw",
+      "name": "CreativeLive",
+      "handle": "@CreativeLive",
+      "description": "Photography, design, craft, entrepreneurship, and creative career development.",
+      "accentColor": "0xFF2563EB",
+      "initials": "C",
+      "focus": "Fashion Design & Tailoring (Trade): Photography, design, craft, entrepreneurship, and creative career development.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkiC21kJxYO_eUEJ5GgFLnw; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "OF",
+      "focus": "Fashion Design & Tailoring (Trade): Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFFD97706",
+      "initials": "Y",
+      "focus": "Fashion Design & Tailoring (Trade): Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +297,86 @@
       "url": "https://smedigest.com.ng/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "No Film School",
+      "url": "https://nofilmschool.com/",
+      "region": "Global",
+      "focus": "Filmmaking, cinematography, production, and creative industry practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "PetaPixel",
+      "url": "https://petapixel.com/",
+      "region": "Global",
+      "focus": "Photography, cameras, visual storytelling, and industry news.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fstoppers",
+      "url": "https://fstoppers.com/",
+      "region": "Global",
+      "focus": "Photography, lighting, filmmaking, workflow, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Creative Bloq",
+      "url": "https://www.creativebloq.com/",
+      "region": "Global",
+      "focus": "Graphic design, illustration, 3D, digital art, and creative tools.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/",
+      "region": "Global",
+      "focus": "Web design, UX, front-end development, accessibility, and performance.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Adobe Blog",
+      "url": "https://blog.adobe.com/",
+      "region": "Global",
+      "focus": "Creative tools, design, photography, video, and digital creativity.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "AIGA Eye on Design",
+      "url": "https://eyeondesign.aiga.org/",
+      "region": "Global",
+      "focus": "Graphic design, visual culture, design history, and critical practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "CreativePro Network",
+      "url": "https://creativepro.com/",
+      "region": "Global",
+      "focus": "Design software, typography, publishing, and production workflows.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Futur Blog",
+      "url": "https://thefutur.com/blog",
+      "region": "Global",
+      "focus": "Design practice, branding, creative business, and professional development.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -708,7 +911,7 @@
       "verificationMethod": "Project Gutenberg catalog record #51204; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). All 10 channel IDs verified by direct youtube.com page fetch or cross-confirmed from existing skill files. Two handle corrections applied: @ZikokoTV (CSV) → @Zikokomag (correct active handle; @ZikokoTV returned 404). WWD blog feed confirmed via Feedspot. Salon Business Boss had no YouTube channel — not relevant to this file. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 50 selected Project Gutenberg public-domain non-fiction records to the General collection.",
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). All 10 channel IDs verified by direct youtube.com page fetch or cross-confirmed from existing skill files. Two handle corrections applied: @ZikokoTV (CSV) → @Zikokomag (correct active handle; @ZikokoTV returned 404). WWD blog feed confirmed via Feedspot. Salon Business Boss had no YouTube channel — not relevant to this file. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 50 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

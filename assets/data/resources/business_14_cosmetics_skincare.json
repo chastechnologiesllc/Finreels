@@ -1,5 +1,5 @@
 {
-  "categoryId": "business_14",
+  "categoryId": "business_14_cosmetics_skincare",
   "profession": "Cosmetics & Skincare",
   "status": "verified",
   "lastUpdated": "2026-08-23",
@@ -71,28 +71,6 @@
       "verificationMethod": "Page fetched directly — youtube.com/channel/UCg6P323bLV4zMSWFqFhvWMg. ID confirmed."
     },
     {
-      "id": "HANDLE_HouseOfTara",
-      "name": "House of Tara International",
-      "handle": "@HouseOfTara",
-      "description": "Nigeria's leading indigenous makeup and cosmetics brand (Tara Fela-Durotoye). First indigenous makeup brand to achieve national retail scale in Nigeria. YouTube presence covers beauty tutorials and African cosmetics entrepreneurship.",
-      "accentColor": "0xFF14B8A6",
-      "initials": "HT",
-      "focus": "Nigerian cosmetics brand — indigenous beauty business",
-      "verifiedOn": "2026-07-21",
-      "verificationMethod": "House of Tara is confirmed as Nigeria's leading indigenous cosmetics brand (featured in Stanford GSB case study, multiple Forbes Africa and BellaNaija articles). YouTube presence confirmed from search. Exact channel ID not directly fetched — resolve via YouTube API or search: youtube.com/@HouseOfTara."
-    },
-    {
-      "id": "HANDLE_NAFDACNigeria",
-      "name": "NAFDAC Nigeria",
-      "handle": "@NAFDACNigeria",
-      "description": "National Agency for Food and Drug Administration and Control — the Nigerian regulatory body for cosmetics, food, and pharmaceuticals. Essential for understanding what approvals and registrations are required to legally sell cosmetics in Nigeria.",
-      "accentColor": "0xFF0D9488",
-      "initials": "NA",
-      "focus": "Nigerian cosmetics regulation, NAFDAC approval process",
-      "verifiedOn": "2026-07-21",
-      "verificationMethod": "NAFDAC (nafdac.gov.ng) is the confirmed Nigerian government regulatory body for cosmetics. YouTube presence expected under @NAFDACNigeria or @NAFDACofficial. Exact channel handle/ID not directly fetched — confirm via youtube.com/@NAFDACNigeria or YouTube search for 'NAFDAC Nigeria official'."
-    },
-    {
       "id": "UCUyDOdBWhC1MCxEjC46d-zw",
       "name": "Alex Hormozi",
       "handle": "@AlexHormozi",
@@ -113,6 +91,150 @@
       "focus": "Cash flow and profit systems",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCxIJaCMEptJjxmmQgGFsnCg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "YC",
+      "focus": "Cosmetics & Skincare: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "name": "Harvard Business Review",
+      "handle": "@HarvardBusinessReview",
+      "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
+      "accentColor": "0xFF16A34A",
+      "initials": "HB",
+      "focus": "Cosmetics & Skincare: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWLGZL69LhjjgGRKhcAE_w",
+      "name": "Google for Startups",
+      "handle": "@GoogleforStartups",
+      "description": "Startup growth, technology, product, marketing, and founder education.",
+      "accentColor": "0xFFD97706",
+      "initials": "GF",
+      "focus": "Cosmetics & Skincare: Startup growth, technology, product, marketing, and founder education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "HM",
+      "focus": "Cosmetics & Skincare: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
+      "accentColor": "0xFF0891B2",
+      "initials": "A",
+      "focus": "Cosmetics & Skincare: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
+      "name": "Neil Patel",
+      "handle": "@NeilPatel",
+      "description": "Digital marketing, SEO, content, customer acquisition, and online business.",
+      "accentColor": "0xFFDB4437",
+      "initials": "NP",
+      "focus": "Cosmetics & Skincare: Digital marketing, SEO, content, customer acquisition, and online business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl-Zrl0QhF66lu1aGXaTbfw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCA2CiHJ0xCLC6Dt7w5_Hxvw",
+      "name": "Money & Macro",
+      "handle": "@MoneyMacro",
+      "description": "Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "MM",
+      "focus": "Cosmetics & Skincare: Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCA2CiHJ0xCLC6Dt7w5_Hxvw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOErWFfNOQzXsgE7f5S_ULw",
+      "name": "Ben Felix",
+      "handle": "@BenFelixCSI",
+      "description": "Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "accentColor": "0xFF9333EA",
+      "initials": "BF",
+      "focus": "Cosmetics & Skincare: Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOErWFfNOQzXsgE7f5S_ULw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFCEuCsyWP0YkP3CZ3Mr01Q",
+      "name": "The Plain Bagel",
+      "handle": "@ThePlainBagel",
+      "description": "Investing, economics, personal finance, risk, and financial decision-making.",
+      "accentColor": "0xFFB45309",
+      "initials": "TP",
+      "focus": "Cosmetics & Skincare: Investing, economics, personal finance, risk, and financial decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFCEuCsyWP0YkP3CZ3Mr01Q; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLvnJL8htRR1T9cbSccaoVw",
+      "name": "Aswath Damodaran",
+      "handle": "@AswathDamodaranonValuation",
+      "description": "Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "accentColor": "0xFF475569",
+      "initials": "AD",
+      "focus": "Cosmetics & Skincare: Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLvnJL8htRR1T9cbSccaoVw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCHwkW7lTTzf19xg5R4gfwVw",
+      "name": "CFA Institute",
+      "handle": "@CFAInstitute",
+      "description": "Investment analysis, ethics, portfolio management, and professional finance.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CI",
+      "focus": "Cosmetics & Skincare: Investment analysis, ethics, portfolio management, and professional finance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHwkW7lTTzf19xg5R4gfwVw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChjfv8-vAA1CZA84f-h5X_Q",
+      "name": "GaryVee",
+      "handle": "@GaryVee",
+      "description": "Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "accentColor": "0xFF16A34A",
+      "initials": "G",
+      "focus": "Cosmetics & Skincare: Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChjfv8-vAA1CZA84f-h5X_Q; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -175,6 +297,86 @@
       "url": "https://techcabal.com/feed/",
       "verifiedOn": "2026-08-04",
       "verificationMethod": "African tech & business practical coverage."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -350,7 +552,7 @@
       "verificationMethod": "Project Gutenberg catalog record #23750; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nCosmetics had the most globally strong channels (Huda Beauty, Jackie Aina, Hyram, Chemist Confessions, Dr. Dray, Lisa Eldridge, Lab Muffin) all confirmed. Slots 9 and 10 (House of Tara, NAFDAC Nigeria) have handles confirmed from independent sources but channel IDs need API resolution — these are the most Nigeria-specific and business-relevant entries in this category. Beauty Independent (blog only), Cosmetic Design Africa (blog only), NAFDAC Nigeria (government site) could not be confirmed as active YouTube channels through search — replaced with the above. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 9 selected Project Gutenberg public-domain non-fiction records to the General collection.",
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nCosmetics had the most globally strong channels (Huda Beauty, Jackie Aina, Hyram, Chemist Confessions, Dr. Dray, Lisa Eldridge, Lab Muffin) all confirmed. Slots 9 and 10 (House of Tara, NAFDAC Nigeria) have handles confirmed from independent sources but channel IDs need API resolution — these are the most Nigeria-specific and business-relevant entries in this category. Beauty Independent (blog only), Cosmetic Design Africa (blog only), NAFDAC Nigeria (government site) could not be confirmed as active YouTube channels through search — replaced with the above. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 9 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

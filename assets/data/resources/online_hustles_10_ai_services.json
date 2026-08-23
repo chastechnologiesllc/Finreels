@@ -4,114 +4,244 @@
   "lastUpdated": "2026-08-23",
   "channels": [
     {
-      "id": "UC",
-      "name": "Naija AI Hustle Academy",
-      "handle": "Naija AI Hustle Academy",
-      "description": "Nigerian channel focused on practical AI hacks and ways to make money with AI tools from a local perspective.",
+      "id": "UCMOqf8ab-42UUQIdVoKwjlQ",
+      "name": "Practical Engineering",
+      "handle": "@PracticalEngineeringChannel",
+      "description": "Civil infrastructure, engineering systems, hazards, and real-world design.",
       "accentColor": "0xFF2563EB",
-      "initials": "NA",
-      "focus": "AI hustles for Nigerians",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Dedicated AI money-making content for Nigerian audience."
-    },
-    {
-      "id": "UC",
-      "name": "Nigerian AI freelancing tutors",
-      "handle": "search AI freelancing Nigeria ChatGPT",
-      "description": "Search latest Nigerian creators teaching AI-powered freelancing, prompt engineering and AI services.",
-      "accentColor": "0xFF059669",
-      "initials": "NG",
-      "focus": "AI freelancing from Nigeria",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Growing practical local content."
-    },
-    {
-      "id": "UC",
-      "name": "AI content & writing services",
-      "handle": "search ChatGPT content writing Nigeria",
-      "description": "Channels teaching how to offer AI-assisted writing and content services to clients.",
-      "accentColor": "0xFFD97706",
-      "initials": "CW",
-      "focus": "AI content services",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Most accessible AI service entry."
-    },
-    {
-      "id": "UC",
-      "name": "AI video & faceless channel tutors",
-      "handle": "search AI faceless YouTube Nigeria",
-      "description": "Channels showing how to build faceless YouTube channels and AI video services.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "AV",
-      "focus": "AI video & faceless content",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "High-interest AI monetisation path."
-    },
-    {
-      "id": "UC",
-      "name": "Prompt engineering & AI tools",
-      "handle": "search prompt engineering Nigeria",
-      "description": "Practical channels on prompt engineering and selling AI tool expertise.",
-      "accentColor": "0xFFDC2626",
       "initials": "PE",
-      "focus": "Prompt engineering services",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Core AI skill for freelancers."
+      "focus": "AI Prompt Engineering & AI Services: Civil infrastructure, engineering systems, hazards, and real-world design.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCMOqf8ab-42UUQIdVoKwjlQ; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "African AI income educators",
-      "handle": "search AI income Africa tutorial",
-      "description": "African creators teaching AI-based income methods across the continent.",
-      "accentColor": "0xFF0891B2",
-      "initials": "AF",
-      "focus": "AI services across Africa",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Africa-wide after Nigeria priority."
-    },
-    {
-      "id": "UC",
-      "name": "AI automation & chatbot services",
-      "handle": "search AI chatbot automation Nigeria",
-      "description": "Channels teaching chatbot building and AI automation for businesses.",
-      "accentColor": "0xFFEA580C",
-      "initials": "AU",
-      "focus": "AI automation services",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Higher-value AI service niche."
-    },
-    {
-      "id": "UC",
-      "name": "AI design & image generation",
-      "handle": "search Midjourney Canva AI Nigeria",
-      "description": "Channels teaching AI image generation and design services.",
-      "accentColor": "0xFF4F46E5",
-      "initials": "DG",
-      "focus": "AI design services",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Popular visual AI service."
-    },
-    {
-      "id": "UC",
-      "name": "Teach AI skills / courses",
-      "handle": "search teach AI Nigeria course",
-      "description": "Channels focused on packaging and selling AI knowledge as courses or coaching.",
+      "id": "UC176GAQozKKjhz62H8u9vQQ",
+      "name": "Real Engineering",
+      "handle": "@RealEngineering",
+      "description": "Engineering history, technology, aerospace, energy, and systems analysis.",
       "accentColor": "0xFF16A34A",
-      "initials": "TC",
-      "focus": "Teaching AI skills",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "High-leverage income path."
+      "initials": "RE",
+      "focus": "AI Prompt Engineering & AI Services: Engineering history, technology, aerospace, energy, and systems analysis.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC176GAQozKKjhz62H8u9vQQ; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Solid global AI freelancing foundations",
-      "handle": "search AI freelancing beginners practical",
-      "description": "High-quality practical global AI service teachers useful after local channels.",
+      "id": "UCsrY4q8xGPJQbQ8HPQZn6iA",
+      "name": "Engineering Explained",
+      "handle": "@EngineeringExplained",
+      "description": "Automotive engineering, mechanics, energy, and technical analysis.",
+      "accentColor": "0xFFD97706",
+      "initials": "EE",
+      "focus": "AI Prompt Engineering & AI Services: Automotive engineering, mechanics, energy, and technical analysis.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCsrY4q8xGPJQbQ8HPQZn6iA; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCcs0ZkP_as4PpHDhFcmCHyA",
+      "name": "Applied Science",
+      "handle": "@AppliedScience",
+      "description": "Materials, chemistry, electronics, laboratory work, and experimental engineering.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "AS",
+      "focus": "AI Prompt Engineering & AI Services: Materials, chemistry, electronics, laboratory work, and experimental engineering.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCcs0ZkP_as4PpHDhFcmCHyA; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCXAS_Ekkq0iFJ9dSUIkcAkw",
+      "name": "The Efficient Engineer",
+      "handle": "@TheEfficientEngineer",
+      "description": "Mechanical engineering fundamentals, design, mechanics, and materials.",
+      "accentColor": "0xFF0891B2",
+      "initials": "TE",
+      "focus": "AI Prompt Engineering & AI Services: Mechanical engineering fundamentals, design, mechanics, and materials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCXAS_Ekkq0iFJ9dSUIkcAkw; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCY1kMZp36IQSyNx_9h4mpCg",
+      "name": "ElectroBOOM",
+      "handle": "@ElectroBOOM",
+      "description": "Electrical engineering, circuits, safety, and measurement.",
+      "accentColor": "0xFFDB4437",
+      "initials": "E",
+      "focus": "AI Prompt Engineering & AI Services: Electrical engineering, circuits, safety, and measurement.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCY1kMZp36IQSyNx_9h4mpCg; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF0F766E",
+      "initials": "SO",
+      "focus": "AI Prompt Engineering & AI Services: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF9333EA",
+      "initials": "OF",
+      "focus": "AI Prompt Engineering & AI Services: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
       "accentColor": "0xFFB45309",
-      "initials": "GL",
-      "focus": "Foundational AI service skills",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Global layer after Nigeria/Africa."
+      "initials": "Y",
+      "focus": "AI Prompt Engineering & AI Services: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF475569",
+      "initials": "KA",
+      "focus": "AI Prompt Engineering & AI Services: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF2563EB",
+      "initials": "C",
+      "focus": "AI Prompt Engineering & AI Services: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFF16A34A",
+      "initials": "V",
+      "focus": "AI Prompt Engineering & AI Services: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFFD97706",
+      "initials": "S",
+      "focus": "AI Prompt Engineering & AI Services: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
+      "name": "The School of Life",
+      "handle": "@TheSchoolOfLife",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TS",
+      "focus": "AI Prompt Engineering & AI Services: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8c9l98f2Zq4l9YnbmutPTw; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFF0891B2",
+      "initials": "S",
+      "focus": "AI Prompt Engineering & AI Services: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFFDB4437",
+      "initials": "N",
+      "focus": "AI Prompt Engineering & AI Services: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF0F766E",
+      "initials": "3",
+      "focus": "AI Prompt Engineering & AI Services: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCq8ZAAsI89IoJ-fn1gYpO3g",
+      "name": "Kurzgesagt – In a Nutshell",
+      "handle": "@Kurzgesagt",
+      "description": "Research-based explanations of science, society, technology, and long-term human questions.",
+      "accentColor": "0xFF9333EA",
+      "initials": "KI",
+      "focus": "AI Prompt Engineering & AI Services: Research-based explanations of science, society, technology, and long-term human questions.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCq8ZAAsI89IoJ-fn1gYpO3g; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5Jnt7OgEHro3W7kr-jjCrw",
+      "name": "Big Think",
+      "handle": "@BigThink",
+      "description": "Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "accentColor": "0xFFB45309",
+      "initials": "BT",
+      "focus": "AI Prompt Engineering & AI Services: Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5Jnt7OgEHro3W7kr-jjCrw; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCpH3Eia7Qsncq-qmhltZ6uQ",
+      "name": "PBS Idea Channel",
+      "handle": "@PBSIdeaChannel",
+      "description": "Media literacy, culture, technology, philosophy, and critical analysis.",
+      "accentColor": "0xFF475569",
+      "initials": "PI",
+      "focus": "AI Prompt Engineering & AI Services: Media literacy, culture, technology, philosophy, and critical analysis.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCpH3Eia7Qsncq-qmhltZ6uQ; selected for the AI Prompt Engineering & AI Services learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +304,86 @@
       "url": "https://selar.com/blog/",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Nigerian digital product and creator economy blog."
+    },
+    {
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/",
+      "region": "Global",
+      "focus": "Engineering, computing, technology, research, and innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "ASME",
+      "url": "https://www.asme.org/topics-resources/content",
+      "region": "Global",
+      "focus": "Mechanical engineering, standards, design, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Engineering.com",
+      "url": "https://www.engineering.com/",
+      "region": "Global",
+      "focus": "Engineering design, manufacturing, software, and industry knowledge.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NIST",
+      "url": "https://www.nist.gov/blogs/taking-measure",
+      "region": "Global",
+      "focus": "Measurement, standards, engineering, science, and technology.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/blogs/",
+      "region": "Global",
+      "focus": "Aerospace, space science, engineering, and missions.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/",
+      "region": "Global",
+      "focus": "Technology, science, computing, and engineering analysis.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Hackaday",
+      "url": "https://hackaday.com/",
+      "region": "Global",
+      "focus": "Electronics, embedded systems, fabrication, and open hardware.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Weekly",
+      "url": "https://www.electronicsweekly.com/",
+      "region": "Global",
+      "focus": "Electronics engineering, components, systems, and industry.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Practical Engineering",
+      "url": "https://practical.engineering/",
+      "region": "Global",
+      "focus": "Engineering systems, infrastructure, and applied problem-solving.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
     }
   ],
   "books": [
@@ -361,5 +571,5 @@
   "actionRequired": [
     "2026-08-23: Review the 8 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ],
-  "notes": "2026-08-23: Added 8 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
+  "notes": "2026-08-23: Added 8 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
 }

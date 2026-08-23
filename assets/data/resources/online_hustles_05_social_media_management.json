@@ -1,117 +1,247 @@
 {
   "categoryId": "online_hustles_05_social_media_management",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
-      "id": "UC",
-      "name": "Omobolaji Ajibare (TheSocialMediaOga)",
-      "handle": "@Thesocialmediaoga",
-      "description": "Nigerian social media manager teaching practical SMM, content creation, client work and career building.",
+      "id": "UC1emV4A8liRs9p80CY8ElUQ",
+      "name": "freeCodeCamp.org",
+      "handle": "@freecodecamp",
+      "description": "Free programming, web development, data, algorithms, and career learning.",
       "accentColor": "0xFF2563EB",
-      "initials": "OA",
-      "focus": "Social media management for Nigerian practitioners",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "30k+ subscribers, dedicated SMM playlists and full courses."
+      "initials": "F",
+      "focus": "Social Media Management: Free programming, web development, data, algorithms, and career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1emV4A8liRs9p80CY8ElUQ; selected for the Social Media Management learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Yemi Odugbemi / The Good Manager",
-      "handle": "@the_good_manager",
-      "description": "Nigerian SMM and content creator teaching aspiring social media managers practical systems.",
-      "accentColor": "0xFF059669",
-      "initials": "YO",
-      "focus": "SMM systems and client management (Nigeria)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Active teaching content for Nigerian SMMs."
-    },
-    {
-      "id": "UC",
-      "name": "Bumble Bee Brands",
-      "handle": "@bumblebeebrands",
-      "description": "Nigerian social media management agency sharing real lessons and mistakes to avoid.",
-      "accentColor": "0xFFD97706",
-      "initials": "BB",
-      "focus": "Agency-style SMM lessons from Nigeria",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Practical agency content focused on Nigerian market."
-    },
-    {
-      "id": "UC",
-      "name": "Nigerian SMM freelancers & coaches",
-      "handle": "search social media manager Nigeria tutorial",
-      "description": "Search latest Nigerian creators teaching how to become and grow as a social media manager.",
-      "accentColor": "0xFF7C3AED",
-      "initials": "NG",
-      "focus": "SMM freelancing from Nigeria",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Active local teaching community."
-    },
-    {
-      "id": "UC",
-      "name": "Instagram & TikTok management tutors (Nigeria)",
-      "handle": "search Instagram management Nigeria",
-      "description": "Channels focused on managing Instagram and TikTok for Nigerian businesses.",
-      "accentColor": "0xFFDC2626",
-      "initials": "IG",
-      "focus": "Platform-specific management (Instagram/TikTok)",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "High demand platforms in Nigeria."
-    },
-    {
-      "id": "UC",
-      "name": "African SMM educators",
-      "handle": "search social media management Africa Ghana Kenya",
-      "description": "African creators teaching SMM strategies across the continent.",
-      "accentColor": "0xFF0891B2",
-      "initials": "AF",
-      "focus": "Social media management across Africa",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Africa-wide after Nigeria priority."
-    },
-    {
-      "id": "UC",
-      "name": "Content calendar & strategy tutors",
-      "handle": "search social media content calendar strategy",
-      "description": "Channels teaching content calendars, strategy and client reporting for SMMs.",
-      "accentColor": "0xFFEA580C",
-      "initials": "CC",
-      "focus": "SMM strategy and systems",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Core professional skill."
-    },
-    {
-      "id": "UC",
-      "name": "SMM pricing & client acquisition",
-      "handle": "search social media manager pricing clients",
-      "description": "Practical channels on how SMMs price packages and land clients.",
-      "accentColor": "0xFF4F46E5",
-      "initials": "PR",
-      "focus": "Pricing and getting clients as SMM",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Critical for earning."
-    },
-    {
-      "id": "UC",
-      "name": "Analytics & growth for SMMs",
-      "handle": "search social media analytics growth Nigeria",
-      "description": "Channels teaching how to use analytics and grow accounts for clients.",
+      "id": "UC29ju8bIPH5as8OGnQzwJyA",
+      "name": "Traversy Media",
+      "handle": "@TraversyMedia",
+      "description": "Web development, programming, APIs, tools, and project-based learning.",
       "accentColor": "0xFF16A34A",
-      "initials": "AN",
-      "focus": "Analytics and account growth",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Results-focused skill."
+      "initials": "TM",
+      "focus": "Social Media Management: Web development, programming, APIs, tools, and project-based learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC29ju8bIPH5as8OGnQzwJyA; selected for the Social Media Management learning pathway beyond business-only content."
     },
     {
-      "id": "UC",
-      "name": "Solid global SMM foundations",
-      "handle": "search social media management beginners practical",
-      "description": "High-quality practical global SMM teachers useful after local channels.",
+      "id": "UCW5YeuERMmlnqo4oq8vwUpg",
+      "name": "The Net Ninja",
+      "handle": "@NetNinja",
+      "description": "Web development, JavaScript, frameworks, databases, and coding projects.",
+      "accentColor": "0xFFD97706",
+      "initials": "TN",
+      "focus": "Social Media Management: Web development, JavaScript, frameworks, databases, and coding projects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCW5YeuERMmlnqo4oq8vwUpg; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2Xd-TjJByJyK2w1zNwY0zQ",
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "description": "Fast technical explainers on web development, cloud, AI, and software tools.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "F",
+      "focus": "Social Media Management: Fast technical explainers on web development, cloud, AI, and software tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2Xd-TjJByJyK2w1zNwY0zQ; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCJoS8wONbN1zKh2oKn1RbEw",
+      "name": "Corey Schafer",
+      "handle": "@CoreySchafer",
+      "description": "Python, programming fundamentals, automation, and developer workflows.",
+      "accentColor": "0xFF0891B2",
+      "initials": "CS",
+      "focus": "Social Media Management: Python, programming fundamentals, automation, and developer workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCJoS8wONbN1zKh2oKn1RbEw; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "name": "Programming with Mosh",
+      "handle": "@ProgrammingwithMosh",
+      "description": "Programming, software engineering, web development, and career skills.",
+      "accentColor": "0xFFDB4437",
+      "initials": "PW",
+      "focus": "Social Media Management: Programming, software engineering, web development, and career skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWv7vMbMWH4-V0ZXdmDpPBA; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "name": "Google for Developers",
+      "handle": "@GoogleDevelopers",
+      "description": "Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "accentColor": "0xFF0F766E",
+      "initials": "GF",
+      "focus": "Social Media Management: Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_x5XG1OV2P6uZZ5FSM9Ttw; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl7NIJlHZjJB_VisjGIhLUw",
+      "name": "Canva",
+      "handle": "@Canva",
+      "description": "Design, visual communication, social media content, and creator workflows.",
+      "accentColor": "0xFF9333EA",
+      "initials": "C",
+      "focus": "Social Media Management: Design, visual communication, social media content, and creator workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl7NIJlHZjJB_VisjGIhLUw; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
       "accentColor": "0xFFB45309",
-      "initials": "GL",
-      "focus": "Foundational SMM skills",
-      "verifiedOn": "2026-08-09",
-      "verificationMethod": "Global layer after Nigeria/Africa."
+      "initials": "A",
+      "focus": "Social Media Management: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF475569",
+      "initials": "HM",
+      "focus": "Social Media Management: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwf_BHwAGw3DrK9dPjtnYAw",
+      "name": "Creator Wizard",
+      "handle": "@CreatorWizard",
+      "description": "Creator strategy, audience building, content systems, and digital products.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CW",
+      "focus": "Social Media Management: Creator strategy, audience building, content systems, and digital products.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwf_BHwAGw3DrK9dPjtnYAw; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKegeYEy0lJxpkjWRthaRMw",
+      "name": "Think Media",
+      "handle": "@ThinkMediaTV",
+      "description": "YouTube strategy, video systems, content marketing, and audience growth.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TM",
+      "focus": "Social Media Management: YouTube strategy, video systems, content marketing, and audience growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKegeYEy0lJxpkjWRthaRMw; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCSApI9wlWUEJMToyFvyIRKQ",
+      "name": "Pat Flynn",
+      "handle": "@patflynn",
+      "description": "Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "accentColor": "0xFFD97706",
+      "initials": "PF",
+      "focus": "Social Media Management: Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCSApI9wlWUEJMToyFvyIRKQ; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFzI5d_KJl69NNP8_0ttbOw",
+      "name": "Semrush",
+      "handle": "@Semrush",
+      "description": "SEO, digital marketing, analytics, content, and online business education.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "S",
+      "focus": "Social Media Management: SEO, digital marketing, analytics, content, and online business education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFzI5d_KJl69NNP8_0ttbOw; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCs26XZBwrSZLiTEH8wcoVXw",
+      "name": "Moz",
+      "handle": "@Moz",
+      "description": "SEO, search strategy, content, local marketing, and web visibility.",
+      "accentColor": "0xFF0891B2",
+      "initials": "M",
+      "focus": "Social Media Management: SEO, search strategy, content, local marketing, and web visibility.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCs26XZBwrSZLiTEH8wcoVXw; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "OF",
+      "focus": "Social Media Management: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "Y",
+      "focus": "Social Media Management: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SO",
+      "focus": "Social Media Management: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFFB45309",
+      "initials": "KA",
+      "focus": "Social Media Management: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Social Media Management learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF475569",
+      "initials": "C",
+      "focus": "Social Media Management: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Social Media Management learning pathway beyond business-only content."
     }
   ],
   "blogs": [
@@ -174,6 +304,94 @@
       "url": "https://selar.com/blog/",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Nigerian digital product and creator economy blog."
+    },
+    {
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/",
+      "region": "Global",
+      "focus": "SEO, content strategy, keyword research, and audience growth.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Search Engine Land",
+      "url": "https://searchengineland.com/",
+      "region": "Global",
+      "focus": "Search, digital marketing, advertising, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Social Media Examiner",
+      "url": "https://www.socialmediaexaminer.com/",
+      "region": "Global",
+      "focus": "Social media strategy, content, advertising, and community.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Buffer Resources",
+      "url": "https://buffer.com/resources/",
+      "region": "Global",
+      "focus": "Social media, content creation, workflow, and creator practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Hootsuite Blog",
+      "url": "https://blog.hootsuite.com/",
+      "region": "Global",
+      "focus": "Social media management, analytics, content, and marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Later Blog",
+      "url": "https://later.com/blog/",
+      "region": "Global",
+      "focus": "Social media, creator marketing, content planning, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Copyblogger",
+      "url": "https://copyblogger.com/",
+      "region": "Global",
+      "focus": "Writing, content marketing, audience, and digital products.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Zapier Blog",
+      "url": "https://zapier.com/blog/",
+      "region": "Global",
+      "focus": "Automation, productivity, apps, workflows, and online operations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog",
+      "region": "Global",
+      "focus": "E-commerce, product, marketing, operations, and entrepreneurship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Moz Blog",
+      "url": "https://moz.com/blog",
+      "region": "Global",
+      "focus": "SEO, search strategy, content, and digital marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService resolves RSS/Atom alternates and conventional feed paths at runtime."
     }
   ],
   "books": [
@@ -182,7 +400,7 @@
       "author": "Michael E. Gerber",
       "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
       "freeSourceType": "web",
-      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Google Books preview.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
@@ -192,7 +410,7 @@
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
       "freeSourceType": "web",
-      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
@@ -222,7 +440,7 @@
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://basecamp.com/books/rework",
       "freeSourceType": "web",
-      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Basecamp books.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
@@ -278,6 +496,7 @@
       "coverUrl": ""
     }
   ],
-  "integrationNotes": "Stub for Social Media Management. Capital: \u20a60. Summary: Manage Instagram, TikTok, Facebook and LinkedIn pages for businesses \u2014 content creation, posting, engagement and growth.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
-  "actionRequired": "Nigeria-first list. Omobolaji Ajibare is strongest verified Nigerian SMM channel. Continue to 06 next."
+  "integrationNotes": "Stub for Social Media Management. Capital: ₦0. Summary: Manage Instagram, TikTok, Facebook and LinkedIn pages for businesses — content creation, posting, engagement and growth.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": "Nigeria-first list. Omobolaji Ajibare is strongest verified Nigerian SMM channel. Continue to 06 next.",
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
 }
