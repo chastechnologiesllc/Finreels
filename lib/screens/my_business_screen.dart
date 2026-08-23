@@ -21,7 +21,7 @@ import '../utils/category_search.dart';
 ///     CategorySearch.sectionOrder). Only the first
 ///     [CategorySearch.defaultVisiblePerSection] of each show up front so
 ///     the first screen isn't a 60-item wall — the rest are one search away.
-///  2. Search — type what you do ("sew", "POS", "fridge repair"...) and it
+///  2. Search — type what you do ("sew", "law", "fridge repair"...) and it
 ///     matches against each category's name AND its curated search
 ///     keywords/aliases (see CategorySearch.matches), across all 60, not
 ///     just the ones currently visible.
@@ -324,7 +324,7 @@ class _SearchField extends StatelessWidget {
         onChanged: onChanged,
         style: TextStyle(color: AppTheme.textColor(context)),
         decoration: InputDecoration(
-          hintText: 'Type what you do — e.g. "tailor", "POS", "solar"…',
+          hintText: 'Type what you do — e.g. "tailor", "law", "solar"…',
           hintStyle: TextStyle(color: AppTheme.textMuted(context)),
           prefixIcon: Icon(Icons.search_rounded, color: AppTheme.textMuted(context)),
           border: InputBorder.none,
