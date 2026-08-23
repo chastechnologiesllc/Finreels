@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+        }
+        .header {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            width: 1000px;
+        }
+        .title {
+            color: #0F0F0F;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            margin-bottom: 16px;
+        }
+        .intro {
+            color: #9E9E9E;
+            font-weight: 300;
+            font-size: 28px;
+        }
+        .content-wrapper {
+            position: absolute;
+            bottom: 80px;
+            left: 80px;
+            width: 1050px;
+            border-left: 8px solid #DAA520;
+            padding-left: 40px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 60px;
+            row-gap: 40px;
+        }
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+        }
+        .marker {
+            width: 12px;
+            height: 12px;
+            background-color: #0F0F0F;
+            margin-top: 8px;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        .text-block {
+            display: flex;
+            flex-direction: column;
+        }
+        .term {
+            color: #0F0F0F;
+            font-weight: 900;
+            font-size: 24px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .definition {
+            color: #0F0F0F;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="title">A verification gate protects the library</h2>
+            <p class="intro">Every selected book must be:</p>
+        </div>
+        <div class="content-wrapper">
+            <div class="grid-container">
+                <div class="list-item">
+                    <div class="marker"></div>
+                    <div class="text-block">
+                        <span class="term">Free and legal</span>
+                        <span class="definition">No paywalls, piracy, or “free” previews.</span>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="marker"></div>
+                    <div class="text-block">
+                        <span class="term">Real and verifiable</span>
+                        <span class="definition">A genuine publication with an independently checkable source.</span>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="marker"></div>
+                    <div class="text-block">
+                        <span class="term">Non-fiction and relevant</span>
+                        <span class="definition">Directly useful to the category’s learning pathway.</span>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="marker"></div>
+                    <div class="text-block">
+                        <span class="term">High quality and useful</span>
+                        <span class="definition">Authoritative enough to help someone learn, develop, or advance.</span>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="marker"></div>
+                    <div class="text-block">
+                        <span class="term">Distinct</span>
+                        <span class="definition">Not redundant with books already included.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

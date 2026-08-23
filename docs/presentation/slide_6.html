@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+        }
+        .header {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            width: 1000px;
+        }
+        .title {
+            color: #0F0F0F;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+        }
+        .content-wrapper {
+            position: absolute;
+            bottom: 60px;
+            left: 80px;
+            width: 1040px;
+            border-left: 8px solid #DAA520;
+            padding-left: 40px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 60px;
+            row-gap: 40px;
+        }
+        .step-item {
+            display: flex;
+            align-items: flex-start;
+        }
+        .step-number {
+            color: #DAA520;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 1;
+            margin-right: 20px;
+            letter-spacing: -0.05em;
+            min-width: 36px;
+        }
+        .step-text {
+            color: #0F0F0F;
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 1.4;
+            padding-top: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="title">The research operating system</h2>
+        </div>
+        <div class="content-wrapper">
+            <div class="grid-container">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-text">Define the field’s complete knowledge structure.</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">4</div>
+                    <div class="step-text">Research legitimate free books for each major subject.</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-text">Map beginner-to-advanced progression.</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">5</div>
+                    <div class="step-text">Expand into specialized, practical, professional, and postgraduate resources.</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-text">Identify subjects and subfields.</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">6</div>
+                    <div class="step-text">Verify, deduplicate, organize, and only then move to the next category.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

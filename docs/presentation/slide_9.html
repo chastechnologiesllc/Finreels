@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+        }
+        .header {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            width: 1000px;
+        }
+        .title {
+            color: #0F0F0F;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            margin-bottom: 16px;
+        }
+        .intro {
+            color: #9E9E9E;
+            font-weight: 300;
+            font-size: 28px;
+        }
+        .content-wrapper {
+            position: absolute;
+            bottom: 80px;
+            left: 80px;
+            width: 900px;
+            border-left: 8px solid #DAA520;
+            padding-left: 40px;
+        }
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 24px;
+        }
+        .list-item:first-child {
+            margin-top: 0;
+        }
+        .marker {
+            width: 12px;
+            height: 12px;
+            background-color: #0F0F0F;
+            margin-top: 10px;
+            margin-right: 24px;
+            flex-shrink: 0;
+        }
+        .text {
+            color: #0F0F0F;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 1.5;
+        }
+        .highlight {
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="title">Definition of done: category by category</h2>
+            <p class="intro">A category is ready to advance only when:</p>
+        </div>
+        <div class="content-wrapper">
+            <div class="list-item">
+                <div class="marker"></div>
+                <div class="text">Its knowledge map and progression are explicit.</div>
+            </div>
+            <div class="list-item">
+                <div class="marker"></div>
+                <div class="text">Major subjects, specializations, and professional needs are represented.</div>
+            </div>
+            <div class="list-item">
+                <div class="marker"></div>
+                <div class="text">Each book has passed the free/legal/real/relevant/quality checks.</div>
+            </div>
+            <div class="list-item">
+                <div class="marker"></div>
+                <div class="text">Duplicates, weak resources, and questionable links are removed.</div>
+            </div>
+            <div class="list-item">
+                <div class="marker"></div>
+                <div class="text">The final set is logically organized for a learner—not merely counted.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

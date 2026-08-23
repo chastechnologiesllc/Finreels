@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+        }
+        .giant-number {
+            position: absolute;
+            top: -40px;
+            right: -20px;
+            font-size: 400px;
+            font-weight: 900;
+            color: #9E9E9E;
+            opacity: 0.15;
+            letter-spacing: -0.05em;
+            line-height: 1;
+            z-index: 1;
+        }
+        .content-wrapper {
+            position: absolute;
+            bottom: 80px;
+            left: 80px;
+            width: 900px;
+            border-left: 8px solid #DAA520;
+            padding-left: 40px;
+            z-index: 2;
+        }
+        .title {
+            color: #0F0F0F;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            margin-bottom: 48px;
+        }
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 24px;
+        }
+        .list-item:first-child {
+            margin-top: 0;
+        }
+        .marker {
+            width: 12px;
+            height: 12px;
+            background-color: #0F0F0F;
+            margin-top: 10px;
+            margin-right: 24px;
+            flex-shrink: 0;
+        }
+        .text {
+            color: #0F0F0F;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 1.5;
+        }
+        .highlight {
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="giant-number">500+</div>
+        <div class="content-wrapper">
+            <h2 class="title">500+ is a quality threshold—not a quota</h2>
+            <div class="list-item">
+                <div class="marker"></div>
+                <div class="text">Target <span class="highlight">500+ high-quality, free, legally accessible books per category</span> wherever the ecosystem supports it.</div>
+            </div>
+            <div class="list-item">
+                <div class="marker"></div>
+                <div class="text">Across 80 categories, that represents <span class="highlight">at least 40,000 books</span> before the General collection is included.</div>
+            </div>
+            <div class="list-item">
+                <div class="marker"></div>
+                <div class="text">Never lower the bar with irrelevant, repetitive, low-quality, or questionable resources.</div>
+            </div>
+            <div class="list-item">
+                <div class="marker"></div>
+                <div class="text">Continue beyond 500 when additional books add meaningful value.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
