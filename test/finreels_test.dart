@@ -17,6 +17,9 @@ void main() {
       channelName: 'Test Channel',
       publishedAt: DateTime(2024, 6, 15),
       thumbnailUrl: 'https://img.youtube.com/vi/abc123/mqdefault.jpg',
+      thumbnailFallbackUrls: const [
+        'https://img.youtube.com/vi/abc123/default.jpg',
+      ],
     );
 
     test('watchUrl is correct', () {
@@ -57,6 +60,7 @@ void main() {
       expect(restored.title, video.title);
       expect(restored.channelId, video.channelId);
       expect(restored.publishedAt, video.publishedAt);
+      expect(restored.thumbnailFallbackUrls, video.thumbnailFallbackUrls);
     });
   });
 
@@ -254,6 +258,9 @@ void main() {
       channelName: 'Frances Harder',
       publishedAt: DateTime(2000),
       thumbnailUrl: '', // no cover source — BookCoverImage shows a placeholder
+      thumbnailFallbackUrls: const [
+        'https://covers.openlibrary.org/b/id/123-L.jpg',
+      ],
       freeSourceUrl: 'https://example.com/fashion-for-profit',
       freeSourceType: 'web',
       sourceCategoryId: 'skill_01_tailoring_fashion_design',
@@ -269,6 +276,7 @@ void main() {
       expect(restored.freeSourceUrl, verifiedBook.freeSourceUrl);
       expect(restored.freeSourceType, verifiedBook.freeSourceType);
       expect(restored.sourceCategoryId, verifiedBook.sourceCategoryId);
+      expect(restored.thumbnailFallbackUrls, verifiedBook.thumbnailFallbackUrls);
     });
 
     test('a plain video never carries verified_book fields', () {

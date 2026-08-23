@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:collection';
+import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -144,6 +145,7 @@ class FeedProvider extends ChangeNotifier {
   //   2. Learned engagement (EngagementService) — channels this person actually watches/saves rank higher.
   //   3. Shuffle — anything with no signal yet gets a fair, random shot at the top so discovery still happens.
   List<String> _sessionChannelOrder = _buildSessionChannelOrder();
+  final Random _sessionRandom = Random();
 
   // ── Eager-fetch scope ─────────────────────────────────────────────────
   // See ChannelData.eagerFor — general channels always fetched, category-
@@ -220,22 +222,18 @@ class FeedProvider extends ChangeNotifier {
     };
   }
 
-  /// Feed ordering with explicit 3-to-1 category-vs-general ratio and strict
-  /// no-consecutive-same-source guarantee.
+  /// Weighted randomized feed ordering with selected-category priority and a
+  /// strict no-consecutive-same-source diversity pass.
   ///
   /// Algorithm (in order):
-  /// 1. Split into two pools: category-tagged channels (user's selection) and
-  ///    general channels.  Each pool is sorted newest-first independently so
-  ///    the freshest content from each tier always surfaces first.
-  /// 2. Weighted interleave at 3:1 — three category items, then one general,
-  ///    then three category, etc.  When a pool is exhausted the other fills
-  ///    the remainder.  If no category is selected (or category pool is empty)
-  ///    the full list is just sorted by date.
-  /// 3. Diversity pass — walk the merged list and, whenever two adjacent items
-  ///    share the same channelId, find the nearest upcoming item from a
-  ///    different channel and rotate it forward.  O(n) average for realistic
-  ///    feeds; gracefully degrades to leaving ties as-is when no alternative
-  ///    exists (e.g. a user subscribed to one channel only).
+  /// 1. Split into selected-category and general pools.
+  /// 2. Shuffle each pool and draw with a 4:1 probability in favor of the
+  ///    selected pool while both pools have content. This keeps the stream
+  ///    varied while making the user's chosen categories substantially more
+  ///    visible. If no category is selected, the whole stream is shuffled.
+  /// 3. Walk the result and rotate the nearest different channel forward when
+  ///    adjacent items share a channel. The pass degrades gracefully when a
+  ///    single channel is the only available source.
   List<Video> _smartMix(List<Video> videos) {
     if (videos.isEmpty) return const [];
 
@@ -254,28 +252,33 @@ class FeedProvider extends ChangeNotifier {
     for (final v in videos) {
       (isCategoryChannel(v.channelId) ? catPool : genPool).add(v);
     }
-    catPool.sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
-    genPool.sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
+    // Shuffle within each tier once per feed computation. The selected tier
+    // remains the stronger signal, while random order prevents the same
+    // channels and uploads from appearing in the same fixed positions.
+    catPool.shuffle(_sessionRandom);
+    genPool.shuffle(_sessionRandom);
 
-    // Fallback: no selection or no category content → plain date sort
+    // No selection or no selected-category content: still randomize the
+    // combined stream so discovery does not become a fixed chronological list.
     if (selected.isEmpty || catPool.isEmpty) {
-      final all = [...genPool, ...catPool]
-        ..sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
+      final all = [...genPool, ...catPool]..shuffle(_sessionRandom);
       return List.unmodifiable(_diversify(all));
     }
 
-    // ── 2. 3:1 weighted interleave ──────────────────────────────────────────
-    // 3 from the category pool, then 1 from the general pool, repeat.
-    // Each pool is consumed in newest-first order so recency is preserved
-    // within each tier.
+    // ── 2. Weighted random draw: 80% selected-category / 20% general ────────
+    // The draw is random on every computation, but the selected pool remains
+    // four times more likely while both pools still have items available.
     final merged = <Video>[];
     var ci = 0;
     var gi = 0;
     while (ci < catPool.length || gi < genPool.length) {
-      for (var slot = 0; slot < 3 && ci < catPool.length; slot++) {
+      final takeCategory = ci < catPool.length &&
+          (gi >= genPool.length || _sessionRandom.nextInt(5) != 0);
+      if (takeCategory) {
         merged.add(catPool[ci++]);
+      } else {
+        merged.add(genPool[gi++]);
       }
-      if (gi < genPool.length) merged.add(genPool[gi++]);
     }
 
     // ── 3. Diversity pass — no two adjacent items from the same channel ─────
@@ -348,12 +351,42 @@ class FeedProvider extends ChangeNotifier {
       if (v != null) categoryPdfs.add(v);
     }
 
-    return [
+    final selectedBooks = <Video>[
       ...categoryPdfs,
       ...mine.map(_videoFromVerifiedBook),
+    ];
+    final generalBooks = <Video>[
       ..._bookVideos,
       ...general.map(_videoFromVerifiedBook),
     ];
+
+    // Books use the same weighted randomized discovery rule as videos: four
+    // selected-category items for roughly every one General item while both
+    // pools have content. This avoids a fixed category-first wall and keeps
+    // the user's chosen pathways visible throughout the stream.
+    return List.unmodifiable(_weightedRandomMix(selectedBooks, generalBooks));
+  }
+
+  List<Video> _weightedRandomMix(
+      List<Video> selectedPool, List<Video> generalPool) {
+    final selected = List<Video>.from(selectedPool)..shuffle(_sessionRandom);
+    final general = List<Video>.from(generalPool)..shuffle(_sessionRandom);
+    if (selected.isEmpty) return general;
+    if (general.isEmpty) return selected;
+
+    final mixed = <Video>[];
+    var selectedIndex = 0;
+    var generalIndex = 0;
+    while (selectedIndex < selected.length || generalIndex < general.length) {
+      final takeSelected = selectedIndex < selected.length &&
+          (generalIndex >= general.length || _sessionRandom.nextInt(5) != 0);
+      if (takeSelected) {
+        mixed.add(selected[selectedIndex++]);
+      } else {
+        mixed.add(general[generalIndex++]);
+      }
+    }
+    return mixed;
   }
 
   /// Bundled PDF for a single online_hustles_* category id, or null if unknown.
