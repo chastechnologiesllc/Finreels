@@ -113,29 +113,95 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator(color: AppTheme.gold))
-          : Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(20, 4, 20, 16),
-                  child: Text(
-                    'Pick your profession, skill or business — or just search '
-                    'for what you do — so FinReels can prioritize content for '
-                    'you instead of generic advice.',
-                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: AppTheme.textSecondary(context)),
+          : widget.isOnboarding
+              ? _buildOnboardingBody(context)
+              : _buildSettingsBody(context),
+    );
+  }
+
+  Widget _buildOnboardingBody(BuildContext context) {
+    final hasQuery = _query.isNotEmpty;
+    final search = _SearchField(
+      onChanged: (v) => setState(() => _query = v.trim().toLowerCase()),
+    );
+
+    return Column(
+      children: [
+        Expanded(
+          child: hasQuery
+              ? Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(20, 20, 20, 8),
+                      child: search,
+                    ),
+                    Expanded(child: _buildList(context)),
+                  ],
+                )
+              : SingleChildScrollView(
+                  padding: const EdgeInsets.fromLTRB(20, 110, 20, 32),
+                  child: Center(
+                    child: ConstrainedBox(
+                      constraints: const BoxConstraints(maxWidth: 520),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Icon(Icons.explore_rounded,
+                              size: 46, color: AppTheme.gold),
+                          const SizedBox(height: 20),
+                          Text(
+                            'What do you want to do with FinReels?',
+                            textAlign: TextAlign.center,
+                            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                                  fontWeight: FontWeight.w800,
+                                  letterSpacing: -0.4,
+                                ),
+                          ),
+                          const SizedBox(height: 10),
+                          Text(
+                            'Search your profession, skills and businesses',
+                            textAlign: TextAlign.center,
+                            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                  color: AppTheme.textSecondary(context),
+                                  height: 1.45,
+                                ),
+                          ),
+                          const SizedBox(height: 28),
+                          search,
+                        ],
+                      ),
+                    ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: _SearchField(
-                    onChanged: (v) => setState(() => _query = v.trim().toLowerCase()),
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Expanded(child: _buildList(context)),
-                _buildSaveBar(context),
-              ],
-            ),
+        ),
+        _buildSaveBar(context),
+      ],
+    );
+  }
+
+  Widget _buildSettingsBody(BuildContext context) {
+    return Column(
+      children: [
+        Padding(
+          padding: const EdgeInsets.fromLTRB(20, 4, 20, 16),
+          child: Text(
+            'Pick your profession, skill or business — or just search '
+            'for what you do — so FinReels can prioritize content for '
+            'you instead of generic advice.',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: AppTheme.textSecondary(context)),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          child: _SearchField(
+            onChanged: (v) => setState(() => _query = v.trim().toLowerCase()),
+          ),
+        ),
+        const SizedBox(height: 8),
+        Expanded(child: _buildList(context)),
+        _buildSaveBar(context),
+      ],
     );
   }
 
