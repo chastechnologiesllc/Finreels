@@ -34,24 +34,62 @@ class CategorySearch {
     ResourceSection.onlineHustle,
   ];
 
-  /// True if [category] matches [rawQuery] — checked against its name and
-  /// every one of its searchKeywords. Substring match both ways (query
-  /// inside a keyword, or a keyword inside a longer typed phrase) so both
-  /// "sew" -> "sewing" and "I sew clothes for people" -> "sew" resolve.
+  /// True if [category] matches [rawQuery] — checked against its canonical
+  /// name and every curated search keyword. Empty input deliberately matches
+  /// nothing: callers must never turn an empty search into the full catalogue.
   static bool matches(ResourceCategory category, String rawQuery) {
-    final q = rawQuery.trim().toLowerCase();
-    if (q.isEmpty) return true;
-    if (category.name.toLowerCase().contains(q)) return true;
+    final q = _normalise(rawQuery);
+    if (q.isEmpty) return false;
+
+    final name = _normalise(category.name);
+    if (name.contains(q)) return true;
     for (final keyword in category.searchKeywords) {
-      final k = keyword.toLowerCase();
+      final k = _normalise(keyword);
       if (k.contains(q) || q.contains(k)) return true;
+    }
+
+    // A natural-language query such as "I sew clothes" should still match
+    // the shorter indexed keyword "sew" when no whole-string match exists.
+    final tokens = q.split(' ');
+    if (tokens.length > 1) {
+      final haystacks = [name, ...category.searchKeywords.map(_normalise)];
+      return tokens.every((token) =>
+          token.length >= 2 && haystacks.any((h) => h.contains(token)));
     }
     return false;
   }
 
-  /// Filters [categories] down to the ones matching [query]. Order is
-  /// preserved (callers already get categories pre-sorted by [number] from
-  /// ResourceCategoryData.bySection).
-  static List<ResourceCategory> search(List<ResourceCategory> categories, String query) =>
-      categories.where((c) => matches(c, query)).toList(growable: false);
+  /// Filters [categories] down to matching categories and ranks exact/canonical
+  /// name matches ahead of keyword and partial matches. [limit] is optional so
+  /// a short query cannot recreate the old full catalogue screen.
+  static List<ResourceCategory> search(
+    List<ResourceCategory> categories,
+    String query, {
+    int? limit,
+  }) {
+    final q = _normalise(query);
+    if (q.isEmpty) return const <ResourceCategory>[];
+
+    final matches = categories.where((c) => matches(c, q)).toList();
+    matches.sort((a, b) {
+      final score = _score(b, q).compareTo(_score(a, q));
+      return score != 0 ? score : a.number.compareTo(b.number);
+    });
+    if (limit != null && matches.length > limit) {
+      return List.unmodifiable(matches.take(limit));
+    }
+    return List.unmodifiable(matches);
+  }
+
+  static String _normalise(String value) =>
+      value.trim().toLowerCase().replaceAll(RegExp(r'\s+'), ' ');
+
+  static int _score(ResourceCategory category, String q) {
+    final name = _normalise(category.name);
+    if (name == q) return 400;
+    if (name.startsWith(q)) return 300;
+    if (name.contains(q)) return 250;
+    if (category.searchKeywords.any((k) => _normalise(k) == q)) return 200;
+    return 100;
+  }
 }
