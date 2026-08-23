@@ -10,7 +10,6 @@ ROOT = Path(__file__).resolve().parents[1]
 RESOURCE_DIR = ROOT / "assets" / "data" / "resources"
 ADDITION_FILES = [
     ROOT / "docs" / "research" / "pg_general_selected_additions.json",
-    ROOT / "docs" / "research" / "pg_trade_selected_additions.json",
 ]
 TODAY = date(2026, 8, 23).isoformat()
 DISALLOWED_DOMAINS = {

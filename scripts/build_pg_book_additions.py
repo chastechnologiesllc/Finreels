@@ -62,7 +62,7 @@ EXCLUDE_SUBJECT_RE = re.compile(
     r"fiction|stories|novel|poetry|poems|drama|plays|detective|mystery|romance|fairy tales|tales|juvenile fiction|periodicals|magazines|newspapers|indexes",
     re.I,
 )
-EXCLUDE_TITLE_RE = re.compile(r"magazine|journal|newspaper|bulletin|periodical|index$", re.I)
+EXCLUDE_TITLE_RE = re.compile(r"magazine|journal|newspaper|bulletin|periodical|index$|catalog|directory|annual report|minutes of|prospectus|timetable|price list|address$|inaugural address|lecture notes|first 100 pages", re.I)
 
 
 def normalize(value: str) -> str:

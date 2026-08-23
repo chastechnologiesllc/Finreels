@@ -23,13 +23,13 @@ The Open Textbook Library documentation states that its books are licensed for f
 
 ## Changes made
 
-The update added **3,711 total book records** across the category files after cleanup and deduplication. It included 1,609 high-confidence Open Textbook Library additions, 250 selected Project Gutenberg titles for General, and 1,110 selected Project Gutenberg supplemental trade and vocational titles. The General collection now contains **578 books**.
+The first update added 3,711 total book records across the category files after cleanup and deduplication. This follow-up added **500 additional Project Gutenberg public-domain non-fiction records to `_general.json`**, bringing the General collection to **1,078 books** and the repository-wide total to **4,211 book records**. Across both passes, the work includes 1,609 high-confidence Open Textbook Library additions, 750 selected Project Gutenberg titles for General, and 1,110 selected Project Gutenberg supplemental trade and vocational titles.
 
 The pass also removed **49 existing entries** hosted on explicitly disallowed generic or unauthorized-looking ebook domains, including `f5fp.com`, `bdebooks.com`, `bookdio.org`, and `free-ebooks.net`. These were not treated as legitimate free-book sources. Existing Internet Archive borrow records were not automatically removed because Internet Archive access is a legal library-lending model, but they remain marked as borrowable or requiring review where applicable.
 
 ## Validation results
 
-The final quality check passed with no JSON parsing errors, no missing required book fields, no blank authors, no missing URLs, no remaining disallowed hosts, and no within-file title-author duplicates. Cross-category overlap remains possible where the same textbook legitimately supports multiple learning pathways; these are recorded as category-specific uses rather than silently deleted across the library.
+The final quality check for this follow-up passed with no JSON parsing errors, no missing required book fields, no blank authors, no missing URLs, no remaining disallowed hosts, and no within-file title-author duplicates. Cross-category overlap remains possible where the same textbook legitimately supports multiple learning pathways; these are recorded as category-specific uses rather than silently deleted across the library.
 
 ## Important limitation
 
