@@ -198,9 +198,10 @@ void main() {
     );
     final categories = [tailoring, medicine];
 
-    test('empty query matches everything', () {
-      expect(CategorySearch.matches(tailoring, ''), isTrue);
-      expect(CategorySearch.matches(medicine, ''), isTrue);
+    test('empty query matches nothing', () {
+      expect(CategorySearch.matches(tailoring, ''), isFalse);
+      expect(CategorySearch.matches(medicine, ''), isFalse);
+      expect(CategorySearch.search(categories, ''), isEmpty);
     });
 
     test('matches on a substring of the category name', () {
@@ -225,6 +226,26 @@ void main() {
       expect(CategorySearch.search(categories, 'sew'), [tailoring]);
       expect(CategorySearch.search(categories, 'physician'), [medicine]);
       expect(CategorySearch.search(categories, 'zzz-no-such-trade'), isEmpty);
+    });
+
+    test('exact category names rank ahead of keyword matches', () {
+      final results = CategorySearch.search(
+        [
+          tailoring,
+          medicine,
+          const ResourceCategory(
+            id: 'profession_02_pharmacy',
+            section: ResourceSection.profession,
+            number: 2,
+            name: 'Pharmacy',
+            searchKeywords: ['medicine'],
+          ),
+        ],
+        'medicine',
+        limit: 8,
+      );
+      expect(results.first, medicine);
+      expect(results.map((c) => c.name), contains('Pharmacy'));
     });
 
     test('sectionOrder is Profession, Skill, Business, then Online Hustles', () {
