@@ -392,6 +392,7 @@ class FeedProvider extends ChangeNotifier {
       // coverUrl from the JSON — Open Library ISBN URL, publisher CDN, etc.
       // Empty string when not set; BookCoverImage handles that gracefully.
       thumbnailUrl: b.coverUrl ?? '',
+      thumbnailFallbackUrls: b.coverCandidates,
       freeSourceUrl: b.freeSourceUrl,
       freeSourceType: b.freeSourceType,
       sourceCategoryId: b.categoryId,

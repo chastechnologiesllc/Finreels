@@ -6,6 +6,11 @@ class Video {
   final String channelName;
   final DateTime publishedAt;
   final String thumbnailUrl;
+
+  /// Ordered fallback cover URLs for book-like videos. Empty for ordinary
+  /// videos; the first successful exact-cover URL is rendered.
+  final List<String> thumbnailFallbackUrls;
+
   /// Original RSS link — YouTube Shorts have /shorts/ in this URL.
   final String? originalLink;
 
@@ -30,6 +35,7 @@ class Video {
     required this.channelName,
     required this.publishedAt,
     required this.thumbnailUrl,
+    this.thumbnailFallbackUrls = const [],
     this.originalLink,
     this.freeSourceUrl,
     this.freeSourceType,
@@ -80,6 +86,8 @@ class Video {
         'channelName': channelName,
         'publishedAt': publishedAt.toIso8601String(),
         'thumbnailUrl': thumbnailUrl,
+        if (thumbnailFallbackUrls.isNotEmpty)
+          'thumbnailFallbackUrls': thumbnailFallbackUrls,
         if (originalLink != null) 'originalLink': originalLink,
         if (freeSourceUrl != null) 'freeSourceUrl': freeSourceUrl,
         if (freeSourceType != null) 'freeSourceType': freeSourceType,
@@ -94,6 +102,11 @@ class Video {
         channelName: json['channelName'] as String,
         publishedAt: DateTime.parse(json['publishedAt'] as String),
         thumbnailUrl: json['thumbnailUrl'] as String,
+        thumbnailFallbackUrls: (json['thumbnailFallbackUrls'] as List?)
+                ?.whereType<String>()
+                .where((u) => u.trim().isNotEmpty)
+                .toList(growable: false) ??
+            const [],
         originalLink: json['originalLink'] as String?,
         freeSourceUrl: json['freeSourceUrl'] as String?,
         freeSourceType: json['freeSourceType'] as String?,

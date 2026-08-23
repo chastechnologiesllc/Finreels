@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 IN_PATH = ROOT / "docs" / "research" / "pg_book_additions.json"
 OUT_PATH = ROOT / "docs" / "research" / "pg_general_selected_additions.json"
 
-MAX_TITLES = 500
+MAX_TITLES = 3500
 priority = [
     "Category: Psychiatry/Psychology",
     "Category: Philosophy & Ethics",

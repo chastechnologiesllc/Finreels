@@ -471,6 +471,7 @@ class _BooksTab extends StatelessWidget {
                   children: [
                     BookCoverImage(
                       url: book.thumbnailUrl,
+                      fallbackUrls: book.thumbnailFallbackUrls,
                       width: 90,
                       height: 120,
                       borderRadius: const BorderRadius.only(

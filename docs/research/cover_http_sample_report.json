@@ -1,0 +1,1588 @@
+{
+  "sampleBooks": 263,
+  "sampleUrls": 503,
+  "workingBooks": 165,
+  "failedBooks": 98,
+  "workingUrls": 309,
+  "failedUrls": 194,
+  "rows": [
+    {
+      "title": "Take Me for a Ride: Coming of Age in a Destructive Cult",
+      "source": "https://www.gutenberg.org/ebooks/162",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/162/pg162.cover.medium.jpg"
+    },
+    {
+      "title": "In Darkest England, and the Way Out",
+      "source": "https://www.gutenberg.org/ebooks/475",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/475/pg475.cover.medium.jpg"
+    },
+    {
+      "title": "Common Sense",
+      "source": "https://www.gutenberg.org/ebooks/147",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/147/pg147.cover.medium.jpg"
+    },
+    {
+      "title": "The Mountains",
+      "source": "https://www.gutenberg.org/ebooks/465",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/465/pg465.cover.medium.jpg"
+    },
+    {
+      "title": "Men, Women, and God\r\nA Discussion of Sex Questions from the Christian Point of View",
+      "source": "https://www.gutenberg.org/ebooks/6579",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/6579/pg6579.cover.medium.jpg"
+    },
+    {
+      "title": "Memoirs of the Comtesse Du Barry\r\nWith Minute Details of Her Entire Career as Favorite of Louis XV",
+      "source": "https://www.gutenberg.org/ebooks/2082",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/2082/pg2082.cover.medium.jpg"
+    },
+    {
+      "title": "Life of Chopin",
+      "source": "https://www.gutenberg.org/ebooks/4386",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/4386/pg4386.cover.medium.jpg"
+    },
+    {
+      "title": "Stammering, its cause and cure",
+      "source": "https://www.gutenberg.org/ebooks/4256",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/4256/pg4256.cover.medium.jpg"
+    },
+    {
+      "title": "After the Rain : how the West lost the East",
+      "source": "https://www.gutenberg.org/ebooks/4685",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/4685/pg4685.cover.medium.jpg"
+    },
+    {
+      "title": "Hackers, Heroes of the Computer Revolution. Chapters 1 and 2",
+      "source": "https://www.gutenberg.org/ebooks/729",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/729/pg729.cover.medium.jpg"
+    },
+    {
+      "title": "A Voyage to Abyssinia",
+      "source": "https://www.gutenberg.org/ebooks/1436",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/1436/pg1436.cover.medium.jpg"
+    },
+    {
+      "title": "Happiness and Marriage",
+      "source": "https://www.gutenberg.org/ebooks/10063",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/10063/pg10063.cover.medium.jpg"
+    },
+    {
+      "title": "Camp-Fire and Cotton-Field: Southern Adventure in Time of War.\r\nLife with the Union Armies, and Residence on a Louisiana Plantation",
+      "source": "https://www.gutenberg.org/ebooks/12068",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/12068/pg12068.cover.medium.jpg"
+    },
+    {
+      "title": "The Author's Craft",
+      "source": "https://www.gutenberg.org/ebooks/12743",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/12743/pg12743.cover.medium.jpg"
+    },
+    {
+      "title": "Experiments on the Spoilage of Tomato Ketchup",
+      "source": "https://www.gutenberg.org/ebooks/52867",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/52867/pg52867.cover.medium.jpg"
+    },
+    {
+      "title": "Sir Walter Raleigh and His Time",
+      "source": "https://www.gutenberg.org/ebooks/3143",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/3143/pg3143.cover.medium.jpg"
+    },
+    {
+      "title": "Handbook on dress and cloak cutting",
+      "source": "https://www.gutenberg.org/ebooks/74716",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/74716/pg74716.cover.medium.jpg"
+    },
+    {
+      "title": "Definition & Reality in the General Theory of Political Economy",
+      "source": "https://www.gutenberg.org/ebooks/15939",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/15939/pg15939.cover.medium.jpg"
+    },
+    {
+      "title": "Lives of Eminent Zoologists, from Aristotle to Linnæus\nwith Introductory remarks on the Study of Natural History",
+      "source": "https://www.gutenberg.org/ebooks/34160",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/34160/pg34160.cover.medium.jpg"
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 02: January 1659-1660",
+      "source": "https://www.gutenberg.org/ebooks/4118",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/4118/pg4118.cover.medium.jpg"
+    },
+    {
+      "title": "The Meaning of Infancy",
+      "source": "https://www.gutenberg.org/ebooks/12359",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/12359/pg12359.cover.medium.jpg"
+    },
+    {
+      "title": "Notes Upon Indigo",
+      "source": "https://www.gutenberg.org/ebooks/62008",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/62008/pg62008.cover.medium.jpg"
+    },
+    {
+      "title": "A Preliminary Revision of the North American Species of Cactus, Anhalonium, and Lophophora",
+      "source": "https://www.gutenberg.org/ebooks/1221",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/1221/pg1221.cover.medium.jpg"
+    },
+    {
+      "title": "Wear and Tear; Or, Hints for the Overworked",
+      "source": "https://www.gutenberg.org/ebooks/13197",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/13197/pg13197.cover.medium.jpg"
+    },
+    {
+      "title": "The Lives of the Twelve Caesars, Volume 05: Claudius",
+      "source": "https://www.gutenberg.org/ebooks/6390",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/6390/pg6390.cover.medium.jpg"
+    },
+    {
+      "title": "Memoirs of the Court of Louis XIV. and of the Regency — Volume 01",
+      "source": "https://www.gutenberg.org/ebooks/3855",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/3855/pg3855.cover.medium.jpg"
+    },
+    {
+      "title": "The Life of Sir Richard Burton",
+      "source": "https://www.gutenberg.org/ebooks/4315",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/4315/pg4315.cover.medium.jpg"
+    },
+    {
+      "title": "The Babylonian Story of the Deluge as Told by Assyrian Tablets from Nineveh\r\nThe Discovery of the Tablets at Nineveh by Layard, Rassam and Smith",
+      "source": "https://www.gutenberg.org/ebooks/7096",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/7096/pg7096.cover.medium.jpg"
+    },
+    {
+      "title": "Quotes and Images from Christopher Columbus",
+      "source": "https://www.gutenberg.org/ebooks/7540",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/7540/pg7540.cover.medium.jpg"
+    },
+    {
+      "title": "The Old Northwest: A Chronicle of the Ohio Valley and Beyond",
+      "source": "https://www.gutenberg.org/ebooks/3014",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/3014/pg3014.cover.medium.jpg"
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 63: March 1667-68",
+      "source": "https://www.gutenberg.org/ebooks/4187",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/4187/pg4187.cover.medium.jpg"
+    },
+    {
+      "title": "Hormones and Heredity\r\nA Discussion of the Evolution of Adaptations and the Evolution of Species",
+      "source": "https://www.gutenberg.org/ebooks/8517",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/8517/pg8517.cover.medium.jpg"
+    },
+    {
+      "title": "Spanish Prisoners of War (from Literature and Life)",
+      "source": "https://www.gutenberg.org/ebooks/3383",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/3383/pg3383.cover.medium.jpg"
+    },
+    {
+      "title": "Memoirs of Napoleon Bonaparte — Volume 04",
+      "source": "https://www.gutenberg.org/ebooks/3554",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/3554/pg3554.cover.medium.jpg"
+    },
+    {
+      "title": "The Acadian Exiles : a Chronicle of the Land of Evangeline",
+      "source": "https://www.gutenberg.org/ebooks/6502",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/6502/pg6502.cover.medium.jpg"
+    },
+    {
+      "title": "England under the Tudors",
+      "source": "https://www.gutenberg.org/ebooks/6727",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/6727/pg6727.cover.medium.jpg"
+    },
+    {
+      "title": "Through Central Borneo; an Account of Two Years' Travel in the Land of Head-Hunters Between the Years 1913 and 1917",
+      "source": "https://www.gutenberg.org/ebooks/7489",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/7489/pg7489.cover.medium.jpg"
+    },
+    {
+      "title": "Getting Gold: A Practical Treatise for Prospectors, Miners and Students",
+      "source": "https://www.gutenberg.org/ebooks/3679",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/3679/pg3679.cover.medium.jpg"
+    },
+    {
+      "title": "Val d'Arno\r\nTen Lectures on the Tuscan Art Directly Antecedent to the Florentine Year of Victories; Given Before the University of Oxford in Michaelmas Term, 1873",
+      "source": "https://www.gutenberg.org/ebooks/8523",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/8523/pg8523.cover.medium.jpg"
+    },
+    {
+      "title": "Lady John Russell: A Memoir with Selections from Her Diaries and Correspondence",
+      "source": "https://www.gutenberg.org/ebooks/10980",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/10980/pg10980.cover.medium.jpg"
+    },
+    {
+      "title": "Roman History, Books I-III",
+      "source": "https://www.gutenberg.org/ebooks/10828",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/10828/pg10828.cover.medium.jpg"
+    },
+    {
+      "title": "Report of Commemorative Services with the Sermons and Addresses at the Seabury Centenary, 1883-1885.",
+      "source": "https://www.gutenberg.org/ebooks/6144",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/6144/pg6144.cover.medium.jpg"
+    },
+    {
+      "title": "Life of Johnson, Volume 5\r\nTour to the Hebrides (1773) and Journey into North Wales (1774)",
+      "source": "https://www.gutenberg.org/ebooks/10451",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/10451/pg10451.cover.medium.jpg"
+    },
+    {
+      "title": "Christopher Columbus and the New World of His Discovery — Volume 7",
+      "source": "https://www.gutenberg.org/ebooks/4114",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/4114/pg4114.cover.medium.jpg"
+    },
+    {
+      "title": "The Idler in France",
+      "source": "https://www.gutenberg.org/ebooks/13044",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/13044/pg13044.cover.medium.jpg"
+    },
+    {
+      "title": "Letters of Travel (1892-1913)",
+      "source": "https://www.gutenberg.org/ebooks/12089",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/12089/pg12089.cover.medium.jpg"
+    },
+    {
+      "title": "The Rise of the Dutch Republic — Volume 15: 1568, part II",
+      "source": "https://www.gutenberg.org/ebooks/4816",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/4816/pg4816.cover.medium.jpg"
+    },
+    {
+      "title": "The Rise of the Dutch Republic — Volume 32: 1582-84",
+      "source": "https://www.gutenberg.org/ebooks/4834",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/4834/pg4834.cover.medium.jpg"
+    },
+    {
+      "title": "Marse Henry: An Autobiography, Complete",
+      "source": "https://www.gutenberg.org/ebooks/8460",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/8460/pg8460.cover.medium.jpg"
+    },
+    {
+      "title": "The Vedanta-Sutras with the Commentary by Ramanuja\r\nSacred Books of the East, Volume 48",
+      "source": "https://www.gutenberg.org/ebooks/7297",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/7297/pg7297.cover.medium.jpg"
+    },
+    {
+      "title": "Two Trips to Gorilla Land and the Cataracts of the Congo, Volume 2",
+      "source": "https://www.gutenberg.org/ebooks/5761",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/5761/pg5761.cover.medium.jpg"
+    },
+    {
+      "title": "A Compilation of the Messages and Papers of the Presidents. Volume 1, part 2: John Adams",
+      "source": "https://www.gutenberg.org/ebooks/10894",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/10894/pg10894.cover.medium.jpg"
+    },
+    {
+      "title": "Aesthetic as Science of Expression and General Linguistic",
+      "source": "https://www.gutenberg.org/ebooks/9306",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/9306/pg9306.cover.medium.jpg"
+    },
+    {
+      "title": "The Great Conspiracy, Volume 4",
+      "source": "https://www.gutenberg.org/ebooks/7136",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/7136/pg7136.cover.medium.jpg"
+    },
+    {
+      "title": "Indian Nullification of the Unconstitutional Laws of Massachusetts Relative to the Marshpee Tribe\r\nOr, the Pretended Riot Explained",
+      "source": "https://www.gutenberg.org/ebooks/12486",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/12486/pg12486.cover.medium.jpg"
+    },
+    {
+      "title": "Utilitarianism",
+      "source": "https://www.gutenberg.org/ebooks/11224",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/11224/pg11224.cover.medium.jpg"
+    },
+    {
+      "title": "The Boy Life of Napoleon, Afterwards Emperor of the French",
+      "source": "https://www.gutenberg.org/ebooks/9479",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/9479/pg9479.cover.medium.jpg"
+    },
+    {
+      "title": "The New Ideal in Education\r\nAn Address Given Before the League of the Empire on July 16th, 1916",
+      "source": "https://www.gutenberg.org/ebooks/13301",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/13301/pg13301.cover.medium.jpg"
+    },
+    {
+      "title": "Why We Are at War (2nd Edition, revised)",
+      "source": "https://www.gutenberg.org/ebooks/10809",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/10809/pg10809.cover.medium.jpg"
+    },
+    {
+      "title": "A Peep into Toorkisthan",
+      "source": "https://www.gutenberg.org/ebooks/11902",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/11902/pg11902.cover.medium.jpg"
+    },
+    {
+      "title": "The \"Wearing of the Green,\" or The Prosecuted Funeral Procession",
+      "source": "https://www.gutenberg.org/ebooks/12853",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/12853/pg12853.cover.medium.jpg"
+    },
+    {
+      "title": "Vocational Guidance for Girls",
+      "source": "https://www.gutenberg.org/ebooks/15595",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/15595/pg15595.cover.medium.jpg"
+    },
+    {
+      "title": "Cosmos: A Sketch of the Physical Description of the Universe, Vol. 1",
+      "source": "https://www.gutenberg.org/ebooks/14565",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/14565/pg14565.cover.medium.jpg"
+    },
+    {
+      "title": "Rembrandt",
+      "source": "https://www.gutenberg.org/ebooks/17215",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/17215/pg17215.cover.medium.jpg"
+    },
+    {
+      "title": "The story of my first novel; How a novel is written",
+      "source": "https://www.gutenberg.org/ebooks/27622",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/27622/pg27622.cover.medium.jpg"
+    },
+    {
+      "title": "A History of Trade Unionism in the United States",
+      "source": "https://www.gutenberg.org/ebooks/14458",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/14458/pg14458.cover.medium.jpg"
+    },
+    {
+      "title": "The Photoplay: A Psychological Study",
+      "source": "https://www.gutenberg.org/ebooks/15383",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/15383/pg15383.cover.medium.jpg"
+    },
+    {
+      "title": "Elements of Agricultural Chemistry",
+      "source": "https://www.gutenberg.org/ebooks/24931",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/24931/pg24931.cover.medium.jpg"
+    },
+    {
+      "title": "Balbus; or, the future of architecture",
+      "source": "https://www.gutenberg.org/ebooks/75202",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/75202/pg75202.cover.medium.jpg"
+    },
+    {
+      "title": "A Treatise of Cleanness in Meats and Drinks, of the Preparation of Food,\r\nthe Excellency of Good Airs, and the Benefits of Clean Sweet Beds. Also of the Generation of Bugs, and Their Cure. To Which Is Added, a Short Discourse of the Pain in the Teeth, Shewing What Cause It Does Chiefly Proceed, and Also How to Prevent It.",
+      "source": "https://www.gutenberg.org/ebooks/52657",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/52657/pg52657.cover.medium.jpg"
+    },
+    {
+      "title": "Unwritten Literature of Hawaii: The Sacred Songs of the Hula",
+      "source": "https://www.gutenberg.org/ebooks/20299",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/20299/pg20299.cover.medium.jpg"
+    },
+    {
+      "title": "Response in the Living and Non-Living",
+      "source": "https://www.gutenberg.org/ebooks/18986",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/18986/pg18986.cover.medium.jpg"
+    },
+    {
+      "title": "The Art of Confectionary\r\nShewing the Various Methods of Preserving All Sorts of Fruits, Dry and Liquid; viz. Oranges, Lemons, Citrons, Golden Pippins, Wardens, Apricots Green, Almonds, Goosberries, Cherries, Currants, Plumbs, Rasberries, Peaches, Walnuts, Nectarines, Figs, Grapes, &amp;c., Flowers and Herbs; as Violets, Angelica, Orange-Flowers, &amp;c.; Also How to Make All Sorts of Biscakes, Maspins, Sugar-Works, and Candies. With the Best Methods of Clarifying, and the Different Ways of Boiling Sugar.",
+      "source": "https://www.gutenberg.org/ebooks/30121",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/30121/pg30121.cover.medium.jpg"
+    },
+    {
+      "title": "Opticks",
+      "source": "https://www.gutenberg.org/ebooks/33504",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/33504/pg33504.cover.medium.jpg"
+    },
+    {
+      "title": "The Eugenic Marriage, Volume 2 (of 4)\r\nA Personal Guide to the New Science of Better Living and Better Babies",
+      "source": "https://www.gutenberg.org/ebooks/24854",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/24854/pg24854.cover.medium.jpg"
+    },
+    {
+      "title": "Detection of the Common Food Adulterants",
+      "source": "https://www.gutenberg.org/ebooks/43545",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/43545/pg43545.cover.medium.jpg"
+    },
+    {
+      "title": "Rowing",
+      "source": "https://www.gutenberg.org/ebooks/34950",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/34950/pg34950.cover.medium.jpg"
+    },
+    {
+      "title": "Narrative of Services in the Liberation of Chili, Peru and Brazil,\nfrom Spanish and Portuguese Domination, Volume 2",
+      "source": "https://www.gutenberg.org/ebooks/14479",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/14479/pg14479.cover.medium.jpg"
+    },
+    {
+      "title": "The Story of the Mind",
+      "source": "https://www.gutenberg.org/ebooks/20522",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/20522/pg20522.cover.medium.jpg"
+    },
+    {
+      "title": "History of Egypt, Chaldæa, Syria, Babylonia, and Assyria, Volume 5 (of 12)",
+      "source": "https://www.gutenberg.org/ebooks/17325",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/17325/pg17325.cover.medium.jpg"
+    },
+    {
+      "title": "The Writer's Desk Book\r\nBeing a Reference Volume upon Questions of Punctuation, Capitalization, Spelling, Division of Words, Indention, Spacing, Italics, Abbreviations, Accents, Numerals, Faulty Diction, Letter Writing, Postal Regulations, Etc.",
+      "source": "https://www.gutenberg.org/ebooks/54025",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/54025/pg54025.cover.medium.jpg"
+    },
+    {
+      "title": "The Standard Oratorios: Their Stories, Their Music, And Their Composers",
+      "source": "https://www.gutenberg.org/ebooks/22793",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/22793/pg22793.cover.medium.jpg"
+    },
+    {
+      "title": "Acids, Alkalis and Salts",
+      "source": "https://www.gutenberg.org/ebooks/50552",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/50552/pg50552.cover.medium.jpg"
+    },
+    {
+      "title": "An Outline of the History of Christian Thought Since Kant",
+      "source": "https://www.gutenberg.org/ebooks/15780",
+      "candidateCount": 3,
+      "firstWorking": null
+    },
+    {
+      "title": "The Women of the Arabs",
+      "source": "https://www.gutenberg.org/ebooks/17278",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/17278/pg17278.cover.medium.jpg"
+    },
+    {
+      "title": "Birds from Coahuila, Mexico",
+      "source": "https://www.gutenberg.org/ebooks/26076",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/26076/pg26076.cover.medium.jpg"
+    },
+    {
+      "title": "Hoyle's Games Modernized",
+      "source": "https://www.gutenberg.org/ebooks/39445",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/39445/pg39445.cover.medium.jpg"
+    },
+    {
+      "title": "Memoir, Correspondence, and Miscellanies, From the Papers of Thomas Jefferson, Volume 4",
+      "source": "https://www.gutenberg.org/ebooks/16784",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/16784/pg16784.cover.medium.jpg"
+    },
+    {
+      "title": "Rural Life and the Rural School",
+      "source": "https://www.gutenberg.org/ebooks/29600",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/29600/pg29600.cover.medium.jpg"
+    },
+    {
+      "title": "Cakes & Ale\r\nA Dissertation on Banquets Interspersed with Various Recipes, More or Less Original, and anecdotes, mainly veracious",
+      "source": "https://www.gutenberg.org/ebooks/43278",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/43278/pg43278.cover.medium.jpg"
+    },
+    {
+      "title": "A New System; or, an Analysis of Antient Mythology. Volume 2 (of 6)",
+      "source": "https://www.gutenberg.org/ebooks/19584",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/19584/pg19584.cover.medium.jpg"
+    },
+    {
+      "title": "Types of Prose Narratives: A Text-Book for the Story Writer",
+      "source": "https://www.gutenberg.org/ebooks/64210",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/64210/pg64210.cover.medium.jpg"
+    },
+    {
+      "title": "Franz Liszt : The Story of a Boy Who Became a Great Pianist and Teacher",
+      "source": "https://www.gutenberg.org/ebooks/35601",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/35601/pg35601.cover.medium.jpg"
+    },
+    {
+      "title": "History and Comprehensive Description of Loudoun County, Virginia",
+      "source": "https://www.gutenberg.org/ebooks/17485",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/17485/pg17485.cover.medium.jpg"
+    },
+    {
+      "title": "Radiation",
+      "source": "https://www.gutenberg.org/ebooks/49467",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/49467/pg49467.cover.medium.jpg"
+    },
+    {
+      "title": "Profitable Stock Exchange Investments",
+      "source": "https://www.gutenberg.org/ebooks/44052",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/44052/pg44052.cover.medium.jpg"
+    },
+    {
+      "title": "Common Sense in the Household: A Manual of Practical Housewifery",
+      "source": "https://www.gutenberg.org/ebooks/48804",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/48804/pg48804.cover.medium.jpg"
+    },
+    {
+      "title": "The History of England in Three Volumes, Vol.II.\r\nContinued from the Reign of William and Mary to the Death of George II.",
+      "source": "https://www.gutenberg.org/ebooks/19217",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/19217/pg19217.cover.medium.jpg"
+    },
+    {
+      "title": "The reaction between manganese dioxide and potassium permanganate",
+      "source": "https://www.gutenberg.org/ebooks/74154",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/74154/pg74154.cover.medium.jpg"
+    },
+    {
+      "title": "Writing and rewriting",
+      "source": "https://www.gutenberg.org/ebooks/75117",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/75117/pg75117.cover.medium.jpg"
+    },
+    {
+      "title": "Radiant Motherhood: A Book for Those Who are Creating the Future",
+      "source": "https://www.gutenberg.org/ebooks/45711",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/45711/pg45711.cover.medium.jpg"
+    },
+    {
+      "title": "Arabic Authors\nA Manual of Arabian History and Literature",
+      "source": "https://www.gutenberg.org/ebooks/19914",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/19914/pg19914.cover.medium.jpg"
+    },
+    {
+      "title": "The Life of George Washington, Vol. 3\r\nCommander in Chief of the American Forces During the War\r\nwhich Established the Independence of his Country and First\r\nPresident of the United States",
+      "source": "https://www.gutenberg.org/ebooks/18593",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/18593/pg18593.cover.medium.jpg"
+    },
+    {
+      "title": "The Story of the Cambrian: A Biography of a Railway",
+      "source": "https://www.gutenberg.org/ebooks/20074",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/20074/pg20074.cover.medium.jpg"
+    },
+    {
+      "title": "Woman's Work in Music",
+      "source": "https://www.gutenberg.org/ebooks/20571",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/20571/pg20571.cover.medium.jpg"
+    },
+    {
+      "title": "Rollo in Scotland",
+      "source": "https://www.gutenberg.org/ebooks/25174",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/25174/pg25174.cover.medium.jpg"
+    },
+    {
+      "title": "London Impressions: Etchings and Pictures in Photogravure",
+      "source": "https://www.gutenberg.org/ebooks/32842",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/32842/pg32842.cover.medium.jpg"
+    },
+    {
+      "title": "Frederic Chopin: His Life, Letters, and Works,  v. 2 (of  2)",
+      "source": "https://www.gutenberg.org/ebooks/46573",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/46573/pg46573.cover.medium.jpg"
+    },
+    {
+      "title": "The Housekeeper's Valuable Present; Or, Lady's Closet Companion\r\nBeing a New and Complete Art of Preparing Confects, According to Modern Practice",
+      "source": "https://www.gutenberg.org/ebooks/58663",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/58663/pg58663.cover.medium.jpg"
+    },
+    {
+      "title": "Hints on Child-training",
+      "source": "https://www.gutenberg.org/ebooks/57569",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/57569/pg57569.cover.medium.jpg"
+    },
+    {
+      "title": "Home Amusements",
+      "source": "https://www.gutenberg.org/ebooks/53391",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/53391/pg53391.cover.medium.jpg"
+    },
+    {
+      "title": "Children's Ways\r\nBeing selections from the author's \"Studies of childhood,\" with some additional matter",
+      "source": "https://www.gutenberg.org/ebooks/37020",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/37020/pg37020.cover.medium.jpg"
+    },
+    {
+      "title": "Insights and Heresies Pertaining to the Evolution of the Soul",
+      "source": "https://www.gutenberg.org/ebooks/18355",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/18355/pg18355.cover.medium.jpg"
+    },
+    {
+      "title": "The Isthmus of Suez Question",
+      "source": "https://www.gutenberg.org/ebooks/59295",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/59295/pg59295.cover.medium.jpg"
+    },
+    {
+      "title": "The Pictorial Grammar",
+      "source": "https://www.gutenberg.org/ebooks/45023",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/45023/pg45023.cover.medium.jpg"
+    },
+    {
+      "title": "The History of Prostitution: Its Extent, Causes, and Effects throughout the World",
+      "source": "https://www.gutenberg.org/ebooks/41873",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/41873/pg41873.cover.medium.jpg"
+    },
+    {
+      "title": "Studies in Spermatogenesis (Part 2 of 2)",
+      "source": "https://www.gutenberg.org/ebooks/31546",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/31546/pg31546.cover.medium.jpg"
+    },
+    {
+      "title": "Star-land: Being Talks With Young People About the Wonders of the Heavens",
+      "source": "https://www.gutenberg.org/ebooks/60318",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/60318/pg60318.cover.medium.jpg"
+    },
+    {
+      "title": "Elizabeth Fry",
+      "source": "https://www.gutenberg.org/ebooks/16606",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/16606/pg16606.cover.medium.jpg"
+    },
+    {
+      "title": "Sketches of Church History, from A.D. 33 to the Reformation",
+      "source": "https://www.gutenberg.org/ebooks/32483",
+      "candidateCount": 3,
+      "firstWorking": "https://www.gutenberg.org/cache/epub/32483/pg32483.cover.medium.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "source": "https://archive.org/details/emythrevisitedwh00gerb",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Traction",
+      "source": "https://archive.org/details/tractiongetgripo0000wick",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781936661831-L.jpg"
+    },
+    {
+      "title": "Influence: The Psychology of Persuasion",
+      "source": "https://archive.org/details/influence-the-psychology-of-persuasion-by-robert-b.-cialdini",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780061241895-L.jpg"
+    },
+    {
+      "title": "How Much Should I Charge?",
+      "source": "https://ellenrohr.com/howmuch/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Book Yourself Solid",
+      "source": "https://archive.org/details/isbn_9780471783930",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Contagious: Why Things Catch On",
+      "source": "https://archive.org/details/contagiouswhythi0000berg",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781451686579-L.jpg"
+    },
+    {
+      "title": "Do. Fail. Learn. Repeat.",
+      "source": "https://nicharalambous.com/new-products/do-fail-learn-repeat",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "The Innovator's Dilemma",
+      "source": "https://archive.org/details/innovatorsdilemm0000chri",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Never Split the Difference",
+      "source": "https://archive.org/details/neversplitdiffer0000voss",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780062407801-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship (OpenStax)",
+      "source": "https://openstax.org/details/books/entrepreneurship",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Profit First",
+      "source": "https://archive.org/details/profitfirst0000mich",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780735214149-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "source": "https://archive.org/details/markupprofitcont00ston",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Practical Financial Management",
+      "source": "https://archive.org/details/practicalfinanci0000barr_f2w0",
+      "candidateCount": 1,
+      "firstWorking": "https://archive.org/services/img/practicalfinanci0000barr_f2w0"
+    },
+    {
+      "title": "The E-Myth Manager",
+      "source": "https://archive.org/details/emythmanagerwhy00gerb",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780887309052-L.jpg"
+    },
+    {
+      "title": "Rework",
+      "source": "https://archive.org/details/rework0000frie",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
+    },
+    {
+      "title": "Company of One",
+      "source": "https://www.freepdfbook.com/company-of-one-why-staying-small-is-the-next-big-thing-for-business-pdf/",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781328972354-L.jpg"
+    },
+    {
+      "title": "The Art of the Start 2.0",
+      "source": "https://archive.org/details/artofstart20time0000kawa",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781591847465-L.jpg"
+    },
+    {
+      "title": "Getting to Yes",
+      "source": "https://archive.org/details/gettingtoyesnego00fish",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780143118756-L.jpg"
+    },
+    {
+      "title": "The Goal",
+      "source": "https://archive.org/details/goalprocessofong00gold",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780884271956-L.jpg"
+    },
+    {
+      "title": "The Personal MBA (Free Core Concepts)",
+      "source": "https://personalmba.com/fundamentals/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "College Success",
+      "source": "https://socialsci.libretexts.org/Bookshelves/Counseling_and_Guidance/College_Success",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Organizational Behavior",
+      "source": "https://biz.libretexts.org/Bookshelves/Management/Organizational_Behavior",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Introduction to Psychology",
+      "source": "https://socialsci.libretexts.org/Bookshelves/Psychology/Introductory_Psychology/Introduction_to_Psychology_(LibreTexts)",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Exploring Perspectives: A Concise Guide to Analysis",
+      "source": "https://www.saylor.org/site/textbooks/Exploring%20Perspectives%20-%20A%20Concise%20Guide%20to%20Analysis.pdf",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Beginning Management of Human Resources",
+      "source": "https://biz.libretexts.org/Bookshelves/Management/Beginning_Management_of_Human_Resources",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Principles of Social Psychology",
+      "source": "https://socialsci.libretexts.org/Bookshelves/Psychology/Social_Psychology_and_Personality/Principles_of_Social_Psychology_(LibreTexts)",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Research Methods in Psychology - 4th American Edition",
+      "source": "https://kpu.pressbooks.pub/psychmethods4e/",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781999198107-L.jpg"
+    },
+    {
+      "title": "Six Steps To Job Search Success",
+      "source": "https://resources.saylor.org/wwwresources/archived/site/textbooks/Six%20Steps%20to%20Job%20Search%20Success.pdf",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Corporate Governance",
+      "source": "https://www.saylor.org/site/textbooks/Corporate%20Governance.pdf",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Focusing on Organizational Change",
+      "source": "https://www.saylor.org/site/textbooks/Focusing%20on%20Organizational%20Change.pdf",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Human Relations",
+      "source": "https://socialsci.libretexts.org/Bookshelves/Communication/Human_Relations/Human_Relations_(Dias)",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Leading with Cultural Intelligence",
+      "source": "https://www.saylor.org/site/textbooks/Leading%20with%20Cultural%20Intelligence.pdf",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Small Business Management in the 21st Century",
+      "source": "https://www.saylor.org/site/textbooks/Small%20Business%20Management%20in%20the%2021st%20Century.pdf",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Mind, Body, World: Foundations of Cognitive Science",
+      "source": "https://www.aupress.ca/books/120227-mind-body-world/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "The Information Literacy User's Guide: An Open, Online Textbook",
+      "source": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=476",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Instruction in Functional Assessment",
+      "source": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=485",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Guidelines for Improving the Effectiveness of Boards of Directors of Nonprofit Organizations",
+      "source": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=821",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Psychology - 2e",
+      "source": "https://openstax.org/details/books/psychology-2e",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Foundations of Academic Success: Words of Wisdom",
+      "source": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1137",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Comprehensive Individualized Curriculum and Instructional Design: Curriculum and Instruction for Students with Developmental Disabilities/Autism Spectrum Disorders",
+      "source": "https://pdxscholar.library.pdx.edu/pdxopen/5/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Theatrical Worlds",
+      "source": "https://ufdc.ufl.edu/AA00021870/00001",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Teaching Autoethnography: Personal Writing in the Classroom",
+      "source": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1386",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Steps to Success: Crossing the Bridge Between Literacy Research and Practice",
+      "source": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1275",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "The Intelligent Troglodyte’s Guide to Plato’s Republic",
+      "source": "https://scholars.fhsu.edu/philosophy_oer/1/",
+      "candidateCount": 1,
+      "firstWorking": "https://scholars.fhsu.edu/philosophy_oer/1001/preview.jpg"
+    },
+    {
+      "title": "Music and the Child",
+      "source": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1587",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Antiracist Writing Assessment Ecologies: Teaching and Assessing Writing for a Socially Just Future",
+      "source": "https://wacclearinghouse.org/books/perspectives/inoue/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Beyond Dichotomy: Synergizing Writing Center and Classroom Pedagogies",
+      "source": "https://wacclearinghouse.org/books/perspectives/dichotomy/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "The Centrality of Style",
+      "source": "https://wacclearinghouse.org/books/perspectives/centrality/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Chinese Rhetoric and Writing: An Introduction for Language Teachers",
+      "source": "https://wacclearinghouse.org/books/perspectives/kirkpatrick-xu/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Critical Expressivism: Theory and Practice in the Composition Classroom",
+      "source": "https://wacclearinghouse.org/books/perspectives/expressivism/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Copy(write): Intellectual Property in the Writing Classroom",
+      "source": "https://wacclearinghouse.org/books/perspectives/copywrite/",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781602352643-L.jpg"
+    },
+    {
+      "title": "Design Discourse: Composing and Revising Programs in Professional and Technical Writing",
+      "source": "https://wacclearinghouse.org/books/perspectives/designdiscourse/",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781602351677-L.jpg"
+    },
+    {
+      "title": "Writing Programs Worldwide: Profiles of Academic Writing in Many Places",
+      "source": "https://wacclearinghouse.org/books/perspectives/wpww/",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781602353435-L.jpg"
+    },
+    {
+      "title": "ePortfolio Performance Support Systems: Constructing, Presenting, and Assessing Portfolios",
+      "source": "https://wacclearinghouse.org/books/perspectives/eportfolios/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Foundational Practices of Online Writing Instruction",
+      "source": "https://wacclearinghouse.org/books/perspectives/owi/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "WAC Partnerships Between Secondary and Postsecondary Institutions",
+      "source": "https://wacclearinghouse.org/books/perspectives/partnerships/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Working With Academic Literacies: Case Studies Towards Transformative Practice",
+      "source": "https://wacclearinghouse.org/books/perspectives/lillis/",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781602357617-L.jpg"
+    },
+    {
+      "title": "Teaching Crowds: Learning and Social Media",
+      "source": "https://www.aupress.ca/books/120235-teaching-crowds/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Education for a Digital World: Advice, Guidelines and Effective Practice from Around Globe",
+      "source": "https://oasis.col.org/bitstream/handle/11599/52/Education_for_a_Digital_World.pdf?sequence=1&isAllowed=y",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Reading With My Eyes Open: Embracing the critical and the personal in language pedagogy",
+      "source": "https://library.oapen.org/handle/20.500.12657/33210",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Information Literacy: Research and Collaboration across Disciplines",
+      "source": "https://wacclearinghouse.org/books/perspectives/infolit/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Modern Philosophy",
+      "source": "https://opentextbc.ca/modernphilosophy/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Animals & Ethics 101: Thinking Critically About Animal Rights",
+      "source": "https://animalethics101.blogspot.com/p/nathan-nobis.html",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780692471289-L.jpg"
+    },
+    {
+      "title": "Understanding Music: Past and Present",
+      "source": "https://web.ung.edu/media/university-press/Understanding%20Music-Past%20and%20Present-082817.pdf?t=1510261279926",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781940771335-L.jpg"
+    },
+    {
+      "title": "Health and Safety in Canadian Workplaces",
+      "source": "https://www.aupress.ca/books/120259-health-and-safety-in-canadian-workplaces/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Music: Its Language, History, and Culture",
+      "source": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1002&context=bc_oers",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780991388707-L.jpg"
+    },
+    {
+      "title": "A Concise Introduction to Logic",
+      "source": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=2023",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781942341420-L.jpg"
+    },
+    {
+      "title": "Exploring Movie Construction & Production: What’s so exciting about movies?",
+      "source": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=2494",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Ethics for A-Level",
+      "source": "https://www.openbookpublishers.com/books/10.11647/obp.0125",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Fundamental Methods of Logic",
+      "source": "https://wisconsin.pressbooks.pub/logicfundamentals/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Wellbeing, Freedom and Social Justice: The Capability Approach Re-Examined",
+      "source": "https://www.openbookpublishers.com/books/10.11647/obp.0130",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Personality Theory in a Cultural Context",
+      "source": "https://archive.org/details/cnx-org-col11901",
+      "candidateCount": 1,
+      "firstWorking": "https://archive.org/services/img/cnx-org-col11901"
+    },
+    {
+      "title": "Modern Blueprint for College and Career Success - 2nd Edition",
+      "source": "https://pressbooks.pub/modernblueprint/",
+      "candidateCount": 1,
+      "firstWorking": "https://pressbooks.pub/app/uploads/sites/14485/2024/07/DSC_0914-3.jpg"
+    },
+    {
+      "title": "Mathematics for Elementary Teachers",
+      "source": "https://pressbooks-dev.oer.hawaii.edu/math111/",
+      "candidateCount": 1,
+      "firstWorking": "https://pressbooks-dev.oer.hawaii.edu/math111/wp-content/uploads/sites/17/2018/01/uh-oer-cover-math111.png"
+    },
+    {
+      "title": "Music Fundamentals 1: Pitch and Major Scales and Keys",
+      "source": "https://archive.org/details/cnx-org-col10714",
+      "candidateCount": 1,
+      "firstWorking": "https://archive.org/services/img/cnx-org-col10714"
+    },
+    {
+      "title": "Music Fundamentals 2: Rhythm and Meter",
+      "source": "https://archive.org/details/cnx-org-col10716",
+      "candidateCount": 1,
+      "firstWorking": "https://archive.org/services/img/cnx-org-col10716"
+    },
+    {
+      "title": "An Introduction to Technical Theatre",
+      "source": "https://commons.pacificu.edu/works/publication-book/61qg8-geh81",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781945398872-L.jpg"
+    },
+    {
+      "title": "Inferring and Explaining",
+      "source": "https://pdxscholar.library.pdx.edu/pdxopen/23/",
+      "candidateCount": 1,
+      "firstWorking": "https://pdxscholar.library.pdx.edu/pdxopen/1028/preview.jpg"
+    },
+    {
+      "title": "Trauma-Informed School Practices: Building Expertise To Transform Schools",
+      "source": "https://digitalcommons.georgefox.edu/pennington_epress/4/",
+      "candidateCount": 1,
+      "firstWorking": "https://digitalcommons.georgefox.edu/pennington_epress/1003/preview.jpg"
+    },
+    {
+      "title": "Creating Online Learning Experiences",
+      "source": "https://uta.pressbooks.pub/onlinelearning/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Metaethics from a First Person Standpoint: An Introduction to Moral Philosophy",
+      "source": "https://www.openbookpublishers.com/books/10.11647/obp.0087",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Wellbeing in Educational Contexts - Second Edition",
+      "source": "https://usq.pressbooks.pub/wellbeing/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Introduction to Philosophy: Philosophy of Mind",
+      "source": "https://press.rebus.community/intro-to-phil-of-mind/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Introduction to Philosophy: Ethics",
+      "source": "https://press.rebus.community/intro-to-phil-ethics/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "The Balance of Personality",
+      "source": "https://pdxscholar.library.pdx.edu/pdxopen/26/",
+      "candidateCount": 1,
+      "firstWorking": "https://pdxscholar.library.pdx.edu/pdxopen/1031/preview.jpg"
+    },
+    {
+      "title": "Teaching Low Brass",
+      "source": "https://www.fulcrum.org/concern/monographs/1n79h781j",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Vocal Techniques for the Instrumentalist - 2nd edition",
+      "source": "https://kstatelibraries.pressbooks.pub/vocal-techniques/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Music on the Move",
+      "source": "https://www.fulcrum.org/concern/monographs/m613n040s",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "College Success",
+      "source": "https://openstax.org/details/books/college-success",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781951693176-L.jpg"
+    },
+    {
+      "title": "Resonances: Engaging Music in Its Cultural Context",
+      "source": "https://ung.edu/university-press/books/resonances-engaging-music.php",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781940771311-L.jpg"
+    },
+    {
+      "title": "Succeeding at Your Internship: A Handbook Written for and with Students",
+      "source": "https://scholarworks.bgsu.edu/oer/1/",
+      "candidateCount": 1,
+      "firstWorking": "https://scholarworks.bgsu.edu/oer/1000/preview.jpg"
+    },
+    {
+      "title": "Interpersonal Communication: A Mindful Approach to Relationships - 2nd Edition",
+      "source": "https://milneopentextbooks.org/interpersonal-communication-a-mindful-2nd/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Plato's 'Republic': An Introduction",
+      "source": "https://www.openbookpublishers.com/books/10.11647/obp.0229",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Trauma Informed Behaviour Support: A Practical Guide to Developing Resilient Learners",
+      "source": "https://usq.pressbooks.pub/traumainformedpractice/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Introduction to Philosophy: Logic",
+      "source": "https://press.rebus.community/intro-to-phil-logic/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Introduction to Philosophy: Philosophy of Religion",
+      "source": "https://press.rebus.community/intro-to-phil-of-religion/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Bridges: United States Academia for First-Generation and International College Students",
+      "source": "https://temple.manifoldapp.org/projects/bridges",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Self-directed multimodal learning in higher education",
+      "source": "https://books.aosis.co.za/index.php/ob/catalog/book/210",
+      "candidateCount": 1,
+      "firstWorking": "https://books.aosis.co.za/public/aosis_og.jpg"
+    },
+    {
+      "title": "Integrated and Open Interpreter Education",
+      "source": "https://openoregon.pressbooks.pub/interpretingstudies/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Principles of Social Psychology - 1st International Edition",
+      "source": "https://opentextbc.ca/socialpsychology/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Graduate Research Methods in Social Work",
+      "source": "https://openoregon.pressbooks.pub/graduateresearchmethodsinsocialwork/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Fundamentals, Function, and Form: Theory and Analysis of Tonal Western Art Music",
+      "source": "https://milnepublishing.geneseo.edu/fundamentals-function-form/",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781942341994-L.jpg"
+    },
+    {
+      "title": "Guide to Byzantine Art",
+      "source": "https://www.printme1.com/700ad3e87",
+      "candidateCount": 1,
+      "firstWorking": "https://www.printme1.com/pdf/374a0e737/9-2-print-Smarthistory-Guide-to-Byzantine-Art.jpg"
+    },
+    {
+      "title": "The Primacy of the Public",
+      "source": "https://pressbooks.ulib.csuohio.edu/principles-of-engineering-ethics/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Ancient Greek I: A 21st Century Approach",
+      "source": "https://www.openbookpublishers.com/books/10.11647/obp.0264",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Documentary Making for Digital Humanists",
+      "source": "https://www.openbookpublishers.com/books/10.11647/obp.0255",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Introduction to Philosophy: Epistemology",
+      "source": "https://press.rebus.community/intro-to-phil-epistemology/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Introduction to Philosophy: Aesthetic Theory and Practice",
+      "source": "https://press.rebus.community/intro-to-phil-aesthetics/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "The Australian Handbook for Careers in Psychological Science",
+      "source": "https://usq.pressbooks.pub/psychologycareers/",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9780645326116-L.jpg"
+    },
+    {
+      "title": "Teaching Early and Elementary STEM",
+      "source": "https://dc.etsu.edu/etsu-oer/8/",
+      "candidateCount": 1,
+      "firstWorking": "https://dc.etsu.edu/etsu-oer/1007/preview.jpg"
+    },
+    {
+      "title": "Psychologia",
+      "source": "https://openstax.org/details/books/psychologia-polska",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "How To Do Science - Revised Edition",
+      "source": "https://usq.pressbooks.pub/howtodoscience/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Essentials of Exercise and Sport Psychology: An Open Access Textbook",
+      "source": "https://kinesiologybooks.org/index.php/stork/catalog/view/457/796/3715",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Análisis Científico de la Ética desde la Perspectiva Multidisciplinaria",
+      "source": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/view/13/15/78",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Where Does Art Come From?",
+      "source": "https://uta.pressbooks.pub/wheredoesartcomefrom/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Enhancing Inclusion, Diversity, Equity and Accessibility (IDEA) in Open Educational Resources (OER) - Australian Edition",
+      "source": "https://usq.pressbooks.pub/diversityandinclusionforoer/open/download?type=epub",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Introduction to Philosophy",
+      "source": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Philosophy-WEB_cszrKYp.pdf",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Urban Health: A Practical Application for Clinical Based Learning",
+      "source": "https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1001&context=oa_textbooks",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Making Sense of Digital Humanities",
+      "source": "https://openbooks.lib.msu.edu/makingsensedh/open/download?type=epub",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Reframing Digital Humanities: Conversations with Digital Humanists",
+      "source": "https://openbooks.lib.msu.edu/reframingdh/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "#TheatreAppreciation",
+      "source": "https://theatreappreciation.pressbooks.sunycreate.cloud/",
+      "candidateCount": 1,
+      "firstWorking": "https://theatreappreciation.pressbooks.sunycreate.cloud/wp-content/uploads/sites/33/2022/11/cover2.jpg"
+    },
+    {
+      "title": "Practicing and Presenting Social Research",
+      "source": "https://pressbooks.bccampus.ca/undergradresearch/open/download?type=pdf",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Common Client Issues in Counselling: An Australian Perspective",
+      "source": "https://usq.pressbooks.pub/counselling/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Symbiotic Posthumanist Ecologies in Western Literature, Philosophy and Art: Towards Theory and Practice Volume 11",
+      "source": "https://www.peterlang.com/free_download?document_id=1288773&product_form=ebook&publication_type=pdf",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "College Success Concise",
+      "source": "https://openstax.org/books/college-success-concise/pages/1-introduction",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "ReCentering Psych Stats",
+      "source": "https://lhbikos.github.io/ReCenterPsychStats/index.html",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Making Ripples: A Guidebook to Challenge Status Quo in OER Creation",
+      "source": "https://press.rebus.community/MakingRipples/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Writing for Inquiry and Research",
+      "source": "https://iopn.library.illinois.edu/books/windsor-downs/catalog/book/19",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Conducting Mixed-Methods Research: From Classical Social Sciences to the Age of Big Data and Analytics",
+      "source": "https://vtechworks.lib.vt.edu/items/5a31b0c0-9760-475d-81b8-9984d895ba62",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Foundations of Education: Cultivating Diverse Perspectives - Revised Edition",
+      "source": "https://openoregon.pressbooks.pub/foundationsofeducation2/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Designing Arguments for Academic, Public, and Professional Audiences - Fourteenth Edition",
+      "source": "https://newprairiepress.org/ebooks/40/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Action Research",
+      "source": "https://kstatelibraries.pressbooks.pub/gradactionresearch/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Qualitative Research – a practical guide for health and social care researchers and practitioners",
+      "source": "https://monash.studium.pub/qualitative-research/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "A Handbook of Higher Education Leadership",
+      "source": "https://open.oregonstate.education/handbookhighereducationleadership/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Lifespan Development",
+      "source": "https://openstax.org/details/books/lifespan-development",
+      "candidateCount": 1,
+      "firstWorking": "https://covers.openlibrary.org/b/isbn/9781961584532-L.jpg"
+    },
+    {
+      "title": "Introduction to Philosophy",
+      "source": "https://rotel.pressbooks.pub/introphilosophy/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Noteworthy: Reading Strategies in Practice",
+      "source": "https://repository.arizona.edu/handle/10150/676843",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "A Guide to Writing in Law School",
+      "source": "https://latrobe.studium.pub/guide-writing-law-school/",
+      "candidateCount": 1,
+      "firstWorking": "https://latrobe.studium.pub/app/uploads/sites/7/2023/05/A-Guide-to-Writing-in-Law-School-Cover.png"
+    },
+    {
+      "title": "Experimental Design and Technical Writing for Engineers",
+      "source": "https://library.usi.edu/record/1596241?v=pdf",
+      "candidateCount": 1,
+      "firstWorking": "https://library.usi.edu/nanna/thumbnail/v2/1596241?redirect=1"
+    },
+    {
+      "title": "Designing Learning Experiences for Inclusivity and Diversity: Advice for Learning Designers",
+      "source": "https://oercollective.caul.edu.au/designing-learning-experiences/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "Educational Psychology",
+      "source": "https://edpsych.pressbooks.sunycreate.cloud/",
+      "candidateCount": 1,
+      "firstWorking": "https://edpsych.pressbooks.sunycreate.cloud/wp-content/uploads/sites/40/2025/05/Ed-Psy-Cover-Art.jpg"
+    },
+    {
+      "title": "Introduction to Psychology",
+      "source": "https://www.saskoer.ca/introductiontopsychology/",
+      "candidateCount": 1,
+      "firstWorking": null
+    },
+    {
+      "title": "The Academic Language of Mathematics",
+      "source": "https://leeds.pressbooks.pub/academic-language-of-mathematics/",
+      "candidateCount": 1,
+      "firstWorking": null
+    }
+  ]
+}

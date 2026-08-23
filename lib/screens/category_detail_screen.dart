@@ -212,7 +212,12 @@ class _PlaybookCard extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: SizedBox(
-                  width: 44, height: 60, child: BookCoverImage(url: video.thumbnailUrl)),
+                  width: 44,
+                  height: 60,
+                  child: BookCoverImage(
+                    url: video.thumbnailUrl,
+                    fallbackUrls: video.thumbnailFallbackUrls,
+                  )),
             ),
             const SizedBox(width: 12),
             Expanded(
@@ -319,6 +324,7 @@ class _FreeBookTile extends StatelessWidget {
       channelName: book.author,
       publishedAt: DateTime(2000),
       thumbnailUrl: book.coverUrl ?? '',
+      thumbnailFallbackUrls: book.coverCandidates,
       freeSourceUrl: book.freeSourceUrl,
       freeSourceType: book.freeSourceType,
       sourceCategoryId: book.categoryId,
@@ -355,6 +361,7 @@ class _FreeBookTile extends StatelessWidget {
                 // coverUrl is empty, so no special-casing needed here.
                 BookCoverImage(
                   url: book.coverUrl ?? '',
+                  fallbackUrls: book.coverCandidates,
                   width: 62,
                   height: 84,
                   borderRadius: const BorderRadius.only(

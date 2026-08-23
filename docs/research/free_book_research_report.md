@@ -31,6 +31,12 @@ The pass also removed **49 existing entries** hosted on explicitly disallowed ge
 
 The final quality check for this follow-up passed with no JSON parsing errors, no missing required book fields, no blank authors, no missing URLs, no remaining disallowed hosts, and no within-file title-author duplicates. Cross-category overlap remains possible where the same textbook legitimately supports multiple learning pathways; these are recorded as category-specific uses rather than silently deleted across the library.
 
+## Cover resolution and fallbacks
+
+The General collection now contains **7,344 books**, exceeding the requested 5,000-book target. Cover metadata was added for 7,159 records: 7,016 Project Gutenberg records use ebook-ID-matched official cover paths, and 143 other records use verified existing or title-matched page-specific cover URLs. The Flutter cover widget now accepts ordered fallback candidates and tries exact edition variants before showing the branded placeholder. Gutenberg records use the official medium cover, small cover, and embedded `images/cover.jpg` paths for the same ebook ID; Open Library and Internet Archive size/item variants remain available for records that already use those exact identifiers.
+
+A bounded HTTP sample verified 309 working cover URLs across 263 sampled books. Some public sources rate-limit or omit cover images, so the app intentionally does not substitute a guessed title-only image. When all exact candidates fail, the branded placeholder is shown rather than displaying the wrong book.
+
 ## Important limitation
 
 This is a **substantial first research batch, not a claim that all 80 categories are finished at 500+ books**. The two catalogs strongly cover academic, professional, historical, scientific, and some vocational subjects, but they do not provide enough current, category-specific, legally free books for every narrow trade or business category. Those categories were not artificially filled with irrelevant or questionable titles. They remain ready for additional targeted research from government agencies, universities, open publishers, author-controlled editions, FAO/ILO resources, and other legitimate sources.

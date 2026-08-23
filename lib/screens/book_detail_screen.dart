@@ -384,6 +384,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
                     children: [
                       BookCoverImage(
                         url: widget.book.thumbnailUrl,
+                        fallbackUrls: widget.book.thumbnailFallbackUrls,
                         width: 110,
                         height: 160,
                         borderRadius: BorderRadius.circular(10),

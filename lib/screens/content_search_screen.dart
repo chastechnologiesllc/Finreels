@@ -736,7 +736,10 @@ class _ContentCard extends StatelessWidget {
     if (item.kind == _ResultKind.book) {
       return AspectRatio(
         aspectRatio: 16 / 9,
-        child: BookCoverImage(url: item.video!.thumbnailUrl),
+        child: BookCoverImage(
+          url: item.video!.thumbnailUrl,
+          fallbackUrls: item.video!.thumbnailFallbackUrls,
+        ),
       );
     }
     final url = item.video?.thumbnailMq ?? item.article?.thumbnailUrl ?? '';

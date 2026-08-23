@@ -122,6 +122,11 @@ class VerifiedBook {
   /// Open Library ISBN URL, a publisher's own CDN, or any stable image URL.
   /// Empty string or null → BookCoverImage shows its branded placeholder.
   final String? coverUrl;
+
+  /// Ordered, edition-specific cover candidates. The first successful image
+  /// wins; candidates must point to the exact work/edition, not a generic
+  /// title search result.
+  final List<String> coverCandidates;
   final String? categoryId;
 
   const VerifiedBook({
@@ -131,6 +136,7 @@ class VerifiedBook {
     this.freeSourceType = 'web',
     this.freeSourceNote,
     this.coverUrl,
+    this.coverCandidates = const [],
     this.categoryId,
   });
 
@@ -141,6 +147,11 @@ class VerifiedBook {
         freeSourceType: j['freeSourceType'] as String? ?? 'web',
         freeSourceNote: j['freeSourceNote'] as String?,
         coverUrl: j['coverUrl'] as String?,
+        coverCandidates: (j['coverCandidates'] as List?)
+                ?.whereType<String>()
+                .where((u) => u.trim().isNotEmpty)
+                .toList(growable: false) ??
+            const [],
         categoryId: categoryId,
       );
 }
