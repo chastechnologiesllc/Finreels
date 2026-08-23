@@ -242,7 +242,7 @@ class BlogRssService {
   static List<String> _discoverFeedUrls(String html, String sourceUrl) {
     final found = <String>[];
     final tagPattern = RegExp(r'<link\b[^>]*>', caseSensitive: false);
-    final attrPattern = RegExp(r'([a-zA-Z:-]+)\s*=\s*["\']([^"\']+)["\']');
+    final attrPattern = RegExp(r"""([a-zA-Z:-]+)\s*=\s*["']([^"']+)["']""");
     for (final tag in tagPattern.allMatches(html)) {
       final raw = tag.group(0) ?? '';
       final attrs = <String, String>{
@@ -271,6 +271,14 @@ class BlogRssService {
     ];
     found.addAll(conventional);
     return List.unmodifiable(found.toSet());
+  }
+
+  static bool _looksLikeXml(String body) {
+    final trimmed = body.trimLeft().toLowerCase();
+    return trimmed.startsWith('<?xml') ||
+        trimmed.startsWith('<rss') ||
+        trimmed.startsWith('<feed') ||
+        trimmed.startsWith('<rdf:rdf');
   }
 
   Future<List<BlogArticle>> _fetchFeedWeb({

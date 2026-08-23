@@ -136,7 +136,7 @@ class RssService {
       channelId,
       includeHistory: includeHistory,
     );
-    if (videos.isNotEmpty) {
+    if (videos != null && videos.isNotEmpty) {
       _setMem(channelId, videos);
       await _diskWrite(channelId, videos);
       return videos;

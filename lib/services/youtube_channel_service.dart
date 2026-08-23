@@ -34,10 +34,10 @@ class YoutubeChannelService {
     final page = await _getText(pageUrl);
     if (page == null || page.isEmpty) return result.values.toList();
 
-    final apiKey = RegExp(r'"INNERTUBE_API_KEY":"([^"]+)"')
+    final apiKey = RegExp('"INNERTUBE_API_KEY":"([^"]+)"')
         .firstMatch(page)
         ?.group(1);
-    final clientVersion = RegExp(r'"INNERTUBE_CLIENT_VERSION":"([^"]+)"')
+    final clientVersion = RegExp('"INNERTUBE_CLIENT_VERSION":"([^"]+)"')
             .firstMatch(page)
             ?.group(1) ??
         _webClientVersion;

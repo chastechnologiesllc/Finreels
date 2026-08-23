@@ -146,7 +146,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          Icon(Icons.explore_rounded,
+                          const Icon(Icons.explore_rounded,
                               size: 46, color: AppTheme.gold),
                           const SizedBox(height: 20),
                           Text(
