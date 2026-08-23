@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_48_estate_management_surveying",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC4lH-odQ5ll-85fkpWxDYmA",
@@ -178,16 +178,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF via f5fp.com",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "URL confirmed live in prior skill sessions (skill_09, skill_18).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://mikemichalowicz.com/profit-first",
@@ -196,16 +186,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "URL confirmed live in prior skill sessions.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF via BDE Books",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "URL confirmed live in prior skill sessions.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Entrepreneurship",
@@ -276,11 +256,112 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "A start in life. A journey across America. Fruit farming in California",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12022",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12022; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Incidents on land and water",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75851",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75851; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Narrative of the surveying voyages of His Majesty's ships Adventure and Beagle, between the years 1826 and 1836. Volume I. Proceedings of the First Expedition, 1826-1830",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38961",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38961; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Surveying and Levelling Instruments, Theoretically and Practically Described.\r\nFor construction, qualities, selection, preservation, adjustments, and uses; with other apparatus and appliances used by civil engineers and surveyors in the field.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63834",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63834; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Adobe days",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74799",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74799; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "California, 1849-1913; Or, The Rambling Sketches and Experiences of Sixty-four Years' Residence in that State",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4638",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4638; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hints to Travellers, Scientific and General, Vol. 2\r\nTenth edition, revised and corrected",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67668",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67668; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Our Italy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28506",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #28506; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Adventures of a Forty-niner\r\nAn Historic Description of California, with Events and Ideas of San Francisco and Its People in Those Early Days",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12518",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12518; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The land of gold; reality versus fiction",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69295",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69295; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Valuation of Real Estate in the Town of Acton. November 2, 1850.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66705",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66705; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: NIESV (no YouTube) → Steven Ndukwu (774K subs, top Nigerian real estate channel); ESVARBON (no YouTube — government body) → Eden Oasis (102K subs, Nigeria's largest commercial RE channel); Nigerian Real Estate Hub (not confirmed) → Comfort Properties (24.8K subs); Land Economy Channel (does not exist) → Knowledge at Wharton. All replacements confirmed via FeedSpot Nigeria Real Estate 2026 directory or YouTube search. Blogs: ESVARBON is a government site. RICS uses a specific /news-insights/rss path. Connect Nigeria flagged.",
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: NIESV (no YouTube) → Steven Ndukwu (774K subs, top Nigerian real estate channel); ESVARBON (no YouTube — government body) → Eden Oasis (102K subs, Nigeria's largest commercial RE channel); Nigerian Real Estate Hub (not confirmed) → Comfort Properties (24.8K subs); Land Economy Channel (does not exist) → Knowledge at Wharton. All replacements confirmed via FeedSpot Nigeria Real Estate 2026 directory or YouTube search. Blogs: ESVARBON is a government site. RICS uses a specific /news-insights/rss path. Connect Nigeria flagged. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 11 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 11 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

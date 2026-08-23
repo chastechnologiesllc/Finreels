@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_20_ac_refrigeration_repair",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCX9qUeV57Z7gqX1uwp8XOqg",
@@ -210,26 +210,6 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781456522100-L.jpg"
     },
     {
-      "title": "The Personal MBA",
-      "author": "Josh Kaufman",
-      "freeSourceUrl": "https://www.bookdio.org/bestsellers/the-personal-mba",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF. Core business skills without a degree.",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Bookdio free PDF.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
-    },
-    {
-      "title": "The $100 Startup",
-      "author": "Chris Guillebeau",
-      "freeSourceUrl": "https://www.bookdio.org/bestsellers/the-$100-startup",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF. Profitable businesses started with little capital.",
-      "verifiedOn": "2026-08-04",
-      "verificationMethod": "Bookdio free PDF.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307951526-L.jpg"
-    },
-    {
       "title": "Rework",
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://archive.org/details/rework0000frie",
@@ -278,10 +258,39 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "How to Use and Enjoy Your New Frigidaire Refrigerator",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67968",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67968; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "International Harvester Refrigerator Recipes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65793",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65793; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Manufacturing Cost Data on Artificial Ice",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29375",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29375; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "2026-08-04 audit: Books set to free full sources focused on systems, pricing, cash-flow and running a profitable HVAC/AC business. Channels/blogs retained when business-focused.",
+  "notes": "2026-08-04 audit: Books set to free full sources focused on systems, pricing, cash-flow and running a profitable HVAC/AC business. Channels/blogs retained when business-focused. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 3 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 3 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

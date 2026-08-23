@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_02_law",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCHzd5RKs21FxILfjOAh1L4Q",
@@ -204,16 +204,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF at f5fp.com — build business systems so your legal practice runs without you",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free PDF confirmed at f5fp.com. Foundational text on the technician-to-business-owner transition — directly applicable to healthcare/professional-service entrepreneurs.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -222,16 +212,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Free chapter confirmed at mikemichalowicz.com. Recommended by professional practice coaches and healthcare business advisors.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup/",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free at bdebooks.com — test and validate your legal business model before committing capital",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free access confirmed at bdebooks.com. Applies to launching new practice models, service lines, or professional consulting branches.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -302,10 +282,1042 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "The Legal and Ethical Environment of Business",
+      "author": "Terence Lau - Author / Lisa Johnson - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/The%20Legal%20and%20Ethical%20Environment%20of%20Business.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-legal-and-ethical-environment-of-business",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781936126583-L.jpg"
+    },
+    {
+      "title": "Introduction to Criminal Law",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://biz.libretexts.org/Bookshelves/Criminal_Law/Introduction_to_Criminal_Law",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/criminal-law",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135087-L.jpg"
+    },
+    {
+      "title": "Introduction to Basic Legal Citation",
+      "author": "Peter W. Martin - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/basic_legal_citation_1.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-basic-legal-citation"
+    },
+    {
+      "title": "Contract Doctrine, Theory & Practice Volume 2",
+      "author": "J.H. Verkerke - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/ContractDoctrineTheoryPractice2_Verkerke_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/contract-doctrine-theory-practice-volume-2"
+    },
+    {
+      "title": "Contract Doctrine, Theory & Practice Volume 1",
+      "author": "J.H. Verkerke - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/ContractDoctrineTheoryPractice1_Verkerke_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/contract-doctrine-theory-practice-volume-1"
+    },
+    {
+      "title": "Federal Rules of Appellate Procedure",
+      "author": "eLangdell Press Editorial Staff - Editor",
+      "freeSourceUrl": "https://mountainscholar.org/items/df6d5d47-cc1b-4c97-93bc-18540d129e64",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Procedural Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/federal-rules-of-appellate-procedure"
+    },
+    {
+      "title": "United States Copyright Law",
+      "author": "eLangdell Press Editorial Staff - Editor",
+      "freeSourceUrl": "https://mountainscholar.org/items/41db49e4-fee9-4558-b28e-0abbe7a1cc73",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/united-states-copyright-law"
+    },
+    {
+      "title": "United States Patent Law",
+      "author": "eLangdell Press Editorial Staff - Editor",
+      "freeSourceUrl": "https://mountainscholar.org/items/c3e860c1-fd7b-44f8-8b34-4ece9dd79e4f",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/united-states-patent-law"
+    },
+    {
+      "title": "United States Trademark Law",
+      "author": "eLangdell Press Editorial Staff - Editor",
+      "freeSourceUrl": "https://mountainscholar.org/items/233c086f-673e-45dc-ab43-e5266bc025bb",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/united-states-trademark-law"
+    },
+    {
+      "title": "Land Use",
+      "author": "Christian Turner - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/LandUse_Turner_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/land-use"
+    },
+    {
+      "title": "Evidence: Best Evidence Rule",
+      "author": "Colin Miller - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/BestEvidenceRule_Miller_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Procedural Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/evidence-best-evidence-rule"
+    },
+    {
+      "title": "Evidence: Jury Impeachment",
+      "author": "Colin Miller - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/EvidenceJuryImpeachment_Miller_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Procedural Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/evidence-jury-impeachment"
+    },
+    {
+      "title": "Evidence: Rape Shield Rule",
+      "author": "Colin Miller - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/EvidenceRapeShield_Miller_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Procedural Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/evidence-rape-shield-rule"
+    },
+    {
+      "title": "Computer-Aided Exercises in Civil Procedure - 7th Edition",
+      "author": "Roger C. Park - Author / Douglas D. McFarland - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/ComputerCivPro_McFarland_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; Law - Procedural Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/computer-aided-exercises-in-civil-procedure"
+    },
+    {
+      "title": "Civil Procedure: Pleading",
+      "author": "Hillel Y. Levin - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/CivilProcedurePleading_Levin_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; Law - Procedural Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/civil-procedure-pleading"
+    },
+    {
+      "title": "Federal Rules of Bankruptcy Procedure",
+      "author": "Scott A. Cromar - Editor / Robert M. Lawless - Editor",
+      "freeSourceUrl": "https://mountainscholar.org/items/0a724461-55ae-4385-a3a3-c01310b32985",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Procedural Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/federal-rules-of-bankruptcy-procedure"
+    },
+    {
+      "title": "Federal Rules of Evidence",
+      "author": "Legal Information Institute - Editor",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FRE_LII_0.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Procedural Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/federal-rules-of-evidence"
+    },
+    {
+      "title": "Federal Rules of Criminal Procedure",
+      "author": "Legal Information Institute - Editor",
+      "freeSourceUrl": "https://mountainscholar.org/items/f0ba3363-d6de-498f-a8ae-f6ba0cc8e13e",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; Law - Procedural Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/federal-rules-of-criminal-procedure"
+    },
+    {
+      "title": "Federal Rules of Civil Procedure",
+      "author": "Legal Information Institute - Editor",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FRCP_LII_0.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; Law - Procedural Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/federal-rules-of-civil-procedure"
+    },
+    {
+      "title": "The Ethics of Tax Lawyering - Third Edition",
+      "author": "Michael Hatfield - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Aug242015_HatfieldEthicsTaxLawyering3rd_0.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-ethics-of-tax-lawyering"
+    },
+    {
+      "title": "Advanced Business Law and the Legal Environment",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author / Alyssa Rose Martina - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Advanced%20Business%20Law%20and%20the%20Legal%20Environment.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/advanced-business-law-and-the-legal-environment"
+    },
+    {
+      "title": "Foundations of Business Law and Legal Environment",
+      "author": "Don Mayer - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Foundations%20of%20Business%20Law%20and%20the%20Legal%20Environment.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-business-law-and-legal-environment",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343722-L.jpg"
+    },
+    {
+      "title": "Government Regulation and the Legal Environment of Business",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Government%20Regulation%20and%20the%20Legal%20Environment%20of%20Business.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/government-regulation-and-the-legal-environment-of-business",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343272-L.jpg"
+    },
+    {
+      "title": "Contract Doctrine, Theory & Practice Volume 3",
+      "author": "J.H. Verkerke - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/ContractDoctrineTheoryPractice3_Verkerke_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/contract-doctrine-theory-practice-volume-3"
+    },
+    {
+      "title": "United States Securities Law",
+      "author": "eLangdell Press Editorial Staff - Editor",
+      "freeSourceUrl": "https://mountainscholar.org/items/05c51e62-67a7-4660-b087-2105ac7a7397",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/united-states-securities-law"
+    },
+    {
+      "title": "Business Law and the Legal Environment",
+      "author": "Don Mayer - Author / Daniel M. Warner - Author / George J. Siedel - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_business-law-and-the-legal-environment-v1.0-a/index.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/business-law-and-the-legal-environment"
+    },
+    {
+      "title": "Introduction to Contracts, Sales and Product Liability",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_introduction-to-contracts-sales-and-product-liability/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-contracts-sales-and-product-liability",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343265-L.jpg"
+    },
+    {
+      "title": "Introduction to the Law of Property, Estate Planning and Insurance",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_introduction-to-the-law-of-property-estate-planning-and-insurance/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-the-law-of-property-estate-planning-and-insurance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453344163-L.jpg"
+    },
+    {
+      "title": "Law for Entrepreneurs",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_law-for-entrepreneurs/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/law-for-entrepreneurs",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453344170-L.jpg"
+    },
+    {
+      "title": "Law of Commercial Transactions",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_law-of-commercial-transactions/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/law-of-commercial-transactions",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343302-L.jpg"
+    },
+    {
+      "title": "Legal Aspects of Corporate Management and Finance",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_legal-aspects-of-corporate-management-and-finance/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/legal-aspects-of-corporate-management-and-finance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343258-L.jpg"
+    },
+    {
+      "title": "Legal Aspects of Marketing and Sales",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_legal-aspects-of-marketing-and-sales/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/legal-aspects-of-marketing-and-sales",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343289-L.jpg"
+    },
+    {
+      "title": "Bankruptcy Law and Practice - Fifth Edition",
+      "author": "Gregory Germain - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL-5thEdition-Germain-Bankruptcy.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/bankruptcy-law-and-practice"
+    },
+    {
+      "title": "Sources of American Law: An Introduction to Legal Research - 8th Edition",
+      "author": "Beau Steenken - Author / Tina M. Brooks - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL-SteenkenBrooks-LegalResearch-8th-July2024-ISBN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sources-of-american-law-an-introduction-to-legal-research"
+    },
+    {
+      "title": "Law of Wills",
+      "author": "Browne C. Lewis - Author",
+      "freeSourceUrl": "http://www.cali.org/sites/default/files/FINAL_Word_July272016_Cover_Lewis_Wills_website.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/law-of-wills"
+    },
+    {
+      "title": "Basic Income Tax - 2023-2024 Edition",
+      "author": "William P. Kratzke - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Kratzke2023-2024-Basic-Tax-Aug07-Web.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-income-tax",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781365302886-L.jpg"
+    },
+    {
+      "title": "What Color is Your C.F.R.?",
+      "author": "Elizabeth Gotauco - Illustrator / Nicole Dyszlewski - Author / Raquel M. Ortiz - Author",
+      "freeSourceUrl": "http://www.cali.org/sites/default/files/ColoringBookFinalAug022016.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/what-color-is-your-c-f-r"
+    },
+    {
+      "title": "Torts: Cases, Principles, and Institutions - 6th Edition",
+      "author": "John Fabian Witt - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL-Witt_Tani-TCPI-2022-6thEd-ISBN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/torts-cases-principles-and-institutions"
+    },
+    {
+      "title": "Sales and Leases: A Problem-based Approach - Second Edition",
+      "author": "Scott J. Burnham - Author / Kristen Juras - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL-BurnhamJuras-SalesLeases-2d-July2023-ISBN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sales-and-leases-a-problem-based-approach"
+    },
+    {
+      "title": "The Story of Contract Law: Formation - Fourth Edition",
+      "author": "Val Ricks - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL_Ricks_ContractLawFormation_Vol_I_June_2021-ISBN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-story-of-contract-law-formation"
+    },
+    {
+      "title": "Torts: Cases and Contexts Volume 1",
+      "author": "Eric E. Johnson - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Dec212015FINAL_Johnson_Torts_Cases_and_Context_Volume_1.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/torts-cases-and-contexts-volume-1"
+    },
+    {
+      "title": "U.S. Federal Income Taxation of Individuals 2023",
+      "author": "Deborah A Geier - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Geier-Tax-10Ed-2023.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/u-s-federal-income-taxation-of-individuals-2017"
+    },
+    {
+      "title": "First Amendment: Cases, Controversies, and Contexts - Second Edition",
+      "author": "Ruthann Robson - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Robson_FirstAmendment_2dEd_2020-cover-Aug182023-ISBN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; Law - Constitutional Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/first-amendment-cases-controversies-and-contexts"
+    },
+    {
+      "title": "Property Volume 1",
+      "author": "Christian Turner - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Property1_Turner_Dec2014.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/property-volume-1"
+    },
+    {
+      "title": "Property Volume 2",
+      "author": "Christian Turner - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Property2_Turner_Dec2014-ISBN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/property-volume-2"
+    },
+    {
+      "title": "The Law of Trusts",
+      "author": "Browne C. Lewis - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Trusts_Lewis_Dec2014-ISBN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-law-of-trusts"
+    },
+    {
+      "title": "Torts: Cases and Contexts Volume 2",
+      "author": "Eric E. Johnson - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Dec272016_FINAL_Cover_Volume2.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/torts-cases-and-contexts-volume-2"
+    },
+    {
+      "title": "Wetlands Law: A Course Source - 5th Edition",
+      "author": "Stephen M. Johnson - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL-Johnson-Wetlands5th-Aug2024.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/wetlands-law-a-course-source"
+    },
+    {
+      "title": "Ethics in Law Enforcement",
+      "author": "Steve McCartney - Author / Rick Parent - Author",
+      "freeSourceUrl": "https://opentextbc.ca/ethicsinlawenforcement/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/ethics-in-law-enforcement"
+    },
+    {
+      "title": "Intellectual Property: Law & the Information Society—Cases and Materials",
+      "author": "James Boyle - Author / Jennifer Jenkins - Author",
+      "freeSourceUrl": "https://web.law.duke.edu/cspd/casebook/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/intellectual-property-law-the-information-society-cases-and-materials"
+    },
+    {
+      "title": "Introduction to Criminal Investigation: Processes, Practices and Thinking",
+      "author": "Rod Gehl - Author / Darryl Plecas - Author",
+      "freeSourceUrl": "https://pressbooks.bccampus.ca/criminalinvestigation/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; Law - Procedural Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-criminal-investigation-processes-practices-and-thinking"
+    },
+    {
+      "title": "Liberty, Equality and Due Process: Cases, Controversies, and Contexts in Constitutional Law - Third Edition",
+      "author": "Ruthann Robson - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL-Robson-Liberty-Equality-and-Due-Process-3d-2021_1.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Constitutional Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/liberty-equality-and-due-process-cases-controversies-and-contexts-in-constitutional-law"
+    },
+    {
+      "title": "Law School Materials for Success",
+      "author": "Barbara Glesner Fines - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/LawSchoolMaterialsSuccess_Fines_Dec2014-ISBN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; Student Success; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/law-school-materials-for-success"
+    },
+    {
+      "title": "American Contract Law for a Global Age",
+      "author": "Mark Edwin Burge - Author / Franklin G. Snyder - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL-Word-Snyder-Burge-Contracts-12-15-2017_0.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/american-contract-law-for-a-global-age"
+    },
+    {
+      "title": "Sexual Orientation and Gender Identity Employment Discrimination",
+      "author": "Matthew William Green - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/Nov2017-LGBT-Employment-Discrimination.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sexual-orientation-and-gender-identity-employment-discrimination"
+    },
+    {
+      "title": "The Story of Contract Law: Implementing the Bargain - 4th Edition",
+      "author": "Val Ricks - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL_Ricks_ContractLawFormation_Vol_I_June_2021-ISBN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-story-of-contract-law-implementing-the-bargain"
+    },
+    {
+      "title": "Law 101: Fundamentals of the Law",
+      "author": "Michael H. Martella - Author",
+      "freeSourceUrl": "https://courses.lumenlearning.com/suny-monroe-law101/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; Law - Constitutional Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/law-101-fundamentals-of-the-law"
+    },
+    {
+      "title": "Introduction to the American Criminal Justice System",
+      "author": "Alison S. Burke - Author / David E. Carter - Author / Brian Fedorek - Author / Tiffany L. Morey - Author / Lore Rutz-Burri - Author / Shanell Sanchez - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/ccj230/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-the-american-criminal-justice-system"
+    },
+    {
+      "title": "Trademark Law: An Open-Source Casebook - Version 13",
+      "author": "Barton Beebe - Author",
+      "freeSourceUrl": "https://www.tmcasebook.org/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/trademark-law-an-open-source-casebook-version-6-0"
+    },
+    {
+      "title": "Extended Readings on Copyright - 2022",
+      "author": "Matthew Sag - Author",
+      "freeSourceUrl": "https://tinyurl.com/y4ej27f8",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/extended-readings-on-copyright"
+    },
+    {
+      "title": "Business Law I Essentials - 2e",
+      "author": "Mirande Valbrune - Author / Renee De Assis - Author / Suzanne Cardell - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/business-law-i-essentials?Book%20details",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; Law - Civil Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/business-law-i-essentials",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798900950136-L.jpg"
+    },
+    {
+      "title": "The Pay for Success Handbook",
+      "author": "Suzanne Adatto - Author / Paul Brest - Author",
+      "freeSourceUrl": "https://purl.stanford.edu/jz224zp1899",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-pay-for-success-handbook"
+    },
+    {
+      "title": "Global Corruption: Its Regulation under International Conventions, US, UK, and Canadian Law and Practice - Fourth Edition",
+      "author": "Gerry Ferguson - Author",
+      "freeSourceUrl": "https://dspace.library.uvic.ca/items/017ab93c-b3b6-4c34-9673-b6a995a33836",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/global-corruption-law-theory-practice-third-edition-ferguson"
+    },
+    {
+      "title": "Marine Law and Policy for Scientists and Managers - 1st Edition",
+      "author": "Holly V. Campbell - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/mlpsm/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/marine-law-and-policy-for-scientists-and-managers-1st-edition-campbell"
+    },
+    {
+      "title": "Professional Responsibility: An Open-Source Casebook",
+      "author": "Brian L. Frye - Author / Elizabeth Schiller - Author",
+      "freeSourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3367936#",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Procedural Law; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/professional-responsibility-an-open-source-casebook-frye"
+    },
+    {
+      "title": "Fundamentals of Business Law",
+      "author": "Melissa Randall - Author / Community College of Denver Students - Author",
+      "freeSourceUrl": "https://introductiontobusinesslaw.pressbooks.com/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Administrative Law; Law - Civil Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-business-law-randall"
+    },
+    {
+      "title": "The Indigo Book: A Manual of Legal Citation - 2nd Edition",
+      "author": "Christopher Jon Sprigman - Author",
+      "freeSourceUrl": "https://indigobook.github.io/versions/indigobook-2.0.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-indigo-book-a-manual-of-legal-citation-sprigman"
+    },
+    {
+      "title": "Open-Source Property: A Free Casebook",
+      "author": "Stephen Clowney - Editor / James Grimmelmann - Editor / Michael Grynberg - Editor",
+      "freeSourceUrl": "https://opensourceproperty.org/download/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-source-property-a-free-casebook"
+    },
+    {
+      "title": "Open Judicial Politics - 2nd Edition",
+      "author": "Rorie Spill Solberg - Editor / Jennifer Segal Diascro - Editor / Eric Waltenburg - Editor",
+      "freeSourceUrl": "https://open.oregonstate.education/open-judicial-politics/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-judicial-politics"
+    },
+    {
+      "title": "Religion in the Law: An Open Access Casebook - Second Edition",
+      "author": "Joe Dunman - Author",
+      "freeSourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6014894",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; Law - Constitutional Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/religion-in-the-law-an-open-access-casebook"
+    },
+    {
+      "title": "Construction Contracting: Business and Legal Principles, Second Edition - Second Edition",
+      "author": "Stewart Bartholomew - Author",
+      "freeSourceUrl": "https://pressbooks.lib.vt.edu/constructioncontracting",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; Law - Contract Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/construction-contracting-business-and-legal-principles-second-edition"
+    },
+    {
+      "title": "Tort Law: Cases and Commentaries - 2nd Edition",
+      "author": "Samuel Beswick - Author",
+      "freeSourceUrl": "https://www.canlii.org/w/canlii/2021CanLIIDocs1859.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/tort-law-cases-and-commentaries"
+    },
+    {
+      "title": "Civil Rights and Liberties",
+      "author": "Rorie Spill Solberg - Editor / Kimberly Clairmont - Author / Petar Jeknic - Author / Sarah R. Mason - Author / Alexandria Metzdorf - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/civilrights/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/civil-rights-and-liberties",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781955101356-L.jpg"
+    },
+    {
+      "title": "Legal Writing I & II: Legal Research and Writing & Introduction to Litigation Practice",
+      "author": "Ben Fernandez - Author",
+      "freeSourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4293995",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/legal-writing-i-ii-legal-research-and-writing-introduction-to-litigation-practice",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798746520340-L.jpg"
+    },
+    {
+      "title": "Transactional Drafting: Introduction to Contract Drafting and Transactional Practice",
+      "author": "Ben L. Fernandez - Author",
+      "freeSourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4294001",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Contract Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/transactional-drafting-introduction-to-contract-drafting-and-transactional-practice",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798453368501-L.jpg"
+    },
+    {
+      "title": "Criminal Procedure: Undergraduate Edition Author:",
+      "author": "Christopher E. Smith - Author / Ben Trachtenberg - Author / Anne Alexander - Author",
+      "freeSourceUrl": "https://openbooks.lib.msu.edu/cj275/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/criminal-procedure-undergraduate-edition-author",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781626101203-L.jpg"
+    },
+    {
+      "title": "Rules and Laws for Civil Actions - 2023",
+      "author": "Stella Burch Elias - Author / Derek T. Muller - Author / Jason Rantanen - Author",
+      "freeSourceUrl": "https://iro.uiowa.edu/view/pdfCoverPage?instCode=01IOWA_INST&filePid=13862304640002771&download=true",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Civil Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/rules-and-laws-for-civil-actions"
+    },
+    {
+      "title": "Introduction to Criminology - 2nd Edition",
+      "author": "Shereen Hassan - Editor / Dan Lett - Editor / Leah Ballantyne - Editor",
+      "freeSourceUrl": "https://kpu.pressbooks.pub/introcrim2e/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-criminology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781989864647-L.jpg"
+    },
+    {
+      "title": "Trademark Law - 2022 Edition (Version 2.0)",
+      "author": "Michael Grynberg - Author",
+      "freeSourceUrl": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4299231_code1898047.pdf?abstractid=3894036&mirid=1",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/trademark-law"
+    },
+    {
+      "title": "Introduction to Intellectual Property",
+      "author": "David Kline - Author / David Kappos - Author",
+      "freeSourceUrl": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Intellectual_Property_2PYaEdp.pdf?_gl=1*1873qfn*_ga*MzY3NTYwMzM4LjE2NzUwODkwODA.*_ga_T746F8B0QC*MTY3NjMxMDYwMS41LjEuMTY3NjMxMTAyOC42LjAuMA..",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-intellectual-property",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693350-L.jpg"
+    },
+    {
+      "title": "Business Law, Ethics, and Sustainability",
+      "author": "Andrew J Hosmanek - Author / Brendan Smith - Author / Michael J Dayton - Author",
+      "freeSourceUrl": "https://pressbooks.uiowa.edu/introtolaw/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Constitutional Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/business-law-ethics-and-sustainability"
+    },
+    {
+      "title": "Peculado Doloso y el Principio de Proporcionalidad de la Pena",
+      "author": "Cesar Percy Estrada-Ayre - Author / Syntia Porras-Sarmiento - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/32",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/peculado-doloso-y-el-principio-de-proporcionalidad-de-la-pena"
+    },
+    {
+      "title": "Estructura Ecológica Principal de la Localidad de Engativá: Estudio desde una perspectiva de ordenamiento territorial y sus instrumentos jurídicos",
+      "author": "Alan David Vargas-Fonseca - Author / Odilia Margarita Borja-Cuadros - Author / Julián Felipe Cristiano-Mendivelso - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/38",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/estructura-ecologica-principal-de-la-localidad-de-engativa-estudio-desde-una-perspectiva-de-ordenamiento-territorial-y-sus-instrumentos-juridicos",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942714671-L.jpg"
+    },
+    {
+      "title": "Los gritos silenciosos de las víctimas de violencia de género: Un enfoque desde la perspectiva pre procesal y procesal penal en el Ecuador",
+      "author": "Diego Marcelo Bonilla-Morejon - Author / Jefferson Steven Bonilla-Morejón - Author / Jaime Enrique Guano-Fogacho - Author / Patricio Vladimir Meléndez-Carrasco - Author / Franklin Remigio Murillo-Ramos - Author / Sarita María Peña-Chauvín - Author / Delia Paulina Samaniego-Quiguiri - Author / Diego Fernando Solis-Miranda - Author / Luis Humberto Vásquez-Quinatoa - Author / Ronny Alejandro Núñez-Ribadeneyra - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/41",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/los-gritos-silenciosos-de-las-victimas-de-violencia-de-genero-un-enfoque-desde-la-perspectiva-pre-procesal-y-procesal-penal-en-el-ecuador",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651006-L.jpg"
+    },
+    {
+      "title": "Advanced Legal Research: Process and Practice",
+      "author": "Megan Austin - Author / Allia Service - Editor",
+      "freeSourceUrl": "https://opentext.uoregon.edu/legal/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/advanced-legal-research-process-and-practice"
+    },
+    {
+      "title": "Legal Fundamentals of Healthcare Law",
+      "author": "Tiffany Jackman - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/healthcarelaw/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/legal-fundamentals-of-healthcare-law"
+    },
+    {
+      "title": "Indigenous Perspectives on Business Ethics and Business Law in British Columbia",
+      "author": "Annette Sorensen - Author / Scott van Dyk - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/indigenous-perspectives-on-business-ethics-and-business-law-in-british-columbia-bccampus-380/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/indigenous-perspectives-on-business-ethics-and-business-law-in-british-columbia"
+    },
+    {
+      "title": "Entre la Criminología y la Política Criminal: Caminos para una Justicia Renovada",
+      "author": "Delia Paulina Samaniego-Quiguiri - Author / Fabian Heriberto Toscano-Broncano - Author / Diego Marcelo Bonilla-Morejón - Author / Luis Arturo Alfonso-Olvera - Author / Jefferson Steven Bonilla-Morejón - Author / Henry Armando Manobanda-Chimbo - Author / Carlos Ivanoff Bucheli-Espinoza - Author / Eduardo Joselito Paredes-Fierro - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/67",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/entre-la-criminologia-y-la-politica-criminal-caminos-para-una-justicia-renovada",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651228-L.jpg"
+    },
+    {
+      "title": "Revelando la Verdad: El Papel del Whistleblowing en la Preservación de la Integridad Estatal. Un Análisis de su Impacto en los ámbitos Penal, Administrativo y Financiero, explorando los desafíos y soluciones legales.",
+      "author": "Delia Paulina Samaniego-Quiguiri - Author / Diego Marcelo Bonilla-Morejón - Author / Xavier Oswaldo Pérez-Serrano - Author / Rosario Jajaira Salazar-Guerrero - Author / Hilda del Rocío Erazo-Domínguez - Author / Thelmo Fernando Yánez-Erazo - Author / Leonardo Rafael Calles-Poveda - Author / Ligia Vanessa Quiroz-Becerra - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/75",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/revelando-la-verdad-el-papel-del-whistleblowing-en-la-preservacion-de-la-integridad-estatal-un-analisis-de-su-impacto-en-los-ambitos-penal-administrativo-y-financiero-explorando-los-desafios-y-soluciones-legales",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651303-L.jpg"
+    },
+    {
+      "title": "El derecho sucesorio y las legítimas: ¿Un equilibrio entre la autonomía testamentaria y la protección de los herederos forzosos?",
+      "author": "Delia Paulina Samaniego-Quiguiri - Author / Rosa Elizabeth Campoverde-Jiménez - Author / David Santiago Astudillo-Bermeo - Author / Pablo Fausto Urbano-Urbano - Author / Hilda del Rocío Erazo-Domínguez - Author / Xavier Edgar Puente-Heredia - Author / Jaime Enrique Guano-Fogacho - Author / Ricardo Paúl Aroca-Rivadeneira - Author / Thelmo Fernando Yánez-Erazo - Author / Wellington Amado Andachi-Trujillo - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/76",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/el-derecho-sucesorio-y-las-legitimas-un-equilibrio-entre-la-autonomia-testamentaria-y-la-proteccion-de-los-herederos-forzosos",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651310-L.jpg"
+    },
+    {
+      "title": "Introduction to business law in Papua New Guinea",
+      "author": "Andrew Gibson - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/intro-bus-law-png/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-business-law-in-papua-new-guinea"
+    },
+    {
+      "title": "Becoming a Climate Conscious Lawyer: Climate and the Australian Legal System",
+      "author": "Anna Huggins - Author / Ellen Hawkins - Author / Steven Tudor - Author / Nicole Rogers - Author",
+      "freeSourceUrl": "https://latrobe.studium.pub/climate-conscious-lawyer/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/becoming-a-climate-conscious-lawyer-climate-and-the-australian-legal-system",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780645838848-L.jpg"
+    },
+    {
+      "title": "Introduction to Intellectual Property Law",
+      "author": "Jason Rantanen - Author",
+      "freeSourceUrl": "https://iro.uiowa.edu/esploro/outputs/textbook/9984703323602771",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-intellectual-property-law"
+    },
+    {
+      "title": "Innovación Pedagógica en ciencias sociales y Derecho: Estrategias y Técnicas de Educación Superior",
+      "author": "Marcelo Eduardo Rojas-Montero - Author / Gabriela Fernanda Ocampo-Valle - Author / Renata Valeria Llanos-García - Author / Luis Fernando Bonilla-Fierro - Author / Luis Alfonso Bonilla-Alarcón - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/95",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/innovacion-pedagogica-en-ciencias-sociales-y-derecho-estrategias-y-tecnicas-de-educacion-superior",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651501-L.jpg"
+    },
+    {
+      "title": "A Guide to Writing in Law School",
+      "author": "Steven Tudor - Author / Stephanie Falconer - Author",
+      "freeSourceUrl": "https://latrobe.studium.pub/guide-writing-law-school/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-guide-to-writing-in-law-school"
+    },
+    {
+      "title": "Introduction to Criminal Justice: Operations, Obstacles, and Outcomes",
+      "author": "Indigo Koslicki - Author",
+      "freeSourceUrl": "https://openjusticeproject.weebly.com/uploads/7/8/7/6/78764868/koslicki__2025__introduction_to_criminal_justice.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-criminal-justice-operations-obstacles-and-outcomes"
+    },
+    {
+      "title": "Introduction to Criminology: An Equity Lens",
+      "author": "Jessica René Peterson - Author / Taryn VanderPyl - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/criminologyintro1e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-criminology-an-equity-lens"
+    },
+    {
+      "title": "Mental Disorders and the Criminal Justice System",
+      "author": "Anne Nichol - Author / Kendra Harding - Author / Monica J. McKirdy - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/mentalcrimjustsys1e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; Social Sciences - Psychology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/mental-disorders-and-the-criminal-justice-system"
+    },
+    {
+      "title": "InfoTech Governance, Policy, Ethics & Law",
+      "author": "David Tuffley - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/infotech-governance-policy-ethics/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/infotech-governance-policy-ethics-law"
+    },
+    {
+      "title": "Essential Legal Research Skills in Aotearoa New Zealand",
+      "author": "Theresa Buller - Author / Catherine Doughty - Author / Melanie Lovich - Author / Tracey Thomas - Author / Kate Thompson - Author",
+      "freeSourceUrl": "https://stacks.studium.pub/essential-legal-research-skills-nz/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/essential-legal-research-skills-in-aotearoa-new-zealand",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780473756383-L.jpg"
+    },
+    {
+      "title": "Rights of the Accused",
+      "author": "Rorie Spill Solberg - Editor / Andrew Hoekman - Author / Katherine McKenna - Author / Charlotte Pietrzak - Author / Fox Perez - Author / Makenna Perry - Author / Jacob Staab - Author / Sloan Harmel - Author / Alex Nobiletti - Author / Sobhi Sidani - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/rightsoftheaccused/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/rights-of-the-accused"
+    },
+    {
+      "title": "La justicia constitucional como garante del derecho a una educación de calidad",
+      "author": "Luis Alfonso Bonilla Alarcón - Author / Marcelo Eduardo Rojas Montero - Author / Renata Valeria Llanos García - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/123",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Constitutional Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/la-justicia-constitucional-como-garante-del-derecho-a-una-educacion-de-calidad",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651778-L.jpg"
+    },
+    {
+      "title": "Más allá del texto: Derechos Humanos y Constitucionales en Ecuador.",
+      "author": "Diego Marcelo Bonilla-Morejón - Author / David Marcelo Calles Soto - Author / Ronny Alejandro Núñez Ribadeneyra - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/125",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mas-alla-del-texto-derechos-humanos-y-constitucionales-en-ecuador",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651792-L.jpg"
+    },
+    {
+      "title": "El Derecho Notarial y la protección de los derechos fundamentales en la familia, el patrimonio y la autonomía personal: Análisis doctrinal y modelos notariales en el ordenamiento jurídico ecuatoriano",
+      "author": "Delia Paulina Samaniego-Quiguiri - Author / Graciela Edith Rivera Arregui - Author / Mateo Napoleón García-Fierro - Author / Fabian Heriberto Toscano-Broncano - Author / María Ana de Jesús Lara-Palomino - Author / Juan Carlos Pástor-Guevara - Author / Jenny Angélica Vallejo-Chiliquinga - Author / Carlos Alfredo Lara-Saltos - Author / Yánez Erazo Thelmo-Fernando - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/129",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/el-derecho-notarial-y-la-proteccion-de-los-derechos-fundamentales-en-la-familia-el-patrimonio-y-la-autonomia-personal-analisis-doctrinal-y-modelos-notariales-en-el-ordenamiento-juridico-ecuatoriano",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651822-L.jpg"
+    },
+    {
+      "title": "Introduction to the American Criminal Justice System: An Equity Lens",
+      "author": "Roxie Supplee - Author / Megan Gonzalez - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/crimjustsysintro1e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-the-american-criminal-justice-system-an-equity-lens",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781636351070-L.jpg"
+    },
+    {
+      "title": "Criminology - 1st",
+      "author": "Jeff Bry - Author",
+      "freeSourceUrl": "https://minnstate.pressbooks.pub/criminology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/criminology-1st"
+    },
+    {
+      "title": "Constitutional Law with a Twist: Less Is More",
+      "author": "Alisa Klein - Author",
+      "freeSourceUrl": "https://www.cali.org/sites/default/files/FINAL-Klein-CLWT-Dec2025_2.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Constitutional Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/constitutional-law-with-a-twist-less-is-more"
+    },
+    {
+      "title": "Introduction to Criminology and Criminal Justice: An Australasian Perspective",
+      "author": "Nadine Connell - Editor / Lucy Forrester - Editor / Steph Friend - Editor",
+      "freeSourceUrl": "https://griffithuniversity.pressbooks.pub/criminology-criminal-justice/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Criminal Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-criminology-and-criminal-justice-an-australasian-perspective"
+    },
+    {
+      "title": "Antitrust: Principles, Cases, and Materials - 4th Edition",
+      "author": "Daniel Francis - Author / Christopher Jon Sprigman - Author",
+      "freeSourceUrl": "https://antitrustcasebook.org/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/antitrust-principles-cases-and-materials-4th-edition"
+    },
+    {
+      "title": "The Office of the Presidency: Powers and Responsibilities - First Edition",
+      "author": "Jakob Miller - Author",
+      "freeSourceUrl": "https://jakobamiller.github.io/presidency-textbook/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-office-of-the-presidency-powers-and-responsibilities-first-edition"
+    },
+    {
+      "title": "Open Access International Human Rights Law",
+      "author": "Stuart Wallace - Editor / Clare James - Editor",
+      "freeSourceUrl": "https://leeds.pressbooks.pub/internationalhumanrightslaw/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-access-international-human-rights-law"
     }
   ],
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
-  ]
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 111 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 111 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

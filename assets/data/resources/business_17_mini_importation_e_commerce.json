@@ -1,7 +1,7 @@
 {
   "categoryId": "business_17_mini_importation_e_commerce",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC7geKfz2-IH0rsgRBtHTm0g",
@@ -178,16 +178,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited (free PDF)",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF, third-party host — worth a check before shipping.",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Source-consistent with all prior business_XX files this session.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First (free resources)",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -196,16 +186,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup (free)",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup",
-      "freeSourceType": "download",
-      "freeSourceNote": "Third-party host — worth a check before shipping.",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Source-consistent with all prior business_XX files this session.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -278,9 +258,10 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
     }
   ],
-  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on Alibaba.com Buyer Central and Jumia Nigeria Vendor University (the two dominant sourcing/selling platforms for Nigerian mini-importers), Paystack and Shopify (the payment and store layers), plus five business-news/analysis channels already verified in adjacent categories this week (TechCabal, Techpoint Africa, NairametricsTV, Neil Patel, Traversy Media) to provide Nigerian e-commerce ecosystem context. Traversy Media is tech-adjacent rather than e-commerce-specific and is the weakest fit of the 10 — can be swapped for a more dedicated mini-importation channel if one becomes confirmable.",
+  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on Alibaba.com Buyer Central and Jumia Nigeria Vendor University (the two dominant sourcing/selling platforms for Nigerian mini-importers), Paystack and Shopify (the payment and store layers), plus five business-news/analysis channels already verified in adjacent categories this week (TechCabal, Techpoint Africa, NairametricsTV, Neil Patel, Traversy Media) to provide Nigerian e-commerce ecosystem context. Traversy Media is tech-adjacent rather than e-commerce-specific and is the weakest fit of the 10 — can be swapped for a more dedicated mini-importation channel if one becomes confirmable. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
   ]
 }

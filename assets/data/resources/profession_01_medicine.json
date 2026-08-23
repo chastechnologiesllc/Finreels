@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_01_medicine",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCoOae5nYA7VqaXzerajD0lg",
@@ -203,16 +203,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF at f5fp.com — build business systems so your medical practice runs without you",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free PDF confirmed at f5fp.com. Foundational text on the technician-to-business-owner transition — directly applicable to healthcare/professional-service entrepreneurs.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -221,16 +211,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Free chapter confirmed at mikemichalowicz.com. Recommended by professional practice coaches and healthcare business advisors.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup/",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free at bdebooks.com — test and validate your medical business model before committing capital",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free access confirmed at bdebooks.com. Applies to launching new practice models, service lines, or professional consulting branches.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -301,10 +281,812 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Creative Clinical Teaching In The Health Professions",
+      "author": "Sherri Melrose - Author / Caroline Park - Author / Beth Perry - Author",
+      "freeSourceUrl": "https://clinicalteaching.pressbooks.com/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/creative-clinical-teaching-in-the-health-professions"
+    },
+    {
+      "title": "Field Trials of Health Interventions: A Toolbox",
+      "author": "Peter G. Smith - Editor / Richard H. Morrow - Editor / David A. Ross - Editor",
+      "freeSourceUrl": "https://library.oapen.org/handle/20.500.12657/33127",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/field-trials-of-health-interventions-a-toolbox",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780198732860-L.jpg"
+    },
+    {
+      "title": "Supporting Individuals with Intellectual Disabilities & Mental Illness",
+      "author": "Sherri Melrose - Author",
+      "freeSourceUrl": "https://opentextbc.ca/caregivers/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/supporting-individuals-with-intellectual-disabilities-mental-illness"
+    },
+    {
+      "title": "Health Case Studies",
+      "author": "Glynda Rees - Author / Rob Kruger - Author / Janet Morrison - Author",
+      "freeSourceUrl": "https://pressbooks.bccampus.ca/healthcasestudies/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/health-case-studies"
+    },
+    {
+      "title": "Public Health Ethics: Global Cases, Practice, and Context",
+      "author": "Drue H. Barrett - Editor / Angus Dawson - Editor / Leonard W. Ortmann - Editor",
+      "freeSourceUrl": "https://link.springer.com/content/pdf/10.1007/978-3-319-23847-0.pdf?error=cookies_not_supported&code=792ef6af-44ec-47cd-941d-96fd43f79753",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/public-health-ethics-global-cases-practice-and-context",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783319238470-L.jpg"
+    },
+    {
+      "title": "Concepts of Fitness and Wellness",
+      "author": "Scott Flynn - Author / Lisa Jellum - Author / Jonathan Howard - Author / Althea Moser - Author / David Mathis - Author / Christin Collins - Author / Sharryse Henderson - Author / Connie Watjen - Author",
+      "freeSourceUrl": "https://oer.galileo.usg.edu/cgi/viewcontent.cgi?article=1005&context=health-textbooks",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/concepts-of-fitness-and-wellness"
+    },
+    {
+      "title": "Human Nutrition - 2020 Edition",
+      "author": "Marie Kainoa Fialkowski Revilla - Author / Alan Titchenal - Author / Jennifer Draper - Author",
+      "freeSourceUrl": "https://pressbooks.oer.hawaii.edu/humannutrition2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/human-nutrition",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781948027014-L.jpg"
+    },
+    {
+      "title": "Kansas State University Human Nutrition Flexbook",
+      "author": "Brian Lindshield - Author",
+      "freeSourceUrl": "https://newprairiepress.org/ebooks/19/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/kansas-state-university-human-nutrition-flexbook",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548117-L.jpg"
+    },
+    {
+      "title": "Undergraduate Diagnostic Imaging Fundamentals",
+      "author": "Brent Burbridge - Author / Evan Mah - Author",
+      "freeSourceUrl": "https://www.saskoer.ca/undergradimaging/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/undergraduate-diagnostic-imaging-fundamentals",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780888806116-L.jpg"
+    },
+    {
+      "title": "A Laboratory Guide to Clinical Hematology",
+      "author": "Valentin Villatoro - Author / Michelle To - Author",
+      "freeSourceUrl": "https://pressbooks.openeducationalberta.ca/mlsci/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-laboratory-guide-to-clinical-hematology"
+    },
+    {
+      "title": "Evidence-Based Massage Therapy",
+      "author": "Richard Lebert - Author",
+      "freeSourceUrl": "https://openlibrary.ecampusontario.ca/item-details/#/89489e48-d9fd-415c-98d6-03ff0ae57a00:~:text=6.0%20MB-,EPUB,-6.1%20MB",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/evidence-based-massage-therapy"
+    },
+    {
+      "title": "Vaccine Practice for Health Professionals - 1st Canadian Edition",
+      "author": "Oona St-Amant - Author / Jennifer Lapum - Author / Kim English - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/immunizations/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/vaccine-practice-for-health-professionals-1st-canadian-edition-st-amant"
+    },
+    {
+      "title": "The Complete Subjective Health Assessment",
+      "author": "Jennifer L. Lapum - Author / Oona St-Amant - Author / Michelle Hughes - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/healthassessment/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-complete-subjective-health-assessment-lapum"
+    },
+    {
+      "title": "Interpreting Canada’s 2019 Food Guide and Food Labelling for Health Professionals",
+      "author": "Jennifer L. Lapum - Author / Oona St-Amant - Author / Michelle Hughes - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/foodguide/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/interpreting-canada-s-2019-food-guide-and-food-labelling-for-health-professionals-lapum"
+    },
+    {
+      "title": "Histology and Embryology for Dental Hygiene",
+      "author": "Laird Sheldahl - Author / Raye Ann Yapp - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/histologyandembryology/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/histology-and-embryology-for-dental-hygiene",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780578763507-L.jpg"
+    },
+    {
+      "title": "Nutrition: Science and Everyday Application - Second Edition",
+      "author": "Alice Callahan - Author / Heather Leonard - Author / Tamberly Powell - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/nutritionscience2e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/nutrition-science-and-everyday-application",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781636350035-L.jpg"
+    },
+    {
+      "title": "A Guide to the Principles of Animal Nutrition",
+      "author": "Gita Cherian - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/animalnutrition/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-guide-to-the-principles-of-animal-nutrition"
+    },
+    {
+      "title": "Cell Biology, Genetics, and Biochemistry for Pre-Clinical Students",
+      "author": "Renee LeClair - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/d34e759d-85b5-41ad-84de-5e30fab46dfa",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/cell-biology-genetics-and-biochemistry-for-preclinical-students"
+    },
+    {
+      "title": "Public Health in Pharmacy Practice: A Casebook - 2nd Edition",
+      "author": "Jordan R Covvey - Author / Vibhuti Arya - Author / Natalie A. DiPietro Mager - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=5137",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Pharmacology; Medicine - Public Health; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/public-health-in-pharmacy-practice-a-casebook",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341840-L.jpg"
+    },
+    {
+      "title": "Understanding the “General Principles of Food Hygiene” (including  GHP and HACCP) published in 2020 by Codex Alimentarius, and its applications on food industry and catering in Taiwan",
+      "author": "I-Yuan Chiang - Author / Chia-Ho Hsu - Author / Meng-Yu Lin - Author",
+      "freeSourceUrl": "https://drive.google.com/file/d/1l4X0VIWCjL-fmzZB1PB2tkVIfVarqVlq/view",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/understanding-the-general-principles-of-food-hygiene-including-ghp-and-haccp-published-in-2020-by-codex-alimentarius-and-its-applications-on-food-industry-and-catering-in-taiwan",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789869292955-L.jpg"
+    },
+    {
+      "title": "Neuroscience for Pre-Clinical Students",
+      "author": "Renée J. LeClair - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/041134d3-9e4a-49b3-83af-a08b01aef8d9",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/neuroscience-for-pre-clinical-students"
+    },
+    {
+      "title": "Applying the International Classification of Functioning, Disability & Health: A Team-Based/Project Based Course for Undergraduate Students",
+      "author": "Laurie Schroder - Author",
+      "freeSourceUrl": "https://dc.etsu.edu/etsu-oer/9/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/applying-the-international-classification-of-functioning-disability-health-a-team-based-project-based-course-for-undergraduate-students"
+    },
+    {
+      "title": "Medical Terminology for Healthcare Professions",
+      "author": "Andrea M. Nelson - Author / Katherine Greene - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/medicalterminology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/medical-terminology-for-healthcare-professions"
+    },
+    {
+      "title": "Cardiovascular Pathophysiology for Pre-Clinical Students",
+      "author": "Andrew Binks - Author",
+      "freeSourceUrl": "https://pressbooks.lib.vt.edu/cardiovascularpathophysiology",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Clinical Physiology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/cardiovascular-pathophysiology-for-pre-clinical-students"
+    },
+    {
+      "title": "Sports Nutrition Laboratory Manual - 1st Ed.",
+      "author": "Mary P Miles - Author / Stephanie M.G. Wilson - Author / Morgan L Chamberlin - Author",
+      "freeSourceUrl": "https://scholarworks.montana.edu/items/ec33cab0-cbc7-4a14-ad08-eeca7d1567d1",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sports-nutrition-laboratory-manual"
+    },
+    {
+      "title": "Pulmonary Physiology for Pre-Clinical Students",
+      "author": "Andrew Binks - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/e3013546-2e86-48dc-bd79-60da4323a0b8",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Clinical Physiology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/pulmonary-physiology-for-pre-clinical-students"
+    },
+    {
+      "title": "Pulmonary Pathophysiology for Pre-Clinical Students",
+      "author": "Andrew Binks - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/353ceade-ce7a-48b7-acdc-0052be2295db",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Clinical Physiology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/pulmonary-pathophysiology-for-pre-clinical-students"
+    },
+    {
+      "title": "Principles of Epidemiology",
+      "author": "Hector Giovanni Antunez - Author",
+      "freeSourceUrl": "https://opendora.minnstate.edu/islandora/object/MINNSTATErepository:970",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-epidemiology"
+    },
+    {
+      "title": "The Science of Sleep",
+      "author": "Sheryl Shook - Author",
+      "freeSourceUrl": "https://dspace.lib.hawaii.edu/server/api/core/bitstreams/2479df39-be30-4aee-a065-1a09587e57bd/content",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-science-of-sleep"
+    },
+    {
+      "title": "Basic Scientific Food Preparation Lab Manual",
+      "author": "Iowa State University Department of Food Science and Human Nutrition - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/foodpreparationlab/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-scientific-food-preparation-lab-manual"
+    },
+    {
+      "title": "Big Data for Epidemiology: Applied Data Analysis Using National Health Surveys",
+      "author": "Tiffany B Kindratt - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/bigdataforepidemiology/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/big-data-for-epidemiology-applied-data-analysis-using-national-health-surveys",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648160035-L.jpg"
+    },
+    {
+      "title": "The Fundamentals of Healthcare Administration: Navigating Challenges and Coordinating Care",
+      "author": "Whitney N. Hamilton - Author / Dorothy J. Howell - Author / Melissa Jordan - Author",
+      "freeSourceUrl": "https://web.ung.edu/media/university-press/fundamentals-of-healthcare-administration.pdf?t=1661432340837",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-fundamentals-of-healthcare-administration-navigating-challenges-and-coordinating-care",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781940771885-L.jpg"
+    },
+    {
+      "title": "Healthcare in the  United States: Navigating the Basics of a Complex System",
+      "author": "Deanna L. Howe - Author / Andrea L. Dozier - Author / Sheree O. Dickenson - Author",
+      "freeSourceUrl": "https://drive.google.com/file/d/1PfncmOZtvOQxkrPqHbIlOprrw0SJkYBe/view?usp=sharing",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/healthcare-in-the-united-states-navigating-the-basics-of-a-complex-system",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781940771915-L.jpg"
+    },
+    {
+      "title": "Overview of: Healthcare Compliance",
+      "author": "Sarah Godwin Brinson - Author / Lesley Clack - Author / Larecia Money Gill - Author / Laura Kim Gosa - Author",
+      "freeSourceUrl": "https://web.ung.edu/media/university-press/overview-of-healthcare-compliance.pdf?t=1661448716344",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/overview-of-healthcare-compliance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781940771854-L.jpg"
+    },
+    {
+      "title": "Human Anatomy: Self-Assessment Review Questions",
+      "author": "Michael F. Nolan - Author / John P. McNamara - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/64d920d3-aa5c-4679-8e5f-db092176a14b/content",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Anatomy; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/human-anatomy-self-assessment-review-questions",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781957213309-L.jpg"
+    },
+    {
+      "title": "Introduction to Implant Prosthodontics: A Case-Based Clinical Guide",
+      "author": "Stefanos Kourtis - Author / Panagiotis Lampropoulos - Author / Nikolaos Polychronakis - Author",
+      "freeSourceUrl": "https://repository.kallipos.gr/bitstream/11419/8455/4/INTRODUCTION%20TO%20IMPLANT%20PROSTHODONTICS-low.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-implant-prosthodontics-a-case-based-clinical-guide",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9786185667627-L.jpg"
+    },
+    {
+      "title": "Applied Human Anatomy",
+      "author": "Michael F Nolan - Author / John P McNamara - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/b89fd784-63f1-4c97-9188-0dd80ea7054c/content",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Anatomy; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/applied-human-anatomy"
+    },
+    {
+      "title": "Ultrasound Physics and its Application in Medicine",
+      "author": "Arbin Thapaliya - Author / Alec Sithole - Author / Michael J. Welsh - Author / Gaston Dana - Author / Katie Marshall - Illustrator",
+      "freeSourceUrl": "https://pressbooks.palni.org/ultrasoundphysicsanditsapplicationinmedicine/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/ultrasound-physics-and-its-application-in-medicine",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781956390407-L.jpg"
+    },
+    {
+      "title": "Anatomy and Physiology Laboratory Manual for Nursing and Allied Health",
+      "author": "Aylin Marz - Author / Ganesan Kamatchi - Author / Joseph D'Silva - Author / Krishnan Prabhakaran - Author / Rajeev Chandra - Author / Solomon Isekeije - Author",
+      "freeSourceUrl": "https://viva.pressbooks.pub/anatomyandphysiologylaboratorymanualfornursing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Anatomy; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/anatomy-and-physiology-laboratory-manual-for-nursing-and-allied-health"
+    },
+    {
+      "title": "Exploring the U.S. Healthcare System",
+      "author": "Karen Valaitis - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/ushealthcaresystem/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/exploring-the-u-s-healthcare-system"
+    },
+    {
+      "title": "General Inpatient Management of Pediatric Diabetes Mellitus at University of Iowa Stead Family Children's Hospital",
+      "author": "Alex Tuttle - Author",
+      "freeSourceUrl": "https://pressbooks.uiowa.edu/pedsendocrinology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/general-inpatient-management-of-pediatric-diabetes-mellitus-at-university-of-iowa-stead-family-children-s-hospital"
+    },
+    {
+      "title": "Enfermedades Respiratorias del Siglo XXI",
+      "author": "Alida Bella Vallejo-López - Author / Josefina Ramírez-Amaya - Author / Juana Kou-Guzmán - Author / Franklin Rodolfo Valdez-Aguagallo - Author / Lady Diana Ramírez- Morán - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/36",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/enfermedades-respiratorias-del-siglo-xxi",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942714640-L.jpg"
+    },
+    {
+      "title": "Ansiedad en la era COVID-19: Estado, Rasgo y Resiliencia",
+      "author": "Rodrigo Quispe-Rojas - Author / Olga Vicentina Pacovilca Alejo - Author / Cesar Cipriano Zea-Montesinos - Author / Raúl Ureta-Jurado - Author / Yda Flor Camposano-Córdova - Author / Charo Jacqueline Jauregui-Sueldo - Author / Blas Oscar Sánchez-Ramos - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/37",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ansiedad-en-la-era-covid-19-estado-rasgo-y-resiliencia",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942714657-L.jpg"
+    },
+    {
+      "title": "A Developmental Systems Guide for Child and Adolescent Behavioral Health Practitioners",
+      "author": "Sean E. Snyder - Author",
+      "freeSourceUrl": "https://temple.manifoldapp.org/projects/a-developmental-systems-guide-for-child-and-adolescent-behavioral-health-practitioners",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-developmental-systems-guide-for-child-and-adolescent-behavioral-health-practitioners",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781439921289-L.jpg"
+    },
+    {
+      "title": "Oregon EMS Psychomotor Skills Lab Manual",
+      "author": "Chris Hamper - Author / Carmen Curtz - Author / Jamie Kennel - Author / Holly Edwins - Author / Michele Classeen - Editor / Kristin Whitman - Editor",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/emslabmanual/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/oregon-ems-psychomotor-skills-lab-manual"
+    },
+    {
+      "title": "Urinalysis Atlas: A Pictorial Guide to Formed Elements in Urine (Doty and Taylor)",
+      "author": "Dawn Taylor - Author / Caroline Doty - Author",
+      "freeSourceUrl": "https://med.libretexts.org/Courses/Oregon_Institute_of_Technology/Urinalysis_Atlas%3A_A_Pictorial_Guide_to_Formed_Elements_in_Urine_(Doty_and_Taylor)",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/urinalysis-atlas-a-pictorial-guide-to-formed-elements-in-urine-doty-and-taylor"
+    },
+    {
+      "title": "Community interventions in obesity-related chronic diseases",
+      "author": "Sherri M. Cirignano - Author / Sara A. Elnakib - Author / Karen Ensle - Author / Christine Zellers - Author",
+      "freeSourceUrl": "https://scholarship.libraries.rutgers.edu/esploro/outputs/textbook/Community-interventions-in-obesity-related-chronic-diseases/991031866793004646",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/community-interventions-in-obesity-related-chronic-diseases"
+    },
+    {
+      "title": "Pastos Tropicales de la Amazonia Ecuatoriana Tomo I: Avances científicos sobre sistemas silvopastoriles como estrategia de reconversión de la ganadería",
+      "author": "Raúl Lorenzo González-Marcillo - Author / Santiago Alexander Guamán-Rivera - Author / Angela Edith Guerrero-Pincay - Author / Nelson René Ortiz-Naveda - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/46",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/pastos-tropicales-de-la-amazonia-ecuatoriana-tomo-i-avances-cientificos-sobre-sistemas-silvopastoriles-como-estrategia-de-reconversion-de-la-ganaderia",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651013-L.jpg"
+    },
+    {
+      "title": "Case Studies for Health, Research and Practice in Australia and New Zealand",
+      "author": "Nicola Whiteing - Author / Lucy Shinners - Author / Nicole Graham - Author / Dima Nasrawi - Author / Donna Wilson - Author / Anna Foster - Author / Elicia Kunst - Author / Jennene Greenhill - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/case-studies-for-health-research-and-practice-in-au-and-nz/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/case-studies-for-health-research-and-practice-in-australia-and-new-zealand"
+    },
+    {
+      "title": "Epidemiology",
+      "author": "Charlotte Baker - Author",
+      "freeSourceUrl": "https://pressbooks.lib.vt.edu/epidemiology",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/epidemiology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781957213651-L.jpg"
+    },
+    {
+      "title": "Human Reproduction",
+      "author": "Hala Bastawros - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/humanreproduction/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Anatomy; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/human-reproduction"
+    },
+    {
+      "title": "Drug Use and Misuse: A Community Health Perspective",
+      "author": "Christy N. Bazan - Author / Brandi Barnes - Author / Ryan Santens - Author / Emily Verone - Author",
+      "freeSourceUrl": "https://iopn.library.illinois.edu/books/windsor-downs/catalog/book/16",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/drug-use-and-misuse-a-community-health-perspective",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946011152-L.jpg"
+    },
+    {
+      "title": "Seguridad e higiene en el trabajo una visión holista en el nuevo siglo",
+      "author": "Karles Hoffmann-Jaramillo - Author / Carlos Rene Flores-Murillo - Author / Alida Bella Vallejo-López - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/55",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/seguridad-e-higiene-en-el-trabajo-una-vision-holista-en-el-nuevo-siglo",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651150-L.jpg"
+    },
+    {
+      "title": "Ácido oxálico, alternativa orgánica para el control de varroasis (Varroa destructor) en abejas (Apis mellifera)",
+      "author": "Yordan Santiago Ibarra-Navarrete - Author / Edgar Rodolfo Pinargote-Mendoza - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/63",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/acido-oxalico-alternativa-organica-para-el-control-de-varroasis-varroa-destructor-en-abejas-apis-mellifera",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651198-L.jpg"
+    },
+    {
+      "title": "Legal Fundamentals of Healthcare Law",
+      "author": "Tiffany Jackman - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/healthcarelaw/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/legal-fundamentals-of-healthcare-law"
+    },
+    {
+      "title": "Health Sciences Collection Development: An Overview of Fundamental Knowledge and Practices - 2nd Edition",
+      "author": "Medical Library Association Collection Development Caucus - Author / Karen H. Gau - Editor / Iris Kovar-Gough - Editor",
+      "freeSourceUrl": "https://pressbooks.library.vcu.edu/hscolldev/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/health-sciences-collection-development-an-overview-of-fundamental-knowledge-and-practices"
+    },
+    {
+      "title": "Leading in Health and Social Care",
+      "author": "Sheree Lloyd - Author / Richard Olley - Author / Eleanor Milligan - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/leading-in-health-and-social-care/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/leading-in-health-and-social-care"
+    },
+    {
+      "title": "Building Bridges: Establishing a Foundation for Interprofessional Collaboration in Healthcare (Revised)",
+      "author": "Andrea Nelson - Author / Katherine Greene - Author / Katie Cavnar - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/interprofessionalcollaborationinhealthcare/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-bridges-establishing-a-foundation-for-interprofessional-collaboration-in-healthcare"
+    },
+    {
+      "title": "Introduction to Health (OER) - 2nd edition",
+      "author": "Kelly Falcone - Author",
+      "freeSourceUrl": "https://pressbooks.pub/introtohealth/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-health-oer"
+    },
+    {
+      "title": "Radiobiology Textbook",
+      "author": "Sarah Baatout - Editor",
+      "freeSourceUrl": "https://link.springer.com/book/10.1007/978-3-031-18810-7?error=cookies_not_supported&code=f11ee464-7710-4278-9c17-defaee9135ed",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/radiobiology-textbook",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783031188091-L.jpg"
+    },
+    {
+      "title": "Abordaje Integral de la Obesidad",
+      "author": "Noemí Judith Tayupanda-Cuvi - Author / Carmen Patricia Viteri-Robayo - Author / Katherine Yaritza Girón-Saltos - Author / María Fernanda Marizande-Lozada - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/77",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/abordaje-integral-de-la-obesidad",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651327-L.jpg"
+    },
+    {
+      "title": "Fundamentals of Human Anatomy Laboratory Manual",
+      "author": "Carly Manz - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/humananatomylab/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Anatomy; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-anatomy-laboratory-manual"
+    },
+    {
+      "title": "The Basics of Health, Wellness, and Fitness",
+      "author": "Jessica Alsup - Author",
+      "freeSourceUrl": "https://rotel.pressbooks.pub/health-and-fitness/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-basics-of-health-wellness-and-fitness"
+    },
+    {
+      "title": "Localization & Treatment Procedures in Radiation Therapy",
+      "author": "Jared Stiles - Author",
+      "freeSourceUrl": "https://iro.uiowa.edu/esploro/outputs/textbook/9984720691902771",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/localization-treatment-procedures-in-radiation-therapy"
+    },
+    {
+      "title": "Value-based Healthcare",
+      "author": "Hanan Khalil - Author",
+      "freeSourceUrl": "https://latrobe.studium.pub/value-based-health-care/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/value-based-healthcare",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780645838862-L.jpg"
+    },
+    {
+      "title": "Culinary Medicine - 2025 Edition",
+      "author": "Cheryl Casey - Editor / Scott Going - Editor / Lauren McCullough - Editor / Melanie Hingle - Editor",
+      "freeSourceUrl": "https://opentextbooks.library.arizona.edu/culinarymedicine/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/culinary-medicine-2025-edition"
+    },
+    {
+      "title": "Food Preparation Lab Manual for FSHN 1150",
+      "author": "Erica Beirman - Editor / Kate Gilbert - Editor / ISU Department of Food Science and Human Nutrition - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/fshn115/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/food-preparation-lab-manual-for-fshn-1150"
+    },
+    {
+      "title": "Human Anatomy and Physiology Laboratory Manual: Understanding How Structure Determines Function",
+      "author": "Maria Carles - Author",
+      "freeSourceUrl": "https://rotel.pressbooks.pub/anatomyphysiology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Anatomy; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/human-anatomy-and-physiology-laboratory-manual-understanding-how-structure-determines-function"
+    },
+    {
+      "title": "Enabling and Optimising Recovery from COVID-19",
+      "author": "Danielle Hitch - Editor / Genevieve Pepin - Editor / Kelli Nicola-Richmond - Editor / Valerie Watchorn - Editor",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/enablingoptimisingrecoverycovid19/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/enabling-and-optimising-recovery-from-covid-19"
+    },
+    {
+      "title": "Movilización neurodinámica: Guía para neuropatías periféricas en miembros superiores e inferiores",
+      "author": "David Marcelo Guevara-Hernández - Author / Shirley Mireya Ortiz-Pérez - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/112",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/movilizacion-neurodinamica-guia-para-neuropatias-perifericas-en-miembros-superiores-e-inferiores",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651679-L.jpg"
+    },
+    {
+      "title": "Protección de las tortugas charapa en el Parque Nacional Yasuní y sus alrededores",
+      "author": "Juan Manuel Guerrero-Calero - Author / Laura Cristina Merchán-Nieto - Author / José Daniel Zambrano-Molina - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/113",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/proteccion-de-las-tortugas-charapa-en-el-parque-nacional-yasuni-y-sus-alrededores",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651686-L.jpg"
+    },
+    {
+      "title": "Hands-on Anatomy",
+      "author": "Jacqueline Phillips - Author / Michael O’Hara - Author",
+      "freeSourceUrl": "https://temple.manifoldapp.org/projects/hands-on-anatomy",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Anatomy; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/hands-on-anatomy",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781439921241-L.jpg"
+    },
+    {
+      "title": "Population Health for Nurses",
+      "author": "Jessica Ochs - Author / Sherry L. Roper - Author / Susan M. Schwartz - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/population-health",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; Medicine - Public Health; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/population-health-for-nurses",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584393-L.jpg"
+    },
+    {
+      "title": "Practical introduction to writing reviews in health research",
+      "author": "Dell Horey - Author / Fernanda Nava Buenfil - Author / Joanne Marcucci - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/how-to-write-about-health-research/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/practical-introduction-to-writing-reviews-in-health-research"
+    },
+    {
+      "title": "Clinical Application Of Therapeutic Modalities",
+      "author": "Andrea Cripps - Author",
+      "freeSourceUrl": "https://scholarworks.bgsu.edu/oer/3/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Clinical Physiology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/clinical-application-of-therapeutic-modalities"
+    },
+    {
+      "title": "Personal Health and Safety",
+      "author": "Ches Jones - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/personalhealth/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/personal-health-and-safety"
+    },
+    {
+      "title": "Anatomía y patología nerviosa de los miembros superior e inferior: Guía para la movilización neural",
+      "author": "Johannes Alejandro Hernández-Amaguaya - Author / Shirley Mireya Ortiz-Pérez - Author / David Marcelo Guevara-Hernández - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/127",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Anatomy; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/anatomia-y-patologia-nerviosa-de-los-miembros-superior-e-inferior-guia-para-la-movilizacion-neural",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651808-L.jpg"
+    },
+    {
+      "title": "The Physiology of Exercise",
+      "author": "Rosie K. Lanphere - Author",
+      "freeSourceUrl": "https://saalck.pressbooks.pub/physioex/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-physiology-of-exercise"
+    },
+    {
+      "title": "Health Information Management: Unlocking the Power of Data in Healthcare",
+      "author": "Sheree Lloyd - Editor / Joel Scanlan - Editor / Sallyanne Wissmann - Editor",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/health-information-management/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/health-information-management-unlocking-the-power-of-data-in-healthcare"
+    },
+    {
+      "title": "Human Anatomy and Physiology Laboratory Booklet",
+      "author": "Martilias Farrell - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/human-anatomy-and-physiology-laboratory-booklet/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Anatomy; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/human-anatomy-and-physiology-laboratory-booklet"
+    },
+    {
+      "title": "The Art and Science of Personal Wellness",
+      "author": "A.J. Stephen - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/personalwellness/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-art-and-science-of-personal-wellness"
+    },
+    {
+      "title": "The Science of Nutrition",
+      "author": "Heather L Lehman - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/the-science-of-nutrition/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nutrition; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-science-of-nutrition"
+    },
+    {
+      "title": "Principles of Epidemiology: A Primer",
+      "author": "Christy N Bazan - Author / Pedro Curi Hallal - Author / Rachel A Hoopsick - Author / Sheena Martenies - Author / Andiara Schwingel - Author",
+      "freeSourceUrl": "https://iopn.library.illinois.edu/books/windsor-downs/catalog/book/32",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Public Health; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-epidemiology-a-primer",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946011398-L.jpg"
+    },
+    {
+      "title": "Health Promotion in Health Care – Vital Theories and Research",
+      "author": "Gørill Haugan - Editor / Monica Eriksson - Editor",
+      "freeSourceUrl": "https://link.springer.com/book/10.1007/978-3-030-63135-2?error=cookies_not_supported&code=2df22a69-bdae-4b63-942d-072dd2ffca10",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; Medicine - Public Health; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/health-promotion-in-health-care-vital-theories-and-research",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/978303031352-L.jpg"
+    },
+    {
+      "title": "Foundations of Radiation Safety & Radiobiology: For Undergraduate Students in the Radiation Sciences",
+      "author": "Jared Stiles - Author / Hannah Fink-Flesburg - Author",
+      "freeSourceUrl": "https://pressbooks.uiowa.edu/radiationsafetyradiobiology/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-radiation-safety-radiobiology-for-undergraduate-students-in-the-radiation-sciences"
     }
   ],
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
-  ]
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 85 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 85 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

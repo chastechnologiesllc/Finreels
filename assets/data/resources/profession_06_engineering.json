@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_46_engineering",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCyAZtIT2LbUv7Q840iBXI1A",
@@ -178,16 +178,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF via f5fp.com",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "URL confirmed live in prior skill sessions (skill_09, skill_18).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://mikemichalowicz.com/profit-first",
@@ -196,16 +186,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "URL confirmed live in prior skill sessions.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF via BDE Books",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "URL confirmed live in prior skill sessions.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Entrepreneurship",
@@ -276,11 +256,1251 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Introduction to Probability - 2nd edition",
+      "author": "Charles M. Grinstead - Author / J. Laurie Snell - Author",
+      "freeSourceUrl": "https://math.dartmouth.edu/~prob/prob/prob.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Free Documentation License (GNU)) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Free Documentation License (GNU); catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-probability"
+    },
+    {
+      "title": "Basics of Fluid Mechanics - ver. 0.7.5",
+      "author": "Genick Bar-Meir - Author",
+      "freeSourceUrl": "https://zenodo.org/records/17328511",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Free Documentation License (GNU)) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Chemical Engineering; Engineering & Technology - Civil Engineering; license: Free Documentation License (GNU); catalog record: https://open.umn.edu/opentextbooks/textbooks/basics-of-fluid-mechanics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781616100940-L.jpg"
+    },
+    {
+      "title": "Fundamentals of Compressible Flow Mechanics - ver. 0.5.4",
+      "author": "Genick Bar-Meir - Author",
+      "freeSourceUrl": "https://zenodo.org/records/18217916",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-compressible-flow-mechanics"
+    },
+    {
+      "title": "Sustainability: A Comprehensive Foundation",
+      "author": "Tom Theis - Editor / Jonathan Tomkin - Editor",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col11325",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/sustainability-a-comprehensive-foundation"
+    },
+    {
+      "title": "Developing New Products and Services",
+      "author": "G. Lawrence Sanders - Author",
+      "freeSourceUrl": "https://resources.saylor.org/wwwresources/archived/site/textbooks/Developing%20New%20Products%20and%20Services.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/developing-new-products-and-services",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343609-L.jpg"
+    },
+    {
+      "title": "Elementary Differential Equations with Boundary Value Problems",
+      "author": "William F. Trench - Author",
+      "freeSourceUrl": "https://digitalcommons.trinity.edu/mono/9/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/elementary-differential-equations-with-boundary-value-problems"
+    },
+    {
+      "title": "Notes on Diffy Qs: Differential Equations for Engineers",
+      "author": "Jirí Lebl - Author",
+      "freeSourceUrl": "https://www.jirka.org/diffyqs/html/diffyqs.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/notes-on-diffy-qs-differential-equations-for-engineers",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781505698190-L.jpg"
+    },
+    {
+      "title": "Fundamentals of Electrical Engineering I",
+      "author": "Don Johnson - Author",
+      "freeSourceUrl": "http://cnx.org/contents/d442r0wh@9.72:g9deOnx5@19",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-electrical-engineering-1",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781300160137-L.jpg"
+    },
+    {
+      "title": "A First Course in Electrical and Computer Engineering",
+      "author": "Louis Scharf - Author",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col10685",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-first-course-in-electrical-and-computer-engineering"
+    },
+    {
+      "title": "Introduction to Linear, Time-Invariant, Dynamic Systems for Students of Engineering",
+      "author": "William Hallauer - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/ae1fe444-5c69-4d0a-93e0-4ba983fe26de/content",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-linear-time-invariant-dynamic-systems-for-students-of-engineering"
+    },
+    {
+      "title": "Aplicaciones y Teoría de Ingeniería de Microondas",
+      "author": "LATIn Project",
+      "freeSourceUrl": "https://mountainscholar.org/items/9dada92b-1e2d-448f-90fd-24132a26dce1",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/aplicaciones-y-teoria-de-ingenieria-de-microondas"
+    },
+    {
+      "title": "Fundamentals of Infrastructure Management",
+      "author": "Donald Coffelt - Author / Chris Hendrickson - Author",
+      "freeSourceUrl": "https://kilthub.cmu.edu/articles/book/Fundamentals_of_Infrastructure_Management/5334379/2",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-infrastructure-management"
+    },
+    {
+      "title": "Electromagnetics Vol 1",
+      "author": "Steven W. Ellingson - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/6f75e22e-ea6a-48a3-b441-65ce5ebf5331",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/electromagnetics-vol-1",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780997920192-L.jpg"
+    },
+    {
+      "title": "DC Circuits",
+      "author": "Chad Davis - Author",
+      "freeSourceUrl": "https://shareok.org/server/api/core/bitstreams/23e9ec3b-d8ee-44a9-aab0-3d076239dfff/content",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/dc-circuits"
+    },
+    {
+      "title": "AC Circuits",
+      "author": "Chad Davis - Author",
+      "freeSourceUrl": "https://shareok.org/items/528b80fd-5618-437d-9a43-b9f58ff3b950",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ac-circuits"
+    },
+    {
+      "title": "Semiconductor Devices: Theory and Application",
+      "author": "James M. Fiore - Author",
+      "freeSourceUrl": "http://www.dissidents.com/resources/SemiconductorDevices.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/semiconductor-devices-theory-and-application",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781796543537-L.jpg"
+    },
+    {
+      "title": "Operational Amplifiers & Linear Integrated Circuits: Theory and Application - 3e",
+      "author": "James Fiore - Author",
+      "freeSourceUrl": "http://www.dissidents.com/resources/OperationalAmplifiersAndLinearICs_3E.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/operational-amplifiers-linear-integrated-circuits-theory-and-application-3e"
+    },
+    {
+      "title": "A Brief Introduction to Engineering Computation with MATLAB",
+      "author": "Serhat Beyenir - Author",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col11371",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-brief-introduction-to-engineering-computation-with-matlab"
+    },
+    {
+      "title": "Direct Energy",
+      "author": "Andrea M. Mitofsky - Author",
+      "freeSourceUrl": "https://www.trine.edu/books/documents/de_text1.0.0.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/direct-energy"
+    },
+    {
+      "title": "Building Maintenance & Construction: Tools and Maintenance Tasks",
+      "author": "Clifford Rutherford - Author",
+      "freeSourceUrl": "https://pressbooks.oer.hawaii.edu/buildingmaint/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-maintenance-construction-tools-and-maintenance-tasks"
+    },
+    {
+      "title": "Chemical Process Dynamics and Controls",
+      "author": "Peter J. Woolf - Author",
+      "freeSourceUrl": "https://ia601905.us.archive.org/24/items/ChemicalProcessDynamicsAndControls/ChemicalProcessDynamicsAndControls.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/chemical-process-dynamics-and-controls"
+    },
+    {
+      "title": "Manufacturing Processes 4-5",
+      "author": "LamNgeun Virasak - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/manufacturingprocesses45/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/manufacturing-processes-4-5"
+    },
+    {
+      "title": "Introduction to Aerospace Structures and Materials",
+      "author": "René Alderliesten - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/197",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-aerospace-structures-and-materials"
+    },
+    {
+      "title": "Electromagnetics Vol 2",
+      "author": "Steven W. Ellingson - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/0a2690e9-be2c-4b50-802d-c74d6e77560f/content",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/electromagnetics-vol-2"
+    },
+    {
+      "title": "Dredging Engineering: Special Topics",
+      "author": "Sape A. Miedema - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/201",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/dredging-engineering-special-topics"
+    },
+    {
+      "title": "Fundamentals of Microwave and RF Design",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-microwave-and-rf-design"
+    },
+    {
+      "title": "Microwave and RF Design: Radio Systems",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-radio-systems"
+    },
+    {
+      "title": "Microwave and RF Design: Transmission Lines",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-transmission-lines"
+    },
+    {
+      "title": "Microwave and RF Design: Networks",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-networks"
+    },
+    {
+      "title": "Microwave and RF Design: Modules",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-modules"
+    },
+    {
+      "title": "Microwave and RF Design: Amplifiers and Oscillators",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-amplifiers-and-oscillators"
+    },
+    {
+      "title": "Applied Fluid Mechanics Lab Manual",
+      "author": "Habib Ahmari - Author / Shah Md Imran Kabir - Author / Ginny Bowers - Editor",
+      "freeSourceUrl": "https://uta.pressbooks.pub/appliedfluidmechanics/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Materials Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/applied-fluid-mechanics-lab-manual-ahmari",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648169977-L.jpg"
+    },
+    {
+      "title": "AC Electrical Circuit Analysis: A Practical Approach",
+      "author": "James M. Fiore - Author",
+      "freeSourceUrl": "http://www.dissidents.com/resources/ACElectricalCircuitAnalysis.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ac-electrical-circuit-analysis-a-practical-approach-fiore",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798605022282-L.jpg"
+    },
+    {
+      "title": "DC Electrical Circuit Analysis: A Practical Approach",
+      "author": "James M. Fiore - Author",
+      "freeSourceUrl": "http://www.dissidents.com/resources/DCElectricalCircuitAnalysis.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/dc-electrical-circuit-analysis-a-practical-approach-fiore",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781654515478-L.jpg"
+    },
+    {
+      "title": "Introduction to Industrial Engineering",
+      "author": "Bonnie Boardman - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/industrialengineeringintro/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-industrial-engineering",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648169823-L.jpg"
+    },
+    {
+      "title": "Bio-Inspired Sensory Systems",
+      "author": "Geoffrey Brooks - Author",
+      "freeSourceUrl": "https://manifold.lib.fsu.edu/projects/bio-inspired-sensory-systems",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/bio-inspired-sensory-systems",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781736577905-L.jpg"
+    },
+    {
+      "title": "Aerospace Structures",
+      "author": "Eric Raymond Johnson - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/97f2dfc6-c546-4be9-8b0d-50de90d314aa",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/aerospace-structures"
+    },
+    {
+      "title": "Traffic Flow Theory: An introduction with exercises",
+      "author": "Victor L. Knoop - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/203",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/traffic-flow-theory-an-introduction-with-exercises",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463663786-L.jpg"
+    },
+    {
+      "title": "Interpretation of Metal Fab Drawings",
+      "author": "Cameren Moran - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/weldsymbols/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/interpretation-of-metal-fab-drawings",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781636350615-L.jpg"
+    },
+    {
+      "title": "Basic Blueprint Reading",
+      "author": "Ric Costin - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/blueprint/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-blueprint-reading",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781636350318-L.jpg"
+    },
+    {
+      "title": "Stability of Ships and Other Bodies - ver 0.7.0",
+      "author": "Genick Bar-Meir - Author",
+      "freeSourceUrl": "https://zenodo.org/records/5784893",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Free Documentation License (GNU)) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Free Documentation License (GNU); catalog record: https://open.umn.edu/opentextbooks/textbooks/stability-of-ships-and-other-bodies"
+    },
+    {
+      "title": "Aerodynamics and Aircraft Performance - 3rd edition",
+      "author": "James F. Marchman III - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/a9bd021c-4dfa-45c7-b3cd-33722b87265d",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/aerodynamics-and-aircraft-performance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781949373639-L.jpg"
+    },
+    {
+      "title": "Introduction to Communication Systems: An Interactive Approach Using the Wolfram Language",
+      "author": "Victor S. Frost - Author",
+      "freeSourceUrl": "https://kuscholarworks.ku.edu/entities/publication/ab8d127f-dc3e-4ffc-b85c-830dd3f2fe9a",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-communication-systems-an-interactive-approach-using-the-wolfram-language",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781936153251-L.jpg"
+    },
+    {
+      "title": "Engineering Statics: Open and Interactive",
+      "author": "Daniel W. Baker - Author / William Haynes - Author",
+      "freeSourceUrl": "https://engineeringstatics.org/frontmatter.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-statics-open-and-interactive"
+    },
+    {
+      "title": "Open Signals and Systems Laboratory Exercises - Second Edition",
+      "author": "Aaron Fonseca - Author / Julie A. Dickerson - Author",
+      "freeSourceUrl": "https://www.iastatedigitalpress.com/plugins/books/155/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-signals-and-systems-laboratory-exercises"
+    },
+    {
+      "title": "Ports and Waterways: Navigating the changing world",
+      "author": "Mark van Koningsveld - Author / Henk Verheij - Author / Poonam Taneja - Author / Huib de Vriend - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/204",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ports-and-waterways-navigating-the-changing-world",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463664448-L.jpg"
+    },
+    {
+      "title": "Basic Engineering Science - A Systems, Accounting, and Modeling Approach",
+      "author": "Donald E. Richards - Author",
+      "freeSourceUrl": "https://scholar.rose-hulman.edu/mechanical_engineering_fac/723/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-engineering-science-a-systems-accounting-and-modeling-approach"
+    },
+    {
+      "title": "Intermediate Fluid Mechanics",
+      "author": "James Liburdy - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/intermediate-fluid-mechanics/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/intermediate-fluid-mechanics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781955101103-L.jpg"
+    },
+    {
+      "title": "Basic Concepts of Structural Design for Architecture Students",
+      "author": "Anahita Khodadadi - Author",
+      "freeSourceUrl": "https://pdxscholar.library.pdx.edu/pdxopen/37/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-concepts-of-structural-design-for-architecture-students"
+    },
+    {
+      "title": "The Primacy of the Public",
+      "author": "Marcus Schultz-Bergin - Author",
+      "freeSourceUrl": "https://pressbooks.ulib.csuohio.edu/principles-of-engineering-ethics/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; Humanities - Philosophy; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-primacy-of-the-public",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781936323883-L.jpg"
+    },
+    {
+      "title": "Airplane Flying Handbook (FAA-H-8083-3C)",
+      "author": "Federal Aviation Administration - Author",
+      "freeSourceUrl": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/airplane-flying-handbook-faa-h-8083-3c"
+    },
+    {
+      "title": "Building with Nature & Beyond: Principles for designing nature based engineering solutions",
+      "author": "Jill H. Slinger - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/205",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-with-nature-beyond-principles-for-designing-nature-based-engineering-solutions",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463664578-L.jpg"
+    },
+    {
+      "title": "Introduction to Mechanical Engineering Design",
+      "author": "Jacqulyn A. Baughman - Author",
+      "freeSourceUrl": "https://www.iastatedigitalpress.com/plugins/books/131/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-mechanical-engineering-design"
+    },
+    {
+      "title": "A Guide to MATLAB for ME 160",
+      "author": "Austin Bray - Author / Reza Montazami - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/matlabguide/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-guide-to-matlab-for-me-160"
+    },
+    {
+      "title": "Construction Contracting: Business and Legal Principles, Second Edition - Second Edition",
+      "author": "Stewart Bartholomew - Author",
+      "freeSourceUrl": "https://pressbooks.lib.vt.edu/constructioncontracting",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; Law - Contract Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/construction-contracting-business-and-legal-principles-second-edition"
+    },
+    {
+      "title": "Building Information Modeling using Revit for Architects and Engineers",
+      "author": "Atefe Makhmalbaf - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/buildinginformationmodeling/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-information-modeling-using-revit-for-architects-and-engineers",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648160059-L.jpg"
+    },
+    {
+      "title": "Introduction to Engineering Thermodynamics",
+      "author": "Claire Yu Yan - Author",
+      "freeSourceUrl": "https://pressbooks.bccampus.ca/thermo1/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Chemical Engineering; Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-engineering-thermodynamics"
+    },
+    {
+      "title": "Biomedical Engineering for Africa",
+      "author": "Tania S Douglas - Editor",
+      "freeSourceUrl": "https://openbooks.uct.ac.za/uct/catalog/view/24/30/2309",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/biomedical-engineering-for-africa"
+    },
+    {
+      "title": "Engineering Mechanics: Statics",
+      "author": "Elisabeth (Libby) Osgood - Author / Gayla Cameron - Author / Emma Christensen - Author",
+      "freeSourceUrl": "https://pressbooks.library.upei.ca/statics/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-mechanics-statics"
+    },
+    {
+      "title": "Analysis and Design of Elementary MOS Amplifier Stages",
+      "author": "Boris Murmann - Author",
+      "freeSourceUrl": "https://github.com/bmurmann/Book-on-MOS-stages/blob/main/book/Analysis%20and%20Design%20of%20Elementary%20MOS%20Amplifier%20Stages.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/analysis-and-design-of-elementary-mos-amplifier-stages",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781934891179-L.jpg"
+    },
+    {
+      "title": "Basic Engineering Data Collection and Analysis",
+      "author": "Steve Vardeman - Author / J. Marcus Jobe - Author",
+      "freeSourceUrl": "https://www.iastatedigitalpress.com/plugins/books/127/format/106/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-engineering-data-collection-and-analysis",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781958291030-L.jpg"
+    },
+    {
+      "title": "Pilot’s Handbook of Aeronautical Knowledge",
+      "author": "Federal Aviation Administration - Author",
+      "freeSourceUrl": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/pilot-s-handbook-of-aeronautical-knowledge"
+    },
+    {
+      "title": "Aviation Weather Handbook FAA-H-8083-28B",
+      "author": "Federal Aviation Administration - Author",
+      "freeSourceUrl": "https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28a-aviation-weather-handbook",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/aviation-weather-handbook-faa-h-8083-28"
+    },
+    {
+      "title": "Fundamentos de sistemas operativos",
+      "author": "Gunnar Wolf - Author / Esteban Ruiz - Author / Federico Bergero - Author / Erwin Meza - Author",
+      "freeSourceUrl": "https://sistop.org/pdf/sistemas_operativos.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentos-de-sistemas-operativos",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9786070265440-L.jpg"
+    },
+    {
+      "title": "Introduction to Systems Biology: Workbook for Flipped-Classroom Teaching",
+      "author": "Thomas Sauter - Author / Marco Albrecht - Author",
+      "freeSourceUrl": "https://books.openbookpublishers.com/10.11647/obp.0291.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-systems-biology-workbook-for-flipped-classroom-teaching"
+    },
+    {
+      "title": "Crawford Automation – A Guided Application of Structured Problem Solving",
+      "author": "Stephen Thomson - Author / Kevin Hollis - Author / Laurie Turnbull - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/crawfordcase/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/crawford-automation-a-guided-application-of-structured-problem-solving"
+    },
+    {
+      "title": "Aviation Maintenance Technician Handbook – General (FAA-H-8083-30B)",
+      "author": "U.S. Department of Transportation Federal Aviation Administration - Author",
+      "freeSourceUrl": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amtg_handbook.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/aviation-maintenance-technician-handbook-general-faa-h-8083-30b"
+    },
+    {
+      "title": "Aviation Maintenance Technician Handbook – Powerplant (FAA-H-8083-32B)",
+      "author": "U.S. Department of Transportation Federal Aviation Administration - Author",
+      "freeSourceUrl": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/amt_powerplant_handbook.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/aviation-maintenance-technician-handbook-powerplant-faa-h-8083-32b"
+    },
+    {
+      "title": "Biomedical Engineering Lab Manual Volume 1",
+      "author": "Sarah Breen - Author",
+      "freeSourceUrl": "https://shareok.org/items/1cbab6c9-2dfc-414e-ab43-5c6a948c910f",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/biomedical-engineering-lab-manual-volume-1"
+    },
+    {
+      "title": "Biomedical Engineering Lab Manual Volume 2",
+      "author": "Sarah Breen - Author",
+      "freeSourceUrl": "https://shareok.org/items/5e1739a2-0e77-4049-b618-8f656ba5006e",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/biomedical-engineering-lab-manual-volume-2"
+    },
+    {
+      "title": "Air Safety Investigation: The Journey",
+      "author": "Michiel Schuurman - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/166",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/air-safety-investigation-the-journey",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463666923-L.jpg"
+    },
+    {
+      "title": "Aviation Maintenance Technician Handbook – Airframe (FAA-H-8083-31B)",
+      "author": "U.S. Department of Transportation Federal Aviation Administration - Author",
+      "freeSourceUrl": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/FAA-H-8083-31B_Aviation_Maintenance_Technician_Handbook.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/aviation-maintenance-technician-handbook-airframe-faa-h-8083-31b"
+    },
+    {
+      "title": "Werktuigkundige Systemen",
+      "author": "Jan C. Cool - Author / Gabriëlle J.M. Tuijthof - Editor / Giuseppe Radaelli - Editor / Regine W. Vroom - Editor",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/152",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/werktuigkundige-systemen",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463667241-L.jpg"
+    },
+    {
+      "title": "Essential Mechanics - Statics and Strength of Materials with MATLAB and Octave",
+      "author": "P. Venkataraman - Author",
+      "freeSourceUrl": "https://repository.rit.edu/cgi/viewcontent.cgi?article=1002&context=ritbooks",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/essential-mechanics-statics-and-strength-of-materials-with-matlab-and-octave",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780988881129-L.jpg"
+    },
+    {
+      "title": "Structured Electronics Design: A Conceptual Approach to Amplifier Design - 3rd ed.",
+      "author": "Anton J.M. Montagne - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/162",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/structured-electronics-design-a-conceptual-approach-to-amplifier-design",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463667128-L.jpg"
+    },
+    {
+      "title": "An Animated Introduction to Digital Logic Design",
+      "author": "John D. Carpinelli - Author",
+      "freeSourceUrl": "https://digitalcommons.njit.edu/oat/1/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-animated-introduction-to-digital-logic-design",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781970194005-L.jpg"
+    },
+    {
+      "title": "Creating a circular healthcare economy: Sustainable strategies for a circular healthcare",
+      "author": "Bart van Straten - Author / Letizia Alvino - Author / Tim Horeman - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/167",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/creating-a-circular-healthcare-economy-sustainable-strategies-for-a-circular-healthcare",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463667302-L.jpg"
+    },
+    {
+      "title": "Introduction to Vacuum Technology",
+      "author": "David M. Hata - Author / Elena V. Brewer - Author / Nancy J. Louwagie - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/introduction-to-vacuum-technology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-vacuum-technology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341963-L.jpg"
+    },
+    {
+      "title": "Radio Systems Engineering - Revised First Edition",
+      "author": "Steven W. Ellingson - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/7031d3eb-b92c-402c-be35-272587ae067f",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/radio-systems-engineering"
+    },
+    {
+      "title": "An Introduction to Waste Management and Circular Economy",
+      "author": "Stijn van Ewijk - Author / Julia Stegemann - Author",
+      "freeSourceUrl": "https://uclpress.co.uk/book/an-introduction-to-waste-management-and-circular-economy/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-waste-management-and-circular-economy",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781800084650-L.jpg"
+    },
+    {
+      "title": "Sabores Conectados: Transformando la Gastronomía a través de las Tecnologías de la Información y Comunicación",
+      "author": "Juan Antonio Picoy-Gonzales - Author / Rosaura Huarcaya-Taype - Author / Omar Hans Contreras-Canto - Author / Amanda Omonte-Vilca - Author / Claudio Contreras-De La Cruz - Author / Julio Cesar Gaspar-Quispe - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/58",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sabores-conectados-transformando-la-gastronomia-a-traves-de-las-tecnologias-de-la-informacion-y-comunicacion",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651143-L.jpg"
+    },
+    {
+      "title": "Algoritmo de inteligencia artificial para la detección de cultivos de cacao (Teobroma cacao L.), banano (Musa paradisiaca L.) y palma africana (Elaeis guineensis J.).",
+      "author": "Oliver Michael Zambrano-Garcia - Author / Lidia Vlassova - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/61",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/algoritmo-de-inteligencia-artificial-para-la-deteccion-de-cultivos-de-cacao-teobroma-cacao-l-banano-musa-paradisiaca-l-y-palma-africana-elaeis-guineensis-j",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651174-L.jpg"
+    },
+    {
+      "title": "Dinámica poblacional de Spodoptera frugiperda, Diatraea saccharalis y Dalbulus maidis en el cultivo de maíz (Zea mays L.) durante la época seca en cinco localidades del cantón Mocache",
+      "author": "Tyron Jonathan Burgos-Macias - Author / Ramiro Remigio Gaibor-Fernández - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/62",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/dinamica-poblacional-de-spodoptera-frugiperda-diatraea-saccharalis-y-dalbulus-maidis-en-el-cultivo-de-maiz-zea-mays-l-durante-la-epoca-seca-en-cinco-localidades-del-canton-mocache",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651181-L.jpg"
+    },
+    {
+      "title": "Ácido oxálico, alternativa orgánica para el control de varroasis (Varroa destructor) en abejas (Apis mellifera)",
+      "author": "Yordan Santiago Ibarra-Navarrete - Author / Edgar Rodolfo Pinargote-Mendoza - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/63",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/acido-oxalico-alternativa-organica-para-el-control-de-varroasis-varroa-destructor-en-abejas-apis-mellifera",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651198-L.jpg"
+    },
+    {
+      "title": "Interior Materiality",
+      "author": "Kutay Guler - Author",
+      "freeSourceUrl": "https://newprairiepress.org/ebooks/42/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/interior-materiality",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548384-L.jpg"
+    },
+    {
+      "title": "Engineering Systems, Dynamics, Modelling, Simulation, and Design",
+      "author": "Mehrzad Tabatabaian - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/engineering-systems-dynamics-modelling-simulation-and-design-lagrangian-and-bond-graph-methods-british-columbia-institute-of-technology-111/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-systems-dynamics-modelling-simulation-and-design"
+    },
+    {
+      "title": "Fracture Mechanics: An Engineering Primer - 2nd Edition",
+      "author": "Michael Janssen - Author / Jan Zuidema - Author / Russell Wanhill - Author",
+      "freeSourceUrl": "https://doi.org/10.59490/tb.86",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fracture-mechanics-an-engineering-primer",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463668187-L.jpg"
+    },
+    {
+      "title": "Unmanned Vehicle Systems & Operations on Air, Sea, Land",
+      "author": "Randall K. Nichols - Author / Hans C. Mumm - Author / Wayne D. Lonstein - Author / Julie J.C.H Ryan - Author / Candice M. Carter - Author",
+      "freeSourceUrl": "https://www.fulcrum.org/concern/monographs/7w62fc658",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/unmanned-vehicle-systems-operations-on-air-sea-land",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548308-L.jpg"
+    },
+    {
+      "title": "Space Systems: Emerging Technologies and Operations",
+      "author": "Randall K. Nichols - Author / Hans C. Mumm - Author / Wayne D. Lonstein - Author / Julie J.C.H Ryan - Author / Candice M. Carter - Author",
+      "freeSourceUrl": "https://kstatelibraries.pressbooks.pub/spacesystems/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/space-systems-emerging-technologies-and-operations"
+    },
+    {
+      "title": "Cyber-Human Systems, Space Technologies, and Threats",
+      "author": "Randall K. Nichols - Author / Hans C. Mumm - Author / Wayne D. Lonstein - Author / Julie J.C.H Ryan - Author / Candice M. Carter - Author",
+      "freeSourceUrl": "https://kstatelibraries.pressbooks.pub/cyberhumansystems/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/cyber-human-systems-space-technologies-and-threats",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548544-L.jpg"
+    },
+    {
+      "title": "Counter Unmanned Aircraft Systems Technologies and Operations",
+      "author": "Randall K. Nichols - Author / Hans C. Mumm - Author / Wayne D. Lonstein - Author / Julie J.C.H Ryan - Author / Candice Carter - Author",
+      "freeSourceUrl": "https://kstatelibraries.pressbooks.pub/counterunmannedaircraft/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/counter-unmanned-aircraft-systems-technologies-and-operations",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548278-L.jpg"
+    },
+    {
+      "title": "Alternativas de alimentación para rumiantes",
+      "author": "Jessica Elizabeth Cargua-Chávez - Author / Adriana Isabel Carrillo-Cruz - Author / Galo Alexander Cedeño-García - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/72",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/alternativas-de-alimentacion-para-rumiantes",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651273-L.jpg"
+    },
+    {
+      "title": "Private Pilot for Airplane Category Airman Certification Standards (FAA-S-ACS-6C)",
+      "author": "U.S. Department of Transportation Federal Aviation Administration - Author",
+      "freeSourceUrl": "https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/private-pilot-for-airplane-category-airman-certification-standards-faa-s-acs-6c",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9788321424384-L.jpg"
+    },
+    {
+      "title": "From theORy to application: learning to optimize with Operations Research in an interactive way",
+      "author": "Alessandro Bombelli - Author / Bilge Atasoy - Author / Stefano Fazi - Author / Doris Boschma - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/175",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/from-theory-to-application-learning-to-optimize-with-operations-research-in-an-interactive-way",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463668507-L.jpg"
+    },
+    {
+      "title": "Introduction to Mechanical Design and Manufacturing",
+      "author": "David Jensen - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/mechanicaldesign/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-mechanical-design-and-manufacturing"
+    },
+    {
+      "title": "Building User Interfaces for Modern Web Applications: React Programming",
+      "author": "Cheer-Sun Yang - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/building-user-interfaces-for-modern-web-applications-react-programming/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-user-interfaces-for-modern-web-applications-react-programming"
+    },
+    {
+      "title": "Building Cost Planning: Best Practices and Insights",
+      "author": "Thilini Jayawickrama - Author / Ruchini Jayasinghe - Author / Ravindu Kahandawa - Author / Rameez Rameezdeen - Author / Don Leelarathne - Author / Inoka Withana Gamage - Author",
+      "freeSourceUrl": "https://adelaideuniversity.pressbooks.pub/buildingcostplanning/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-cost-planning-best-practices-and-insights"
+    },
+    {
+      "title": "Design Roadmapping: Guidebook for Future Foresight Techniques",
+      "author": "Lianne Simonse - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/171",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/design-roadmapping-guidebook-for-future-foresight-techniques",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463667968-L.jpg"
+    },
+    {
+      "title": "Adjustment theory: an introduction",
+      "author": "Peter J.G. Teunissen - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/177",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/adjustment-theory-an-introduction",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463668842-L.jpg"
+    },
+    {
+      "title": "Testing theory: an introduction",
+      "author": "Peter J.G. Teunissen - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/178",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/testing-theory-an-introduction",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463668927-L.jpg"
+    },
+    {
+      "title": "Electromechanical Systems - 1st Edition",
+      "author": "Chad Davis - Author",
+      "freeSourceUrl": "https://shareok.org/items/48a8992c-39e7-40c5-bc8d-52293e8b6b82",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/electromechanical-systems"
+    },
+    {
+      "title": "Measurement and Instrumentation: An Introduction to Concepts and Methods - 1st Edition",
+      "author": "John Dyer - Author / Chad Davis - Author",
+      "freeSourceUrl": "https://shareok.org/items/dbbf29d8-3916-4d80-aa23-f0622ca89075",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/measurement-and-instrumentation-an-introduction-to-concepts-and-methods"
+    },
+    {
+      "title": "Structural Dynamics",
+      "author": "Hilmi Luş - Author / Sinan Keten - Author",
+      "freeSourceUrl": "https://arch.library.northwestern.edu/concern/generic_works/gx41mj48g",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/structural-dynamics"
+    },
+    {
+      "title": "Fundamentals of Math, Physics, and Statistics for Future Transportation Professionals",
+      "author": "Anurag Pande - Author / Peyton Ratto - Author / Ahmed Farid - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/oert-mpsfundamentals/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-math-physics-and-statistics-for-future-transportation-professionals"
+    },
+    {
+      "title": "Sustainable Mobility",
+      "author": "Shams Tanvir - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/sustainablemobility/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sustainable-mobility"
+    },
+    {
+      "title": "Dynamic data processing: Recursive least-squares",
+      "author": "Peter J.G. Teunissen - Author",
+      "freeSourceUrl": "https://doi.org/10.59490/tb.98",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/dynamic-data-processing-recursive-least-squares",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463669177-L.jpg"
+    },
+    {
+      "title": "Design for Electrical and Computer Engineers",
+      "author": "Christopher Coulston - Author / Ralph M. Ford - Author",
+      "freeSourceUrl": "https://github.com/coulston/Design-For-Electrical-and-Computer-Engineering",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/design-for-electrical-and-computer-engineers"
+    },
+    {
+      "title": "An Australian and New Zealand Human Resource Management Guide to Work Health and Safety",
+      "author": "Lynnaire Sheridan - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/conceptual-guide-whs-hr-managers-nz-au/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-australian-and-new-zealand-human-resource-management-guide-to-work-health-and-safety"
+    },
+    {
+      "title": "Inzicht: Academische Vaardigheden voor Bouwkundigen - 2e editie",
+      "author": "MaartenJan Hoekstra - Author / Louis Lousberg - Author / Remon Rooij - Author / Willemijn Wilms Floet - Author / Sake Zijlstra - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/194",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/inzicht-academische-vaardigheden-voor-bouwkundigen-2e-editie"
+    },
+    {
+      "title": "Network quality control",
+      "author": "Peter J.G. Teunissen - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/181",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/network-quality-control",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463669504-L.jpg"
+    },
+    {
+      "title": "Graphs, Formulas and Tables relevant to Transport Phenomena",
+      "author": "Martin Rohde - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/182",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Chemical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/graphs-formulas-and-tables-relevant-to-transport-phenomena",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463669894-L.jpg"
+    },
+    {
+      "title": "Programming with Java - Second Edition",
+      "author": "Ashik Ahmed Bhuiyan - Author / Md Amiruzzaman - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/programming-with-java/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/programming-with-java"
+    },
+    {
+      "title": "Petroleum Reservoir Dynamics",
+      "author": "Mehdi Zeidouni - Author",
+      "freeSourceUrl": "https://repository.lsu.edu/etext/4/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Chemical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/petroleum-reservoir-dynamics"
+    },
+    {
+      "title": "Configuration Aerodynamics",
+      "author": "William H. Mason - Author / Pradeep Raj - Editor",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/9de3515d-8f0e-418d-88e9-892f3976aefe",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/configuration-aerodynamics"
+    },
+    {
+      "title": "Applying Lean Six Sigma for Operational Excellence",
+      "author": "Michael D. Okrent - Author",
+      "freeSourceUrl": "https://pressbooks.ulib.csuohio.edu/applyingleansixsigmaoe/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/applying-lean-six-sigma-for-operational-excellence",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781956812077-L.jpg"
+    },
+    {
+      "title": "Engineering Thermodynamics",
+      "author": "Olivier Cleynen - Author",
+      "freeSourceUrl": "https://thermodynamicsbook.com/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-thermodynamics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781446710067-L.jpg"
+    },
+    {
+      "title": "Experimental Design and Technical Writing for Engineers",
+      "author": "Susan Ely - Author",
+      "freeSourceUrl": "https://library.usi.edu/record/1596241?v=pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Engineering & Technology; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/experimental-design-and-technical-writing-for-engineers"
+    },
+    {
+      "title": "Transitioning towards a circular (healthcare) economy: Circular Economy principles, leadership, policy and decision-making",
+      "author": "Bart van Straten - Author / Bruno Bruins - Author / Tim Horeman - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/217",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/transitioning-towards-a-circular-healthcare-economy-circular-economy-principles-leadership-policy-and-decision-making",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789465180502-L.jpg"
+    },
+    {
+      "title": "Ethics in Technology",
+      "author": "Edward V. Weber - Author",
+      "freeSourceUrl": "https://manifold.open.umn.edu/projects/ethics-in-technology",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ethics-in-technology"
+    },
+    {
+      "title": "Más allá de la digitalización: La necesidad de la transformación digital estratégica",
+      "author": "Marcos Antonio Espinoza-Mina - Author / Alejandra Mercedes Colina-Vargas - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/128",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mas-alla-de-la-digitalizacion-la-necesidad-de-la-transformacion-digital-estrategica",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651815-L.jpg"
+    },
+    {
+      "title": "Elements of Airplane Performance",
+      "author": "Gerrit J.J. Ruijgrok - Author / Mark Voskuijl - Author / Carmine Varriale - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/235",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/elements-of-airplane-performance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789465181646-L.jpg"
+    },
+    {
+      "title": "Grasduinen in waterbouw",
+      "author": "Tjerk Zitman - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/234",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/grasduinen-in-waterbouw",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789465181516-L.jpg"
+    },
+    {
+      "title": "Geometrische Optica",
+      "author": "Joseph Braat - Author / Aurèle J.L. Adam - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/240",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/geometrische-optica-authors",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789465181950-L.jpg"
+    },
+    {
+      "title": "Communicating Strategically in the Workplace: A Resource for Engineering and Science Majors",
+      "author": "Karishma Chatterjee - Author / Damla Ricks - Author / Diane Waryas Hughey - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/professionalandtechnicalcommunication/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/communicating-strategically-in-the-workplace-a-resource-for-engineering-and-science-majors",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648160202-L.jpg"
+    },
+    {
+      "title": "Engineering Signal Analysis: From Fourier to filtering: Theory",
+      "author": "Christian Tiberius - Author / Max Mulder - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/247",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-signal-analysis-from-fourier-to-filtering-theory"
+    },
+    {
+      "title": "The Design of the Built Environment: The University of Illinois Urbana-Champaign Campus and Its Context",
+      "author": "Kevin J Hinders - Author",
+      "freeSourceUrl": "https://iopn.library.illinois.edu/books/windsor-downs/catalog/book/31",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-design-of-the-built-environment-the-university-of-illinois-urbana-champaign-campus-and-its-context"
+    },
+    {
+      "title": "Digital approaches to building measurement: Standards, tools and techniques",
+      "author": "Argaw Gurmu - Author / Nilupa Udawatta - Author / Gayani Karunasena - Author / Reza Taban - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/buildingmeasurementapproaches/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-approaches-to-building-measurement-standards-tools-and-techniques"
+    },
+    {
+      "title": "Digital Design: A Datapath and Control",
+      "author": "Christopher Coulston - Author",
+      "freeSourceUrl": "https://github.com/coulston/Digital-Design/blob/main/README.md",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-design-a-datapath-and-control"
+    },
+    {
+      "title": "Introduction to Engineering - Thinking Like an Engineer",
+      "author": "Jonathan Compton - Author",
+      "freeSourceUrl": "https://commons.libretexts.org/book/eng-131305",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-engineering-thinking-like-an-engineer"
+    },
+    {
+      "title": "Process Improvement using Data",
+      "author": "Kevin Dunn - Author",
+      "freeSourceUrl": "https://github.com/kgdunn/pid-book",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/process-improvement-using-data"
+    },
+    {
+      "title": "Additive Manufacturing Essentials",
+      "author": "John E. Barnes - Author / Timothy E. Simpson - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/additive-manufacturing-essentials",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Materials Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/additive-manufacturing-essentials",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584655-L.jpg"
     }
   ],
-  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: COREN Nigeria (no YouTube — Facebook/website only) → Practical Engineering; Engineering Career Skills (not found) → The B1M; Disrupt Africa (YouTube not confirmed) → Nairametrics TV; The Engineering Podcast (not confirmed) → EngineeringAll. Blogs: COREN is a government site and may not publish RSS. NSPE uses a custom feed path.",
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: COREN Nigeria (no YouTube — Facebook/website only) → Practical Engineering; Engineering Career Skills (not found) → The B1M; Disrupt Africa (YouTube not confirmed) → Nairametrics TV; The Engineering Podcast (not confirmed) → EngineeringAll. Blogs: COREN is a government site and may not publish RSS. NSPE uses a custom feed path. 2026-08-23: Added 131 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 131 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ]
 }

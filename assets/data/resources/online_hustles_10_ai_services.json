@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_10_ai_services",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC",
@@ -182,7 +182,7 @@
       "author": "Michael E. Gerber",
       "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
       "freeSourceType": "web",
-      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Google Books preview.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
@@ -192,7 +192,7 @@
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
       "freeSourceType": "web",
-      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
@@ -222,7 +222,7 @@
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://basecamp.com/books/rework",
       "freeSourceType": "web",
-      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Basecamp books.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
@@ -276,8 +276,90 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "Inteligencia Artificial",
+      "author": "Julio Ponce - Author / Aurora Torres Soto - Author / Fátima Sayuri Quezada - Author",
+      "freeSourceUrl": "https://mountainscholar.org/items/d4d75261-ffd3-459e-bb92-7e1cac8e3d88",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Artificial Intelligence; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/inteligencia-artificial"
+    },
+    {
+      "title": "The Crystal Ball Instruction Manual - version 1.1 Volume One: Introduction to Data Science",
+      "author": "Stephen Davies - Author",
+      "freeSourceUrl": "https://stephendavies.org/crystal1.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Artificial Intelligence; Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-crystal-ball-instruction-manual-volume-one-introduction-to-data-science",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781715320041-L.jpg"
+    },
+    {
+      "title": "Artificial Intelligence and Librarianship - 3rd Edition",
+      "author": "Martin Frické - Author",
+      "freeSourceUrl": "https://softoption.us/AIandLibrarianship",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Artificial Intelligence; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/artificial-intelligence-and-librarianship",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780473722944-L.jpg"
+    },
+    {
+      "title": "The Shallow and the Deep: A biased introduction to neural networks and old school machine learning",
+      "author": "Michael Biehl - Author",
+      "freeSourceUrl": "https://books.ugp.rug.nl/index.php/ugp/catalog/book/130",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Artificial Intelligence; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-shallow-and-the-deep-a-biased-introduction-to-neural-networks-and-old-school-machine-learning",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789403430270-L.jpg"
+    },
+    {
+      "title": "Inteligencia Artificial Aplicada con técnicas de Procesamiento de Lenguaje Natural y Machine Learning en el campo de la salud.",
+      "author": "Eleanor Alexandra Varela-Tapia - Author / Ivan Leonel Acosta-Guzmán - Author / Jorge Alberto Oviedo-Peñafiel - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/83",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Artificial Intelligence; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/inteligencia-artificial-aplicada-con-tecnicas-de-procesamiento-de-lenguaje-natural-y-machine-learning-en-el-campo-de-la-salud",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651389-L.jpg"
+    },
+    {
+      "title": "Inteligencia Artificial Aplicada a Procesamiento de Lenguaje Natural (NLP) con Python y Machine Learning.",
+      "author": "Lady Mariuxi Sangacha-Tapia - Author / Ricardo Javier Celi - Author / Ivan Leonel Acosta-Guzmán - Author / Eleanor Alexandra Varela-Tapia - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/88",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Artificial Intelligence; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/inteligencia-artificial-aplicada-a-procesamiento-de-lenguaje-natural-nlp-con-python-y-machine-learning",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651433-L.jpg"
+    },
+    {
+      "title": "Del ágora a la nube: El destino de las humanidades en la era de la IA",
+      "author": "Karles Hoffmann-Jaramillo - Author / Carlos Rene Flores-Murillo - Author / Eduardo Baidal-Bustamante - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/119",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Artificial Intelligence; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/del-agora-a-la-nube-el-destino-de-las-humanidades-en-la-era-de-la-ia",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651747-L.jpg"
+    },
+    {
+      "title": "The Future is Now: Empowering Society Through AI Literacy",
+      "author": "Jason S. Wrench - Author / Sanae Elmoudden - Author",
+      "freeSourceUrl": "https://milnepublishing.geneseo.edu/future-is-now/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Artificial Intelligence; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-future-is-now-empowering-society-through-ai-literacy",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781956862201-L.jpg"
     }
   ],
-  "integrationNotes": "Stub for AI Prompt Engineering & AI Services. Capital: \u20a60. Summary: Offer AI-powered services: custom GPTs, prompt libraries, content generation systems, automation and AI consulting for businesses.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
-  "actionRequired": "Nigeria-first list. Naija AI Hustle Academy and practical AI freelancing channels prioritised. Continue to 11 next."
+  "integrationNotes": "Stub for AI Prompt Engineering & AI Services. Capital: ₦0. Summary: Offer AI-powered services: custom GPTs, prompt libraries, content generation systems, automation and AI consulting for businesses.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": [
+    "2026-08-23: Review the 8 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 8 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

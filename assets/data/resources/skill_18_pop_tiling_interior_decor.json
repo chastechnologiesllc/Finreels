@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_18_pop_tiling_interior_decor",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCq6H4g9eVY9WxoboCFd0iRA",
@@ -178,16 +178,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF via f5fp.com",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "URL confirmed live in prior skill sessions (skill_09, skill_18).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://mikemichalowicz.com/profit-first",
@@ -196,16 +186,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "URL confirmed live in prior skill sessions.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF via BDE Books",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "URL confirmed live in prior skill sessions.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Entrepreneurship",
@@ -276,11 +256,463 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "\"Polio\": Infantile Paralysis",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66660",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66660; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A History of Epidemic Pestilences\r\nFrom the Earliest Ages, 1495 Years Before the Birth of our Saviour to 1848: With Researches into Their Nature, Causes, and Prophylaxis",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67182",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67182; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A New Order of Fishlike Amphibia From the Pennsylvanian of Kansas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/31050",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #31050; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Short Discourse Concerning Pestilential Contagion, and the Methods to Be Used to Prevent It",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54843",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54843; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Short View of the Laws Now Subsisting with Respect to the Powers of the East India Company\r\nTo Borrow Money under their Seal, and to Incur Debts in the Course of their Trade, by the Purchase of Goods on Credit, and by Freighting Ships or other Mercantile Transactions",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37082",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37082; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Study of the Textile Art in Its Relation to the Development of Form and Ornament\r\nSixth Annual Report of the Bureau of Ethnology to the Secretary of the Smithsonian Institution, 1884-'85, Government Printing Office, Washington, 1888, (pages 189-252)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17730",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #17730; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A summary of the history, construction and effects in warfare of the projectile-throwing engines of the ancients, with a treatise on the structure, power and management of Turkish and other Oriental bows of mediæval and later times",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74719",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74719; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Amphibians and Reptiles in Captivity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59342",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59342; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Amphibians and Reptiles of the Rainforests of Southern El Petén, Guatemala",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38398",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38398; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An Apache Campaign in the Sierra Madre\nAn Account of the Expedition in Pursuit of the Hostile Chiricahua Apaches in the Spring of 1883",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65040",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65040; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An Essay on Contagious Diseases\r\nmore particularly on the small-pox, measles, putrid, malignant, and pestilential fevers",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49319",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49319; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Chats on Cottage and Farmhouse Furniture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44603",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44603; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Colour Decoration of Architecture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58840",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58840; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Dragons of the Air: An Account of Extinct Flying Reptiles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35316",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #35316; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Early French Prisons\r\nLe Grand and Le Petit Châtelets; Vincennes; The Bastile; Loches; The Galleys; Revolutionary Prisons",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50520",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50520; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Early Man Projectile Points in the Southwest",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65169",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65169; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Farm drainage\r\nThe Principles, Processes, and Effects of Draining Land with Stones, Wood, Plows, and Open Ditches, and Especially with Tiles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23435",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #23435; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Gas-Engines and Producer-Gas Plants\r\nA Practice Treatise Setting Forth the Principles of Gas-Engines and Producer Design, the Selection and Installation of an Engine, Conditions of Perfect Operation, Producer-Gas Engines and Their Possibilities, the Care of Gas-Engines and Producer-Gas Plants, with a Chapter on Volatile Hydrocarbon and Oil Engines",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38415",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38415; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Handicraft for Girls\r\nA Tentative Course in Needlework, Basketry, Designing, Paper and Cardboard Construction, Textile Fibers and Fabrics and Home Decoration and Care",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34854",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34854; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Historical sketches of old Charing.\r\nThe hospital and chapel of Saint Mary Roncevall. Eleanor of Castile, Queen of England, and the monuments erected in her memory.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69321",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69321; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Home Taxidermy for Pleasure and Profit\nA Guide for Those Who Wish to Prepare and Mount Animals, Birds, Fish, Reptiles, etc., for Home, Den, or Office Decoration",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23259",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #23259; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Isabel of Castile and the making of the Spanish nation, 1451-1504",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71930",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71930; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Leonardo da Vinci: A Psychosexual Study of an Infantile Reminiscence",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34300",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34300; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Miracle Mongers and Their Methods\r\nA Complete Exposé of the Modus Operandi of Fire Eaters, Heat Resisters, Poison Eaters, Venomous Reptile Defiers, Sword Swallowers, Human Ostriches, Strong Men, Etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/435",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #435; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "My Life at Sea\r\nbeing a \"yarn\" loosely spun for the purpose of holding together certain reminiscences of the transition period from sail to steam in the British mercantile marine (1863-1894)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48582",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48582; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Natural History in Anecdote\r\nIllustrating the nature, habits, manners and customs of animals, birds, fishes, reptiles, etc., etc., etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37959",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37959; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Piece Goods Manual\r\nFabrics described; textile, knit goods, weaving terms, etc., explained; with notes on the classification of samples.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52227",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52227; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Plague and pestilence in literature and art",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64547",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64547; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Practical House, Wagon and Automobile Painter\r\nincluding sign painting, and valuable hints and recipes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67109",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67109; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Prehistoric Textile Art of Eastern United States\r\nThirteenth Annual Report of the Beaurau of American Ethnology to the Secretary of the Smithsonian Institution 1891-1892, Government Printing Office, Washington, 1896, pages 3-46",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/19921",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #19921; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Prehistoric Textile Fabrics Of The United States, Derived From Impressions On Pottery\r\nThird Annual Report of the Bureau of Ethnology to the Secretary of the Smithsonian Institution, 1881-82, Government Printing Office, Washington, 1884, pages 393-425",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17370",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #17370; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Remodeled Farmhouses",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33955",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33955; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Reptiles and Birds\r\nA Popular Account of Their Various Orders, With a Description of the Habits and Economy of the Most Interesting",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45873",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45873; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Selected Records of Reptiles and Amphibians from Kansas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34554",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34554; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Some points in choosing textiles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76441",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76441; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Some Reptiles and Amphibians from Korea",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34949",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34949; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Textile Fabrics",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60015",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60015; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Textile Fabrics\r\nA Descriptive Catalogue of the Collection of Church-vestments, Dresses, Silk Stuffs, Needlework and Tapestries, forming that Section of the Museum",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66172",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66172; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Textile Fibers used in Eastern Aboriginal North America",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52023",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52023; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Textiles and Clothing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21534",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #21534; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Textiles, for Commercial, Industrial, and Domestic Arts Schools\r\nAlso Adapted to Those Engaged in Wholesale and Retail Dry Goods, Wool, Cotton, and Dressmaker's Trades",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24077",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24077; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Adductor Muscles of the Jaw In Some Primitive Reptiles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30321",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30321; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Adventurous Life of a Versatile Artist: Houdini",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45370",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45370; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Amphibians and Reptiles of Michoacán, México",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33543",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33543; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Clay Industries, Including the Fictile & Ceramic Arts on the Banks of the Severn\r\nwith notices of the early use of Shropshire clays, the history of pottery, porcelain, &c. in the district",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63771",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63771; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The English Home from Charles I. to George IV.\r\nIts Architecture, Decoration and Garden Design",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67419",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67419; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Great Pestilence (A.D. 1348-9), Now Commonly Known as the Black Death",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45815",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45815; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The history of the Bastile, and of its principal captives",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76902",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76902; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Lost and Hostile Gospels\r\nAn Essay on the Toledoth Jeschu, and the Petrine and Pauline Gospels of the First Three Centuries of Which Fragments Remain",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45620",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45620; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Men of the Merchant Service\nBeing the polity of the mercantile marine for 'longshore readers",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64896",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64896; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: Tileroflagos (Instagram only) → Wahbilly Concepts; Teal Harmony Design (Instagram) → Jennifer Chukwujekwe/Jenniez School; Idowu Tiles Setter (TikTok) → Sylvia Iwuoha; Saria House Painting (Facebook) → Exquisite Decorative Concept; ATN (industry association, no YouTube) → The B1M. All 4 Nigerian YouTube channels confirmed via FeedSpot Nigeria Interior Design 2026 directory. Blogs: Connect Nigeria flagged — liveness check required. Nairaland has no RSS. Shopify uses Atom feed.",
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: Tileroflagos (Instagram only) → Wahbilly Concepts; Teal Harmony Design (Instagram) → Jennifer Chukwujekwe/Jenniez School; Idowu Tiles Setter (TikTok) → Sylvia Iwuoha; Saria House Painting (Facebook) → Exquisite Decorative Concept; ATN (industry association, no YouTube) → The B1M. All 4 Nigerian YouTube channels confirmed via FeedSpot Nigeria Interior Design 2026 directory. Blogs: Connect Nigeria flagged — liveness check required. Nairaland has no RSS. Shopify uses Atom feed. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 50 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 50 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

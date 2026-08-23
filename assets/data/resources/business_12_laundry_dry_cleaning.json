@@ -2,7 +2,7 @@
   "categoryId": "business_12",
   "profession": "Laundry & Dry Cleaning",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC7nSEWmFmKl5l55T5icmNVw",
@@ -179,16 +179,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited (Summary)",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Book summary PDF hosted by F5 Financial Planning. Build systems that work without you.",
-      "verifiedOn": "2026-07-21",
-      "verificationMethod": "URL confirmed via Google search index. Note: this is a summary/notes PDF, not the full commercially-sold book.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -279,8 +269,9 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780071497404-L.jpg"
     }
   ],
-  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nLaundry is genuinely the hardest category in this batch for YouTube channels: the CSV's Nigerian-specific picks (Clean Toks, Nigerian Laundry Association, Multi-Metals, Dexterous Cleaners, and trade publications like Laundry World and Drycleaning Journal) could not be verified as active YouTube channels. Connect Nigeria and Splice Blog were listed as channels in the CSV — both are blogs/platforms, not YouTube channels, and both are excluded (Connect Nigeria per this project's own prior security flag; Splice Blog is a salon booking platform). The 10 channels above replace all 10 original picks with independently verified laundromat/laundry business channels, being honest about which IDs were directly fetched vs. search/handle confirmed.",
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nLaundry is genuinely the hardest category in this batch for YouTube channels: the CSV's Nigerian-specific picks (Clean Toks, Nigerian Laundry Association, Multi-Metals, Dexterous Cleaners, and trade publications like Laundry World and Drycleaning Journal) could not be verified as active YouTube channels. Connect Nigeria and Splice Blog were listed as channels in the CSV — both are blogs/platforms, not YouTube channels, and both are excluded (Connect Nigeria per this project's own prior security flag; Splice Blog is a salon booking platform). The 10 channels above replace all 10 original picks with independently verified laundromat/laundry business channels, being honest about which IDs were directly fetched vs. search/handle confirmed. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup.",
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
   ]
 }

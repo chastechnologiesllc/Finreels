@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_14_dentistry",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "",
@@ -204,17 +204,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
-      "freeSourceType": "download",
-      "freeSourceNote": "Michael E. Gerber (Free PDF)",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
@@ -224,17 +213,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
-      "freeSourceType": "download",
-      "freeSourceNote": "Eric Ries (Free PDF)",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -311,10 +289,192 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "A History of Dentistry from the most Ancient Times until the end of the Eighteenth Century",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51991",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51991; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Complete\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11996",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11996; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Part I. 1792\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11992",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11992; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Part II., 1793\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11993",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11993; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Part III., 1794\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11994",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11994; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Part IV., 1795\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11995",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11995; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Advice to Young Men\nAnd (Incidentally) to Young Women in the Middle and Higher Ranks of Life. In a Series of Letters, Addressed to a Youth, a Bachelor, a Lover, a Husband, a Father, a Citizen, or a Subject.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15510",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #15510; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An essay on diseases incidental to literary and sedentary persons",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74001",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74001; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Biography of a Slave, Being the Experiences of Rev. Charles Thompson, a Preacher of the United Brethren Church, While a Slave in the South.\r\nTogether with Startling Occurrences Incidental to Slave Life.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/9941",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #9941; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Bronson Alcott's Fruitlands, compiled by Clara Endicott Sears\r\nWith Transcendental Wild Oats, by Louisa M. Alcott",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53683",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53683; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Forty Centuries of Ink\r\nOr, A chronological narrative concerning ink and its backgrounds, introducing incidental observations and deductions, parallels of time and color phenomena, bibliography, chemistry, poetical effusions, citations, anecdotes and curiosa together with some evidence respecting the evanescent character of most inks of to-day and an epitome of chemico-legal ink.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/1483",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #1483; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "History of the transmission of ancient books to modern times\r\ntogether with the process of historical proof; or, a concise account of the means by which genuineness of ancient literature generally, and the authenticity of historical works especially are ascertained including incidental remarks upon the relative strength of the evidence usually adduced in behalf of the Holy Scriptures",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67778",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67778; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Rugs: Oriental and Occidental, Antique & Modern\nA Handbook for Ready Reference",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30025",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30025; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Tales of an Old Sea Port\nA General Sketch of the History of Bristol, Rhode Island, Including, Incidentally, an Account of the Voyages of the Norsemen, So Far as They May Have Been Connected with Narragansett Bay: and Personal Narratives of Some Notable Voyages Accomplished by Sailors from the Mount Hope Lands",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64419",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64419; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Physiology of Taste; Or, Transcendental Gastronomy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/5434",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #5434; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Transcendentalism in New England: A History",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38907",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38907; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Memoirs of Margaret Fuller Ossoli, Volume I",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/13105",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #13105; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Memoirs of Margaret Fuller Ossoli, Volume II",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/13106",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #13106; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Miscellanies",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71683",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71683; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Tin Foil and Its Combinations for Filling Teeth",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26840",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #26840; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "Matches the founder's own honest finding closely. Tried again for ClinikEHR (the founder's #1 candidate, already confirmed real content when researching Pharmacy) — found a page element literally reading 'RSS' on their blog homepage, strong evidence a feed exists, but still could not determine the exact feed URL with the same confidence as the WordPress /feed/ pattern used elsewhere, so left out rather than guess a URL with zero direct evidence. On channels: multiple real Nigerian dental clinics have YouTube presences (SS Dental Clinic, Smiledoctor/Luxe Dental, Schubbs Dental, Breeze Smile) but every one markets the clinic to patients — none teaches dentists how to run the business — so none were counted, matching the same discipline applied to real-estate agency channels and PR agency channels in earlier categories. Books: no dentistry-specific title exists separately from Medicine's already-exhausted, paid-only list.",
+  "notes": "Matches the founder's own honest finding closely. Tried again for ClinikEHR (the founder's #1 candidate, already confirmed real content when researching Pharmacy) — found a page element literally reading 'RSS' on their blog homepage, strong evidence a feed exists, but still could not determine the exact feed URL with the same confidence as the WordPress /feed/ pattern used elsewhere, so left out rather than guess a URL with zero direct evidence. On channels: multiple real Nigerian dental clinics have YouTube presences (SS Dental Clinic, Smiledoctor/Luxe Dental, Schubbs Dental, Breeze Smile) but every one markets the clinic to patients — none teaches dentists how to run the business — so none were counted, matching the same discipline applied to real-estate agency channels and PR agency channels in earlier categories. Books: no dentistry-specific title exists separately from Medicine's already-exhausted, paid-only list. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 20 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 20 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

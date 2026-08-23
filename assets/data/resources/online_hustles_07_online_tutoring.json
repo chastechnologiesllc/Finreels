@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_07_online_tutoring",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC",
@@ -182,7 +182,7 @@
       "author": "Michael E. Gerber",
       "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
       "freeSourceType": "web",
-      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Google Books preview.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
@@ -192,7 +192,7 @@
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
       "freeSourceType": "web",
-      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
@@ -222,7 +222,7 @@
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://basecamp.com/books/rework",
       "freeSourceType": "web",
-      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Basecamp books.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
@@ -276,8 +276,114 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "Teaching in a Digital Age: Guidelines for designing teaching and learning - 2nd Edition",
+      "author": "A.W. (Tony) Bates - Author",
+      "freeSourceUrl": "https://pressbooks.bccampus.ca/teachinginadigitalagev2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-in-a-digital-age-guidelines-for-designing-teaching-and-learning-for-a-digital-age"
+    },
+    {
+      "title": "Foundational Practices of Online Writing Instruction",
+      "author": "Beth L. Hewett - Editor / Kevin Eric DePew - Editor / Elif Guler - Editor / Robbin Zeff Warner - Editor",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/owi/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundational-practices-of-online-writing-instruction",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602356672-L.jpg"
+    },
+    {
+      "title": "Teaching Crowds: Learning and Social Media",
+      "author": "Jon Dron - Author / Terry Anderson - Author",
+      "freeSourceUrl": "https://www.aupress.ca/books/120235-teaching-crowds/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-crowds-learning-and-social-media",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781927356814-L.jpg"
+    },
+    {
+      "title": "Education for a Digital World: Advice, Guidelines and Effective Practice from Around Globe",
+      "author": "Sandy Hirtz - Author / David G. Harper - Author",
+      "freeSourceUrl": "https://oasis.col.org/bitstream/handle/11599/52/Education_for_a_Digital_World.pdf?sequence=1&isAllowed=y",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/education-for-a-digital-world-advice-guidelines-and-effective-practice-from-around-globe",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781894975292-L.jpg"
+    },
+    {
+      "title": "Learning to Learn Online",
+      "author": "Kwantlen Polytechnic University Learning Centres - Author / Christina Page - Author / Adam Vincent - Author",
+      "freeSourceUrl": "https://kpu.pressbooks.pub/learningtolearnonline/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/learning-to-learn-online"
+    },
+    {
+      "title": "Foundations of Educational Technology",
+      "author": "Penny Thompson - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/foundationsofeducationaltechnology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-educational-technology"
+    },
+    {
+      "title": "Creating Online Learning Experiences",
+      "author": "Matt Crosslin - Author / Brett Benham - Author / Justin T. Dellinger - Author / Amber Patterson - Author / Peggy Semingson - Author / Catherine A. Spann - Author / Brittany Usman - Author / Harriet Watkins - Author / Justin T. Dellinger - Editor / Rebecca Heiser - Editor / Katerina Riviou - Editor / Brittany Usman - Editor",
+      "freeSourceUrl": "https://uta.pressbooks.pub/onlinelearning/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/creating-online-learning-experiences",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780989887816-L.jpg"
+    },
+    {
+      "title": "Hybrid-Flexible Course Design",
+      "author": "Brian Beatty - Author",
+      "freeSourceUrl": "https://edtechbooks.org/hyflex",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/hybrid-flexible-course-design-beatty"
+    },
+    {
+      "title": "Learning in the Digital Age",
+      "author": "Tutaleni Asino - Editor / Rebecca Bayeck - Author / Wilmon Brown - Author / Raymond W. Francis - Author / Tammi Kolski - Author / Kathy Essmiller - Author / Cathy L. Green - Author / Sarah L. Lewis - Author / Corrine McCabe - Author / Josephine Shikongo - Author / Tammy Wise - Author / Jose Fulgencio - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/learninginthedigitalage/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/learning-in-the-digital-age"
+    },
+    {
+      "title": "The Asynchronous Cookbook",
+      "author": "DLINQ staff contributors - Author",
+      "freeSourceUrl": "https://pressbooks.middcreate.net/asynchronouscookbook/wp-content/uploads/sites/2/2023/06/The-Asynchronous-Cookbook-DLINQ-2023.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-asynchronous-cookbook"
+    },
+    {
+      "title": "From Lab to Laptop: Case studies in teaching practical courses online",
+      "author": "Tab Betts - Editor / Paolo Oprandi - Editor",
+      "freeSourceUrl": "https://openpress.sussex.ac.uk/fromlabtolaptop/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/from-lab-to-laptop-case-studies-in-teaching-practical-courses-online"
     }
   ],
-  "integrationNotes": "Stub for Online Tutoring. Capital: \u20a60. Summary: Teach academic subjects, languages, exam prep (WAEC, JAMB, IELTS, SAT) or skills via Zoom, Google Meet or WhatsApp.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
-  "actionRequired": "Nigeria-first list. DTW Tutorials, SomNG and iTeach With Ms. Bee are strongest verified Nigerian tutoring channels. Continue to 08 next."
+  "integrationNotes": "Stub for Online Tutoring. Capital: ₦0. Summary: Teach academic subjects, languages, exam prep (WAEC, JAMB, IELTS, SAT) or skills via Zoom, Google Meet or WhatsApp.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": [
+    "2026-08-23: Review the 11 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 11 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

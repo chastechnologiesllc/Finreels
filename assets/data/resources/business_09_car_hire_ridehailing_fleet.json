@@ -1,7 +1,7 @@
 {
   "categoryId": "business_09_car_hire_ridehailing_fleet",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCCwyU2RqlalzpKIrUhYWHfw",
@@ -178,16 +178,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
-      "freeSourceType": "PDF",
-      "freeSourceNote": "Free book summary PDF via F5 Financial -- condensed notes on the Technician/Manager/Entrepreneur framework.",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. URL confirmed live. NOTE: this is a summary/notes document, not the full book.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://profitfirstbook.com/",
@@ -196,16 +186,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Reused from prior verified skill_20 file. CSV lists domain as mikemichalowicz.com, but the actual free-book offer lives at profitfirstbook.com (same author's ecosystem).",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup-by-eric-ries-pdf-free-download/",
-      "freeSourceType": "PDF",
-      "freeSourceNote": "Free PDF via BDeBooks -- validated learning and MVP framework.",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. Live status not re-verified this round -- recommend a periodic spot-check.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -278,8 +258,9 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
     }
   ],
-  "notes": "Fully rebuilt 2026-07-24: every channel is now a real, live, independently confirmed resource -- no UNCONFIRMED placeholders remain. 5 of 10 original CSV channel names did not resolve to a real, findable YouTube channel (Uber Fleet Partner, Bolt Africa, Motoring Nigeria, Nigerian Ride-Hailing Drivers, Car Hire Africa) and were replaced with real, thematically-equivalent channels that were independently confirmed live: The Rideshare Guy, Techpoint Africa, AutoXpat TV, GIG Mobility, and Enterprise Rent-A-Car respectively. LeasePlan's real current identity is Ayvens (2022 merger/rebrand). AutoTrader's real channel is a brand-new one called 'The Keys,' launched 2 July 2026, confirmed via four independent trade-press sources.",
+  "notes": "Fully rebuilt 2026-07-24: every channel is now a real, live, independently confirmed resource -- no UNCONFIRMED placeholders remain. 5 of 10 original CSV channel names did not resolve to a real, findable YouTube channel (Uber Fleet Partner, Bolt Africa, Motoring Nigeria, Nigerian Ride-Hailing Drivers, Car Hire Africa) and were replaced with real, thematically-equivalent channels that were independently confirmed live: The Rideshare Guy, Techpoint Africa, AutoXpat TV, GIG Mobility, and Enterprise Rent-A-Car respectively. LeasePlan's real current identity is Ayvens (2022 merger/rebrand). AutoTrader's real channel is a brand-new one called 'The Keys,' launched 2 July 2026, confirmed via four independent trade-press sources. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup.",
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
   ]
 }

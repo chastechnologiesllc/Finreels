@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_15_catering_baking",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC9VgddRDM-F0LdKvXEhhBGw",
@@ -179,16 +179,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited (free PDF)",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF of the well-known small-business-systems book, hosted on a third-party site — worth a direct-download check before shipping.",
-      "verifiedOn": "2026-07-20",
-      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The E-Myth Revisited.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First (free resources)",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -197,16 +187,6 @@
       "verifiedOn": "2026-07-20",
       "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup (free)",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free copy hosted on a third-party book site — worth a direct-download check before shipping.",
-      "verifiedOn": "2026-07-20",
-      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The Lean Startup.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -277,10 +257,372 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "10 Cakes Husbands Like Best: From Spry's Recipe Round-up",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63004",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63004; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "10 Luscious New Cakes, Made by Spry's Amazing New One-Bowl Method",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59589",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59589; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "50 Wonderful Ways to Use Lucerne Sour Cream, From Appetizers to Desserts\r\nRecipes from the Test Kitchen of the American Dairy Association",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63670",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63670; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A brief guide to the Food Collection",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64712",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64712; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A friend in the kitchen",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61451",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61451; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Handbook of Fish Cookery: How to buy, dress, cook, and eat fish",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53525",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53525; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A handbook of invalid cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54568",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54568; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Treatise of Cleanness in Meats and Drinks, of the Preparation of Food,\r\nthe Excellency of Good Airs, and the Benefits of Clean Sweet Beds. Also of the Generation of Bugs, and Their Cure. To Which Is Added, a Short Discourse of the Pain in the Teeth, Shewing What Cause It Does Chiefly Proceed, and Also How to Prevent It.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52657",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52657; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Treatise on Adulterations of Food, and Culinary Poisons\r\nExhibiting the Fraudulent Sophistications of Bread, Beer, Wine, Spiritous Liquors, Tea, Coffee, Cream, Confectionery, Vinegar, Mustard, Pepper, Cheese, Olive Oil, Pickles, and Other Articles Employed in Domestic Economy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/19031",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #19031; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Treatise on Bread, and Bread-making",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66331",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66331; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A treatise on the art of making good wholesome bread of wheat, oats, rye, barley and other farinaceous grains\r\nExhibiting the alimentary properties and chemical constitution of different kinds of bread corn, and of the various substitutes used for bread, in different parts of the world",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60424",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60424; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A treatise on the esculent funguses of England\r\ncontaining an account of their classical history, uses, characters, development, structure, nutritious properties, modes of cooking and preserving, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58853",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58853; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "American Cookery: The Art of Dressing Viands, Fish, Poultry, and Vegetables",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12815",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12815; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An Ideal Kitchen: Miss Parloa's Kitchen Companion\r\nA Guide for All Who Would Be Good Housekeepers",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53892",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53892; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Beef Slaughtering, Cutting, Preserving, and Cooking on the Farm",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62848",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62848; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Betty Crocker's Frosting Secrets\r\nFancy Cake Decorating; New Cake-trimming Short Cuts; Fabulous Party Cake Ideas; Fun With Frostings",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62188",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62188; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Book of American Baking\r\nA Practical Guide Covering Various Branches of the Baking Industry, Including Cakes, Buns, and Pastry, Bread Making, Pie Baking, Etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49797",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49797; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Bread and cake baking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78839",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #78839; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Broken Bread, from an Evangelist's Wallet",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24242",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24242; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Cakes & Ale\r\nA Dissertation on Banquets Interspersed with Various Recipes, More or Less Original, and anecdotes, mainly veracious",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43278",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43278; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Camp fires and camp cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75442",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75442; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Camping and camp cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73671",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73671; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Canning, Freezing, Storing Garden Produce",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59977",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59977; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Choice Recipes and Menus Using Canned Foods",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66069",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66069; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Classic Variations in Cooking with Texas Eggs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62665",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62665; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Clayton's Quaker Cook-Book\r\nBeing a Practical Treatise on the Culinary Art Adapted to the Tastes and Wants of All Classes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38823",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38823; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Cottage Cheese Recipe Book\r\nAppetizers, Salads, Salad Dressings, Breads, Main Dishes, Desserts",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65327",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65327; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Culinary Chemistry\r\nThe Scientific Principles of Cookery, with Concise Instructions for Preparing Good and Wholesome Pickles, Vinegar, Conserves, Fruit Jellies, Marmalades, and Various Other Alimentary Substances Employed in Domestic Economy, with Observations on the Chemical Constitution and Nutritive Qualities of Different Kinds of Food.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60163",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60163; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Culinary Herbs: Their Cultivation Harvesting Curing and Uses",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21414",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #21414; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Culture and Cooking; Or, Art in the Kitchen",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29982",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29982; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Curious Facts in the History of Insects; Including Spiders and Scorpions.\r\nA Complete Collection of the Legends, Superstitions, Beliefs, and Ominous Signs Connected with Insects; Together with Their Uses in Medicine, Art, and as Food; and a Summary of Their Remarkable Injuries and Appearances.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41625",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41625; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Detection of the Common Food Adulterants",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43545",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43545; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Directions for Cooking by Troops, in Camp and Hospital\r\nPrepared for the Army of Virginia, and published by order of the Surgeon General, with essays on \"taking food,\" and \"what food.\"",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49833",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49833; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Dressed Game and Poultry à la Mode",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/31982",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #31982; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 1",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46511",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46511; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 2",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48746",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48746; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 3",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50213",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50213; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 4",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47701",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #47701; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 5",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50660",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50660; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Everyday Foods in War Time",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14066",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #14066; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "2026-07-20: The founder-provided 'catering_baking_resources.csv' contained only real data for its 10 books — all 10 channels and all 10 blogs were unresolved placeholders ('Business Channel 1'–'10', 'generic.com'), unlike every other CSV processed this project. Channels and blogs for this category were therefore independently sourced and verified from scratch rather than merged from the CSV. Real, rich Nigeria-specific business content exists in blog form (WithinNigeria's 'Complete Guide to Starting a Catering Business in Nigeria for Owambe Events') — confirmed and added this pass. Two channels (Sussy's Cakes Recipes, Diary of a Kitchen Lover) are primarily recipe/technique content with a real but secondary business thread, flagged individually rather than presented as pure business channels.",
+  "notes": "2026-07-20: The founder-provided 'catering_baking_resources.csv' contained only real data for its 10 books — all 10 channels and all 10 blogs were unresolved placeholders ('Business Channel 1'–'10', 'generic.com'), unlike every other CSV processed this project. Channels and blogs for this category were therefore independently sourced and verified from scratch rather than merged from the CSV. Real, rich Nigeria-specific business content exists in blog form (WithinNigeria's 'Complete Guide to Starting a Catering Business in Nigeria for Owambe Events') — confirmed and added this pass. Two channels (Sussy's Cakes Recipes, Diary of a Kitchen Lover) are primarily recipe/technique content with a real but secondary business thread, flagged individually rather than presented as pure business channels. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 40 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 40 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

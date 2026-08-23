@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_19_solar_installation_renewable_energy",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCBnGaOIYP_VPzQsbp1pWHxg",
@@ -224,16 +224,6 @@
       "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
     },
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF at f5fp.com — build systems so your solar installation business runs without you",
-      "verifiedOn": "2026-07-22",
-      "verificationMethod": "Listed in curated CSV resource list as free. Same foundational text used across skill_08 and skill_17 — the technician-to-business-owner trap applies directly to solar installers scaling beyond themselves.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -242,16 +232,6 @@
       "verifiedOn": "2026-07-22",
       "verificationMethod": "Listed in curated CSV resource list. Especially relevant to solar given high materials/equipment costs eating into margins if not managed proactively.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup/",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free at bdebooks.com — validate demand before committing capital to inventory and installation crews",
-      "verifiedOn": "2026-07-22",
-      "verificationMethod": "Listed in curated CSV resource list as free. Applies to solar entrepreneurs testing residential vs. commercial models or new financing structures before scaling.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "The Personal MBA",
@@ -304,9 +284,10 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
     }
   ],
-  "notes": "Integrated from solar_installation_renewable_energy_resources.csv on 2026-07-22, building on the prior in_progress pass (which had verified only Solar Surge). ALL 10 channel IDs now fully resolved via live web fetches — no pending items. CSV AUDIT: 6 of 10 CSV-listed channels had non-YouTube URLs (Versatile Solar Nigeria, Kasot Power, Energy Mall Nigeria, JRB Solar, Solar Depot NG were company websites/LinkedIn; Naija Solar could not be verified as an active YouTube channel). These were replaced with 6 confirmed YouTube channels while preserving GenNext/Gennex Technologies (found on YouTube as @gennextechnologies9533) and Off-Grid Magazine's slot (replaced with Everything Electric/Fully Charged Show, a stronger verified renewable energy business channel). Nigeria/Africa representation: Solar Energy Africa + Gennex Technologies (channels), plus 6 of 10 blogs are Nigeria-specific (Energy Mall, JRB Solar, Solar Depot NG, GenNext, Versatile Solar, Kasot Power, BusinessDay). BLOG SAFETY NOTE: Energy Mall Nigeria's CSV entry was a LinkedIn URL, not a blog — the /feed/ URL is a best-guess construction from the company domain and MUST be validated live before production release, or replaced with their LinkedIn company page if no blog exists. All other blog RSS feeds use standard /feed/ paths. Books carried forward the proven 10-book business fundamentals set used across skill_08 and skill_17, replacing generic CSV descriptions with the verified specific author/title/free-source combinations.",
+  "notes": "Integrated from solar_installation_renewable_energy_resources.csv on 2026-07-22, building on the prior in_progress pass (which had verified only Solar Surge). ALL 10 channel IDs now fully resolved via live web fetches — no pending items. CSV AUDIT: 6 of 10 CSV-listed channels had non-YouTube URLs (Versatile Solar Nigeria, Kasot Power, Energy Mall Nigeria, JRB Solar, Solar Depot NG were company websites/LinkedIn; Naija Solar could not be verified as an active YouTube channel). These were replaced with 6 confirmed YouTube channels while preserving GenNext/Gennex Technologies (found on YouTube as @gennextechnologies9533) and Off-Grid Magazine's slot (replaced with Everything Electric/Fully Charged Show, a stronger verified renewable energy business channel). Nigeria/Africa representation: Solar Energy Africa + Gennex Technologies (channels), plus 6 of 10 blogs are Nigeria-specific (Energy Mall, JRB Solar, Solar Depot NG, GenNext, Versatile Solar, Kasot Power, BusinessDay). BLOG SAFETY NOTE: Energy Mall Nigeria's CSV entry was a LinkedIn URL, not a blog — the /feed/ URL is a best-guess construction from the company domain and MUST be validated live before production release, or replaced with their LinkedIn company page if no blog exists. All other blog RSS feeds use standard /feed/ paths. Books carried forward the proven 10-book business fundamentals set used across skill_08 and skill_17, replacing generic CSV descriptions with the verified specific author/title/free-source combinations. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
   ]
 }

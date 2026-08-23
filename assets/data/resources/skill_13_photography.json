@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_13_photography",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCOPJJLvR-N0hS8V-AWnQ-6w",
@@ -251,16 +251,6 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
     },
     {
-      "title": "The E-Myth Revisited (free PDF)",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF of the well-known small-business-systems book, hosted on a third-party site — worth a direct-download check before shipping.",
-      "verifiedOn": "2026-07-20",
-      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The E-Myth Revisited.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First (free resources)",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -279,10 +269,372 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "A Camera Actress in the Wilds of Togoland\r\nThe adventures, observations & experiences of a cinematograph actress in West African forests whilst collecting films depicting native life and when posing as the white woman in Anglo-African cinematograph dramas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45442",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45442; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Manual of Photographic Chemistry, Including the Practice of the Collodion Process",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63710",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63710; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A photographic record of the Russo-Japanese war",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76109",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76109; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Airplane Photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53508",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53508; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Around the world in eighty minutes\r\nPhotographic reproductions of the most magnificent edifices, the most interesting remains and the most beautiful scenes on the earth's surface",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69543",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69543; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Cruisings in the Cascades\nA Narrative of Travel, Exploration, Amateur Photography,\nHunting, and Fishing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36654",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36654; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Descriptive Catalogue of Photographs of North American Indians",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39089",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39089; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Essay on art and photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71518",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71518; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Fifty Photographic Views of Plymouth",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67232",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67232; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "George Eliot Centenary, November 1919\r\nCatalogue of Relics, Manuscrips, Prints, Paintings, Photographs & Books relating to George Eliot",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30959",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30959; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Magic, Stage Illusions and Scientific Diversions, Including Trick Photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45235",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45235; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Marvels of Scientific Invention\r\nAn Interesting Account in Non-Technical Language of the Invention of Guns, Torpedoes, Submarine Mines, Up-to-Date Smelting, Freezing, Colour Photography, and Many Other Recent Discoveries of Science",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38045",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38045; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Mississippi Piney Woods: A Photographic Study of Folk Architecture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61801",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61801; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Myths of China and Japan\r\nwith illustrations in colour & monochrome after paintings and photographs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67344",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67344; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Naturalistic Photography for Students of the Art.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56833",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56833; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "On the Construction of a Silvered Glass Telescope\r\nFifteen and a half inches in aperture, and its use in celestial photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53542",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53542; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Original Photographs Taken on the Battlefields during the Civil War of the United States",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43922",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43922; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Paris under the Commune\r\nThe Seventy-Three Days of the Second Siege; with Numerous Illustrations, Sketches Taken on the Spot, and Portraits (from the Original Photographs)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/10861",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #10861; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Photographic Amusements, Ninth Edition\nIncluding A Description of a Number of Novel Effects Obtainable with the Camera",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39691",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39691; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Photographic investigations of faint nebulae",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71654",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71654; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Photographic Reproduction Processes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24016",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24016; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Photographs of Nebulæ and Clusters, Made with the Crossley Reflector",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36470",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36470; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Photography at home",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78373",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #78373; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Photography in the studio and in the field",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42982",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #42982; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Photography self taught",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77383",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #77383; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Shakspeare's Mental Photographs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56851",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56851; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Shepp's Photographs of the World",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26037",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #26037; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Souvenir of Gay Head: Indelible Photographs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33108",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33108; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Barnet Book of Photography: A Collection of Practical Articles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40468",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #40468; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Bird Book\r\nIllustrating in natural colors more than seven hundred North American birds; also several hundred photographs of their nests and eggs.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30000",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30000; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Case Against Spirit Photographs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61352",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61352; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Case for Spirit Photography\nWith corroborative evidence by experienced researchers and photographers",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59809",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59809; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Essentials of Illustration\r\nA Practical Guide to the Reproduction of Drawings & Photographs for the Use of Scientists & Others",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34869",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34869; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Evolution of Photography\r\nWith a Chronological Record of Discoveries, Inventions, Etc., Contributions to Photographic Literature, and Personal Reminescences Extending over Forty Years",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38866",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38866; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Face of the Earth as Seen from the Air\nA Study in the Application of Airplane Photography to Geography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62068",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62068; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The History and Practice of the Art of Photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/168",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #168; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Mentor: Photography, Vol. 6, Num. 12, Serial No. 160, August 1, 1918",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49640",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49640; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Science of Animal Locomotion (Zoopraxography)\r\nAn Electro-Photographic Investigation of Consecutive Phases of Animal Movements",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39998",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39998; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Veil Lifted: Modern Developments of Spirit Photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59451",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59451; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Vision by radio, radio photographs, radio photograms",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73845",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73845; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "Photography YouTube is dominated by gear reviews and technique tutorials — real, popular, valuable for the craft, but this file prioritizes channels/entries that specifically address the business side. 2026-07-20: Merged in the founder-provided 'photography_resources.csv' (Section I.13), bringing the file from 2 channels / 0 blogs / 0 books to a full 10 / 10 / 10. Two of the CSV's channels could not be matched to a real YouTube channel: ProInvoice (real, active fintech company and blog, but no confirmed dedicated channel) and Nigerian Photographers Hub (real, active community — Instagram/podcast-first, no confirmed YouTube channel). Two independently-verified, directly on-topic replacements were substituted to reach 10 channels: Tayo Aina (prominent Nigerian filmmaker/photographer/entrepreneur) and Fstoppers (which also pairs with its own blog entry in this file). Two blog domains were corrected from the source directory: ProInvoice (proinvoice.com → proinvoice.co) and Stockframes (stockframes.com → stockframes.com.ng).",
+  "notes": "Photography YouTube is dominated by gear reviews and technique tutorials — real, popular, valuable for the craft, but this file prioritizes channels/entries that specifically address the business side. 2026-07-20: Merged in the founder-provided 'photography_resources.csv' (Section I.13), bringing the file from 2 channels / 0 blogs / 0 books to a full 10 / 10 / 10. Two of the CSV's channels could not be matched to a real YouTube channel: ProInvoice (real, active fintech company and blog, but no confirmed dedicated channel) and Nigerian Photographers Hub (real, active community — Instagram/podcast-first, no confirmed YouTube channel). Two independently-verified, directly on-topic replacements were substituted to reach 10 channels: Tayo Aina (prominent Nigerian filmmaker/photographer/entrepreneur) and Fstoppers (which also pairs with its own blog entry in this file). Two blog domains were corrected from the source directory: ProInvoice (proinvoice.com → proinvoice.co) and Stockframes (stockframes.com → stockframes.com.ng). 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 40 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 40 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_49_banking_finance",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCKPrhdlB-gKbM4sI42P_bdQ",
@@ -178,16 +178,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF via f5fp.com",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "URL confirmed live in prior skill sessions (skill_09, skill_18).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://mikemichalowicz.com/profit-first",
@@ -196,16 +186,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "URL confirmed live in prior skill sessions.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF via BDE Books",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "URL confirmed live in prior skill sessions.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Entrepreneurship",
@@ -276,11 +256,608 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "International Finance: Theory and Policy",
+      "author": "Steve Suranovic - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/International%20Finance%20-%20Theory%20and%20Policy.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/international-finance-theory-and-policy",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781936126460-L.jpg"
+    },
+    {
+      "title": "International Trade: Theory and Policy",
+      "author": "Steve Suranovic - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/International%20Trade%20-%20Theory%20and%20Policy.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/international-trade-theory-and-policy",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781936126446-L.jpg"
+    },
+    {
+      "title": "Microeconomics: Theory Through Applications",
+      "author": "Russell Cooper - Author / Andrew John - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Microeconomics%20-%20Theory%20Through%20Applications.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/microeconomics-theory-through-applications",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453313282-L.jpg"
+    },
+    {
+      "title": "Personal Finance",
+      "author": "Rachel Siegel - Author / Carol Yacht - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Personal%20Finance.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/personal-finance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780982361863-L.jpg"
+    },
+    {
+      "title": "Principles of Economics",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://socialsci.libretexts.org/?title=Bookshelves%2FEconomics%2FIntroductory_Comprehensive_Economics%2FPrinciples_of_Economics_%28LibreTexts%29_Complete_and_Printable_Volume_1_%26_Volume_2%2FPrinciples_of_Economics_%28LibreTexts%29",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-economics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135162-L.jpg"
+    },
+    {
+      "title": "Principles of Macroeconomics",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://socialsci.libretexts.org/Bookshelves/Economics/Macroeconomics/Principles_of_Macroeconomics_(LibreTexts)",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-macroeconomics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135179-L.jpg"
+    },
+    {
+      "title": "Introduction to Economic Analysis",
+      "author": "Preston McAfee - Author / Tracy R Lewis - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Introduction%20to%20Economic%20Analysis.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-economic-analysis",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780982043097-L.jpg"
+    },
+    {
+      "title": "Economics – Theory Through Applications",
+      "author": "Russell Cooper - Author / Andrew John - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Economics%20-%20Theory%20Through%20Applications.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/economics-theory-through-applications",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453328361-L.jpg"
+    },
+    {
+      "title": "Macroeconomics: Theory through Applications",
+      "author": "Russell Cooper - Author / Andrew John - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Macroeconomics%20-%20Theory%20through%20Application.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/macroeconomics-theory-through-applications",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453328422-L.jpg"
+    },
+    {
+      "title": "Principles of Economics - 3e",
+      "author": "Steven A. Greenlaw - Author / David A. Shapiro - Author / Daniel MacDonald - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-economics-3e",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-economics-191",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781938168239-L.jpg"
+    },
+    {
+      "title": "Principles of Macroeconomics - 3e",
+      "author": "Steven A. Greenlaw - Author / David Shapiro - Author / Timothy Taylor - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-macroeconomics-3e",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-macroeconomics-3e",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172388-L.jpg"
+    },
+    {
+      "title": "Principles of Microeconomics - 3e.",
+      "author": "David Shapiro - Author / Steven A. Greenlaw - Author / Daniel MacDonald - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-microeconomics-3e",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-microeconomics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693657-L.jpg"
+    },
+    {
+      "title": "Good Corporation, Bad Corporation: Corporate Social Responsibility in the Global Economy",
+      "author": "Guillermo C. Jimenez - Author / Elizabeth Pulos - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1281",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/good-corporation-bad-corporation-corporate-social-responsibility-in-the-global-economy",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341253-L.jpg"
+    },
+    {
+      "title": "Sustaining the Commons",
+      "author": "John M. Anderies - Author / Marco A. Janssen - Author",
+      "freeSourceUrl": "https://sustainingthecommons.asu.edu",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/sustaining-the-commons"
+    },
+    {
+      "title": "A Primer on Sustainable Business",
+      "author": "LibreTexts",
+      "freeSourceUrl": "https://batch.libretexts.org/print/Letter/Finished/biz-18702/Full.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-primer-on-sustainable-business"
+    },
+    {
+      "title": "International Economics: Theory and Policy",
+      "author": "Steve Suranovic - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_international-economics-theory-and-policy/index.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/international-economics-theory-and-policy"
+    },
+    {
+      "title": "Legal Aspects of Corporate Management and Finance",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_legal-aspects-of-corporate-management-and-finance/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/legal-aspects-of-corporate-management-and-finance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343258-L.jpg"
+    },
+    {
+      "title": "The Economics of Food and Agricultural Markets - 2nd Edition",
+      "author": "Andrew Barkley - Author",
+      "freeSourceUrl": "https://newprairiepress.org/ebooks/28/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-economics-of-food-and-agricultural-markets",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548223-L.jpg"
+    },
+    {
+      "title": "Introduction to Women, Gender, Sexuality Studies",
+      "author": "Miliann Kang - Author / Donovan Lessard - Author / Laura Heston - Author / Sonny Nordmarken - Author",
+      "freeSourceUrl": "https://openbooks.library.umass.edu/introwgss/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-women-gender-sexuality-studies",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781945764028-L.jpg"
+    },
+    {
+      "title": "An Introduction to Cooperation and Mutualism",
+      "author": "Michael Boland - Author",
+      "freeSourceUrl": "https://conservancy.umn.edu/items/17e2713c-8961-44ad-be4d-a04658d8546d",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-cooperation-and-mutualism",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135384-L.jpg"
+    },
+    {
+      "title": "Boundless Economics",
+      "author": "Lumen Learning",
+      "freeSourceUrl": "https://s3-us-west-2.amazonaws.com/textimgs/Boundless/EPUBs/boundless-economics.epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/boundless-economics"
+    },
+    {
+      "title": "Wellbeing, Freedom and Social Justice: The Capability Approach Re-Examined",
+      "author": "Ingrid Robeyns - Author",
+      "freeSourceUrl": "https://www.openbookpublishers.com/books/10.11647/obp.0130",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; Humanities - Philosophy; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/wellbeing-freedom-and-social-justice-the-capability-approach-re-examined",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781783744237-L.jpg"
+    },
+    {
+      "title": "Principles of Microeconomics: Scarcity and Social Provisioning",
+      "author": "Erik Dean - Author / Justin Elardo - Author / Mitch Green - Author / Benjamin Wilson - Author / Sebastian Berger - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/socialprovisioning/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-microeconomics-scarcity-and-social-provisioning"
+    },
+    {
+      "title": "Principles of Political Economy - Third Edition",
+      "author": "Daniel E. Saros - Author",
+      "freeSourceUrl": "https://mountainscholar.org/items/ef29d365-8bc1-4869-8f2e-eeb0fc6909ec",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-political-economy"
+    },
+    {
+      "title": "Principles of Microeconomics - 2021-A",
+      "author": "Doug Curtis - Author / Ian Irvine - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/principles-of-microeconomics-2021a-lyryx-lyryx-287/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-microeconomics-2017"
+    },
+    {
+      "title": "Principles of Macroeconomics - 2021-A",
+      "author": "Doug Curtis - Author / Ian Irvine - Author",
+      "freeSourceUrl": "https://lyryx.com/subjects/economics/principles-of-macroeconomics/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-macroeconomics-2017"
+    },
+    {
+      "title": "Intermediate Microeconomics with Microsoft Excel - 2nd Edition",
+      "author": "Humberto Barreto - Author",
+      "freeSourceUrl": "https://barretoh.github.io/GitHubmicro/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/intermediate-microeconomicswith-microsoft-excel-2nd-edition-barreto"
+    },
+    {
+      "title": "Financial Management for Small Businesses: Financial Statements & Present Value Models",
+      "author": "Lindon J. Robinson - Author / Steven D. Hanson - Author / J. Roy Black - Author",
+      "freeSourceUrl": "https://openbooks.lib.msu.edu/financialmanagement/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/financial-management-for-small-businesses-financial-statements-present-value-models"
+    },
+    {
+      "title": "Principles of Macroeconomics for AP® Courses 2e",
+      "author": "Steven A. Greenlaw - Author / David Shapiro - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-macroeconomics-3e",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-macroeconomics-for-ap-courses-2e",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172432-L.jpg"
+    },
+    {
+      "title": "Intermediate Microeconomics",
+      "author": "Patrick M. Emerson - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/intermediatemicroeconomics/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/intermediate-microeconomics"
+    },
+    {
+      "title": "Economics for Life: Real World Financial Literacy",
+      "author": "Donald Wargo - Author",
+      "freeSourceUrl": "https://temple.manifoldapp.org/system/actioncallout/d/5/0/d50cbeff-fb01-4b65-87a4-cf37fbfeaf8b/attachment/539baa4d6448c713dc2670aa5e758c02.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/economics-for-life-real-world-financial-literacy",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781439919842-L.jpg"
+    },
+    {
+      "title": "Liquidity, Markets and Trading in Action",
+      "author": "Deniz Ozenbas  - Author / Michael S. Pagano - Author / Robert A. Schwartz  - Author / Bruce W. Weber - Author",
+      "freeSourceUrl": "https://link.springer.com/book/10.1007/978-3-030-74817-3?error=cookies_not_supported&code=9f901c95-d746-4493-b9e8-239aee24dba9",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/liquidity-markets-and-trading-in-action",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783030748173-L.jpg"
+    },
+    {
+      "title": "Modelo Kaizen en el sector público: Kaizen model in the public sector",
+      "author": "Casanova-Villalba César Iván - Author / Maybelline Jaqueline - Author / Rivadeneira – Moreira César - Author / Ramos – Secaira Francisco Marcelo - Author / Bueno-Moyano Franklin Roberto - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/8",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/modelo-kaizen-en-el-sector-publico-kaizen-model-in-the-public-sector",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942701404-L.jpg"
+    },
+    {
+      "title": "Principles of Finance - 2e",
+      "author": "Julie Dahlquist - Author / Rainford Knight - Author / Alan S. Adams - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-finance-2e",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-finance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693541-L.jpg"
+    },
+    {
+      "title": "Introduction to Financial Analysis",
+      "author": "Kenneth S. Bigel - Author",
+      "freeSourceUrl": "https://touroscholar.touro.edu/cgi/viewcontent.cgi?filename=1&article=1001&context=opentextbooks&type=additional",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-financial-analysis"
+    },
+    {
+      "title": "A Practicum in Behavioral Economics",
+      "author": "Arthur J Caplan - Author",
+      "freeSourceUrl": "https://uen.pressbooks.pub/behavioraleconomics/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-practicum-in-behavioral-economics"
+    },
+    {
+      "title": "Advanced Macroeconomics: An Easy Guide",
+      "author": "Filipe Campante - Author / Federico Sturzenegger - Author / Andrés Velasco - Author",
+      "freeSourceUrl": "https://press.lse.ac.uk/books/m/10.31389/lsepress.ame",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/advanced-macroeconomics-an-easy-guide",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781909890695-L.jpg"
+    },
+    {
+      "title": "NIIF FULL: Una guía práctica para su aplicación",
+      "author": "Patricio Javier López-Pérez - Author / Betty Maribel Quiñónez-Cabeza - Author / Joffre Danny Preciado-Ramírez - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/22",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/niif-full-una-guia-practica-para-su-aplicacion"
+    },
+    {
+      "title": "Equilibrium Displacement Models: Theory, Applications, & Policy Analysis",
+      "author": "Gary W. Brester - Author / Joseph A. Atwood - Author / Michael A. Boland - Author",
+      "freeSourceUrl": "https://conservancy.umn.edu/items/343e466f-d053-4b9d-bc1c-0b4b1e9b3a6c",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/equilibrium-displacement-models-theory-applications-policy-analysis"
+    },
+    {
+      "title": "Obligaciones Tributarias y su Influencia en la Recaudación Fiscal de las Micro y Pequeñas Empresas",
+      "author": "Emiliano Reymundo-Soto - Author / Xiomara Padua Fernández-Condori - Author / Estheysi Vianny Echevarria-Quispe - Author / Yuri Quispe-Cusi - Author / Erick Zenon Gutiérrez-Quispe - Author / Luis Julio Palacios-Aguilar - Author / Andrés Jesús Ramírez-Laurente - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/35",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/obligaciones-tributarias-y-su-influencia-en-la-recaudacion-fiscal-de-las-micro-y-pequenas-empresas"
+    },
+    {
+      "title": "Planeación estratégica: Conceptos y herramientas para su aplicación",
+      "author": "Fernando Neptalí Terán-Guerrero - Author / Eduardo José Martínez-Martínez - Author / Geovanni Gonzalo Pluas-Llamuca - Author / Rubén Darío Román-Aguirre - Author / Héctor Enrique Hernández-Altamirano - Author / Nelly Narcisa Gallardo-Chiluisa - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/48",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/planeacion-estrategica-conceptos-y-herramientas-para-su-aplicacion",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651051-L.jpg"
+    },
+    {
+      "title": "Evaluación de la Satisfacción Laboral y Rendimiento Productivo de los Piscicultores Comunitarios",
+      "author": "Alberto Hugo Deza-Matías - Author / Manuel Castrejón-Valdez - Author / Edwin Rojas-Felipe - Author / Noemi Gladys Mencia-Sánchez - Author / Jorge Washington Rodríguez-Deza - Author / Russbelt Yaulilahua-Huacho - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/49",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/evaluacion-de-la-satisfaccion-laboral-y-rendimiento-productivo-de-los-piscicultores-comunitarios",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651068-L.jpg"
+    },
+    {
+      "title": "Optimización del Proceso Presupuestario: Estrategias y Gestión Administrativa para Resultados Efectivos",
+      "author": "Claudio Contreras-De La Cruz - Author / Julio Cesar Gaspar-Quispe - Author / Rosaura Huarcaya-Taype - Author / Juan Antonio Picoy-Gonzales - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/57",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/optimizacion-del-proceso-presupuestario-estrategias-y-gestion-administrativa-para-resultados-efectivos",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651136-L.jpg"
+    },
+    {
+      "title": "Sabores Conectados: Transformando la Gastronomía a través de las Tecnologías de la Información y Comunicación",
+      "author": "Juan Antonio Picoy-Gonzales - Author / Rosaura Huarcaya-Taype - Author / Omar Hans Contreras-Canto - Author / Amanda Omonte-Vilca - Author / Claudio Contreras-De La Cruz - Author / Julio Cesar Gaspar-Quispe - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/58",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sabores-conectados-transformando-la-gastronomia-a-traves-de-las-tecnologias-de-la-informacion-y-comunicacion",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651143-L.jpg"
+    },
+    {
+      "title": "Fronteras del Futuro: Innovación y Desarrollo en Ciencia y Tecnología",
+      "author": "William Duberli Quinatoa-Chasi - Author / Wilson Manuel Cepeda-Valente - Author / Angel Vinicio Chasi-Chela - Author / Nancy Fabiola Chasi-Chela - Author / César Iván Casanova-Villalba - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/69",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fronteras-del-futuro-innovacion-y-desarrollo-en-ciencia-y-tecnologia",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651242-L.jpg"
+    },
+    {
+      "title": "Normas Internacionales de Información Financiera, su Aplicación Financiera, Contable y Tributaria",
+      "author": "Cecilia Mercedes Navarrete-Zambrano - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/70",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/normas-internacionales-de-informacion-financiera-su-aplicacion-financiera-contable-y-tributaria",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651259-L.jpg"
+    },
+    {
+      "title": "Una ventana abierta hacia la calidad total en un mundo globalizado",
+      "author": "Carlos Rene Flores-Murillo - Author / Karles Hoffmann-Jaramillo - Author / Alida Bella Vallejo-López - Author / Ana María Santamaría-Robles - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/73",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/una-ventana-abierta-hacia-la-calidad-total-en-un-mundo-globalizado",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651280-L.jpg"
+    },
+    {
+      "title": "Integrando IA en los Nuevos Paradigmas de las Ciencias Económicas y Gestión Empresarial",
+      "author": "José Rafael Díaz-Avelino - Author / César Iván Casanova-Villalba - Author / César Estuardo Carrillo-Barragán - Author / María Gabriela Cueva-Jiménez - Author / Maybelline Jaqueline Herrera-Sánchez - Author / Cinthya Katherine Zambrano-Muñoz - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/78",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/integrando-ia-en-los-nuevos-paradigmas-de-las-ciencias-economicas-y-gestion-empresarial",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651341-L.jpg"
+    },
+    {
+      "title": "Financial Empowerment - 2nd ed.",
+      "author": "Bettina Schneider - Author",
+      "freeSourceUrl": "https://opentextbooks.uregina.ca/financialempowermentsecond/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/financial-empowerment"
+    },
+    {
+      "title": "Fundamentals of Finance",
+      "author": "Annette Nguyen - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/fundamentalsfinance/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-finance"
+    },
+    {
+      "title": "Business Finance",
+      "author": "Sagarika Mishra - Author / Hoa Nguyen - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/corporatefinance/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/business-finance"
+    },
+    {
+      "title": "Gestión Inteligente Sinergias en la Contabilidad y Auditoría",
+      "author": "Patricia Janella Salgado-Ortiz - Author / Joffre Danny Preciado-Ramírez - Author / Esther Angelica Proaño-González - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/105",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/gestion-inteligente-sinergias-en-la-contabilidad-y-auditoria",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651617-L.jpg"
+    },
+    {
+      "title": "Gestión Inteligente Sinergias en la Administración",
+      "author": "Jazmina Mariela Macias-Loor - Author / Alberto Efraín Prado-Chinga - Author / Evelyn Eugenia Alcívar-Soria - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/106",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/gestion-inteligente-sinergias-en-la-administracion",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651600-L.jpg"
+    },
+    {
+      "title": "Gestión estratégica del talento humano alineado al desarrollo organizacional",
+      "author": "César Andrés Guerrero-Velástegui - Author / Ibett Mariela Jácome-Lara - Author / Fernando Neptalí Terán-Guerrero - Author / Edisson Andrés Frias-Pérez - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/115",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/gestion-estrategica-del-talento-humano-alineado-al-desarrollo-organizacional",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651709-L.jpg"
+    },
+    {
+      "title": "Politische und ökonomische Rahmenbedingungen des Sozial- und Gesundheitswesens in der Schweiz",
+      "author": "Konstantin Kehl - Author",
+      "freeSourceUrl": "https://digitalcollection.zhaw.ch/items/b2d4ee92-b1ae-4748-ad9c-f72f912848ab",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/politische-und-okonomische-rahmenbedingungen-des-sozial-und-gesundheitswesens-in-der-schweiz",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783658357696-L.jpg"
+    },
+    {
+      "title": "Economics for the Greater Good",
+      "author": "Caroline Krafft - Author",
+      "freeSourceUrl": "https://mlpp.pressbooks.pub/economicsforthegreatergood/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/economics-for-the-greater-good"
+    },
+    {
+      "title": "The London Consensus: Economic Principles for the 21st Century",
+      "author": "Tim Besley - Editor / Irene Bucelli - Editor / Andrés Velasco - Editor",
+      "freeSourceUrl": "https://press.lse.ac.uk/books/e/10.31389/lsepress.tlc",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-london-consensus-economic-principles-for-the-21st-century"
+    },
+    {
+      "title": "Better Together: How We Build Economic, Political, And Environmental Sustainability",
+      "author": "Fazil Acar - Author",
+      "freeSourceUrl": "https://leeds.pressbooks.pub/bettertogether/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/better-together-how-we-build-economic-political-and-environmental-sustainability"
+    },
+    {
+      "title": "Allocation, Distribution, and Policy: Notes, Problems, and Solutions in Microeconomics",
+      "author": "Samuel Bowles - Author / Weikai Chen - Author",
+      "freeSourceUrl": "https://www.openbookpublishers.com/books/10.11647/obp.0466",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/allocation-distribution-and-policy-notes-problems-and-solutions-in-microeconomics"
+    },
+    {
+      "title": "Case Studies in Finance",
+      "author": "Hoa Nguyen - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/casestudiesfinance/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/case-studies-in-finance"
+    },
+    {
+      "title": "Economic Policy Analysis Playbook - 2nd edition",
+      "author": "Leonie J. Pearson - Author",
+      "freeSourceUrl": "https://canberra.pressbooks.pub/epa-playbook/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/economic-policy-analysis-playbook-2nd-edition",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781740886284-L.jpg"
+    },
+    {
+      "title": "Principles of Financial Management",
+      "author": "Andrew Carr - Author",
+      "freeSourceUrl": "https://biz.libretexts.org/Courses/Aurora_University/Principles_of_Financial_Management",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-financial-management"
     }
   ],
-  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). CIBN confirmed via direct YouTube page fetch (@TheCibn → UClWfcJrMhPTydzJz9WD3IYQ). Proshare Nigeria confirmed as WebTV Nigeria (UCh_x1EANObKl_UwkVaAiq-Q) via direct YouTube page fetch. All other 8 channels confirmed via YouTube search results. Blogs: CBN is a government site — verify feed path. Bloomberg uses custom RSS paths. The Banker is FT Group — check feed path. Connect Nigeria flagged.",
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). CIBN confirmed via direct YouTube page fetch (@TheCibn → UClWfcJrMhPTydzJz9WD3IYQ). Proshare Nigeria confirmed as WebTV Nigeria (UCh_x1EANObKl_UwkVaAiq-Q) via direct YouTube page fetch. All other 8 channels confirmed via YouTube search results. Blogs: CBN is a government site — verify feed path. Bloomberg uses custom RSS paths. The Banker is FT Group — check feed path. Connect Nigeria flagged. 2026-08-23: Added 62 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 62 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ]
 }

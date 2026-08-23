@@ -1,7 +1,7 @@
 {
   "categoryId": "business_18_cleaning_services",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UChxfA97D5XdOD4WWwHYrMAQ",
@@ -179,16 +179,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited (free PDF)",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF, third-party host — worth a check before shipping.",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Source-consistent with all prior business_XX files this session.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First (free resources)",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -197,16 +187,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup (free)",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup",
-      "freeSourceType": "download",
-      "freeSourceNote": "Third-party host — worth a check before shipping.",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Source-consistent with all prior business_XX files this session.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -277,10 +257,282 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Beautiful Shells of New Zealand\r\nAn Illustrated Work for Amateur Collectors of New Zealand Marine Shells, with Directions for Collecting and Cleaning them",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33987",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33987; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Cotton, Its Progress from the Field to the Needle\r\nBeing a brief sketch of the culture of the plant, its picking, cleaning, packing, shipment, and manufacture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36870",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36870; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Dirty Dustbins and Sloppy Streets\nA Practical Treatise on the Scavenging and Cleansing of Cities and Towns",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54454",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54454; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hand-book of Sanitary Information for Householders\r\nContaining facts and suggestions about ventilation, drainage, care of contageous diseases, disinfection, food, and water. With appendices on disinfectants and plumbers' materials.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67768",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67768; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Health on the Farm: A Manual of Rural Sanitation and Hygiene",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26718",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #26718; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Lace Curtain Cleaning: A Successful Home Business",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33446",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33446; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Municipal housecleaning",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56271",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56271; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Sewage and Garbage Disposal on the Farm",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62605",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62605; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Easiest Way in Housekeeping and Cooking\nAdapted to Domestic Use or Study in Classes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15360",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #15360; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The English Housekeeper: Or, Manual of Domestic Management\r\nContaining advice on the conduct of household affairs and practical instructions concerning the store-room, the pantry, the larder, the kitchen, the cellar, the dairy; the whole being intended for the use of young ladies who undertake the superintendence of their own housekeeping",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55314",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #55314; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Vacuum cleaning systems",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70409",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70409; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Civic Biology, Presented in Problems",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39969",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39969; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Little Housekeeping Book for a Little Girl; Or, Margaret's Saturday Mornings",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30897",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30897; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A text-book on hygiene and pediatrics from a chiropractic standpoint",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70951",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70951; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A-B-C of housekeeping",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75560",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75560; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Cottages; or, Hints on Economical Building",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67922",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67922; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Guide to Hotel Housekeeping",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35066",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #35066; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "History of Sanitation",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48329",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48329; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hospital housekeeping",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75063",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75063; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Housekeeping in Old Virginia",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42450",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #42450; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hygiene: a manual of personal and public health (New Edition)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58591",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58591; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Joking apart",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70958",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70958; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "London (Ancient and Modern) from the Sanitary and Medical Point of View",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54904",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54904; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Marion Harland's Complete Cook Book\nA Practical and Exhaustive Manual of Cookery and Housekeeping",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64459",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64459; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Reports Relating to the Sanitary Condition of the City of London",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54622",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54622; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Rural Hygiene",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29555",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29555; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Sanitary Statistics of Native Colonial Schools and Hospitals",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52653",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52653; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Sanitation in Panama",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70624",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70624; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Sanitation of Mofussil Bazaars",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62124",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62124; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Stain removal from fabrics",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65430",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65430; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on the three most prominent dedicated cleaning-business-growth channels (Grow My Cleaning Company, Cleaning Launch, AJ Simmons/Clean Biz Network), two B2B SaaS platforms that serve cleaning companies as primary customers (Workiz and ServiceTitan), and the same Nigerian/African business-news ecosystem channels verified across adjacent categories this project. Note on AJ Simmons channel ID: independently corroborated via 6+ video description URLs but the ID (UCHLYt_LJmvvmsyp-wKYX0) is 22 characters rather than the standard 24 — flag for a direct channel-page confirmation before shipping.",
+  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on the three most prominent dedicated cleaning-business-growth channels (Grow My Cleaning Company, Cleaning Launch, AJ Simmons/Clean Biz Network), two B2B SaaS platforms that serve cleaning companies as primary customers (Workiz and ServiceTitan), and the same Nigerian/African business-news ecosystem channels verified across adjacent categories this project. Note on AJ Simmons channel ID: independently corroborated via 6+ video description URLs but the ID (UCHLYt_LJmvvmsyp-wKYX0) is 22 characters rather than the standard 24 — flag for a direct channel-page confirmation before shipping. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 30 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 30 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

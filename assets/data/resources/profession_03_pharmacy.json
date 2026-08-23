@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_03_pharmacy",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCUD4q4OiEJv67rWEqBs02Pw",
@@ -204,16 +204,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF at f5fp.com — build business systems so your pharmacy practice runs without you",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free PDF confirmed at f5fp.com. Foundational text on the technician-to-business-owner transition — directly applicable to healthcare/professional-service entrepreneurs.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -222,16 +212,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Free chapter confirmed at mikemichalowicz.com. Recommended by professional practice coaches and healthcare business advisors.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup/",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free at bdebooks.com — test and validate your pharmacy business model before committing capital",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free access confirmed at bdebooks.com. Applies to launching new practice models, service lines, or professional consulting branches.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -302,9 +282,69 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Drugs quality control (Theoretical foundation and practical application): The Coursebook",
+      "author": "T. V. Pleteneva - Author / M.A. Morozova - Author / E.V Uspenskaya - Author / M.A. Khatchaturyan - Author",
+      "freeSourceUrl": "https://repository.rudn.ru/en/records/manual/record/37729/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Pharmacology; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/drugs-quality-control-theoretical-foundation-and-practical-application-the-coursebook"
+    },
+    {
+      "title": "Nursing Pharmacology",
+      "author": "Chippewa Valley Technical College - Author",
+      "freeSourceUrl": "https://wtcs.pressbooks.pub/pharmacology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; Medicine - Pharmacology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/nursing-pharmacology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781734914115-L.jpg"
+    },
+    {
+      "title": "Public Health in Pharmacy Practice: A Casebook - 2nd Edition",
+      "author": "Jordan R Covvey - Author / Vibhuti Arya - Author / Natalie A. DiPietro Mager - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=5137",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Pharmacology; Medicine - Public Health; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/public-health-in-pharmacy-practice-a-casebook",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341840-L.jpg"
+    },
+    {
+      "title": "Precision Nutrition and Advanced Culinary Medicine",
+      "author": "Sara B. Police - Author",
+      "freeSourceUrl": "https://uknowledge.uky.edu/pharmacol_textbooks/1/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Pharmacology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/precision-nutrition-and-advanced-culinary-medicine"
+    },
+    {
+      "title": "Microbiology, Pharmacology, and Immunology for Pre-Clinical Students",
+      "author": "Jennifer L. Cleveland - Author / Andrew P. Binks - Author / Renée J. LeClair - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/3c62707a-04a5-4d20-b23e-423a8c772d94",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Pharmacology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/microbiology-pharmacology-and-immunology-for-pre-clinical-students"
+    },
+    {
+      "title": "Pharmacology for Nurses",
+      "author": "Tina Barbour-Taylor - Author / Leah Mueller (Sabato) - Author / Donna Paris - Author / Dorie Weaver - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/pharmacology",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; Medicine - Pharmacology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/pharmacology-for-nurses",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584372-L.jpg"
     }
   ],
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
-  ]
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 6 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 6 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

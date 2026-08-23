@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_20_digital_agency",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC",
@@ -182,7 +182,7 @@
       "author": "Michael E. Gerber",
       "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
       "freeSourceType": "web",
-      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Google Books preview.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
@@ -192,7 +192,7 @@
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
       "freeSourceType": "web",
-      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
@@ -222,7 +222,7 @@
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://basecamp.com/books/rework",
       "freeSourceType": "web",
-      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Basecamp books.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
@@ -276,8 +276,76 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "Introduction to Apparel Production Workbook",
+      "author": "Laurie M. Apple - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/introapparelproductionworkbook/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Entrepreneurship; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-apparel-production-workbook"
+    },
+    {
+      "title": "Leading Innovation - 2nd Edition",
+      "author": "Kerri Shields - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/leadinginnovation2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Entrepreneurship; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/leading-innovation"
+    },
+    {
+      "title": "The Path to Funding: The Artist’s Guide to Building Your Audience, Generating Income, and Realizing Career Sustainability",
+      "author": "Zane Forshee - Author / Christina Manceor - Author / Robin McGinness - Author",
+      "freeSourceUrl": "https://pressbooks.pub/pathtofunding/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; Business - Entrepreneurship; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-artist-s-guide-to-building-your-audience-generating-income-and-realizing-career-sustainability"
+    },
+    {
+      "title": "Adaptive Apparel Design",
+      "author": "Ellen McKinney - Author / Rachel Eike - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/adaptiveapparel/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Entrepreneurship; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/adaptive-apparel-design"
+    },
+    {
+      "title": "Business Startup and Entrepreneurship: Canada",
+      "author": "Matthew Pauley - Author",
+      "freeSourceUrl": "https://pressbooks.library.upei.ca/startup/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Entrepreneurship; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/business-startup-and-entrepreneurship-canada"
+    },
+    {
+      "title": "Digital Entrepreneurship: Impact on Business and Society",
+      "author": "Mariusz Soltanifar - Editor / Mathew Hughes - Editor / Lutz Göcke - Editor",
+      "freeSourceUrl": "https://link.springer.com/book/10.1007/978-3-030-53914-6?error=cookies_not_supported&code=c9afb558-4dc7-4527-897b-29c4e4bcfd15",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Entrepreneurship; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-entrepreneurship-impact-on-business-and-society",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783030539146-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "Michael Laverty - Author / Chris Littel - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Entrepreneurship; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/entrepreneurship",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172708-L.jpg"
     }
   ],
-  "integrationNotes": "Stub for Digital Marketing Agency. Capital: Medium\u2013higher. Summary: Offer packaged digital services (SMM + ads + content + web) to multiple clients; scale with freelancers and systems.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
-  "actionRequired": "Nigeria-first. Agency packaging, client acquisition and local service models prioritised. ALL 20 CATEGORIES COMPLETE."
+  "integrationNotes": "Stub for Digital Marketing Agency. Capital: Medium–higher. Summary: Offer packaged digital services (SMM + ads + content + web) to multiple clients; scale with freelancers and systems.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": [
+    "2026-08-23: Review the 7 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 7 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

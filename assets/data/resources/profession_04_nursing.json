@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_04_nursing",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCV1EucdmzWBtBSOKisPYitg",
@@ -204,16 +204,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF at f5fp.com — build business systems so your nursing practice runs without you",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free PDF confirmed at f5fp.com. Foundational text on the technician-to-business-owner transition — directly applicable to healthcare/professional-service entrepreneurs.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -222,16 +212,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Free chapter confirmed at mikemichalowicz.com. Recommended by professional practice coaches and healthcare business advisors.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup/",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free at bdebooks.com — test and validate your nursing business model before committing capital",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free access confirmed at bdebooks.com. Applies to launching new practice models, service lines, or professional consulting branches.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -302,9 +282,318 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Nursing Care at the End of Life: What Every Clinician Should Know",
+      "author": "Susan E. Lowey - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1192",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/nursing-care-at-the-end-of-life-what-every-clinician-should-know",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341192-L.jpg"
+    },
+    {
+      "title": "Clinical Procedures for Safer Patient Care",
+      "author": "Glynda Rees Doyle - Author / Jodie McCutcheon - Author",
+      "freeSourceUrl": "https://opentextbc.ca/clinicalskills/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/clinical-procedures-for-safer-patient-care"
+    },
+    {
+      "title": "Literature Reviews for Education and Nursing Graduate Students",
+      "author": "Linda Frederiksen - Author / Sue F. Phelps - Author",
+      "freeSourceUrl": "https://press.rebus.community/literaturereviewsedunursing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/literature-reviews-for-education-and-nursing-graduate-students"
+    },
+    {
+      "title": "Nursing Pharmacology",
+      "author": "Chippewa Valley Technical College - Author",
+      "freeSourceUrl": "https://wtcs.pressbooks.pub/pharmacology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; Medicine - Pharmacology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/nursing-pharmacology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781734914115-L.jpg"
+    },
+    {
+      "title": "Transitions to Professional Nursing Practice - 2nd Edition",
+      "author": "Jamie Murphy - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=4009",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/transitions-to-professional-nursing-practice-2nd-edition",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781641760904-L.jpg"
+    },
+    {
+      "title": "Nursing Fundamentals - 2e",
+      "author": "Kimberly Ernstmeyer - Editor / Elizabeth Christman - Editor",
+      "freeSourceUrl": "https://wtcs.pressbooks.pub/nursingfundamentals/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/nursing-fundamentals",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781734914146-L.jpg"
+    },
+    {
+      "title": "Nursing Skills",
+      "author": "Kimberly Ernstmeyer - Editor / Elizabeth Christman - Editor",
+      "freeSourceUrl": "https://wtcs.pressbooks.pub/nursingskills/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/nursing-skills",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781734914122-L.jpg"
+    },
+    {
+      "title": "Nursing: Mental Health and Community Concepts",
+      "author": "Elizabeth Christman - Author / Kimberly Ernstmeyer - Author",
+      "freeSourceUrl": "https://wtcs.pressbooks.pub/nursingmhcc/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/nursing-mental-health-and-community-concepts",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781734914160-L.jpg"
+    },
+    {
+      "title": "Urban Health: A Practical Application for Clinical Based Learning",
+      "author": "Cynthera McNeill - Author / Umeika Stephens - Author / Tara Walker - Author",
+      "freeSourceUrl": "https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1001&context=oa_textbooks",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; Medicine - Nursing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/urban-health-a-practical-application-for-clinical-based-learning",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798985775419-L.jpg"
+    },
+    {
+      "title": "Mental Health is a Verb: A Pocket Guide to Mental Health for Nursing Students - Second Edition",
+      "author": "Jake Bush - Author / Jill Van Der Like - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/uwfmentalhealthnursing2e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mental-health-is-a-verb-a-pocket-guide-to-mental-health-for-nursing-students"
+    },
+    {
+      "title": "Nursing Assistant",
+      "author": "Myra Sandquist Reuter - Author",
+      "freeSourceUrl": "https://wtcs.pressbooks.pub/nurseassist/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/nursing-assistant",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781734914115-L.jpg"
+    },
+    {
+      "title": "Leading Change in Health Systems: Strategies for RN-BSN Students",
+      "author": "Kathy Andresen - Author / Charli Swanson - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/nursingleadership/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/leading-change-in-health-systems-strategies-for-rn-bsn-students"
+    },
+    {
+      "title": "Nursing Management and Professional Concepts - 2e",
+      "author": "Kimberly Ernstmeyer - Editor / Elizabeth Christman - Editor",
+      "freeSourceUrl": "https://wtcs.pressbooks.pub/nursingmpc/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/nursing-management-and-professional-concepts",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781957068176-L.jpg"
+    },
+    {
+      "title": "Nursing Advanced Skills",
+      "author": "Open Resources for Nursing Open RN - Author",
+      "freeSourceUrl": "https://wtcs.pressbooks.pub/nursingadvancedskills/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/nursing-advanced-skills"
+    },
+    {
+      "title": "Career Cornerstones: Establishing a Foundation for a Career in Healthcare (Revised)",
+      "author": "Andrea M Nelson - Author / Katherine Greene - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/healthcarecareerfoundations/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/career-cornerstones-establishing-a-foundation-for-a-career-in-healthcare"
+    },
+    {
+      "title": "Sinergia Científica: Integrando las Ciencias desde una Perspectiva Multidisciplinaria",
+      "author": "Santiago Alexander Guamán Rivera - Author / Robinson J. Herrera-Feijoo - Author / Armando Vinicio Paredes-Peralta - Author / Clara Isabel Ruiz-Sánchez - Author / Diego Marcelo Bonilla-Morejón - Author / Delia Paulina Samaniego-Quiguiri - Author / Eduardo Joselito Paredes-Fierro - Author / Cristina Vanessa Fernández-Vélez - Author / Jorge Hernán Almeida-Blacio - Author / Julio César Rivadeneira-Moreira - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/33",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sinergia-cientifica-integrando-las-ciencias-desde-una-perspectiva-multidisciplinaria"
+    },
+    {
+      "title": "Social Determinants of Health in Nursing Education: Integrating Into Curriculum and Practice",
+      "author": "Dawn M. Bowker - Author / Karla S. Kerkove - Author",
+      "freeSourceUrl": "https://www.iastatedigitalpress.com/plugins/books/147/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/social-determinants-of-health-in-nursing-education-integrating-into-curriculum-and-practice"
+    },
+    {
+      "title": "Inclusive Approach to Anthropometric Body Measurement Assessments",
+      "author": "Shelly Philip LaForest - Author / Michelle Hughes - Author / Lisa Seto Nielsen - Author",
+      "freeSourceUrl": "https://pressbooks.library.torontomu.ca/bodymeasurements/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/inclusive-approach-to-anthropometric-body-measurement-assessments"
+    },
+    {
+      "title": "\"Overweight\" Bodies, Real and Imagined [Revised Edition]",
+      "author": "Sarah Gilleman - Author",
+      "freeSourceUrl": "https://rotel.pressbooks.pub/overweight-bodies/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/overweight-bodies-real-and-imagined"
+    },
+    {
+      "title": "Nutrition for Nurses",
+      "author": "Emerald Charity Bilbrew - Author / Jody Vogelzang - Author / Kelli Whittington - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/nutrition",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/nutrition-for-nurses",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584389-L.jpg"
+    },
+    {
+      "title": "Optimizing Population Health: Strategies for Advanced Level Nurses",
+      "author": "Kathy Andresen - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/populationhealthnursing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/optimizing-population-health-strategies-for-advanced-level-nurses"
+    },
+    {
+      "title": "Community and Public Health Nursing: A Call to Action",
+      "author": "Andrea Reed - Author / Beth Tremblay - Author / Chloe Gross - Author / Felisa Smith - Author / Gretchen Wiersma - Author / Jamela M. Martin - Author / Judith Rogers Fruiterman - Author / Roy Brown - Author",
+      "freeSourceUrl": "https://viva.pressbooks.pub/communityhealthnursing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/community-and-public-health-nursing-a-call-to-action"
+    },
+    {
+      "title": "Population Health for Nurses",
+      "author": "Jessica Ochs - Author / Sherry L. Roper - Author / Susan M. Schwartz - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/population-health",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; Medicine - Public Health; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/population-health-for-nurses",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584393-L.jpg"
+    },
+    {
+      "title": "Digital Health for Nursing and Midwifery in Australia",
+      "author": "Jenny Davis - Editor / Lisa McKenna - Editor",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/digital-health-australia/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-health-for-nursing-and-midwifery-in-australia"
+    },
+    {
+      "title": "Neonatal Care Essentials for Nursing and Midwifery",
+      "author": "Jacqui Mcgregor - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/neonatalcareessentials/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/neonatal-care-essentials-for-nursing-and-midwifery"
+    },
+    {
+      "title": "Health Promotion in Health Care – Vital Theories and Research",
+      "author": "Gørill Haugan - Editor / Monica Eriksson - Editor",
+      "freeSourceUrl": "https://link.springer.com/book/10.1007/978-3-030-63135-2?error=cookies_not_supported&code=2df22a69-bdae-4b63-942d-072dd2ffca10",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; Medicine - Public Health; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/health-promotion-in-health-care-vital-theories-and-research",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/978303031352-L.jpg"
+    },
+    {
+      "title": "Psychiatric-Mental Health Nursing",
+      "author": "Rebecca Puchkors - Author / Jeanne Saunders - Author / David Sharp - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/psychiatric-mental-health",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/psychiatric-mental-health-nursing",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584426-L.jpg"
+    },
+    {
+      "title": "Maternal-Newborn Nursing",
+      "author": "Amy Giles - Author / Regina Prusinski - Author / Laura Wallace - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/maternal-newborn-nursing",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/maternal-newborn-nursing",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584433-L.jpg"
+    },
+    {
+      "title": "Clinical Nursing Skills",
+      "author": "Christy Bowen - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/clinical-nursing-skills",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/clinical-nursing-skills",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584501-L.jpg"
+    },
+    {
+      "title": "Pharmacology for Nurses",
+      "author": "Tina Barbour-Taylor - Author / Leah Mueller (Sabato) - Author / Donna Paris - Author / Dorie Weaver - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/pharmacology",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; Medicine - Pharmacology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/pharmacology-for-nurses",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584372-L.jpg"
+    },
+    {
+      "title": "Fundamentals of Nursing",
+      "author": "Christy Bowen - Author / Lindsay Draper - Author / Heather Moore - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/fundamentals-nursing",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-nursing",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584419-L.jpg"
+    },
+    {
+      "title": "Medical-Surgical Nursing",
+      "author": "Christy Bowen - Author / Bridget Carey - Author / Jessica Palozie - Author / Maren Reinholdt - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/medical-surgical-nursing",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/medical-surgical-nursing",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584402-L.jpg"
     }
   ],
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
-  ]
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 32 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 32 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

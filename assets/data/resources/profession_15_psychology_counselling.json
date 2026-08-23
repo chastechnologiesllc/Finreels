@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_15_psychology_counselling",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCQikIOuT7ZqLcyUJOEMq1mQ",
@@ -203,17 +203,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
-      "freeSourceType": "download",
-      "freeSourceNote": "Michael E. Gerber (Free PDF)",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
@@ -223,17 +212,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
-      "freeSourceType": "download",
-      "freeSourceNote": "Eric Ries (Free PDF)",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -310,10 +288,459 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Introduction to Psychology",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://socialsci.libretexts.org/Bookshelves/Psychology/Introductory_Psychology/Introduction_to_Psychology_(LibreTexts)",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-psychology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135131-L.jpg"
+    },
+    {
+      "title": "Principles of Social Psychology",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://socialsci.libretexts.org/Bookshelves/Psychology/Social_Psychology_and_Personality/Principles_of_Social_Psychology_(LibreTexts)",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-social-psychology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135209-L.jpg"
+    },
+    {
+      "title": "Research Methods in Psychology - 4th American Edition",
+      "author": "Carrie Cuttler - Author / Rajiv S. Jhangiani - Author / Dana C. Leighton - Author",
+      "freeSourceUrl": "https://kpu.pressbooks.pub/psychmethods4e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/research-methods-in-psychology-3rd-american-edition",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781999198107-L.jpg"
+    },
+    {
+      "title": "Educational Psychology - Second Edition",
+      "author": "Kelvin Seifert - Author / Rosemary Sutton - Author",
+      "freeSourceUrl": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/educational-psychology"
+    },
+    {
+      "title": "Mind, Body, World: Foundations of Cognitive Science",
+      "author": "Michael R. W. Dawson - Author",
+      "freeSourceUrl": "https://www.aupress.ca/books/120227-mind-body-world/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/mind-body-world-foundations-of-cognitive-science",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781927356173-L.jpg"
+    },
+    {
+      "title": "Psychology - 2e",
+      "author": "Rose Spielman - Author / Kathryn Dumper - Author / William Jenkins - Author / Marilyn D. Lovett - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/psychology-2e",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/psychology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693237-L.jpg"
+    },
+    {
+      "title": "Discover Psychology 2.0: A Brief Introductory Text",
+      "author": "Robert Biswas-Diener - Editor / Ed Diener - Editor",
+      "freeSourceUrl": "https://nobaproject.com/textbooks/discover-psychology-v2-a-brief-introductory-text",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/discover-psychology-2-0-a-brief-introductory-text"
+    },
+    {
+      "title": "Introduction to Psychology: The Full Noba Collection",
+      "author": "Robert Biswas-Diener - Editor / Ed Diener - Editor",
+      "freeSourceUrl": "https://nobaproject.com/textbooks/introduction-to-psychology-the-full-noba-collection",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-psychology-the-full-noba-collection"
+    },
+    {
+      "title": "Together: The Science of Social Psychology",
+      "author": "Robert Biswas-Diener - Editor / Ed Diener - Editor",
+      "freeSourceUrl": "https://nobaproject.com/textbooks/together-the-science-of-social-psychology",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/together-the-science-of-social-psychology"
+    },
+    {
+      "title": "Introduction to Psychology - 1st Canadian Edition",
+      "author": "Jennifer Walinga - Author",
+      "freeSourceUrl": "https://opentextbc.ca/introductiontopsychology/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-psychology-1st-canadian-edition"
+    },
+    {
+      "title": "Research Methods in Psychology - 2nd Canadian Edition",
+      "author": "Rajiv S. Jhangiani - Author / I-Chant A. Chiang - Author",
+      "freeSourceUrl": "https://opentextbc.ca/researchmethods/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/research-methods-in-psychology-2nd-canadian-edition"
+    },
+    {
+      "title": "Lifespan Development: A Psychological Perspective - Fourth Edition",
+      "author": "Martha Lally - Author / Suzanne Valentine-French - Author",
+      "freeSourceUrl": "https://commons.libretexts.org/book/socialsci-183955",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/lifespan-development-a-psychological-perspective"
+    },
+    {
+      "title": "Personality Theory in a Cultural Context",
+      "author": "Mark Kelland - Author",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col11901",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/personality-theory-in-a-cultural-context"
+    },
+    {
+      "title": "General Psychology: An Introduction",
+      "author": "Tori Kearns - Author / Deborah Lee - Author",
+      "freeSourceUrl": "https://oer.galileo.usg.edu/cgi/viewcontent.cgi?article=1000&context=psychology-textbooks",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/general-psychology-an-introduction"
+    },
+    {
+      "title": "Research Methods in Psychology - New Zealand Edition",
+      "author": "Paul C. Price - Author / Rajiv S. Jhangiani - Author",
+      "freeSourceUrl": "https://www.dropbox.com/scl/fo/7wz2ev1ldumtgayxirqxq/AHzVZN_UQagpZUTG3P34EvQ?rlkey=t9mi14lzgbbwtb34uygsm9w40&dl=0",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/research-methods-in-psychology-new-zealand-edition"
+    },
+    {
+      "title": "Introduction to Statistics in the Psychological Sciences",
+      "author": "Linda R. Cote - Author / Rupa Gordon - Author / Chrislyn E. Randell - Author / Judy Schmitt - Author / Rudy Guerra - Author",
+      "freeSourceUrl": "https://umsystem.pressbooks.pub/isps/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-psychological-statistics"
+    },
+    {
+      "title": "Introduction to Community Psychology",
+      "author": "Leonard A. Jason - Author / Olya Glantsman - Author / Jack F. O'Brien - Author",
+      "freeSourceUrl": "https://press.rebus.community/introductiontocommunitypsychology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-community-psychology"
+    },
+    {
+      "title": "Wellbeing in Educational Contexts - Second Edition",
+      "author": "Susan Carter - Author / Cecily Andersen - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/wellbeing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Social Sciences - Psychology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/wellbeing-in-educational-contexts",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780645679649-L.jpg"
+    },
+    {
+      "title": "Child Growth and Development",
+      "author": "Jennifer Paris - Author / Antoinette Ricardo - Author / Dawn Rymond - Author / Alexa Johnson - Editor",
+      "freeSourceUrl": "https://drive.google.com/file/d/1B4e6oKPTFeUE9tXsJMcjsczb6Kj7EfEb/view",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/child-growth-and-development"
+    },
+    {
+      "title": "Psychology: The Science of Human Potential",
+      "author": "Jeffrey Levy - Author",
+      "freeSourceUrl": "https://pressbooks.bccampus.ca/thescienceofhumanpotential/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/psychology-the-science-of-human-potential"
+    },
+    {
+      "title": "The Balance of Personality",
+      "author": "Chris Allen - Author",
+      "freeSourceUrl": "https://pdxscholar.library.pdx.edu/pdxopen/26/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-balance-of-personality"
+    },
+    {
+      "title": "Human Behavior and the Social Environment II",
+      "author": "Whitney Payne - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/humanbehaviorandthesocialenvironment2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/human-behavior-and-the-social-environment-ii-payne"
+    },
+    {
+      "title": "Human Behavior and the Social Environment I",
+      "author": "Susan Tyler - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/hbse1/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/human-behavior-and-the-social-environment-i-tyler"
+    },
+    {
+      "title": "Fundamentals of Psychological Disorders - 3rd edition",
+      "author": "Alexis Bridley - Author / Lee W. Daffin Jr. - Author",
+      "freeSourceUrl": "https://wsu.pressbooks.pub/abnormal-psych/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-psychological-disorders"
+    },
+    {
+      "title": "Interpersonal Communication: A Mindful Approach to Relationships - 2nd Edition",
+      "author": "Jason S. Wrench - Author / Narissra M. Punyanunt-Carter - Author / Katherine S. Thweatt - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/interpersonal-communication-a-mindful-2nd/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; Student Success; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/interpersonal-communication-a-mindful-approach-to-relationships",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781956862225-L.jpg"
+    },
+    {
+      "title": "General Psychology for Honors Students",
+      "author": "Kate Votaw - Author",
+      "freeSourceUrl": "https://irl.umsl.edu/oer/23/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/general-psychology-for-honors-students"
+    },
+    {
+      "title": "Principles of Social Psychology - 1st International Edition",
+      "author": "Rajiv Jhangiani - Author / Hammond Tarry - Author / Charles Stangor - Author",
+      "freeSourceUrl": "https://opentextbc.ca/socialpsychology/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-social-psychology-2014",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781774200155-L.jpg"
+    },
+    {
+      "title": "Human Development",
+      "author": "Human Development Teaching and Learning Group - Author",
+      "freeSourceUrl": "https://pdx.pressbooks.pub/humandevelopment/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/human-development"
+    },
+    {
+      "title": "The Australian Handbook for Careers in Psychological Science",
+      "author": "Tony Machin - Author / Tanya Machin - Author / Carla Jeffries - Author / Nancey Hoare - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/psychologycareers/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-australian-handbook-for-careers-in-psychological-science",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780645326116-L.jpg"
+    },
+    {
+      "title": "Case Studies in Community Psychology Practice: A Global Lens",
+      "author": "Geraldine L. Palmer - Author / Todd L. Rogers - Author / Judah Viola - Author / Maronica Engel - Author",
+      "freeSourceUrl": "https://press.rebus.community/communitypsychologypractice/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/case-studies-in-community-psychology-practice-a-global-lens"
+    },
+    {
+      "title": "Psychologia",
+      "author": "Rose M. Spielman - Author / William J. Jenkins - Author / Marilyn D. Lovett - Author / Joanna Czarnota-Bojarska - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/psychologia-polska",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/psychologia",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9788394883881-L.jpg"
+    },
+    {
+      "title": "Essentials of Exercise and Sport Psychology: An Open Access Textbook",
+      "author": "Zachary Zenko - Editor / Leighton Jones - Editor",
+      "freeSourceUrl": "https://kinesiologybooks.org/index.php/stork/catalog/view/457/796/3715",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/essentials-of-exercise-and-sport-psychology-an-open-access-textbook",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780578932361-L.jpg"
+    },
+    {
+      "title": "Trauma Informed Education",
+      "author": "Govind Krishnamoorthy - Author / Kay Ayre - Author / Dayna Schimke - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/traumainformededucation/open/download?type=print_pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/trauma-informed-education"
+    },
+    {
+      "title": "Common Client Issues in Counselling: An Australian Perspective",
+      "author": "Nathan Beel - Author / Christine Chinchen - Author / Tanya Machin - Author / Carol du Plessis - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/counselling/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/common-client-issues-in-counselling-an-australian-perspective",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780645679601-L.jpg"
+    },
+    {
+      "title": "ReCentering Psych Stats",
+      "author": "Lynette Bikos - Author",
+      "freeSourceUrl": "https://lhbikos.github.io/ReCenterPsychStats/index.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/recentering-psych-stats",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798986876825-L.jpg"
+    },
+    {
+      "title": "Psychology of Human Relations",
+      "author": "Stevy Scarbrough - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/psychologyofhumanrelations/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/psychology-of-human-relations"
+    },
+    {
+      "title": "Psychology of Language",
+      "author": "Dinesh Ramoo - Author / Marie Bartlett - Editor",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/psychology-of-language-bccampus-305/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/psychology-of-language"
+    },
+    {
+      "title": "Neuroscience, Psychology and Conflict Management",
+      "author": "Judith Rafferty - Author",
+      "freeSourceUrl": "https://jcu.pressbooks.pub/neuroscience-psychology-conflict/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/neuroscience-psychology-and-conflict-management"
+    },
+    {
+      "title": "The LEARN Method: An Interactive Guide for Effective Learning",
+      "author": "Karla Lassonde - Author",
+      "freeSourceUrl": "https://minnstate.pressbooks.pub/learnmethod/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-learn-method-an-interactive-guide-for-effective-learning"
+    },
+    {
+      "title": "Lifespan Development",
+      "author": "Diana Riser - Author / Rose Spielman - Author / David Biek - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/lifespan-development",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/lifespan-development",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584532-L.jpg"
+    },
+    {
+      "title": "Open Science: Wie sich die Wissenschaft öffnet",
+      "author": "Lukas Röseler - Author",
+      "freeSourceUrl": "https://zenodo.org/records/14813434",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-science-wie-sich-die-wissenschaft-offnet"
+    },
+    {
+      "title": "Mental Disorders and the Criminal Justice System",
+      "author": "Anne Nichol - Author / Kendra Harding - Author / Monica J. McKirdy - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/mentalcrimjustsys1e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; Social Sciences - Psychology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/mental-disorders-and-the-criminal-justice-system"
+    },
+    {
+      "title": "Understanding Human Development: Prenatal Through Adolescence",
+      "author": "Terese Jones - Author / Christina Belli - Author / Esmeralda Janeth Julyan - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/devpre2ad1e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/understanding-human-development-prenatal-through-adolescence"
+    },
+    {
+      "title": "Educational Psychology",
+      "author": "Nicole Arduini-Van Hoose - Author",
+      "freeSourceUrl": "https://edpsych.pressbooks.sunycreate.cloud/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/educational-psychology-2020"
+    },
+    {
+      "title": "Introduction to Psychology",
+      "author": "Jorden A Cummings - Author / Lee Sanders - Author",
+      "freeSourceUrl": "https://www.saskoer.ca/introductiontopsychology/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-psychology-2019",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780888806376-L.jpg"
+    },
+    {
+      "title": "Memory & Cognition",
+      "author": "Priyanka Mehta - Author",
+      "freeSourceUrl": "https://wisconsin.pressbooks.pub/mem-cog/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/memory-cognition"
+    },
+    {
+      "title": "Manualized CBT for Treating Anxiety",
+      "author": "Michael Campbell - Author / Ashley M Toland - Author / Elizabeth Ruegg - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/socialwork-manualized-cbt/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/manualized-cbt-for-treating-anxiety"
+    },
+    {
+      "title": "Observation and Assessment in Early Childhood Education - Version 1.0",
+      "author": "Gina Peterson - Author / Emily Elam - Author",
+      "freeSourceUrl": "https://commons.libretexts.org/book/socialsci-42484",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/observation-and-assessment-in-early-childhood-education-version-1-0"
     }
   ],
-  "notes": "The founder's own research flagged one Nigerian lead as explicitly unverified: Dr. Sonia, a real, credentialed Lagos-based therapist, is credited (via her own bio on TherapyTribe) with authoring a book titled 'Therapy as a Service'. This session confirmed the bio and credentials are real, but found no publisher, ISBN, purchase link, or free-access link for the book itself anywhere — so per the founder's own instruction to 'confirm before citing', it's still not counted. On blogs: no dedicated business-of-therapy blog was confirmed this round, though privatepracticeskills.com (the channel above) has its own blog worth a closer look in a future pass.",
+  "notes": "The founder's own research flagged one Nigerian lead as explicitly unverified: Dr. Sonia, a real, credentialed Lagos-based therapist, is credited (via her own bio on TherapyTribe) with authoring a book titled 'Therapy as a Service'. This session confirmed the bio and credentials are real, but found no publisher, ISBN, purchase link, or free-access link for the book itself anywhere — so per the founder's own instruction to 'confirm before citing', it's still not counted. On blogs: no dedicated business-of-therapy blog was confirmed this round, though privatepracticeskills.com (the channel above) has its own blog worth a closer look in a future pass. 2026-08-23: Added 48 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 48 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ]
 }

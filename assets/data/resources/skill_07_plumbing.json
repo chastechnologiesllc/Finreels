@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_07_plumbing",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCGIMKh92vaL0_Yc0u4GYhHA",
@@ -276,11 +276,391 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Basics of Fluid Mechanics - ver. 0.7.5",
+      "author": "Genick Bar-Meir - Author",
+      "freeSourceUrl": "https://zenodo.org/records/17328511",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Free Documentation License (GNU)) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Chemical Engineering; Engineering & Technology - Civil Engineering; license: Free Documentation License (GNU); catalog record: https://open.umn.edu/opentextbooks/textbooks/basics-of-fluid-mechanics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781616100940-L.jpg"
+    },
+    {
+      "title": "Fundamentals of Infrastructure Management",
+      "author": "Donald Coffelt - Author / Chris Hendrickson - Author",
+      "freeSourceUrl": "https://kilthub.cmu.edu/articles/book/Fundamentals_of_Infrastructure_Management/5334379/2",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-infrastructure-management"
+    },
+    {
+      "title": "Building Maintenance & Construction: Tools and Maintenance Tasks",
+      "author": "Clifford Rutherford - Author",
+      "freeSourceUrl": "https://pressbooks.oer.hawaii.edu/buildingmaint/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-maintenance-construction-tools-and-maintenance-tasks"
+    },
+    {
+      "title": "Traffic Flow Theory: An introduction with exercises",
+      "author": "Victor L. Knoop - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/203",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/traffic-flow-theory-an-introduction-with-exercises",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463663786-L.jpg"
+    },
+    {
+      "title": "Ports and Waterways: Navigating the changing world",
+      "author": "Mark van Koningsveld - Author / Henk Verheij - Author / Poonam Taneja - Author / Huib de Vriend - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/204",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ports-and-waterways-navigating-the-changing-world",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463664448-L.jpg"
+    },
+    {
+      "title": "Basic Concepts of Structural Design for Architecture Students",
+      "author": "Anahita Khodadadi - Author",
+      "freeSourceUrl": "https://pdxscholar.library.pdx.edu/pdxopen/37/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-concepts-of-structural-design-for-architecture-students"
+    },
+    {
+      "title": "Building Information Modeling using Revit for Architects and Engineers",
+      "author": "Atefe Makhmalbaf - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/buildinginformationmodeling/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-information-modeling-using-revit-for-architects-and-engineers",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648160059-L.jpg"
+    },
+    {
+      "title": "Fracture Mechanics: An Engineering Primer - 2nd Edition",
+      "author": "Michael Janssen - Author / Jan Zuidema - Author / Russell Wanhill - Author",
+      "freeSourceUrl": "https://doi.org/10.59490/tb.86",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fracture-mechanics-an-engineering-primer",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463668187-L.jpg"
+    },
+    {
+      "title": "Structural Dynamics",
+      "author": "Hilmi Luş - Author / Sinan Keten - Author",
+      "freeSourceUrl": "https://arch.library.northwestern.edu/concern/generic_works/gx41mj48g",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/structural-dynamics"
+    },
+    {
+      "title": "Fundamentals of Math, Physics, and Statistics for Future Transportation Professionals",
+      "author": "Anurag Pande - Author / Peyton Ratto - Author / Ahmed Farid - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/oert-mpsfundamentals/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-math-physics-and-statistics-for-future-transportation-professionals"
+    },
+    {
+      "title": "Sustainable Mobility",
+      "author": "Shams Tanvir - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/sustainablemobility/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sustainable-mobility"
+    },
+    {
+      "title": "Dynamic data processing: Recursive least-squares",
+      "author": "Peter J.G. Teunissen - Author",
+      "freeSourceUrl": "https://doi.org/10.59490/tb.98",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/dynamic-data-processing-recursive-least-squares",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463669177-L.jpg"
+    },
+    {
+      "title": "Network quality control",
+      "author": "Peter J.G. Teunissen - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/181",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/network-quality-control",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463669504-L.jpg"
+    },
+    {
+      "title": "Grasduinen in waterbouw",
+      "author": "Tjerk Zitman - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/234",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/grasduinen-in-waterbouw",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789465181516-L.jpg"
+    },
+    {
+      "title": "The Design of the Built Environment: The University of Illinois Urbana-Champaign Campus and Its Context",
+      "author": "Kevin J Hinders - Author",
+      "freeSourceUrl": "https://iopn.library.illinois.edu/books/windsor-downs/catalog/book/31",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-design-of-the-built-environment-the-university-of-illinois-urbana-champaign-campus-and-its-context"
+    },
+    {
+      "title": "Digital approaches to building measurement: Standards, tools and techniques",
+      "author": "Argaw Gurmu - Author / Nilupa Udawatta - Author / Gayani Karunasena - Author / Reza Taban - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/buildingmeasurementapproaches/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-approaches-to-building-measurement-standards-tools-and-techniques"
+    },
+    {
+      "title": "Elements of Plumbing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25269",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #25269; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hand-book of Sanitary Information for Householders\r\nContaining facts and suggestions about ventilation, drainage, care of contageous diseases, disinfection, food, and water. With appendices on disinfectants and plumbers' materials.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67768",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67768; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "History of the Water Supply of the World\r\narranged in a comprehensive form from eminent authorities, containing a description of the various methods of water supply, pollution and purification of waters, and sanitary effects, with analyses of potable waters, also geology and water strata of Hamilton county, Ohio, statistics of the Ohio river, proposed water supply of Cincinnati.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66130",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66130; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Maxims and Instructions for the Boiler Room\nUseful to Engineers, Firemen & Mechanics; Relating to Steam Generators, Pumps, Appliances, Steam Heating, Practical Plumbing, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53139",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53139; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Simple Plumbing Repairs for the Home and Farmstead",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59381",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59381; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Simple Plumbing Repairs in the Home",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62592",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62592; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Art of Confectionary\r\nShewing the Various Methods of Preserving All Sorts of Fruits, Dry and Liquid; viz. Oranges, Lemons, Citrons, Golden Pippins, Wardens, Apricots Green, Almonds, Goosberries, Cherries, Currants, Plumbs, Rasberries, Peaches, Walnuts, Nectarines, Figs, Grapes, &amp;c., Flowers and Herbs; as Violets, Angelica, Orange-Flowers, &amp;c.; Also How to Make All Sorts of Biscakes, Maspins, Sugar-Works, and Candies. With the Best Methods of Clarifying, and the Different Ways of Boiling Sugar.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30121",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30121; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Sugar-Plumb\nor, Golden Fairing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23649",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #23649; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Special Mortality among Infants at Loughton, in the Epping Rural Sanitary District",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53863",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53863; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Bad Drains; and How to Test Them\r\nWith notes on the ventilation of sewers, drains, and sanitary fittings, and the origin and transmission of zymotic disease",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60721",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60721; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Drug Supplies in the American Revolution",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27076",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #27076; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Epidemics Resulting from Wars",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59822",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59822; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hospital transports",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52122",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52122; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "London (Ancient and Modern) from the Sanitary and Medical Point of View",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54904",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54904; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Mechanics of the Household\nA Course of Study Devoted to Domestic Machinery and Household Mechanical Appliances",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50846",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50846; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Medical Sketches of the Expedition to Egypt, from India",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57535",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57535; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Napoleon's Campaign in Russia, Anno 1812; Medico-Historical",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7973",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #7973; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Report of the Sanitary Committee of the Commissioners of Sewers of the City of London, together with a report of the Medical Officer of Health on the objections raised by the Butchers' Trade Society to the bye-laws proposed for the regulation of slaughter-houses",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67634",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67634; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Report to Her Majesty's Principal Secretary of State For the Home Department, from the Poor Law Commissioners, on an Inquiry Into the Sanitary Condition of the Labouring Population of Great Britain; With Appendices",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65090",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65090; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Reports Relating to the Sanitary Condition of the City of London",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54622",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54622; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Sanitary and Social Lectures and Essays",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/1637",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #1637; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Sanitary Statistics of Native Colonial Schools and Hospitals",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52653",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52653; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The cremation of the dead\r\nconsidered from an aesthetic, sanitary, religious, historical, medico-legal, and economical standpoint",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54176",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54176; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Dwelling House",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47970",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #47970; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The horrors of Wittenberg",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78203",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #78203; matched practical keyword rule from title/subject metadata."
     }
   ],
   "integrationNotes": "All 10 channel IDs live-verified via YouTube fetch (2026-07-21). Key corrections from CSV: (1) @PlumbingAfrica replaced with Million Dollar Plumber — no YouTube channel at that handle; (2) @PropelAKenya replaced — PropelA is a Swisscontact/Hilti Foundation programme with no dedicated YouTube channel; (3) @TheExpertPlumber removed — this is Roger Wakefield's title, not a separate channel (duplicate); (4) @PlumbingWithTim handle corrected to @PLUMBINGWITHTIM (all caps); (5) @HustleCareKenya, @PesabookKenya, @PlumbingBusinessCoach, @NigerianPlumbersAssoc all replaced — no verified YouTube channels found at those handles. Replacements sourced from FieldEdge's 2026 curated list of channels plumbing business owners actually learn from. Blog corrections: 1xportal.com → 1xportalhub.com.ng; plumbingafrica.com → plumbingafrica.co.za. Book corrections: f5fp.com and bdebooks.com replaced with legitimate author/publisher sources; archive.org links replaced with official sites where available.\n\nBooks audit (2026-07-30): 3 of 10 URLs fixed in this pass (skill_07). 'The E-Myth Revisited': https://books.google.com/books?id=SHi_fU0AlO0C... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber | 'Profit First': https://www.mikemichalowicz.com/profit-first-book... → https://archive.org/details/profitfirst0000mich | 'Small Business Management': https://openstax.org/details/books/small-business-management... → https://openstax.org/details/books/principles-management",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
-  ]
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Review the 16 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI.",
+    "2026-08-23: Review the 25 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ],
+  "notes": "2026-08-23: Added 16 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 25 selected Project Gutenberg public-domain non-fiction records to the General collection."
 }

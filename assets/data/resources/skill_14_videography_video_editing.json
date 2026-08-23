@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_14_videography_video_editing",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC0rQarbogLMw7JmIxRba_cw",
@@ -219,16 +219,6 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781619613348-L.jpg"
     },
     {
-      "title": "The Lean Startup (free)",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free copy hosted on a third-party book site — worth a direct-download check before shipping.",
-      "verifiedOn": "2026-07-20",
-      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The Lean Startup.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
-    },
-    {
       "title": "The Personal MBA (free)",
       "author": "Josh Kaufman",
       "freeSourceUrl": "https://archive.org",
@@ -237,16 +227,6 @@
       "verifiedOn": "2026-07-20",
       "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The Personal MBA.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
-    },
-    {
-      "title": "The E-Myth Revisited (free PDF)",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF of the well-known small-business-systems book, hosted on a third-party site — worth a direct-download check before shipping.",
-      "verifiedOn": "2026-07-20",
-      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The E-Myth Revisited.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
     },
     {
       "title": "Profit First (free resources)",
@@ -277,10 +257,282 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735214149-L.jpg"
+    },
+    {
+      "title": "A Camera Actress in the Wilds of Togoland\r\nThe adventures, observations & experiences of a cinematograph actress in West African forests whilst collecting films depicting native life and when posing as the white woman in Anglo-African cinematograph dramas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45442",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45442; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "How I Filmed the War\r\nA Record of the Extraordinary Experiences of the Man Who Filmed the Great Somme Battles, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30285",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30285; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion Picture Operation, Stage Electrics and Illusions\r\nA Practical Hand-book and Guide for Theater Electricians, Motion Picture Operators and Managers of Theaters and Productions",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45231",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45231; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1970",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63357",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63357; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1971",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63066",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63066; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1972",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65190",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65190; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1978",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78638",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #78638; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion Pictures, 1894-1912\r\nIdentified from the Records of the United States Copyright Office",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56966",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56966; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The film",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71747",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71747; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Science of Animal Locomotion (Zoopraxography)\r\nAn Electro-Photographic Investigation of Consecutive Phases of Animal Movements",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39998",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39998; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Tinting and toning of Eastman positive motion picture film",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70417",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70417; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A-B-C of motion pictures",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74971",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74971; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Advertising by motion pictures",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70188",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70188; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Animated cartoons",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73455",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73455; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Behind the Screen",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59730",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59730; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Breaking into the movies",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56570",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56570; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Judge Ben B. Lindsey on the child—the movie—and censorship",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/79231",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #79231; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Magic Shadows: The Story of the Origin of Motion Pictures",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64578",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64578; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Moral Deliberations in Modern Cinema",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8422",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #8422; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion Picture Directing: The Facts and Theories of the Newest Art",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53117",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53117; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures, 1912-1939",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51836",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51836; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures, 1940-1949",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58237",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58237; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures, 1950-1959 : Catalog of copyright entries",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59656",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59656; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures, 1960-1969",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44621",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44621; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures, 1973",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66625",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66625; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures, 1974 : Catalog of copyright entries, third series, volume 28, parts 12-13",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/72054",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #72054; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures, 1975 : Catalog of copyright entries, third series, volume 29, parts 12-13",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74885",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74885; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures, 1976",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76915",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76915; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motion pictures, 1977",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77697",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #77697; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Moving Pictures: How They Are Made and Worked",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67972",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67972; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "2026-07-20: Merged in the founder-provided 'videography_video_editing_resources.csv' (Section I.14), bringing the file from 2 channels / 0 blogs / 0 books to a full 10 / 10 / 10. One CSV channel — Truehost — could not be matched to a real, dedicated YouTube channel (real, active company and blog, no confirmed channel); its blog was kept with a corrected domain (truehost.com → truehost.com.ng). Two channels — Peter McKinnon and Parker Walbeck — are the same, already-verified channels used for skill_13 (Photography) this week, cross-tagged here since the source directory explicitly frames their content as video-business-relevant for this category too; a third overlapping candidate, Gerald Undone, was left out to keep the total at exactly 10 (he remains listed for skill_13). The Beverly Boy Productions channel/blog turned out to be a US company (West Palm Beach, FL), not the Lagos/Abuja freelancer the source directory described — likely a data-entry mismatch in the source CSV, included as the verified real entity instead.",
+  "notes": "2026-07-20: Merged in the founder-provided 'videography_video_editing_resources.csv' (Section I.14), bringing the file from 2 channels / 0 blogs / 0 books to a full 10 / 10 / 10. One CSV channel — Truehost — could not be matched to a real, dedicated YouTube channel (real, active company and blog, no confirmed channel); its blog was kept with a corrected domain (truehost.com → truehost.com.ng). Two channels — Peter McKinnon and Parker Walbeck — are the same, already-verified channels used for skill_13 (Photography) this week, cross-tagged here since the source directory explicitly frames their content as video-business-relevant for this category too; a third overlapping candidate, Gerald Undone, was left out to keep the total at exactly 10 (he remains listed for skill_13). The Beverly Boy Productions channel/blog turned out to be a US company (West Palm Beach, FL), not the Lagos/Abuja freelancer the source directory described — likely a data-entry mismatch in the source CSV, included as the verified real entity instead. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 30 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
-    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 30 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

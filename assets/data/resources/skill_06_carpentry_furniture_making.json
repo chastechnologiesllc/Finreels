@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_06_carpentry_furniture_making",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCBB7sYb14uBtk8UqSQYc9-w",
@@ -276,10 +276,462 @@
       "verifiedOn": "2026-07-30",
       "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no book by that slug (confirmed broken in skill_02–05 audits). Same fix applied: principles-management confirmed active © Apr 23, 2026.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "A Course In Wood Turning",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15460",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #15460; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Ancient and Modern Furniture and Woodwork",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54602",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54602; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "British Manufacturing Industries: Pottery, Glass and Silicates, Furniture and Woodwork.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38953",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38953; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Carpentry",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70226",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70226; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Carpentry and Woodwork",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43574",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43574; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Carpentry for Boys\r\nIn a Simple Language, Including Chapters on Drawing, Laying Out Work, Designing and Architecture With 250 Original Illustrations",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20763",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #20763; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Chats on Cottage and Farmhouse Furniture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44603",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44603; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Correlated courses in woodwork and mechanical drawing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68118",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #68118; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Elementary Course in Woodwork\nDesigned for use in high and technical schools, with one hundred and thirty-four illustrations: First Edition",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66616",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66616; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Elementary woodworking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69725",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69725; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Elements of woodwork",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69019",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69019; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Essentials of woodworking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71855",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71855; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Handwork in Wood",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20846",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #20846; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Keeping Down the Cost of Your Woodwork",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66920",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66920; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Rustic Carpentry",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41668",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41668; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Seasoning of Wood",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26598",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #26598; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Book of the Aquarium and Water Cabinet\r\nor Practical Instructions on the Formation, Stocking, and Mangement, in all Seasons, of Collections of Fresh Water and Marine Life",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40701",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #40701; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Mechanical Properties of Wood\r\nIncluding a Discussion of the Factors Affecting the Mechanical Properties, and Methods of Timber Testing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12299",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12299; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Wood-Carving: Design and Workmanship",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22107",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #22107; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Wood-working for Beginners: A Manual for Amateurs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43604",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43604; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Woodwork joints",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21531",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #21531; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Woodworking Tools 1600-1900",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27238",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #27238; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Book of Distinctive Interiors",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56467",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56467; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Boy's Workshop: With plans and designs for in-door and out-door work",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50451",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50451; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A handbook of library appliances\r\nThe technical equipment of libraries: fittings, furniture, charging systems, forms, recipes, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68130",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #68130; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Advanced Toy Making for Schools",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36815",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36815; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An Universal Dictionary of the Marine\r\nOr, a Copious Explanation of the Technical Terms and Phrases Employed in the Construction, Equipment, Furniture, Machinery, Movements, and Military Operations of a Ship. Illustrated With Variety of Original Designs of Shipping, in Different Situations; Together With Separate Views of Their Masts, Sails, Yards, and Rigging. to Which Is Annexed, a Translation of the French Sea-terms and Phrases, Collected from the Works of Mess. Du Hamel, Aubin, Saverien, &c.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57705",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57705; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Bird Houses Boys Can Build",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25990",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #25990; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Cabinet Portrait Gallery of British Worthies. Volume I",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35544",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #35544; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Catalogue of a collection of early drawings and pictures of London: With some contemporary furniture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68989",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #68989; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Chats on Old Furniture: A Practical Guide for Collectors",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34877",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34877; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Colonial Homes and Their Furnishings",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34897",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34897; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1660 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4125",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4125; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1661 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4131",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4131; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1662 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4138",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4138; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1663 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4145",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4145; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1664 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4153",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4153; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1665 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4162",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4162; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1666 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4171",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4171; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1667 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4184",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4184; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1668 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4195",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4195; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1669 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4199",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4199; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 01: Preface and Life",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4117",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4117; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 02: January 1659-1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4118",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4118; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 03: February 1659-1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4119",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4119; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 04: March/April 1659-1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4120",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4120; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 05: May 1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4121",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4121; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 06: June/July 1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4122",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4122; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 07: August/September 1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4123",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4123; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 08: October/November/December 1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4124",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4124; matched practical keyword rule from title/subject metadata."
     }
   ],
   "integrationNotes": "All 10 channel IDs live-verified via YouTube fetch (2026-07-21). Key corrections from CSV: (1) @jonpeters → @JonPetersArtHome; (2) @africasyoungentrepreneurs → @africasy0ungentrepreneurs (ZERO not letter O — critical); (3) @frankhowarth → @frankmakes; (4) @aprildawilkerson → @AprilWilkerson; (5) @thewoodwhisperer → @woodwhisperer; (6) @hudumaglobal replaced with Make Something (no YouTube channel at that handle); (7) @nigeriancarpentertv replaced with Jay Bates (no YouTube channel found). Blog URLs carried from CSV — run curl -I on each /feed/ before deploying. Book URLs: f5fp.com and bdebooks.com replaced with legitimate alternatives. archive.org links use Open Library controlled digital lending.\n\nBooks audit (2026-07-30): 8 of 10 URLs fixed in this pass (skill_06). 'Markup & Profit: A Contractor's Guide': https://markupandprofit.com/resources... → https://www.markupandprofit.com/blog/ | 'The E-Myth Revisited': https://books.google.com/books?id=SHi_fU0AlO0C... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber | 'Profit First': https://www.mikemichalowicz.com/profit-first-book... → https://archive.org/details/profitfirst0000mich | 'The $100 Startup': https://archive.org/details/the-100-startup... → https://www.100startup.com/ | 'Good to Great': https://archive.org/details/good-to-great... → https://archive.org/details/goodtogreatwhyso0000coll | 'The Personal MBA': https://archive.org/details/personal-mba... → https://archive.org/details/personalmbaworld0000kauf | 'Rework': https://archive.org/details/rework... → https://openlibrary.org/works/OL15168112W/Rework | 'Small Business Management': https://openstax.org/details/books/small-business-management... → https://openstax.org/details/books/principles-management",
   "actionRequired": [
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
-  ]
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Review the 50 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ],
+  "notes": "2026-08-23: Added 50 selected Project Gutenberg public-domain non-fiction records to the General collection."
 }

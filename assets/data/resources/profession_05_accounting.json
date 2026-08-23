@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_05_accounting",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCOVYQamvkiM8_aCGw6nQ7xg",
@@ -205,16 +205,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free PDF at f5fp.com — build business systems so your accounting practice runs without you",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free PDF confirmed at f5fp.com. Foundational text on the technician-to-business-owner transition — directly applicable to healthcare/professional-service entrepreneurs.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -223,16 +213,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Free chapter confirmed at mikemichalowicz.com. Recommended by professional practice coaches and healthcare business advisors.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup/",
-      "freeSourceType": "web",
-      "freeSourceNote": "Free at bdebooks.com — test and validate your accounting business model before committing capital",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Free access confirmed at bdebooks.com. Applies to launching new practice models, service lines, or professional consulting branches.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -303,10 +283,190 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Accounting in the Finance World",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://biz.libretexts.org/Bookshelves/Accounting/Accounting_in_the_Finance_World",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/financial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135100-L.jpg"
+    },
+    {
+      "title": "Money and Banking",
+      "author": "Robert E. Wright - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Money%20and%20Banking.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/money-and-banking",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780982043080-L.jpg"
+    },
+    {
+      "title": "Beginning Excel 2019",
+      "author": "Noreen Brown - Author / Barbara Lave - Author / Julie Romey - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/beginningexcel19/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/beginning-excel"
+    },
+    {
+      "title": "Managerial Accounting",
+      "author": "Kurt Heisinger - Author / Joe Hoyle - Author",
+      "freeSourceUrl": "https://resources.saylor.org/wwwresources/archived/site/textbooks/Managerial%20Accounting.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/managerial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453345290-L.jpg"
+    },
+    {
+      "title": "Introduction to Financial Accounting - 2024-A-D",
+      "author": "David Annand - Author / Henry Dauderis - Author / Tilly Jensen - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/introduction-to-financial-accounting-2024-a-d-vretta-lyryx-inc-445/#question-4",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-financial-accounting"
+    },
+    {
+      "title": "Accounting Principles: A Business Perspective",
+      "author": "Roger H. Hermanson - Author / James D. Edwards - Author / Michael W. Maher - Author",
+      "freeSourceUrl": "https://openlibrary.ecampusontario.ca/item-details/?id=7eb265b3-f8b7-431c-bc1b-12e512f26f17#/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/accounting-principles-a-business-perspective"
+    },
+    {
+      "title": "Intermediate Financial Accounting - 2021-A Volume 1",
+      "author": "Glenn Arnold - Author / Suzanne Kyle - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/intermediate-financial-accounting-volume-1-2021a-lyryx-166/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-1"
+    },
+    {
+      "title": "Intermediate Financial Accounting - 2021-A Volume 2",
+      "author": "Glenn Arnold - Author / Suzanne Kyle - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/intermediate-financial-accounting-volume-2-2021a-lyryx-167/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-2"
+    },
+    {
+      "title": "Financial Strategy for Public Managers",
+      "author": "Sharon Kioko - Author / Justin Marlowe - Author",
+      "freeSourceUrl": "https://uw.pressbooks.pub/financialstrategy/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/financial-strategy-for-public-managers"
+    },
+    {
+      "title": "Principles of Financial Accounting",
+      "author": "Christine Jonick - Author",
+      "freeSourceUrl": "https://web.ung.edu/media/university-press/Principles-of-Financial-Accounting.pdf?t=1542408454385",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-financial-accounting"
+    },
+    {
+      "title": "Introduction to Financial Accounting: U.S. GAAP Adaptation - 2021-A",
+      "author": "David Annand - Author / Donna Marchand - Author / Henry Dauderis - Author",
+      "freeSourceUrl": "https://oer.usk.ac.id/files/original/9166224f9de5ddaa52c8902c2cd8af5e.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-financial-accounting-u-s-gaap-adaptation"
+    },
+    {
+      "title": "Principles of Accounting Volume 1 Financial Accounting",
+      "author": "Contributing Authors - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-financial-accounting",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-accounting-volume-1-financial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172678-L.jpg"
+    },
+    {
+      "title": "Principles of Accounting Volume 2 Managerial Accounting",
+      "author": "Contributing Authors - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-managerial-accounting",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-accounting-volume-2-managerial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172593-L.jpg"
+    },
+    {
+      "title": "Principles of Managerial Accounting",
+      "author": "Christine Jonick - Author",
+      "freeSourceUrl": "https://web.ung.edu/media/university-press/Principles%20of%20Managerial%20Accounting.pdf?t=1661449521181",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-fo-managerial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781940771458-L.jpg"
+    },
+    {
+      "title": "Sistema de Costos por Órdenes de Producción para PYMES",
+      "author": "Rosa Verónica Núñez-Liberio - Author / Marco Vinicio Suarez-Núñez - Author / Cecilia Mercedes Navarrete-Zambrano - Author / Silvana Elizabeth Ruiz-López - Author / Patricia Yajaira Almenaba-Guerrero - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/view/26/43/137",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sistema-de-costos-por-ordenes-de-produccion-para-pymes"
+    },
+    {
+      "title": "Principles of Strategic Management Accounting",
+      "author": "Stijn Masschelein - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/principles-strategic-management-accounting/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-strategic-management-accounting"
+    },
+    {
+      "title": "Financial and Managerial Accounting",
+      "author": "Lolita Paff - Author",
+      "freeSourceUrl": "https://psu.pb.unizin.org/acctg211/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/financial-and-managerial-accounting"
+    },
+    {
+      "title": "Gateway to Business Analytics with Microsoft Excel®",
+      "author": "Humberto Barreto - Author",
+      "freeSourceUrl": "https://pressbooks.palni.org/gatewaytobusinessanalytics/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/gateway-to-business-analytics-with-microsoft-excel"
+    },
+    {
+      "title": "The Most EXCELlent OER Spreadsheets Textbook Published (in 2025)",
+      "author": "Marcus Lacher - Author",
+      "freeSourceUrl": "https://minnstate.pressbooks.pub/spreadsheets2025/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-most-excellent-oer-spreadsheets-textbook-published-in-2025"
     }
   ],
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
-  ]
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 19 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 19 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

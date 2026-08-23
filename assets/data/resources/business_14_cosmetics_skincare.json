@@ -2,7 +2,7 @@
   "categoryId": "business_14",
   "profession": "Cosmetics & Skincare",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCzJIliq68IHSn-Kwgjeg2AQ",
@@ -179,16 +179,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited (Summary)",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Book summary PDF hosted by F5 Financial Planning. Build systems that work without you.",
-      "verifiedOn": "2026-07-21",
-      "verificationMethod": "URL confirmed via Google search index. Note: this is a summary/notes PDF, not the full commercially-sold book.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -277,11 +267,94 @@
       "verifiedOn": "2026-07-21",
       "verificationMethod": "NAFDAC (nafdac.gov.ng) is the confirmed official Nigerian government website. Cosmetics section confirmed via search.",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NAFDAC_Logo.png/220px-NAFDAC_Logo.png"
+    },
+    {
+      "title": "Plastic and cosmetic surgery",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73452",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73452; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Art of Perfumery, and Methods of Obtaining the Odors of Plants\r\nWith Instructions for the Manufacture of Perfumes for the Handkerchief, Scented Powders, Odorous Vinegars, Dentifrices, Pomatums, Cosmetics, Perfumed Soap, Etc., to which is Added an Appendix on Preparing Artificial Fruit-Essences, Etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/16378",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #16378; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Complete Distiller\r\nContaining, I. The method of performing the various processes of distillation, with descriptions of the several instruments: the whole doctrine of fermentation: the manner of drawing spirits from malt, raisins, molasses, sugar, &c. and of rectifying them: with instructions for imitating, to the greatest perfection, both the colour and flavour of French brandies. II. The manner of distilling all kinds of simple waters from plants, flowers, &c. III. The method of making all the compound waters and rich cordials so largely imported from France and Italy; as likewise all those now made in Great Britain. To which are added, accurate descriptions of the several drugs, plants, flowers, fruits, &c. used by distillers, and instructions for chusing the best of each kind...",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65020",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65020; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Toilet of Flora\r\nor, A collection of the most simple and approved methods of preparing baths, essences, pomatums, powders, perfumes, and sweet-scented waters. With receipts for cosmetics of every kind, that can smooth and brighten the skin, give force to beauty, and take off the appearance of old age and decay",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44276",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44276; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A practical treatise on the manufacture of perfumery",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50139",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50139; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "My secrets of beauty",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76421",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76421; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Perfumes and their preparation",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55735",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #55735; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Ladies Book of Useful Information\nCompiled from many sources",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26368",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #26368; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Woman Beautiful; or, The Art of Beauty Culture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23750",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #23750; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nCosmetics had the most globally strong channels (Huda Beauty, Jackie Aina, Hyram, Chemist Confessions, Dr. Dray, Lisa Eldridge, Lab Muffin) all confirmed. Slots 9 and 10 (House of Tara, NAFDAC Nigeria) have handles confirmed from independent sources but channel IDs need API resolution — these are the most Nigeria-specific and business-relevant entries in this category. Beauty Independent (blog only), Cosmetic Design Africa (blog only), NAFDAC Nigeria (government site) could not be confirmed as active YouTube channels through search — replaced with the above.",
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nCosmetics had the most globally strong channels (Huda Beauty, Jackie Aina, Hyram, Chemist Confessions, Dr. Dray, Lisa Eldridge, Lab Muffin) all confirmed. Slots 9 and 10 (House of Tara, NAFDAC Nigeria) have handles confirmed from independent sources but channel IDs need API resolution — these are the most Nigeria-specific and business-relevant entries in this category. Beauty Independent (blog only), Cosmetic Design Africa (blog only), NAFDAC Nigeria (government site) could not be confirmed as active YouTube channels through search — replaced with the above. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 9 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 9 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

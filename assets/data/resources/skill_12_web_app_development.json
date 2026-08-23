@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_12_web_app_development",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCFh7FvnJ_0sVP4V0rZe6AaA",
@@ -200,16 +200,6 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781328972354-L.jpg"
     },
     {
-      "title": "The Web Dev's Guide to Freelancing (free)",
-      "author": "Ashley Allen",
-      "freeSourceUrl": "https://free-ebooks.net",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free copy hosted on a third-party ebook site — worth a direct-download check before shipping.",
-      "verifiedOn": "2026-07-20",
-      "verificationMethod": "Source directory entry; author is the credited author of The Web Dev's Guide to Freelancing.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
-    },
-    {
       "title": "Going IT Alone (free)",
       "author": "Leon Brown",
       "freeSourceUrl": "https://archive.org",
@@ -230,16 +220,6 @@
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
     },
     {
-      "title": "The E-Myth Revisited (free PDF)",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/e-myth-revisited-free-pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF of the well-known small-business-systems book, hosted on a third-party site — worth a direct-download check before shipping.",
-      "verifiedOn": "2026-07-20",
-      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The E-Myth Revisited.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First (free resources)",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -248,16 +228,6 @@
       "verifiedOn": "2026-07-20",
       "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup (free)",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/the-lean-startup",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free copy hosted on a third-party book site — worth a direct-download check before shipping.",
-      "verifiedOn": "2026-07-20",
-      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The Lean Startup.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "The Personal MBA (free)",
@@ -278,11 +248,1053 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Information Systems - A Manager's Guide to Harnessing Technology",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://biz.libretexts.org/Bookshelves/Management/Book%3A_Information_Systems__A_Managers_Guide_to_Harnessing_Technology",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/information-systems-a-manager-s-guide-to-harnessing-technology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135124-L.jpg"
+    },
+    {
+      "title": "Programming Languages: Application and Interpretation - Version Second Edition",
+      "author": "Shriram Krishnamurthi - Author",
+      "freeSourceUrl": "https://cs.brown.edu/courses/cs173/2012/book/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/programming-languages-application-and-interpretation"
+    },
+    {
+      "title": "Think Python: How to Think Like a Computer Scientist - 2e",
+      "author": "Allen B. Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/thinkpython2/html/index.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/think-python-how-to-think-like-a-computer-scientist",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781491939369-L.jpg"
+    },
+    {
+      "title": "How to Think Like a Computer Scientist: Learning with Python",
+      "author": "Allen Downey - Author / Jeff Elkner - Author / Chris Meyers - Author",
+      "freeSourceUrl": "https://www.greenteapress.com/thinkpython/thinkCSpy/html/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/how-to-think-like-a-computer-scientist-learning-with-python"
+    },
+    {
+      "title": "Physical Modeling in MATLAB - Version 4.0",
+      "author": "Allen Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/wp/physical-modeling-in-matlab/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/physical-modeling-in-matlab"
+    },
+    {
+      "title": "The Little Book of Semaphores",
+      "author": "Allen B. Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/wp/semaphores/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-little-book-of-semaphores"
+    },
+    {
+      "title": "Programming Fundamentals - A Modular Structured Approach using C++",
+      "author": "Kenneth Leroy Busbee - Author",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col10621",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/programming-fundamentals-a-modular-structured-approach-using-c"
+    },
+    {
+      "title": "Algorithms and Data Structures With Applications to Graphics and Geometry",
+      "author": "Jurg Nievergelt - Author / Klaus Hinrichs - Author",
+      "freeSourceUrl": "https://www.dropbox.com/scl/fo/rc11usa0l6c3h2amerzrv/AOWDq0yrfKhKKDN-Kw8h_RY?preview=algorithms+and+data+structures.pdf&rlkey=2bd9iq6cijo7niyw8zk72j2i4&dl=0",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/algorithms-and-data-structures-with-applications-to-graphics-and-geometry"
+    },
+    {
+      "title": "Operating Systems and Middleware: Supporting Controlled Interaction",
+      "author": "Max Hailperin - Author",
+      "freeSourceUrl": "https://ia902302.us.archive.org/27/items/osm-rev1.2/osm-rev1.2.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/operating-systems-and-middleware-supporting-controlled-interaction"
+    },
+    {
+      "title": "Foundations of Computation",
+      "author": "Carol Critchlow - Author / David Eck - Author",
+      "freeSourceUrl": "https://math.hws.edu/FoundationsOfComputation/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-computation"
+    },
+    {
+      "title": "Open Data Structures: An Introduction",
+      "author": "Pat Morin - Author",
+      "freeSourceUrl": "https://www.aupress.ca/books/120226-open-data-structures/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-data-structures-an-introduction",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781927356388-L.jpg"
+    },
+    {
+      "title": "The Missing Link: An Introduction to Web Development and Programming",
+      "author": "Michael Mendez - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=980",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-missing-link-an-introduction-to-web-development-and-programming",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781502447968-L.jpg"
+    },
+    {
+      "title": "Java, Java, Java: Object-Oriented Problem Solving",
+      "author": "Ralph Morelli - Author / Ralph Walde - Author",
+      "freeSourceUrl": "https://www.cs.trincoll.edu/~ram/jjj/jjj-os-20170625.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/java-java-java-object-oriented-problem-solving"
+    },
+    {
+      "title": "Digital Circuit Projects: An Overview of Digital Circuits Through Implementing Integrated Circuits",
+      "author": "Charles W. Kann - Author",
+      "freeSourceUrl": "https://cupola.gettysburg.edu/oer/1/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-circuit-projects-an-overview-of-digital-circuits-through-implementing-integrated-circuits"
+    },
+    {
+      "title": "Introduction to the Modeling and Analysis of Complex Systems",
+      "author": "Hiroki Sayama - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1116",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-the-modeling-and-analysis-of-complex-systems",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341093-L.jpg"
+    },
+    {
+      "title": "Spatial Thinking in Planning Practice: An Introduction to GIS",
+      "author": "Yiping Fang - Author / Vivek Shandas - Author / Eugenio Arriaga Cordero - Author",
+      "freeSourceUrl": "https://pdxscholar.library.pdx.edu/pdxopen/4/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/spatial-thinking-in-planning-practice-an-introduction-to-gis",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781312778986-L.jpg"
+    },
+    {
+      "title": "Fast Fourier Transforms",
+      "author": "C. Sidney Burrus - Author",
+      "freeSourceUrl": "https://openstax.org",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fast-fourier-transforms"
+    },
+    {
+      "title": "Think Java: How To Think Like a Computer Scientist - 2e",
+      "author": "Chris Mayfield - Author / Allen Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/wp/think-java-2e/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/think-java-how-to-think-like-a-computer-scientist",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781491929568-L.jpg"
+    },
+    {
+      "title": "Think Stats: Probability and Statistics for Programmers - 2e",
+      "author": "Allen B. Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/thinkstats2/html/index.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/think-stats-probability-and-statistics-for-programmers",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781491907337-L.jpg"
+    },
+    {
+      "title": "Think Bayes: Bayesian Statistics Made Simple",
+      "author": "Allen B. Downey - Author",
+      "freeSourceUrl": "https://www.greenteapress.com/thinkbayes/html/index.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/think-bayes-bayesian-statistics-made-simple",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781449370787-L.jpg"
+    },
+    {
+      "title": "Think Complexity: Exploring Complexity Science with Python - 2e",
+      "author": "Allen B. Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/complexity2/html/index.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/think-complexity-exploring-complexity-science-with-python",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781492040200-L.jpg"
+    },
+    {
+      "title": "Think DSP: Digital Signal Processing in Python",
+      "author": "Allen B. Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/thinkdsp/html/index.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/think-dsp-digital-signal-processing-in-python",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781491938454-L.jpg"
+    },
+    {
+      "title": "Squeak by Example",
+      "author": "Andrew P. Black - Author / Stéphane Ducasse - Author / Oscar Nierstrasz - Author / Damien Pollet - Author",
+      "freeSourceUrl": "https://pdxscholar.library.pdx.edu/compsci_fac/110/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/squeak-by-example",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783952334102-L.jpg"
+    },
+    {
+      "title": "Pharo by Example 5.0",
+      "author": "Stéphane Ducasse - Author / Dmitri Zagidulin - Author / Nicolai Hess - Author / Dimitris Chloupis - Author",
+      "freeSourceUrl": "https://books.pharo.org/updated-pharo-by-example/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/pharo-by-example-5-0",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781365654596-L.jpg"
+    },
+    {
+      "title": "Deep into Pharo",
+      "author": "Alexandre Bergel - Author / Damien Cassou - Author / Stéphane Ducasse - Author / Jannik Laval - Author",
+      "freeSourceUrl": "https://files.pharo.org/books-pdfs/deep-into-pharo/2013-DeepIntoPharo-EN.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/deep-into-pharo",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783952334164-L.jpg"
+    },
+    {
+      "title": "Introduction to Autonomous Robots",
+      "author": "Nikolaus Correll - Author",
+      "freeSourceUrl": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/releases",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-autonomous-robots",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780692700877-L.jpg"
+    },
+    {
+      "title": "Signal Computing: Digital Signals in the Software Domain",
+      "author": "Michael D. Stiber - Author / Bilin Zhang Stiber - Author / Eric C. Larson - Author",
+      "freeSourceUrl": "https://faculty.washington.edu/stiber/pubs/Signal-Computing/Signal%20Computing.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/signal-computing-digital-signals-in-the-software-domain"
+    },
+    {
+      "title": "Python for Everybody: Exploring Data Using Python 3",
+      "author": "Charles Severance - Author",
+      "freeSourceUrl": "https://www.py4e.com/book.php",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/python-for-everybody-exploring-data-using-python-3",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781530051120-L.jpg"
+    },
+    {
+      "title": "A First Course in Electrical and Computer Engineering",
+      "author": "Louis Scharf - Author",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col10685",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-first-course-in-electrical-and-computer-engineering"
+    },
+    {
+      "title": "Graphic Design and Print Production Fundamentals",
+      "author": "Wayne Collins - Author / Alex Haas - Author / Ken Jeffery - Author / Alan Martin - Author / Roberto Medeiros - Author / Steven Tomljanovic - Author",
+      "freeSourceUrl": "https://opentextbc.ca/graphicdesign/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/graphic-design-and-print-production-fundamentals"
+    },
+    {
+      "title": "Computer Networking : Principles, Protocols and Practice",
+      "author": "Olivier Bonaventure - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/wp-content/uploads/2012/02/Computer-Networking-Principles-Bonaventure-1-30-31-OTC1.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/computer-networking-principles-protocols-and-practice"
+    },
+    {
+      "title": "An Introduction to Computer Networks - Second Edition",
+      "author": "Peter Lars Dordal - Author",
+      "freeSourceUrl": "https://intronetworks.cs.luc.edu/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-computer-networks"
+    },
+    {
+      "title": "Database Design - 2nd Edition",
+      "author": "Adrienne Watt - Author",
+      "freeSourceUrl": "https://opentextbc.ca/dbdesign01/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Databases; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/database-design-2nd-edition"
+    },
+    {
+      "title": "Introduction to Programming Using Java - Eighth Edition",
+      "author": "David J. Eck - Author",
+      "freeSourceUrl": "https://math.hws.edu/javanotes/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-programming-using-java-seventh-edition"
+    },
+    {
+      "title": "Introduction to Computer Graphics",
+      "author": "David J. Eck - Author",
+      "freeSourceUrl": "https://math.hws.edu/graphicsbook/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-computer-graphics"
+    },
+    {
+      "title": "Java with BlueJ",
+      "author": "Ron McFadyen - Author",
+      "freeSourceUrl": "https://www.acs.uwinnipeg.ca/rmcfadyen/CreativeCommons/Java%20With%20BlueJ%20Sept%202019.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/java-with-bluej"
+    },
+    {
+      "title": "Java with BlueJ Part 2",
+      "author": "Ron McFadyen - Author",
+      "freeSourceUrl": "https://www.acs.uwinnipeg.ca/rmcfadyen/CreativeCommons/Part%202%20Chapters%201%202%203%204%205%206%207%208%209%2010.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/java-with-bluej-part-2"
+    },
+    {
+      "title": "Relational Databases and Microsoft Access 365 - Version 4.0",
+      "author": "Ron McFadyen - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/relationaldatabasesandmicrosoftaccess365/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Databases; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/relational-databases-and-microsoft-access"
+    },
+    {
+      "title": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "author": "Marijn Haverbeke - Author",
+      "freeSourceUrl": "https://eloquentjavascript.net/#links:~:text=Other%20pages",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/eloquent-javascript-a-modern-introduction-to-programming",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781593275846-L.jpg"
+    },
+    {
+      "title": "Combinatorics - Version 2.1",
+      "author": "Joy Morris - Author",
+      "freeSourceUrl": "https://www.cs.uleth.ca/~morris/Combinatorics/Combinatorics.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/combinatorics"
+    },
+    {
+      "title": "Introduction to MIPS Assembly Language Programming",
+      "author": "Charles Kann - Author",
+      "freeSourceUrl": "https://cupola.gettysburg.edu/oer/2/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-mips-assembly-language-programming"
+    },
+    {
+      "title": "Microprocesadores Fundamentos y Aplicaciones",
+      "author": "Carlos Valdivieso - Author / Ronald M. Solís - Author",
+      "freeSourceUrl": "https://mountainscholar.org/items/453302f3-02e3-4f51-bf23-23c3905074f7",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/microprocesadores-fundamentos-y-aplicaciones",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942142962-L.jpg"
+    },
+    {
+      "title": "Aprendiendo a Programar en Python con mi Computador: Primeros pasos rumbo a cómputos de gran escala en las Ciencias e Ingenierías",
+      "author": "Sergio Rojas - Editor / Héctor Fernández - Editor / Juan Carlos Ruiz - Editor",
+      "freeSourceUrl": "https://mountainscholar.org/items/981dd380-b559-438a-b46f-ecb630d28491",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/aprendiendo-a-programar-en-python-con-mi-computador-primeros-pasos-rumbo-a-computos-de-gran-escala-en-las-ciencias-e-ingenierias",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789801286943-L.jpg"
+    },
+    {
+      "title": "Temas de Diseño en Interacción Humano-Computadora",
+      "author": "Jaime Muñoz Arteaga - Author / Yosly Caridad Hernández - Author / Viviana Bustos Amador - Author",
+      "freeSourceUrl": "https://mountainscholar.org/items/64db870b-23aa-49dd-8b6f-fb8a2d4d6276",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/temas-de-diseno-en-interaccion-humano-computadora"
+    },
+    {
+      "title": "Diseno e Implementación de Bases de Datos desde una Perspectiva Prática",
+      "author": "Héctor Cardona - Author",
+      "freeSourceUrl": "https://mountainscholar.org/items/257337de-581b-4465-92fd-13cb550cfce2",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/diseno-e-implementacion-de-bases-de-datos-desde-una-perspectiva-pratica"
+    },
+    {
+      "title": "Aprendizaje Colaborativo Apoyado por Computador",
+      "author": "César Collazos - Author / Jaime Muñoz - Author / Yosly Hernández - Author",
+      "freeSourceUrl": "https://mountainscholar.org/items/ccd71f76-443a-42bb-96a4-4119d4f36bbb",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/aprendizaje-colaborativo-apoyado-por-computador"
+    },
+    {
+      "title": "The Spec UI framework",
+      "author": "Johan Fabry - Author / Stephane Ducasse - Author",
+      "freeSourceUrl": "https://books.pharo.org/spec-tutorial/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-spec-ui-framework",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781326927462-L.jpg"
+    },
+    {
+      "title": "Enterprise Pharo a Web Perspective",
+      "author": "Square Bracket Associates",
+      "freeSourceUrl": "https://books.pharo.org/enterprise-pharo/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/enterprise-pharo-a-web-perspective",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781326650971-L.jpg"
+    },
+    {
+      "title": "High Performance Computing",
+      "author": "Charles Severance - Author / Kevin Dowd - Author",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col11136",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/high-performance-computing"
+    },
+    {
+      "title": "Embedded Controllers Using C and Arduino - 2e",
+      "author": "James M. Fiore - Author",
+      "freeSourceUrl": "http://www.dissidents.com/resources/EmbeddedControllers.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/embedded-controllers-using-c-and-arduino-2e"
+    },
+    {
+      "title": "A Byte of Python",
+      "author": "Swaroop C H - Author",
+      "freeSourceUrl": "https://python.swaroopch.com/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-byte-of-python"
+    },
+    {
+      "title": "Implementing a One Address CPU in Logisim",
+      "author": "Charles W. Kann - Author",
+      "freeSourceUrl": "https://cupola.gettysburg.edu/oer/3/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/implementing-a-one-address-cpu-in-logisim"
+    },
+    {
+      "title": "Object-Oriented Reengineering Patterns",
+      "author": "Serge Demeyer - Author / Stéphane Ducasse - Author / Oscar Nierstrasz - Author",
+      "freeSourceUrl": "https://www.oscar.nierstrasz.org/files/oorp/OORP-2013-11-27.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/object-oriented-reengineering-patterns"
+    },
+    {
+      "title": "How to Think Like a Computer Scientist: C++ Version",
+      "author": "Allen B. Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/wp/think-c/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/how-to-think-like-a-computer-scientist-c-version"
+    },
+    {
+      "title": "How to Think Like a Computer Scientist: C Version",
+      "author": "Allen B. Downey - Author / Thomas Scheffler - Translator",
+      "freeSourceUrl": "https://github.com/tscheffl/ThinkC",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/how-to-think-like-a-computer-scientist-c-version-1999"
+    },
+    {
+      "title": "Think Data Structures: Algorithms and Information Retrieval in Java",
+      "author": "Allen B. Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/wp/think-data-structures/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/think-data-structures-algorithms-and-information-retrieval-in-java"
+    },
+    {
+      "title": "The Unicode cookbook for linguists: Managing writing systems using orthography profiles",
+      "author": "Steven Moran - Author / Michael Cysouw - Author",
+      "freeSourceUrl": "https://langsci-press.org/catalog/book/176",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-unicode-cookbook-for-linguists-managing-writing-systems-using-orthography-profiles",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783961100903-L.jpg"
+    },
+    {
+      "title": "Delftse Foundations of Computation - 2nd Edition",
+      "author": "Stefan Hugtenburg - Author / Neil Yorke-Smith - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/211",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/delftse-foundations-of-computation",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463665988-L.jpg"
+    },
+    {
+      "title": "An Introduction to Matlab and Mathcad",
+      "author": "Troy Siemers - Author",
+      "freeSourceUrl": "https://drive.google.com/file/d/0B2Pdg3LqVPNPLUhLbks0QzF5ZVhmWGp3YW5hYlVBd3RDN2x3/view",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-matlab-and-mathcad"
+    },
+    {
+      "title": "Making Games with Python & Pygame",
+      "author": "Al Sweigart - Author",
+      "freeSourceUrl": "https://inventwithpython.com/makinggames.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/making-games-with-python-pygame",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781469901732-L.jpg"
+    },
+    {
+      "title": "Web Accessibility for Developers",
+      "author": "Digital Education Strategies - Author",
+      "freeSourceUrl": "https://pressbooks.library.ryerson.ca/wafd/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/web-accessibility-for-developers"
+    },
+    {
+      "title": "Professional Web Accessibility Auditing Made Easy",
+      "author": "Digital Education Strategies - Author",
+      "freeSourceUrl": "https://pressbooks.library.ryerson.ca/pwaa/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/professional-web-accessibility-auditing-made-easy"
+    },
+    {
+      "title": "Agent-Based Evolutionary Game Dynamics",
+      "author": "Luis R. Izquierdo - Author / Segismundo S. Izquierdo - Author / William H. Sandholm - Author",
+      "freeSourceUrl": "https://wisc.pb.unizin.org/agent-based-evolutionary-game-dynamics/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/agent-based-evolutionary-game-dynamics"
+    },
+    {
+      "title": "x86-64 Assembly Language Programming with Ubuntu",
+      "author": "Ed Jorgensen - Author",
+      "freeSourceUrl": "http://www.egr.unlv.edu/~ed/assembly64.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/x86-64-assembly-language-programming-with-ubuntu"
+    },
+    {
+      "title": "MIPS Assembly Language Programming using QtSpim",
+      "author": "Ed Jorgensen - Author",
+      "freeSourceUrl": "http://www.egr.unlv.edu/~ed/MIPStextSMv11.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mips-assembly-language-programming-using-qtspim"
+    },
+    {
+      "title": "Introduction to Programming using Fortran 95/2003/2008",
+      "author": "Ed Jorgensen - Author",
+      "freeSourceUrl": "http://www.egr.unlv.edu/~ed/fortranv3.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-programming-using-fortran-95-2003-2008"
+    },
+    {
+      "title": "Computer Networks: A Systems Approach",
+      "author": "Larry Peterson - Author / Bruce Davie - Author",
+      "freeSourceUrl": "https://book.systemsapproach.org/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/computer-networks-a-systems-approach"
+    },
+    {
+      "title": "Blueprints: Creating, Describing, and Implementing Designs for Larger-scale Software Projects - version 2.5",
+      "author": "Stephen Davies - Author",
+      "freeSourceUrl": "https://stephendavies.org/blue.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/blueprints-creating-describing-and-implementing-designs-for-larger-scale-software-projects-davis",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798331222161-L.jpg"
+    },
+    {
+      "title": "Understanding Document Accessibility",
+      "author": "The Chang School Digital Education Strategies - Author",
+      "freeSourceUrl": "https://pressbooks.library.ryerson.ca/docs/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/understanding-document-accessibility"
+    },
+    {
+      "title": "A Primer for Computational Biology",
+      "author": "Shawn T. O'Neil - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/computationalbiology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-primer-for-computational-biology"
+    },
+    {
+      "title": "Think Raku: How to Think Like a Computer Scientist - 2nd edition",
+      "author": "Laurent Rosenfeld - Author / Allen B. Downey - Author",
+      "freeSourceUrl": "https://greenteapress.com/wp/think-perl-6/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/think-raku-how-to-think-like-a-computer-scientist-2nd-edition",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781491980552-L.jpg"
+    },
+    {
+      "title": "The Discipline of Organizing: 4th Professional Edition",
+      "author": "Robert J. Glushko - Author",
+      "freeSourceUrl": "https://berkeley.pressbooks.pub/tdo4p/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Computer Science - Databases; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-discipline-of-organizing-4th-professional-edition",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780999797013-L.jpg"
+    },
+    {
+      "title": "The Crystal Ball Instruction Manual - version 1.1 Volume One: Introduction to Data Science",
+      "author": "Stephen Davies - Author",
+      "freeSourceUrl": "https://stephendavies.org/crystal1.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Artificial Intelligence; Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-crystal-ball-instruction-manual-volume-one-introduction-to-data-science",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781715320041-L.jpg"
+    },
+    {
+      "title": "First Semester in Numerical Analysis with Python",
+      "author": "Yaning Liu - Author",
+      "freeSourceUrl": "https://digital.auraria.edu/IR00000195/00001/citation",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/first-semester-in-numerical-analysis-with-python"
+    },
+    {
+      "title": "Tutorials of Visual Graphic Communication Programs for Interior Design",
+      "author": "Yongyeon Cho - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/visualgraphiccomm/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/tutorials-of-visual-graphic-communication-programs-for-interior-design"
+    },
+    {
+      "title": "Computer Science I - Version 1.3.7",
+      "author": "Chris Bourke - Author",
+      "freeSourceUrl": "https://bitbucket.org/chrisbourke/computersciencei/raw/44fb9b39be3221dc02c1b5d0712f9b9f03260e46/ComputerScienceOne.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/computer-science-i"
+    },
+    {
+      "title": "An Open Guide to Data Structures and Algorithms",
+      "author": "Paul W. Bible - Author / Lucas Moser - Author / Mia M. Scarlato - Illustrator",
+      "freeSourceUrl": "https://pressbooks.palni.org/anopenguidetodatastructuresandalgorithms/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-open-guide-to-data-structures-and-algorithms"
+    },
+    {
+      "title": "Introduction to Statistical Thinking",
+      "author": "Benjamin Yakir - Author",
+      "freeSourceUrl": "https://eleuven.github.io/statthink/statthink.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-statistical-thinking"
+    },
+    {
+      "title": "Deleting Dystopia: Re-Asserting Human Priorities in the Age of Surveillance Capitalism",
+      "author": "Richard A. Slaughter - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/deletingdystopia/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/deleting-dystopia-re-asserting-human-priorities-in-the-age-of-surveillance-capitalism",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780648769873-L.jpg"
+    },
+    {
+      "title": "Evidence-based Software Engineering",
+      "author": "Derek M. Jones - Author",
+      "freeSourceUrl": "http://knosof.co.uk/ESEUR/ESEUR.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Databases; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/evidence-based-software-engineering",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781838291303-L.jpg"
+    },
+    {
+      "title": "Patterns for Beginning Programmers",
+      "author": "David Bernstein - Author",
+      "freeSourceUrl": "https://pressbooks.lib.jmu.edu/programmingpatterns/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/patterns-for-beginning-programmers"
+    },
+    {
+      "title": "Mathematical Modeling and Simulation with MATLAB",
+      "author": "Sheldon Lee - Author / Megan Buzby - Author",
+      "freeSourceUrl": "https://scholarworks.alaska.edu/bitstream/handle/11122/12246/MathModelingWithMatlab.pdf?sequence=3&isAllowed=y",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mathematical-modeling-and-simulation-with-matlab"
+    },
+    {
+      "title": "Game Based and Adaptive Learning Strategies",
+      "author": "Carrie Lewis Miller - Author / Odbayar Batsaikhan - Author / Elizabeth Pluskwik - Author",
+      "freeSourceUrl": "https://mlpp.pressbooks.pub/gamebasedlearning/open/download?type=pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/game-based-and-adaptive-learning-strategies"
+    },
+    {
+      "title": "Making Sense of Digital Humanities",
+      "author": "Julian Chambliss - Author / Ellen Moll - Author",
+      "freeSourceUrl": "https://openbooks.lib.msu.edu/makingsensedh/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/making-sense-of-digital-humanities",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781626101210-L.jpg"
+    },
+    {
+      "title": "Earth, Space, and Environmental Science Explorations with ArcGIS Pro - Second Edition",
+      "author": "Wing Cheung - Author",
+      "freeSourceUrl": "https://docs.google.com/document/d/1TOvvHjVRXJ5s_10S_dgsJ961-z0_jp7A/edit",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/earth-space-and-environmental-science-explorations-with-arcgis-pro"
+    },
+    {
+      "title": "Computer Systems Security: Planning for Success",
+      "author": "Ryan Tolboom - Author",
+      "freeSourceUrl": "https://web.njit.edu/~rt494/security/security.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Computer Science - Cryptography; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/computer-systems-security-planning-for-success"
+    },
+    {
+      "title": "Programming Persistent Memory: A Comprehensive Guide for Developers",
+      "author": "Stteve Scargall - Author",
+      "freeSourceUrl": "https://link.springer.com/content/pdf/10.1007/978-1-4842-4932-1.pdf?pdf=button+sticky&error=cookies_not_supported&code=84101632-daa8-4f9d-9616-c14fce534e37",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/programming-persistent-memory-a-comprehensive-guide-for-developers"
+    },
+    {
+      "title": "Producing Open Source Software: How to Run a Successful Free Software Project - 2nd Edition",
+      "author": "Karl Fogel - Author",
+      "freeSourceUrl": "https://producingoss.com/en/index.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/producing-open-source-software-how-to-run-a-successful-free-software-project"
+    },
+    {
+      "title": "Programación Web del Frontend al Backend",
+      "author": "Ricardo Javier Celí Párraga - Author / Miguel Fabricio Boné Andrade - Author / Aldo Patricio Mora Olivero - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/view/18/23/111",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/programacion-web-del-frontend-al-backend",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942701459-L.jpg"
+    },
+    {
+      "title": "Prealgebra via Python Programming: First Steps to Perform Large Scale Computational Tasks in the Sciences and Engineerings",
+      "author": "Sergio Rojas - Author",
+      "freeSourceUrl": "https://www.researchgate.net/publication/325473565_Prealgebra_via_Python_Programming_First_steps_to_perform_large_scale_computational_tasks_in_the_Sciences_and_Engineerings",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/prealgebra-via-python-programming-first-steps-to-perform-large-scale-computational-tasks-in-the-sciences-and-engineerings",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789801801238-L.jpg"
+    },
+    {
+      "title": "Evolución del Computador desde el ABC de su Arquitectura hasta la Construcción de una PC Gamer",
+      "author": "Gerardo Alfredo Solano-Gutiérrez - Author / Luis Alfonso Núñez-Freire - Author / José Javier Mendoza-Loor - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/24",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/evolucion-del-computador-desde-el-abc-de-su-arquitectura-hasta-la-construccion-de-una-pc-gamer",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942711915-L.jpg"
+    },
+    {
+      "title": "Ingeniería del Software I: Requerimientos y Modelado del Software",
+      "author": "Ricardo Javier Celi-Párraga - Author / Miguel Fabricio Boné-Andrade - Author / Aldo Patricio Mora-Olivero - Author / Juan Carlos Sarmiento-Saavedra - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/21",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ingenieria-del-software-i-requerimientos-y-modelado-del-software"
+    },
+    {
+      "title": "Ingeniería del Software II: Implementación, Pruebas y Mantenimiento",
+      "author": "Ricardo Javier Celi-Párraga - Author / Miguel Fabricio Boné-Andrade - Author / Aldo Patricio Mora-Olivero - Author / Juan Carlos Sarmiento-Saavedra - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/20",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ingenieria-del-software-ii-implementacion-pruebas-y-mantenimiento"
+    },
+    {
+      "title": "Handbook of Software Engineering Methods - 2nd Edition",
+      "author": "Lara Letaw - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/setextbook/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/handbook-of-software-engineering-methods"
+    },
+    {
+      "title": "Fortalecimiento Metodológico de la Seguridad Informática en Posgrados: Análisis y Estrategias de Mejora",
+      "author": "Juan Antonio Picoy-Gonzales - Author / Rosaura Huarcaya-Taype - Author / Omar Hans Contreras-Canto - Author / Amanda Omonte-Vilca - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/56",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fortalecimiento-metodologico-de-la-seguridad-informatica-en-posgrados-analisis-y-estrategias-de-mejora",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651129-L.jpg"
+    },
+    {
+      "title": "Research Data Management in the Canadian Context",
+      "author": "Emily Carlisle-Johnston - Author / Danielle Dennie - Author / Émilie Fortin - Author / Elizabeth Hill - Author / Kristi Thompson - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/canadardm/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Databases; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/research-data-management-in-the-canadian-context",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780771431876-L.jpg"
+    },
+    {
+      "title": "Building User Interfaces for Modern Web Applications: React Programming",
+      "author": "Cheer-Sun Yang - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/building-user-interfaces-for-modern-web-applications-react-programming/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-user-interfaces-for-modern-web-applications-react-programming"
+    },
+    {
+      "title": "Introduction to Data Science Using Python",
+      "author": "Afrand Agah - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/introduction-to-data-science-using-python/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-data-science-using-python"
+    },
+    {
+      "title": "An Introduction to Python Jupyter Notebooks for College Math Teachers",
+      "author": "Paul Isihara - Author / Claire Wagner - Author / Peter Jantsch - Author / Thomas VanDrunen - Author",
+      "freeSourceUrl": "https://timothyprojectgig.github.io/JB_Math_Textbook/intro.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-python-jupyter-notebooks-for-college-math-teachers"
+    },
+    {
+      "title": "The Crystal Ball Instruction Manual Volume Two: Foundations For Data Science",
+      "author": "Stephen Davies - Author",
+      "freeSourceUrl": "https://stephendavies.org/crystal2.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-crystal-ball-instruction-manual-volume-two-foundations-for-data-science"
+    },
+    {
+      "title": "Culturally Responsive Computing: An Introduction into Computer Science, Security, and Technology",
+      "author": "Devan J. Walton - Author",
+      "freeSourceUrl": "https://rotel.pressbooks.pub/culturally-responsive-computing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/culturally-responsive-computing-an-introduction-into-computer-science-security-and-technology"
+    },
+    {
+      "title": "Programming with Java - Second Edition",
+      "author": "Ashik Ahmed Bhuiyan - Author / Md Amiruzzaman - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/programming-with-java/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/programming-with-java"
+    },
+    {
+      "title": "Gestión Inteligente Sinergias en las Tecnologías de la Información y Comunicación",
+      "author": "Miguel Fabricio Boné-Andrade - Author / Luis Alfonso Núñez-Freire - Author / Ramiro Enrique Guamán-Chávez - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/107",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/gestion-inteligente-sinergias-en-las-tecnologias-de-la-informacion-y-comunicacion",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942651624-L.jpg"
+    },
+    {
+      "title": "Semantic Web Development",
+      "author": "Sean Burns - Author",
+      "freeSourceUrl": "https://cseanburns.github.io/semantic_web_development/#introduction-to-semantic-web-development",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/semantic-web-development"
+    },
+    {
+      "title": "Operating Systems and Infrastructure in Data Science",
+      "author": "Josef Spillner - Author",
+      "freeSourceUrl": "https://digitalcollection.zhaw.ch/items/ed1a3e7b-420c-479b-add1-a10f990d9a4c",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Databases; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/operating-systems-and-infrastructure-in-data-science",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783728141682-L.jpg"
+    },
+    {
+      "title": "InfoTech Governance, Policy, Ethics & Law",
+      "author": "David Tuffley - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/infotech-governance-policy-ethics/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/infotech-governance-policy-ethics-law"
+    },
+    {
+      "title": "Introduction to Computer Programming with Python",
+      "author": "Harris Wang - Author",
+      "freeSourceUrl": "https://read.aupress.ca/projects/introduction-to-computer-programming-with-python",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-computer-programming-with-python",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781998944088-L.jpg"
+    },
+    {
+      "title": "Scientific Computing for Chemists with Python",
+      "author": "Charles J. Weiss - Author",
+      "freeSourceUrl": "https://weisscharlesj.github.io/SciCompforChemists/notebooks/introduction/intro.html#",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/scientific-computing-for-chemists-with-python"
+    },
+    {
+      "title": "Learning How to Use Microsoft Excel 365",
+      "author": "Kaaren McGlynn - Author",
+      "freeSourceUrl": "https://drive.google.com/file/d/1JQ0-AgsPUCvUnEYSc-wwE_a1uwoLwFIo/view",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/learning-how-to-use-microsoft-excel-365"
+    },
+    {
+      "title": "Discrete Mathematics for Information Technology - First Canadian Edition",
+      "author": "Simon Crothers - Author",
+      "freeSourceUrl": "https://kpu.pressbooks.pub/discretemath/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/discrete-mathematics-for-information-technology-first-canadian-edition",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781997025078-L.jpg"
+    },
+    {
+      "title": "Practical Game Programming",
+      "author": "Harris Wang - Author / Walter Ridgewell - Author",
+      "freeSourceUrl": "https://www.aupress.ca/books/oer-202606-practical-game-programming/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/practical-game-programming",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781998944224-L.jpg"
     }
   ],
-  "notes": "Distinct from Computer Science/Software Engineering (profession_11, which covered turning code into products via Indie Hackers) — this category is specifically about the freelance/agency service-delivery side of the same skill. 2026-07-20: Merged in the founder-provided 'web_app_development_resources.csv' (Section I.12), bringing the file from 1 channel / 0 blogs / 0 books to a full 10 / 10 / 10. This CSV (unlike prior ones in this project) did not include per-item RSS/channel-ID URLs, only top-level domains — every real YouTube channel ID was independently looked up via search and channel-page fetches, and blog RSS paths were inferred using each site's standard CMS convention (flagged individually where uncertain). Three of the CSV's 10 channels could not be matched to a real YouTube channel: SoniBaze (real, active company and blog, but no confirmed YouTube presence), FreelanceMaster.ng (real, active company and blog, but no confirmed YouTube presence), and DevCareer Africa (real, well-documented nonprofit with 30,000+ community members, but its 'channels' are internal Slack community channels, not YouTube). Two independently-verified, directly on-topic replacements were substituted to reach 10 channels: freeCodeCamp.org and Programming with Mosh (Mosh Hamedani). The SoniBaze blog URL was also corrected from the source directory's sonibaze.com to the company's real, currently-active domain, sonibaze.ng.",
+  "notes": "Distinct from Computer Science/Software Engineering (profession_11, which covered turning code into products via Indie Hackers) — this category is specifically about the freelance/agency service-delivery side of the same skill. 2026-07-20: Merged in the founder-provided 'web_app_development_resources.csv' (Section I.12), bringing the file from 1 channel / 0 blogs / 0 books to a full 10 / 10 / 10. This CSV (unlike prior ones in this project) did not include per-item RSS/channel-ID URLs, only top-level domains — every real YouTube channel ID was independently looked up via search and channel-page fetches, and blog RSS paths were inferred using each site's standard CMS convention (flagged individually where uncertain). Three of the CSV's 10 channels could not be matched to a real YouTube channel: SoniBaze (real, active company and blog, but no confirmed YouTube presence), FreelanceMaster.ng (real, active company and blog, but no confirmed YouTube presence), and DevCareer Africa (real, well-documented nonprofit with 30,000+ community members, but its 'channels' are internal Slack community channels, not YouTube). Two independently-verified, directly on-topic replacements were substituted to reach 10 channels: freeCodeCamp.org and Programming with Mosh (Mosh Hamedani). The SoniBaze blog URL was also corrected from the source directory's sonibaze.com to the company's real, currently-active domain, sonibaze.ng. 2026-08-23: Added 111 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 3 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 111 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ]
 }

@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_03_freelance_writing",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC",
@@ -182,7 +182,7 @@
       "author": "Michael E. Gerber",
       "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
       "freeSourceType": "web",
-      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Google Books preview.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
@@ -192,7 +192,7 @@
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
       "freeSourceType": "web",
-      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
@@ -222,7 +222,7 @@
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://basecamp.com/books/rework",
       "freeSourceType": "web",
-      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Basecamp books.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
@@ -276,8 +276,112 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "A Guide to Technical Communications: Strategies & Applications",
+      "author": "Lynn Hall - Author / Leah Wahlin - Author",
+      "freeSourceUrl": "https://ohiostate.pressbooks.pub/engrtechcomm/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-guide-to-technical-communications-strategies-applications"
+    },
+    {
+      "title": "Technical and Professional Writing Genres: A Study in Theory and Practice",
+      "author": "Eric Howerton - Editor / Michael Beilfuss - Author / Katrina Peterson - Author / Staci Bettes - Author / Katie Rieger - Editor",
+      "freeSourceUrl": "https://open.library.okstate.edu/technicalandprofessionalwriting/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/technical-and-professional-writing-genres-study"
+    },
+    {
+      "title": "Open Technical Writing: An Open-Access Text for Instruction in Technical and Professional Writing",
+      "author": "Adam Rex Pope - Author",
+      "freeSourceUrl": "https://scholarworks.uark.edu/oer/4/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-technical-writing-an-open-access-text-for-instruction-in-technical-and-professional-writing"
+    },
+    {
+      "title": "Preparing to Publish - Second Edition",
+      "author": "Sarah Huffman - Author / Elena Cotos - Author / Kimberly Becker - Author",
+      "freeSourceUrl": "https://www.iastatedigitalpress.com/plugins/books/252/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/preparing-to-publish"
+    },
+    {
+      "title": "Intro to Journalism Handbook: An Open Educational Resource for Journalism Students",
+      "author": "Michael Downing - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/intro-to-journalism-handbook-an-open-educational-resource-for-journalism-students/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/intro-to-journalism-handbook-an-open-educational-resource-for-journalism-students"
+    },
+    {
+      "title": "Introduction to Technical Writing: A Rhetorical Approach",
+      "author": "Moe Folk - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/introduction-to-technical-writing-a-rhetorical-approach/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-technical-writing-a-rhetorical-approach"
+    },
+    {
+      "title": "Communicating Strategically in the Workplace: A Resource for Engineering and Science Majors",
+      "author": "Karishma Chatterjee - Author / Damla Ricks - Author / Diane Waryas Hughey - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/professionalandtechnicalcommunication/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology; Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/communicating-strategically-in-the-workplace-a-resource-for-engineering-and-science-majors",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648160202-L.jpg"
+    },
+    {
+      "title": "Surviving Research Publication: A Guide for New Scholars",
+      "author": "Lily Compton - Editor / Megan O'Donnell - Editor / Kristin Terrill - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/isudp-2026-216/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/surviving-research-publication-a-guide-for-new-scholars"
+    },
+    {
+      "title": "Technical Writing Essentials: Introduction to Professional Communications in the Technical Fields",
+      "author": "Suzan Last - Author",
+      "freeSourceUrl": "https://pressbooks.bccampus.ca/technicalwriting/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/technical-writing-essentials-introduction-to-professional-communications-in-the-technical-fields",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781550586657-L.jpg"
+    },
+    {
+      "title": "Handbook for Mindful Technical Writing: A Practical Guide for University Students and Professionals - 2026 Edition",
+      "author": "Dawn Atkinson - Author / Stacey Corbitt - Author",
+      "freeSourceUrl": "https://drive.google.com/file/d/1vWhbD6nC1xN4MrF9h3OYRDr-G0z25CaR/view",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/handbook-for-mindful-technical-writing-a-practical-guide-for-university-students-and-professionals-2026-edition"
+    },
+    {
+      "title": "Open Professional and Technical Editing with Handbook",
+      "author": "Tiffani Tijerina - Author / Mara Crumby - Author / Amber Anderson - Author / Abigail Steele - Author / Hannah Darden - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/open-pte/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-professional-and-technical-editing-with-handbook"
     }
   ],
-  "integrationNotes": "Freelance Writing & Copywriting is a core \u20a60 skill-based hustle. Primary platforms for Nigerians: Fiverr, Upwork, direct WhatsApp/LinkedIn outreach to local businesses, Contently-style, and Nigerian content agencies. Dollar clients via Payoneer/Grey/Wise. Start with portfolio samples (even self-written). High demand niches: SEO blog posts, product descriptions, email sequences, social captions, sales pages. Realistic beginner rates \u20a65k\u2013\u20a625k per article locally; $15\u2013$80+ for international once reviews exist.",
-  "actionRequired": "Nigeria-first list. Exact UC IDs still need deeper lookup. Continue to Category 04 next."
+  "integrationNotes": "Freelance Writing & Copywriting is a core ₦0 skill-based hustle. Primary platforms for Nigerians: Fiverr, Upwork, direct WhatsApp/LinkedIn outreach to local businesses, Contently-style, and Nigerian content agencies. Dollar clients via Payoneer/Grey/Wise. Start with portfolio samples (even self-written). High demand niches: SEO blog posts, product descriptions, email sequences, social captions, sales pages. Realistic beginner rates ₦5k–₦25k per article locally; $15–$80+ for international once reviews exist.",
+  "actionRequired": [
+    "2026-08-23: Review the 11 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 11 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

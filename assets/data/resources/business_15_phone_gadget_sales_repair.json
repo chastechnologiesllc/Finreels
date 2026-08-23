@@ -2,7 +2,7 @@
   "categoryId": "business_15",
   "profession": "Phone & Gadget Sales/Repair",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCWFKCr40YwOZQx8FHU_ZqqQ",
@@ -179,16 +179,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited (Summary)",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf",
-      "freeSourceType": "download",
-      "freeSourceNote": "Book summary PDF hosted by F5 Financial Planning. Build systems that work without you.",
-      "verifiedOn": "2026-07-21",
-      "verificationMethod": "URL confirmed via Google search index. Note: this is a summary/notes PDF, not the full commercially-sold book.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
@@ -277,11 +267,373 @@
       "verifiedOn": "2026-07-21",
       "verificationMethod": "Oasdom.com confirmed as a real, active Nigerian SME resource site. Multiple SME startup guides confirmed via search. Specific phone repair guide URL found via site index.",
       "coverUrl": "https://assets.ifixit.com/static/icons/ifixit/apple-touch-icon.png"
+    },
+    {
+      "title": "Atoms in Agriculture: Applications of Nuclear Science to Agriculture (Revised)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49036",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49036; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Experiments with Alternate Currents of High Potential and High Frequency\r\nA Lecture Delivered before the Institution of Electrical Engineers, London",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/13476",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #13476; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Lightning Rod Conference\r\nReport of the Delegates from the Following Societies, Viz.: Meteorological Society, Royal Institute of British Architects, Society of Telegraph Engineers and of Electricians, Physical Society. With a Code of Rules for the Erection of Lightning Conductors; and Various Appendices",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58367",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58367; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "On the relation which ought to subsist between the strength of an electric current and the diameter of conductors, to prevent overheating\r\nA paper read at the Society of Telegraph-Engineers and Electricians, March 27th, 1884.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69374",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69374; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The American Electro Magnetic Telegraph\r\nWith the Reports of Congress, and a Description of All Telegraphs Known, Employing Electricity or Galvanism",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61533",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61533; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Hacker Crackdown: Law and Disorder on the Electronic Frontier",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/101",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #101; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Romance of Modern Invention\r\nContaining Interesting Descriptions in Non-technical Language of Wireless Telegraphy, Liquid Air, Modern Artillery, Submarines, Dirigible Torpedoes, Solar Motors, Airships, &c. &c.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41160",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41160; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Telephone\r\nAn Account of the Phenomena of Electricity, Magnetism, and Sound, as Involved in Its Action",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33154",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33154; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The telephone, the microphone & the phonograph",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75683",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75683; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Underground: Hacking, madness and obsession on the electronic frontier",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4686",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4686; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Vision by radio, radio photographs, radio photograms",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73845",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73845; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Wireless Transmission of Photographs\nSecond Edition, Revised and Enlarged 1919",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34052",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34052; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Workshop on Electronic Texts: Proceedings, 9-10 June 1992",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Brief Account of Radio-activity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32307",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #32307; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A History of EBooks",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29801",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29801; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Story of the Telegraph",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50864",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50864; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Americans All, Immigrants All",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61635",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61635; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Atoms, Nature, and Man: Man-made Radioactivity in the Environment",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48038",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48038; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Booknology: The eBook (1971-2010)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33460",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33460; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Computers—the machines we think with",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/72572",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #72572; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Cyclopedia of Telephony and Telegraphy, Vol. 1\r\nA General Reference Work on Telephony, etc. etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15617",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #15617; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Cyclopedia of Telephony and Telegraphy, Vol. 2\nA General Reference Work on Telephony, etc. etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33437",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33437; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Delco Radio Owner's Manual Model 633; Delcotron Generator Installation",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/31407",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #31407; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "E-mail 101",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Ebooks: Neither E, Nor Books\r\nPaper for the O'Reilly Emerging Technologies Conference, 2004",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11077",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11077; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Emerson Radio Model 39 Warranty Card",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36877",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36877; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Explorations in Australia\r\n1.-Explorations in search of Dr. Leichardt and party. 2.-From Perth to Adelaide, around the great Australian bight. 3.-From Champion Bay, across the desert to the telegraph and to Adelaide. With an appendix on the condition of Western Australia.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/9958",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #9958; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "From the Print Media to the Internet",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27030",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #27030; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Heroes of the Telegraph",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/979",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #979; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hertzian Wave Wireless Telegraphy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38526",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38526; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "How Old Is It? The Story of Dating in Archeaology",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65151",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65151; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Induction Coils, How to Make, Use, and Repair Them.\r\nIncluding Ruhmkorff, Tesla, and Medical Coils, Roentgen Radiography, Etc. Etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54221",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54221; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Lessons in Wireless Telegraphy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63345",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63345; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Letters of a Radio-Engineer to His Son",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30688",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30688; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Masters of Space\r\nMorse and the Telegraph; Thompson and the Cable; Bell and the Telephone; Marconi and the Wireless Telegraph; Carty and the Wireless Telephone",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12375",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12375; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Mental Radio",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63693",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63693; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Nuclear Clocks\nRevised",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49070",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49070; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Our Nuclear Future: Facts, Dangers and Opportunities",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66408",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66408; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Philipp Reis: Inventor of the Telephone\nA Biographical Sketch",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56542",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56542; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Preliminary Specifications: Programmed Data Processor Model Three (PDP-3)\nOctober, 1960",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29461",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29461; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nPhone/Gadget had the strongest channel verification rate of all 5 categories: 7/10 directly page-fetched (TechCabal, Techpoint Africa, Carlcare, NorthridgeFix, iPad Rehab, Louis Rossmann, The Signal Path), plus 3 multi-source search-confirmed (JerryRigEverything, iFixit, TronicsFix). Electronics Repair School (slot 10) is search-URL-confirmed. CSV's original Nigerian-specific picks (Slot Systems, Pointek, Nigerian Phone Repair, Mobile Repair Hub) could not be verified as active YouTube channels through search — replaced with the globally-verified repair experts above. These global channels are actually more educational for the business-side purpose of FinReels.",
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nPhone/Gadget had the strongest channel verification rate of all 5 categories: 7/10 directly page-fetched (TechCabal, Techpoint Africa, Carlcare, NorthridgeFix, iPad Rehab, Louis Rossmann, The Signal Path), plus 3 multi-source search-confirmed (JerryRigEverything, iFixit, TronicsFix). Electronics Repair School (slot 10) is search-URL-confirmed. CSV's original Nigerian-specific picks (Slot Systems, Pointek, Nigerian Phone Repair, Mobile Repair Hub) could not be verified as active YouTube channels through search — replaced with the globally-verified repair experts above. These global channels are actually more educational for the business-side purpose of FinReels. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 40 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 40 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

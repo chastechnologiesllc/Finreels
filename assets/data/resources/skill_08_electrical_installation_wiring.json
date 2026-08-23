@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_08_electrical_installation_wiring",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC8oJL9T1z3Gqn6drDphZY6g",
@@ -305,11 +305,697 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Fundamentals of Electrical Engineering I",
+      "author": "Don Johnson - Author",
+      "freeSourceUrl": "http://cnx.org/contents/d442r0wh@9.72:g9deOnx5@19",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-electrical-engineering-1",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781300160137-L.jpg"
+    },
+    {
+      "title": "A First Course in Electrical and Computer Engineering",
+      "author": "Louis Scharf - Author",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col10685",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-first-course-in-electrical-and-computer-engineering"
+    },
+    {
+      "title": "Introduction to Linear, Time-Invariant, Dynamic Systems for Students of Engineering",
+      "author": "William Hallauer - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/ae1fe444-5c69-4d0a-93e0-4ba983fe26de/content",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-linear-time-invariant-dynamic-systems-for-students-of-engineering"
+    },
+    {
+      "title": "Aplicaciones y Teoría de Ingeniería de Microondas",
+      "author": "LATIn Project",
+      "freeSourceUrl": "https://mountainscholar.org/items/9dada92b-1e2d-448f-90fd-24132a26dce1",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/aplicaciones-y-teoria-de-ingenieria-de-microondas"
+    },
+    {
+      "title": "Electromagnetics Vol 1",
+      "author": "Steven W. Ellingson - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/6f75e22e-ea6a-48a3-b441-65ce5ebf5331",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/electromagnetics-vol-1",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780997920192-L.jpg"
+    },
+    {
+      "title": "DC Circuits",
+      "author": "Chad Davis - Author",
+      "freeSourceUrl": "https://shareok.org/server/api/core/bitstreams/23e9ec3b-d8ee-44a9-aab0-3d076239dfff/content",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/dc-circuits"
+    },
+    {
+      "title": "AC Circuits",
+      "author": "Chad Davis - Author",
+      "freeSourceUrl": "https://shareok.org/items/528b80fd-5618-437d-9a43-b9f58ff3b950",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ac-circuits"
+    },
+    {
+      "title": "Semiconductor Devices: Theory and Application",
+      "author": "James M. Fiore - Author",
+      "freeSourceUrl": "http://www.dissidents.com/resources/SemiconductorDevices.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/semiconductor-devices-theory-and-application",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781796543537-L.jpg"
+    },
+    {
+      "title": "Operational Amplifiers & Linear Integrated Circuits: Theory and Application - 3e",
+      "author": "James Fiore - Author",
+      "freeSourceUrl": "http://www.dissidents.com/resources/OperationalAmplifiersAndLinearICs_3E.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/operational-amplifiers-linear-integrated-circuits-theory-and-application-3e"
+    },
+    {
+      "title": "Direct Energy",
+      "author": "Andrea M. Mitofsky - Author",
+      "freeSourceUrl": "https://www.trine.edu/books/documents/de_text1.0.0.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/direct-energy"
+    },
+    {
+      "title": "Electromagnetics Vol 2",
+      "author": "Steven W. Ellingson - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/0a2690e9-be2c-4b50-802d-c74d6e77560f/content",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/electromagnetics-vol-2"
+    },
+    {
+      "title": "Microwave and RF Design: Radio Systems",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-radio-systems"
+    },
+    {
+      "title": "Microwave and RF Design: Transmission Lines",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-transmission-lines"
+    },
+    {
+      "title": "Microwave and RF Design: Networks",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-networks"
+    },
+    {
+      "title": "Microwave and RF Design: Modules",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-modules"
+    },
+    {
+      "title": "Microwave and RF Design: Amplifiers and Oscillators",
+      "author": "Michael Steer - Author",
+      "freeSourceUrl": "https://repository.lib.ncsu.edu/handle/1840.20/36776",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microwave-and-rf-design-amplifiers-and-oscillators"
+    },
+    {
+      "title": "AC Electrical Circuit Analysis: A Practical Approach",
+      "author": "James M. Fiore - Author",
+      "freeSourceUrl": "http://www.dissidents.com/resources/ACElectricalCircuitAnalysis.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ac-electrical-circuit-analysis-a-practical-approach-fiore",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798605022282-L.jpg"
+    },
+    {
+      "title": "DC Electrical Circuit Analysis: A Practical Approach",
+      "author": "James M. Fiore - Author",
+      "freeSourceUrl": "http://www.dissidents.com/resources/DCElectricalCircuitAnalysis.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/dc-electrical-circuit-analysis-a-practical-approach-fiore",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781654515478-L.jpg"
+    },
+    {
+      "title": "Introduction to Communication Systems: An Interactive Approach Using the Wolfram Language",
+      "author": "Victor S. Frost - Author",
+      "freeSourceUrl": "https://kuscholarworks.ku.edu/entities/publication/ab8d127f-dc3e-4ffc-b85c-830dd3f2fe9a",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; Engineering & Technology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-communication-systems-an-interactive-approach-using-the-wolfram-language",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781936153251-L.jpg"
+    },
+    {
+      "title": "Open Signals and Systems Laboratory Exercises - Second Edition",
+      "author": "Aaron Fonseca - Author / Julie A. Dickerson - Author",
+      "freeSourceUrl": "https://www.iastatedigitalpress.com/plugins/books/155/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-signals-and-systems-laboratory-exercises"
+    },
+    {
+      "title": "Analysis and Design of Elementary MOS Amplifier Stages",
+      "author": "Boris Murmann - Author",
+      "freeSourceUrl": "https://github.com/bmurmann/Book-on-MOS-stages/blob/main/book/Analysis%20and%20Design%20of%20Elementary%20MOS%20Amplifier%20Stages.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/analysis-and-design-of-elementary-mos-amplifier-stages",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781934891179-L.jpg"
+    },
+    {
+      "title": "Structured Electronics Design: A Conceptual Approach to Amplifier Design - 3rd ed.",
+      "author": "Anton J.M. Montagne - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/162",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/structured-electronics-design-a-conceptual-approach-to-amplifier-design",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463667128-L.jpg"
+    },
+    {
+      "title": "Introduction to Vacuum Technology",
+      "author": "David M. Hata - Author / Elena V. Brewer - Author / Nancy J. Louwagie - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/introduction-to-vacuum-technology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-vacuum-technology",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341963-L.jpg"
+    },
+    {
+      "title": "Radio Systems Engineering - Revised First Edition",
+      "author": "Steven W. Ellingson - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/7031d3eb-b92c-402c-be35-272587ae067f",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/radio-systems-engineering"
+    },
+    {
+      "title": "Design for Electrical and Computer Engineers",
+      "author": "Christopher Coulston - Author / Ralph M. Ford - Author",
+      "freeSourceUrl": "https://github.com/coulston/Design-For-Electrical-and-Computer-Engineering",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Electrical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/design-for-electrical-and-computer-engineers"
+    },
+    {
+      "title": "A Motor-Flight Through France",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57347",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57347; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Newly Discovered System of Electrical Medication",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23813",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #23813; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A Treatise on Electricity\r\nWherein its various phænomena are accounted for, and the cause of the attraction and gravitation of solids, assigned. To which is added, a short account, how the electrical effluvia act upon the animal frame, and in what disorders the same may probably be applied with success, and in what not.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60392",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60392; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A-B-C of Electricity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45955",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45955; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Across America by Motor-cycle",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44505",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44505; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Across the Prairie in a Motor Caravan\nA 3,000 Mile Tour by Two Englishwomen on Behalf of Religious Education",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34447",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34447; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An elementary treatise on electricity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69914",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69914; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An epitome of electricity & galvanism",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74933",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74933; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An Essay to Shew the Cause of Electricity; and Why Some Things are Non-Electricable.\r\nIn Which Is Also Consider'd Its Influence in the Blasts on Human Bodies, in the Blights on Trees, in the Damps in Mines; And as It May Affect the Sensitive Plant, &c.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52439",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52439; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An Illustrated Directory of the Specifications of All Domestic and Foreign Motor-cars and Motor Business Wagons, Gasoline, Steam and Electric, Sold in This Country, 1907",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65005",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65005; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Bibliographical history of electricity & magnetism, chronologically arranged",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74764",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74764; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "British Highways and Byways from a Motor Car\r\nBeing a Record of a Five Thousand Mile Tour in England, Wales and Scotland",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17297",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #17297; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "By motor to the Golden Gate",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73784",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73784; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "C.A. Coey's School of Motoring, 1424-26 Michigan Ave. Chicago",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49307",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49307; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Central-Station Electric Lighting\nWith Notes on the Methods Used for the Distribution of Electricity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61219",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61219; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electric Bells and All About Them: A Practical Book for Practical Men",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39053",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39053; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electric Gas Lighting: How to Install Electric Gas Ignition Apparatus",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42073",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #42073; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electric railways",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75289",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75289; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electric Transmission of Water Power",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48134",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48134; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electricity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/72062",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #72062; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electricity and Magnetism",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34221",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34221; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electricity for Boys",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22766",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #22766; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electricity for the 4-H Scientist",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38036",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38036; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electricity for the farm\r\nLight, heat and power by inexpensive methods from the water wheel or farm engine",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27257",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #27257; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electricity in Locomotion\r\nAn Account of Its Mechanism, Its Achievements, and Its Prospects",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51242",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51242; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Encyclopaedia Britannica, 11th Edition, \"Conduction, Electric\"\r\nVolume 6, Slice 8",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32063",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #32063; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Endless Amusement\r\nA Collection of Nearly 400 Entertaining Experiments in Various Branches of Science; Including Acoustics, Electricity, Magnetism, Arithmetic, Hydraulics, Mechanics, Chemistry, Hydrostatics, Optics; Wonders of the Air-Pump; All the Popular Tricks and Changes of the Cards, &c., &c. to Which is Added, a Complete System of Pyrotechny; Or, the Art of Making Fire-works.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32492",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #32492; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "English-French and French-English dictionary of the motor car, cycle, and boat",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41217",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41217; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Europe from a Motor Car",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41588",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41588; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Experimental Researches in Electricity, Volume 1",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14986",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #14986; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Experiments and Observations on Electricity Made at Philadelphia in America",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45515",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45515; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Experiments and Observations Relative to the Influence Lately Discovered by M. Galvani and Commonly Called Animal Electricity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46820",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46820; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Experiments and Observations Tending to Illustrate the Nature and Properties of Electricity\r\nIn One Letter to Martin Folkes, Esq; President, and Two to the Royal Society",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46168",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46168; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Experiments on the Nervous System with Opium and Metalline Substances\r\nMade Chiefly with the View of Determining the Nature and Effects of Animal Electricity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47309",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #47309; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Experiments with Alternate Currents of High Potential and High Frequency\r\nA Lecture Delivered before the Institution of Electrical Engineers, London",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/13476",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #13476; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Harper's Electricity Book for Boys",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64592",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64592; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hawkins Electrical Guide v. 01 (of 10)\r\nQuestions, Answers, & Illustrations, A progressive course of study for engineers, electricians, students and those desiring to acquire a working knowledge of electricity and its applications",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38384",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38384; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hawkins Electrical Guide v. 02 (of 10)\r\nQuestions, Answers, & Illustrations, A progressive course of study for engineers, electricians, students and those desiring to acquire a working knowledge of electricity and its applications",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48846",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48846; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hawkins Electrical Guide v. 03 (of 10)\r\nQuestions, Answers, & Illustrations, A progressive course of study for engineers, electricians, students and those desiring to acquire a working knowledge of electricity and its applications",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49769",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49769; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hawkins Electrical Guide v. 04 (of 10)\r\nQuestions, Answers, & Illustrations, A progressive course of study for engineers, electricians, students and those desiring to acquire a working knowledge of electricity and its applications",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49512",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49512; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hawkins Electrical Guide v. 05 (of 10)\r\nQuestions, Answers, & Illustrations, A progressive course of study for engineers, electricians, students and those desiring to acquire a working knowledge of electricity and its applications",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49675",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49675; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hawkins Electrical Guide v. 06 (of 10)\r\nQuestions, Answers, & Illustrations, A progressive course of study for engineers, electricians, students and those desiring to acquire a working knowledge of electricity and its applications",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49252",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49252; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hawkins Electrical Guide v. 07 (of 10)\r\nQuestions, Answers, & Illustrations, A progressive course of study for engineers, electricians, students and those desiring to acquire a working knowledge of electricity and its applications",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49253",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49253; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Hawkins Electrical Guide v. 08 (of 10)\r\nQuestions, Answers, & Illustrations, A progressive course of study for engineers, electricians, students and those desiring to acquire a working knowledge of electricity and its applications",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50068",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50068; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "History of electric light",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68326",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #68326; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Home-made Electrical Apparatus",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63878",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63878; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Home-made Toy Motors\r\nA practical handbook giving detailed instructions for building simple but operative electric motors",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64046",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64046; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Home-made Toys for Girls and Boys\nWooden and Cardboard Toys, Mechanical and Electric Toys",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41669",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41669; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "How it Works\r\nDealing in simple language with steam, electricity, light, heat, sound, hydraulics, optics, etc., and with their applications to apparatus in common use",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28553",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #28553; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "How to Install Electric Bells, Annunciators, and Alarms.\r\nIncluding Batteries, Wires and Wiring, Circuits, Pushes, Bells, Burglar Alarms, High and Low Water Alarms, Fire Alarms, Thermostats, Annunciators, and the Location and Remedying of Troubles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57391",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57391; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "Integrated from electrical_installation_wiring_resources.csv on 2026-07-21. ALL 10 channel IDs fully resolved via live web fetches — no pending items. Channel handle corrections from CSV: @mikeholt→@MikeHoltNEC, @propelakenya→@Swisscontact (PropelA content in Swisscontact playlist), @theelectricalshow→@FixRadio (show lives on Fix Radio channel), @eca→@ECALive. Channel swap: @nigerianelectricalengineers from CSV replaced with The Engineering Mindset (@theengineeringmindset, UCk0fGHsCEzGig-rSzkfCjMw) — CSV handle had no verifiable YouTube presence externally. Nigeria/Africa content: PropelA (Africa channel + blog), InfoGuideNigeria (Nigeria blog), StartupTipsDaily (Nigeria blog), PropelA Blog (Africa blog). All blog RSS URLs use standard /feed/ or source-confirmed paths — validate live before production release. All book free-source URLs active at time of entry — re-check before release.\n\nBooks audit (2026-07-30): 4 of 10 URLs fixed in this pass (skill_08). 'The E-Myth Revisited': https://f5fp.com/e-myth-revisited-free-pdf... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber | 'Profit First': https://www.mikemichalowicz.com/profit-first-book... → https://archive.org/details/profitfirst0000mich | 'The Lean Startup': https://bdebooks.com/the-lean-startup/... → https://theleanstartup.com | 'Small Business Management': https://openstax.org/details/books/small-business-management... → https://openstax.org/details/books/principles-management",
+  "notes": "Integrated from electrical_installation_wiring_resources.csv on 2026-07-21. ALL 10 channel IDs fully resolved via live web fetches — no pending items. Channel handle corrections from CSV: @mikeholt→@MikeHoltNEC, @propelakenya→@Swisscontact (PropelA content in Swisscontact playlist), @theelectricalshow→@FixRadio (show lives on Fix Radio channel), @eca→@ECALive. Channel swap: @nigerianelectricalengineers from CSV replaced with The Engineering Mindset (@theengineeringmindset, UCk0fGHsCEzGig-rSzkfCjMw) — CSV handle had no verifiable YouTube presence externally. Nigeria/Africa content: PropelA (Africa channel + blog), InfoGuideNigeria (Nigeria blog), StartupTipsDaily (Nigeria blog), PropelA Blog (Africa blog). All blog RSS URLs use standard /feed/ or source-confirmed paths — validate live before production release. All book free-source URLs active at time of entry — re-check before release.\n\nBooks audit (2026-07-30): 4 of 10 URLs fixed in this pass (skill_08). 'The E-Myth Revisited': https://f5fp.com/e-myth-revisited-free-pdf... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber | 'Profit First': https://www.mikemichalowicz.com/profit-first-book... → https://archive.org/details/profitfirst0000mich | 'The Lean Startup': https://bdebooks.com/the-lean-startup/... → https://theleanstartup.com | 'Small Business Management': https://openstax.org/details/books/small-business-management... → https://openstax.org/details/books/principles-management 2026-08-23: Added 25 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 50 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Review the 25 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI.",
+    "2026-08-23: Review the 50 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

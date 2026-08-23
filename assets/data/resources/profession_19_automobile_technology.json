@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_19_automobile_technology",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UCH7WT6FDHtqN7eMtYLRkOSw",
@@ -178,16 +178,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF — why most small businesses fail and how to build systems that scale without the owner.",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "URL from user-provided CSV (III.56-60). Same book already in skill_01 via slightly different path on the same domain.",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
@@ -196,16 +186,6 @@
       "verifiedOn": "2026-07-25",
       "verificationMethod": "URL from user-provided CSV. Author's own domain, consistent with skill_01 entry.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
-      "freeSourceType": "download",
-      "freeSourceNote": "Free PDF — validated learning and build-measure-learn cycles for trade business scaling.",
-      "verifiedOn": "2026-07-25",
-      "verificationMethod": "URL from user-provided CSV (III.56-60).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -276,11 +256,500 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Fundamentals of Compressible Flow Mechanics - ver. 0.5.4",
+      "author": "Genick Bar-Meir - Author",
+      "freeSourceUrl": "https://zenodo.org/records/18217916",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-compressible-flow-mechanics"
+    },
+    {
+      "title": "Manufacturing Processes 4-5",
+      "author": "LamNgeun Virasak - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/manufacturingprocesses45/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/manufacturing-processes-4-5"
+    },
+    {
+      "title": "Interpretation of Metal Fab Drawings",
+      "author": "Cameren Moran - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/weldsymbols/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/interpretation-of-metal-fab-drawings",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781636350615-L.jpg"
+    },
+    {
+      "title": "Basic Blueprint Reading",
+      "author": "Ric Costin - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/blueprint/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-blueprint-reading",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781636350318-L.jpg"
+    },
+    {
+      "title": "Stability of Ships and Other Bodies - ver 0.7.0",
+      "author": "Genick Bar-Meir - Author",
+      "freeSourceUrl": "https://zenodo.org/records/5784893",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Free Documentation License (GNU)) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Free Documentation License (GNU); catalog record: https://open.umn.edu/opentextbooks/textbooks/stability-of-ships-and-other-bodies"
+    },
+    {
+      "title": "Aerodynamics and Aircraft Performance - 3rd edition",
+      "author": "James F. Marchman III - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/a9bd021c-4dfa-45c7-b3cd-33722b87265d",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/aerodynamics-and-aircraft-performance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781949373639-L.jpg"
+    },
+    {
+      "title": "Engineering Statics: Open and Interactive",
+      "author": "Daniel W. Baker - Author / William Haynes - Author",
+      "freeSourceUrl": "https://engineeringstatics.org/frontmatter.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-statics-open-and-interactive"
+    },
+    {
+      "title": "Intermediate Fluid Mechanics",
+      "author": "James Liburdy - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/intermediate-fluid-mechanics/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/intermediate-fluid-mechanics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781955101103-L.jpg"
+    },
+    {
+      "title": "Introduction to Mechanical Engineering Design",
+      "author": "Jacqulyn A. Baughman - Author",
+      "freeSourceUrl": "https://www.iastatedigitalpress.com/plugins/books/131/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-mechanical-engineering-design"
+    },
+    {
+      "title": "A Guide to MATLAB for ME 160",
+      "author": "Austin Bray - Author / Reza Montazami - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/matlabguide/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-guide-to-matlab-for-me-160"
+    },
+    {
+      "title": "Engineering Mechanics: Statics",
+      "author": "Elisabeth (Libby) Osgood - Author / Gayla Cameron - Author / Emma Christensen - Author",
+      "freeSourceUrl": "https://pressbooks.library.upei.ca/statics/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-mechanics-statics"
+    },
+    {
+      "title": "Werktuigkundige Systemen",
+      "author": "Jan C. Cool - Author / Gabriëlle J.M. Tuijthof - Editor / Giuseppe Radaelli - Editor / Regine W. Vroom - Editor",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/152",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/werktuigkundige-systemen",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463667241-L.jpg"
+    },
+    {
+      "title": "Essential Mechanics - Statics and Strength of Materials with MATLAB and Octave",
+      "author": "P. Venkataraman - Author",
+      "freeSourceUrl": "https://repository.rit.edu/cgi/viewcontent.cgi?article=1002&context=ritbooks",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/essential-mechanics-statics-and-strength-of-materials-with-matlab-and-octave",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780988881129-L.jpg"
+    },
+    {
+      "title": "Engineering Systems, Dynamics, Modelling, Simulation, and Design",
+      "author": "Mehrzad Tabatabaian - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/engineering-systems-dynamics-modelling-simulation-and-design-lagrangian-and-bond-graph-methods-british-columbia-institute-of-technology-111/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-systems-dynamics-modelling-simulation-and-design"
+    },
+    {
+      "title": "From theORy to application: learning to optimize with Operations Research in an interactive way",
+      "author": "Alessandro Bombelli - Author / Bilge Atasoy - Author / Stefano Fazi - Author / Doris Boschma - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/175",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/from-theory-to-application-learning-to-optimize-with-operations-research-in-an-interactive-way",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463668507-L.jpg"
+    },
+    {
+      "title": "Introduction to Mechanical Design and Manufacturing",
+      "author": "David Jensen - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/mechanicaldesign/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-mechanical-design-and-manufacturing"
+    },
+    {
+      "title": "Engineering Thermodynamics",
+      "author": "Olivier Cleynen - Author",
+      "freeSourceUrl": "https://thermodynamicsbook.com/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-thermodynamics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781446710067-L.jpg"
+    },
+    {
+      "title": "Transitioning towards a circular (healthcare) economy: Circular Economy principles, leadership, policy and decision-making",
+      "author": "Bart van Straten - Author / Bruno Bruins - Author / Tim Horeman - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/217",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/transitioning-towards-a-circular-healthcare-economy-circular-economy-principles-leadership-policy-and-decision-making",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789465180502-L.jpg"
+    },
+    {
+      "title": "Across the Prairie in a Motor Caravan\nA 3,000 Mile Tour by Two Englishwomen on Behalf of Religious Education",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34447",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34447; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "An Illustrated Directory of the Specifications of All Domestic and Foreign Motor-cars and Motor Business Wagons, Gasoline, Steam and Electric, Sold in This Country, 1907",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65005",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65005; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Automobile Biographies\nAn Account of the Lives and the Work of Those Who Have Been Identified with the Invention and Development of Self-Propelled Vehicles on the Common Roads",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41891",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41891; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Automobiles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73790",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73790; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "British Highways and Byways from a Motor Car\r\nBeing a Record of a Five Thousand Mile Tour in England, Wales and Scotland",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17297",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #17297; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "By motor to the Golden Gate",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73784",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73784; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "C.A. Coey's School of Motoring, 1424-26 Michigan Ave. Chicago",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49307",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49307; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Electricity in Locomotion\r\nAn Account of Its Mechanism, Its Achievements, and Its Prospects",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51242",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51242; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "English-French and French-English dictionary of the motor car, cycle, and boat",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41217",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41217; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Europe from a Motor Car",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41588",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41588; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Henry Ford's Own Story\r\nHow a Farmer Boy Rose to the Power that goes with Many Millions, Yet Never Lost Touch with Humanity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46121",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46121; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Italian Highways and Byways from a Motor Car",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44212",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44212; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motor Camping",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66988",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66988; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motor Transports in War",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56323",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56323; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Motor-car principles; the gasoline automobile",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70194",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70194; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Mr. Punch Awheel: The Humours of Motoring and Cycling",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29022",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29022; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Practical Hand Book of Gas, Oil and Steam Engines\r\nStationary, Marine, Traction; Gas Burners, Oil Burners, Etc.; Farm, Traction, Automobile, Locomotive; A simple, practical and comprehensive book on the construction, operation and repair of all kinds of engines. Dealing with the various parts in detail and the various types of engines and also the use of different kinds of fuel.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56776",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56776; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Practical House, Wagon and Automobile Painter\r\nincluding sign painting, and valuable hints and recipes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67109",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67109; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Putnam's Automobile Handbook: The Care and Management of the Modern Motor-Car",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65673",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65673; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Souvenir Map and Guide for Tourists in the Black Hills of South Dakota\nMaps prepared especially for the use of Automobile Tourists",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60217",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60217; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Story of the automobile: Its history and development from 1760 to 1917\r\nWith an analysis of the standing and prospects of the automobile industry",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66607",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66607; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The 1893 Duryea Automobile In the Museum of History and Technology",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30055",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30055; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The automobile owner's guide",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69375",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69375; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Automobile Storage Battery: Its Care And Repair",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29718",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29718; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Lake of the Sky\nLake Tahoe in the High Sierras of California and Nevada, its History, Indians, Discovery by Frémont, Legendary Lore, Various Namings, Physical Characteristics, Glacial Phenomena, Geology, Single Outlet, Automobile Routes, Historic Towns, Early Mining Excitements, Steamer Ride, Mineral Springs, Mountain and Lake Resorts, Trail and Camping Out Trips, Summer Residences, Fishing, Hunting, Flowers, Birds, Animals, Trees, and Chaparral, with a Full Account of the Tahoe National Forest, the Public Use of the Water of Lake Tahoe and Much Other Interesting Matter",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/13170",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #13170; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Motor Car Dumpy Book",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24609",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24609; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "The Motor Routes of France\r\nTo the Châteaux of Touraine, Biarritz, the Pyrenees, the Riviera, & the Rhone Valley",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57133",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57133; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Through East Anglia in a Motor Car",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38938",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38938; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Two Thousand Miles on an Automobile\r\nBeing a Desultory Narrative of a Trip Through New England, New York, Canada, and the West, By \"Chauffeur\"",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12380",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12380; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "A boy's text book on gas engines",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71991",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71991; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Across the Continent by the Lincoln Highway",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33320",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33320; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "D.C. Powered Timing Light Model 161.2158 for 12 Volt Ignition Systems\nSears Owners Manual",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39714",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39714; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Deeds Barn and the Self Starter",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64831",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64831; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "El Toro",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76338",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76338; matched practical keyword rule from title/subject metadata."
+    },
+    {
+      "title": "Essex Terraplane Six 1933 Owner's Manual of Information",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37863",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37863; matched practical keyword rule from title/subject metadata."
     }
   ],
-  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). Key changes from draft: (1) OttoXpress (@OttoXpress, 404) replaced with Autochek Africa (@autochekafrica2536, UCyYCUDC804Vpup4zPWaK9dw) — verified African auto B2B platform. OttoXpress blog entry retained. (2) @Nairametrics (404) → @NairametricsTV (UC1GBKv15keKOgHbEBEMeo9w, launched Jan 2025). (3) EngineeringAll and OttoXpress FETCH_YOUTUBE_HANDLE_* placeholders fully resolved. (4) Zikoko handle corrected @ZikokoTV→@Zikokomag (consistent with p16 and p18).",
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). Key changes from draft: (1) OttoXpress (@OttoXpress, 404) replaced with Autochek Africa (@autochekafrica2536, UCyYCUDC804Vpup4zPWaK9dw) — verified African auto B2B platform. OttoXpress blog entry retained. (2) @Nairametrics (404) → @NairametricsTV (UC1GBKv15keKOgHbEBEMeo9w, launched Jan 2025). (3) EngineeringAll and OttoXpress FETCH_YOUTUBE_HANDLE_* placeholders fully resolved. (4) Zikoko handle corrected @ZikokoTV→@Zikokomag (consistent with p16 and p18). 2026-08-23: Added 18 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 35 selected Project Gutenberg public-domain non-fiction records to the General collection.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 18 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI.",
+    "2026-08-23: Review the 35 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
   ]
 }

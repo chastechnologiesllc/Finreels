@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_15_ads_management",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "UC",
@@ -182,7 +182,7 @@
       "author": "Michael E. Gerber",
       "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
       "freeSourceType": "web",
-      "freeSourceNote": "Free preview \u2014 technician/manager/entrepreneur framework.",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Google Books preview.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
@@ -192,7 +192,7 @@
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
       "freeSourceType": "web",
-      "freeSourceNote": "Free chapter \u2014 profit before expenses system.",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Official author site.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
@@ -222,7 +222,7 @@
       "author": "Jason Fried & David Heinemeier Hansson",
       "freeSourceUrl": "https://basecamp.com/books/rework",
       "freeSourceType": "web",
-      "freeSourceNote": "Free excerpts \u2014 simple business thinking.",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "Basecamp books.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
@@ -276,8 +276,198 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "eMarketing: The Essential Guide to Marketing in a Digital World - 7th Edition",
+      "author": "Dionne Solomons - Author / Tania Kliphuis - Author / Michelle Wadley - Author",
+      "freeSourceUrl": "https://strapi-prd.redandyellow.co.za/uploads/e_Marketing_Red_Yellow_Textbook_Latest_26e55d2cfe.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/emarketing-the-essential-guide-to-marketing-in-a-digital-world",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780639707808-L.jpg"
+    },
+    {
+      "title": "Launch! Advertising and Promotion in Real Time",
+      "author": "Michael Solomon - Author / Lisa Duke Cornell - Author / Amit Nizan - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Launch!%20Advertising%20and%20Promotion%20in%20Real%20Time.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/launch-advertising-and-promotion-in-real-time",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780982043028-L.jpg"
+    },
+    {
+      "title": "Principles of Marketing",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://biz.libretexts.org/Bookshelves/Marketing/Principles_of_Marketing_(LibreTexts)",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-marketing",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135193-L.jpg"
+    },
+    {
+      "title": "Legal Aspects of Marketing and Sales",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_legal-aspects-of-marketing-and-sales/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/legal-aspects-of-marketing-and-sales",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343289-L.jpg"
+    },
+    {
+      "title": "Introducing Marketing",
+      "author": "John Burnett - Author",
+      "freeSourceUrl": "http://solr.bccampus.ca:8001/bcc/file/ddbe3343-9796-4801-a0cb-7af7b02e3191/1/Core%20Concepts%20of%20Marketing.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introducing-marketing"
+    },
+    {
+      "title": "eMarketing - The Essential Guide to Online Marketing",
+      "author": "BCcampus",
+      "freeSourceUrl": "https://open.bccampus.ca/browse-our-collection/find-open-textbooks/?uuid=65ed5b9b-a7dc-4e73-ae37-76e23e04ee46&contributor&keyword&subject",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/emarketing-the-essential-guide-to-online-marketing"
+    },
+    {
+      "title": "Strategic Marketing in the Global Forest Industries - Third Edition",
+      "author": "Eric Hansen - Author / Heikki Juslin - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/strategicmarketing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/strategic-marketing-in-the-global-forest-industries-third-edition"
+    },
+    {
+      "title": "Digital Marketing Strategy",
+      "author": "Pierre-Yann Dolbec - Author",
+      "freeSourceUrl": "https://opentextbooks.concordia.ca/digitalmarketing/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-marketing-strategy"
+    },
+    {
+      "title": "Introduction to Social Media",
+      "author": "Cheryl Lawson - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/introtosocialmedia/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; Journalism, Media Studies & Communications; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-social-media"
+    },
+    {
+      "title": "Customer Centric Strategy - 2nd Edition",
+      "author": "Kerri Shields - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/customercentricstrategy2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/customer-centric-strategy"
+    },
+    {
+      "title": "Principles of Marketing",
+      "author": "Maria Gomez Albrecht - Author / Mark Green - Author / Linda Hoffman - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-marketing",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-marketing-2022",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781711471525-L.jpg"
+    },
+    {
+      "title": "Crawford Automation – A Guided Application of Structured Problem Solving",
+      "author": "Stephen Thomson - Author / Kevin Hollis - Author / Laurie Turnbull - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/crawfordcase/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/crawford-automation-a-guided-application-of-structured-problem-solving"
+    },
+    {
+      "title": "Mastering Strategic Management",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://biz.libretexts.org/Bookshelves/Management/Mastering_Strategic_Management",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mastering-strategic-management-2015"
+    },
+    {
+      "title": "Foundations in Digital Marketing",
+      "author": "Rochelle Grayson - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/foundations-in-digital-marketing-building-meaningful-customer-relationships-and-engaged-audiences-bccampus-404/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-in-digital-marketing"
+    },
+    {
+      "title": "Sports Marketing: An Australian Perspective",
+      "author": "Jessica Richards - Author",
+      "freeSourceUrl": "https://westernsydney.pressbooks.pub/sportmarketing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sports-marketing-an-australian-perspective"
+    },
+    {
+      "title": "Customer Insights - Second Edition",
+      "author": "Aila Khan - Author / Mohammad Munir Hossain - Author / Sabreena Zoha Amin - Author",
+      "freeSourceUrl": "https://westernsydney.pressbooks.pub/customerinsights2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/customer-insights"
+    },
+    {
+      "title": "Fashion and Apparel Consumer Behavior",
+      "author": "Andrea Niosi - Author / Doreen Chung - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/fashionapparelcb/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fashion-and-apparel-consumer-behavior"
+    },
+    {
+      "title": "Marketing Principles From The River City",
+      "author": "Jodie L Ferguson - Author / Cesar Zamudio - Author",
+      "freeSourceUrl": "https://pressbooks.library.vcu.edu/marketingprinciples/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/marketing-principles-from-the-river-city",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781965417065-L.jpg"
+    },
+    {
+      "title": "The Marketing Map: Navigating the Principles of Marketing for Tourism, Hospitality, and Services",
+      "author": "Lian Dumouchel - Author",
+      "freeSourceUrl": "https://marketingmap.pressbooks.tru.ca/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-marketing-map-navigating-the-principles-of-marketing-for-tourism-hospitality-and-services"
+    },
+    {
+      "title": "Applied Business Analytics for Marketing Decision-Making",
+      "author": "Jose Mendoza - Author",
+      "freeSourceUrl": "https://nyu.manifoldapp.org/projects/applied-business-analytics-for-marketing-decision-making",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/applied-business-analytics-for-marketing-decision-making",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798996140732-L.jpg"
     }
   ],
-  "integrationNotes": "Stub for Facebook & Instagram Ads Management. Capital: \u20a60 (skill) + client ad spend. Summary: Set up, run and optimize Meta ads for local businesses and e-commerce brands; charge management fees + performance bonuses.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
-  "actionRequired": "Nigeria-first list. Bizliftng and Damini Williams are strong verified local ads educators. Continue to 16 next."
+  "integrationNotes": "Stub for Facebook & Instagram Ads Management. Capital: ₦0 (skill) + client ad spend. Summary: Set up, run and optimize Meta ads for local businesses and e-commerce brands; charge management fees + performance bonuses.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": [
+    "2026-08-23: Review the 20 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 20 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format."
 }

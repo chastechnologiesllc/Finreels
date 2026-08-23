@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_13_education",
   "status": "verified",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-23",
   "channels": [
     {
       "id": "",
@@ -203,17 +203,6 @@
   ],
   "books": [
     {
-      "title": "The E-Myth Revisited",
-      "author": "Michael E. Gerber",
-      "freeSourceUrl": "https://f5fp.com/the-e-myth-revisited/",
-      "freeSourceType": "download",
-      "freeSourceNote": "Michael E. Gerber (Free PDF)",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
-    },
-    {
       "title": "Profit First",
       "author": "Mike Michalowicz",
       "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
@@ -223,17 +212,6 @@
       "verifiedOn": "2026-07-24",
       "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "freeSourceUrl": "https://bdebooks.com/books/the-lean-startup/",
-      "freeSourceType": "download",
-      "freeSourceNote": "Eric Ries (Free PDF)",
-      "region": "Global",
-      "verifiedOn": "2026-07-24",
-      "verificationMethod": "Added from curated CSV import (Qwen_csv_20260724).",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
     },
     {
       "title": "Small Business Management",
@@ -310,11 +288,1535 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Exploring Perspectives: A Concise Guide to Analysis",
+      "author": "Randall Fallows - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Exploring%20Perspectives%20-%20A%20Concise%20Guide%20to%20Analysis.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/exploring-perspectives-a-concise-guide-to-analysis",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453311455-L.jpg"
+    },
+    {
+      "title": "Educational Psychology - Second Edition",
+      "author": "Kelvin Seifert - Author / Rosemary Sutton - Author",
+      "freeSourceUrl": "https://home.cc.umanitoba.ca/~seifert/EdPsy2009.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/educational-psychology"
+    },
+    {
+      "title": "The Information Literacy User's Guide: An Open, Online Textbook",
+      "author": "Deborah Bernnard - Author / Greg Bobish - Author / Daryl Bullis - Author / Jenna Hecker - Author / Irina Holden - Author / Allison Hosier - Author / Trudi Jacobson - Author / Tor Loney - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=476",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-information-literacy-user-s-guide-an-open-online-textbook",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780989722629-L.jpg"
+    },
+    {
+      "title": "Instruction in Functional Assessment",
+      "author": "Marcie Desrochers - Author / Moira Fallon - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=485",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Education - Elementary Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/instruction-in-functional-assessment",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780989722674-L.jpg"
+    },
+    {
+      "title": "Teaching in a Digital Age: Guidelines for designing teaching and learning - 2nd Edition",
+      "author": "A.W. (Tony) Bates - Author",
+      "freeSourceUrl": "https://pressbooks.bccampus.ca/teachinginadigitalagev2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-in-a-digital-age-guidelines-for-designing-teaching-and-learning-for-a-digital-age"
+    },
+    {
+      "title": "Comprehensive Individualized Curriculum and Instructional Design: Curriculum and Instruction for Students with Developmental Disabilities/Autism Spectrum Disorders",
+      "author": "Samuel Sennott - Author / Sheldon Loman - Author",
+      "freeSourceUrl": "https://pdxscholar.library.pdx.edu/pdxopen/5/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/comprehensive-individualized-curriculum-and-instructional-design-curriculum-and-instruction-for-students-with-developmental-disabilities-autism-spectrum-disorders",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781312886872-L.jpg"
+    },
+    {
+      "title": "Teaching Autoethnography: Personal Writing in the Classroom",
+      "author": "Melissa Tombro - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1386",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-autoethnography-personal-writing-in-the-classroom",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341284-L.jpg"
+    },
+    {
+      "title": "Steps to Success: Crossing the Bridge Between Literacy Research and Practice",
+      "author": "Kristen A. Munger - Editor",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1275",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Education - Elementary Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/steps-to-success-crossing-the-bridge-between-literacy-research-and-practice",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341222-L.jpg"
+    },
+    {
+      "title": "The Changing Story: digital stories that participate in transforming teaching & learning",
+      "author": "Linda Buturian - Author",
+      "freeSourceUrl": "https://open.lib.umn.edu/thechangingstory/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-changing-story-digital-stories-that-participate-in-transforming-teaching-learning"
+    },
+    {
+      "title": "Antiracist Writing Assessment Ecologies: Teaching and Assessing Writing for a Socially Just Future",
+      "author": "Asao B. Inoue - Author",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/inoue/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/antiracist-writing-assessment-ecologies-teaching-and-assessing-writing-for-a-socially-just-future",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602357747-L.jpg"
+    },
+    {
+      "title": "Beyond Dichotomy: Synergizing Writing Center and Classroom Pedagogies",
+      "author": "Steven J. Corbett - Author",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/dichotomy/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/beyond-dichotomy-synergizing-writing-center-and-classroom-pedagogies",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602356320-L.jpg"
+    },
+    {
+      "title": "The Centrality of Style",
+      "author": "Mike Duncan - Author / Star M. Vanguri - Author",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/centrality/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-centrality-of-style",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602354227-L.jpg"
+    },
+    {
+      "title": "Chinese Rhetoric and Writing: An Introduction for Language Teachers",
+      "author": "Andy Kirkpatrick - Author / Zhichang Xu - Author",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/kirkpatrick-xu/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/chinese-rhetoric-and-writing-an-introduction-for-language-teachers",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602353022-L.jpg"
+    },
+    {
+      "title": "Critical Expressivism: Theory and Practice in the Composition Classroom",
+      "author": "Tara Roeder - Author / Roseanne Gatto - Author",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/expressivism/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/critical-expressivism-theory-and-practice-in-the-composition-classroom",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602356511-L.jpg"
+    },
+    {
+      "title": "Copy(write): Intellectual Property in the Writing Classroom",
+      "author": "Martine Courant Rife - Editor / Shaun Slattery - Editor / Dànielle Nicole DeVoss - Editor",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/copywrite/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/copy-write-intellectual-property-in-the-writing-classroom",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602352643-L.jpg"
+    },
+    {
+      "title": "Design Discourse: Composing and Revising Programs in Professional and Technical Writing",
+      "author": "David Franke - Author / Alex Reid - Author / Anthony Di Renzo - Author",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/designdiscourse/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/design-discourse-composing-and-revising-programs-in-professional-and-technical-writing",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602351677-L.jpg"
+    },
+    {
+      "title": "Writing Programs Worldwide: Profiles of Academic Writing in Many Places",
+      "author": "Chris Thaiss - Author / Gerd Bräuer - Author / Paula Carlino - Author / Lisa Ganobcsik-Williams - Author / Aparna Sinha - Author",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/wpww/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/writing-programs-worldwide-profiles-of-academic-writing-in-many-places",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602353435-L.jpg"
+    },
+    {
+      "title": "ePortfolio Performance Support Systems: Constructing, Presenting, and Assessing Portfolios",
+      "author": "Katherine V. Wills - Editor / Rich Rice - Editor",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/eportfolios/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/eportfolio-performance-support-systems-constructing-presenting-and-assessing-portfolios",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602354432-L.jpg"
+    },
+    {
+      "title": "Foundational Practices of Online Writing Instruction",
+      "author": "Beth L. Hewett - Editor / Kevin Eric DePew - Editor / Elif Guler - Editor / Robbin Zeff Warner - Editor",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/owi/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundational-practices-of-online-writing-instruction",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602356672-L.jpg"
+    },
+    {
+      "title": "WAC and Second-Language Writers: Research Towards Linguistically and Culturally Inclusive Programs and Practices",
+      "author": "Terry Myers Zawacki - Editor / Michelle Cox - Editor",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/l2/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/wac-and-second-language-writers-research-towards-linguistically-and-culturally-inclusive-programs-and-practices",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602355057-L.jpg"
+    },
+    {
+      "title": "WAC Partnerships Between Secondary and Postsecondary Institutions",
+      "author": "Jacob Blumner - Editor / Pamela Childers - Editor",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/partnerships/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Education - Higher Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/wac-partnerships-between-secondary-and-postsecondary-institutions",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602358096-L.jpg"
+    },
+    {
+      "title": "Working With Academic Literacies: Case Studies Towards Transformative Practice",
+      "author": "Theresa Lillis - Author / Kathy Harrington - Author / Mary Lea - Author / Sally Mitchell - Author",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/lillis/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/working-with-academic-literacies-case-studies-towards-transformative-practice",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602357617-L.jpg"
+    },
+    {
+      "title": "Choosing & Using Sources: A Guide to Academic Research",
+      "author": "Cheryl Lowry - Editor",
+      "freeSourceUrl": "https://ohiostate.pressbooks.pub/choosingsources/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Student Success; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/choosing-using-sources-a-guide-to-academic-research"
+    },
+    {
+      "title": "Teaching Crowds: Learning and Social Media",
+      "author": "Jon Dron - Author / Terry Anderson - Author",
+      "freeSourceUrl": "https://www.aupress.ca/books/120235-teaching-crowds/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-crowds-learning-and-social-media",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781927356814-L.jpg"
+    },
+    {
+      "title": "Education for a Digital World: Advice, Guidelines and Effective Practice from Around Globe",
+      "author": "Sandy Hirtz - Author / David G. Harper - Author",
+      "freeSourceUrl": "https://oasis.col.org/bitstream/handle/11599/52/Education_for_a_Digital_World.pdf?sequence=1&isAllowed=y",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/education-for-a-digital-world-advice-guidelines-and-effective-practice-from-around-globe",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781894975292-L.jpg"
+    },
+    {
+      "title": "Reading With My Eyes Open: Embracing the critical and the personal in language pedagogy",
+      "author": "Gerdi Quist - Author",
+      "freeSourceUrl": "https://library.oapen.org/handle/20.500.12657/33210",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/reading-with-my-eyes-open-embracing-the-critical-and-the-personal-in-language-pedagogy",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781909188211-L.jpg"
+    },
+    {
+      "title": "Conventions 101: A Functional Approach to Teaching (And Assessing!) Grammar and Punctuation",
+      "author": "Chauna Ramsey - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/conventions101",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/conventions-101-a-functional-approach-to-teaching-and-assessing-grammar-and-punctuation"
+    },
+    {
+      "title": "Information Literacy: Research and Collaboration across Disciplines",
+      "author": "Barbara J. D'Angelo - Editor / Sandra Jamieson - Editor / Barry Maid - Author",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/infolit/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/information-literacy-research-and-collaboration-across-disciplines",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781642150834-L.jpg"
+    },
+    {
+      "title": "How to Learn Like A Pro",
+      "author": "Phyllis Nissila - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/collegereading/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Student Success; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/how-to-learn-like-a-pro"
+    },
+    {
+      "title": "Project Management for Instructional Designers",
+      "author": "Bobbie Sandberg - Author / Royce Kimmons - Author / Rebecca Zundel - Author",
+      "freeSourceUrl": "https://edtechbooks.org/pm4id",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/project-management-for-instructional-designers"
+    },
+    {
+      "title": "Open Research",
+      "author": "Rebecca Pitt - Author / Beatriz de los Arcos - Author / Rob Farrow - Author",
+      "freeSourceUrl": "https://oerhub.net/wp-content/uploads/2016/12/OpenResearch.FINAL_.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-research"
+    },
+    {
+      "title": "Efficacious Technology Management: A Guide for School Leaders",
+      "author": "Gary L. Ackerman - Author",
+      "freeSourceUrl": "https://www.hackscience.net/wp-content/uploads/2021/01/Efficacious-Technology-Management-ver.-1.2.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/efficacious-technology-management-a-guide-for-school-leaders"
+    },
+    {
+      "title": "Mathematics for Elementary Teachers",
+      "author": "Michelle Manes - Author",
+      "freeSourceUrl": "https://pressbooks-dev.oer.hawaii.edu/math111/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mathematics-for-elementary-teachers"
+    },
+    {
+      "title": "Evaluación del Aprendizaje en Inglés",
+      "author": "Jannett Fonseca - Author / Francisca Henríquez, Henríquez - Author",
+      "freeSourceUrl": "https://reader.bookfusion.com/books/513409-evaluacion-del-aprendizaje-en-ingles",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/evaluacion-del-aprendizaje-en-ingles"
+    },
+    {
+      "title": "Desafíos De La Formación Ciudadana En La Era Digital: Estadodelarte",
+      "author": "David Contreras Guzmán - Editor / David Aceituno Silva - Author / Antonio Tapia Zúñiga - Author",
+      "freeSourceUrl": "http://openbooks.biblioteca.ucv.cl/?page_id=110",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/desafios-de-la-formacion-ciudadana-en-la-era-digital-estadodelarte"
+    },
+    {
+      "title": "Guía Para Realizar Textos Abiertos Con Estudiantes",
+      "author": "Elizabeth Mays - Editor / Robin DeRosa - Author / Rajiv Jhangiani - Author",
+      "freeSourceUrl": "http://openbooks.biblioteca.ucv.cl/index.php/pucv",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guia-para-realizar-textos-abiertos-con-estudiantes",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781989014035-L.jpg"
+    },
+    {
+      "title": "Write Here, Right Now: An Interactive Introduction to Academic Writing and Research",
+      "author": "Aaron Tucker - Author / Paul Chafe - Author",
+      "freeSourceUrl": "https://pressbooks.library.ryerson.ca/writehere/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/write-here-right-now-an-interactive-introduction-to-academic-writing-and-research"
+    },
+    {
+      "title": "Learning to Learn Online",
+      "author": "Kwantlen Polytechnic University Learning Centres - Author / Christina Page - Author / Adam Vincent - Author",
+      "freeSourceUrl": "https://kpu.pressbooks.pub/learningtolearnonline/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/learning-to-learn-online"
+    },
+    {
+      "title": "Oregon Writes Open Writing Text",
+      "author": "Jenn Kepka - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/oregonwrites/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/oregon-writes-open-writing-text"
+    },
+    {
+      "title": "Trauma-Informed School Practices: Building Expertise To Transform Schools",
+      "author": "Anna A. Berardi - Author / Brenda M. Morton - Author",
+      "freeSourceUrl": "https://digitalcommons.georgefox.edu/pennington_epress/4/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Education - Elementary Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/trauma-informed-school-practices-building-expertise-to-transform-schools"
+    },
+    {
+      "title": "Foundations of Educational Technology",
+      "author": "Penny Thompson - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/foundationsofeducationaltechnology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-educational-technology"
+    },
+    {
+      "title": "Creating Online Learning Experiences",
+      "author": "Matt Crosslin - Author / Brett Benham - Author / Justin T. Dellinger - Author / Amber Patterson - Author / Peggy Semingson - Author / Catherine A. Spann - Author / Brittany Usman - Author / Harriet Watkins - Author / Justin T. Dellinger - Editor / Rebecca Heiser - Editor / Katerina Riviou - Editor / Brittany Usman - Editor",
+      "freeSourceUrl": "https://uta.pressbooks.pub/onlinelearning/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/creating-online-learning-experiences",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780989887816-L.jpg"
+    },
+    {
+      "title": "Wellbeing in Educational Contexts - Second Edition",
+      "author": "Susan Carter - Author / Cecily Andersen - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/wellbeing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Social Sciences - Psychology; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/wellbeing-in-educational-contexts",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780645679649-L.jpg"
+    },
+    {
+      "title": "Sharing Our Knowledge: Best Practices for Supporting English Language Learners in Schools",
+      "author": "Nadia Prokopchuk - Author",
+      "freeSourceUrl": "https://www.saskoer.ca/ealbestpractices/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/sharing-our-knowledge-best-practices-for-supporting-english-language-learners-in-schools"
+    },
+    {
+      "title": "Bad Ideas About Writing",
+      "author": "Cheryl E Ball - Author / Drew M Loewe - Author",
+      "freeSourceUrl": "https://textbooks.lib.wvu.edu/badideas/badideasaboutwriting-book.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/bad-ideas-about-writing"
+    },
+    {
+      "title": "Teaching in the University: Learning from Graduate Students and Early Career Faculty",
+      "author": "Donna Westfall-Rudd - Editor / Courtney Vengrin - Editor / Jeremy Elliott-Engel - Editor",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/81db3e52-d628-443c-aec1-af6cf10cabe6",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-in-the-university-learning-from-graduate-students-and-early-career-faculty"
+    },
+    {
+      "title": "Introduction to Curriculum for Early Childhood Education",
+      "author": "Jennifer Paris - Author / Kristin Beeve - Author / Clint Springer - Author",
+      "freeSourceUrl": "https://drive.google.com/file/d/1CG-nXzs4xzTMBl32HbYcdtbRhiW1Z1YD/view",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-curriculum-for-early-childhood-education"
+    },
+    {
+      "title": "Informed Arguments:  A Guide to Writing and Research - 4th Edition",
+      "author": "Terri Pantuso - Editor / Sarah LeMire - Editor / Kathy Anders - Editor",
+      "freeSourceUrl": "https://oaktrust.library.tamu.edu/items/971dfedc-9bb7-4018-a431-f5130cc069d9",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/informed-arguments-a-guide-to-writing-and-research"
+    },
+    {
+      "title": "Hybrid-Flexible Course Design",
+      "author": "Brian Beatty - Author",
+      "freeSourceUrl": "https://edtechbooks.org/hyflex",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/hybrid-flexible-course-design-beatty"
+    },
+    {
+      "title": "Writing Instruction Tips For Automated Essay Graders: How To Design an Essay for a Non-human Reader",
+      "author": "Alise Lamoreaux - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/robograders/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/writing-instruction-tips-for-automated-essay-graders-how-to-design-an-essay-for-a-non-human-reader"
+    },
+    {
+      "title": "The ELC: An Early Childhood Learning Community at Work",
+      "author": "Heather Bridge - Author / Lorraine Melita - Author / Patricia Roiger - Author",
+      "freeSourceUrl": "https://milnepublishing.geneseo.edu/sunycortlandelc/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-elc-an-early-childhood-learning-community-at-work"
+    },
+    {
+      "title": "Safety, Health, and Nutrition in Early Childhood Education",
+      "author": "Jennifer Paris - Author",
+      "freeSourceUrl": "https://drive.google.com/drive/folders/1FEoE9Ca_BhE-m2HwQS6FnUPTXCN1z3QI",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/safety-health-and-nutrition-in-early-childhood-education"
+    },
+    {
+      "title": "Parenting and Family Diversity Issues",
+      "author": "Diana Lang - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/parentingfamilydiversity/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Education - Early Childhood; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/parenting-and-family-diversity-issues"
+    },
+    {
+      "title": "Trauma Informed Behaviour Support: A Practical Guide to Developing Resilient Learners",
+      "author": "Kay Ayre - Author / Govind Krishnamoorthy - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/traumainformedpractice/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Education - Early Childhood; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/trauma-informed-behaviour-support-a-practical-guide-to-developing-resilient-learners",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780648769835-L.jpg"
+    },
+    {
+      "title": "Elementary Earth and Space Science Methods",
+      "author": "Ted Neal - Author",
+      "freeSourceUrl": "https://pressbooks.uiowa.edu/methodsii/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/elementary-earth-and-space-science-methods-2019"
+    },
+    {
+      "title": "Ethical Use of Technology in Digital Learning Environments: Graduate Student Perspectives",
+      "author": "Barbara Brown - Author / Verena Roberts - Author / Michele Jacobsen - Author",
+      "freeSourceUrl": "https://pressbooks.openeducationalberta.ca/educationaltechnologyethics/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/ethical-use-of-technology-in-digital-learning-environments-graduate-student-perspectives"
+    },
+    {
+      "title": "Exploring Physical Phenomena",
+      "author": "Emily van Zee - Author / Elizabeth Gire - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/physicsforteachers/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/exploring-physical-phenomena"
+    },
+    {
+      "title": "Design for Learning: Principles, Processes, and Praxis",
+      "author": "Jason K. McDonald - Author / Richard E. West - Author",
+      "freeSourceUrl": "https://edtechbooks.org/id",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/design-for-learning-principles-processes-and-praxis"
+    },
+    {
+      "title": "Foundations of Learning and Instructional Design Technology",
+      "author": "Richard E> West - Author",
+      "freeSourceUrl": "https://edtechbooks.s3.us-west-2.amazonaws.com/pdfs/3/_3.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-learning-and-instructional-design-technology"
+    },
+    {
+      "title": "Romeo and Juliet",
+      "author": "Rebecca Olson - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/romeoandjuliet/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/romeo-and-juliet"
+    },
+    {
+      "title": "Knowing Home: Braiding Indigenous Science with Western Science Book 1",
+      "author": "Gloria Snively  - Editor / Wanosts’a7 Lorna Williams - Editor",
+      "freeSourceUrl": "https://pressbooks.bccampus.ca/knowinghome/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/knowing-home-braiding-indigenous-science-with-western-science-book-1"
+    },
+    {
+      "title": "Building Democracy for All: Interactive Explorations of Government and Civic Life",
+      "author": "Robert W. Maloy - Author / Torrey Trust - Author",
+      "freeSourceUrl": "https://edtechbooks.org/democracy",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-democracy-for-all-interactive-explorations-of-government-and-civic-life"
+    },
+    {
+      "title": "Oral Communication for Non-Native Speakers of English - 2nd Edition",
+      "author": "Agata Guskaroska - Author / Erik Goodale - Author / Timothy Kochem - Author / Monica Ghosh - Author / Lily Compton - Author / Elena Cotos - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/oralcommunication2e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/oral-communication-for-non-native-speakers-of-english"
+    },
+    {
+      "title": "Teaching Math for Emergent Bilinguals: Building on Culture, Language, and Identity",
+      "author": "Ji-Yeong I - Author / Ricardo Martinez - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/teachingmath/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Education - Elementary Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-math-for-emergent-bilinguals-building-on-culture-language-and-identity"
+    },
+    {
+      "title": "Introduction to Education (BETA)",
+      "author": "Jennifer Beasley - Author / Myra Haulmark - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/introductiontoeducation/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-education-beta"
+    },
+    {
+      "title": "Learning in the Digital Age",
+      "author": "Tutaleni Asino - Editor / Rebecca Bayeck - Author / Wilmon Brown - Author / Raymond W. Francis - Author / Tammi Kolski - Author / Kathy Essmiller - Author / Cathy L. Green - Author / Sarah L. Lewis - Author / Corrine McCabe - Author / Josephine Shikongo - Author / Tammy Wise - Author / Jose Fulgencio - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/learninginthedigitalage/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/learning-in-the-digital-age"
+    },
+    {
+      "title": "Humanizing Science through STEAM Challenges",
+      "author": "EunJin Bahng - Author / John Hauptman - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/steamchallenges/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/humanizing-science-through-steam-challenges"
+    },
+    {
+      "title": "Foundations of American Education: A Critical Lens",
+      "author": "Melissa Wells  - Author / Courtney Clayton - Author",
+      "freeSourceUrl": "https://viva.pressbooks.pub/foundationsofamericaneducation/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-american-education-a-critical-lens"
+    },
+    {
+      "title": "Making and Being",
+      "author": "Susan Jahoda - Author / Caroline Woolard - Author",
+      "freeSourceUrl": "https://makingandbeing.com/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Humanities - Arts; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/making-and-being"
+    },
+    {
+      "title": "Salón de Clase: Intermediate Spanish for Education Professionals",
+      "author": "Fernando Castro Ortiz - Author / Giovanni Zimotti - Author",
+      "freeSourceUrl": "https://pressbooks.uiowa.edu/salondeclase/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/salon-de-clase-intermediate-spanish-for-education-professionals"
+    },
+    {
+      "title": "Teaching Early and Elementary STEM",
+      "author": "Alissa A, Lange - Author / Laura Robertson - Author / Jamie Price - Author / Amie Craven - Author",
+      "freeSourceUrl": "https://dc.etsu.edu/etsu-oer/8/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-early-and-elementary-stem"
+    },
+    {
+      "title": "Mathematics Methods for Early Childhood",
+      "author": "Janet Stramel - Author",
+      "freeSourceUrl": "https://fhsu.pressbooks.pub/ecumath/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/mathematics-methods-for-early-childhood"
+    },
+    {
+      "title": "Who Teaches Writing",
+      "author": "Tyler Branson - Author / Ron Brooks - Author / Dana Cadman - Author / Heidi Cephus - Author / Sara Beth Childers - Author / Elizabeth Devore - Author / Anna Sicari - Author / Charlotte Hogg - Author / Ho'omana Nathan Horton - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/whoteacheswriting/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/who-teaches-writing"
+    },
+    {
+      "title": "The Asynchronous Cookbook",
+      "author": "DLINQ staff contributors - Author",
+      "freeSourceUrl": "https://pressbooks.middcreate.net/asynchronouscookbook/wp-content/uploads/sites/2/2023/06/The-Asynchronous-Cookbook-DLINQ-2023.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-asynchronous-cookbook"
+    },
+    {
+      "title": "Reflective Practice in Early Years Education",
+      "author": "Sheryl Third - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/reflectivepracticeinearlyyears/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/reflective-practice-in-early-years-education"
+    },
+    {
+      "title": "Opening Eyes onto Inclusion and Diversity",
+      "author": "Susan Carter - Author / Lindy Abawi - Author / Jill Lawrence - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/openingeyes/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Early Childhood; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/opening-eyes-onto-inclusion-and-diversity",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780648769804-L.jpg"
+    },
+    {
+      "title": "Technology in Schools",
+      "author": "Gary L Ackerman - Author",
+      "freeSourceUrl": "https://www.hackscience.education/wp-content/uploads/2022/05/Technology-in-Schools-1.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Computer Science - Information Systems; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/technology-in-schools"
+    },
+    {
+      "title": "Critical Thinking in Academic Research - Second Edition",
+      "author": "Cindy Gruwell - Author / Robin Ewing - Author",
+      "freeSourceUrl": "https://minnstate.pressbooks.pub/ctar2/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/critical-thinking-in-academic-research"
+    },
+    {
+      "title": "How To Do Science - Revised Edition",
+      "author": "Louise Lexis - Author / Brianna Julien - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/howtodoscience/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/how-to-do-science",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780645326130-L.jpg"
+    },
+    {
+      "title": "Methods of Teaching Early Literacy",
+      "author": "Nandita Gurjar - Author / Sohyun Meacham - Author / Constance Beecher - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/teachingearlyliteracy/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Elementary Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/methods-of-teaching-early-literacy"
+    },
+    {
+      "title": "Enhancing Inclusion, Diversity, Equity and Accessibility (IDEA) in Open Educational Resources (OER) - Australian Edition",
+      "author": "Nikki Andersen - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/diversityandinclusionforoer/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/enhancing-inclusion-diversity-equity-and-accessibility-idea-in-open-educational-resources-oer",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780645326-L.jpg"
+    },
+    {
+      "title": "Game Based and Adaptive Learning Strategies",
+      "author": "Carrie Lewis Miller - Author / Odbayar Batsaikhan - Author / Elizabeth Pluskwik - Author",
+      "freeSourceUrl": "https://mlpp.pressbooks.pub/gamebasedlearning/open/download?type=pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Computer Science; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/game-based-and-adaptive-learning-strategies"
+    },
+    {
+      "title": "Open Music Theory - Version 2",
+      "author": "Mark Gotham - Author / Kyle Gullings - Author / Chelsey Hamm - Author / Bryn Hughes - Author / Brian Jarvis - Author / Megan Lavengood - Author / John Peterson - Author",
+      "freeSourceUrl": "https://viva.pressbooks.pub/openmusictheory/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-music-theory"
+    },
+    {
+      "title": "Using Open Educational Resources to Promote Social Justice",
+      "author": "Kevin Adams - Author / Murray Anderson - Author / Elissah Becknell - Author / CJ Ivory - Editor / Angela Pashia - Editor",
+      "freeSourceUrl": "https://www.ala.org/sites/default/files/acrl/content/publications/booksanddigitalresources/digital/9780838936771_OA.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/using-open-educational-resources-to-promote-social-justice"
+    },
+    {
+      "title": "Intersections of Open Educational Resources and Information Literacy",
+      "author": "Mary Ann Cullen - Editor / Elizabeth Dill - Editor",
+      "freeSourceUrl": "https://www.ala.org/sites/default/files/acrl/content/publications/booksanddigitalresources/digital/9780838936740_PIL79_OA.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/intersections-of-open-educational-resources-and-information-literacy"
+    },
+    {
+      "title": "Urban Health: A Practical Application for Clinical Based Learning",
+      "author": "Cynthera McNeill - Author / Umeika Stephens - Author / Tara Walker - Author",
+      "freeSourceUrl": "https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1001&context=oa_textbooks",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; Medicine - Nursing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/urban-health-a-practical-application-for-clinical-based-learning",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798985775419-L.jpg"
+    },
+    {
+      "title": "Making Sense of Digital Humanities",
+      "author": "Julian Chambliss - Author / Ellen Moll - Author",
+      "freeSourceUrl": "https://openbooks.lib.msu.edu/makingsensedh/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/making-sense-of-digital-humanities",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781626101210-L.jpg"
+    },
+    {
+      "title": "Reframing Digital Humanities: Conversations with Digital Humanists",
+      "author": "Julian Chambliss - Author",
+      "freeSourceUrl": "https://openbooks.lib.msu.edu/reframingdh/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/reframing-digital-humanities-conversations-with-digital-humanists",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781626101036-L.jpg"
+    },
+    {
+      "title": "Supporting Technology Integration for School Leaders",
+      "author": "Howard Pitler - Author",
+      "freeSourceUrl": "https://edtechbooks.org/integrating_technology",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/supporting-technology-integration-for-school-leaders"
+    },
+    {
+      "title": "Trauma Informed Education",
+      "author": "Govind Krishnamoorthy - Author / Kay Ayre - Author / Dayna Schimke - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/traumainformededucation/open/download?type=print_pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/trauma-informed-education"
+    },
+    {
+      "title": "Contextualised open educational practices: Towards student agency and self-directed learning",
+      "author": "Jako Olivier - Editor / Charlene du Toit-Brits - Editor / Byron J. Bunt - Editor / Amit Dhakulkar - Editor",
+      "freeSourceUrl": "https://books.aosis.co.za/index.php/ob/catalog/view/345/569/7588-1",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/contextualised-open-educational-practices-towards-student-agency-and-self-directed-learning",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781779952653-L.jpg"
+    },
+    {
+      "title": "Early Childhood Literacy: Engaging and Empowering Emergent Readers and Writers, Birth – Age 5",
+      "author": "Christine Pegorraro Schull - Author / Leslie La Croix - Author / Sara E. Miller - Author / Kimberly Sanders Austin - Author / Julie K. Kidd - Author / Melanie Medina - Editor",
+      "freeSourceUrl": "https://viva.pressbooks.pub/earlychildhoodliteracy/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/early-childhood-literacy-engaging-and-empowering-emergent-readers-and-writers-birth-age-5"
+    },
+    {
+      "title": "Curriculum Development for Christian Ministry",
+      "author": "Karen E. Jones - Author",
+      "freeSourceUrl": "https://pressbooks.palni.org/curriculumdevelopmentforchristianministry/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/curriculum-development-for-christian-ministry"
+    },
+    {
+      "title": "Supporting Secondary Teachers’ Critical Disciplinary Literacies",
+      "author": "Jeanne Dyches - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/cdlpedagogy/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/supporting-secondary-teachers-critical-disciplinary-literacies"
+    },
+    {
+      "title": "Introduction to Library and Information Science",
+      "author": "Reed Hepler - Author / David Horalek - Author",
+      "freeSourceUrl": "https://csi.pressbooks.pub/lis/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-library-and-information-science"
+    },
+    {
+      "title": "Writing Spaces at Oklahoma State University",
+      "author": "Dane Howard - Editor / Courtney Lund O'Neil - Editor / Dana Driscoll - Author / Joshua Daniel - Author / Josiah Meints - Editor / Kathy Essmiller - Editor / Mary K. Stewart - Author / Matthew Vetter - Author / Trace Daniels-Lerberg - Author / Mark DiFruscio - Editor / Natasha Tinsley - Editor / Roseanna Recchia - Illustrator / Victoria Garcia-Boswell - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/writingspacesatosu/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/writing-spaces-at-oklahoma-state-university"
+    },
+    {
+      "title": "Estrategias de enseñanza - aprendizaje en la educación superior: Una experiencia en la ESPOCH",
+      "author": "Norma del Rocío Toledo Castillo - Author / Norma Yolanda Villacís Venegas - Author / Isabel Romané Peñafiel Moncayo - Author",
+      "freeSourceUrl": "http://libros.cienciadigital.org/index.php/CienciaDigitalEditorial/catalog/book/15",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/estrategias-de-ensenanza-aprendizaje-en-la-educacion-superior-una-experiencia-en-la-espoch"
+    },
+    {
+      "title": "Desarrollo del Pensamiento Creativo: mediante Juegos Libres para Niños",
+      "author": "Esther Glory Terrazo-Luna - Author / Daker Riveros-Anccasi - Author / Abel Gonzales-Castro - Author / Juan José Oré-Rojas - Author / Angel Epifanio Rojas-Quispe - Author / Ubaldo Cayllahua-Yarasca - Author / Christian Luis Torres-Acevedo - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/29",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/desarrollo-del-pensamiento-creativo-mediante-juegos-libres-para-ninos"
+    },
+    {
+      "title": "Habilidades Perceptivas: Mejorando el Aprendizaje Remoto en Estudiantes de 5 años",
+      "author": "Esther Glory Terrazo-Luna - Author / Daker Riveros-Anccasi - Author / Christian Luis Torres-Acevedo - Author / Angel Epifanio Rojas-Quispe - Author / Abraham Cencho-Pari - Author / Jessica Coronel-Capani - Author / Russbelt Yaulilahua-Huacho - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/30",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/habilidades-perceptivas-mejorando-el-aprendizaje-remoto-en-estudiantes-de-5-anos"
+    },
+    {
+      "title": "Cataloging with MARC, RDA, and Classification Systems",
+      "author": "Reed Hepler - Author / David Horalek - Author",
+      "freeSourceUrl": "https://csi.pressbooks.pub/cataloging/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/cataloging-with-marc-rda-and-classification-systems"
+    },
+    {
+      "title": "The Art and Science of Teaching Agriculture: Four Keys to Dynamic Learning",
+      "author": "M. Susie Whittington - Editor / Rick Rudd - Editor / Jack Elliot - Editor",
+      "freeSourceUrl": "https://pressbooks.lib.vt.edu/teachagriculture",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-art-and-science-of-teaching-agriculture-four-keys-to-dynamic-learning"
+    },
+    {
+      "title": "Technology Tools for Leaders",
+      "author": "Andrea Bearman - Author / Jill Noyes - Author",
+      "freeSourceUrl": "https://pressbooks.palni.org/technologytoolsforleaders/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/technology-tools-for-leaders"
+    },
+    {
+      "title": "Making Ripples: A Guidebook to Challenge Status Quo in OER Creation",
+      "author": "Kaitlin Schilling - Author",
+      "freeSourceUrl": "https://press.rebus.community/MakingRipples/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/making-ripples-a-guidebook-to-challenge-status-quo-in-oer-creation",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781989014318-L.jpg"
+    },
+    {
+      "title": "Beyond the Horizon: Broadening Our Understanding of OER Efficacy",
+      "author": "Kaitlin Schilling - Author",
+      "freeSourceUrl": "https://press.rebus.community/beyond-the-horizon/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/beyond-the-horizon-broadening-our-understanding-of-oer-efficacy"
+    },
+    {
+      "title": "Comprendiendo la Lectura: Del Nivel Literal al Crítico en Estudiantes de EBA",
+      "author": "Amancia María Pacheco-Altamirano - Author / Alvaro Ignacio Camposano-Córdova - Author / Christian Luis Torres-Acevedo - Author / Juan José Oré-Rojas - Author / Júber Amílcar Gavidia-Anticona - Author / Yeni Yauri-Huiza - Author / Ángel Epifanio Rojas-Quispe - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/book/40",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Elementary Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/comprendiendo-la-lectura-del-nivel-literal-al-critico-en-estudiantes-de-eba",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789942714695-L.jpg"
+    },
+    {
+      "title": "Teaching Methods & Practices",
+      "author": "Jason Proctor - Author",
+      "freeSourceUrl": "https://open.ocolearnok.org/teachingmethods/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-methods-practices"
+    },
+    {
+      "title": "Conducting Mixed-Methods Research: From Classical Social Sciences to the Age of Big Data and Analytics",
+      "author": "Viswanath Venkatesh - Author / Susan (Sue) Brown - Author / Yulia Sullivan - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/5a31b0c0-9760-475d-81b8-9984d895ba62",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/conducting-mixed-methods-research-from-classical-social-sciences-to-the-age-of-big-data-and-analytics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781957213682-L.jpg"
+    },
+    {
+      "title": "Foundations of Education: Cultivating Diverse Perspectives - Revised Edition",
+      "author": "Ceci De Valdenebro - Author / Tanya Mead - Author / Jennifer Margolis - Editor",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/foundationsofeducation2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-education",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781636351704-L.jpg"
+    },
+    {
+      "title": "Fostering Communities of Transformation in STEM Higher Education: A Multi-institutional Collection of DEI Initiatives",
+      "author": "Jonathan S. Briganti - Author / Jill C. Sible - Author / Anne M. Brown - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/a75b8e7e-c507-48c0-bf82-f3c2a6c9202a",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fostering-communities-of-transformation-in-stem-higher-education-a-multi-institutional-collection-of-dei-initiatives"
+    },
+    {
+      "title": "Confident Supervisors: Creating Independent Researchers",
+      "author": "Susan Gasson - Author / Christine Bruce - Author / Ian Stoodley - Author / Jillian Blacker - Author / Abigail Winter - Author",
+      "freeSourceUrl": "https://jcu.pressbooks.pub/confidentsupervisors/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/confident-supervisors-creating-independent-researchers"
+    },
+    {
+      "title": "Designing Arguments for Academic, Public, and Professional Audiences - Fourteenth Edition",
+      "author": "Phillip Marzluf - Author",
+      "freeSourceUrl": "https://newprairiepress.org/ebooks/40/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/designing-arguments-for-academic-public-and-professional-audiences",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548360-L.jpg"
+    },
+    {
+      "title": "Action Research",
+      "author": "J. Spencer Clark - Author / Suzanne Porath - Author / Julie Thiele - Author / Morgan Jobe - Author",
+      "freeSourceUrl": "https://kstatelibraries.pressbooks.pub/gradactionresearch/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/action-research",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548292-L.jpg"
+    },
+    {
+      "title": "Qualitative Research – a practical guide for health and social care researchers and practitioners",
+      "author": "Darshini Ayton - Author / Tess Tsindos - Author / Danielle Berkovic - Author",
+      "freeSourceUrl": "https://monash.studium.pub/qualitative-research/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/qualitative-research-a-practical-guide-for-health-and-social-care-researchers-and-practitioners",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780645755404-L.jpg"
+    },
+    {
+      "title": "The Whole Child: Development in the Early Years",
+      "author": "Deirdre Budzyna - Author / Doris Buckley - Author",
+      "freeSourceUrl": "https://rotel.pressbooks.pub/whole-child/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-whole-child-development-in-the-early-years"
+    },
+    {
+      "title": "Why Do I Have to Take This Course? A Guide to General Education [Revised Edition]",
+      "author": "Kisha G. Tracy - Author",
+      "freeSourceUrl": "https://rotel.pressbooks.pub/whydoihavetotakethiscourse/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Student Success; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/why-do-i-have-to-take-this-course-a-guide-to-general-education"
+    },
+    {
+      "title": "Children, Families, Schools, and Communities [Revised Edition]",
+      "author": "Joan Giovannini - Author",
+      "freeSourceUrl": "https://rotel.pressbooks.pub/children-families-schools-communities/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/children-families-schools-and-communities"
+    },
+    {
+      "title": "Making Open Educational Resources with and for PreK12: A Collaboration Toolkit for Higher Education",
+      "author": "Anita R Walz - Author / Julee P Farley - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/dfd2ef30-b21e-4885-b8cc-6c62a8144c97",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Higher Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/making-open-educational-resources-with-and-for-prek12-a-collaboration-toolkit-for-higher-education"
+    },
+    {
+      "title": "A Handbook of Higher Education Leadership",
+      "author": "Ed Ray - Editor",
+      "freeSourceUrl": "https://open.oregonstate.education/handbookhighereducationleadership/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-handbook-of-higher-education-leadership",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781955101394-L.jpg"
+    },
+    {
+      "title": "Content Area Language and Literacy",
+      "author": "Saadia Ali - Author / Margaret A. Berg - Author",
+      "freeSourceUrl": "https://digscholarship.unco.edu/textbooks/5/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/content-area-language-and-literacy"
+    },
+    {
+      "title": "The Roles and Responsibilities of the Special Educator",
+      "author": "Paula B. Lombardi - Author",
+      "freeSourceUrl": "https://pressbooks.usnh.edu/edc703-803/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Education - Early Childhood; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-roles-and-responsibilities-of-the-special-educator"
+    },
+    {
+      "title": "Advanced-Level Writing in the University Classroom and Beyond: Mindful Practices for Technical, Business, and Scientific Communication - 2026 Edition",
+      "author": "Dawn Atkinson - Author / Stacey Corbitt - Author",
+      "freeSourceUrl": "https://drive.google.com/file/d/18YZEcnLpHQcdHPVoxaWZ2D0Ek9N6Hzgz/view",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/advanced-level-writing-in-the-university-classroom-and-beyond-mindful-practices-for-technical-business-and-scientific-communication"
+    },
+    {
+      "title": "Applications of Educational Technology",
+      "author": "Susan Stansberry - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/applicationsofeducationaltechnology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/applications-of-educational-technology"
+    },
+    {
+      "title": "Amalgamation",
+      "author": "Timothy Krause - Author",
+      "freeSourceUrl": "https://sites.google.com/pcc.edu/oer-for-esol/home/amalgamation",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Student Success; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/amalgamation"
+    },
+    {
+      "title": "Teaching Pronunciation with Confidence: A Resource for ESL/EFL Teachers and Learners",
+      "author": "Agata Guskaroska - Author / Zoë Zawadzki - Author / John M. Levis - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/teachingpronunciation/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-pronunciation-with-confidence-a-resource-for-esl-efl-teachers-and-learners"
+    },
+    {
+      "title": "Open ELA",
+      "author": "Alexander Greengaard - Author",
+      "freeSourceUrl": "https://pimaopen.pressbooks.pub/openela/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-ela"
+    },
+    {
+      "title": "El Niño Entero: Desarrollo en los Primeros Años — Translation of The Whole Child",
+      "author": "Deirdre Budzyna - Author / Doris Buckley - Author / Sharline Del Rosario - Author",
+      "freeSourceUrl": "https://rotel.pressbooks.pub/nino-entero/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/el-nino-entero-desarrollo-en-los-primeros-anos-translation-of-the-whole-child"
+    },
+    {
+      "title": "The Alchemy of Assessment and Evaluation",
+      "author": "Jessica Kahlow - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/thealchemy/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-alchemy-of-assessment-and-evaluation"
+    },
+    {
+      "title": "The Digital Storytelling Handbook",
+      "author": "Jordan Schugar - Author / Chris Penny - Author / Hannah Glatt - Author",
+      "freeSourceUrl": "https://paadopt.org/bookshelf/the-digital-storytelling-handbook/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-digital-storytelling-handbook"
+    },
+    {
+      "title": "Understanding and Supporting Learners with Disabilities",
+      "author": "Paula Lombardi - Author",
+      "freeSourceUrl": "https://pressbooks.usnh.edu/understandingandsupportinglearnerswithdisabilities/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/understanding-and-supporting-learners-with-disabilities"
+    },
+    {
+      "title": "Methods of Teaching Agriculture - Third edition",
+      "author": "L. H. Newcomb - Author / J. David McCracken - Author / J. Robert Warmbrod (1929-2022) - Author / M. Susie Whittington - Author",
+      "freeSourceUrl": "https://pressbooks.lib.vt.edu/methodsofteachingagriculture/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Secondary Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/methods-of-teaching-agriculture-third-edition"
+    },
+    {
+      "title": "CALL Principles and Practices",
+      "author": "Joy Egbert - Author / Seyed Abdollah Shahrokni - Author",
+      "freeSourceUrl": "https://wsu.pressbooks.pub/call/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/call-principles-and-practices"
+    },
+    {
+      "title": "Strategies for Conducting Literary Research - 2e",
+      "author": "Barry Jason Mauer - Author / John Venecek - Author",
+      "freeSourceUrl": "https://pressbooks.online.ucf.edu/strategies2e/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/strategies-for-conducting-literary-research"
+    },
+    {
+      "title": "HyFlex Learning and Teaching: A Guide for Educational Innovation",
+      "author": "Lisa Jacka - Author / Julie Lindsay - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/hyflex/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/hyflex-learning-and-teaching-a-guide-for-educational-innovation"
+    },
+    {
+      "title": "Communication and Teamwork Skills to Support Neurodiversity",
+      "author": "Teagan Menhenett - Author / Nick Milne - Author / Siva Krishnan - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/communicationteamworkskills/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Journalism, Media Studies & Communications; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/communication-and-teamwork-skills-to-support-neurodiversity"
+    },
+    {
+      "title": "Communication Concepts",
+      "author": "Erin Hawley - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/communicationconcepts/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Journalism, Media Studies & Communications; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/communication-concepts"
+    },
+    {
+      "title": "Leading Assessment for Inclusion",
+      "author": "Joanna Tai - Author / Johanna Funk - Author / Lois Harris - Author / Joanne Dargusch - Author / Roseanna Bourke - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/leadingassessmentinclusion/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/leading-assessment-for-inclusion"
+    },
+    {
+      "title": "ReStorying Education: Critical Perspectives in Public Education",
+      "author": "Thor Gibbins - Editor / Ed Beck - Editor / Kjersti VanSlyke-Briggs - Editor",
+      "freeSourceUrl": "https://restoryingeducation.pressbooks.sunycreate.cloud/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/restorying-education-critical-perspectives-in-public-education"
+    },
+    {
+      "title": "Practical introduction to writing reviews in health research",
+      "author": "Dell Horey - Author / Fernanda Nava Buenfil - Author / Joanne Marcucci - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/how-to-write-about-health-research/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Medicine; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/practical-introduction-to-writing-reviews-in-health-research"
+    },
+    {
+      "title": "A Guide to Writing in Law School",
+      "author": "Steven Tudor - Author / Stephanie Falconer - Author",
+      "freeSourceUrl": "https://latrobe.studium.pub/guide-writing-law-school/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-guide-to-writing-in-law-school"
+    },
+    {
+      "title": "Don’t Cheat Yourself: Scenarios to clarify collusion confusion",
+      "author": "Katherine A. Seaton - Author",
+      "freeSourceUrl": "https://www.latrobe.edu.au/library/ebureau/publications/dont-cheat-yourself",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/don-t-cheat-yourself-scenarios-to-clarify-collusion-confusion"
+    },
+    {
+      "title": "Open Education Down UndOER: Australasian Case Studies",
+      "author": "Ash Barber - Editor / Mais Fatayer - Editor / Rani McLennan - Editor / Alice Luetchford - Editor / Sarah McQuillen - Editor / Angie Williamson - Editor",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/openedaustralasia/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-education-down-undoer-australasian-case-studies"
+    },
+    {
+      "title": "Experimental Design and Technical Writing for Engineers",
+      "author": "Susan Ely - Author",
+      "freeSourceUrl": "https://library.usi.edu/record/1596241?v=pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (No Rights Reserved) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Engineering & Technology; license: No Rights Reserved; catalog record: https://open.umn.edu/opentextbooks/textbooks/experimental-design-and-technical-writing-for-engineers"
+    },
+    {
+      "title": "Microlearning: Engaging learning experiences made easy",
+      "author": "Chris Kossen - Author",
+      "freeSourceUrl": "https://usq.pressbooks.pub/microlearning/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/microlearning-engaging-learning-experiences-made-easy"
+    },
+    {
+      "title": "The STEM Advantage: Career Planning and Internship Strategies for Science, Technology, Engineering and Mathematics Postgraduate Students",
+      "author": "Ben Archer - Author",
+      "freeSourceUrl": "https://jcu.pressbooks.pub/stem-advantage/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Student Success; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-stem-advantage-career-planning-and-internship-strategies-for-science-technology-engineering-and-mathematics-postgraduate-students"
+    },
+    {
+      "title": "Understanding the Whole Child: Prenatal Development through Adolescence",
+      "author": "Jennifer Paris - Author / Antoinette Ricardo - Author / Dawn Rymond - Author",
+      "freeSourceUrl": "https://bookdown.org/nathalieyuen/understanding-the-whole-child/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/understanding-the-whole-child-prenatal-development-through-adolescence"
+    },
+    {
+      "title": "Designing Learning Experiences for Inclusivity and Diversity: Advice for Learning Designers",
+      "author": "Keith Heggart - Author / Mais Fatayer - Author / Camille Dickson-Deane - Author / Puvaneswari  P Arumugam - Author / Katrina Thorpe - Author / Susan Page - Author / Shaun Bell - Author / John Vulic - Author / Nhung Nguyen - Author / Katie Duncan - Author / Rhiannon Hall - Author / Bruna Contro Pretero - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/designing-learning-experiences/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/designing-learning-experiences-for-inclusivity-and-diversity-advice-for-learning-designers",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781923373037-L.jpg"
+    },
+    {
+      "title": "The Role of Equity and Diversity in Early Childhood Education - V. 1",
+      "author": "Krischa Esquivel - Author / Emily Elam - Author / Jennifer Paris - Author / Maricela Tafoya - Author",
+      "freeSourceUrl": "https://socialsci.libretexts.org/Bookshelves/Early_Childhood_Education/The_Role_of_Equity_and_Diversity_in_Early_Childhood_Education_(Esquivel_Elam_Paris_and_Tafoya)",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-role-of-equity-and-diversity-in-early-childhood-education-v-1"
+    },
+    {
+      "title": "Meraki: Towards transformative learning in higher education",
+      "author": "Chrissi Nerantzi - Editor",
+      "freeSourceUrl": "https://leeds.pressbooks.pub/meraki/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/meraki-towards-transformative-learning-in-higher-education"
+    },
+    {
+      "title": "EDUC5272M Module Companion",
+      "author": "Chrissi Nerantzi - Author",
+      "freeSourceUrl": "https://leeds.pressbooks.pub/educ5272m/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/educ5272m-module-companion"
+    },
+    {
+      "title": "Movilizando horizontes para el futuro de la educación y ciencia abierta",
+      "author": "María Soledad Ramírez-Montoya - Author / Inés Álvarez-Icaza Longoria - Author / Edgar Omar López-Caudana - Author",
+      "freeSourceUrl": "https://octaedro.com/libro/movilizando-horizontes-para-el-futuro-de-la-educacion-y-ciencia-abierta/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/movilizando-horizontes-para-el-futuro-de-la-educacion-y-ciencia-abierta"
+    },
+    {
+      "title": "Teaching Through Rather than About: Analyzing Black Histories and Geographies with Primary Sources",
+      "author": "Ken Carano - Editor / Amit Kobrowski - Editor",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/teachingthroughratherthanabout/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-through-rather-than-about-analyzing-black-histories-and-geographies-with-primary-sources"
+    },
+    {
+      "title": "Why play works: Conceptual PlayWorlds inspiring learning, imagination and creativity in education",
+      "author": "Marilyn Fleer - Author / Kelly-Ann Allen - Author / Anne Clerc-Georgy - Author / Leigh Disney - Author / Liang Li - Author / Lara McKinley - Author / Gloria Quinones - Author / Prabhat Rai - Author / Janet Scull - Author / Anne Suryani - Author",
+      "freeSourceUrl": "https://monash.studium.pub/why-play-works/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/why-play-works-conceptual-playworlds-inspiring-learning-imagination-and-creativity-in-education"
+    },
+    {
+      "title": "Advanced Information Research Skills (AIRS)",
+      "author": "Lyndelle Gunton - Editor / Sal Kleine - Editor / Rani McLennan - Editor",
+      "freeSourceUrl": "https://qut.pressbooks.pub/airs/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Student Success; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/advanced-information-research-skills-airs"
+    },
+    {
+      "title": "Educational Psychology",
+      "author": "Nicole Arduini-Van Hoose - Author",
+      "freeSourceUrl": "https://edpsych.pressbooks.sunycreate.cloud/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Social Sciences - Psychology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/educational-psychology-2020"
+    },
+    {
+      "title": "Research and the Information Landscape",
+      "author": "Libby Wheeles - Author / Helena Marvin - Author",
+      "freeSourceUrl": "https://umsystem.pressbooks.pub/information/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; Student Success; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/research-and-the-information-landscape"
+    },
+    {
+      "title": "The Learn-It-All Educator - A Guidebook for Training Brains, Not Replacing Them",
+      "author": "Szymon Machajewski - Author",
+      "freeSourceUrl": "https://zenodo.org/records/18425284",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-learn-it-all-educator-a-guidebook-for-training-brains-not-replacing-them"
+    },
+    {
+      "title": "Family & Community Relationships",
+      "author": "Amanda Dohms - Editor",
+      "freeSourceUrl": "https://www.wistechopen.org/textbook/family-community-relationships",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/family-community-relationships",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781957068435-L.jpg"
+    },
+    {
+      "title": "Foundations of Early Childhood Education",
+      "author": "Amanda Dohms - Editor",
+      "freeSourceUrl": "https://www.wistechopen.org/textbook/foundations-of-early-childhood-education",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-early-childhood-education",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781957068411-L.jpg"
+    },
+    {
+      "title": "Critical Appraisal Practice: Systematic Reviews",
+      "author": "Juliano Magro - Author / Andrea Thompson - Author / Caitlin Plovnick - Author",
+      "freeSourceUrl": "https://zenodo.org/records/16903571",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/critical-appraisal-practice-systematic-reviews"
+    },
+    {
+      "title": "From Lab to Laptop: Case studies in teaching practical courses online",
+      "author": "Tab Betts - Editor / Paolo Oprandi - Editor",
+      "freeSourceUrl": "https://openpress.sussex.ac.uk/fromlabtolaptop/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/from-lab-to-laptop-case-studies-in-teaching-practical-courses-online"
+    },
+    {
+      "title": "Observation and Assessment in Early Childhood Education - Version 1.0",
+      "author": "Gina Peterson - Author / Emily Elam - Author",
+      "freeSourceUrl": "https://commons.libretexts.org/book/socialsci-42484",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/observation-and-assessment-in-early-childhood-education-version-1-0"
+    },
+    {
+      "title": "Play-based teaching approaches: Assessing learning through play",
+      "author": "Naomi Nirupa David - Editor / Kat Cain - Editor / Andrea Nolan - Editor / Natalie Robertson - Editor / Sarah Fennelly - Editor",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/playbasedteachingapproaches/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/play-based-teaching-approaches-assessing-learning-through-play"
+    },
+    {
+      "title": "The Academic Language of Mathematics",
+      "author": "Costas Loizou - Author / Deak Kirkham - Author / Shuwei Chen - Author",
+      "freeSourceUrl": "https://leeds.pressbooks.pub/academic-language-of-mathematics/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-academic-language-of-mathematics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781918312072-L.jpg"
+    },
+    {
+      "title": "Introduction to AI and Ethics in Higher Education",
+      "author": "Reed C. Helpler - Author / Amy Vecchione - Author / Ritamarie Hensley - Author / Anne Fensie - Author / Suparna Sinha - Author",
+      "freeSourceUrl": "https://edtechbooks.org/introduction_to_ai_and_ethics_in_higher_education",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Higher Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-ai-and-ethics-in-higher-education"
     }
   ],
-  "notes": "Matches the founder's own honest finding, reinforced by an independent broader search this round: no dedicated Nigeria/Africa 'business of tutoring or running a school' YouTube channel exists — individual videos on the topic circulate, but no ongoing channel. Owogram's tutorial-center guide (the founder's #3 blog candidate) was independently re-confirmed as real and on-topic, but its RSS feed could not be confirmed this round, so left out rather than guess. No free book candidate found, matching the founder's finding exactly.",
+  "notes": "Matches the founder's own honest finding, reinforced by an independent broader search this round: no dedicated Nigeria/Africa 'business of tutoring or running a school' YouTube channel exists — individual videos on the topic circulate, but no ongoing channel. Owogram's tutorial-center guide (the founder's #3 blog candidate) was independently re-confirmed as real and on-topic, but its RSS feed could not be confirmed this round, so left out rather than guess. No free book candidate found, matching the founder's finding exactly. 2026-08-23: Added 164 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
-    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 164 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ]
 }
