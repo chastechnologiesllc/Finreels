@@ -70,15 +70,16 @@ class CategorySearch {
     final q = _normalise(query);
     if (q.isEmpty) return const <ResourceCategory>[];
 
-    final matches = categories.where((c) => matches(c, q)).toList();
-    matches.sort((a, b) {
+    final matchedCategories =
+        categories.where((category) => matches(category, q)).toList();
+    matchedCategories.sort((a, b) {
       final score = _score(b, q).compareTo(_score(a, q));
       return score != 0 ? score : a.number.compareTo(b.number);
     });
-    if (limit != null && matches.length > limit) {
-      return List.unmodifiable(matches.take(limit));
+    if (limit != null && matchedCategories.length > limit) {
+      return List.unmodifiable(matchedCategories.take(limit));
     }
-    return List.unmodifiable(matches);
+    return List.unmodifiable(matchedCategories);
   }
 
   static String _normalise(String value) =>
