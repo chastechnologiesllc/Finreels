@@ -199,7 +199,9 @@ class PlatformSearchIndex {
         id: 'verified-book:$key',
         kind: PlatformSearchKind.book,
         title: book.title,
-        body: '${book.author} ${book.freeSourceNote ?? ''} $categoryName',
+        body: '${book.author} ${book.freeSourceNote ?? ''} '
+            '${book.subject ?? ''} ${book.stage ?? ''} ${book.region ?? ''} '
+            '${book.license ?? ''} $categoryName',
         source: book.author,
         canonicalKey: 'book:$key',
         url: book.freeSourceUrl,

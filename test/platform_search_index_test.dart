@@ -1,5 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
+import 'package:finreels/data/resource_category_data.dart';
+import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/video.dart';
 import 'package:finreels/services/blog_rss_service.dart';
 import 'package:finreels/services/platform_search_index.dart';
@@ -54,6 +56,48 @@ void main() {
     final results = index.search(query: 'tailr');
     expect(results, isNotEmpty);
     expect(results.any((d) => d.title.contains('Tailor')), isTrue);
+  });
+
+  test('loads an open-book overlay for every profession category', () {
+    final professionIds = ResourceCategoryData.all
+        .where((category) => category.section == ResourceSection.profession)
+        .map((category) => category.id)
+        .toSet();
+    final overlayIds = ResourceCategoryData.verifiedBooks
+        .where(
+          (book) =>
+              professionIds.contains(book.categoryId) &&
+              book.subject != null &&
+              book.stage != null &&
+              book.region != null &&
+              book.license != null,
+        )
+        .map((book) => book.categoryId)
+        .whereType<String>()
+        .toSet();
+
+    expect(professionIds, hasLength(20));
+    expect(overlayIds, containsAll(professionIds));
+
+    final medicine = index.search(query: 'pre-clinical anatomy');
+    expect(
+      medicine.any(
+        (document) =>
+            document.kind == PlatformSearchKind.book &&
+            document.title == 'Anatomy and Physiology 2e',
+      ),
+      isTrue,
+    );
+    expect(
+      ResourceCategoryData.verifiedBooks.any(
+        (book) =>
+            book.title == 'Medicine and Dentistry CCMAS 2023' &&
+            book.region == 'Nigeria' &&
+            book.stage == 'Nigeria undergraduate curriculum anchor' &&
+            (book.license ?? '').isNotEmpty,
+      ),
+      isTrue,
+    );
   });
 
   test('deduplicates dynamic videos and blog URLs', () {

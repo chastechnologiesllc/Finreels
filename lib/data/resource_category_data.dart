@@ -11,8 +11,9 @@ import 'channel_data.dart';
 /// Loads and indexes `assets/data/resource_categories.json` — the app-side
 /// copy of FinReels' 60-category research (see resource_category.dart) —
 /// AND every file under `assets/data/resources/`: one per category
-/// (`{categoryId}.json`) plus `_general.json` for the 40 cross-cutting
-/// channels/blogs/books that aren't tied to any single category.
+/// (`{categoryId}.json`) plus `_general.json` for cross-cutting resources and
+/// `_profession_open_catalog.json` for source-verified profession books that
+/// carry progression, geography, and license metadata.
 ///
 /// One file per category on purpose — this is what "organized, not
 /// complicated" means in practice: `assets/data/resources/` is a literal,
@@ -118,12 +119,13 @@ class ResourceCategoryData {
       for (final category in _all)
         _tryLoadResourceFile('assets/data/resources/${category.id}.json'),
       _tryLoadResourceFile('assets/data/resources/_general.json'),
+      _tryLoadResourceFile('assets/data/resources/_profession_open_catalog.json'),
     ]);
 
     // _addFrom still runs in a fixed, deterministic order — category order,
-    // then general last — regardless of which order the concurrent reads
-    // above actually completed in, so the combined channel/blog/book lists
-    // (and anything that depends on their order) stay stable across runs.
+    // then general and the profession overlay — regardless of which order the
+    // concurrent reads above actually completed in, so combined lists stay
+    // stable across runs.
     for (var i = 0; i < _all.length; i++) {
       final map = results[i];
       if (map == null) continue;
@@ -137,10 +139,29 @@ class ResourceCategoryData {
     // ChannelData.eagerFor() (and the equivalent scoping in
     // BlogRssService/FeedProvider) as always-on, exactly like the
     // original 12 channels.
-    final general = results.last;
+    final general = results[_all.length];
     if (general != null) {
       _resourceFiles['_general'] = general;
       _addFrom(general, null, channels, blogs, books);
+    }
+
+    // The profession overlay is a checked-in, source-verified extension for
+    // the 20 profession files. Its grouped shape lets one open textbook be
+    // reused across related professions without copying it into every large
+    // category JSON file, while categoryId is still preserved on each book.
+    final professionOverlay = results[_all.length + 1];
+    if (professionOverlay != null) {
+      _resourceFiles['_profession_open_catalog'] = professionOverlay;
+      for (final group in (professionOverlay['categories'] as List? ?? [])) {
+        try {
+          final groupMap = group as Map<String, dynamic>;
+          final categoryId = (groupMap['categoryId'] as String? ?? '').trim();
+          if (categoryId.isEmpty) continue;
+          _addFrom(groupMap, categoryId, channels, blogs, books);
+        } on Object catch (e) {
+          debugPrint('[ResourceCategoryData] skipping bad profession overlay group: $e');
+        }
+      }
     }
 
     _verifiedChannels = List.unmodifiable(channels);

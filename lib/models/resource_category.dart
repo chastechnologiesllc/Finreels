@@ -1,5 +1,5 @@
-/// Models for FinReels' 60-category "Business of Your Skill/Business/
-/// Profession" taxonomy — the direct app-side representation of the
+/// Models for FinReels' "Business of Your Skill/Business/Profession"
+/// taxonomy — the direct app-side representation of the
 /// founder's own research (20 Skills, 20 Businesses, 20 Professions +
 /// the 10-module curriculum + the 2026 tax-reform fact bank).
 ///
@@ -129,6 +129,13 @@ class VerifiedBook {
   final List<String> coverCandidates;
   final String? categoryId;
 
+  /// Optional provenance and curriculum metadata for profession resources.
+  /// Older category JSON files may omit these fields.
+  final String? subject;
+  final String? stage;
+  final String? region;
+  final String? license;
+
   const VerifiedBook({
     required this.title,
     required this.author,
@@ -138,6 +145,10 @@ class VerifiedBook {
     this.coverUrl,
     this.coverCandidates = const [],
     this.categoryId,
+    this.subject,
+    this.stage,
+    this.region,
+    this.license,
   });
 
   factory VerifiedBook.fromJson(Map<String, dynamic> j, {String? categoryId}) => VerifiedBook(
@@ -153,6 +164,10 @@ class VerifiedBook {
                 .toList(growable: false) ??
             const [],
         categoryId: categoryId,
+        subject: j['subject'] as String?,
+        stage: j['stage'] as String?,
+        region: j['region'] as String?,
+        license: j['license'] as String?,
       );
 }
 /// Field population differs by [section] — see the three "shape" groups

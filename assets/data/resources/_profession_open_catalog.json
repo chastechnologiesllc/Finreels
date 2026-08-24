@@ -1,0 +1,1394 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-08-24",
+  "sourcePolicy": "Free/public access only with source/license evidence; commercial textbook titles are not copied unless an authorized free edition is verified.",
+  "categories": [
+    {
+      "categoryId": "profession_01_medicine",
+      "books": [
+        {
+          "title": "Medicine and Dentistry CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Medicine-and-Dentistry-CCMAS-2023-FINAL.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Medicine and clinical sciences. Official Nigerian CCMAS curriculum reference for Medicine; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Medicine and clinical sciences",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Anatomy and Physiology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-clinical • Anatomy and physiology. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-clinical",
+          "subject": "Anatomy and physiology",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Biology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/biology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-medical • Biology and life sciences. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-medical",
+          "subject": "Biology and life sciences",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Chemistry 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/chemistry-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-medical • General chemistry and biochemistry foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-medical",
+          "subject": "General chemistry and biochemistry foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Microbiology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/microbiology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Para-clinical • Medical microbiology foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Para-clinical",
+          "subject": "Medical microbiology foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Psychology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/psychology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-clinical to clinical • Behavioral science and patient care. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-clinical to clinical",
+          "subject": "Behavioral science and patient care",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_02_law",
+      "books": [
+        {
+          "title": "Law CCMAS",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Law-ALL.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Nigerian legal education and law. Official Nigerian CCMAS curriculum reference for Law; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Nigerian legal education and law",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Business Law I Essentials",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/business-law-i-essentials",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Legal foundations and contracts. Useful comparative/global business-law foundation; not a Nigerian-law textbook.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Legal foundations and contracts",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Business Ethics",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/business-ethics",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Professional ethics and legal reasoning. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Professional ethics and legal reasoning",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introduction to Philosophy",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/introduction-philosophy",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Logic, ethics, and critical reasoning. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Logic, ethics, and critical reasoning",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Writing Guide with Handbook",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/writing-guide",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Legal writing and research communication. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Legal writing and research communication",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introduction to Political Science",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/introduction-political-science",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Constitutional systems and public institutions. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Constitutional systems and public institutions",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_03_pharmacy",
+      "books": [
+        {
+          "title": "Pharmacy and Pharmaceutical Sciences CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Pharmacy-and-Pharmaceutical-Sciences-CCMAS-2023-FINAL.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Pharmacy and pharmaceutical sciences. Official Nigerian CCMAS curriculum reference for Pharmacy; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Pharmacy and pharmaceutical sciences",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Anatomy and Physiology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-clinical • Human structure and function. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-clinical",
+          "subject": "Human structure and function",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Chemistry 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/chemistry-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-clinical • General and pharmaceutical chemistry foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-clinical",
+          "subject": "General and pharmaceutical chemistry foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Organic Chemistry",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/organic-chemistry",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-clinical to para-clinical • Organic and medicinal chemistry foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-clinical to para-clinical",
+          "subject": "Organic and medicinal chemistry foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Microbiology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/microbiology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Para-clinical • Microbiology and infection. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Para-clinical",
+          "subject": "Microbiology and infection",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Pharmacology for Nurses",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/pharmacology-for-nurses",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Para-clinical to clinical • Pharmacology and safe medication practice. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Para-clinical to clinical",
+          "subject": "Pharmacology and safe medication practice",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_04_nursing",
+      "books": [
+        {
+          "title": "Allied Health Sciences CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Allied-Health-Sciences-2023.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Nursing and allied health curriculum. Official Nigerian CCMAS curriculum reference for Nursing; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Nursing and allied health curriculum",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Fundamentals of Nursing",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/nursing-fundamentals",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Nursing foundations and patient care. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Nursing foundations and patient care",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Nutrition for Nurses",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/nutrition-for-nurses",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to clinical • Nutrition and nursing care. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to clinical",
+          "subject": "Nutrition and nursing care",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Pharmacology for Nurses",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/pharmacology-for-nurses",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Para-clinical to clinical • Pharmacology and medication administration. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Para-clinical to clinical",
+          "subject": "Pharmacology and medication administration",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_05_accounting",
+      "books": [
+        {
+          "title": "Administration and Management CCMAS",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Administration-and-Management.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Accounting, administration, and management. Official Nigerian CCMAS curriculum reference for Accounting; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Accounting, administration, and management",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Financial Accounting",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-financial-accounting",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Financial accounting. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Financial accounting",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Managerial Accounting",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-managerial-accounting",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Undergraduate • Management accounting. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Undergraduate",
+          "subject": "Management accounting",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Finance",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-finance",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Corporate and personal finance. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Corporate and personal finance",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Economics 3e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-economics-3e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Economics for accounting and business. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Economics for accounting and business",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introductory Business Statistics",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/introductory-business-statistics",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Quantitative methods and statistics. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Quantitative methods and statistics",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_06_engineering",
+      "books": [
+        {
+          "title": "Engineering and Technology CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Engineering-Technology-CCMAS-2023-FINAL.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Engineering and technology curriculum. Official Nigerian CCMAS curriculum reference for Engineering; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Engineering and technology curriculum",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Data Science",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-data-science",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Computing, data, and engineering analytics. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Computing, data, and engineering analytics",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Fundamentals of Electrical Engineering I",
+          "author": "Charles Alexander and Matthew Sadiku / OpenStax CNX",
+          "freeSourceUrl": "https://cnx.org/contents/d442r0wh@9.72:g9deOnx5@19",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Electrical engineering. Open electrical-engineering foundation text.",
+          "license": "CC BY; see source record",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Electrical engineering",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_07_architecture",
+      "books": [
+        {
+          "title": "Architecture CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Architecture-CCMAS-2023-FINAL.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Architecture and built environment curriculum. Official Nigerian CCMAS curriculum reference for Architecture; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Architecture and built environment curriculum",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Sustainability: A Comprehensive Foundation",
+          "author": "Theis and Tomkin, editors",
+          "freeSourceUrl": "https://open.umn.edu/opentextbooks/textbooks/96",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Sustainable architecture and built environment. Open multidisciplinary foundation covering sustainability, engineering, applied arts, natural sciences, social sciences, and humanities.",
+          "license": "CC BY; see Open Textbook Library record",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Sustainable architecture and built environment",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Algebra and Trigonometry 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/algebra-and-trigonometry-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Design and quantitative foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Design and quantitative foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Calculus Volume 1",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/calculus-volume-1",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Mathematics for architecture and engineering. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Mathematics for architecture and engineering",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "University Physics Volume 1",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/physics-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Building science and physics foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Building science and physics foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Building Maintenance & Construction: Tools and Maintenance Tasks",
+          "author": "Open educational resource authors",
+          "freeSourceUrl": "https://pressbooks.oer.hawaii.edu/buildingmaint/",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Undergraduate practical • Building construction and maintenance. Open built-environment maintenance and construction resource.",
+          "license": "Open educational resource; license stated by publisher",
+          "region": "Global",
+          "stage": "Undergraduate practical",
+          "subject": "Building construction and maintenance",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_08_estate_management_surveying",
+      "books": [
+        {
+          "title": "Environmental Sciences CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Environmental-Sciences-CCMAS-2023-FINAL.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Environmental sciences, estate management, and surveying context. Official Nigerian CCMAS curriculum reference for Estate management and surveying; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Environmental sciences, estate management, and surveying context",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Surveying and Levelling Instruments, Theoretically and Practically Described",
+          "author": "William Ford Stanley",
+          "freeSourceUrl": "https://www.gutenberg.org/ebooks/63834",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation and practical • Surveying instruments and field practice. Public-domain field-surveying manual; historical equipment content should be supplemented with current standards.",
+          "license": "Project Gutenberg public-domain edition",
+          "region": "Global",
+          "stage": "Foundation and practical",
+          "subject": "Surveying instruments and field practice",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Sustainability: A Comprehensive Foundation",
+          "author": "Theis and Tomkin, editors",
+          "freeSourceUrl": "https://open.umn.edu/opentextbooks/textbooks/96",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Sustainable built environment. Open multidisciplinary sustainability text relevant to land, buildings, and environmental management.",
+          "license": "CC BY; see Open Textbook Library record",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Sustainable built environment",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Engineering Statics: Open and Interactive",
+          "author": "Daniel W. Baker and William Haynes",
+          "freeSourceUrl": "https://engineeringstatics.org/frontmatter.html",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Structures and mechanics. Open mechanics foundation for surveying, construction, and built-environment students.",
+          "license": "Open educational resource; license stated by publisher",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Structures and mechanics",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Data Science",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-data-science",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • GIS, data, and property analytics foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "GIS, data, and property analytics foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_09_banking_finance",
+      "books": [
+        {
+          "title": "Administration and Management CCMAS",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Administration-and-Management.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Banking, finance, administration, and management. Official Nigerian CCMAS curriculum reference for Banking and Finance; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Banking, finance, administration, and management",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Finance",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-finance",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Financial management and markets. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Financial management and markets",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Economics 3e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-economics-3e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Microeconomics and macroeconomics. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Microeconomics and macroeconomics",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Financial Accounting",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-financial-accounting",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Financial reporting and accounting. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Financial reporting and accounting",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Managerial Accounting",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-managerial-accounting",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Undergraduate • Cost and management accounting. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Undergraduate",
+          "subject": "Cost and management accounting",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introductory Business Statistics",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/introductory-business-statistics",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Statistics and quantitative finance. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Statistics and quantitative finance",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Data Science",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-data-science",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Finance analytics and data ethics. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Finance analytics and data ethics",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_10_mass_communication_media_pr",
+      "books": [
+        {
+          "title": "Communication and Media Studies CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Communication-and-Media-Studies-CCMAS-2023-FINAL.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Communication, journalism, media, and public relations. Official Nigerian CCMAS curriculum reference for Mass Communication/Media and PR; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Communication, journalism, media, and public relations",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Writing Guide with Handbook",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/writing-guide",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Writing, editing, and communication. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Writing, editing, and communication",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introduction to Sociology 3e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/introduction-sociology-3e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Media, society, and audiences. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Media, society, and audiences",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introduction to Political Science",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/introduction-political-science",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Public institutions and civic communication. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Public institutions and civic communication",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Marketing",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-marketing",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Marketing, public relations, and audience strategy. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Marketing, public relations, and audience strategy",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Interpersonal Communication: A Mindful Approach to Relationships 2nd Edition",
+          "author": "Ian McCornick",
+          "freeSourceUrl": "https://milneopentextbooks.org/interpersonal-communication-a-mindful-2nd/",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Interpersonal and professional communication. Open interpersonal-communication text relevant to media and PR practice.",
+          "license": "Open educational resource; license stated by publisher",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Interpersonal and professional communication",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_11_computer_science_software_engineering",
+      "books": [
+        {
+          "title": "Computing CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Computing-CCMAS-2023-FINAL.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Computing and software engineering curriculum. Official Nigerian CCMAS curriculum reference for Computer Science/Software Engineering; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Computing and software engineering curriculum",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introduction to Computer Science",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/introduction-computer-science",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Algorithms, data structures, systems, and software development. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Algorithms, data structures, systems, and software development",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introduction to Python Programming",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/introduction-python-programming",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Programming and computational thinking. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Programming and computational thinking",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Foundations of Information Systems",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/foundations-information-systems",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Information systems and organizations. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Information systems and organizations",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Data Science",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-data-science",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Data science, AI, and ethics. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Data science, AI, and ethics",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Workplace Software and Skills",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/workplace-software-skills",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Digital productivity and workplace technology. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Digital productivity and workplace technology",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_12_agriculture",
+      "books": [
+        {
+          "title": "Agriculture CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Agriculture-2023.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Agriculture and agricultural sciences curriculum. Official Nigerian CCMAS curriculum reference for Agriculture; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Agriculture and agricultural sciences curriculum",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introduction to Permaculture",
+          "author": "Open Textbook Library authors",
+          "freeSourceUrl": "https://open.umn.edu/opentextbooks/textbooks/469",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Sustainable agriculture. Open agriculture and sustainable-design foundation.",
+          "license": "Open educational resource; license stated by publisher",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Sustainable agriculture",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Biology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/biology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Plant, animal, and life sciences foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Plant, animal, and life sciences foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Chemistry 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/chemistry-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Soil, plant, and agricultural chemistry foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Soil, plant, and agricultural chemistry foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Computers on the Farm",
+          "author": "U.S. Department of Agriculture",
+          "freeSourceUrl": "https://www.gutenberg.org/ebooks/59316",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation and practical • Agricultural technology. Public-domain agricultural technology and farm-computing reference; historical context should be supplemented with current tools.",
+          "license": "Project Gutenberg public-domain edition",
+          "region": "Global",
+          "stage": "Foundation and practical",
+          "subject": "Agricultural technology",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_13_education",
+      "books": [
+        {
+          "title": "Education CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Education-CCMAS-2023-New.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Teacher education and education studies. Official Nigerian CCMAS curriculum reference for Education; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Teacher education and education studies",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Teaching in a Digital Age 2nd Edition",
+          "author": "Anthony William Bates",
+          "freeSourceUrl": "https://pressbooks.bccampus.ca/teachinginadigitalagev2/",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Digital pedagogy. Open text on teaching, learning design, technology, and digital education.",
+          "license": "CC BY-NC; see publisher record",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Digital pedagogy",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Psychology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/psychology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • General psychology and learner development. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "General psychology and learner development",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Lifespan Development",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/lifespan-development",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Human development across the lifespan. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Human development across the lifespan",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Writing Guide with Handbook",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/writing-guide",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Academic literacy and teacher communication. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Academic literacy and teacher communication",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_14_dentistry",
+      "books": [
+        {
+          "title": "Medicine and Dentistry CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Medicine-and-Dentistry-CCMAS-2023-FINAL.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Dentistry and medicine curriculum. Official Nigerian CCMAS curriculum reference for Dentistry; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Dentistry and medicine curriculum",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Anatomy and Physiology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-clinical • Head, neck, and human-body foundations. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-clinical",
+          "subject": "Head, neck, and human-body foundations",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Biology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/biology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-clinical • Life sciences and oral biology foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-clinical",
+          "subject": "Life sciences and oral biology foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Chemistry 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/chemistry-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Pre-clinical • Chemistry and biomaterials foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Pre-clinical",
+          "subject": "Chemistry and biomaterials foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Microbiology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/microbiology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Para-clinical • Oral microbiology and infection foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Para-clinical",
+          "subject": "Oral microbiology and infection foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Psychology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/psychology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to clinical • Patient communication and behavioral science. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to clinical",
+          "subject": "Patient communication and behavioral science",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_15_psychology_counselling",
+      "books": [
+        {
+          "title": "Social Sciences CCMAS 2023",
+          "author": "National Universities Commission (Nigeria)",
+          "freeSourceUrl": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Social-Sciences-CCMAS-FINAL-2023-A.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria undergraduate curriculum anchor • Psychology and social-science curriculum. Official Nigerian CCMAS curriculum reference for Psychology/Counselling; it is a curriculum anchor and not a substitute for a commercial textbook.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria undergraduate curriculum anchor",
+          "subject": "Psychology and social-science curriculum",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Psychology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/psychology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • General psychology. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "General psychology",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Introduction to Psychology",
+          "author": "University of Minnesota Libraries Publishing",
+          "freeSourceUrl": "https://open.umn.edu/opentextbooks/textbooks/introduction-to-psychology",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Professional foundations. Open introductory psychology text using behavior and empiricism as organizing themes.",
+          "license": "CC BY-NC-SA; see Open Textbook Library record",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Professional foundations",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Research Methods in Psychology 2nd Canadian Edition",
+          "author": "I-Chant A. Chiang, Rajiv S. Jhangiani, and Paul C. Price",
+          "freeSourceUrl": "https://opentextbc.ca/researchmethods/",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Undergraduate • Psychological research methods. Open research-methods and evidence-evaluation text.",
+          "license": "CC BY-NC-SA; see publisher record",
+          "region": "Global",
+          "stage": "Undergraduate",
+          "subject": "Psychological research methods",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_16_fashion_design_tailoring",
+      "books": [
+        {
+          "title": "NBTE Approved Curricula and National Occupational Standards Brochure",
+          "author": "National Board for Technical Education (Nigeria)",
+          "freeSourceUrl": "https://web.nbte.gov.ng/sites/default/files/2026-01/Brochure_%20Curricula_NOS_Jan26Edition.docx_.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria vocational curriculum anchor • Fashion design, tailoring, and clothing technology. Official Nigerian TVET curriculum/National Occupational Standards brochure relevant to Fashion Design and Tailoring; use it to map local progression and practical competencies.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria vocational curriculum anchor",
+          "subject": "Fashion design, tailoring, and clothing technology",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Workplace Software and Skills",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/workplace-software-skills",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Digital tools for fashion business and production documentation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Digital tools for fashion business and production documentation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Marketing",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-marketing",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to practical • Fashion marketing and customer development. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to practical",
+          "subject": "Fashion marketing and customer development",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_17_hairdressing_cosmetology",
+      "books": [
+        {
+          "title": "NBTE Approved Curricula and National Occupational Standards Brochure",
+          "author": "National Board for Technical Education (Nigeria)",
+          "freeSourceUrl": "https://web.nbte.gov.ng/sites/default/files/2026-01/Brochure_%20Curricula_NOS_Jan26Edition.docx_.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria vocational curriculum anchor • Hairdressing, cosmetology, beauty therapy, and salon practice. Official Nigerian TVET curriculum/National Occupational Standards brochure relevant to Hairdressing and Cosmetology; use it to map local progression and practical competencies.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria vocational curriculum anchor",
+          "subject": "Hairdressing, cosmetology, beauty therapy, and salon practice",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Art and Fundamentals of Hairdressing: A Text-book for Professionals and a Student’s Guide",
+          "author": "William J. Korf",
+          "freeSourceUrl": "https://archive.org/details/artfundamentalso00korf",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation and practical • Hairdressing fundamentals. Free public-access archival scan identified for historical hairdressing fundamentals; confirm local access and rights notice at the source before redistribution.",
+          "license": "Free public-access scan; source rights notice applies",
+          "region": "Global",
+          "stage": "Foundation and practical",
+          "subject": "Hairdressing fundamentals",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Chemistry 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/chemistry-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Cosmetic chemistry foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Cosmetic chemistry foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Biology 2e",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/biology-2e",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Skin, hair, and human-biology foundation. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Skin, hair, and human-biology foundation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Marketing",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-marketing",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to practical • Salon and beauty-business marketing. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to practical",
+          "subject": "Salon and beauty-business marketing",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_18_catering_event_planning",
+      "books": [
+        {
+          "title": "NBTE Approved Curricula and National Occupational Standards Brochure",
+          "author": "National Board for Technical Education (Nigeria)",
+          "freeSourceUrl": "https://web.nbte.gov.ng/sites/default/files/2026-01/Brochure_%20Curricula_NOS_Jan26Edition.docx_.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria vocational curriculum anchor • Hospitality, catering, food safety, and event-service competencies. Official Nigerian TVET curriculum/National Occupational Standards brochure relevant to Hospitality and Catering; use it to map local progression and practical competencies.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria vocational curriculum anchor",
+          "subject": "Hospitality, catering, food safety, and event-service competencies",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "A Treatise on Adulterations of Food, and Culinary Poisons",
+          "author": "Friedrich Accum",
+          "freeSourceUrl": "https://www.gutenberg.org/ebooks/43545",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Food safety history. Public-domain historical food-safety reference; modern Nigerian regulations must take precedence.",
+          "license": "Project Gutenberg public-domain edition",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Food safety history",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Marketing",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-marketing",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to practical • Hospitality marketing and events promotion. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to practical",
+          "subject": "Hospitality marketing and events promotion",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_19_automobile_technology",
+      "books": [
+        {
+          "title": "NBTE Approved Curricula and National Occupational Standards Brochure",
+          "author": "National Board for Technical Education (Nigeria)",
+          "freeSourceUrl": "https://web.nbte.gov.ng/sites/default/files/2026-01/Brochure_%20Curricula_NOS_Jan26Edition.docx_.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria vocational curriculum anchor • Automobile mechanics, vehicle systems, and transport technology competencies. Official Nigerian TVET curriculum/National Occupational Standards brochure relevant to Automobile Technology; use it to map local progression and practical competencies.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria vocational curriculum anchor",
+          "subject": "Automobile mechanics, vehicle systems, and transport technology competencies",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Additive Manufacturing Essentials",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/additive-manufacturing-essentials",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation to undergraduate • Manufacturing, materials, and engineering technology. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation to undergraduate",
+          "subject": "Manufacturing, materials, and engineering technology",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Fundamentals of Compressible Flow Mechanics",
+          "author": "Genick Bar-Meir",
+          "freeSourceUrl": "https://zenodo.org/records/18217916",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Undergraduate • Fluid and propulsion mechanics. Open engineering mechanics text; the direct Zenodo record provides the source and version details.",
+          "license": "CC BY; see Open Textbook Library record",
+          "region": "Global",
+          "stage": "Undergraduate",
+          "subject": "Fluid and propulsion mechanics",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Sears Owners Manual",
+          "author": "Sears, Roebuck and Co.",
+          "freeSourceUrl": "https://www.gutenberg.org/ebooks/39714",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Historical technical reference • Mechanical equipment documentation. Public-domain historical equipment manual; not a substitute for current vehicle service manuals or safety standards.",
+          "license": "Project Gutenberg public-domain edition",
+          "region": "Global",
+          "stage": "Historical technical reference",
+          "subject": "Mechanical equipment documentation",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Principles of Data Science",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/principles-data-science",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Automotive diagnostics and data literacy. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Automotive diagnostics and data literacy",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    },
+    {
+      "categoryId": "profession_20_photography_videography",
+      "books": [
+        {
+          "title": "NBTE Approved Curricula and National Occupational Standards Brochure",
+          "author": "National Board for Technical Education (Nigeria)",
+          "freeSourceUrl": "https://web.nbte.gov.ng/sites/default/files/2026-01/Brochure_%20Curricula_NOS_Jan26Edition.docx_.pdf",
+          "freeSourceType": "pdf",
+          "freeSourceNote": "Nigeria • Nigeria vocational curriculum anchor • Photography, cinematography, media production, and visual storytelling competencies. Official Nigerian TVET curriculum/National Occupational Standards brochure relevant to Photography and Cinematography; use it to map local progression and practical competencies.",
+          "license": "Official Nigerian government curriculum publication; free public access",
+          "region": "Nigeria",
+          "stage": "Nigeria vocational curriculum anchor",
+          "subject": "Photography, cinematography, media production, and visual storytelling competencies",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        },
+        {
+          "title": "Writing Guide with Handbook",
+          "author": "OpenStax / Rice University",
+          "freeSourceUrl": "https://openstax.org/details/books/writing-guide",
+          "freeSourceType": "web",
+          "freeSourceNote": "Global • Foundation • Production briefs, captions, scripts, and professional communication. OpenStax identifies its textbooks as peer-reviewed and openly licensed; the official page provides free online access.",
+          "license": "OpenStax open license; see the title page for the current license notice",
+          "region": "Global",
+          "stage": "Foundation",
+          "subject": "Production briefs, captions, scripts, and professional communication",
+          "verifiedOn": "2026-08-24",
+          "verificationMethod": "Direct official publisher, institutional repository, or government source checked during the 2026-08-24 profession OER research pass."
+        }
+      ]
+    }
+  ]
+}
