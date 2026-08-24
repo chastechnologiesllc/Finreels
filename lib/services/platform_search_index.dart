@@ -327,16 +327,26 @@ class PlatformSearchIndex {
 
     var matched = 0;
     for (final term in queryTokens) {
+      final titleTokensForFuzzy = [...titleTokens, ..._tokens(aliases), ..._tokens(source)];
       final titleMatch = _termMatches(term, titleTokens, title);
       final aliasMatch = _termMatches(term, _tokens(aliases), aliases);
       final sourceMatch = _termMatches(term, _tokens(source), source);
       final bodyMatch = _termMatches(term, _tokens(body), body);
-      if (!titleMatch && !aliasMatch && !sourceMatch && !bodyMatch) continue;
+      final fuzzyMatch = term.length >= 4 &&
+          !titleMatch &&
+          !aliasMatch &&
+          !sourceMatch &&
+          !bodyMatch &&
+          _nearToken(term, titleTokensForFuzzy);
+      if (!titleMatch && !aliasMatch && !sourceMatch && !bodyMatch && !fuzzyMatch) {
+        continue;
+      }
       matched++;
       if (titleMatch) score += titleTokens.contains(term) ? 62 : 34;
       if (aliasMatch) score += 48;
       if (sourceMatch) score += 24;
       if (bodyMatch) score += 14;
+      if (fuzzyMatch) score += 8;
       if (allTokens.contains(term)) score += 5;
     }
 
@@ -344,13 +354,6 @@ class PlatformSearchIndex {
     if (matched == queryTokens.length) score += 90;
     else if (queryTokens.length > 1) score -= (queryTokens.length - matched) * 12;
 
-    // A one-edit tolerance catches common typos, but only against title/source
-    // words and only for terms of four or more characters to avoid noisy hits.
-    for (final term in queryTokens.where((term) => term.length >= 4)) {
-      if (_nearToken(term, [...titleTokens, ..._tokens(aliases), ..._tokens(source)])) {
-        score += 8;
-      }
-    }
     return score;
   }
 
