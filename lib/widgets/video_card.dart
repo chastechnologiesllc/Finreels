@@ -111,7 +111,7 @@ class VideoCard extends StatelessWidget {
             child: SizedBox(
               width: 130,
               height: 90,
-              child: _buildThumbnailContent(context),
+              child: _buildThumbnailContent(),
             ),
           ),
           Expanded(
