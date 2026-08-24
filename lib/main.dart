@@ -248,7 +248,12 @@ class _SplashGateState extends State<_SplashGate> {
 
   void _onSplashComplete() {
     _splashDone = true;
-    unawaited(NotificationService.instance.requestPermission());
+    // Native permission prompts are safe here because this is the existing
+    // app-entry permission flow. Web browsers require a user gesture, so Web
+    // permission is requested from NotificationSettingsScreen instead.
+    if (!kIsWeb) {
+      unawaited(NotificationService.instance.requestPermission());
+    }
     _maybeTransition();
   }
 
@@ -294,6 +299,9 @@ class _AppRootState extends State<_AppRoot> with WidgetsBindingObserver {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      unawaited(NotificationService.instance.checkNow());
+    });
   }
 
   @override
@@ -316,6 +324,10 @@ class _AppRootState extends State<_AppRoot> with WidgetsBindingObserver {
       // if it's been a few minutes since the last one, to avoid hammering
       // the RSS endpoint on rapid app-switching.
       unawaited(context.read<FeedProvider>().refreshOnResume());
+      // Check the same RSS sources for uploads discovered while the app was
+      // suspended. NotificationService throttles this to one foreground poll
+      // per ten minutes and shares in-flight work between lifecycle callers.
+      unawaited(NotificationService.instance.checkNow());
       // Re-read the notification inbox from SharedPreferences so the bell
       // badge reflects any items the WorkManager background isolate wrote
       // while the app was suspended. The background task cannot reach the

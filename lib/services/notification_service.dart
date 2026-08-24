@@ -2,10 +2,13 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
 import '../config/app_config.dart';
 import '../data/channel_data.dart';
 import '../data/resource_category_data.dart';
+import '../models/video.dart';
 import 'notification_store.dart';
+import 'platform_notification.dart';
 import 'rss_service.dart';
 import 'user_profile_service.dart';
 
@@ -15,6 +18,10 @@ class NotificationService {
 
   final _plugin = FlutterLocalNotificationsPlugin();
   bool _initialized = false;
+  DateTime? _lastForegroundCheck;
+  Future<void>? _foregroundCheck;
+
+  static const _foregroundCheckInterval = Duration(minutes: 10);
 
   // ── Init ────────────────────────────────────────────────────────────────────
   Future<void> init() async {
@@ -76,7 +83,7 @@ class NotificationService {
 
   // ── Permission Request ──────────────────────────────────────────────────────
   Future<bool> requestPermission() async {
-    if (kIsWeb) return false;
+    if (kIsWeb) return requestBrowserNotificationPermission();
     final iosPlugin = _plugin
         .resolvePlatformSpecificImplementation<
             IOSFlutterLocalNotificationsPlugin>();
@@ -106,15 +113,17 @@ class NotificationService {
         prefs.getBool(AppConfig.prefNotificationsEnabled) ?? true;
     if (!notifEnabled) return;
 
-    final plugin = FlutterLocalNotificationsPlugin();
-    const androidSettings =
-        AndroidInitializationSettings('@mipmap/ic_launcher');
-    const iosSettings = DarwinInitializationSettings();
-    await plugin.initialize(
-        const InitializationSettings(
-            android: androidSettings, iOS: iosSettings));
-
-    var notifId = AppConfig.notifIdBase;
+    FlutterLocalNotificationsPlugin? nativePlugin;
+    if (!kIsWeb) {
+      nativePlugin = FlutterLocalNotificationsPlugin();
+      const androidSettings =
+          AndroidInitializationSettings('@mipmap/ic_launcher');
+      const iosSettings = DarwinInitializationSettings();
+      await nativePlugin.initialize(const InitializationSettings(
+        android: androidSettings,
+        iOS: iosSettings,
+      ));
+    }
 
     // Hard caps that keep notifications polite:
     //  • 1 per channel per run — the most-recent new video only. Firing 3
@@ -143,11 +152,8 @@ class NotificationService {
     ).where((c) => c.id.isNotEmpty && seenNotifIds.add(c.id)).toList();
 
     for (final channel in channelsToCheck) {
-      // Stop once we've hit the per-run cap — remaining channels' new
-      // videos are still persisted in last-seen so they won't re-trigger
-      // on the next background pass.
-      if (totalFired >= maxNotifsPerRun) break;
-
+      // Continue checking after the tray cap so every channel's current IDs
+      // are persisted and the same upload cannot re-trigger on the next run.
       try {
         // forceRefresh: true — this background task's entire purpose is to
         // detect NEW uploads. Serving a cached (possibly 30-min-old) list
@@ -166,18 +172,36 @@ class NotificationService {
             videos.where((v) => !lastSeenIds.contains(v.id)).toList();
 
         if (newVideos.isNotEmpty && lastSeenIds.isNotEmpty) {
-          // One notification per channel per run — the most recent new
-          // video only. The in-app inbox stores all new items regardless.
-          await _showNotification(
-            plugin: plugin,
-            prefs: prefs,
-            id: notifId++,
-            channelId: channel.id,
-            channelName: channel.name,
-            videoTitle: newVideos.first.title,
-            videoId: newVideos.first.id,
-          );
-          totalFired++;
+          // Seeded channels alert only for genuine later uploads. The tray is
+          // capped to three alerts per run, but the inbox keeps every new
+          // upload so the bell never loses an event due to tray politeness.
+          if (totalFired < maxNotifsPerRun) {
+            await _showNotification(
+              plugin: nativePlugin,
+              prefs: prefs,
+              id: _notificationId(newVideos.first.id),
+              channelId: channel.id,
+              channelName: channel.name,
+              videoTitle: newVideos.first.title,
+              videoId: newVideos.first.id,
+            );
+            totalFired++;
+          } else {
+            await _appendInbox(
+              prefs: prefs,
+              channelId: channel.id,
+              channelName: channel.name,
+              video: newVideos.first,
+            );
+          }
+          for (final video in newVideos.skip(1)) {
+            await _appendInbox(
+              prefs: prefs,
+              channelId: channel.id,
+              channelName: channel.name,
+              video: video,
+            );
+          }
         }
 
         // Update last-seen with current video IDs (keep latest 30).
@@ -192,7 +216,7 @@ class NotificationService {
   }
 
   static Future<void> _showNotification({
-    required FlutterLocalNotificationsPlugin plugin,
+    required FlutterLocalNotificationsPlugin? plugin,
     required SharedPreferences prefs,
     required int id,
     required String channelId,
@@ -214,14 +238,24 @@ class NotificationService {
     const details =
         NotificationDetails(android: androidDetails, iOS: iosDetails);
 
-    // Fire the OS notification
-    await plugin.show(
-      id,
-      '🎬 New from $channelName',
-      videoTitle,
-      details,
-      payload: json.encode({'videoId': videoId}),
-    );
+    // Native uses the OS tray; Web uses the browser Notifications API while
+    // the page is open. Both paths are best-effort and share the same inbox.
+    if (kIsWeb) {
+      await showBrowserNotification(
+        title: 'New from $channelName',
+        body: videoTitle,
+        tag: 'finreels-video-$videoId',
+        iconUrl: 'icons/Icon-192.png',
+      );
+    } else if (plugin != null) {
+      await plugin.show(
+        id,
+        'New from $channelName',
+        videoTitle,
+        details,
+        payload: json.encode({'videoId': videoId}),
+      );
+    }
 
     // Persist to the in-app notification inbox so the bell badge and inbox
     // screen stay in sync. Uses the static helper because this runs in the
@@ -233,6 +267,60 @@ class NotificationService {
       videoTitle: videoTitle,
       videoId: videoId,
     );
+  }
+
+  static Future<void> _appendInbox({
+    required SharedPreferences prefs,
+    required String channelId,
+    required String channelName,
+    required Video video,
+  }) => NotificationStore.appendToPrefsStatic(
+        prefs: prefs,
+        channelId: channelId,
+        channelName: channelName,
+        videoTitle: video.title,
+        videoId: video.id,
+      );
+
+  static int _notificationId(String videoId) {
+    // String.hashCode is not guaranteed stable across Dart runtimes. FNV-1a
+    // keeps the same upload mapped to the same positive tray ID on every run.
+    var hash = 2166136261;
+    for (final unit in videoId.codeUnits) {
+      hash = ((hash ^ unit) * 16777619) & 0x7fffffff;
+    }
+    return AppConfig.notifIdBase + (hash % 1000000);
+  }
+
+  /// Checks for new uploads when the app is visible or resumes. A single
+  /// in-flight request is shared by callers, and repeated lifecycle events
+  /// within ten minutes do not poll RSS again.
+  Future<void> checkNow({bool force = false}) async {
+    if (!force &&
+        _lastForegroundCheck != null &&
+        DateTime.now().difference(_lastForegroundCheck!) <
+            _foregroundCheckInterval) {
+      await NotificationStore.instance.reload();
+      return;
+    }
+    if (_foregroundCheck != null) return _foregroundCheck!;
+    _lastForegroundCheck = DateTime.now();
+    final future = _checkNowInternal();
+    _foregroundCheck = future;
+    try {
+      await future;
+    } finally {
+      _foregroundCheck = null;
+    }
+  }
+
+  Future<void> _checkNowInternal() async {
+    try {
+      await checkAndNotifyNewVideos();
+      await NotificationStore.instance.reload();
+    } on Object catch (e) {
+      debugPrint('[notifications] foreground check failed (non-fatal): $e');
+    }
   }
 
   void _onTap(NotificationResponse response) {

@@ -546,7 +546,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
             children: [
               Expanded(child: _ColHeader('Shorts', Icons.play_circle_outline_rounded)),
               SizedBox(width: 8),
-              Expanded(child: _ColHeader('Videos • Blogs • Books', Icons.grid_view_rounded)),
+              Expanded(child: _ColHeader('Videos • Blogs • Books • Sources', Icons.grid_view_rounded)),
             ],
           ),
         ),
@@ -1055,7 +1055,7 @@ class _EmptyPrompt extends StatelessWidget {
             const SizedBox(height: 8),
             Text(
               'Type a keyword — "how to price", "solar install", '
-              'fashion business" — to find videos, shorts, blogs, books, channels, and categories.',
+              '"fashion business" — to find videos, shorts, blogs, books, channels, and categories.',
               textAlign: TextAlign.center,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: AppTheme.textMuted(context), height: 1.6),

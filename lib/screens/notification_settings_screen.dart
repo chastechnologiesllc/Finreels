@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../services/notification_service.dart';
@@ -94,12 +95,29 @@ class _NotificationSettingsScreenState
                     ),
                     const SizedBox(width: 14),
                     Expanded(
-                      child: Text(
-                        'New video alerts',
-                        style: Theme.of(context)
-                            .textTheme
-                            .titleSmall
-                            ?.copyWith(fontWeight: FontWeight.w700),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            'New video alerts',
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleSmall
+                                ?.copyWith(fontWeight: FontWeight.w700),
+                          ),
+                          const SizedBox(height: 3),
+                          Text(
+                            kIsWeb
+                                ? 'Shows while FinReels is open after browser permission.'
+                                : 'Checks for new uploads in the background when the OS allows it.',
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                            style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                                  color: AppTheme.textMuted(context),
+                                ),
+                          ),
+                        ],
                       ),
                     ),
                     Switch(
