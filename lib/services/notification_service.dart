@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../config/app_config.dart';
 import '../data/channel_data.dart';
@@ -88,6 +89,14 @@ class NotificationService {
 
   // ── Permission State and Request ────────────────────────────────────────────
   Future<NotificationPermissionState> permissionState() async {
+    try {
+      return await _permissionStateInternal();
+    } on Object {
+      return NotificationPermissionState.unknown;
+    }
+  }
+
+  Future<NotificationPermissionState> _permissionStateInternal() async {
     if (kIsWeb) {
       switch (browserNotificationPermission) {
         case 'granted':
@@ -410,18 +419,13 @@ class NotificationService {
   Future<bool> openSystemNotificationSettings() async {
     if (kIsWeb) return false;
     if (!_initialized) await init();
-    final androidPlugin = _plugin
-        .resolvePlatformSpecificImplementation<
-            AndroidFlutterLocalNotificationsPlugin>();
-    if (androidPlugin != null) {
-      return await androidPlugin.openAppNotificationSettings() ?? false;
+    // flutter_local_notifications 18 does not expose a system-settings method.
+    // The platform URI is handled by Android/iOS when available; if the OS
+    // declines it, the user can open the app’s notification settings manually.
+    try {
+      return await launchUrl(Uri.parse('app-settings:'));
+    } on Object {
+      return false;
     }
-    final iosPlugin = _plugin
-        .resolvePlatformSpecificImplementation<
-            IOSFlutterLocalNotificationsPlugin>();
-    if (iosPlugin != null) {
-      return await iosPlugin.openAppNotificationSettings() ?? false;
-    }
-    return false;
   }
 }
