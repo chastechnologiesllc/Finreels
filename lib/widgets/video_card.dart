@@ -158,7 +158,7 @@ class VideoCard extends StatelessWidget {
       child: Stack(
         fit: StackFit.expand,
         children: [
-          _buildThumbnailContent(context),
+          _buildThumbnailContent(),
           Positioned(
             bottom: 0,
             left: 0,
@@ -170,13 +170,8 @@ class VideoCard extends StatelessWidget {
     );
   }
 
-  Widget _buildThumbnailContent(BuildContext context) {
+  Widget _buildThumbnailContent() {
     final isBook = video.channelId == 'books' || video.channelId == 'verified_book';
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final shimmerBase = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
-    final shimmerHighlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
-    final shimmerFill = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
-
     return Stack(
       fit: StackFit.expand,
       children: [

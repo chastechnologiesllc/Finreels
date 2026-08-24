@@ -627,6 +627,7 @@ class _ShortPageState extends State<_ShortPage>
                 memCacheWidth: 720,
                 memCacheHeight: 405,
               ),
+            ),
           ),
 
           LayoutBuilder(
