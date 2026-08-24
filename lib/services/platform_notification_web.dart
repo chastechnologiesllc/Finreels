@@ -2,7 +2,7 @@ import 'dart:js_interop';
 
 import 'package:web/web.dart' as web;
 
-String get browserNotificationPermission => web.Notification.permission;
+String get browserNotificationPermission => web.Notification.permission.toDart;
 
 Future<bool> requestBrowserNotificationPermission() async {
   try {
@@ -26,7 +26,7 @@ Future<bool> showBrowserNotification({
       web.NotificationOptions(
         body: body,
         tag: tag,
-        icon: iconUrl,
+        icon: iconUrl ?? '',
       ),
     );
     return true;
