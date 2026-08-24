@@ -10,8 +10,8 @@ import '../theme/app_theme.dart';
 import '../widgets/no_flash_page_route.dart';
 import 'channels_screen.dart';
 import 'home_screen.dart';
-import 'saved_screen.dart';
 import 'profile_screen.dart';
+import 'saved_screen.dart';
 
 class MainShell extends StatefulWidget {
   const MainShell({super.key});

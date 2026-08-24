@@ -35,7 +35,7 @@ class AdFreeScreen extends StatelessWidget {
               padding: const EdgeInsets.only(top: 20, bottom: 24),
               child: !adsGone
                   ? _RemoveAdsSection(iap: iap)
-                  : const _AdsRemovedCard(),
+                  : _AdsRemovedCard(),
             ),
           ),
           if (!adsGone) const StickyBannerBar(),
