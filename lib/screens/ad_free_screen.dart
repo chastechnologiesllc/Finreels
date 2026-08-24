@@ -3,8 +3,6 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
-import 'package:provider/provider.dart';
-
 import '../config/app_config.dart';
 import '../screens/paystack_checkout_screen.dart';
 import '../services/ad_service.dart';
@@ -17,30 +15,34 @@ class AdFreeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final iap = context.watch<IapService>();
-    final adsGone = context.watch<AdService>().adsRemoved;
-
-    return Scaffold(
-      backgroundColor: AppTheme.bgColor(context),
-      appBar: AppBar(
-        backgroundColor: AppTheme.bgColor(context),
-        surfaceTintColor: Colors.transparent,
-        elevation: 0,
-        title: const Text('Go Ad-Free'),
-      ),
-      body: Column(
-        children: [
-          Expanded(
-            child: SingleChildScrollView(
-              padding: const EdgeInsets.only(top: 20, bottom: 24),
-              child: !adsGone
-                  ? _RemoveAdsSection(iap: iap)
-                  : _AdsRemovedCard(),
-            ),
+    final iap = IapService.instance;
+    return AnimatedBuilder(
+      animation: Listenable.merge(<Listenable>[iap, AdService.instance]),
+      builder: (context, _) {
+        final adsGone = AdService.instance.adsRemoved;
+        return Scaffold(
+          backgroundColor: AppTheme.bgColor(context),
+          appBar: AppBar(
+            backgroundColor: AppTheme.bgColor(context),
+            surfaceTintColor: Colors.transparent,
+            elevation: 0,
+            title: const Text('Go Ad-Free'),
           ),
-          if (!adsGone) const StickyBannerBar(),
-        ],
-      ),
+          body: Column(
+            children: [
+              Expanded(
+                child: SingleChildScrollView(
+                  padding: const EdgeInsets.only(top: 20, bottom: 24),
+                  child: !adsGone
+                      ? _RemoveAdsSection(iap: iap)
+                      : _AdsRemovedCard(),
+                ),
+              ),
+              if (!adsGone) const StickyBannerBar(),
+            ],
+          ),
+        );
+      },
     );
   }
 }
