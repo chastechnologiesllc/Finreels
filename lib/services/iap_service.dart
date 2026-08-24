@@ -125,7 +125,7 @@ class IapService extends ChangeNotifier {
   }
 
   /// Grants ad-free access for [productId] after a successful Paystack
-  /// checkout — called by SettingsScreen once PaystackCheckoutScreen
+  /// checkout — called by the Profile Ad-Free screen once PaystackCheckoutScreen
   /// returns a non-null reference. If [AppConfig.paystackVerifyEndpoint]
   /// is configured, the reference is verified server-side first; otherwise
   /// the app trusts Paystack's own success redirect directly (see

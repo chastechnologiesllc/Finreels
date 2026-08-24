@@ -72,7 +72,7 @@ class ConsentService {
   /// the app's UI so EEA/UK/Swiss users can revisit their consent choice
   /// at any time — this is a Google UMP policy requirement, not optional,
   /// for any app whose users might see the initial consent form. Wired to
-  /// a Settings entry — see SettingsScreen.
+  /// a Profile entry — see ProfileScreen.
   Future<bool> isPrivacyOptionsRequired() async {
     final status = await ConsentInformation.instance
         .getPrivacyOptionsRequirementStatus();

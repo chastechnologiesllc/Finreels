@@ -8,7 +8,7 @@ import '../theme/app_theme.dart';
 /// pops with the transaction reference (String) on success, or null if the
 /// user closes/cancels. Used as the IAP fallback for installs that didn't
 /// come from the Play Store — see IapService.purchaseViaPaystack and
-/// SettingsScreen's pricing tiles.
+/// ProfileScreen's Ad-Free pricing tiles.
 class PaystackCheckoutScreen extends StatefulWidget {
   final String email;
   final int amountSubunits;

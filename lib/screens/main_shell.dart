@@ -11,7 +11,7 @@ import '../widgets/no_flash_page_route.dart';
 import 'channels_screen.dart';
 import 'home_screen.dart';
 import 'saved_screen.dart';
-import 'settings_screen.dart';
+import 'profile_screen.dart';
 
 class MainShell extends StatefulWidget {
   const MainShell({super.key});
@@ -27,7 +27,7 @@ class _MainShellState extends State<MainShell> {
     HomeScreen(),
     ChannelsScreen(),
     SavedScreen(),
-    SettingsScreen(),
+    ProfileScreen(),
   ];
 
   @override
@@ -156,7 +156,7 @@ class _FloatingNavBar extends StatelessWidget {
     (Icons.home_outlined,    Icons.home_rounded,              'Feed'),
     (Icons.play_circle_outline_rounded, Icons.play_circle_rounded, 'Shorts'),
     (Icons.bookmark_outline_rounded,    Icons.bookmark_rounded,    'Saved'),
-    (Icons.settings_outlined,           Icons.settings_rounded,    'Settings'),
+    (Icons.person_outline_rounded,      Icons.person_rounded,      'Profile'),
   ];
 
   @override
