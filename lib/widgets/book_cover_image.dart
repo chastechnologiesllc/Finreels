@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart' show listEquals;
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
 
 import '../theme/app_theme.dart';
+import 'finreels_shimmer.dart';
 
 /// Renders a book cover from either a bundled Flutter asset or a remote URL.
 /// For remote books, [fallbackUrls] must be an ordered list of exact-edition
@@ -232,17 +232,11 @@ class _BookCoverImageState extends State<BookCoverImage> {
   }
 
   Widget _loadingPlaceholder(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final base = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
-    final highlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
-    final skeleton = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
-    return Shimmer.fromColors(
-      baseColor: base,
-      highlightColor: highlight,
+    return FinreelsShimmer(
       child: SizedBox(
         width: widget.width,
         height: widget.height,
-        child: ColoredBox(color: skeleton),
+        child: ColoredBox(color: FinreelsShimmer.fillColor(context)),
       ),
     );
   }

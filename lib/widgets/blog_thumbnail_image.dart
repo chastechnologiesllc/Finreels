@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart' show listEquals;
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
 
 import '../theme/app_theme.dart';
+import 'finreels_shimmer.dart';
 
 /// Displays a blog thumbnail from an ordered list of feed-provided candidates.
 /// A broken featured-image URL never leaves the card blank: the widget advances
@@ -99,13 +99,8 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
   }
 
   Widget _placeholder(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    return Shimmer.fromColors(
-      baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
-      highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
-      child: ColoredBox(
-        color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
-      ),
+    return FinreelsShimmer(
+      child: ColoredBox(color: FinreelsShimmer.fillColor(context)),
     );
   }
 

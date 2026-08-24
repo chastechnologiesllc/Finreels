@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 import '../models/channel.dart';
@@ -10,6 +9,7 @@ import '../services/ad_service.dart';
 import '../services/rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/finreels_shimmer.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
 import 'shorts_player_screen.dart';
@@ -124,13 +124,8 @@ class _ChannelVideosScreenState extends State<ChannelVideosScreen>
   }
 
   Widget _buildShimmer(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final base = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
-    final highlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
-    final skeleton = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
-    return Shimmer.fromColors(
-      baseColor: base,
-      highlightColor: highlight,
+    final skeleton = FinreelsShimmer.fillColor(context);
+    return FinreelsShimmer(
       child: ListView.separated(
         padding: const EdgeInsets.all(16),
         itemCount: 6,

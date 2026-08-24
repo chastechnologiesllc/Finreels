@@ -1,8 +1,6 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 import '../data/channel_data.dart';
@@ -878,8 +876,7 @@ class _ContentCard extends StatelessWidget {
         ),
       );
     }
-    final url = item.video?.thumbnailMq ?? item.article?.thumbnailUrl ?? '';
-    final ch  = item.video != null
+    final ch = item.video != null
         ? (ChannelData.byId[item.video!.channelId] ?? ChannelData.fallback)
         : ChannelData.fallback;
     final image = item.article != null
@@ -887,24 +884,12 @@ class _ContentCard extends StatelessWidget {
             url: item.article!.thumbnailUrl,
             fallbackUrls: item.article!.thumbnailFallbackUrls,
           )
-        : url.isNotEmpty
-            ? CachedNetworkImage(
-                imageUrl: url,
+        : item.video != null
+            ? VideoThumbnailImage(
+                video: item.video!,
                 fit: BoxFit.cover,
                 memCacheWidth: 360,
                 memCacheHeight: 203,
-                placeholder: (_, __) {
-                  final isDark = Theme.of(context).brightness == Brightness.dark;
-                  return Shimmer.fromColors(
-                    baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
-                    highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
-                    child: ColoredBox(
-                      color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
-                    ),
-                  );
-                },
-                errorWidget: (_, __, ___) =>
-                    ColoredBox(color: AppTheme.surfaceElevated(context)),
               )
             : ColoredBox(color: AppTheme.surfaceElevated(context));
     return AspectRatio(

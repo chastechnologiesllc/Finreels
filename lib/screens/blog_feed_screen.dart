@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 import '../services/ad_service.dart';
@@ -9,6 +8,7 @@ import '../services/blog_rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/blog_thumbnail_image.dart';
+import '../widgets/finreels_shimmer.dart';
 import 'blog_reader_screen.dart';
 
 /// Fix 4 — Blogs Tab Design
@@ -191,14 +191,9 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
 
   // Shimmer that matches the 16:9 blog card shape exactly.
   Widget _buildShimmer(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final base = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
-    final highlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
-    final skeleton = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
+    final skeleton = FinreelsShimmer.fillColor(context);
 
-    return Shimmer.fromColors(
-      baseColor: base,
-      highlightColor: highlight,
+    return FinreelsShimmer(
       child: ListView.separated(
         physics: const NeverScrollableScrollPhysics(),
         padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),

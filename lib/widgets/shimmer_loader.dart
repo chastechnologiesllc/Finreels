@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
 
-import '../theme/app_theme.dart';
+import 'finreels_shimmer.dart';
 
 /// Fix 2 — Shimmer skeletons with correct 16:9 aspect ratio and blog variant.
 /// All skeletons match the exact dimensions of the real cards so there is
@@ -21,10 +20,7 @@ class ShimmerLoader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final base = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
-    final highlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
-    final skeleton = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
+    final skeleton = FinreelsShimmer.fillColor(context);
 
     Widget child;
     switch (variant) {
@@ -67,11 +63,7 @@ class ShimmerLoader extends StatelessWidget {
         );
     }
 
-    return Shimmer.fromColors(
-      baseColor: base,
-      highlightColor: highlight,
-      child: child,
-    );
+    return FinreelsShimmer(child: child);
   }
 }
 

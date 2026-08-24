@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
 
 import '../models/video.dart';
 import '../theme/app_theme.dart';
+import 'finreels_shimmer.dart';
 
 /// Displays an ordinary YouTube video thumbnail without ever leaving a solid
 /// black rectangle when an image request fails.
@@ -115,13 +115,8 @@ class _VideoThumbnailImageState extends State<VideoThumbnailImage> {
   }
 
   Widget _shimmer(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    return Shimmer.fromColors(
-      baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
-      highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
-      child: ColoredBox(
-        color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
-      ),
+    return FinreelsShimmer(
+      child: ColoredBox(color: FinreelsShimmer.fillColor(context)),
     );
   }
 
