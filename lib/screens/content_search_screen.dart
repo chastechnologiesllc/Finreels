@@ -6,41 +6,95 @@ import 'package:shimmer/shimmer.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 import '../data/channel_data.dart';
+import '../models/channel.dart';
+import '../models/resource_category.dart';
 import '../models/video.dart';
 import '../providers/feed_provider.dart';
 import '../services/ad_service.dart';
 import '../services/blog_rss_service.dart';
+import '../services/platform_search_index.dart';
 import '../theme/app_theme.dart';
 import '../widgets/blog_thumbnail_image.dart';
 import '../widgets/book_cover_image.dart';
 import '../widgets/no_flash_page_route.dart';
 import 'blog_reader_screen.dart';
 import 'book_detail_screen.dart';
+import 'category_detail_screen.dart';
+import 'channel_videos_screen.dart';
 import 'shorts_player_screen.dart';
 import 'video_player_screen.dart';
 
 // ── Unified search result ───────────────────────────────────────────────────
 
-enum _ResultKind { short, video, blog, book }
+enum _ResultKind { short, video, blog, book, category, channel, blogSource }
 
 class _SearchItem {
   final _ResultKind kind;
-  final Video?       video;
+  final Video? video;
   final BlogArticle? article;
-  final double       score;
+  final ResourceCategory? category;
+  final Channel? channel;
+  final Map<String, String>? blogSource;
+  final VerifiedBook? verifiedBook;
+  final double score;
 
   const _SearchItem.video(this.video, this.score)
-      : kind    = _ResultKind.video,
-        article = null;
+      : kind = _ResultKind.video,
+        article = null,
+        category = null,
+        channel = null,
+        blogSource = null,
+        verifiedBook = null;
   const _SearchItem.short(this.video, this.score)
-      : kind    = _ResultKind.short,
-        article = null;
+      : kind = _ResultKind.short,
+        article = null,
+        category = null,
+        channel = null,
+        blogSource = null,
+        verifiedBook = null;
   const _SearchItem.blog(this.article, this.score)
-      : kind    = _ResultKind.blog,
-        video   = null;
+      : kind = _ResultKind.blog,
+        video = null,
+        category = null,
+        channel = null,
+        blogSource = null,
+        verifiedBook = null;
   const _SearchItem.book(this.video, this.score)
-      : kind    = _ResultKind.book,
-        article = null;
+      : kind = _ResultKind.book,
+        article = null,
+        category = null,
+        channel = null,
+        blogSource = null,
+        verifiedBook = null;
+  const _SearchItem.category(this.category, this.score)
+      : kind = _ResultKind.category,
+        video = null,
+        article = null,
+        channel = null,
+        blogSource = null,
+        verifiedBook = null;
+  const _SearchItem.channel(this.channel, this.score)
+      : kind = _ResultKind.channel,
+        video = null,
+        article = null,
+        category = null,
+        blogSource = null,
+        verifiedBook = null;
+  const _SearchItem.blogSource(this.blogSource, this.score)
+      : kind = _ResultKind.blogSource,
+        video = null,
+        article = null,
+        category = null,
+        channel = null,
+        verifiedBook = null;
+
+  const _SearchItem.verifiedBook(this.verifiedBook, this.score)
+      : kind = _ResultKind.book,
+        video = null,
+        article = null,
+        category = null,
+        channel = null,
+        blogSource = null;
 
   bool get isShort => kind == _ResultKind.short;
 
@@ -190,67 +244,84 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
 
   // ── Search ──────────────────────────────────────────────────────────────
 
+  _SearchItem _itemFor(PlatformSearchDocument document) {
+    final score = document.relevance;
+    switch (document.kind) {
+      case PlatformSearchKind.short:
+        return _SearchItem.short(document.payload as Video, score);
+      case PlatformSearchKind.video:
+        return _SearchItem.video(document.payload as Video, score);
+      case PlatformSearchKind.blog:
+        return _SearchItem.blog(document.payload as BlogArticle, score);
+      case PlatformSearchKind.book:
+        final payload = document.payload;
+        if (payload is VerifiedBook) return _SearchItem.verifiedBook(payload, score);
+        return _SearchItem.book(payload as Video, score);
+      case PlatformSearchKind.category:
+        return _SearchItem.category(document.payload as ResourceCategory, score);
+      case PlatformSearchKind.channel:
+        return _SearchItem.channel(document.payload as Channel, score);
+      case PlatformSearchKind.blogSource:
+        return _SearchItem.blogSource(document.payload as Map<String, String>, score);
+    }
+  }
+
   Future<void> _search(String q) async {
     if (!mounted) return;
     setState(() { _query = q; _loading = true; _fetchingBlogs = false; });
 
-    // ── Phase 1: in-memory (INSTANT) ──────────────────────────────────────
-    final allVids  = _fp.allFeedVideos;
-    final newLeft  = <_SearchItem>[];
-    final newRight = <_SearchItem>[];
+    await PlatformSearchIndex.instance.ensureReady();
+    if (!mounted || _query != q) return;
 
-    for (final v in allVids) {
-      final ch    = ChannelData.byId[v.channelId] ?? ChannelData.fallback;
-      final score = _score(q, v.title, v.description, ch.name);
-      if (score <= 0) continue;
-      if (v.isShort) {
-        newLeft.add(_SearchItem.short(v, score));
+    final indexed = PlatformSearchIndex.instance.search(
+      query: q,
+      videos: _fp.allFeedVideos,
+      books: _fp.allBooksForSearch,
+    );
+    final newLeft = <_SearchItem>[];
+    final newRight = <_SearchItem>[];
+    for (final document in indexed) {
+      final item = _itemFor(document);
+      if (item.isShort) {
+        newLeft.add(item);
       } else {
-        newRight.add(_SearchItem.video(v, score));
+        newRight.add(item);
       }
     }
 
-    for (final b in _fp.allBooksForSearch) {
-      final score = _score(q, b.title, b.description, b.channelName);
-      if (score > 0) newRight.add(_SearchItem.book(b, score));
-    }
+    if (!mounted || _query != q) return;
+    setState(() {
+      _left = newLeft;
+      _right = newRight;
+      _loading = false;
+      _fetchingBlogs = true;
+    });
 
     int cmp(_SearchItem a, _SearchItem b) {
       final sc = b.score.compareTo(a.score);
       return sc != 0 ? sc : b.date.compareTo(a.date);
     }
-    newLeft.sort(cmp);
-    newRight.sort(cmp);
 
-    if (!mounted) return;
-    // Show video/book results immediately — never wait for blogs.
-    setState(() {
-      _left         = newLeft;
-      _right        = newRight;
-      _loading      = false;
-      _fetchingBlogs = true; // Phase 2 starting
-    });
-
-    // ── Phase 2: blogs (background, 5-second cap) ─────────────────────────
+    // Live articles are fetched separately because the static index must be
+    // instant and the Blogs tab itself owns the network cache.
     try {
       final articles = await BlogRssService.instance
           .fetchAll()
           .timeout(const Duration(seconds: 5));
-
-      final blogItems = <_SearchItem>[];
-      for (final a in articles) {
-        final score = _score(q, a.title, a.excerpt, a.sourceName);
-        if (score > 0) blogItems.add(_SearchItem.blog(a, score));
-      }
-      blogItems.sort(cmp);
-
       if (!mounted || _query != q) return;
-      if (blogItems.isNotEmpty) {
-        final merged = [..._right, ...blogItems]..sort(cmp);
-        setState(() { _right = merged; _fetchingBlogs = false; });
-      } else {
-        setState(() => _fetchingBlogs = false);
-      }
+      final blogDocs = PlatformSearchIndex.instance.search(
+        query: q,
+        articles: articles,
+      ).where((document) => document.kind == PlatformSearchKind.blog);
+      final blogItems = [
+        for (final document in blogDocs) _itemFor(document),
+      ];
+      final existingKeys = {for (final item in _right) _itemKey(item)};
+      final merged = [
+        ..._right,
+        ...blogItems.where((item) => existingKeys.add(_itemKey(item))),
+      ]..sort(cmp);
+      setState(() { _right = merged; _fetchingBlogs = false; });
     } on TimeoutException {
       debugPrint('[ContentSearch] blog fetch timed out for: $q');
       if (mounted) setState(() => _fetchingBlogs = false);
@@ -258,6 +329,18 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
       debugPrint('[ContentSearch] blog fetch error: $e');
       if (mounted) setState(() => _fetchingBlogs = false);
     }
+  }
+
+  String _itemKey(_SearchItem item) {
+    if (item.video != null) return 'video:${item.video!.id}';
+    if (item.article != null) return 'blog:${item.article!.url}';
+    if (item.category != null) return 'category:${item.category!.id}';
+    if (item.channel != null) return 'channel:${item.channel!.id}';
+    if (item.blogSource != null) return 'blog-source:${item.blogSource!['url']}';
+    if (item.verifiedBook != null) {
+      return 'verified-book:${item.verifiedBook!.freeSourceUrl}';
+    }
+    return item.toString();
   }
 
   // ── Navigation helpers ──────────────────────────────────────────────────
@@ -318,6 +401,51 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
           excerpt:      a.excerpt.isNotEmpty ? a.excerpt : null,
           publishedAt:  a.publishedAt,
           categoryId:   a.categoryId,
+        ),
+      ),
+    );
+  }
+
+  void _openCategory(ResourceCategory category) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => CategoryDetailScreen(category: category)),
+    );
+  }
+
+  void _openChannel(Channel channel) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => ChannelVideosScreen(channel: channel)),
+    );
+  }
+
+  void _openVerifiedBook(VerifiedBook book) {
+    if (book.freeSourceUrl.trim().isEmpty) return;
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => BlogReaderScreen(
+          url: book.freeSourceUrl,
+          title: book.title,
+          sourceName: book.author,
+          categoryId: book.categoryId,
+        ),
+      ),
+    );
+  }
+
+  void _openBlogSource(Map<String, String> source) {
+    final url = source['url']?.trim();
+    if (url == null || url.isEmpty) return;
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => BlogReaderScreen(
+          url: url,
+          title: source['name'] ?? 'Blog source',
+          sourceName: source['name'],
+          categoryId: source['categoryId'],
         ),
       ),
     );
@@ -450,6 +578,10 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
                                 onTapVideo: _openVideo,
                                 onTapBook:  _openBook,
                                 onTapBlog:  _openArticle,
+                                onTapCategory: _openCategory,
+                                onTapChannel: _openChannel,
+                                onTapVerifiedBook: _openVerifiedBook,
+                                onTapBlogSource: _openBlogSource,
                               )
                             : const SizedBox.shrink(),
                       ),
@@ -488,7 +620,7 @@ class _SearchBar extends StatelessWidget {
           textAlignVertical: TextAlignVertical.center,
           style: TextStyle(color: AppTheme.textColor(context), fontSize: 14),
           decoration: InputDecoration(
-            hintText:    'Search videos, shorts, blogs, books…',
+            hintText:    'Search videos, shorts, blogs, books, channels, categories…',
             hintStyle:   TextStyle(color: AppTheme.textMuted(context), fontSize: 14),
             prefixIcon:  Icon(Icons.search_rounded,
                               color: AppTheme.textMuted(context), size: 20),
@@ -642,12 +774,20 @@ class _ContentCard extends StatelessWidget {
   final void Function(Video)         onTapVideo;
   final void Function(Video)         onTapBook;
   final void Function(BlogArticle)   onTapBlog;
+  final void Function(ResourceCategory) onTapCategory;
+  final void Function(Channel) onTapChannel;
+  final void Function(VerifiedBook) onTapVerifiedBook;
+  final void Function(Map<String, String>) onTapBlogSource;
 
   const _ContentCard({
     required this.item,
     required this.onTapVideo,
     required this.onTapBook,
     required this.onTapBlog,
+    required this.onTapCategory,
+    required this.onTapChannel,
+    required this.onTapVerifiedBook,
+    required this.onTapBlogSource,
   });
 
   String get _badge => switch (item.kind) {
@@ -655,6 +795,9 @@ class _ContentCard extends StatelessWidget {
     _ResultKind.video => 'Video',
     _ResultKind.blog  => 'Blog',
     _ResultKind.book  => 'Book',
+    _ResultKind.category => 'Category',
+    _ResultKind.channel => 'Channel',
+    _ResultKind.blogSource => 'Blog source',
   };
 
   void _onTap() {
@@ -662,9 +805,19 @@ class _ContentCard extends StatelessWidget {
       case _ResultKind.video:
         onTapVideo(item.video!);
       case _ResultKind.book:
-        onTapBook(item.video!);
+        if (item.verifiedBook != null) {
+          onTapVerifiedBook(item.verifiedBook!);
+        } else {
+          onTapBook(item.video!);
+        }
       case _ResultKind.blog:
         onTapBlog(item.article!);
+      case _ResultKind.category:
+        onTapCategory(item.category!);
+      case _ResultKind.channel:
+        onTapChannel(item.channel!);
+      case _ResultKind.blogSource:
+        onTapBlogSource(item.blogSource!);
       case _ResultKind.short:
         break; // Shorts are in the left column; this shouldn't appear here.
     }
@@ -719,7 +872,12 @@ class _ContentCard extends StatelessWidget {
     );
   }
 
-  String get _title => item.video?.title ?? item.article?.title ?? '';
+  String get _title => item.video?.title ??
+      item.article?.title ??
+      item.category?.name ??
+      item.channel?.name ??
+      item.blogSource?['name'] ??
+      item.verifiedBook?.title ?? '';
 
   String _sourceLine(BuildContext context) {
     if (item.article != null) {
@@ -730,16 +888,51 @@ class _ContentCard extends StatelessWidget {
       if (item.kind == _ResultKind.book) return item.video!.description;
       return '${ch.name} · ${timeago.format(item.video!.publishedAt)}';
     }
+    if (item.verifiedBook != null) return item.verifiedBook!.author;
+    if (item.category != null) {
+      return '${item.category!.section.label} · FinReels research';
+    }
+    if (item.channel != null) {
+      return '${item.channel!.handle} · ${item.channel!.focus}';
+    }
+    if (item.blogSource != null) {
+      return item.blogSource!['focus'] ?? 'Verified blog source';
+    }
     return '';
   }
 
   Widget _buildThumb(BuildContext context) {
     if (item.kind == _ResultKind.book) {
+      final book = item.verifiedBook;
       return AspectRatio(
         aspectRatio: 16 / 9,
-        child: BookCoverImage(
-          url: item.video!.thumbnailUrl,
-          fallbackUrls: item.video!.thumbnailFallbackUrls,
+        child: book != null
+            ? BookCoverImage(
+                url: book.coverUrl,
+                fallbackUrls: book.coverCandidates,
+              )
+            : BookCoverImage(
+                url: item.video!.thumbnailUrl,
+                fallbackUrls: item.video!.thumbnailFallbackUrls,
+              ),
+      );
+    }
+    if (item.category != null || item.channel != null || item.blogSource != null) {
+      final icon = item.category != null
+          ? Icons.category_outlined
+          : item.channel != null
+              ? Icons.play_circle_outline_rounded
+              : Icons.article_outlined;
+      final color = item.category != null
+          ? AppTheme.gold
+          : item.channel?.accentColor ?? const Color(0xFF065F46);
+      return AspectRatio(
+        aspectRatio: 16 / 9,
+        child: ColoredBox(
+          color: AppTheme.surfaceElevated(context),
+          child: Center(
+            child: Icon(icon, size: 42, color: color.withValues(alpha: 0.85)),
+          ),
         ),
       );
     }
@@ -818,6 +1011,9 @@ class _BadgePill extends StatelessWidget {
     _ResultKind.video => const Color(0xFF1D4ED8),
     _ResultKind.blog  => const Color(0xFF065F46),
     _ResultKind.book  => const Color(0xFF92400E),
+    _ResultKind.category => AppTheme.gold,
+    _ResultKind.channel => const Color(0xFF2563EB),
+    _ResultKind.blogSource => const Color(0xFF0F766E),
   };
 
   @override
@@ -859,7 +1055,7 @@ class _EmptyPrompt extends StatelessWidget {
             const SizedBox(height: 8),
             Text(
               'Type a keyword — "how to price", "solar install", '
-              '"fashion business" — to find videos, shorts, blog articles, and books.',
+              'fashion business" — to find videos, shorts, blogs, books, channels, and categories.',
               textAlign: TextAlign.center,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: AppTheme.textMuted(context), height: 1.6),
