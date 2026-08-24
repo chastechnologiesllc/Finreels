@@ -190,58 +190,6 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
   //   4. Any query word in source/channel    → 0.5 pts each
   //   5. Stem of query word (strip -ing/-er/-ed/-s) also checked at 0.5×
 
-  static double _score(String rawQuery, String title, String desc, String source) {
-    final q    = rawQuery.toLowerCase().trim();
-    final tl   = title.toLowerCase();
-    final dl   = desc.toLowerCase();
-    final sl   = source.toLowerCase();
-    double s   = 0;
-
-    // Pass 1: full-phrase match in title (highest signal — user typed a title)
-    if (q.length >= 3 && tl.contains(q)) s += 5.0;
-
-    final words = q.split(RegExp(r'\s+')).where((w) => w.length >= 2).toList();
-
-    for (final word in words) {
-      // Pass 2–4: individual word match
-      if (tl.contains(word)) s += 2.0;
-      if (dl.contains(word)) s += 1.0;
-      if (sl.contains(word)) s += 0.5;
-
-      // Pass 5: stem match (strip common suffixes) — helps "pricing" match
-      // "price", "sewing" match "sew", "tailoring" match "tailor", etc.
-      for (final stem in _stems(word)) {
-        if (stem.length < 3) continue;
-        if (tl.contains(stem) && !tl.contains(word)) s += 1.0;
-        if (dl.contains(stem) && !dl.contains(word)) s += 0.5;
-      }
-    }
-    return s;
-  }
-
-  /// Returns a small set of common stems for [word] so searching "sewing"
-  /// also matches documents that only contain "sew", "pricing" matches
-  /// "price", etc. This is intentionally minimal — not a full stemmer, just
-  /// the most useful suffixes for the FinReels topic domain.
-  static List<String> _stems(String word) {
-    if (word.length < 4) return [];
-    return [
-      if (word.endsWith('ing')) word.substring(0, word.length - 3),
-      if (word.endsWith('ing')) '${word.substring(0, word.length - 3)}e',
-      if (word.endsWith('tion')) word.substring(0, word.length - 4),
-      if (word.endsWith('ness')) word.substring(0, word.length - 4),
-      if (word.endsWith('ment')) word.substring(0, word.length - 4),
-      if (word.endsWith('er')) word.substring(0, word.length - 2),
-      if (word.endsWith('ors')) word.substring(0, word.length - 3),
-      if (word.endsWith('ers')) word.substring(0, word.length - 3),
-      if (word.endsWith('ed')) word.substring(0, word.length - 2),
-      if (word.endsWith('ly')) word.substring(0, word.length - 2),
-      if (word.endsWith('al')) word.substring(0, word.length - 2),
-      if (word.endsWith('ies')) '${word.substring(0, word.length - 3)}y',
-      if (word.endsWith('s') && !word.endsWith('ss')) word.substring(0, word.length - 1),
-    ];
-  }
-
   // ── Search ──────────────────────────────────────────────────────────────
 
   _SearchItem _itemFor(PlatformSearchDocument document) {
@@ -908,7 +856,7 @@ class _ContentCard extends StatelessWidget {
         aspectRatio: 16 / 9,
         child: book != null
             ? BookCoverImage(
-                url: book.coverUrl,
+                url: book.coverUrl ?? '',
                 fallbackUrls: book.coverCandidates,
               )
             : BookCoverImage(

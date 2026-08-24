@@ -1,7 +1,6 @@
 import '../data/category_playbook_data.dart';
 import '../data/channel_data.dart';
 import '../data/resource_category_data.dart';
-import '../models/channel.dart';
 import '../models/resource_category.dart';
 import '../models/video.dart';
 import 'blog_rss_service.dart';
@@ -64,7 +63,7 @@ class PlatformSearchIndex {
   PlatformSearchIndex._();
   static final PlatformSearchIndex instance = PlatformSearchIndex._();
 
-  static const _epoch = DateTime(2000);
+  static final _epoch = DateTime(2000);
   static const _stopWords = {
     'a', 'an', 'and', 'are', 'for', 'from', 'how', 'in', 'of', 'on', 'or',
     'the', 'to', 'what', 'with',
@@ -441,4 +440,3 @@ class _ScoredDocument {
 extension<T> on Iterable<T> {
   T? get firstOrNull => isEmpty ? null : first;
 }
-EOF
