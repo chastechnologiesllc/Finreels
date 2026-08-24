@@ -640,7 +640,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/programming-fundamentals-a-modular-structured-approach-using-c"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/programming-fundamentals-a-modular-structured-approach-using-c",
+      "coverUrl": "https://archive.org/services/img/cnx-org-col10621",
+      "coverCandidates": [
+        "https://archive.org/services/img/cnx-org-col10621"
+      ]
     },
     {
       "title": "Algorithms and Data Structures With Applications to Graphics and Geometry",
@@ -705,7 +709,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-circuit-projects-an-overview-of-digital-circuits-through-implementing-integrated-circuits"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-circuit-projects-an-overview-of-digital-circuits-through-implementing-integrated-circuits",
+      "coverUrl": "https://cupola.gettysburg.edu/oer/1000/preview.jpg",
+      "coverCandidates": [
+        "https://cupola.gettysburg.edu/oer/1000/preview.jpg"
+      ]
     },
     {
       "title": "Introduction to the Modeling and Analysis of Complex Systems",
@@ -852,7 +860,11 @@
       "freeSourceType": "online",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-first-course-in-electrical-and-computer-engineering"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; Engineering & Technology - Electrical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-first-course-in-electrical-and-computer-engineering",
+      "coverUrl": "https://archive.org/services/img/cnx-org-col10685",
+      "coverCandidates": [
+        "https://archive.org/services/img/cnx-org-col10685"
+      ]
     },
     {
       "title": "Graphic Design and Print Production Fundamentals",
@@ -961,7 +973,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-mips-assembly-language-programming"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-mips-assembly-language-programming",
+      "coverUrl": "https://cupola.gettysburg.edu/oer/1001/preview.jpg",
+      "coverCandidates": [
+        "https://cupola.gettysburg.edu/oer/1001/preview.jpg"
+      ]
     },
     {
       "title": "Microprocesadores Fundamentos y Aplicaciones",
@@ -1037,7 +1053,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/high-performance-computing"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/high-performance-computing",
+      "coverUrl": "https://archive.org/services/img/cnx-org-col11136",
+      "coverCandidates": [
+        "https://archive.org/services/img/cnx-org-col11136"
+      ]
     },
     {
       "title": "Embedded Controllers Using C and Arduino - 2e",
@@ -1064,7 +1084,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/implementing-a-one-address-cpu-in-logisim"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/implementing-a-one-address-cpu-in-logisim",
+      "coverUrl": "https://cupola.gettysburg.edu/oer/1002/preview.jpg",
+      "coverCandidates": [
+        "https://cupola.gettysburg.edu/oer/1002/preview.jpg"
+      ]
     },
     {
       "title": "Object-Oriented Reengineering Patterns",

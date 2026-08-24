@@ -12,6 +12,7 @@ import '../services/ad_service.dart';
 import '../services/blog_rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/book_cover_image.dart';
+import '../widgets/blog_thumbnail_image.dart';
 import '../widgets/no_flash_page_route.dart';
 import 'blog_reader_screen.dart';
 import 'book_detail_screen.dart';
@@ -746,26 +747,32 @@ class _ContentCard extends StatelessWidget {
     final ch  = item.video != null
         ? (ChannelData.byId[item.video!.channelId] ?? ChannelData.fallback)
         : ChannelData.fallback;
+    final image = item.article != null
+        ? BlogThumbnailImage(
+            url: item.article!.thumbnailUrl,
+            fallbackUrls: item.article!.thumbnailFallbackUrls,
+          )
+        : url.isNotEmpty
+            ? CachedNetworkImage(
+                imageUrl: url,
+                fit: BoxFit.cover,
+                memCacheWidth: 360,
+                memCacheHeight: 203,
+                placeholder: (_, __) => Shimmer.fromColors(
+                  baseColor: const Color(0xFF1E1E1E),
+                  highlightColor: const Color(0xFF2C2C2C),
+                  child: const ColoredBox(color: Colors.white),
+                ),
+                errorWidget: (_, __, ___) =>
+                    ColoredBox(color: AppTheme.surfaceElevated(context)),
+              )
+            : ColoredBox(color: AppTheme.surfaceElevated(context));
     return AspectRatio(
       aspectRatio: 16 / 9,
       child: Stack(
         fit: StackFit.expand,
         children: [
-          url.isNotEmpty
-              ? CachedNetworkImage(
-                  imageUrl:     url,
-                  fit:          BoxFit.cover,
-                  memCacheWidth: 360,
-                  memCacheHeight: 203,
-                  placeholder:  (_, __) => Shimmer.fromColors(
-                    baseColor:      const Color(0xFF1E1E1E),
-                    highlightColor: const Color(0xFF2C2C2C),
-                    child: const ColoredBox(color: Colors.white),
-                  ),
-                  errorWidget: (_, __, ___) =>
-                      ColoredBox(color: AppTheme.surfaceElevated(context)),
-                )
-              : ColoredBox(color: AppTheme.surfaceElevated(context)),
+          image,
           Positioned(top: 0, left: 0, right: 0,
               child: Container(height: 3, color: ch.accentColor)),
           if (item.kind == _ResultKind.video)

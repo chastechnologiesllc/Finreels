@@ -13,6 +13,7 @@ class BlogArticle {
   final String url;
   final String sourceName;
   final String? thumbnailUrl;
+  final List<String> thumbnailFallbackUrls;
   final DateTime publishedAt;
   final String excerpt;
 
@@ -27,6 +28,7 @@ class BlogArticle {
     required this.sourceName,
     required this.publishedAt,
     this.thumbnailUrl,
+    this.thumbnailFallbackUrls = const [],
     this.excerpt = '',
     this.categoryId,
   });
@@ -203,7 +205,7 @@ class BlogRssService {
       if (response.statusCode != 200) return [];
       final body = response.body;
       if (_looksLikeXml(body)) {
-        return await _parseBody(body, sourceName, categoryId);
+          return await _parseBody(body, sourceName, categoryId, url);
       }
 
       // Many high-quality sources publish a homepage in their catalog rather
@@ -218,7 +220,12 @@ class BlogRssService {
         if (feedResponse.statusCode != 200 || !_looksLikeXml(feedResponse.body)) {
           continue;
         }
-        final articles = await _parseBody(feedResponse.body, sourceName, categoryId);
+        final articles = await _parseBody(
+          feedResponse.body,
+          sourceName,
+          categoryId,
+          discovered,
+        );
         if (articles.isNotEmpty) return articles;
       }
       return [];
@@ -229,10 +236,15 @@ class BlogRssService {
   }
 
   Future<List<BlogArticle>> _parseBody(
-      String body, String sourceName, String? categoryId) async {
+      String body, String sourceName, String? categoryId, String baseUrl) async {
     return compute<List<String>, List<BlogArticle>>(
-      (args) => _parse(args[0], args[1], args[2].isEmpty ? null : args[2]),
-      [body, sourceName, categoryId ?? ''],
+      (args) => _parse(
+        args[0],
+        args[1],
+        args[2].isEmpty ? null : args[2],
+        args[3],
+      ),
+      [body, sourceName, categoryId ?? '', baseUrl],
     );
   }
 
@@ -289,7 +301,7 @@ class BlogRssService {
     final firstBody = await _fetchWebBody(url, sourceName);
     if (firstBody == null) return [];
     if (_looksLikeXml(firstBody)) {
-      return _parseBody(firstBody, sourceName, categoryId);
+      return _parseBody(firstBody, sourceName, categoryId, url);
     }
 
     // If the catalog URL is HTML, discover its declared RSS/Atom alternate
@@ -297,7 +309,12 @@ class BlogRssService {
     for (final discovered in _discoverFeedUrls(firstBody, url)) {
       final feedBody = await _fetchWebBody(discovered, sourceName);
       if (feedBody != null && _looksLikeXml(feedBody)) {
-        final articles = await _parseBody(feedBody, sourceName, categoryId);
+        final articles = await _parseBody(
+          feedBody,
+          sourceName,
+          categoryId,
+          discovered,
+        );
         if (articles.isNotEmpty) return articles;
       }
     }
@@ -333,7 +350,8 @@ class BlogRssService {
     return completer.future;
   }
 
-  static List<BlogArticle> _parse(String body, String sourceName, [String? categoryId]) {
+  static List<BlogArticle> _parse(
+      String body, String sourceName, String? categoryId, String baseUrl) {
     try {
       final doc = XmlDocument.parse(body);
 
@@ -344,40 +362,26 @@ class BlogRssService {
           final link = _text(item, 'link') ?? _text(item, 'guid') ?? '';
           if (link.isEmpty) return null;
 
-          // Thumbnail priority:
-          // 1. <enclosure url="..." type="image/..."> — most explicit
-          // 2. <media:content url="..."> — media RSS extension
-          // 3. <media:thumbnail url="..."> — media RSS
-          // 4. First <img src="..."> in <content:encoded> HTML — WordPress
-          //    blogs always put images here even when they omit the above tags
-          // 5. First <img src="..."> in <description> HTML — fallback
-          var thumb = item.findElements('enclosure')
-              .where((e) => (e.getAttribute('type') ?? '').startsWith('image'))
-              .firstOrNull
-              ?.getAttribute('url');
-
-          if (thumb == null || thumb.isEmpty) {
-            thumb = item.findElements('media:content')
-                .where((e) => (e.getAttribute('medium') ?? '').contains('image') ||
-                    (e.getAttribute('type') ?? '').startsWith('image') ||
-                    (e.getAttribute('url') ?? '').contains(RegExp(r'\.(jpg|jpeg|png|webp|gif)', caseSensitive: false)))
-                .firstOrNull
-                ?.getAttribute('url');
-          }
-          if (thumb == null || thumb.isEmpty) {
-            thumb = item.findElements('media:thumbnail').firstOrNull?.getAttribute('url');
-          }
-          // WordPress <content:encoded> — the body HTML almost always has
-          // the featured image as the first <img>. Try this before giving up.
-          if (thumb == null || thumb.isEmpty) {
-            final contentEncoded = _text(item, 'content:encoded') ?? '';
-            thumb = _firstImgSrc(contentEncoded);
-          }
-          // Last resort — description may also be HTML
-          if (thumb == null || thumb.isEmpty) {
-            final desc = _text(item, 'description') ?? '';
-            thumb = _firstImgSrc(desc);
-          }
+          // Keep every image candidate in priority order. The card advances
+          // through this list when an RSS provider URL is broken or blocked.
+          final rawThumbs = <String?>[
+            for (final e in item.findElements('enclosure'))
+              if ((e.getAttribute('type') ?? '').startsWith('image'))
+                e.getAttribute('url'),
+            for (final e in item.findElements('media:content'))
+              if ((e.getAttribute('medium') ?? '').contains('image') ||
+                  (e.getAttribute('type') ?? '').startsWith('image') ||
+                  (e.getAttribute('url') ?? '').contains(
+                      RegExp(r'\.(jpg|jpeg|png|webp|gif)',
+                          caseSensitive: false)))
+                e.getAttribute('url'),
+            for (final e in item.findElements('media:thumbnail'))
+              e.getAttribute('url'),
+            _firstImgSrc(_text(item, 'content:encoded') ?? ''),
+            _firstImgSrc(_text(item, 'description') ?? ''),
+          ];
+          final thumbnailCandidates =
+              _normaliseThumbnailCandidates(rawThumbs, baseUrl);
 
           final pubStr = _text(item, 'pubDate') ?? '';
           final published = _parseRssDate(pubStr) ?? DateTime.now();
@@ -386,7 +390,12 @@ class BlogRssService {
             title: _clean(_text(item, 'title') ?? 'Untitled'),
             url: link,
             sourceName: sourceName,
-            thumbnailUrl: thumb,
+            thumbnailUrl: thumbnailCandidates.isEmpty
+                ? null
+                : thumbnailCandidates.first,
+            thumbnailFallbackUrls: thumbnailCandidates.length > 1
+                ? thumbnailCandidates.skip(1).toList(growable: false)
+                : const [],
             publishedAt: published,
             excerpt: _clean(_text(item, 'description') ?? ''),
             categoryId: categoryId,
@@ -402,19 +411,20 @@ class BlogRssService {
               ?.getAttribute('href') ?? '';
           if (link.isEmpty) return null;
 
-          // Atom feeds rarely carry media extensions but it costs nothing to try
-          var thumb = entry.findElements('media:thumbnail').firstOrNull?.getAttribute('url');
-          if (thumb == null || thumb.isEmpty) {
-            thumb = entry.findElements('media:content')
-                .where((e) => (e.getAttribute('medium') ?? '').contains('image') ||
-                    (e.getAttribute('type') ?? '').startsWith('image'))
-                .firstOrNull
-                ?.getAttribute('url');
-          }
-          if (thumb == null || thumb.isEmpty) {
-            final content = _text(entry, 'content') ?? _text(entry, 'summary') ?? '';
-            thumb = _firstImgSrc(content);
-          }
+          // Keep every Atom image candidate in priority order so the card can
+          // fall back when a feed URL is unavailable.
+          final rawThumbs = <String?>[
+            for (final e in entry.findElements('media:thumbnail'))
+              e.getAttribute('url'),
+            for (final e in entry.findElements('media:content'))
+              if ((e.getAttribute('medium') ?? '').contains('image') ||
+                  (e.getAttribute('type') ?? '').startsWith('image'))
+                e.getAttribute('url'),
+            _firstImgSrc(_text(entry, 'content') ?? ''),
+            _firstImgSrc(_text(entry, 'summary') ?? ''),
+          ];
+          final thumbnailCandidates =
+              _normaliseThumbnailCandidates(rawThumbs, baseUrl);
 
           final updStr =
               _text(entry, 'updated') ?? _text(entry, 'published') ?? '';
@@ -424,7 +434,12 @@ class BlogRssService {
             title: _clean(_text(entry, 'title') ?? 'Untitled'),
             url: link,
             sourceName: sourceName,
-            thumbnailUrl: thumb,
+            thumbnailUrl: thumbnailCandidates.isEmpty
+                ? null
+                : thumbnailCandidates.first,
+            thumbnailFallbackUrls: thumbnailCandidates.length > 1
+                ? thumbnailCandidates.skip(1).toList(growable: false)
+                : const [],
             publishedAt: published,
             excerpt: _clean(_text(entry, 'summary') ?? ''),
             categoryId: categoryId,
@@ -435,6 +450,29 @@ class BlogRssService {
       debugPrint('[BlogRssService] Parse error for $sourceName: $e');
     }
     return [];
+  }
+
+  static List<String> _normaliseThumbnailCandidates(
+      Iterable<String?> raw, String baseUrl) {
+    final out = <String>[];
+    final base = Uri.tryParse(baseUrl);
+    if (base == null) return out;
+    for (final candidate in raw) {
+      final value = candidate?.trim() ?? '';
+      if (value.isEmpty || value.startsWith('data:')) continue;
+      final resolved = base.resolve(value).toString();
+      final uri = Uri.tryParse(resolved);
+      if (uri == null || (uri.scheme != 'http' && uri.scheme != 'https')) {
+        continue;
+      }
+      final lower = resolved.toLowerCase();
+      if (lower.contains('1x1') || lower.contains('pixel') ||
+          lower.contains('tracking') || lower.contains('spacer')) {
+        continue;
+      }
+      if (!out.contains(resolved)) out.add(resolved);
+    }
+    return out;
   }
 
   /// Extracts the first image URL from an HTML string.

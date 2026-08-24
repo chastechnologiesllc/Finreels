@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:shimmer/shimmer.dart';
@@ -216,28 +217,43 @@ class _FeedBodyState extends State<_FeedBody> {
   @override
   Widget build(BuildContext context) {
     final provider = context.watch<FeedProvider>();
+    final contentKey = ValueKey(
+      'content-${provider.activeTab.name}-${provider.tabSelectionRevision}',
+    );
 
     if (provider.activeTab == FeedTab.blogs) {
-      return const BlogFeedScreen();
+      return KeyedSubtree(
+        key: contentKey,
+        child: const BlogFeedScreen(),
+      );
     }
     if (provider.activeTab == FeedTab.books) {
-      return _BooksTab(onTap: _onTap);
+      return KeyedSubtree(
+        key: contentKey,
+        child: _BooksTab(onTap: _onTap),
+      );
     }
     if (provider.activeTab == FeedTab.shorts) {
-      return _ShortsTab(provider: provider);
+      return KeyedSubtree(
+        key: contentKey,
+        child: _ShortsTab(provider: provider),
+      );
     }
 
     // Videos tab
-    return switch (provider.state) {
+    return KeyedSubtree(
+      key: contentKey,
+      child: switch (provider.state) {
       FeedState.idle || FeedState.loading when provider.feedVideos.isEmpty =>
         const ShimmerLoader(),
       FeedState.error => _ErrorView(
           message: provider.errorMessage ?? 'Something went wrong.',
           onRetry: () => provider.refresh(force: true)),
-      _ => _buildVideoFeed(context, provider),
-    };
+        _ => _buildVideoFeed(context, provider),
+      },
+    );
   }
-
+}
   Widget _buildVideoFeed(BuildContext context, FeedProvider provider) {
     final videos = provider.feedVideos;
     if (videos.isEmpty) {
@@ -268,7 +284,7 @@ class _FeedBodyState extends State<_FeedBody> {
               if (isAdSlot)
                 const Padding(
                   padding: EdgeInsets.symmetric(vertical: 10),
-                  child: LabelledBannerAd(),
+                  child: LabelledBannerAd(fixedSize: AdSize.mediumRectangle),
                 ),
               Padding(
                 padding: const EdgeInsets.only(bottom: 14),

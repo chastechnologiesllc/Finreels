@@ -66,7 +66,18 @@ class _BookCoverImageState extends State<BookCoverImage> {
 
     final out = <String>[];
     void add(String value) {
-      final trimmed = value.trim();
+      var trimmed = value.trim();
+      final parsed = Uri.tryParse(trimmed);
+      if (parsed != null &&
+          parsed.host.toLowerCase() == 'covers.openlibrary.org' &&
+          !parsed.queryParameters.containsKey('default')) {
+        trimmed = parsed
+            .replace(queryParameters: {
+              ...parsed.queryParameters,
+              'default': 'false',
+            })
+            .toString();
+      }
       if (trimmed.isNotEmpty && !out.contains(trimmed)) out.add(trimmed);
     }
 

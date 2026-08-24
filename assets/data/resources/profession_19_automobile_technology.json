@@ -521,7 +521,11 @@
       "freeSourceType": "online",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-statics-open-and-interactive"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-statics-open-and-interactive",
+      "coverUrl": "http://engineeringstatics.org/external/images/front_cover-160x200.png",
+      "coverCandidates": [
+        "http://engineeringstatics.org/external/images/front_cover-160x200.png"
+      ]
     },
     {
       "title": "Intermediate Fluid Mechanics",
@@ -635,7 +639,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #34447; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #34447; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34447/pg34447.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34447/pg34447.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34447/pg34447.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34447/images/cover.jpg"
+      ]
     },
     {
       "title": "An Illustrated Directory of the Specifications of All Domestic and Foreign Motor-cars and Motor Business Wagons, Gasoline, Steam and Electric, Sold in This Country, 1907",
@@ -644,7 +654,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #65005; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #65005; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65005/pg65005.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65005/pg65005.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65005/pg65005.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65005/images/cover.jpg"
+      ]
     },
     {
       "title": "Automobile Biographies\nAn Account of the Lives and the Work of Those Who Have Been Identified with the Invention and Development of Self-Propelled Vehicles on the Common Roads",
@@ -653,7 +669,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #41891; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #41891; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41891/pg41891.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41891/pg41891.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41891/pg41891.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41891/images/cover.jpg"
+      ]
     },
     {
       "title": "Automobiles",
@@ -662,7 +684,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #73790; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #73790; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73790/pg73790.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73790/pg73790.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73790/pg73790.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73790/images/cover.jpg"
+      ]
     },
     {
       "title": "British Highways and Byways from a Motor Car\r\nBeing a Record of a Five Thousand Mile Tour in England, Wales and Scotland",
@@ -671,7 +699,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #17297; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #17297; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17297/pg17297.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17297/pg17297.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17297/pg17297.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/17297/images/cover.jpg"
+      ]
     },
     {
       "title": "By motor to the Golden Gate",
@@ -680,7 +714,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #73784; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #73784; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73784/pg73784.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73784/pg73784.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73784/pg73784.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73784/images/cover.jpg"
+      ]
     },
     {
       "title": "C.A. Coey's School of Motoring, 1424-26 Michigan Ave. Chicago",
@@ -689,7 +729,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #49307; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #49307; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49307/pg49307.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49307/pg49307.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49307/pg49307.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49307/images/cover.jpg"
+      ]
     },
     {
       "title": "Electricity in Locomotion\r\nAn Account of Its Mechanism, Its Achievements, and Its Prospects",
@@ -698,7 +744,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #51242; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #51242; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51242/pg51242.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51242/pg51242.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51242/pg51242.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/51242/images/cover.jpg"
+      ]
     },
     {
       "title": "English-French and French-English dictionary of the motor car, cycle, and boat",
@@ -707,7 +759,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #41217; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #41217; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41217/pg41217.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41217/pg41217.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41217/pg41217.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41217/images/cover.jpg"
+      ]
     },
     {
       "title": "Europe from a Motor Car",
@@ -716,7 +774,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #41588; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #41588; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41588/pg41588.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41588/pg41588.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41588/pg41588.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41588/images/cover.jpg"
+      ]
     },
     {
       "title": "Henry Ford's Own Story\r\nHow a Farmer Boy Rose to the Power that goes with Many Millions, Yet Never Lost Touch with Humanity",
@@ -725,7 +789,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #46121; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #46121; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46121/pg46121.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46121/pg46121.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46121/pg46121.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/46121/images/cover.jpg"
+      ]
     },
     {
       "title": "Italian Highways and Byways from a Motor Car",
@@ -734,7 +804,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #44212; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #44212; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44212/pg44212.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44212/pg44212.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44212/pg44212.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/44212/images/cover.jpg"
+      ]
     },
     {
       "title": "Motor Camping",
@@ -743,7 +819,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #66988; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #66988; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66988/pg66988.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66988/pg66988.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66988/pg66988.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66988/images/cover.jpg"
+      ]
     },
     {
       "title": "Motor Transports in War",
@@ -752,7 +834,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #56323; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #56323; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56323/pg56323.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56323/pg56323.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56323/pg56323.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56323/images/cover.jpg"
+      ]
     },
     {
       "title": "Motor-car principles; the gasoline automobile",
@@ -761,7 +849,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #70194; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #70194; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70194/pg70194.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70194/pg70194.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70194/pg70194.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/70194/images/cover.jpg"
+      ]
     },
     {
       "title": "Mr. Punch Awheel: The Humours of Motoring and Cycling",
@@ -770,7 +864,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #29022; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #29022; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29022/pg29022.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29022/pg29022.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29022/pg29022.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29022/images/cover.jpg"
+      ]
     },
     {
       "title": "Practical Hand Book of Gas, Oil and Steam Engines\r\nStationary, Marine, Traction; Gas Burners, Oil Burners, Etc.; Farm, Traction, Automobile, Locomotive; A simple, practical and comprehensive book on the construction, operation and repair of all kinds of engines. Dealing with the various parts in detail and the various types of engines and also the use of different kinds of fuel.",
@@ -779,7 +879,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #56776; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #56776; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56776/pg56776.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56776/pg56776.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56776/pg56776.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56776/images/cover.jpg"
+      ]
     },
     {
       "title": "Practical House, Wagon and Automobile Painter\r\nincluding sign painting, and valuable hints and recipes",
@@ -788,7 +894,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #67109; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #67109; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67109/pg67109.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67109/pg67109.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67109/pg67109.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67109/images/cover.jpg"
+      ]
     },
     {
       "title": "Putnam's Automobile Handbook: The Care and Management of the Modern Motor-Car",
@@ -797,7 +909,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #65673; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #65673; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65673/pg65673.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65673/pg65673.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65673/pg65673.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65673/images/cover.jpg"
+      ]
     },
     {
       "title": "Souvenir Map and Guide for Tourists in the Black Hills of South Dakota\nMaps prepared especially for the use of Automobile Tourists",
@@ -806,7 +924,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #60217; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #60217; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60217/pg60217.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60217/pg60217.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60217/pg60217.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60217/images/cover.jpg"
+      ]
     },
     {
       "title": "Story of the automobile: Its history and development from 1760 to 1917\r\nWith an analysis of the standing and prospects of the automobile industry",
@@ -815,7 +939,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #66607; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #66607; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66607/pg66607.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66607/pg66607.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66607/pg66607.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66607/images/cover.jpg"
+      ]
     },
     {
       "title": "The 1893 Duryea Automobile In the Museum of History and Technology",
@@ -824,7 +954,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #30055; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #30055; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30055/pg30055.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30055/pg30055.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30055/pg30055.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30055/images/cover.jpg"
+      ]
     },
     {
       "title": "The automobile owner's guide",
@@ -833,7 +969,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #69375; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #69375; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69375/pg69375.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69375/pg69375.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69375/pg69375.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69375/images/cover.jpg"
+      ]
     },
     {
       "title": "The Automobile Storage Battery: Its Care And Repair",
@@ -842,7 +984,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #29718; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #29718; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29718/pg29718.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29718/pg29718.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29718/pg29718.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29718/images/cover.jpg"
+      ]
     },
     {
       "title": "The Lake of the Sky\nLake Tahoe in the High Sierras of California and Nevada, its History, Indians, Discovery by Frémont, Legendary Lore, Various Namings, Physical Characteristics, Glacial Phenomena, Geology, Single Outlet, Automobile Routes, Historic Towns, Early Mining Excitements, Steamer Ride, Mineral Springs, Mountain and Lake Resorts, Trail and Camping Out Trips, Summer Residences, Fishing, Hunting, Flowers, Birds, Animals, Trees, and Chaparral, with a Full Account of the Tahoe National Forest, the Public Use of the Water of Lake Tahoe and Much Other Interesting Matter",
@@ -851,7 +999,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #13170; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #13170; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/13170/pg13170.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/13170/pg13170.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/13170/pg13170.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/13170/images/cover.jpg"
+      ]
     },
     {
       "title": "The Motor Car Dumpy Book",
@@ -860,7 +1014,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #24609; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #24609; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24609/pg24609.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24609/pg24609.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24609/pg24609.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24609/images/cover.jpg"
+      ]
     },
     {
       "title": "The Motor Routes of France\r\nTo the Châteaux of Touraine, Biarritz, the Pyrenees, the Riviera, & the Rhone Valley",
@@ -869,7 +1029,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #57133; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #57133; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57133/pg57133.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57133/pg57133.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57133/pg57133.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/57133/images/cover.jpg"
+      ]
     },
     {
       "title": "Through East Anglia in a Motor Car",
@@ -878,7 +1044,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #38938; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #38938; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38938/pg38938.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38938/pg38938.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38938/pg38938.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38938/images/cover.jpg"
+      ]
     },
     {
       "title": "Two Thousand Miles on an Automobile\r\nBeing a Desultory Narrative of a Trip Through New England, New York, Canada, and the West, By \"Chauffeur\"",
@@ -887,7 +1059,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #12380; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #12380; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12380/pg12380.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12380/pg12380.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12380/pg12380.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/12380/images/cover.jpg"
+      ]
     },
     {
       "title": "A boy's text book on gas engines",
@@ -896,7 +1074,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #71991; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #71991; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71991/pg71991.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71991/pg71991.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71991/pg71991.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71991/images/cover.jpg"
+      ]
     },
     {
       "title": "Across the Continent by the Lincoln Highway",
@@ -905,7 +1089,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #33320; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #33320; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33320/pg33320.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33320/pg33320.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33320/pg33320.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/33320/images/cover.jpg"
+      ]
     },
     {
       "title": "D.C. Powered Timing Light Model 161.2158 for 12 Volt Ignition Systems\nSears Owners Manual",
@@ -914,7 +1104,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #39714; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #39714; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39714/pg39714.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39714/pg39714.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39714/pg39714.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39714/images/cover.jpg"
+      ]
     },
     {
       "title": "Deeds Barn and the Self Starter",
@@ -923,7 +1119,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #64831; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #64831; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64831/pg64831.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64831/pg64831.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64831/pg64831.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/64831/images/cover.jpg"
+      ]
     },
     {
       "title": "El Toro",
@@ -932,7 +1134,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #76338; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #76338; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76338/pg76338.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76338/pg76338.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76338/pg76338.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/76338/images/cover.jpg"
+      ]
     },
     {
       "title": "Essex Terraplane Six 1933 Owner's Manual of Information",
@@ -941,7 +1149,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #37863; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #37863; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37863/pg37863.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37863/pg37863.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37863/pg37863.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/37863/images/cover.jpg"
+      ]
     }
   ],
   "notes": "Fully integrated and all channel IDs resolved (2026-07-25). Key changes from draft: (1) OttoXpress (@OttoXpress, 404) replaced with Autochek Africa (@autochekafrica2536, UCyYCUDC804Vpup4zPWaK9dw) — verified African auto B2B platform. OttoXpress blog entry retained. (2) @Nairametrics (404) → @NairametricsTV (UC1GBKv15keKOgHbEBEMeo9w, launched Jan 2025). (3) EngineeringAll and OttoXpress FETCH_YOUTUBE_HANDLE_* placeholders fully resolved. (4) Zikoko handle corrected @ZikokoTV→@Zikokomag (consistent with p16 and p18). 2026-08-23: Added 18 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 35 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",

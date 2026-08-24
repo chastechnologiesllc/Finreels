@@ -679,7 +679,11 @@
       "freeSourceType": "online",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-maintenance-construction-tools-and-maintenance-tasks"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-maintenance-construction-tools-and-maintenance-tasks",
+      "coverUrl": "https://pressbooks.oer.hawaii.edu/buildingmaint/wp-content/uploads/sites/8/2018/08/CoverImageBuildingMaintenance2.jpg",
+      "coverCandidates": [
+        "https://pressbooks.oer.hawaii.edu/buildingmaint/wp-content/uploads/sites/8/2018/08/CoverImageBuildingMaintenance2.jpg"
+      ]
     },
     {
       "title": "Traffic Flow Theory: An introduction with exercises",
@@ -708,7 +712,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-concepts-of-structural-design-for-architecture-students"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-concepts-of-structural-design-for-architecture-students",
+      "coverUrl": "https://pdxscholar.library.pdx.edu/pdxopen/1042/preview.jpg",
+      "coverCandidates": [
+        "https://pdxscholar.library.pdx.edu/pdxopen/1042/preview.jpg"
+      ]
     },
     {
       "title": "Building Information Modeling using Revit for Architects and Engineers",
@@ -812,7 +820,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #25269; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #25269; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25269/pg25269.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25269/pg25269.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25269/pg25269.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/25269/images/cover.jpg"
+      ]
     },
     {
       "title": "Hand-book of Sanitary Information for Householders\r\nContaining facts and suggestions about ventilation, drainage, care of contageous diseases, disinfection, food, and water. With appendices on disinfectants and plumbers' materials.",
@@ -821,7 +835,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #67768; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #67768; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67768/pg67768.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67768/pg67768.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67768/pg67768.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67768/images/cover.jpg"
+      ]
     },
     {
       "title": "History of the Water Supply of the World\r\narranged in a comprehensive form from eminent authorities, containing a description of the various methods of water supply, pollution and purification of waters, and sanitary effects, with analyses of potable waters, also geology and water strata of Hamilton county, Ohio, statistics of the Ohio river, proposed water supply of Cincinnati.",
@@ -830,7 +850,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #66130; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #66130; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66130/pg66130.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66130/pg66130.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66130/pg66130.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66130/images/cover.jpg"
+      ]
     },
     {
       "title": "Maxims and Instructions for the Boiler Room\nUseful to Engineers, Firemen & Mechanics; Relating to Steam Generators, Pumps, Appliances, Steam Heating, Practical Plumbing, etc.",
@@ -839,7 +865,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #53139; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #53139; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53139/pg53139.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53139/pg53139.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53139/pg53139.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53139/images/cover.jpg"
+      ]
     },
     {
       "title": "Simple Plumbing Repairs for the Home and Farmstead",
@@ -848,7 +880,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #59381; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #59381; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59381/pg59381.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59381/pg59381.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59381/pg59381.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59381/images/cover.jpg"
+      ]
     },
     {
       "title": "Simple Plumbing Repairs in the Home",
@@ -857,7 +895,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #62592; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #62592; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62592/pg62592.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62592/pg62592.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62592/pg62592.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62592/images/cover.jpg"
+      ]
     },
     {
       "title": "The Art of Confectionary\r\nShewing the Various Methods of Preserving All Sorts of Fruits, Dry and Liquid; viz. Oranges, Lemons, Citrons, Golden Pippins, Wardens, Apricots Green, Almonds, Goosberries, Cherries, Currants, Plumbs, Rasberries, Peaches, Walnuts, Nectarines, Figs, Grapes, &amp;c., Flowers and Herbs; as Violets, Angelica, Orange-Flowers, &amp;c.; Also How to Make All Sorts of Biscakes, Maspins, Sugar-Works, and Candies. With the Best Methods of Clarifying, and the Different Ways of Boiling Sugar.",
@@ -866,7 +910,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #30121; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #30121; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30121/pg30121.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30121/pg30121.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30121/pg30121.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30121/images/cover.jpg"
+      ]
     },
     {
       "title": "The Sugar-Plumb\nor, Golden Fairing",
@@ -875,7 +925,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #23649; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #23649; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23649/pg23649.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23649/pg23649.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23649/pg23649.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/23649/images/cover.jpg"
+      ]
     },
     {
       "title": "A Special Mortality among Infants at Loughton, in the Epping Rural Sanitary District",
@@ -884,7 +940,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #53863; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #53863; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53863/pg53863.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53863/pg53863.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53863/pg53863.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53863/images/cover.jpg"
+      ]
     },
     {
       "title": "Bad Drains; and How to Test Them\r\nWith notes on the ventilation of sewers, drains, and sanitary fittings, and the origin and transmission of zymotic disease",
@@ -893,7 +955,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #60721; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #60721; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60721/pg60721.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60721/pg60721.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60721/pg60721.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60721/images/cover.jpg"
+      ]
     },
     {
       "title": "Drug Supplies in the American Revolution",
@@ -902,7 +970,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #27076; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #27076; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/27076/pg27076.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/27076/pg27076.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/27076/pg27076.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/27076/images/cover.jpg"
+      ]
     },
     {
       "title": "Epidemics Resulting from Wars",
@@ -911,7 +985,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #59822; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #59822; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59822/pg59822.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59822/pg59822.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59822/pg59822.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59822/images/cover.jpg"
+      ]
     },
     {
       "title": "Hospital transports",
@@ -920,7 +1000,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #52122; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #52122; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52122/pg52122.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52122/pg52122.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52122/pg52122.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/52122/images/cover.jpg"
+      ]
     },
     {
       "title": "London (Ancient and Modern) from the Sanitary and Medical Point of View",
@@ -929,7 +1015,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #54904; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #54904; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54904/pg54904.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54904/pg54904.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54904/pg54904.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54904/images/cover.jpg"
+      ]
     },
     {
       "title": "Mechanics of the Household\nA Course of Study Devoted to Domestic Machinery and Household Mechanical Appliances",
@@ -938,7 +1030,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #50846; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #50846; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50846/pg50846.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50846/pg50846.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50846/pg50846.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50846/images/cover.jpg"
+      ]
     },
     {
       "title": "Medical Sketches of the Expedition to Egypt, from India",
@@ -947,7 +1045,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #57535; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #57535; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57535/pg57535.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57535/pg57535.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57535/pg57535.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/57535/images/cover.jpg"
+      ]
     },
     {
       "title": "Napoleon's Campaign in Russia, Anno 1812; Medico-Historical",
@@ -956,7 +1060,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #7973; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #7973; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7973/pg7973.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7973/pg7973.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7973/pg7973.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/7973/images/cover.jpg"
+      ]
     },
     {
       "title": "Report of the Sanitary Committee of the Commissioners of Sewers of the City of London, together with a report of the Medical Officer of Health on the objections raised by the Butchers' Trade Society to the bye-laws proposed for the regulation of slaughter-houses",
@@ -965,7 +1075,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #67634; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #67634; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67634/pg67634.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67634/pg67634.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67634/pg67634.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67634/images/cover.jpg"
+      ]
     },
     {
       "title": "Report to Her Majesty's Principal Secretary of State For the Home Department, from the Poor Law Commissioners, on an Inquiry Into the Sanitary Condition of the Labouring Population of Great Britain; With Appendices",
@@ -974,7 +1090,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #65090; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #65090; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65090/pg65090.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65090/pg65090.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65090/pg65090.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65090/images/cover.jpg"
+      ]
     },
     {
       "title": "Reports Relating to the Sanitary Condition of the City of London",
@@ -983,7 +1105,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #54622; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #54622; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54622/pg54622.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54622/pg54622.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54622/pg54622.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54622/images/cover.jpg"
+      ]
     },
     {
       "title": "Sanitary and Social Lectures and Essays",
@@ -992,7 +1120,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #1637; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #1637; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/1637/pg1637.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/1637/pg1637.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/1637/pg1637.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/1637/images/cover.jpg"
+      ]
     },
     {
       "title": "Sanitary Statistics of Native Colonial Schools and Hospitals",
@@ -1001,7 +1135,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #52653; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #52653; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52653/pg52653.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52653/pg52653.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52653/pg52653.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/52653/images/cover.jpg"
+      ]
     },
     {
       "title": "The cremation of the dead\r\nconsidered from an aesthetic, sanitary, religious, historical, medico-legal, and economical standpoint",
@@ -1010,7 +1150,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #54176; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #54176; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54176/pg54176.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54176/pg54176.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54176/pg54176.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54176/images/cover.jpg"
+      ]
     },
     {
       "title": "The Dwelling House",
@@ -1019,7 +1165,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #47970; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #47970; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47970/pg47970.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47970/pg47970.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47970/pg47970.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/47970/images/cover.jpg"
+      ]
     },
     {
       "title": "The horrors of Wittenberg",
@@ -1028,7 +1180,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #78203; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #78203; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78203/pg78203.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78203/pg78203.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78203/pg78203.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/78203/images/cover.jpg"
+      ]
     }
   ],
   "integrationNotes": "All 10 channel IDs live-verified via YouTube fetch (2026-07-21). Key corrections from CSV: (1) @PlumbingAfrica replaced with Million Dollar Plumber — no YouTube channel at that handle; (2) @PropelAKenya replaced — PropelA is a Swisscontact/Hilti Foundation programme with no dedicated YouTube channel; (3) @TheExpertPlumber removed — this is Roger Wakefield's title, not a separate channel (duplicate); (4) @PlumbingWithTim handle corrected to @PLUMBINGWITHTIM (all caps); (5) @HustleCareKenya, @PesabookKenya, @PlumbingBusinessCoach, @NigerianPlumbersAssoc all replaced — no verified YouTube channels found at those handles. Replacements sourced from FieldEdge's 2026 curated list of channels plumbing business owners actually learn from. Blog corrections: 1xportal.com → 1xportalhub.com.ng; plumbingafrica.com → plumbingafrica.co.za. Book corrections: f5fp.com and bdebooks.com replaced with legitimate author/publisher sources; archive.org links replaced with official sites where available.\n\nBooks audit (2026-07-30): 3 of 10 URLs fixed in this pass (skill_07). 'The E-Myth Revisited': https://books.google.com/books?id=SHi_fU0AlO0C... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber | 'Profit First': https://www.mikemichalowicz.com/profit-first-book... → https://archive.org/details/profitfirst0000mich | 'Small Business Management': https://openstax.org/details/books/small-business-management... → https://openstax.org/details/books/principles-management",

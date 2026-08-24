@@ -541,7 +541,11 @@
       "freeSourceType": "online",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-fundamentals-1-pitch-and-major-scales-and-keys"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-fundamentals-1-pitch-and-major-scales-and-keys",
+      "coverUrl": "https://archive.org/services/img/cnx-org-col10714",
+      "coverCandidates": [
+        "https://archive.org/services/img/cnx-org-col10714"
+      ]
     },
     {
       "title": "Music Fundamentals 2: Rhythm and Meter",
@@ -550,7 +554,11 @@
       "freeSourceType": "online",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-fundamentals-2-rhythm-and-meter"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-fundamentals-2-rhythm-and-meter",
+      "coverUrl": "https://archive.org/services/img/cnx-org-col10716",
+      "coverCandidates": [
+        "https://archive.org/services/img/cnx-org-col10716"
+      ]
     },
     {
       "title": "Sound Reasoning",
@@ -763,7 +771,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-byzantine-art"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-byzantine-art",
+      "coverUrl": "https://www.printme1.com/pdf/374a0e737/9-2-print-Smarthistory-Guide-to-Byzantine-Art.jpg",
+      "coverCandidates": [
+        "https://www.printme1.com/pdf/374a0e737/9-2-print-Smarthistory-Guide-to-Byzantine-Art.jpg"
+      ]
     },
     {
       "title": "The Bright Continent: African Art History",
@@ -893,7 +905,11 @@
       "freeSourceType": "online",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/theatreappreciation"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/theatreappreciation",
+      "coverUrl": "https://theatreappreciation.pressbooks.sunycreate.cloud/wp-content/uploads/sites/33/2022/11/cover2.jpg",
+      "coverCandidates": [
+        "https://theatreappreciation.pressbooks.sunycreate.cloud/wp-content/uploads/sites/33/2022/11/cover2.jpg"
+      ]
     },
     {
       "title": "Exploring the Arts: A Brief Introduction to Art, Theatre, Music, and Dance",
@@ -1002,7 +1018,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #45442; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #45442; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45442/pg45442.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45442/pg45442.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45442/pg45442.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/45442/images/cover.jpg"
+      ]
     },
     {
       "title": "A Manual of Photographic Chemistry, Including the Practice of the Collodion Process",
@@ -1011,7 +1033,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #63710; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #63710; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63710/pg63710.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63710/pg63710.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63710/pg63710.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63710/images/cover.jpg"
+      ]
     },
     {
       "title": "A photographic record of the Russo-Japanese war",
@@ -1020,7 +1048,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #76109; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #76109; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76109/pg76109.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76109/pg76109.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76109/pg76109.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/76109/images/cover.jpg"
+      ]
     },
     {
       "title": "Airplane Photography",
@@ -1029,7 +1063,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #53508; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #53508; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53508/pg53508.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53508/pg53508.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53508/pg53508.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53508/images/cover.jpg"
+      ]
     },
     {
       "title": "Around the world in eighty minutes\r\nPhotographic reproductions of the most magnificent edifices, the most interesting remains and the most beautiful scenes on the earth's surface",
@@ -1038,7 +1078,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #69543; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #69543; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69543/pg69543.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69543/pg69543.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69543/pg69543.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69543/images/cover.jpg"
+      ]
     },
     {
       "title": "Cruisings in the Cascades\nA Narrative of Travel, Exploration, Amateur Photography,\nHunting, and Fishing",
@@ -1047,7 +1093,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #36654; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #36654; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36654/pg36654.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36654/pg36654.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36654/pg36654.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36654/images/cover.jpg"
+      ]
     },
     {
       "title": "Descriptive Catalogue of Photographs of North American Indians",
@@ -1056,7 +1108,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #39089; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #39089; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39089/pg39089.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39089/pg39089.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39089/pg39089.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39089/images/cover.jpg"
+      ]
     },
     {
       "title": "Essay on art and photography",
@@ -1065,7 +1123,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #71518; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #71518; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71518/pg71518.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71518/pg71518.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71518/pg71518.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71518/images/cover.jpg"
+      ]
     },
     {
       "title": "Fifty Photographic Views of Plymouth",
@@ -1074,7 +1138,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #67232; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #67232; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67232/pg67232.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67232/pg67232.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67232/pg67232.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67232/images/cover.jpg"
+      ]
     },
     {
       "title": "George Eliot Centenary, November 1919\r\nCatalogue of Relics, Manuscrips, Prints, Paintings, Photographs & Books relating to George Eliot",
@@ -1083,7 +1153,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #30959; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #30959; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30959/pg30959.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30959/pg30959.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30959/pg30959.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30959/images/cover.jpg"
+      ]
     },
     {
       "title": "How I Filmed the War\r\nA Record of the Extraordinary Experiences of the Man Who Filmed the Great Somme Battles, etc.",
@@ -1092,7 +1168,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #30285; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #30285; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30285/pg30285.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30285/pg30285.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30285/pg30285.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30285/images/cover.jpg"
+      ]
     },
     {
       "title": "Magic, Stage Illusions and Scientific Diversions, Including Trick Photography",
@@ -1101,7 +1183,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #45235; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #45235; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45235/pg45235.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45235/pg45235.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45235/pg45235.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/45235/images/cover.jpg"
+      ]
     },
     {
       "title": "Marvels of Scientific Invention\r\nAn Interesting Account in Non-Technical Language of the Invention of Guns, Torpedoes, Submarine Mines, Up-to-Date Smelting, Freezing, Colour Photography, and Many Other Recent Discoveries of Science",
@@ -1110,7 +1198,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #38045; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #38045; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38045/pg38045.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38045/pg38045.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38045/pg38045.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38045/images/cover.jpg"
+      ]
     },
     {
       "title": "Mississippi Piney Woods: A Photographic Study of Folk Architecture",
@@ -1119,7 +1213,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #61801; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #61801; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61801/pg61801.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61801/pg61801.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61801/pg61801.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/61801/images/cover.jpg"
+      ]
     },
     {
       "title": "Motion Picture Operation, Stage Electrics and Illusions\r\nA Practical Hand-book and Guide for Theater Electricians, Motion Picture Operators and Managers of Theaters and Productions",
@@ -1128,7 +1228,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #45231; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #45231; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45231/pg45231.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45231/pg45231.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45231/pg45231.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/45231/images/cover.jpg"
+      ]
     },
     {
       "title": "Motion pictures and filmstrips, 1970",
@@ -1137,7 +1243,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #63357; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #63357; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63357/pg63357.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63357/pg63357.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63357/pg63357.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63357/images/cover.jpg"
+      ]
     },
     {
       "title": "Motion pictures and filmstrips, 1971",
@@ -1146,7 +1258,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #63066; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #63066; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63066/pg63066.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63066/pg63066.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63066/pg63066.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63066/images/cover.jpg"
+      ]
     },
     {
       "title": "Motion pictures and filmstrips, 1972",
@@ -1155,7 +1273,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #65190; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #65190; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65190/pg65190.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65190/pg65190.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65190/pg65190.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65190/images/cover.jpg"
+      ]
     },
     {
       "title": "Motion pictures and filmstrips, 1978",
@@ -1164,7 +1288,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #78638; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #78638; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78638/pg78638.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78638/pg78638.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78638/pg78638.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/78638/images/cover.jpg"
+      ]
     },
     {
       "title": "Motion Pictures, 1894-1912\r\nIdentified from the Records of the United States Copyright Office",
@@ -1173,7 +1303,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #56966; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #56966; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56966/pg56966.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56966/pg56966.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56966/pg56966.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56966/images/cover.jpg"
+      ]
     },
     {
       "title": "Myths of China and Japan\r\nwith illustrations in colour & monochrome after paintings and photographs",
@@ -1182,7 +1318,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #67344; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #67344; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67344/pg67344.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67344/pg67344.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67344/pg67344.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67344/images/cover.jpg"
+      ]
     },
     {
       "title": "Naturalistic Photography for Students of the Art.",
@@ -1191,7 +1333,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #56833; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #56833; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56833/pg56833.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56833/pg56833.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56833/pg56833.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56833/images/cover.jpg"
+      ]
     },
     {
       "title": "On the Construction of a Silvered Glass Telescope\r\nFifteen and a half inches in aperture, and its use in celestial photography",
@@ -1200,7 +1348,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #53542; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #53542; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53542/pg53542.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53542/pg53542.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53542/pg53542.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53542/images/cover.jpg"
+      ]
     },
     {
       "title": "Original Photographs Taken on the Battlefields during the Civil War of the United States",
@@ -1209,7 +1363,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #43922; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #43922; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43922/pg43922.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43922/pg43922.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43922/pg43922.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/43922/images/cover.jpg"
+      ]
     },
     {
       "title": "Paris under the Commune\r\nThe Seventy-Three Days of the Second Siege; with Numerous Illustrations, Sketches Taken on the Spot, and Portraits (from the Original Photographs)",
@@ -1218,7 +1378,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #10861; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #10861; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/10861/pg10861.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/10861/pg10861.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/10861/pg10861.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/10861/images/cover.jpg"
+      ]
     },
     {
       "title": "Photographic Amusements, Ninth Edition\nIncluding A Description of a Number of Novel Effects Obtainable with the Camera",
@@ -1227,7 +1393,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #39691; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #39691; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39691/pg39691.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39691/pg39691.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39691/pg39691.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39691/images/cover.jpg"
+      ]
     },
     {
       "title": "Photographic investigations of faint nebulae",
@@ -1236,7 +1408,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #71654; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #71654; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71654/pg71654.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71654/pg71654.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71654/pg71654.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71654/images/cover.jpg"
+      ]
     },
     {
       "title": "Photographic Reproduction Processes",
@@ -1245,7 +1423,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #24016; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #24016; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24016/pg24016.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24016/pg24016.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24016/pg24016.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24016/images/cover.jpg"
+      ]
     },
     {
       "title": "Photographs of Nebulæ and Clusters, Made with the Crossley Reflector",
@@ -1254,7 +1438,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #36470; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #36470; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36470/pg36470.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36470/pg36470.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36470/pg36470.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36470/images/cover.jpg"
+      ]
     },
     {
       "title": "Photography at home",
@@ -1263,7 +1453,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #78373; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #78373; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78373/pg78373.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78373/pg78373.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78373/pg78373.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/78373/images/cover.jpg"
+      ]
     },
     {
       "title": "Photography in the studio and in the field",
@@ -1272,7 +1468,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #42982; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #42982; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42982/pg42982.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42982/pg42982.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42982/pg42982.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/42982/images/cover.jpg"
+      ]
     },
     {
       "title": "Photography self taught",
@@ -1281,7 +1483,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #77383; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #77383; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77383/pg77383.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77383/pg77383.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77383/pg77383.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/77383/images/cover.jpg"
+      ]
     },
     {
       "title": "Shakspeare's Mental Photographs",
@@ -1290,7 +1498,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #56851; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #56851; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56851/pg56851.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56851/pg56851.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56851/pg56851.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56851/images/cover.jpg"
+      ]
     },
     {
       "title": "Shepp's Photographs of the World",
@@ -1299,7 +1513,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #26037; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #26037; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26037/pg26037.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26037/pg26037.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26037/pg26037.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/26037/images/cover.jpg"
+      ]
     },
     {
       "title": "Souvenir of Gay Head: Indelible Photographs",
@@ -1308,7 +1528,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #33108; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #33108; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33108/pg33108.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33108/pg33108.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33108/pg33108.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/33108/images/cover.jpg"
+      ]
     },
     {
       "title": "The Barnet Book of Photography: A Collection of Practical Articles",
@@ -1317,7 +1543,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #40468; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #40468; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40468/pg40468.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40468/pg40468.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40468/pg40468.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/40468/images/cover.jpg"
+      ]
     },
     {
       "title": "The Bird Book\r\nIllustrating in natural colors more than seven hundred North American birds; also several hundred photographs of their nests and eggs.",
@@ -1326,7 +1558,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #30000; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #30000; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30000/pg30000.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30000/pg30000.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30000/pg30000.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30000/images/cover.jpg"
+      ]
     },
     {
       "title": "The Case Against Spirit Photographs",
@@ -1335,7 +1573,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #61352; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #61352; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61352/pg61352.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61352/pg61352.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61352/pg61352.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/61352/images/cover.jpg"
+      ]
     },
     {
       "title": "The Case for Spirit Photography\nWith corroborative evidence by experienced researchers and photographers",
@@ -1344,7 +1588,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #59809; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #59809; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59809/pg59809.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59809/pg59809.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59809/pg59809.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59809/images/cover.jpg"
+      ]
     },
     {
       "title": "The Essentials of Illustration\r\nA Practical Guide to the Reproduction of Drawings & Photographs for the Use of Scientists & Others",
@@ -1353,7 +1603,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #34869; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #34869; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34869/pg34869.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34869/pg34869.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34869/pg34869.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34869/images/cover.jpg"
+      ]
     },
     {
       "title": "The Evolution of Photography\r\nWith a Chronological Record of Discoveries, Inventions, Etc., Contributions to Photographic Literature, and Personal Reminescences Extending over Forty Years",
@@ -1362,7 +1618,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #38866; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #38866; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38866/pg38866.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38866/pg38866.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38866/pg38866.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38866/images/cover.jpg"
+      ]
     },
     {
       "title": "The Face of the Earth as Seen from the Air\nA Study in the Application of Airplane Photography to Geography",
@@ -1371,7 +1633,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #62068; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #62068; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62068/pg62068.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62068/pg62068.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62068/pg62068.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62068/images/cover.jpg"
+      ]
     },
     {
       "title": "The film",
@@ -1380,7 +1648,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #71747; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #71747; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71747/pg71747.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71747/pg71747.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71747/pg71747.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71747/images/cover.jpg"
+      ]
     },
     {
       "title": "The History and Practice of the Art of Photography",
@@ -1389,7 +1663,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #168; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #168; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/168/pg168.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/168/pg168.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/168/pg168.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/168/images/cover.jpg"
+      ]
     },
     {
       "title": "The Mentor: Photography, Vol. 6, Num. 12, Serial No. 160, August 1, 1918",
@@ -1398,7 +1678,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #49640; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #49640; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49640/pg49640.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49640/pg49640.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49640/pg49640.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49640/images/cover.jpg"
+      ]
     },
     {
       "title": "The Science of Animal Locomotion (Zoopraxography)\r\nAn Electro-Photographic Investigation of Consecutive Phases of Animal Movements",
@@ -1407,7 +1693,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #39998; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #39998; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39998/pg39998.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39998/pg39998.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39998/pg39998.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39998/images/cover.jpg"
+      ]
     },
     {
       "title": "The Veil Lifted: Modern Developments of Spirit Photography",
@@ -1416,7 +1708,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #59451; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #59451; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59451/pg59451.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59451/pg59451.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59451/pg59451.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59451/images/cover.jpg"
+      ]
     },
     {
       "title": "Tinting and toning of Eastman positive motion picture film",
@@ -1425,7 +1723,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #70417; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #70417; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70417/pg70417.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70417/pg70417.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70417/pg70417.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/70417/images/cover.jpg"
+      ]
     },
     {
       "title": "Vision by radio, radio photographs, radio photograms",
@@ -1434,7 +1738,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #73845; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #73845; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73845/pg73845.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73845/pg73845.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73845/pg73845.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73845/images/cover.jpg"
+      ]
     },
     {
       "title": "Wireless Transmission of Photographs\nSecond Edition, Revised and Enlarged 1919",
@@ -1443,7 +1753,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #34052; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #34052; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34052/pg34052.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34052/pg34052.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34052/pg34052.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34052/images/cover.jpg"
+      ]
     }
   ],
   "notes": "Fully integrated and all channel IDs resolved (2026-07-25). All previously cross-referenced skill_13/skill_14 IDs confirmed consistent. StockFrames channel confirmed as a Nigerian picture-frames and canvas-arts supply business (not a photography content channel as described in source CSV) — description updated to accurately reflect content while noting its relevance to photographers selling printed work. FStoppers and PetaPixel RSS feeds independently confirmed via Feedspot photography RSS directory. 2026-08-23: Added 58 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 50 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",

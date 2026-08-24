@@ -117,6 +117,12 @@ class FeedProvider extends ChangeNotifier {
   FeedTab _activeTab = FeedTab.videos;
   FeedTab get activeTab => _activeTab;
 
+  // Incremented on every content-tab selection, including reselecting the
+  // already-active tab. HomeScreen uses it as a content key so each selected
+  // tab starts at scroll offset zero with a newly shuffled cached list.
+  int _tabSelectionRevision = 0;
+  int get tabSelectionRevision => _tabSelectionRevision;
+
   /// All cached video lists across tabs that hold real videos.
   /// Used for deep-link lookup (notification taps searching by video ID).
   /// FeedTab.blogs is excluded — it always returns [] because the Blogs tab
@@ -564,8 +570,15 @@ class FeedProvider extends ChangeNotifier {
   // ── Tab ───────────────────────────────────────────────────────────────────────
 
   void setTab(FeedTab tab) {
-    if (_activeTab == tab) return;
     _activeTab = tab;
+    _tabSelectionRevision++;
+    // Videos, Shorts, and Books are computed from cached pools. Dropping the
+    // selected tab cache reshuffles it without fetching the network again.
+    if (tab != FeedTab.blogs) {
+      _tabCache.remove(tab);
+    } else {
+      BlogRssService.instance.clearCache();
+    }
     notifyListeners();
   }
 

@@ -1024,7 +1024,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/trademark-law-an-open-source-casebook-version-6-0"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law - Property Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/trademark-law-an-open-source-casebook-version-6-0",
+      "coverUrl": "https://www.tmcasebook.org/wp-content/uploads/2025/06/V12-cover.png",
+      "coverCandidates": [
+        "https://www.tmcasebook.org/wp-content/uploads/2025/06/V12-cover.png"
+      ]
     },
     {
       "title": "Extended Readings on Copyright - 2022",
@@ -1362,7 +1366,11 @@
       "freeSourceType": "online",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-guide-to-writing-in-law-school"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education; Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-guide-to-writing-in-law-school",
+      "coverUrl": "https://latrobe.studium.pub/app/uploads/sites/7/2023/05/A-Guide-to-Writing-in-Law-School-Cover.png",
+      "coverCandidates": [
+        "https://latrobe.studium.pub/app/uploads/sites/7/2023/05/A-Guide-to-Writing-in-Law-School-Cover.png"
+      ]
     },
     {
       "title": "Introduction to Criminal Justice: Operations, Obstacles, and Outcomes",
@@ -1493,7 +1501,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/antitrust-principles-cases-and-materials-4th-edition"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/antitrust-principles-cases-and-materials-4th-edition",
+      "coverUrl": "https://antitrustcasebook.org/user/themes/monument/images/share_img.png",
+      "coverCandidates": [
+        "https://antitrustcasebook.org/user/themes/monument/images/share_img.png"
+      ]
     },
     {
       "title": "The Office of the Presidency: Powers and Responsibilities - First Edition",

@@ -466,7 +466,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #67968; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #67968; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67968/pg67968.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67968/pg67968.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67968/pg67968.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67968/images/cover.jpg"
+      ]
     },
     {
       "title": "International Harvester Refrigerator Recipes",
@@ -475,7 +481,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #65793; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #65793; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65793/pg65793.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65793/pg65793.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65793/pg65793.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65793/images/cover.jpg"
+      ]
     },
     {
       "title": "Manufacturing Cost Data on Artificial Ice",
@@ -484,7 +496,13 @@
       "freeSourceType": "online",
       "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Project Gutenberg catalog record #29375; matched practical keyword rule from title/subject metadata."
+      "verificationMethod": "Project Gutenberg catalog record #29375; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29375/pg29375.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29375/pg29375.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29375/pg29375.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29375/images/cover.jpg"
+      ]
     }
   ],
   "notes": "2026-08-04 audit: Books set to free full sources focused on systems, pricing, cash-flow and running a profitable HVAC/AC business. Channels/blogs retained when business-focused. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 3 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",

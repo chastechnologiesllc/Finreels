@@ -519,7 +519,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Pharmacology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/precision-nutrition-and-advanced-culinary-medicine"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Pharmacology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/precision-nutrition-and-advanced-culinary-medicine",
+      "coverUrl": "https://uknowledge.uky.edu/pharmacol_textbooks/1000/preview.jpg",
+      "coverCandidates": [
+        "https://uknowledge.uky.edu/pharmacol_textbooks/1000/preview.jpg"
+      ]
     },
     {
       "title": "Microbiology, Pharmacology, and Immunology for Pre-Clinical Students",

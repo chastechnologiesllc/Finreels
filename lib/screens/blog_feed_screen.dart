@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
@@ -9,6 +9,7 @@ import '../services/ad_service.dart';
 import '../services/blog_rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/blog_thumbnail_image.dart';
 import 'blog_reader_screen.dart';
 
 /// Fix 4 — Blogs Tab Design
@@ -155,7 +156,7 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
               if (i > 0 && i % 3 == 0)
                 const Padding(
                   padding: EdgeInsets.only(bottom: 14),
-                  child: LabelledBannerAd(),
+                  child: LabelledBannerAd(fixedSize: AdSize.mediumRectangle),
                 ),
               RepaintBoundary(
                 child: _BlogCard(
@@ -296,17 +297,10 @@ class _BlogCard extends StatelessWidget {
             // ── 16:9 Cover Image ─────────────────────────────────────────
             AspectRatio(
               aspectRatio: 16 / 9,
-              child: article.thumbnailUrl != null
-                  ? CachedNetworkImage(
-                      imageUrl: article.thumbnailUrl!,
-                      fit: BoxFit.cover,
-                      memCacheWidth: 720,
-                      memCacheHeight: 405,
-                      placeholder: (_, __) => _shimmerPlaceholder(),
-                      errorWidget: (_, __, ___) =>
-                          _gradientPlaceholder(context),
-                    )
-                  : _gradientPlaceholder(context),
+              child: BlogThumbnailImage(
+                url: article.thumbnailUrl,
+                fallbackUrls: article.thumbnailFallbackUrls,
+              ),
             ),
 
             // Source badge + gold accent strip
@@ -372,49 +366,4 @@ class _BlogCard extends StatelessWidget {
     );
   }
 
-  /// Shimmer placeholder — shown while thumbnail image is downloading.
-  Widget _shimmerPlaceholder() {
-    return Shimmer.fromColors(
-      baseColor: const Color(0xFF1E1E1E),
-      highlightColor: const Color(0xFF2C2C2C),
-      child: const DecoratedBox(
-        decoration: BoxDecoration(color: Colors.white),
-        child: SizedBox.expand(),
-      ),
-    );
-  }
-
-  /// Branded gradient placeholder — shown when no cover image is available.
-  Widget _gradientPlaceholder(BuildContext context) {
-    return DecoratedBox(
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [
-            AppTheme.gold.withValues(alpha: 0.25),
-            AppTheme.gold.withValues(alpha: 0.08),
-          ],
-        ),
-      ),
-      child: Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(Icons.article_rounded,
-                color: AppTheme.gold.withValues(alpha: 0.5), size: 40),
-            const SizedBox(height: 8),
-            Text(
-              article.sourceName,
-              style: TextStyle(
-                color: AppTheme.gold.withValues(alpha: 0.6),
-                fontSize: 11,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
 }
