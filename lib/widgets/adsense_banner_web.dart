@@ -23,6 +23,7 @@ class AdSenseBanner extends StatelessWidget {
     if (!kIsWeb) return const SizedBox.shrink();
     return Column(
       mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Padding(
           padding: const EdgeInsets.only(bottom: 4),
@@ -34,15 +35,20 @@ class AdSenseBanner extends StatelessWidget {
                 ),
           ),
         ),
-        SizedBox(
-          width: width,
-          height: height,
-          child: impl.buildAdSenseUnit(
-            clientId: AppConfig.adsenseClientId,
-            slotId: AppConfig.adsenseTestSlot,
-            testMode: AppConfig.adsenseTestMode,
-            width: width,
-            height: height,
+        Align(
+          alignment: Alignment.center,
+          child: ClipRect(
+            child: SizedBox(
+              width: width,
+              height: height,
+              child: impl.buildAdSenseUnit(
+                clientId: AppConfig.adsenseClientId,
+                slotId: AppConfig.adsenseTestSlot,
+                testMode: AppConfig.adsenseTestMode,
+                width: width,
+                height: height,
+              ),
+            ),
           ),
         ),
       ],

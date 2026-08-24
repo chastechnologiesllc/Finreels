@@ -83,24 +83,27 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
       memCacheHeight: widget.height == null
           ? 405
           : (widget.height! * MediaQuery.devicePixelRatioOf(context)).round(),
-      placeholder: (_, __) => _placeholder(),
+      placeholder: (_, __) => _placeholder(context),
       errorWidget: (_, __, ___) {
         if (_index + 1 < _candidates.length) {
           WidgetsBinding.instance.addPostFrameCallback((_) {
             if (mounted) setState(() => _index++);
           });
-          return _placeholder();
+          return _placeholder(context);
         }
         return _fallback(context);
       },
     );
   }
 
-  Widget _placeholder() {
+  Widget _placeholder(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
     return Shimmer.fromColors(
-      baseColor: const Color(0xFF1E1E1E),
-      highlightColor: const Color(0xFF2C2C2C),
-      child: const ColoredBox(color: Colors.white),
+      baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
+      highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
+      child: ColoredBox(
+        color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
+      ),
     );
   }
 

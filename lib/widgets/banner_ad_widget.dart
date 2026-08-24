@@ -128,11 +128,23 @@ class _LabelledBannerAdState extends State<LabelledBannerAd> {
     // the Web implementation render the responsive AdSense creative inside it.
     if (kIsWeb) {
       final size = widget.requestedSize;
+      final slotWidth = size.width.toDouble();
+      final slotHeight = size.height.toDouble();
+      // Keep the label and fixed creative inside a finite, centered row. The
+      // outer SizedBox is deliberate: an HtmlElementView must not be allowed
+      // to report an intrinsic iframe height into a scrolling ListView.
       return Padding(
         padding: const EdgeInsets.symmetric(vertical: 6),
-        child: AdSenseBanner(
-          width: size.width.toDouble(),
-          height: size.height.toDouble(),
+        child: SizedBox(
+          width: double.infinity,
+          height: slotHeight + 22,
+          child: Align(
+            alignment: Alignment.center,
+            child: AdSenseBanner(
+              width: slotWidth,
+              height: slotHeight,
+            ),
+          ),
         ),
       );
     }

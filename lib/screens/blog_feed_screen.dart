@@ -192,9 +192,9 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
   // Shimmer that matches the 16:9 blog card shape exactly.
   Widget _buildShimmer(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final base = isDark ? const Color(0xFF1A1A1A) : const Color(0xFFE8E8E8);
-    final highlight =
-        isDark ? const Color(0xFF2A2A2A) : const Color(0xFFF5F5F5);
+    final base = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
+    final highlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
+    final skeleton = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
 
     return Shimmer.fromColors(
       baseColor: base,
@@ -204,7 +204,8 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
         padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),
         itemCount: 5,
         separatorBuilder: (_, __) => const SizedBox(height: 14),
-        itemBuilder: (_, __) => _BlogShimmerSkeleton(),
+        itemBuilder: (_, __) =>
+            _BlogShimmerSkeleton(placeholderColor: skeleton),
       ),
     );
   }
@@ -213,11 +214,15 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
 // ── Skeleton ─────────────────────────────────────────────────────────────────
 
 class _BlogShimmerSkeleton extends StatelessWidget {
+  final Color placeholderColor;
+
+  const _BlogShimmerSkeleton({required this.placeholderColor});
+
   @override
   Widget build(BuildContext context) {
     return DecoratedBox(
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: placeholderColor,
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -226,10 +231,10 @@ class _BlogShimmerSkeleton extends StatelessWidget {
           AspectRatio(
             aspectRatio: 16 / 9,
             child: Container(
-              decoration: const BoxDecoration(
-                color: Colors.white,
+              decoration: BoxDecoration(
+                color: placeholderColor,
                 borderRadius:
-                    BorderRadius.vertical(top: Radius.circular(16)),
+                    const BorderRadius.vertical(top: Radius.circular(16)),
               ),
             ),
           ),
@@ -242,7 +247,7 @@ class _BlogShimmerSkeleton extends StatelessWidget {
                   height: 12,
                   width: 80,
                   decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: placeholderColor,
                       borderRadius: BorderRadius.circular(6)),
                 ),
                 const SizedBox(height: 8),
@@ -250,7 +255,7 @@ class _BlogShimmerSkeleton extends StatelessWidget {
                   height: 16,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: placeholderColor,
                       borderRadius: BorderRadius.circular(8)),
                 ),
                 const SizedBox(height: 6),
@@ -258,7 +263,7 @@ class _BlogShimmerSkeleton extends StatelessWidget {
                   height: 16,
                   width: MediaQuery.of(context).size.width * 0.6,
                   decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: placeholderColor,
                       borderRadius: BorderRadius.circular(8)),
                 ),
               ],

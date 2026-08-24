@@ -173,6 +173,10 @@ class VideoCard extends StatelessWidget {
 
   Widget _buildThumbnailContent(BuildContext context) {
     final isBook = video.channelId == 'books' || video.channelId == 'verified_book';
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final shimmerBase = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
+    final shimmerHighlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
+    final shimmerFill = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
 
     return Stack(
       fit: StackFit.expand,
@@ -192,20 +196,20 @@ class VideoCard extends StatelessWidget {
             memCacheWidth: 720,
             memCacheHeight: 405,
             placeholder: (_, __) => Shimmer.fromColors(
-              baseColor: const Color(0xFF1E1E1E),
-              highlightColor: const Color(0xFF2C2C2C),
-              child: const ColoredBox(color: Colors.white),
+              baseColor: shimmerBase,
+              highlightColor: shimmerHighlight,
+              child: ColoredBox(color: shimmerFill),
             ),
             errorWidget: (_, __, ___) => CachedNetworkImage(
               imageUrl: video.thumbnailMq,
               fit: BoxFit.cover,
               memCacheWidth: 720,
               memCacheHeight: 405,
-              placeholder: (_, __) => Shimmer.fromColors(
-                baseColor: const Color(0xFF1E1E1E),
-                highlightColor: const Color(0xFF2C2C2C),
-                child: const ColoredBox(color: Colors.white),
-              ),
+                placeholder: (_, __) => Shimmer.fromColors(
+                  baseColor: shimmerBase,
+                  highlightColor: shimmerHighlight,
+                  child: ColoredBox(color: shimmerFill),
+                ),
               errorWidget: (_, __, ___) => ColoredBox(
                 color: AppTheme.surfaceElevated(context),
                 child: Icon(Icons.play_circle_outline_rounded,

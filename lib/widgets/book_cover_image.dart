@@ -230,15 +230,16 @@ class _BookCoverImageState extends State<BookCoverImage> {
 
   Widget _loadingPlaceholder(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final base = isDark ? const Color(0xFF1E1E1E) : const Color(0xFFE0E0E0);
-    final highlight = isDark ? const Color(0xFF2C2C2C) : const Color(0xFFF5F5F5);
+    final base = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
+    final highlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
+    final skeleton = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
     return Shimmer.fromColors(
       baseColor: base,
       highlightColor: highlight,
       child: SizedBox(
         width: widget.width,
         height: widget.height,
-        child: const ColoredBox(color: Colors.white),
+        child: ColoredBox(color: skeleton),
       ),
     );
   }

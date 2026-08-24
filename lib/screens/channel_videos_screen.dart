@@ -125,16 +125,22 @@ class _ChannelVideosScreenState extends State<ChannelVideosScreen>
 
   Widget _buildShimmer(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
+    final base = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
+    final highlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
+    final skeleton = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
     return Shimmer.fromColors(
-      baseColor: isDark ? const Color(0xFF1E1E1E) : const Color(0xFFE8E8E8),
-      highlightColor: isDark ? const Color(0xFF2C2C2C) : const Color(0xFFF5F5F5),
+      baseColor: base,
+      highlightColor: highlight,
       child: ListView.separated(
         padding: const EdgeInsets.all(16),
         itemCount: 6,
         separatorBuilder: (_, __) => const SizedBox(height: 12),
-        itemBuilder: (_, __) => Container(height: 90,
-            decoration: BoxDecoration(color: Colors.white,
-                borderRadius: BorderRadius.circular(12))),
+        itemBuilder: (_, __) => Container(
+            height: 90,
+            decoration: BoxDecoration(
+              color: skeleton,
+              borderRadius: BorderRadius.circular(12),
+            )),
       ),
     );
   }
@@ -265,11 +271,16 @@ class _VideosList extends StatelessWidget {
                             fit: BoxFit.cover,
                             memCacheWidth: 720,
                             memCacheHeight: 405,
-                            placeholder: (_, __) => Shimmer.fromColors(
-                              baseColor: const Color(0xFF1E1E1E),
-                              highlightColor: const Color(0xFF2C2C2C),
-                              child: const ColoredBox(color: Colors.white),
-                            ),
+                            placeholder: (_, __) {
+                              final isDark = Theme.of(context).brightness == Brightness.dark;
+                              return Shimmer.fromColors(
+                                baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
+                                highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
+                                child: ColoredBox(
+                                  color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
+                                ),
+                              );
+                            },
                             errorWidget: (_, __, ___) => CachedNetworkImage(
                                 imageUrl: v.thumbnailMq, fit: BoxFit.cover,
                                 memCacheWidth: 720,
@@ -348,11 +359,16 @@ class _ShortsGrid extends StatelessWidget {
                   CachedNetworkImage(imageUrl: v.thumbnailMq, fit: BoxFit.cover,
                       memCacheWidth: 360,
                       memCacheHeight: 640,
-                      placeholder: (_, __) => Shimmer.fromColors(
-                        baseColor: const Color(0xFF1E1E1E),
-                        highlightColor: const Color(0xFF2C2C2C),
-                        child: const ColoredBox(color: Colors.white),
-                      ),
+                      placeholder: (_, __) {
+                        final isDark = Theme.of(context).brightness == Brightness.dark;
+                        return Shimmer.fromColors(
+                          baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
+                          highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
+                          child: ColoredBox(
+                            color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
+                          ),
+                        );
+                      },
                       errorWidget: (_, __, ___) =>
                           const ColoredBox(color: Color(0xFF1E1E1E))),
                   const DecoratedBox(decoration: BoxDecoration(

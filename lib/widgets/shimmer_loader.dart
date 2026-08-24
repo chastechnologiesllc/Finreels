@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
+import '../theme/app_theme.dart';
+
 /// Fix 2 — Shimmer skeletons with correct 16:9 aspect ratio and blog variant.
 /// All skeletons match the exact dimensions of the real cards so there is
 /// zero layout shift when content arrives.
@@ -20,9 +22,9 @@ class ShimmerLoader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final base = isDark ? const Color(0xFF1A1A1A) : const Color(0xFFE8E8E8);
-    final highlight =
-        isDark ? const Color(0xFF2A2A2A) : const Color(0xFFF5F5F5);
+    final base = isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated;
+    final highlight = isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg;
+    final skeleton = isDark ? AppTheme.darkSurface : AppTheme.lightSurface;
 
     Widget child;
     switch (variant) {
@@ -33,7 +35,7 @@ class ShimmerLoader extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           itemCount: count,
           separatorBuilder: (_, __) => const SizedBox(height: 16),
-          itemBuilder: (_, __) => const _VideoShimmerCard(),
+          itemBuilder: (_, __) => _VideoShimmerCard(placeholderColor: skeleton),
         );
       case ShimmerVariant.blogFeed:
         child = ListView.separated(
@@ -42,7 +44,7 @@ class ShimmerLoader extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           itemCount: count,
           separatorBuilder: (_, __) => const SizedBox(height: 12),
-          itemBuilder: (_, __) => const _BlogShimmerCard(),
+          itemBuilder: (_, __) => _BlogShimmerCard(placeholderColor: skeleton),
         );
       case ShimmerVariant.grid:
         child = GridView.builder(
@@ -58,7 +60,7 @@ class ShimmerLoader extends StatelessWidget {
           itemCount: count,
           itemBuilder: (_, __) => Container(
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: skeleton,
               borderRadius: BorderRadius.circular(12),
             ),
           ),
@@ -75,7 +77,9 @@ class ShimmerLoader extends StatelessWidget {
 
 /// 16:9 video card skeleton — matches InlineVideoCard exactly.
 class _VideoShimmerCard extends StatelessWidget {
-  const _VideoShimmerCard();
+  final Color placeholderColor;
+
+  const _VideoShimmerCard({required this.placeholderColor});
 
   @override
   Widget build(BuildContext context) {
@@ -87,7 +91,7 @@ class _VideoShimmerCard extends StatelessWidget {
           aspectRatio: 16 / 9,
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: placeholderColor,
               borderRadius: BorderRadius.circular(16),
             ),
           ),
@@ -98,7 +102,7 @@ class _VideoShimmerCard extends StatelessWidget {
           height: 16,
           width: double.infinity,
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: placeholderColor,
             borderRadius: BorderRadius.circular(8),
           ),
         ),
@@ -107,7 +111,7 @@ class _VideoShimmerCard extends StatelessWidget {
           height: 16,
           width: MediaQuery.of(context).size.width * 0.65,
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: placeholderColor,
             borderRadius: BorderRadius.circular(8),
           ),
         ),
@@ -117,8 +121,8 @@ class _VideoShimmerCard extends StatelessWidget {
             Container(
               width: 8,
               height: 8,
-              decoration: const BoxDecoration(
-                color: Colors.white,
+              decoration: BoxDecoration(
+                color: placeholderColor,
                 shape: BoxShape.circle,
               ),
             ),
@@ -127,7 +131,7 @@ class _VideoShimmerCard extends StatelessWidget {
               height: 12,
               width: 120,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: placeholderColor,
                 borderRadius: BorderRadius.circular(6),
               ),
             ),
@@ -140,7 +144,9 @@ class _VideoShimmerCard extends StatelessWidget {
 
 /// Blog card skeleton — matches the 16:9 blog card layout.
 class _BlogShimmerCard extends StatelessWidget {
-  const _BlogShimmerCard();
+  final Color placeholderColor;
+
+  const _BlogShimmerCard({required this.placeholderColor});
 
   @override
   Widget build(BuildContext context) {
@@ -148,11 +154,11 @@ class _BlogShimmerCard extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         // Cover image — 16:9
-        const AspectRatio(
+        AspectRatio(
           aspectRatio: 16 / 9,
           child: DecoratedBox(
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: placeholderColor,
               borderRadius:
                   BorderRadius.vertical(top: Radius.circular(16)),
             ),
@@ -161,7 +167,7 @@ class _BlogShimmerCard extends StatelessWidget {
         Container(
           padding: const EdgeInsets.fromLTRB(14, 12, 14, 14),
           decoration: BoxDecoration(
-            color: Colors.white.withValues(alpha: 0.15),
+              color: placeholderColor.withValues(alpha: 0.15),
             borderRadius:
                 const BorderRadius.vertical(bottom: Radius.circular(16)),
           ),
@@ -172,7 +178,7 @@ class _BlogShimmerCard extends StatelessWidget {
                   height: 14,
                   width: 80,
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: placeholderColor,
                     borderRadius: BorderRadius.circular(6),
                   )),
               const SizedBox(height: 8),
@@ -180,7 +186,7 @@ class _BlogShimmerCard extends StatelessWidget {
                   height: 16,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: placeholderColor,
                     borderRadius: BorderRadius.circular(8),
                   )),
               const SizedBox(height: 6),
@@ -188,7 +194,7 @@ class _BlogShimmerCard extends StatelessWidget {
                   height: 16,
                   width: MediaQuery.of(context).size.width * 0.6,
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: placeholderColor,
                     borderRadius: BorderRadius.circular(8),
                   )),
             ],

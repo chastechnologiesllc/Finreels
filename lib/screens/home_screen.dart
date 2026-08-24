@@ -361,11 +361,16 @@ class _ShortsTab extends StatelessWidget {
                     fit: BoxFit.cover,
                     memCacheWidth: 360,
                     memCacheHeight: 640,
-                    placeholder: (_, __) => Shimmer.fromColors(
-                      baseColor: const Color(0xFF1E1E1E),
-                      highlightColor: const Color(0xFF2C2C2C),
-                      child: const ColoredBox(color: Colors.white),
-                    ),
+                    placeholder: (_, __) {
+                      final isDark = Theme.of(context).brightness == Brightness.dark;
+                      return Shimmer.fromColors(
+                        baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
+                        highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
+                        child: ColoredBox(
+                          color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
+                        ),
+                      );
+                    },
                     errorWidget: (_, __, ___) =>
                         const ColoredBox(color: Color(0xFF1E1E1E)),
                   ),
