@@ -253,7 +253,7 @@ class _FeedBodyState extends State<_FeedBody> {
       },
     );
   }
-}
+
   Widget _buildVideoFeed(BuildContext context, FeedProvider provider) {
     final videos = provider.feedVideos;
     if (videos.isEmpty) {
