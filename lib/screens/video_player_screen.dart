@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -18,6 +17,7 @@ import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/finreels_watermark.dart';
 import '../widgets/no_flash_page_route.dart';
+import '../widgets/video_thumbnail_image.dart';
 import '../widgets/web_youtube_player.dart';
 import 'channel_videos_screen.dart';
 
@@ -623,20 +623,11 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
             AnimatedOpacity(
               opacity: (_hasStartedPlaying && (_playing || kIsWeb)) ? 0.0 : 1.0,
               duration: const Duration(milliseconds: 200),
-              child: CachedNetworkImage(
-                imageUrl: widget.video.thumbnailHd,
+              child: VideoThumbnailImage(
+                video: widget.video,
                 fit: BoxFit.cover,
-                fadeInDuration: Duration.zero,
-                fadeOutDuration: Duration.zero,
                 memCacheWidth: 720,
                 memCacheHeight: 405,
-                errorWidget: (_, __, ___) => CachedNetworkImage(
-                  imageUrl: widget.video.thumbnailMq,
-                  fit: BoxFit.cover,
-                  fadeInDuration: Duration.zero,
-                  memCacheWidth: 720,
-                  memCacheHeight: 405,
-                ),
               ),
             ),
           // Spinner — shown on mobile AND web while waiting for first frame.
@@ -893,19 +884,11 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     return Stack(
       fit: StackFit.expand,
       children: [
-        CachedNetworkImage(
-          imageUrl: widget.video.thumbnailHd,
+        VideoThumbnailImage(
+          video: widget.video,
           fit: BoxFit.cover,
           memCacheWidth: 720,
           memCacheHeight: 405,
-          errorWidget: (_, __, ___) => CachedNetworkImage(
-            imageUrl: widget.video.thumbnailMq,
-            fit: BoxFit.cover,
-            memCacheWidth: 720,
-            memCacheHeight: 405,
-            errorWidget: (_, __, ___) =>
-                const ColoredBox(color: Colors.black),
-          ),
         ),
         const ColoredBox(color: Color(0x99000000)),
         Center(
@@ -977,17 +960,11 @@ class _SuggestedTile extends StatelessWidget {
                 child: SizedBox(
                   width: 140,
                   height: 80,
-                  child: CachedNetworkImage(
-                    imageUrl: video.thumbnailHd,
+                  child: VideoThumbnailImage(
+                    video: video,
                     fit: BoxFit.cover,
                     memCacheWidth: 280,
                     memCacheHeight: 160,
-                    errorWidget: (_, __, ___) => CachedNetworkImage(
-                      imageUrl: video.thumbnailMq,
-                      fit: BoxFit.cover,
-                      memCacheWidth: 280,
-                      memCacheHeight: 160,
-                    ),
                   ),
                 ),
               ),

@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -14,6 +13,7 @@ import '../screens/channel_videos_screen.dart';
 import '../services/ad_service.dart';
 import '../theme/app_theme.dart';
 import 'finreels_watermark.dart';
+import 'video_thumbnail_image.dart';
 import 'web_youtube_player.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -597,21 +597,11 @@ class _InlineVideoCardState extends State<InlineVideoCard>
             children: [
 
             // ── Layer 0: Thumbnail — always mounted ───────────────────────
-            CachedNetworkImage(
-              imageUrl: widget.video.thumbnailHd,
+            VideoThumbnailImage(
+              video: widget.video,
               fit: BoxFit.cover,
               memCacheWidth: 720,
               memCacheHeight: 405,
-              placeholder: (_, __) =>
-                  const ColoredBox(color: Color(0xFF1E1E1E)),
-              errorWidget: (_, __, ___) => CachedNetworkImage(
-                imageUrl: widget.video.thumbnailMq,
-                fit: BoxFit.cover,
-                memCacheWidth: 720,
-                memCacheHeight: 405,
-                errorWidget: (_, __, ___) =>
-                    ColoredBox(color: AppTheme.surfaceElevated(context)),
-              ),
             ),
 
             // ── Layer 1: YouTube player (mobile) ─────────────────────────
@@ -767,18 +757,11 @@ class _InlineVideoCardState extends State<InlineVideoCard>
 
   Widget _buildEndOverlay() {
     return Stack(fit: StackFit.expand, children: [
-      CachedNetworkImage(
-        imageUrl: widget.video.thumbnailHd,
+      VideoThumbnailImage(
+        video: widget.video,
         fit: BoxFit.cover,
         memCacheWidth: 720,
         memCacheHeight: 405,
-        errorWidget: (_, __, ___) => CachedNetworkImage(
-          imageUrl: widget.video.thumbnailMq,
-          fit: BoxFit.cover,
-          memCacheWidth: 720,
-          memCacheHeight: 405,
-          errorWidget: (_, __, ___) => const ColoredBox(color: Colors.black),
-        ),
       ),
       const ColoredBox(color: Color(0xBB000000)),
       Center(

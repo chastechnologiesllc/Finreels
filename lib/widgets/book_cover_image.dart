@@ -82,12 +82,15 @@ class _BookCoverImageState extends State<BookCoverImage> {
       out.add(trimmed);
       final uri = Uri.tryParse(trimmed);
       if (uri == null || (uri.scheme != 'http' && uri.scheme != 'https') ||
-          uri.host.toLowerCase() == 'wsrv.nl') {
+          (uri.host.toLowerCase() == 'wsrv.nl' ||
+              uri.host.toLowerCase() == 'images.weserv.nl')) {
         return;
       }
-      final proxied =
-          'https://wsrv.nl/?url=${Uri.encodeComponent(trimmed)}';
+      final encoded = Uri.encodeComponent(trimmed);
+      final proxied = 'https://wsrv.nl/?url=$encoded';
+      final legacyProxied = 'https://images.weserv.nl/?url=$encoded';
       if (!out.contains(proxied)) out.add(proxied);
+      if (!out.contains(legacyProxied)) out.add(legacyProxied);
     }
 
     for (final seed in seeds) {

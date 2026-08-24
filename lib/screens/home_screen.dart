@@ -1,10 +1,8 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:shimmer/shimmer.dart';
 
 import '../data/channel_data.dart';
 import '../models/feed_tab.dart';
@@ -18,6 +16,7 @@ import '../widgets/book_cover_image.dart';
 import '../widgets/inline_video_card.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/shimmer_loader.dart';
+import '../widgets/video_thumbnail_image.dart';
 import 'blog_feed_screen.dart';
 import 'book_detail_screen.dart';
 import 'content_search_screen.dart';
@@ -356,23 +355,11 @@ class _ShortsTab extends StatelessWidget {
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: Stack(fit: StackFit.expand, children: [
-                  CachedNetworkImage(
-                    imageUrl: video.thumbnailMq,
+                  VideoThumbnailImage(
+                    video: video,
                     fit: BoxFit.cover,
                     memCacheWidth: 360,
                     memCacheHeight: 640,
-                    placeholder: (_, __) {
-                      final isDark = Theme.of(context).brightness == Brightness.dark;
-                      return Shimmer.fromColors(
-                        baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
-                        highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
-                        child: ColoredBox(
-                          color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
-                        ),
-                      );
-                    },
-                    errorWidget: (_, __, ___) =>
-                        const ColoredBox(color: Color(0xFF1E1E1E)),
                   ),
                   const DecoratedBox(
                     decoration: BoxDecoration(

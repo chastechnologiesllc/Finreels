@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
@@ -12,6 +11,7 @@ import '../providers/feed_provider.dart';
 import '../services/ad_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/video_thumbnail_image.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/shimmer_loader.dart';
 import 'shorts_player_screen.dart';
@@ -151,18 +151,11 @@ class _ShortCard extends StatelessWidget {
         child: Stack(
           fit: StackFit.expand,
           children: [
-            CachedNetworkImage(
-              imageUrl: video.thumbnailMq,
+            VideoThumbnailImage(
+              video: video,
               fit: BoxFit.cover,
               memCacheWidth: 360,
               memCacheHeight: 640,
-              errorWidget: (_, __, ___) => ColoredBox(
-                color: AppTheme.surfaceElevated(context),
-                child: Center(
-                  child: Icon(Icons.play_circle_outline_rounded,
-                      color: AppTheme.textMuted(context), size: 36),
-                ),
-              ),
             ),
             const DecoratedBox(
               decoration: BoxDecoration(

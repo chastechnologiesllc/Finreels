@@ -1,13 +1,12 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:shimmer/shimmer.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 import '../models/channel.dart';
 import '../models/video.dart';
 import '../theme/app_theme.dart';
 import 'book_cover_image.dart';
+import 'video_thumbnail_image.dart';
 
 /// Compact read-only card used in the Saved screen.
 /// All Image.network calls replaced with CachedNetworkImage (Fix 5).
@@ -190,32 +189,11 @@ class VideoCard extends StatelessWidget {
             fallbackUrls: video.thumbnailFallbackUrls,
           )
         else
-          CachedNetworkImage(
-            imageUrl: video.thumbnailHd,
+          VideoThumbnailImage(
+            video: video,
             fit: BoxFit.cover,
             memCacheWidth: 720,
             memCacheHeight: 405,
-            placeholder: (_, __) => Shimmer.fromColors(
-              baseColor: shimmerBase,
-              highlightColor: shimmerHighlight,
-              child: ColoredBox(color: shimmerFill),
-            ),
-            errorWidget: (_, __, ___) => CachedNetworkImage(
-              imageUrl: video.thumbnailMq,
-              fit: BoxFit.cover,
-              memCacheWidth: 720,
-              memCacheHeight: 405,
-                placeholder: (_, __) => Shimmer.fromColors(
-                  baseColor: shimmerBase,
-                  highlightColor: shimmerHighlight,
-                  child: ColoredBox(color: shimmerFill),
-                ),
-              errorWidget: (_, __, ___) => ColoredBox(
-                color: AppTheme.surfaceElevated(context),
-                child: Icon(Icons.play_circle_outline_rounded,
-                    color: AppTheme.textMuted(context), size: 36),
-              ),
-            ),
           ),
         // Play button overlay — videos only. A play icon over a book
         // cover would be misleading since tapping opens a reader, not a

@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:timeago/timeago.dart' as timeago;
@@ -12,6 +11,7 @@ import '../services/rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/no_flash_page_route.dart';
+import '../widgets/video_thumbnail_image.dart';
 import 'shorts_player_screen.dart';
 import 'video_player_screen.dart';
 
@@ -267,26 +267,12 @@ class _VideosList extends StatelessWidget {
                     AspectRatio(
                       aspectRatio: 16 / 9,
                       child: Stack(fit: StackFit.expand, children: [
-                        CachedNetworkImage(imageUrl: v.thumbnailHd,
-                            fit: BoxFit.cover,
-                            memCacheWidth: 720,
-                            memCacheHeight: 405,
-                            placeholder: (_, __) {
-                              final isDark = Theme.of(context).brightness == Brightness.dark;
-                              return Shimmer.fromColors(
-                                baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
-                                highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
-                                child: ColoredBox(
-                                  color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
-                                ),
-                              );
-                            },
-                            errorWidget: (_, __, ___) => CachedNetworkImage(
-                                imageUrl: v.thumbnailMq, fit: BoxFit.cover,
-                                memCacheWidth: 720,
-                                memCacheHeight: 405,
-                                errorWidget: (_, __, ___) =>
-                                    const ColoredBox(color: Color(0xFF1E1E1E)))),
+                        VideoThumbnailImage(
+                          video: v,
+                          fit: BoxFit.cover,
+                          memCacheWidth: 720,
+                          memCacheHeight: 405,
+                        ),
                         Center(child: Container(width: 48, height: 48,
                             decoration: BoxDecoration(
                                 color: Colors.black.withValues(alpha: 0.6),
@@ -356,21 +342,12 @@ class _ShortsGrid extends StatelessWidget {
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: Stack(fit: StackFit.expand, children: [
-                  CachedNetworkImage(imageUrl: v.thumbnailMq, fit: BoxFit.cover,
-                      memCacheWidth: 360,
-                      memCacheHeight: 640,
-                      placeholder: (_, __) {
-                        final isDark = Theme.of(context).brightness == Brightness.dark;
-                        return Shimmer.fromColors(
-                          baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
-                          highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
-                          child: ColoredBox(
-                            color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
-                          ),
-                        );
-                      },
-                      errorWidget: (_, __, ___) =>
-                          const ColoredBox(color: Color(0xFF1E1E1E))),
+                  VideoThumbnailImage(
+                    video: v,
+                    fit: BoxFit.cover,
+                    memCacheWidth: 360,
+                    memCacheHeight: 640,
+                  ),
                   const DecoratedBox(decoration: BoxDecoration(
                       gradient: LinearGradient(
                           begin: Alignment.topCenter, end: Alignment.bottomCenter,

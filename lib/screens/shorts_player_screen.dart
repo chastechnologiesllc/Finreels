@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -11,6 +10,7 @@ import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/finreels_watermark.dart';
+import '../widgets/video_thumbnail_image.dart';
 import '../widgets/web_youtube_player.dart';
 
 /// Full-screen 9:16 Shorts player — TikTok/Reels-quality scroll UX.
@@ -621,22 +621,12 @@ class _ShortPageState extends State<_ShortPage>
               duration: kIsWeb
                   ? const Duration(milliseconds: 600)
                   : const Duration(milliseconds: 150),
-              child: CachedNetworkImage(
-                imageUrl: widget.video.thumbnailHd,
+              child: VideoThumbnailImage(
+                video: widget.video,
                 fit: BoxFit.cover,
-                fadeInDuration: Duration.zero,
-                fadeOutDuration: Duration.zero,
                 memCacheWidth: 720,
                 memCacheHeight: 405,
-                errorWidget: (_, __, ___) => CachedNetworkImage(
-                  imageUrl: widget.video.thumbnailMq,
-                  fit: BoxFit.cover,
-                  fadeInDuration: Duration.zero,
-                  memCacheWidth: 720,
-                  memCacheHeight: 405,
-                ),
               ),
-            ),
           ),
 
           LayoutBuilder(

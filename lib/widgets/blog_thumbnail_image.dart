@@ -61,9 +61,11 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
       }
       if (out.contains(url)) continue;
       out.add(url);
-      final proxied =
-          'https://wsrv.nl/?url=${Uri.encodeComponent(url)}';
+      final encoded = Uri.encodeComponent(url);
+      final proxied = 'https://wsrv.nl/?url=$encoded';
+      final legacyProxied = 'https://images.weserv.nl/?url=$encoded';
       if (!out.contains(proxied)) out.add(proxied);
+      if (!out.contains(legacyProxied)) out.add(legacyProxied);
     }
     return out;
   }

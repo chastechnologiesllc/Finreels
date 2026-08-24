@@ -17,6 +17,7 @@ import '../theme/app_theme.dart';
 import '../widgets/blog_thumbnail_image.dart';
 import '../widgets/book_cover_image.dart';
 import '../widgets/no_flash_page_route.dart';
+import '../widgets/video_thumbnail_image.dart';
 import 'blog_reader_screen.dart';
 import 'book_detail_screen.dart';
 import 'category_detail_screen.dart';
@@ -631,23 +632,11 @@ class _ShortCard extends StatelessWidget {
               fit: StackFit.expand,
               children: [
                 // Thumbnail
-                CachedNetworkImage(
-                  imageUrl:     v.thumbnailMq,
-                  fit:          BoxFit.cover,
+                VideoThumbnailImage(
+                  video: v,
+                  fit: BoxFit.cover,
                   memCacheWidth: 360,
                   memCacheHeight: 640,
-                  placeholder: (_, __) {
-                    final isDark = Theme.of(context).brightness == Brightness.dark;
-                    return Shimmer.fromColors(
-                      baseColor: isDark ? AppTheme.darkSurface : AppTheme.lightSurfaceElevated,
-                      highlightColor: isDark ? AppTheme.darkSurfaceElevated : AppTheme.lightBg,
-                      child: ColoredBox(
-                        color: isDark ? AppTheme.darkSurface : AppTheme.lightSurface,
-                      ),
-                    );
-                  },
-                  errorWidget:  (_, __, ___) =>
-                      const ColoredBox(color: Color(0xFF1E1E1E)),
                 ),
                 // Gradient
                 const DecoratedBox(
