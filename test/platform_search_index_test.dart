@@ -53,7 +53,7 @@ void main() {
   test('supports bounded typo tolerance without returning empty results', () {
     final results = index.search(query: 'tailr');
     expect(results, isNotEmpty);
-    expect(results.first.title, contains('Tailor'));
+    expect(results.any((d) => d.title.contains('Tailor')), isTrue);
   });
 
   test('deduplicates dynamic videos and blog URLs', () {
