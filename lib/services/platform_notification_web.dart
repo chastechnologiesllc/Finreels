@@ -2,7 +2,13 @@ import 'dart:js_interop';
 
 import 'package:web/web.dart' as web;
 
-String get browserNotificationPermission => web.Notification.permission.toString();
+String get browserNotificationPermission {
+  try {
+    return web.Notification.permission.toString();
+  } on Object {
+    return 'unsupported';
+  }
+}
 
 Future<bool> requestBrowserNotificationPermission() async {
   try {

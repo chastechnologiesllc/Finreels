@@ -10,6 +10,8 @@ Widget buildAdSenseUnit({
   required String clientId,
   required String slotId,
   required bool testMode,
+  required double width,
+  required double height,
 }) {
   final existing = web.document.querySelector(
     'script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]',
@@ -29,13 +31,20 @@ Widget buildAdSenseUnit({
   ui_web.platformViewRegistry.registerViewFactory(viewType, (int viewId) {
     final ins = web.document.createElement('ins') as web.HTMLElement;
     ins.className = 'adsbygoogle';
+    final widthCss = width.isFinite ? '${width}px' : '100%';
     ins.style.display = 'block';
-    ins.style.width = '100%';
-    ins.style.height = '100%';
+    ins.style.width = widthCss;
+    ins.style.height = '${height}px';
+    if (width.isFinite) ins.style.maxWidth = widthCss;
+    ins.style.maxHeight = '${height}px';
+    ins.style.overflow = 'hidden';
     ins.setAttribute('data-ad-client', clientId);
     ins.setAttribute('data-ad-slot', slotId);
-    ins.setAttribute('data-ad-format', 'auto');
-    ins.setAttribute('data-full-width-responsive', 'true');
+    ins.setAttribute(
+      'data-ad-format',
+      height >= 200 ? 'rectangle' : 'horizontal',
+    );
+    ins.setAttribute('data-full-width-responsive', 'false');
     if (testMode) {
       ins.setAttribute('data-adtest', 'on');
     }

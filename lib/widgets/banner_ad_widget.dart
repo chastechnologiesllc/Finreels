@@ -19,29 +19,41 @@ import 'adsense_banner_web.dart';
 // Fix: each _InlineBannerAd creates and owns its own BannerAd instance.
 // The global AdService banner is kept for the sticky bottom bar only.
 //
-// SIZING: both widgets now request a full-width ADAPTIVE anchored banner
-// (AdSize.getAnchoredAdaptiveBannerAdSize) sized to the ACTUAL width
-// available to the widget (measured via LayoutBuilder, so it automatically
-// matches whatever horizontal padding/margins the surrounding screen
-// applies — video cards, book grid rows, etc.) instead of the old fixed
-// 320×50 AdSize.banner, which rendered as a narrow strip that looked out
-// of place next to full-width content. Falls back to AdSize.banner only
-// if the adaptive API can't resolve a size for the given width.
+// SIZING: inline placements use fixed, standard ad geometries so their
+// rows reserve stable space before an asynchronous ad response arrives.
+// Large content placements use 300×250 medium rectangles; compact book and
+// utility placements use 320×50 banners. This prevents late ad layout shifts
+// from moving the surrounding ListView while keeping each source intentional.
+// The sticky bottom bar remains independently adaptive because it is outside
+// the scrolling content.
 //
 // Two widgets exported:
 //   LabelledBannerAd  — inline list placement (creates its own BannerAd)
 //   StickyBannerBar   — bottom of screen (uses AdService's shared instance)
 // ─────────────────────────────────────────────────────────────────────────────
 
+/// The two supported inline placements. Large placements are used between
+/// video/blog content; compact placements are used for books and utility bars.
+enum InlineBannerPlacement { compact, large }
+
 /// Inline banner — safe to place multiple times in a ListView/GridView.
-/// Each instance creates and owns its own [BannerAd], sized adaptively to
-/// the width available to it.
+/// Each instance owns its own ad and reserves its final height before the ad
+/// finishes loading, preventing a late ad response from moving the scroll.
 class LabelledBannerAd extends StatefulWidget {
-  /// Pass a [fixedSize] (e.g. [AdSize.mediumRectangle] for the 300×250 large
-  /// banner used on the Channels screen) to request a fixed format instead of
-  /// the default anchored-adaptive banner that fills available width.
-  const LabelledBannerAd({super.key, this.fixedSize});
+  /// [fixedSize] remains available for callers that need an exact AdMob size.
+  /// Otherwise compact is a 320×50 banner and large is a 300×250 rectangle.
+  const LabelledBannerAd({
+    super.key,
+    this.fixedSize,
+    this.placement = InlineBannerPlacement.compact,
+  });
   final AdSize? fixedSize;
+  final InlineBannerPlacement placement;
+
+  AdSize get requestedSize => fixedSize ??
+      (placement == InlineBannerPlacement.large
+          ? AdSize.mediumRectangle
+          : AdSize.banner);
 
   @override
   State<LabelledBannerAd> createState() => _LabelledBannerAdState();
@@ -73,17 +85,7 @@ class _LabelledBannerAdState extends State<LabelledBannerAd> {
 
   Future<void> _load(double width) async {
     if (!mounted) return;
-    final AdSize size;
-    if (widget.fixedSize != null) {
-      size = widget.fixedSize!;
-    } else {
-      final adaptive = await AdSize.getAnchoredAdaptiveBannerAdSize(
-        Orientation.portrait,
-        width.truncate(),
-      );
-      if (!mounted) return;
-      size = adaptive ?? AdSize.banner; // graceful fallback
-    }
+    final size = widget.requestedSize;
 
     await _ad?.dispose();
     _ad = BannerAd(
@@ -122,11 +124,16 @@ class _LabelledBannerAdState extends State<LabelledBannerAd> {
   Widget build(BuildContext context) {
     if (AdService.instance.adsRemoved) return const SizedBox.shrink();
 
-    // Web: AdMob is unavailable — show AdSense test unit in the same slots.
+    // Web: AdMob is unavailable. Keep the same fixed slot contract and let
+    // the Web implementation render the responsive AdSense creative inside it.
     if (kIsWeb) {
-      return const Padding(
-        padding: EdgeInsets.symmetric(vertical: 6),
-        child: AdSenseBanner(),
+      final size = widget.requestedSize;
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 6),
+        child: AdSenseBanner(
+          width: size.width.toDouble(),
+          height: size.height.toDouble(),
+        ),
       );
     }
 
@@ -143,8 +150,7 @@ class _LabelledBannerAdState extends State<LabelledBannerAd> {
           });
         }
 
-        if (!_loaded || _ad == null) return const SizedBox.shrink();
-
+        final reservedSize = widget.requestedSize;
         return Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -158,9 +164,11 @@ class _LabelledBannerAdState extends State<LabelledBannerAd> {
               ),
             ),
             SizedBox(
-              width:  _ad!.size.width.toDouble(),
-              height: _ad!.size.height.toDouble(),
-              child:  AdWidget(ad: _ad!),
+              width: reservedSize.width.toDouble(),
+              height: reservedSize.height.toDouble(),
+              child: _loaded && _ad != null
+                  ? AdWidget(ad: _ad!)
+                  : const ColoredBox(color: Colors.transparent),
             ),
             const SizedBox(height: 4),
           ],

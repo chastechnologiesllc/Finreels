@@ -12,19 +12,24 @@ import 'platform_notification.dart';
 import 'rss_service.dart';
 import 'user_profile_service.dart';
 
+enum NotificationPermissionState { granted, denied, defaultState, unsupported, unknown }
+
 class NotificationService {
   NotificationService._();
   static final NotificationService instance = NotificationService._();
 
   final _plugin = FlutterLocalNotificationsPlugin();
   bool _initialized = false;
+  Future<void>? _initFuture;
   DateTime? _lastForegroundCheck;
   Future<void>? _foregroundCheck;
 
   static const _foregroundCheckInterval = Duration(minutes: 10);
 
   // ── Init ────────────────────────────────────────────────────────────────────
-  Future<void> init() async {
+  Future<void> init() => _initFuture ??= _initInternal();
+
+  Future<void> _initInternal() async {
     if (kIsWeb) {
       _initialized = true;
       return;
@@ -81,9 +86,49 @@ class NotificationService {
     _initialized = true;
   }
 
-  // ── Permission Request ──────────────────────────────────────────────────────
+  // ── Permission State and Request ────────────────────────────────────────────
+  Future<NotificationPermissionState> permissionState() async {
+    if (kIsWeb) {
+      switch (browserNotificationPermission) {
+        case 'granted':
+          return NotificationPermissionState.granted;
+        case 'denied':
+          return NotificationPermissionState.denied;
+        case 'default':
+          return NotificationPermissionState.defaultState;
+        default:
+          return NotificationPermissionState.unsupported;
+      }
+    }
+    if (!_initialized) await init();
+    final androidPlugin = _plugin
+        .resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>();
+    if (androidPlugin != null) {
+      final enabled = await androidPlugin.areNotificationsEnabled();
+      if (enabled != null) {
+        return enabled
+            ? NotificationPermissionState.granted
+            : NotificationPermissionState.denied;
+      }
+    }
+    final iosPlugin = _plugin
+        .resolvePlatformSpecificImplementation<
+            IOSFlutterLocalNotificationsPlugin>();
+    if (iosPlugin != null) {
+      final options = await iosPlugin.checkPermissions();
+      if (options != null) {
+        return options.isEnabled
+            ? NotificationPermissionState.granted
+            : NotificationPermissionState.denied;
+      }
+    }
+    return NotificationPermissionState.unknown;
+  }
+
   Future<bool> requestPermission() async {
     if (kIsWeb) return requestBrowserNotificationPermission();
+    if (!_initialized) await init();
     final iosPlugin = _plugin
         .resolvePlatformSpecificImplementation<
             IOSFlutterLocalNotificationsPlugin>();
@@ -347,8 +392,36 @@ class NotificationService {
     return prefs.getBool(AppConfig.prefNotificationsEnabled) ?? true;
   }
 
-  Future<void> setNotificationsEnabled(bool enabled) async {
+  Future<bool> setNotificationsEnabled(bool enabled) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setBool(AppConfig.prefNotificationsEnabled, enabled);
+    if (!enabled) {
+      await prefs.setBool(AppConfig.prefNotificationsEnabled, false);
+      return true;
+    }
+
+    final requested = await requestPermission();
+    final state = await permissionState();
+    final granted = state == NotificationPermissionState.granted ||
+        (state == NotificationPermissionState.unknown && requested);
+    await prefs.setBool(AppConfig.prefNotificationsEnabled, granted);
+    return granted;
+  }
+
+  Future<bool> openSystemNotificationSettings() async {
+    if (kIsWeb) return false;
+    if (!_initialized) await init();
+    final androidPlugin = _plugin
+        .resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>();
+    if (androidPlugin != null) {
+      return await androidPlugin.openAppNotificationSettings() ?? false;
+    }
+    final iosPlugin = _plugin
+        .resolvePlatformSpecificImplementation<
+            IOSFlutterLocalNotificationsPlugin>();
+    if (iosPlugin != null) {
+      return await iosPlugin.openAppNotificationSettings() ?? false;
+    }
+    return false;
   }
 }

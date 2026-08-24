@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:shimmer/shimmer.dart';
@@ -284,7 +283,7 @@ class _FeedBodyState extends State<_FeedBody> {
               if (isAdSlot)
                 const Padding(
                   padding: EdgeInsets.symmetric(vertical: 10),
-                  child: LabelledBannerAd(fixedSize: AdSize.mediumRectangle),
+                  child: const LabelledBannerAd(placement: InlineBannerPlacement.large),
                 ),
               Padding(
                 padding: const EdgeInsets.only(bottom: 14),

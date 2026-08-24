@@ -9,9 +9,14 @@ import 'adsense_banner_impl_stub.dart'
 /// Web-only AdSense banner using the official test client/slot by default.
 /// Mirrors [LabelledBannerAd] placement on Android/iOS.
 class AdSenseBanner extends StatelessWidget {
+  final double width;
   final double height;
 
-  const AdSenseBanner({super.key, this.height = 90});
+  const AdSenseBanner({
+    super.key,
+    this.width = double.infinity,
+    this.height = 50,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -30,12 +35,14 @@ class AdSenseBanner extends StatelessWidget {
           ),
         ),
         SizedBox(
-          width: double.infinity,
+          width: width,
           height: height,
           child: impl.buildAdSenseUnit(
             clientId: AppConfig.adsenseClientId,
             slotId: AppConfig.adsenseTestSlot,
             testMode: AppConfig.adsenseTestMode,
+            width: width,
+            height: height,
           ),
         ),
       ],

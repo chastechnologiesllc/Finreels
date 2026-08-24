@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
@@ -156,7 +155,7 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
               if (i > 0 && i % 3 == 0)
                 const Padding(
                   padding: EdgeInsets.only(bottom: 14),
-                  child: LabelledBannerAd(fixedSize: AdSize.mediumRectangle),
+                  child: const LabelledBannerAd(placement: InlineBannerPlacement.large),
                 ),
               RepaintBoundary(
                 child: _BlogCard(

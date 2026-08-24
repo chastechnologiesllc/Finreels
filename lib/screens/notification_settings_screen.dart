@@ -14,26 +14,92 @@ class NotificationSettingsScreen extends StatefulWidget {
 }
 
 class _NotificationSettingsScreenState
-    extends State<NotificationSettingsScreen> {
+    extends State<NotificationSettingsScreen>
+    with WidgetsBindingObserver {
   bool _enabled = true;
   bool _loading = true;
+  bool _saving = false;
+  NotificationPermissionState _permission = NotificationPermissionState.unknown;
 
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     _load();
   }
 
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed && !_saving) {
+      _load();
+    }
+  }
+
   Future<void> _load() async {
-    final enabled =
-        await NotificationService.instance.areNotificationsEnabled();
-    if (mounted) setState(() { _enabled = enabled; _loading = false; });
+    final service = NotificationService.instance;
+    final enabled = await service.areNotificationsEnabled();
+    final permission = await service.permissionState();
+    if (mounted) {
+      setState(() {
+        _enabled = enabled && permission == NotificationPermissionState.granted;
+        _permission = permission;
+        _loading = false;
+      });
+    }
   }
 
   Future<void> _toggle(bool value) async {
-    setState(() => _enabled = value);
-    await NotificationService.instance.setNotificationsEnabled(value);
-    if (value) await NotificationService.instance.requestPermission();
+    if (_saving) return;
+    setState(() => _saving = true);
+    final service = NotificationService.instance;
+    final enabled = await service.setNotificationsEnabled(value);
+    final permission = await service.permissionState();
+    if (!mounted) return;
+    setState(() {
+      _enabled = enabled && value;
+      _permission = permission;
+      _saving = false;
+    });
+    if (value && !enabled) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            kIsWeb
+                ? 'Browser notifications were not enabled. Allow them in site settings and try again.'
+                : 'Notifications are blocked. Allow FinReels in system notification settings.',
+          ),
+          action: kIsWeb
+              ? null
+              : SnackBarAction(
+                  label: 'OPEN SETTINGS',
+                  onPressed: () {
+                    service.openSystemNotificationSettings();
+                  },
+                ),
+        ),
+      );
+    }
+  }
+
+  String get _permissionDescription {
+    switch (_permission) {
+      case NotificationPermissionState.granted:
+        return 'Permission granted';
+      case NotificationPermissionState.denied:
+        return kIsWeb ? 'Blocked by browser' : 'Blocked by system settings';
+      case NotificationPermissionState.defaultState:
+        return 'Permission not requested';
+      case NotificationPermissionState.unsupported:
+        return 'Notifications are not supported here';
+      case NotificationPermissionState.unknown:
+        return 'Permission status unavailable';
+    }
   }
 
   @override
@@ -108,9 +174,7 @@ class _NotificationSettingsScreenState
                           ),
                           const SizedBox(height: 3),
                           Text(
-                            kIsWeb
-                                ? 'Shows while FinReels is open after browser permission.'
-                                : 'Checks for new uploads in the background when the OS allows it.',
+                            '$_permissionDescription · ${kIsWeb ? 'Web foreground check' : 'OS background check'}',
                             maxLines: 2,
                             overflow: TextOverflow.ellipsis,
                             style: Theme.of(context).textTheme.labelSmall?.copyWith(
@@ -122,7 +186,7 @@ class _NotificationSettingsScreenState
                     ),
                     Switch(
                       value: _enabled,
-                      onChanged: _toggle,
+                      onChanged: _saving ? null : _toggle,
                       activeThumbColor: AppTheme.gold,
                     ),
                   ],
