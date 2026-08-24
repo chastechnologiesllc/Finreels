@@ -32,6 +32,23 @@ class BlogArticle {
     this.excerpt = '',
     this.categoryId,
   });
+
+  BlogArticle copyWith({
+    String? thumbnailUrl,
+    List<String>? thumbnailFallbackUrls,
+  }) {
+    return BlogArticle(
+      title: title,
+      url: url,
+      sourceName: sourceName,
+      publishedAt: publishedAt,
+      thumbnailUrl: thumbnailUrl ?? this.thumbnailUrl,
+      thumbnailFallbackUrls:
+          thumbnailFallbackUrls ?? this.thumbnailFallbackUrls,
+      excerpt: excerpt,
+      categoryId: categoryId,
+    );
+  }
 }
 
 /// Business, wealth and personal-growth RSS sources.
@@ -237,7 +254,7 @@ class BlogRssService {
 
   Future<List<BlogArticle>> _parseBody(
       String body, String sourceName, String? categoryId, String baseUrl) async {
-    return compute<List<String>, List<BlogArticle>>(
+    final articles = await compute<List<String>, List<BlogArticle>>(
       (args) => _parse(
         args[0],
         args[1],
@@ -246,6 +263,7 @@ class BlogRssService {
       ),
       [body, sourceName, categoryId ?? '', baseUrl],
     );
+    return _hydrateThumbnailCandidates(articles);
   }
 
   /// Discovers RSS/Atom alternates from an HTML landing page and includes a
@@ -350,6 +368,98 @@ class BlogRssService {
     return completer.future;
   }
 
+  Future<List<BlogArticle>> _hydrateThumbnailCandidates(
+      List<BlogArticle> articles) async {
+    final targets = articles
+        .where((article) => article.thumbnailFallbackUrls.length < 2)
+        .take(40)
+        .toList(growable: false);
+    if (targets.isEmpty) return articles;
+
+    final hydrated = await Future.wait(targets.map(_hydrateArticleThumbnail));
+    final byUrl = <String, BlogArticle>{
+      for (final article in hydrated) article.url: article,
+    };
+    return [
+      for (final article in articles) byUrl[article.url] ?? article,
+    ];
+  }
+
+  Future<BlogArticle> _hydrateArticleThumbnail(BlogArticle article) async {
+    try {
+      final html = kIsWeb
+          ? await _fetchWebBody(article.url, article.sourceName)
+          : await _fetchNativeHtml(article.url);
+      if (html == null || html.length < 50) return article;
+
+      final raw = <String?>[
+        ..._pageImageMetaCandidates(html),
+        _firstImgSrc(html),
+      ];
+      final candidates = _normaliseThumbnailCandidates([
+        article.thumbnailUrl,
+        ...article.thumbnailFallbackUrls,
+        ...raw,
+      ], article.url);
+      if (candidates.isEmpty) return article;
+      return article.copyWith(
+        thumbnailUrl: candidates.first,
+        thumbnailFallbackUrls: candidates.skip(1).take(7).toList(growable: false),
+      );
+    } on Exception catch (e) {
+      debugPrint('[BlogRssService] Article image lookup failed: $e');
+      return article;
+    }
+  }
+
+  Future<String?> _fetchNativeHtml(String url) async {
+    final response = await http.get(Uri.parse(url), headers: {
+      'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
+      'Accept': 'text/html;q=0.9',
+    }).timeout(const Duration(seconds: 10));
+    if (response.statusCode != 200 ||
+        !response.headers['content-type'].toString().contains('text/html')) {
+      return null;
+    }
+    return response.body;
+  }
+
+  static List<String> _pageImageMetaCandidates(String html) {
+    final found = <String>[];
+    final metaTags = RegExp(r'''<meta\b[^>]*>''', caseSensitive: false);
+    final imageMeta = RegExp(
+      r'''(?:property|name)\s*=\s*["'](?:og:image|twitter:image|twitter:image:src)["']''',
+      caseSensitive: false,
+    );
+    final content = RegExp(
+      r'''content\s*=\s*["']([^"']+)["']''',
+      caseSensitive: false,
+    );
+    for (final tag in metaTags.allMatches(html)) {
+      final raw = tag.group(0) ?? '';
+      if (!imageMeta.hasMatch(raw)) continue;
+      final value = content.firstMatch(raw)?.group(1);
+      if (value != null && value.isNotEmpty) found.add(value);
+    }
+
+    final linkTags = RegExp(r'''<link\b[^>]*>''', caseSensitive: false);
+    final imageLink = RegExp(
+      r'''rel\s*=\s*["'](?:image_src|image)["']''',
+      caseSensitive: false,
+    );
+    final href = RegExp(
+      r'''href\s*=\s*["']([^"']+)["']''',
+      caseSensitive: false,
+    );
+    for (final tag in linkTags.allMatches(html)) {
+      final raw = tag.group(0) ?? '';
+      if (!imageLink.hasMatch(raw)) continue;
+      final value = href.firstMatch(raw)?.group(1);
+      if (value != null && value.isNotEmpty) found.add(value);
+    }
+    return found;
+  }
+
   static List<BlogArticle> _parse(
       String body, String sourceName, String? categoryId, String baseUrl) {
     try {
@@ -359,7 +469,8 @@ class BlogRssService {
       final rssItems = doc.findAllElements('item');
       if (rssItems.isNotEmpty) {
         return rssItems.map((item) {
-          final link = _text(item, 'link') ?? _text(item, 'guid') ?? '';
+          final rawLink = _text(item, 'link') ?? _text(item, 'guid') ?? '';
+          final link = _resolveHttpUrl(rawLink, baseUrl);
           if (link.isEmpty) return null;
 
           // Keep every image candidate in priority order. The card advances
@@ -407,8 +518,10 @@ class BlogRssService {
       final atomEntries = doc.findAllElements('entry');
       if (atomEntries.isNotEmpty) {
         return atomEntries.map((entry) {
-          final link = entry.findElements('link').firstOrNull
-              ?.getAttribute('href') ?? '';
+          final rawLink = entry.findElements('link').firstOrNull
+                  ?.getAttribute('href') ??
+              '';
+          final link = _resolveHttpUrl(rawLink, baseUrl);
           if (link.isEmpty) return null;
 
           // Keep every Atom image candidate in priority order so the card can
@@ -450,6 +563,16 @@ class BlogRssService {
       debugPrint('[BlogRssService] Parse error for $sourceName: $e');
     }
     return [];
+  }
+
+  static String _resolveHttpUrl(String value, String baseUrl) {
+    final trimmed = value.trim();
+    if (trimmed.isEmpty) return '';
+    final base = Uri.tryParse(baseUrl);
+    if (base == null) return '';
+    final resolved = base.resolve(trimmed);
+    if (resolved.scheme != 'http' && resolved.scheme != 'https') return '';
+    return resolved.toString();
   }
 
   static List<String> _normaliseThumbnailCandidates(

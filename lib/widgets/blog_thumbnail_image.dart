@@ -59,7 +59,11 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
           (parsed.scheme != 'http' && parsed.scheme != 'https')) {
         continue;
       }
-      if (!out.contains(url)) out.add(url);
+      if (out.contains(url)) continue;
+      out.add(url);
+      final proxied =
+          'https://wsrv.nl/?url=${Uri.encodeComponent(url)}';
+      if (!out.contains(proxied)) out.add(proxied);
     }
     return out;
   }

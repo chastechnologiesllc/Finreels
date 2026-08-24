@@ -15,3 +15,9 @@ The guarded all-catalog enrichment run scanned the 2,150 unresolved records. It 
 ## Blog thumbnail policy
 
 Blog RSS/Atom parsing now preserves ordered candidates from image enclosures, `media:content`, `media:thumbnail`, and first images found in `content:encoded`, `description`, `content`, or `summary`. Relative candidates are resolved against the feed URL and invalid/data/tracking candidates are discarded. The new `BlogThumbnailImage` widget retries those candidates before showing a branded article placeholder.
+
+## Cross-origin fallback research
+
+The wsrv.nl FAQ describes the service as a public, open-source image service providing image caching and resizing through a proxy. It is suitable as a last-resort delivery adapter for remote image URLs when the original host blocks browser cross-origin requests, but it is an external dependency without an SLA. It should therefore be used only as a derived delivery fallback after the original exact URL, not as a replacement source or a way to alter book identity. Source: https://wsrv.nl/faq/
+
+The `CachedNetworkImage` Flutter web path can be affected by cross-origin restrictions when the origin does not send permissive CORS headers. In a GitHub Pages deployment, app-side URL fallbacks can improve delivery only when the target or proxy returns a browser-loadable image; they cannot repair a missing or incorrect source image.

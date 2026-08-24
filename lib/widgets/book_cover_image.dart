@@ -78,7 +78,16 @@ class _BookCoverImageState extends State<BookCoverImage> {
             })
             .toString();
       }
-      if (trimmed.isNotEmpty && !out.contains(trimmed)) out.add(trimmed);
+      if (trimmed.isEmpty || out.contains(trimmed)) return;
+      out.add(trimmed);
+      final uri = Uri.tryParse(trimmed);
+      if (uri == null || (uri.scheme != 'http' && uri.scheme != 'https') ||
+          uri.host.toLowerCase() == 'wsrv.nl') {
+        return;
+      }
+      final proxied =
+          'https://wsrv.nl/?url=${Uri.encodeComponent(trimmed)}';
+      if (!out.contains(proxied)) out.add(proxied);
     }
 
     for (final seed in seeds) {
