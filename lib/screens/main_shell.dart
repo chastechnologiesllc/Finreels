@@ -118,23 +118,19 @@ class _MainShellState extends State<MainShell> {
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(
-      body: Stack(
-        children: [
-          // Full screen content — visible behind the floating nav
-          IndexedStack(index: _index, children: _screens),
-
-          // Floating bottom nav
-          Positioned(
-            bottom: 16,
-            left: 20,
-            right: 20,
-            child: _FloatingNavBar(
-              currentIndex: _index,
-              isDark: isDark,
-              onTap: (i) => setState(() => _index = i),
-            ),
-          ),
-        ],
+      extendBody: true,
+      body: IndexedStack(index: _index, children: _screens),
+      bottomNavigationBar: SafeArea(
+        top: false,
+        minimum: const EdgeInsets.fromLTRB(20, 0, 20, 16),
+        child: _FloatingNavBar(
+          currentIndex: _index,
+          isDark: isDark,
+          onTap: (i) {
+            if (i == _index) return;
+            setState(() => _index = i);
+          },
+        ),
       ),
     );
   }
@@ -187,39 +183,51 @@ class _FloatingNavBar extends StatelessWidget {
           final item = _items[i];
           final isActive = i == currentIndex;
           return Expanded(
-            child: GestureDetector(
-              behavior: HitTestBehavior.opaque,
-              onTap: () => onTap(i),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  AnimatedSwitcher(
-                    duration: const Duration(milliseconds: 200),
-                    child: Icon(
-                      isActive ? item.$2 : item.$1,
-                      key: ValueKey(isActive),
-                      color: isActive
-                          ? AppTheme.gold
-                          : (isDark
-                              ? AppTheme.darkTextMuted
-                              : AppTheme.lightTextMuted),
-                      size: isActive ? 26 : 24,
+            child: Semantics(
+              button: true,
+              selected: isActive,
+              label: item.$3,
+              child: Material(
+                type: MaterialType.transparency,
+                child: InkWell(
+                  key: ValueKey('main-tab-$i'),
+                  borderRadius: BorderRadius.circular(30),
+                  onTap: () => onTap(i),
+                  child: SizedBox.expand(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        AnimatedSwitcher(
+                          duration: const Duration(milliseconds: 200),
+                          child: Icon(
+                            isActive ? item.$2 : item.$1,
+                            key: ValueKey(isActive),
+                            color: isActive
+                                ? AppTheme.gold
+                                : (isDark
+                                    ? AppTheme.darkTextMuted
+                                    : AppTheme.lightTextMuted),
+                            size: isActive ? 26 : 24,
+                          ),
+                        ),
+                        const SizedBox(height: 3),
+                        Text(
+                          item.$3,
+                          style: TextStyle(
+                            color: isActive
+                                ? AppTheme.gold
+                                : (isDark
+                                    ? AppTheme.darkTextMuted
+                                    : AppTheme.lightTextMuted),
+                            fontSize: 10,
+                            fontWeight:
+                                isActive ? FontWeight.w700 : FontWeight.w400,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
-                  const SizedBox(height: 3),
-                  Text(
-                    item.$3,
-                    style: TextStyle(
-                      color: isActive
-                          ? AppTheme.gold
-                          : (isDark
-                              ? AppTheme.darkTextMuted
-                              : AppTheme.lightTextMuted),
-                      fontSize: 10,
-                      fontWeight: isActive ? FontWeight.w700 : FontWeight.w400,
-                    ),
-                  ),
-                ],
+                ),
               ),
             ),
           );
