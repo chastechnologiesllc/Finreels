@@ -22,6 +22,7 @@ import 'services/iap_service.dart';
 import 'services/notification_service.dart';
 import 'services/notification_store.dart';
 import 'services/user_profile_service.dart';
+import 'services/web_boot.dart';
 import 'theme/app_theme.dart';
 import 'widgets/ad_block_overlay.dart';
 import 'widgets/connectivity_overlay.dart';
@@ -122,8 +123,11 @@ class _SplashGate extends StatefulWidget {
 }
 
 class _SplashGateState extends State<_SplashGate> {
-  bool _splashDone = false;
+  // Web uses the static HTML boot screen instead of building a second Flutter
+  // splash. Native platforms retain the existing Flutter splash handoff.
+  bool _splashDone = kIsWeb;
   bool _initDone = false;
+  bool _webBootReadySent = false;
 
   // Holds fully-initialised providers, set after init completes.
   FeedProvider? _feedProvider;
@@ -255,7 +259,14 @@ class _SplashGateState extends State<_SplashGate> {
   /// Transitions to the shell only when both conditions are met.
   void _maybeTransition() {
     if (_splashDone && _initDone && mounted) {
+      final signalWebBoot = kIsWeb && !_webBootReadySent;
+      if (signalWebBoot) _webBootReadySent = true;
       setState(() {}); // Triggers the build that shows the shell.
+      if (signalWebBoot) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (mounted) markWebBootReady();
+        });
+      }
     }
   }
 
@@ -277,7 +288,10 @@ class _SplashGateState extends State<_SplashGate> {
       );
     }
 
-    // Splash is shown immediately and holds until both flags are true.
+    // Web keeps the static HTML boot screen over this transparent Flutter
+    // first frame until _maybeTransition signals the first usable shell.
+    // Android/iOS continue to use the shared Flutter splash widget.
+    if (kIsWeb) return const SizedBox.shrink();
     return SplashScreen(onComplete: _onSplashComplete);
   }
 }

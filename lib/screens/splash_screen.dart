@@ -76,7 +76,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
             // ── Tagline ───────────────────────────────────────────────────────
             const Text(
-              'Financial Literacy · Unlocked',
+              'Opening your learning space…',
               style: TextStyle(
                 color: AppTheme.gold,
                 fontSize: 14,

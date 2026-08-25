@@ -78,8 +78,8 @@
       background-color: #000000 !important;
     }
 
-    /* Paint a tiny, dependency-free boot state before Flutter's JS bundle
-       downloads. It is removed on the flutter-first-frame event below. */
+    /* Paint the same splash composition as the mobile/iOS Flutter splash
+       before Flutter's JS bundle downloads. It is the only Web splash. */
     #finreels-web-boot {
       position: fixed;
       inset: 0;
@@ -98,36 +98,54 @@
     #finreels-web-boot .boot-content {
       display: grid;
       justify-items: center;
-      gap: 14px;
+      gap: 0;
     }
     #finreels-web-boot .boot-mark {
       display: grid;
       place-items: center;
-      width: 62px;
-      height: 62px;
-      border-radius: 18px;
-      background: #d49a1e;
+      width: 96px;
+      height: 96px;
+      border-radius: 26px;
+      background: radial-gradient(circle at top left, #fbbf24 0%, #f59e0b 58%, #d97706 100%);
       color: #ffffff;
-      font-size: 36px;
+      font-size: 54px;
       font-weight: 800;
       line-height: 1;
     }
     #finreels-web-boot .boot-name {
-      font-size: 24px;
+      margin-top: 24px;
+      color: #0a0a0a;
+      font-size: 38px;
       font-weight: 800;
-      letter-spacing: -0.6px;
+      letter-spacing: -1.5px;
+      line-height: 1;
     }
     #finreels-web-boot .boot-status {
-      color: #6f6f6f;
-      font-size: 13px;
+      margin-top: 8px;
+      color: #f59e0b;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+    #finreels-web-boot .boot-by {
+      position: absolute;
+      bottom: 40px;
+      color: #0a0a0a;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
     }
     @media (prefers-color-scheme: dark) {
       #finreels-web-boot {
         background: #000000;
         color: #ffffff;
       }
+      #finreels-web-boot .boot-name,
+      #finreels-web-boot .boot-by {
+        color: #f5f5f5;
+      }
       #finreels-web-boot .boot-status {
-        color: #aaaaaa;
+        color: #f59e0b;
       }
     }
   </style>
@@ -144,6 +162,7 @@
       <div class="boot-name">FinReels</div>
       <div class="boot-status">Opening your learning space…</div>
     </div>
+    <div class="boot-by">by chAs</div>
   </div>
   <script>
     (function () {
@@ -155,7 +174,7 @@
           if (boot.parentNode) boot.parentNode.removeChild(boot);
         }, 220);
       }
-      window.addEventListener('flutter-first-frame', hideBoot, { once: true });
+      window.addEventListener('finreels-app-ready', hideBoot, { once: true });
       // Never leave the static boot layer over a failed or unusually slow
       // Flutter bootstrap; the app's own recovery UI must remain reachable.
       window.setTimeout(hideBoot, 12000);
