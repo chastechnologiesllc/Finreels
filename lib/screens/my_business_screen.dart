@@ -35,11 +35,13 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
   bool _searchFocused = false;
   final _searchKey = GlobalKey();
   late final FocusNode _searchFocusNode;
+  late final TextEditingController _searchController;
 
   @override
   void initState() {
     super.initState();
     _searchFocusNode = FocusNode()..addListener(_handleSearchFocus);
+    _searchController = TextEditingController();
     _selected = {...UserProfileService.instance.selectedCategoryIds};
     if (_loading) {
       ResourceCategoryData.loadCategories().then((_) {
@@ -53,12 +55,14 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
     _searchFocusNode
       ..removeListener(_handleSearchFocus)
       ..dispose();
+    _searchController.dispose();
     super.dispose();
   }
 
   void _handleSearchFocus() {
     if (!mounted) return;
     final focused = _searchFocusNode.hasFocus;
+    if (focused == _searchFocused) return;
     setState(() => _searchFocused = focused);
     if (focused) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -199,6 +203,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                     Container(
                       key: _searchKey,
                       child: _SearchField(
+                        controller: _searchController,
                         focusNode: _searchFocusNode,
                         onChanged: _setQuery,
                       ),
@@ -247,6 +252,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
           child: Container(
             key: _searchKey,
             child: _SearchField(
+              controller: _searchController,
               focusNode: _searchFocusNode,
               onChanged: _setQuery,
             ),
@@ -400,10 +406,15 @@ class _OnboardingBrand extends StatelessWidget {
 }
 
 class _SearchField extends StatelessWidget {
+  final TextEditingController controller;
   final ValueChanged<String> onChanged;
   final FocusNode focusNode;
 
-  const _SearchField({required this.onChanged, required this.focusNode});
+  const _SearchField({
+    required this.controller,
+    required this.onChanged,
+    required this.focusNode,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -417,6 +428,7 @@ class _SearchField extends StatelessWidget {
         textField: true,
         label: 'Search your profession, skill, or business',
         child: TextField(
+          controller: controller,
           focusNode: focusNode,
           onChanged: onChanged,
           keyboardType: TextInputType.text,

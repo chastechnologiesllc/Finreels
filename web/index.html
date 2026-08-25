@@ -193,10 +193,10 @@
           if (boot.parentNode) boot.parentNode.removeChild(boot);
         }, 220);
       }
+      // This is the only Web splash. Keep it in place until Flutter has
+      // painted the first usable onboarding or shell frame; hiding on an
+      // earlier engine frame would create a blank/second-page transition.
       window.addEventListener('finreels-app-ready', hideBoot, { once: true });
-      // Never leave the static boot layer over a failed or unusually slow
-      // Flutter bootstrap; the app's own recovery UI must remain reachable.
-      window.setTimeout(hideBoot, 12000);
     }());
   </script>
   <script src="flutter_bootstrap.js" async></script>
