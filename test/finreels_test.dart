@@ -84,17 +84,15 @@ void main() {
     });
 
     testWidgets('onboarding explains the first action clearly', (tester) async {
+      // Load the small taxonomy before mounting. Doing this outside the
+      // widget lifecycle avoids a test-zone deadlock around rootBundle while
+      // still exercising the real category index used by the picker.
+      await ResourceCategoryData.loadCategories();
       await tester.pumpWidget(
         const MaterialApp(
           home: MyBusinessScreen(isOnboarding: true),
         ),
       );
-      // Await the real bundled-index read explicitly; bounded frame pumps
-      // alone do not guarantee that an asynchronous rootBundle load has
-      // completed on the first Web/Android test isolate.
-      await tester.runAsync(() async {
-        await ResourceCategoryData.loadCategories();
-      });
       await tester.pump();
       expect(find.text('Welcome to FinReels'), findsOneWidget);
       expect(find.text('Watch lessons'), findsOneWidget);
