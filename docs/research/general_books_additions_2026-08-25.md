@@ -24,7 +24,7 @@ This batch adds **13 source-verified open textbooks** to the General library. Th
 
 ## Cover policy
 
-The generated asset `assets/books/finreels_book_cover_fallback.png` is a branded **FinReels Open Library — Book Cover Fallback** cover. `BookCoverImage` now uses it for missing, empty, or exhausted cover candidates, and retains the small icon-only fallback only if the bundled asset itself cannot be decoded. Exact-edition candidates remain identifier-driven: ISBN URLs are allowed when the ISBN is verified by the source record, while the three records without an independently verified ISBN cover intentionally use the branded fallback rather than an unrelated title search result.
+The generated asset `assets/books/finreels_book_cover_fallback.png` is a branded **FinReels Open Library** cover. `BookCoverImage` now uses it for missing, empty, or exhausted cover candidates, and retains the small icon-only fallback only if the bundled asset itself cannot be decoded. Exact-edition candidates remain identifier-driven: ISBN URLs are allowed when the ISBN is verified by the source record, while the three records without an independently verified ISBN cover intentionally use the branded fallback rather than an unrelated title search result.
 
 The cover delivery chain still tries direct URLs, bounded `wsrv.nl` and legacy `images.weserv.nl` alternatives, provider size variants, Gutenberg variants, and Internet Archive variants only when the source URL or identifier identifies the same edition/work. This is a best-effort delivery chain; public image hosts can impose rate limits, origin filters, or availability changes.
 
