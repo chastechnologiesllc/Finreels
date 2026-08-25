@@ -3,6 +3,7 @@ import 'package:finreels/data/channel_data.dart';
 import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/video.dart';
 import 'package:finreels/utils/category_search.dart';
+import 'package:finreels/widgets/book_cover_image.dart';
 import 'package:finreels/widgets/finreels_shimmer.dart';
 import 'package:finreels/widgets/video_thumbnail_image.dart';
 import 'package:flutter/material.dart';
@@ -27,6 +28,23 @@ void main() {
       );
       await tester.pump();
       expect(find.byIcon(Icons.play_circle_outline_rounded), findsOneWidget);
+    });
+
+    testWidgets('missing book covers render the bundled FinReels fallback',
+        (tester) async {
+      await tester.pumpWidget(
+        const MaterialApp(
+          home: SizedBox(
+            width: 100,
+            height: 140,
+            child: BookCoverImage(url: ''),
+          ),
+        ),
+      );
+      await tester.pump();
+      final image = tester.widget<Image>(find.byType(Image));
+      expect((image.image as AssetImage).assetName,
+          'assets/books/finreels_book_cover_fallback.png');
     });
 
     testWidgets('shimmer builds in both light and dark themes', (tester) async {

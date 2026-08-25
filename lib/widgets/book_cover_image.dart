@@ -242,6 +242,17 @@ class _BookCoverImageState extends State<BookCoverImage> {
   }
 
   Widget _fallback(BuildContext context) {
+    return Image.asset(
+      'assets/books/finreels_book_cover_fallback.png',
+      width: widget.width,
+      height: widget.height,
+      fit: widget.fit,
+      semanticLabel: 'FinReels open library book cover fallback',
+      errorBuilder: (_, __, ___) => _fallbackIcon(),
+    );
+  }
+
+  Widget _fallbackIcon() {
     final iconSize =
         (widget.width != null && widget.width! < 80) ? 22.0 : 40.0;
     return Container(
