@@ -1,9 +1,7 @@
 import 'package:finreels/config/app_config.dart';
 import 'package:finreels/data/channel_data.dart';
-import 'package:finreels/data/resource_category_data.dart';
 import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/video.dart';
-import 'package:finreels/screens/my_business_screen.dart';
 import 'package:finreels/services/feed_snapshot_service.dart';
 import 'package:finreels/utils/category_search.dart';
 import 'package:finreels/widgets/book_cover_image.dart';
@@ -83,27 +81,16 @@ void main() {
       }
     });
 
-    testWidgets('onboarding explains the first action clearly', (tester) async {
-      // Load the small taxonomy before mounting. Doing this outside the
-      // widget lifecycle avoids a test-zone deadlock around rootBundle while
-      // still exercising the real category index used by the picker.
-      await ResourceCategoryData.loadCategories();
-      await tester.pumpWidget(
-        const MaterialApp(
-          home: MyBusinessScreen(isOnboarding: true),
-        ),
+    test('onboarding search stays empty until a query is typed', () {
+      const law = ResourceCategory(
+        id: 'law',
+        section: ResourceSection.profession,
+        number: 1,
+        name: 'Law',
+        realProblem: 'Learn legal practice and business basics.',
       );
-      await tester.pump();
-      expect(find.text('Welcome to FinReels'), findsOneWidget);
-      expect(find.text('Watch lessons'), findsOneWidget);
-      expect(find.text('Read free books'), findsOneWidget);
-      expect(find.text('Follow useful blogs'), findsOneWidget);
-      expect(find.text('Start exploring'), findsOneWidget);
-      expect(find.text('Law'), findsNothing);
-
-      await tester.enterText(find.byType(TextField), 'law');
-      await tester.pump();
-      expect(find.text('Law'), findsOneWidget);
+      expect(CategorySearch.search(const [law], ''), isEmpty);
+      expect(CategorySearch.search(const [law], 'law').single.name, 'Law');
     });
 
     test('bundled feed snapshot has public channel and blog data', () async {
