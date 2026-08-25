@@ -88,7 +88,11 @@ void main() {
           home: MyBusinessScreen(isOnboarding: true),
         ),
       );
-      await tester.pumpAndSettle();
+      // The picker has no user-facing animation requirement; use bounded
+      // pumps so an unrelated platform ticker cannot make this regression
+      // test wait forever.
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 100));
       expect(find.text('Welcome to FinReels'), findsOneWidget);
       expect(find.text('Watch lessons'), findsOneWidget);
       expect(find.text('Read free books'), findsOneWidget);
