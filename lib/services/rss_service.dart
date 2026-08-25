@@ -90,12 +90,15 @@ class RssService {
   static final RssService instance = RssService._();
 
   static const Duration _cacheTtl = Duration(minutes: 30);
+  static const Duration _historyCacheTtl = Duration(minutes: 10);
   static const String _kData = 'rss_v3_data_';
   static const String _kTs   = 'rss_v3_ts_';
 
   // In-memory session cache
   final Map<String, List<Video>> _mem   = {};
   final Map<String, DateTime>    _memTs = {};
+  final Map<String, List<Video>> _historyMem = {};
+  final Map<String, DateTime>    _historyMemTs = {};
 
   SharedPreferences? _prefs;
   Future<SharedPreferences> _getPrefs() async =>
@@ -116,6 +119,9 @@ class RssService {
     int staggerMs = 0,
     bool includeHistory = false,
   }) async {
+    if (includeHistory && !forceRefresh && _isHistoryFresh(channelId)) {
+      return _historyMem[channelId]!;
+    }
     if (!includeHistory && !forceRefresh && _isMemFresh(channelId)) {
       return _mem[channelId]!;
     }
@@ -137,8 +143,12 @@ class RssService {
       includeHistory: includeHistory,
     );
     if (videos != null && videos.isNotEmpty) {
-      _setMem(channelId, videos);
-      await _diskWrite(channelId, videos);
+      if (includeHistory) {
+        _setHistoryMem(channelId, videos);
+      } else {
+        _setMem(channelId, videos);
+        await _diskWrite(channelId, videos);
+      }
       return videos;
     }
 
@@ -243,10 +253,14 @@ class RssService {
   }
 
   Future<List<Video>?> _tryFetchNative(String channelId) async {
-    final urls = [
+    final urls = <String>[
       'https://www.youtube.com/feeds/videos.xml?channel_id=$channelId',
-      'https://www.youtube.com/feeds/videos.xml?playlist_id=UU${channelId.substring(2)}',
     ];
+    if (channelId.startsWith('UC') && channelId.length > 2) {
+      urls.add(
+        'https://www.youtube.com/feeds/videos.xml?playlist_id=UU${channelId.substring(2)}',
+      );
+    }
 
     for (final url in urls) {
       try {
@@ -290,9 +304,18 @@ class RssService {
       _mem.containsKey(id) &&
       DateTime.now().difference(_memTs[id]!) < _cacheTtl;
 
+  bool _isHistoryFresh(String id) =>
+      _historyMem.containsKey(id) &&
+      DateTime.now().difference(_historyMemTs[id]!) < _historyCacheTtl;
+
   void _setMem(String id, List<Video> v) {
     _mem[id]   = v;
     _memTs[id] = DateTime.now();
+  }
+
+  void _setHistoryMem(String id, List<Video> v) {
+    _historyMem[id] = List.unmodifiable(v);
+    _historyMemTs[id] = DateTime.now();
   }
 
   // ── Disk cache ────────────────────────────────────────────────────────────────
@@ -331,10 +354,12 @@ class RssService {
     final prefs = await _getPrefs();
     if (channelId != null) {
       _mem.remove(channelId); _memTs.remove(channelId);
+      _historyMem.remove(channelId); _historyMemTs.remove(channelId);
       await prefs.remove('$_kData$channelId');
       await prefs.remove('$_kTs$channelId');
     } else {
       _mem.clear(); _memTs.clear();
+      _historyMem.clear(); _historyMemTs.clear();
       for (final k in prefs.getKeys()
           .where((k) => k.startsWith(_kData) || k.startsWith(_kTs))) {
         await prefs.remove(k);

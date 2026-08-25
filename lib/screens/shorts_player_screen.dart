@@ -82,6 +82,12 @@ class _ShortsPlayerScreenState extends State<ShortsPlayerScreen> {
   @override
   void dispose() {
     if (!kIsWeb) {
+      SystemChrome.setPreferredOrientations(const [
+        DeviceOrientation.portraitUp,
+        DeviceOrientation.portraitDown,
+        DeviceOrientation.landscapeLeft,
+        DeviceOrientation.landscapeRight,
+      ]);
       SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     }
     _pageController.dispose();
@@ -314,7 +320,7 @@ class _ShortPage extends StatefulWidget {
 class _ShortPageState extends State<_ShortPage>
     with AutomaticKeepAliveClientMixin<_ShortPage>, WidgetsBindingObserver {
   @override
-  bool get wantKeepAlive => true;
+  bool get wantKeepAlive => widget.isActive || widget.controller != null;
 
   bool _ready = false;
   bool _playing = false;
@@ -362,6 +368,11 @@ class _ShortPageState extends State<_ShortPage>
   @override
   void didUpdateWidget(_ShortPage old) {
     super.didUpdateWidget(old);
+
+    if (widget.isActive != old.isActive ||
+        widget.controller != old.controller) {
+      updateKeepAlive();
+    }
 
     if (widget.controller != old.controller) {
       _bindController(widget.controller);

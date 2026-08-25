@@ -18,6 +18,7 @@ class ConnectivityService {
   static final ConnectivityService instance = ConnectivityService._();
 
   final _statusController = StreamController<NetworkStatus>.broadcast();
+  final Connectivity _connectivity = Connectivity();
   Stream<NetworkStatus> get statusStream => _statusController.stream;
 
   NetworkStatus _current = NetworkStatus.checking;
@@ -27,31 +28,47 @@ class ConnectivityService {
   Timer? _slowPollTimer;
   StreamSubscription<List<ConnectivityResult>>? _connectivitySub;
   bool _disposed = false;
+  bool _initialized = false;
+  Future<void>? _checkInFlight;
 
   Future<void> init() async {
+    if (_initialized || _disposed) return;
+    _initialized = true;
     await _runCheck();
 
-    _connectivitySub = Connectivity().onConnectivityChanged.listen((_) async {
-      await _runCheck();
+    _connectivitySub = _connectivity.onConnectivityChanged.listen((_) {
+      unawaited(_runCheck());
     });
 
-    _pollTimer = Timer.periodic(const Duration(seconds: 5), (_) async {
+    _pollTimer = Timer.periodic(const Duration(seconds: 5), (_) {
       if (_current != NetworkStatus.online) {
-        await _runCheck();
+        unawaited(_runCheck());
       }
     });
 
-    _slowPollTimer = Timer.periodic(const Duration(seconds: 30), (_) async {
+    _slowPollTimer = Timer.periodic(const Duration(seconds: 30), (_) {
       if (_current == NetworkStatus.online) {
-        await _runCheck();
+        unawaited(_runCheck());
       }
     });
   }
 
-  Future<void> _runCheck() async {
-    if (_disposed) return;
+  /// Coalesces connectivity events, retry taps, and timer ticks into one
+  /// probe. A slow or flaky connection must not create overlapping batches of
+  /// HTTP requests that compete with feed and blog traffic.
+  Future<void> _runCheck() {
+    if (_disposed) return Future<void>.value();
+    final existing = _checkInFlight;
+    if (existing != null) return existing;
 
-    final result = await Connectivity().checkConnectivity();
+    final future = _performCheck();
+    _checkInFlight = future;
+    return future;
+  }
+
+  Future<void> _performCheck() async {
+    try {
+      final result = await _connectivity.checkConnectivity();
     final hasAdapter = result.any(
       (r) => r != ConnectivityResult.none && r != ConnectivityResult.bluetooth,
     );
@@ -61,8 +78,13 @@ class ConnectivityService {
       return;
     }
 
-    final hasData = await _verifyInternetAccess();
-    _emit(hasData ? NetworkStatus.online : NetworkStatus.noInternet);
+      final hasData = await _verifyInternetAccess();
+      _emit(hasData ? NetworkStatus.online : NetworkStatus.noInternet);
+    } on Object catch (_) {
+      _emit(NetworkStatus.noInternet);
+    } finally {
+      _checkInFlight = null;
+    }
   }
 
   Future<bool> _verifyInternetAccess() async {
@@ -88,7 +110,7 @@ class ConnectivityService {
     // Web: if CORS-friendly probes all fail but browser reports a live adapter,
     // prefer online so feed loading is not blocked by a false offline state.
     if (kIsWeb && successCount == 0) {
-      final result = await Connectivity().checkConnectivity();
+      final result = await _connectivity.checkConnectivity();
       return result.any((r) => r != ConnectivityResult.none);
     }
 

@@ -554,11 +554,17 @@ class FeedProvider extends ChangeNotifier {
   }
 
   Future<void> _loadDiskCache() async {
-    final snap = <String, List<Video>>{};
-    for (final ch in ChannelData.combined) {
-      final cached = await RssService.instance.getCached(ch.id);
-      if (cached.isNotEmpty) snap[ch.id] = cached;
-    }
+    final channelIds = LinkedHashSet<String>.from(
+      ChannelData.combined.map((ch) => ch.id).where((id) => id.isNotEmpty),
+    );
+    final cachedEntries = await Future.wait(channelIds.map((channelId) async {
+      final cached = await RssService.instance.getCached(channelId);
+      return MapEntry(channelId, cached);
+    }));
+    final snap = <String, List<Video>>{
+      for (final entry in cachedEntries)
+        if (entry.value.isNotEmpty) entry.key: entry.value,
+    };
     if (snap.isNotEmpty) {
       _videosByChannel = Map.unmodifiable(snap);
       _tabCache.clear();
@@ -585,10 +591,21 @@ class FeedProvider extends ChangeNotifier {
   // ── Refresh ───────────────────────────────────────────────────────────────────
 
   DateTime? _lastForcedRefreshAt;
+  Future<void>? _refreshInFlight;
 
   /// [silent] = true → skip loading spinner, update quietly in background.
   /// Used on app resume and on init when cache is already visible.
-  Future<void> refresh({bool force = false, bool silent = false}) async {
+  Future<void> refresh({bool force = false, bool silent = false}) {
+    final existing = _refreshInFlight;
+    if (existing != null) return existing;
+
+    final future = _refreshInternal(force: force, silent: silent);
+    _refreshInFlight = future;
+    return future;
+  }
+
+  Future<void> _refreshInternal({required bool force, required bool silent}) async {
+    try {
     if (!silent) {
       _state = FeedState.loading;
       _errorMessage = null;
@@ -616,20 +633,38 @@ class FeedProvider extends ChangeNotifier {
 
     final snap = <String, List<Video>>{};
 
-    // Staggered parallel: channel[i] waits i×50 ms before its first request.
-    // All run concurrently inside Future.wait — total time ≈ slowest fetch.
-    // 50 ms stagger is enough separation to avoid hammering YouTube;
-    // 200 ms (the old value) added 2.2 s of unnecessary overhead for 12 channels.
+    // Keep a small worker pool instead of starting every channel at once.
+    // Each worker still staggers its first request, but six concurrent channel
+    // fetches is substantially gentler on low-end phones and browser proxies
+    // than multiplying every channel by two CORS proxy requests.
+    final results = List<List<Video>?>.filled(channels.length, null);
+    var nextIndex = 0;
+    Future<void> fetchWorker() async {
+      while (true) {
+        final index = nextIndex++;
+        if (index >= channels.length) return;
+        final ch = channels[index];
+        try {
+          results[index] = await RssService.instance.fetchVideos(
+            ch.id,
+            forceRefresh: force,
+            staggerMs: index * 50,
+          );
+        } on Object catch (e) {
+          debugPrint('[FeedProvider] channel ${ch.id} failed: $e');
+          results[index] = const [];
+        }
+      }
+    }
+
+    final workerCount = min(6, channels.length);
     await Future.wait(
-      List.generate(channels.length, (i) async {
-        final ch = channels[i];
-        snap[ch.id] = await RssService.instance.fetchVideos(
-          ch.id,
-          forceRefresh: force,
-          staggerMs:    i * 50,
-        );
-      }),
+      List.generate(workerCount, (_) => fetchWorker()),
     );
+    for (var i = 0; i < channels.length; i++) {
+      final videos = results[i];
+      if (videos != null) snap[channels[i].id] = videos;
+    }
 
     final total = snap.values.fold(0, (s, l) => s + l.length);
 
@@ -644,7 +679,10 @@ class FeedProvider extends ChangeNotifier {
 
     if (force) _lastForcedRefreshAt = DateTime.now();
 
-    notifyListeners();
+      notifyListeners();
+    } finally {
+      _refreshInFlight = null;
+    }
   }
 
   /// Called when the app resumes from the background. Forces a true

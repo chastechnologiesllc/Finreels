@@ -563,7 +563,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   // Widget-tree layout (mobile):
   //
   //   Stack (expand)
-  //   ├─ Layer 0  Thumbnail (CachedNetworkImage) — ALWAYS mounted, never
+  //   ├─ Layer 0  Thumbnail (VideoThumbnailImage) — ALWAYS mounted, never
   //   │                                            torn down. Provides visual
   //   │                                            continuity during pre-warm
   //   │                                            and load, and persists as

@@ -3,6 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/semantics.dart';
 import 'package:flutter/services.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
@@ -48,6 +49,12 @@ void main() {
     // Must be the very first line — no await before this.
     WidgetsFlutterBinding.ensureInitialized();
 
+    // Flutter Web keeps the semantics DOM opt-in for performance. FinReels is
+    // a public content app, so make screen-reader support available by default.
+    if (kIsWeb) {
+      SemanticsBinding.instance.ensureSemantics();
+    }
+
     FlutterError.onError = (FlutterErrorDetails details) {
       FlutterError.presentError(details);
       debugPrint('[crash] Flutter error: ${details.exceptionAsString()}');
@@ -57,13 +64,9 @@ void main() {
       return true; // handled — do not let it crash the process
     };
 
-    // Only orientation lock here — a fast synchronous call.
+    // Keep the main experience orientation-adaptive. Individual player routes
+    // still request landscape or portrait when their media controls require it.
     if (!kIsWeb) {
-      await SystemChrome.setPreferredOrientations([
-        DeviceOrientation.portraitUp,
-        DeviceOrientation.portraitDown,
-      ]);
-
       // Edge-to-edge: the app draws fully behind the status bar and
       // navigation bar/gesture area, with MediaQuery padding correctly
       // reporting those insets so SafeArea/Scaffold still lay content out

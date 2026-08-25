@@ -78,18 +78,22 @@ class AdService extends ChangeNotifier {
 
   bool _adsRemoved  = false;
   bool _initialized = false;
-
+  Future<void>? _initFuture;
   bool get adsRemoved => _adsRemoved;
-
   // ── Init ──────────────────────────────────────────────────────────────────
-  Future<void> init() async {
+  Future<void> init() => _initFuture ??= _initInternal();
+
+  Future<void> _initInternal() async {
     if (kIsWeb) {
       // AdMob is mobile-only. Web ships without ads for now.
       _initialized = true;
       return;
     }
     await _loadAdsRemovedStatus();
-    if (_adsRemoved) return;
+    if (_adsRemoved) {
+      _initialized = true;
+      return;
+    }
 
     // GDPR/UK/Swiss consent MUST be gathered before the Mobile Ads SDK
     // initializes — see ConsentService and the manifest's

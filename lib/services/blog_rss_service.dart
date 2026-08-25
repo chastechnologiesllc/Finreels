@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math' as math;
 
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
@@ -376,7 +377,23 @@ class BlogRssService {
         .toList(growable: false);
     if (targets.isEmpty) return articles;
 
-    final hydrated = await Future.wait(targets.map(_hydrateArticleThumbnail));
+    // Hydration visits article pages only to discover missing image metadata.
+    // Keep the work bounded so a Blogs refresh cannot open 40 simultaneous
+    // browser/native requests on a slower connection or lower-end device.
+    var nextIndex = 0;
+    Future<List<BlogArticle>> hydrateWorker() async {
+      final output = <BlogArticle>[];
+      while (true) {
+        final index = nextIndex++;
+        if (index >= targets.length) return output;
+        output.add(await _hydrateArticleThumbnail(targets[index]));
+      }
+    }
+
+    final workerCount = math.min(4, targets.length);
+    final hydrated = (await Future.wait(
+      List.generate(workerCount, (_) => hydrateWorker()),
+    )).expand((batch) => batch);
     final byUrl = <String, BlogArticle>{
       for (final article in hydrated) article.url: article,
     };

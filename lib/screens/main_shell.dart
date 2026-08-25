@@ -22,6 +22,7 @@ class MainShell extends StatefulWidget {
 
 class _MainShellState extends State<MainShell> {
   int _index = 0;
+  bool _handlingPendingDeepLink = false;
 
   static const _screens = [
     HomeScreen(),
@@ -34,7 +35,20 @@ class _MainShellState extends State<MainShell> {
   void initState() {
     super.initState();
     // Handles cold-launch deep link (app was not running when notif was tapped).
-    WidgetsBinding.instance.addPostFrameCallback((_) => _handlePendingDeepLink());
+    _schedulePendingDeepLink(waitForColdStart: true);
+  }
+
+  void _schedulePendingDeepLink({bool waitForColdStart = false}) {
+    if (_handlingPendingDeepLink ||
+        (!waitForColdStart && NotificationService.pendingVideoId == null)) {
+      return;
+    }
+    _handlingPendingDeepLink = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      unawaited(_handlePendingDeepLink().whenComplete(() {
+        _handlingPendingDeepLink = false;
+      }));
+    });
   }
 
   /// Full deep-link handler. Works for both cold and warm launches.
@@ -110,10 +124,7 @@ class _MainShellState extends State<MainShell> {
   @override
   Widget build(BuildContext context) {
     // Warm-launch: app was already running when notification was tapped.
-    if (NotificationService.pendingVideoId != null) {
-      WidgetsBinding.instance
-          .addPostFrameCallback((_) => _handlePendingDeepLink());
-    }
+    _schedulePendingDeepLink();
 
     final isDark = Theme.of(context).brightness == Brightness.dark;
 

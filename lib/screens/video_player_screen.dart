@@ -209,8 +209,13 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     _controller
       ..removeListener(_onUpdate)
       ..dispose();
-    // Always restore portrait when leaving this screen.
-    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+    // Restore the adaptive app orientation policy when leaving the player.
+    SystemChrome.setPreferredOrientations(const [
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
+    ]);
     if (!kIsWeb) {
       SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     }

@@ -35,10 +35,16 @@ class AdBlockService {
   AdBlockStatus get current => _current;
 
   bool _disposed = false;
+  bool _initialized = false;
   Timer? _periodicTimer;
+  StreamSubscription<NetworkStatus>? _connectivitySub;
+  Future<void>? _checkInFlight;
 
   // ── Init ─────────────────────────────────────────────────────────────────────
   Future<void> init() async {
+    if (_initialized || _disposed) return;
+    _initialized = true;
+
     // Ad-block probing relies on DNS/TCP failure signatures that are not
     // meaningful in a browser (extensions, CORS). Skip on web.
     if (kIsWeb) {
@@ -47,10 +53,10 @@ class AdBlockService {
     }
 
     // React to connectivity changes
-    ConnectivityService.instance.statusStream.listen((status) async {
+    _connectivitySub = ConnectivityService.instance.statusStream.listen((status) {
       if (_disposed) return;
       if (status == NetworkStatus.online) {
-        await runCheck();
+        unawaited(runCheck());
         _startPeriodicCheck();
       } else {
         // No internet — cannot determine ad-block status; reset quietly.
@@ -68,18 +74,27 @@ class AdBlockService {
 
   void _startPeriodicCheck() {
     _periodicTimer?.cancel();
-    _periodicTimer = Timer.periodic(const Duration(minutes: 5), (_) async {
+    _periodicTimer = Timer.periodic(const Duration(minutes: 5), (_) {
       if (ConnectivityService.instance.current == NetworkStatus.online) {
-        await runCheck();
+        unawaited(runCheck());
       }
     });
   }
 
   // ── Core Check ───────────────────────────────────────────────────────────────
-  Future<void> runCheck() async {
-    if (_disposed) return;
+  Future<void> runCheck() {
+    if (_disposed) return Future<void>.value();
+    final existing = _checkInFlight;
+    if (existing != null) return existing;
 
-    // Step 1 — Re-verify internet with neutral endpoints before touching ad URLs.
+    final future = _performCheck();
+    _checkInFlight = future;
+    return future;
+  }
+
+  Future<void> _performCheck() async {
+    try {
+      // Step 1 — Re-verify internet with neutral endpoints before touching ad URLs.
     // If neutral endpoints also fail, it's a network issue, NOT an ad blocker.
     final internetOk = await _verifyNeutralInternet();
     if (!internetOk) {
@@ -129,8 +144,11 @@ class AdBlockService {
 
     // Only flag as blocked when ALL 4 ad endpoints fail at network/DNS level
     // while neutral internet is confirmed working. This eliminates false positives.
-    final isBlocked = dnsBlockCount >= AppConfig.adCheckEndpoints.length;
-    _emit(isBlocked ? AdBlockStatus.blocked : AdBlockStatus.clear);
+      final isBlocked = dnsBlockCount >= AppConfig.adCheckEndpoints.length;
+      _emit(isBlocked ? AdBlockStatus.blocked : AdBlockStatus.clear);
+    } finally {
+      _checkInFlight = null;
+    }
   }
 
   // ── Neutral Internet Verification ─────────────────────────────────────────────
@@ -165,6 +183,7 @@ class AdBlockService {
   void dispose() {
     _disposed = true;
     _periodicTimer?.cancel();
+    unawaited(_connectivitySub?.cancel());
     _statusController.close();
   }
 }

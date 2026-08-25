@@ -29,6 +29,37 @@ class VideoThumbnailImage extends StatefulWidget {
     this.borderRadius,
   });
 
+  /// Adapter for player surfaces that only retain a YouTube ID and a primary
+  /// poster URL. It keeps the landscape route on the same fallback path as
+  /// feed cards without widening that route’s constructor contract.
+  factory VideoThumbnailImage.forVideoId({
+    required String videoId,
+    String? thumbnailUrl,
+    String title = 'Video',
+    Key? key,
+    BoxFit fit = BoxFit.cover,
+    int? memCacheWidth,
+    int? memCacheHeight,
+    BorderRadius? borderRadius,
+  }) {
+    return VideoThumbnailImage(
+      key: key,
+      video: Video(
+        id: videoId,
+        title: title,
+        description: '',
+        channelId: 'youtube',
+        channelName: '',
+        publishedAt: DateTime.fromMillisecondsSinceEpoch(0),
+        thumbnailUrl: thumbnailUrl ?? '',
+      ),
+      fit: fit,
+      memCacheWidth: memCacheWidth,
+      memCacheHeight: memCacheHeight,
+      borderRadius: borderRadius,
+    );
+  }
+
   @override
   State<VideoThumbnailImage> createState() => _VideoThumbnailImageState();
 }
@@ -154,8 +185,12 @@ class _VideoThumbnailImageState extends State<VideoThumbnailImage> {
 
   @override
   Widget build(BuildContext context) {
+    final safeIndex = _index < _candidates.length ? _index : _candidates.length - 1;
+    final candidate = _candidates[safeIndex];
+    if (candidate.isEmpty) return _fallback(context);
+
     final image = CachedNetworkImage(
-      imageUrl: _candidates[_index],
+      imageUrl: candidate,
       fit: widget.fit,
       memCacheWidth: widget.memCacheWidth,
       memCacheHeight: widget.memCacheHeight,

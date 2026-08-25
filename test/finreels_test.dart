@@ -3,10 +3,48 @@ import 'package:finreels/data/channel_data.dart';
 import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/video.dart';
 import 'package:finreels/utils/category_search.dart';
+import 'package:finreels/widgets/finreels_shimmer.dart';
+import 'package:finreels/widgets/video_thumbnail_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  // ── Shared loading surfaces ───────────────────────────────────────────────────
+  group('Shared loading surfaces', () {
+    test('uses a visible animation period', () {
+      expect(FinreelsShimmer.animationPeriod.inMilliseconds, 950);
+    });
+
+    testWidgets('empty video IDs render a fallback without a network image',
+        (tester) async {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: VideoThumbnailImage.forVideoId(
+            videoId: '',
+            thumbnailUrl: '',
+          ),
+        ),
+      );
+      await tester.pump();
+      expect(find.byIcon(Icons.play_arrow_rounded), findsOneWidget);
+    });
+
+    testWidgets('shimmer builds in both light and dark themes', (tester) async {
+      for (final brightness in [Brightness.light, Brightness.dark]) {
+        await tester.pumpWidget(
+          MaterialApp(
+            theme: ThemeData(brightness: brightness),
+            home: const FinreelsShimmer(
+              child: SizedBox(width: 80, height: 24),
+            ),
+          ),
+        );
+        await tester.pump();
+        expect(find.byType(FinreelsShimmer), findsOneWidget);
+      }
+    });
+  });
+
   // ── Video Model ─────────────────────────────────────────────────────────────
   group('Video model', () {
     final video = Video(

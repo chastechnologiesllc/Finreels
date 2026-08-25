@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 import '../theme/app_theme.dart';
 import '../widgets/finreels_watermark.dart';
+import '../widgets/video_thumbnail_image.dart';
 
 /// Dedicated landscape-only full-screen player.
 ///
@@ -96,8 +96,13 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
     _controller
       ?..removeListener(_onUpdate)
       ..dispose();
-    // Restore portrait and system UI for the screen below.
-    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+    // Restore the adaptive app orientation policy for the screen below.
+    SystemChrome.setPreferredOrientations(const [
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
+    ]);
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     super.dispose();
   }
@@ -221,11 +226,10 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
           // ── Thumbnail cover — hides black flash before first frame ─────
           if (!_hasStarted && widget.thumbnailUrl != null)
             Positioned.fill(
-              child: CachedNetworkImage(
-                imageUrl: widget.thumbnailUrl!,
+              child: VideoThumbnailImage.forVideoId(
+                videoId: widget.videoId,
+                thumbnailUrl: widget.thumbnailUrl,
                 fit: BoxFit.cover,
-                fadeInDuration: Duration.zero,
-                fadeOutDuration: Duration.zero,
                 memCacheWidth: 1280,
                 memCacheHeight: 720,
               ),
