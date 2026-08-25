@@ -26,7 +26,7 @@ void main() {
         ),
       );
       await tester.pump();
-      expect(find.byIcon(Icons.play_arrow_rounded), findsOneWidget);
+      expect(find.byIcon(Icons.play_circle_outline_rounded), findsOneWidget);
     });
 
     testWidgets('shimmer builds in both light and dark themes', (tester) async {
