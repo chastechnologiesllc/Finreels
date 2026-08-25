@@ -38,7 +38,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
     super.initState();
     _selected = {...UserProfileService.instance.selectedCategoryIds};
     if (_loading) {
-      ResourceCategoryData.load().then((_) {
+      ResourceCategoryData.loadCategories().then((_) {
         if (mounted) setState(() => _loading = false);
       });
     }
@@ -113,47 +113,148 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
   }
 
   Widget _buildOnboardingBody(BuildContext context) {
+    final awarenessItems = [
+      (Icons.ondemand_video_rounded, 'Watch lessons',
+          'Learn from clear videos and Shorts.'),
+      (Icons.menu_book_rounded, 'Read free books',
+          'Build useful skills at your own pace.'),
+      (Icons.article_rounded, 'Follow useful blogs',
+          'Find ideas and practical guidance.'),
+    ];
+
     return Column(
       children: [
         Expanded(
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.fromLTRB(20, 110, 20, 32),
-            child: Center(
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 520),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    const Icon(Icons.explore_rounded,
-                        size: 46, color: AppTheme.gold),
-                    const SizedBox(height: 20),
-                    Text(
-                      'What do you want to do with FinReels?',
-                      textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                            fontWeight: FontWeight.w800,
-                            letterSpacing: -0.4,
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              final isWide = constraints.maxWidth >= 760;
+              return SingleChildScrollView(
+                padding: const EdgeInsets.fromLTRB(20, 28, 20, 32),
+                child: Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 820),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Semantics(
+                          header: true,
+                          child: Column(
+                            children: [
+                              Container(
+                                width: 64,
+                                height: 64,
+                                decoration: BoxDecoration(
+                                  color: AppTheme.gold,
+                                  borderRadius: BorderRadius.circular(18),
+                                ),
+                                child: const Icon(Icons.play_arrow_rounded,
+                                    color: Colors.white, size: 38),
+                              ),
+                              const SizedBox(height: 18),
+                              Text(
+                                'Welcome to FinReels',
+                                textAlign: TextAlign.center,
+                                style: Theme.of(context)
+                                    .textTheme
+                                    .headlineSmall
+                                    ?.copyWith(
+                                      fontWeight: FontWeight.w800,
+                                      letterSpacing: -0.4,
+                                    ),
+                              ),
+                              const SizedBox(height: 8),
+                              Text(
+                                'Learn money. Grow your work. Take your next step.',
+                                textAlign: TextAlign.center,
+                                style: Theme.of(context)
+                                    .textTheme
+                                    .bodyLarge
+                                    ?.copyWith(
+                                      color: AppTheme.textSecondary(context),
+                                      height: 1.4,
+                                    ),
+                              ),
+                            ],
                           ),
-                    ),
-                    const SizedBox(height: 10),
-                    Text(
-                      'Search your profession, skills and businesses',
-                      textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                            color: AppTheme.textSecondary(context),
-                            height: 1.45,
+                        ),
+                        const SizedBox(height: 28),
+                        Text(
+                          'Here is what you can do',
+                          textAlign: TextAlign.center,
+                          style: Theme.of(context)
+                              .textTheme
+                              .titleMedium
+                              ?.copyWith(fontWeight: FontWeight.w800),
+                        ),
+                        const SizedBox(height: 12),
+                        if (isWide)
+                          Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              for (var i = 0; i < awarenessItems.length; i++)
+                                Expanded(
+                                  child: Padding(
+                                    padding: EdgeInsets.only(
+                                      right: i == awarenessItems.length - 1 ? 0 : 10,
+                                    ),
+                                    child: _AwarenessItem(
+                                      icon: awarenessItems[i].$1,
+                                      title: awarenessItems[i].$2,
+                                      description: awarenessItems[i].$3,
+                                    ),
+                                  ),
+                                ),
+                            ],
+                          )
+                        else
+                          Column(
+                            children: [
+                              for (final item in awarenessItems)
+                                Padding(
+                                  padding: const EdgeInsets.only(bottom: 10),
+                                  child: _AwarenessItem(
+                                    icon: item.$1,
+                                    title: item.$2,
+                                    description: item.$3,
+                                  ),
+                                ),
+                            ],
                           ),
+                        const SizedBox(height: 20),
+                        Text(
+                          'First, tell us what you do',
+                          style: Theme.of(context)
+                              .textTheme
+                              .titleMedium
+                              ?.copyWith(fontWeight: FontWeight.w800),
+                        ),
+                        const SizedBox(height: 6),
+                        Text(
+                          'Search your profession, skill, or business. This helps us show you better content.',
+                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                color: AppTheme.textSecondary(context),
+                                height: 1.4,
+                              ),
+                        ),
+                        const SizedBox(height: 14),
+                        _SearchField(onChanged: _setQuery),
+                        const SizedBox(height: 10),
+                        if (_query.isEmpty)
+                          Text(
+                            'Type a word to see matching choices. You can choose more than one, or start exploring now.',
+                            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                  color: AppTheme.textMuted(context),
+                                  height: 1.35,
+                                ),
+                          )
+                        else
+                          _buildSearchResults(context),
+                      ],
                     ),
-                    const SizedBox(height: 28),
-                    _SearchField(onChanged: _setQuery),
-                    if (_query.isNotEmpty) ...[
-                      const SizedBox(height: 20),
-                      _buildSearchResults(context),
-                    ],
-                  ],
+                  ),
                 ),
-              ),
-            ),
+              );
+            },
           ),
         ),
         _buildSaveBar(context),
@@ -241,7 +342,13 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
             elevation: 0,
           ),
           child: Text(
-            _selected.isEmpty ? 'Skip for now' : 'Save (${_selected.length} selected)',
+            widget.isOnboarding
+                ? (_selected.isEmpty
+                    ? 'Start exploring'
+                    : 'Continue (${_selected.length} selected)')
+                : (_selected.isEmpty
+                    ? 'Skip for now'
+                    : 'Save (${_selected.length} selected)'),
             style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
           ),
         ),
@@ -276,6 +383,56 @@ class _OnboardingBrand extends StatelessWidget {
   }
 }
 
+class _AwarenessItem extends StatelessWidget {
+  final IconData icon;
+  final String title;
+  final String description;
+
+  const _AwarenessItem({
+    required this.icon,
+    required this.title,
+    required this.description,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Semantics(
+      label: '$title. $description',
+      child: Container(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: AppTheme.surfaceColor(context),
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: AppTheme.dividerColor(context), width: 0.5),
+        ),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Icon(icon, color: AppTheme.gold, size: 26),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(title,
+                      style: Theme.of(context)
+                          .textTheme
+                          .titleSmall
+                          ?.copyWith(fontWeight: FontWeight.w800)),
+                  const SizedBox(height: 3),
+                  Text(description,
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: AppTheme.textSecondary(context), height: 1.3)),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
 class _SearchField extends StatelessWidget {
   final ValueChanged<String> onChanged;
 
@@ -289,16 +446,22 @@ class _SearchField extends StatelessWidget {
         borderRadius: BorderRadius.circular(12),
         border: Border.all(color: AppTheme.dividerColor(context), width: 0.5),
       ),
-      child: TextField(
-        onChanged: onChanged,
-        style: TextStyle(color: AppTheme.textColor(context)),
-        decoration: InputDecoration(
-          hintText: 'Type what you do — e.g. "tailor", "law", "solar"…',
-          hintStyle: TextStyle(color: AppTheme.textMuted(context)),
-          prefixIcon: Icon(Icons.search_rounded,
-              color: AppTheme.textMuted(context)),
-          border: InputBorder.none,
-          contentPadding: const EdgeInsets.symmetric(vertical: 12),
+      child: Semantics(
+        textField: true,
+        label: 'Search your profession, skill, or business',
+        child: TextField(
+          onChanged: onChanged,
+          textInputAction: TextInputAction.search,
+          style: TextStyle(color: AppTheme.textColor(context)),
+          decoration: InputDecoration(
+            labelText: 'Search your profession, skill, or business',
+            hintText: 'Try “nurse”, “law”, “tailor”, or “solar”',
+            hintStyle: TextStyle(color: AppTheme.textMuted(context)),
+            prefixIcon: Icon(Icons.search_rounded,
+                color: AppTheme.textMuted(context)),
+            border: InputBorder.none,
+            contentPadding: const EdgeInsets.symmetric(vertical: 12),
+          ),
         ),
       ),
     );

@@ -14,8 +14,11 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    // Allow animations to play then call onComplete
-    Future.delayed(const Duration(milliseconds: 2800), widget.onComplete);
+    // Keep the brand moment brief: the Web shell and native launch theme are
+    // already visible before Flutter paints, so a long 2.8s hold only delays
+    // the first useful action. The animation completes comfortably within this
+    // window while slow service initialization continues independently.
+    Future.delayed(const Duration(milliseconds: 900), widget.onComplete);
   }
 
   @override

@@ -77,6 +77,59 @@
     flt-platform-view iframe {
       background-color: #000000 !important;
     }
+
+    /* Paint a tiny, dependency-free boot state before Flutter's JS bundle
+       downloads. It is removed on the flutter-first-frame event below. */
+    #finreels-web-boot {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: grid;
+      place-items: center;
+      background: #ffffff;
+      color: #111111;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      transition: opacity 180ms ease-out;
+    }
+    #finreels-web-boot.is-hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    #finreels-web-boot .boot-content {
+      display: grid;
+      justify-items: center;
+      gap: 14px;
+    }
+    #finreels-web-boot .boot-mark {
+      display: grid;
+      place-items: center;
+      width: 62px;
+      height: 62px;
+      border-radius: 18px;
+      background: #d49a1e;
+      color: #ffffff;
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1;
+    }
+    #finreels-web-boot .boot-name {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.6px;
+    }
+    #finreels-web-boot .boot-status {
+      color: #6f6f6f;
+      font-size: 13px;
+    }
+    @media (prefers-color-scheme: dark) {
+      #finreels-web-boot {
+        background: #000000;
+        color: #ffffff;
+      }
+      #finreels-web-boot .boot-status {
+        color: #aaaaaa;
+      }
+    }
   </style>
 
   <!-- AdSense loader (test client). Replace client= with production ca-pub. -->
@@ -85,6 +138,29 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
+  <div id="finreels-web-boot" role="status" aria-live="polite" aria-label="Loading FinReels">
+    <div class="boot-content">
+      <div class="boot-mark" aria-hidden="true">▶</div>
+      <div class="boot-name">FinReels</div>
+      <div class="boot-status">Opening your learning space…</div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var boot = document.getElementById('finreels-web-boot');
+      if (!boot) return;
+      function hideBoot() {
+        boot.classList.add('is-hidden');
+        window.setTimeout(function () {
+          if (boot.parentNode) boot.parentNode.removeChild(boot);
+        }, 220);
+      }
+      window.addEventListener('flutter-first-frame', hideBoot, { once: true });
+      // Never leave the static boot layer over a failed or unusually slow
+      // Flutter bootstrap; the app's own recovery UI must remain reachable.
+      window.setTimeout(hideBoot, 12000);
+    }());
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

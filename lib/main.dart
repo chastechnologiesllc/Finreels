@@ -148,43 +148,20 @@ class _SplashGateState extends State<_SplashGate> {
       debugPrint('[startup] Hive init failed (non-fatal): $e');
     }
 
-    // ── Group A: what FeedProvider's constructor reads synchronously ────────
-    // ResourceCategoryData.load(), UserProfileService.init() and
-    // EngagementService.init() are the three things
-    // _buildSessionChannelOrder() (see feed_provider.dart) reads the
-    // instant FeedProvider() is constructed below — and all three are nothing
-    // but local reads (bundled JSON assets, on-device SharedPreferences), no
-    // network, no external SDK. That combination means they should always
-    // finish quickly AND FeedProvider genuinely cannot be correct without
-    // them, unlike the group below — so this group gets its own short wait,
-    // separate from anything that could plausibly still be running.
-    //
-    // Previously all 8 services here shared one Future.wait with a single
-    // 6s ceiling. That meant a slow external SDK (Ads/IAP initializing
-    // against Google Play, a flaky network call during Notifications
-    // setup) could eat the whole ceiling and force a timeout while THESE
-    // three were still mid-load — and FeedProvider() a moment later would
-    // freeze its channel/category state as whatever they'd managed to load
-    // by then, often just "general content, nothing selected yet." Nothing
-    // ever retries that afterward: ResourceCategoryData isn't a
-    // ChangeNotifier, so nothing re-notifies FeedProvider once its load
-    // actually finishes in the background past the ceiling. In practice
-    // that surfaces as exactly "the general channels/blogs/books show up
-    // fine, but my selected category's never does" — for the rest of that
-    // session, only self-correcting on a much later app resume. Isolating
-    // this group is the actual fix for that, not just a tidiness pass.
+    // ── Group A: lightweight first-screen prerequisites ─────────────────────
+    // The category index, profile selection, and engagement preferences are
+    // enough to render onboarding and construct the first feed provider. The
+    // much larger verified-resource catalog hydrates in the background below
+    // and triggers a quiet second refresh when it is ready.
     try {
       await Future.wait([
-        _safeInit('ResourceCategories', ResourceCategoryData.load),
+        _safeInit('ResourceCategories', ResourceCategoryData.loadCategories),
         _safeInit('UserProfile',        UserProfileService.instance.init),
         _safeInit('Engagement',         EngagementService.instance.init),
-      ]).timeout(const Duration(seconds: 8));
+      ]).timeout(const Duration(seconds: 4));
     } on TimeoutException {
-      debugPrint('[startup] ResourceCategories/UserProfile/Engagement '
-          'exceeded 8s — proceeding anyway; category-specific content may '
-          'be incomplete until the next app resume. Investigate if this '
-          'fires in practice — all three are local-only reads and should '
-          'never realistically approach this ceiling.');
+      debugPrint('[startup] lightweight startup prerequisites exceeded 4s; '
+          'proceeding so the first screen can still open.');
     }
 
     // ── Group B: everything else — must never block FeedProvider ────────────
@@ -218,7 +195,22 @@ class _SplashGateState extends State<_SplashGate> {
     // Group A above is guaranteed to have either finished or hit its own
     // explicit timeout by this point — Group B is never a factor either way.
     final provider = FeedProvider();
-    unawaited(provider.init());
+    final providerInit = _safeInit('FeedProvider', provider.init);
+    unawaited(providerInit);
+
+    // Verified channels/blogs/books are intentionally not on the critical
+    // path. Once the full local catalog finishes, wait for the initial feed
+    // request and quietly refresh using the now-complete category scope.
+    unawaited(() async {
+      await _safeInit(
+        'VerifiedResources',
+        ResourceCategoryData.loadVerifiedResources,
+      );
+      await providerInit;
+      if (mounted) {
+        unawaited(provider.refresh(force: true, silent: true));
+      }
+    }());
 
     if (!mounted) return;
     setState(() {

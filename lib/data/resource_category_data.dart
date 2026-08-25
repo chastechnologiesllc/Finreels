@@ -37,6 +37,9 @@ class ResourceCategoryData {
   static List<CurriculumModule> _modules = const [];
   static TaxReform? _taxReform;
   static bool _loaded = false;
+  static bool _resourcesLoaded = false;
+  static Future<void>? _categoriesInFlight;
+  static Future<void>? _resourcesInFlight;
 
   static bool get isLoaded => _loaded;
   static List<ResourceCategory> get all => _all;
@@ -54,10 +57,22 @@ class ResourceCategoryData {
   static List<Map<String, String>> get verifiedBlogs => _verifiedBlogs;
   static List<VerifiedBook> get verifiedBooks => _verifiedBooks;
 
-  /// Idempotent — safe to call more than once (e.g. a screen calling it
-  /// defensively); only the first call does real work.
-  static Future<void> load() async {
-    if (_loaded) return;
+  /// Loads the lightweight category index. This is the only category data
+  /// needed before the first screen and onboarding search are usable.
+  ///
+  /// The in-flight future makes repeated calls from startup and onboarding
+  /// share one asset read instead of starting duplicate work.
+  static Future<void> loadCategories() {
+    if (_loaded) return Future.value();
+    final existing = _categoriesInFlight;
+    if (existing != null) return existing;
+
+    final future = _loadCategories();
+    _categoriesInFlight = future;
+    return future;
+  }
+
+  static Future<void> _loadCategories() async {
     try {
       final raw = await rootBundle.loadString('assets/data/resource_categories.json');
       final json = jsonDecode(raw) as Map<String, dynamic>;
@@ -81,22 +96,40 @@ class ResourceCategoryData {
       // Never let a bad/missing asset take the app down — the picker and
       // the playbook books just degrade to "not available yet" instead.
       debugPrint('[ResourceCategoryData] categories load failed (non-fatal): $e');
+    } finally {
+      _categoriesInFlight = null;
     }
+  }
 
-    // Separate try-catch from the categories load above — a failure here
-    // (bad JSON in a single resource file, a null field, any parse error)
-    // must NEVER leave _verifiedChannels/_verifiedBlogs/_verifiedBooks as
-    // const [] for the whole session. Historically this call was outside the
-    // try-catch above, which meant any exception inside _addFrom (e.g.
-    // `null as String` on a book with a missing author field) propagated
-    // uncaught through load(), was swallowed by _safeInit() in main.dart,
-    // and left all three lists permanently empty — every channel shown was
-    // general-only regardless of what the person had selected.
+  /// Loads all verified channels, blogs, and books after the lightweight
+  /// category index is ready. It is safe to call from startup and screens.
+  static Future<void> loadVerifiedResources() {
+    if (_resourcesLoaded) return Future.value();
+    final existing = _resourcesInFlight;
+    if (existing != null) return existing;
+
+    final future = _loadVerifiedResourcesSafely();
+    _resourcesInFlight = future;
+    return future;
+  }
+
+  static Future<void> _loadVerifiedResourcesSafely() async {
     try {
+      await loadCategories();
       await _loadVerifiedResources();
     } on Object catch (e) {
       debugPrint('[ResourceCategoryData] verified resources load failed (non-fatal): $e');
+    } finally {
+      _resourcesLoaded = true;
+      _resourcesInFlight = null;
     }
+  }
+
+  /// Idempotent full load for callers that need both the category index and
+  /// all verified resources before continuing.
+  static Future<void> load() async {
+    await loadCategories();
+    await loadVerifiedResources();
   }
 
   static Future<void> _loadVerifiedResources() async {
