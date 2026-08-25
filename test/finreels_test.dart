@@ -88,11 +88,13 @@ void main() {
           home: MyBusinessScreen(isOnboarding: true),
         ),
       );
-      // The picker has no user-facing animation requirement; use bounded
-      // pumps so an unrelated platform ticker cannot make this regression
-      // test wait forever.
+      // Await the real bundled-index read explicitly; bounded frame pumps
+      // alone do not guarantee that an asynchronous rootBundle load has
+      // completed on the first Web/Android test isolate.
+      await tester.runAsync(() async {
+        await ResourceCategoryData.loadCategories();
+      });
       await tester.pump();
-      await tester.pump(const Duration(milliseconds: 100));
       expect(find.text('Welcome to FinReels'), findsOneWidget);
       expect(find.text('Watch lessons'), findsOneWidget);
       expect(find.text('Read free books'), findsOneWidget);
