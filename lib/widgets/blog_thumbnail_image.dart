@@ -105,6 +105,17 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
   }
 
   Widget _fallback(BuildContext context) {
+    return Image.asset(
+      'assets/blog/finreels_blog_cover.png',
+      width: widget.width,
+      height: widget.height,
+      fit: widget.fit,
+      semanticLabel: 'FinReels insights blog cover',
+      errorBuilder: (_, __, ___) => _fallbackIcon(),
+    );
+  }
+
+  Widget _fallbackIcon() {
     return Container(
       width: widget.width,
       height: widget.height,

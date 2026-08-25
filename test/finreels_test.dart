@@ -4,6 +4,7 @@ import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/video.dart';
 import 'package:finreels/utils/category_search.dart';
 import 'package:finreels/widgets/book_cover_image.dart';
+import 'package:finreels/widgets/blog_thumbnail_image.dart';
 import 'package:finreels/widgets/finreels_shimmer.dart';
 import 'package:finreels/widgets/video_thumbnail_image.dart';
 import 'package:flutter/material.dart';
@@ -45,6 +46,23 @@ void main() {
       final image = tester.widget<Image>(find.byType(Image));
       expect((image.image as AssetImage).assetName,
           'assets/books/finreels_book_cover_fallback.png');
+    });
+
+    testWidgets('missing blog thumbnails render the branded cover',
+        (tester) async {
+      await tester.pumpWidget(
+        const MaterialApp(
+          home: SizedBox(
+            width: 320,
+            height: 180,
+            child: BlogThumbnailImage(url: ''),
+          ),
+        ),
+      );
+      await tester.pump();
+      final image = tester.widget<Image>(find.byType(Image));
+      expect((image.image as AssetImage).assetName,
+          'assets/blog/finreels_blog_cover.png');
     });
 
     testWidgets('shimmer builds in both light and dark themes', (tester) async {
