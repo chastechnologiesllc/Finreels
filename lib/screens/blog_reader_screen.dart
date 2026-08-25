@@ -152,7 +152,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
 
     final encoded  = Uri.encodeComponent(widget.url);
     final proxies  = [
-      'https://corsproxy.io/?$encoded',
+      'https://corsproxy.io/?url=$encoded',
       'https://api.allorigins.win/raw?url=$encoded',
     ];
 

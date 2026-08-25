@@ -6,6 +6,7 @@ import 'package:http/http.dart' as http;
 import 'package:xml/xml.dart';
 
 import '../data/resource_category_data.dart';
+import 'feed_snapshot_service.dart';
 import 'user_profile_service.dart';
 
 /// A single parsed blog article from an RSS/Atom feed.
@@ -64,12 +65,12 @@ const List<Map<String, String>> kBlogFeeds = [
     'url': 'https://www.inc.com/rss/',
   },
   {
-    'name': 'Forbes Entrepreneurs',
-    'url': 'https://www.forbes.com/entrepreneurs/feed/',
+    'name': 'Forbes Business',
+    'url': 'https://www.forbes.com/business/feed/',
   },
   {
-    'name': 'Harvard Business Review',
-    'url': 'https://feeds.hbr.org/harvardbusiness',
+    'name': 'Fast Company',
+    'url': 'https://www.fastcompany.com/rss',
   },
   {
     'name': 'Seth Godin',
@@ -140,30 +141,16 @@ class BlogRssService {
   Future<List<BlogArticle>> fetchAll({bool forceRefresh = false}) async {
     if (!forceRefresh && _isCacheFresh) return _cache!;
 
-    // Web: the 5 general feeds fetched concurrently via CORS proxies.
-    // Category-tagged feeds are excluded here for scale reasons (see
-    // combinedBlogFeeds doc-comment) — not because of proxy rate limits.
-    // Android/iOS: full parallel HTTP of combinedBlogFeeds.
-    final List<List<BlogArticle>> results;
-    if (kIsWeb) {
-      const feeds = kBlogFeeds;
-      results = await Future.wait(feeds.map(
-        (feed) => _fetchFeed(
-          url: feed['url']!,
-          sourceName: feed['name']!,
-          categoryId: feed['categoryId'],
-        ),
-      ));
-    } else {
-      results = await Future.wait(combinedBlogFeeds.map(
-        (feed) => _fetchFeed(
-          url: feed['url']!,
-          sourceName: feed['name']!,
-          categoryId: feed['categoryId'],
-        ),
-      ));
-    }
-    final articles = results.expand((l) => l).toList();
+    // Fetch the hard-coded general feeds and the verified catalog feeds on
+    // every platform. Web requests still go through CORS proxies, while
+    // native requests go directly to the source. Both paths use the same
+    // bounded worker pool so a category selection cannot create an unbounded
+    // request burst or silently drop all category blogs on Web.
+    final feeds = _deduplicateFeeds(combinedBlogFeeds);
+    final results = await _fetchFeedsBounded(feeds);
+    final liveArticles = results.expand((l) => l).toList();
+    final snapshotArticles = await _loadSnapshotArticles();
+    final articles = _mergeArticles(liveArticles, snapshotArticles);
     final selected = UserProfileService.instance.selectedCategoryIds;
     final mixed = await compute(
       _smartMixArticles,
@@ -189,16 +176,75 @@ class BlogRssService {
         .toList();
     if (feeds.isEmpty) return const [];
 
-    final futures = feeds.map(
-      (feed) => _fetchFeed(
-        url: feed['url']!,
-        sourceName: feed['name']!,
-        categoryId: feed['categoryId'],
-      ),
-    );
-    final results = await Future.wait(futures);
+    final results = await _fetchFeedsBounded(_deduplicateFeeds(feeds));
     final articles = results.expand((l) => l).toList();
     return compute(_sortArticles, articles);
+  }
+
+  Future<List<BlogArticle>> _loadSnapshotArticles() async {
+    final raw = await FeedSnapshotService.instance.blogArticles();
+    return raw.map((item) {
+      final url = item['url'] as String? ?? '';
+      final publishedAt = DateTime.tryParse(item['publishedAt'] as String? ?? '') ??
+          DateTime.fromMillisecondsSinceEpoch(0);
+      return BlogArticle(
+        title: item['title'] as String? ?? 'Untitled',
+        url: url,
+        sourceName: item['sourceName'] as String? ?? 'FinReels source',
+        publishedAt: publishedAt,
+        thumbnailUrl: item['thumbnailUrl'] as String?,
+        thumbnailFallbackUrls:
+            (item['thumbnailFallbackUrls'] as List?)?.whereType<String>().toList(growable: false) ?? const [],
+        excerpt: item['description'] as String? ?? '',
+        categoryId: item['categoryId'] as String?,
+      );
+    }).where((article) => article.url.isNotEmpty).toList(growable: false);
+  }
+
+  List<BlogArticle> _mergeArticles(
+      Iterable<BlogArticle> live, Iterable<BlogArticle> snapshot) {
+    final byUrl = <String, BlogArticle>{};
+    for (final article in [...live, ...snapshot]) {
+      if (article.url.isNotEmpty) byUrl.putIfAbsent(article.url, () => article);
+    }
+    return byUrl.values.toList(growable: false);
+  }
+
+  List<Map<String, String>> _deduplicateFeeds(
+      Iterable<Map<String, String>> feeds) {
+    final seen = <String>{};
+    return [
+      for (final feed in feeds)
+        if (feed['url'] != null && seen.add(feed['url']!)) feed,
+    ];
+  }
+
+  Future<List<List<BlogArticle>>> _fetchFeedsBounded(
+      List<Map<String, String>> feeds) async {
+    if (feeds.isEmpty) return const [];
+    final results = List<List<BlogArticle>>.filled(
+      feeds.length,
+      const <BlogArticle>[],
+      growable: false,
+    );
+    var nextIndex = 0;
+
+    Future<void> worker() async {
+      while (true) {
+        final index = nextIndex++;
+        if (index >= feeds.length) return;
+        final feed = feeds[index];
+        results[index] = await _fetchFeed(
+          url: feed['url']!,
+          sourceName: feed['name']!,
+          categoryId: feed['categoryId'],
+        );
+      }
+    }
+
+    final workerCount = math.min(8, feeds.length);
+    await Future.wait(List.generate(workerCount, (_) => worker()));
+    return results;
   }
 
   Future<List<BlogArticle>> _fetchFeed({
@@ -343,7 +389,7 @@ class BlogRssService {
   Future<String?> _fetchWebBody(String url, String sourceName) async {
     final encoded = Uri.encodeComponent(url);
     final proxyUrls = [
-      'https://corsproxy.io/?$encoded',
+      'https://corsproxy.io/?url=$encoded',
       'https://api.allorigins.win/raw?url=$encoded',
     ];
     final completer = Completer<String?>();

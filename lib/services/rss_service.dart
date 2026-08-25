@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xml/xml.dart';
 
 import '../models/video.dart';
+import 'feed_snapshot_service.dart';
 import 'youtube_channel_service.dart';
 
 /// Top-level function (required by compute()) — runs XML parsing on a
@@ -153,7 +154,13 @@ class RssService {
     }
 
     final stale = await _diskRead(channelId);
-    return stale.isNotEmpty ? stale : (_mem[channelId] ?? []);
+    if (stale.isNotEmpty) return stale;
+
+    // Static Web builds cannot depend on a public CORS proxy remaining
+    // available. Use the same-origin snapshot as the final recovery source so
+    // a valid channel does not become an unavailable empty state.
+    final snapshot = await FeedSnapshotService.instance.channelVideos(channelId);
+    return snapshot.isNotEmpty ? snapshot : (_mem[channelId] ?? []);
   }
 
   // ── Retry ─────────────────────────────────────────────────────────────────────
@@ -211,7 +218,7 @@ class RssService {
     // Parsing reuses _parseXmlIsolate(), so the Video model output is identical
     // to the native path — no separate rss2json field-mapping needed.
     final proxyUrls = [
-      'https://corsproxy.io/?$encoded',
+      'https://corsproxy.io/?url=$encoded',
       'https://api.allorigins.win/raw?url=$encoded',
     ];
 

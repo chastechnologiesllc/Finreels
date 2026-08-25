@@ -67,7 +67,7 @@ class YoutubeChannelService {
     if (kIsWeb) {
       final encoded = Uri.encodeComponent(url);
       final proxyUrls = [
-        'https://corsproxy.io/?$encoded',
+        'https://corsproxy.io/?url=$encoded',
         'https://api.allorigins.win/raw?url=$encoded',
       ];
       for (final proxy in proxyUrls) {

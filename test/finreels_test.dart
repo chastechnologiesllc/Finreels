@@ -2,6 +2,7 @@ import 'package:finreels/config/app_config.dart';
 import 'package:finreels/data/channel_data.dart';
 import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/video.dart';
+import 'package:finreels/services/feed_snapshot_service.dart';
 import 'package:finreels/utils/category_search.dart';
 import 'package:finreels/widgets/book_cover_image.dart';
 import 'package:finreels/widgets/blog_thumbnail_image.dart';
@@ -78,6 +79,15 @@ void main() {
         await tester.pump();
         expect(find.byType(FinreelsShimmer), findsOneWidget);
       }
+    });
+
+    test('bundled feed snapshot has public channel and blog data', () async {
+      final snapshot = FeedSnapshotService.instance;
+      expect((await snapshot.blogArticles()).isNotEmpty, isTrue);
+      expect(
+        (await snapshot.channelVideos('UCGq-a57w-aPwyi3pW7XLiHw')).isNotEmpty,
+        isTrue,
+      );
     });
   });
 
