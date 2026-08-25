@@ -1,5 +1,6 @@
 import 'package:finreels/config/app_config.dart';
 import 'package:finreels/data/channel_data.dart';
+import 'package:finreels/data/resource_category_data.dart';
 import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/video.dart';
 import 'package:finreels/screens/my_business_screen.dart';
