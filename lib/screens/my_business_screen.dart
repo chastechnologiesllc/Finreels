@@ -155,43 +155,47 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    Semantics(
-                      header: true,
-                      child: Column(
-                        children: [
-                          Text(
-                            'Welcome to FinReels',
-                            textAlign: TextAlign.center,
-                            style: Theme.of(context)
-                                .textTheme
-                                .headlineSmall
-                                ?.copyWith(
-                                  fontWeight: FontWeight.w800,
-                                  letterSpacing: -0.4,
-                                ),
-                          ),
-                          const SizedBox(height: 18),
-                          Text(
-                            'First, tell us what you’re interested in exploring',
-                            textAlign: TextAlign.center,
-                            style: Theme.of(context)
-                                .textTheme
-                                .titleMedium
-                                ?.copyWith(fontWeight: FontWeight.w700),
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            'Search your profession, skill, or business.',
-                            textAlign: TextAlign.center,
-                            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                                  color: AppTheme.textSecondary(context),
-                                  height: 1.4,
-                                ),
-                          ),
-                        ],
+                    if (!compact)
+                      Semantics(
+                        header: true,
+                        child: Column(
+                          children: [
+                            Text(
+                              'Welcome to FinReels',
+                              textAlign: TextAlign.center,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headlineSmall
+                                  ?.copyWith(
+                                    fontWeight: FontWeight.w800,
+                                    letterSpacing: -0.4,
+                                  ),
+                            ),
+                            const SizedBox(height: 18),
+                            Text(
+                              'First, tell us what you’re interested in exploring',
+                              textAlign: TextAlign.center,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleMedium
+                                  ?.copyWith(fontWeight: FontWeight.w700),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              'Search your profession, skill, or business.',
+                              textAlign: TextAlign.center,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .bodyLarge
+                                  ?.copyWith(
+                                    color: AppTheme.textSecondary(context),
+                                    height: 1.4,
+                                  ),
+                            ),
+                          ],
+                        ),
                       ),
-                    ),
-                    SizedBox(height: compact ? 18 : 42),
+                    if (!compact) const SizedBox(height: 42),
                     Container(
                       key: _searchKey,
                       child: _SearchField(
@@ -200,7 +204,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                       ),
                     ),
                     const SizedBox(height: 10),
-                    if (_query.isEmpty)
+                    if (!compact && _query.isEmpty)
                       Text(
                         'Type a word to see matching choices. You can choose more than one, or start exploring now.',
                         textAlign: TextAlign.center,
@@ -208,9 +212,8 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                               color: AppTheme.textMuted(context),
                               height: 1.35,
                             ),
-                      )
-                    else
-                      _buildSearchResults(context),
+                      ),
+                    if (_query.isNotEmpty) _buildSearchResults(context),
                   ],
                 ),
               ),
@@ -416,6 +419,10 @@ class _SearchField extends StatelessWidget {
         child: TextField(
           focusNode: focusNode,
           onChanged: onChanged,
+          keyboardType: TextInputType.text,
+          textCapitalization: TextCapitalization.none,
+          autocorrect: false,
+          enableSuggestions: true,
           textInputAction: TextInputAction.search,
           style: TextStyle(color: AppTheme.textColor(context)),
           decoration: InputDecoration(
