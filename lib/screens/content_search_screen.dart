@@ -97,7 +97,8 @@ class _SearchItem {
         blogSource = null;
 
   bool get isShort => kind == _ResultKind.short;
-  bool get canBookmark => video != null || article != null || verifiedBook != null;
+  bool get canBookmark => !isShort &&
+      (video != null || article != null || verifiedBook != null);
 
   DateTime get date => video?.publishedAt ?? article?.publishedAt ?? DateTime(2000);
 }
@@ -129,6 +130,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
   String _query = '';
   bool _loading = false;
   bool _fetchingBlogs = false;
+  bool _typing = false;
 
   List<_SearchItem> _left  = [];
   List<_SearchItem> _right = [];
@@ -172,11 +174,19 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
   void _onInput() {
     _debounce?.cancel();
     final q = _ctrl.text.trim();
-    if (q == _query) return;
+    if (q == _query && !_typing) return;
     if (q.length < 2) {
-      setState(() { _query = q; _left = []; _right = []; _loading = false; });
+      setState(() {
+        _query = q;
+        _left = [];
+        _right = [];
+        _loading = false;
+        _fetchingBlogs = false;
+        _typing = false;
+      });
       return;
     }
+    if (!_typing) setState(() => _typing = true);
     // Debounce: wait 300 ms after the user stops typing before searching.
     _debounce = Timer(const Duration(milliseconds: 300), () => _search(q));
   }
@@ -247,7 +257,12 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
 
   Future<void> _search(String q) async {
     if (!mounted) return;
-    setState(() { _query = q; _loading = true; _fetchingBlogs = false; });
+    setState(() {
+      _query = q;
+      _loading = true;
+      _fetchingBlogs = false;
+      _typing = false;
+    });
 
     await PlatformSearchIndex.instance.ensureReady();
     if (!mounted || _query != q) return;
@@ -441,7 +456,10 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
         surfaceTintColor: Colors.transparent,
         elevation: 0,
         titleSpacing: 0,
-        title: _SearchBar(controller: _ctrl),
+        title: _SearchBar(
+          controller: _ctrl,
+          busy: _typing || _loading || _fetchingBlogs,
+        ),
         actions: [
           if (_ctrl.text.isNotEmpty)
             IconButton(
@@ -491,7 +509,26 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
       return _NoResults(query: _query, stillFetchingBlogs: _fetchingBlogs);
     }
 
-    final count = _left.length > _right.length ? _left.length : _right.length;
+    final pairCount = _left.length < _right.length ? _left.length : _right.length;
+    final rightTailCount = _right.length - pairCount;
+    final leftTailCount = _left.length - pairCount;
+
+    Widget rightCard(_SearchItem item) => Padding(
+          padding: const EdgeInsets.only(bottom: 10),
+          child: _ContentCard(
+            item: item,
+            saved: _isItemSaved(item),
+            onSave: () => _toggleItemSaved(item),
+            onTapVideo: _openVideo,
+            onTapBook: _openBook,
+            onTapBlog: _openArticle,
+            onTapCategory: _openCategory,
+            onTapChannel: _openChannel,
+            onTapVerifiedBook: _openVerifiedBook,
+            onTapBlogSource: _openBlogSource,
+          ),
+        );
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -519,60 +556,91 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
             ],
           ),
         ),
-        const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 16),
-          child: Row(
-            children: [
-              Expanded(child: _ColHeader('Shorts', Icons.play_circle_outline_rounded)),
-              SizedBox(width: 8),
-              Expanded(child: _ColHeader('Videos • Blogs • Books • Sources', Icons.grid_view_rounded)),
-            ],
+        if (_left.isNotEmpty)
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16),
+            child: Row(
+              children: [
+                Expanded(child: _ColHeader('Shorts', Icons.play_circle_outline_rounded)),
+                SizedBox(width: 8),
+                Expanded(child: _ColHeader('Videos • Blogs • Books • Sources', Icons.grid_view_rounded)),
+              ],
+            ),
+          )
+        else
+          const Padding(
+            padding: EdgeInsets.fromLTRB(16, 4, 16, 4),
+            child: _ColHeader('Videos • Blogs • Books • Sources', Icons.grid_view_rounded),
           ),
-        ),
         const SizedBox(height: 8),
         Expanded(
           child: ListView.builder(
             physics: const ClampingScrollPhysics(),
             padding: const EdgeInsets.fromLTRB(16, 0, 16, 120),
-            itemCount: count,
+            itemCount: _left.isEmpty
+                ? _right.length
+                : pairCount + rightTailCount + leftTailCount,
             itemBuilder: (ctx, i) {
-              final left  = i < _left.length  ? _left[i]  : null;
-              final right = i < _right.length ? _right[i] : null;
-              return Padding(
-                padding: const EdgeInsets.only(bottom: 10),
-                child: IntrinsicHeight(
+              // Without Shorts, every non-Short result receives the full width.
+              if (_left.isEmpty) return rightCard(_right[i]);
+
+              // Keep the search-style two-column treatment while both columns
+              // have content, without IntrinsicHeight's extra layout pass.
+              if (i < pairCount) {
+                final short = _left[i];
+                final right = _right[i];
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
                   child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Expanded(
-                        child: left != null
-                            ? _ShortCard(
-                                item: left,
-                                onTap: () => _openShort(i),
-                                saved: _isItemSaved(left),
-                                onSave: () => _toggleItemSaved(left),
-                              )
-                            : const SizedBox.shrink(),
+                        child: _ShortCard(
+                          item: short,
+                          onTap: () => _openShort(i),
+                        ),
                       ),
                       const SizedBox(width: 8),
-                      Expanded(
-                        child: right != null
-                            ? _ContentCard(
-                                item:       right,
-                                saved: _isItemSaved(right),
-                                onSave: () => _toggleItemSaved(right),
-                                onTapVideo: _openVideo,
-                                onTapBook:  _openBook,
-                                onTapBlog:  _openArticle,
-                                onTapCategory: _openCategory,
-                                onTapChannel: _openChannel,
-                                onTapVerifiedBook: _openVerifiedBook,
-                                onTapBlogSource: _openBlogSource,
-                              )
-                            : const SizedBox.shrink(),
-                      ),
+                      Expanded(child: _ContentCard(
+                        item: right,
+                        saved: _isItemSaved(right),
+                        onSave: () => _toggleItemSaved(right),
+                        onTapVideo: _openVideo,
+                        onTapBook: _openBook,
+                        onTapBlog: _openArticle,
+                        onTapCategory: _openCategory,
+                        onTapChannel: _openChannel,
+                        onTapVerifiedBook: _openVerifiedBook,
+                        onTapBlogSource: _openBlogSource,
+                      )),
                     ],
                   ),
+                );
+              }
+
+              // Once Shorts run out, promote the remaining right-column
+              // content to the full available width instead of leaving a
+              // visually empty left column.
+              if (i < pairCount + rightTailCount) {
+                return rightCard(_right[i - pairCount + pairCount]);
+              }
+
+              // If Shorts are the longer result set, keep their remaining
+              // cards aligned on the left rather than changing their order.
+              final shortIndex = i - pairCount - rightTailCount + pairCount;
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(
+                      child: _ShortCard(
+                        item: _left[shortIndex],
+                        onTap: () => _openShort(shortIndex),
+                      ),
+                    ),
+                    const Expanded(child: SizedBox.shrink()),
+                  ],
                 ),
               );
             },
@@ -587,7 +655,8 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
 
 class _SearchBar extends StatelessWidget {
   final TextEditingController controller;
-  const _SearchBar({required this.controller});
+  final bool busy;
+  const _SearchBar({required this.controller, required this.busy});
 
   @override
   Widget build(BuildContext context) {
@@ -613,6 +682,19 @@ class _SearchBar extends StatelessWidget {
             border:      InputBorder.none,
             isDense:     true,
             contentPadding: const EdgeInsets.symmetric(vertical: 10),
+            suffixIcon: busy
+                ? const Padding(
+                    padding: EdgeInsets.all(11),
+                    child: SizedBox(
+                      width: 16,
+                      height: 16,
+                      child: CircularProgressIndicator(
+                        color: AppTheme.gold,
+                        strokeWidth: 2,
+                      ),
+                    ),
+                  )
+                : null,
           ),
         ),
       ),
@@ -652,13 +734,9 @@ class _ColHeader extends StatelessWidget {
 class _ShortCard extends StatelessWidget {
   final _SearchItem item;
   final VoidCallback onTap;
-  final bool saved;
-  final VoidCallback onSave;
   const _ShortCard({
     required this.item,
     required this.onTap,
-    required this.saved,
-    required this.onSave,
   });
 
   @override
@@ -696,11 +774,6 @@ class _ShortCard extends StatelessWidget {
                 // Channel accent top bar
                 Positioned(top: 0, left: 0, right: 0,
                     child: Container(height: 3, color: ch.accentColor)),
-                Positioned(
-                  top: 4,
-                  right: 4,
-                  child: _SearchBookmarkButton(saved: saved, onPressed: onSave),
-                ),
                 // Play icon
                 const Center(
                   child: DecoratedBox(

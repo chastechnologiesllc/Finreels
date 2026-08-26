@@ -216,7 +216,10 @@ class _TwoColumnBookmarks extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final rowCount = shorts.length > others.length ? shorts.length : others.length;
+    final pairCount = shorts.length < others.length ? shorts.length : others.length;
+    final otherTailCount = others.length - pairCount;
+    final shortTailCount = shorts.length - pairCount;
+    final rowCount = pairCount + otherTailCount + shortTailCount;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -236,35 +239,64 @@ class _TwoColumnBookmarks extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(16, 0, 16, 120),
             itemCount: rowCount,
             itemBuilder: (_, index) {
-              final short = index < shorts.length ? shorts[index] : null;
-              final other = index < others.length ? others[index] : null;
-              return Padding(
-                padding: const EdgeInsets.only(bottom: 10),
-                child: IntrinsicHeight(
+              if (index < pairCount) {
+                final short = shorts[index];
+                final other = others[index];
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
                   child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Expanded(
-                        child: short == null
-                            ? const SizedBox.shrink()
-                            : _SavedShortCard(
-                                bookmark: short,
-                                onTap: () => onTap(short),
-                                onRemove: () => onRemove(short),
-                              ),
+                        child: _SavedShortCard(
+                          bookmark: short,
+                          onTap: () => onTap(short),
+                          onRemove: () => onRemove(short),
+                        ),
                       ),
                       const SizedBox(width: 8),
                       Expanded(
-                        child: other == null
-                            ? const SizedBox.shrink()
-                            : _SavedContentCard(
-                                bookmark: other,
-                                onTap: () => onTap(other),
-                                onRemove: () => onRemove(other),
-                              ),
+                        child: _SavedContentCard(
+                          bookmark: other,
+                          onTap: () => onTap(other),
+                          onRemove: () => onRemove(other),
+                        ),
                       ),
                     ],
                   ),
+                );
+              }
+
+              // Remaining non-Short saved content takes the full width once
+              // there are no Shorts left to balance it.
+              if (index < pairCount + otherTailCount) {
+                final other = others[index];
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: _SavedContentCard(
+                    bookmark: other,
+                    onTap: () => onTap(other),
+                    onRemove: () => onRemove(other),
+                  ),
+                );
+              }
+
+              final shortIndex = index - otherTailCount;
+              final short = shorts[shortIndex];
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(
+                      child: _SavedShortCard(
+                        bookmark: short,
+                        onTap: () => onTap(short),
+                        onRemove: () => onRemove(short),
+                      ),
+                    ),
+                    const Expanded(child: SizedBox.shrink()),
+                  ],
                 ),
               );
             },

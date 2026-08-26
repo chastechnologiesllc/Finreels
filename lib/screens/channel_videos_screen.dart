@@ -366,18 +366,6 @@ class _ShortsGrid extends StatelessWidget {
                           stops: [0.45, 1.0]))),
                   Positioned(top: 0, left: 0, right: 0,
                       child: Container(height: 3, color: channel.accentColor)),
-                  if (provider != null)
-                    Positioned(
-                      top: 6,
-                      right: 6,
-                      child: ListenableBuilder(
-                        listenable: provider,
-                        builder: (_, __) => BookmarkButton(
-                          saved: provider.isVideoSaved(v.id),
-                          onPressed: () => provider.toggleSaved(v),
-                        ),
-                      ),
-                    ),
                   const Center(child: DecoratedBox(
                       decoration: BoxDecoration(
                           color: Colors.black45, shape: BoxShape.circle),
