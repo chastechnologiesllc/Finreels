@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../models/channel.dart';
+import 'finreels_shimmer.dart';
 
 /// Displays a channel's official YouTube profile image with an initials
 /// fallback for unavailable, removed, or not-yet-published channel avatars.
@@ -41,11 +42,25 @@ class ChannelAvatar extends StatelessWidget {
               fit: BoxFit.cover,
               memCacheWidth: (size * 3).round(),
               memCacheHeight: (size * 3).round(),
-              placeholder: (_, __) => fallback,
+              placeholder: (_, __) => _AvatarShimmer(size: size),
               errorWidget: (_, __, ___) => fallback,
             ),
     );
   }
+}
+
+class _AvatarShimmer extends StatelessWidget {
+  final double size;
+
+  const _AvatarShimmer({required this.size});
+
+  @override
+  Widget build(BuildContext context) => FinreelsShimmer(
+        child: ColoredBox(
+          color: FinreelsShimmer.fillColor(context),
+          child: SizedBox(width: size, height: size),
+        ),
+      );
 }
 
 class _InitialsAvatar extends StatelessWidget {
