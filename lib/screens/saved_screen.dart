@@ -2,14 +2,12 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:share_plus/share_plus.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 import '../data/channel_data.dart';
 import '../models/saved_bookmark.dart';
 import '../providers/feed_provider.dart';
 import '../services/ad_service.dart';
-import '../services/blog_rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/blog_thumbnail_image.dart';
