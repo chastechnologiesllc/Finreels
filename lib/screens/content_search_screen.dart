@@ -6,6 +6,7 @@ import 'package:timeago/timeago.dart' as timeago;
 import '../data/channel_data.dart';
 import '../models/channel.dart';
 import '../models/resource_category.dart';
+import '../models/saved_bookmark.dart';
 import '../models/video.dart';
 import '../providers/feed_provider.dart';
 import '../services/ad_service.dart';
@@ -96,6 +97,7 @@ class _SearchItem {
         blogSource = null;
 
   bool get isShort => kind == _ResultKind.short;
+  bool get canBookmark => video != null || article != null || verifiedBook != null;
 
   DateTime get date => video?.publishedAt ?? article?.publishedAt ?? DateTime(2000);
 }
@@ -157,6 +159,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
   }
 
   void _onFeedChanged() {
+    if (mounted) setState(() {});
     final newState = _fp.state;
     if (_lastFeedState == FeedState.loading &&
         newState == FeedState.loaded &&
@@ -190,6 +193,35 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
   //   5. Stem of query word (strip -ing/-er/-ed/-s) also checked at 0.5×
 
   // ── Search ──────────────────────────────────────────────────────────────
+
+  SavedBookmark _bookmarkFor(_SearchItem item) {
+    if (item.article != null) return SavedBookmark.fromBlog(item.article!);
+    if (item.verifiedBook != null) {
+      final book = item.verifiedBook!;
+      return SavedBookmark(
+        id: book.freeSourceUrl,
+        kind: SavedBookmarkKind.book,
+        title: book.title,
+        description: book.freeSourceNote ?? book.author,
+        sourceName: book.author,
+        url: book.freeSourceUrl,
+        thumbnailUrl: book.coverUrl,
+        thumbnailFallbackUrls: book.coverCandidates,
+        publishedAt: DateTime(2000),
+        sourceCategoryId: book.categoryId,
+        freeSourceType: book.freeSourceType,
+      );
+    }
+    return SavedBookmark.fromVideo(item.video!);
+  }
+
+  bool _isItemSaved(_SearchItem item) =>
+      item.canBookmark && _fp.isBookmarkSaved(_bookmarkFor(item).stableKey);
+
+  Future<void> _toggleItemSaved(_SearchItem item) async {
+    if (!item.canBookmark) return;
+    await _fp.toggleBookmark(_bookmarkFor(item));
+  }
 
   _SearchItem _itemFor(PlatformSearchDocument document) {
     final score = document.relevance;
@@ -514,7 +546,12 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
                     children: [
                       Expanded(
                         child: left != null
-                            ? _ShortCard(item: left, onTap: () => _openShort(i))
+                            ? _ShortCard(
+                                item: left,
+                                onTap: () => _openShort(i),
+                                saved: _isItemSaved(left),
+                                onSave: () => _toggleItemSaved(left),
+                              )
                             : const SizedBox.shrink(),
                       ),
                       const SizedBox(width: 8),
@@ -522,6 +559,8 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
                         child: right != null
                             ? _ContentCard(
                                 item:       right,
+                                saved: _isItemSaved(right),
+                                onSave: () => _toggleItemSaved(right),
                                 onTapVideo: _openVideo,
                                 onTapBook:  _openBook,
                                 onTapBlog:  _openArticle,
@@ -613,7 +652,14 @@ class _ColHeader extends StatelessWidget {
 class _ShortCard extends StatelessWidget {
   final _SearchItem item;
   final VoidCallback onTap;
-  const _ShortCard({required this.item, required this.onTap});
+  final bool saved;
+  final VoidCallback onSave;
+  const _ShortCard({
+    required this.item,
+    required this.onTap,
+    required this.saved,
+    required this.onSave,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -650,6 +696,11 @@ class _ShortCard extends StatelessWidget {
                 // Channel accent top bar
                 Positioned(top: 0, left: 0, right: 0,
                     child: Container(height: 3, color: ch.accentColor)),
+                Positioned(
+                  top: 4,
+                  right: 4,
+                  child: _SearchBookmarkButton(saved: saved, onPressed: onSave),
+                ),
                 // Play icon
                 const Center(
                   child: DecoratedBox(
@@ -711,6 +762,8 @@ class _ShortCard extends StatelessWidget {
 
 class _ContentCard extends StatelessWidget {
   final _SearchItem                  item;
+  final bool                         saved;
+  final VoidCallback                 onSave;
   final void Function(Video)         onTapVideo;
   final void Function(Video)         onTapBook;
   final void Function(BlogArticle)   onTapBlog;
@@ -721,6 +774,8 @@ class _ContentCard extends StatelessWidget {
 
   const _ContentCard({
     required this.item,
+    required this.saved,
+    required this.onSave,
     required this.onTapVideo,
     required this.onTapBook,
     required this.onTapBlog,
@@ -781,7 +836,20 @@ class _ContentCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
               children: [
-                _buildThumb(context),
+                Stack(
+                  children: [
+                    _buildThumb(context),
+                    if (item.canBookmark)
+                      Positioned(
+                        top: 4,
+                        right: 4,
+                        child: _SearchBookmarkButton(
+                          saved: saved,
+                          onPressed: onSave,
+                        ),
+                      ),
+                  ],
+                ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(10, 8, 10, 10),
                   child: Column(
@@ -1046,4 +1114,28 @@ class _NoResults extends StatelessWidget {
       ),
     );
   }
+}
+
+class _SearchBookmarkButton extends StatelessWidget {
+  final bool saved;
+  final VoidCallback onPressed;
+
+  const _SearchBookmarkButton({required this.saved, required this.onPressed});
+
+  @override
+  Widget build(BuildContext context) => Material(
+        color: Colors.black54,
+        shape: const CircleBorder(),
+        child: IconButton(
+          tooltip: saved ? 'Remove bookmark' : 'Bookmark',
+          onPressed: onPressed,
+          icon: Icon(
+            saved ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
+            color: Colors.white,
+            size: 20,
+          ),
+          padding: const EdgeInsets.all(6),
+          constraints: const BoxConstraints(minWidth: 36, minHeight: 36),
+        ),
+      );
 }

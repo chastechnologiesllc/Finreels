@@ -11,6 +11,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../data/book_insights_data.dart';
 import '../data/category_playbook_data.dart';
 import '../models/video.dart';
+import '../providers/feed_provider.dart';
 import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
 import '../services/pdf_download_service.dart';
@@ -159,6 +160,7 @@ class BookDetailScreen extends StatefulWidget {
 class _BookDetailScreenState extends State<BookDetailScreen> {
   bool _showReader = false;
   bool _isLoading  = true;
+  bool _isSaved = false;
 
   // EPUB
   final EpubController _epubController = EpubController();
@@ -208,6 +210,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
   @override
   void initState() {
     super.initState();
+    _isSaved = FeedProvider.instance?.isVideoSaved(widget.book.id) ?? false;
     if (CategoryPlaybookData.isPlaybookId(widget.book.id)) {
       final categoryId = widget.book.id.replaceFirst('playbook_', '');
       unawaited(EngagementService.instance.recordCategoryInterest(categoryId));
@@ -369,7 +372,25 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
   Widget _buildDetail() {
     return Scaffold(
       backgroundColor: AppTheme.bgColor(context),
-      appBar: AppBar(title: const Text('Free Book')),
+      appBar: AppBar(
+        title: const Text('Free Book'),
+        actions: [
+          IconButton(
+            tooltip: _isSaved ? 'Remove bookmark' : 'Bookmark book',
+            icon: Icon(
+              _isSaved ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
+            ),
+            onPressed: () async {
+              final provider = FeedProvider.instance;
+              if (provider == null) return;
+              await provider.toggleSaved(widget.book);
+              if (mounted) {
+                setState(() => _isSaved = provider.isVideoSaved(widget.book.id));
+              }
+            },
+          ),
+        ],
+      ),
       body: Column(
         children: [
           Expanded(

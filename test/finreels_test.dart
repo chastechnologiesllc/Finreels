@@ -1,6 +1,7 @@
 import 'package:finreels/config/app_config.dart';
 import 'package:finreels/data/channel_data.dart';
 import 'package:finreels/models/resource_category.dart';
+import 'package:finreels/models/saved_bookmark.dart';
 import 'package:finreels/models/video.dart';
 import 'package:finreels/services/feed_snapshot_service.dart';
 import 'package:finreels/utils/category_search.dart';
@@ -183,6 +184,47 @@ void main() {
       expect(restored.channelId, video.channelId);
       expect(restored.publishedAt, video.publishedAt);
       expect(restored.thumbnailFallbackUrls, video.thumbnailFallbackUrls);
+    });
+  });
+
+  // ── Saved bookmarks ─────────────────────────────────────────────────────────
+  group('SavedBookmark model', () {
+    test('round-trips books, blogs, videos, and Shorts', () {
+      final video = Video(
+        id: 'short-1',
+        title: 'Short lesson',
+        description: 'A short lesson',
+        channelId: 'channel-1',
+        channelName: 'Learning Channel',
+        publishedAt: DateTime(2026, 8, 26),
+        thumbnailUrl: 'https://example.com/short.jpg',
+        originalLink: 'https://www.youtube.com/shorts/short-1',
+      );
+      final short = SavedBookmark.fromVideo(video);
+      final blog = SavedBookmark(
+        id: 'https://example.com/blog',
+        kind: SavedBookmarkKind.blog,
+        title: 'A blog',
+        description: 'An excerpt',
+        sourceName: 'Example',
+        url: 'https://example.com/blog',
+        publishedAt: DateTime(2026, 8, 26),
+      );
+      final book = SavedBookmark(
+        id: 'https://www.gutenberg.org/ebooks/1',
+        kind: SavedBookmarkKind.book,
+        title: 'A book',
+        description: 'A free book',
+        sourceName: 'Author',
+        url: 'https://www.gutenberg.org/ebooks/1',
+        publishedAt: DateTime(2026, 8, 26),
+      );
+
+      expect(short.kind, SavedBookmarkKind.short);
+      expect(SavedBookmark.fromJson(short.toJson()).stableKey, short.stableKey);
+      expect(SavedBookmark.fromJson(blog.toJson()).isBlog, isTrue);
+      expect(SavedBookmark.fromJson(book.toJson()).isBook, isTrue);
+      expect(SavedBookmark.fromJson(book.toJson()).url, book.url);
     });
   });
 

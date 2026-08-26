@@ -144,6 +144,7 @@ class AppConfig {
   static const String prefLastSeenVideos       = 'last_seen_videos_';
   static const String prefNotificationsEnabled = 'notifications_enabled';
   static const String prefSavedVideos          = 'saved_videos';
+  static const String prefSavedBookmarks       = 'saved_bookmarks';
   static const String prefAdBlockChecked       = 'adblock_last_check_ms';
   static const String prefSelectedCategoryIds  = 'selected_resource_category_ids';
   static const String prefOnboardingComplete   = 'onboarding_complete';

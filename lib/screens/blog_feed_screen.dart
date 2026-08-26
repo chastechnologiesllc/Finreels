@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
+import '../providers/feed_provider.dart';
 import '../services/ad_service.dart';
 import '../services/blog_rss_service.dart';
 import '../theme/app_theme.dart';
@@ -62,6 +63,7 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final provider = context.watch<FeedProvider>();
     // Shimmer shown only on the very first load (no cached articles yet).
     if (_loading && _articles.isEmpty) return _buildShimmer(context);
 
@@ -160,6 +162,8 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
               RepaintBoundary(
                 child: _BlogCard(
                   article: article,
+                  saved: provider.isBlogSaved(article.url),
+                  onSave: () => provider.toggleBlogSaved(article),
                   onTap: () {
                     // Interstitial on tap 4, 8, 12 … (blog-specific counter)
                     unawaited(AdService.instance.onBlogTapped());
@@ -274,9 +278,16 @@ class _BlogShimmerSkeleton extends StatelessWidget {
 
 class _BlogCard extends StatelessWidget {
   final BlogArticle article;
+  final bool saved;
+  final VoidCallback onSave;
   final VoidCallback onTap;
 
-  const _BlogCard({required this.article, required this.onTap});
+  const _BlogCard({
+    required this.article,
+    required this.saved,
+    required this.onSave,
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -296,9 +307,19 @@ class _BlogCard extends StatelessWidget {
             // ── 16:9 Cover Image ─────────────────────────────────────────
             AspectRatio(
               aspectRatio: 16 / 9,
-              child: BlogThumbnailImage(
-                url: article.thumbnailUrl,
-                fallbackUrls: article.thumbnailFallbackUrls,
+              child: Stack(
+                fit: StackFit.expand,
+                children: [
+                  BlogThumbnailImage(
+                    url: article.thumbnailUrl,
+                    fallbackUrls: article.thumbnailFallbackUrls,
+                  ),
+                  Positioned(
+                    top: 8,
+                    right: 8,
+                    child: _BlogBookmarkButton(saved: saved, onPressed: onSave),
+                  ),
+                ],
               ),
             ),
 
@@ -365,4 +386,28 @@ class _BlogCard extends StatelessWidget {
     );
   }
 
+}
+
+class _BlogBookmarkButton extends StatelessWidget {
+  final bool saved;
+  final VoidCallback onPressed;
+
+  const _BlogBookmarkButton({required this.saved, required this.onPressed});
+
+  @override
+  Widget build(BuildContext context) => Material(
+        color: Colors.black54,
+        shape: const CircleBorder(),
+        child: IconButton(
+          tooltip: saved ? 'Remove bookmark' : 'Bookmark blog',
+          onPressed: onPressed,
+          icon: Icon(
+            saved ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
+            color: Colors.white,
+            size: 20,
+          ),
+          padding: const EdgeInsets.all(6),
+          constraints: const BoxConstraints(minWidth: 36, minHeight: 36),
+        ),
+      );
 }

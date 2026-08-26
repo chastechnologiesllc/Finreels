@@ -312,6 +312,9 @@ class PlatformSearchIndex {
     final source = _normalize(document.source);
     final allText = '$title $aliases $body $source';
     final titleTokens = _tokens(title);
+    final aliasTokens = _tokens(aliases);
+    final bodyTokens = _tokens(body);
+    final sourceTokens = _tokens(source);
     final allTokens = _tokens(allText);
     final phrases = RegExp(r'"([^"]+)"')
         .allMatches(rawQuery)
@@ -329,6 +332,24 @@ class PlatformSearchIndex {
         aliases.split(' ').contains(normalizedQuery);
     if (exactCategoryAlias) score += 180;
     if (title.contains(normalizedQuery) && normalizedQuery.length >= 2) score += 120;
+
+    // Natural-language queries are often not quoted. Reward an ordered
+    // sequence of meaningful terms across the title/alias/body fields so a
+    // phrase such as "run a successful doctor's practice" beats documents
+    // that merely contain one isolated word such as "doctor".
+    if (queryTokens.length > 1) {
+      final titleSequence = _orderedSequence(queryTokens, titleTokens);
+      final aliasSequence = _orderedSequence(queryTokens, aliasTokens);
+      final bodySequence = _orderedSequence(queryTokens, bodyTokens);
+      final sourceSequence = _orderedSequence(queryTokens, sourceTokens);
+      if (titleSequence == queryTokens.length) score += 160;
+      else if (titleSequence >= 2) score += titleSequence * 28;
+      if (aliasSequence == queryTokens.length) score += 90;
+      else if (aliasSequence >= 2) score += aliasSequence * 16;
+      if (bodySequence == queryTokens.length) score += 55;
+      else if (bodySequence >= 2) score += bodySequence * 8;
+      if (sourceSequence == queryTokens.length) score += 32;
+    }
     for (final phrase in phrases) {
       if (title.contains(phrase)) score += 160;
       if (allText.contains(phrase)) score += 35;
@@ -372,6 +393,21 @@ class PlatformSearchIndex {
     final stems = _stems(term);
     return stems.any((stem) => stem.length >= 3 &&
         (tokens.contains(stem) || text.contains(stem)));
+  }
+
+  static int _orderedSequence(List<String> query, List<String> candidates) {
+    var cursor = 0;
+    var matched = 0;
+    for (final term in query) {
+      while (cursor < candidates.length) {
+        final candidate = candidates[cursor++];
+        if (_termMatches(term, [candidate], candidate)) {
+          matched++;
+          break;
+        }
+      }
+    }
+    return matched;
   }
 
   static bool _nearToken(String term, Iterable<String> candidates) {

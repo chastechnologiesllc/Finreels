@@ -152,6 +152,35 @@ void main() {
     expect(results.any((d) => d.kind == PlatformSearchKind.blog), isTrue);
   });
 
+  test('ranks complete natural-language intent above isolated keywords', () {
+    final exact = Video(
+      id: 'doctor-practice-exact',
+      title: 'How to Run a Successful Doctors Practice',
+      description: 'A step-by-step guide to a successful medical practice.',
+      channelId: 'medical-channel',
+      channelName: 'Medical Business Learning',
+      publishedAt: DateTime(2026, 8, 1),
+      thumbnailUrl: '',
+    );
+    final weak = Video(
+      id: 'doctor-practice-weak',
+      title: 'Doctor Stories',
+      description: 'A general discussion about doctors.',
+      channelId: 'general-channel',
+      channelName: 'General Learning',
+      publishedAt: DateTime(2026, 8, 2),
+      thumbnailUrl: '',
+    );
+
+    final results = index.search(
+      query: 'how to run a successful doctors practice',
+      videos: [weak, exact],
+    );
+
+    expect(results.first.id, 'video:doctor-practice-exact');
+    expect(results.first.relevance, greaterThan(results[1].relevance));
+  });
+
   test('deduplicates dynamic videos and blog URLs', () {
     final video = Video(
       id: 'duplicate-video',

@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:collection';
+import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
@@ -11,6 +12,7 @@ import '../data/resource_category_data.dart';
 import '../models/channel.dart';
 import '../models/feed_tab.dart';
 import '../models/resource_category.dart' show VerifiedBook;
+import '../models/saved_bookmark.dart';
 import '../models/video.dart';
 import '../services/blog_rss_service.dart';
 import '../services/engagement_service.dart';
@@ -180,6 +182,7 @@ class FeedProvider extends ChangeNotifier {
   }
 
   var _savedVideoIds = <String>{};
+  var _savedBookmarks = <String, SavedBookmark>{};
 
   List<Channel> get channels => ChannelData.combined;
   List<Video> getVideosFor(String channelId) => _videosByChannel[channelId] ?? [];
@@ -698,34 +701,91 @@ class FeedProvider extends ChangeNotifier {
     await refresh(force: true, silent: true);
   }
 
-  // ── Saved ─────────────────────────────────────────────────────────────────────
+  // ── Saved / Bookmarks ───────────────────────────────────────────────────────
 
-  bool isVideoSaved(String id) => _savedVideoIds.contains(id);
+  bool isVideoSaved(String id) => _savedVideoIds.contains(id) ||
+      _savedBookmarks.values.any((item) => item.id == id);
 
-  Future<void> toggleSaved(Video video) async {
-    final wasSaved = _savedVideoIds.contains(video.id);
-    wasSaved ? _savedVideoIds.remove(video.id) : _savedVideoIds.add(video.id);
+  bool isBlogSaved(String url) =>
+      _savedBookmarks.containsKey('${SavedBookmarkKind.blog.name}:$url');
+
+  bool isBookmarkSaved(String key) => _savedBookmarks.containsKey(key);
+
+  Future<void> toggleSaved(Video video) async =>
+      toggleBookmark(SavedBookmark.fromVideo(video));
+
+  Future<void> toggleBlogSaved(BlogArticle article) async =>
+      toggleBookmark(SavedBookmark.fromBlog(article));
+
+  Future<void> toggleBookmark(SavedBookmark bookmark) async {
+    final wasSaved = _savedBookmarks.remove(bookmark.stableKey) != null ||
+        (bookmark.isVideo && _savedVideoIds.contains(bookmark.id));
     if (!wasSaved) {
-      // Saving (not un-saving) is a stronger signal than just opening.
-      unawaited(EngagementService.instance.recordSave(video));
+      _savedBookmarks[bookmark.stableKey] = bookmark;
+      if (bookmark.video != null) {
+        _savedVideoIds.add(bookmark.id);
+        unawaited(EngagementService.instance.recordSave(bookmark.video!));
+      }
+    } else if (bookmark.isVideo) {
+      _savedVideoIds.remove(bookmark.id);
     }
     await _persistSaved();
     notifyListeners();
   }
 
-  List<Video> get savedVideos => _videosByChannel.values
-      .expand((v) => v)
-      .where((v) => _savedVideoIds.contains(v.id))
-      .toList()
-    ..sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
+  List<SavedBookmark> get savedBookmarks {
+    final merged = <String, SavedBookmark>{..._savedBookmarks};
+    // Legacy installations stored only video IDs. Rehydrate those IDs from
+    // the current feed when available so upgrading does not erase bookmarks.
+    for (final video in _videosByChannel.values.expand((items) => items)) {
+      if (!_savedVideoIds.contains(video.id)) continue;
+      final bookmark = SavedBookmark.fromVideo(video);
+      merged.putIfAbsent(bookmark.stableKey, () => bookmark);
+    }
+    final result = merged.values.toList();
+    result.sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
+    return result;
+  }
+
+  List<Video> get savedVideos => [
+        for (final bookmark in savedBookmarks)
+          if (bookmark.isVideo) bookmark.videoItem,
+      ];
+
+  Future<void> clearSaved() async {
+    _savedVideoIds.clear();
+    _savedBookmarks.clear();
+    await _persistSaved();
+    notifyListeners();
+  }
 
   Future<void> _loadSaved() async {
     final prefs = await SharedPreferences.getInstance();
-    _savedVideoIds = (prefs.getStringList(AppConfig.prefSavedVideos) ?? []).toSet();
+    _savedVideoIds =
+        (prefs.getStringList(AppConfig.prefSavedVideos) ?? []).toSet();
+    final rawBookmarks =
+        prefs.getStringList(AppConfig.prefSavedBookmarks) ?? const [];
+    _savedBookmarks = {};
+    for (final raw in rawBookmarks) {
+      try {
+        final item = SavedBookmark.fromJson(
+          jsonDecode(raw) as Map<String, dynamic>,
+        );
+        if (item.id.isNotEmpty && item.title.isNotEmpty) {
+          _savedBookmarks[item.stableKey] = item;
+        }
+      } on Object catch (_) {
+        // Ignore one malformed saved record without losing the rest.
+      }
+    }
   }
 
   Future<void> _persistSaved() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setStringList(AppConfig.prefSavedVideos, _savedVideoIds.toList());
+    await prefs.setStringList(
+      AppConfig.prefSavedBookmarks,
+      _savedBookmarks.values.map((item) => jsonEncode(item.toJson())).toList(),
+    );
   }
 }
