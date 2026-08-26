@@ -8,6 +8,7 @@ import '../models/notification_item.dart';
 import '../services/notification_service.dart';
 import '../services/notification_store.dart';
 import '../theme/app_theme.dart';
+import '../widgets/channel_avatar.dart';
 import 'notification_settings_screen.dart';
 
 /// Facebook-style notification inbox.
@@ -180,7 +181,9 @@ class _NotificationTile extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // ── Channel icon ──────────────────────────────────────────────
-            _ChannelAvatar(accentColor: accentColor),
+            channel != null
+                ? ChannelAvatar(channel: channel, size: 46)
+                : _ChannelAvatar(accentColor: accentColor),
             const SizedBox(width: 14),
 
             // ── Text block ────────────────────────────────────────────────

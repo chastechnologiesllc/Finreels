@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../data/channel_avatar_data.dart';
+
 class Channel {
   final String id;
   final String name;
@@ -34,6 +36,10 @@ class Channel {
       'https://www.youtube.com/feeds/videos.xml?channel_id=$id';
 
   String get channelUrl => 'https://www.youtube.com/channel/$id';
+
+  /// Official YouTube profile image captured from the channel page metadata.
+  /// Null means the channel page did not currently expose a usable avatar.
+  String? get avatarUrl => ChannelAvatarData.byChannelId[id];
 
   String get youtubeHandle {
     final value = handle.trim();

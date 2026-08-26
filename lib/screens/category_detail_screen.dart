@@ -13,6 +13,7 @@ import '../services/engagement_service.dart';
 import '../services/user_profile_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/book_cover_image.dart';
+import '../widgets/channel_avatar.dart';
 import 'blog_reader_screen.dart';
 import 'book_detail_screen.dart';
 import 'channel_videos_screen.dart';
@@ -267,13 +268,7 @@ class _ChannelTile extends StatelessWidget {
           ),
           child: Row(
             children: [
-              CircleAvatar(
-                radius: 18,
-                backgroundColor: channel.accentColor,
-                child: Text(channel.initials,
-                    style: const TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.w800, fontSize: 12)),
-              ),
+              ChannelAvatar(channel: channel, size: 38),
               const SizedBox(width: 12),
               Expanded(
                 child: Column(

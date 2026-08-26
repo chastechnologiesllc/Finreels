@@ -11,6 +11,7 @@ import '../services/rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/bookmark_button.dart';
+import '../widgets/channel_avatar.dart';
 import '../widgets/finreels_shimmer.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
@@ -168,23 +169,7 @@ class _ChannelHeader extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(16, 40, 16, 56),
           child: Row(
             children: [
-              Container(
-                width: 56, height: 56,
-                decoration: BoxDecoration(
-                  color: channel.accentColor.withValues(alpha: 0.2),
-                  shape: BoxShape.circle,
-                  border: Border.all(
-                      color: channel.accentColor.withValues(alpha: 0.5),
-                      width: 2),
-                ),
-                child: Center(
-                  child: Text(channel.initials,
-                      style: TextStyle(
-                          color: channel.accentColor,
-                          fontWeight: FontWeight.w800,
-                          fontSize: 18)),
-                ),
-              ),
+              ChannelAvatar(channel: channel, size: 56, borderWidth: 2),
               const SizedBox(width: 14),
               Expanded(
                 child: Column(

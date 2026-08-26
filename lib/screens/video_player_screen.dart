@@ -15,6 +15,7 @@ import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/channel_avatar.dart';
 import '../widgets/finreels_watermark.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
@@ -426,25 +427,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                       ),
                       child: Row(
                         children: [
-                          Container(
-                            width: 38,
-                            height: 38,
-                            decoration: BoxDecoration(
-                              color: widget.channel.accentColor
-                                  .withValues(alpha: 0.15),
-                              shape: BoxShape.circle,
-                              border: Border.all(
-                                  color: widget.channel.accentColor
-                                      .withValues(alpha: 0.4)),
-                            ),
-                            child: Center(
-                              child: Text(widget.channel.initials,
-                                  style: TextStyle(
-                                      color: widget.channel.accentColor,
-                                      fontWeight: FontWeight.w800,
-                                      fontSize: 13)),
-                            ),
-                          ),
+                          ChannelAvatar(channel: widget.channel, size: 38),
                           const SizedBox(width: 10),
                           Expanded(
                             child: Column(

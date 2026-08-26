@@ -1,4 +1,5 @@
 import 'package:finreels/config/app_config.dart';
+import 'package:finreels/data/channel_avatar_data.dart';
 import 'package:finreels/data/channel_data.dart';
 import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/saved_bookmark.dart';
@@ -232,6 +233,14 @@ void main() {
   group('ChannelData', () {
     test('has exactly 12 channels', () {
       expect(ChannelData.all.length, 12);
+    });
+
+    test('official avatar manifest covers the primary channels', () {
+      expect(ChannelAvatarData.byChannelId.length, greaterThanOrEqualTo(477));
+      expect(
+        ChannelData.all.every((channel) => channel.avatarUrl != null),
+        isTrue,
+      );
     });
 
     test('School of Hard Knocks is in the list', () {
