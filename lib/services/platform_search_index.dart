@@ -322,6 +322,12 @@ class PlatformSearchIndex {
     double score = 0;
     final exactTitle = title == normalizedQuery;
     if (exactTitle) score += 250;
+    // A canonical category alias is an allocation intent (for example,
+    // "tailor" means the Tailoring category), so keep that category ahead of
+    // a similarly titled book while still returning the book below it.
+    final exactCategoryAlias = document.kind == PlatformSearchKind.category &&
+        aliases.split(' ').contains(normalizedQuery);
+    if (exactCategoryAlias) score += 180;
     if (title.contains(normalizedQuery) && normalizedQuery.length >= 2) score += 120;
     for (final phrase in phrases) {
       if (title.contains(phrase)) score += 160;
