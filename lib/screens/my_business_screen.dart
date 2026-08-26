@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../data/resource_category_data.dart';
@@ -36,12 +38,13 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
   final _searchKey = GlobalKey();
   late final FocusNode _searchFocusNode;
   late final TextEditingController _searchController;
+  Timer? _compactTimer;
 
   @override
   void initState() {
     super.initState();
     _searchFocusNode = FocusNode()..addListener(_handleSearchFocus);
-    _searchController = TextEditingController();
+    _searchController = TextEditingController()..addListener(_handleSearchText);
     _selected = {...UserProfileService.instance.selectedCategoryIds};
     if (_loading) {
       ResourceCategoryData.loadCategories().then((_) {
@@ -55,32 +58,38 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
     _searchFocusNode
       ..removeListener(_handleSearchFocus)
       ..dispose();
-    _searchController.dispose();
+    _compactTimer?.cancel();
+    _searchController
+      ..removeListener(_handleSearchText)
+      ..dispose();
     super.dispose();
   }
 
   void _handleSearchFocus() {
     if (!mounted) return;
     final focused = _searchFocusNode.hasFocus;
-    if (focused == _searchFocused) return;
-    setState(() => _searchFocused = focused);
+    _compactTimer?.cancel();
     if (focused) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        final searchContext = _searchKey.currentContext;
-        if (searchContext == null || !mounted) return;
-        Scrollable.ensureVisible(
-          searchContext,
-          alignment: 0.08,
-          duration: const Duration(milliseconds: 180),
-          curve: Curves.easeOut,
-        );
+      // Give Android Chrome/iOS Safari a short, stable window to connect the
+      // virtual keyboard before changing layout. If a character arrives first,
+      // _setQuery compacts the layout with the text already in the controller.
+      _compactTimer = Timer(const Duration(milliseconds: 650), () {
+        if (!mounted || !_searchFocusNode.hasFocus || _query.isNotEmpty) return;
+        setState(() => _searchFocused = true);
       });
+      return;
+    }
+    if (_query.isEmpty && _searchFocused) {
+      setState(() => _searchFocused = false);
     }
   }
+
+  void _handleSearchText() => _setQuery(_searchController.text);
 
   void _setQuery(String raw) {
     final query = raw.trim().toLowerCase();
     if (query == _query) return;
+    if (!mounted) return;
     setState(() => _query = query);
   }
 
@@ -152,6 +161,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
       children: [
         Expanded(
           child: SingleChildScrollView(
+            keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.manual,
             padding: EdgeInsets.fromLTRB(20, compact ? 18 : 64, 20, 32),
             child: Center(
               child: ConstrainedBox(
@@ -159,8 +169,11 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    if (!compact)
-                      Semantics(
+                    Visibility(
+                      visible: !compact,
+                      maintainState: true,
+                      maintainAnimation: true,
+                      child: Semantics(
                         header: true,
                         child: Column(
                           children: [
@@ -199,7 +212,8 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                           ],
                         ),
                       ),
-                    if (!compact) const SizedBox(height: 42),
+                    ),
+                    SizedBox(height: compact ? 0 : 42),
                     Container(
                       key: _searchKey,
                       child: _SearchField(

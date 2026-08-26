@@ -9,3 +9,9 @@ The source wrapped the Flutter TextField in `Semantics(textField: true, label: .
 ## Post-fix verification
 
 After commit `20947e5` was deployed, a cache-busted live visit to `https://chastechnologiesllc.github.io/Finreels/?v=20947e5` exposed one input element at initial onboarding, not two. Tapping it collapsed the welcome/guidance content and still exposed exactly one input with the expected search placeholder. This confirms the redundant Semantics wrapper was contributing to the duplicate-input behavior observed before the fix.
+
+## Input report follow-up
+
+A fresh reproduction on the configured Pages deployment (`chastechnologiesllc.github.io/Finreels`) after commit `20947e5` shows one visible input, an active browser input element, and typed `law` displayed in the field with the ranked `Law` result. The screenshot supplied by the user shows `stechnologiesllc.github.io`, which is not the configured Pages URL for `chastechnologiesllc/Finreels`; that host returns GitHub Pages 404 in the sandbox and cannot receive this repository’s deployments.
+
+To harden the mobile path further, the onboarding source now derives query state from a persistent controller listener, keeps the welcome subtree maintained during compact-mode changes, removes focus-time auto-scrolling, and sets the scroll view to manual keyboard dismissal. These changes target the Android Chrome behavior where the keyboard can remain open while a layout rebuild loses the platform text-input connection.
