@@ -345,7 +345,6 @@ class _ShortsGrid extends StatelessWidget {
         itemCount: shorts.length,
         itemBuilder: (context, i) {
           final v = shorts[i];
-          final provider = FeedProvider.instance;
           return RepaintBoundary(
             key: ValueKey(v.id),
             child: GestureDetector(
