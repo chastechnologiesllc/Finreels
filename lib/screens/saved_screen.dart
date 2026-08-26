@@ -16,6 +16,7 @@ import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
 import 'blog_reader_screen.dart';
 import 'book_detail_screen.dart';
+import 'shorts_player_screen.dart';
 import 'video_player_screen.dart';
 
 class SavedScreen extends StatefulWidget {
@@ -68,6 +69,20 @@ class _SavedScreenState extends State<SavedScreen> {
           MaterialPageRoute(builder: (_) => BookDetailScreen(book: video)),
         );
       }
+      return;
+    }
+
+    if (bookmark.isShort) {
+      unawaited(AdService.instance.onShortTapped());
+      Navigator.push(
+        context,
+        NoFlashPageRoute(
+          builder: (_) => ShortsPlayerScreen(
+            shorts: [video],
+            initialIndex: 0,
+          ),
+        ),
+      );
       return;
     }
 

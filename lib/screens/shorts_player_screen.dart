@@ -6,9 +6,11 @@ import 'package:flutter/services.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 import '../models/video.dart';
+import '../providers/feed_provider.dart';
 import '../services/ad_service.dart';
 import '../services/engagement_service.dart';
 import '../theme/app_theme.dart';
+import '../widgets/bookmark_button.dart';
 import '../widgets/finreels_watermark.dart';
 import '../widgets/video_thumbnail_image.dart';
 import '../widgets/web_youtube_player.dart';
@@ -546,6 +548,7 @@ class _ShortPageState extends State<_ShortPage>
     super.build(context);
     final size = MediaQuery.of(context).size;
     final controller = _boundController;
+    final feedProvider = FeedProvider.instance;
 
     // Persistent play button when paused after start (YouTube Shorts style).
     final showPersistentPlay =
@@ -617,6 +620,18 @@ class _ShortPageState extends State<_ShortPage>
               });
               return const SizedBox.shrink();
             }),
+
+          if (feedProvider != null)
+            Positioned(
+              top: MediaQuery.of(context).padding.top + 8,
+              right: 8,
+              child: BookmarkButton(
+                saved: feedProvider.isVideoSaved(widget.video.id),
+                onPressed: () => unawaited(
+                  feedProvider.toggleSaved(widget.video),
+                ),
+              ),
+            ),
 
           // ── Thumbnail (AnimatedOpacity crossfade) ──────────────────
           // opacity=1.0 until _hasVideoStarted (first decoded frame),

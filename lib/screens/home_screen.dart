@@ -12,6 +12,7 @@ import '../services/ad_service.dart';
 import '../services/notification_store.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/bookmark_button.dart';
 import '../widgets/book_cover_image.dart';
 import '../widgets/inline_video_card.dart';
 import '../widgets/no_flash_page_route.dart';
@@ -373,6 +374,10 @@ class _ShortsTab extends StatelessWidget {
                   ),
                   Positioned(top: 0, left: 0, right: 0,
                       child: Container(height: 3, color: channel.accentColor)),
+                  BookmarkButtonOverlay(
+                    saved: provider.isVideoSaved(video.id),
+                    onPressed: () => provider.toggleSaved(video),
+                  ),
                   const Center(
                     child: DecoratedBox(
                       decoration: BoxDecoration(

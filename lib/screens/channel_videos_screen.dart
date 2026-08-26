@@ -5,10 +5,12 @@ import 'package:timeago/timeago.dart' as timeago;
 
 import '../models/channel.dart';
 import '../models/video.dart';
+import '../providers/feed_provider.dart';
 import '../services/ad_service.dart';
 import '../services/rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/bookmark_button.dart';
 import '../widgets/finreels_shimmer.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
@@ -244,6 +246,7 @@ class _VideosList extends StatelessWidget {
         separatorBuilder: (_, __) => const SizedBox(height: 12),
         itemBuilder: (context, i) {
           final v = videos[i];
+          final provider = FeedProvider.instance;
           return GestureDetector(
             key: ValueKey(v.id),
             onTap: () => onTap(v),
@@ -276,6 +279,18 @@ class _VideosList extends StatelessWidget {
                                 color: Colors.white, size: 30))),
                         Positioned(bottom: 0, left: 0, right: 0,
                             child: Container(height: 3, color: channel.accentColor)),
+                        if (provider != null)
+                          Positioned(
+                            top: 6,
+                            right: 6,
+                            child: ListenableBuilder(
+                              listenable: provider,
+                              builder: (_, __) => BookmarkButton(
+                                saved: provider.isVideoSaved(v.id),
+                                onPressed: () => provider.toggleSaved(v),
+                              ),
+                            ),
+                          ),
                       ]),
                     ),
                     Padding(
@@ -330,6 +345,7 @@ class _ShortsGrid extends StatelessWidget {
         itemCount: shorts.length,
         itemBuilder: (context, i) {
           final v = shorts[i];
+          final provider = FeedProvider.instance;
           return RepaintBoundary(
             key: ValueKey(v.id),
             child: GestureDetector(
@@ -350,6 +366,18 @@ class _ShortsGrid extends StatelessWidget {
                           stops: [0.45, 1.0]))),
                   Positioned(top: 0, left: 0, right: 0,
                       child: Container(height: 3, color: channel.accentColor)),
+                  if (provider != null)
+                    Positioned(
+                      top: 6,
+                      right: 6,
+                      child: ListenableBuilder(
+                        listenable: provider,
+                        builder: (_, __) => BookmarkButton(
+                          saved: provider.isVideoSaved(v.id),
+                          onPressed: () => provider.toggleSaved(v),
+                        ),
+                      ),
+                    ),
                   const Center(child: DecoratedBox(
                       decoration: BoxDecoration(
                           color: Colors.black45, shape: BoxShape.circle),
