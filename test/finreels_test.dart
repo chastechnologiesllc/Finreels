@@ -81,16 +81,42 @@ void main() {
       }
     });
 
-    test('onboarding search stays empty until a query is typed', () {
-      const law = ResourceCategory(
-        id: 'law',
-        section: ResourceSection.profession,
-        number: 1,
-        name: 'Law',
-        realProblem: 'Learn legal practice and business basics.',
+    test('onboarding search ranks short typed queries without showing defaults', () {
+      const categories = [
+        ResourceCategory(
+          id: 'law',
+          section: ResourceSection.profession,
+          number: 1,
+          name: 'Law',
+          realProblem: 'Learn legal practice and business basics.',
+          searchKeywords: ['legal', 'lawyer'],
+        ),
+        ResourceCategory(
+          id: 'medicine',
+          section: ResourceSection.profession,
+          number: 2,
+          name: 'Medicine',
+          realProblem: 'Learn healthcare practice and business basics.',
+          searchKeywords: ['doctor', 'health'],
+        ),
+        ResourceCategory(
+          id: 'tailoring',
+          section: ResourceSection.skill,
+          number: 3,
+          name: 'Tailoring',
+          realProblem: 'Learn garment-making skills and business basics.',
+          searchKeywords: ['sewing', 'fashion'],
+        ),
+      ];
+
+      expect(CategorySearch.search(categories, ''), isEmpty);
+      expect(CategorySearch.search(categories, 'l').map((c) => c.name),
+          contains('Law'));
+      expect(CategorySearch.search(categories, 'la').first.name, 'Law');
+      expect(
+        CategorySearch.search(categories, 'l', limit: 2),
+        hasLength(2),
       );
-      expect(CategorySearch.search(const [law], ''), isEmpty);
-      expect(CategorySearch.search(const [law], 'law').single.name, 'Law');
     });
 
     test('bundled feed snapshot has public channel and blog data', () async {

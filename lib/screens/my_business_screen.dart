@@ -101,11 +101,14 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
     if (_query.isEmpty || !ResourceCategoryData.isLoaded) {
       return const <ResourceCategory>[];
     }
-    // Keep broad one-character queries compact while ensuring an exact
-    // category name, such as "medicine", ranks first when entered.
+    // Short queries can match a large part of the index. Keep the first
+    // keystrokes instant by rendering only the highest-ranked matches; as the
+    // query becomes more specific, show every indexed match.
+    final shortQuery = _query.length < 3;
     return CategorySearch.search(
       ResourceCategoryData.all,
       _query,
+      limit: shortQuery ? 8 : null,
     );
   }
 
@@ -345,6 +348,17 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
 
     return Column(
       children: [
+        if (_query.length < 3)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 8),
+            child: Text(
+              'Top matches — type another letter for more precise results.',
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: AppTheme.textMuted(context),
+                  ),
+            ),
+          ),
         for (final category in matches)
           _CategoryTile(
             category: category,
