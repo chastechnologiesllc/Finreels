@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_09_content_creation",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UC1emV4A8liRs9p80CY8ElUQ",
@@ -494,9 +494,111 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "Ozma of Oz A Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion, and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein",
+      "author": "Baum, L. Frank (Lyman Frank), 1856-1919",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/486",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 486); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/486/pg486.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/486/pg486.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/486/pg486.cover.small.jpg"
+      ],
+      "subject": "Oz (Imaginary place) -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Oz (Imaginary place) -- Juvenile fiction",
+        "Fantasy literature",
+        "Vacations -- Juvenile fiction",
+        "Voyages and travels -- Juvenile fiction",
+        "Uncles -- Juvenile fiction",
+        "Magic -- Juvenile fiction",
+        "Physicians -- Juvenile fiction",
+        "Kings and rulers -- Juvenile fiction",
+        "Steamboats -- Juvenile fiction",
+        "Hens -- Juvenile fiction",
+        "Gale, Dorothy (Fictitious character) -- Juvenile fiction",
+        "Princess Ozma (Fictitious character) -- Juvenile fiction",
+        "Cowardly Lion (Fictitious character) -- Juvenile fiction",
+        "Scarecrow (Fictitious character from Baum) -- Juvenile fiction",
+        "Tin Woodman (Fictitious character) -- Juvenile fiction",
+        "Children's Literature",
+        "Fantasy",
+        "Category: Children & Young Adult Reading",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Adventure",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Reels and Spindles: A Story of Mill Life",
+      "author": "Raymond, Evelyn, 1843-1910; Merrill, Frank T., 1848-1923 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27613",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 27613); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/27613/pg27613.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/27613/pg27613.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/27613/pg27613.cover.small.jpg"
+      ],
+      "subject": "Mills and mill-work -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Mills and mill-work -- Fiction",
+        "Girls -- Conduct of life -- Fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ",
+        "PS"
+      ]
+    },
+    {
+      "title": "Ozma of Oz A Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodman, Tiktok, the Cowardly Lion, and the Hungry Tiger; Besides Other Good People too Numerous to Mention Faithfully Recorded Herein",
+      "author": "Baum, L. Frank (Lyman Frank), 1856-1919; Neill, John R. (John Rea), 1877-1943 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33361",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 33361); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33361/pg33361.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33361/pg33361.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33361/pg33361.cover.small.jpg"
+      ],
+      "subject": "Oz (Imaginary place) -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Oz (Imaginary place) -- Juvenile fiction",
+        "Fantasy literature",
+        "Vacations -- Juvenile fiction",
+        "Voyages and travels -- Juvenile fiction",
+        "Uncles -- Juvenile fiction",
+        "Magic -- Juvenile fiction",
+        "Physicians -- Juvenile fiction",
+        "Kings and rulers -- Juvenile fiction",
+        "Steamboats -- Juvenile fiction",
+        "Hens -- Juvenile fiction",
+        "Gale, Dorothy (Fictitious character) -- Juvenile fiction",
+        "Princess Ozma (Fictitious character) -- Juvenile fiction",
+        "Cowardly Lion (Fictitious character) -- Juvenile fiction",
+        "Scarecrow (Fictitious character from Baum) -- Juvenile fiction",
+        "Tin Woodman (Fictitious character) -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Novels",
+        "PZ"
+      ]
     }
   ],
   "integrationNotes": "Stub for Short-form Content Creation. Capital: ₦0–low. Summary: Create TikTok, Instagram Reels and YouTube Shorts content; monetize via Creator Fund, brand deals, affiliates and digital products.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
   "actionRequired": "Nigeria-first list focused on teaching content creation systems rather than pure entertainment. Continue to 10 next.",
-  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 3 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

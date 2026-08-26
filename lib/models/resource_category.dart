@@ -136,6 +136,10 @@ class VerifiedBook {
   final String? region;
   final String? license;
 
+  /// Subject, bookshelf, and classification terms retained for platform-wide
+  /// search relevance. Older records may omit this field.
+  final List<String> searchKeywords;
+
   const VerifiedBook({
     required this.title,
     required this.author,
@@ -149,6 +153,7 @@ class VerifiedBook {
     this.stage,
     this.region,
     this.license,
+    this.searchKeywords = const [],
   });
 
   factory VerifiedBook.fromJson(Map<String, dynamic> j, {String? categoryId}) => VerifiedBook(
@@ -168,6 +173,11 @@ class VerifiedBook {
         stage: j['stage'] as String?,
         region: j['region'] as String?,
         license: j['license'] as String?,
+        searchKeywords: (j['searchKeywords'] as List?)
+                ?.whereType<String>()
+                .where((value) => value.trim().isNotEmpty)
+                .toList(growable: false) ??
+            const [],
       );
 }
 /// Field population differs by [section] — see the three "shape" groups

@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_09_banking_finance",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCKPrhdlB-gKbM4sI42P_bdQ",
@@ -634,7 +634,18 @@
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-economics-of-food-and-agricultural-markets",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548223-L.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548223-L.jpg",
+      "searchKeywords": [
+        "Aesop's fables -- Adaptations",
+        "Fables, Greek -- Adaptations",
+        "Harvard Classics",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Mythology, Legends & Folklore",
+        "Category: Classics of Literature",
+        "PA",
+        "PZ"
+      ]
     },
     {
       "title": "Introduction to Women, Gender, Sexuality Studies",
@@ -1053,9 +1064,83 @@
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Finance; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-financial-management"
+    },
+    {
+      "title": "The banker and the bear",
+      "author": "Webster, Henry Kitchell, 1875-1932",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75767",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 75767); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75767/pg75767.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75767/pg75767.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75767/pg75767.cover.small.jpg"
+      ],
+      "subject": "Didactic fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Didactic fiction",
+        "Social problems -- Fiction",
+        "Political fiction",
+        "Bankers -- Fiction",
+        "Category: Novels",
+        "Category: American Literature",
+        "Category: Business/Management",
+        "PS"
+      ]
+    },
+    {
+      "title": "Halsey & Co. or, The Young Bankers and Speculators",
+      "author": "Shackleford, H. K. (Harvey King), 1841-1906",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21963",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 21963); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21963/pg21963.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21963/pg21963.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21963/pg21963.cover.small.jpg"
+      ],
+      "subject": "Boys -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Boys -- Juvenile fiction",
+        "Wall Street (New York, N.Y.) -- Juvenile fiction",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Little London Directory of 1677 The oldest printed list of the merchants and bankers of London",
+      "author": "Lee, Samuel, active 1677-1695 [Publisher]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56391",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 56391); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56391/pg56391.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56391/pg56391.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56391/pg56391.cover.small.jpg"
+      ],
+      "subject": "London (England) -- Directories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "London (England) -- Directories",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: Economics",
+        "DA"
+      ]
     }
   ],
-  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). CIBN confirmed via direct YouTube page fetch (@TheCibn → UClWfcJrMhPTydzJz9WD3IYQ). Proshare Nigeria confirmed as WebTV Nigeria (UCh_x1EANObKl_UwkVaAiq-Q) via direct YouTube page fetch. All other 8 channels confirmed via YouTube search results. Blogs: CBN is a government site — verify feed path. Bloomberg uses custom RSS paths. The Banker is FT Group — check feed path. Connect Nigeria flagged. 2026-08-23: Added 62 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). CIBN confirmed via direct YouTube page fetch (@TheCibn → UClWfcJrMhPTydzJz9WD3IYQ). Proshare Nigeria confirmed as WebTV Nigeria (UCh_x1EANObKl_UwkVaAiq-Q) via direct YouTube page fetch. All other 8 channels confirmed via YouTube search results. Blogs: CBN is a government site — verify feed path. Bloomberg uses custom RSS paths. The Banker is FT Group — check feed path. Connect Nigeria flagged. 2026-08-23: Added 62 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 3 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

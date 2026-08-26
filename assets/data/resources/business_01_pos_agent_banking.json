@@ -1,7 +1,7 @@
 {
   "categoryId": "business_01_pos_agent_banking",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCL0qLsvIKeGU-Y1nhdFdC6A",
@@ -476,6 +476,39 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Living Too Fast; Or, The Confessions of a Bank Officer",
+      "author": "Optic, Oliver, 1822-1897",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51067",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 51067); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51067/pg51067.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51067/pg51067.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51067/pg51067.cover.small.jpg"
+      ],
+      "subject": "Children's stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's stories",
+        "Young women -- Juvenile fiction",
+        "Uncles -- Juvenile fiction",
+        "Household employees -- Juvenile fiction",
+        "Young men -- Juvenile fiction",
+        "Temperance -- Juvenile fiction",
+        "Boston (Mass.) -- Juvenile fiction",
+        "Theft -- Juvenile fiction",
+        "Money -- Juvenile fiction",
+        "Marriage -- Juvenile fiction",
+        "Banks and banking -- Juvenile fiction",
+        "Debt -- Juvenile fiction",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
     }
   ],
   "integrationNotes": "6/10 channels confirmed with UCxxx IDs (Moniepoint, OPay Nigeria, PalmPay, Techpoint Africa, BusinessDay TV, NairametricsTV). 4 RESOLVE (CBN cenbank, FintechNigeria, SMEDANofficial, AgencyBankingAfrica). Key corrections: (1) OPay handle CORRECTED to @opaynigeria (all lowercase); (2) PalmPay handle is @PalmPay not @PalmPayNigeria; (3) BusinessDay handle → @BDTV-NG; (4) Nairametrics → @NairametricsTV. Blog correction: CBN cbn.gov.ng has no RSS /feed/ endpoint — changed to reference link. FiN and SMEDAN may not have active YouTube channels — verify handles and replace if absent.",
@@ -483,5 +516,5 @@
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
   ],
-  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

@@ -1,0 +1,1526 @@
+{
+  "generatedOn": "2026-08-26",
+  "source": "https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv",
+  "sourcePolicy": "English Text records from Project Gutenberg official catalog; public-domain status is jurisdiction-specific.",
+  "currentEntriesBeforeImport": 10490,
+  "targetEntries": 20000,
+  "newEntriesImported": 9510,
+  "totalEntriesAfterImport": 20000,
+  "uniqueExistingTitlesBeforeImport": 8634,
+  "candidateRowsAfterExistingTitleExclusion": 53797,
+  "categoryAssignedNewEntries": 2441,
+  "generalNewEntries": 7069,
+  "categoryCounts": {
+    "skill_01_tailoring_fashion_design": 40,
+    "skill_02_hairdressing_hairstyling": 21,
+    "skill_03_barbing": 20,
+    "skill_05_welding_metal_fabrication": 1,
+    "skill_06_carpentry_furniture_making": 12,
+    "skill_07_plumbing": 2,
+    "skill_08_electrical_installation_wiring": 4,
+    "skill_09_auto_mechanics": 38,
+    "skill_11_graphic_design": 166,
+    "skill_13_photography": 69,
+    "skill_14_videography_video_editing": 1,
+    "skill_15_catering_baking": 50,
+    "skill_16_event_decoration_planning": 17,
+    "skill_17_shoemaking_leatherwork": 10,
+    "skill_18_pop_tiling_interior_decor": 5,
+    "skill_19_solar_installation_renewable_energy": 1,
+    "business_01_pos_agent_banking": 1,
+    "business_02_provision_store_mini_mart": 1,
+    "business_03_fashion_retail_boutique": 2,
+    "business_05_real_estate_agency": 6,
+    "business_06_logistics_dispatch_rider": 5,
+    "business_09_car_hire_ride_hailing_fleet": 1,
+    "business_10_poultry_farming": 3,
+    "business_11_fish_farming": 5,
+    "business_13_bakery_confectionery": 1,
+    "business_14_cosmetics_skincare": 1,
+    "business_16_private_tutorial_online_tutoring": 4,
+    "business_17_mini_importation_e_commerce": 9,
+    "profession_01_medicine": 310,
+    "profession_02_law": 30,
+    "profession_03_pharmacy": 12,
+    "profession_04_nursing": 128,
+    "profession_06_engineering": 350,
+    "profession_07_architecture": 350,
+    "profession_08_estate_management_surveying": 1,
+    "profession_09_banking_finance": 3,
+    "profession_10_mass_communication_media_pr": 10,
+    "profession_11_computer_science_software_engineering": 3,
+    "profession_12_agriculture": 129,
+    "profession_13_education": 350,
+    "profession_14_dentistry": 4,
+    "profession_15_psychology_counselling": 5,
+    "profession_19_automobile_technology": 16,
+    "online_hustles_01_surveys_microtasks": 47,
+    "online_hustles_02_affiliate_marketing": 46,
+    "online_hustles_04_canva_graphic_design": 7,
+    "online_hustles_08_transcription_captioning": 54,
+    "online_hustles_09_content_creation": 3,
+    "online_hustles_10_ai_services": 4,
+    "online_hustles_11_digital_products": 29,
+    "online_hustles_17_web_nocode": 2,
+    "online_hustles_18_online_courses": 52
+  },
+  "sampleAssigned": [
+    {
+      "id": 78002,
+      "title": "The ladies' hand-book of millinery and dressmaking",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        132,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:dressmaking",
+          "phrase:sewing",
+          "title-token:dressmaking",
+          "subject-token:clothing,dressmaking,sewing"
+        ]
+      ]
+    },
+    {
+      "id": 61167,
+      "title": "It's Fun to Sew with a Sewing Machine",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        118,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:sewing",
+          "title-token:sew,sewing",
+          "subject-token:sew,sewing"
+        ]
+      ]
+    },
+    {
+      "id": 78496,
+      "title": "The \"Keystone\" jacket and dress cutter",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        114,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:dressmaking",
+          "phrase:tailoring",
+          "phrase:tailor",
+          "subject-token:dressmaking,pattern,tailoring"
+        ]
+      ]
+    },
+    {
+      "id": 4625,
+      "title": "Lizzy Glenn; Or, The Trials of a Seamstress",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        112,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:seamstress",
+          "phrase:dressmaker",
+          "title-token:seamstress",
+          "subject-token:seamstress"
+        ]
+      ]
+    },
+    {
+      "id": 8374,
+      "title": "Alton Locke, Tailor and Poet: An Autobiography",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:tailor",
+          "title-token:tailor",
+          "subject-token:tailor"
+        ]
+      ]
+    },
+    {
+      "id": 14868,
+      "title": "The Tailor of Gloucester",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:tailor",
+          "title-token:tailor",
+          "subject-token:tailor"
+        ]
+      ]
+    },
+    {
+      "id": 20767,
+      "title": "The Life of Mansie Wauch Tailor in Dalkeith, written by himself",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:tailor",
+          "title-token:tailor",
+          "subject-token:tailor"
+        ]
+      ]
+    },
+    {
+      "id": 23668,
+      "title": "Bell's Cathedrals: The Cathedral Church of Salisbury A Description of its Fabric and a Brief History of the See of Sarum",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 23739,
+      "title": "The Life of Mansie Wauch tailor in Dalkeith",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:tailor",
+          "title-token:tailor",
+          "subject-token:tailor"
+        ]
+      ]
+    },
+    {
+      "id": 24616,
+      "title": "Bell's Cathedrals: Southwark Cathedral Formerly the Collegiate Church of St. Saviour, Otherwise St. Mary Overie. A Short History and Description of the Fabric, with Some Account of the College and the See",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 25084,
+      "title": "Bell's Cathedrals: The Cathedral Church of Rochester A Description of its Fabric and a Brief History of the Episcopal See",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 25682,
+      "title": "Bell's Cathedrals: The Cathedral Church of Gloucester [2nd ed.] A Description of Its Fabric and A Brief History of the Espicopal See",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 25800,
+      "title": "Bell's Cathedrals: The Cathedral Church of Ripon A Short History of the Church and a Description of Its Fabric",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 27530,
+      "title": "The Tailor and the Crow: An Old Rhyme with New Drawings",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:tailor",
+          "title-token:tailor",
+          "subject-token:tailor"
+        ]
+      ]
+    },
+    {
+      "id": 32200,
+      "title": "Sowing and Sewing: A Sexagesima Story",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:sewing",
+          "title-token:sewing",
+          "subject-token:sewing"
+        ]
+      ]
+    },
+    {
+      "id": 32280,
+      "title": "Bell's Cathedrals: The Cathedral Church of Wells A Description of Its Fabric and a Brief History of the Episcopal See",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 32677,
+      "title": "The Invention of the Sewing Machine",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:sewing",
+          "title-token:sewing",
+          "subject-token:sewing"
+        ]
+      ]
+    },
+    {
+      "id": 35631,
+      "title": "A Letter on Shakspere's Authorship of The Two Noble Kinsmen and on the characteristics of Shakspere's style and the secret of his supremacy",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style",
+          "title-token:style",
+          "subject-token:style"
+        ]
+      ]
+    },
+    {
+      "id": 37049,
+      "title": "Bell's Cathedrals: The Cathedral Church of Lichfield A Description of Its Fabric and A Brief History of the Espicopal See",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 41289,
+      "title": "The Magazine Style-Code",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style",
+          "title-token:style",
+          "subject-token:style"
+        ]
+      ]
+    },
+    {
+      "id": 43477,
+      "title": "Bell's Cathedrals: The Cathedral Church of Lincoln A History and Description of its Fabric and a List of the Bishops",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 43517,
+      "title": "Bell's Cathedrals: The Church of St. Martin, Canterbury An Illustrated Account of its History and Fabric",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 48553,
+      "title": "Emblematic Illumination; or Forms, Colours and Emblems Suitable for Illuminating Texts of Holy Scripture in Large Style, in Oils or Water-colours.",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style",
+          "title-token:style",
+          "subject-token:style"
+        ]
+      ]
+    },
+    {
+      "id": 49157,
+      "title": "The Little Girl's Sewing Book",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:sewing",
+          "title-token:sewing",
+          "subject-token:sewing"
+        ]
+      ]
+    },
+    {
+      "id": 49581,
+      "title": "The Cathedral Church of Oxford A description of its fabric and a brief history of the Episcopal see",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 50936,
+      "title": "Man in a Sewing Machine",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:sewing",
+          "title-token:sewing",
+          "subject-token:sewing"
+        ]
+      ]
+    },
+    {
+      "id": 55990,
+      "title": "Post-Mediæval Preachers Some Account of the Most Celebrated Preachers of the 15th, 16th, & 17th Centuries; with outlines of their sermons, and specimens of their style",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style",
+          "title-token:style",
+          "subject-token:style"
+        ]
+      ]
+    },
+    {
+      "id": 58937,
+      "title": "The Mary Frances sewing book",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:sewing",
+          "title-token:sewing",
+          "subject-token:sewing"
+        ]
+      ]
+    },
+    {
+      "id": 60162,
+      "title": "Solario the Tailor: His Tales of the Magic Doublet",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:tailor",
+          "title-token:tailor",
+          "subject-token:tailor"
+        ]
+      ]
+    },
+    {
+      "id": 63785,
+      "title": "A Nation in the Loom: The Scandinavian Fibre in Our Social Fabric An Address by Rev. R. A. Jernberg",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 66422,
+      "title": "Style and the Man",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style",
+          "title-token:style",
+          "subject-token:style"
+        ]
+      ]
+    },
+    {
+      "id": 75730,
+      "title": "The war and our financial fabric",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 77284,
+      "title": "The Scrubtown sewing circle's Thanksgiving",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:sewing",
+          "title-token:sewing",
+          "subject-token:sewing"
+        ]
+      ]
+    },
+    {
+      "id": 79369,
+      "title": "Bell's cathedrals: The cathedral church of Southwell a description of its fabric and a brief history of the Episcopal see",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        84,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:fabric",
+          "title-token:fabric",
+          "subject-token:fabric"
+        ]
+      ]
+    },
+    {
+      "id": 77776,
+      "title": "Of the making of a book",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        72,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style",
+          "title-token:making",
+          "subject-token:making,style"
+        ]
+      ]
+    },
+    {
+      "id": 39773,
+      "title": "Juvenile Styles: Original Designs for Infants and Juveniles, Volume 4",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        60,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style",
+          "subject-token:clothing"
+        ]
+      ]
+    },
+    {
+      "id": 863,
+      "title": "The Mysterious Affair at Styles",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        50,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style"
+        ]
+      ]
+    },
+    {
+      "id": 51626,
+      "title": "Jacobean Furniture and English Styles in Oak and Walnut",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        50,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style"
+        ]
+      ]
+    },
+    {
+      "id": 62208,
+      "title": "How to Fold Napkins Abundantly Illustrated with Many Handsome Styles and Diagrams Which Show How It is Done",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        50,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style"
+        ]
+      ]
+    },
+    {
+      "id": 63054,
+      "title": "Hypatia or, The history of a most beautiful, most vertuous, most learned, and every way accomplish'd lady; who was torn to pieces by the clergy of Alexandria, to gratify the pride, emulation, and cruelty of their archbishop, commonly but undeservedly styled St. Cyril",
+      "categoryId": "skill_01_tailoring_fashion_design",
+      "match": [
+        50,
+        "skill_01_tailoring_fashion_design",
+        "Tailoring & Fashion Design",
+        [
+          "phrase:style"
+        ]
+      ]
+    },
+    {
+      "id": 58636,
+      "title": "Board-Work; or the Art of Wig-making, Etc. Designed For the Use of Hairdressers and Especially of Young Men in the Trade. To Which Is Added Remarks Upon Razors, Razor-sharpening, Razor Strops, & Miscellaneous Recipes, Specially Selected.",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        168,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:hairdresser",
+          "phrase:wig making",
+          "title-token:making,wig",
+          "subject-token:making,wig"
+        ]
+      ]
+    },
+    {
+      "id": 14600,
+      "title": "Theory of Silk Weaving A Treatise on the Construction and Application of Weaves, and the Decomposition and Calculation of Broad and Narrow, Plain, Novelty and Jacquard Silk Fabrics",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        84,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:weaving",
+          "title-token:weaving",
+          "subject-token:weaving"
+        ]
+      ]
+    },
+    {
+      "id": 24568,
+      "title": "Aboriginal American Weaving",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        84,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:weaving",
+          "title-token:weaving",
+          "subject-token:weaving"
+        ]
+      ]
+    },
+    {
+      "id": 53288,
+      "title": "Seat Weaving",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        84,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:weaving",
+          "title-token:weaving",
+          "subject-token:weaving"
+        ]
+      ]
+    },
+    {
+      "id": 53318,
+      "title": "Jacquard Weaving and Designing",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        84,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:weaving",
+          "title-token:weaving",
+          "subject-token:weaving"
+        ]
+      ]
+    },
+    {
+      "id": 57031,
+      "title": "Cotton Weaving and Designing 6th Edition",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        84,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:weaving",
+          "title-token:weaving",
+          "subject-token:weaving"
+        ]
+      ]
+    },
+    {
+      "id": 61293,
+      "title": "Gimp Braiding Projects",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        84,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:braiding",
+          "title-token:braiding",
+          "subject-token:braiding"
+        ]
+      ]
+    },
+    {
+      "id": 65967,
+      "title": "The History of Silk, Cotton, Linen, Wool, and Other Fibrous Substances; Including Observations on Spinning, Dyeing, and Weaving.",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        84,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:weaving",
+          "title-token:weaving",
+          "subject-token:weaving"
+        ]
+      ]
+    },
+    {
+      "id": 71916,
+      "title": "The salon and English letters",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        84,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon",
+          "title-token:salon",
+          "subject-token:salon"
+        ]
+      ]
+    },
+    {
+      "id": 65975,
+      "title": "The Making of a Man: Being a Description of Artificial Limbs and How They May Be Adopted by Those Who Have Suffered Loss of Their Natural Limbs",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        68,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "title-token:making,natural",
+          "subject-token:making,natural"
+        ]
+      ]
+    },
+    {
+      "id": 8052,
+      "title": "The Bible, King James version, Book 52: 1 Thessalonians",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 8053,
+      "title": "The Bible, King James version, Book 53: 2 Thessalonians",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 8279,
+      "title": "The World English Bible (WEB): 1 Thessalonians",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 8280,
+      "title": "The World English Bible (WEB): 2 Thessalonians",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 8840,
+      "title": "Weymouth New Testament in Modern Speech, 1 Thessalonians",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 8841,
+      "title": "Weymouth New Testament in Modern Speech, 2 Thessalonians",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 21190,
+      "title": "Expositions of Holy Scripture Second Corinthians, Galatians, and Philippians Chapters I to End. Colossians, Thessalonians, and First Timothy.",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 30812,
+      "title": "With the French in France and Salonika",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 40662,
+      "title": "Salona, Fairfax County, Virginia",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 42753,
+      "title": "The Expositor's Bible: The Epistles to the Thessalonians",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 62148,
+      "title": "The Preacher's Complete Homiletic Commentary of the Books of the Bible: Volume 29 (of 32) The Preacher's Complete Homiletic Commentary of the Epistles of St. Paul the Apostle: Galatians, Ephesians, Philippians, Colossians, and I-II Thessalonians",
+      "categoryId": "skill_02_hairdressing_hairstyling",
+      "match": [
+        50,
+        "skill_02_hairdressing_hairstyling",
+        "Hairdressing & Hairstyling",
+        [
+          "phrase:salon"
+        ]
+      ]
+    },
+    {
+      "id": 838,
+      "title": "Jasmin: Barber, Poet, Philanthropist",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:barber",
+          "title-token:barber",
+          "subject-token:barber"
+        ]
+      ]
+    },
+    {
+      "id": 4401,
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 1",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:shaving",
+          "title-token:shaving",
+          "subject-token:shaving"
+        ]
+      ]
+    },
+    {
+      "id": 4402,
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 2",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:shaving",
+          "title-token:shaving",
+          "subject-token:shaving"
+        ]
+      ]
+    },
+    {
+      "id": 4403,
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 3",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:shaving",
+          "title-token:shaving",
+          "subject-token:shaving"
+        ]
+      ]
+    },
+    {
+      "id": 4404,
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 4",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:shaving",
+          "title-token:shaving",
+          "subject-token:shaving"
+        ]
+      ]
+    },
+    {
+      "id": 4405,
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Complete",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:shaving",
+          "title-token:shaving",
+          "subject-token:shaving"
+        ]
+      ]
+    },
+    {
+      "id": 37453,
+      "title": "The Barber of Paris",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:barber",
+          "title-token:barber",
+          "subject-token:barber"
+        ]
+      ]
+    },
+    {
+      "id": 43166,
+      "title": "Shaving Made Easy: What the Man Who Shaves Ought to Know",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:shaving",
+          "title-token:shaving",
+          "subject-token:shaving"
+        ]
+      ]
+    },
+    {
+      "id": 49011,
+      "title": "The Annals of the Barber-Surgeons of London",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:barber",
+          "title-token:barber",
+          "subject-token:barber"
+        ]
+      ]
+    },
+    {
+      "id": 53044,
+      "title": "Devlin the Barber",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:barber",
+          "title-token:barber",
+          "subject-token:barber"
+        ]
+      ]
+    },
+    {
+      "id": 58384,
+      "title": "The Wigmaker in Eighteenth-Century Williamsburg An Account of His Barbering, Hair-dressing, & Peruke-Making Services, & Some Remarks on Wigs of Various Styles.",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:barber",
+          "title-token:hair",
+          "subject-token:hair"
+        ]
+      ]
+    },
+    {
+      "id": 59828,
+      "title": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:barber",
+          "title-token:barber",
+          "subject-token:barber"
+        ]
+      ]
+    },
+    {
+      "id": 67242,
+      "title": "Tales of the clipper ships",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:clipper",
+          "title-token:clipper",
+          "subject-token:clipper"
+        ]
+      ]
+    },
+    {
+      "id": 69154,
+      "title": "The clipper ship era an epitome of famous American and British clipper ships, their owners, builders, commanders, and crews, 1843-1869",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:clipper",
+          "title-token:clipper",
+          "subject-token:clipper"
+        ]
+      ]
+    },
+    {
+      "id": 69868,
+      "title": "The barber's chair; and, The hedgehog letters",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        84,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:barber",
+          "title-token:barber",
+          "subject-token:barber"
+        ]
+      ]
+    },
+    {
+      "id": 68781,
+      "title": "Trichocosmos: Notes historical, æsthetical, ethnological, physiological, anecdotal and tonsorial, on the hair & beard",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        62,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:barber",
+          "title-token:hair",
+          "subject-token:hair"
+        ]
+      ]
+    },
+    {
+      "id": 52897,
+      "title": "The Colonial Clippers",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        60,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:clipper",
+          "subject-token:clipper"
+        ]
+      ]
+    },
+    {
+      "id": 2452,
+      "title": "Shavings: A Novel",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        50,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:shaving"
+        ]
+      ]
+    },
+    {
+      "id": 52850,
+      "title": "Barbers' Manual (Part 1); Text Book on Taxidermy (Part 2)",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        50,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:barber"
+        ]
+      ]
+    },
+    {
+      "id": 58230,
+      "title": "Shavings & Scrapes from many parts",
+      "categoryId": "skill_03_barbing",
+      "match": [
+        50,
+        "skill_03_barbing",
+        "Barbing",
+        [
+          "phrase:shaving"
+        ]
+      ]
+    },
+    {
+      "id": 7396,
+      "title": "The Poetical Works of Oliver Wendell Holmes — Volume 09 The Iron Gate and Other Poems",
+      "categoryId": "skill_05_welding_metal_fabrication",
+      "match": [
+        78,
+        "skill_05_welding_metal_fabrication",
+        "Welding & Metal Fabrication",
+        [
+          "title-token:gate,iron,works",
+          "subject-token:gate,iron,works"
+        ]
+      ]
+    },
+    {
+      "id": 23666,
+      "title": "Mission Furniture: How to Make It, Part 3",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        110,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:furniture making",
+          "phrase:woodwork",
+          "title-token:furniture",
+          "subject-token:furniture,making,woodwork"
+        ]
+      ]
+    },
+    {
+      "id": 23770,
+      "title": "Mission Furniture: How to Make It, Part 1",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        110,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:furniture making",
+          "phrase:woodwork",
+          "title-token:furniture",
+          "subject-token:furniture,making,woodwork"
+        ]
+      ]
+    },
+    {
+      "id": 23991,
+      "title": "Mission Furniture: How to Make It, Part 2",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        110,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:furniture making",
+          "phrase:woodwork",
+          "title-token:furniture",
+          "subject-token:furniture,making,woodwork"
+        ]
+      ]
+    },
+    {
+      "id": 5774,
+      "title": "They Call Me Carpenter: A Tale of the Second Coming",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        84,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:carpenter",
+          "title-token:carpenter",
+          "subject-token:carpenter"
+        ]
+      ]
+    },
+    {
+      "id": 22061,
+      "title": "The Carpenter's Daughter",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        84,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:carpenter",
+          "title-token:carpenter",
+          "subject-token:carpenter"
+        ]
+      ]
+    },
+    {
+      "id": 32743,
+      "title": "The Silver Cross; Or, The Carpenter of Nazareth",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        84,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:carpenter",
+          "title-token:carpenter",
+          "subject-token:carpenter"
+        ]
+      ]
+    },
+    {
+      "id": 57211,
+      "title": "The Cabinetmaker in Eighteenth-Century Williamsburg Giving Attention to the City's Chief Craftsmen in the Furniture Way; And to Their Tools & Methods of Working",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        72,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:furniture making",
+          "title-token:furniture",
+          "subject-token:furniture,making"
+        ]
+      ]
+    },
+    {
+      "id": 76260,
+      "title": "Hand made furniture and how to make it",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        72,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:furniture making",
+          "title-token:furniture",
+          "subject-token:furniture,making"
+        ]
+      ]
+    },
+    {
+      "id": 55757,
+      "title": "The Art of Paper-Making A Practical Handbook of the Manufacture of Paper from Rags, Esparto, Straw, and Other Fibrous Materials, Including the Manufacture of Pulp from Wood Fibre",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        68,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "title-token:making,wood",
+          "subject-token:making,wood"
+        ]
+      ]
+    },
+    {
+      "id": 19097,
+      "title": "The Young Carpenters of Freiberg A Tale of the Thirty Years' War",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        50,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:carpenter"
+        ]
+      ]
+    },
+    {
+      "id": 15550,
+      "title": "Ethel Morton at Rose House",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        48,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:furniture making",
+          "subject-token:furniture,making"
+        ]
+      ]
+    },
+    {
+      "id": 35364,
+      "title": "Ethel Morton at Sweetbrier Lodge",
+      "categoryId": "skill_06_carpentry_furniture_making",
+      "match": [
+        48,
+        "skill_06_carpentry_furniture_making",
+        "Carpentry & Furniture Making",
+        [
+          "phrase:furniture making",
+          "subject-token:furniture,making"
+        ]
+      ]
+    },
+    {
+      "id": 33050,
+      "title": "Drainage modifications and glaciation in the Danbury region, Connecticut",
+      "categoryId": "skill_07_plumbing",
+      "match": [
+        84,
+        "skill_07_plumbing",
+        "Plumbing",
+        [
+          "phrase:drainage",
+          "title-token:drainage",
+          "subject-token:drainage"
+        ]
+      ]
+    },
+    {
+      "id": 51500,
+      "title": "Descriptive Pamphlet of the Richmond Mill Furnishing Works All sizes of mill stones and complete grinding and bolting combined husk or portable flouring mills, portable corn and feed mills; smut and separating machines; zigzag and oat separators, dustless separators, warehouse separators, water wheels; mill shafting; pulleys; spur and bevel, iron and core, gearing....",
+      "categoryId": "skill_07_plumbing",
+      "match": [
+        68,
+        "skill_07_plumbing",
+        "Plumbing",
+        [
+          "title-token:water,works",
+          "subject-token:water,works"
+        ]
+      ]
+    },
+    {
+      "id": 73393,
+      "title": "Jack Carstairs of the power house",
+      "categoryId": "skill_08_electrical_installation_wiring",
+      "match": [
+        78,
+        "skill_08_electrical_installation_wiring",
+        "Electrical Installation & Wiring",
+        [
+          "title-token:house,power",
+          "subject-token:electrical,house,power"
+        ]
+      ]
+    },
+    {
+      "id": 45027,
+      "title": "Chaucer's Works, Volume 3 — The House of Fame; The Legend of Good Women; The Treatise on the Astrolabe; The Sources of the Canterbury Tales",
+      "categoryId": "skill_08_electrical_installation_wiring",
+      "match": [
+        68,
+        "skill_08_electrical_installation_wiring",
+        "Electrical Installation & Wiring",
+        [
+          "title-token:house,works",
+          "subject-token:house,works"
+        ]
+      ]
+    },
+    {
+      "id": 57631,
+      "title": "The Power-House",
+      "categoryId": "skill_08_electrical_installation_wiring",
+      "match": [
+        68,
+        "skill_08_electrical_installation_wiring",
+        "Electrical Installation & Wiring",
+        [
+          "title-token:house,power",
+          "subject-token:house,power"
+        ]
+      ]
+    },
+    {
+      "id": 73641,
+      "title": "Lives of the electricians",
+      "categoryId": "skill_08_electrical_installation_wiring",
+      "match": [
+        60,
+        "skill_08_electrical_installation_wiring",
+        "Electrical Installation & Wiring",
+        [
+          "phrase:electrician",
+          "subject-token:electrical"
+        ]
+      ]
+    }
+  ]
+}

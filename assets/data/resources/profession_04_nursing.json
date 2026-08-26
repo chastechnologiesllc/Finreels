@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_04_nursing",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCV1EucdmzWBtBSOKisPYitg",
@@ -788,6 +788,3153 @@
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/medical-surgical-nursing",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584402-L.jpg"
+    },
+    {
+      "title": "A Nurse's Life in War and Peace",
+      "author": "Laurence, E. C. (Eleanor Constance); Treves, Frederick, 1853-1923 [Author of introduction, etc.]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52250",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52250); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52250/pg52250.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52250/pg52250.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52250/pg52250.cover.small.jpg"
+      ],
+      "subject": "South African War, 1899-1902 -- Medical care",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "South African War, 1899-1902 -- Medical care",
+        "Nursing -- Great Britain",
+        "Military nursing",
+        "Category: Biographies",
+        "Category: History - Warfare",
+        "Category: Health & Medicine",
+        "UH"
+      ]
+    },
+    {
+      "title": "The Tuberculosis Nurse: Her Function and Her Qualifications A Handbook for Practical Workers in the Tuberculosis Campaign",
+      "author": "La Motte, Ellen N. (Ellen Newbold), 1873-1961; Hamman, Louis, 1877-1946 [Author of introduction, etc.]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67640",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67640); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67640/pg67640.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67640/pg67640.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67640/pg67640.cover.small.jpg"
+      ],
+      "subject": "Tuberculosis -- Nursing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Tuberculosis -- Nursing",
+        "Tuberculosis -- Nursing -- United States -- History",
+        "Category: Health & Medicine",
+        "RC"
+      ]
+    },
+    {
+      "title": "Subsidiary Notes as to the Introduction of Female Nursing into Military Hospitals in Peace and War",
+      "author": "Nightingale, Florence, 1820-1910",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52877",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52877); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52877/pg52877.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52877/pg52877.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52877/pg52877.cover.small.jpg"
+      ],
+      "subject": "Nurses -- Great Britain",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nurses -- Great Britain",
+        "Military hospitals -- Great Britain",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "Category: Health & Medicine",
+        "Category: Gender & Sexuality Studies",
+        "Women in Science, Technology, Engineering, and Mathematics",
+        "UH"
+      ]
+    },
+    {
+      "title": "Making Good on Private Duty: Practical Hints to Graduate Nurses",
+      "author": "Lounsbery, Harriet Camp",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/6361",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 6361); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/6361/pg6361.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/6361/pg6361.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/6361/pg6361.cover.small.jpg"
+      ],
+      "subject": "Private duty nursing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Private duty nursing",
+        "Medicine",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "RT"
+      ]
+    },
+    {
+      "title": "Obstetrics for Nurses",
+      "author": "Reed, Charles B. (Charles Bert), 1866-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61476",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 61476); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61476/pg61476.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61476/pg61476.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61476/pg61476.cover.small.jpg"
+      ],
+      "subject": "Maternity nursing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Maternity nursing",
+        "Category: Health & Medicine",
+        "Category: Teaching & Education",
+        "RG"
+      ]
+    },
+    {
+      "title": "A reference hand-book for nurses",
+      "author": "Beck, Amanda K. (Amanda Kathryn), 1870-1937",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71184",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 71184); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71184/pg71184.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71184/pg71184.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71184/pg71184.cover.small.jpg"
+      ],
+      "subject": "Nursing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursing",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "RT"
+      ]
+    },
+    {
+      "title": "Lady Mary and Her Nurse; Or, A Peep into the Canadian Forest",
+      "author": "Traill, Catharine Parr Strickland, 1802-1899",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/6479",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 6479); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/6479/pg6479.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/6479/pg6479.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/6479/pg6479.cover.small.jpg"
+      ],
+      "subject": "Animals -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Animals -- Juvenile fiction",
+        "Conduct of life -- Juvenile fiction",
+        "Children -- Conduct of life -- Juvenile fiction",
+        "Nature stories",
+        "Birds -- Juvenile fiction",
+        "Indians of North America -- Juvenile fiction",
+        "Canada -- Juvenile fiction",
+        "Outdoor life -- Juvenile fiction",
+        "Frontier and pioneer life -- Ontario -- Juvenile fiction",
+        "Rivers -- Juvenile fiction",
+        "Indian embroidery -- North America -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Nature/Gardening/Animals",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Notes on Nursing: What It Is, and What It Is Not",
+      "author": "Nightingale, Florence, 1820-1910",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12439",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 12439); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12439/pg12439.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12439/pg12439.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12439/pg12439.cover.small.jpg"
+      ],
+      "subject": "Nursing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursing",
+        "Medicine",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "RT"
+      ]
+    },
+    {
+      "title": "The White Linen Nurse",
+      "author": "Abbott, Eleanor Hallowell, 1872-1958",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14506",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 14506); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14506/pg14506.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14506/pg14506.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14506/pg14506.cover.small.jpg"
+      ],
+      "subject": "Nurses -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nurses -- Fiction",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Notes on Nursing: What It Is, and What It Is Not",
+      "author": "Nightingale, Florence, 1820-1910",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17366",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 17366); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17366/pg17366.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17366/pg17366.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17366/pg17366.cover.small.jpg"
+      ],
+      "subject": "Nursing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursing",
+        "Medicine",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "Women in Science, Technology, Engineering, and Mathematics",
+        "RT"
+      ]
+    },
+    {
+      "title": "Field Hospital and Flying Column Being the Journal of an English Nursing Sister in Belgium & Russia",
+      "author": "Thurstan, Violetta, 1879-1978",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17587",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 17587); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17587/pg17587.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17587/pg17587.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17587/pg17587.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Hospitals, charities, etc.",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Hospitals, charities, etc.",
+        "World War, 1914-1918 -- Personal narratives",
+        "World War I",
+        "Women's Travel Journals",
+        "Category: Biographies",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "Category: Health & Medicine",
+        "D501"
+      ]
+    },
+    {
+      "title": "Diary of a Nursing Sister on the Western Front, 1914-1915",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/18910",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 18910); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/18910/pg18910.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/18910/pg18910.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/18910/pg18910.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Hospitals, charities, etc.",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Hospitals, charities, etc.",
+        "World War, 1914-1918 -- Personal narratives",
+        "World War I",
+        "Women's Travel Journals",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Janet McLaren, the Faithful Nurse",
+      "author": "Kingston, William Henry Giles, 1814-1880",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23069",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23069); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23069/pg23069.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23069/pg23069.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23069/pg23069.cover.small.jpg"
+      ],
+      "subject": "Orphans -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Orphans -- Juvenile fiction",
+        "Siblings -- Juvenile fiction",
+        "Canada -- Juvenile fiction",
+        "Scotland -- Juvenile fiction",
+        "Guardian and ward -- Juvenile fiction",
+        "Category: Novels",
+        "Category: British Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Live to be Useful or, The Story of Annie Lee and her Irish Nurse",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24956",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24956); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24956/pg24956.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24956/pg24956.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24956/pg24956.cover.small.jpg"
+      ],
+      "subject": "Christian life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Christian life -- Juvenile fiction",
+        "Kindness -- Juvenile fiction",
+        "Children with disabilities -- Juvenile fiction",
+        "Temper -- Juvenile fiction",
+        "Nurses -- Juvenile fiction",
+        "Protestant converts -- Juvenile fiction",
+        "Category: History - Other",
+        "Category: Religion/Spirituality",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Humanistic Nursing",
+      "author": "Paterson, Josephine G.; Zderad, Loretta T.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25020",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 25020); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25020/pg25020.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25020/pg25020.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25020/pg25020.cover.small.jpg"
+      ],
+      "subject": "Nursing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursing",
+        "Nursing -- Philosophy",
+        "Medicine",
+        "Category: Health & Medicine",
+        "Category: Philosophy & Ethics",
+        "RT"
+      ]
+    },
+    {
+      "title": "The Backwash of War The Human Wreckage of the Battlefield as Witnessed by an American Hospital Nurse",
+      "author": "La Motte, Ellen N. (Ellen Newbold), 1873-1961",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26884",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 26884); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26884/pg26884.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26884/pg26884.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26884/pg26884.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Hospitals, charities, etc.",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Hospitals, charities, etc.",
+        "World War, 1914-1918 -- Personal narratives",
+        "World War I",
+        "Banned Books from Anne Haight's list",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Nurse and Spy in the Union Army The Adventures and Experiences of a Woman in Hospitals, Camps, and Battle-Fields",
+      "author": "Edmonds, S. Emma E. (Sarah Emma Evelyn), 1841-1898",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38497",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38497); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38497/pg38497.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38497/pg38497.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38497/pg38497.cover.small.jpg"
+      ],
+      "subject": "United States -- History -- Civil War, 1861-1865 -- Hospitals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "United States -- History -- Civil War, 1861-1865 -- Hospitals",
+        "United States -- History -- Civil War, 1861-1865 -- Personal narratives",
+        "Nurses -- United States -- Biography",
+        "United States -- History -- Civil War, 1861-1865 -- Medical care",
+        "United States -- History -- Civil War, 1861-1865 -- Secret service",
+        "Edmonds, S. Emma E. (Sarah Emma Evelyn), 1841-1898",
+        "Women soldiers -- United States -- Biography",
+        "Women spies -- United States -- Biography",
+        "United States -- History -- Civil War, 1861-1865 -- Participation, Female",
+        "Category: Biographies",
+        "Category: History - American",
+        "Category: History - Warfare",
+        "E456"
+      ]
+    },
+    {
+      "title": "Nurse Heatherdale's Story",
+      "author": "Molesworth, Mrs., 1839-1921; Brooke, L. Leslie (Leonard Leslie), 1862-1940 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39047",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 39047); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39047/pg39047.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39047/pg39047.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39047/pg39047.cover.small.jpg"
+      ],
+      "subject": "Conduct of life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Conduct of life -- Juvenile fiction",
+        "Children -- Conduct of life -- Juvenile fiction",
+        "Adventure stories",
+        "Aunts -- Juvenile fiction",
+        "Smugglers -- Juvenile fiction",
+        "Courtship -- Juvenile fiction",
+        "Wealth -- Juvenile fiction",
+        "Nannies -- Juvenile fiction",
+        "Category: Novels",
+        "Category: British Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Nurse Elisia",
+      "author": "Fenn, George Manville, 1831-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40675",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40675); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40675/pg40675.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40675/pg40675.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40675/pg40675.cover.small.jpg"
+      ],
+      "subject": "Nurses -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nurses -- Fiction",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Nursing as Caring: A Model for Transforming Practice",
+      "author": "Boykin, Anne, 1944-; Schoenhofer, Savina O'Bryan, 1940-; Pennell, Shawn [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42988",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42988); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42988/pg42988.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42988/pg42988.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42988/pg42988.cover.small.jpg"
+      ],
+      "subject": "Nursing -- Philosophy",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursing -- Philosophy",
+        "Caring",
+        "Empathy",
+        "Nursing models",
+        "Category: Health & Medicine",
+        "RT"
+      ]
+    },
+    {
+      "title": "Rhymes for Harry and His Nurse-Maid",
+      "author": "Arthington, Maria, 1795-1863",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45168",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 45168); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45168/pg45168.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45168/pg45168.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45168/pg45168.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Conduct of life -- Juvenile poetry",
+        "Children -- Conduct of life -- Juvenile poetry",
+        "Mothers -- Juvenile poetry",
+        "Infants -- Juvenile poetry",
+        "Nannies -- Juvenile poetry",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "Category: Parenthood & Family Relations",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Nancy Dale, Army Nurse",
+      "author": "Radford, Ruby Lorraine, 1891-1971; Vallely, Henry E. [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47307",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 47307); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47307/pg47307.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47307/pg47307.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47307/pg47307.cover.small.jpg"
+      ],
+      "subject": "War stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "War stories",
+        "Nurses -- Juvenile fiction",
+        "Spies -- Juvenile fiction",
+        "United States. Army -- Military life -- Juvenile fiction",
+        "World War, 1939-1945 -- Juvenile fiction",
+        "United States. Army nurse corps -- Juvenile fiction",
+        "World War, 1939-1945 -- Participation, Female -- Juvenile fiction",
+        "World War II",
+        "Category: Historical Novels",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Workhouse Nursing: The story of a successful experiment",
+      "author": "Nightingale, Florence, 1820-1910; Rathbone, William, 1819-1902",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50432",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 50432); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50432/pg50432.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50432/pg50432.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50432/pg50432.cover.small.jpg"
+      ],
+      "subject": "Nursing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursing",
+        "Poor -- Medical care",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: Health & Medicine",
+        "Women in Science, Technology, Engineering, and Mathematics",
+        "RT"
+      ]
+    },
+    {
+      "title": "Finding Themselves The Letters of an American Amy Chief Nurse in the British Hospital in France",
+      "author": "Stimson, Julia C. (Julia Catherine), 1881-1948; Stimson, Henry A. (Henry Albert), 1842-1936 [Author of introduction, etc.]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58684",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58684); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58684/pg58684.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58684/pg58684.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58684/pg58684.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Personal narratives",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives",
+        "World War, 1914-1918 -- Hospitals",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Obstetrical Nursing A Text-Book on the Nursing Care of the Expectant Mother, the Woman in Labor, the Young Mother and Her Baby",
+      "author": "Van Blarcom, Carolyn Conant, 1875-1961",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59234",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 59234); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59234/pg59234.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59234/pg59234.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59234/pg59234.cover.small.jpg"
+      ],
+      "subject": "Pregnancy",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pregnancy",
+        "Infants -- Care",
+        "Maternity nursing",
+        "Category: Health & Medicine",
+        "RG"
+      ]
+    },
+    {
+      "title": "The Nurse in Greek Life",
+      "author": "Mary Rosaria, Sister, 1880-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64215",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 64215); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64215/pg64215.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64215/pg64215.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64215/pg64215.cover.small.jpg"
+      ],
+      "subject": "Thesis (Ph. D.)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Thesis (Ph. D.)",
+        "Nurses",
+        "Greek literature -- History and criticism",
+        "Category: History - Ancient",
+        "Category: Archaeology & Anthropology",
+        "DF"
+      ]
+    },
+    {
+      "title": "Jean Craig, Graduate Nurse",
+      "author": "Lyttleton, Kay; Orbaan, Albert, 1913-1983 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66017",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 66017); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66017/pg66017.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66017/pg66017.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66017/pg66017.cover.small.jpg"
+      ],
+      "subject": "Schools -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Schools -- Juvenile fiction",
+        "Humanitarianism -- Juvenile fiction",
+        "Nurses -- Juvenile fiction",
+        "Families -- Juvenile fiction",
+        "Connecticut -- Social life and customs -- Juvenile fiction",
+        "Epidemics -- Juvenile fiction",
+        "Category: Romance",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The martyrdom of Nurse Cavell The life story of the victim of Germany's most barbarous crime",
+      "author": "Hill, William Thomson, 1875-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68149",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 68149); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68149/pg68149.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68149/pg68149.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68149/pg68149.cover.small.jpg"
+      ],
+      "subject": "Cavell, Edith, 1865-1915",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cavell, Edith, 1865-1915",
+        "Nurses -- Biography",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "RT",
+        "D501"
+      ]
+    },
+    {
+      "title": "Old nurse's book of rhymes, jingles and ditties",
+      "author": "Bennett, Charles H. (Charles Henry), 1829-1867 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70424",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 70424); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70424/pg70424.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70424/pg70424.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70424/pg70424.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Picture books for children",
+        "Category: Children & Young Adult Reading",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Reminiscences of an army nurse during the Civil War",
+      "author": "Smith, Adelaide W., 1831-1914",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74812",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 74812); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/74812/pg74812.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/74812/pg74812.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/74812/pg74812.cover.small.jpg"
+      ],
+      "subject": "United States -- History -- Civil War, 1861-1865 -- Hospitals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "United States -- History -- Civil War, 1861-1865 -- Hospitals",
+        "United States -- History -- Civil War, 1861-1865 -- Personal narratives",
+        "Nurses -- United States -- Biography",
+        "Smith, Adelaide W., 1831-1914",
+        "Category: Biographies",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "E456"
+      ]
+    },
+    {
+      "title": "American Red Cross Text-Book on Home Hygiene and Care of the Sick",
+      "author": "American National Red Cross; Delano, Jane A., 1862-1919; McIsaac, Isabel; Strong, Anne Hervey, 1876-1925",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32250",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 32250); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/32250/pg32250.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/32250/pg32250.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/32250/pg32250.cover.small.jpg"
+      ],
+      "subject": "Hygiene",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Hygiene",
+        "Nursing",
+        "Nurses",
+        "Home nursing",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "RA"
+      ]
+    },
+    {
+      "title": "Lessons from the life of Florence Nightingale",
+      "author": "Aikens, Charlotte A. (Charlotte Albina), 1868-1949",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74935",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 74935); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/74935/pg74935.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/74935/pg74935.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/74935/pg74935.cover.small.jpg"
+      ],
+      "subject": "Nightingale, Florence, 1820-1910",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nightingale, Florence, 1820-1910",
+        "Nursing",
+        "Nurses",
+        "Category: Biographies",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "Category: Health & Medicine",
+        "UH"
+      ]
+    },
+    {
+      "title": "Young Canada's Nursery Rhymes",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4921",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4921); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4921/pg4921.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4921/pg4921.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4921/pg4921.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Deccan Nursery Tales; or, Fairy Tales from the South",
+      "author": "Kincaid, C. A. (Charles Augustus), 1870-1954; Dhurandhar, M. V. (Mahadev Visvanath), 1867-1944 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11167",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 11167); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11167/pg11167.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11167/pg11167.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11167/pg11167.cover.small.jpg"
+      ],
+      "subject": "Tales -- India",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Tales -- India",
+        "Folklore -- India",
+        "Category: Children & Young Adult Reading",
+        "Category: Mythology, Legends & Folklore",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, Volume 17, No. 100, April, 1875 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14170",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 14170); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14170/pg14170.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14170/pg14170.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14170/pg14170.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, Volume 17, No. 101, May, 1875 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14335",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 14335); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14335/pg14335.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14335/pg14335.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14335/pg14335.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, No. 165. September, 1880, Vol. 28 A Monthly Magazine For Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14493",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 14493); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14493/pg14493.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14493/pg14493.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14493/pg14493.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "Category: Biographies",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, Number 164 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15928",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 15928); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/15928/pg15928.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/15928/pg15928.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/15928/pg15928.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, No. 106, October, 1875. Vol. XVIII. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/16522",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 16522); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/16522/pg16522.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/16522/pg16522.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/16522/pg16522.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Children & Young Adult Reading",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, No. 107, November, 1875, Vol. XVIII. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/16524",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 16524); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/16524/pg16524.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/16524/pg16524.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/16524/pg16524.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, No. 169, January, 1881, Vol. XXIX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17536",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 17536); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17536/pg17536.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17536/pg17536.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17536/pg17536.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "Category: Journals",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, No. 103, July, 1875. Vol. XVIII. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/19821",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 19821); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/19821/pg19821.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/19821/pg19821.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/19821/pg19821.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Ring O' Roses: A Nursery Rhyme Picture Book",
+      "author": "Brooke, L. Leslie (Leonard Leslie), 1862-1940 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20652",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 20652); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/20652/pg20652.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/20652/pg20652.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/20652/pg20652.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Children's Picture Books",
+        "Category: Children & Young Adult Reading",
+        "Category: Mythology, Legends & Folklore",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, No. 109, January, 1876, Vol. XIX. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21047",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 21047); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21047/pg21047.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21047/pg21047.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21047/pg21047.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Peter Patter Book of Nursery Rhymes",
+      "author": "Jackson, Leroy F. (Leroy Freeman), 1881-1958; Wright, Blanche Fisher [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22014",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 22014); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/22014/pg22014.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/22014/pg22014.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/22014/pg22014.cover.small.jpg"
+      ],
+      "subject": "Nursery rhymes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursery rhymes",
+        "Children's Verse",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "More Tales in the Land of Nursery Rhyme",
+      "author": "Marzials, Ada M.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22184",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 22184); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/22184/pg22184.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/22184/pg22184.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/22184/pg22184.cover.small.jpg"
+      ],
+      "subject": "Fairy tales",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fairy tales",
+        "Children's stories",
+        "Nursery rhymes -- Adaptations",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Mythology, Legends & Folklore",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Harrison's New Nursery Picture Book",
+      "author": "Harrison, J. [Compiler]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22335",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 22335); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/22335/pg22335.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/22335/pg22335.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/22335/pg22335.cover.small.jpg"
+      ],
+      "subject": "Picture books for children",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Picture books for children",
+        "Children's Picture Books",
+        "Category: Children & Young Adult Reading",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Cecily Parsley's Nursery Rhymes",
+      "author": "Potter, Beatrix, 1866-1943",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23350",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23350); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23350/pg23350.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23350/pg23350.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23350/pg23350.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Children's Picture Books",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Little Bo-Peep: A Nursery Rhyme Picture Book",
+      "author": "Brooke, L. Leslie (Leonard Leslie), 1862-1940",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23598",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23598); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23598/pg23598.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23598/pg23598.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23598/pg23598.cover.small.jpg"
+      ],
+      "subject": "Nursery rhymes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursery rhymes",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Mother Goose or the Old Nursery Rhymes",
+      "author": "Greenaway, Kate, 1846-1901 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23794",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23794); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23794/pg23794.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23794/pg23794.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23794/pg23794.cover.small.jpg"
+      ],
+      "subject": "English poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English poetry",
+        "Children's poetry, English",
+        "Nursery rhymes",
+        "Children's Picture Books",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "A Apple Pie and Other Nursery Tales",
+      "author": "Unknown",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24117",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24117); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24117/pg24117.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24117/pg24117.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24117/pg24117.cover.small.jpg"
+      ],
+      "subject": "Fairy tales",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fairy tales",
+        "Children's poetry",
+        "Children's stories",
+        "Nursery rhymes",
+        "Alphabets",
+        "Category: Children & Young Adult Reading",
+        "Category: Mythology, Legends & Folklore",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, January 1873, Vol. XIII. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24474",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24474); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24474/pg24474.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24474/pg24474.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24474/pg24474.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, February 1873, Vol. XIII. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24475",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24475); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24475/pg24475.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24475/pg24475.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24475/pg24475.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, March 1873, Vol. XIII. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24476",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24476); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24476/pg24476.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24476/pg24476.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24476/pg24476.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, April 1873, Vol. XIII. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24477",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24477); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24477/pg24477.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24477/pg24477.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24477/pg24477.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, May 1873, Vol. XIII. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24478",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24478); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24478/pg24478.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24478/pg24478.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24478/pg24478.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, June 1873, Vol. XIII. A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24479",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24479); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24479/pg24479.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24479/pg24479.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24479/pg24479.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The National Nursery Book With 120 illustrations",
+      "author": "Unknown",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24778",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24778); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24778/pg24778.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24778/pg24778.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24778/pg24778.cover.small.jpg"
+      ],
+      "subject": "Fairy tales",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fairy tales",
+        "Children's poetry",
+        "Children's stories",
+        "Nursery rhymes",
+        "Picture books for children",
+        "Children's Picture Books",
+        "Category: Children & Young Adult Reading",
+        "Category: Mythology, Legends & Folklore",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, July 1873, Vol. XIV. No. 1",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24938",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24938); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24938/pg24938.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24938/pg24938.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24938/pg24938.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, August 1873, Vol. XIV. No. 2",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24939",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24939); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24939/pg24939.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24939/pg24939.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24939/pg24939.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, September 1873, Vol. XIV. No. 3",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24940",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24940); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24940/pg24940.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24940/pg24940.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24940/pg24940.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, October 1873, Vol. XIV. No. 4",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24941",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24941); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24941/pg24941.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24941/pg24941.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24941/pg24941.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, November 1873, Vol. XIV. No. 5",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24942",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24942); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24942/pg24942.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24942/pg24942.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24942/pg24942.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, December 1873, Vol. XIV. No. 6",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24943",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24943); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24943/pg24943.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24943/pg24943.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24943/pg24943.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Pretty Tales for the Nursery",
+      "author": "Thompson, Isabel; Gilbert, John, 1817-1897 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25469",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 25469); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25469/pg25469.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25469/pg25469.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25469/pg25469.cover.small.jpg"
+      ],
+      "subject": "Children's stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's stories",
+        "Children -- Conduct of life -- Juvenile fiction",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Life and Adventures of Mr. Pig and Miss Crane A Nursery Tale",
+      "author": "Unknown",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25592",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 25592); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25592/pg25592.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25592/pg25592.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25592/pg25592.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Animals -- Juvenile poetry",
+        "Animals -- Pictorial works -- Juvenile literature",
+        "Category: Children & Young Adult Reading",
+        "Category: Romance",
+        "Category: Humour",
+        "Category: Adventure",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery Rhyme Book",
+      "author": "Lang, Andrew, 1844-1912 [Editor]; Brooke, L. Leslie (Leonard Leslie), 1862-1940 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26197",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 26197); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26197/pg26197.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26197/pg26197.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26197/pg26197.cover.small.jpg"
+      ],
+      "subject": "Nursery rhymes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursery rhymes",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "Category: Mythology, Legends & Folklore",
+        "PN"
+      ]
+    },
+    {
+      "title": "The Nursery, January 1877, Volume XXI, No. 1 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28129",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28129); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28129/pg28129.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28129/pg28129.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28129/pg28129.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Children & Young Adult Reading",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, February 1877, Vol. XXI. No. 2 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28130",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28130); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28130/pg28130.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28130/pg28130.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28130/pg28130.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, March 1877, Vol. XXI. No. 3 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28131",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28131); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28131/pg28131.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28131/pg28131.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28131/pg28131.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, April 1877, Vol. XXI. No. 4 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28132",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28132); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28132/pg28132.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28132/pg28132.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28132/pg28132.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, May 1877, Vol. XXI. No. 5 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28133",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28133); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28133/pg28133.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28133/pg28133.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28133/pg28133.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, June 1877, Vol. XXI. No. 6 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28134",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28134); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28134/pg28134.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28134/pg28134.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28134/pg28134.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, July 1877, XXII. No. 1 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28135",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28135); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28135/pg28135.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28135/pg28135.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28135/pg28135.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, August 1877, Vol. XXII, No. 2 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28136",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28136); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28136/pg28136.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28136/pg28136.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28136/pg28136.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, September 1877, Vol. XXII, No. 3 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28137",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28137); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28137/pg28137.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28137/pg28137.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28137/pg28137.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, October 1877, Vol. XXII. No. 4 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28138",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28138); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28138/pg28138.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28138/pg28138.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28138/pg28138.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, November 1877, Vol. XXII. No. 5 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28139",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28139); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28139/pg28139.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28139/pg28139.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28139/pg28139.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, December 1877, Vol. XXII. No. 6 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28140",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28140); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28140/pg28140.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28140/pg28140.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28140/pg28140.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, February 1878, Vol. XXIII, No. 2 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28141",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28141); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28141/pg28141.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28141/pg28141.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28141/pg28141.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, March 1878, Vol. XXIII. No. 3 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28142",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28142); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28142/pg28142.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28142/pg28142.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28142/pg28142.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, April 1878, Vol. XXIII. No. 4 A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28143",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 28143); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28143/pg28143.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28143/pg28143.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28143/pg28143.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "A Nursery Rhyme Picture Book With Drawings in Colour and Black and White",
+      "author": "Brooke, L. Leslie (Leonard Leslie), 1862-1940",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29840",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 29840); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29840/pg29840.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29840/pg29840.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29840/pg29840.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Traditional Nursery Songs of England, With Pictures by Eminent Modern Artists",
+      "author": "Cole, Henry, 1808-1882 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30418",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 30418); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30418/pg30418.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30418/pg30418.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30418/pg30418.cover.small.jpg"
+      ],
+      "subject": "Nursery rhymes, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursery rhymes, English",
+        "Category: Children & Young Adult Reading",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery Rhymes of England",
+      "author": "Halliwell-Phillipps, J. O. (James Orchard), 1820-1889 [Compiler]; Scott, William Bell, 1811-1890 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32415",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 32415); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/32415/pg32415.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/32415/pg32415.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/32415/pg32415.cover.small.jpg"
+      ],
+      "subject": "Nursery rhymes, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursery rhymes, English",
+        "Oral tradition -- England",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "Category: British Literature",
+        "PN"
+      ]
+    },
+    {
+      "title": "Gammer Gurton's Garland; Or, The Nursery Parnassus A Choice Collection of Pretty Songs and Verses for the Amusement of All Little Good Children Who Can Neither Read nor Run.",
+      "author": "Ritson, Joseph, 1752-1803 [Compiler]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34601",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 34601); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34601/pg34601.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34601/pg34601.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34601/pg34601.cover.small.jpg"
+      ],
+      "subject": "Nursery rhymes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursery rhymes",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Cat and Fiddle Book Eight Dramatised Nursery Rhymes for Nursery Performers",
+      "author": "Bell, Florence Eveleen Eleanore Olliffe, Lady, 1851-1930; Richmond, Florence Elsa Bell, Lady, 1880-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34763",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 34763); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34763/pg34763.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34763/pg34763.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34763/pg34763.cover.small.jpg"
+      ],
+      "subject": "Nursery rhymes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursery rhymes",
+        "Children's plays",
+        "Category: Children & Young Adult Reading",
+        "Category: Humour",
+        "Category: Plays/Films/Dramas",
+        "PN",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Popular Rhymes and Nursery Tales A Sequel to the Nursery Rhymes of England",
+      "author": "Halliwell-Phillipps, J. O. (James Orchard), 1820-1889",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35707",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 35707); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35707/pg35707.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35707/pg35707.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35707/pg35707.cover.small.jpg"
+      ],
+      "subject": "Children's stories, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's stories, English",
+        "Nursery rhymes, English",
+        "Category: Children & Young Adult Reading",
+        "Category: Mythology, Legends & Folklore",
+        "GR"
+      ]
+    },
+    {
+      "title": "Little Miss Peggy: Only a Nursery Story",
+      "author": "Molesworth, Mrs., 1839-1921; Crane, Walter, 1845-1915 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36015",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 36015); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36015/pg36015.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36015/pg36015.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36015/pg36015.cover.small.jpg"
+      ],
+      "subject": "Christian life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Christian life -- Juvenile fiction",
+        "Conduct of life -- Juvenile fiction",
+        "Children -- Conduct of life -- Juvenile fiction",
+        "Family -- Juvenile fiction",
+        "Siblings -- Juvenile fiction",
+        "Obedience -- Juvenile fiction",
+        "Infants -- Juvenile fiction",
+        "Cricket -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "National Rhymes of the Nursery",
+      "author": "Various; Saintsbury, George, 1845-1933 [Author of introduction, etc.]; Browne, Gordon, 1858-1932 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36685",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 36685); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36685/pg36685.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36685/pg36685.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36685/pg36685.cover.small.jpg"
+      ],
+      "subject": "Nursery rhymes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursery rhymes",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Nurses' Papers on Tuberculosis : read before the Nurses' Study Circle of the Dispensary Department, Chicago Municipal Tuberculosis Sanitarium",
+      "author": "Chicago (Ill.). Municipal Tuberculosis Sanitarium. Dispensary Department",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38090",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38090); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38090/pg38090.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38090/pg38090.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38090/pg38090.cover.small.jpg"
+      ],
+      "subject": "Tuberculosis",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Tuberculosis",
+        "Category: Health & Medicine",
+        "RC"
+      ]
+    },
+    {
+      "title": "The Big Book of Nursery Rhymes",
+      "author": "Jerrold, Walter, 1865-1929 [Editor]; Robinson, Charles, 1870-1937 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38562",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38562); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38562/pg38562.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38562/pg38562.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38562/pg38562.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "In My Nursery",
+      "author": "Richards, Laura Elizabeth Howe, 1850-1943",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39741",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 39741); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39741/pg39741.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39741/pg39741.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39741/pg39741.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Mother Goose's Nursery Rhymes A Collection of Alphabets, Rhymes, Tales, and Jingles",
+      "author": "Gilbert, John, 1817-1897 [Illustrator]; Crane, Walter, 1845-1915 [Illustrator]; Tenniel, John, 1820-1914 [Illustrator]; Weir, Harrison, 1824-1906 [Illustrator]; Zwecker, Johann Baptist, 1814-1876 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39784",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 39784); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39784/pg39784.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39784/pg39784.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39784/pg39784.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Humorous poetry",
+        "Alphabet rhymes",
+        "Children's songs",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "Category: Classics of Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Comparative Studies in Nursery Rhymes",
+      "author": "Eckenstein, Lina, 1857-1931",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40457",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40457); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40457/pg40457.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40457/pg40457.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40457/pg40457.cover.small.jpg"
+      ],
+      "subject": "Comparative literature",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Comparative literature",
+        "Nursery rhymes -- History and criticism",
+        "Nursery rhymes -- Bibliography",
+        "Category: Mythology, Legends & Folklore",
+        "Category: History - Other",
+        "Category: Archaeology & Anthropology",
+        "GR"
+      ]
+    },
+    {
+      "title": "The Nursery, January 1881, Vol. XXIX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40752",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40752); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40752/pg40752.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40752/pg40752.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40752/pg40752.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, February 1881, Vol. XXIX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40753",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40753); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40753/pg40753.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40753/pg40753.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40753/pg40753.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, March 1881, Vol. XXIX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40754",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40754); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40754/pg40754.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40754/pg40754.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40754/pg40754.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, April 1881, Vol. XXIX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40755",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40755); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40755/pg40755.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40755/pg40755.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40755/pg40755.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, May 1881, Vol. XXIX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40756",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40756); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40756/pg40756.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40756/pg40756.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40756/pg40756.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, June 1881, Vol. XXIX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40757",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40757); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40757/pg40757.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40757/pg40757.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40757/pg40757.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Our Little Ones and The Nursery, Vol. V, No. 9, July 1885",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41679",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 41679); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41679/pg41679.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41679/pg41679.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41679/pg41679.cover.small.jpg"
+      ],
+      "subject": "Children's literature -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature -- Periodicals",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, July 1881, Vol. XXX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42156",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42156); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42156/pg42156.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42156/pg42156.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42156/pg42156.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, August 1881, Vol. XXX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42157",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42157); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42157/pg42157.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42157/pg42157.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42157/pg42157.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, September 1881, Vol. XXX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42158",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42158); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42158/pg42158.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42158/pg42158.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42158/pg42158.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, October 1881, Vol. XXX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42159",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42159); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42159/pg42159.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42159/pg42159.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42159/pg42159.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Children & Young Adult Reading",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, November 1881, Vol. XXX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42160",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42160); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42160/pg42160.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42160/pg42160.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42160/pg42160.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery, December 1881, Vol. XXX A Monthly Magazine for Youngest Readers",
+      "author": "Various",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42161",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42161); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42161/pg42161.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42161/pg42161.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42161/pg42161.cover.small.jpg"
+      ],
+      "subject": "Children's literature, American -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's literature, American -- Periodicals",
+        "The Nursery",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "AP",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Mary: A Nursery Story for Very Little Children",
+      "author": "Molesworth, Mrs., 1839-1921; Brooke, L. Leslie (Leonard Leslie), 1862-1940 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43131",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 43131); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43131/pg43131.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43131/pg43131.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43131/pg43131.cover.small.jpg"
+      ],
+      "subject": "Christian life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Christian life -- Juvenile fiction",
+        "Conduct of life -- Juvenile fiction",
+        "Children -- Conduct of life -- Juvenile fiction",
+        "Faith -- Juvenile fiction",
+        "Family -- Juvenile fiction",
+        "Birthdays -- Juvenile fiction",
+        "Sisters -- Juvenile fiction",
+        "Sick -- Juvenile fiction",
+        "Storytelling -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Novels",
+        "Category: British Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "A Present for Infants; or, Pictures for the Nursery",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43645",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 43645); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43645/pg43645.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43645/pg43645.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43645/pg43645.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Children's stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nurserymatograph",
+      "author": "Allan, G. A. T. (George A. T.); McClure, Ivor [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46707",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 46707); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46707/pg46707.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46707/pg46707.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46707/pg46707.cover.small.jpg"
+      ],
+      "subject": "English wit and humor",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English wit and humor",
+        "Motion pictures -- Humor",
+        "Category: Humour",
+        "Category: Plays/Films/Dramas",
+        "PN"
+      ]
+    },
+    {
+      "title": "Favorite Nursery Rhymes",
+      "author": "Anonymous; Betts, Ethel Franklin, 1877-1959 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47284",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 47284); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47284/pg47284.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47284/pg47284.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47284/pg47284.cover.small.jpg"
+      ],
+      "subject": "Nursery rhymes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nursery rhymes",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Nursery Comedies: Twelve Tiny Plays for Children",
+      "author": "Bell, Florence Eveleen Eleanore Olliffe, Lady, 1851-1930",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47609",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 47609); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47609/pg47609.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47609/pg47609.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47609/pg47609.cover.small.jpg"
+      ],
+      "subject": "Children's plays",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's plays",
+        "Category: Children & Young Adult Reading",
+        "Category: Humour",
+        "Category: Plays/Films/Dramas",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery-Book: A Complete Guide to the Multiplication and Pollination of Plants",
+      "author": "Bailey, L. H. (Liberty Hyde), 1858-1954",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47955",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 47955); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47955/pg47955.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47955/pg47955.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47955/pg47955.cover.small.jpg"
+      ],
+      "subject": "Plant propagation",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Plant propagation",
+        "Category: Science - Biology",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "SB"
+      ]
+    },
+    {
+      "title": "True Stories of the Great War, Volume 1 (of 6) Tales of Adventure--Heroic Deeds--Exploits Told by the Soldiers, Officers, Nurses, Diplomats, Eye Witnesses",
+      "author": "Miller, Francis Trevelyan, 1877-1959 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48663",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 48663); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48663/pg48663.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48663/pg48663.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48663/pg48663.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Personal narratives",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "True Stories of the Great War, Volume 2 (of 6) Tales of Adventure--Heroic Deeds--Exploits Told by the Soldiers, Officers, Nurses, Diplomats, Eye Witnesses",
+      "author": "Miller, Francis Trevelyan, 1877-1959 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48941",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 48941); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48941/pg48941.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48941/pg48941.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48941/pg48941.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Personal narratives",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives",
+        "Category: History - American",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Mother's Nursery Tales",
+      "author": "Pyle, Katharine, 1863-1938",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49001",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 49001); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49001/pg49001.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49001/pg49001.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49001/pg49001.cover.small.jpg"
+      ],
+      "subject": "Fairy tales",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fairy tales",
+        "Category: Children & Young Adult Reading",
+        "Category: Mythology, Legends & Folklore",
+        "PZ"
+      ]
+    },
+    {
+      "title": "True Stories of the Great War, Volume 3 (of 6) Tales of Adventure--Heroic Deeds--Exploits Told by the Soldiers, Officers, Nurses, Diplomats, Eye Witnesses",
+      "author": "Miller, Francis Trevelyan, 1877-1959 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49099",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 49099); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49099/pg49099.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49099/pg49099.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49099/pg49099.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Personal narratives",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "True Stories of the Great War, Volume 4 (of 6) Tales of Adventure--Heroic Deeds--Exploits Told by the Soldiers, Officers, Nurses, Diplomats, Eye Witnesses",
+      "author": "Miller, Francis Trevelyan, 1877-1959 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49391",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 49391); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49391/pg49391.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49391/pg49391.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49391/pg49391.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Personal narratives",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "True Stories of the Great War, Volume 5 (of 6) Tales of Adventure--Heroic Deeds--Exploits Told by the Soldiers, Officers, Nurses, Diplomats, Eye Witnesses",
+      "author": "Miller, Francis Trevelyan, 1877-1959 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50807",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 50807); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50807/pg50807.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50807/pg50807.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50807/pg50807.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Personal narratives",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "True Stories of the Great War, Volume 6 (of 6) Tales of Adventure--Heroic Deeds--Exploits Told by the Soldiers, Officers, Nurses, Diplomats, Eye Witnesses",
+      "author": "Miller, Francis Trevelyan, 1877-1959 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51206",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 51206); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51206/pg51206.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51206/pg51206.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51206/pg51206.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Personal narratives",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Nursery Lessons, in Words of One Syllable",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54605",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 54605); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54605/pg54605.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54605/pg54605.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54605/pg54605.cover.small.jpg"
+      ],
+      "subject": "Conduct of life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Conduct of life -- Juvenile fiction",
+        "Children's stories",
+        "Children -- Conduct of life -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Nursery \"Alice\"",
+      "author": "Carroll, Lewis, 1832-1898; Tenniel, John, 1820-1914 [Illustrator]; Thomson, E. Gertrude (Emily Gertrude) [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55040",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55040); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55040/pg55040.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55040/pg55040.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55040/pg55040.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Novels",
+        "Category: British Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Little Songs of Long Ago: More Old Nursery Rhymes",
+      "author": "Moffat, Alfred, 1866-1950 [Arranger]; Willebeek le Mair, H. (Henriëtte), 1889-1966 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55107",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55107); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55107/pg55107.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55107/pg55107.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55107/pg55107.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Children's songs",
+        "Nursery rhymes, English",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Our Old Nursery Rhymes",
+      "author": "Willebeek le Mair, H. (Henriëtte), 1889-1966 [Illustrator]; Moffat, Alfred, 1866-1950 [Arranger]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61009",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 61009); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61009/pg61009.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61009/pg61009.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61009/pg61009.cover.small.jpg"
+      ],
+      "subject": "Children's poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry",
+        "Nursery rhymes",
+        "Songs with piano",
+        "Children's songs",
+        "Nursery rhymes, English",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "M",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Structure and Functions of the Body A Hand-Book of Anatomy and Physiology for Nurses and Others Desiring a Practical Knowledge of the Subject",
+      "author": "Fiske, Annette",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64754",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 64754); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64754/pg64754.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64754/pg64754.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64754/pg64754.cover.small.jpg"
+      ],
+      "subject": "Physiology",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Physiology",
+        "Human anatomy",
+        "Category: Science - Biology",
+        "Category: Health & Medicine",
+        "QM"
+      ]
+    },
+    {
+      "title": "In the Nursery: Happy Hours for the Little Ones",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67607",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67607); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67607/pg67607.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67607/pg67607.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67607/pg67607.cover.small.jpg"
+      ],
+      "subject": "Children's stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's stories",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Rhymes for the nursery",
+      "author": "Taylor, Ann, 1782-1866; Taylor, Jane, 1783-1824; Moses, Henry, 1782?-1870 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77549",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 77549); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77549/pg77549.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77549/pg77549.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77549/pg77549.cover.small.jpg"
+      ],
+      "subject": "Children's poetry, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children's poetry, English",
+        "Animals -- Juvenile poetry",
+        "Conduct of life -- Juvenile poetry",
+        "Children -- Conduct of life -- Juvenile poetry",
+        "Nursery rhymes, English",
+        "PZ"
+      ]
     }
   ],
   "actionRequired": [
@@ -795,5 +3942,5 @@
     "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
     "2026-08-23: Review the 32 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ],
-  "notes": "2026-08-23: Added 32 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added 32 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 128 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

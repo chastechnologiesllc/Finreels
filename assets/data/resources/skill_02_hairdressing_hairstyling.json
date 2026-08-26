@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_02_hairdressing_hairstyling",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UC5_ZJ2QMb-19TLKDl6JuVbg",
@@ -604,9 +604,489 @@
       "verifiedOn": "2026-07-30",
       "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no book by that slug (confirmed via web search, 2026-07-30). Replaced with openstax.org/details/books/principles-management — confirmed active (© Apr 23, 2026 OpenStax, indexed in search results).",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Board-Work; or the Art of Wig-making, Etc. Designed For the Use of Hairdressers and Especially of Young Men in the Trade. To Which Is Added Remarks Upon Razors, Razor-sharpening, Razor Strops, & Miscellaneous Recipes, Specially Selected.",
+      "author": "Creer, Edwin",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58636",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58636); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58636/pg58636.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58636/pg58636.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58636/pg58636.cover.small.jpg"
+      ],
+      "subject": "Hairwork",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Hairwork",
+        "Barbering",
+        "Wigs",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Theory of Silk Weaving A Treatise on the Construction and Application of Weaves, and the Decomposition and Calculation of Broad and Narrow, Plain, Novelty and Jacquard Silk Fabrics",
+      "author": "Wolfensberger, Arnold",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14600",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 14600); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14600/pg14600.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14600/pg14600.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14600/pg14600.cover.small.jpg"
+      ],
+      "subject": "Weaving",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Weaving",
+        "Silk industry",
+        "Technology",
+        "Manufacturing",
+        "Crafts",
+        "Category: Engineering & Technology",
+        "TS"
+      ]
+    },
+    {
+      "title": "Aboriginal American Weaving",
+      "author": "Kissell, Mary Lois",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24568",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24568); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24568/pg24568.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24568/pg24568.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24568/pg24568.cover.small.jpg"
+      ],
+      "subject": "Indian textile fabrics -- North America",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indian textile fabrics -- North America",
+        "Weaving",
+        "Anthropology",
+        "Technology",
+        "Native America",
+        "Crafts",
+        "Category: History - American",
+        "Category: Art",
+        "Category: Environmental Issues",
+        "Category: Archaeology & Anthropology",
+        "E011",
+        "GN",
+        "NK"
+      ]
+    },
+    {
+      "title": "Seat Weaving",
+      "author": "Perry, L. Day, 1887-1955",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53288",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53288); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53288/pg53288.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53288/pg53288.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53288/pg53288.cover.small.jpg"
+      ],
+      "subject": "Chair caning",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Chair caning",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TT"
+      ]
+    },
+    {
+      "title": "Jacquard Weaving and Designing",
+      "author": "Bell, T. F.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53318",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53318); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53318/pg53318.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53318/pg53318.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53318/pg53318.cover.small.jpg"
+      ],
+      "subject": "Decoration and ornament",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Decoration and ornament",
+        "Weaving",
+        "Jacquard weaving",
+        "Category: Engineering & Technology",
+        "Category: Art",
+        "TS"
+      ]
+    },
+    {
+      "title": "Cotton Weaving and Designing 6th Edition",
+      "author": "Taylor, John T.; Nisbet, Harry [Editor]; Wilkinson, Frederick [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57031",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57031); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57031/pg57031.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57031/pg57031.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57031/pg57031.cover.small.jpg"
+      ],
+      "subject": "Cotton weaving",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cotton weaving",
+        "Textile design",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TS"
+      ]
+    },
+    {
+      "title": "Gimp Braiding Projects",
+      "author": "White, Charles E.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61293",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 61293); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61293/pg61293.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61293/pg61293.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61293/pg61293.cover.small.jpg"
+      ],
+      "subject": "Plastics craft",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Plastics craft",
+        "Braid",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TT"
+      ]
+    },
+    {
+      "title": "The History of Silk, Cotton, Linen, Wool, and Other Fibrous Substances; Including Observations on Spinning, Dyeing, and Weaving.",
+      "author": "Gilroy, Clinton G.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65967",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65967); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65967/pg65967.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65967/pg65967.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65967/pg65967.cover.small.jpg"
+      ],
+      "subject": "History, Ancient",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "History, Ancient",
+        "Textile fabrics -- History",
+        "Category: History - Other",
+        "TS"
+      ]
+    },
+    {
+      "title": "The salon and English letters",
+      "author": "Tinker, Chauncey Brewster, 1876-1963",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71916",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 71916); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71916/pg71916.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71916/pg71916.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71916/pg71916.cover.small.jpg"
+      ],
+      "subject": "English literature -- 18th century -- History and criticism",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English literature -- 18th century -- History and criticism",
+        "Great Britain -- Intellectual life -- 18th century",
+        "Salons -- Great Britain -- History -- 18th century",
+        "Johnson, Samuel, 1709-1784 -- Contemporaries",
+        "Category: Literature - Other",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: History - Schools & Universities",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Making of a Man: Being a Description of Artificial Limbs and How They May Be Adopted by Those Who Have Suffered Loss of Their Natural Limbs",
+      "author": "George R. Fuller Co. (Rochester, N.Y.)",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65975",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65975); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65975/pg65975.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65975/pg65975.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65975/pg65975.cover.small.jpg"
+      ],
+      "subject": "Artificial limbs -- Catalogs",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Artificial limbs -- Catalogs",
+        "Prosthesis -- Catalogs",
+        "Category: Engineering & Technology",
+        "Category: Health & Medicine",
+        "RD"
+      ]
+    },
+    {
+      "title": "The Bible, King James version, Book 52: 1 Thessalonians",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8052",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8052); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8052/pg8052.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8052/pg8052.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8052/pg8052.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians, 1st",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians, 1st",
+        "Category: Essays, Letters & Speeches",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "The Bible, King James version, Book 53: 2 Thessalonians",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8053",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8053); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8053/pg8053.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8053/pg8053.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8053/pg8053.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians, 2nd",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians, 2nd",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "The World English Bible (WEB): 1 Thessalonians",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8279",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8279); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8279/pg8279.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8279/pg8279.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8279/pg8279.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians, 1st",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians, 1st",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "The World English Bible (WEB): 2 Thessalonians",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8280",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8280); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8280/pg8280.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8280/pg8280.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8280/pg8280.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians, 2nd",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians, 2nd",
+        "Category: Essays, Letters & Speeches",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "Weymouth New Testament in Modern Speech, 1 Thessalonians",
+      "author": "Weymouth, Richard Francis, 1822-1902",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8840",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8840); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8840/pg8840.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8840/pg8840.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8840/pg8840.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "Weymouth New Testament in Modern Speech, 2 Thessalonians",
+      "author": "Weymouth, Richard Francis, 1822-1902",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8841",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8841); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8841/pg8841.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8841/pg8841.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8841/pg8841.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "Expositions of Holy Scripture Second Corinthians, Galatians, and Philippians Chapters I to End. Colossians, Thessalonians, and First Timothy.",
+      "author": "Maclaren, Alexander, 1826-1910",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21190",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 21190); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21190/pg21190.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21190/pg21190.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21190/pg21190.cover.small.jpg"
+      ],
+      "subject": "Bible. Epistles of Paul -- Commentaries",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Epistles of Paul -- Commentaries",
+        "Christianity",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "With the French in France and Salonika",
+      "author": "Davis, Richard Harding, 1864-1916",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30812",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 30812); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30812/pg30812.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30812/pg30812.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30812/pg30812.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Personal narratives",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Salona, Fairfax County, Virginia",
+      "author": "Anderson, Ellen L.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40662",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40662); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40662/pg40662.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40662/pg40662.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40662/pg40662.cover.small.jpg"
+      ],
+      "subject": "Salona (McLean, Va.)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Salona (McLean, Va.)",
+        "Category: History - American",
+        "F206"
+      ]
+    },
+    {
+      "title": "The Expositor's Bible: The Epistles to the Thessalonians",
+      "author": "Denney, James, 1856-1917; Nicoll, W. Robertson (William Robertson), Sir, 1851-1923 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42753",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42753); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42753/pg42753.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42753/pg42753.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42753/pg42753.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians -- Criticism, interpretation, etc.",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians -- Criticism, interpretation, etc.",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "The Preacher's Complete Homiletic Commentary of the Books of the Bible: Volume 29 (of 32) The Preacher's Complete Homiletic Commentary of the Epistles of St. Paul the Apostle: Galatians, Ephesians, Philippians, Colossians, and I-II Thessalonians",
+      "author": "Barlow, George",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62148",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 62148); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62148/pg62148.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62148/pg62148.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62148/pg62148.cover.small.jpg"
+      ],
+      "subject": "Bible -- Commentaries",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible -- Commentaries",
+        "Bible. Epistles of Paul -- Commentaries",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
     }
   ],
-  "notes": "2026-07-20: Merged in 27 rows from the founder-provided 'hairdressing_business_resources.csv' (Section I.2). Five new channels, ten new blogs, and ten new books/guides added on top of the existing Louis Ihuefo entry. Items deliberately left out or flagged rather than integrated as-is: (1) 'Sergey Zverev' — multiple same-named YouTube channels exist (a personal channel, a 'Topic' auto-channel, and others) and the specific '@sergeyzverev' handle from the CSV could not be matched to one with confidence; needs a direct fetch of the actual handle before adding. (2) 'Naija Hair Salon TV' — no channel by this name could be confirmed in this pass; may be inactive, renamed, or a data-entry error in the source CSV. (3) 'Salon Business Boss' channel — only one old testimonial video was found, not a dedicated content channel; the ID in the CSV's RSS template ('channel_id=UC...') was a placeholder, not a real ID, so the channel entry was left out (its blog was still added, since salonbusinessboss.com is confirmed real and active). (4) 'SwiftPesa (Kenya)' and the standalone 'Pesabook (Kenya)' Platform-type rows (fintech tools with no RSS feed, not channels/blogs/books) don't fit this file's three-bucket schema — Pesabook's own blog was added instead; SwiftPesa was omitted entirely. Every 'UC...' string in the source CSV's RSS_Feed column was a literal template placeholder, not a real ID — every real channel ID above was independently looked up via YouTube channel-page fetches or search, not copied from the CSV. Follow-up (same day): brought channels up to 10 (parity with the 10 blogs / 10 books) by adding 4 more independently verified, on-topic channels — The Salon Business and The Beauty Biz Agency (both already verified for business_08, reused here as directly relevant), plus newly verified TheSalonGuy and SalonBiz. 'Sergey Zverev', 'Naija Hair Salon TV', and a standalone 'Salon Business Boss' channel remain excluded — still no confident channel match found for any of the three after a second pass.\n\nBooks audit (2026-07-30): All 10 book URLs audited via web search. 9 of 10 had broken or risky URLs. Fixes: (1) /resources → /blog (confirmed active). (2) sba.gov/business-guide/salon → /business-guide (no /salon subpage exists). (3) marquettabreslin.com/free-resources not found → root domain. (4) /podcast → /free-resources/ (confirmed active with free PDFs). (5) HubSpot hair-salon-marketing URL not found in HubSpot index → replaced with Shopify salon marketing guide (confirmed active, 2025). (6) f5fp.com broken (wrong page) → archive.org E-Myth PDF. (7) mikemichalowicz.com/profit-first-book blank → archive.org borrow. (8) storybrand.com/free-resources not found → root domain storybrand.com. (9) 1pagemarketingplan.com/resources → successwise.com (Dib's current site). (10) openstax.org/books/small-business-management is 404 → /principles-management (confirmed active Apr 2026). 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "2026-07-20: Merged in 27 rows from the founder-provided 'hairdressing_business_resources.csv' (Section I.2). Five new channels, ten new blogs, and ten new books/guides added on top of the existing Louis Ihuefo entry. Items deliberately left out or flagged rather than integrated as-is: (1) 'Sergey Zverev' — multiple same-named YouTube channels exist (a personal channel, a 'Topic' auto-channel, and others) and the specific '@sergeyzverev' handle from the CSV could not be matched to one with confidence; needs a direct fetch of the actual handle before adding. (2) 'Naija Hair Salon TV' — no channel by this name could be confirmed in this pass; may be inactive, renamed, or a data-entry error in the source CSV. (3) 'Salon Business Boss' channel — only one old testimonial video was found, not a dedicated content channel; the ID in the CSV's RSS template ('channel_id=UC...') was a placeholder, not a real ID, so the channel entry was left out (its blog was still added, since salonbusinessboss.com is confirmed real and active). (4) 'SwiftPesa (Kenya)' and the standalone 'Pesabook (Kenya)' Platform-type rows (fintech tools with no RSS feed, not channels/blogs/books) don't fit this file's three-bucket schema — Pesabook's own blog was added instead; SwiftPesa was omitted entirely. Every 'UC...' string in the source CSV's RSS_Feed column was a literal template placeholder, not a real ID — every real channel ID above was independently looked up via YouTube channel-page fetches or search, not copied from the CSV. Follow-up (same day): brought channels up to 10 (parity with the 10 blogs / 10 books) by adding 4 more independently verified, on-topic channels — The Salon Business and The Beauty Biz Agency (both already verified for business_08, reused here as directly relevant), plus newly verified TheSalonGuy and SalonBiz. 'Sergey Zverev', 'Naija Hair Salon TV', and a standalone 'Salon Business Boss' channel remain excluded — still no confident channel match found for any of the three after a second pass.\n\nBooks audit (2026-07-30): All 10 book URLs audited via web search. 9 of 10 had broken or risky URLs. Fixes: (1) /resources → /blog (confirmed active). (2) sba.gov/business-guide/salon → /business-guide (no /salon subpage exists). (3) marquettabreslin.com/free-resources not found → root domain. (4) /podcast → /free-resources/ (confirmed active with free PDFs). (5) HubSpot hair-salon-marketing URL not found in HubSpot index → replaced with Shopify salon marketing guide (confirmed active, 2025). (6) f5fp.com broken (wrong page) → archive.org E-Myth PDF. (7) mikemichalowicz.com/profit-first-book blank → archive.org borrow. (8) storybrand.com/free-resources not found → root domain storybrand.com. (9) 1pagemarketingplan.com/resources → successwise.com (Dib's current site). (10) openstax.org/books/small-business-management is 404 → /principles-management (confirmed active Apr 2026). 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 21 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
   ]

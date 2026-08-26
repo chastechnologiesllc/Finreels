@@ -1,7 +1,7 @@
 {
   "categoryId": "business_05_real_estate_agency",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCFvGW2SGrjigO5QzT7DPkJQ",
@@ -478,6 +478,164 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "The Origin of Property in Land With an introductory chapter on the English manor by W. J. Ashley",
+      "author": "Fustel de Coulanges, 1830-1889; Ashley, W. J. (William James), 1860-1927 [Contributor]; Ashley, Margaret, 1859-1922 [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67558",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67558); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67558/pg67558.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67558/pg67558.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67558/pg67558.cover.small.jpg"
+      ],
+      "subject": "Land tenure -- Law and legislation -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Land tenure -- Law and legislation -- History",
+        "Real property -- History",
+        "Manors -- Great Britain",
+        "Category: History - Other",
+        "K"
+      ]
+    },
+    {
+      "title": "Three Plays: The Fiddler's House, The Land, Thomas Muskerry",
+      "author": "Colum, Padraic, 1881-1972",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11878",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 11878); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11878/pg11878.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11878/pg11878.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11878/pg11878.cover.small.jpg"
+      ],
+      "subject": "Irish drama -- 20th century",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Irish drama -- 20th century",
+        "Category: Plays/Films/Dramas",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "No Man's Land: A History of El Camino Real",
+      "author": "Nardini, Louis Raphael",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55055",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55055); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55055/pg55055.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55055/pg55055.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55055/pg55055.cover.small.jpg"
+      ],
+      "subject": "El Camino Real de los Tejas National Historic Trail (Tex. and La.)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "El Camino Real de los Tejas National Historic Trail (Tex. and La.)",
+        "Louisiana -- History",
+        "Category: Mythology, Legends & Folklore",
+        "Category: History - American",
+        "Category: History - European",
+        "Category: History - Ancient",
+        "F350.5"
+      ]
+    },
+    {
+      "title": "House property & its management",
+      "author": "Hill, Octavia, 1838-1912; Gibbon, Gwilym, Sir, 1874-1948 [Author of introduction, etc.]; Jeffery, M. M. [Editor]; Neville, Edith [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75837",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 75837); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75837/pg75837.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75837/pg75837.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75837/pg75837.cover.small.jpg"
+      ],
+      "subject": "Working class -- England -- London",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Working class -- England -- London",
+        "Working class -- Dwellings",
+        "Housing -- England -- London",
+        "Landlord and tenant -- England -- London",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - British",
+        "Category: Sociology",
+        "HD"
+      ]
+    },
+    {
+      "title": "The Store Boy",
+      "author": "Alger, Horatio, Jr., 1832-1899",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/10724",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 10724); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/10724/pg10724.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/10724/pg10724.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/10724/pg10724.cover.small.jpg"
+      ],
+      "subject": "Conduct of life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Conduct of life -- Juvenile fiction",
+        "Adventure and adventurers -- Juvenile fiction",
+        "Mystery and detective stories",
+        "Swindlers and swindling -- Juvenile fiction",
+        "New York (N.Y.) -- History -- 1865-1898 -- Juvenile fiction",
+        "Real estate agents -- Juvenile fiction",
+        "Children's Fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Bob Burton; or, The Young Ranchman of the Missouri",
+      "author": "Alger, Horatio, Jr., 1832-1899",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52194",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52194); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52194/pg52194.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52194/pg52194.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52194/pg52194.cover.small.jpg"
+      ],
+      "subject": "Conduct of life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Conduct of life -- Juvenile fiction",
+        "Young men -- Conduct of life -- Juvenile fiction",
+        "Bildungsromans",
+        "Adventure and adventurers -- Juvenile fiction",
+        "Ranches -- Juvenile fiction",
+        "Success -- Juvenile fiction",
+        "Families -- Juvenile fiction",
+        "Middle West -- Juvenile fiction",
+        "Real estate agents -- Juvenile fiction",
+        "Conspiracies -- Juvenile fiction",
+        "Extortion -- Juvenile fiction",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
     }
   ],
   "integrationNotes": "6/10 channels confirmed with UCxxx IDs (Ryan Serhant, Graham Stephan, BiggerPockets, PropertyPro Africa, Private Property Nigeria, BusinessDay TV, NairametricsTV). 3 channels RESOLVE (NigerianRealEstateHub, SpleetNG, REDANofficial). Key corrections: (1) Ryan Serhant handle CORRECTED to @SerhantRyan; (2) PropertyPro handle CORRECTED to @PropertyPro_Africa; (3) RealtyBlueprints REPLACED with Private Property Nigeria (UCMsJQo00U2H7PGNR6FozwHQ — no YouTube channel found at RealtyBlueprints handle); (4) BusinessDay Real Estate and Nairametrics Real Estate have no sub-channels — using main channels.",
@@ -485,5 +643,5 @@
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
   ],
-  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 6 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

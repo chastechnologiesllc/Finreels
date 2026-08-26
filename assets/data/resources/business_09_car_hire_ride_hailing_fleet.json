@@ -459,8 +459,31 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "A Ride With A Mad Horse In A Freight-Car 1898",
+      "author": "Murray, W. H. H. (William Henry Harrison), 1840-1904",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23168",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23168); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23168/pg23168.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23168/pg23168.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23168/pg23168.cover.small.jpg"
+      ],
+      "subject": "Short stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Short stories",
+        "Category: Biographies",
+        "Category: History - American",
+        "Category: History - Warfare",
+        "PS"
+      ]
     }
   ],
-  "lastUpdated": "2026-08-23",
-  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "lastUpdated": "2026-08-26",
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

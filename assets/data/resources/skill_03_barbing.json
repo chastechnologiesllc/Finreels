@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_03_barbing",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCD9Oybf28FhVdVDG6hwg6Yw",
@@ -607,9 +607,505 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Author offers full ebook free.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781456522100-L.jpg"
+    },
+    {
+      "title": "Jasmin: Barber, Poet, Philanthropist",
+      "author": "Smiles, Samuel, 1812-1904",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/838",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 838); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/838/pg838.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/838/pg838.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/838/pg838.cover.small.jpg"
+      ],
+      "subject": "Jasmin, 1798-1864",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Jasmin, 1798-1864",
+        "Poets, French -- Biography",
+        "Category: Biographies",
+        "PC"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 1",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4401",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4401); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4401/pg4401.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4401/pg4401.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4401/pg4401.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Humour",
+        "Category: Novels",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 2",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4402",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4402); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4402/pg4402.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4402/pg4402.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4402/pg4402.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 3",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4403",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4403); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4403/pg4403.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4403/pg4403.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4403/pg4403.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 4",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4404",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4404); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4404/pg4404.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4404/pg4404.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4404/pg4404.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Adventure",
+        "Category: Novels",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Complete",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4405",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4405); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4405/pg4405.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4405/pg4405.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4405/pg4405.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Humour",
+        "Category: Adventure",
+        "Category: Novels",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Barber of Paris",
+      "author": "Kock, Paul de, 1793-1871; Norris, Edith Mary, 1858- [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37453",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 37453); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37453/pg37453.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37453/pg37453.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37453/pg37453.cover.small.jpg"
+      ],
+      "subject": "French fiction -- Translations into English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "French fiction -- Translations into English",
+        "Paris (France) -- Social life and customs -- Fiction",
+        "Category: Historical Novels",
+        "Category: Novels",
+        "Category: French Literature",
+        "PQ"
+      ]
+    },
+    {
+      "title": "Shaving Made Easy: What the Man Who Shaves Ought to Know",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43166",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 43166); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43166/pg43166.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43166/pg43166.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43166/pg43166.cover.small.jpg"
+      ],
+      "subject": "Shaving",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Shaving",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "The Annals of the Barber-Surgeons of London",
+      "author": "Young, Sidney, 1843- [Compiler]; Young, Austin T. [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49011",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 49011); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49011/pg49011.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49011/pg49011.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49011/pg49011.cover.small.jpg"
+      ],
+      "subject": "Barbers' Company (London, England) -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Barbers' Company (London, England) -- History",
+        "Surgery -- England -- London -- History -- Sources",
+        "Barbers -- England -- London -- History -- Sources",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: Health & Medicine",
+        "RD"
+      ]
+    },
+    {
+      "title": "Devlin the Barber",
+      "author": "Farjeon, B. L. (Benjamin Leopold), 1833-1903",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53044",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53044); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53044/pg53044.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53044/pg53044.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53044/pg53044.cover.small.jpg"
+      ],
+      "subject": "Detective and mystery stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Detective and mystery stories",
+        "English fiction -- 19th century",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Wigmaker in Eighteenth-Century Williamsburg An Account of His Barbering, Hair-dressing, & Peruke-Making Services, & Some Remarks on Wigs of Various Styles.",
+      "author": "Bullock, Thomas K.; Tonkin, Maurice B.; Townsend, Raymond R. [Contributor]; Ford, Thomas K. [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58384",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58384); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58384/pg58384.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58384/pg58384.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58384/pg58384.cover.small.jpg"
+      ],
+      "subject": "Wigmakers",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Wigmakers",
+        "Wigs -- History",
+        "Category: History - American",
+        "GT",
+        "TT"
+      ]
+    },
+    {
+      "title": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "author": "Rymer, James Malcolm, 1814?-1884; Prest, Thomas Peckett, 1810-1859",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59828",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 59828); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59828/pg59828.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59828/pg59828.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59828/pg59828.cover.small.jpg"
+      ],
+      "subject": "Historical fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Historical fiction",
+        "Horror tales",
+        "Revenge -- Fiction",
+        "Young women -- Fiction",
+        "Missing persons -- Fiction",
+        "Suspense fiction",
+        "Murder -- Fiction",
+        "Mystery fiction",
+        "Todd, Sweeney (Legendary character) -- Fiction",
+        "Barbers -- Fiction",
+        "Bakers -- Fiction",
+        "Cannibalism -- Fiction",
+        "Fleet Street (London, England) -- Fiction",
+        "London (England) -- Social life and customs -- 18th century -- Fiction",
+        "Penny dreadfuls",
+        "Category: Romance",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Tales of the clipper ships",
+      "author": "Smith, C. Fox (Cicely Fox), 1882-1954; Smith, Phil W. [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67242",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67242); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67242/pg67242.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67242/pg67242.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67242/pg67242.cover.small.jpg"
+      ],
+      "subject": "Short stories, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Short stories, English",
+        "Clipper ships -- Fiction",
+        "Category: Short Stories",
+        "Category: Adventure",
+        "PR"
+      ]
+    },
+    {
+      "title": "The clipper ship era an epitome of famous American and British clipper ships, their owners, builders, commanders, and crews, 1843-1869",
+      "author": "Clark, Arthur H., 1841-1922",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69154",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69154); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69154/pg69154.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69154/pg69154.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69154/pg69154.cover.small.jpg"
+      ],
+      "subject": "Clipper ships -- United States",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Clipper ships -- United States",
+        "Clipper ships -- Great Britain",
+        "Category: History - American",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "VK"
+      ]
+    },
+    {
+      "title": "The barber's chair; and, The hedgehog letters",
+      "author": "Jerrold, Douglas William, 1803-1857; Jerrold, Blanchard, 1826-1884 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69868",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69868); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69868/pg69868.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69868/pg69868.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69868/pg69868.cover.small.jpg"
+      ],
+      "subject": "English wit and humor",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English wit and humor",
+        "English literature -- 19th century",
+        "Category: Humour",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Trichocosmos: Notes historical, æsthetical, ethnological, physiological, anecdotal and tonsorial, on the hair & beard",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68781",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 68781); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68781/pg68781.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68781/pg68781.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68781/pg68781.cover.small.jpg"
+      ],
+      "subject": "Hairdressing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Hairdressing",
+        "Barbering",
+        "Beards",
+        "Hair",
+        "Wigs",
+        "Category: History - Other",
+        "Category: Art",
+        "Category: Archaeology & Anthropology",
+        "GT",
+        "TT"
+      ]
+    },
+    {
+      "title": "The Colonial Clippers",
+      "author": "Lubbock, Basil, 1876-1944",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52897",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52897); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52897/pg52897.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52897/pg52897.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52897/pg52897.cover.small.jpg"
+      ],
+      "subject": "Merchant marine -- Great Britain",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Merchant marine -- Great Britain",
+        "Clipper ships",
+        "Category: History - Other",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "VK"
+      ]
+    },
+    {
+      "title": "Shavings: A Novel",
+      "author": "Lincoln, Joseph Crosby, 1870-1944",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/2452",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 2452); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/2452/pg2452.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/2452/pg2452.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/2452/pg2452.cover.small.jpg"
+      ],
+      "subject": "Man-woman relationships -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Man-woman relationships -- Fiction",
+        "Massachusetts -- Fiction",
+        "Toymakers -- Fiction",
+        "Thieves -- Fiction",
+        "Cape Cod (Mass.) -- Fiction",
+        "Category: Humour",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Barbers' Manual (Part 1); Text Book on Taxidermy (Part 2)",
+      "author": "McConnaughay, T. J.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52850",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52850); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52850/pg52850.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52850/pg52850.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52850/pg52850.cover.small.jpg"
+      ],
+      "subject": "Taxidermy",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Taxidermy",
+        "Barbering",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "QL",
+        "TT"
+      ]
+    },
+    {
+      "title": "Shavings & Scrapes from many parts",
+      "author": "Joubert, Jules, 1824-1907",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58230",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58230); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58230/pg58230.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58230/pg58230.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58230/pg58230.cover.small.jpg"
+      ],
+      "subject": "Pacific Area -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pacific Area -- Description and travel",
+        "Joubert, Jules, 1824-1907 -- Travel -- Pacific Area",
+        "Pacific Area -- Social life and customs",
+        "Category: Biographies",
+        "Category: Travel Writing",
+        "DU"
+      ]
     }
   ],
-  "notes": "2026-07-20: Merged in 30 rows from the founder-provided 'barbing_business_resources.csv' (Section I.3), bringing the file from 0 channels / 1 blog / 0 books to a full 10 / 10 / 10. Four of the CSV's 10 channels — 'Huduma Global', 'Tuko.co.ke' (kept, but repurposed — see below), 'HustleCare', 'Barbering Techniques', and 'Barber Innovations TV' — could not be matched to a real, confirmable YouTube channel after two search passes (Huduma Global and HustleCare appear to be real businesses with real blogs, just with no dedicated/findable YouTube presence; 'Barbering Techniques' and 'Barber Innovations TV' returned no matching branded channel at all). To reach 10 verified channels, 3 independently-sourced, directly on-topic replacements were substituted: Seancutshair, Collins (equipment manufacturer), and Keller International (equipment wholesaler) — plus The Beauty Biz Agency, reused from business_08. The Tuko.co.ke channel was kept despite being a general Kenyan news channel (not barbing-specific), since the source directory's citation was for one specific human-interest story about a Nairobi barbershop manager's earnings — most of its catalog is unrelated. Two blog URLs are flagged for a pre-ship domain check: Splice (this file's existing blog.withsplice.com/feed/ entry was replaced with the CSV's splice.ng/feed/, matching the domain already verified for skill_02 this week — the two may be the same brand on different domains) and HustleCare (site currently resolves at hustlecare.net, not the CSV's hustlecare.co.ke).\n\nBooks audit (2026-07-30): All 10 book URLs audited. 7 of 10 had broken or risky URLs. Fixes: (1) SBA URL kept — confirmed working in skill_02. (2) YouTube @chrisbossio kept — confirmed 425K subs, active Dec 2025. (3) f5fp.com broken → archive.org E-Myth (same fix as skill_01/02). (4) mikemichalowicz.com broken → archive.org Profit First (same fix as skill_01/02). (5) archive.org/howtowinfriendsandinfluencepeople identifier unconfirmed → updated to confirmed archive.org copy with 2,647 views. (6) 1pagemarketingplan.com/resources dead → successwise.com (same fix as skill_02). (7) bdebooks.com is a piracy site not found in legitimate search index → replaced with official theleanstartup.com. (8) archive.org/RichDadPoorDad identifier unconfirmed → updated to confirmed copy. (9) archive.org/atomic-habits confirmed active — kept. (10) openstax small-business-management 404 → principles-management (same fix as skill_02). 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "2026-07-20: Merged in 30 rows from the founder-provided 'barbing_business_resources.csv' (Section I.3), bringing the file from 0 channels / 1 blog / 0 books to a full 10 / 10 / 10. Four of the CSV's 10 channels — 'Huduma Global', 'Tuko.co.ke' (kept, but repurposed — see below), 'HustleCare', 'Barbering Techniques', and 'Barber Innovations TV' — could not be matched to a real, confirmable YouTube channel after two search passes (Huduma Global and HustleCare appear to be real businesses with real blogs, just with no dedicated/findable YouTube presence; 'Barbering Techniques' and 'Barber Innovations TV' returned no matching branded channel at all). To reach 10 verified channels, 3 independently-sourced, directly on-topic replacements were substituted: Seancutshair, Collins (equipment manufacturer), and Keller International (equipment wholesaler) — plus The Beauty Biz Agency, reused from business_08. The Tuko.co.ke channel was kept despite being a general Kenyan news channel (not barbing-specific), since the source directory's citation was for one specific human-interest story about a Nairobi barbershop manager's earnings — most of its catalog is unrelated. Two blog URLs are flagged for a pre-ship domain check: Splice (this file's existing blog.withsplice.com/feed/ entry was replaced with the CSV's splice.ng/feed/, matching the domain already verified for skill_02 this week — the two may be the same brand on different domains) and HustleCare (site currently resolves at hustlecare.net, not the CSV's hustlecare.co.ke).\n\nBooks audit (2026-07-30): All 10 book URLs audited. 7 of 10 had broken or risky URLs. Fixes: (1) SBA URL kept — confirmed working in skill_02. (2) YouTube @chrisbossio kept — confirmed 425K subs, active Dec 2025. (3) f5fp.com broken → archive.org E-Myth (same fix as skill_01/02). (4) mikemichalowicz.com broken → archive.org Profit First (same fix as skill_01/02). (5) archive.org/howtowinfriendsandinfluencepeople identifier unconfirmed → updated to confirmed archive.org copy with 2,647 views. (6) 1pagemarketingplan.com/resources dead → successwise.com (same fix as skill_02). (7) bdebooks.com is a piracy site not found in legitimate search index → replaced with official theleanstartup.com. (8) archive.org/RichDadPoorDad identifier unconfirmed → updated to confirmed copy. (9) archive.org/atomic-habits confirmed active — kept. (10) openstax small-business-management 404 → principles-management (same fix as skill_02). 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 20 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
   ]

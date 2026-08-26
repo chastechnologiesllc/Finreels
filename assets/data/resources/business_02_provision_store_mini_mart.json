@@ -1,7 +1,7 @@
 {
   "categoryId": "business_02_provision_store_mini_mart",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCUytHzLfHi9Ed1NoY6hcjaA",
@@ -476,6 +476,31 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "The Treaty With China, its Provisions Explained New York Tribune, Tuesday, August 28, 1868",
+      "author": "Twain, Mark, 1835-1910",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33077",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 33077); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33077/pg33077.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33077/pg33077.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33077/pg33077.cover.small.jpg"
+      ],
+      "subject": "United States -- Foreign relations -- China",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "United States -- Foreign relations -- China",
+        "China -- Foreign relations -- United States",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Politics",
+        "DS",
+        "E660"
+      ]
     }
   ],
   "integrationNotes": "3/10 channels confirmed with UCxxx IDs (BusinessDay TV, Learn With Shopify, NairametricsTV). 7 RESOLVE channels require handle verification. Real companies (TradeDepot, Kippa Africa, Bumpa, MAX.ng) likely have YouTube channels — verify before deploying. Unknown channels (RetailBusinessAfrica, FMCGAfrica, RetailOwner) — if absent at those handles, replace with verified Nigerian retail/FMCG channels. Key corrections: Shopify Retail → Learn With Shopify; BusinessDay → @BDTV-NG; Nairametrics → @NairametricsTV. TradeDepot blog: verify .co vs .com domain.",
@@ -483,5 +508,5 @@
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
   ],
-  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

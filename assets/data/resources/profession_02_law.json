@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_02_law",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCHzd5RKs21FxILfjOAh1L4Q",
@@ -1524,6 +1524,737 @@
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Law; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-access-international-human-rights-law"
+    },
+    {
+      "title": "The Experiences of a Barrister, and Confessions of an Attorney",
+      "author": "Warren, Samuel, 1807-1877",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12371",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 12371); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12371/pg12371.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12371/pg12371.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12371/pg12371.cover.small.jpg"
+      ],
+      "subject": "Detective and mystery stories, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Detective and mystery stories, English",
+        "Legal stories, English",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "A sketch of the life of the late Henry Cooper, barrister-at-Law, of the Norfolk circuit; as also, of his father",
+      "author": "Cooper, William, 1810-1877",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23826",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23826); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23826/pg23826.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23826/pg23826.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23826/pg23826.cover.small.jpg"
+      ],
+      "subject": "Cooper, Henry, 1783-1824",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooper, Henry, 1783-1824",
+        "Carlile, Mary Anne, 1793 or 1794- -- Trials, litigation, etc.",
+        "Lawyers -- England -- Biography",
+        "Trials (Libel) -- England",
+        "Cooper, Charles, 1753-1836",
+        "Category: Biographies",
+        "KD"
+      ]
+    },
+    {
+      "title": "Diary of John Manningham Of the Middle Temple, and of Bradbourne, Kent, Barrister‑at‑Law, 1602-1603",
+      "author": "Manningham, John, -1622; Bruce, John, 1802-1869 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41609",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 41609); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41609/pg41609.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41609/pg41609.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41609/pg41609.cover.small.jpg"
+      ],
+      "subject": "Great Britain -- History -- Elizabeth, 1558-1603 -- Sources",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Great Britain -- History -- Elizabeth, 1558-1603 -- Sources",
+        "London (England) -- Social life and customs -- Early works to 1800",
+        "Lawyers -- Great Britain -- Biography",
+        "Manningham, John, -1622",
+        "Great Britain -- History -- James I, 1603-1625 -- Sources",
+        "Lawyers -- Great Britain -- Diaries",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Legal Lore: Curiosities of Law and Lawyers",
+      "author": "Andrews, William, 1848-1908 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38589",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38589); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38589/pg38589.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38589/pg38589.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38589/pg38589.cover.small.jpg"
+      ],
+      "subject": "Law -- Miscellanea",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Law -- Miscellanea",
+        "Category: Humour",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - Other",
+        "Category: Law & Criminology",
+        "K"
+      ]
+    },
+    {
+      "title": "The Confessions of Artemas Quibble Being the Ingenuous and Unvarnished History of Artemas Quibble, Esquire, One-Time Practitioner in the New York Criminal Courts, Together with an Account of the Divers Wiles, Tricks, Sophistries, Technicalities, and Sundry Artifices of Himself and Others of the Fraternity, Commonly Yclept \"Shysters\" or \"Shyster Lawyers\"",
+      "author": "Train, Arthur Cheney, 1875-1945",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20451",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 20451); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/20451/pg20451.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/20451/pg20451.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/20451/pg20451.cover.small.jpg"
+      ],
+      "subject": "New York (N.Y.) -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "New York (N.Y.) -- Fiction",
+        "Legal stories",
+        "Attorney and client -- Fiction",
+        "Category: Humour",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Trial of Jesus from a Lawyer's Standpoint, Vol. 1 (of 2) The Hebrew Trial",
+      "author": "Chandler, Walter M. (Walter Marion), 1867-1935",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40966",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40966); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40966/pg40966.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40966/pg40966.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40966/pg40966.cover.small.jpg"
+      ],
+      "subject": "Jesus Christ -- Trial",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Jesus Christ -- Trial",
+        "Trials (Blasphemy) -- Jerusalem",
+        "Trials (Treason) -- Jerusalem",
+        "Category: History - Religious",
+        "Category: Law & Criminology",
+        "Category: Religion/Spirituality",
+        "BT"
+      ]
+    },
+    {
+      "title": "The Trial of Jesus from a Lawyer's Standpoint, Vol. 2 (of 2) The Roman Trial",
+      "author": "Chandler, Walter M. (Walter Marion), 1867-1935",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40967",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40967); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40967/pg40967.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40967/pg40967.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40967/pg40967.cover.small.jpg"
+      ],
+      "subject": "Jesus Christ -- Trial",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Jesus Christ -- Trial",
+        "Trials (Blasphemy) -- Jerusalem",
+        "Trials (Treason) -- Jerusalem",
+        "Category: History - Religious",
+        "Category: Law & Criminology",
+        "BT"
+      ]
+    },
+    {
+      "title": "A Letter to Sir Samuel Shepherd, Knt., His Majesty's Attorney General Upon the Subject of His Prosecutions of Richard Carlile, for Publishing Paine's Age of Reason",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40979",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40979); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40979/pg40979.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40979/pg40979.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40979/pg40979.cover.small.jpg"
+      ],
+      "subject": "Trials (Blasphemy) -- Great Britain",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Trials (Blasphemy) -- Great Britain",
+        "Blasphemy -- Great Britain",
+        "Paine, Thomas, 1737-1809. Age of reason",
+        "Shepherd, Samuel, Sir, 1760-1840",
+        "Category: Essays, Letters & Speeches",
+        "Category: Law & Criminology",
+        "Category: Philosophy & Ethics",
+        "Category: Politics",
+        "BL"
+      ]
+    },
+    {
+      "title": "A Philadelphia Lawyer in the London Courts",
+      "author": "Leaming, Thomas, 1858-1911",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41034",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 41034); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41034/pg41034.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41034/pg41034.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41034/pg41034.cover.small.jpg"
+      ],
+      "subject": "Courts -- Great Britain",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Courts -- Great Britain",
+        "Lawyers -- Great Britain",
+        "Category: History - American",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: Law & Criminology",
+        "KD"
+      ]
+    },
+    {
+      "title": "Tutt and Mr. Tutt",
+      "author": "Train, Arthur Cheney, 1875-1945",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/10440",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 10440); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/10440/pg10440.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/10440/pg10440.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/10440/pg10440.cover.small.jpg"
+      ],
+      "subject": "New York (N.Y.) -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "New York (N.Y.) -- Fiction",
+        "Legal stories",
+        "Attorney and client -- Fiction",
+        "Law firms -- Fiction",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "The hermit of Turkey Hollow",
+      "author": "Train, Arthur Cheney, 1875-1945",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77895",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 77895); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77895/pg77895.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77895/pg77895.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77895/pg77895.cover.small.jpg"
+      ],
+      "subject": "New York (N.Y.) -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "New York (N.Y.) -- Fiction",
+        "Legal stories",
+        "Attorney and client -- Fiction",
+        "Law firms -- Fiction",
+        "PS"
+      ]
+    },
+    {
+      "title": "A Roman Lawyer in Jerusalem : First Century",
+      "author": "Story, William Wetmore, 1819-1895",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/9399",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 9399); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/9399/pg9399.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/9399/pg9399.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/9399/pg9399.cover.small.jpg"
+      ],
+      "subject": "Judas Iscariot -- Poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Judas Iscariot -- Poetry",
+        "Category: Historical Novels",
+        "Category: Philosophy & Ethics",
+        "Category: Religion/Spirituality",
+        "PS"
+      ]
+    },
+    {
+      "title": "Lawyer Quince Odd Craft, Part 5.",
+      "author": "Jacobs, W. W. (William Wymark), 1863-1943; Owen, Will, 1869-1957 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12205",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 12205); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12205/pg12205.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12205/pg12205.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12205/pg12205.cover.small.jpg"
+      ],
+      "subject": "Humorous stories, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Humorous stories, English",
+        "England -- Social life and customs -- Fiction",
+        "Sailors -- Fiction",
+        "Category: Short Stories",
+        "Category: Humour",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "True Stories of Crime From the District Attorney's Office",
+      "author": "Train, Arthur Cheney, 1875-1945",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/13172",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 13172); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/13172/pg13172.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/13172/pg13172.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/13172/pg13172.cover.small.jpg"
+      ],
+      "subject": "Crime",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Crime",
+        "Crime Nonfiction",
+        "Category: Crime, Thrillers and Mystery",
+        "HV"
+      ]
+    },
+    {
+      "title": "Amusing Trial in which a Yankee Lawyer Renders a Just Verdict",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17604",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 17604); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17604/pg17604.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17604/pg17604.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17604/pg17604.cover.small.jpg"
+      ],
+      "subject": "Poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Poetry",
+        "Slavery -- United States -- Fiction",
+        "Slavery",
+        "Category: Poetry",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Law and Lawyers of Pickwick A Lecture",
+      "author": "Lockwood, Frank, Sir, 1846-1897",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21214",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 21214); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21214/pg21214.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21214/pg21214.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21214/pg21214.cover.small.jpg"
+      ],
+      "subject": "Dickens, Charles, 1812-1870. Pickwick papers",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Dickens, Charles, 1812-1870. Pickwick papers",
+        "Lawyers in literature",
+        "Category: Essays, Letters & Speeches",
+        "Category: British Literature",
+        "Category: Law & Criminology",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Albert Gate Mystery Being Further Adventures of Reginald Brett, Barrister Detective",
+      "author": "Tracy, Louis, 1863-1928",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23150",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23150); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23150/pg23150.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23150/pg23150.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23150/pg23150.cover.small.jpg"
+      ],
+      "subject": "Detective and mystery stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Detective and mystery stories",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Little French Lawyer: A Comedy",
+      "author": "Beaumont, Francis, 1584-1616; Fletcher, John, 1579-1625",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25398",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 25398); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25398/pg25398.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25398/pg25398.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25398/pg25398.cover.small.jpg"
+      ],
+      "subject": "English drama",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English drama",
+        "Category: Humour",
+        "Category: Plays/Films/Dramas",
+        "PR"
+      ]
+    },
+    {
+      "title": "The History of the Last Trial by Jury for Atheism in England A Fragment of Autobiography Submitted for the Perusal of Her Majesty's Attorney-General and the British Clergy",
+      "author": "Holyoake, George Jacob, 1817-1906",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36799",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 36799); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36799/pg36799.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36799/pg36799.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36799/pg36799.cover.small.jpg"
+      ],
+      "subject": "Holyoake, George Jacob, 1817-1906 -- Trials, litigation, etc.",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Holyoake, George Jacob, 1817-1906 -- Trials, litigation, etc.",
+        "Trials (Blasphemy) -- England",
+        "Atheism -- England",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Religious",
+        "Category: Philosophy & Ethics",
+        "KD"
+      ]
+    },
+    {
+      "title": "The True History of the Kentish Lawyer with an account of the extraordinary marriage of his son",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62515",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 62515); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62515/pg62515.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62515/pg62515.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62515/pg62515.cover.small.jpg"
+      ],
+      "subject": "Christian life",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Christian life",
+        "Conversion -- Christianity",
+        "Chapbooks, English",
+        "Category: History - British",
+        "Category: History - Religious",
+        "BV",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Proofs of Christ's Resurrection; from a Lawyer's Standpoint",
+      "author": "Morrison, Charles R. (Charles Robert), 1819-1893",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67151",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67151); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67151/pg67151.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67151/pg67151.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67151/pg67151.cover.small.jpg"
+      ],
+      "subject": "Apologetics",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Apologetics",
+        "Jesus Christ -- Resurrection",
+        "Category: History - Religious",
+        "Category: Philosophy & Ethics",
+        "Category: Religion/Spirituality",
+        "BT"
+      ]
+    },
+    {
+      "title": "The Law-Breakers and Other Stories",
+      "author": "Grant, Robert, 1852-1940",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7763",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7763); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7763/pg7763.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7763/pg7763.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7763/pg7763.cover.small.jpg"
+      ],
+      "subject": "Short stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Short stories",
+        "Legal stories",
+        "United States -- Social life and customs -- 20th century -- Fiction",
+        "Attorney and client -- Fiction",
+        "Category: Short Stories",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "A Book About Lawyers",
+      "author": "Jeaffreson, John Cordy, 1831-1901",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27785",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 27785); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/27785/pg27785.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/27785/pg27785.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/27785/pg27785.cover.small.jpg"
+      ],
+      "subject": "Lawyers -- Great Britain -- Anecdotes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Lawyers -- Great Britain -- Anecdotes",
+        "British Law",
+        "Category: History - Other",
+        "Category: Law & Criminology",
+        "KD"
+      ]
+    },
+    {
+      "title": "The Lawyers, A Drama in Five Acts",
+      "author": "Iffland, August Wilhelm, 1759-1814; Lüdger, C. (Conrad), 1748-1834? [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/31567",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 31567); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/31567/pg31567.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/31567/pg31567.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/31567/pg31567.cover.small.jpg"
+      ],
+      "subject": "German drama -- Translations into English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "German drama -- Translations into English",
+        "Legal drama",
+        "Category: Plays/Films/Dramas",
+        "Category: German Literature",
+        "PT"
+      ]
+    },
+    {
+      "title": "A Will and No Will; or, A Bone for the Lawyers. (1746) The New Play Criticiz'd, or the Plague of Envy. (1747)",
+      "author": "Macklin, Charles, 1697?-1797; Kern, Jean B. [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40653",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40653); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40653/pg40653.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40653/pg40653.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40653/pg40653.cover.small.jpg"
+      ],
+      "subject": "English drama -- 18th century",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English drama -- 18th century",
+        "Category: Humour",
+        "Category: Plays/Films/Dramas",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "An Essay to the Restoring of our Decayed Trade. Wherein is Described, the Smuglers, Lawyers, and Officers Frauds &c.",
+      "author": "Trevers, Joseph",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47509",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 47509); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47509/pg47509.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47509/pg47509.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47509/pg47509.cover.small.jpg"
+      ],
+      "subject": "Wool industry -- England -- Early works to 1800",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Wool industry -- England -- Early works to 1800",
+        "Great Britain -- Commerce -- Early works to 1800",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: Economics",
+        "HF"
+      ]
+    },
+    {
+      "title": "Business For the Lawyers",
+      "author": "Robin, Ralph, 1914-1983; Kweskin, Sam, 1924-2005 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49767",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 49767); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49767/pg49767.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49767/pg49767.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49767/pg49767.cover.small.jpg"
+      ],
+      "subject": "Science fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Science fiction",
+        "Short stories",
+        "Time travel -- Fiction",
+        "Science Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Novels",
+        "PS"
+      ]
+    },
+    {
+      "title": "Battling with waves and lawyers",
+      "author": "Reid, John Arbuckle [Compiler]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71021",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 71021); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71021/pg71021.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71021/pg71021.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71021/pg71021.cover.small.jpg"
+      ],
+      "subject": "Alert (Ship : 1877-1893)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Alert (Ship : 1877-1893)",
+        "Shipwrecks -- Australia -- Victoria",
+        "Navigation -- Australia -- History",
+        "Liability for marine accidents",
+        "Category: History - Other",
+        "Category: History - Modern (1750+)",
+        "KU",
+        "VK"
+      ]
+    },
+    {
+      "title": "The Dead Alive",
+      "author": "Collins, Wilkie, 1824-1889",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7891",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7891); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7891/pg7891.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7891/pg7891.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7891/pg7891.cover.small.jpg"
+      ],
+      "subject": "Trials (Murder) -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Trials (Murder) -- Fiction",
+        "Judicial error -- Fiction",
+        "Legal stories",
+        "Attorney and client -- Fiction",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Seven Lamps of Advocacy",
+      "author": "Parry, Edward Abbott, Sir, 1863-1943",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66162",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 66162); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66162/pg66162.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66162/pg66162.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66162/pg66162.cover.small.jpg"
+      ],
+      "subject": "Legal ethics",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Legal ethics",
+        "Lawyers",
+        "Category: Law & Criminology",
+        "KD"
+      ]
     }
   ],
   "actionRequired": [
@@ -1532,5 +2263,5 @@
     "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
     "2026-08-23: Review the 111 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ],
-  "notes": "2026-08-23: Added 111 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added 111 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 30 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

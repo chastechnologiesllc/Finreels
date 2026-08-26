@@ -1,7 +1,7 @@
 {
   "categoryId": "business_06_logistics_dispatch_rider",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCdQfbaTlApD14Fuj8D4jLnw",
@@ -460,9 +460,131 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Michael Strogoff; Or, The Courier of the Czar",
+      "author": "Verne, Jules, 1828-1905",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/1842",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 1842); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/1842/pg1842.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/1842/pg1842.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/1842/pg1842.cover.small.jpg"
+      ],
+      "subject": "Historical fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Historical fiction",
+        "Russia -- History -- Alexander II, 1855-1881 -- Fiction",
+        "Heroes -- Fiction",
+        "Tatars -- Fiction",
+        "Category: Adventure",
+        "Category: Novels",
+        "PQ"
+      ]
+    },
+    {
+      "title": "The Courier of the Ozarks",
+      "author": "Dunn, Byron A. (Byron Archibald), 1842-1926; De Lay, H. S. (Harold Saylor), 1876-1950 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35207",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 35207); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35207/pg35207.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35207/pg35207.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35207/pg35207.cover.small.jpg"
+      ],
+      "subject": "Missouri -- History -- Civil War, 1861-1865 -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Missouri -- History -- Civil War, 1861-1865 -- Juvenile fiction",
+        "Category: Historical Novels",
+        "Category: Adventure",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Dispatch-Riders: The Adventures of Two British Motor-cyclists in the Great War",
+      "author": "Westerman, Percy F. (Percy Francis), 1876-1959; Gillett, Frank, 1874-1927 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36500",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 36500); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36500/pg36500.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36500/pg36500.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36500/pg36500.cover.small.jpg"
+      ],
+      "subject": "Adventure stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Adventure stories",
+        "World War, 1914-1918 -- Juvenile fiction",
+        "Motorcycles -- Juvenile fiction",
+        "World War I",
+        "Category: Historical Novels",
+        "Category: Adventure",
+        "Category: British Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Motor Matt's \"Century\" Run; or, The Governor's Courier",
+      "author": "Matthews, Stanley R.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47071",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 47071); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47071/pg47071.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47071/pg47071.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47071/pg47071.cover.small.jpg"
+      ],
+      "subject": "Adventure stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Adventure stories",
+        "Dime novels",
+        "Motorcycles -- Juvenile fiction",
+        "Mechanics -- Juvenile fiction",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "A Courier of Fortune",
+      "author": "Marchmont, Arthur W., 1852-1923",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67731",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67731); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67731/pg67731.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67731/pg67731.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67731/pg67731.cover.small.jpg"
+      ],
+      "subject": "Adventure stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Adventure stories",
+        "France -- History -- Fiction",
+        "Category: Historical Novels",
+        "Category: Novels",
+        "PR"
+      ]
     }
   ],
-  "notes": "Fully rebuilt 2026-07-24: every channel is now a real, named, independently confirmed entity -- no UNCONFIRMED placeholders remain. Sendy Africa was replaced because it ceased operations in 2023; Uber Freight, Max.ng, Dispatch Rider Nigeria, and Logistics Business Magazine's literal channel names did not resolve to a findable YouTube channel and were replaced with FreightWaves, Techpoint Africa, The Rideshare Guy, and TechCabal respectively -- all independently confirmed live. Lori Systems is real and extremely well-documented (funding, operations, scale all confirmed across 5 independent sources) but no dedicated YouTube channel was found for it -- flagged honestly in its own entry rather than silently swapped, since the underlying business is highly relevant to this category. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "Fully rebuilt 2026-07-24: every channel is now a real, named, independently confirmed entity -- no UNCONFIRMED placeholders remain. Sendy Africa was replaced because it ceased operations in 2023; Uber Freight, Max.ng, Dispatch Rider Nigeria, and Logistics Business Magazine's literal channel names did not resolve to a findable YouTube channel and were replaced with FreightWaves, Techpoint Africa, The Rideshare Guy, and TechCabal respectively -- all independently confirmed live. Lori Systems is real and extremely well-documented (funding, operations, scale all confirmed across 5 independent sources) but no dedicated YouTube channel was found for it -- flagged honestly in its own entry rather than silently swapped, since the underlying business is highly relevant to this category. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 5 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

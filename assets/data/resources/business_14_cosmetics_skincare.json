@@ -2,7 +2,7 @@
   "categoryId": "business_14_cosmetics_skincare",
   "profession": "Cosmetics & Skincare",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCzJIliq68IHSn-Kwgjeg2AQ",
@@ -483,6 +483,11 @@
         "https://www.gutenberg.org/cache/epub/73452/pg73452.cover.medium.jpg",
         "https://www.gutenberg.org/cache/epub/73452/pg73452.cover.small.jpg",
         "https://www.gutenberg.org/cache/epub/73452/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Surgery, Plastic",
+        "Category: Health & Medicine",
+        "RD"
       ]
     },
     {
@@ -498,6 +503,15 @@
         "https://www.gutenberg.org/cache/epub/16378/pg16378.cover.medium.jpg",
         "https://www.gutenberg.org/cache/epub/16378/pg16378.cover.small.jpg",
         "https://www.gutenberg.org/cache/epub/16378/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cosmetics",
+        "Perfumes",
+        "Technology",
+        "Category: History - Other",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TP"
       ]
     },
     {
@@ -513,6 +527,14 @@
         "https://www.gutenberg.org/cache/epub/65020/pg65020.cover.medium.jpg",
         "https://www.gutenberg.org/cache/epub/65020/pg65020.cover.small.jpg",
         "https://www.gutenberg.org/cache/epub/65020/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Formulas, recipes, etc. -- Early works to 1800",
+        "Perfumes -- Early works to 1800",
+        "Distillation -- Early works to 1800",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TP"
       ]
     },
     {
@@ -528,6 +550,13 @@
         "https://www.gutenberg.org/cache/epub/44276/pg44276.cover.medium.jpg",
         "https://www.gutenberg.org/cache/epub/44276/pg44276.cover.small.jpg",
         "https://www.gutenberg.org/cache/epub/44276/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cosmetics -- Early works to 1800",
+        "Perfumes -- Early works to 1800",
+        "Beauty, Personal -- Early works to 1800",
+        "Category: How To ...",
+        "TP"
       ]
     },
     {
@@ -543,6 +572,14 @@
         "https://www.gutenberg.org/cache/epub/50139/pg50139.cover.medium.jpg",
         "https://www.gutenberg.org/cache/epub/50139/pg50139.cover.small.jpg",
         "https://www.gutenberg.org/cache/epub/50139/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cosmetics",
+        "Perfumes",
+        "Perfumes industry",
+        "Category: History - Other",
+        "Category: How To ...",
+        "TP"
       ]
     },
     {
@@ -558,6 +595,13 @@
         "https://www.gutenberg.org/cache/epub/76421/pg76421.cover.medium.jpg",
         "https://www.gutenberg.org/cache/epub/76421/pg76421.cover.small.jpg",
         "https://www.gutenberg.org/cache/epub/76421/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Beauty, Personal",
+        "Cosmetics",
+        "Category: Fashion",
+        "Category: How To ...",
+        "RA"
       ]
     },
     {
@@ -573,6 +617,13 @@
         "https://www.gutenberg.org/cache/epub/55735/pg55735.cover.medium.jpg",
         "https://www.gutenberg.org/cache/epub/55735/pg55735.cover.small.jpg",
         "https://www.gutenberg.org/cache/epub/55735/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cosmetics",
+        "Perfumes",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: How To ...",
+        "TP"
       ]
     },
     {
@@ -588,6 +639,26 @@
         "https://www.gutenberg.org/cache/epub/26368/pg26368.cover.medium.jpg",
         "https://www.gutenberg.org/cache/epub/26368/pg26368.cover.small.jpg",
         "https://www.gutenberg.org/cache/epub/26368/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Women -- Health and hygiene",
+        "Interior decoration",
+        "Physiology -- Popular works",
+        "Decoration and ornament",
+        "Marriage",
+        "Beauty, Personal",
+        "Conduct of life -- Early works to 1900",
+        "Cosmetics",
+        "Traditional medicine",
+        "Sexual ethics",
+        "Pregnancy",
+        "Cooking for the sick",
+        "Menstruation",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "Category: Parenthood & Family Relations",
+        "HQ",
+        "RA"
       ]
     },
     {
@@ -603,10 +674,38 @@
         "https://www.gutenberg.org/cache/epub/23750/pg23750.cover.medium.jpg",
         "https://www.gutenberg.org/cache/epub/23750/pg23750.cover.small.jpg",
         "https://www.gutenberg.org/cache/epub/23750/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Beauty, Personal",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "RA"
+      ]
+    },
+    {
+      "title": "The Making of William Edwards; or, The Story of the Bridge of Beauty",
+      "author": "Banks, G. Linnaeus (George Linnaeus), Mrs., 1821-1897",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38212",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38212); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38212/pg38212.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38212/pg38212.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38212/pg38212.cover.small.jpg"
+      ],
+      "subject": "Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fiction",
+        "Category: Historical Novels",
+        "Category: Novels",
+        "PR"
       ]
     }
   ],
-  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nCosmetics had the most globally strong channels (Huda Beauty, Jackie Aina, Hyram, Chemist Confessions, Dr. Dray, Lisa Eldridge, Lab Muffin) all confirmed. Slots 9 and 10 (House of Tara, NAFDAC Nigeria) have handles confirmed from independent sources but channel IDs need API resolution — these are the most Nigeria-specific and business-relevant entries in this category. Beauty Independent (blog only), Cosmetic Design Africa (blog only), NAFDAC Nigeria (government site) could not be confirmed as active YouTube channels through search — replaced with the above. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 9 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nCosmetics had the most globally strong channels (Huda Beauty, Jackie Aina, Hyram, Chemist Confessions, Dr. Dray, Lisa Eldridge, Lab Muffin) all confirmed. Slots 9 and 10 (House of Tara, NAFDAC Nigeria) have handles confirmed from independent sources but channel IDs need API resolution — these are the most Nigeria-specific and business-relevant entries in this category. Beauty Independent (blog only), Cosmetic Design Africa (blog only), NAFDAC Nigeria (government site) could not be confirmed as active YouTube channels through search — replaced with the above. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 9 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

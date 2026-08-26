@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_02_affiliate_marketing",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UC1emV4A8liRs9p80CY8ElUQ",
@@ -494,9 +494,1112 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "The Commission in Lunacy",
+      "author": "Balzac, Honoré de, 1799-1850; Bell, Clara, 1834-1927 [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/1410",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 1410); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/1410/pg1410.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/1410/pg1410.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/1410/pg1410.cover.small.jpg"
+      ],
+      "subject": "Biographical fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Biographical fiction",
+        "French fiction -- Translations into English",
+        "Category: Novels",
+        "Category: French Literature",
+        "PQ"
+      ]
+    },
+    {
+      "title": "Preliminary Report of the Commission Appointed by the University of Pennsylvania to Investigate Modern Spiritualism In Accordance with the Request of the Late Henry Seybert",
+      "author": "University of Pennsylvania. Seybert Commission for Investigating Modern Spiritualism",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11950",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 11950); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11950/pg11950.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11950/pg11950.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11950/pg11950.cover.small.jpg"
+      ],
+      "subject": "Spiritualism",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Spiritualism",
+        "Parapsychology -- Investigation",
+        "Category: Religion/Spirituality",
+        "Category: Reports & Conference Proceedings",
+        "BF"
+      ]
+    },
+    {
+      "title": "Marine Protozoa from Woods Hole Bulletin of the United States Fish Commission 21:415-468, 1901",
+      "author": "Calkins, Gary N. (Gary Nathan), 1869-1943",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/18320",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 18320); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/18320/pg18320.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/18320/pg18320.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/18320/pg18320.cover.small.jpg"
+      ],
+      "subject": "Protozoa -- Massachusetts -- Woods Hole",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Protozoa -- Massachusetts -- Woods Hole",
+        "United States Fisheries Biological Station at Woods Hole, Massachusetts",
+        "Category: Science - Biology",
+        "QL",
+        "SH"
+      ]
+    },
+    {
+      "title": "In Eastern Seas Or, the Commission of H.M.S. 'Iron Duke,' flag-ship in China, 1878-83",
+      "author": "Smith, J. J.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27926",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 27926); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/27926/pg27926.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/27926/pg27926.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/27926/pg27926.cover.small.jpg"
+      ],
+      "subject": "Voyages and travels",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Voyages and travels",
+        "Iron Duke (Ship)",
+        "Category: Biographies",
+        "Category: Adventure",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "DS",
+        "G"
+      ]
+    },
+    {
+      "title": "Third biennial report of the Oregon State Highway Commission",
+      "author": "Benson, Simon, 1851-1942; Booth, R. A. (Robert Asbury), 1858-1944; Nunn, Herbert, 1877-1947; Thompson, W. L.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35344",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 35344); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35344/pg35344.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35344/pg35344.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35344/pg35344.cover.small.jpg"
+      ],
+      "subject": "Highway engineering -- Oregon -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Highway engineering -- Oregon -- History",
+        "Water resources development -- Systems engineering -- Oregon -- History",
+        "Technology",
+        "Category: Reports & Conference Proceedings",
+        "HE"
+      ]
+    },
+    {
+      "title": "A Roving Commission; Or, Through the Black Insurrection at Hayti",
+      "author": "Henty, G. A. (George Alfred), 1832-1902; Rainey, W. (William), 1852-1936 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38764",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38764); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38764/pg38764.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38764/pg38764.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38764/pg38764.cover.small.jpg"
+      ],
+      "subject": "Sea stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Sea stories",
+        "Conduct of life -- Juvenile fiction",
+        "Young men -- Conduct of life -- Juvenile fiction",
+        "Islands -- Juvenile fiction",
+        "Adventure stories",
+        "Pirates -- Juvenile fiction",
+        "Seafaring life -- Juvenile fiction",
+        "Sailors -- Juvenile fiction",
+        "Cruelty -- Juvenile fiction",
+        "Enslaved persons -- Juvenile fiction",
+        "Courage -- Juvenile fiction",
+        "Youth and death -- Juvenile fiction",
+        "Massacres -- Juvenile fiction",
+        "Haiti -- History -- Revolution, 1791-1804 -- Juvenile fiction",
+        "Category: Historical Novels",
+        "Category: Adventure",
+        "Category: British Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Great Commission. Miscellaneous Writings of C. H. Mackintosh, vol. IV",
+      "author": "Mackintosh, Charles Henry, 1820-1896",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40575",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40575); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40575/pg40575.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40575/pg40575.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40575/pg40575.cover.small.jpg"
+      ],
+      "subject": "Theology",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Theology",
+        "Category: Religion/Spirituality",
+        "BR"
+      ]
+    },
+    {
+      "title": "Assassination of Lincoln: a History of the Great Conspiracy Trial of the Conspirators by a Military Commission, and a Review of the Trial of John H. Surratt",
+      "author": "Harris, T. M. (Thomas Mealey), 1817-1906",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42855",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42855); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42855/pg42855.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42855/pg42855.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42855/pg42855.cover.small.jpg"
+      ],
+      "subject": "Lincoln, Abraham, 1809-1865 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Lincoln, Abraham, 1809-1865 -- Assassination",
+        "Surratt, John H. (John Harrison), 1844-1916",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "E456"
+      ]
+    },
+    {
+      "title": "Warren Commission (01 of 26): Hearings Vol. I (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44001",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44001); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44001/pg44001.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44001/pg44001.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44001/pg44001.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (02 of 26): Hearings Vol. II (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44002",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44002); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44002/pg44002.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44002/pg44002.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44002/pg44002.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: Law & Criminology",
+        "Category: Politics",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (03 of 26): Hearings Vol. III (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44003",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44003); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44003/pg44003.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44003/pg44003.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44003/pg44003.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (04 of 26): Hearings Vol. IV (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44004",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44004); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44004/pg44004.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44004/pg44004.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44004/pg44004.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: Law & Criminology",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (05 of 26): Hearings Vol. V (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44005",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44005); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44005/pg44005.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44005/pg44005.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44005/pg44005.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: Law & Criminology",
+        "Category: Politics",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (06 of 26): Hearings Vol. VI (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44006",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44006); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44006/pg44006.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44006/pg44006.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44006/pg44006.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Health & Medicine",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (07 of 26): Hearings Vol. VII (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44007",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44007); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44007/pg44007.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44007/pg44007.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44007/pg44007.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (08 of 26): Hearings Vol. VIII (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44008",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44008); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44008/pg44008.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44008/pg44008.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44008/pg44008.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (09 of 26): Hearings Vol. IX (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44009",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44009); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44009/pg44009.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44009/pg44009.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44009/pg44009.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (10 of 26): Hearings Vol. X (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44010",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44010); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44010/pg44010.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44010/pg44010.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44010/pg44010.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (11 of 26): Hearings Vol. XI (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44011",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44011); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44011/pg44011.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44011/pg44011.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44011/pg44011.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: Law & Criminology",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (12 of 26): Hearings Vol. XII (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44012",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44012); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44012/pg44012.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44012/pg44012.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44012/pg44012.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "The New Book of Nonsense Contribution to the Great Central Fair in Aid of the Sanitary Commission",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45482",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 45482); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45482/pg45482.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45482/pg45482.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45482/pg45482.cover.small.jpg"
+      ],
+      "subject": "Limericks",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Limericks",
+        "Category: Poetry",
+        "Category: Humour",
+        "PN"
+      ]
+    },
+    {
+      "title": "Report of Governor's Representatives for California at Alaska-Yukon-Pacific Exposition Commission",
+      "author": "California. Alaska-Yukon-Pacific exposition commission; Filcher, J. A. (Joseph Adams); Wiggins, Frank",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47657",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 47657); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47657/pg47657.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47657/pg47657.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47657/pg47657.cover.small.jpg"
+      ],
+      "subject": "Alaska-Yukon-Pacific Exposition (1909 : Seattle, Wash.)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Alaska-Yukon-Pacific Exposition (1909 : Seattle, Wash.)",
+        "Industries -- California",
+        "Category: History - American",
+        "Category: Reports & Conference Proceedings",
+        "T"
+      ]
+    },
+    {
+      "title": "Remarks upon the First Report of the Royal Commission on Ritual in connection with the integrity of the Book of Common Prayer A lecture delivered at the Annual Meeting of the Brighton Branch of the English Church Union, Nov. 27, 1867",
+      "author": "Mayow, Mayow Wynell, 1810-1895",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49145",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 49145); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49145/pg49145.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49145/pg49145.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49145/pg49145.cover.small.jpg"
+      ],
+      "subject": "Church of England. Book of common prayer",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Church of England. Book of common prayer",
+        "Ritualism -- History -- 19th century",
+        "Great Britain. Commissioners Appointed to Inquire into the Rubrics, Orders, and Directions for Regulating the Course and Conduct of Public Worship, &c, According to the Use of the United Church of England and Ireland",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: Religion/Spirituality",
+        "BX"
+      ]
+    },
+    {
+      "title": "Warren Commission (14 of 26): Hearings Vol. XIV (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56190",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 56190); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56190/pg56190.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56190/pg56190.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56190/pg56190.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: History - American",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (13 of 26): Hearings Vol. XIII (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57111",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57111); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57111/pg57111.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57111/pg57111.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57111/pg57111.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Law & Criminology",
+        "E740"
+      ]
+    },
+    {
+      "title": "Warren Commission (15 of 26): Hearings Vol. XV (of 15)",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58030",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58030); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58030/pg58030.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58030/pg58030.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58030/pg58030.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: Politics",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Report of the President's Commission on the Assassination of President John F. Kennedy",
+      "author": "United States. Warren Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58031",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58031); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58031/pg58031.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58031/pg58031.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58031/pg58031.cover.small.jpg"
+      ],
+      "subject": "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Reports & Conference Proceedings",
+        "E740"
+      ]
+    },
+    {
+      "title": "Vaccination a Delusion: Its Penal Enforcement a Crime Proved by the Official Evidence in the Reports of the Royal Commission",
+      "author": "Wallace, Alfred Russel, 1823-1913",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58918",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58918); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58918/pg58918.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58918/pg58918.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58918/pg58918.cover.small.jpg"
+      ],
+      "subject": "Vaccination",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Vaccination",
+        "Category: Health & Medicine",
+        "Category: Politics",
+        "RM"
+      ]
+    },
+    {
+      "title": "Hearings of the International Joint Commission in re remedies for the pollution of boundary waters between the United States and Canada",
+      "author": "International Joint Commission",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74590",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 74590); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/74590/pg74590.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/74590/pg74590.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/74590/pg74590.cover.small.jpg"
+      ],
+      "subject": "Sewage disposal",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Sewage disposal",
+        "Water -- Pollution",
+        "TD"
+      ]
+    },
+    {
+      "title": "History of the missions of the American board of commissioners for foreign missions to the oriental churches, Volume II.",
+      "author": "Anderson, Rufus, 1796-1880",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/19939",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 19939); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/19939/pg19939.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/19939/pg19939.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/19939/pg19939.cover.small.jpg"
+      ],
+      "subject": "American Board of Commissioners for Foreign Missions",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "American Board of Commissioners for Foreign Missions",
+        "Missions -- Eastern churches",
+        "Christianity",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: History - Religious",
+        "BV"
+      ]
+    },
+    {
+      "title": "\"Bones\": Being Further Adventures in Mr. Commissioner Sanders' Country",
+      "author": "Wallace, Edgar, 1875-1932",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24450",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24450); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24450/pg24450.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24450/pg24450.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24450/pg24450.cover.small.jpg"
+      ],
+      "subject": "Short stories, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Short stories, English",
+        "Great Britain -- Colonies -- Africa -- Administration -- Fiction",
+        "Africa -- History -- 1884-1918 -- Fiction",
+        "Adventure",
+        "Category: Humour",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Government Documents in Small Libraries Reprinted from Report of Board of Library Commissioners of Ohio for the Year ending November 15, 1909.",
+      "author": "Reeder, Charles Wells, 1884-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26551",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 26551); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26551/pg26551.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26551/pg26551.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26551/pg26551.cover.small.jpg"
+      ],
+      "subject": "Government publications",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Government publications",
+        "Category: How To ...",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "Z"
+      ]
+    },
+    {
+      "title": "Report of the Lords Commissioners for Trade and Plantations on the Petition of the Honourable Thomas Walpole, Benjamin Franklin, John Sargent, and Samuel Wharton, Esquires, and their Associates 1772",
+      "author": "Great Britain. Board of Trade",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26900",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 26900); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26900/pg26900.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26900/pg26900.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26900/pg26900.cover.small.jpg"
+      ],
+      "subject": "Ohio River Valley -- History -- To 1795",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Ohio River Valley -- History -- To 1795",
+        "Walpole, Thomas, 1727-1803",
+        "Category: History - American",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: Law & Criminology",
+        "Category: Politics",
+        "F516"
+      ]
+    },
+    {
+      "title": "John Ames, Native Commissioner: A Romance of the Matabele Rising",
+      "author": "Mitford, Bertram, 1855-1914",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32926",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 32926); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/32926/pg32926.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/32926/pg32926.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/32926/pg32926.cover.small.jpg"
+      ],
+      "subject": "South Africa -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "South Africa -- Fiction",
+        "Zimbabwe -- History -- Ndebele Revolt, 1896 -- Fiction",
+        "Category: Historical Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "British Committees, Commissions, and Councils of Trade and Plantations, 1622-1675",
+      "author": "Andrews, Charles McLean, 1863-1943",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33313",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 33313); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33313/pg33313.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33313/pg33313.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33313/pg33313.cover.small.jpg"
+      ],
+      "subject": "Great Britain -- Colonies -- Administration -- History -- 19th century",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Great Britain -- Colonies -- Administration -- History -- 19th century",
+        "Great Britain. Board of Trade -- Antecedents",
+        "Great Britain -- Commercial policy -- History -- 17th century",
+        "Great Britain -- Colonies -- Administration -- History -- 17th century",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "H",
+        "JA"
+      ]
+    },
+    {
+      "title": "Dave Darrin on the Asiatic Station Or, Winning Lieutenants' Commissions on the Admiral's Flagship",
+      "author": "Hancock, H. Irving (Harrie Irving), 1868-1922",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41661",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 41661); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41661/pg41661.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41661/pg41661.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41661/pg41661.cover.small.jpg"
+      ],
+      "subject": "Adventure stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Adventure stories",
+        "United States. Navy -- Officers -- Juvenile fiction",
+        "China -- History -- 20th century -- Juvenile fiction",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Ninth annual report of the St. Mary Abbott's, Kensington, Church of England District Visiting Society with some account of the different societies subordinate or affiliated to it",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43461",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 43461); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43461/pg43461.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43461/pg43461.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43461/pg43461.cover.small.jpg"
+      ],
+      "subject": "Charities -- England -- London",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Charities -- England -- London",
+        "Visitations (Church work) -- England -- London",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: Religion/Spirituality",
+        "Category: Sociology",
+        "Category: Reports & Conference Proceedings",
+        "BV"
+      ]
+    },
+    {
+      "title": "Sun, Sand and Somals Leaves from the note-book of a District Commissioner in British Somaliland",
+      "author": "Rayne, Henry A.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48598",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 48598); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48598/pg48598.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48598/pg48598.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48598/pg48598.cover.small.jpg"
+      ],
+      "subject": "British Somaliland",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "British Somaliland",
+        "Category: History - Other",
+        "Category: Archaeology & Anthropology",
+        "DT"
+      ]
+    },
+    {
+      "title": "Adventures of a Soldier, Written by Himself Being the Memoirs of Edward Costello, K.S.F. Formerly a Non-Commissioned Officer in the Rifle Brigade, Late Captain in the British Legion, and Now One of the Wardens of the Tower of London; Comprising Narratives of the Campaigns in the Peninsula under the Duke of Wellington, and the Subsequent Civil Wars in Spain.",
+      "author": "Costello, Edward, 1788-1869",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50181",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 50181); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50181/pg50181.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50181/pg50181.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50181/pg50181.cover.small.jpg"
+      ],
+      "subject": "Peninsular War, 1807-1814 -- Personal narratives, British",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Peninsular War, 1807-1814 -- Personal narratives, British",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Warfare",
+        "DC"
+      ]
+    },
+    {
+      "title": "Statement of Facts, on the Injurious Treatment of J. Elsee, Esq. Late Tenant of a Considerable Portion of Havering Park Farm, in the Forest of Hainault, in Certain Transactions with the Commissioners of Woods and Forests, and Their Agents; To Which Are Added Notes in Illustration of the Gross Abuses of the Forest Laws.",
+      "author": "Elsee, John",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53488",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53488); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53488/pg53488.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53488/pg53488.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53488/pg53488.cover.small.jpg"
+      ],
+      "subject": "Land tenure -- Great Britain",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Land tenure -- Great Britain",
+        "Elsee, John -- Trials, litigation, etc.",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: Law & Criminology",
+        "HD"
+      ]
+    },
+    {
+      "title": "Life and public services of Martin R. Delany Sub-Assistant Commissioner Bureau Relief of Refugees, Freedmen, and of Abandoned Lands, and late Major 104th U.S. Colored Troops",
+      "author": "Rollin, Frank A., -1901",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53698",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53698); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53698/pg53698.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53698/pg53698.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53698/pg53698.cover.small.jpg"
+      ],
+      "subject": "African Americans -- Biography",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "African Americans -- Biography",
+        "United States -- History -- Civil War, 1861-1865 -- Participation, African American",
+        "Delany, Martin Robison, 1812-1885",
+        "United States. Bureau of Refugees, Freedmen and Abandoned Lands",
+        "Category: Biographies",
+        "Category: History - American",
+        "E151"
+      ]
+    },
+    {
+      "title": "Instructions for Officers and Non-Commissioned Officers of Cavalry, on Outpost Duty",
+      "author": "Arentschildt, Alexander Carl Friedrich von, 1806-1881; Ponsonby, Frederick Cavendish, 1783-1838 [Contributor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54515",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 54515); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54515/pg54515.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54515/pg54515.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54515/pg54515.cover.small.jpg"
+      ],
+      "subject": "Guard duty",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Guard duty",
+        "Cavalry drill and tactics",
+        "Category: History - Warfare",
+        "Category: How To ...",
+        "UE"
+      ]
+    },
+    {
+      "title": "An Account of the Late Improvements in Galvanism With a Series of Curious and Interesting Experiments Performed Before the Commissioners of the French National Institute, and Repeated Lately in the Anatomical Theatres of London",
+      "author": "Aldini, Giovanni, 1762-1834",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57267",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57267); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57267/pg57267.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57267/pg57267.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57267/pg57267.cover.small.jpg"
+      ],
+      "subject": "Electricity -- Early works to 1850",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Electricity -- Early works to 1850",
+        "Category: Science - Physics",
+        "Category: Science - Biology",
+        "Category: Health & Medicine",
+        "QC"
+      ]
+    },
+    {
+      "title": "A Correct Account of the Horrible Occurrence Which Took Place at a Public-House in St. James's Market In Which It Was Discovered That the Right Rev. Father in God the Bishop of Clogher, Lately Transferred From the Bishopric of Ferns, Was a Principal Actor With a Common Soldier! To the Disgrace Not Only of the Cloth, to Which He Was Attached, and as a Commissioner of the Board of Education, and a Dictator of Public Morals, but as a Member of That Nation Which Gave Him Birth!",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58053",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58053); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58053/pg58053.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58053/pg58053.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58053/pg58053.cover.small.jpg"
+      ],
+      "subject": "Trials (Sodomy) -- England",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Trials (Sodomy) -- England",
+        "Jocelyn, Percy, 1764-1843 -- Trials, litigation, etc.",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: History - Religious",
+        "KD"
+      ]
+    },
+    {
+      "title": "The Booke of the Universall Kirk of Scotland Wherein the Headis and Conclusionis Devysit Be the Ministers and Commissionaris of the Particular Kirks Thereof, Are Specially Expressed and Contained.",
+      "author": "Peterkin, Alexander, 1780-1846 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64868",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 64868); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64868/pg64868.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64868/pg64868.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64868/pg64868.cover.small.jpg"
+      ],
+      "subject": "Church of Scotland -- History -- Sources",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Church of Scotland -- History -- Sources",
+        "Category: History - British",
+        "Category: History - Religious",
+        "BX"
+      ]
+    },
+    {
+      "title": "Report of Dr. Benjamin Franklin, and other commissioners, charged by the King of France, with the examination of the animal magnetism, as now practised at Paris",
+      "author": "France. Commissaires chargés par le roi de l'examen du magnétisme animal; Franklin, Benjamin, 1706-1790 [Contributor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78413",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 78413); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78413/pg78413.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78413/pg78413.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78413/pg78413.cover.small.jpg"
+      ],
+      "subject": "Thouret, Michel-Augustin, 1748 or 1749-1810. Recherches et doutes sur le magnétisme animal",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Thouret, Michel-Augustin, 1748 or 1749-1810. Recherches et doutes sur le magnétisme animal",
+        "Animal magnetism -- Early works to 1800",
+        "Mesmerism -- Early works to 1800",
+        "BF"
+      ]
     }
   ],
   "integrationNotes": "Affiliate Marketing is the highest-leverage ₦0 starting hustle for most Nigerians in 2026. Primary platforms: StakeCut (best beginner naira, free join, weekly bank transfer), Selar (creator marketplace, 20–50%), Expertnaire (higher commissions up to 75%, better for those with audience). Secondary: Jumia/Konga for physical, Systeme.io/ClickBank for dollar recurring. Promotion channels that work without a website: WhatsApp Status + broadcast, TikTok, Facebook groups, Instagram. Always verify current payout rules and product quality before promoting. Official StakeCut channel ID confirmed.",
   "actionRequired": "Nigeria-first list created. Exact UC IDs still need lookup for most. Continue to Category 03 next.",
-  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 46 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

@@ -201,13 +201,14 @@ class PlatformSearchIndex {
         title: book.title,
         body: '${book.author} ${book.freeSourceNote ?? ''} '
             '${book.subject ?? ''} ${book.stage ?? ''} ${book.region ?? ''} '
-            '${book.license ?? ''} $categoryName',
+            '${book.license ?? ''} ${book.searchKeywords.join(' ')} '
+            '$categoryName',
         source: book.author,
         canonicalKey: 'book:$key',
         url: book.freeSourceUrl,
         date: _epoch,
         payload: book,
-        titleAliases: [book.author],
+        titleAliases: [book.author, ...book.searchKeywords],
       ));
     }
 

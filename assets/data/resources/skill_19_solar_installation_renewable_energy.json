@@ -1,7 +1,7 @@
 {
   "categoryId": "skill_19_solar_installation_renewable_energy",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCBnGaOIYP_VPzQsbp1pWHxg",
@@ -483,9 +483,33 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "The Journal of Electricity, Power and Gas, Volume XX, No. 18, May 2, 1908 Devoted to the Conversion, Transmission and Distribution of Energy",
+      "author": "Various; Halloran, A. H. [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58196",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58196); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58196/pg58196.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58196/pg58196.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58196/pg58196.cover.small.jpg"
+      ],
+      "subject": "Electrical engineering -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Electrical engineering -- Periodicals",
+        "Electricity -- Periodicals",
+        "Gas manufacture and works -- Periodicals",
+        "Category: Engineering & Technology",
+        "Category: Journals",
+        "TK"
+      ]
     }
   ],
-  "notes": "Integrated from solar_installation_renewable_energy_resources.csv on 2026-07-22, building on the prior in_progress pass (which had verified only Solar Surge). ALL 10 channel IDs now fully resolved via live web fetches — no pending items. CSV AUDIT: 6 of 10 CSV-listed channels had non-YouTube URLs (Versatile Solar Nigeria, Kasot Power, Energy Mall Nigeria, JRB Solar, Solar Depot NG were company websites/LinkedIn; Naija Solar could not be verified as an active YouTube channel). These were replaced with 6 confirmed YouTube channels while preserving GenNext/Gennex Technologies (found on YouTube as @gennextechnologies9533) and Off-Grid Magazine's slot (replaced with Everything Electric/Fully Charged Show, a stronger verified renewable energy business channel). Nigeria/Africa representation: Solar Energy Africa + Gennex Technologies (channels), plus 6 of 10 blogs are Nigeria-specific (Energy Mall, JRB Solar, Solar Depot NG, GenNext, Versatile Solar, Kasot Power, BusinessDay). BLOG SAFETY NOTE: Energy Mall Nigeria's CSV entry was a LinkedIn URL, not a blog — the /feed/ URL is a best-guess construction from the company domain and MUST be validated live before production release, or replaced with their LinkedIn company page if no blog exists. All other blog RSS feeds use standard /feed/ paths. Books carried forward the proven 10-book business fundamentals set used across skill_08 and skill_17, replacing generic CSV descriptions with the verified specific author/title/free-source combinations. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "Integrated from solar_installation_renewable_energy_resources.csv on 2026-07-22, building on the prior in_progress pass (which had verified only Solar Surge). ALL 10 channel IDs now fully resolved via live web fetches — no pending items. CSV AUDIT: 6 of 10 CSV-listed channels had non-YouTube URLs (Versatile Solar Nigeria, Kasot Power, Energy Mall Nigeria, JRB Solar, Solar Depot NG were company websites/LinkedIn; Naija Solar could not be verified as an active YouTube channel). These were replaced with 6 confirmed YouTube channels while preserving GenNext/Gennex Technologies (found on YouTube as @gennextechnologies9533) and Off-Grid Magazine's slot (replaced with Everything Electric/Fully Charged Show, a stronger verified renewable energy business channel). Nigeria/Africa representation: Solar Energy Africa + Gennex Technologies (channels), plus 6 of 10 blogs are Nigeria-specific (Energy Mall, JRB Solar, Solar Depot NG, GenNext, Versatile Solar, Kasot Power, BusinessDay). BLOG SAFETY NOTE: Energy Mall Nigeria's CSV entry was a LinkedIn URL, not a blog — the /feed/ URL is a best-guess construction from the company domain and MUST be validated live before production release, or replaced with their LinkedIn company page if no blog exists. All other blog RSS feeds use standard /feed/ paths. Books carried forward the proven 10-book business fundamentals set used across skill_08 and skill_17, replacing generic CSV descriptions with the verified specific author/title/free-source combinations. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

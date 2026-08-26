@@ -1,7 +1,7 @@
 {
   "categoryId": "business_17_mini_importation_e_commerce",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UC7geKfz2-IH0rsgRBtHTm0g",
@@ -464,9 +464,226 @@
       "verifiedOn": "2026-08-04",
       "verificationMethod": "Verified IA item.",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "A Manual of Ancient History Particularly with Regard to the Constitutions, the Commerce, and the Colonies, of the States of Antiquity",
+      "author": "Heeren, A. H. L. (Arnold Hermann Ludwig), 1760-1842; Talboys, D. A. (David Alphonso), 1790?-1840 [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39747",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 39747); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39747/pg39747.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39747/pg39747.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39747/pg39747.cover.small.jpg"
+      ],
+      "subject": "History, Ancient",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "History, Ancient",
+        "Geography, Ancient",
+        "Category: History - Ancient",
+        "D"
+      ]
+    },
+    {
+      "title": "A Cyclopædia of Canadian Biography Brief biographies of persons distinguished in the professional, military and political life, and the commerce and industry of Canada, in the twentieth century",
+      "author": "Charlesworth, Hector Willoughby, 1872-1945 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53635",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53635); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53635/pg53635.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53635/pg53635.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53635/pg53635.cover.small.jpg"
+      ],
+      "subject": "Canada -- Biography",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Canada -- Biography",
+        "Category: Biographies",
+        "Category: History - Other",
+        "F1001"
+      ]
+    },
+    {
+      "title": "The Commerce and Navigation of the Erythræan Sea Being a Translation of the Periplus Maris Erythræi, by an Anonymous Writer, and of Arrian's Account of the Voyage of Nearkhos, from the Mouth of the Indus to the Head of the Persian Gulf",
+      "author": "McCrindle, John Watson, 1825-1913 [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55054",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55054); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55054/pg55054.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55054/pg55054.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55054/pg55054.cover.small.jpg"
+      ],
+      "subject": "India -- Description and travel -- Early works to 1800",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "India -- Description and travel -- Early works to 1800",
+        "Geography, Ancient",
+        "Classical geography",
+        "Indian Ocean Region -- Commerce -- History",
+        "Category: Travel Writing",
+        "Category: History - Other",
+        "Category: History - Ancient",
+        "HF"
+      ]
+    },
+    {
+      "title": "A Cyclopaedia of Canadian Biography: Being Chiefly Men of the Time A Collection of Persons Distinguished in Professional and Political Life, Leaders in the Commerce and Industry of Canada, and Successful Pioneers",
+      "author": "Rose, Geo. Maclean (George Maclean), 1829-1898 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57724",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57724); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57724/pg57724.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57724/pg57724.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57724/pg57724.cover.small.jpg"
+      ],
+      "subject": "Canada -- Biography",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Canada -- Biography",
+        "Canada -- Biography -- Dictionaries",
+        "Category: Biographies",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "F1001"
+      ]
+    },
+    {
+      "title": "Steam Navigation and Its Relation to the Commerce of Canada and the United States",
+      "author": "Croil, James, 1821-1916",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58849",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58849); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58849/pg58849.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58849/pg58849.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58849/pg58849.cover.small.jpg"
+      ],
+      "subject": "Steam-navigation -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Steam-navigation -- History",
+        "Shipping -- Canada -- History",
+        "Shipping -- United States -- History",
+        "Category: History - Other",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "VM"
+      ]
+    },
+    {
+      "title": "Is a Ship Canal Practicable? Notes, Historical and Statistical, Upon the Projected Routes for an Interoceanic Ship Canal Between the Atlantic and Pacific Oceans, in Which is Included a Short Account of the Character and Influence of the Canal of Suez, and the Probable Effects Upon the Commerce of the World of the Two Canals, Regarded Either as Rivals, or as Parts of One System of Interoceanic Navigation",
+      "author": "Abert, S. T. (Silvanus Thayer), 1828-1903",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61473",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 61473); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61473/pg61473.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61473/pg61473.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61473/pg61473.cover.small.jpg"
+      ],
+      "subject": "Canals, Interoceanic",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Canals, Interoceanic",
+        "Category: History - Other",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "TC"
+      ]
+    },
+    {
+      "title": "Report of the naval committee to the House of Representatives, August, 1850, in favor of the establishment of a line of mail steamships to the western coast of Africa, and thence via the Mediterranean to London; designed to promote the emigration of free persons of color from the United States to Liberia: also to increase the steam navy, and to extend the commerce of the United States.",
+      "author": "United States. Congress. House. Committee on Naval Affairs; American Colonization Society [Contributor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71220",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 71220); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71220/pg71220.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71220/pg71220.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71220/pg71220.cover.small.jpg"
+      ],
+      "subject": "African Americans -- Colonization -- Africa",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "African Americans -- Colonization -- Africa",
+        "Mail steamers -- United States",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "E300",
+        "HE",
+        "HT"
+      ]
+    },
+    {
+      "title": "Papers Relating to an Act of the Assembly of the Province of New-York For encouragement of the Indian trade, &c. and for prohibiting the selling of Indian goods to the French, viz. of Canada",
+      "author": "Colden, Cadwallader, 1688-1776; Great Britain. Board of Trade; Great Britain. Privy Council; New York (Colony). Council",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35720",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 35720); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35720/pg35720.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35720/pg35720.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35720/pg35720.cover.small.jpg"
+      ],
+      "subject": "Iroquois Indians",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Iroquois Indians",
+        "New York (State) -- History -- Colonial period, ca. 1600-1775",
+        "Indians of North America -- Commerce",
+        "Fur trade -- New York (State)",
+        "New York (State) -- Commerce -- History",
+        "Category: History - American",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "F106"
+      ]
+    },
+    {
+      "title": "A history of commerce",
+      "author": "Day, Clive, 1871-1951",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70410",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 70410); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70410/pg70410.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70410/pg70410.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70410/pg70410.cover.small.jpg"
+      ],
+      "subject": "Commerce -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Commerce -- History",
+        "Category: History - Other",
+        "Category: Economics",
+        "HF"
+      ]
     }
   ],
-  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on Alibaba.com Buyer Central and Jumia Nigeria Vendor University (the two dominant sourcing/selling platforms for Nigerian mini-importers), Paystack and Shopify (the payment and store layers), plus five business-news/analysis channels already verified in adjacent categories this week (TechCabal, Techpoint Africa, NairametricsTV, Neil Patel, Traversy Media) to provide Nigerian e-commerce ecosystem context. Traversy Media is tech-adjacent rather than e-commerce-specific and is the weakest fit of the 10 — can be swapped for a more dedicated mini-importation channel if one becomes confirmable. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on Alibaba.com Buyer Central and Jumia Nigeria Vendor University (the two dominant sourcing/selling platforms for Nigerian mini-importers), Paystack and Shopify (the payment and store layers), plus five business-news/analysis channels already verified in adjacent categories this week (TechCabal, Techpoint Africa, NairametricsTV, Neil Patel, Traversy Media) to provide Nigerian e-commerce ecosystem context. Traversy Media is tech-adjacent rather than e-commerce-specific and is the weakest fit of the 10 — can be swapped for a more dedicated mini-importation channel if one becomes confirmable. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 9 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

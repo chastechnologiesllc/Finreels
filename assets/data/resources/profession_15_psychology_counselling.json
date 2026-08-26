@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_15_psychology_counselling",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCQikIOuT7ZqLcyUJOEMq1mQ",
@@ -947,9 +947,133 @@
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Early Childhood; Social Sciences - Psychology; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/observation-and-assessment-in-early-childhood-education-version-1-0"
+    },
+    {
+      "title": "Twice-born Men in America or, The Psychology of Conversion as Seen by a Christian Psychologist in Rescue Mission Work",
+      "author": "Monroe, Harriet Earhart, 1842-1927",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53014",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53014); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53014/pg53014.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53014/pg53014.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53014/pg53014.cover.small.jpg"
+      ],
+      "subject": "Psychology, Religious",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Psychology, Religious",
+        "Evangelistic work",
+        "Conversion -- Christianity",
+        "Institutional missions",
+        "Conversion -- Psychology",
+        "Category: Biographies",
+        "Category: Psychiatry/Psychology",
+        "Category: Religion/Spirituality",
+        "BV"
+      ]
+    },
+    {
+      "title": "When You Don't Know Where to Turn A Self-Diagnosing Guide to Counseling and Therapy",
+      "author": "Bartlett, Steven J., 1945-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44926",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44926); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44926/pg44926.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44926/pg44926.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44926/pg44926.cover.small.jpg"
+      ],
+      "subject": "Psychotherapy",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Psychotherapy",
+        "Counseling",
+        "Consumer education",
+        "Category: How To ...",
+        "Category: Psychiatry/Psychology",
+        "RC"
+      ]
+    },
+    {
+      "title": "The Story of Burnt Njal: The Great Icelandic Tribune, Jurist, and Counsellor",
+      "author": "Dasent, George Webbe, Sir, 1817-1896",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/597",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 597); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/597/pg597.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/597/pg597.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/597/pg597.cover.small.jpg"
+      ],
+      "subject": "Njáll Þorgursson, approximately 930-1011",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Njáll Þorgursson, approximately 930-1011",
+        "Best Books Ever Listings",
+        "Biographies",
+        "Category: Mythology, Legends & Folklore",
+        "Category: Classics of Literature",
+        "PT"
+      ]
+    },
+    {
+      "title": "The American Therapist. Vol. II. No. 7. Jan. 15th, 1894 A Monthly Record of Modern Therapeutics, with Practical Suggestions Relating to the Clinical Applications of Drugs.",
+      "author": "Various; Aulde, John, 1846- [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59908",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 59908); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59908/pg59908.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59908/pg59908.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59908/pg59908.cover.small.jpg"
+      ],
+      "subject": "Drugs -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Drugs -- Periodicals",
+        "Drug utilization -- Periodicals",
+        "Category: Health & Medicine",
+        "Category: Drugs/Alcohol/Pharmacology",
+        "Category: Journals",
+        "RM"
+      ]
+    },
+    {
+      "title": "A Problem in Greek Ethics Being an inquiry into the phenomenon of sexual inversion, addressed especially to medical psychologists and jurists",
+      "author": "Symonds, John Addington, 1840-1893",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32022",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 32022); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/32022/pg32022.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/32022/pg32022.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/32022/pg32022.cover.small.jpg"
+      ],
+      "subject": "Greece -- Social life and customs",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Greece -- Social life and customs",
+        "Homosexuality",
+        "Ethics -- Greece",
+        "Category: History - Ancient",
+        "Category: Gender & Sexuality Studies",
+        "Category: Philosophy & Ethics",
+        "HQ"
+      ]
     }
   ],
-  "notes": "The founder's own research flagged one Nigerian lead as explicitly unverified: Dr. Sonia, a real, credentialed Lagos-based therapist, is credited (via her own bio on TherapyTribe) with authoring a book titled 'Therapy as a Service'. This session confirmed the bio and credentials are real, but found no publisher, ISBN, purchase link, or free-access link for the book itself anywhere — so per the founder's own instruction to 'confirm before citing', it's still not counted. On blogs: no dedicated business-of-therapy blog was confirmed this round, though privatepracticeskills.com (the channel above) has its own blog worth a closer look in a future pass. 2026-08-23: Added 48 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "The founder's own research flagged one Nigerian lead as explicitly unverified: Dr. Sonia, a real, credentialed Lagos-based therapist, is credited (via her own bio on TherapyTribe) with authoring a book titled 'Therapy as a Service'. This session confirmed the bio and credentials are real, but found no publisher, ISBN, purchase link, or free-access link for the book itself anywhere — so per the founder's own instruction to 'confirm before citing', it's still not counted. On blogs: no dedicated business-of-therapy blog was confirmed this round, though privatepracticeskills.com (the channel above) has its own blog worth a closer look in a future pass. 2026-08-23: Added 48 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 5 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",

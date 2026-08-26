@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_17_web_nocode",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UC1emV4A8liRs9p80CY8ElUQ",
@@ -494,9 +494,53 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "History of the Origin, Formation, and Adoption of the Constitution of the United States, Vol. 1 With Notices of Its Principle Framers",
+      "author": "Curtis, George Ticknor, 1812-1894",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40400",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40400); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40400/pg40400.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40400/pg40400.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40400/pg40400.cover.small.jpg"
+      ],
+      "subject": "Constitutional history -- United States",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Constitutional history -- United States",
+        "Category: History - American",
+        "KF"
+      ]
+    },
+    {
+      "title": "History of the Origin, Formation, and Adoption of the Constitution of the United States, Vol. 2 With Notices of Its Principle Framers",
+      "author": "Curtis, George Ticknor, 1812-1894",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40679",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40679); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40679/pg40679.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40679/pg40679.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40679/pg40679.cover.small.jpg"
+      ],
+      "subject": "Constitutional history -- United States",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Constitutional history -- United States",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Politics",
+        "KF"
+      ]
     }
   ],
   "integrationNotes": "Stub for Web Development & No-code Freelancing. Capital: ₦0 (skill). Summary: Build websites and landing pages with WordPress, Webflow, Framer or Bubble for businesses and creators.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
   "actionRequired": "Nigeria/Africa-first. Nocode Africa, WebCodeTut, TechSavvy prioritised.",
-  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 2 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

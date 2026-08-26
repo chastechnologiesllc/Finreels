@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_10_mass_communication_media_pr",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCRZer0i_eJrLohGuei9B-Bw",
@@ -853,7 +853,17 @@
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/workplace-writing-a-handbook-for-common-workplace-genres-and-professional-writing",
-      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548001-L.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548001-L.jpg",
+      "searchKeywords": [
+        "United States -- Politics and government -- 1861-1865",
+        "Presidents -- United States -- Inaugural addresses",
+        "US Civil War",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Politics",
+        "E456"
+      ]
     },
     {
       "title": "Intro to Journalism Handbook: An Open Educational Resource for Journalism Students",
@@ -1064,9 +1074,245 @@
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - Technical Writing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-professional-and-technical-editing-with-handbook"
+    },
+    {
+      "title": "The business career in its public relations",
+      "author": "Shaw, Albert, 1857-1947",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29641",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 29641); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29641/pg29641.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29641/pg29641.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29641/pg29641.cover.small.jpg"
+      ],
+      "subject": "Business ethics",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Business ethics",
+        "Category: Philosophy & Ethics",
+        "Category: Business/Management",
+        "HF"
+      ]
+    },
+    {
+      "title": "Psmith, Journalist",
+      "author": "Wodehouse, P. G. (Pelham Grenville), 1881-1975",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/2607",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 2607); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/2607/pg2607.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/2607/pg2607.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/2607/pg2607.cover.small.jpg"
+      ],
+      "subject": "Humorous stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Humorous stories",
+        "Humor",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Humour",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Jennie Baxter, Journalist",
+      "author": "Barr, Robert, 1850-1912",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/9300",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 9300); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/9300/pg9300.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/9300/pg9300.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/9300/pg9300.cover.small.jpg"
+      ],
+      "subject": "Detective and mystery stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Detective and mystery stories",
+        "Women journalists -- Fiction",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Novels",
+        "Category: British Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Autobiography of a Journalist, Volume I",
+      "author": "Stillman, William James, 1828-1901",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11546",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 11546); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11546/pg11546.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11546/pg11546.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11546/pg11546.cover.small.jpg"
+      ],
+      "subject": "Stillman, William James, 1828-1901",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Stillman, William James, 1828-1901",
+        "Journalists -- Biography",
+        "Category: Biographies",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Autobiography of a Journalist, Volume II",
+      "author": "Stillman, William James, 1828-1901",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11594",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 11594); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11594/pg11594.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11594/pg11594.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11594/pg11594.cover.small.jpg"
+      ],
+      "subject": "Stillman, William James, 1828-1901",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Stillman, William James, 1828-1901",
+        "Journalists -- Biography",
+        "Category: Biographies",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "Category: Journalism/Media/Writing",
+        "PS"
+      ]
+    },
+    {
+      "title": "A Journalist's Note-Book",
+      "author": "Moore, Frank Frankfort, 1855-1931",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51952",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 51952); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51952/pg51952.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51952/pg51952.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51952/pg51952.cover.small.jpg"
+      ],
+      "subject": "Journalism -- Anecdotes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Journalism -- Anecdotes",
+        "Category: Humour",
+        "Category: Essays, Letters & Speeches",
+        "Category: Journalism/Media/Writing",
+        "PR"
+      ]
+    },
+    {
+      "title": "The German Fury in Belgium Experiences of a Netherland Journalist during four months with the German Army in Belgium",
+      "author": "Mokveld, L. (Lambertus), 1890-1968; Buchan, John, 1875-1940 [Author of introduction, etc.]; Thieme, Carel [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60364",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 60364); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60364/pg60364.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60364/pg60364.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60364/pg60364.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Atrocities",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Atrocities",
+        "Belgium -- History -- German occupation, 1914-1918",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Library of the best American literature Containing the lives of our authors in story form, their portraits, their homes, and their personal traits, how they worked and what they wrote; choice selections from eminent writers, embracing great American poets and novelists, foremost women in American letters, distinguished critics and essayists, our national humorists, noted journalists and magazine contributors, popular writers for young people, great orators and public lecturers",
+      "author": "Birdsall, William W. (William Wilfred), 1854-1909 [Editor]; Jones, Rufus M. (Rufus Matthew), 1863-1948 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69620",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69620); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69620/pg69620.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69620/pg69620.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69620/pg69620.cover.small.jpg"
+      ],
+      "subject": "American literature",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "American literature",
+        "Category: Biographies",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Stories of Achievement, Volume IV, Authors and Journalists",
+      "author": "Dickinson, Asa Don, 1876-1960 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/18598",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 18598); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/18598/pg18598.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/18598/pg18598.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/18598/pg18598.cover.small.jpg"
+      ],
+      "subject": "Biography",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Biography",
+        "Success",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "CT"
+      ]
+    },
+    {
+      "title": "Religio Journalistici",
+      "author": "Morley, Christopher, 1890-1957",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66145",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 66145); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66145/pg66145.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66145/pg66145.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66145/pg66145.cover.small.jpg"
+      ],
+      "subject": "Journalism",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Journalism",
+        "American essays -- 20th century",
+        "Category: Essays, Letters & Speeches",
+        "Category: Philosophy & Ethics",
+        "Category: Religion/Spirituality",
+        "Category: Journalism/Media/Writing",
+        "PS"
+      ]
     }
   ],
-  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). NIPR Nigeria confirmed via direct YouTube page fetch (@niprofficial → UCnlpGXz2gI8uROR2tIMHAJw). Proshare replaced as WebTV Nigeria in skill_49. Media Brief Nigeria (YouTube not confirmed) → Nairametrics TV (UC1GBKv15keKOgHbEBEMeo9w). Blogs: HubSpot uses /rss.xml. CIPR uses newsroom subdomain. AdAge may use /rss.xml. Connect Nigeria flagged. 2026-08-23: Added 64 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). NIPR Nigeria confirmed via direct YouTube page fetch (@niprofficial → UCnlpGXz2gI8uROR2tIMHAJw). Proshare replaced as WebTV Nigeria in skill_49. Media Brief Nigeria (YouTube not confirmed) → Nairametrics TV (UC1GBKv15keKOgHbEBEMeo9w). Blogs: HubSpot uses /rss.xml. CIPR uses newsroom subdomain. AdAge may use /rss.xml. Connect Nigeria flagged. 2026-08-23: Added 64 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 10 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",

@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_11_digital_products",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
@@ -486,9 +486,712 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "The eBook is 40 (1971-2011)",
+      "author": "Lebert, Marie",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36985",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 36985); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36985/pg36985.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36985/pg36985.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36985/pg36985.cover.small.jpg"
+      ],
+      "subject": "Electronic books",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Electronic books",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "Z"
+      ]
+    },
+    {
+      "title": "The Real Cyberpunk Fakebook",
+      "author": "St. Jude; Nagel, Bart; Sirius, R. U., 1952-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/929",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 929); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/929/pg929.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/929/pg929.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/929/pg929.cover.small.jpg"
+      ],
+      "subject": "Computer hackers",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Computer hackers",
+        "Computers and civilization",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Humour",
+        "QA"
+      ]
+    },
+    {
+      "title": "Passages from the English Notebooks, Volume 1.",
+      "author": "Hawthorne, Nathaniel, 1804-1864",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7876",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7876); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7876/pg7876.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7876/pg7876.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7876/pg7876.cover.small.jpg"
+      ],
+      "subject": "England -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "England -- Description and travel",
+        "England -- Intellectual life -- 19th century",
+        "Hawthorne, Nathaniel, 1804-1864 -- Homes and haunts -- England",
+        "Americans -- England -- History -- 19th century",
+        "Hawthorne, Nathaniel, 1804-1864 -- Diaries",
+        "Novelists, American -- 19th century -- Diaries",
+        "Hawthorne, Nathaniel, 1804-1864 -- Notebooks, sketchbooks, etc.",
+        "Novelists, American -- Homes and haunts -- England",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "Category: Travel Writing",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Passages from the English Notebooks, Volume 2.",
+      "author": "Hawthorne, Nathaniel, 1804-1864",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7877",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7877); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7877/pg7877.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7877/pg7877.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7877/pg7877.cover.small.jpg"
+      ],
+      "subject": "England -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "England -- Description and travel",
+        "England -- Intellectual life -- 19th century",
+        "Hawthorne, Nathaniel, 1804-1864 -- Homes and haunts -- England",
+        "Americans -- England -- History -- 19th century",
+        "Hawthorne, Nathaniel, 1804-1864 -- Diaries",
+        "Novelists, American -- 19th century -- Diaries",
+        "Hawthorne, Nathaniel, 1804-1864 -- Notebooks, sketchbooks, etc.",
+        "Novelists, American -- Homes and haunts -- England",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "Category: Travel Writing",
+        "PS"
+      ]
+    },
+    {
+      "title": "Passages from the English Notebooks, Complete",
+      "author": "Hawthorne, Nathaniel, 1804-1864",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7878",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7878); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7878/pg7878.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7878/pg7878.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7878/pg7878.cover.small.jpg"
+      ],
+      "subject": "England -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "England -- Description and travel",
+        "England -- Intellectual life -- 19th century",
+        "Hawthorne, Nathaniel, 1804-1864 -- Homes and haunts -- England",
+        "Americans -- England -- History -- 19th century",
+        "Hawthorne, Nathaniel, 1804-1864 -- Diaries",
+        "Novelists, American -- 19th century -- Diaries",
+        "Hawthorne, Nathaniel, 1804-1864 -- Notebooks, sketchbooks, etc.",
+        "Novelists, American -- Homes and haunts -- England",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "Category: Travel Writing",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Passages from the French and Italian Notebooks, Volume 1.",
+      "author": "Hawthorne, Nathaniel, 1804-1864",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7879",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7879); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7879/pg7879.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7879/pg7879.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7879/pg7879.cover.small.jpg"
+      ],
+      "subject": "Italy -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Italy -- Description and travel",
+        "France -- Description and travel",
+        "Hawthorne, Nathaniel, 1804-1864 -- Diaries",
+        "Hawthorne, Nathaniel, 1804-1864 -- Travel -- France",
+        "Hawthorne, Nathaniel, 1804-1864 -- Travel -- Italy",
+        "Novelists, American -- 19th century -- Diaries",
+        "Americans -- Europe -- History -- 19th century",
+        "Category: Travel Writing",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Passages from the French and Italian Notebooks, Volume 2.",
+      "author": "Hawthorne, Nathaniel, 1804-1864",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7880",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7880); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7880/pg7880.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7880/pg7880.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7880/pg7880.cover.small.jpg"
+      ],
+      "subject": "Italy -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Italy -- Description and travel",
+        "France -- Description and travel",
+        "Hawthorne, Nathaniel, 1804-1864 -- Diaries",
+        "Hawthorne, Nathaniel, 1804-1864 -- Travel -- France",
+        "Hawthorne, Nathaniel, 1804-1864 -- Travel -- Italy",
+        "Novelists, American -- 19th century -- Diaries",
+        "Americans -- Europe -- History -- 19th century",
+        "Category: Travel Writing",
+        "PS"
+      ]
+    },
+    {
+      "title": "Passages from the French and Italian Notebooks, Complete",
+      "author": "Hawthorne, Nathaniel, 1804-1864",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7881",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7881); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7881/pg7881.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7881/pg7881.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7881/pg7881.cover.small.jpg"
+      ],
+      "subject": "Italy -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Italy -- Description and travel",
+        "France -- Description and travel",
+        "Hawthorne, Nathaniel, 1804-1864 -- Diaries",
+        "Hawthorne, Nathaniel, 1804-1864 -- Travel -- France",
+        "Hawthorne, Nathaniel, 1804-1864 -- Travel -- Italy",
+        "Novelists, American -- 19th century -- Diaries",
+        "Americans -- Europe -- History -- 19th century",
+        "Category: Travel Writing",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Passages from the American Notebooks, Volume 1",
+      "author": "Hawthorne, Nathaniel, 1804-1864",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8088",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8088); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8088/pg8088.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8088/pg8088.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8088/pg8088.cover.small.jpg"
+      ],
+      "subject": "New England -- Social life and customs",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "New England -- Social life and customs",
+        "Hawthorne, Nathaniel, 1804-1864 -- Homes and haunts -- New England",
+        "Hawthorne, Nathaniel, 1804-1864 -- Diaries",
+        "Authors, American -- Homes and haunts -- New England",
+        "New England -- Intellectual life -- 19th century",
+        "Category: Biographies",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Passages from the American Notebooks, Volume 2.",
+      "author": "Hawthorne, Nathaniel, 1804-1864",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8089",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8089); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8089/pg8089.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8089/pg8089.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8089/pg8089.cover.small.jpg"
+      ],
+      "subject": "New England -- Social life and customs",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "New England -- Social life and customs",
+        "Hawthorne, Nathaniel, 1804-1864 -- Homes and haunts -- New England",
+        "Hawthorne, Nathaniel, 1804-1864 -- Diaries",
+        "Authors, American -- Homes and haunts -- New England",
+        "New England -- Intellectual life -- 19th century",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Adventures of Working Men. From the Notebook of a Working Surgeon",
+      "author": "Fenn, George Manville, 1831-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36624",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 36624); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36624/pg36624.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36624/pg36624.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36624/pg36624.cover.small.jpg"
+      ],
+      "subject": "Working class -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Working class -- Fiction",
+        "Physicians -- England -- Fiction",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "PR"
+      ]
+    },
+    {
+      "title": "Lighter Moments from the Notebook of Bishop Walsham How",
+      "author": "How, William Walsham, 1823-1897; How, F. D. (Frederick Douglas), 1853-1936 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37347",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 37347); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37347/pg37347.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37347/pg37347.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37347/pg37347.cover.small.jpg"
+      ],
+      "subject": "Church of England -- Humor",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Church of England -- Humor",
+        "Category: Humour",
+        "Category: Biographies",
+        "PN"
+      ]
+    },
+    {
+      "title": "Our Old Home, Vol. 2 Annotated with Passages from the Author's Notebook",
+      "author": "Hawthorne, Nathaniel, 1804-1864",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37625",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 37625); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37625/pg37625.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37625/pg37625.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37625/pg37625.cover.small.jpg"
+      ],
+      "subject": "England -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "England -- Description and travel",
+        "England -- Social life and customs -- 19th century",
+        "Hawthorne, Nathaniel, 1804-1864 -- Homes and haunts -- England",
+        "Americans -- England -- History -- 19th century",
+        "Category: Travel Writing",
+        "Category: British Literature",
+        "DA",
+        "PS"
+      ]
+    },
+    {
+      "title": "Trees: A Woodland Notebook Containing Observations on Certain British and Exotic Trees",
+      "author": "Maxwell, Herbert, Sir, 1845-1937",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39946",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 39946); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39946/pg39946.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39946/pg39946.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39946/pg39946.cover.small.jpg"
+      ],
+      "subject": "Trees",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Trees",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QK"
+      ]
+    },
+    {
+      "title": "Guidebook of Palo Duro Canyon",
+      "author": "West Texas State University. Geological Society",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50487",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 50487); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50487/pg50487.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50487/pg50487.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50487/pg50487.cover.small.jpg"
+      ],
+      "subject": "Geology -- Texas -- Palo Duro Canyon",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Geology -- Texas -- Palo Duro Canyon",
+        "Palo Duro Canyon (Tex.)",
+        "Category: History - American",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Nature/Gardening/Animals",
+        "Category: Archaeology & Anthropology",
+        "QE"
+      ]
+    },
+    {
+      "title": "Index for Works of Arthur Colton Hyperlinks to all Chapters in the Individual Ebooks",
+      "author": "Colton, Arthur, 1868-1943; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57478",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57478); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57478/pg57478.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57478/pg57478.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57478/pg57478.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Short Stories",
+        "Category: Adventure",
+        "Category: Novels",
+        "PS"
+      ]
+    },
+    {
+      "title": "Index for Works of Andrew Barton 'Banjo' Paterson Hyperlinks to all Chapters of all Individual Ebooks",
+      "author": "Paterson, A. B. (Andrew Barton), 1864-1941; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57485",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57485); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57485/pg57485.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57485/pg57485.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57485/pg57485.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PR"
+      ]
+    },
+    {
+      "title": "Index for Works of Holman Day Hyperlinks to all Chapters of all Individual Ebooks",
+      "author": "Day, Holman, 1865-1935; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57488",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57488); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57488/pg57488.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57488/pg57488.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57488/pg57488.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Short Stories",
+        "Category: Poetry",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Index of the Project Gutenberg Works of H. G. Wells Hyperlinks to all Chapters of all Individual Ebooks",
+      "author": "Wells, H. G. (Herbert George), 1866-1946; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57490",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57490); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57490/pg57490.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57490/pg57490.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57490/pg57490.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PR"
+      ]
+    },
+    {
+      "title": "Index for Works of Robert W. Buchanan Hyperlinks to all Chapters of all Individual Ebooks",
+      "author": "Buchanan, Robert Williams, 1841-1901; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57501",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57501); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57501/pg57501.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57501/pg57501.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57501/pg57501.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PR"
+      ]
+    },
+    {
+      "title": "Index for Works of Ruth Ogden Hyperlinks to all Chapters of all Individual Ebooks",
+      "author": "Ogden, Ruth, 1853-1927; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57511",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57511); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57511/pg57511.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57511/pg57511.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57511/pg57511.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "PZ",
+        "PS"
+      ]
+    },
+    {
+      "title": "Index for Works of Bill Nye Hyperlinks to all Chapters of all Individual Ebooks",
+      "author": "Nye, Bill, 1850-1896; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57514",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57514); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57514/pg57514.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57514/pg57514.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57514/pg57514.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PS"
+      ]
+    },
+    {
+      "title": "Index for Works of Mary Gaunt Hyperlinks to All Chapters of All Individual Ebooks",
+      "author": "Gaunt, Mary, 1861-1942; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57524",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57524); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57524/pg57524.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57524/pg57524.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57524/pg57524.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Travel Writing",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "G"
+      ]
+    },
+    {
+      "title": "Index for Works of Harold Frederic Hyperlinks to All Chapters of All Individual Ebooks",
+      "author": "Frederic, Harold, 1856-1898; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57537",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57537); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57537/pg57537.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57537/pg57537.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57537/pg57537.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PS"
+      ]
+    },
+    {
+      "title": "Index for Works of Rudyard Kipling Hyperlinks to all Chapters of all Individual Ebooks",
+      "author": "Kipling, Rudyard, 1865-1936; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57538",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57538); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57538/pg57538.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57538/pg57538.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57538/pg57538.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "Nobel Prizes in Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Index for Works of Willis George Emerson Hyperlinks to all Chapters of all Individual Ebooks",
+      "author": "Emerson, Willis George, 1856-1918; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57541",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57541); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57541/pg57541.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57541/pg57541.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57541/pg57541.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PS"
+      ]
+    },
+    {
+      "title": "Index for Works of Neil Munro Hyperlinks to all Chapters of all Individual Ebooks",
+      "author": "Munro, Neil, 1864-1930; Widger, David, 1932-2021 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57542",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57542); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57542/pg57542.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57542/pg57542.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57542/pg57542.cover.small.jpg"
+      ],
+      "subject": "Indexes",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indexes",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PR"
+      ]
+    },
+    {
+      "title": "Chitimacha Notebook: Writings of Emile Stouff—A Chitimacha Chief",
+      "author": "Stouff, Emile, -1978; Gaudet, Marcia G., 1943- [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62803",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 62803); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62803/pg62803.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62803/pg62803.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62803/pg62803.cover.small.jpg"
+      ],
+      "subject": "Chitimacha Indians",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Chitimacha Indians",
+        "Indians of North America -- Louisiana",
+        "Category: Biographies",
+        "Category: Mythology, Legends & Folklore",
+        "Category: History - Other",
+        "Category: Archaeology & Anthropology",
+        "Category: Religion/Spirituality",
+        "E011"
+      ]
+    },
+    {
+      "title": "Leaves from the notebook of a tamed cynic",
+      "author": "Niebuhr, Reinhold, 1892-1971",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78238",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 78238); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78238/pg78238.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78238/pg78238.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78238/pg78238.cover.small.jpg"
+      ],
+      "subject": "Niebuhr, Reinhold, 1892-1971 -- Diaries",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Niebuhr, Reinhold, 1892-1971 -- Diaries",
+        "Clergy -- Michigan -- Detroit -- Diaries",
+        "Church work with the poor -- Michigan -- Detroit",
+        "Church and social problems -- Michigan -- Detroit",
+        "Clergy -- Office",
+        "Detroit (Mich.) -- Church history -- 20th century",
+        "BX"
+      ]
     }
   ],
   "integrationNotes": "Digital Product Creation & Sales (Selar, Gumroad, own Paystack store). ₦0–low capital. Best starting products for Nigerians: short practical ebooks/guides, Canva template packs, Notion systems, checklists, mini-courses. Selar is the primary Nigerian marketplace (naira payments, low fees). Pair extremely well with Affiliate Marketing and Content Creation. Create once, sell repeatedly.",
   "actionRequired": "Nigeria-first list heavily focused on Selar (dominant local platform). Continue to 12 next.",
-  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 29 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

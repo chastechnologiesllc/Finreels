@@ -1,7 +1,7 @@
 {
   "categoryId": "business_16_private_tutorial_online_tutoring",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCy5KDdIwas8sA-HsT0ROulA",
@@ -563,9 +563,128 @@
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/from-lab-to-laptop-case-studies-in-teaching-practical-courses-online"
+    },
+    {
+      "title": "The Century World's Fair Book for Boys and Girls Being the Adventures of Harry and Philip with Their Tutor, Mr. Douglass, at the World's Columbian Exposition",
+      "author": "Jenks, Tudor, 1857-1922",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59681",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 59681); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59681/pg59681.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59681/pg59681.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59681/pg59681.cover.small.jpg"
+      ],
+      "subject": "Conduct of life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Conduct of life -- Juvenile fiction",
+        "Cousins -- Juvenile fiction",
+        "Artists -- Juvenile fiction",
+        "Chicago (Ill.) -- Juvenile fiction",
+        "National characteristics -- Juvenile fiction",
+        "Youth -- Conduct of life -- Juvenile fiction",
+        "Tutors and tutoring -- Juvenile fiction",
+        "World's Columbian Exposition (1893 : Chicago, Ill.) -- Juvenile fiction",
+        "World's Columbian Exposition (1893 : Chicago, Ill.)",
+        "Exhibitions -- Juvenile fiction",
+        "Photographers -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ",
+        "T"
+      ]
+    },
+    {
+      "title": "Journal and Letters of Philip Vickers Fithian: A Plantation Tutor of the Old Dominion, 1773-1774.",
+      "author": "Fithian, Philip Vickers, 1747-1776; Farish, Hunter Dickinson, 1897-1945 [Editor]; Kredel, Fritz, 1900-1973 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40044",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40044); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40044/pg40044.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40044/pg40044.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40044/pg40044.cover.small.jpg"
+      ],
+      "subject": "Virginia -- Social life and customs -- To 1775",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Virginia -- Social life and customs -- To 1775",
+        "Carter family",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Parenthood & Family Relations",
+        "F206"
+      ]
+    },
+    {
+      "title": "Captain Mugford: Our Salt and Fresh Water Tutors",
+      "author": "Kingston, William Henry Giles, 1814-1880; Holloway, W. Herbert (William Herbert), 1878-1923 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21453",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 21453); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21453/pg21453.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21453/pg21453.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21453/pg21453.cover.small.jpg"
+      ],
+      "subject": "Conduct of life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Conduct of life -- Juvenile fiction",
+        "Pirates -- Juvenile fiction",
+        "Brothers -- Juvenile fiction",
+        "Seafaring life -- Juvenile fiction",
+        "Natural history -- Juvenile fiction",
+        "Sailors -- Juvenile fiction",
+        "Shipwrecks -- Juvenile fiction",
+        "Students -- Juvenile fiction",
+        "Black people -- West Indies -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: British Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Tutors' Lane",
+      "author": "Lewis, W. S. (Wilmarth Sheldon), 1895-1979",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24771",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24771); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24771/pg24771.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24771/pg24771.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24771/pg24771.cover.small.jpg"
+      ],
+      "subject": "Love stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Love stories",
+        "New England -- Fiction",
+        "Social workers -- Fiction",
+        "College teachers -- Fiction",
+        "Category: Novels",
+        "Category: British Literature",
+        "Category: History - Schools & Universities",
+        "PS"
+      ]
     }
   ],
-  "notes": "2026-07-24: Created from scratch, merging all 30 rows from the founder-provided 'private_tutorial_online_tutoring_resources.csv' (Section II.36). Three of the CSV's 10 channels could not be matched to a real, confirmable YouTube channel: Pass.ng (real, Wikipedia-documented Nigerian company, no confirmed channel), EdTech Africa (name shared by multiple real organizations, none confirmed to a specific channel), and Connect Nigeria as a channel (its blog is real and was kept). Three independently-verified, directly on-topic replacements were substituted to reach 10 channels: ExamPadi, Coursera, and Khan Academy. 2026-08-23: Added 11 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "2026-07-24: Created from scratch, merging all 30 rows from the founder-provided 'private_tutorial_online_tutoring_resources.csv' (Section II.36). Three of the CSV's 10 channels could not be matched to a real, confirmable YouTube channel: Pass.ng (real, Wikipedia-documented Nigerian company, no confirmed channel), EdTech Africa (name shared by multiple real organizations, none confirmed to a specific channel), and Connect Nigeria as a channel (its blog is real and was kept). Three independently-verified, directly on-topic replacements were substituted to reach 10 channels: ExamPadi, Coursera, and Khan Academy. 2026-08-23: Added 11 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 4 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",

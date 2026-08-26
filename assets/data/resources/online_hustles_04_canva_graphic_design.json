@@ -1,7 +1,7 @@
 {
   "categoryId": "online_hustles_04_canva_graphic_design",
   "status": "channels_enriched_v1",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UC47XN5bhLTBH5TRFyKaUpKg",
@@ -486,9 +486,193 @@
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
       "coverUrl": ""
+    },
+    {
+      "title": "The Meadow-Brook Girls Under Canvas; Or, Fun and Frolic in the Summer Camp",
+      "author": "Aldridge, Janet",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14889",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 14889); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14889/pg14889.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14889/pg14889.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14889/pg14889.cover.small.jpg"
+      ],
+      "subject": "Friendship -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Friendship -- Juvenile fiction",
+        "Camping -- Juvenile fiction",
+        "Hazing -- Juvenile fiction",
+        "Children's Book Series",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Rover Boys Under Canvas; Or, The Mystery of the Wrecked Submarine",
+      "author": "Stratemeyer, Edward, 1862-1930",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23286",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23286); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23286/pg23286.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23286/pg23286.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23286/pg23286.cover.small.jpg"
+      ],
+      "subject": "Schools -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Schools -- Fiction",
+        "Submarines (Ships) -- Fiction",
+        "World War, 1914-1918 -- Fiction",
+        "Military education -- Fiction",
+        "School Stories",
+        "Children's Book Series",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Leo the Circus Boy; or, Life under the great white canvas",
+      "author": "Stratemeyer, Edward, 1862-1930",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35821",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 35821); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35821/pg35821.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35821/pg35821.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35821/pg35821.cover.small.jpg"
+      ],
+      "subject": "Circus -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Circus -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Under Canvas; or, The Hunt for the Cartaret Ghost",
+      "author": "Douglas, Alan, Captain",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38299",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38299); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38299/pg38299.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38299/pg38299.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38299/pg38299.cover.small.jpg"
+      ],
+      "subject": "Boy Scouts of America -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Boy Scouts of America -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Corner House Girls Under Canvas How they reached Pleasant Cove and what happened afterward",
+      "author": "Hill, Grace Brooks; Owen, Robert Emmett, 1878-1957 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38742",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38742); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38742/pg38742.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38742/pg38742.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38742/pg38742.cover.small.jpg"
+      ],
+      "subject": "Dogs -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Dogs -- Juvenile fiction",
+        "Family -- Juvenile fiction",
+        "Humanitarianism -- Juvenile fiction",
+        "Sisters -- Juvenile fiction",
+        "New England -- Juvenile fiction",
+        "Romanies -- Juvenile fiction",
+        "Interpersonal relations -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Snagged and Sunk; Or, The Adventures of a Canvas Canoe",
+      "author": "Castlemon, Harry, 1842-1915",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55843",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55843); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55843/pg55843.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55843/pg55843.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55843/pg55843.cover.small.jpg"
+      ],
+      "subject": "Adventure stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Adventure stories",
+        "Canoes and canoeing -- Juvenile fiction",
+        "Camping -- Juvenile fiction",
+        "Voyages and travels -- Juvenile fiction",
+        "Cousins -- Juvenile fiction",
+        "Accidents -- Juvenile fiction",
+        "Theft -- Juvenile fiction",
+        "Rivers -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Sand and Canvas: Narrative of adventures in Egypt with a sojourn among the artists in Rome",
+      "author": "Bevan, Samuel",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68780",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 68780); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68780/pg68780.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68780/pg68780.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68780/pg68780.cover.small.jpg"
+      ],
+      "subject": "Italy -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Italy -- Description and travel",
+        "Egypt -- Description and travel",
+        "Category: Adventure",
+        "Category: Travel Writing",
+        "D"
+      ]
     }
   ],
   "integrationNotes": "Stub for Canva Graphic Design Freelancing. Capital: ₦0. Summary: Design social media graphics, flyers, logos, presentations and brand kits using Canva for Nigerian businesses and global clients.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
   "actionRequired": "Nigeria/Africa-first list. African Geek is the strongest verified African Canva channel. Continue to 05 next.",
-  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 7 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

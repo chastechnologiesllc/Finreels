@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_03_pharmacy",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UCUD4q4OiEJv67rWEqBs02Pw",
@@ -543,6 +543,286 @@
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Medicine - Nursing; Medicine - Pharmacology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/pharmacology-for-nurses",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584372-L.jpg"
+    },
+    {
+      "title": "The Alumni Journal of the College of Pharmacy of the City of New York, Vol. II, No. 2, February, 1895",
+      "author": "Various; Kraemer, Henry, 1868-1924 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52977",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52977); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52977/pg52977.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52977/pg52977.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52977/pg52977.cover.small.jpg"
+      ],
+      "subject": "College of Pharmacy of the City of New York -- Alumni and alumnae -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "College of Pharmacy of the City of New York -- Alumni and alumnae -- Periodicals",
+        "Pharmacology -- Periodicals",
+        "Category: History - Modern (1750+)",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Engineering & Technology",
+        "Category: Health & Medicine",
+        "Category: Drugs/Alcohol/Pharmacology",
+        "Category: Journals",
+        "RM"
+      ]
+    },
+    {
+      "title": "The Mystery and Romance of Alchemy and Pharmacy",
+      "author": "Thompson, C. J. S. (Charles John Samuel), 1862-1943",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47004",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 47004); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47004/pg47004.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47004/pg47004.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47004/pg47004.cover.small.jpg"
+      ],
+      "subject": "Alchemy",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Alchemy",
+        "Medicine, Magic, mystic, and spagiric",
+        "Pharmacy -- History",
+        "Category: History - Other",
+        "Category: Drugs/Alcohol/Pharmacology",
+        "R"
+      ]
+    },
+    {
+      "title": "New York Journal of Pharmacy, Volume 1 (of 3), 1852 Published by Authority of the College of Pharmacy of the City of New York.",
+      "author": "College of Pharmacy of the City of New York; McCready, B. W. (Benjamin William), 1813-1892 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53828",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53828); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53828/pg53828.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53828/pg53828.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53828/pg53828.cover.small.jpg"
+      ],
+      "subject": "Pharmacy -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pharmacy -- Periodicals",
+        "Category: Drugs/Alcohol/Pharmacology",
+        "Category: Journals",
+        "RS"
+      ]
+    },
+    {
+      "title": "The American Journal of Pharmacy, March, 1907",
+      "author": "Various; Kraemer, Henry, 1868-1924 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59296",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 59296); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59296/pg59296.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59296/pg59296.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59296/pg59296.cover.small.jpg"
+      ],
+      "subject": "Pharmacology -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pharmacology -- Periodicals",
+        "Pharmacy -- Periodicals",
+        "Category: Health & Medicine",
+        "Category: Drugs/Alcohol/Pharmacology",
+        "Category: Reports & Conference Proceedings",
+        "Category: Teaching & Education",
+        "RS"
+      ]
+    },
+    {
+      "title": "Chronicles of Pharmacy, Vol. 1 (of 2)",
+      "author": "Wootton, A. C., -1910; MacEwan, Peter, 1856-1917 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65872",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65872); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65872/pg65872.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65872/pg65872.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65872/pg65872.cover.small.jpg"
+      ],
+      "subject": "Pharmacy -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pharmacy -- History",
+        "Category: History - Other",
+        "Category: Drugs/Alcohol/Pharmacology",
+        "RS"
+      ]
+    },
+    {
+      "title": "Chronicles of Pharmacy, Vol. 2 (of 2)",
+      "author": "Wootton, A. C., -1910; MacEwan, Peter, 1856-1917 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67414",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67414); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67414/pg67414.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67414/pg67414.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67414/pg67414.cover.small.jpg"
+      ],
+      "subject": "Pharmacy -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pharmacy -- History",
+        "Category: History - Other",
+        "Category: Drugs/Alcohol/Pharmacology",
+        "RS"
+      ]
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Jonson, Ben, 1573?-1637",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4081",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4081); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4081/pg4081.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4081/pg4081.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4081/pg4081.cover.small.jpg"
+      ],
+      "subject": "English drama (Comedy)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English drama (Comedy)",
+        "English drama -- 17th century",
+        "London (England) -- Drama",
+        "City and town life -- Drama",
+        "Alchemists -- Drama",
+        "Harvard Classics",
+        "Category: Humour",
+        "Category: Plays/Films/Dramas",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Alchemist's Secret",
+      "author": "Williams, Isabel Cecilia",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/19224",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 19224); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/19224/pg19224.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/19224/pg19224.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/19224/pg19224.cover.small.jpg"
+      ],
+      "subject": "Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fiction",
+        "Category: Novels",
+        "PS"
+      ]
+    },
+    {
+      "title": "Advanced Chemistry",
+      "author": "Huekels, Jack G.; Llewellyn [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26955",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 26955); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26955/pg26955.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26955/pg26955.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26955/pg26955.cover.small.jpg"
+      ],
+      "subject": "Science fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Science fiction",
+        "Short stories",
+        "Science Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Humour",
+        "Category: Novels",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Chemistry of Plant Life",
+      "author": "Thatcher, Roscoe Wilfred, 1872-1933",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33394",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 33394); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33394/pg33394.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33394/pg33394.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33394/pg33394.cover.small.jpg"
+      ],
+      "subject": "Botanical chemistry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Botanical chemistry",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Science - Biology",
+        "QK"
+      ]
+    },
+    {
+      "title": "Jaundice: Its Pathology and Treatment With the Application of Physiological Chemistry to the Detection and Treatment of Diseases of the Liver and Pancreas",
+      "author": "Harley, George, 1829-1896",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48499",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 48499); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48499/pg48499.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48499/pg48499.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48499/pg48499.cover.small.jpg"
+      ],
+      "subject": "Jaundice",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Jaundice",
+        "Category: Science - Biology",
+        "Category: Health & Medicine",
+        "RC"
+      ]
+    },
+    {
+      "title": "Chemistry",
+      "author": "Appleton, John Howard, 1844-1930",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/79181",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 79181); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/79181/pg79181.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/79181/pg79181.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/79181/pg79181.cover.small.jpg"
+      ],
+      "subject": "Chemistry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Chemistry",
+        "QD"
+      ]
     }
   ],
   "actionRequired": [
@@ -550,5 +830,5 @@
     "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
     "2026-08-23: Review the 6 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
   ],
-  "notes": "2026-08-23: Added 6 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+  "notes": "2026-08-23: Added 6 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 12 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
 }

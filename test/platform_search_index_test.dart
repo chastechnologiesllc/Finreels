@@ -78,6 +78,7 @@ void main() {
 
     expect(professionIds, hasLength(20));
     expect(overlayIds, containsAll(professionIds));
+    expect(ResourceCategoryData.verifiedBooks.length, greaterThanOrEqualTo(20000));
 
     final medicine = index.search(query: 'pre-clinical anatomy');
     expect(
@@ -98,6 +99,57 @@ void main() {
       ),
       isTrue,
     );
+  });
+
+  test('ranks exact relevant titles across every content type', () {
+    final video = Video(
+      id: 'blue-lantern-video',
+      title: 'Blue Lantern Bookkeeping Sprint',
+      description: 'A focused bookkeeping lesson.',
+      channelId: 'search-video-channel',
+      channelName: 'Search Video Channel',
+      publishedAt: DateTime(2026, 8, 1),
+      thumbnailUrl: '',
+    );
+    final short = Video(
+      id: 'blue-lantern-short',
+      title: 'Blue Lantern Bookkeeping Tip',
+      description: 'A short bookkeeping tip.',
+      channelId: 'search-short-channel',
+      channelName: 'Search Short Channel',
+      publishedAt: DateTime(2026, 8, 2),
+      thumbnailUrl: '',
+      isShort: true,
+    );
+    final book = Video(
+      id: 'blue-lantern-book',
+      title: 'Blue Lantern Bookkeeping Handbook',
+      description: 'A practical bookkeeping handbook.',
+      channelId: 'books',
+      channelName: 'FinReels Books',
+      publishedAt: DateTime(2026, 8, 3),
+      thumbnailUrl: '',
+    );
+    final article = BlogArticle(
+      title: 'Blue Lantern Bookkeeping Notes',
+      url: 'https://example.com/blue-lantern-bookkeeping',
+      sourceName: 'Example Learning Journal',
+      publishedAt: DateTime(2026, 8, 4),
+      excerpt: 'Notes for a bookkeeping sprint.',
+    );
+
+    final results = index.search(
+      query: 'blue lantern bookkeeping sprint',
+      videos: [video, short],
+      books: [book],
+      articles: [article],
+    );
+
+    expect(results, isNotEmpty);
+    expect(results.first.title, video.title);
+    expect(results.any((d) => d.kind == PlatformSearchKind.short), isTrue);
+    expect(results.any((d) => d.kind == PlatformSearchKind.book), isTrue);
+    expect(results.any((d) => d.kind == PlatformSearchKind.blog), isTrue);
   });
 
   test('deduplicates dynamic videos and blog URLs', () {

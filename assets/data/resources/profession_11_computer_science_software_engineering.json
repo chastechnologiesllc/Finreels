@@ -1,7 +1,7 @@
 {
   "categoryId": "profession_11_computer_science_software_engineering",
   "status": "verified",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-26",
   "channels": [
     {
       "id": "UC36zt_eM_gZQXayw_pAdASg",
@@ -1899,9 +1899,80 @@
       "verifiedOn": "2026-08-23",
       "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/practical-game-programming",
       "coverUrl": "https://covers.openlibrary.org/b/isbn/9781998944224-L.jpg"
+    },
+    {
+      "title": "The Oak Ridge ALGOL Compiler for the Control Data Corporation 1604 Preliminary Programmer's Manual",
+      "author": "Bumgarner, L. L.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50468",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 50468); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50468/pg50468.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50468/pg50468.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50468/pg50468.cover.small.jpg"
+      ],
+      "subject": "ALGOL (Computer program language)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "ALGOL (Computer program language)",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "QA"
+      ]
+    },
+    {
+      "title": "Free as in Freedom: Richard Stallman's Crusade for Free Software",
+      "author": "Williams, Sam, 1969-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/5768",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 5768); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/5768/pg5768.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/5768/pg5768.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/5768/pg5768.cover.small.jpg"
+      ],
+      "subject": "Stallman, Richard",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Stallman, Richard",
+        "Free Software Foundation (Cambridge, Mass.)",
+        "Computer programmers -- United States -- Biography",
+        "Computer hackers -- United States -- Biography",
+        "Open source software",
+        "Category: Biographies",
+        "Category: Engineering & Technology",
+        "QA"
+      ]
+    },
+    {
+      "title": "The Cosmic Computer",
+      "author": "Piper, H. Beam, 1904-1964",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20727",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 20727); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/20727/pg20727.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/20727/pg20727.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/20727/pg20727.cover.small.jpg"
+      ],
+      "subject": "Science fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Science fiction",
+        "Science Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Novels",
+        "PS"
+      ]
     }
   ],
-  "notes": "Matches the founder's own honest finding, with more nuance: Nigeria has real, current, well-developed content here (Business Elites Africa, WithinNigeria, Writertain Creatives, Anutio) but it teaches freelancing logistics (which platforms pay in dollars, which payment rails avoid conversion loss) — not the further step of turning that income into a product or agency, which is what this category needs. Business Elites Africa's specific RSS feed could not be confirmed this round (a broader Nigeria-business RSS search surfaced many real adjacent blogs but not this exact one) — worth a direct, narrower search rather than guessing. On books: both candidates (The SaaS Playbook, Company of One) are commercially paid; the only 'free' copies found were on piracy sites (Yumpu, Scribd re-uploads) or were third-party paid summary services (Shortform, Four Minute Books) rather than the actual free book — neither counts, so left at 0 rather than substitute either. 2026-08-23: Added 148 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "notes": "Matches the founder's own honest finding, with more nuance: Nigeria has real, current, well-developed content here (Business Elites Africa, WithinNigeria, Writertain Creatives, Anutio) but it teaches freelancing logistics (which platforms pay in dollars, which payment rails avoid conversion loss) — not the further step of turning that income into a product or agency, which is what this category needs. Business Elites Africa's specific RSS feed could not be confirmed this round (a broader Nigeria-business RSS search surfaced many real adjacent blogs but not this exact one) — worth a direct, narrower search rather than guessing. On books: both candidates (The SaaS Playbook, Company of One) are commercially paid; the only 'free' copies found were on piracy sites (Yumpu, Scribd re-uploads) or were third-party paid summary services (Shortform, Four Minute Books) rather than the actual free book — neither counts, so left at 0 rather than substitute either. 2026-08-23: Added 148 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 3 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
   "actionRequired": [
     "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
     "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
