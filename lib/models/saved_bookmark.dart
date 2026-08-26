@@ -1,4 +1,4 @@
-import 'blog_rss_service.dart';
+import '../services/blog_rss_service.dart';
 import 'video.dart';
 
 /// Content kinds that can be saved to the shared Bookmarks screen.
