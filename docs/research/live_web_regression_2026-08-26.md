@@ -15,3 +15,8 @@ After commit `20947e5` was deployed, a cache-busted live visit to `https://chast
 A fresh reproduction on the configured Pages deployment (`chastechnologiesllc.github.io/Finreels`) after commit `20947e5` shows one visible input, an active browser input element, and typed `law` displayed in the field with the ranked `Law` result. The screenshot supplied by the user shows `stechnologiesllc.github.io`, which is not the configured Pages URL for `chastechnologiesllc/Finreels`; that host returns GitHub Pages 404 in the sandbox and cannot receive this repository’s deployments.
 
 To harden the mobile path further, the onboarding source now derives query state from a persistent controller listener, keeps the welcome subtree maintained during compact-mode changes, removes focus-time auto-scrolling, and sets the scroll view to manual keyboard dismissal. These changes target the Android Chrome behavior where the keyboard can remain open while a layout rebuild loses the platform text-input connection.
+
+## Short-query live verification — 2026-08-26
+
+The cache-busted deployment for commit `d5430c8` was tested at `https://chastechnologiesllc.github.io/Finreels/?v=d5430c8`. After focusing the field and entering the one-letter query `l`, the input visibly contained `l` and eight ranked results appeared immediately, led by `Law`, followed by Logistics/Dispatch Rider, Laundry & Dry-Cleaning, Tailoring & Fashion Design, and other indexed matches. This confirms the short-query path is bounded and responsive in the live Web build.
+The same live field was then changed to the two-letter query `la`; `la` remained visible immediately and `Law` stayed ranked first, with the remaining results narrowed and refreshed without a visible loading state.
