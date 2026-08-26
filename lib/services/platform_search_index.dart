@@ -223,7 +223,6 @@ class PlatformSearchIndex {
     List<Video> videos = const [],
     List<Video> books = const [],
     List<BlogArticle> articles = const [],
-    int limit = 120,
   }) {
     final raw = query.trim();
     if (raw.isEmpty) return const [];
@@ -294,9 +293,10 @@ class PlatformSearchIndex {
       if (dateOrder != 0) return dateOrder;
       return a.document.title.toLowerCase().compareTo(b.document.title.toLowerCase());
     });
+    // Return every matching document. The UI uses lazy ListView building, so
+    // large catalog matches remain scrollable without truncating the corpus.
     return [
-      for (final item in scored.take(limit))
-        item.document.withRelevance(item.score),
+      for (final item in scored) item.document.withRelevance(item.score),
     ];
   }
 

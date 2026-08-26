@@ -131,6 +131,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
   bool _loading = false;
   bool _fetchingBlogs = false;
   bool _typing = false;
+  int _searchGeneration = 0;
 
   List<_SearchItem> _left  = [];
   List<_SearchItem> _right = [];
@@ -165,8 +166,9 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
     final newState = _fp.state;
     if (_lastFeedState == FeedState.loading &&
         newState == FeedState.loaded &&
-        _query.isNotEmpty) {
-      _search(_query);
+        _query.length >= 2 &&
+        !_typing) {
+      unawaited(_search(_query, _searchGeneration));
     }
     _lastFeedState = newState;
   }
@@ -174,7 +176,9 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
   void _onInput() {
     _debounce?.cancel();
     final q = _ctrl.text.trim();
-    if (q == _query && !_typing) return;
+    if (q == _query && !_typing && !_loading) return;
+    final generation = ++_searchGeneration;
+
     if (q.length < 2) {
       setState(() {
         _query = q;
@@ -186,9 +190,24 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
       });
       return;
     }
-    if (!_typing) setState(() => _typing = true);
-    // Debounce: wait 300 ms after the user stops typing before searching.
-    _debounce = Timer(const Duration(milliseconds: 300), () => _search(q));
+
+    // Clear stale results immediately. The generation token prevents an old
+    // index or blog request from painting over the newer query.
+    setState(() {
+      _query = q;
+      _left = [];
+      _right = [];
+      _loading = true;
+      _fetchingBlogs = false;
+      _typing = true;
+    });
+
+    // Debounce only the expensive search work, keeping the text field itself
+    // responsive while avoiding one full index pass per keystroke.
+    _debounce = Timer(
+      const Duration(milliseconds: 260),
+      () => unawaited(_search(q, generation)),
+    );
   }
 
   // ── Scoring ─────────────────────────────────────────────────────────────
@@ -255,8 +274,8 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
     }
   }
 
-  Future<void> _search(String q) async {
-    if (!mounted) return;
+  Future<void> _search(String q, int generation) async {
+    if (!_isCurrentSearch(q, generation)) return;
     setState(() {
       _query = q;
       _loading = true;
@@ -265,7 +284,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
     });
 
     await PlatformSearchIndex.instance.ensureReady();
-    if (!mounted || _query != q) return;
+    if (!_isCurrentSearch(q, generation)) return;
 
     final indexed = PlatformSearchIndex.instance.search(
       query: q,
@@ -283,7 +302,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
       }
     }
 
-    if (!mounted || _query != q) return;
+    if (!_isCurrentSearch(q, generation)) return;
     setState(() {
       _left = newLeft;
       _right = newRight;
@@ -302,7 +321,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
       final articles = await BlogRssService.instance
           .fetchAll()
           .timeout(const Duration(seconds: 5));
-      if (!mounted || _query != q) return;
+      if (!_isCurrentSearch(q, generation)) return;
       final blogDocs = PlatformSearchIndex.instance.search(
         query: q,
         articles: articles,
@@ -315,15 +334,24 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
         ..._right,
         ...blogItems.where((item) => existingKeys.add(_itemKey(item))),
       ]..sort(cmp);
-      setState(() { _right = merged; _fetchingBlogs = false; });
+      if (_isCurrentSearch(q, generation)) {
+        setState(() { _right = merged; _fetchingBlogs = false; });
+      }
     } on TimeoutException {
       debugPrint('[ContentSearch] blog fetch timed out for: $q');
-      if (mounted) setState(() => _fetchingBlogs = false);
+      if (_isCurrentSearch(q, generation)) {
+        setState(() => _fetchingBlogs = false);
+      }
     } on Exception catch (e) {
       debugPrint('[ContentSearch] blog fetch error: $e');
-      if (mounted) setState(() => _fetchingBlogs = false);
+      if (_isCurrentSearch(q, generation)) {
+        setState(() => _fetchingBlogs = false);
+      }
     }
   }
+
+  bool _isCurrentSearch(String q, int generation) =>
+      mounted && generation == _searchGeneration && _ctrl.text.trim() == q;
 
   String _itemKey(_SearchItem item) {
     if (item.video != null) return 'video:${item.video!.id}';
@@ -456,10 +484,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
         surfaceTintColor: Colors.transparent,
         elevation: 0,
         titleSpacing: 0,
-        title: _SearchBar(
-          controller: _ctrl,
-          busy: _typing || _loading || _fetchingBlogs,
-        ),
+        title: _SearchBar(controller: _ctrl),
         actions: [
           if (_ctrl.text.isNotEmpty)
             IconButton(
@@ -655,8 +680,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
 
 class _SearchBar extends StatelessWidget {
   final TextEditingController controller;
-  final bool busy;
-  const _SearchBar({required this.controller, required this.busy});
+  const _SearchBar({required this.controller});
 
   @override
   Widget build(BuildContext context) {
@@ -682,19 +706,6 @@ class _SearchBar extends StatelessWidget {
             border:      InputBorder.none,
             isDense:     true,
             contentPadding: const EdgeInsets.symmetric(vertical: 10),
-            suffixIcon: busy
-                ? const Padding(
-                    padding: EdgeInsets.all(11),
-                    child: SizedBox(
-                      width: 16,
-                      height: 16,
-                      child: CircularProgressIndicator(
-                        color: AppTheme.gold,
-                        strokeWidth: 2,
-                      ),
-                    ),
-                  )
-                : null,
           ),
         ),
       ),

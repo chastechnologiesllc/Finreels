@@ -214,6 +214,27 @@ void main() {
     );
   });
 
+  test('returns every matching dynamic record beyond the old 120 cap', () {
+    final videos = [
+      for (var i = 0; i < 135; i++)
+        Video(
+          id: 'complete-match-$i',
+          title: 'Complete Match Result $i',
+          description: 'A complete match for comprehensive search.',
+          channelId: 'complete-match-channel',
+          channelName: 'Complete Match Channel',
+          publishedAt: DateTime(2026, 8, 1),
+          thumbnailUrl: '',
+        ),
+    ];
+
+    final results = index.search(query: 'complete match', videos: videos);
+    expect(
+      results.where((document) => document.id.startsWith('video:complete-match-')).length,
+      135,
+    );
+  });
+
   test('empty queries never return the entire catalogue', () {
     expect(index.search(query: ''), isEmpty);
     expect(index.search(query: ' '), isEmpty);
