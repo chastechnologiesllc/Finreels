@@ -119,7 +119,7 @@ void main() {
       channelName: 'Search Short Channel',
       publishedAt: DateTime(2026, 8, 2),
       thumbnailUrl: '',
-      isShort: true,
+      originalLink: 'https://www.youtube.com/shorts/blue-lantern-short',
     );
     final book = Video(
       id: 'blue-lantern-book',
