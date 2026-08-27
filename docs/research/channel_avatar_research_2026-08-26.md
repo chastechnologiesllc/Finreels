@@ -8,7 +8,7 @@ The reproducible script is `tool/fetch_channel_avatars.py`. Its output is stored
 
 ## Coverage
 
-The deduplicated corpus contains 478 channel IDs from the hardcoded general channels and category resource JSON files. Official avatar URLs were resolved for 477 channels. One record, `PaidFromSurveys` (`UC4cTmHcWEXfkRdCvFLe4KiQ`, `@EarnWithMike`), currently returns a YouTube 404 from both its ID URL and its stored handle URL. FinReels therefore does not fabricate an image for it; the shared `ChannelAvatar` widget displays the channel's existing branded initials fallback.
+The deduplicated corpus contains 478 channel IDs from the hardcoded general channels and category resource JSON files. After correcting the stale School of Life channel identity and retrying handle pages, official avatar URLs were resolved for all 478 channels.
 
 ## UI integration
 

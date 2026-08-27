@@ -1,6 +1,7 @@
 import 'package:finreels/config/app_config.dart';
 import 'package:finreels/data/channel_avatar_data.dart';
 import 'package:finreels/data/channel_data.dart';
+import 'package:finreels/models/channel.dart';
 import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/saved_bookmark.dart';
 import 'package:finreels/models/video.dart';
@@ -8,6 +9,7 @@ import 'package:finreels/services/feed_snapshot_service.dart';
 import 'package:finreels/utils/category_search.dart';
 import 'package:finreels/widgets/book_cover_image.dart';
 import 'package:finreels/widgets/blog_thumbnail_image.dart';
+import 'package:finreels/widgets/channel_avatar.dart';
 import 'package:finreels/widgets/finreels_shimmer.dart';
 import 'package:finreels/widgets/video_thumbnail_image.dart';
 import 'package:flutter/material.dart';
@@ -129,6 +131,20 @@ void main() {
         isTrue,
       );
     });
+
+    test('School of Life snapshot uses the canonical channel feed', () async {
+      final videos = await FeedSnapshotService.instance
+          .channelVideos('UC7IcJI8PUf5Z3zKxnZvTBog');
+      expect(videos, isNotEmpty);
+      expect(videos.every((video) => video.channelId == 'UC7IcJI8PUf5Z3zKxnZvTBog'), isTrue);
+      expect(
+        videos.every(
+          (video) => !RegExp(r' chicken|goose|swan|poultry|bird', caseSensitive: false)
+              .hasMatch('${video.title} ${video.description}'),
+        ),
+        isTrue,
+      );
+    });
   });
 
   // ── Video Model ─────────────────────────────────────────────────────────────
@@ -241,6 +257,25 @@ void main() {
         ChannelData.all.every((channel) => channel.avatarUrl != null),
         isTrue,
       );
+    });
+
+    testWidgets('channel avatar keeps a circular initials fallback',
+        (tester) async {
+      const channel = Channel(
+        id: 'missing-avatar-channel',
+        name: 'Fallback Channel',
+        handle: '@fallback',
+        description: '',
+        accentColor: Color(0xFF2563EB),
+        category: 'Test',
+        focus: '',
+        initials: 'FC',
+      );
+      await tester.pumpWidget(
+        const MaterialApp(home: ChannelAvatar(channel: channel, size: 48)),
+      );
+      expect(find.byType(ClipOval), findsOneWidget);
+      expect(find.text('FC'), findsOneWidget);
     });
 
     test('School of Hard Knocks is in the list', () {

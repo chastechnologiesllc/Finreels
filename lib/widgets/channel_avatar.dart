@@ -22,29 +22,44 @@ class ChannelAvatar extends StatelessWidget {
   Widget build(BuildContext context) {
     final imageUrl = channel.avatarUrl;
     final fallback = _InitialsAvatar(channel: channel, size: size);
+    final image = imageUrl == null || imageUrl.isEmpty
+        ? fallback
+        : CachedNetworkImage(
+            imageUrl: imageUrl,
+            width: size,
+            height: size,
+            fit: BoxFit.cover,
+            memCacheWidth: (size * 3).round(),
+            memCacheHeight: (size * 3).round(),
+            placeholder: (_, __) => _AvatarShimmer(size: size),
+            errorWidget: (_, __, ___) => fallback,
+          );
 
-    return Container(
+    return SizedBox(
       width: size,
       height: size,
-      decoration: BoxDecoration(
-        color: channel.accentColor.withValues(alpha: 0.15),
-        shape: BoxShape.circle,
-        border: Border.all(
-          color: channel.accentColor.withValues(alpha: 0.35),
-          width: borderWidth,
+      child: ClipOval(
+        child: Stack(
+          fit: StackFit.expand,
+          children: [
+            image,
+            Positioned.fill(
+              child: IgnorePointer(
+                child: DecoratedBox(
+                  decoration: ShapeDecoration(
+                    shape: CircleBorder(
+                      side: BorderSide(
+                        color: channel.accentColor.withValues(alpha: 0.35),
+                        width: borderWidth,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
-      clipBehavior: Clip.antiAlias,
-      child: imageUrl == null || imageUrl.isEmpty
-          ? fallback
-          : CachedNetworkImage(
-              imageUrl: imageUrl,
-              fit: BoxFit.cover,
-              memCacheWidth: (size * 3).round(),
-              memCacheHeight: (size * 3).round(),
-              placeholder: (_, __) => _AvatarShimmer(size: size),
-              errorWidget: (_, __, ___) => fallback,
-            ),
     );
   }
 }
@@ -70,15 +85,18 @@ class _InitialsAvatar extends StatelessWidget {
   const _InitialsAvatar({required this.channel, required this.size});
 
   @override
-  Widget build(BuildContext context) => Center(
-        child: Text(
-          channel.initials,
-          maxLines: 1,
-          overflow: TextOverflow.clip,
-          style: TextStyle(
-            color: channel.accentColor,
-            fontWeight: FontWeight.w800,
-            fontSize: size * 0.30,
+  Widget build(BuildContext context) => ColoredBox(
+        color: channel.accentColor.withValues(alpha: 0.15),
+        child: Center(
+          child: Text(
+            channel.initials,
+            maxLines: 1,
+            overflow: TextOverflow.clip,
+            style: TextStyle(
+              color: channel.accentColor,
+              fontWeight: FontWeight.w800,
+              fontSize: size * 0.30,
+            ),
           ),
         ),
       );

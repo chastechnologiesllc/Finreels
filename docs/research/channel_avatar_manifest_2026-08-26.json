@@ -1,9 +1,9 @@
 {
-  "retrievedOn": "2026-08-26",
+  "retrievedOn": "2026-08-27",
   "source": "Official YouTube channel page og:image metadata",
   "channelCount": 478,
-  "avatarCount": 477,
-  "missingCount": 1,
+  "avatarCount": 478,
+  "missingCount": 0,
   "channels": [
     {
       "id": "UC-7XY-W_C84cW2MNqujgFpg",
@@ -415,9 +415,9 @@
       "name": "PaidFromSurveys",
       "handle": "@EarnWithMike",
       "categoryId": "online_hustles_01_surveys_microtasks",
-      "status": 404,
-      "avatarUrl": null,
-      "sourceUrl": "https://www.youtube.com/@EarnWithMike"
+      "status": 200,
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mLJ-SXWm8vnu7i6bXIElDG_S522YlvPAVzA545InhLZiM=s900-c-k-c0x00ffffff-no-rj",
+      "sourceUrl": "https://www.youtube.com/channel/UC4cTmHcWEXfkRdCvFLe4KiQ"
     },
     {
       "id": "UC4lH-odQ5ll-85fkpWxDYmA",
@@ -573,6 +573,15 @@
       "sourceUrl": "https://www.youtube.com/channel/UC6x7GwJxuoABSosgVXDYtTw"
     },
     {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "categoryId": "_general",
+      "status": 200,
+      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_ldJz69qUu_3sEO5c-lO5Cevt7X2gUE2YQ11iWAC-6TZFU=s900-c-k-c0x00ffffff-no-rj",
+      "sourceUrl": "https://www.youtube.com/channel/UC7IcJI8PUf5Z3zKxnZvTBog"
+    },
+    {
       "id": "UC7PkJMdC9mOCfHcJJK6XJBA",
       "name": "Pine Hollow Auto Diagnostics",
       "handle": "@PineHollowAutoDiagnostics",
@@ -643,15 +652,6 @@
       "status": 200,
       "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s900-c-k-c0x00ffffff-no-rj",
       "sourceUrl": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
-      "id": "UC8c9l98f2Zq4l9YnbmutPTw",
-      "name": "The School of Life",
-      "handle": "@TheSchoolOfLife",
-      "categoryId": "_general",
-      "status": 200,
-      "avatarUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mhOhpy9sNCXWDoqSuQtu_3-cH1IDxTi3WD049Tcc0k8w=s900-c-k-c0x00ffffff-no-rj",
-      "sourceUrl": "https://www.youtube.com/channel/UC8c9l98f2Zq4l9YnbmutPTw"
     },
     {
       "id": "UC8oJL9T1z3Gqn6drDphZY6g",
@@ -2703,7 +2703,7 @@
       "categoryId": "skill_05_welding_metal_fabrication",
       "status": 200,
       "avatarUrl": "https://yt3.googleusercontent.com/l-ukeN1ftz6PdcOOkghnYgoZWuX7FgBVT5TXtrepOr7-KeFh1JuMnB6cA8edxjo-vrMsHQBuijo=s900-c-k-c0x00ffffff-no-rj",
-      "sourceUrl": "https://www.youtube.com/@TheFabricatorSeries"
+      "sourceUrl": "https://www.youtube.com/channel/UCcxlBLmujrjTVSSUkzZ2Jlg"
     },
     {
       "id": "UCdFywFbbcS6_qJlCUJ_n1mA",
