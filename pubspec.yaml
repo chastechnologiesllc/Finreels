@@ -51,13 +51,16 @@ dependencies:
   visibility_detector: ^0.4.0+2
   # Blog / article inline web renderer with navigation interception
   flutter_inappwebview: ^6.1.5
-  # EPUB in-app reader (Epub.js engine); URL/file/assets, CFI, scrolled flow
-  flutter_epub_viewer: ^1.0.4
+  # EPUB in-app reader (Epub.js engine); Android, iOS, macOS and Web
+  flutter_epub_viewer: ^2.0.0
+  # Controlled HTML/TXT rendering for readable book content without publisher CSS
+  flutter_html: ^3.0.0
   # Reading progress persistence (CFI for EPUB)
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-  # Bundled local PDF books (Five Buckets masterclass playbooks)
-  flutter_pdfview: ^1.4.0+1
+  # Cross-platform PDF reader with Web/native rendering and text selection
+  # 2.5 requires Flutter 3.47; 2.4.8 supports Flutter >=3.41 and this CI’s 3.44.
+  pdfrx: ^2.4.8
   # App-internal file storage — used by PdfDownloadService to cache downloaded
   # PDFs. No extra Android/iOS permissions needed for the app documents dir.
   path_provider: ^2.1.4

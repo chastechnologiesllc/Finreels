@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 import '../providers/feed_provider.dart';
@@ -96,7 +95,7 @@ class _BlogChannelScreenState extends State<BlogChannelScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final provider = context.watch<FeedProvider>();
+    final provider = FeedProvider.instance;
     return Scaffold(
       backgroundColor: AppTheme.bgColor(context),
       appBar: AppBar(
@@ -116,30 +115,40 @@ class _BlogChannelScreenState extends State<BlogChannelScreen> {
           ),
         ],
       ),
-      body: _loading && _articles.isEmpty
-          ? _buildShimmer(context)
-          : RefreshIndicator(
-              color: AppTheme.gold,
-              onRefresh: _load,
-              child: _articles.isEmpty
-                  ? _buildEmptyState(context)
-                  : ListView.separated(
-                      physics: const AlwaysScrollableScrollPhysics(
-                        parent: ClampingScrollPhysics(),
-                      ),
-                      padding: const EdgeInsets.fromLTRB(16, 8, 16, 120),
-                      itemCount: _articles.length,
-                      separatorBuilder: (_, __) => const SizedBox(height: 14),
-                      itemBuilder: (context, index) {
-                        final article = _articles[index];
-                        return _BlogSourceArticleCard(
-                          article: article,
-                          saved: provider.isBlogSaved(article.url),
-                          onSave: () => provider.toggleBlogSaved(article),
-                          onTap: () => _openArticle(article),
-                        );
-                      },
-                    ),
+      body: provider == null
+          ? _buildBody(context, null)
+          : ListenableBuilder(
+              listenable: provider,
+              builder: (context, _) => _buildBody(context, provider),
+            ),
+    );
+  }
+
+  Widget _buildBody(BuildContext context, FeedProvider? provider) {
+    if (_loading && _articles.isEmpty) return _buildShimmer(context);
+    return RefreshIndicator(
+      color: AppTheme.gold,
+      onRefresh: _load,
+      child: _articles.isEmpty
+          ? _buildEmptyState(context)
+          : ListView.separated(
+              physics: const AlwaysScrollableScrollPhysics(
+                parent: ClampingScrollPhysics(),
+              ),
+              padding: const EdgeInsets.fromLTRB(16, 8, 16, 120),
+              itemCount: _articles.length,
+              separatorBuilder: (_, __) => const SizedBox(height: 14),
+              itemBuilder: (context, index) {
+                final article = _articles[index];
+                return _BlogSourceArticleCard(
+                  article: article,
+                  saved: provider?.isBlogSaved(article.url) ?? false,
+                  onSave: provider == null
+                      ? () {}
+                      : () => provider.toggleBlogSaved(article),
+                  onTap: () => _openArticle(article),
+                );
+              },
             ),
     );
   }
@@ -175,19 +184,33 @@ class _BlogChannelScreenState extends State<BlogChannelScreen> {
 
   Widget _buildShimmer(BuildContext context) {
     final fill = FinreelsShimmer.fillColor(context);
-    return FinreelsShimmer(
-      child: ListView.separated(
-        physics: const NeverScrollableScrollPhysics(),
-        padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),
-        itemCount: 5,
-        separatorBuilder: (_, __) => const SizedBox(height: 14),
-        itemBuilder: (_, __) => DecoratedBox(
-          decoration: BoxDecoration(
-            color: fill,
-            borderRadius: BorderRadius.circular(16),
+    return Center(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          FinreelsShimmer(
+            child: CircleAvatar(
+              radius: 34,
+              backgroundColor: fill,
+              child: const Icon(Icons.rss_feed_rounded, size: 30),
+            ),
           ),
-          child: AspectRatio(aspectRatio: 16 / 10, child: ColoredBox(color: fill)),
-        ),
+          const SizedBox(height: 18),
+          Text(
+            'Loading ${widget.sourceName}',
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: Theme.of(context)
+                .textTheme
+                .titleMedium
+                ?.copyWith(fontWeight: FontWeight.w700),
+          ),
+          const SizedBox(height: 6),
+          Text(
+            'Preparing the latest articles…',
+            style: TextStyle(color: AppTheme.textMuted(context)),
+          ),
+        ],
       ),
     );
   }

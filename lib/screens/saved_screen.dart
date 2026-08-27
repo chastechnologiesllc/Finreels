@@ -52,14 +52,11 @@ class _SavedScreenState extends State<SavedScreen> {
       if (bookmark.channelId == 'verified_book' ||
           video.channelId == 'verified_book') {
         if ((bookmark.url ?? '').isEmpty) return;
+        unawaited(AdService.instance.onBookRead());
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (_) => BlogReaderScreen(
-              url: bookmark.url!,
-              title: bookmark.title,
-              categoryId: bookmark.sourceCategoryId,
-            ),
+            builder: (_) => BookDetailScreen(book: video),
           ),
         );
       } else {

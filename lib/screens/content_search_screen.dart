@@ -422,25 +422,14 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
   }
 
   void _openBook(Video b) {
-    if (b.channelId == 'verified_book') {
-      if ((b.freeSourceUrl ?? '').isEmpty) return;
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (_) => BlogReaderScreen(
-            url:        b.freeSourceUrl!,
-            title:      b.title,
-            categoryId: b.sourceCategoryId,
-          ),
-        ),
-      );
-    } else {
-      unawaited(AdService.instance.onVideoTapped());
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (_) => BookDetailScreen(book: b)),
-      );
+    if ((b.freeSourceUrl ?? '').isEmpty && b.channelId == 'verified_book') {
+      return;
     }
+    unawaited(AdService.instance.onBookRead());
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => BookDetailScreen(book: b)),
+    );
   }
 
   void _openBlogChannel(
@@ -493,16 +482,26 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
 
   void _openVerifiedBook(VerifiedBook book) {
     if (book.freeSourceUrl.trim().isEmpty) return;
+    final slug = '${book.categoryId ?? 'general'}_${book.title}'
+        .toLowerCase()
+        .replaceAll(RegExp('[^a-z0-9]+'), '_');
+    final video = Video(
+      id: 'vbook_$slug',
+      title: book.title,
+      description: book.freeSourceNote ?? book.author,
+      channelId: 'verified_book',
+      channelName: book.author,
+      publishedAt: DateTime(2000),
+      thumbnailUrl: book.coverUrl ?? '',
+      thumbnailFallbackUrls: book.coverCandidates,
+      freeSourceUrl: book.freeSourceUrl,
+      freeSourceType: book.freeSourceType,
+      sourceCategoryId: book.categoryId,
+    );
+    unawaited(AdService.instance.onBookRead());
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder: (_) => BlogReaderScreen(
-          url: book.freeSourceUrl,
-          title: book.title,
-          sourceName: book.author,
-          categoryId: book.categoryId,
-        ),
-      ),
+      MaterialPageRoute(builder: (_) => BookDetailScreen(book: video)),
     );
   }
 

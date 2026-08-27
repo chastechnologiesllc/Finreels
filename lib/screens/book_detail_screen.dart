@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_epub_viewer/flutter_epub_viewer.dart';
-import 'package:flutter_pdfview/flutter_pdfview.dart';
+import 'package:pdfrx/pdfrx.dart';
 import 'package:hive/hive.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -13,6 +13,7 @@ import '../data/category_playbook_data.dart';
 import '../models/video.dart';
 import '../providers/feed_provider.dart';
 import '../services/ad_service.dart';
+import '../services/book_reader_content.dart';
 import '../services/engagement_service.dart';
 import '../services/pdf_download_service.dart';
 import '../services/pdf_io_stub.dart'
@@ -21,8 +22,8 @@ import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/book_cover_image.dart';
 import '../widgets/web_iframe_view.dart';
-import '../widgets/web_pdf_blob.dart';
 import 'blog_reader_screen.dart';
+import 'book_content_reader_screen.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Source routing — Richest Man + 3 others use EPUB; copyrighted books use
@@ -41,9 +42,10 @@ class _BookSource {
       : type = _SourceType.insights, epubUrl = null, assetPath = null;
   const _BookSource.pdfAsset(this.assetPath)
       : type = _SourceType.pdfAsset, epubUrl = null;
-  /// Verified category books — URL is opened via BlogReaderScreen (WebView)
+  /// Verified category books — URL is opened via the controlled content reader
   /// or, when the URL points directly to a PDF, downloaded to local storage
-  /// and opened with flutter_pdfview.  [epubUrl] stores the source URL.
+  /// and opened through pdfrx. [epubUrl] stores the source URL.
+
   const _BookSource.externalUrl(this.epubUrl)
       : type = _SourceType.externalUrl, assetPath = null;
 }
@@ -195,10 +197,16 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
   String get _webScrollKey   => 'webview_scroll_${widget.book.id}';
 
   /// True when the URL is a direct PDF file that can be downloaded and
-  /// opened natively in flutter_pdfview.
-  bool _isPdfUrl(String url) =>
-      url.toLowerCase().endsWith('.pdf') ||
-      RegExp(r'\.pdf[\?#]').hasMatch(url.toLowerCase());
+  /// opened through the cross-platform pdfrx viewer.
+  bool _isPdfUrl(String url) {
+    final lower = url.toLowerCase();
+    return lower.endsWith('.pdf') || RegExp(r'\.pdf[\?#]').hasMatch(lower);
+  }
+
+  bool _isEpubUrl(String url) {
+    final lower = url.toLowerCase();
+    return lower.endsWith('.epub') || RegExp(r'\.epub[\?#]').hasMatch(lower);
+  }
 
   /// True if the user has made any reading progress on this book,
   /// regardless of which reader type it uses.
@@ -240,6 +248,18 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
     // ── Case 1: direct PDF URL ────────────────────────────────────────────
     if (_isPdfUrl(url)) {
+      // Web uses pdfrx.uri in-place; opening a new tab here would bypass the
+      // app and make the reading experience inconsistent with native builds.
+      if (kIsWeb) {
+        unawaited(AdService.instance.onBookRead());
+        if (mounted) {
+          setState(() {
+            _showReader = true;
+            _isLoading = true;
+          });
+        }
+        return;
+      }
       // Already downloaded → go straight to the reader
       if (_localPdfPath != null) {
         unawaited(AdService.instance.onBookRead());
@@ -285,21 +305,29 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
       return;
     }
 
-    // ── Case 2: web URL (article, borrow page, author site, etc.) ─────────
+    // ── Case 2: direct EPUB URL — keep it inside the structured reader ─────
+    if (_isEpubUrl(url)) {
+      unawaited(AdService.instance.onBookRead());
+      if (mounted) {
+        setState(() {
+          _showReader = true;
+          _isLoading = true;
+        });
+      }
+      return;
+    }
+
+    // ── Case 3: HTML/TXT/book landing page — render controlled content ─────
     unawaited(AdService.instance.onBookRead());
     await Navigator.of(context).push(MaterialPageRoute(
-      builder: (_) => BlogReaderScreen(
-        url: url,
+      builder: (_) => BookContentReaderScreen(
+        url: _webReadableBookUrl(url),
         title: widget.book.title,
-        categoryId: widget.book.sourceCategoryId,
-        bookId: widget.book.id,
       ),
     ));
-    _refreshWebScrollProgress();
   }
 
-  /// Re-reads the WebView scroll key from Hive so that returning from
-  /// BlogReaderScreen immediately updates the "Continue reading" badge.
+  /// Re-reads the WebView scroll key from Hive for legacy PDF browser fallback.
   void _refreshWebScrollProgress() {
     if (!mounted) return;
     setState(() {
@@ -619,9 +647,20 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
     if (_source.type == _SourceType.pdfAsset) {
       return _buildPdfReader(_source.assetPath!);
     }
+    // Direct PDF URLs stay in the app on Web and use the same cross-platform
+    // PDFium-backed reader as bundled/native PDF bytes.
+    if (_source.type == _SourceType.externalUrl && kIsWeb) {
+      final url = _source.epubUrl ?? '';
+      if (_isPdfUrl(url)) return _buildRemotePdfReader(url);
+    }
     // Downloaded PDF for verified books with a direct PDF URL
     if (_localPdfPath != null) {
       return _buildLocalPdfReader(_localPdfPath!);
+    }
+    if (_source.type == _SourceType.externalUrl) {
+      final url = _source.epubUrl ?? '';
+      if (_isEpubUrl(url)) return _buildEpubReader(url);
+      return BookContentReaderScreen(url: url, title: widget.book.title);
     }
     return _buildInsightsReader();
   }
@@ -630,14 +669,22 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
   /// Map direct .epub file URLs to HTML readers browsers can render in an iframe.
   /// Raw .epub bytes show as a blank/download page inside <iframe>.
-  String _webReadableBookUrl(String epubUrl) {
-    // Project Gutenberg: .../cache/epub/{id}/pg{id}-images.epub
+  String _webReadableBookUrl(String bookUrl) {
+    // Project Gutenberg landing page: /ebooks/{id}. Use the generated HTML
+    // body instead of the metadata page that buries book text under chrome.
+    final landing = RegExp(r'gutenberg\.org/ebooks/(\d+)', caseSensitive: false)
+        .firstMatch(bookUrl);
+    if (landing != null) {
+      final id = landing.group(1)!;
+      return 'https://www.gutenberg.org/cache/epub/$id/pg${id}-images.html';
+    }
+
+    // Project Gutenberg EPUB: .../cache/epub/{id}/pg{id}-images.epub
     final gut = RegExp(r'gutenberg\.org/cache/epub/(\d+)/', caseSensitive: false)
-        .firstMatch(epubUrl);
+        .firstMatch(bookUrl);
     if (gut != null) {
       final id = gut.group(1)!;
-      // HTML with images — iframe-friendly, stays on gutenberg.org.
-      return 'https://www.gutenberg.org/files/$id/$id-h/$id-h.htm';
+      return 'https://www.gutenberg.org/cache/epub/$id/pg${id}-images.html';
     }
     // Global Grey: no stable HTML mirror — use their book page if possible,
     // otherwise Internet Archive reader search is not reliable. Fall back to
@@ -646,21 +693,74 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
     final gg = RegExp(
             r'globalgreyebooks\.com/ebooks/([^/]+)\.epub',
             caseSensitive: false)
-        .firstMatch(epubUrl);
+        .firstMatch(bookUrl);
     if (gg != null) {
       final slug = gg.group(1)!;
       // Global Grey HTML book pages (public domain texts).
       return 'https://www.globalgreyebooks.com/$slug.html';
     }
     // Already an HTML/reader URL (Archive.org, Google Books, etc.).
-    return epubUrl;
+    return BookReaderContent.readableUrl(bookUrl);
+  }
+
+  Widget _buildWebEpubReader(String url) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          widget.book.title.split('—').first.trim(),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+        ),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back_rounded),
+          onPressed: () => setState(() {
+            _showReader = false;
+            _isLoading = true;
+          }),
+        ),
+      ),
+      body: EpubViewer(
+        epubSource: EpubSource.fromUrl(url),
+        epubController: _epubController,
+        displaySettings: EpubDisplaySettings(
+          flow: EpubFlow.scrolled,
+          snap: false,
+          allowScriptedContent: false,
+        ),
+        onEpubLoaded: () {
+          if (mounted) setState(() => _isLoading = false);
+          if (_lastCfi != null && _lastCfi!.isNotEmpty) {
+            _epubController.display(cfi: _lastCfi!);
+          }
+        },
+        onChaptersLoaded: (_) {
+          if (mounted) setState(() => _isLoading = false);
+        },
+        onRelocated: (location) {
+          if (!mounted) return;
+          final cfi = location.startCfi;
+          if (cfi.isNotEmpty) {
+            _lastCfi = cfi;
+            _progressBox?.put(_progressKey, cfi);
+          }
+        },
+        onTextSelected: (_) {},
+      ),
+    );
   }
 
   Widget _buildEpubReader(String url) {
-    // Web: embed HTML reader in-platform (raw .epub is blank in iframes).
-    // Mobile keeps flutter_epub_viewer.
+    // Web: render mapped HTML books through the controlled reader so source
+    // CSS cannot bury the text. Generic EPUB URLs use the package’s Web path.
     if (kIsWeb) {
-      return _webInAppReader(_webReadableBookUrl(url));
+      final readableUrl = _webReadableBookUrl(url);
+      if (readableUrl != url) {
+        return BookContentReaderScreen(
+          url: readableUrl,
+          title: widget.book.title,
+        );
+      }
+      return _buildWebEpubReader(url);
     }
     return Scaffold(
       appBar: AppBar(
@@ -738,30 +838,31 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
     );
   }
 
-  Widget _buildPdfReader(String assetPath) {
-    if (kIsWeb) {
-      return _WebAssetPdfReader(
-        assetPath: assetPath,
-        title: widget.book.title,
-        onBack: () => setState(() {
-          _showReader = false;
-          _isLoading = true;
-        }),
+  Widget _buildPdfReader(String assetPath) => _buildPdfDataReader(
+        sourceName: assetPath,
+        dataFuture: _loadPdfAsset(assetPath),
       );
+
+  void _rememberPdfPage(int page) {
+    _lastPdfPage = page;
+    final box = _progressBox;
+    if (box != null) {
+      unawaited(box.put(_pdfProgressKey, page.toString()));
     }
-    // Clear the overlay spinner quickly even if PDFView is slow to report.
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      Future<void>.delayed(const Duration(milliseconds: 1200), () {
-        if (mounted && _isLoading && _showReader) {
-          setState(() => _isLoading = false);
-        }
-      });
-    });
+  }
+
+  Widget _buildPdfDataReader({
+    required String sourceName,
+    required Future<Uint8List> dataFuture,
+  }) {
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
-        title: Text(widget.book.title.split('—').first.trim(),
-            maxLines: 1, overflow: TextOverflow.ellipsis),
+        title: Text(
+          widget.book.title.split('—').first.trim(),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+        ),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_rounded),
           onPressed: () => setState(() {
@@ -774,52 +875,33 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
         children: [
           Expanded(
             child: FutureBuilder<Uint8List>(
-              future: _loadPdfAsset(assetPath),
+              future: dataFuture,
               builder: (context, snapshot) {
                 if (snapshot.hasError) {
-                  return Center(
-                    child: Padding(
-                      padding: const EdgeInsets.all(24),
-                      child: Text(
-                        'Could not open this playbook.\n${snapshot.error}',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(color: AppTheme.textMuted(context)),
-                      ),
-                    ),
-                  );
+                  return _buildPdfError(context, snapshot.error);
                 }
                 if (!snapshot.hasData) {
                   return const Center(
                     child: CircularProgressIndicator(color: AppTheme.gold),
                   );
                 }
-                return Stack(
-                  children: [
-                    PDFView(
-                      pdfData: snapshot.data,
-                      defaultPage: _lastPdfPage ?? 0,
-                      nightMode:
-                          Theme.of(context).brightness == Brightness.dark,
-                      onRender: (_) {
-                        if (mounted) setState(() => _isLoading = false);
-                      },
-                      onPageChanged: (page, total) {
-                        if (page == null) return;
-                        _lastPdfPage = page;
-                        _progressBox?.put(_pdfProgressKey, page.toString());
-                      },
-                      onError: (_) {
-                        if (mounted) setState(() => _isLoading = false);
-                      },
-                      onPageError: (_, __) {
-                        if (mounted) setState(() => _isLoading = false);
-                      },
-                    ),
-                    if (_isLoading)
-                      const Center(
-                        child: CircularProgressIndicator(color: AppTheme.gold),
-                      ),
-                  ],
+                return PdfViewer.data(
+                  snapshot.data!,
+                  sourceName: sourceName,
+                  initialPageNumber: (_lastPdfPage ?? 0) + 1,
+                  params: PdfViewerParams(
+                    margin: 12,
+                    backgroundColor: Theme.of(context).brightness ==
+                            Brightness.dark
+                        ? const Color(0xFF111111)
+                        : const Color(0xFFE7E7E7),
+                    onPageChanged: (pageNumber) {
+                      if (pageNumber == null) return;
+                      final page = pageNumber - 1;
+                      if (page == _lastPdfPage) return;
+                      _rememberPdfPage(page);
+                    },
+                  ),
                 );
               },
             ),
@@ -835,7 +917,56 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
     );
   }
 
+  Widget _buildPdfError(BuildContext context, Object? error) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(24),
+        child: Text(
+          'Could not open this PDF.\n${error ?? 'Unknown error'}',
+          textAlign: TextAlign.center,
+          style: TextStyle(color: AppTheme.textMuted(context)),
+        ),
+      ),
+    );
+  }
+
   // ── Local (downloaded) PDF reader ──────────────────────────────────────────
+
+  Widget _buildRemotePdfReader(String url) {
+    return Scaffold(
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      appBar: AppBar(
+        title: Text(
+          widget.book.title.split('—').first.trim(),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+        ),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back_rounded),
+          onPressed: () => setState(() {
+            _showReader = false;
+            _isLoading = true;
+          }),
+        ),
+      ),
+      body: PdfViewer.uri(
+        Uri.parse(url),
+        preferRangeAccess: false,
+        params: PdfViewerParams(
+          margin: 12,
+          backgroundColor: Theme.of(context).brightness == Brightness.dark
+              ? const Color(0xFF111111)
+              : const Color(0xFFE7E7E7),
+          onPageChanged: (pageNumber) {
+            if (pageNumber == null) return;
+            final page = pageNumber - 1;
+            if (page == _lastPdfPage) return;
+            _rememberPdfPage(page);
+          },
+        ),
+      ),
+    );
+  }
 
   Widget _buildLocalPdfReader(String filePath) {
     if (kIsWeb) {
@@ -846,81 +977,9 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
         child: Text('PDF is not available offline on web.'),
       );
     }
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.book.title.split('—').first.trim(),
-            maxLines: 1, overflow: TextOverflow.ellipsis),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back_rounded),
-          onPressed: () => setState(() {
-            _showReader = false;
-            _isLoading  = true;
-          }),
-        ),
-      ),
-      body: Column(
-        children: [
-          Expanded(
-            child: FutureBuilder<Uint8List>(
-              future: pdf_io.readBytes(filePath),
-              builder: (context, snapshot) {
-                if (snapshot.hasError) {
-                  return Center(
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        const Icon(Icons.error_outline,
-                            color: AppTheme.gold, size: 40),
-                        const SizedBox(height: 12),
-                        Text('Could not open the PDF.',
-                            style: TextStyle(
-                                color: AppTheme.textSecondary(context))),
-                      ],
-                    ),
-                  );
-                }
-                if (!snapshot.hasData) {
-                  return const Center(
-                    child: CircularProgressIndicator(color: AppTheme.gold),
-                  );
-                }
-                return Stack(
-                  children: [
-                    PDFView(
-                      pdfData: snapshot.data,
-                      defaultPage: _lastPdfPage ?? 0,
-                      nightMode: Theme.of(context).brightness ==
-                          Brightness.dark,
-                      onRender: (_) {
-                        if (mounted) setState(() => _isLoading = false);
-                      },
-                      onPageChanged: (page, _) {
-                        if (page == null) return;
-                        _lastPdfPage = page;
-                        _progressBox?.put(_pdfProgressKey, page.toString());
-                      },
-                      onError: (_) {
-                        if (mounted) setState(() => _isLoading = false);
-                      },
-                    ),
-                    if (_isLoading)
-                      const Center(
-                        child:
-                            CircularProgressIndicator(color: AppTheme.gold),
-                      ),
-                  ],
-                );
-              },
-            ),
-          ),
-          ListenableBuilder(
-            listenable: AdService.instance,
-            builder: (_, __) => AdService.instance.adsRemoved
-                ? const SizedBox.shrink()
-                : const StickyBannerBar(),
-          ),
-        ],
-      ),
+    return _buildPdfDataReader(
+      sourceName: filePath,
+      dataFuture: pdf_io.readBytes(filePath),
     );
   }
 
@@ -1317,78 +1376,6 @@ class _BuyFullBookCard extends StatelessWidget {
           ),
         ],
       ),
-    );
-  }
-}
-
-
-/// Web-only: rootBundle → blob URL → in-app iframe (works on GitHub Pages).
-class _WebAssetPdfReader extends StatefulWidget {
-  final String assetPath;
-  final String title;
-  final VoidCallback onBack;
-
-  const _WebAssetPdfReader({
-    required this.assetPath,
-    required this.title,
-    required this.onBack,
-  });
-
-  @override
-  State<_WebAssetPdfReader> createState() => _WebAssetPdfReaderState();
-}
-
-class _WebAssetPdfReaderState extends State<_WebAssetPdfReader> {
-  String? _blobUrl;
-
-  @override
-  void initState() {
-    super.initState();
-    _load();
-  }
-
-  Future<void> _load() async {
-    try {
-      final data = await rootBundle.load(widget.assetPath);
-      final bytes = data.buffer.asUint8List();
-      // Prefer blob URL so the browser native PDF viewer works offline after load.
-      final url = await createPdfBlobUrl(bytes);
-      if (!mounted) return;
-      setState(() => _blobUrl = url);
-    } on Object {
-      // Fallback: try relative asset path under base href.
-      final fallback = Uri.base.resolve(widget.assetPath).toString();
-      if (!mounted) return;
-      setState(() {
-        _blobUrl = fallback;
-      });
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title.split('—').first.trim(),
-            maxLines: 1, overflow: TextOverflow.ellipsis),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back_rounded),
-          onPressed: widget.onBack,
-        ),
-      ),
-      body: _blobUrl == null
-          ? const Center(child: CircularProgressIndicator(color: AppTheme.gold))
-          : Column(
-              children: [
-                Expanded(child: WebIframeView(url: _blobUrl!, title: widget.title)),
-                ListenableBuilder(
-                  listenable: AdService.instance,
-                  builder: (_, __) => AdService.instance.adsRemoved
-                      ? const SizedBox.shrink()
-                      : const StickyBannerBar(),
-                ),
-              ],
-            ),
     );
   }
 }

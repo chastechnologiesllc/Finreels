@@ -6,6 +6,7 @@ import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/saved_bookmark.dart';
 import 'package:finreels/models/video.dart';
 import 'package:finreels/services/blog_rss_service.dart';
+import 'package:finreels/services/book_reader_content.dart';
 import 'package:finreels/services/feed_snapshot_service.dart';
 import 'package:finreels/services/media_cache_manager.dart';
 import 'package:finreels/utils/category_search.dart';
@@ -522,6 +523,58 @@ void main() {
       expect(
         RegExp(r'^(skill|business|profession|online_hustles)_\d{2}_')
             .hasMatch(CategorySearch.othersId),
+        isFalse,
+      );
+    });
+  });
+
+  // ── Book reader content handling ───────────────────────────────────────────
+  group('Book reader content handling', () {
+    test('maps Gutenberg landing pages to the readable HTML body', () {
+      expect(
+        BookReaderContent.readableUrl('https://www.gutenberg.org/ebooks/7598'),
+        'https://www.gutenberg.org/cache/epub/7598/pg7598-images.html',
+      );
+    });
+
+    test('maps Gutenberg EPUB URLs to the generated HTML body', () {
+      expect(
+        BookReaderContent.readableUrl(
+          'https://www.gutenberg.org/cache/epub/7598/pg7598-images.epub',
+        ),
+        'https://www.gutenberg.org/cache/epub/7598/pg7598-images.html',
+      );
+    });
+
+    test('strips source CSS and page chrome while preserving book text', () {
+      final clean = BookReaderContent.sanitizeHtml('''
+        <html><head><style>body { background: black; color: white; }</style></head>
+        <body><nav>Metadata navigation</nav><h1 style="color:white">The Caxtons</h1>
+        <p>This is the readable book text.</p><script>alert('x')</script></body></html>
+      ''');
+      expect(clean, contains('The Caxtons'));
+      expect(clean, contains('This is the readable book text.'));
+      expect(clean, isNot(contains('Metadata navigation')));
+      expect(clean, isNot(contains('<style')));
+      expect(clean, isNot(contains('background: black')));
+      expect(clean, isNot(contains('<script')));
+    });
+
+    test('detects plain text book responses', () {
+      expect(
+        BookReaderContent.looksLikePlainText(
+          'https://example.com/book.txt',
+          'text/plain; charset=utf-8',
+          'Chapter one\\nReadable text',
+        ),
+        isTrue,
+      );
+      expect(
+        BookReaderContent.looksLikePlainText(
+          'https://example.com/book',
+          'text/html',
+          '<html><body><p>Readable text</p></body></html>',
+        ),
         isFalse,
       );
     });
