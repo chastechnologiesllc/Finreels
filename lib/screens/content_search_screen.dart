@@ -14,6 +14,7 @@ import '../services/platform_search_index.dart';
 import '../theme/app_theme.dart';
 import '../widgets/blog_thumbnail_image.dart';
 import '../widgets/book_cover_image.dart';
+import '../widgets/finreels_shimmer.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
 import 'blog_channel_screen.dart';
@@ -168,7 +169,8 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
         newState == FeedState.loaded &&
         _query.length >= 2 &&
         !_typing) {
-      unawaited(_search(_query, _searchGeneration));
+      final generation = ++_searchGeneration;
+      unawaited(_search(_query, generation));
     }
     _lastFeedState = newState;
   }
@@ -205,7 +207,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
     // Debounce only the expensive search work, keeping the text field itself
     // responsive while avoiding one full index pass per keystroke.
     _debounce = Timer(
-      const Duration(milliseconds: 260),
+      const Duration(milliseconds: 200),
       () => unawaited(_search(q, generation)),
     );
   }
@@ -283,67 +285,97 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
       _typing = false;
     });
 
+    // Start the cheap, same-origin blog seed in parallel with index readiness.
+    // It can complete from the 10-minute RSS cache or bundled snapshot without
+    // waiting for live network requests.
+    final seedFuture = BlogRssService.instance
+        .fetchSearchSeed()
+        .catchError((_) => const <BlogArticle>[]);
+
     await PlatformSearchIndex.instance.ensureReady();
     if (!_isCurrentSearch(q, generation)) return;
 
-    final indexed = PlatformSearchIndex.instance.search(
-      query: q,
-      videos: _fp.allFeedVideos,
-      books: _fp.allBooksForSearch,
-    );
+    // Stage 1: score the indexed categories, channels, books, videos and
+    // Shorts in bounded batches. Each batch is published immediately so broad
+    // two-letter queries never monopolize the UI isolate.
     final newLeft = <_SearchItem>[];
     final newRight = <_SearchItem>[];
-    for (final document in indexed) {
-      final item = _itemFor(document);
-      if (item.isShort) {
-        newLeft.add(item);
-      } else {
-        newRight.add(item);
-      }
-    }
-
-    if (!_isCurrentSearch(q, generation)) return;
-    setState(() {
-      _left = newLeft;
-      _right = newRight;
-      _loading = false;
-      _fetchingBlogs = true;
-    });
 
     int cmp(_SearchItem a, _SearchItem b) {
       final sc = b.score.compareTo(a.score);
       return sc != 0 ? sc : b.date.compareTo(a.date);
     }
 
-    // Live articles are fetched separately because the static index must be
-    // instant and the Blogs tab itself owns the network cache.
-    try {
-      final articles = await BlogRssService.instance
-          .fetchAll()
-          .timeout(const Duration(seconds: 5));
+    await for (final batch in PlatformSearchIndex.instance.searchProgressively(
+      query: q,
+      videos: _fp.allFeedVideos,
+      books: _fp.allBooksForSearch,
+    )) {
       if (!_isCurrentSearch(q, generation)) return;
-      final blogDocs = PlatformSearchIndex.instance.search(
-        query: q,
-        articles: articles,
-      ).where((document) => document.kind == PlatformSearchKind.blog);
-      final blogItems = [
-        for (final document in blogDocs) _itemFor(document),
-      ];
+      for (final document in batch) {
+        final item = _itemFor(document);
+        if (item.isShort) {
+          newLeft.add(item);
+        } else {
+          newRight.add(item);
+        }
+      }
+      newLeft.sort(cmp);
+      newRight.sort(cmp);
+      if (_isCurrentSearch(q, generation)) {
+        setState(() {
+          _left = List.unmodifiable(newLeft);
+          _right = List.unmodifiable(newRight);
+          _loading = false;
+          _fetchingBlogs = true;
+        });
+      }
+    }
+
+    if (!_isCurrentSearch(q, generation)) return;
+    // A query with no indexed matches still transitions out of the index
+    // stage, allowing the blog seed/live stages to finish and the UI to show
+    // a truthful "0 results so far" state rather than an indefinite spinner.
+    if (_loading) {
+      setState(() {
+        _loading = false;
+        _fetchingBlogs = true;
+      });
+    }
+
+    Future<void> mergeBlogs(List<BlogArticle> articles) async {
+      if (!_isCurrentSearch(q, generation) || articles.isEmpty) return;
+      final blogDocs = PlatformSearchIndex.instance
+          .search(query: q, articles: articles)
+          .where((document) => document.kind == PlatformSearchKind.blog);
+      final blogItems = [for (final document in blogDocs) _itemFor(document)];
       final existingKeys = {for (final item in _right) _itemKey(item)};
       final merged = [
         ..._right,
         ...blogItems.where((item) => existingKeys.add(_itemKey(item))),
       ]..sort(cmp);
       if (_isCurrentSearch(q, generation)) {
-        setState(() { _right = merged; _fetchingBlogs = false; });
+        setState(() => _right = merged);
       }
+    }
+
+    // Stage 2: merge local snapshot/fresh-cache articles as soon as ready.
+    final seedArticles = await seedFuture;
+    if (!_isCurrentSearch(q, generation)) return;
+    await mergeBlogs(seedArticles);
+
+    // Stage 3: fetch live RSS only after the fast result set is visible.
+    try {
+      final articles = await BlogRssService.instance
+          .fetchAll()
+          .timeout(const Duration(seconds: 5));
+      if (!_isCurrentSearch(q, generation)) return;
+      await mergeBlogs(articles);
     } on TimeoutException {
       debugPrint('[ContentSearch] blog fetch timed out for: $q');
-      if (_isCurrentSearch(q, generation)) {
-        setState(() => _fetchingBlogs = false);
-      }
     } on Exception catch (e) {
       debugPrint('[ContentSearch] blog fetch error: $e');
+    } finally {
       if (_isCurrentSearch(q, generation)) {
         setState(() => _fetchingBlogs = false);
       }
@@ -513,37 +545,39 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
     );
   }
 
+  String get _resultSummary {
+    final count = _left.length + _right.length;
+    if (_typing || (_loading && count == 0)) {
+      return 'Searching for "$_query"…';
+    }
+    if (_fetchingBlogs) {
+      return '$count results so far for "$_query"';
+    }
+    return '$count results for "$_query"';
+  }
+
   Widget _buildBody() {
     if (_query.isEmpty) return _EmptyPrompt();
 
-    if (_loading) {
-      return const Center(
-        child: CircularProgressIndicator(color: AppTheme.gold, strokeWidth: 2.5),
-      );
-    }
-
+    final hasResults = _left.isNotEmpty || _right.isNotEmpty;
     final feedLoading = _fp.state == FeedState.loading ||
         _fp.state == FeedState.idle;
+    final stillLoading = _typing || _loading || _fetchingBlogs ||
+        (!hasResults && feedLoading);
 
-    // If in-memory results are empty AND the feed is still loading, show a
-    // loading state rather than "no results" — results will appear as soon
-    // as FeedProvider finishes (_onFeedChanged triggers a re-search).
-    if (_left.isEmpty && _right.isEmpty && feedLoading) {
-      return Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            const CircularProgressIndicator(color: AppTheme.gold, strokeWidth: 2.5),
-            const SizedBox(height: 16),
-            Text('Loading your content…',
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: AppTheme.textMuted(context))),
-          ],
-        ),
+    // Never block the text field with a centered spinner. While the first
+    // stage is pending, show an animated, bounded result preview; once any
+    // stage completes, the real lazy result list stays visible and its count
+    // continues to update as later stages arrive.
+    if (!hasResults && stillLoading) {
+      return _SearchProgress(
+        query: _query,
+        waitingForIndex: _typing || _loading,
+        visibleCount: 0,
       );
     }
 
-    if (_left.isEmpty && _right.isEmpty) {
+    if (!hasResults) {
       return _NoResults(query: _query, stillFetchingBlogs: _fetchingBlogs);
     }
 
@@ -575,22 +609,28 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
           padding: const EdgeInsets.fromLTRB(16, 4, 16, 4),
           child: Row(
             children: [
-              Text(
-                '${_left.length + _right.length} results for "$_query"',
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: AppTheme.textMuted(context)),
-              ),
-              if (_fetchingBlogs) ...[
-                const SizedBox(width: 8),
-                const SizedBox(
-                  width: 10, height: 10,
-                  child: CircularProgressIndicator(
-                      color: AppTheme.gold, strokeWidth: 1.5),
+              Expanded(
+                child: Text(
+                  _resultSummary,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: AppTheme.textMuted(context)),
                 ),
-                const SizedBox(width: 4),
-                Text('searching blogs…',
-                    style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                        color: AppTheme.textMuted(context))),
+              ),
+              if (_typing || _loading || _fetchingBlogs) ...[
+                const SizedBox(width: 8),
+                SizedBox(
+                  width: 72,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(4),
+                    child: const LinearProgressIndicator(
+                      minHeight: 3,
+                      color: AppTheme.gold,
+                      backgroundColor: Color(0x33219E8A),
+                    ),
+                  ),
+                ),
               ],
             ],
           ),
@@ -1199,6 +1239,68 @@ class _BadgePill extends StatelessWidget {
               fontSize:    9,
               fontWeight:  FontWeight.w800,
               letterSpacing: 0.8)),
+    );
+  }
+}
+
+class _SearchProgress extends StatelessWidget {
+  final String query;
+  final bool waitingForIndex;
+  final int visibleCount;
+
+  const _SearchProgress({
+    required this.query,
+    required this.waitingForIndex,
+    required this.visibleCount,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final fill = FinreelsShimmer.fillColor(context);
+    return FinreelsShimmer(
+      child: ListView(
+        physics: const NeverScrollableScrollPhysics(),
+        padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Text(
+                  waitingForIndex
+                      ? 'Preparing matches for "$query"…'
+                      : 'Loading more matches…',
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: AppTheme.textMuted(context),
+                      ),
+                ),
+              ),
+              Text(
+                '$visibleCount results so far',
+                style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                      color: AppTheme.textMuted(context),
+                    ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          const LinearProgressIndicator(
+            minHeight: 3,
+            color: AppTheme.gold,
+            backgroundColor: Color(0x33219E8A),
+          ),
+          const SizedBox(height: 18),
+          for (var i = 0; i < 4; i++) ...[
+            Container(
+              height: 86,
+              decoration: BoxDecoration(
+                color: fill,
+                borderRadius: BorderRadius.circular(12),
+              ),
+            ),
+            if (i < 3) const SizedBox(height: 10),
+          ],
+        ],
+      ),
     );
   }
 }

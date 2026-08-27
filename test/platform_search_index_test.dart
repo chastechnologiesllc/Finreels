@@ -235,6 +235,37 @@ void main() {
     );
   });
 
+  test('progressive search yields batches without dropping matches', () async {
+    final videos = [
+      for (var i = 0; i < 135; i++)
+        Video(
+          id: 'progressive-match-$i',
+          title: 'Progressive Match Result $i',
+          description: 'A broad match for a two-letter query.',
+          channelId: 'progressive-channel',
+          channelName: 'Progressive Channel',
+          publishedAt: DateTime(2026, 8, 1),
+          thumbnailUrl: '',
+        ),
+    ];
+
+    final batches = await index
+        .searchProgressively(
+          query: 'progressive match',
+          videos: videos,
+          batchSize: 40,
+        )
+        .toList();
+    final results = batches.expand((batch) => batch).toList();
+
+    expect(batches.length, greaterThan(1));
+    expect(
+      results.where((document) =>
+          document.id.startsWith('video:progressive-match-')).length,
+      135,
+    );
+  });
+
   test('empty queries never return the entire catalogue', () {
     expect(index.search(query: ''), isEmpty);
     expect(index.search(query: ' '), isEmpty);

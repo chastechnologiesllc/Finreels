@@ -226,6 +226,8 @@ class PlatformSearchIndex {
   }) {
     final raw = query.trim();
     if (raw.isEmpty) return const [];
+    final prepared = _PreparedQuery(raw);
+    if (prepared.tokens.isEmpty) return const [];
     final documents = <PlatformSearchDocument>[..._staticDocuments];
     final seen = <String>{for (final doc in documents) doc.canonicalKey};
 
@@ -283,7 +285,7 @@ class PlatformSearchIndex {
 
     final scored = <_ScoredDocument>[];
     for (final document in documents) {
-      final score = _score(raw, document);
+      final score = _scorePrepared(prepared, document);
       if (score > 0) scored.add(_ScoredDocument(document, score));
     }
     scored.sort((a, b) {
@@ -300,10 +302,110 @@ class PlatformSearchIndex {
     ];
   }
 
+  /// Scores the full corpus in bounded batches and yields between batches so
+  /// Flutter can process text input, paint, and cancellation before continuing.
+  Stream<List<PlatformSearchDocument>> searchProgressively({
+    required String query,
+    List<Video> videos = const [],
+    List<Video> books = const [],
+    List<BlogArticle> articles = const [],
+    int batchSize = 320,
+  }) async* {
+    final raw = query.trim();
+    if (raw.isEmpty) return;
+    await Future<void>.delayed(Duration.zero);
+    final prepared = _PreparedQuery(raw);
+    if (prepared.tokens.isEmpty) return;
+    final documents = <PlatformSearchDocument>[..._staticDocuments];
+    final seen = <String>{for (final doc in documents) doc.canonicalKey};
+
+    for (final video in videos) {
+      final key = 'video:${video.id}';
+      if (!seen.add(key)) continue;
+      documents.add(PlatformSearchDocument(
+        id: key,
+        kind: video.isShort ? PlatformSearchKind.short : PlatformSearchKind.video,
+        title: video.title,
+        body: video.description,
+        source: '${video.channelName} ${video.channelId}',
+        canonicalKey: key,
+        date: video.publishedAt,
+        payload: video,
+        titleAliases: [video.channelName],
+      ));
+    }
+
+    for (final book in books) {
+      if (book.channelId == 'verified_book') continue;
+      final key = 'book:${book.id}';
+      if (!seen.add(key)) continue;
+      documents.add(PlatformSearchDocument(
+        id: key,
+        kind: PlatformSearchKind.book,
+        title: book.title,
+        body: book.description,
+        source: book.channelName,
+        canonicalKey: key,
+        date: book.publishedAt,
+        payload: book,
+        titleAliases: [book.channelName],
+      ));
+    }
+
+    for (final article in articles) {
+      final key = 'blog:${_canonicalUrl(article.url)}';
+      if (!seen.add(key)) continue;
+      documents.add(PlatformSearchDocument(
+        id: key,
+        kind: PlatformSearchKind.blog,
+        title: article.title,
+        body: article.excerpt,
+        source: article.sourceName,
+        canonicalKey: key,
+        date: article.publishedAt,
+        payload: article,
+        titleAliases: [article.sourceName],
+      ));
+    }
+
+    final size = batchSize < 32 ? 32 : batchSize;
+    for (var start = 0; start < documents.length; start += size) {
+      final end = (start + size < documents.length)
+          ? start + size
+          : documents.length;
+      final batch = <_ScoredDocument>[];
+      for (var index = start; index < end; index++) {
+        final document = documents[index];
+        final score = _scorePrepared(prepared, document);
+        if (score > 0) batch.add(_ScoredDocument(document, score));
+      }
+      batch.sort(_compareScored);
+      if (batch.isNotEmpty) {
+        yield [
+          for (final item in batch) item.document.withRelevance(item.score),
+        ];
+      }
+      await Future<void>.delayed(Duration.zero);
+    }
+  }
+
+  static int _compareScored(_ScoredDocument a, _ScoredDocument b) {
+    final scoreOrder = b.score.compareTo(a.score);
+    if (scoreOrder != 0) return scoreOrder;
+    final dateOrder = b.document.date.compareTo(a.document.date);
+    if (dateOrder != 0) return dateOrder;
+    return a.document.title.toLowerCase().compareTo(b.document.title.toLowerCase());
+  }
+
   static double _score(String rawQuery, PlatformSearchDocument document) {
-    final normalizedQuery = _normalize(rawQuery);
+    return _scorePrepared(_PreparedQuery(rawQuery), document);
+  }
+
+  static double _scorePrepared(
+      _PreparedQuery query, PlatformSearchDocument document) {
+    final normalizedQuery = query.normalized;
     if (normalizedQuery.isEmpty) return 0;
-    final queryTokens = _tokens(normalizedQuery);
+    final queryTokens = query.tokens;
     if (queryTokens.isEmpty) return 0;
 
     final title = _normalize(document.title);
@@ -316,11 +418,7 @@ class PlatformSearchIndex {
     final bodyTokens = _tokens(body);
     final sourceTokens = _tokens(source);
     final allTokens = _tokens(allText);
-    final phrases = RegExp(r'"([^"]+)"')
-        .allMatches(rawQuery)
-        .map((match) => _normalize(match.group(1) ?? ''))
-        .where((phrase) => phrase.isNotEmpty)
-        .toList();
+    final phrases = query.phrases;
 
     double score = 0;
     final exactTitle = title == normalizedQuery;
@@ -483,6 +581,27 @@ class _ScoredDocument {
   final PlatformSearchDocument document;
   final double score;
   const _ScoredDocument(this.document, this.score);
+}
+
+class _PreparedQuery {
+  final String normalized;
+  final List<String> tokens;
+  final List<String> phrases;
+
+  factory _PreparedQuery(String raw) {
+    final normalized = PlatformSearchIndex._normalize(raw);
+    return _PreparedQuery._(
+      normalized,
+      PlatformSearchIndex._tokens(normalized),
+      RegExp(r'"([^"]+)"')
+          .allMatches(raw)
+          .map((match) => PlatformSearchIndex._normalize(match.group(1) ?? ''))
+          .where((phrase) => phrase.isNotEmpty)
+          .toList(growable: false),
+    );
+  }
+
+  const _PreparedQuery._(this.normalized, this.tokens, this.phrases);
 }
 
 extension<T> on Iterable<T> {

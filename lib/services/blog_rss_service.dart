@@ -133,6 +133,14 @@ class BlogRssService {
       _cacheTime != null &&
       DateTime.now().difference(_cacheTime!) < _cacheTtl;
 
+  /// Returns the quickest locally available article corpus for typeahead
+  /// search. A fresh RSS result is returned immediately; otherwise the
+  /// memoized bundled snapshot is used without starting live network work.
+  Future<List<BlogArticle>> fetchSearchSeed() async {
+    if (_isCacheFresh) return _cache!;
+    return _loadSnapshotArticles();
+  }
+
   /// Powers the aggregated, passive Blogs tab — general feeds plus
   /// whatever categories the person selected (see [combinedBlogFeeds]).
   /// Cached for 10 minutes; FeedProvider clears that cache the moment the
