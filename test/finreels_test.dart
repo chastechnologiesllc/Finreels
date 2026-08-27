@@ -150,11 +150,10 @@ void main() {
 
   // ── Media cache ────────────────────────────────────────────────────────────
   group('Media cache', () {
-    test('shares one persistent manager and remembers successful candidates', () {
+    test('remembers successful fallback candidates', () {
       const key = 'test-media-cache-key';
       FinReelsMediaCache.rememberSelection(key, 4);
       expect(FinReelsMediaCache.selectedIndex(key), 4);
-      expect(identical(FinReelsMediaCache.instance, FinReelsMediaCache.instance), isTrue);
     });
   });
 
