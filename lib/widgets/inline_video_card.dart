@@ -526,13 +526,23 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                                 shape: BoxShape.circle),
                           ),
                           const SizedBox(width: 6),
-                          Text(widget.channel.name,
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .bodySmall
-                                  ?.copyWith(
-                                      fontWeight: FontWeight.w700,
-                                      color: AppTheme.gold)),
+                          Flexible(
+                            child: Text(widget.channel.name,
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: Theme.of(context)
+                                    .textTheme
+                                    .bodyMedium
+                                    ?.copyWith(
+                                      fontWeight: FontWeight.w800,
+                                      color: AppTheme.gold,
+                                      decoration: TextDecoration.underline,
+                                      decorationThickness: 1.4,
+                                    )),
+                          ),
+                          const SizedBox(width: 4),
+                          const Icon(Icons.arrow_forward_ios_rounded,
+                              size: 11, color: AppTheme.gold),
                         ],
                       ),
                     ),

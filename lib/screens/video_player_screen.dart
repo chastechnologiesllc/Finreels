@@ -365,8 +365,25 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                         ChannelVideosScreen(channel: widget.channel),
                   ),
                 ),
-                child: Text(widget.channel.name,
-                    style: const TextStyle(fontSize: 15)),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    ConstrainedBox(
+                      constraints: const BoxConstraints(maxWidth: 220),
+                      child: Text(
+                          widget.channel.name,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: const TextStyle(
+                            fontSize: 17,
+                            fontWeight: FontWeight.w800,
+                            decoration: TextDecoration.underline,
+                          )),
+                    ),
+                    const SizedBox(width: 5),
+                    const Icon(Icons.arrow_forward_ios_rounded, size: 12),
+                  ],
+                ),
               ),
               actions: [
                 ValueListenableBuilder<int>(
@@ -433,13 +450,28 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(widget.channel.name,
-                                    style: Theme.of(context)
-                                        .textTheme
-                                        .titleSmall
-                                        ?.copyWith(
-                                            fontWeight: FontWeight.w700,
-                                            color: AppTheme.gold)),
+                                Row(
+                                  children: [
+                                    Expanded(
+                                      child: Text(widget.channel.name,
+                                          maxLines: 1,
+                                          overflow: TextOverflow.ellipsis,
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .titleMedium
+                                              ?.copyWith(
+                                                fontWeight: FontWeight.w800,
+                                                color: AppTheme.gold,
+                                                decoration:
+                                                    TextDecoration.underline,
+                                                decorationThickness: 1.4,
+                                              )),
+                                    ),
+                                    const SizedBox(width: 5),
+                                    const Icon(Icons.arrow_forward_ios_rounded,
+                                        size: 12, color: AppTheme.gold),
+                                  ],
+                                ),
                                 Text(widget.channel.focus,
                                     style: Theme.of(context)
                                         .textTheme

@@ -17,6 +17,7 @@ import '../widgets/blog_thumbnail_image.dart';
 import '../widgets/book_cover_image.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
+import 'blog_channel_screen.dart';
 import 'blog_reader_screen.dart';
 import 'book_detail_screen.dart';
 import 'category_detail_screen.dart';
@@ -411,6 +412,15 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
     }
   }
 
+  void _openBlogChannel(String sourceName) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => BlogChannelScreen(sourceName: sourceName),
+      ),
+    );
+  }
+
   void _openArticle(BlogArticle a) {
     Navigator.push(
       context,
@@ -458,6 +468,11 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
   }
 
   void _openBlogSource(Map<String, String> source) {
+    final name = source['name']?.trim();
+    if (name != null && name.isNotEmpty) {
+      _openBlogChannel(name);
+      return;
+    }
     final url = source['url']?.trim();
     if (url == null || url.isEmpty) return;
     Navigator.push(
@@ -465,8 +480,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
       MaterialPageRoute(
         builder: (_) => BlogReaderScreen(
           url: url,
-          title: source['name'] ?? 'Blog source',
-          sourceName: source['name'],
+          title: 'Blog source',
           categoryId: source['categoryId'],
         ),
       ),
@@ -547,6 +561,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
             onTapVideo: _openVideo,
             onTapBook: _openBook,
             onTapBlog: _openArticle,
+            onTapBlogChannel: _openBlogChannel,
             onTapCategory: _openCategory,
             onTapChannel: _openChannel,
             onTapVerifiedBook: _openVerifiedBook,
@@ -633,6 +648,7 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
                         onTapVideo: _openVideo,
                         onTapBook: _openBook,
                         onTapBlog: _openArticle,
+                        onTapBlogChannel: _openBlogChannel,
                         onTapCategory: _openCategory,
                         onTapChannel: _openChannel,
                         onTapVerifiedBook: _openVerifiedBook,
@@ -851,6 +867,7 @@ class _ContentCard extends StatelessWidget {
   final void Function(Video)         onTapVideo;
   final void Function(Video)         onTapBook;
   final void Function(BlogArticle)   onTapBlog;
+  final void Function(String) onTapBlogChannel;
   final void Function(ResourceCategory) onTapCategory;
   final void Function(Channel) onTapChannel;
   final void Function(VerifiedBook) onTapVerifiedBook;
@@ -863,6 +880,7 @@ class _ContentCard extends StatelessWidget {
     required this.onTapVideo,
     required this.onTapBook,
     required this.onTapBlog,
+    required this.onTapBlogChannel,
     required this.onTapCategory,
     required this.onTapChannel,
     required this.onTapVerifiedBook,
@@ -948,11 +966,7 @@ class _ContentCard extends StatelessWidget {
                           style: Theme.of(context).textTheme.bodySmall?.copyWith(
                               fontWeight: FontWeight.w700, height: 1.3)),
                       const SizedBox(height: 4),
-                      Text(_sourceLine(context),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                              color: AppTheme.textMuted(context))),
+                      _buildSourceMeta(context),
                     ],
                   ),
                 ),
@@ -971,26 +985,55 @@ class _ContentCard extends StatelessWidget {
       item.blogSource?['name'] ??
       item.verifiedBook?.title ?? '';
 
-  String _sourceLine(BuildContext context) {
+  Widget _buildSourceMeta(BuildContext context) {
     if (item.article != null) {
-      return '${item.article!.sourceName} · ${timeago.format(item.article!.publishedAt)}';
+      return _SearchSourceLink(
+        label: item.article!.sourceName,
+        onTap: () => onTapBlogChannel(item.article!.sourceName),
+      );
     }
     if (item.video != null) {
-      final ch = ChannelData.byId[item.video!.channelId] ?? ChannelData.fallback;
-      if (item.kind == _ResultKind.book) return item.video!.description;
-      return '${ch.name} · ${timeago.format(item.video!.publishedAt)}';
+      final channel =
+          ChannelData.byId[item.video!.channelId] ?? ChannelData.fallback;
+      if (item.kind == _ResultKind.book) {
+        return Text(item.video!.description,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                color: AppTheme.textMuted(context)));
+      }
+      return _SearchSourceLink(
+        label: channel.name,
+        onTap: () => onTapChannel(channel),
+      );
     }
-    if (item.verifiedBook != null) return item.verifiedBook!.author;
+    if (item.verifiedBook != null) {
+      return Text(item.verifiedBook!.author,
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+          style: Theme.of(context).textTheme.labelSmall?.copyWith(
+              color: AppTheme.textMuted(context)));
+    }
     if (item.category != null) {
-      return '${item.category!.section.label} · FinReels research';
+      return Text('${item.category!.section.label} · FinReels research',
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+          style: Theme.of(context).textTheme.labelSmall?.copyWith(
+              color: AppTheme.textMuted(context)));
     }
     if (item.channel != null) {
-      return '${item.channel!.handle} · ${item.channel!.focus}';
+      return _SearchSourceLink(
+        label: item.channel!.name,
+        onTap: () => onTapChannel(item.channel!),
+      );
     }
     if (item.blogSource != null) {
-      return item.blogSource!['focus'] ?? 'Verified blog source';
+      return _SearchSourceLink(
+        label: item.blogSource!['name'] ?? 'Verified blog source',
+        onTap: () => onTapBlogSource(item.blogSource!),
+      );
     }
-    return '';
+    return const SizedBox.shrink();
   }
 
   Widget _buildThumb(BuildContext context) {
@@ -1078,6 +1121,48 @@ class _ContentCard extends StatelessWidget {
               ),
             ),
         ],
+      ),
+    );
+  }
+}
+
+class _SearchSourceLink extends StatelessWidget {
+  final String label;
+  final VoidCallback onTap;
+
+  const _SearchSourceLink({required this.label, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return Align(
+      alignment: Alignment.centerLeft,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(7),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 3),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Icon(Icons.open_in_new_rounded,
+                  size: 14, color: AppTheme.gold),
+              const SizedBox(width: 5),
+              ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 180),
+                child: Text(
+                    label,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: AppTheme.gold,
+                          fontWeight: FontWeight.w800,
+                          decoration: TextDecoration.underline,
+                          decorationThickness: 1.2,
+                        )),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

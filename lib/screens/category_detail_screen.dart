@@ -14,6 +14,7 @@ import '../services/user_profile_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/book_cover_image.dart';
 import '../widgets/channel_avatar.dart';
+import 'blog_channel_screen.dart';
 import 'blog_reader_screen.dart';
 import 'book_detail_screen.dart';
 import 'channel_videos_screen.dart';
@@ -468,12 +469,45 @@ class _BlogTile extends StatelessWidget {
                             .textTheme
                             .titleSmall
                             ?.copyWith(fontWeight: FontWeight.w700)),
-                    const SizedBox(height: 2),
-                    Text(article.sourceName,
-                        style: Theme.of(context)
-                            .textTheme
-                            .bodySmall
-                            ?.copyWith(color: AppTheme.textSecondary(context))),
+                    const SizedBox(height: 4),
+                    InkWell(
+                      onTap: () => Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => BlogChannelScreen(
+                            sourceName: article.sourceName,
+                          ),
+                        ),
+                      ),
+                      borderRadius: BorderRadius.circular(6),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 2, vertical: 3),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(Icons.rss_feed_rounded,
+                                size: 15, color: AppTheme.gold),
+                            const SizedBox(width: 5),
+                            Flexible(
+                              child: Text(article.sourceName,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: Theme.of(context)
+                                      .textTheme
+                                      .bodyMedium
+                                      ?.copyWith(
+                                        color: AppTheme.gold,
+                                        fontWeight: FontWeight.w800,
+                                        decoration: TextDecoration.underline,
+                                      )),
+                            ),
+                            const SizedBox(width: 4),
+                            const Icon(Icons.arrow_forward_ios_rounded,
+                                size: 10, color: AppTheme.gold),
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),

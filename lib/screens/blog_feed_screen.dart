@@ -11,6 +11,7 @@ import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/blog_thumbnail_image.dart';
 import '../widgets/finreels_shimmer.dart';
+import 'blog_channel_screen.dart';
 import 'blog_reader_screen.dart';
 
 /// Fix 4 — Blogs Tab Design
@@ -165,6 +166,16 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
                   article: article,
                   saved: provider.isBlogSaved(article.url),
                   onSave: () => provider.toggleBlogSaved(article),
+                  onSourceTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => BlogChannelScreen(
+                          sourceName: article.sourceName,
+                        ),
+                      ),
+                    );
+                  },
                   onTap: () {
                     // Interstitial on tap 4, 8, 12 … (blog-specific counter)
                     unawaited(AdService.instance.onBlogTapped());
@@ -282,12 +293,14 @@ class _BlogCard extends StatelessWidget {
   final bool saved;
   final VoidCallback onSave;
   final VoidCallback onTap;
+  final VoidCallback onSourceTap;
 
   const _BlogCard({
     required this.article,
     required this.saved,
     required this.onSave,
     required this.onTap,
+    required this.onSourceTap,
   });
 
   @override
@@ -333,23 +346,43 @@ class _BlogCard extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Source + date
+                  // Prominent, clearly clickable blog channel/source name.
                   Row(
                     children: [
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 7, vertical: 2),
-                        decoration: BoxDecoration(
-                          color: AppTheme.gold.withValues(alpha: 0.12),
-                          borderRadius: BorderRadius.circular(5),
-                        ),
-                        child: Text(
-                          article.sourceName.toUpperCase(),
-                          style: const TextStyle(
-                            color: AppTheme.gold,
-                            fontSize: 9,
-                            fontWeight: FontWeight.w800,
-                            letterSpacing: 0.5,
+                      Expanded(
+                        child: InkWell(
+                          onTap: onSourceTap,
+                          borderRadius: BorderRadius.circular(8),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                                vertical: 4, horizontal: 2),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                const Icon(Icons.rss_feed_rounded,
+                                    size: 17, color: AppTheme.gold),
+                                const SizedBox(width: 6),
+                                Flexible(
+                                  child: Text(
+                                    article.sourceName,
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .bodyMedium
+                                        ?.copyWith(
+                                          color: AppTheme.gold,
+                                          fontWeight: FontWeight.w800,
+                                          decoration: TextDecoration.underline,
+                                          decorationThickness: 1.4,
+                                        ),
+                                  ),
+                                ),
+                                const SizedBox(width: 5),
+                                const Icon(Icons.arrow_forward_ios_rounded,
+                                    size: 12, color: AppTheme.gold),
+                              ],
+                            ),
                           ),
                         ),
                       ),

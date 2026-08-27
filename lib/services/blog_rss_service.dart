@@ -161,6 +161,30 @@ class BlogRssService {
     return mixed;
   }
 
+  /// Fetches articles for one named blog source for its dedicated channel
+  /// screen. This intentionally searches the complete verified source catalog,
+  /// not only the viewer's selected categories, because a source opened from a
+  /// card should remain browsable from anywhere in the app.
+  Future<List<BlogArticle>> fetchForSource(String sourceName) async {
+    final normalized = sourceName.trim().toLowerCase();
+    if (normalized.isEmpty) return const [];
+
+    final allSources = <Map<String, String>>[
+      ...kBlogFeeds,
+      ...ResourceCategoryData.verifiedBlogs
+          .map((entry) => Map<String, String>.from(entry)),
+    ];
+    final matching = allSources.where((source) {
+      return (source['name'] ?? '').trim().toLowerCase() == normalized;
+    });
+    final feeds = _deduplicateFeeds(matching);
+    if (feeds.isEmpty) return const [];
+
+    final results = await _fetchFeedsBounded(feeds);
+    final articles = results.expand((list) => list).toList(growable: false);
+    return compute(_sortArticles, articles);
+  }
+
   /// Fetches ONE category's own blogs directly — regardless of whether the
   /// person has that category selected. For CategoryDetailScreen (reached
   /// from Discover, browsing any of the 60), which must show a category's
