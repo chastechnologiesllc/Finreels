@@ -173,9 +173,13 @@ class BlogRssService {
   /// screen. This intentionally searches the complete verified source catalog,
   /// not only the viewer's selected categories, because a source opened from a
   /// card should remain browsable from anywhere in the app.
-  Future<List<BlogArticle>> fetchForSource(String sourceName) async {
-    final normalized = sourceName.trim().toLowerCase();
-    if (normalized.isEmpty) return const [];
+  Future<List<BlogArticle>> fetchForSource(
+    String sourceName, {
+    String? sourceUrl,
+  }) async {
+    final normalizedName = _sourceKey(sourceName);
+    final normalizedUrl = _canonicalUrl(sourceUrl ?? '');
+    if (normalizedName.isEmpty && normalizedUrl.isEmpty) return const [];
 
     final allSources = <Map<String, String>>[
       ...kBlogFeeds,
@@ -183,15 +187,73 @@ class BlogRssService {
           .map((entry) => Map<String, String>.from(entry)),
     ];
     final matching = allSources.where((source) {
-      return (source['name'] ?? '').trim().toLowerCase() == normalized;
-    });
+      final nameMatches = normalizedName.isNotEmpty &&
+          _sourceKey(source['name'] ?? '') == normalizedName;
+      final urlMatches = normalizedUrl.isNotEmpty &&
+          _canonicalUrl(source['url'] ?? '') == normalizedUrl;
+      return nameMatches || urlMatches;
+    }).toList(growable: false);
     final feeds = _deduplicateFeeds(matching);
-    if (feeds.isEmpty) return const [];
+    final acceptedNames = <String>{
+      if (normalizedName.isNotEmpty) normalizedName,
+      for (final feed in feeds) _sourceKey(feed['name'] ?? ''),
+    };
+
+    List<BlogArticle> localArticles = const [];
+    try {
+      localArticles = [
+        ...?_cache,
+        ...await _loadSnapshotArticles(),
+      ];
+    } on Object catch (_) {
+      // A failed snapshot should not prevent live source results.
+    }
+
+    bool belongsToSource(BlogArticle article) =>
+        acceptedNames.contains(_sourceKey(article.sourceName));
+
+    final fallback = mergeArticles(
+      localArticles.where(belongsToSource),
+      const <BlogArticle>[],
+    );
+    if (feeds.isEmpty) return compute(_sortArticles, fallback);
 
     final results = await _fetchFeedsBounded(feeds);
-    final articles = results.expand((list) => list).toList(growable: false);
+    final live = results.expand((list) => list).toList(growable: false);
+    final articles = _mergeArticles(live, fallback);
     return compute(_sortArticles, articles);
   }
+
+  /// Stable source key used for display-name matching across feed metadata and
+  /// bundled records. Punctuation and repeated whitespace are insignificant.
+  static String normalizeSourceName(String value) => value
+      .trim()
+      .toLowerCase()
+      .replaceAll(RegExp(r'[^a-z0-9]+'), ' ')
+      .replaceAll(RegExp(r'\s+'), ' ')
+      .trim();
+
+  /// Merges a preferred (usually live) list with fallback records by article
+  /// URL, retaining the first copy so fresh metadata wins over stale data.
+  static List<BlogArticle> mergeArticles(
+    Iterable<BlogArticle> preferred,
+    Iterable<BlogArticle> fallback,
+  ) {
+    final byUrl = <String, BlogArticle>{};
+    for (final article in [...preferred, ...fallback]) {
+      if (article.url.isNotEmpty) byUrl.putIfAbsent(article.url, () => article);
+    }
+    return byUrl.values.toList(growable: false);
+  }
+
+  static String _sourceKey(String value) => normalizeSourceName(value);
+
+  static String _canonicalUrl(String raw) => raw
+      .trim()
+      .toLowerCase()
+      .replaceFirst(RegExp(r'^https?://'), '')
+      .replaceFirst(RegExp(r'^www\.'), '')
+      .replaceFirst(RegExp(r'/+$'), '');
 
   /// Fetches ONE category's own blogs directly — regardless of whether the
   /// person has that category selected. For CategoryDetailScreen (reached
@@ -234,13 +296,10 @@ class BlogRssService {
   }
 
   List<BlogArticle> _mergeArticles(
-      Iterable<BlogArticle> live, Iterable<BlogArticle> snapshot) {
-    final byUrl = <String, BlogArticle>{};
-    for (final article in [...live, ...snapshot]) {
-      if (article.url.isNotEmpty) byUrl.putIfAbsent(article.url, () => article);
-    }
-    return byUrl.values.toList(growable: false);
-  }
+    Iterable<BlogArticle> live,
+    Iterable<BlogArticle> snapshot,
+  ) =>
+      mergeArticles(live, snapshot);
 
   List<Map<String, String>> _deduplicateFeeds(
       Iterable<Map<String, String>> feeds) {

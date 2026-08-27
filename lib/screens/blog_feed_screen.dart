@@ -172,6 +172,10 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
                       MaterialPageRoute(
                         builder: (_) => BlogChannelScreen(
                           sourceName: article.sourceName,
+                          initialArticles: _articles
+                              .where((candidate) =>
+                                  candidate.sourceName == article.sourceName)
+                              .toList(growable: false),
                         ),
                       ),
                     );
@@ -373,8 +377,6 @@ class _BlogCard extends StatelessWidget {
                                         ?.copyWith(
                                           color: AppTheme.gold,
                                           fontWeight: FontWeight.w800,
-                                          decoration: TextDecoration.underline,
-                                          decorationThickness: 1.4,
                                         ),
                                   ),
                                 ),

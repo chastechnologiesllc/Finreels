@@ -536,8 +536,6 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                                     ?.copyWith(
                                       fontWeight: FontWeight.w800,
                                       color: AppTheme.gold,
-                                      decoration: TextDecoration.underline,
-                                      decorationThickness: 1.4,
                                     )),
                           ),
                           const SizedBox(width: 4),

@@ -145,7 +145,15 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
           else if (_blogArticles.isEmpty)
             const _EmptyNote(text: 'Still verifying real blogs for this category.')
           else
-            ..._blogArticles.take(8).map((a) => _BlogTile(article: a)),
+            ..._blogArticles.take(8).map(
+                  (a) => _BlogTile(
+                    article: a,
+                    initialArticles: _blogArticles
+                        .where((candidate) =>
+                            candidate.sourceName == a.sourceName)
+                        .toList(growable: false),
+                  ),
+                ),
           const SizedBox(height: 24),
           const _SectionLabel('Free Books'),
           if (_books.isEmpty)
@@ -427,7 +435,12 @@ class _FreeBookTile extends StatelessWidget {
 }
 class _BlogTile extends StatelessWidget {
   final BlogArticle article;
-  const _BlogTile({required this.article});
+  final List<BlogArticle> initialArticles;
+
+  const _BlogTile({
+    required this.article,
+    required this.initialArticles,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -475,6 +488,7 @@ class _BlogTile extends StatelessWidget {
                         MaterialPageRoute(
                           builder: (_) => BlogChannelScreen(
                             sourceName: article.sourceName,
+                            initialArticles: initialArticles,
                           ),
                         ),
                       ),
@@ -498,7 +512,6 @@ class _BlogTile extends StatelessWidget {
                                       ?.copyWith(
                                         color: AppTheme.gold,
                                         fontWeight: FontWeight.w800,
-                                        decoration: TextDecoration.underline,
                                       )),
                             ),
                             const SizedBox(width: 4),

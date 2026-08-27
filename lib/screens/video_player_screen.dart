@@ -377,7 +377,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                           style: const TextStyle(
                             fontSize: 17,
                             fontWeight: FontWeight.w800,
-                            decoration: TextDecoration.underline,
                           )),
                     ),
                     const SizedBox(width: 5),
@@ -462,9 +461,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                                               ?.copyWith(
                                                 fontWeight: FontWeight.w800,
                                                 color: AppTheme.gold,
-                                                decoration:
-                                                    TextDecoration.underline,
-                                                decorationThickness: 1.4,
                                               )),
                                     ),
                                     const SizedBox(width: 5),

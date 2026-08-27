@@ -15,8 +15,15 @@ import 'blog_reader_screen.dart';
 /// A dedicated, video-channel-style page for one blog/RSS source.
 class BlogChannelScreen extends StatefulWidget {
   final String sourceName;
+  final String? sourceUrl;
+  final List<BlogArticle> initialArticles;
 
-  const BlogChannelScreen({required this.sourceName, super.key});
+  const BlogChannelScreen({
+    required this.sourceName,
+    this.sourceUrl,
+    this.initialArticles = const [],
+    super.key,
+  });
 
   @override
   State<BlogChannelScreen> createState() => _BlogChannelScreenState();
@@ -30,6 +37,7 @@ class _BlogChannelScreenState extends State<BlogChannelScreen> {
   @override
   void initState() {
     super.initState();
+    _articles = List.unmodifiable(widget.initialArticles);
     _load();
   }
 
@@ -43,14 +51,26 @@ class _BlogChannelScreenState extends State<BlogChannelScreen> {
     try {
       final articles = await BlogRssService.instance.fetchForSource(
         widget.sourceName,
+        sourceUrl: widget.sourceUrl,
       );
       if (!mounted) return;
       setState(() {
-        _articles = List.unmodifiable(articles);
-        if (articles.isEmpty) _error = 'No articles found for this source.';
+        // Keep visible seed articles when a live refresh is empty or partial.
+        // This prevents a source page from going blank after a successful tap.
+        final refreshed = BlogRssService.mergeArticles(
+          articles,
+          widget.initialArticles,
+        );
+        final nextArticles = refreshed.isNotEmpty ? refreshed : _articles;
+        _articles = List.unmodifiable(nextArticles);
+        if (nextArticles.isEmpty) {
+          _error = 'No articles found for this source.';
+        }
       });
     } on Object catch (_) {
-      if (mounted) setState(() => _error = 'Could not load this blog source.');
+      if (mounted && _articles.isEmpty) {
+        setState(() => _error = 'Could not load this blog source.');
+      }
     } finally {
       if (mounted) setState(() => _loading = false);
     }

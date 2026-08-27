@@ -443,11 +443,19 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
     }
   }
 
-  void _openBlogChannel(String sourceName) {
+  void _openBlogChannel(
+    String sourceName,
+    BlogArticle? initialArticle, {
+    String? sourceUrl,
+  }) {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) => BlogChannelScreen(sourceName: sourceName),
+        builder: (_) => BlogChannelScreen(
+          sourceName: sourceName,
+          sourceUrl: sourceUrl,
+          initialArticles: initialArticle == null ? const [] : [initialArticle],
+        ),
       ),
     );
   }
@@ -500,22 +508,14 @@ class _ContentSearchScreenState extends State<ContentSearchScreen> {
 
   void _openBlogSource(Map<String, String> source) {
     final name = source['name']?.trim();
-    if (name != null && name.isNotEmpty) {
-      _openBlogChannel(name);
-      return;
-    }
     final url = source['url']?.trim();
-    if (url == null || url.isEmpty) return;
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (_) => BlogReaderScreen(
-          url: url,
-          title: 'Blog source',
-          categoryId: source['categoryId'],
-        ),
-      ),
-    );
+    if ((name != null && name.isNotEmpty) || (url != null && url.isNotEmpty)) {
+      _openBlogChannel(
+        name != null && name.isNotEmpty ? name : 'Blog source',
+        null,
+        sourceUrl: url,
+      );
+    }
   }
 
   // ── Build ───────────────────────────────────────────────────────────────
@@ -906,7 +906,7 @@ class _ContentCard extends StatelessWidget {
   final void Function(Video)         onTapVideo;
   final void Function(Video)         onTapBook;
   final void Function(BlogArticle)   onTapBlog;
-  final void Function(String) onTapBlogChannel;
+  final void Function(String, BlogArticle?) onTapBlogChannel;
   final void Function(ResourceCategory) onTapCategory;
   final void Function(Channel) onTapChannel;
   final void Function(VerifiedBook) onTapVerifiedBook;
@@ -1028,7 +1028,7 @@ class _ContentCard extends StatelessWidget {
     if (item.article != null) {
       return _SearchSourceLink(
         label: item.article!.sourceName,
-        onTap: () => onTapBlogChannel(item.article!.sourceName),
+        onTap: () => onTapBlogChannel(item.article!.sourceName, item.article!),
       );
     }
     if (item.video != null) {
@@ -1195,8 +1195,6 @@ class _SearchSourceLink extends StatelessWidget {
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
                           color: AppTheme.gold,
                           fontWeight: FontWeight.w800,
-                          decoration: TextDecoration.underline,
-                          decorationThickness: 1.2,
                         )),
               ),
             ],

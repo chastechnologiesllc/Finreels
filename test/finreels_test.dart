@@ -5,6 +5,7 @@ import 'package:finreels/models/channel.dart';
 import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/saved_bookmark.dart';
 import 'package:finreels/models/video.dart';
+import 'package:finreels/services/blog_rss_service.dart';
 import 'package:finreels/services/feed_snapshot_service.dart';
 import 'package:finreels/services/media_cache_manager.dart';
 import 'package:finreels/utils/category_search.dart';
@@ -131,6 +132,45 @@ void main() {
         (await snapshot.channelVideos('UCGq-a57w-aPwyi3pW7XLiHw')).isNotEmpty,
         isTrue,
       );
+    });
+
+    test('blog source keys ignore punctuation and repeated whitespace', () {
+      expect(
+        BlogRssService.normalizeSourceName('  Inc.   Magazine '),
+        'inc magazine',
+      );
+      expect(
+        BlogRssService.normalizeSourceName('INC-MAGAZINE'),
+        BlogRssService.normalizeSourceName('Inc. Magazine'),
+      );
+    });
+
+    test('blog source merge keeps live article and restores fallback records', () {
+      final live = BlogArticle(
+        title: 'Fresh title',
+        url: 'https://example.com/shared',
+        sourceName: 'Example',
+        publishedAt: DateTime(2026, 8, 27),
+      );
+      final fallback = [
+        BlogArticle(
+          title: 'Stale title',
+          url: 'https://example.com/shared',
+          sourceName: 'Example',
+          publishedAt: DateTime(2026, 8, 26),
+        ),
+        BlogArticle(
+          title: 'Cached article',
+          url: 'https://example.com/cached',
+          sourceName: 'Example',
+          publishedAt: DateTime(2026, 8, 25),
+        ),
+      ];
+      final merged = BlogRssService.mergeArticles([live], fallback);
+      expect(merged, hasLength(2));
+      expect(merged.first.title, 'Fresh title');
+      expect(merged.map((article) => article.url),
+          contains('https://example.com/cached'));
     });
 
     test('School of Life snapshot uses the canonical channel feed', () async {
