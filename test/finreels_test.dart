@@ -310,6 +310,13 @@ void main() {
       );
     });
 
+    test('Doctorpreneur feed channel has an official profile image', () {
+      const channelId = 'UCto7aLUgNulcszaErw4FS1g';
+      final avatar = ChannelAvatarData.byChannelId[channelId];
+      expect(avatar, isNotNull);
+      expect(avatar, startsWith('https://yt3.googleusercontent.com/'));
+    });
+
     testWidgets('channel avatar keeps a circular initials fallback',
         (tester) async {
       const channel = Channel(

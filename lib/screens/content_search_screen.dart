@@ -14,6 +14,7 @@ import '../services/platform_search_index.dart';
 import '../theme/app_theme.dart';
 import '../widgets/blog_thumbnail_image.dart';
 import '../widgets/book_cover_image.dart';
+import '../widgets/channel_avatar.dart';
 import '../widgets/finreels_shimmer.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
@@ -1090,15 +1091,29 @@ class _ContentCard extends StatelessWidget {
               ),
       );
     }
-    if (item.category != null || item.channel != null || item.blogSource != null) {
+    if (item.channel != null) {
+      final channel = item.channel!;
+      return AspectRatio(
+        aspectRatio: 16 / 9,
+        child: ColoredBox(
+          color: AppTheme.surfaceElevated(context),
+          child: Center(
+            child: ChannelAvatar(
+              channel: channel,
+              size: 82,
+              borderWidth: 2,
+            ),
+          ),
+        ),
+      );
+    }
+    if (item.category != null || item.blogSource != null) {
       final icon = item.category != null
           ? Icons.category_outlined
-          : item.channel != null
-              ? Icons.play_circle_outline_rounded
-              : Icons.article_outlined;
+          : Icons.article_outlined;
       final color = item.category != null
           ? AppTheme.gold
-          : item.channel?.accentColor ?? const Color(0xFF065F46);
+          : const Color(0xFF065F46);
       return AspectRatio(
         aspectRatio: 16 / 9,
         child: ColoredBox(
