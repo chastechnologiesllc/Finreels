@@ -585,8 +585,6 @@ class FeedProvider extends ChangeNotifier {
     // selected tab cache reshuffles it without fetching the network again.
     if (tab != FeedTab.blogs) {
       _tabCache.remove(tab);
-    } else {
-      BlogRssService.instance.clearCache();
     }
     notifyListeners();
   }

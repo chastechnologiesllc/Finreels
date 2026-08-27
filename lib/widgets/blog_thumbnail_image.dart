@@ -64,7 +64,9 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
   static List<String> _buildCandidates(
       String? primary, List<String> fallbacks) {
     final out = <String>[];
+    var sourceCount = 0;
     for (final value in <String?>[primary, ...fallbacks]) {
+      if (sourceCount >= 5) break;
       final url = value?.trim() ?? '';
       if (url.isEmpty || url.startsWith('data:')) continue;
       final parsed = Uri.tryParse(url);
@@ -73,6 +75,7 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
         continue;
       }
       if (out.contains(url)) continue;
+      sourceCount++;
       out.add(url);
       final encoded = Uri.encodeComponent(url);
       final proxied = 'https://wsrv.nl/?url=$encoded';
@@ -97,6 +100,8 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
       width: widget.width,
       height: widget.height,
       fit: widget.fit,
+      fadeInDuration: Duration.zero,
+      fadeOutDuration: Duration.zero,
       memCacheWidth: widget.width == null
           ? 720
           : (widget.width! * MediaQuery.devicePixelRatioOf(context)).round(),

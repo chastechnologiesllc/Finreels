@@ -141,6 +141,19 @@ class BlogRssService {
     return _loadSnapshotArticles();
   }
 
+  /// Returns a fast category-scoped local corpus for the first paint. Fresh
+  /// service cache wins; otherwise the bundled snapshot is filtered so only
+  /// general articles and the viewer's selected categories are shown.
+  Future<List<BlogArticle>> fetchLocalSeed() async {
+    if (_isCacheFresh) return _cache!;
+    final articles = await _loadSnapshotArticles();
+    final selected = UserProfileService.instance.selectedCategoryIds;
+    final scoped = articles.where((article) {
+      return article.categoryId == null || selected.contains(article.categoryId);
+    }).toList(growable: false);
+    return prioritizeForSelection(scoped, selected);
+  }
+
   /// Powers the aggregated, passive Blogs tab — general feeds plus
   /// whatever categories the person selected (see [combinedBlogFeeds]).
   /// Cached for 10 minutes; FeedProvider clears that cache the moment the
@@ -160,12 +173,23 @@ class BlogRssService {
     final snapshotArticles = await _loadSnapshotArticles();
     final articles = _mergeArticles(liveArticles, snapshotArticles);
     final selected = UserProfileService.instance.selectedCategoryIds;
+    final scoped = articles.where((article) {
+      // Never let an unselected category leak into the general lane. General
+      // means categoryId == null; selected category content is the priority
+      // lane for this viewer.
+      return article.categoryId == null || selected.contains(article.categoryId);
+    }).toList(growable: false);
     final mixed = await compute(
       _smartMixArticles,
-      _SmartMixArgs(articles: articles, selectedCategoryIds: selected),
+      _SmartMixArgs(articles: scoped, selectedCategoryIds: selected),
     );
     _cache = mixed;
     _cacheTime = DateTime.now();
+    // Do not block first paint on article-page metadata lookups. RSS-provided
+    // thumbnails are already usable; missing-image enrichment continues after
+    // the list is visible and updates the same cache only if its scope is still
+    // current.
+    unawaited(_hydrateCacheInBackground(mixed, _cacheTime!));
     return mixed;
   }
 
@@ -222,6 +246,22 @@ class BlogRssService {
     final live = results.expand((list) => list).toList(growable: false);
     final articles = _mergeArticles(live, fallback);
     return compute(_sortArticles, articles);
+  }
+
+  /// Deterministic relevance/diversity ordering used by the Blogs tab and
+  /// exposed for regression tests. Selected-category articles are prioritized;
+  /// general articles remain visible but do not compete equally for the first
+  /// positions.
+  static List<BlogArticle> prioritizeForSelection(
+    Iterable<BlogArticle> articles,
+    Set<String> selectedCategoryIds,
+  ) {
+    return _smartMixArticles(
+      _SmartMixArgs(
+        articles: articles.toList(growable: false),
+        selectedCategoryIds: selectedCategoryIds,
+      ),
+    );
   }
 
   /// Stable source key used for display-name matching across feed metadata and
@@ -401,7 +441,7 @@ class BlogRssService {
       ),
       [body, sourceName, categoryId ?? '', baseUrl],
     );
-    return _hydrateThumbnailCandidates(articles);
+    return articles;
   }
 
   /// Discovers RSS/Atom alternates from an HTML landing page and includes a
@@ -504,6 +544,18 @@ class BlogRssService {
       }());
     }
     return completer.future;
+  }
+
+  Future<void> _hydrateCacheInBackground(
+      List<BlogArticle> articles, DateTime cacheTime) async {
+    try {
+      final hydrated = await _hydrateThumbnailCandidates(articles);
+      if (identical(_cache, articles) && _cacheTime == cacheTime) {
+        _cache = List.unmodifiable(hydrated);
+      }
+    } on Object catch (e) {
+      debugPrint('[BlogRssService] Background image enrichment failed: $e');
+    }
   }
 
   Future<List<BlogArticle>> _hydrateThumbnailCandidates(
@@ -794,22 +846,44 @@ class BlogRssService {
   static List<BlogArticle> _sortArticles(List<BlogArticle> articles) =>
       articles..sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
 
-  // ── Smart mix: 3-to-1 category vs general, no consecutive same source ───────
+  // ── Smart mix: 4-to-1 category vs general, no consecutive same source ───────
 
   /// Passed to [compute] because isolates can only receive plain data.
   static List<BlogArticle> _smartMixArticles(_SmartMixArgs args) {
     final articles   = args.articles;
     final selectedIds = args.selectedCategoryIds;
 
-    // ── 1. Split into two pools, each sorted newest first ───────────────────
-    final catPool = <BlogArticle>[];
+    // ── 1. Split into category lanes and a smaller general lane ─────────────
+    final categoryPools = <String, List<BlogArticle>>{};
     final genPool = <BlogArticle>[];
     for (final a in articles) {
-      final isCat = a.categoryId != null && selectedIds.contains(a.categoryId);
-      (isCat ? catPool : genPool).add(a);
+      final categoryId = a.categoryId;
+      if (categoryId != null && selectedIds.contains(categoryId)) {
+        categoryPools.putIfAbsent(categoryId, () => []).add(a);
+      } else {
+        genPool.add(a);
+      }
     }
-    catPool.sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
+    for (final pool in categoryPools.values) {
+      pool.sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
+    }
     genPool.sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
+
+    // Round-robin selected category lanes so one prolific category cannot
+    // crowd every other selected category out of the priority pool.
+    final catPool = <BlogArticle>[];
+    final categoryIds = categoryPools.keys.toList(growable: false);
+    var categoryIndex = 0;
+    while (categoryPools.isNotEmpty) {
+      if (categoryIndex >= categoryIds.length) categoryIndex = 0;
+      final categoryId = categoryIds[categoryIndex++];
+      final pool = categoryPools[categoryId];
+      if (pool == null || pool.isEmpty) {
+        categoryPools.remove(categoryId);
+        continue;
+      }
+      catPool.add(pool.removeAt(0));
+    }
 
     // Fallback: no selection or no category articles → plain date sort
     if (selectedIds.isEmpty || catPool.isEmpty) {
@@ -818,13 +892,13 @@ class BlogRssService {
       return _diversifyBlogs(all);
     }
 
-    // ── 2. 3:1 weighted interleave ───────────────────────────────────────────
-    // 3 category articles, then 1 general, then 3 category, etc.
+    // ── 2. 4:1 weighted interleave ───────────────────────────────────────────
+    // Four category articles, then one general article, then repeat.
     final merged = <BlogArticle>[];
     var ci = 0;
     var gi = 0;
     while (ci < catPool.length || gi < genPool.length) {
-      for (var slot = 0; slot < 3 && ci < catPool.length; slot++) {
+      for (var slot = 0; slot < 4 && ci < catPool.length; slot++) {
         merged.add(catPool[ci++]);
       }
       if (gi < genPool.length) merged.add(genPool[gi++]);

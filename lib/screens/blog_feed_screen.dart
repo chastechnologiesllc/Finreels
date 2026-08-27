@@ -39,6 +39,19 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
   }
 
   Future<void> _load({bool force = false}) async {
+    // First paint comes from the in-memory cache or bundled snapshot. This
+    // keeps category-relevant content visible while live RSS is in flight.
+    if (!force && _articles.isEmpty) {
+      try {
+        final seed = await BlogRssService.instance.fetchLocalSeed();
+        if (mounted && seed.isNotEmpty) {
+          setState(() => _articles = List.unmodifiable(seed));
+        }
+      } on Object catch (_) {
+        // Live fetch below remains the source of truth if the seed is absent.
+      }
+    }
+    if (!mounted) return;
     setState(() {
       _loading = true;
       _error = null;
@@ -48,16 +61,19 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
           await BlogRssService.instance.fetchAll(forceRefresh: force);
       if (mounted) {
         setState(() {
-          _articles = List.unmodifiable(articles); // atomic replace
-          // Soft failure: service returned empty without throwing (rate
-          // limit / all feeds down). Surface the same Retry UI.
-          if (articles.isEmpty) {
+          final nextArticles = articles.isEmpty ? _articles : articles;
+          _articles = List.unmodifiable(nextArticles); // atomic replace
+          // Soft failure: preserve a useful local seed when all live feeds are
+          // unavailable instead of replacing a populated list with nothing.
+          if (nextArticles.isEmpty) {
             _error = 'Could not load articles.';
           }
         });
       }
     } on Exception catch (_) {
-      if (mounted) setState(() => _error = 'Could not load articles.');
+      if (mounted && _articles.isEmpty) {
+        setState(() => _error = 'Could not load articles.');
+      }
     } finally {
       if (mounted) setState(() => _loading = false);
     }

@@ -146,6 +146,37 @@ void main() {
       );
     });
 
+    test('category blog ranking prioritizes selected categories over general', () {
+      BlogArticle article(String title, String source, String? categoryId, int day) =>
+          BlogArticle(
+            title: title,
+            url: 'https://example.com/${title.toLowerCase().replaceAll(' ', '-')}',
+            sourceName: source,
+            publishedAt: DateTime(2026, 8, day),
+            categoryId: categoryId,
+          );
+
+      final ordered = BlogRssService.prioritizeForSelection(
+        [
+          article('General newest', 'General', null, 28),
+          article('General second', 'General 2', null, 27),
+          article('Category A', 'A', 'cat_a', 26),
+          article('Category B', 'B', 'cat_b', 25),
+          article('Category A two', 'A', 'cat_a', 24),
+          article('Category B two', 'B', 'cat_b', 23),
+          article('Category A three', 'A', 'cat_a', 22),
+        ],
+        {'cat_a', 'cat_b'},
+      );
+
+      final firstGeneral = ordered.indexWhere((item) => item.categoryId == null);
+      expect(firstGeneral, greaterThanOrEqualTo(4));
+      expect(ordered.where((item) => item.categoryId != null), isNotEmpty);
+      expect(ordered.where((item) => item.categoryId == null), isNotEmpty);
+      expect(ordered.map((item) => item.categoryId).toSet(),
+          containsAll(<String?>['cat_a', 'cat_b', null]));
+    });
+
     test('blog source merge keeps live article and restores fallback records', () {
       final live = BlogArticle(
         title: 'Fresh title',
