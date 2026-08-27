@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:timeago/timeago.dart' as timeago;
 
 import '../data/channel_data.dart';
 import '../models/channel.dart';
