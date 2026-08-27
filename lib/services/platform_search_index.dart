@@ -397,10 +397,6 @@ class PlatformSearchIndex {
     return a.document.title.toLowerCase().compareTo(b.document.title.toLowerCase());
   }
 
-  static double _score(String rawQuery, PlatformSearchDocument document) {
-    return _scorePrepared(_PreparedQuery(rawQuery), document);
-  }
-
   static double _scorePrepared(
       _PreparedQuery query, PlatformSearchDocument document) {
     final normalizedQuery = query.normalized;
