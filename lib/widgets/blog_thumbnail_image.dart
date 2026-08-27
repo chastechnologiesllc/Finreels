@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart' show listEquals;
 import 'package:flutter/material.dart';
 
+import '../services/media_cache_manager.dart';
 import '../theme/app_theme.dart';
 import 'finreels_shimmer.dart';
 
@@ -32,10 +33,21 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
   late List<String> _candidates;
   int _index = 0;
 
+  String get _selectionKey =>
+      'blog:${widget.url}|${widget.fallbackUrls.join('|')}';
+
+  void _restoreSelection() {
+    final remembered = FinReelsMediaCache.selectedIndex(_selectionKey);
+    if (remembered != null && remembered >= 0 && remembered < _candidates.length) {
+      _index = remembered;
+    }
+  }
+
   @override
   void initState() {
     super.initState();
     _candidates = _buildCandidates(widget.url, widget.fallbackUrls);
+    _restoreSelection();
   }
 
   @override
@@ -45,6 +57,7 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
         !listEquals(oldWidget.fallbackUrls, widget.fallbackUrls)) {
       _candidates = _buildCandidates(widget.url, widget.fallbackUrls);
       _index = 0;
+      _restoreSelection();
     }
   }
 
@@ -76,6 +89,11 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
     final url = _candidates[_index.clamp(0, _candidates.length - 1)];
     return CachedNetworkImage(
       imageUrl: url,
+      cacheManager: FinReelsMediaCache.instance,
+      imageBuilder: (_, imageProvider) {
+        FinReelsMediaCache.rememberSelection(_selectionKey, _index);
+        return Image(image: imageProvider, fit: widget.fit);
+      },
       width: widget.width,
       height: widget.height,
       fit: widget.fit,

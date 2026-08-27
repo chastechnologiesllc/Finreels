@@ -6,6 +6,7 @@ import 'package:finreels/models/resource_category.dart';
 import 'package:finreels/models/saved_bookmark.dart';
 import 'package:finreels/models/video.dart';
 import 'package:finreels/services/feed_snapshot_service.dart';
+import 'package:finreels/services/media_cache_manager.dart';
 import 'package:finreels/utils/category_search.dart';
 import 'package:finreels/widgets/book_cover_image.dart';
 import 'package:finreels/widgets/blog_thumbnail_image.dart';
@@ -144,6 +145,16 @@ void main() {
         ),
         isTrue,
       );
+    });
+  });
+
+  // ── Media cache ────────────────────────────────────────────────────────────
+  group('Media cache', () {
+    test('shares one persistent manager and remembers successful candidates', () {
+      const key = 'test-media-cache-key';
+      FinReelsMediaCache.rememberSelection(key, 4);
+      expect(FinReelsMediaCache.selectedIndex(key), 4);
+      expect(identical(FinReelsMediaCache.instance, FinReelsMediaCache.instance), isTrue);
     });
   });
 

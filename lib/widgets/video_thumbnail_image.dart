@@ -1,7 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/foundation.dart' show listEquals;
 import 'package:flutter/material.dart';
 
 import '../models/video.dart';
+import '../services/media_cache_manager.dart';
 import '../theme/app_theme.dart';
 import 'finreels_shimmer.dart';
 
@@ -69,19 +71,34 @@ class _VideoThumbnailImageState extends State<VideoThumbnailImage> {
   int _index = 0;
   bool _retryScheduled = false;
 
+  String get _selectionKey =>
+      'video:${widget.video.id}|${widget.video.thumbnailUrl}|${widget.video.thumbnailFallbackUrls.join('|')}';
+
+  void _restoreSelection() {
+    final remembered =
+        FinReelsMediaCache.selectedIndex(_selectionKey);
+    if (remembered != null && remembered >= 0 && remembered < _candidates.length) {
+      _index = remembered;
+    }
+  }
+
   @override
   void initState() {
     super.initState();
     _candidates = _buildCandidates(widget.video);
+    _restoreSelection();
   }
 
   @override
   void didUpdateWidget(covariant VideoThumbnailImage oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (oldWidget.video.id != widget.video.id ||
-        oldWidget.video.thumbnailUrl != widget.video.thumbnailUrl) {
+        oldWidget.video.thumbnailUrl != widget.video.thumbnailUrl ||
+        !listEquals(oldWidget.video.thumbnailFallbackUrls,
+            widget.video.thumbnailFallbackUrls)) {
       _candidates = _buildCandidates(widget.video);
       _index = 0;
+      _restoreSelection();
       _retryScheduled = false;
     }
   }
@@ -191,6 +208,11 @@ class _VideoThumbnailImageState extends State<VideoThumbnailImage> {
 
     final image = CachedNetworkImage(
       imageUrl: candidate,
+      cacheManager: FinReelsMediaCache.instance,
+      imageBuilder: (_, imageProvider) {
+        FinReelsMediaCache.rememberSelection(_selectionKey, safeIndex);
+        return Image(image: imageProvider, fit: widget.fit);
+      },
       fit: widget.fit,
       memCacheWidth: widget.memCacheWidth,
       memCacheHeight: widget.memCacheHeight,

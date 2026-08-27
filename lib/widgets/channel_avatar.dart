@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../models/channel.dart';
+import '../services/media_cache_manager.dart';
 import 'finreels_shimmer.dart';
 
 /// Displays a channel's official YouTube profile image with an initials
@@ -26,6 +27,7 @@ class ChannelAvatar extends StatelessWidget {
         ? fallback
         : CachedNetworkImage(
             imageUrl: imageUrl,
+            cacheManager: FinReelsMediaCache.instance,
             width: size,
             height: size,
             fit: BoxFit.cover,
