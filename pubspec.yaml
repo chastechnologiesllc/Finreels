@@ -28,9 +28,9 @@ dependencies:
   # platform impl separately can cause version constraint conflicts.
   flutter_local_notifications: ^18.0.1
   # 0.5.2 used removed Flutter v1 embedding APIs (shim / PluginRegistrantCallback).
-  # 0.9.2 retains the initialize/periodic-task APIs used by FinReels while
-  # remaining compatible with the pre-iOS-26 workmanager_apple implementation.
-  workmanager: 0.9.2
+  # 0.9.1 retains the initialize/periodic-task APIs used by FinReels while
+  # remaining compatible with the pre-iOS-26 federated implementations.
+  workmanager: 0.9.1
   shared_preferences: ^2.3.2
   cached_network_image: ^3.4.1
   flutter_cache_manager: ^3.4.1
@@ -71,10 +71,12 @@ dependencies:
 
 # workmanager_apple 0.9.6+ adds BGContinuedProcessingTask references that require
 # the iOS 26 SDK. FinReels only uses periodic tasks, so keep the iOS implementation
-# on the 0.9.5 line for compatibility with the current Xcode CI host. The top-level
-# Workmanager package is pinned to its matching 0.9.2 release below.
+# on the 0.9.3 line for compatibility with the current Xcode CI host. Pin the
+# platform interface too because newer interfaces add named parameters not present
+# in this pre-iOS-26 implementation.
 dependency_overrides:
-  workmanager_apple: 0.9.5
+  workmanager_apple: 0.9.3
+  workmanager_platform_interface: 0.9.2
 
 dev_dependencies:
   flutter_test:
