@@ -908,24 +908,49 @@ class BlogRssService {
     return _diversifyBlogs(merged);
   }
 
-  /// No two adjacent articles share the same [sourceName].
-  /// Same forward-scan rotation algorithm used by FeedProvider._diversify.
+  /// Separates repeated sources throughout the feed, not only when two
+  /// adjacent cards happen to match. With four or more distinct sources, a
+  /// source gets a three-card recency window; when fewer sources exist, the
+  /// strongest possible spacing is used without dropping any articles.
   static List<BlogArticle> _diversifyBlogs(List<BlogArticle> items) {
     if (items.length <= 1) return items;
-    final out = List<BlogArticle>.from(items);
-    final n   = out.length;
-    for (var i = 1; i < n; i++) {
-      if (out[i].sourceName != out[i - 1].sourceName) continue;
-      var j = i + 1;
-      while (j < n && out[j].sourceName == out[i - 1].sourceName) {
-        j++;
+    final distinctSources = {
+      for (final article in items) normalizeSourceName(article.sourceName),
+    }..remove('');
+    final minGap = math.min(3, math.max(0, distinctSources.length - 1));
+    if (minGap == 0) return List<BlogArticle>.from(items);
+
+    final remaining = List<BlogArticle>.from(items);
+    final output = <BlogArticle>[];
+    final recentSources = <String>[];
+    while (remaining.isNotEmpty) {
+      var candidateIndex = remaining.indexWhere((article) {
+        final source = normalizeSourceName(article.sourceName);
+        return !recentSources.contains(source);
+      });
+
+      // If every remaining source is in the recency window, choose the one
+      // whose prior occurrence is oldest. This keeps the feed deterministic
+      // and makes the best possible choice for a small-source feed.
+      if (candidateIndex < 0) {
+        var oldestDistance = -1;
+        for (var i = 0; i < remaining.length; i++) {
+          final source = normalizeSourceName(remaining[i].sourceName);
+          final distance = recentSources.length -
+              recentSources.lastIndexOf(source);
+          if (distance > oldestDistance) {
+            oldestDistance = distance;
+            candidateIndex = i;
+          }
+        }
       }
-      if (j < n) {
-        final swap = out.removeAt(j);
-        out.insert(i, swap);
-      }
+
+      final selected = remaining.removeAt(candidateIndex);
+      output.add(selected);
+      recentSources.add(normalizeSourceName(selected.sourceName));
+      if (recentSources.length > minGap) recentSources.removeAt(0);
     }
-    return out;
+    return output;
   }
 
   void clearCache() {

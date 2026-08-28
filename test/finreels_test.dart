@@ -177,6 +177,35 @@ void main() {
           containsAll(<String?>['cat_a', 'cat_b', null]));
     });
 
+    test('blog ranking separates repeated sources across the scroll window', () {
+      final articles = <BlogArticle>[];
+      for (final source in ['A', 'B', 'C', 'D']) {
+        for (var copy = 0; copy < 3; copy++) {
+          articles.add(BlogArticle(
+            title: '$source article $copy',
+            url: 'https://example.com/$source-$copy',
+            sourceName: source,
+            publishedAt: DateTime(2026, 8, 28 - articles.length),
+          ));
+        }
+      }
+
+      final ordered = BlogRssService.prioritizeForSelection(
+        articles,
+        const <String>{},
+      );
+      for (var i = 0; i < ordered.length; i++) {
+        final source = BlogRssService.normalizeSourceName(ordered[i].sourceName);
+        final start = i > 3 ? i - 3 : 0;
+        expect(
+          ordered.sublist(start, i).every((item) =>
+              BlogRssService.normalizeSourceName(item.sourceName) != source),
+          isTrue,
+          reason: 'Source $source repeated too soon at index $i',
+        );
+      }
+    });
+
     test('blog source merge keeps live article and restores fallback records', () {
       final live = BlogArticle(
         title: 'Fresh title',
