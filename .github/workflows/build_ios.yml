@@ -30,6 +30,9 @@ jobs:
           channel: stable
           cache: true
 
+      - name: Disable Swift Package Manager for CocoaPods-only plugins
+        run: flutter config --no-enable-swift-package-manager
+
       - name: Install dependencies
         run: flutter pub get
 
