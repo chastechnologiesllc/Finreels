@@ -73,8 +73,9 @@ dependencies:
 # the iOS 26 SDK. FinReels only uses periodic tasks, so keep the iOS implementation
 # on the 0.9.3 line for compatibility with the current Xcode CI host. Pin the
 # platform interface too because newer interfaces add named parameters not present
-# in this pre-iOS-26 implementation.
+# in these pre-iOS-26 implementations.
 dependency_overrides:
+  workmanager_android: 0.9.1
   workmanager_apple: 0.9.3
   workmanager_platform_interface: 0.9.2
 
