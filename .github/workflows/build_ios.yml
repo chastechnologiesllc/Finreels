@@ -47,6 +47,10 @@ jobs:
           fi
           # flutter create may regenerate the default MyApp test.
           rm -f test/widget_test.dart
+          # The generated Runner target defaults below the Workmanager minimum.
+          if [ -f ios/Runner.xcodeproj/project.pbxproj ]; then
+            sed -i '' -E 's/IPHONEOS_DEPLOYMENT_TARGET = [0-9.]+;/IPHONEOS_DEPLOYMENT_TARGET = 14.0;/g' ios/Runner.xcodeproj/project.pbxproj
+          fi
 
       - name: Analyse
         run: flutter analyze --no-fatal-infos

@@ -15,7 +15,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB"
     version="3.0"
     toolsVersion="22154"
-    targetRuntime="AppleFoundation"
+    targetRuntime="iOS.CocoaTouch"
     propertyAccessControl="none"
     useAutolayout="YES"
     launchScreen="YES"
