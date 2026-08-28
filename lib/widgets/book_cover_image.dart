@@ -13,6 +13,9 @@ import 'finreels_shimmer.dart';
 class BookCoverImage extends StatefulWidget {
   final String url;
   final List<String> fallbackUrls;
+  /// Original verified book source. Only provider URLs with an exact item or
+  /// edition identifier are converted into additional cover candidates.
+  final String? sourceUrl;
   final double? width;
   final double? height;
   final BoxFit fit;
@@ -22,6 +25,7 @@ class BookCoverImage extends StatefulWidget {
     required this.url,
     super.key,
     this.fallbackUrls = const [],
+    this.sourceUrl,
     this.width,
     this.height,
     this.fit = BoxFit.cover,
@@ -37,7 +41,7 @@ class _BookCoverImageState extends State<BookCoverImage> {
   int _index = 0;
 
   String get _selectionKey =>
-      'book:${widget.url}|${widget.fallbackUrls.join('|')}';
+      'book:${widget.url}|${widget.sourceUrl}|${widget.fallbackUrls.join('|')}';
 
   void _restoreSelection() {
     final remembered = FinReelsMediaCache.selectedIndex(_selectionKey);
@@ -52,7 +56,11 @@ class _BookCoverImageState extends State<BookCoverImage> {
   @override
   void initState() {
     super.initState();
-    _candidates = _buildCandidates(widget.url, widget.fallbackUrls);
+    _candidates = _buildCandidates(
+      widget.url,
+      widget.fallbackUrls,
+      widget.sourceUrl,
+    );
     _restoreSelection();
   }
 
@@ -60,8 +68,13 @@ class _BookCoverImageState extends State<BookCoverImage> {
   void didUpdateWidget(covariant BookCoverImage oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (oldWidget.url != widget.url ||
-        !listEquals(oldWidget.fallbackUrls, widget.fallbackUrls)) {
-      _candidates = _buildCandidates(widget.url, widget.fallbackUrls);
+        !listEquals(oldWidget.fallbackUrls, widget.fallbackUrls) ||
+        oldWidget.sourceUrl != widget.sourceUrl) {
+      _candidates = _buildCandidates(
+        widget.url,
+        widget.fallbackUrls,
+        widget.sourceUrl,
+      );
       _index = 0;
       _restoreSelection();
     }
@@ -70,10 +83,11 @@ class _BookCoverImageState extends State<BookCoverImage> {
   /// Build ordered, exact-cover candidates. Provider-specific size variants
   /// are added only when the supplied URL already identifies an edition.
   static List<String> _buildCandidates(
-      String primary, List<String> fallbackUrls) {
+      String primary, List<String> fallbackUrls, String? sourceUrl) {
     final seeds = <String>[
       primary.trim(),
       ...fallbackUrls.map((url) => url.trim()),
+      ..._exactSourceCoverCandidates(sourceUrl),
     ].where((url) => url.isNotEmpty).toList();
     if (seeds.isEmpty) return [''];
 
@@ -166,6 +180,38 @@ class _BookCoverImageState extends State<BookCoverImage> {
     }
 
     return out;
+  }
+
+  static Iterable<String> _exactSourceCoverCandidates(String? sourceUrl) sync* {
+    final raw = sourceUrl?.trim() ?? '';
+    if (raw.isEmpty) return;
+    final uri = Uri.tryParse(raw);
+    if (uri == null || (uri.scheme != 'http' && uri.scheme != 'https')) return;
+    final host = uri.host.toLowerCase();
+    final path = uri.path;
+
+    final archive = RegExp(
+      r'/(?:\d+/)?(?:details|download|items)/([^/]+)',
+      caseSensitive: false,
+    ).firstMatch(path);
+    if ((host == 'archive.org' || host.endsWith('.archive.org')) &&
+        archive != null) {
+      final identifier = archive.group(1)!;
+      yield 'https://archive.org/services/img/$identifier';
+      yield 'https://archive.org/download/$identifier/__ia_thumb.jpg';
+    }
+
+    final gutenberg = RegExp(
+      r'(?:/ebooks/|/cache/epub/)(\d+)',
+      caseSensitive: false,
+    ).firstMatch('$path${uri.query.isEmpty ? '' : '?${uri.query}'}');
+    if (host == 'gutenberg.org' || host == 'www.gutenberg.org') {
+      final id = gutenberg?.group(1);
+      if (id != null) {
+        yield 'https://www.gutenberg.org/cache/epub/$id/pg$id.cover.medium.jpg';
+        yield 'https://www.gutenberg.org/cache/epub/$id/pg$id.cover.small.jpg';
+      }
+    }
   }
 
   String get _currentUrl => _candidates.isEmpty

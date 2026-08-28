@@ -493,7 +493,10 @@
       "freeSourceNote": "Fully free open textbook.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
-      "coverUrl": ""
+      "coverUrl": "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp",
+      "coverCandidates": [
+        "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp"
+      ]
     }
   ],
   "integrationNotes": "Stub for Dropshipping & Print-on-Demand. Capital: Low–medium. Summary: Sell products online without holding inventory — suppliers ship directly (AliExpress, Printful, local Nigerian POD).. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",

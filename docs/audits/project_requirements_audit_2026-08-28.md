@@ -43,3 +43,14 @@ The new iOS workflow bootstraps `ios/Runner.xcodeproj` when it is absent, uses t
 [1]: https://docs.flutter.dev/perf/best-practices "Performance best practices — Flutter documentation"
 [2]: https://docs.flutter.dev/cookbook/images/cached-images "Display images from the internet — Flutter documentation"
 [3]: https://tech.facebook.com/engineering/2021/1/news-feed-ranking/ "How does News Feed predict what you want to see? — Tech at Meta"
+
+
+## Follow-up source and book audit
+
+A second source-level audit was performed after the initial full-project validation. The declared blog catalog contained 443 unique source URLs. Direct verification found 99 feeds that returned XML directly, 277 HTML source pages, 84 HTML pages advertising an RSS/Atom alternate, 55 HTTP 403 responses, 57 HTTP 404 responses, and 60 network/DNS/TLS failures. The original bundled snapshot contained 166 articles from only 11 source names, 95 without a thumbnail URL, and only 3 with fallback candidates.
+
+The feed pipeline was corrected to preserve the verified catalog URL as stable source identity, prefer URL-specific matching over display-name matching, normalize duplicate feed URLs, expand RSS/Atom autodiscovery and conventional feed candidates, parse namespace-agnostic `media:thumbnail`, `media:content`, and enclosure elements, and recognize lazy image attributes, responsive `srcset`, Open Graph, and Twitter image metadata. The regenerated snapshot now contains 2,136 articles from 163 source names, including 1,970 category-tagged records; 626 records carry fallback thumbnail candidates. A remaining missing-thumbnail count is expected because many public providers block automated requests, publish no image metadata, or expose content through JavaScript-only pages. Those records continue to use the branded fallback rather than a fabricated image.
+
+Book verification found 984 of 20,000 records initially had neither a cover URL nor an exact candidate. Source-page metadata and exact Internet Archive identifiers added verified candidates to 85 records, reducing the uncovered count to 899. The shared cover widget now derives additional candidates only from exact Internet Archive item identifiers or Project Gutenberg edition identifiers; it does not perform generic title-only cover searches. The reader now tries mapped readable content before the original landing page, preserving the verified source as the final fallback.
+
+The external behavior assumptions used for the feed changes are based on the [RSS Advisory Board autodiscovery specification](https://www.rssboard.org/rss-autodiscovery) and [Media RSS specification](https://www.rssboard.org/media-rss). Browser and provider restrictions remain external limitations: CI can verify the shared Flutter build, but no automated check can guarantee that every publisher permits access from every browser, network, or device.

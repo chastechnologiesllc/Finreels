@@ -662,7 +662,12 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/operating-systems-and-middleware-supporting-controlled-interaction"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/operating-systems-and-middleware-supporting-controlled-interaction",
+      "coverUrl": "https://archive.org/services/img/osm-rev1.2",
+      "coverCandidates": [
+        "https://archive.org/services/img/osm-rev1.2",
+        "https://archive.org/download/osm-rev1.2/__ia_thumb.jpg"
+      ]
     },
     {
       "title": "Foundations of Computation",
@@ -742,7 +747,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fast-fourier-transforms"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fast-fourier-transforms",
+      "coverUrl": "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp",
+      "coverCandidates": [
+        "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp"
+      ]
     },
     {
       "title": "Think Java: How To Think Like a Computer Scientist - 2e",
@@ -1115,7 +1124,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/how-to-think-like-a-computer-scientist-c-version-1999"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science - Programming Languages; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/how-to-think-like-a-computer-scientist-c-version-1999",
+      "coverUrl": "https://opengraph.githubassets.com/ebd4728e41c377fc521a5a9513281ecac510d9485da1c7e8e8da9e0ed6d97201/tscheffl/ThinkC",
+      "coverCandidates": [
+        "https://opengraph.githubassets.com/ebd4728e41c377fc521a5a9513281ecac510d9485da1c7e8e8da9e0ed6d97201/tscheffl/ThinkC"
+      ]
     },
     {
       "title": "Think Data Structures: Algorithms and Information Retrieval in Java",
@@ -1395,7 +1408,11 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/earth-space-and-environmental-science-explorations-with-arcgis-pro"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/earth-space-and-environmental-science-explorations-with-arcgis-pro",
+      "coverUrl": "https://lh7-us.googleusercontent.com/docs/AHkbwyLwkaIUzVUmhVgBrnR8HwMC3GR85Xb0RcnBzHeBd-5V9iVGH4PxGnxfkohQklNCOuzDI4_U8-Fj1NCI6r6XI52Iy3LlTiWgG4L_wA=w1200-h630-p",
+      "coverCandidates": [
+        "https://lh7-us.googleusercontent.com/docs/AHkbwyLwkaIUzVUmhVgBrnR8HwMC3GR85Xb0RcnBzHeBd-5V9iVGH4PxGnxfkohQklNCOuzDI4_U8-Fj1NCI6r6XI52Iy3LlTiWgG4L_wA=w1200-h630-p"
+      ]
     },
     {
       "title": "Computer Systems Security: Planning for Success",

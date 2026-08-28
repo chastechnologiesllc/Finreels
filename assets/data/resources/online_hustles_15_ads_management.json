@@ -493,7 +493,10 @@
       "freeSourceNote": "Fully free open textbook.",
       "verifiedOn": "2026-08-08",
       "verificationMethod": "OpenStax.",
-      "coverUrl": ""
+      "coverUrl": "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp",
+      "coverCandidates": [
+        "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp"
+      ]
     },
     {
       "title": "eMarketing: The Essential Guide to Marketing in a Digital World - 7th Edition",
@@ -615,7 +618,11 @@
       "freeSourceType": "online",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mastering-strategic-management-2015"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mastering-strategic-management-2015",
+      "coverUrl": "https://a.mtstatic.com/@public/production/site_7336/1641605597-social-share.png",
+      "coverCandidates": [
+        "https://a.mtstatic.com/@public/production/site_7336/1641605597-social-share.png"
+      ]
     },
     {
       "title": "Foundations in Digital Marketing",

@@ -146,6 +146,35 @@ void main() {
       );
     });
 
+    test('blog source identity prefers verified URL over display name', () {
+      final first = BlogArticle(
+        title: 'First',
+        url: 'https://example.com/first',
+        sourceName: 'Example Magazine',
+        sourceUrl: 'https://example.com/feed/',
+        publishedAt: DateTime(2026, 8, 28),
+      );
+      final second = BlogArticle(
+        title: 'Second',
+        url: 'https://example.com/second',
+        sourceName: 'Example-Magazine',
+        sourceUrl: 'https://example.com/feed',
+        publishedAt: DateTime(2026, 8, 27),
+      );
+      final legacy = BlogArticle(
+        title: 'Legacy',
+        url: 'https://example.com/legacy',
+        sourceName: 'Example Magazine',
+        publishedAt: DateTime(2026, 8, 26),
+      );
+      expect(BlogRssService.sameSource(first, second), isTrue);
+      expect(BlogRssService.sameSource(first, legacy), isFalse);
+      expect(
+        BlogRssService.sourceIdentity(legacy.sourceName),
+        'name:example magazine',
+      );
+    });
+
     test('category blog ranking prioritizes selected categories over general', () {
       BlogArticle article(String title, String source, String? categoryId, int day) =>
           BlogArticle(
@@ -598,13 +627,13 @@ void main() {
 
   // ── Book reader content handling ───────────────────────────────────────────
   group('Book reader content handling', () {
-    test('book reader source fallback prioritizes the original verified URL', () {
+    test('book reader source fallback prioritizes readable content', () {
       const original = 'https://www.gutenberg.org/ebooks/8376';
       const readable =
           'https://www.gutenberg.org/cache/epub/8376/pg8376-images.html';
       expect(
         BookReaderContent.sourceCandidates(readable, original),
-        [original, readable],
+        [readable, original],
       );
       expect(BookReaderContent.sourceCandidates(readable, readable), [readable]);
     });

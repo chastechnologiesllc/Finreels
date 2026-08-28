@@ -188,9 +188,13 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
                       MaterialPageRoute(
                         builder: (_) => BlogChannelScreen(
                           sourceName: article.sourceName,
+                          sourceUrl: article.sourceUrl ??
+                              BlogRssService.catalogUrlForSource(
+                                article.sourceName,
+                              ),
                           initialArticles: _articles
                               .where((candidate) =>
-                                  candidate.sourceName == article.sourceName)
+                                  BlogRssService.sameSource(article, candidate))
                               .toList(growable: false),
                         ),
                       ),

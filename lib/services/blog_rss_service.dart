@@ -14,6 +14,10 @@ class BlogArticle {
   final String title;
   final String url;
   final String sourceName;
+  /// The feed or catalog URL that produced this article. This is kept
+  /// separately from [sourceName] so punctuation, aliases, and feed URLs do
+  /// not fragment one source into multiple channel pages.
+  final String? sourceUrl;
   final String? thumbnailUrl;
   final List<String> thumbnailFallbackUrls;
   final DateTime publishedAt;
@@ -29,6 +33,7 @@ class BlogArticle {
     required this.url,
     required this.sourceName,
     required this.publishedAt,
+    this.sourceUrl,
     this.thumbnailUrl,
     this.thumbnailFallbackUrls = const [],
     this.excerpt = '',
@@ -43,6 +48,7 @@ class BlogArticle {
       title: title,
       url: url,
       sourceName: sourceName,
+      sourceUrl: sourceUrl,
       publishedAt: publishedAt,
       thumbnailUrl: thumbnailUrl ?? this.thumbnailUrl,
       thumbnailFallbackUrls:
@@ -210,18 +216,27 @@ class BlogRssService {
       ...ResourceCategoryData.verifiedBlogs
           .map((entry) => Map<String, String>.from(entry)),
     ];
-    final matching = allSources.where((source) {
-      final nameMatches = normalizedName.isNotEmpty &&
-          _sourceKey(source['name'] ?? '') == normalizedName;
-      final urlMatches = normalizedUrl.isNotEmpty &&
-          _canonicalUrl(source['url'] ?? '') == normalizedUrl;
-      return nameMatches || urlMatches;
-    }).toList(growable: false);
+    final urlMatches = normalizedUrl.isNotEmpty
+        ? allSources
+            .where((source) =>
+                _canonicalUrl(source['url'] ?? '') == normalizedUrl)
+            .toList(growable: false)
+        : const <Map<String, String>>[];
+    final matching = urlMatches.isNotEmpty
+        ? urlMatches
+        : allSources.where((source) {
+            return normalizedName.isNotEmpty &&
+                _sourceKey(source['name'] ?? '') == normalizedName;
+          }).toList(growable: false);
     final feeds = _deduplicateFeeds(matching);
     final acceptedNames = <String>{
       if (normalizedName.isNotEmpty) normalizedName,
       for (final feed in feeds) _sourceKey(feed['name'] ?? ''),
     };
+    final acceptedUrls = <String>{
+      if (normalizedUrl.isNotEmpty) normalizedUrl,
+      for (final feed in feeds) _canonicalUrl(feed['url'] ?? ''),
+    }..remove('');
 
     List<BlogArticle> localArticles = const [];
     try {
@@ -233,8 +248,15 @@ class BlogRssService {
       // A failed snapshot should not prevent live source results.
     }
 
-    bool belongsToSource(BlogArticle article) =>
-        acceptedNames.contains(_sourceKey(article.sourceName));
+    bool belongsToSource(BlogArticle article) {
+      if (normalizedUrl.isNotEmpty) {
+        final articleUrl = _canonicalUrl(article.sourceUrl ?? '');
+        return acceptedUrls.contains(articleUrl) ||
+            (article.sourceUrl == null &&
+                acceptedNames.contains(_sourceKey(article.sourceName)));
+      }
+      return acceptedNames.contains(_sourceKey(article.sourceName));
+    }
 
     final fallback = mergeArticles(
       localArticles.where(belongsToSource),
@@ -288,6 +310,30 @@ class BlogRssService {
 
   static String _sourceKey(String value) => normalizeSourceName(value);
 
+  /// A stable source identity prefers the verified URL and falls back to the
+  /// normalized display name when old snapshot records have no source URL.
+  static String sourceIdentity(String sourceName, [String? sourceUrl]) {
+    final url = _canonicalUrl(sourceUrl ?? '');
+    return url.isNotEmpty ? 'url:$url' : 'name:${_sourceKey(sourceName)}';
+  }
+
+  static bool sameSource(BlogArticle first, BlogArticle second) =>
+      sourceIdentity(first.sourceName, first.sourceUrl) ==
+      sourceIdentity(second.sourceName, second.sourceUrl);
+
+  /// Finds the first verified catalog URL for a display name. This is used
+  /// when loading legacy snapshot articles that predate [BlogArticle.sourceUrl].
+  static String? catalogUrlForSource(String sourceName) {
+    final key = _sourceKey(sourceName);
+    for (final source in [
+      ...kBlogFeeds,
+      ...ResourceCategoryData.verifiedBlogs,
+    ]) {
+      if (_sourceKey(source['name'] ?? '') == key) return source['url'];
+    }
+    return null;
+  }
+
   static String _canonicalUrl(String raw) => raw
       .trim()
       .toLowerCase()
@@ -325,6 +371,8 @@ class BlogRssService {
         title: item['title'] as String? ?? 'Untitled',
         url: url,
         sourceName: item['sourceName'] as String? ?? 'FinReels source',
+        sourceUrl: item['sourceUrl'] as String? ??
+            catalogUrlForSource(item['sourceName'] as String? ?? ''),
         publishedAt: publishedAt,
         thumbnailUrl: item['thumbnailUrl'] as String?,
         thumbnailFallbackUrls:
@@ -346,7 +394,9 @@ class BlogRssService {
     final seen = <String>{};
     return [
       for (final feed in feeds)
-        if (feed['url'] != null && seen.add(feed['url']!)) feed,
+        if (feed['url'] != null &&
+            seen.add(_canonicalUrl(feed['url']!)))
+          feed,
     ];
   }
 
@@ -400,7 +450,13 @@ class BlogRssService {
       if (response.statusCode != 200) return [];
       final body = response.body;
       if (_looksLikeXml(body)) {
-          return await _parseBody(body, sourceName, categoryId, url);
+          return await _parseBody(
+            body,
+            sourceName,
+            categoryId,
+            url,
+            sourceIdentityUrl: url,
+          );
       }
 
       // Many high-quality sources publish a homepage in their catalog rather
@@ -420,6 +476,7 @@ class BlogRssService {
           sourceName,
           categoryId,
           discovered,
+          sourceIdentityUrl: url,
         );
         if (articles.isNotEmpty) return articles;
       }
@@ -431,15 +488,21 @@ class BlogRssService {
   }
 
   Future<List<BlogArticle>> _parseBody(
-      String body, String sourceName, String? categoryId, String baseUrl) async {
+    String body,
+    String sourceName,
+    String? categoryId,
+    String baseUrl, {
+    String? sourceIdentityUrl,
+  }) async {
     final articles = await compute<List<String>, List<BlogArticle>>(
       (args) => _parse(
         args[0],
         args[1],
         args[2].isEmpty ? null : args[2],
         args[3],
+        args[4].isEmpty ? null : args[4],
       ),
-      [body, sourceName, categoryId ?? '', baseUrl],
+      [body, sourceName, categoryId ?? '', baseUrl, sourceIdentityUrl ?? ''],
     );
     return articles;
   }
@@ -473,10 +536,17 @@ class BlogRssService {
     final conventional = <String>[
       '$origin/feed/',
       '$origin/feed',
+      '$origin/rss',
       '$origin/rss.xml',
       '$origin/feed.xml',
       '$origin/atom.xml',
     ];
+    if (!sourceUrl.contains('?')) {
+      conventional.addAll([
+        '$sourceUrl?format=rss',
+        '$sourceUrl?output=1',
+      ]);
+    }
     found.addAll(conventional);
     return List.unmodifiable(found.toSet());
   }
@@ -497,7 +567,13 @@ class BlogRssService {
     final firstBody = await _fetchWebBody(url, sourceName);
     if (firstBody == null) return [];
     if (_looksLikeXml(firstBody)) {
-      return _parseBody(firstBody, sourceName, categoryId, url);
+      return _parseBody(
+        firstBody,
+        sourceName,
+        categoryId,
+        url,
+        sourceIdentityUrl: url,
+      );
     }
 
     // If the catalog URL is HTML, discover its declared RSS/Atom alternate
@@ -510,6 +586,7 @@ class BlogRssService {
           sourceName,
           categoryId,
           discovered,
+          sourceIdentityUrl: url,
         );
         if (articles.isNotEmpty) return articles;
       }
@@ -633,19 +710,23 @@ class BlogRssService {
   static List<String> _pageImageMetaCandidates(String html) {
     final found = <String>[];
     final metaTags = RegExp(r'''<meta\b[^>]*>''', caseSensitive: false);
-    final imageMeta = RegExp(
-      r'''(?:property|name)\s*=\s*["'](?:og:image|twitter:image|twitter:image:src)["']''',
-      caseSensitive: false,
-    );
-    final content = RegExp(
-      r'''content\s*=\s*["']([^"']+)["']''',
+    final attribute = RegExp(
+      r'''([a-zA-Z:-]+)\s*=\s*["']([^"']+)["']''',
       caseSensitive: false,
     );
     for (final tag in metaTags.allMatches(html)) {
-      final raw = tag.group(0) ?? '';
-      if (!imageMeta.hasMatch(raw)) continue;
-      final value = content.firstMatch(raw)?.group(1);
-      if (value != null && value.isNotEmpty) found.add(value);
+      final attrs = <String, String>{
+        for (final match in attribute.allMatches(tag.group(0) ?? ''))
+          match.group(1)!.toLowerCase(): match.group(2)!,
+      };
+      final marker = (attrs['property'] ?? attrs['name'] ?? '').toLowerCase();
+      final value = attrs['content']?.trim() ?? '';
+      if ((marker == 'og:image' ||
+              marker == 'twitter:image' ||
+              marker == 'twitter:image:src') &&
+          value.isNotEmpty) {
+        found.add(value);
+      }
     }
 
     final linkTags = RegExp(r'''<link\b[^>]*>''', caseSensitive: false);
@@ -667,7 +748,12 @@ class BlogRssService {
   }
 
   static List<BlogArticle> _parse(
-      String body, String sourceName, String? categoryId, String baseUrl) {
+    String body,
+    String sourceName,
+    String? categoryId,
+    String baseUrl,
+    String? sourceIdentityUrl,
+  ) {
     try {
       final doc = XmlDocument.parse(body);
 
@@ -682,18 +768,13 @@ class BlogRssService {
           // Keep every image candidate in priority order. The card advances
           // through this list when an RSS provider URL is broken or blocked.
           final rawThumbs = <String?>[
-            for (final e in item.findElements('enclosure'))
-              if ((e.getAttribute('type') ?? '').startsWith('image'))
-                e.getAttribute('url'),
-            for (final e in item.findElements('media:content'))
-              if ((e.getAttribute('medium') ?? '').contains('image') ||
-                  (e.getAttribute('type') ?? '').startsWith('image') ||
-                  (e.getAttribute('url') ?? '').contains(
-                      RegExp(r'\.(jpg|jpeg|png|webp|gif)',
-                          caseSensitive: false)))
-                e.getAttribute('url'),
-            for (final e in item.findElements('media:thumbnail'))
-              e.getAttribute('url'),
+            for (final e in _elementsByLocalName(item, 'enclosure'))
+              if (_looksLikeImageElement(e))
+                _imageAttribute(e),
+            for (final e in _elementsByLocalName(item, 'content'))
+              if (_looksLikeImageElement(e)) _imageAttribute(e),
+            for (final e in _elementsByLocalName(item, 'thumbnail'))
+              _imageAttribute(e),
             _firstImgSrc(_text(item, 'content:encoded') ?? ''),
             _firstImgSrc(_text(item, 'description') ?? ''),
           ];
@@ -707,6 +788,7 @@ class BlogRssService {
             title: _clean(_text(item, 'title') ?? 'Untitled'),
             url: link,
             sourceName: sourceName,
+            sourceUrl: sourceIdentityUrl ?? baseUrl,
             thumbnailUrl: thumbnailCandidates.isEmpty
                 ? null
                 : thumbnailCandidates.first,
@@ -733,12 +815,10 @@ class BlogRssService {
           // Keep every Atom image candidate in priority order so the card can
           // fall back when a feed URL is unavailable.
           final rawThumbs = <String?>[
-            for (final e in entry.findElements('media:thumbnail'))
-              e.getAttribute('url'),
-            for (final e in entry.findElements('media:content'))
-              if ((e.getAttribute('medium') ?? '').contains('image') ||
-                  (e.getAttribute('type') ?? '').startsWith('image'))
-                e.getAttribute('url'),
+            for (final e in _elementsByLocalName(entry, 'thumbnail'))
+              _imageAttribute(e),
+            for (final e in _elementsByLocalName(entry, 'content'))
+              if (_looksLikeImageElement(e)) _imageAttribute(e),
             _firstImgSrc(_text(entry, 'content') ?? ''),
             _firstImgSrc(_text(entry, 'summary') ?? ''),
           ];
@@ -753,6 +833,7 @@ class BlogRssService {
             title: _clean(_text(entry, 'title') ?? 'Untitled'),
             url: link,
             sourceName: sourceName,
+            sourceUrl: sourceIdentityUrl ?? baseUrl,
             thumbnailUrl: thumbnailCandidates.isEmpty
                 ? null
                 : thumbnailCandidates.first,
@@ -808,27 +889,69 @@ class BlogRssService {
   /// Works for WordPress content:encoded, description CDATA, and Atom content.
   static String? _firstImgSrc(String html) {
     if (html.isEmpty) return null;
-    // Match both single and double quote variants.
-    final match = RegExp(
-      '''<img[^>]+src=["']([^"']+)["']''',
+    final tagPattern = RegExp(r'<(?:img|source)\b[^>]*>', caseSensitive: false);
+    final attributePattern = RegExp(
+      r'''(?:src|data-src|data-lazy-src|data-original)\s*=\s*["']([^"']+)["']''',
       caseSensitive: false,
-    ).firstMatch(html);
-    if (match != null) {
-      final src = match.group(1) ?? '';
-      // Skip tiny spacer/tracking images (1x1 px, data URIs, etc.)
-      if (src.isNotEmpty &&
-          !src.startsWith('data:') &&
-          !src.contains('1x1') &&
-          !src.contains('pixel') &&
-          !src.contains('tracking')) {
-        return src;
+    );
+    for (final tag in tagPattern.allMatches(html)) {
+      final raw = tag.group(0) ?? '';
+      final direct = attributePattern.firstMatch(raw)?.group(1) ?? '';
+      if (direct.isNotEmpty && _isUsableImageUrl(direct)) return direct;
+      final srcset = RegExp(
+        r'''srcset\s*=\s*["']([^"']+)["']''',
+        caseSensitive: false,
+      ).firstMatch(raw)?.group(1);
+      if (srcset != null) {
+        for (final candidate in srcset.split(',')) {
+          final value = candidate.trim().split(RegExp(r'\s+')).first;
+          if (_isUsableImageUrl(value)) return value;
+        }
       }
     }
     return null;
   }
 
+  static bool _isUsableImageUrl(String value) {
+    final lower = value.toLowerCase();
+    return !lower.startsWith('data:') &&
+        !lower.contains('1x1') &&
+        !lower.contains('pixel') &&
+        !lower.contains('tracking') &&
+        !lower.contains('spacer');
+  }
+
+  static Iterable<XmlElement> _elementsByLocalName(
+      XmlElement root, String name) sync* {
+    final target = name.split(':').last.toLowerCase();
+    for (final element in root.descendants) {
+      if (element.name.local.toLowerCase() == target) yield element;
+    }
+  }
+
   static String? _text(XmlElement el, String tag) =>
-      el.findElements(tag).firstOrNull?.innerText.trim();
+      _elementsByLocalName(el, tag).firstOrNull?.innerText.trim();
+
+  static String? _imageAttribute(XmlElement element) {
+    for (final name in const ['url', 'href', 'src']) {
+      final value = element.getAttribute(name)?.trim() ?? '';
+      if (value.isNotEmpty) return value;
+    }
+    return null;
+  }
+
+  static bool _looksLikeImageElement(XmlElement element) {
+    final value = _imageAttribute(element) ?? '';
+    final type = (element.getAttribute('type') ?? '').toLowerCase();
+    final medium = (element.getAttribute('medium') ?? '').toLowerCase();
+    return value.isNotEmpty &&
+        (element.name.local.toLowerCase() == 'thumbnail' ||
+            medium == 'image' ||
+            type.startsWith('image') ||
+            RegExp(r'\.(jpg|jpeg|png|webp|gif)(?:[?#].*)?$',
+                    caseSensitive: false)
+                .hasMatch(value));
+  }
 
   static String _clean(String raw) => raw
       .replaceAll(RegExp('<[^>]*>'), '')

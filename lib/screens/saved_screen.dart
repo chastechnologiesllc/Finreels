@@ -442,6 +442,7 @@ class _SavedContentCard extends StatelessWidget {
       return BookCoverImage(
         url: bookmark.thumbnailUrl ?? '',
         fallbackUrls: bookmark.thumbnailFallbackUrls,
+        sourceUrl: bookmark.url,
       );
     }
     if (bookmark.isBlog) {

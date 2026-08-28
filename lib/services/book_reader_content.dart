@@ -16,12 +16,13 @@ class BookReaderContent {
         .hasMatch(body);
   }
 
-  /// Returns valid source targets in priority order: the original verified
-  /// source first, followed by any mapped readable URL. This keeps the source
-  /// action and the fetch pipeline aligned without duplicating URL logic.
+  /// Returns valid source targets in priority order: the mapped/readable body
+  /// first, followed by the original verified source as a fallback. This keeps
+  /// landing-page chrome from winning over the actual book text while retaining
+  /// a reliable source action when a mirror is unavailable.
   static List<String> sourceCandidates(String readableUrl, String? sourceUrl) {
     final output = <String>[];
-    for (final raw in [sourceUrl, readableUrl]) {
+    for (final raw in [readableUrl, sourceUrl]) {
       final value = raw?.trim() ?? '';
       final uri = Uri.tryParse(value);
       if (uri == null || (uri.scheme != 'http' && uri.scheme != 'https')) {

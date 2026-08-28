@@ -1084,6 +1084,7 @@ class _ContentCard extends StatelessWidget {
             ? BookCoverImage(
                 url: book.coverUrl ?? '',
                 fallbackUrls: book.coverCandidates,
+                sourceUrl: book.freeSourceUrl,
               )
             : BookCoverImage(
                 url: item.video!.thumbnailUrl,

@@ -50,7 +50,14 @@ def discover_urls(body: str, source: str) -> list[str]:
             found.append(urllib.parse.urljoin(source, html.unescape(href.group(1))))
     parsed = urllib.parse.urlparse(source)
     origin = f"{parsed.scheme}://{parsed.netloc}"
-    found.extend(f"{origin}{path}" for path in ("/feed/", "/feed", "/rss.xml", "/feed.xml", "/atom.xml"))
+    found.extend(f"{origin}{path}" for path in (
+        "/feed/", "/feed", "/rss", "/rss.xml", "/feed.xml", "/atom.xml",
+    ))
+    if "?" not in source:
+        found.extend([
+            source.rstrip("/") + "?format=rss",
+            source.rstrip("/") + "?output=1",
+        ])
     return list(dict.fromkeys(found))
 
 
@@ -100,13 +107,29 @@ def image_urls(node: ET.Element, base: str) -> list[str]:
         if name in {"thumbnail", "content", "enclosure"} and value and (name != "content" or medium == "image" or typ.startswith("image") or re.search(r"\.(?:jpg|jpeg|png|webp|gif)(?:$|\?)", value, re.I)):
             values.append(urllib.parse.urljoin(base, html.unescape(value)))
     raw = child_text(node, {"encoded", "description", "content", "summary"})
-    match = re.search(r"<img[^>]+(?:src|data-src)=[\"']([^\"']+)", raw, re.I)
-    if match:
+    for tag in re.findall(r"<(?:img|source)\b[^>]*>", raw, re.I):
+        for attribute in ("src", "data-src", "data-lazy-src", "data-original"):
+            match = re.search(rf"\b{attribute}\s*=\s*[\"']([^\"']+)", tag, re.I)
+            if match:
+                values.append(urllib.parse.urljoin(base, html.unescape(match.group(1))))
+        match = re.search(r"\bsrcset\s*=\s*[\"']([^\"']+)", tag, re.I)
+        if match:
+            for candidate in match.group(1).split(","):
+                values.append(urllib.parse.urljoin(base, html.unescape(candidate.strip().split(" ")[0])))
+    for match in re.finditer(
+        r'<meta\b[^>]*(?:property|name)=[\"\'](?:og:image|twitter:image)[\"\'][^>]*content=[\"\']([^\"\']+)',
+        raw, re.I,
+    ):
         values.append(urllib.parse.urljoin(base, html.unescape(match.group(1))))
     return list(dict.fromkeys(v for v in values if v.startswith(("http://", "https://"))))
 
 
-def parse_feed(body: str, source_name: str, source_url: str) -> list[dict]:
+def parse_feed(
+    body: str,
+    source_name: str,
+    source_url: str,
+    source_identity_url: str | None = None,
+) -> list[dict]:
     try:
         root = ET.fromstring(body)
     except ET.ParseError:
@@ -132,6 +155,7 @@ def parse_feed(body: str, source_name: str, source_url: str) -> list[dict]:
             "title": html.unescape(title),
             "url": url,
             "sourceName": source_name,
+            "sourceUrl": source_identity_url or source_url,
             "publishedAt": published_at,
             "description": html.unescape(child_text(node, {"description", "summary", "media:description"})),
             "thumbnailUrl": (image_urls(node, source_url) or [""])[0],
@@ -143,8 +167,42 @@ def parse_feed(body: str, source_name: str, source_url: str) -> list[dict]:
     return result
 
 
-def blog_feed(source: tuple[str, str]) -> list[dict]:
-    name, url = source
+def _article_page_images(article_url: str) -> list[str]:
+    body = get(article_url, timeout=8)
+    if not body or '<html' not in body[:2000].lower():
+        return []
+    values: list[str] = []
+    for tag in re.findall(r'<meta\b[^>]*>', body[:300000], re.I):
+        attrs = {m.group(1).lower(): m.group(2) for m in re.finditer(r'''([a-zA-Z:-]+)\s*=\s*["']([^"']+)["']''', tag)}
+        marker = (attrs.get('property') or attrs.get('name') or '').lower()
+        if marker in {'og:image', 'og:image:url', 'twitter:image', 'twitter:image:src'} and attrs.get('content'):
+            values.append(urllib.parse.urljoin(article_url, html.unescape(attrs['content'])))
+    for tag in re.findall(r'<(?:img|source)\b[^>]*>', body[:500000], re.I):
+        for attr in ('src', 'data-src', 'data-lazy-src', 'data-original'):
+            match = re.search(rf'''\b{attr}\s*=\s*["']([^"']+)''', tag, re.I)
+            if match:
+                values.append(urllib.parse.urljoin(article_url, html.unescape(match.group(1))))
+        srcset = re.search(r'''\bsrcset\s*=\s*["']([^"']+)''', tag, re.I)
+        if srcset:
+            values.extend(urllib.parse.urljoin(article_url, html.unescape(x.strip().split(' ')[0])) for x in srcset.group(1).split(','))
+    return list(dict.fromkeys(x for x in values if x.startswith(('http://', 'https://'))))[:8]
+
+
+def _hydrate_articles(parsed: list[dict]) -> list[dict]:
+    # A bounded page lookup improves the bundled fallback without turning the
+    # scheduled refresh into a crawler. RSS metadata remains the first choice.
+    for article in parsed[:4]:
+        if article.get('thumbnailUrl') or article.get('thumbnailFallbackUrls'):
+            continue
+        candidates = _article_page_images(article.get('url', ''))
+        if candidates:
+            article['thumbnailUrl'] = candidates[0]
+            article['thumbnailFallbackUrls'] = candidates[1:8]
+    return parsed
+
+
+def blog_feed(source: tuple[str, str, str | None]) -> list[dict]:
+    name, url, category_id = source
     body = get(url)
     if not body:
         return []
@@ -152,7 +210,10 @@ def blog_feed(source: tuple[str, str]) -> list[dict]:
     for candidate in candidates:
         feed = body if candidate == url else get(candidate)
         if feed and is_xml(feed):
-            parsed = parse_feed(feed, name, candidate)
+            parsed = parse_feed(feed, name, candidate, source_identity_url=url)
+            parsed = _hydrate_articles(parsed)
+            for article in parsed:
+                article['categoryId'] = category_id
             if parsed:
                 return parsed
     return []
@@ -176,7 +237,7 @@ def channel_feed(channel_id: str) -> list[dict]:
     return [video for video in videos if video.get("id")]
 
 
-def sources() -> tuple[list[str], list[tuple[str, str]]]:
+def sources() -> tuple[list[str], list[tuple[str, str, str | None]]]:
     general = json.loads(GENERAL.read_text())
     channel_ids = re.findall(r"\bid:\s*'([A-Za-z0-9_-]{20,})'", CHANNEL_DART.read_text())
     for resource_path in (ROOT / "assets/data/resources").glob("*.json"):
@@ -186,22 +247,43 @@ def sources() -> tuple[list[str], list[tuple[str, str]]]:
             continue
         channel_ids.extend(str(item.get("id", "")) for item in resource.get("channels", []))
     channel_ids = list(dict.fromkeys(i for i in channel_ids if i))
-    # Keep the blog snapshot bounded: the General sources are the always-on
-    # fallback set; selected-category blogs continue to prefer live requests.
-    blog_sources = [(str(item.get("name", "")), str(item.get("url", ""))) for item in general.get("blogs", []) if item.get("name") and item.get("url")]
-    # Stable, first-party general feeds used by the app at runtime.
+    # Include every verified source in the static fallback. The runtime still
+    # scopes live fetching to selected categories, but a static deployment must
+    # not collapse to the five general feeds when browser CORS is unavailable.
+    blog_sources: list[tuple[str, str, str | None]] = [
+        (str(item.get("name", "")), str(item.get("url", "")), None)
+        for item in general.get("blogs", [])
+        if item.get("name") and item.get("url")
+    ]
     blog_sources.extend([
-        ("Entrepreneur", "https://www.entrepreneur.com/latest.rss"),
-        ("Inc. Magazine", "https://www.inc.com/rss/"),
-        ("Forbes Business", "https://www.forbes.com/business/feed/"),
-        ("Fast Company", "https://www.fastcompany.com/rss"),
-        ("Seth Godin", "https://seths.blog/feed/"),
+        ("Entrepreneur", "https://www.entrepreneur.com/latest.rss", None),
+        ("Inc. Magazine", "https://www.inc.com/rss/", None),
+        ("Forbes Business", "https://www.forbes.com/business/feed/", None),
+        ("Fast Company", "https://www.fastcompany.com/rss", None),
+        ("Seth Godin", "https://seths.blog/feed/", None),
     ])
-    unique_blogs: list[tuple[str, str]] = []
+    for resource_path in (ROOT / "assets/data/resources").glob("*.json"):
+        if resource_path.stem == "_general":
+            continue
+        try:
+            resource = json.loads(resource_path.read_text())
+        except (OSError, json.JSONDecodeError):
+            continue
+        category_id = resource_path.stem
+        for item in resource.get("blogs", []):
+            if item.get("name") and item.get("url"):
+                blog_sources.append((
+                    str(item["name"]),
+                    str(item["url"]),
+                    str(item.get("categoryId") or category_id),
+                ))
+    unique_blogs: list[tuple[str, str, str | None]] = []
     seen = set()
     for item in blog_sources:
-        if item[1] not in seen:
-            seen.add(item[1])
+        canonical = urllib.parse.urlsplit(item[1])
+        key = urllib.parse.urlunsplit((canonical.scheme.lower(), canonical.netloc.lower(), canonical.path.rstrip("/"), canonical.query, ""))
+        if key and key not in seen:
+            seen.add(key)
             unique_blogs.append(item)
     return channel_ids, unique_blogs
 

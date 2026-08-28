@@ -182,6 +182,7 @@ class VideoCard extends StatelessWidget {
           BookCoverImage(
             url: video.thumbnailHd,
             fallbackUrls: video.thumbnailFallbackUrls,
+            sourceUrl: video.freeSourceUrl,
           )
         else
           VideoThumbnailImage(

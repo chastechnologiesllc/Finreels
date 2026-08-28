@@ -366,6 +366,7 @@ class _FreeBookTile extends StatelessWidget {
                 BookCoverImage(
                   url: book.coverUrl ?? '',
                   fallbackUrls: book.coverCandidates,
+                  sourceUrl: book.freeSourceUrl,
                   width: 62,
                   height: 84,
                   borderRadius: const BorderRadius.only(
@@ -488,6 +489,10 @@ class _BlogTile extends StatelessWidget {
                         MaterialPageRoute(
                           builder: (_) => BlogChannelScreen(
                             sourceName: article.sourceName,
+                            sourceUrl: article.sourceUrl ??
+                                BlogRssService.catalogUrlForSource(
+                                  article.sourceName,
+                                ),
                             initialArticles: initialArticles,
                           ),
                         ),

@@ -1035,7 +1035,14 @@
       "freeSourceType": "pdf",
       "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
       "verifiedOn": "2026-08-23",
-      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/allocation-distribution-and-policy-notes-problems-and-solutions-in-microeconomics"
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Social Sciences - Economics; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/allocation-distribution-and-policy-notes-problems-and-solutions-in-microeconomics",
+      "coverUrl": "https://cdn.openbookpublishers.com/small_obp_logo_high_res_8ad3ef43d4.jpg",
+      "coverCandidates": [
+        "https://cdn.openbookpublishers.com/small_obp_logo_high_res_8ad3ef43d4.jpg",
+        "https://cdn.openbookpublishers.com/medium_obp_logo_high_res_8ad3ef43d4.jpg",
+        "https://cdn.openbookpublishers.com/thumbnail_obp_logo_high_res_8ad3ef43d4.jpg",
+        "https://books.openbookpublishers.com/10.11647/obp.0466_frontcover.jpg"
+      ]
     },
     {
       "title": "Case Studies in Finance",
