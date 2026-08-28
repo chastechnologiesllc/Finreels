@@ -42,6 +42,8 @@ jobs:
               --org com.chastechgroup \
               --ios-language swift
           fi
+          # flutter create may regenerate the default MyApp test.
+          rm -f test/widget_test.dart
 
       - name: Analyse
         run: flutter analyze --no-fatal-infos
