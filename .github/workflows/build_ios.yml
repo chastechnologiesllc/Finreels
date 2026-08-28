@@ -33,6 +33,16 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
+      - name: Ensure iOS host project
+        run: |
+          if [ ! -d ios/Runner.xcodeproj ]; then
+            flutter create . \
+              --platforms=ios \
+              --project-name finreels \
+              --org com.chastechgroup \
+              --ios-language swift
+          fi
+
       - name: Analyse
         run: flutter analyze --no-fatal-infos
 
