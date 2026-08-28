@@ -597,8 +597,18 @@ void main() {
   });
 
   // ── Book reader content handling ───────────────────────────────────────────
-  group('Book reader content handling', () {
-    test('maps Gutenberg landing pages to the readable HTML body', () {
+    test('book reader source fallback prioritizes the original verified URL', () {
+      const original = 'https://www.gutenberg.org/ebooks/8376';
+      const readable =
+          'https://www.gutenberg.org/cache/epub/8376/pg8376-images.html';
+      expect(
+        BookReaderContent.sourceCandidates(readable, original),
+        [original, readable],
+      );
+      expect(BookReaderContent.sourceCandidates(readable, readable), [readable]);
+    });
+
+    test('book reader content handling maps Gutenberg landing pages to the readable HTML body', () {
       expect(
         BookReaderContent.readableUrl('https://www.gutenberg.org/ebooks/7598'),
         'https://www.gutenberg.org/cache/epub/7598/pg7598-images.html',

@@ -17,12 +17,16 @@ import '../theme/app_theme.dart';
 /// boilerplate metadata, and dark-mode CSS from obscuring the actual book text
 /// on Web, Android, and iOS.
 class BookContentReaderScreen extends StatefulWidget {
+  /// URL used for controlled reading. It can be a mapped HTML mirror rather
+  /// than the publisher/catalog URL shown to the user.
   final String url;
   final String title;
+  final String? sourceUrl;
 
   const BookContentReaderScreen({
     required this.url,
     required this.title,
+    this.sourceUrl,
     super.key,
   });
 
@@ -67,18 +71,22 @@ class _BookContentReaderScreenState extends State<BookContentReaderScreen> {
   }
 
   Future<_LoadedBookContent> _fetchContent() async {
-    final encoded = Uri.encodeComponent(widget.url);
-    final direct = widget.url;
+    final targets = BookReaderContent.sourceCandidates(
+      widget.url,
+      widget.sourceUrl,
+    );
     final candidates = <String>[
-      if (kIsWeb) ...[
-        'https://corsproxy.io/?url=$encoded',
-        'https://api.allorigins.win/raw?url=$encoded',
-      ],
-      direct,
-      if (!kIsWeb) ...[
-        'https://corsproxy.io/?url=$encoded',
-        'https://api.allorigins.win/raw?url=$encoded',
-      ],
+      if (kIsWeb)
+        for (final target in targets) ...[
+          'https://api.allorigins.win/raw?url=${Uri.encodeComponent(target)}',
+          'https://corsproxy.io/?url=${Uri.encodeComponent(target)}',
+        ],
+      ...targets,
+      if (!kIsWeb)
+        for (final target in targets) ...[
+          'https://api.allorigins.win/raw?url=${Uri.encodeComponent(target)}',
+          'https://corsproxy.io/?url=${Uri.encodeComponent(target)}',
+        ],
     ];
 
     Object? lastError;
@@ -123,7 +131,30 @@ class _BookContentReaderScreenState extends State<BookContentReaderScreen> {
     if (raw.isEmpty) return;
     final parsed = Uri.tryParse(raw);
     if (parsed != null) {
-      await launchUrl(parsed, mode: LaunchMode.externalApplication);
+      await launchUrl(parsed, mode: LaunchMode.platformDefault);
+    }
+  }
+
+  Future<void> _openSource() async {
+    final candidates = <Uri>[];
+    for (final raw in [widget.sourceUrl, widget.url]) {
+      final uri = Uri.tryParse(raw?.trim() ?? '');
+      if (uri == null || (uri.scheme != 'http' && uri.scheme != 'https')) {
+        continue;
+      }
+      if (!candidates.contains(uri)) candidates.add(uri);
+    }
+    for (final uri in candidates) {
+      try {
+        if (await launchUrl(uri, mode: LaunchMode.platformDefault)) return;
+      } on Object catch (_) {
+        // Try the mapped reader URL if the original source cannot be opened.
+      }
+    }
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Unable to open this book source.')),
+      );
     }
   }
 
@@ -247,12 +278,7 @@ class _BookContentReaderScreenState extends State<BookContentReaderScreen> {
             ),
             const SizedBox(height: 8),
             TextButton.icon(
-              onPressed: () async {
-                final uri = Uri.tryParse(widget.url);
-                if (uri != null) {
-                  await launchUrl(uri, mode: LaunchMode.externalApplication);
-                }
-              },
+              onPressed: _openSource,
               icon: const Icon(Icons.open_in_new_rounded),
               label: const Text('Open source'),
             ),

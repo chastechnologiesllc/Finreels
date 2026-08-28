@@ -322,6 +322,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
     await Navigator.of(context).push(MaterialPageRoute(
       builder: (_) => BookContentReaderScreen(
         url: _webReadableBookUrl(url),
+        sourceUrl: url,
         title: widget.book.title,
       ),
     ));
@@ -660,7 +661,11 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
     if (_source.type == _SourceType.externalUrl) {
       final url = _source.epubUrl ?? '';
       if (_isEpubUrl(url)) return _buildEpubReader(url);
-      return BookContentReaderScreen(url: url, title: widget.book.title);
+      return BookContentReaderScreen(
+        url: url,
+        sourceUrl: url,
+        title: widget.book.title,
+      );
     }
     return _buildInsightsReader();
   }
@@ -757,6 +762,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
       if (readableUrl != url) {
         return BookContentReaderScreen(
           url: readableUrl,
+          sourceUrl: url,
           title: widget.book.title,
         );
       }

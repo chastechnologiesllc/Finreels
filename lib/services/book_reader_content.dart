@@ -16,6 +16,22 @@ class BookReaderContent {
         .hasMatch(body);
   }
 
+  /// Returns valid source targets in priority order: the original verified
+  /// source first, followed by any mapped readable URL. This keeps the source
+  /// action and the fetch pipeline aligned without duplicating URL logic.
+  static List<String> sourceCandidates(String readableUrl, String? sourceUrl) {
+    final output = <String>[];
+    for (final raw in [sourceUrl, readableUrl]) {
+      final value = raw?.trim() ?? '';
+      final uri = Uri.tryParse(value);
+      if (uri == null || (uri.scheme != 'http' && uri.scheme != 'https')) {
+        continue;
+      }
+      if (!output.contains(value)) output.add(value);
+    }
+    return output;
+  }
+
   /// Maps known book landing/download URLs to the readable source body.
   /// Returning the original URL is intentional for ordinary HTML/TXT pages.
   static String readableUrl(String bookUrl) {
