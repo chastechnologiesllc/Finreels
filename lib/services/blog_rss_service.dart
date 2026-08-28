@@ -924,8 +924,10 @@ class BlogRssService {
   static Iterable<XmlElement> _elementsByLocalName(
       XmlElement root, String name) sync* {
     final target = name.split(':').last.toLowerCase();
-    for (final element in root.descendants) {
-      if (element.name.local.toLowerCase() == target) yield element;
+    for (final node in root.descendants) {
+      if (node is XmlElement && node.name.local.toLowerCase() == target) {
+        yield node;
+      }
     }
   }
 
