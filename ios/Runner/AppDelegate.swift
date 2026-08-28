@@ -9,10 +9,8 @@ import workmanager_apple
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        // Re-register BGTask launch handlers persisted from previous sessions.
-        // Required under modern Flutter / UIScene timing so iOS can wake the
-        // app for scheduled background work.
-        WorkmanagerPlugin.registerLaunchHandlers()
+        // workmanager_apple 0.9.3 auto-registers persisted BGTask launch
+        // handlers during plugin initialization; no newer API is required here.
 
         // Make other plugins (shared_preferences, flutter_local_notifications,
         // http, etc.) available inside the Workmanager background isolate.
