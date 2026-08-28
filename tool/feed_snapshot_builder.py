@@ -293,6 +293,18 @@ def main() -> int:
     parser.add_argument("--output", default=str(ROOT / "assets/data/feed_snapshot.json"))
     args = parser.parse_args()
     channel_ids, blog_sources = sources()
+    output_path = Path(args.output)
+    previous_channels: dict[str, list[dict]] = {}
+    if output_path.exists():
+        try:
+            previous = json.loads(output_path.read_text())
+            previous_channels = {
+                str(channel_id): videos
+                for channel_id, videos in (previous.get('channels') or {}).items()
+                if isinstance(videos, list) and videos
+            }
+        except (OSError, json.JSONDecodeError):
+            previous_channels = {}
     snapshot = {"generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(), "channels": {}, "blogs": []}
     with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
         channel_results = list(pool.map(channel_feed, channel_ids))
@@ -300,6 +312,10 @@ def main() -> int:
     for channel_id, videos in zip(channel_ids, channel_results):
         if videos:
             snapshot["channels"][channel_id] = videos
+        elif channel_id in previous_channels:
+            # A failed refresh must not erase the last verified public channel
+            # feed. The next successful refresh replaces this stale fallback.
+            snapshot["channels"][channel_id] = previous_channels[channel_id]
     seen_urls: set[str] = set()
     for articles in blog_results:
         for article in articles:
