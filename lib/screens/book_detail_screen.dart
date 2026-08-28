@@ -317,13 +317,17 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
       return;
     }
 
-    // ── Case 3: HTML/TXT/book landing page — render controlled content ─────
+    // ── Case 3: HTML/TXT/book landing page — open the exact verified URL ──
+    // Match the Source action exactly. Do not map the URL to a mirror or send
+    // it through a CORS proxy: publishers often require the original URL for
+    // redirects, cookies, licensing checks, and JavaScript navigation.
     unawaited(AdService.instance.onBookRead());
     await Navigator.of(context).push(MaterialPageRoute(
-      builder: (_) => BookContentReaderScreen(
-        url: _webReadableBookUrl(url),
-        sourceUrl: url,
+      builder: (_) => BlogReaderScreen(
+        url: url,
         title: widget.book.title,
+        sourceName: widget.book.channelName,
+        categoryId: widget.book.sourceCategoryId,
       ),
     ));
   }
