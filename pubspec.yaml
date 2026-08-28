@@ -65,6 +65,12 @@ dependencies:
   # PDFs. No extra Android/iOS permissions needed for the app documents dir.
   path_provider: ^2.1.4
 
+# workmanager_apple 0.9.6+ adds BGContinuedProcessingTask references that require
+# the iOS 26 SDK. FinReels only uses periodic tasks, so keep the iOS implementation
+# on the 0.9.5 line for compatibility with the current Xcode CI host.
+dependency_overrides:
+  workmanager_apple: 0.9.5
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
