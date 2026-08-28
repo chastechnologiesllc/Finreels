@@ -597,6 +597,7 @@ void main() {
   });
 
   // ── Book reader content handling ───────────────────────────────────────────
+  group('Book reader content handling', () {
     test('book reader source fallback prioritizes the original verified URL', () {
       const original = 'https://www.gutenberg.org/ebooks/8376';
       const readable =
