@@ -8,7 +8,7 @@
 
 The audit covered the accumulated requirements for the shared Flutter application: responsive Web/Android/iOS behavior, navigation, onboarding and profile personalization, universal search, videos and Shorts, Blogs, books and reading, bookmarks, notifications, media caching, thumbnail fallbacks, data integrity, and CI validation.
 
-The project is structurally ready for shared Flutter delivery. Web and Android workflows already validate analysis, tests, and release artifacts. The repository does not contain the generated `ios/Runner.xcodeproj` host project, so the macOS iOS workflow bootstraps that generated host project with `flutter create` when absent, disables Swift Package Manager for the current CI user because `google_mobile_ads` is CocoaPods-only while `webview_flutter_wkwebview` also exposes SwiftPM integration, removes the generated template test, and then runs Flutter analysis, tests, and `flutter build ios --release --no-codesign`. This validates the shared iOS build path without claiming code signing, simulator, or physical-device execution.
+The project is structurally ready for shared Flutter delivery. Web and Android workflows already validate analysis, tests, and release artifacts. The repository does not contain the generated `ios/Runner.xcodeproj` host project, so the macOS iOS workflow bootstraps that generated host project with `flutter create` when absent, disables Swift Package Manager for the current CI user because `google_mobile_ads` is CocoaPods-only while `webview_flutter_wkwebview` also exposes SwiftPM integration, removes the generated template test, and then runs Flutter analysis, tests, `flutter build ios --release --no-codesign --config-only`, and an explicit unsigned `xcodebuild` compile. This validates the shared iOS build path without claiming code signing, simulator, or physical-device execution.
 
 ## Verified requirements
 
@@ -32,7 +32,7 @@ The project is structurally ready for shared Flutter delivery. Web and Android w
 
 The production iOS App Open ad unit is intentionally unset because an AdMob iOS unit ID cannot be safely invented. Debug iOS uses Google’s test unit, while production iOS falls back to no App Open ad. A real iOS App Open unit must be supplied in `lib/config/app_config.dart` when the AdMob account configuration is available.
 
-The new iOS workflow bootstraps `ios/Runner.xcodeproj` when it is absent, uses the project’s iOS 14 minimum, disables Swift Package Manager for this CI build because the current plugin mix resolves through CocoaPods, and compiles with `--no-codesign`; it does not replace committing a generated Xcode host project, Apple signing, App Store provisioning, simulator testing, or testing on physical browsers/devices. Browser compatibility is covered by the Flutter Web build and shared code review, but no automated matrix of every browser engine is claimed.
+The new iOS workflow bootstraps `ios/Runner.xcodeproj` when it is absent, uses the project’s iOS 14 minimum, disables Swift Package Manager for this CI build because the current plugin mix resolves through CocoaPods, prepares the Flutter configuration, and compiles with Xcode signing variables disabled; it does not replace committing a generated Xcode host project, Apple signing, App Store provisioning, simulator testing, or testing on physical browsers/devices. Browser compatibility is covered by the Flutter Web build and shared code review, but no automated matrix of every browser engine is claimed.
 
 ## Local checks performed
 

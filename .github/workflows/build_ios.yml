@@ -54,5 +54,18 @@ jobs:
       - name: Run tests
         run: flutter test
 
+      - name: Prepare iOS build configuration
+        run: flutter build ios --release --no-codesign --config-only --build-number=${{ github.run_number }}
+
       - name: Compile iOS without signing
-        run: flutter build ios --release --no-codesign --build-number=${{ github.run_number }}
+        run: |
+          xcodebuild \
+            -workspace ios/Runner.xcworkspace \
+            -scheme Runner \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY='' \
+            build
