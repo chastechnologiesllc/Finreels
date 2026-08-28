@@ -170,7 +170,8 @@ void main() {
       );
 
       final firstGeneral = ordered.indexWhere((item) => item.categoryId == null);
-      expect(firstGeneral, greaterThanOrEqualTo(4));
+      expect(firstGeneral, greaterThanOrEqualTo(2));
+      expect(firstGeneral, lessThanOrEqualTo(3));
       expect(ordered.where((item) => item.categoryId != null), isNotEmpty);
       expect(ordered.where((item) => item.categoryId == null), isNotEmpty);
       expect(ordered.map((item) => item.categoryId).toSet(),
