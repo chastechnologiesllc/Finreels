@@ -168,6 +168,9 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
   final EpubController _epubController = EpubController();
   String? _lastCfi;
   Box<String>? _progressBox;
+  Timer?  _epubLoadTimer;
+  bool    _epubLoadFailed = false;
+  int     _epubRetryKey   = 0;
 
   // PDF (bundled asset books)
   int? _lastPdfPage;
@@ -230,6 +233,12 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
     // Check if a PDF was previously downloaded for this book so we can
     // show "Open Downloaded Book" instead of "Download Free Book" immediately.
     _checkLocalPdf();
+  }
+
+  @override
+  void dispose() {
+    _epubLoadTimer?.cancel();
+    super.dispose();
   }
 
   /// Async check — runs after initState; updates UI once the file lookup
@@ -312,22 +321,28 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
         setState(() {
           _showReader = true;
           _isLoading = true;
+          _epubLoadFailed = false;
         });
+        // Native EpubViewer has no error callback we can rely on without
+        // assuming package internals we haven't verified — a plain timeout
+        // is the safe way to detect a stuck load and offer a way out.
+        if (!kIsWeb) {
+          _epubLoadTimer?.cancel();
+          _epubLoadTimer = Timer(const Duration(seconds: 20), () {
+            if (mounted && _isLoading) setState(() => _epubLoadFailed = true);
+          });
+        }
       }
       return;
     }
 
-    // ── Case 3: HTML/TXT/book landing page — open the exact verified URL ──
-    // Match the Source action exactly. Do not map the URL to a mirror or send
-    // it through a CORS proxy: publishers often require the original URL for
-    // redirects, cookies, licensing checks, and JavaScript navigation.
+    // ── Case 3: HTML/TXT/book landing page — render controlled content ─────
     unawaited(AdService.instance.onBookRead());
     await Navigator.of(context).push(MaterialPageRoute(
-      builder: (_) => BlogReaderScreen(
-        url: url,
+      builder: (_) => BookContentReaderScreen(
+        url: _webReadableBookUrl(url),
+        sourceUrl: url,
         title: widget.book.title,
-        sourceName: widget.book.channelName,
-        categoryId: widget.book.sourceCategoryId,
       ),
     ));
   }
@@ -728,6 +743,22 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
             _isLoading = true;
           }),
         ),
+        actions: [
+          // Always visible, not conditional on an error state — this path is
+          // only reached for hosts without a known HTML mirror, so the epub
+          // package's iframe view can show a blank/download page with no
+          // signal Flutter can detect. Users need an escape hatch regardless.
+          IconButton(
+            tooltip: 'Open in browser',
+            icon: const Icon(Icons.open_in_new_rounded),
+            onPressed: () async {
+              final uri = Uri.tryParse(url);
+              if (uri != null) {
+                await launchUrl(uri, mode: LaunchMode.platformDefault);
+              }
+            },
+          ),
+        ],
       ),
       body: EpubViewer(
         epubSource: EpubSource.fromUrl(url),
@@ -791,6 +822,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
             child: Stack(
               children: [
                 EpubViewer(
+                  key: ValueKey(_epubRetryKey),
                   epubSource: EpubSource.fromUrl(url),
                   epubController: _epubController,
                   displaySettings: EpubDisplaySettings(
@@ -799,12 +831,14 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
                     allowScriptedContent: true,
                   ),
                   onEpubLoaded: () async {
+                    _epubLoadTimer?.cancel();
                     if (mounted) setState(() => _isLoading = false);
                     if (_lastCfi != null && _lastCfi!.isNotEmpty) {
                       _epubController.display(cfi: _lastCfi!);
                     }
                   },
                   onChaptersLoaded: (_) {
+                    _epubLoadTimer?.cancel();
                     if (mounted) setState(() => _isLoading = false);
                   },
                   onRelocated: (location) {
@@ -817,9 +851,10 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
                   },
                   onTextSelected: (_) {},
                 ),
-                if (_isLoading)
+                if (_isLoading && !_epubLoadFailed)
                   const Center(
                       child: CircularProgressIndicator(color: AppTheme.gold)),
+                if (_epubLoadFailed) _buildEpubLoadError(url),
               ],
             ),
           ),
@@ -831,6 +866,68 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
                 : const StickyBannerBar(),
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _buildEpubLoadError(String url) {
+    return Container(
+      color: AppTheme.bgColor(context),
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(28),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(Icons.menu_book_rounded,
+                  size: 52, color: AppTheme.textMuted(context)),
+              const SizedBox(height: 16),
+              Text(
+                'This book is taking too long to load.',
+                textAlign: TextAlign.center,
+                style: Theme.of(context)
+                    .textTheme
+                    .titleMedium
+                    ?.copyWith(fontWeight: FontWeight.w700),
+              ),
+              const SizedBox(height: 10),
+              Text(
+                'Try again or open the source in your browser.',
+                textAlign: TextAlign.center,
+                style: TextStyle(color: AppTheme.textMuted(context)),
+              ),
+              const SizedBox(height: 22),
+              FilledButton.icon(
+                onPressed: () {
+                  setState(() {
+                    _epubLoadFailed = false;
+                    _isLoading = true;
+                    _epubRetryKey++;
+                  });
+                  _epubLoadTimer?.cancel();
+                  _epubLoadTimer = Timer(const Duration(seconds: 20), () {
+                    if (mounted && _isLoading) {
+                      setState(() => _epubLoadFailed = true);
+                    }
+                  });
+                },
+                icon: const Icon(Icons.refresh_rounded),
+                label: const Text('Try again'),
+              ),
+              const SizedBox(height: 8),
+              TextButton.icon(
+                onPressed: () async {
+                  final uri = Uri.tryParse(url);
+                  if (uri != null) {
+                    await launchUrl(uri, mode: LaunchMode.platformDefault);
+                  }
+                },
+                icon: const Icon(Icons.open_in_new_rounded),
+                label: const Text('Open source'),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

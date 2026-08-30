@@ -88,40 +88,59 @@ class _BookContentReaderScreenState extends State<BookContentReaderScreen> {
           'https://corsproxy.io/?url=${Uri.encodeComponent(target)}',
         ],
     ];
+    final unique = candidates.toSet().toList();
 
+    // Concurrent race — every candidate starts simultaneously, first valid
+    // response wins. Previously these were tried sequentially, each with its
+    // own 18s timeout; a single slow/hanging proxy could burn the full 18s
+    // before the next candidate was even attempted, so a book needing
+    // several fallbacks could take over a minute with no feedback beyond a
+    // static spinner. Racing bounds real-world wait to one timeout window,
+    // matching the pattern already proven in RssService._tryFetchWeb().
+    final completer = Completer<_LoadedBookContent>();
+    var pending = unique.length;
     Object? lastError;
-    final attempted = <String>{};
-    for (final candidate in candidates) {
-      if (!attempted.add(candidate)) continue;
-      try {
-        final response = await http.get(Uri.parse(candidate), headers: {
-          'Accept': 'text/html, text/plain;q=0.9, application/xhtml+xml',
-          'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
-        }).timeout(const Duration(seconds: 18));
-        if (response.statusCode != 200 || response.bodyBytes.isEmpty) {
-          lastError = StateError('HTTP ${response.statusCode}');
-          continue;
-        }
 
-        final body = utf8.decode(response.bodyBytes, allowMalformed: true);
-        final contentType = response.headers['content-type'] ?? '';
-        final plain = BookReaderContent.looksLikePlainText(
-          widget.url,
-          contentType,
-          body,
-        );
-        return _LoadedBookContent(
-          isPlainText: plain,
-          body: plain ? body : BookReaderContent.sanitizeHtml(body),
-        );
-      } on Object catch (error) {
-        lastError = error;
-      }
+    for (final candidate in unique) {
+      unawaited(() async {
+        try {
+          final response = await http.get(Uri.parse(candidate), headers: {
+            'Accept': 'text/html, text/plain;q=0.9, application/xhtml+xml',
+            'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
+          }).timeout(const Duration(seconds: 25));
+
+          if (response.statusCode == 200 && response.bodyBytes.isNotEmpty) {
+            final body =
+                utf8.decode(response.bodyBytes, allowMalformed: true);
+            final contentType = response.headers['content-type'] ?? '';
+            final plain = BookReaderContent.looksLikePlainText(
+              widget.url,
+              contentType,
+              body,
+            );
+            if (!completer.isCompleted) {
+              completer.complete(_LoadedBookContent(
+                isPlainText: plain,
+                body: plain ? body : BookReaderContent.sanitizeHtml(body),
+              ));
+              return; // Skip pending decrement; completer is resolved.
+            }
+          } else {
+            lastError = StateError('HTTP ${response.statusCode}');
+          }
+        } on Object catch (error) {
+          lastError = error;
+        }
+        pending--;
+        if (pending == 0 && !completer.isCompleted) {
+          completer.completeError(StateError(
+            'The book could not be loaded. ${lastError ?? 'No readable response.'}',
+          ));
+        }
+      }());
     }
 
-    throw StateError(
-      'The book could not be loaded. ${lastError ?? 'No readable response.'}',
-    );
+    return completer.future;
   }
 
   
@@ -187,7 +206,9 @@ class _BookContentReaderScreenState extends State<BookContentReaderScreen> {
                   const CircularProgressIndicator(color: AppTheme.gold),
                   const SizedBox(height: 16),
                   Text(
-                    'Preparing readable book text…',
+                    'Preparing readable book text… longer books can take a '
+                    'little while',
+                    textAlign: TextAlign.center,
                     style: TextStyle(color: AppTheme.textMuted(context)),
                   ),
                 ],

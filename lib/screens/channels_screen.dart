@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
 
-import '../config/app_config.dart';
 import '../data/channel_data.dart';
 import '../models/video.dart';
 import '../providers/feed_provider.dart';
@@ -25,13 +24,8 @@ class ChannelsScreen extends StatefulWidget {
 }
 
 class _ChannelsScreenState extends State<ChannelsScreen> {
-  int _tapCount = 0;
-
   void _openShorts(List<Video> shorts, int index) {
-    _tapCount++;
-    if (_tapCount % AppConfig.interstitialEveryNChannelsPage == 0) {
-      unawaited(AdService.instance.showInterstitial());
-    }
+    unawaited(AdService.instance.onShortTapped());
     Navigator.push(
       context,
       NoFlashPageRoute(

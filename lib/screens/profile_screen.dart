@@ -307,6 +307,7 @@ class _AppInfoCard extends StatelessWidget {
                 const SizedBox(width: 14),
                 Expanded(
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text('FinReels',
                           style: TextStyle(

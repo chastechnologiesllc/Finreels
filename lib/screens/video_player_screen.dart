@@ -385,9 +385,9 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                 ),
               ),
               actions: [
-                ValueListenableBuilder<int>(
-                  valueListenable: ValueNotifier(0), // rebuild when provider notifies
-                  builder: (_, __, ___) {
+                ListenableBuilder(
+                  listenable: FeedProvider.instance ?? ChangeNotifier(),
+                  builder: (_, __) {
                     final fp    = FeedProvider.instance;
                     final saved = fp?.isVideoSaved(widget.video.id) ?? false;
                     return IconButton(

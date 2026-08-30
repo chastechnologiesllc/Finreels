@@ -80,7 +80,12 @@ class PrivacyPolicyScreen extends StatelessWidget {
               'thumbnails, and descriptions from YouTube channels\' public RSS '
               'feeds, and links out to the YouTube app or website to play videos\n'
               '• Third-party blog and book sources — content is aggregated from '
-              'publicly available RSS feeds and free resource URLs',
+              'publicly available RSS feeds and free resource URLs\\n'
+              '• CORS proxy services (web version only) — when you read blog '
+              'articles or RSS feeds in a web browser, requests are routed through '
+              'corsproxy.io and/or api.allorigins.win to retrieve the content, since '
+              'browsers block most cross-site requests directly. These services see '
+              'the URL being requested but are not used on the Android or iOS apps',
         ),
         _LegalSection(
           heading: '4. Data Retention',

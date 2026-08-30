@@ -21,13 +21,19 @@ class AppConfig {
   static const String adsenseTestSlot = '6300978111';
   static const bool adsenseTestMode = true;
 
+  // iOS production ad units below are TODO placeholders, not real AdMob
+  // unit IDs. They previously mirrored the Android production ID, which is
+  // invalid in AdMob (units are platform-specific) and was disabled/no-fill
+  // risk. Create each iOS unit in AdMob and paste its real ID in place of
+  // the REPLACE_WITH_… placeholder — until then, these will safely no-fill
+  // rather than crash.
   static String get bannerAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/6300978111'
           : 'ca-app-pub-2492078126313994/7558254910')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/2934735716'
-          : 'ca-app-pub-2492078126313994/7558254910');
+          : 'REPLACE_WITH_IOS_BANNER_AD_UNIT_ID');
 
   static String get interstitialAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
@@ -35,7 +41,7 @@ class AppConfig {
           : 'ca-app-pub-2492078126313994/6245173247')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/4411468910'
-          : 'ca-app-pub-2492078126313994/6245173247');
+          : 'REPLACE_WITH_IOS_INTERSTITIAL_AD_UNIT_ID');
 
   static String get rewardedAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
@@ -43,7 +49,7 @@ class AppConfig {
           : 'ca-app-pub-2492078126313994/7037566074')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/1712485313'
-          : 'ca-app-pub-2492078126313994/7037566074');
+          : 'REPLACE_WITH_IOS_REWARDED_AD_UNIT_ID');
 
   static String get rewardedInterstitialAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
@@ -51,15 +57,18 @@ class AppConfig {
           : 'ca-app-pub-2492078126313994/3749771769')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/6978759866'
-          : 'ca-app-pub-2492078126313994/3749771769');
+          : 'REPLACE_WITH_IOS_REWARDED_INTERSTITIAL_AD_UNIT_ID');
 
+  // Unused anywhere in the app today (no native ad widget calls this) —
+  // fixed for consistency with the getters above, left in place in case
+  // it's wired up later.
   static String get nativeAdUnitId => defaultTargetPlatform == TargetPlatform.android
       ? (kDebugAds
           ? 'ca-app-pub-3940256099942544/2247696110'
           : 'ca-app-pub-2492078126313994/4874437160')
       : (kDebugAds
           ? 'ca-app-pub-3940256099942544/3986624511'
-          : 'ca-app-pub-2492078126313994/4874437160');
+          : 'REPLACE_WITH_IOS_NATIVE_AD_UNIT_ID');
 
   // App Open ad unit — production unit created in AdMob.
   // Android unit ID: ca-app-pub-2492078126313994/4740519888

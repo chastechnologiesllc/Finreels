@@ -201,8 +201,11 @@ class _PlaybookCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final video = CategoryPlaybookData.videos
-        .firstWhere((v) => v.id == CategoryPlaybookData.playbookId(category.id));
+    final targetId = CategoryPlaybookData.playbookId(category.id);
+    final matches =
+        CategoryPlaybookData.videos.where((v) => v.id == targetId);
+    if (matches.isEmpty) return const SizedBox.shrink();
+    final video = matches.first;
     return GestureDetector(
       onTap: () {
         unawaited(AdService.instance.onVideoTapped());

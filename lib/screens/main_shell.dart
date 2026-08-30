@@ -8,6 +8,7 @@ import '../models/video.dart';
 import '../providers/feed_provider.dart';
 import '../screens/video_player_screen.dart';
 import '../services/notification_service.dart';
+import '../services/notification_store.dart';
 import '../theme/app_theme.dart';
 import '../widgets/no_flash_page_route.dart';
 import 'channels_screen.dart';
@@ -212,16 +213,45 @@ class _FloatingNavBar extends StatelessWidget {
                       children: [
                         AnimatedSwitcher(
                           duration: const Duration(milliseconds: 200),
-                          child: Icon(
-                            isActive ? item.$2 : item.$1,
-                            key: ValueKey(isActive),
-                            color: isActive
-                                ? AppTheme.gold
-                                : (isDark
-                                    ? AppTheme.darkTextMuted
-                                    : AppTheme.lightTextMuted),
-                            size: isActive ? 26 : 24,
-                          ),
+                          child: i == 0
+                              ? ValueListenableBuilder<int>(
+                                  key: ValueKey(isActive),
+                                  valueListenable:
+                                      NotificationStore.instance.unreadCount,
+                                  builder: (context, count, _) => Badge(
+                                    isLabelVisible: count > 0,
+                                    label: Text(
+                                      count > 99 ? '99+' : '$count',
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 9,
+                                        fontWeight: FontWeight.w700,
+                                      ),
+                                    ),
+                                    backgroundColor: Colors.red,
+                                    padding:
+                                        const EdgeInsets.symmetric(horizontal: 4),
+                                    child: Icon(
+                                      isActive ? item.$2 : item.$1,
+                                      color: isActive
+                                          ? AppTheme.gold
+                                          : (isDark
+                                              ? AppTheme.darkTextMuted
+                                              : AppTheme.lightTextMuted),
+                                      size: isActive ? 26 : 24,
+                                    ),
+                                  ),
+                                )
+                              : Icon(
+                                  isActive ? item.$2 : item.$1,
+                                  key: ValueKey(isActive),
+                                  color: isActive
+                                      ? AppTheme.gold
+                                      : (isDark
+                                          ? AppTheme.darkTextMuted
+                                          : AppTheme.lightTextMuted),
+                                  size: isActive ? 26 : 24,
+                                ),
                         ),
                         const SizedBox(height: 3),
                         Text(

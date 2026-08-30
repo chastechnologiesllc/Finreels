@@ -1,11 +1,9 @@
 import '../models/resource_category.dart';
 
 /// Everything about "type what you do and get allocated to a category" in
-/// one place, so the onboarding picker (my_business_screen.dart) and the
-/// Discover browse/search screen (discover_screen.dart) can't quietly drift
-/// out of sync on section order, matching rules, or the "Others" fallback.
-/// My Business is intentionally search-only; Discover is the separate place
-/// for browsing the complete category catalogue.
+/// one place, used by the onboarding/personalize picker
+/// (my_business_screen.dart) for section order, matching rules, and the
+/// "Others" fallback.
 class CategorySearch {
   CategorySearch._();
 
