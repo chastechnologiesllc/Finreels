@@ -76,7 +76,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
             // ── Tagline ───────────────────────────────────────────────────────
             const Text(
-              'Opening your learning space…',
+              'Opening your discovery space…',
               style: TextStyle(
                 color: AppTheme.gold,
                 fontSize: 14,
