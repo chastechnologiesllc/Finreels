@@ -74,10 +74,22 @@ dependencies:
 # on the 0.9.3 line for compatibility with the current Xcode CI host. Pin the
 # platform interface too because newer interfaces add named parameters not present
 # in these pre-iOS-26 implementations.
+# html pinned below 0.15.7: that release (shipped days before this was added)
+# changed something in its private, undocumented src/query_selector.dart —
+# not covered by semver since it's under src/ — which flutter_html 3.0.0
+# relies on internally (see its own "don't use the internal code of the html
+# package as it may change unexpectedly" comment). Caused:
+#   Error: Method not found: 'matches'.
+#     return qs.matches(element, selector);
+# in flutter_html-3.0.0/lib/src/tree/styled_element.dart during
+# compileFlutterBuildRelease. No newer flutter_html exists yet (3.0.0 is
+# still latest as of this fix) to properly resolve this, so pinning the
+# transitive dependency is the correct fix until it does.
 dependency_overrides:
   workmanager_android: 0.9.1
   workmanager_apple: 0.9.3
   workmanager_platform_interface: 0.9.2
+  html: 0.15.6
 
 dev_dependencies:
   flutter_test:
