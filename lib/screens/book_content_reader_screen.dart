@@ -156,7 +156,11 @@ class _BookContentReaderScreenState extends State<BookContentReaderScreen> {
 
   Future<void> _openSource() async {
     final candidates = <Uri>[];
-    for (final raw in [widget.sourceUrl, widget.url]) {
+    // Try the direct readable content URL first — landing pages require an
+    // extra click to actually reach the book, which defeats the point of
+    // this fallback. widget.sourceUrl (the original/landing page) is only
+    // tried second, in case the mapped URL itself can't be launched.
+    for (final raw in [widget.url, widget.sourceUrl]) {
       final uri = Uri.tryParse(raw?.trim() ?? '');
       if (uri == null || (uri.scheme != 'http' && uri.scheme != 'https')) {
         continue;
