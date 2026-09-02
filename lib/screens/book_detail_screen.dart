@@ -387,7 +387,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
   String get _ctaCaption {
     switch (_source.type) {
       case _SourceType.pdfAsset:
-        return 'Included free with FinReels — no internet required';
+        return 'Included free with Rumuo — no internet required';
       case _SourceType.externalUrl:
         if (_localPdfPath != null) {
           return 'Saved on this device — no internet required';
@@ -395,7 +395,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
         if (_isPdfUrl(widget.book.freeSourceUrl ?? '')) {
           return 'Downloads once, then reads offline — always free';
         }
-        return 'Opens in built-in reader · stays inside FinReels';
+        return 'Opens in built-in reader · stays inside Rumuo';
       case _SourceType.epub:
         if (widget.book.id.startsWith('book_richest') ||
             widget.book.id.startsWith('book_as_man') ||
@@ -631,7 +631,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
   // ── Reader router ──────────────────────────────────────────────────────────
 
-  /// Web in-app reader: always embed inside FinReels (no external browser tab).
+  /// Web in-app reader: always embed inside Rumuo (no external browser tab).
   Widget _webInAppReader(String url) {
     return Scaffold(
       appBar: AppBar(
@@ -1478,7 +1478,7 @@ class _BuyFullBookCard extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            'You\'ll leave FinReels to open Amazon',
+            'You\'ll leave Rumuo to open Amazon',
             style: TextStyle(
                 color: AppTheme.textMuted(context), fontSize: 11),
           ),

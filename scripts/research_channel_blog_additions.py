@@ -409,7 +409,7 @@ def resolve_channel(item: tuple[str, str, str]) -> dict | None:
     handle, name, description = item
     url = f"https://www.youtube.com/@{quote(handle, safe='@._-')}/about"
     try:
-        r = requests.get(url, headers={"User-Agent": "Finreels-channel-research/1.0"}, timeout=12)
+        r = requests.get(url, headers={"User-Agent": "Rumuo-channel-research/1.0"}, timeout=12)
         if r.status_code >= 400:
             return None
         text = r.text
@@ -425,7 +425,7 @@ def resolve_channel(item: tuple[str, str, str]) -> dict | None:
 def check_blog(item: tuple[str, str, str]) -> dict | None:
     name, url, focus = item
     try:
-        r = requests.get(url, headers={"User-Agent": "Finreels-blog-research/1.0"}, timeout=12, allow_redirects=True)
+        r = requests.get(url, headers={"User-Agent": "Rumuo-blog-research/1.0"}, timeout=12, allow_redirects=True)
         if r.status_code >= 400:
             return None
         content_type = r.headers.get("content-type", "").lower()

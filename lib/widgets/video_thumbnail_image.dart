@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import '../models/video.dart';
 import '../services/media_cache_manager.dart';
 import '../theme/app_theme.dart';
-import 'finreels_shimmer.dart';
+import 'rumuo_shimmer.dart';
 
 /// Displays an ordinary YouTube video thumbnail without ever leaving a solid
 /// black rectangle when an image request fails.
@@ -76,7 +76,7 @@ class _VideoThumbnailImageState extends State<VideoThumbnailImage> {
 
   void _restoreSelection() {
     final remembered =
-        FinReelsMediaCache.selectedIndex(_selectionKey);
+        RumuoMediaCache.selectedIndex(_selectionKey);
     if (remembered != null && remembered >= 0 && remembered < _candidates.length) {
       _index = remembered;
     }
@@ -163,8 +163,8 @@ class _VideoThumbnailImageState extends State<VideoThumbnailImage> {
   }
 
   Widget _shimmer(BuildContext context) {
-    return FinreelsShimmer(
-      child: ColoredBox(color: FinreelsShimmer.fillColor(context)),
+    return RumuoShimmer(
+      child: ColoredBox(color: RumuoShimmer.fillColor(context)),
     );
   }
 
@@ -208,9 +208,9 @@ class _VideoThumbnailImageState extends State<VideoThumbnailImage> {
 
     final image = CachedNetworkImage(
       imageUrl: candidate,
-      cacheManager: FinReelsMediaCache.instance,
+      cacheManager: RumuoMediaCache.instance,
       imageBuilder: (_, imageProvider) {
-        FinReelsMediaCache.rememberSelection(_selectionKey, safeIndex);
+        RumuoMediaCache.rememberSelection(_selectionKey, safeIndex);
         return Image(image: imageProvider, fit: widget.fit);
       },
       fit: widget.fit,

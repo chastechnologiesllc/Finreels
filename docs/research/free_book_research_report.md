@@ -1,8 +1,8 @@
-# Finreels Free-Book Research Report
+# Rumuo Free-Book Research Report
 
 **Research date:** 2026-08-23
 
-**Repository:** `chastechnologiesllc/Finreels`
+**Repository:** `chastechnologiesllc/Rumuo`
 
 **Commit:** `5d640a4`
 
@@ -16,7 +16,7 @@ The first research pass used two authoritative public catalogs:
 
 | Source | Research use | Selection rule |
 |---|---|---|
-| [Open Textbook Library](https://open.umn.edu/opentextbooks) | Openly licensed academic and professional textbooks | Require a catalog license plus a `$0.00` Online, PDF, or eBook format; map only when subject metadata supports the Finreels category. |
+| [Open Textbook Library](https://open.umn.edu/opentextbooks) | Openly licensed academic and professional textbooks | Require a catalog license plus a `$0.00` Online, PDF, or eBook format; map only when subject metadata supports the Rumuo category. |
 | [Project Gutenberg](https://www.gutenberg.org/) | Public-domain non-fiction and supplemental practical works | Use official catalog records only; exclude fiction, poetry, drama, periodicals, and weak keyword-only matches; use conservative title/subject mapping. |
 
 The Open Textbook Library documentation states that its books are licensed for free use and adaptation, and its discovery page exposes machine-readable catalog data [1] [2]. Project Gutenberg states that it distributes works accepted as public domain in the United States and publishes an official machine-readable catalog [3] [4].

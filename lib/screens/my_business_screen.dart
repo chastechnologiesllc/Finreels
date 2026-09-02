@@ -8,7 +8,7 @@ import '../services/user_profile_service.dart';
 import '../theme/app_theme.dart';
 import '../utils/category_search.dart';
 
-/// Lets the person tell FinReels what they actually do — their trade,
+/// Lets the person tell Rumuo what they actually do — their trade,
 /// their side business, or their profession — without showing a default
 /// category catalogue. Search matches the canonical category names and the
 /// curated aliases in the 60-category research index.
@@ -181,7 +181,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
                         child: Column(
                           children: [
                             Text(
-                              'Welcome to FinReels',
+                              'Welcome to Rumuo',
                               textAlign: TextAlign.center,
                               style: Theme.of(context)
                                   .textTheme
@@ -254,7 +254,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
           Padding(
             padding: const EdgeInsets.fromLTRB(20, 4, 20, 16),
             child: Text(
-              'Search your profession, skill or business so FinReels can '
+              'Search your profession, skill or business so Rumuo can '
               'prioritize content for you instead of generic advice.',
               style: Theme.of(context)
                   .textTheme
@@ -407,7 +407,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
   }
 }
 
-/// "FinReels" + the same gold play-button mark used in home_screen.dart.
+/// "Rumuo" + the same gold play-button mark used in home_screen.dart.
 class _OnboardingBrand extends StatelessWidget {
   const _OnboardingBrand();
 
@@ -425,7 +425,7 @@ class _OnboardingBrand extends StatelessWidget {
               color: Colors.white, size: 22),
         ),
         const SizedBox(width: 10),
-        Text('FinReels',
+        Text('Rumuo',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.w800, letterSpacing: -0.5)),
       ],

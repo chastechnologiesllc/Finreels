@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../models/channel.dart';
 import '../services/media_cache_manager.dart';
-import 'finreels_shimmer.dart';
+import 'rumuo_shimmer.dart';
 
 /// Displays a channel's official YouTube profile image with an initials
 /// fallback for unavailable, removed, or not-yet-published channel avatars.
@@ -27,7 +27,7 @@ class ChannelAvatar extends StatelessWidget {
         ? fallback
         : CachedNetworkImage(
             imageUrl: imageUrl,
-            cacheManager: FinReelsMediaCache.instance,
+            cacheManager: RumuoMediaCache.instance,
             width: size,
             height: size,
             fit: BoxFit.cover,
@@ -72,9 +72,9 @@ class _AvatarShimmer extends StatelessWidget {
   const _AvatarShimmer({required this.size});
 
   @override
-  Widget build(BuildContext context) => FinreelsShimmer(
+  Widget build(BuildContext context) => RumuoShimmer(
         child: ColoredBox(
-          color: FinreelsShimmer.fillColor(context),
+          color: RumuoShimmer.fillColor(context),
           child: SizedBox(width: size, height: size),
         ),
       );

@@ -1,8 +1,8 @@
-# FinReels 🎬
-**Financial Literacy Content Aggregator** — by chAs Technologies LLC  
-`com.chastechgroup.finreels` · Android (Play Store) · Production
+# Rumuo 🎬
+**Financial Literacy Content Aggregator** — by chAs Technologies LLC
+`com.chastechgroup.rumuo` · Android (Play Store) · Production
 
-FinReels curates videos, shorts, blogs, and books from 40+ verified channels and
+Rumuo curates videos, shorts, blogs, and books from 40+ verified channels and
 700+ free resources into one clean, ad-supported mobile app — organised across a
 60-category taxonomy of skills, businesses, and professions, built for entrepreneurs
 and professionals across Africa.
@@ -118,12 +118,12 @@ RSS feeds — no API key required.
 | Tier | Product ID | Price |
 |---|---|---|
 | Ads (default) | — | Free; AdMob Finance CPM ~$8–25 |
-| 1-day ad-free | `finreels_no_ads_1day` | $0.99 |
-| 7-day ad-free | `finreels_no_ads_weekly` | $2.99 |
-| 30-day ad-free | `finreels_no_ads_monthly` | $7.99 |
+| 1-day ad-free | `rumuo_no_ads_1day` | $0.99 |
+| 7-day ad-free | `rumuo_no_ads_weekly` | $2.99 |
+| 30-day ad-free | `rumuo_no_ads_monthly` | $7.99 |
 
-Purchases are **one-time payments** — they do not auto-renew.  
-Play Store installs → Google Play billing.  
+Purchases are **one-time payments** — they do not auto-renew.
+Play Store installs → Google Play billing.
 Sideloaded installs → Paystack (local HTML + WebView checkout).
 
 ---
@@ -131,7 +131,7 @@ Sideloaded installs → Paystack (local HTML + WebView checkout).
 ## Project Structure
 
 ```
-finreels/
+rumuo/
 ├── lib/
 │   ├── config/         ← app_config.dart (AdMob IDs, IAP IDs, Paystack key)
 │   ├── data/           ← resource_category_data.dart (loads all 60 JSON files)
@@ -190,9 +190,9 @@ finreels/
 
 | Secret | Value |
 |---|---|
-| `KEYSTORE_BASE64` | base64-encoded `finreels.jks` (single line, no line breaks) |
+| `KEYSTORE_BASE64` | base64-encoded `rumuo.jks` (single line, no line breaks) |
 | `KEYSTORE_STORE_PASSWORD` | keystore store password |
-| `KEYSTORE_KEY_ALIAS` | `finreels` |
+| `KEYSTORE_KEY_ALIAS` | `rumuo` |
 | `KEYSTORE_KEY_PASSWORD` | key password — **must match** `KEYSTORE_STORE_PASSWORD` |
 
 > `KEYSTORE_KEY_PASSWORD` and `KEYSTORE_STORE_PASSWORD` are always the same value.
@@ -201,16 +201,16 @@ finreels/
 ```bash
 # Generate keystore (run once — never commit the .jks)
 keytool -genkeypair -v \
-  -keystore finreels.jks \
+  -keystore rumuo.jks \
   -storetype JKS \
-  -alias finreels \
+  -alias rumuo \
   -keyalg RSA -keysize 2048 -validity 10000 \
   -storepass YOUR_PASS -keypass YOUR_PASS \
   -dname "CN=chAs Technologies LLC, OU=Mobile Development, O=chAs Technologies LLC, L=Nigeria, S=Lagos, C=NG"
 
 # Encode for GitHub secret (single line — no wrapping)
-base64 -w 0 finreels.jks   # Linux
-base64 finreels.jks         # macOS (outputs single line by default)
+base64 -w 0 rumuo.jks   # Linux
+base64 rumuo.jks         # macOS (outputs single line by default)
 ```
 
 ### iOS
@@ -219,10 +219,10 @@ base64 finreels.jks         # macOS (outputs single line by default)
 |---|---|
 | `IOS_CERTIFICATE_BASE64` | `base64 Certificates.p12` |
 | `IOS_CERTIFICATE_PASSWORD` | p12 export password |
-| `IOS_PROVISION_PROFILE_BASE64` | `base64 FinReels.mobileprovision` |
+| `IOS_PROVISION_PROFILE_BASE64` | `base64 Rumuo.mobileprovision` |
 | `IOS_KEYCHAIN_PASSWORD` | any random string |
 | `IOS_CODE_SIGN_IDENTITY` | e.g. `iPhone Distribution: chAs Technologies LLC` |
-| `IOS_PROVISIONING_PROFILE_NAME` | e.g. `FinReels App Store` |
+| `IOS_PROVISIONING_PROFILE_NAME` | e.g. `Rumuo App Store` |
 
 ---
 
@@ -235,7 +235,7 @@ git push origin v1.x.x
 ```
 
 - **Android** outputs: `app-release.apk` (universal — all phones), `app-release.aab`
-- **iOS** outputs: `FinReels.ipa`
+- **iOS** outputs: `Rumuo.ipa`
 
 > The APK is a **universal** build (armeabi-v7a + arm64-v8a in one file) — not
 > split-per-abi. This gives sideloaded users a single file that works on any
@@ -259,8 +259,8 @@ git push origin v1.x.x
 ## Quick Start (Development)
 
 ```bash
-git clone https://github.com/YOUR_ORG/finreels.git
-cd finreels
+git clone https://github.com/YOUR_ORG/rumuo.git
+cd rumuo
 flutter pub get
 flutter run
 ```

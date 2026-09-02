@@ -11,6 +11,7 @@ class NotificationItem {
     required this.id,
     required this.channelId,
     required this.channelName,
+    this.channelAvatarUrl,
     required this.videoTitle,
     required this.videoId,
     required this.timestamp,
@@ -22,6 +23,7 @@ class NotificationItem {
   final String id;
   final String channelId;
   final String channelName;
+  final String? channelAvatarUrl;
   final String videoTitle;
   final String videoId;
   final DateTime timestamp;
@@ -31,6 +33,7 @@ class NotificationItem {
         id: id,
         channelId: channelId,
         channelName: channelName,
+        channelAvatarUrl: channelAvatarUrl,
         videoTitle: videoTitle,
         videoId: videoId,
         timestamp: timestamp,
@@ -43,6 +46,7 @@ class NotificationItem {
         'id': id,
         'channelId': channelId,
         'channelName': channelName,
+        'channelAvatarUrl': channelAvatarUrl,
         'videoTitle': videoTitle,
         'videoId': videoId,
         'timestamp': timestamp.millisecondsSinceEpoch,
@@ -54,6 +58,7 @@ class NotificationItem {
         id: json['id'] as String,
         channelId: json['channelId'] as String,
         channelName: json['channelName'] as String,
+        channelAvatarUrl: json['channelAvatarUrl'] as String?,
         videoTitle: json['videoTitle'] as String,
         videoId: json['videoId'] as String,
         timestamp: DateTime.fromMillisecondsSinceEpoch(

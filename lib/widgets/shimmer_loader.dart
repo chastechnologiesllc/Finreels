@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'finreels_shimmer.dart';
+import 'rumuo_shimmer.dart';
 
 /// Fix 2 — Shimmer skeletons with correct 16:9 aspect ratio and blog variant.
 /// All skeletons match the exact dimensions of the real cards so there is
@@ -20,7 +20,7 @@ class ShimmerLoader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final skeleton = FinreelsShimmer.fillColor(context);
+    final skeleton = RumuoShimmer.fillColor(context);
 
     Widget child;
     switch (variant) {
@@ -63,7 +63,7 @@ class ShimmerLoader extends StatelessWidget {
         );
     }
 
-    return FinreelsShimmer(child: child);
+    return RumuoShimmer(child: child);
   }
 }
 

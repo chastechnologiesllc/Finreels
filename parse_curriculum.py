@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """
-Parses FinReels' three source research docs into one structured JSON file
+Parses Rumuo' three source research docs into one structured JSON file
 that becomes the app's `assets/data/resource_categories.json`.
 
 Sources (all on disk, read mechanically — no hand-transcription):
-  1. FinReels_20_Skills_Business_Questions.md   -> 20 skills, 5 questions each
+  1. Rumuo_20_Skills_Business_Questions.md   -> 20 skills, 5 questions each
   2. Finkeels_20_Businesses_Framework.md        -> 20 businesses, 10 Q&A each
-  3. finreels-business-of-profession-curriculum.md
+  3. rumuo-business-of-profession-curriculum.md
        Part 1  -> 10 curriculum modules (M1-M10)
        Part 2  -> the 2026 tax-reform fact bank
        Part 3  -> 20 professions: real problem / 4 questions / don't-know fact
 
 The canonical id/section/number/name for all 60 categories is taken from the
-verified table of contents inside FinReels_Complete_Resource_Directory PDF
+verified table of contents inside Rumuo_Complete_Resource_Directory PDF
 (extracted separately to /tmp/complete_dir.txt), NOT re-typed by hand.
 """
 import json
@@ -302,7 +302,7 @@ def find_category(section: str, number: int):
 # ---------------------------------------------------------------------------
 # 2. Skills doc -> 5 questions each
 # ---------------------------------------------------------------------------
-with open(f"{UPLOADS}/FinReels_20_Skills_Business_Questions.md", encoding="utf-8") as f:
+with open(f"{UPLOADS}/Rumuo_20_Skills_Business_Questions.md", encoding="utf-8") as f:
     skills_txt = f.read()
 
 skill_blocks = re.split(r"\n## (\d+)\. (.+?)\n", skills_txt)[1:]
@@ -335,7 +335,7 @@ for i in range(0, len(biz_blocks), 3):
 # ---------------------------------------------------------------------------
 # 4. Curriculum doc -> Part 1 modules, Part 2 tax reform, Part 3 professions
 # ---------------------------------------------------------------------------
-with open(f"{UPLOADS}/finreels-business-of-profession-curriculum.md", encoding="utf-8") as f:
+with open(f"{UPLOADS}/rumuo-business-of-profession-curriculum.md", encoding="utf-8") as f:
     curriculum_txt = f.read()
 
 part1 = re.search(r"## Part 1.+?\n(.+?)\n---", curriculum_txt, flags=re.DOTALL).group(1)
@@ -349,7 +349,7 @@ assert len(modules) == 10, f"got {len(modules)} modules"
 
 part2 = re.search(r"## Part 2.+?\n(.+?)\n---", curriculum_txt, flags=re.DOTALL).group(1)
 tax_facts = [f.strip() for f in re.findall(r"^- (.+)$", part2, flags=re.MULTILINE)]
-why_match = re.search(r"\*\*Why this matters for FinReels:\*\*\s*(.+?)(?:\n\n|\Z)", part2, flags=re.DOTALL)
+why_match = re.search(r"\*\*Why this matters for Rumuo:\*\*\s*(.+?)(?:\n\n|\Z)", part2, flags=re.DOTALL)
 tax_reform = {
     "headline": "Nigeria's tax system was overhauled by four laws effective 1 January 2026.",
     "facts": [re.sub(r"\*\*(.+?)\*\*", r"\1", f) for f in tax_facts],

@@ -12,7 +12,7 @@ import '../models/video.dart';
 import '../screens/channel_videos_screen.dart';
 import '../services/ad_service.dart';
 import '../theme/app_theme.dart';
-import 'finreels_watermark.dart';
+import 'rumuo_watermark.dart';
 import 'video_thumbnail_image.dart';
 import 'web_youtube_player.dart';
 
@@ -44,7 +44,7 @@ import 'web_youtube_player.dart';
 //    required for Flutter overlay layers (thumbnail, play button, watermark)
 //    to appear ABOVE the WebView on Android.
 //
-// 5. FINREELS WATERMARK (covers YouTube logo)
+// 5. RUMUO WATERMARK (covers YouTube logo)
 //    Right-side dark bar + gold accent + icon/text. Shown ~4 s after play
 //    starts and while paused — same window the YouTube logo is visible.
 //
@@ -584,7 +584,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   //   ├─ Layer 1b WebYoutubePlayer (kIsWeb only)
   //   ├─ Layer 2  Spinner (loading, mobile only)
   //   ├─ Layer 3  Play / pause button
-  //   ├─ Layer 4  FinReels watermark (theme-aware)
+  //   ├─ Layer 4  Rumuo watermark (theme-aware)
   //   └─ Layer 5  End-screen overlay
 
   Widget _buildMediaArea(BuildContext context) {
@@ -683,7 +683,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 ),
               ),
 
-            // ── Layer 4: FinReels watermark — timer-based ─────────────────
+            // ── Layer 4: Rumuo watermark — timer-based ─────────────────
             // Right-side bar design covers the YouTube logo zone.
             // Shows for ~4 s after play starts and whenever paused
             // (same window the official YouTube logo is on-screen).
@@ -695,7 +695,7 @@ class _InlineVideoCardState extends State<InlineVideoCard>
                 left: 0,
                 right: 0,
                 bottom: 0,
-                child: FinReelsWatermark(),
+                child: RumuoWatermark(),
               ),
 
             // ── Layer 5: end-screen overlay ───────────────────────────────
@@ -834,4 +834,4 @@ class _InlineVideoCardState extends State<InlineVideoCard>
   }
 }
 
-// Watermark: see lib/widgets/finreels_watermark.dart — FinReelsWatermark.
+// Watermark: see lib/widgets/rumuo_watermark.dart — RumuoWatermark.

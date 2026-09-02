@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../config/app_config.dart';
 
 /// Tracks which of the 60 "Business of Your Skill/Business/Profession"
-/// categories the person has told FinReels they do — their trade, their
+/// categories the person has told Rumuo they do — their trade, their
 /// side hustle, their profession. This is what turns the app from a
 /// generic content feed into one that answers *their* specific pain point
 /// instead of everyone's in general (see FeedProvider and

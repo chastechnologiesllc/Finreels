@@ -370,7 +370,7 @@ class BlogRssService {
       return BlogArticle(
         title: item['title'] as String? ?? 'Untitled',
         url: url,
-        sourceName: item['sourceName'] as String? ?? 'FinReels source',
+        sourceName: item['sourceName'] as String? ?? 'Rumuo source',
         sourceUrl: item['sourceUrl'] as String? ??
             catalogUrlForSource(item['sourceName'] as String? ?? ''),
         publishedAt: publishedAt,
@@ -443,7 +443,7 @@ class BlogRssService {
       }
 
       final response = await http.get(Uri.parse(url), headers: {
-        'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
+        'User-Agent': 'Rumuo/1.0 (+com.chastechgroup.rumuo)',
         'Accept': 'application/rss+xml, application/xml, text/html;q=0.9',
       }).timeout(const Duration(seconds: 12));
 
@@ -465,7 +465,7 @@ class BlogRssService {
       // source work on native builds without requiring a hard-coded /feed path.
       for (final discovered in _discoverFeedUrls(body, url)) {
         final feedResponse = await http.get(Uri.parse(discovered), headers: {
-          'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
+          'User-Agent': 'Rumuo/1.0 (+com.chastechgroup.rumuo)',
           'Accept': 'application/rss+xml, application/xml, text/xml',
         }).timeout(const Duration(seconds: 12));
         if (feedResponse.statusCode != 200 || !_looksLikeXml(feedResponse.body)) {
@@ -697,7 +697,7 @@ class BlogRssService {
 
   Future<String?> _fetchNativeHtml(String url) async {
     final response = await http.get(Uri.parse(url), headers: {
-      'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
+      'User-Agent': 'Rumuo/1.0 (+com.chastechgroup.rumuo)',
       'Accept': 'text/html;q=0.9',
     }).timeout(const Duration(seconds: 10));
     if (response.statusCode != 200 ||

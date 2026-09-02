@@ -10,7 +10,7 @@ import '../services/blog_rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/blog_thumbnail_image.dart';
-import '../widgets/finreels_shimmer.dart';
+import '../widgets/rumuo_shimmer.dart';
 import 'blog_channel_screen.dart';
 import 'blog_reader_screen.dart';
 
@@ -231,9 +231,9 @@ class _BlogFeedScreenState extends State<BlogFeedScreen> {
 
   // Shimmer that matches the 16:9 blog card shape exactly.
   Widget _buildShimmer(BuildContext context) {
-    final skeleton = FinreelsShimmer.fillColor(context);
+    final skeleton = RumuoShimmer.fillColor(context);
 
-    return FinreelsShimmer(
+    return RumuoShimmer(
       child: ListView.separated(
         physics: const NeverScrollableScrollPhysics(),
         padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),

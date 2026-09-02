@@ -85,7 +85,7 @@ class YoutubeChannelService {
 
     try {
       final response = await http.get(Uri.parse(url), headers: {
-        'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
+        'User-Agent': 'Rumuo/1.0 (+com.chastechgroup.rumuo)',
         'Accept': 'text/html,application/xhtml+xml',
       }).timeout(const Duration(seconds: 12));
       return response.statusCode == 200 ? response.body : null;
@@ -114,7 +114,7 @@ class YoutubeChannelService {
     try {
       final response = await http.post(url, headers: {
         'Content-Type': 'application/json',
-        'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
+        'User-Agent': 'Rumuo/1.0 (+com.chastechgroup.rumuo)',
       }, body: payload).timeout(const Duration(seconds: 14));
       return response.statusCode == 200 ? response.body : null;
     } on Object catch (_) {

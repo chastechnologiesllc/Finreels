@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 import '../theme/app_theme.dart';
-import '../widgets/finreels_watermark.dart';
+import '../widgets/rumuo_watermark.dart';
 import '../widgets/video_thumbnail_image.dart';
 
 /// Dedicated landscape-only full-screen player.
@@ -18,13 +18,13 @@ import '../widgets/video_thumbnail_image.dart';
 /// Returns the playback position via [Navigator.pop] so the caller can resume
 /// from where the user left off.
 ///
-/// Video playing approach (from old Finreels, confirmed on device):
+/// Video playing approach (from old Rumuo, confirmed on device):
 /// • useHybridComposition: false  — Virtual Display mode so Flutter overlay
 ///   layers (thumbnail, watermark, controls) render above the WebView.
 /// • Controller is created one frame after orientation lock to avoid the
 ///   "stuck poster" bug that occurs when WebView mounts into an unsettled
 ///   landscape surface.
-/// • FinReels watermark flush bottom-right — new bar design covers the
+/// • Rumuo watermark flush bottom-right — new bar design covers the
 ///   YouTube native logo; visibility tied to the same ~4 s / paused timer.
 class VideoLandscapeScreen extends StatefulWidget {
   final String videoId;
@@ -367,7 +367,7 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
             ),
           ),
 
-          // FinReels watermark — LAST in Stack so it renders above the
+          // Rumuo watermark — LAST in Stack so it renders above the
           // progress bar and all other overlays.
           // Flush bottom-right — new bar design covers the YouTube logo zone.
           // Visibility mirrors YouTube logo: ~4 s after play + while paused.
@@ -376,7 +376,7 @@ class _VideoLandscapeScreenState extends State<VideoLandscapeScreen> {
               left: 0,
               right: 0,
               bottom: 0,
-              child: FinReelsWatermark(),
+              child: RumuoWatermark(),
             ),
         ],
       ),

@@ -13,18 +13,18 @@ class PrivacyPolicyScreen extends StatelessWidget {
         _LegalSection(
           heading: 'Introduction',
           body:
-              'FinReels ("we", "our", or "us") is operated by chAs Technologies LLC. '
+              'Rumuo ("we", "our", or "us") is operated by chAs Technologies LLC. '
               'This Privacy Policy explains how we '
-              'collect, use, and protect your information when you use the FinReels '
+              'collect, use, and protect your information when you use the Rumuo '
               'mobile application — a financial literacy content aggregator for videos, '
               'shorts, blogs, and books across 60 business, skill, and profession '
-              'categories. By using FinReels, you agree to the practices described in '
+              'categories. By using Rumuo, you agree to the practices described in '
               'this policy.',
         ),
         _LegalSection(
           heading: '1. Information We Collect',
           body:
-              'FinReels is designed with your privacy in mind. We collect only what '
+              'Rumuo is designed with your privacy in mind. We collect only what '
               'is necessary to operate the app:\n\n'
               '• Device Information — Device type, operating system version, and app '
               'version, used to ensure compatibility and diagnose issues.\n\n'
@@ -50,7 +50,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
           heading: '2. How We Use Your Information',
           body:
               'The information we collect is used solely to:\n\n'
-              '• Deliver and personalise the FinReels content feed across videos, '
+              '• Deliver and personalise the Rumuo content feed across videos, '
               'shorts, blogs, and books.\n'
               '• Serve relevant advertisements via Google AdMob (free tier only).\n'
               '• Process and verify in-app purchases.\n'
@@ -76,7 +76,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
               '• Paystack — payment processing for sideloaded installs. Paystack '
               'receives the email address and payment details you provide directly; '
               'we do not see or store your card details\n'
-              '• YouTube — FinReels displays publicly available video titles, '
+              '• YouTube — Rumuo displays publicly available video titles, '
               'thumbnails, and descriptions from YouTube channels\' public RSS '
               'feeds, and links out to the YouTube app or website to play videos\n'
               '• Third-party blog and book sources — content is aggregated from '
@@ -100,7 +100,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
         _LegalSection(
           heading: '5. Children\'s Privacy',
           body:
-              'FinReels is not directed at children under the age of 13. We do not '
+              'Rumuo is not directed at children under the age of 13. We do not '
               'knowingly collect personal information from children. If you believe '
               'a child has provided us with personal information, please contact us '
               'and we will delete it promptly.',
@@ -129,7 +129,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
           body:
               'We may update this Privacy Policy from time to time. We will notify '
               'you of significant changes by updating the "Last Updated" date at the '
-              'top of this page. Continued use of FinReels after changes constitutes '
+              'top of this page. Continued use of Rumuo after changes constitutes '
               'your acceptance of the revised policy.',
         ),
         _LegalSection(
@@ -159,15 +159,15 @@ class TermsOfServiceScreen extends StatelessWidget {
         _LegalSection(
           heading: 'Introduction',
           body:
-              'Welcome to FinReels, operated by chAs Technologies LLC. '
+              'Welcome to Rumuo, operated by chAs Technologies LLC. '
               'By downloading or using this app, you agree to be '
               'bound by these Terms of Service ("Terms"). Please read them carefully. '
-              'If you do not agree, do not use FinReels.',
+              'If you do not agree, do not use Rumuo.',
         ),
         _LegalSection(
-          heading: '1. About FinReels',
+          heading: '1. About Rumuo',
           body:
-              'FinReels is a financial literacy content aggregator that curates '
+              'Rumuo is a financial literacy content aggregator that curates '
               'videos, shorts, blogs, and books across 60 categories covering '
               'business skills, trades, and professions — built specifically to '
               'support entrepreneurs, business owners, and professionals across '
@@ -177,9 +177,9 @@ class TermsOfServiceScreen extends StatelessWidget {
         _LegalSection(
           heading: '2. Use of the App',
           body:
-              'You may use FinReels for personal, non-commercial purposes only. '
+              'You may use Rumuo for personal, non-commercial purposes only. '
               'You agree not to:\n\n'
-              '• Reproduce, distribute, or sell any content aggregated by FinReels.\n'
+              '• Reproduce, distribute, or sell any content aggregated by Rumuo.\n'
               '• Attempt to reverse-engineer, decompile, or tamper with the app.\n'
               '• Use the app for any unlawful or fraudulent purpose.\n'
               '• Circumvent or disable any advertising or in-app purchase system.\n'
@@ -188,24 +188,24 @@ class TermsOfServiceScreen extends StatelessWidget {
         _LegalSection(
           heading: '3. Content',
           body:
-              'FinReels aggregates publicly available financial education content '
+              'Rumuo aggregates publicly available financial education content '
               'from YouTube and other sources. All video content, thumbnails, channel '
               'names, blog articles, and book references are the intellectual property '
               'of their respective creators and are subject to their own terms and '
               'licences.\n\n'
               'We do not host, upload, or claim ownership of any third-party content '
-              'displayed in the app. FinReels accesses content via publicly available '
+              'displayed in the app. Rumuo accesses content via publicly available '
               'RSS feeds and open-access URLs in compliance with the respective '
               'platform\'s terms of service.',
         ),
         _LegalSection(
           heading: '4. Purchases & Payments',
           body:
-              'FinReels offers optional one-time ad-free purchases. These are not '
+              'Rumuo offers optional one-time ad-free purchases. These are not '
               'subscriptions and do not renew automatically.\n\n'
-              'If FinReels is installed from the Google Play Store, purchases are '
+              'If Rumuo is installed from the Google Play Store, purchases are '
               'processed through Google Play and are subject to Google Play\'s billing '
-              'terms. If FinReels is installed outside the Play Store, purchases are '
+              'terms. If Rumuo is installed outside the Play Store, purchases are '
               'processed through Paystack.\n\n'
               '• 24 Hours Ad-Free — \$0.99\n'
               '• 1 Week Ad-Free — \$2.99\n'
@@ -219,7 +219,7 @@ class TermsOfServiceScreen extends StatelessWidget {
         _LegalSection(
           heading: '5. Intellectual Property',
           body:
-              'The FinReels app — including its name, logo, design, original code, '
+              'The Rumuo app — including its name, logo, design, original code, '
               'category taxonomy, and branding — is owned by chAs Technologies LLC '
               'and protected by applicable intellectual property laws. You may not '
               'reproduce or use our branding without prior written permission.',
@@ -227,7 +227,7 @@ class TermsOfServiceScreen extends StatelessWidget {
         _LegalSection(
           heading: '6. Disclaimer of Warranties',
           body:
-              'FinReels is provided "as is" without warranty of any kind. We do not '
+              'Rumuo is provided "as is" without warranty of any kind. We do not '
               'guarantee that the app will be uninterrupted, error-free, or free of '
               'inaccuracies. Content availability depends on third-party sources that '
               'may change without notice. We make no representations about the '
@@ -238,14 +238,14 @@ class TermsOfServiceScreen extends StatelessWidget {
           body:
               'To the maximum extent permitted by law, chAs Technologies LLC shall '
               'not be liable for any indirect, incidental, special, or consequential '
-              'damages arising from your use of, or inability to use, FinReels — '
+              'damages arising from your use of, or inability to use, Rumuo — '
               'including any financial decisions made based on content viewed in '
               'the app.',
         ),
         _LegalSection(
           heading: '8. Termination',
           body:
-              'We reserve the right to suspend or terminate your access to FinReels '
+              'We reserve the right to suspend or terminate your access to Rumuo '
               'at any time, without notice, if we believe you have violated these '
               'Terms.',
         ),
@@ -253,7 +253,7 @@ class TermsOfServiceScreen extends StatelessWidget {
           heading: '9. Changes to These Terms',
           body:
               'We may update these Terms from time to time. Continued use of '
-              'FinReels after changes take effect constitutes your acceptance of the '
+              'Rumuo after changes take effect constitutes your acceptance of the '
               'revised Terms.',
         ),
         _LegalSection(
@@ -283,15 +283,15 @@ class ContentDisclaimerScreen extends StatelessWidget {
         _LegalSection(
           heading: 'Important Notice',
           body:
-              'Please read this disclaimer carefully before using FinReels. All '
-              'content available through FinReels — including videos, shorts, blogs, '
+              'Please read this disclaimer carefully before using Rumuo. All '
+              'content available through Rumuo — including videos, shorts, blogs, '
               'and books across 60 business, skill, and profession categories — is '
               'provided for educational and informational purposes only.',
         ),
         _LegalSection(
           heading: '1. Not Financial Advice',
           body:
-              'Nothing in FinReels constitutes financial, investment, tax, legal, '
+              'Nothing in Rumuo constitutes financial, investment, tax, legal, '
               'business, or accounting advice. The content is designed to improve '
               'general financial literacy, business awareness, and entrepreneurial '
               'skills. It does not take into account your personal financial '
@@ -304,12 +304,12 @@ class ContentDisclaimerScreen extends StatelessWidget {
         _LegalSection(
           heading: '2. Third-Party Content',
           body:
-              'FinReels aggregates content created by independent third-party '
+              'Rumuo aggregates content created by independent third-party '
               'creators, YouTube channels, bloggers, and authors. We do not endorse, '
               'verify, or take responsibility for the accuracy, completeness, or '
               'suitability of any third-party content shown in the app.\n\n'
               'Opinions expressed by content creators are their own and do not '
-              'reflect the views of chAs Technologies LLC or FinReels. Content '
+              'reflect the views of chAs Technologies LLC or Rumuo. Content '
               'may cover a wide range of business models, industries, and financial '
               'strategies — it is your responsibility to evaluate what is appropriate '
               'for your own circumstances.',
@@ -318,7 +318,7 @@ class ContentDisclaimerScreen extends StatelessWidget {
           heading: '3. No Guarantee of Results',
           body:
               'Business strategies, income claims, pricing approaches, and financial '
-              'outcomes described in content shown on FinReels are not guarantees '
+              'outcomes described in content shown on Rumuo are not guarantees '
               'of results. Past performance of any business, investment strategy, or '
               'financial product is not indicative of future results. Starting or '
               'growing a business involves risk, including the possible loss of '
@@ -329,7 +329,7 @@ class ContentDisclaimerScreen extends StatelessWidget {
           body:
               'Financial laws, business regulations, tax rules, market conditions, '
               'and industry best practices change frequently. Content displayed in '
-              'FinReels may not reflect the most current developments, particularly '
+              'Rumuo may not reflect the most current developments, particularly '
               'in the Nigerian and broader African regulatory environment. We make '
               'no warranty, express or implied, regarding the accuracy, timeliness, '
               'or completeness of any information provided.',
@@ -337,7 +337,7 @@ class ContentDisclaimerScreen extends StatelessWidget {
         _LegalSection(
           heading: '5. External Links & Sources',
           body:
-              'Content in FinReels may reference or link to external websites, '
+              'Content in Rumuo may reference or link to external websites, '
               'YouTube channels, blog articles, and downloadable resources. We are '
               'not responsible for the content, privacy practices, or accuracy of '
               'any external sites. Accessing external links is at your own risk.',
@@ -345,9 +345,9 @@ class ContentDisclaimerScreen extends StatelessWidget {
         _LegalSection(
           heading: '6. Books & Reading Resources',
           body:
-              'The books and reading resources referenced in FinReels are sourced '
+              'The books and reading resources referenced in Rumuo are sourced '
               'from publicly available free sources, open-access publishers, and '
-              'public domain archives. FinReels does not host, sell, or distribute '
+              'public domain archives. Rumuo does not host, sell, or distribute '
               'copyrighted books. All book links direct you to the publisher\'s or '
               'author\'s own platforms. Copyright remains with the respective owners.',
         ),
@@ -357,12 +357,12 @@ class ContentDisclaimerScreen extends StatelessWidget {
               'chAs Technologies LLC, its developers, and affiliates shall not be '
               'held liable for any financial loss, business failure, damage, or '
               'negative outcome resulting from reliance on content viewed through '
-              'FinReels. Use of this app is entirely at your own risk.',
+              'Rumuo. Use of this app is entirely at your own risk.',
         ),
         _LegalSection(
           heading: '8. Contact',
           body:
-              'If you have concerns about any content displayed in FinReels, '
+              'If you have concerns about any content displayed in Rumuo, '
               'please contact us at:\n\nchastechnologiesllc@gmail.com',
         ),
       ],

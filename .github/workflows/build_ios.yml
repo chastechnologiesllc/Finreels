@@ -41,7 +41,7 @@ jobs:
           if [ ! -d ios/Runner.xcodeproj ]; then
             flutter create . \
               --platforms=ios \
-              --project-name finreels \
+              --project-name rumuo \
               --org com.chastechgroup \
               --ios-language swift
           fi

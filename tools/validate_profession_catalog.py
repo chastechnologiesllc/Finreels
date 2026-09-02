@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 
 import requests
 
-ROOT = Path('/home/ubuntu/Finreels')
+ROOT = Path('/home/ubuntu/Rumuo')
 CATALOG = ROOT / 'assets/data/resources/_profession_open_catalog.json'
 REPORT = ROOT / 'docs/research/profession_catalog_validation.md'
 
@@ -16,7 +16,7 @@ def check_url(url: str) -> tuple[str, int, str]:
     try:
         response = requests.get(
             url,
-            headers={'User-Agent': 'FinReels-open-resource-audit/1.0'},
+            headers={'User-Agent': 'Rumuo-open-resource-audit/1.0'},
             timeout=20,
             allow_redirects=True,
             stream=True,

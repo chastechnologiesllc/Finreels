@@ -59,7 +59,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
             // ── App Name ──────────────────────────────────────────────────────
             Text(
-              'FinReels',
+              'Rumuo',
               style: TextStyle(
                 color: textColor,
                 fontSize: 38,

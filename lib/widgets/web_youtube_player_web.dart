@@ -91,7 +91,7 @@ Widget buildWebYoutubePlayer({
       .join('&');
   // youtube-nocookie.com bypasses Google Workspace YouTube restrictions
   final src = 'https://www.youtube-nocookie.com/embed/$videoId?$qs';
-  final viewType = 'finreels-yt-v2-$videoId';
+  final viewType = 'rumuo-yt-v2-$videoId';
 
   if (!_registered.contains(viewType)) {
     _registered.add(viewType);

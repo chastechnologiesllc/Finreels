@@ -3,19 +3,19 @@ import 'package:shimmer/shimmer.dart';
 
 import '../theme/app_theme.dart';
 
-/// Shared shimmer treatment for every FinReels loading surface.
+/// Shared shimmer treatment for every Rumuo loading surface.
 ///
 /// The palette is deliberately more separated than the normal surface colors:
 /// a loading state should remain visibly animated on both pure black and pure
 /// white app backgrounds. The 950ms period keeps the sweep noticeable without
 /// feeling distracting on cards, grids, and full-page skeletons.
-class FinreelsShimmer extends StatelessWidget {
+class RumuoShimmer extends StatelessWidget {
   static const Duration animationPeriod = Duration(milliseconds: 950);
 
   final Widget child;
   final bool enabled;
 
-  const FinreelsShimmer({
+  const RumuoShimmer({
     required this.child,
     super.key,
     this.enabled = true,

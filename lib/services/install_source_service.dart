@@ -16,7 +16,7 @@ class InstallSourceService {
   static final InstallSourceService instance = InstallSourceService._();
 
   static const MethodChannel _channel =
-      MethodChannel('com.chastechgroup.finreels/install_source');
+      MethodChannel('com.chastechgroup.rumuo/install_source');
   static const String _playStorePackage = 'com.android.vending';
 
   bool? _cachedIsPlayStore;

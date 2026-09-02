@@ -1,8 +1,8 @@
-# FinReels Blogs Tab Performance and Relevance Audit
+# Rumuo Blogs Tab Performance and Relevance Audit
 
 ## Verified findings
 
-FinReels currently uses a selection-scoped aggregate blog feed: five general feeds are always included, while category-tagged feeds are included only when their category ID is selected. The service already performs bounded feed fetching, snapshot fallback, RSS/Atom parsing, thumbnail candidate hydration, a ten-minute in-memory cache, and a 3:1 selected-category-to-general interleave.
+Rumuo currently uses a selection-scoped aggregate blog feed: five general feeds are always included, while category-tagged feeds are included only when their category ID is selected. The service already performs bounded feed fetching, snapshot fallback, RSS/Atom parsing, thumbnail candidate hydration, a ten-minute in-memory cache, and a 3:1 selected-category-to-general interleave.
 
 The main performance defect is in `FeedProvider.setTab`: every time the Blogs tab is selected, it calls `BlogRssService.instance.clearCache()`. That defeats the service’s ten-minute cache on ordinary tab re-entry and forces another network fetch before the tab can render. Category changes should continue clearing the cache, because the selected feed set changes, but ordinary tab selection should preserve the cache.
 
@@ -12,7 +12,7 @@ Blog thumbnail parsing already collects enclosure, media, HTML, Open Graph, Twit
 
 For feed relevance, the design will preserve a two-stage pipeline: retrieve candidate articles cheaply, then rank with selected-category relevance and source diversity while keeping a smaller, date-ordered general pool visible. This follows the documented multi-stage ranking pattern used by large feeds, where candidate retrieval, scoring, and contextual diversity are separate steps rather than one expensive operation [1].
 
-Flutter’s official performance guidance recommends lazy list builders, minimizing expensive work in `build()`, using `const` widgets, avoiding unnecessary clipping/opacity, and targeting frame work under 16 ms [2]. Flutter’s image guidance confirms network images should be handled through image widgets and placeholders; FinReels’ existing cached image widget will be retained and tightened rather than replaced [3].
+Flutter’s official performance guidance recommends lazy list builders, minimizing expensive work in `build()`, using `const` widgets, avoiding unnecessary clipping/opacity, and targeting frame work under 16 ms [2]. Flutter’s image guidance confirms network images should be handled through image widgets and placeholders; Rumuo’ existing cached image widget will be retained and tightened rather than replaced [3].
 
 ## Sources
 

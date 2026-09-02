@@ -1,5 +1,8 @@
 import 'dart:convert';
+import 'dart:typed_data';
+
 import 'package:flutter/foundation.dart';
+import 'package:http/http.dart' as http;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -36,7 +39,7 @@ class NotificationService {
       return;
     }
     const androidSettings =
-        AndroidInitializationSettings('@mipmap/ic_launcher');
+        AndroidInitializationSettings('rumuo_notification');
     const iosSettings = DarwinInitializationSettings(
     );
     const settings = InitializationSettings(
@@ -171,7 +174,7 @@ class NotificationService {
     if (!kIsWeb) {
       nativePlugin = FlutterLocalNotificationsPlugin();
       const androidSettings =
-          AndroidInitializationSettings('@mipmap/ic_launcher');
+          AndroidInitializationSettings('rumuo_notification');
       const iosSettings = DarwinInitializationSettings();
       await nativePlugin.initialize(const InitializationSettings(
         android: androidSettings,
@@ -236,6 +239,7 @@ class NotificationService {
               id: _notificationId(newVideos.first.id),
               channelId: channel.id,
               channelName: channel.name,
+              channelAvatarUrl: channel.avatarUrl,
               videoTitle: newVideos.first.title,
               videoId: newVideos.first.id,
             );
@@ -245,6 +249,7 @@ class NotificationService {
               prefs: prefs,
               channelId: channel.id,
               channelName: channel.name,
+              channelAvatarUrl: channel.avatarUrl,
               video: newVideos.first,
             );
           }
@@ -253,6 +258,7 @@ class NotificationService {
               prefs: prefs,
               channelId: channel.id,
               channelName: channel.name,
+              channelAvatarUrl: channel.avatarUrl,
               video: video,
             );
           }
@@ -275,18 +281,23 @@ class NotificationService {
     required int id,
     required String channelId,
     required String channelName,
+    String? channelAvatarUrl,
     required String videoTitle,
     required String videoId,
   }) async {
-    const androidDetails = AndroidNotificationDetails(
+    final avatarBytes = await _downloadAvatarBytes(channelAvatarUrl);
+    final androidDetails = AndroidNotificationDetails(
       AppConfig.notifChannelId,
       AppConfig.notifChannelName,
       channelDescription: AppConfig.notifChannelDesc,
       importance: Importance.high,
       priority: Priority.high,
-      icon: '@mipmap/ic_launcher',
-      largeIcon: DrawableResourceAndroidBitmap('@mipmap/ic_launcher'),
-      styleInformation: BigTextStyleInformation(''),
+      // Android status-bar icons must be monochrome transparent resources.
+      icon: 'rumuo_notification',
+      largeIcon: avatarBytes == null
+          ? const DrawableResourceAndroidBitmap('rumuo_launcher')
+          : ByteArrayAndroidBitmap(avatarBytes),
+      styleInformation: const BigTextStyleInformation(''),
     );
     const iosDetails = DarwinNotificationDetails();
     const details =
@@ -298,8 +309,8 @@ class NotificationService {
       await showBrowserNotification(
         title: 'New from $channelName',
         body: videoTitle,
-        tag: 'finreels-video-$videoId',
-        iconUrl: 'icons/Icon-192.png',
+        tag: 'rumuo-video-$videoId',
+        iconUrl: channelAvatarUrl ?? 'icons/Icon-192.png',
       );
     } else if (plugin != null) {
       await plugin.show(
@@ -318,6 +329,7 @@ class NotificationService {
       prefs: prefs,
       channelId: channelId,
       channelName: channelName,
+      channelAvatarUrl: channelAvatarUrl,
       videoTitle: videoTitle,
       videoId: videoId,
     );
@@ -327,14 +339,33 @@ class NotificationService {
     required SharedPreferences prefs,
     required String channelId,
     required String channelName,
+    String? channelAvatarUrl,
     required Video video,
   }) => NotificationStore.appendToPrefsStatic(
         prefs: prefs,
         channelId: channelId,
         channelName: channelName,
+        channelAvatarUrl: channelAvatarUrl,
         videoTitle: video.title,
         videoId: video.id,
       );
+
+  static Future<Uint8List?> _downloadAvatarBytes(String? rawUrl) async {
+    final value = rawUrl?.trim() ?? '';
+    if (value.isEmpty) return null;
+    final uri = Uri.tryParse(value);
+    if (uri == null || (uri.scheme != 'http' && uri.scheme != 'https')) return null;
+    try {
+      final response = await http.get(uri).timeout(const Duration(seconds: 8));
+      if (response.statusCode >= 200 && response.statusCode < 300 &&
+          response.bodyBytes.isNotEmpty) {
+        return response.bodyBytes;
+      }
+    } on Object catch (_) {
+      // The notification must still display with the transparent Rumuo icon.
+    }
+    return null;
+  }
 
   static int _notificationId(String videoId) {
     // String.hashCode is not guaranteed stable across Dart runtimes. FNV-1a

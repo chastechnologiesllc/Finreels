@@ -6,10 +6,10 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="FinReels - Financial Literacy Video Hub by chAs Technologies LLC">
+  <meta name="description" content="Rumuo - Financial Literacy Video Hub by chAs Technologies LLC">
   <meta name="robots" content="index,follow">
-  <meta name="application-name" content="FinReels">
-  <link rel="canonical" href="https://chastechnologiesllc.github.io/Finreels/">
+  <meta name="application-name" content="Rumuo">
+  <link rel="canonical" href="https://chastechnologiesllc.github.io/Rumuo/">
 
   <!-- Declare support for both light and dark colour schemes.
        This alone makes most modern browsers use the correct system scrollbar,
@@ -18,31 +18,31 @@
 
   <!-- Open Graph / WhatsApp / social share — absolute icon so previews show logo -->
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="FinReels">
-  <meta property="og:title" content="FinReels">
-  <meta property="og:description" content="FinReels - Financial Literacy Video Hub by chAs Technologies LLC">
-  <meta property="og:image" content="https://chastechnologiesllc.github.io/Finreels/icons/Icon-512.png">
+  <meta property="og:site_name" content="Rumuo">
+  <meta property="og:title" content="Rumuo">
+  <meta property="og:description" content="Rumuo - Financial Literacy Video Hub by chAs Technologies LLC">
+  <meta property="og:image" content="https://chastechnologiesllc.github.io/Rumuo/icons/Icon-512.png">
   <meta property="og:image:width" content="512">
   <meta property="og:image:height" content="512">
-  <meta property="og:url" content="https://chastechnologiesllc.github.io/Finreels/">
+  <meta property="og:url" content="https://chastechnologiesllc.github.io/Rumuo/">
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="FinReels">
-  <meta name="twitter:description" content="FinReels - Financial Literacy Video Hub by chAs Technologies LLC">
-  <meta name="twitter:image" content="https://chastechnologiesllc.github.io/Finreels/icons/Icon-512.png">
+  <meta name="twitter:title" content="Rumuo">
+  <meta name="twitter:description" content="Rumuo - Financial Literacy Video Hub by chAs Technologies LLC">
+  <meta name="twitter:image" content="https://chastechnologiesllc.github.io/Rumuo/icons/Icon-512.png">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="FinReels">
+  <meta name="apple-mobile-web-app-title" content="Rumuo">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
-  <title>FinReels</title>
+  <title>Rumuo</title>
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF">
   <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#000000">
@@ -80,7 +80,7 @@
 
     /* Paint the same splash composition as the mobile/iOS Flutter splash
        before Flutter's JS bundle downloads. It is the only Web splash. */
-    #finreels-web-boot {
+    #rumuo-web-boot {
       position: fixed;
       inset: 0;
       z-index: 9999;
@@ -91,47 +91,24 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       transition: opacity 180ms ease-out;
     }
-    #finreels-web-boot.is-hidden {
+    #rumuo-web-boot.is-hidden {
       opacity: 0;
       pointer-events: none;
     }
-    #finreels-web-boot .boot-content {
+    #rumuo-web-boot .boot-content {
       display: grid;
       justify-items: center;
       gap: 0;
       /* Native splash composition sits just above the visual midpoint. */
       transform: translateY(-4vh);
     }
-    #finreels-web-boot .boot-mark {
-      display: grid;
-      place-items: center;
+    #rumuo-web-boot .boot-mark {
+      display: block;
       width: 96px;
       height: 96px;
-      border-radius: 26px;
-      background: radial-gradient(circle at top left, #fbbf24 0%, #f59e0b 58%, #d97706 100%);
-      color: #ffffff;
-      line-height: 1;
+      object-fit: contain;
     }
-    /* Flutter uses Icons.play_arrow_rounded at size 54 inside the 96px mark.
-       Give Web the same fixed icon frame instead of relying on a font glyph,
-       whose painted bounds vary by browser and platform. */
-    #finreels-web-boot .boot-play-icon {
-      display: block;
-      width: 54px;
-      height: 54px;
-      position: relative;
-    }
-    #finreels-web-boot .boot-play-icon::before {
-      content: "";
-      position: absolute;
-      top: 7px;
-      left: 12px;
-      width: 32px;
-      height: 40px;
-      background: #ffffff;
-      clip-path: polygon(0 0, 100% 50%, 0 100%);
-    }
-    #finreels-web-boot .boot-name {
+    #rumuo-web-boot .boot-name {
       margin-top: 24px;
       color: #0a0a0a;
       font-size: 38px;
@@ -139,14 +116,14 @@
       letter-spacing: -1.5px;
       line-height: 1;
     }
-    #finreels-web-boot .boot-status {
+    #rumuo-web-boot .boot-status {
       margin-top: 8px;
       color: #f59e0b;
       font-size: 14px;
       font-weight: 500;
       letter-spacing: 0.5px;
     }
-    #finreels-web-boot .boot-by {
+    #rumuo-web-boot .boot-by {
       position: absolute;
       bottom: 40px;
       color: #0a0a0a;
@@ -155,15 +132,15 @@
       letter-spacing: 0.3px;
     }
     @media (prefers-color-scheme: dark) {
-      #finreels-web-boot {
+      #rumuo-web-boot {
         background: #000000;
         color: #ffffff;
       }
-      #finreels-web-boot .boot-name,
-      #finreels-web-boot .boot-by {
+      #rumuo-web-boot .boot-name,
+      #rumuo-web-boot .boot-by {
         color: #f5f5f5;
       }
-      #finreels-web-boot .boot-status {
+      #rumuo-web-boot .boot-status {
         color: #f59e0b;
       }
     }
@@ -175,17 +152,17 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-  <div id="finreels-web-boot" role="status" aria-live="polite" aria-label="Loading FinReels">
+  <div id="rumuo-web-boot" role="status" aria-live="polite" aria-label="Loading Rumuo">
     <div class="boot-content">
-      <div class="boot-mark" aria-hidden="true"><span class="boot-play-icon"></span></div>
-      <div class="boot-name">FinReels</div>
+      <img class="boot-mark" src="icons/Icon-192.png" alt="Rumuo" />
+      <div class="boot-name">Rumuo</div>
       <div class="boot-status">Opening your discovery screen…</div>
     </div>
     <div class="boot-by">by chAs</div>
   </div>
   <script>
     (function () {
-      var boot = document.getElementById('finreels-web-boot');
+      var boot = document.getElementById('rumuo-web-boot');
       if (!boot) return;
       function hideBoot() {
         boot.classList.add('is-hidden');
@@ -196,7 +173,7 @@
       // This is the only Web splash. Keep it in place until Flutter has
       // painted the first usable onboarding or shell frame; hiding on an
       // earlier engine frame would create a blank/second-page transition.
-      window.addEventListener('finreels-app-ready', hideBoot, { once: true });
+      window.addEventListener('rumuo-app-ready', hideBoot, { once: true });
     }());
   </script>
   <script src="flutter_bootstrap.js" async></script>

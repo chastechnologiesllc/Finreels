@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
-// FinReels watermark — full-width lower-third (covers YouTube logo)
+// Rumuo watermark — full-width lower-third (covers YouTube logo)
 // ─────────────────────────────────────────────────────────────────────────────
 //
 // DESIGN (exact match to approved mock)
 //   Full-width bar across the bottom of the player.
 //   Gold rim along the top with a smooth center notch/curve.
-//   FinReels rounded icon + "FinReels" text on the RIGHT.
+//   Rumuo rounded icon + "Rumuo" text on the RIGHT.
 //   Left side of the bar is solid fill (same chrome).
 //
 // THEME
@@ -17,14 +17,14 @@ import '../theme/app_theme.dart';
 //   Gold accent always (AppTheme.gold)
 //
 // POSITIONING (call sites MUST use full width)
-//   Positioned(left: 0, right: 0, bottom: 0, child: FinReelsWatermark())
+//   Positioned(left: 0, right: 0, bottom: 0, child: RumuoWatermark())
 //
 // VISIBILITY (owned by each screen)
 //   ~4 s after play starts + while paused (same window as YouTube logo)
 // ─────────────────────────────────────────────────────────────────────────────
 
-class FinReelsWatermark extends StatelessWidget {
-  const FinReelsWatermark({super.key});
+class RumuoWatermark extends StatelessWidget {
+  const RumuoWatermark({super.key});
 
   static const double barHeight = 40;
   static const double _iconSize = 22;
@@ -48,7 +48,7 @@ class FinReelsWatermark extends StatelessWidget {
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                // Rounded FinReels icon
+                // Rounded Rumuo icon
                 ClipRRect(
                   borderRadius: BorderRadius.circular(6),
                   child: Image.asset(
@@ -73,7 +73,7 @@ class FinReelsWatermark extends StatelessWidget {
                 ),
                 const SizedBox(width: 8),
                 Text(
-                  'FinReels',
+                  'Rumuo',
                   style: TextStyle(
                     color: fg,
                     fontSize: 15,

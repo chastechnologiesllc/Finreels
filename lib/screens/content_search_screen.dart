@@ -15,7 +15,7 @@ import '../theme/app_theme.dart';
 import '../widgets/blog_thumbnail_image.dart';
 import '../widgets/book_cover_image.dart';
 import '../widgets/channel_avatar.dart';
-import '../widgets/finreels_shimmer.dart';
+import '../widgets/rumuo_shimmer.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
 import 'blog_channel_screen.dart';
@@ -1054,7 +1054,7 @@ class _ContentCard extends StatelessWidget {
               color: AppTheme.textMuted(context)));
     }
     if (item.category != null) {
-      return Text('${item.category!.section.label} · FinReels research',
+      return Text('${item.category!.section.label} · Rumuo research',
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
           style: Theme.of(context).textTheme.labelSmall?.copyWith(
@@ -1269,8 +1269,8 @@ class _SearchProgress extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final fill = FinreelsShimmer.fillColor(context);
-    return FinreelsShimmer(
+    final fill = RumuoShimmer.fillColor(context);
+    return RumuoShimmer(
       child: ListView(
         physics: const NeverScrollableScrollPhysics(),
         padding: const EdgeInsets.fromLTRB(16, 12, 16, 120),

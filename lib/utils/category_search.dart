@@ -20,7 +20,7 @@ class CategorySearch {
 
   static const String othersDescription =
       "Don't see your exact trade, business or profession? Pick this and "
-      "FinReels will keep your feed general instead of guessing.";
+      "Rumuo will keep your feed general instead of guessing.";
 
   /// Section display order across the app: Profession first, then Skill,
   /// then Business — Others is handled separately by the caller (it isn't

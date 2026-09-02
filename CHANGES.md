@@ -1,6 +1,6 @@
-# FinReels — Changes This Session
+# Rumuo — Changes This Session
 
-14 files modified, 1 file deleted. Extract this zip's `Finreels/` folder
+14 files modified, 1 file deleted. Extract this zip's `Rumuo/` folder
 over your existing project to apply.
 
 ## Deleted

@@ -13,7 +13,7 @@ all_items = []
 page = 1
 while True:
     url = f"{BASE_URL}?page={page}"
-    req = Request(url, headers={"User-Agent": "Finreels-open-book-research/1.0"})
+    req = Request(url, headers={"User-Agent": "Rumuo-open-book-research/1.0"})
     with urlopen(req, timeout=60) as response:
         payload = json.load(response)
     batch = payload.get("data", [])

@@ -25,7 +25,7 @@ def check(url: str) -> dict:
     try:
         response = requests.get(
             url,
-            headers={"User-Agent": "Finreels-cover-validation/1.0"},
+            headers={"User-Agent": "Rumuo-cover-validation/1.0"},
             timeout=8,
             stream=True,
             allow_redirects=True,

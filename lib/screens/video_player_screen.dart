@@ -16,7 +16,7 @@ import '../services/engagement_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/channel_avatar.dart';
-import '../widgets/finreels_watermark.dart';
+import '../widgets/rumuo_watermark.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
 import '../widgets/web_youtube_player.dart';
@@ -25,7 +25,7 @@ import 'channel_videos_screen.dart';
 /// In-app video player (Round 16 — sound, timed watermark, in-place landscape).
 ///
 /// • Starts with sound; unMute+setVolume retried briefly (package quirk).
-/// • FinReels watermark only while YouTube logo is expected (paused / first
+/// • Rumuo watermark only while YouTube logo is expected (paused / first
 ///   ~4s of play). Right-side bar design with gold accent covers the logo.
 /// • Fullscreen is in-place landscape on the SAME controller so playback
 ///   continues without restart (no second WebView).
@@ -356,7 +356,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
             AppBar(
               backgroundColor: bg,
               elevation: 0,
-              // Channel name stays inside FinReels — never opens YouTube.
+              // Channel name stays inside Rumuo — never opens YouTube.
               title: GestureDetector(
                 onTap: () => Navigator.push(
                   context,
@@ -665,7 +665,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               left: 0,
               right: 0,
               bottom: 0,
-              child: FinReelsWatermark(),
+              child: RumuoWatermark(),
             ),
           if (_isLandscape)
             Positioned(
@@ -936,8 +936,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   }
 }
 
-// ── FinReels watermark (covers YouTube logo) ────────────────────────────────
-// Right-side bar design — see lib/widgets/finreels_watermark.dart.
+// ── Rumuo watermark (covers YouTube logo) ────────────────────────────────
+// Right-side bar design — see lib/widgets/rumuo_watermark.dart.
 
 // ── Suggested video tile ────────────────────────────────────────────────────
 

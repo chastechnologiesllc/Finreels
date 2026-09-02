@@ -1,10 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:finreels/data/resource_category_data.dart';
-import 'package:finreels/models/resource_category.dart';
-import 'package:finreels/models/video.dart';
-import 'package:finreels/services/blog_rss_service.dart';
-import 'package:finreels/services/platform_search_index.dart';
+import 'package:rumuo/data/resource_category_data.dart';
+import 'package:rumuo/models/resource_category.dart';
+import 'package:rumuo/models/video.dart';
+import 'package:rumuo/services/blog_rss_service.dart';
+import 'package:rumuo/services/platform_search_index.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -126,7 +126,7 @@ void main() {
       title: 'Blue Lantern Bookkeeping Handbook',
       description: 'A practical bookkeeping handbook.',
       channelId: 'books',
-      channelName: 'FinReels Books',
+      channelName: 'Rumuo Books',
       publishedAt: DateTime(2026, 8, 3),
       thumbnailUrl: '',
     );

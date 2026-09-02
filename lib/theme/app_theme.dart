@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-/// FinReels theme — follows device system theme exactly.
+/// Rumuo theme — follows device system theme exactly.
 /// Light → pure white surfaces, dark text.
 /// Dark  → pure near-black surfaces, pure white text.
 /// Gold accent (#F59E0B) on both.

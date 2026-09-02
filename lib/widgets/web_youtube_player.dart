@@ -6,7 +6,7 @@ import 'web_youtube_player_stub.dart'
 
 /// In-platform YouTube player for Flutter web via the official embed iframe
 /// (youtube-nocookie.com). Embed uses pointer-events:none so channel/title
-/// taps never leave FinReels. Flutter owns play/pause and channel navigation.
+/// taps never leave Rumuo. Flutter owns play/pause and channel navigation.
 class WebYoutubePlayer extends StatelessWidget {
   final String videoId;
   final bool autoPlay;

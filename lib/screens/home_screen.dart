@@ -60,7 +60,7 @@ class _AppHeader extends StatelessWidget {
                 color: Colors.white, size: 22),
           ),
           const SizedBox(width: 10),
-          Text('FinReels',
+          Text('Rumuo',
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                   fontWeight: FontWeight.w800, letterSpacing: -0.5)),
           const Spacer(),

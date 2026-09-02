@@ -1,6 +1,6 @@
 # Profession Resource Catalog Audit
 
-This report is generated from the supplied MBBS CSV and the checked-in FinReels resource assets. It is an audit only; it does not treat copyrighted textbook titles as free resources and does not add any unverified links.
+This report is generated from the supplied MBBS CSV and the checked-in Rumuo resource assets. It is an audit only; it does not treat copyrighted textbook titles as free resources and does not add any unverified links.
 
 ## Input coverage
 

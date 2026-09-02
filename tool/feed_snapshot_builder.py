@@ -21,7 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 GENERAL = ROOT / "assets/data/resources/_general.json"
 CHANNEL_DART = ROOT / "lib/data/channel_data.dart"
-USER_AGENT = "FinReelsFeedSnapshot/1.0 (+https://github.com/chastechnologiesllc/Finreels)"
+USER_AGENT = "RumuoFeedSnapshot/1.0 (+https://github.com/chastechnologiesllc/Rumuo)"
 
 
 def get(url: str, timeout: int = 15) -> str | None:

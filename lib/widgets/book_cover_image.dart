@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../services/media_cache_manager.dart';
 import '../theme/app_theme.dart';
-import 'finreels_shimmer.dart';
+import 'rumuo_shimmer.dart';
 
 /// Renders a book cover from either a bundled Flutter asset or a remote URL.
 /// For remote books, [fallbackUrls] must be an ordered list of exact-edition
@@ -44,7 +44,7 @@ class _BookCoverImageState extends State<BookCoverImage> {
       'book:${widget.url}|${widget.sourceUrl}|${widget.fallbackUrls.join('|')}';
 
   void _restoreSelection() {
-    final remembered = FinReelsMediaCache.selectedIndex(_selectionKey);
+    final remembered = RumuoMediaCache.selectedIndex(_selectionKey);
     if (remembered != null && remembered >= 0 && remembered < _candidates.length) {
       _index = remembered;
     }
@@ -270,9 +270,9 @@ class _BookCoverImageState extends State<BookCoverImage> {
 
     return CachedNetworkImage(
       imageUrl: _currentUrl,
-      cacheManager: FinReelsMediaCache.instance,
+      cacheManager: RumuoMediaCache.instance,
       imageBuilder: (_, imageProvider) {
-        FinReelsMediaCache.rememberSelection(_selectionKey, _index);
+        RumuoMediaCache.rememberSelection(_selectionKey, _index);
         return Image(image: imageProvider, fit: widget.fit);
       },
       width: widget.width,
@@ -296,22 +296,22 @@ class _BookCoverImageState extends State<BookCoverImage> {
   }
 
   Widget _loadingPlaceholder(BuildContext context) {
-    return FinreelsShimmer(
+    return RumuoShimmer(
       child: SizedBox(
         width: widget.width,
         height: widget.height,
-        child: ColoredBox(color: FinreelsShimmer.fillColor(context)),
+        child: ColoredBox(color: RumuoShimmer.fillColor(context)),
       ),
     );
   }
 
   Widget _fallback(BuildContext context) {
     return Image.asset(
-      'assets/books/finreels_book_cover_fallback.png',
+      'assets/books/rumuo_book_cover_fallback.png',
       width: widget.width,
       height: widget.height,
       fit: widget.fit,
-      semanticLabel: 'FinReels open library book cover fallback',
+      semanticLabel: 'Rumuo open library book cover fallback',
       errorBuilder: (_, __, ___) => _fallbackIcon(),
     );
   }

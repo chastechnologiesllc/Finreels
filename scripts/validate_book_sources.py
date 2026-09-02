@@ -23,7 +23,7 @@ for path in sorted(RESOURCE_DIR.glob("*.json")):
 
 def check(url: str) -> dict:
     try:
-        req = Request(url, headers={"User-Agent": "Finreels-open-book-research/1.0"}, method="GET")
+        req = Request(url, headers={"User-Agent": "Rumuo-open-book-research/1.0"}, method="GET")
         with urlopen(req, timeout=15) as response:
             return {"url": url, "status": response.status, "finalUrl": response.geturl(), "ok": 200 <= response.status < 400}
     except Exception as exc:

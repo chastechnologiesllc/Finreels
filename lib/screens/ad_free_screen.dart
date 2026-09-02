@@ -53,12 +53,12 @@ class _RemoveAdsSection extends StatelessWidget {
   // ── Paystack helpers ─────────────────────────────────────────────────────
 
   /// Generates a unique reference for each payment attempt:
-  /// `finreels_<productId-suffix>_<timestamp>_<4-random-hex-chars>`.
+  /// `rumuo_<productId-suffix>_<timestamp>_<4-random-hex-chars>`.
   static String _makeRef(String productId) {
     final suffix = productId.split('_').last; // "1day", "weekly", "monthly"
     final ts = DateTime.now().millisecondsSinceEpoch;
     final rand = Random.secure().nextInt(0xFFFF).toRadixString(16).padLeft(4, '0');
-    return 'finreels_${suffix}_${ts}_$rand';
+    return 'rumuo_${suffix}_${ts}_$rand';
   }
 
   Future<void> _launchPaystack(
@@ -536,7 +536,7 @@ class _PromoCard extends StatelessWidget {
             ),
             const SizedBox(height: 12),
             const Text(
-              'Go ad-free and explore all of FinReels without interruption — '
+              'Go ad-free and explore all of Rumuo without interruption — '
               'videos, shorts, blogs, and 690+ books across 60 business, '
               'skill, and profession categories. No banners. No pop-ups.',
               style: TextStyle(

@@ -1,6 +1,6 @@
-# FinReels Online Hustles PDFs — COMPLETE SERIES
+# Rumuo Online Hustles PDFs — COMPLETE SERIES
 
-**Date:** 2026-08-10  
+**Date:** 2026-08-10
 **Scope:** 20 practical guides, Nigeria-first → Africa → world. Each ≥50 pages.
 
 ---
@@ -34,19 +34,19 @@
 
 ## Final four highlights
 
-**17 Web / No-Code** — WordPress, Webflow, Bubble; SME sites; Paystack; handover discipline  
-**18 Online Courses** — Selar-first Naira courses; mini-course validation; evergreen teaching  
-**19 Ecommerce** — Social + store hybrid; logistics; unit economics; seller responsibility  
-**20 Digital Agency** — Productised retainers; scope control; fee vs ad spend; SOPs and team leverage  
+**17 Web / No-Code** — WordPress, Webflow, Bubble; SME sites; Paystack; handover discipline
+**18 Online Courses** — Selar-first Naira courses; mini-course validation; evergreen teaching
+**19 Ecommerce** — Social + store hybrid; logistics; unit economics; seller responsibility
+**20 Digital Agency** — Productised retainers; scope control; fee vs ad spend; SOPs and team leverage
 
 ---
 
 ## Series principles (all PDFs)
 
-- Nigeria setup first, then Africa, then global notes  
-- Realistic earnings bands (not hype)  
-- Tools, payments, 30/60/90 paths, field workbooks  
-- Safety: no scams, written scope, honest claims, client-owned assets where relevant  
+- Nigeria setup first, then Africa, then global notes
+- Realistic earnings bands (not hype)
+- Tools, payments, 30/60/90 paths, field workbooks
+- Safety: no scams, written scope, honest claims, client-owned assets where relevant
 
 **Status:** DONE — all 20 PDFs delivered.
 

@@ -72,7 +72,7 @@ class _NotificationSettingsScreenState
           content: Text(
             kIsWeb
                 ? 'Browser notifications were not enabled. Allow them in site settings and try again.'
-                : 'Notifications are blocked. Allow FinReels in system notification settings.',
+                : 'Notifications are blocked. Allow Rumuo in system notification settings.',
           ),
           action: kIsWeb
               ? null

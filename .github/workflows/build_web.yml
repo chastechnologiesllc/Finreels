@@ -45,7 +45,7 @@ jobs:
       - name: Ensure web platform
         run: |
           if [ ! -d web ]; then
-            flutter create . --platforms=web --project-name finreels
+            flutter create . --platforms=web --project-name rumuo
           fi
           # flutter create can regenerate the template test that references MyApp
           rm -f test/widget_test.dart
@@ -60,19 +60,19 @@ jobs:
 
       # ── Build ───────────────────────────────────────────────────────────────
       # base-href must match the GitHub Pages path for this repo:
-      #   https://chastechnologiesllc.github.io/Finreels/
+      #   https://chastechnologiesllc.github.io/Rumuo/
       # If you later use a custom domain at the site root, change to "/" .
       - name: Build web (release)
         run: |
           flutter build web --release \
-            --base-href "/Finreels/" \
+            --base-href "/Rumuo/" \
             --build-number=${{ github.run_number }}
 
       # ── Upload artifact (always, including PRs) ─────────────────────────────
       - name: Upload web build artifact
         uses: actions/upload-artifact@v7
         with:
-          name: finreels-web
+          name: rumuo-web
           path: build/web
           retention-days: 30
 

@@ -106,7 +106,7 @@ class _BookContentReaderScreenState extends State<BookContentReaderScreen> {
         try {
           final response = await http.get(Uri.parse(candidate), headers: {
             'Accept': 'text/html, text/plain;q=0.9, application/xhtml+xml',
-            'User-Agent': 'FinReels/1.0 (+com.chastechgroup.finreels)',
+            'User-Agent': 'Rumuo/1.0 (+com.chastechgroup.rumuo)',
           }).timeout(const Duration(seconds: 25));
 
           if (response.statusCode == 200 && response.bodyBytes.isNotEmpty) {
@@ -143,7 +143,7 @@ class _BookContentReaderScreenState extends State<BookContentReaderScreen> {
     return completer.future;
   }
 
-  
+
 
   Future<void> _openLink(String? href) async {
     final raw = href?.trim() ?? '';

@@ -14,7 +14,7 @@ import 'user_profile_service.dart';
 ///
 /// Scope, stated honestly: this is on-device implicit-feedback ranking
 /// (weighted counts of view/save/open events, decaying over time), not a
-/// trained model — FinReels has no backend to collect cross-user data or
+/// trained model — Rumuo has no backend to collect cross-user data or
 /// train one. It's the same *family* of signal Facebook/YouTube use
 /// (what you engage with predicts what you'll want more of), just running
 /// entirely on this phone, for this one person, with simple weighted

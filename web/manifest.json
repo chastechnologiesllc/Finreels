@@ -1,6 +1,6 @@
 {
-    "name": "FinReels",
-    "short_name": "FinReels",
+    "name": "Rumuo",
+    "short_name": "Rumuo",
     "id": "./",
     "start_url": "./",
     "scope": "./",
@@ -10,7 +10,7 @@
     "dir": "ltr",
     "background_color": "#0D0D0D",
     "theme_color": "#F5A623",
-    "description": "FinReels - Financial Literacy Video Hub by chAs Technologies LLC",
+    "description": "Rumuo - Financial Literacy Video Hub by chAs Technologies LLC",
     "orientation": "any",
     "prefer_related_applications": false,
     "icons": [

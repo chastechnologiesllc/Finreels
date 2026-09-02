@@ -25,12 +25,12 @@ class PaystackService {
 
   /// Same-origin "redirect" URLs the local HTML navigates to on
   /// success/close. Using https-looking URLs (rather than a raw custom
-  /// scheme like `finreels://`) keeps this maximally compatible across
+  /// scheme like `rumuo://`) keeps this maximally compatible across
   /// WebView versions, some of which block non-http(s) navigation before
   /// shouldOverrideUrlLoading even fires.
-  static const String successUrl = 'https://finreels-paystack.local/success';
-  static const String closeUrl = 'https://finreels-paystack.local/close';
-  static const String baseUrl = 'https://finreels-paystack.local/';
+  static const String successUrl = 'https://rumuo-paystack.local/success';
+  static const String closeUrl = 'https://rumuo-paystack.local/close';
+  static const String baseUrl = 'https://rumuo-paystack.local/';
 
   static String buildCheckoutHtml({
     required String email,
@@ -95,7 +95,7 @@ class PaystackService {
           amount: $amountSubunits,
           currency: $cur,
           ref: $ref,
-          metadata: { product_id: $pid, app: 'finreels' },
+          metadata: { product_id: $pid, app: 'rumuo' },
           callback: function(response) {
             window.location.href =
               "$successUrl?reference=" + encodeURIComponent(response.reference);

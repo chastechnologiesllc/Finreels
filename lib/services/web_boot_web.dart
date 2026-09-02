@@ -5,7 +5,7 @@ import 'package:web/web.dart' as web;
 /// instead of hiding it on the first transparent Flutter frame.
 void markWebBootReady() {
   try {
-    web.window.dispatchEvent(web.Event('finreels-app-ready'));
+    web.window.dispatchEvent(web.Event('rumuo-app-ready'));
   } on Object {
     // The HTML boot layer has its own timeout fallback, so this signal is
     // intentionally best-effort and must never affect app startup.

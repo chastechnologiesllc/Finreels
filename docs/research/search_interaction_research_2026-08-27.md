@@ -5,7 +5,7 @@
 - Meta Engineering, “The Life of a Typeahead Query”: https://engineering.fb.com/2010/05/17/web/the-life-of-a-typeahead-query/
 - Algolia, “Debounce sources”: https://www.algolia.com/doc/ui-libraries/autocomplete/guides/debouncing-sources
 
-## Findings applied to FinReels
+## Findings applied to Rumuo
 
 Meta’s typeahead architecture separates query processing from result data retrieval and emphasizes strict latency budgets, relevance validation, and cacheable/global results. The web tier should render result records from a stable result identity rather than blocking the user interface on every data fetch. Superseded queries must not overwrite newer input.
 
@@ -13,7 +13,7 @@ Algolia’s current guidance recommends debouncing asynchronous sources rather t
 
 ## Engineering direction
 
-FinReels should keep the text field responsive on every keystroke, cancel or invalidate stale work, avoid running live blog/network retrieval for empty or very short transient input, progressively publish local/indexed results before slower dynamic sources finish, and update the displayed count from the currently published result set. A final completion state should replace the provisional count without rebuilding the entire screen unnecessarily.
+Rumuo should keep the text field responsive on every keystroke, cancel or invalidate stale work, avoid running live blog/network retrieval for empty or very short transient input, progressively publish local/indexed results before slower dynamic sources finish, and update the displayed count from the currently published result set. A final completion state should replace the provisional count without rebuilding the entire screen unnecessarily.
 
 ## Additional primary-source findings
 

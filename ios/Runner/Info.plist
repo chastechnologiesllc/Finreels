@@ -6,15 +6,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>FinReels</string>
+	<string>Rumuo</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.chastechgroup.finreels</string>
+	<string>com.chastechgroup.rumuo</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>finreels</string>
+	<string>rumuo</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -47,7 +47,7 @@
 
 	<!-- ── NSUserTrackingUsageDescription (ATT) ──────────────────────── -->
 	<key>NSUserTrackingUsageDescription</key>
-	<string>FinReels uses your advertising identifier to show you relevant ads and to help us measure ad performance. You can opt out at any time in Settings.</string>
+	<string>Rumuo uses your advertising identifier to show you relevant ads and to help us measure ad performance. You can opt out at any time in Settings.</string>
 
 	<!-- ── Background Modes (for WorkManager / notifications) ─────────── -->
 	<key>UIBackgroundModes</key>
@@ -60,7 +60,7 @@
 	<!-- ── BGTask Identifiers ─────────────────────────────────────────── -->
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
-		<string>com.chastechgroup.finreels.rsscheck</string>
+		<string>com.chastechgroup.rumuo.rsscheck</string>
 	</array>
 
 	<!-- ── URL Schemes ────────────────────────────────────────────────── -->

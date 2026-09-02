@@ -50,7 +50,7 @@ void main() {
     // Must be the very first line — no await before this.
     WidgetsFlutterBinding.ensureInitialized();
 
-    // Flutter Web keeps the semantics DOM opt-in for performance. FinReels is
+    // Flutter Web keeps the semantics DOM opt-in for performance. Rumuo is
     // a public content app, so make screen-reader support available by default.
     if (kIsWeb) {
       SemanticsBinding.instance.ensureSemantics();
@@ -79,19 +79,19 @@ void main() {
     }
 
     // runApp immediately — splash is shown on the very first frame.
-    runApp(const FinReelsApp());
+    runApp(const RumuoApp());
   }, (Object error, StackTrace stack) {
     debugPrint('[crash] Uncaught zone error: $error\n$stack');
   });
 }
 
-class FinReelsApp extends StatelessWidget {
-  const FinReelsApp({super.key});
+class RumuoApp extends StatelessWidget {
+  const RumuoApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FinReels',
+      title: 'Rumuo',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,

@@ -1,17 +1,17 @@
 import 'package:flutter/foundation.dart';
 
-/// Central configuration for FinReels — by chAs Technologies LLC
+/// Central configuration for Rumuo — by chAs Technologies LLC
 class AppConfig {
   AppConfig._();
 
-  static const String appName = 'FinReels';
+  static const String appName = 'Rumuo';
   static const String byLine = 'by chAs Technologies LLC';
   static const String company = 'chAs Technologies LLC';
-  static const String packageName = 'com.chastechgroup.finreels';
+  static const String packageName = 'com.chastechgroup.rumuo';
 
   // ── AdMob — PRODUCTION IDs (Android) ────────────────────────────────────────
   // Real ads are live via AdMob direct (no mediation). Ad unit IDs match the
-  // units created in the AdMob console for the FinReels app.
+  // units created in the AdMob console for the Rumuo app.
   static const bool kDebugAds = false;
 
   // ── AdSense (Flutter web) — TEST client/slot ────────────────────────────────
@@ -86,9 +86,9 @@ class AppConfig {
   }
 
   // ── In-App Purchase Product IDs ──────────────────────────────────────────────
-  static const String iapNoAds1Day    = 'finreels_no_ads_1day';
-  static const String iapNoAdsWeekly  = 'finreels_no_ads_weekly';
-  static const String iapNoAdsMonthly = 'finreels_no_ads_monthly';
+  static const String iapNoAds1Day    = 'rumuo_no_ads_1day';
+  static const String iapNoAdsWeekly  = 'rumuo_no_ads_weekly';
+  static const String iapNoAdsMonthly = 'rumuo_no_ads_monthly';
 
   static const Set<String> iapProductIds = {
     iapNoAds1Day,
@@ -218,13 +218,13 @@ class AppConfig {
 
   // ── Background Task ───────────────────────────────────────────────────────────
   // Must match Info.plist → BGTaskSchedulerPermittedIdentifiers
-  static const String rssCheckTaskId      = 'com.chastechgroup.finreels.rsscheck';
+  static const String rssCheckTaskId      = 'com.chastechgroup.rumuo.rsscheck';
   static const String rssCheckTaskName    = 'rssCheckTask';
   static const Duration rssCheckFrequency = Duration(minutes: 15);
 
   // ── Notification Channel ──────────────────────────────────────────────────────
   static const int    notifIdBase      = 1000;
-  static const String notifChannelId   = 'finreels_new_content';
+  static const String notifChannelId   = 'rumuo_new_content';
   static const String notifChannelName = 'New Videos';
   static const String notifChannelDesc =
       'Get notified when your favourite channels post new content';

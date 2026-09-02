@@ -1,7 +1,7 @@
 # Channel, Blog, and Channel-History Research Report
 
-**Date:** 2026-08-23  
-**Repository:** Finreels  
+**Date:** 2026-08-23
+**Repository:** Rumuo
 **Scope:** Existing 80 categories plus General
 
 ## Result
@@ -20,7 +20,7 @@ The JSON catalog previously included many legitimate publication homepages, but 
 
 YouTube’s official channel Atom feed is a notification-style feed containing only the newest 15 uploads [4]. That is the root cause of the previous per-channel 15-item ceiling; the channel screen did not impose the limit. The channel screen now keeps the official RSS result as a verified seed, then requests the channel’s public Videos page. It extracts only video renderers tied to that channel, deduplicates by YouTube video ID, and follows the public web client’s continuation endpoint on native builds when a continuation token and client key are available. The implementation stops after 12 continuation pages or 300 unique items per channel to protect mobile memory, network usage, and public-source rate limits. The aggregated home feed remains RSS-first and lightweight; the expanded history is requested when a user opens a channel.
 
-The official, fully supported alternative for exhaustive channel-history retrieval is the YouTube Data API: resolve the channel’s uploads playlist and paginate `playlistItems.list` with `nextPageToken` [5]. Finreels does not currently ship a YouTube API key, so the implementation uses RSS plus the public channel page/continuation path without embedding a private credential. If an API key is added later, it should replace the undocumented continuation path for guaranteed supported pagination.
+The official, fully supported alternative for exhaustive channel-history retrieval is the YouTube Data API: resolve the channel’s uploads playlist and paginate `playlistItems.list` with `nextPageToken` [5]. Rumuo does not currently ship a YouTube API key, so the implementation uses RSS plus the public channel page/continuation path without embedding a private credential. If an API key is added later, it should replace the undocumented continuation path for guaranteed supported pagination.
 
 ## Validation
 

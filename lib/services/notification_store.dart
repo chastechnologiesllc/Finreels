@@ -105,6 +105,7 @@ class NotificationStore {
     required SharedPreferences prefs,
     required String channelId,
     required String channelName,
+    String? channelAvatarUrl,
     required String videoTitle,
     required String videoId,
   }) async {
@@ -112,7 +113,8 @@ class NotificationStore {
     final item = NotificationItem(
       id: '${videoId}_${now.millisecondsSinceEpoch}',
       channelId: channelId,
-      channelName: channelName,
+      channelName:       channelName,
+      channelAvatarUrl: channelAvatarUrl,
       videoTitle: videoTitle,
       videoId: videoId,
       timestamp: now,

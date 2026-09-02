@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-ROOT = Path('/home/ubuntu/Finreels/assets/data/resources')
+ROOT = Path('/home/ubuntu/Rumuo/assets/data/resources')
 terms = [
     'openstax', 'engineering', 'architecture', 'law', 'accounting', 'finance',
     'agriculture', 'education', 'psychology', 'communication', 'photography',

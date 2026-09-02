@@ -9,7 +9,7 @@ import '../models/resource_category.dart';
 import 'channel_data.dart';
 
 /// Loads and indexes `assets/data/resource_categories.json` — the app-side
-/// copy of FinReels' 60-category research (see resource_category.dart) —
+/// copy of Rumuo' 60-category research (see resource_category.dart) —
 /// AND every file under `assets/data/resources/`: one per category
 /// (`{categoryId}.json`) plus `_general.json` for cross-cutting resources and
 /// `_profession_open_catalog.json` for source-verified profession books that

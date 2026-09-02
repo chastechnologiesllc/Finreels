@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch official YouTube channel avatar URLs for the FinReels channel corpus.
+"""Fetch official YouTube channel avatar URLs for the Rumuo channel corpus.
 
 The source is the official YouTube channel page for each already-verified
 channel ID. The script only reads public page metadata and stores the returned
@@ -74,7 +74,7 @@ def fetch_avatar(channel: dict[str, str]) -> dict[str, Any]:
         try:
             response = requests.get(
                 url,
-                headers={"User-Agent": "Mozilla/5.0 (compatible; FinReels research)"},
+                headers={"User-Agent": "Mozilla/5.0 (compatible; Rumuo research)"},
                 timeout=25,
             )
             last_status = response.status_code

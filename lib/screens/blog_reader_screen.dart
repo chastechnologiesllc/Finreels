@@ -474,7 +474,7 @@ class _BlogReaderScreenState extends State<BlogReaderScreen> {
             ),
             const SizedBox(height: 8),
             Text(
-              'The article could not be loaded inside FinReels.',
+              'The article could not be loaded inside Rumuo.',
               style: TextStyle(
                 color: AppTheme.textMuted(context),
                 fontSize: 13,

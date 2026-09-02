@@ -1,4 +1,4 @@
-# FinReels blog and book reader package audit — 2026-08-27
+# Rumuo blog and book reader package audit — 2026-08-27
 
 ## Verified package findings
 
@@ -7,8 +7,8 @@
 
 ## Repository findings
 
-- FinReels already depends on `flutter_epub_viewer`, `flutter_pdfview`, `flutter_inappwebview`, `web`, and custom Web iframe/PDF widgets. Adding packages without resolving current routing/rendering would be premature.
-- `BlogChannelScreen` currently shows a five-item shimmer while `_articles` is empty. Its shimmer is made from a `DecoratedBox` with `FinreelsShimmer.fillColor(context)` and a `16/10` placeholder. If the fetch never completes or returns no articles, the page can look like a blank grey surface without an explicit fallback until the async path settles.
+- Rumuo already depends on `flutter_epub_viewer`, `flutter_pdfview`, `flutter_inappwebview`, `web`, and custom Web iframe/PDF widgets. Adding packages without resolving current routing/rendering would be premature.
+- `BlogChannelScreen` currently shows a five-item shimmer while `_articles` is empty. Its shimmer is made from a `DecoratedBox` with `RumuoShimmer.fillColor(context)` and a `16/10` placeholder. If the fetch never completes or returns no articles, the page can look like a blank grey surface without an explicit fallback until the async path settles.
 - `BlogChannelScreen` depends on `context.watch<FeedProvider>()`; a route outside the provider tree would fail before rendering, so route/provider placement must be verified in the app shell.
 - `web_iframe_view_web.dart` creates a new timestamped platform-view type and returns a raw iframe with a white background. The repository’s Web YouTube player uses a stable platform-view wrapper and an explicit colored backing surface to avoid grey/white platform-view flashes; the same defensive pattern is relevant to Web document views.
 - `BookDetailScreen` already routes known Gutenberg/Global Grey EPUBs to `flutter_epub_viewer` on native and to HTML URL transformations on Web; bundled PDFs use `flutter_pdfview` on native and a custom Web PDF blob view. Verified category books with `freeSourceUrl` are generally routed through `BlogReaderScreen`, which means HTML/PDF/EPUB behavior varies by caller.
@@ -34,17 +34,17 @@
 
 ## Live deployment verification
 
-- The canonical deployment `https://chastechnologiesllc.github.io/Finreels/` bootstrapped in the browser and showed the FinReels onboarding shell.
-- The exact screenshot hostname `https://stechnologiesllc.github.io/Finreels/` returned GitHub Pages `404 — There isn't a GitHub Pages site here.` This is a confirmed deployment-host mismatch and can independently explain a uniform grey/blank page if the screenshot was taken from that address. The app code still needs a defensive Blog Channel loading fix, but the screenshot URL must be corrected to the canonical host after deployment.
+- The canonical deployment `https://chastechnologiesllc.github.io/Rumuo/` bootstrapped in the browser and showed the Rumuo onboarding shell.
+- The exact screenshot hostname `https://stechnologiesllc.github.io/Rumuo/` returned GitHub Pages `404 — There isn't a GitHub Pages site here.` This is a confirmed deployment-host mismatch and can independently explain a uniform grey/blank page if the screenshot was taken from that address. The app code still needs a defensive Blog Channel loading fix, but the screenshot URL must be corrected to the canonical host after deployment.
 
 ## Additional references
 
-[3]: https://chastechnologiesllc.github.io/Finreels/ "Canonical FinReels GitHub Pages deployment"
-[4]: https://stechnologiesllc.github.io/Finreels/ "Screenshot hostname: GitHub Pages 404"
+[3]: https://chastechnologiesllc.github.io/Rumuo/ "Canonical Rumuo GitHub Pages deployment"
+[4]: https://stechnologiesllc.github.io/Rumuo/ "Screenshot hostname: GitHub Pages 404"
 
 ## Compatibility correction
 
-- Direct pub.dev API metadata confirms `pdfrx` 2.5.0 requires Dart `^3.12.0` and Flutter `>=3.47.0`, which is incompatible with FinReels’ Flutter 3.44.0 CI. The newest listed compatible line is `pdfrx` 2.4.8, requiring Flutter `>=3.41.0`; the implementation pins `pdfrx: ^2.4.8` rather than the latest incompatible release.
+- Direct pub.dev API metadata confirms `pdfrx` 2.5.0 requires Dart `^3.12.0` and Flutter `>=3.47.0`, which is incompatible with Rumuo’ Flutter 3.44.0 CI. The newest listed compatible line is `pdfrx` 2.4.8, requiring Flutter `>=3.41.0`; the implementation pins `pdfrx: ^2.4.8` rather than the latest incompatible release.
 - `flutter_html` 3.0.0 requires Flutter `>=3.0.0` and supports Android, iOS, Web, Windows, macOS, and Linux, so it is compatible with the project’s Flutter 3.44.0 baseline.
 - `flutter_epub_viewer` 2.0.0 requires Dart `>=3.8.0 <4.0.0`, adds Web/macOS support, and is compatible with the project’s Dart/Flutter baseline.
 

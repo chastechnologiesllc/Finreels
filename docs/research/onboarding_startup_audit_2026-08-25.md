@@ -1,12 +1,12 @@
-# FinReels Onboarding and Startup Audit
+# Rumuo Onboarding and Startup Audit
 
-**Date:** 25 August 2026  
-**Scope:** Shared Flutter code for Web, Android, and iOS  
+**Date:** 25 August 2026
+**Scope:** Shared Flutter code for Web, Android, and iOS
 **Author:** Manus AI
 
 ## Executive summary
 
-FinReels’ first-run route is controlled by `UserProfileService.onboardingComplete` in `lib/main.dart`. The onboarding screen is `MyBusinessScreen(isOnboarding: true)`. The previous experience asked users to search a category but did not explain the wider value of the platform early enough, and it could keep the first useful screen behind an unnecessarily long splash and a full verified-resource load.
+Rumuo’ first-run route is controlled by `UserProfileService.onboardingComplete` in `lib/main.dart`. The onboarding screen is `MyBusinessScreen(isOnboarding: true)`. The previous experience asked users to search a category but did not explain the wider value of the platform early enough, and it could keep the first useful screen behind an unnecessarily long splash and a full verified-resource load.
 
 The implementation now leads with a short welcome, one interest prompt, one clearly labelled search task, and a single primary action. The previous awareness cards, centered icon, and extra value-proposition sentence have been removed at the user’s request. Category tiles remain hidden when the search is empty, including when the field receives focus; matching categories appear only after typed input. The search field moves toward the top when focused so the keyboard leaves more room for ranked results. Profile personalization shows all selected categories as removable chips. The category index is loaded separately from the larger channel, blog, and book catalog. The latter hydrates in the background and triggers a quiet feed refresh after it is ready.
 
@@ -18,17 +18,17 @@ The Web document now paints the complete dependency-free branded splash before F
 | --- | --- | --- |
 | Onboarding gate | `_AppRoot` uses `UserProfileService.instance.onboardingComplete`; onboarding is `MyBusinessScreen(isOnboarding: true)`. | Preserve the existing persistence contract and add clarity within the existing single-screen flow. |
 | Search behavior | The picker previously risked coupling first render to the full resource catalog. | Use `ResourceCategoryData.loadCategories()` for the taxonomy/search index; never render default category results for an empty query. |
-| First-run explanation | Users need to understand what FinReels offers before choosing a category. | Show “Watch lessons”, “Read free books”, and “Follow useful blogs” with short descriptions. |
+| First-run explanation | Users need to understand what Rumuo offers before choosing a category. | Show “Watch lessons”, “Read free books”, and “Follow useful blogs” with short descriptions. |
 | Primary action | Skipping is valid because category selection is optional and can be changed later. | Use “Start exploring” with no selection and “Continue (N selected)” after selection; retain “Skip for now” and “Save” wording in Profile personalization. |
 | Startup catalog work | `ResourceCategoryData.load()` previously loaded the category JSON and then every available resource file before the first feed provider was constructed. | Split category-index readiness from verified-resource hydration, with in-flight future coalescing to avoid duplicate loads. |
 | Feed correctness | `FeedProvider.init()` loads disk cache and performs its network refresh; verified resources affect channel scope and category-prioritized content. | Construct the provider after lightweight prerequisites, start it immediately, then refresh quietly after verified resources finish. |
 | Flutter splash | `SplashScreen` held the transition for 2.8 seconds even when initialization had already completed. | Reduce the intentional brand hold to 0.9 seconds while retaining the existing gate that waits for both splash completion and initialization. |
-| Web first paint | `web/index.html` previously supplied only a background before Flutter took over. AdSense remains asynchronous, but the page had no visible boot marker. | Use the full splash composition inline in HTML and remove it on the explicit `finreels-app-ready` event after Flutter’s first usable frame, with a timeout fallback so it cannot permanently cover recovery UI. |
+| Web first paint | `web/index.html` previously supplied only a background before Flutter took over. AdSense remains asynchronous, but the page had no visible boot marker. | Use the full splash composition inline in HTML and remove it on the explicit `rumuo-app-ready` event after Flutter’s first usable frame, with a timeout fallback so it cannot permanently cover recovery UI. |
 | Cross-platform safety | The changed application behavior is in shared Dart code; Android and iOS native launch screens remain lightweight and theme-aligned. | Avoid adding platform-specific splash assets or platform branches. |
 
 ## Onboarding research findings
 
-Material Design guidance recommends focusing onboarding on the action most closely connected to early engagement and introducing core functionality contextually rather than teaching everything at once [1]. Apple’s Human Interface Guidelines likewise recommend that prerequisite onboarding be brief and enjoyable and not require people to memorize a lot of information [2]. FinReels therefore uses one purpose statement, three concrete capability explanations, plain-language examples, and one obvious next action instead of a long tutorial.
+Material Design guidance recommends focusing onboarding on the action most closely connected to early engagement and introducing core functionality contextually rather than teaching everything at once [1]. Apple’s Human Interface Guidelines likewise recommend that prerequisite onboarding be brief and enjoyable and not require people to memorize a lot of information [2]. Rumuo therefore uses one purpose statement, three concrete capability explanations, plain-language examples, and one obvious next action instead of a long tutorial.
 
 The W3C clear-content guidance supports short sentences, familiar words, clear purpose, useful headings, and supporting instructions for people with cognitive and learning disabilities [3]. W3C cognitive accessibility guidance also emphasizes predictable structure and support that helps users understand what to do [4]. The redesign applies these principles through visible section headings, concrete verbs, explicit search labels, semantic headers, a keyboard-friendly text field, and large Material controls.
 
@@ -56,7 +56,7 @@ Local whitespace, JSON, and HTML parsing checks passed. The local environment do
 
 ## Changed files
 
-The focused implementation touches `lib/screens/my_business_screen.dart`, `lib/data/resource_category_data.dart`, `lib/main.dart`, `lib/screens/splash_screen.dart`, `web/index.html`, and `test/finreels_test.dart`.
+The focused implementation touches `lib/screens/my_business_screen.dart`, `lib/data/resource_category_data.dart`, `lib/main.dart`, `lib/screens/splash_screen.dart`, `web/index.html`, and `test/rumuo_test.dart`.
 
 The implementation deliberately preserves the existing feed snapshot recovery, media fallbacks, book/blog assets, notification and ad containment work, and the rule that empty onboarding or Profile searches show no default category list.
 

@@ -8,7 +8,7 @@ import 'resource_category_data.dart';
 /// architecture verbatim (a [Video] with channelId 'books' + a matching
 /// [BookInsightData] with chapters). No new screens, no new widgets: this
 /// is the same pattern `book_detail_screen.dart` already uses for "Think
-/// and Grow Rich", applied to FinReels' own research instead of a
+/// and Grow Rich", applied to Rumuo' own research instead of a
 /// third-party book.
 ///
 /// Unlike the hand-written entries in book_insights_data.dart (const,
@@ -87,7 +87,7 @@ class CategoryPlaybookData {
         title: 'The Business of ${c.name}',
         description: c.shortDescription,
         channelId: 'books',
-        channelName: 'FinReels Business Playbooks',
+        channelName: 'Rumuo Business Playbooks',
         publishedAt: _epoch,
         thumbnailUrl: 'assets/books/playbook_${c.section.assetKey}_cover.jpg',
       );
@@ -107,7 +107,7 @@ class CategoryPlaybookData {
     // favours — see curriculum Part 2 — and that fact isn't otherwise
     // captured anywhere in their source data, unlike professions (whose
     // "don't know" fact usually already *is* the tax angle). Adding it
-    // here means every trade/business playbook carries FinReels' single
+    // here means every trade/business playbook carries Rumuo' single
     // sharpest, most differentiated hook, not just the 20 professions.
     final tax = ResourceCategoryData.taxReform;
     if (tax != null && c.section != ResourceSection.profession) {
@@ -121,11 +121,11 @@ class CategoryPlaybookData {
     return BookInsightData(
       id: playbookId(c.id),
       title: 'The Business of ${c.name}',
-      author: 'FinReels Research',
+      author: 'Rumuo Research',
       tagline: c.shortDescription,
       intro: _intro(c),
       chapters: chapters,
-      // Original FinReels research, not a summary of a purchasable book —
+      // Original Rumuo research, not a summary of a purchasable book —
       // no purchase link. book_detail_screen.dart hides the "Get Full
       // Book" CTA whenever this is empty.
       purchaseUrl: '',
@@ -140,7 +140,7 @@ class CategoryPlaybookData {
       ResourceSection.onlineHustle =>
           'an online hustle that can grow into a real remote business',
     };
-    return '${c.name} is $label. This playbook is FinReels\' own research into '
+    return '${c.name} is $label. This playbook is Rumuo\' own research into '
         'the money side of it — not how to do the craft, but how the craft '
         'turns into income, and where the money actually leaks.';
   }

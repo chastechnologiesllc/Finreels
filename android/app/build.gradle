@@ -21,7 +21,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "com.chastechgroup.finreels"
+    namespace "com.chastechgroup.rumuo"
     compileSdk 36
     ndkVersion flutter.ndkVersion
 
@@ -41,7 +41,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.chastechgroup.finreels"
+        applicationId "com.chastechgroup.rumuo"
         minSdk 23
         targetSdk 36
         versionCode flutter.versionCode

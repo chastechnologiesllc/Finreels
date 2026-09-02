@@ -14,7 +14,7 @@ OUT_PATH = ROOT / "docs" / "research" / "pg_book_additions.json"
 TODAY = date(2026, 8, 23).isoformat()
 
 # High-confidence mapping from Gutenberg's own Bookshelves labels to the
-# narrowest useful Finreels category. General gets broad, non-fiction works
+# narrowest useful Rumuo category. General gets broad, non-fiction works
 # that support lifelong learning; professional categories get only directly
 # relevant subject shelves.
 SHELF_TARGETS: dict[str, list[str]] = {
@@ -141,7 +141,7 @@ for row in rows:
 result = {
     "source": "https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv",
     "retrievedOn": TODAY,
-    "policy": "English Text records were considered only when Gutenberg bookshelf labels matched a high-confidence Finreels category and no subject/title exclusion indicated fiction, poetry, drama, or periodicals.",
+    "policy": "English Text records were considered only when Gutenberg bookshelf labels matched a high-confidence Rumuo category and no subject/title exclusion indicated fiction, poetry, drama, or periodicals.",
     "candidateCounts": {name: len(items) for name, items in sorted(candidates_by_file.items())},
     "candidates": {name: items for name, items in sorted(candidates_by_file.items())},
 }

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../services/media_cache_manager.dart';
 import '../theme/app_theme.dart';
-import 'finreels_shimmer.dart';
+import 'rumuo_shimmer.dart';
 
 /// Displays a blog thumbnail from an ordered list of feed-provided candidates.
 /// A broken featured-image URL never leaves the card blank: the widget advances
@@ -37,7 +37,7 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
       'blog:${widget.url}|${widget.fallbackUrls.join('|')}';
 
   void _restoreSelection() {
-    final remembered = FinReelsMediaCache.selectedIndex(_selectionKey);
+    final remembered = RumuoMediaCache.selectedIndex(_selectionKey);
     if (remembered != null && remembered >= 0 && remembered < _candidates.length) {
       _index = remembered;
     }
@@ -92,9 +92,9 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
     final url = _candidates[_index.clamp(0, _candidates.length - 1)];
     return CachedNetworkImage(
       imageUrl: url,
-      cacheManager: FinReelsMediaCache.instance,
+      cacheManager: RumuoMediaCache.instance,
       imageBuilder: (_, imageProvider) {
-        FinReelsMediaCache.rememberSelection(_selectionKey, _index);
+        RumuoMediaCache.rememberSelection(_selectionKey, _index);
         return Image(image: imageProvider, fit: widget.fit);
       },
       width: widget.width,
@@ -122,18 +122,18 @@ class _BlogThumbnailImageState extends State<BlogThumbnailImage> {
   }
 
   Widget _placeholder(BuildContext context) {
-    return FinreelsShimmer(
-      child: ColoredBox(color: FinreelsShimmer.fillColor(context)),
+    return RumuoShimmer(
+      child: ColoredBox(color: RumuoShimmer.fillColor(context)),
     );
   }
 
   Widget _fallback(BuildContext context) {
     return Image.asset(
-      'assets/blog/finreels_blog_cover.png',
+      'assets/blog/rumuo_blog_cover.png',
       width: widget.width,
       height: widget.height,
       fit: widget.fit,
-      semanticLabel: 'FinReels insights blog cover',
+      semanticLabel: 'Rumuo insights blog cover',
       errorBuilder: (_, __, ___) => _fallbackIcon(),
     );
   }

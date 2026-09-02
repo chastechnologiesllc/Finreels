@@ -1,7 +1,7 @@
-# FinReels Project Requirements Audit
+# Rumuo Project Requirements Audit
 
-**Audit date:** 2026-08-28  
-**Repository:** `chastechnologiesllc/Finreels`  
+**Audit date:** 2026-08-28
+**Repository:** `chastechnologiesllc/Rumuo`
 **Audited branch:** `main`
 
 ## Scope and result
@@ -15,7 +15,7 @@ The project is structurally ready for shared Flutter delivery. Web and Android w
 | Area | Verified implementation | Status |
 |---|---|---|
 | Shared platform code | Flutter/Dart code is shared across Web, Android, and iOS; no unguarded `dart:io` imports were found in `lib`. Platform-specific browser/native code is isolated behind conditional files or `kIsWeb`. | Pass |
-| Web deployment | GitHub Pages uses `/Finreels/` base href and deploys the release Web build from `main`. | Pass |
+| Web deployment | GitHub Pages uses `/Rumuo/` base href and deploys the release Web build from `main`. | Pass |
 | Android delivery | Android manifest includes network, notification, boot, wake-lock, and billing permissions; workflow produces universal APK and AAB. | Pass |
 | iOS delivery | iOS deployment target is 14.0, required by the pinned `workmanager_apple` plugin; orientation, Workmanager registration, plugin registration, and ATS policy are present. CI bootstraps the missing generated Xcode host when necessary, disables Swift Package Manager for the CocoaPods-only plugin mix, then compiles iOS without signing. | Pass with generated-host and device/archive limitations |
 | Navigation | Main shell, channels, saved, profile, video player, Blog Channel, book detail, reader, search, and notification deep-link routes are present and use shared model contracts. | Pass |

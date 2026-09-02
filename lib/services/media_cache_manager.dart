@@ -6,12 +6,12 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 /// screen be reused on another screen and after a widget is recycled by a
 /// scrolling list. The cache is persistent on native platforms and uses the
 /// browser cache on Web through the same CachedNetworkImage contract.
-class FinReelsMediaCache {
-  FinReelsMediaCache._();
+class RumuoMediaCache {
+  RumuoMediaCache._();
 
   static final CacheManager instance = CacheManager(
     Config(
-      'finreels-media-v1',
+      'rumuo-media-v1',
       stalePeriod: const Duration(days: 30),
       maxNrOfCacheObjects: 1800,
     ),

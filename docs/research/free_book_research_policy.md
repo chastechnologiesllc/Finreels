@@ -1,8 +1,8 @@
-# Finreels Free-Book Research Policy
+# Rumuo Free-Book Research Policy
 
 ## Scope
 
-Finreels’ book collection is intended to support structured non-fiction learning pathways. A book may be added only when it is real, relevant to the target category, and legally accessible at no cost.
+Rumuo’ book collection is intended to support structured non-fiction learning pathways. A book may be added only when it is real, relevant to the target category, and legally accessible at no cost.
 
 ## Preferred source tiers
 
@@ -35,4 +35,4 @@ The Open Textbook Library’s published catalog was downloaded from its discover
 
 ## Research status
 
-The Open Textbook Library catalog is a source pool, not an automatic guarantee that every title belongs in every Finreels category. Titles will be mapped only when their subject metadata and description support a category assignment. Trade-specific categories with insufficient open-textbook coverage require additional targeted source research rather than artificial filling.
+The Open Textbook Library catalog is a source pool, not an automatic guarantee that every title belongs in every Rumuo category. Titles will be mapped only when their subject metadata and description support a category assignment. Trade-specific categories with insufficient open-textbook coverage require additional targeted source research rather than artificial filling.

@@ -11,7 +11,7 @@ import 'package:web/web.dart' as web;
 Future<Map<String, dynamic>> fetchJsonp(String url) {
   final completer = Completer<Map<String, dynamic>>();
   final cbName =
-      'finreels_jsonp_${DateTime.now().microsecondsSinceEpoch}';
+      'rumuo_jsonp_${DateTime.now().microsecondsSinceEpoch}';
 
   // package:web Window implements JSObject — use js_interop_unsafe extensions.
   final windowObj = web.window as JSObject;

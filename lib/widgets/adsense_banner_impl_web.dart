@@ -26,7 +26,7 @@ Widget buildAdSenseUnit({
   }
 
   final viewType =
-      'finreels-adsense-$slotId-${DateTime.now().microsecondsSinceEpoch}';
+      'rumuo-adsense-$slotId-${DateTime.now().microsecondsSinceEpoch}';
 
   ui_web.platformViewRegistry.registerViewFactory(viewType, (int viewId) {
     // AdSense may add an iframe after the platform view is created. Keep the

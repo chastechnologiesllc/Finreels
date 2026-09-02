@@ -1,4 +1,4 @@
-/// Models for FinReels' "Business of Your Skill/Business/Profession"
+/// Models for Rumuo' "Business of Your Skill/Business/Profession"
 /// taxonomy — the direct app-side representation of the
 /// founder's own research (20 Skills, 20 Businesses, 20 Professions +
 /// the 10-module curriculum + the 2026 tax-reform fact bank).
@@ -102,7 +102,7 @@ class TaxReform {
 /// A verified free book/guide for one category — see
 /// assets/data/resources/{categoryId}.json. Deliberately NOT the same
 /// shape as the app's existing bundled/EPUB books (book_insights_data.dart)
-/// — those are FinReels-curated reading with a full in-app reader; these
+/// — those are Rumuo-curated reading with a full in-app reader; these
 /// are pointers to real free resources out on the web (a free chapter, an
 /// OpenStax textbook, an SBA.gov guide, a Project Gutenberg title) opened
 /// the same way a category-tagged blog article opens.

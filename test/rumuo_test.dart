@@ -1,20 +1,20 @@
-import 'package:finreels/config/app_config.dart';
-import 'package:finreels/data/channel_avatar_data.dart';
-import 'package:finreels/data/channel_data.dart';
-import 'package:finreels/models/channel.dart';
-import 'package:finreels/models/resource_category.dart';
-import 'package:finreels/models/saved_bookmark.dart';
-import 'package:finreels/models/video.dart';
-import 'package:finreels/services/blog_rss_service.dart';
-import 'package:finreels/services/book_reader_content.dart';
-import 'package:finreels/services/feed_snapshot_service.dart';
-import 'package:finreels/services/media_cache_manager.dart';
-import 'package:finreels/utils/category_search.dart';
-import 'package:finreels/widgets/book_cover_image.dart';
-import 'package:finreels/widgets/blog_thumbnail_image.dart';
-import 'package:finreels/widgets/channel_avatar.dart';
-import 'package:finreels/widgets/finreels_shimmer.dart';
-import 'package:finreels/widgets/video_thumbnail_image.dart';
+import 'package:rumuo/config/app_config.dart';
+import 'package:rumuo/data/channel_avatar_data.dart';
+import 'package:rumuo/data/channel_data.dart';
+import 'package:rumuo/models/channel.dart';
+import 'package:rumuo/models/resource_category.dart';
+import 'package:rumuo/models/saved_bookmark.dart';
+import 'package:rumuo/models/video.dart';
+import 'package:rumuo/services/blog_rss_service.dart';
+import 'package:rumuo/services/book_reader_content.dart';
+import 'package:rumuo/services/feed_snapshot_service.dart';
+import 'package:rumuo/services/media_cache_manager.dart';
+import 'package:rumuo/utils/category_search.dart';
+import 'package:rumuo/widgets/book_cover_image.dart';
+import 'package:rumuo/widgets/blog_thumbnail_image.dart';
+import 'package:rumuo/widgets/channel_avatar.dart';
+import 'package:rumuo/widgets/rumuo_shimmer.dart';
+import 'package:rumuo/widgets/video_thumbnail_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -22,7 +22,7 @@ void main() {
   // ── Shared loading surfaces ───────────────────────────────────────────────────
   group('Shared loading surfaces', () {
     test('uses a visible animation period', () {
-      expect(FinreelsShimmer.animationPeriod.inMilliseconds, 950);
+      expect(RumuoShimmer.animationPeriod.inMilliseconds, 950);
     });
 
     testWidgets('empty video IDs render a fallback without a network image',
@@ -39,7 +39,7 @@ void main() {
       expect(find.byIcon(Icons.play_circle_outline_rounded), findsOneWidget);
     });
 
-    testWidgets('missing book covers render the bundled FinReels fallback',
+    testWidgets('missing book covers render the bundled Rumuo fallback',
         (tester) async {
       await tester.pumpWidget(
         const MaterialApp(
@@ -53,7 +53,7 @@ void main() {
       await tester.pump();
       final image = tester.widget<Image>(find.byType(Image));
       expect((image.image as AssetImage).assetName,
-          'assets/books/finreels_book_cover_fallback.png');
+          'assets/books/rumuo_book_cover_fallback.png');
     });
 
     testWidgets('missing blog thumbnails render the branded cover',
@@ -70,7 +70,7 @@ void main() {
       await tester.pump();
       final image = tester.widget<Image>(find.byType(Image));
       expect((image.image as AssetImage).assetName,
-          'assets/blog/finreels_blog_cover.png');
+          'assets/blog/rumuo_blog_cover.png');
     });
 
     testWidgets('shimmer builds in both light and dark themes', (tester) async {
@@ -78,13 +78,13 @@ void main() {
         await tester.pumpWidget(
           MaterialApp(
             theme: ThemeData(brightness: brightness),
-            home: const FinreelsShimmer(
+            home: const RumuoShimmer(
               child: SizedBox(width: 80, height: 24),
             ),
           ),
         );
         await tester.pump();
-        expect(find.byType(FinreelsShimmer), findsOneWidget);
+        expect(find.byType(RumuoShimmer), findsOneWidget);
       }
     });
 
@@ -283,8 +283,8 @@ void main() {
   group('Media cache', () {
     test('remembers successful fallback candidates', () {
       const key = 'test-media-cache-key';
-      FinReelsMediaCache.rememberSelection(key, 4);
-      expect(FinReelsMediaCache.selectedIndex(key), 4);
+      RumuoMediaCache.rememberSelection(key, 4);
+      expect(RumuoMediaCache.selectedIndex(key), 4);
     });
   });
 
@@ -461,7 +461,7 @@ void main() {
   // ── AppConfig ───────────────────────────────────────────────────────────────
   group('AppConfig', () {
     test('package name is correct', () {
-      expect(AppConfig.packageName, 'com.chastechgroup.finreels');
+      expect(AppConfig.packageName, 'com.chastechgroup.rumuo');
     });
 
     test('3 IAP product IDs defined', () {
@@ -470,7 +470,7 @@ void main() {
 
     test('IAP IDs have correct format', () {
       for (final id in AppConfig.iapProductIds) {
-        expect(id, startsWith('finreels_'));
+        expect(id, startsWith('rumuo_'));
       }
     });
 

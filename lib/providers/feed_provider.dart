@@ -337,7 +337,7 @@ class FeedProvider extends ChangeNotifier {
   /// priority every other tab already gives a selected category), then the
   /// general library. No CategoryPlaybookData here any more — that generated
   /// "Business of X" content still exists (see CategoryDetailScreen's own
-  /// "Read the Business Playbook" card, clearly labelled as FinReels
+  /// "Read the Business Playbook" card, clearly labelled as Rumuo
   /// Research) but it stopped being presented as a Book here, since it was
   /// close to identical filler for every Skill category and isn't a
   /// substitute for a real, named book.
@@ -352,7 +352,7 @@ class FeedProvider extends ChangeNotifier {
       (b.categoryId == null ? general : mine).add(b);
     }
 
-    // FinReels Online Hustle PDF playbooks — one per selected OH category,
+    // Rumuo Online Hustle PDF playbooks — one per selected OH category,
     // always first among that category's books (not a global dump of all 20).
     final categoryPdfs = <Video>[];
     for (final catId in selected) {
@@ -405,13 +405,13 @@ class FeedProvider extends ChangeNotifier {
     final name = cat?.name ?? categoryId.replaceAll('_', ' ');
     return Video(
       id: 'book_$categoryId',
-      title: '$name — FinReels Online Hustle Playbook',
+      title: '$name — Rumuo Online Hustle Playbook',
       description:
-          'FinReels practical money playbook for $name — free bundled PDF.',
+          'Rumuo practical money playbook for $name — free bundled PDF.',
       channelId: 'books',
       channelName: 'Online Hustle Playbooks',
       publishedAt: _epoch,
-      // Shared FinReels playbook cover art (real JPG asset so list tiles render).
+      // Shared Rumuo playbook cover art (real JPG asset so list tiles render).
       thumbnailUrl: 'assets/books/online_hustles_playbook_cover.jpg',
       sourceCategoryId: categoryId,
     );

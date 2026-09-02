@@ -52,19 +52,19 @@ jobs:
         run: flutter test
 
       # ── PR compile check ─────────────────────────────────────────────────────
-      
+
       - name: Build APK (PR compile check only — not uploaded)
         if: github.event_name == 'pull_request'
         run: flutter build apk --debug
 
       # ── Keystore ──────────────────────────────────────────────────────────────
-      
+
       - name: Decode keystore
         if: github.event_name != 'pull_request'
         run: |
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/finreels.jks
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/rumuo.jks
           cat > android/key.properties <<EOF
-          storeFile=finreels.jks
+          storeFile=rumuo.jks
           storePassword=${{ secrets.KEYSTORE_STORE_PASSWORD }}
           keyAlias=${{ secrets.KEYSTORE_KEY_ALIAS }}
           keyPassword=${{ secrets.KEYSTORE_KEY_PASSWORD }}
@@ -85,7 +85,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v7                # ← updated from v4
         with:
-          name: finreels-production-apk
+          name: rumuo-production-apk
           path: build/app/outputs/flutter-apk/app-release.apk
           retention-days: 90
 
@@ -94,12 +94,12 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v7                # ← updated from v4
         with:
-          name: finreels-production-aab
+          name: rumuo-production-aab
           path: build/app/outputs/bundle/release/app-release.aab
           retention-days: 90
 
       # ── GitHub Release ────────────────────────────────────────────────────────
-    
+
       - name: Create GitHub Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v3            # ← updated from v2

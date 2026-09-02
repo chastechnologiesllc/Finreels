@@ -64,7 +64,7 @@ def discover_page_cover(book: dict) -> dict:
     try:
         response = requests.get(
             source,
-            headers={'User-Agent': 'FinReels-cover-research/2.0'},
+            headers={'User-Agent': 'Rumuo-cover-research/2.0'},
             timeout=12,
             allow_redirects=True,
         )

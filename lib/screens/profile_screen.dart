@@ -121,8 +121,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         iconColor: adsGone ? AppTheme.success : AppTheme.gold,
                         title: adsGone ? 'Ad-Free Active' : 'Go Ad-Free',
                         subtitle: adsGone
-                            ? 'Enjoy uninterrupted FinReels content'
-                            : 'Remove ads and explore FinReels without interruption',
+                            ? 'Enjoy uninterrupted Rumuo content'
+                            : 'Remove ads and explore Rumuo without interruption',
                         trailing: const Icon(Icons.chevron_right_rounded),
                         onTap: () async {
                           await Navigator.of(context).push(
@@ -156,7 +156,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       _SettingsTile(
                         icon: Icons.star_rounded,
                         iconColor: const Color(0xFFFBBF24),
-                        title: 'Rate FinReels',
+                        title: 'Rate Rumuo',
                         subtitle: 'Enjoying the app? Leave us a review!',
                         trailing: const Icon(Icons.chevron_right_rounded,
                             size: 20),
@@ -179,7 +179,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             size: 20),
                         onTap: () => _launch(
                             'mailto:chastechnologiesllc@gmail.com'
-                            '?subject=FinReels%20Support'
+                            '?subject=Rumuo%20Support'
                             '&body=Hi%2C%20I%20need%20help%20with%3A%20'),
                       ),
 
@@ -309,7 +309,7 @@ class _AppInfoCard extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text('FinReels',
+                      const Text('Rumuo',
                           style: TextStyle(
                               fontWeight: FontWeight.w800, fontSize: 16)),
                       Text(

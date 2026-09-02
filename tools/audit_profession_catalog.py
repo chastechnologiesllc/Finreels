@@ -5,7 +5,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path('/home/ubuntu/Finreels')
+ROOT = Path('/home/ubuntu/Rumuo')
 CSV_PATH = Path('/home/ubuntu/upload/MBBS_Textbooks_Nigeria_Africa_Global.csv')
 RESOURCE_DIR = ROOT / 'assets' / 'data' / 'resources'
 CATEGORIES_PATH = ROOT / 'assets' / 'data' / 'resource_categories.json'
@@ -88,7 +88,7 @@ def main() -> None:
     lines = [
         '# Profession Resource Catalog Audit',
         '',
-        'This report is generated from the supplied MBBS CSV and the checked-in FinReels resource assets. It is an audit only; it does not treat copyrighted textbook titles as free resources and does not add any unverified links.',
+        'This report is generated from the supplied MBBS CSV and the checked-in Rumuo resource assets. It is an audit only; it does not treat copyrighted textbook titles as free resources and does not add any unverified links.',
         '',
         '## Input coverage',
         '',

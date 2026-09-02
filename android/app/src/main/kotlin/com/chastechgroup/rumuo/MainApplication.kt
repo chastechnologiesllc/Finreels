@@ -1,4 +1,4 @@
-package com.chastechgroup.finreels
+package com.chastechgroup.rumuo
 
 import android.app.Application
 

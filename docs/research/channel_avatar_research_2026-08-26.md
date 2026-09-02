@@ -1,8 +1,8 @@
-# FinReels channel-avatar research
+# Rumuo channel-avatar research
 
 ## Source and method
 
-FinReels now uses the official YouTube channel page for each already-verified channel ID. The retrieval script reads the page's public `og:image`/`image_src` metadata and stores only the HTTPS `yt3.googleusercontent.com` or `yt3.ggpht.com` image URL. The official YouTube Data API documentation identifies `snippet.thumbnails` as the supported channel-thumbnail field and documents `default`, `medium`, and `high` channel image sizes.
+Rumuo now uses the official YouTube channel page for each already-verified channel ID. The retrieval script reads the page's public `og:image`/`image_src` metadata and stores only the HTTPS `yt3.googleusercontent.com` or `yt3.ggpht.com` image URL. The official YouTube Data API documentation identifies `snippet.thumbnails` as the supported channel-thumbnail field and documents `default`, `medium`, and `high` channel image sizes.
 
 The reproducible script is `tool/fetch_channel_avatars.py`. Its output is stored in `docs/research/channel_avatar_manifest_2026-08-26.json`, while the application lookup table is `lib/data/channel_avatar_data.dart`.
 

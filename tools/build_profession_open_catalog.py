@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-ROOT = Path('/home/ubuntu/Finreels')
+ROOT = Path('/home/ubuntu/Rumuo')
 RESOURCE_DIR = ROOT / 'assets' / 'data' / 'resources'
 OUT = RESOURCE_DIR / '_profession_open_catalog.json'
 TODAY = '2026-08-24'

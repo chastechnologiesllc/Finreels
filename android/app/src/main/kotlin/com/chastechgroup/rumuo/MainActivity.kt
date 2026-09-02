@@ -1,4 +1,4 @@
-package com.chastechgroup.finreels
+package com.chastechgroup.rumuo
 
 import android.os.Build
 import io.flutter.embedding.android.FlutterActivity
@@ -6,7 +6,7 @@ import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 
 class MainActivity : FlutterActivity() {
-    private val installSourceChannel = "com.chastechgroup.finreels/install_source"
+    private val installSourceChannel = "com.chastechgroup.rumuo/install_source"
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)

@@ -105,7 +105,7 @@ class _AdBlockSheet extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      'FinReels is free because of ads.',
+                      'Rumuo is free because of ads.',
                       style: Theme.of(context)
                           .textTheme
                           .titleMedium
@@ -115,7 +115,7 @@ class _AdBlockSheet extends StatelessWidget {
                     const SizedBox(height: 12),
                     Text(
                       'An ad blocker is active on your device or network. '
-                      'Please disable it for FinReels, then tap "I\'ve Disabled It" below.',
+                      'Please disable it for Rumuo, then tap "I\'ve Disabled It" below.',
                       style: Theme.of(context).textTheme.bodyMedium,
                       textAlign: TextAlign.center,
                     ),
@@ -150,7 +150,7 @@ class _AdBlockSheet extends StatelessWidget {
               ),
               const Spacer(flex: 3),
               Text(
-                'FinReels by chAs Technologies LLC',
+                'Rumuo by chAs Technologies LLC',
                 style: Theme.of(context).textTheme.labelSmall,
               ),
             ],
@@ -178,7 +178,7 @@ class _AdBlockSheet extends StatelessWidget {
   Widget _buildSteps(BuildContext context) {
     const steps = [
       ('1', 'Open your ad blocker or browser settings'),
-      ('2', 'Disable or whitelist FinReels'),
+      ('2', 'Disable or whitelist Rumuo'),
       ('3', 'Return here and tap the button below'),
     ];
     return Column(

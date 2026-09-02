@@ -243,7 +243,7 @@ class _PlaybookCard extends StatelessWidget {
                           .titleSmall
                           ?.copyWith(fontWeight: FontWeight.w800)),
                   const SizedBox(height: 2),
-                  Text('FinReels Research — free',
+                  Text('Rumuo Research — free',
                       style: Theme.of(context)
                           .textTheme
                           .bodySmall

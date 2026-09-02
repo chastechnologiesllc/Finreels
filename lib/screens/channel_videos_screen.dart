@@ -12,7 +12,7 @@ import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/bookmark_button.dart';
 import '../widgets/channel_avatar.dart';
-import '../widgets/finreels_shimmer.dart';
+import '../widgets/rumuo_shimmer.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/video_thumbnail_image.dart';
 import 'shorts_player_screen.dart';
@@ -127,8 +127,8 @@ class _ChannelVideosScreenState extends State<ChannelVideosScreen>
   }
 
   Widget _buildShimmer(BuildContext context) {
-    final skeleton = FinreelsShimmer.fillColor(context);
-    return FinreelsShimmer(
+    final skeleton = RumuoShimmer.fillColor(context);
+    return RumuoShimmer(
       child: ListView.separated(
         padding: const EdgeInsets.all(16),
         itemCount: 6,

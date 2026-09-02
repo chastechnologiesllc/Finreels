@@ -28,7 +28,7 @@
 # Flutter's own engine embedding (FlutterPlayStoreSplitApplication,
 # PlayStoreDeferredComponentManager) references Play Core's split-install
 # classes unconditionally, for Flutter's "deferred components" / dynamic
-# feature delivery support. FinReels doesn't use deferred components — this
+# feature delivery support. Rumuo doesn't use deferred components — this
 # app ships as one normal APK/AAB — so these classes are never actually
 # reached at runtime. Since Google discontinued the unified play-core
 # artifact that used to provide them, R8's missing-class check hard-fails

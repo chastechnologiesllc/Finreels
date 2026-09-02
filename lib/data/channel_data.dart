@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/channel.dart';
 import 'resource_category_data.dart';
 
-/// FinReels — 12 general-purpose channels, all IDs verified directly from
+/// Rumuo — 12 general-purpose channels, all IDs verified directly from
 /// YouTube channel pages.
 ///
 /// Root cause of "only 2 channels showing" (a historical bug in the

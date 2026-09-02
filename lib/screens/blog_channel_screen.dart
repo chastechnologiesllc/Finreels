@@ -8,7 +8,7 @@ import '../services/ad_service.dart';
 import '../services/blog_rss_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/blog_thumbnail_image.dart';
-import '../widgets/finreels_shimmer.dart';
+import '../widgets/rumuo_shimmer.dart';
 import 'blog_reader_screen.dart';
 
 /// A dedicated, video-channel-style page for one blog/RSS source.
@@ -183,12 +183,12 @@ class _BlogChannelScreenState extends State<BlogChannelScreen> {
   }
 
   Widget _buildShimmer(BuildContext context) {
-    final fill = FinreelsShimmer.fillColor(context);
+    final fill = RumuoShimmer.fillColor(context);
     return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          FinreelsShimmer(
+          RumuoShimmer(
             child: CircleAvatar(
               radius: 34,
               backgroundColor: fill,

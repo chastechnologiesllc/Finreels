@@ -16,7 +16,7 @@ import 'package:web/web.dart' as web;
 /// that already permit framing: Gutenberg, blob PDF assets, etc.).
 Widget buildWebIframe(String url, {String? title, String? htmlContent}) {
   final viewType =
-      'finreels-iframe-${url.hashCode}-${DateTime.now().microsecondsSinceEpoch}';
+      'rumuo-iframe-${url.hashCode}-${DateTime.now().microsecondsSinceEpoch}';
 
   // Derive the iframe src — either a fresh blob URL or the raw URL.
   final String iframeSrc;
