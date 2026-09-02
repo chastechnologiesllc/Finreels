@@ -1,4 +1,4 @@
-# Rumuo 🎬
+# Rumuo 
 **Financial Literacy Content Aggregator** — by chAs Technologies LLC
 `com.chastechgroup.rumuo` · Android (Play Store) · Production
 
