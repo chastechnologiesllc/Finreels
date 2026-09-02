@@ -11,11 +11,11 @@ class NotificationItem {
     required this.id,
     required this.channelId,
     required this.channelName,
-    this.channelAvatarUrl,
     required this.videoTitle,
     required this.videoId,
     required this.timestamp,
     required this.isRead,
+    this.channelAvatarUrl,
   });
 
   /// Unique key: videoId + timestamp millis.  Prevents duplicates even when

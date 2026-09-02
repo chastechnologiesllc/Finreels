@@ -1,9 +1,8 @@
 import 'dart:convert';
-import 'dart:typed_data';
 
 import 'package:flutter/foundation.dart';
-import 'package:http/http.dart' as http;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -281,11 +280,14 @@ class NotificationService {
     required int id,
     required String channelId,
     required String channelName,
-    String? channelAvatarUrl,
     required String videoTitle,
     required String videoId,
+    String? channelAvatarUrl,
   }) async {
     final avatarBytes = await _downloadAvatarBytes(channelAvatarUrl);
+    final AndroidBitmap<dynamic> largeIcon = avatarBytes == null
+        ? const DrawableResourceAndroidBitmap('rumuo_launcher')
+        : ByteArrayAndroidBitmap(avatarBytes);
     final androidDetails = AndroidNotificationDetails(
       AppConfig.notifChannelId,
       AppConfig.notifChannelName,
@@ -294,13 +296,11 @@ class NotificationService {
       priority: Priority.high,
       // Android status-bar icons must be monochrome transparent resources.
       icon: 'rumuo_notification',
-      largeIcon: avatarBytes == null
-          ? const DrawableResourceAndroidBitmap('rumuo_launcher')
-          : ByteArrayAndroidBitmap(avatarBytes),
+      largeIcon: largeIcon,
       styleInformation: const BigTextStyleInformation(''),
     );
     const iosDetails = DarwinNotificationDetails();
-    const details =
+    final details =
         NotificationDetails(android: androidDetails, iOS: iosDetails);
 
     // Native uses the OS tray; Web uses the browser Notifications API while
@@ -339,8 +339,8 @@ class NotificationService {
     required SharedPreferences prefs,
     required String channelId,
     required String channelName,
-    String? channelAvatarUrl,
     required Video video,
+    String? channelAvatarUrl,
   }) => NotificationStore.appendToPrefsStatic(
         prefs: prefs,
         channelId: channelId,

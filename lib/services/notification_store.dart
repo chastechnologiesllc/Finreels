@@ -105,9 +105,9 @@ class NotificationStore {
     required SharedPreferences prefs,
     required String channelId,
     required String channelName,
-    String? channelAvatarUrl,
     required String videoTitle,
     required String videoId,
+    String? channelAvatarUrl,
   }) async {
     final now = DateTime.now();
     final item = NotificationItem(
