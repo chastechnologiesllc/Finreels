@@ -285,9 +285,12 @@ class NotificationService {
     String? channelAvatarUrl,
   }) async {
     final avatarBytes = await _downloadAvatarBytes(channelAvatarUrl);
-    final AndroidBitmap<dynamic> largeIcon = avatarBytes == null
-        ? const DrawableResourceAndroidBitmap('rumuo_launcher')
-        : ByteArrayAndroidBitmap(avatarBytes);
+    final AndroidBitmap<Object> largeIcon;
+    if (avatarBytes == null) {
+      largeIcon = const DrawableResourceAndroidBitmap('rumuo_launcher');
+    } else {
+      largeIcon = ByteArrayAndroidBitmap(avatarBytes) as AndroidBitmap<Object>;
+    }
     final androidDetails = AndroidNotificationDetails(
       AppConfig.notifChannelId,
       AppConfig.notifChannelName,
