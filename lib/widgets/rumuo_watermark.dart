@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
+import 'rumuo_mark.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Rumuo watermark — full-width lower-third (covers YouTube logo)
@@ -56,19 +57,8 @@ class RumuoWatermark extends StatelessWidget {
                     width: _iconSize,
                     height: _iconSize,
                     fit: BoxFit.cover,
-                    errorBuilder: (_, __, ___) => Container(
-                      width: _iconSize,
-                      height: _iconSize,
-                      decoration: BoxDecoration(
-                        color: _gold,
-                        borderRadius: BorderRadius.circular(6),
-                      ),
-                      child: Icon(
-                        Icons.play_arrow_rounded,
-                        color: isDark ? Colors.black : Colors.white,
-                        size: 16,
-                      ),
-                    ),
+                    errorBuilder: (_, __, ___) =>
+                        const RumuoMark(size: _iconSize, borderRadius: 6),
                   ),
                 ),
                 const SizedBox(width: 8),

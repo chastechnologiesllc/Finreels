@@ -17,6 +17,7 @@ import '../widgets/inline_video_card.dart';
 import '../widgets/no_flash_page_route.dart';
 import '../widgets/shimmer_loader.dart';
 import '../widgets/video_thumbnail_image.dart';
+import '../widgets/rumuo_mark.dart';
 import 'blog_feed_screen.dart';
 import 'book_detail_screen.dart';
 import 'content_search_screen.dart';
@@ -52,13 +53,7 @@ class _AppHeader extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
       child: Row(
         children: [
-          Container(
-            width: 34, height: 34,
-            decoration: BoxDecoration(
-                color: AppTheme.gold, borderRadius: BorderRadius.circular(9)),
-            child: const Icon(Icons.play_arrow_rounded,
-                color: Colors.white, size: 22),
-          ),
+          const RumuoMark(size: 34, borderRadius: 9),
           const SizedBox(width: 10),
           Text('Rumuo',
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(

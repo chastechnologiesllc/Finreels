@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import '../theme/app_theme.dart';
+import '../widgets/rumuo_mark.dart';
 
 class SplashScreen extends StatefulWidget {
   final VoidCallback onComplete;
@@ -36,20 +37,7 @@ class _SplashScreenState extends State<SplashScreen> {
             const Spacer(flex: 3),
 
             // ── Logo Mark ─────────────────────────────────────────────────────
-            Container(
-              width: 96,
-              height: 96,
-              decoration: BoxDecoration(
-                gradient: const RadialGradient(
-                  colors: [AppTheme.goldLight, AppTheme.gold, AppTheme.goldDark],
-                  center: Alignment.topLeft,
-                  radius: 1.5,
-                ),
-                borderRadius: BorderRadius.circular(26),
-              ),
-              child: const Icon(Icons.play_arrow_rounded,
-                  color: Colors.white, size: 54),
-            )
+            const RumuoMark(size: 96, borderRadius: 26)
                 .animate()
                 .scale(begin: const Offset(0.6, 0.6), duration: 600.ms,
                     curve: Curves.easeOutBack)

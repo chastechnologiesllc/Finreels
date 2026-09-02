@@ -7,6 +7,7 @@ import '../models/resource_category.dart';
 import '../services/user_profile_service.dart';
 import '../theme/app_theme.dart';
 import '../utils/category_search.dart';
+import '../widgets/rumuo_mark.dart';
 
 /// Lets the person tell Rumuo what they actually do — their trade,
 /// their side business, or their profession — without showing a default
@@ -407,7 +408,7 @@ class _MyBusinessScreenState extends State<MyBusinessScreen> {
   }
 }
 
-/// "Rumuo" + the same gold play-button mark used in home_screen.dart.
+/// "Rumuo" + the shared supplied bird mark used throughout the app.
 class _OnboardingBrand extends StatelessWidget {
   const _OnboardingBrand();
 
@@ -416,14 +417,7 @@ class _OnboardingBrand extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Container(
-          width: 34,
-          height: 34,
-          decoration: BoxDecoration(
-              color: AppTheme.gold, borderRadius: BorderRadius.circular(9)),
-          child: const Icon(Icons.play_arrow_rounded,
-              color: Colors.white, size: 22),
-        ),
+        const RumuoMark(size: 34, borderRadius: 9),
         const SizedBox(width: 10),
         Text('Rumuo',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
