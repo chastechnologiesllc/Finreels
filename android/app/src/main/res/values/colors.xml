@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Rumuo launcher uses the bird mark without a colored background. -->
-    <color name="ic_launcher_background">#00000000</color>
+    <!-- Rumuo launcher uses the supplied yellow brand background. -->
+    <color name="ic_launcher_background">#F0AA1D</color>
 
     <!-- Pre-Flutter splash background — LIGHT MODE (day qualifier).
          Must match AppTheme.lightBg (#FFFFFF) so the native → Flutter
