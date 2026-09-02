@@ -15,6 +15,7 @@ import '../services/consent_service.dart';
 import '../services/user_profile_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/rumuo_mark.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -286,24 +287,8 @@ class _AppInfoCard extends StatelessWidget {
           children: [
             Row(
               children: [
-                // App icon — gradient rounded square, WHITE arrow.
-                Container(
-                  width: 48, height: 48,
-                  decoration: BoxDecoration(
-                    gradient: const RadialGradient(
-                      colors: [
-                        AppTheme.goldLight,
-                        AppTheme.gold,
-                        AppTheme.goldDark,
-                      ],
-                      center: Alignment.topLeft,
-                      radius: 1.5,
-                    ),
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: const Icon(Icons.play_arrow_rounded,
-                      color: Colors.white, size: 28),
-                ),
+                // Shared Rumuo app mark — exact 48px size with rounded corners.
+                const RumuoMark(size: 48, borderRadius: 12),
                 const SizedBox(width: 14),
                 Expanded(
                   child: Column(
