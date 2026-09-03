@@ -492,7 +492,7 @@ void main() {
   // ── Theme Colours ────────────────────────────────────────────────────────────
   group('Theme colours', () {
     test('gold is correct hex', () {
-      const gold = Color(0xFFF59E0B);
+      const gold = Color(0xFFF0AA1D);
       expect(gold.r, closeTo(245 / 255, 0.01));
       expect(gold.g, closeTo(158 / 255, 0.01));
       expect(gold.b, closeTo(11 / 255, 0.01));

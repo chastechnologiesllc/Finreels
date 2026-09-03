@@ -243,7 +243,7 @@ class ResourceCategoryData {
           name: ch['name'] as String,
           handle: ch['handle'] as String,
           description: ch['description'] as String? ?? '',
-          accentColor: Color(int.parse(ch['accentColor'] as String? ?? '0xFFF59E0B')),
+          accentColor: Color(int.parse(ch['accentColor'] as String? ?? '0xFFF0AA1D')),
           category: 'Business of Your Skill',
           focus: ch['focus'] as String? ?? '',
           initials: ch['initials'] as String? ?? '',

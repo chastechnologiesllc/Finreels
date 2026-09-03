@@ -156,7 +156,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       const _SectionHeader('Support'),
                       _SettingsTile(
                         icon: Icons.star_rounded,
-                        iconColor: const Color(0xFFFBBF24),
+                        iconColor: AppTheme.gold,
                         title: 'Rate Rumuo',
                         subtitle: 'Enjoying the app? Leave us a review!',
                         trailing: const Icon(Icons.chevron_right_rounded,

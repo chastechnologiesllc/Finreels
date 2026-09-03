@@ -15,7 +15,7 @@ CATEGORY_FILE = ROOT / "assets" / "data" / "resource_categories.json"
 OUT = ROOT / "docs" / "research" / "channel_blog_additions.json"
 TODAY = "2026-08-23"
 
-PALETTE = ["0xFF2563EB", "0xFF16A34A", "0xFFD97706", "0xFF7C3AED", "0xFF0891B2", "0xFFDB4437", "0xFF0F766E", "0xFF9333EA", "0xFFB45309", "0xFF475569"]
+PALETTE = ["0xFF2563EB", "0xFF16A34A", "0xFFF0AA1D", "0xFF7C3AED", "0xFF0891B2", "0xFFDB4437", "0xFF0F766E", "0xFF9333EA", "0xFFB45309", "0xFF475569"]
 
 CHANNEL_POOLS = {
     "general": [

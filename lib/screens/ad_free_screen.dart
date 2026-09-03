@@ -540,7 +540,7 @@ class _PromoCard extends StatelessWidget {
               'videos, shorts, blogs, and 690+ books across 60 business, '
               'skill, and profession categories. No banners. No pop-ups.',
               style: TextStyle(
-                color: Color(0xFFD4A84B),
+                color: Color(0xFFF0AA1D),
                 fontSize: 13,
                 height: 1.5,
               ),
@@ -576,7 +576,7 @@ class _PromoFeature extends StatelessWidget {
         const SizedBox(width: 4),
         Text(label,
             style: const TextStyle(
-                color: Color(0xFFD4A84B),
+                color: Color(0xFFF0AA1D),
                 fontSize: 11,
                 fontWeight: FontWeight.w600)),
       ],
