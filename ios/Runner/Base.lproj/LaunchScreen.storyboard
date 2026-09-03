@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--
-  LaunchScreen.storyboard — theme-adaptive native splash for Rumuo.
-
-  KEY CHANGE: backgroundColor uses systemColor="systemBackgroundColor"
-  (UIColor.systemBackground), which is:
-    Light mode → white  (#FFFFFF)  matches AppTheme.lightBg
-    Dark mode  → black  (#000000)  matches AppTheme.darkBg
-
-  This eliminates the white flash users see on dark-mode iPhones between
-  the native launch screen and the Flutter splash widget. No images, icons,
-  or branding are shown here — all animation lives in the Flutter SplashScreen
-  widget, so this native frame is intentionally blank.
--->
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB"
-    version="3.0"
-    toolsVersion="22154"
-    targetRuntime="iOS.CocoaTouch"
-    propertyAccessControl="none"
-    useAutolayout="YES"
-    launchScreen="YES"
-    useTraitCollections="YES"
-    useSafeAreas="YES"
-    colorMatched="YES"
-    initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
@@ -33,22 +10,49 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Mus-c0-4Sh"/>
-                        <viewControllerLayoutGuide type="bottom" id="4md-kJ-0f8"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeAreaLayoutGuide" id="Hn2-Eu-3UD"/>
-                        <!-- systemBackgroundColor = white (light) / black (dark) automatically -->
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="rumuo-mark">
+                                <rect key="frame" x="159" y="250" width="96" height="96"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rumuo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rumuo-name">
+                                <rect key="frame" x="130" y="370" width="154" height="46"/>
+                                <fontDescription key="fontDescription" type="system" weight="bold" pointSize="38"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opening your discovery space…" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rumuo-status">
+                                <rect key="frame" x="80" y="424" width="254" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" red="0.941176" green="0.666667" blue="0.113725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by chAs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rumuo-byline">
+                                <rect key="frame" x="178" y="816" width="58" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Hn2-Eu-3UD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rumuo-mark" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mark-center-x"/>
+                            <constraint firstItem="rumuo-mark" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-115" id="mark-center-y"/>
+                            <constraint firstItem="rumuo-mark" firstAttribute="width" constant="96" id="mark-width"/>
+                            <constraint firstItem="rumuo-mark" firstAttribute="height" constant="96" id="mark-height"/>
+                            <constraint firstItem="rumuo-name" firstAttribute="top" secondItem="rumuo-mark" secondAttribute="bottom" constant="24" id="name-top"/>
+                            <constraint firstItem="rumuo-name" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="name-center-x"/>
+                            <constraint firstItem="rumuo-status" firstAttribute="top" secondItem="rumuo-name" secondAttribute="bottom" constant="8" id="status-top"/>
+                            <constraint firstItem="rumuo-status" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="status-center-x"/>
+                            <constraint firstItem="rumuo-byline" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" constant="-40" id="byline-bottom"/>
+                            <constraint firstItem="rumuo-byline" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="byline-center-x"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder"
-                    id="iYj-Kq-Ea1"
-                    userLabel="First Responder"
-                    sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>

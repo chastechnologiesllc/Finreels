@@ -12,7 +12,6 @@ import 'data/resource_category_data.dart';
 import 'providers/feed_provider.dart';
 import 'screens/main_shell.dart';
 import 'screens/my_business_screen.dart';
-import 'screens/splash_screen.dart';
 import 'services/ad_block_service.dart';
 import 'services/ad_service.dart';
 import 'services/background_service.dart';
@@ -27,10 +26,9 @@ import 'theme/app_theme.dart';
 import 'widgets/ad_block_overlay.dart';
 import 'widgets/connectivity_overlay.dart';
 
-/// Fix 1 — Splash Screen Freeze
-/// main() now does the absolute minimum so runApp() fires on the first frame.
-/// Heavy init (Hive, SDKs, providers) runs in parallel with the splash animation
-/// inside _SplashGate. The app is never blocked before the first paint.
+/// Startup stays minimal so runApp() fires on the first frame.
+/// Heavy init (Hive, SDKs, providers) runs after the native initiation screen
+/// has been displayed and in parallel with the first Flutter frame.
 void main() {
   // runZonedGuarded + the two handlers below are the last line of defence
   // against a genuinely uncaught exception taking the whole app process
@@ -78,7 +76,7 @@ void main() {
       await SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     }
 
-    // runApp immediately — splash is shown on the very first frame.
+    // runApp immediately — the native initiation frame remains above Flutter.
     runApp(const RumuoApp());
   }, (Object error, StackTrace stack) {
     debugPrint('[crash] Uncaught zone error: $error\n$stack');
@@ -95,7 +93,7 @@ class RumuoApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
-      home: const _SplashGate(),
+      home: const _StartupGate(),
       // Wraps EVERY screen in the navigation stack — including ones with no
       // AppBar at all, like MainShell — so the status bar is always
       // transparent with correctly-contrasted icons, regardless of which
@@ -113,21 +111,19 @@ class RumuoApp extends StatelessWidget {
   }
 }
 
-/// Splash is displayed immediately. Heavy init runs in the background.
-/// The main shell is shown only after BOTH the splash timer AND init are done.
-class _SplashGate extends StatefulWidget {
-  const _SplashGate();
+/// Startup gate for initialization. Native platforms show their initiation
+/// screen before Flutter; web continues to use its unchanged static boot layer.
+class _StartupGate extends StatefulWidget {
+  const _StartupGate();
 
   @override
-  State<_SplashGate> createState() => _SplashGateState();
+  State<_StartupGate> createState() => _StartupGateState();
 }
 
-class _SplashGateState extends State<_SplashGate> {
-  // Web uses the static HTML boot screen instead of building a second Flutter
-  // splash. Native platforms retain the existing Flutter splash handoff.
-  bool _splashDone = kIsWeb;
+class _StartupGateState extends State<_StartupGate> {
   bool _initDone = false;
   bool _webBootReadySent = false;
+  bool _nativeLaunchReadySent = false;
 
   // Holds fully-initialised providers, set after init completes.
   FeedProvider? _feedProvider;
@@ -135,7 +131,7 @@ class _SplashGateState extends State<_SplashGate> {
   @override
   void initState() {
     super.initState();
-    // Fire-and-forget — runs concurrently with the splash animation.
+    // Fire-and-forget — native initiation remains visible while startup runs.
     unawaited(_initialize());
   }
 
@@ -144,7 +140,7 @@ class _SplashGateState extends State<_SplashGate> {
     // it's a local-disk operation and typically resolves in single-digit ms.
     // Wrapped defensively: if Hive somehow fails (corrupted box, disk issue),
     // reading progress just won't persist — that must never be allowed to
-    // strand the user on the splash screen forever.
+    // strand the user on the native initiation screen forever.
     try {
       await Hive.initFlutter();
       await Hive.openBox<String>('reading_progress');
@@ -175,7 +171,7 @@ class _SplashGateState extends State<_SplashGate> {
     // fire-and-forget with its own separate ceiling, run concurrently with
     // Group A above rather than after it (both start as soon as Hive is
     // ready), and never gates FeedProvider's construction or the
-    // splash-to-shell transition.
+    // initiation-to-shell transition.
     unawaited(() async {
       try {
         await Future.wait([
@@ -234,7 +230,7 @@ class _SplashGateState extends State<_SplashGate> {
 
   /// Runs [fn] and swallows any error. A single misbehaving service (no
   /// Play Services, a flaky network call during setup, a misconfigured SDK
-  /// key, etc.) must never be able to hang the splash screen forever or
+  /// key, etc.) must never be able to hang the native initiation screen forever or
   /// crash app startup — it should just be skipped, logged, and the app
   /// should continue without that feature until it can recover later.
   Future<void> _safeInit(String name, Future<void> Function() fn) async {
@@ -245,35 +241,38 @@ class _SplashGateState extends State<_SplashGate> {
     }
   }
 
-  void _onSplashComplete() {
-    _splashDone = true;
-    // Native permission prompts are safe here because this is the existing
-    // app-entry permission flow. Web browsers require a user gesture, so Web
-    // permission is requested from NotificationSettingsScreen instead.
-    if (!kIsWeb) {
-      unawaited(NotificationService.instance.requestPermission());
-    }
-    _maybeTransition();
-  }
-
-  /// Transitions to the shell only when both conditions are met.
+  /// Transitions to the shell when initialization has produced a provider.
   void _maybeTransition() {
-    if (_splashDone && _initDone && mounted) {
+    if (_initDone && _feedProvider != null && mounted) {
       final signalWebBoot = kIsWeb && !_webBootReadySent;
+      final signalNativeLaunch = !kIsWeb && !_nativeLaunchReadySent;
       if (signalWebBoot) _webBootReadySent = true;
+      if (signalNativeLaunch) _nativeLaunchReadySent = true;
       setState(() {}); // Triggers the build that shows the shell.
       if (signalWebBoot) {
         WidgetsBinding.instance.addPostFrameCallback((_) {
           if (mounted) markWebBootReady();
         });
       }
+      if (signalNativeLaunch) unawaited(_signalNativeLaunchReady());
+    }
+  }
+
+  Future<void> _signalNativeLaunchReady() async {
+    try {
+      await const MethodChannel(
+        'com.chastechgroup.rumuo/native_launch',
+      ).invokeMethod<void>('ready');
+    } on Object catch (e) {
+      debugPrint('[startup] native launch handoff failed (non-fatal): $e');
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    // Show shell only when splash is done AND init is done.
-    if (_splashDone && _initDone && _feedProvider != null) {
+    // Native initiation owns the pre-Flutter branded frame; Flutter shows the
+    // shell as soon as initialization has produced its provider.
+    if (_initDone && _feedProvider != null) {
       return MultiProvider(
         providers: [
           ChangeNotifierProvider.value(value: _feedProvider!),
@@ -290,9 +289,9 @@ class _SplashGateState extends State<_SplashGate> {
 
     // Web keeps the static HTML boot screen over this transparent Flutter
     // first frame until _maybeTransition signals the first usable shell.
-    // Android/iOS continue to use the shared Flutter splash widget.
-    if (kIsWeb) return const SizedBox.shrink();
-    return SplashScreen(onComplete: _onSplashComplete);
+    // Android/iOS show their native initiation screen before Flutter and then
+    // render the shell directly without a second Flutter splash.
+    return const SizedBox.shrink();
   }
 }
 

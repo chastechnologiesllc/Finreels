@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/launch_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:translationY="-36dp">
+
+        <ImageView
+            android:id="@+id/native_launch_mark"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:contentDescription="Rumuo"
+            android:src="@drawable/rumuo_native_launch"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Rumuo"
+            android:textColor="@color/native_launch_primary"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            android:fontFamily="sans" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Opening your discovery space…"
+            android:textColor="@color/brand_yellow"
+            android:textSize="14sp"
+            android:fontFamily="sans" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:text="by chAs"
+        android:textColor="@color/native_launch_primary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans" />
+</FrameLayout>

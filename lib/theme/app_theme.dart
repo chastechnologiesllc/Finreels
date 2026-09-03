@@ -4,14 +4,14 @@ import 'package:flutter/services.dart';
 /// Rumuo theme — follows device system theme exactly.
 /// Light → pure white surfaces, dark text.
 /// Dark  → pure near-black surfaces, pure white text.
-/// Gold accent (#F59E0B) on both.
+/// Brand yellow (#F0AA1D) on both.
 class AppTheme {
   AppTheme._();
 
   // ── Shared Palette ──────────────────────────────────────────────────────────
-  static const Color gold = Color(0xFFF59E0B);
-  static const Color goldLight = Color(0xFFFBBF24);
-  static const Color goldDark = Color(0xFFD97706);
+  static const Color gold = Color(0xFFF0AA1D);
+  static const Color goldLight = Color(0xFFF0AA1D);
+  static const Color goldDark = Color(0xFFF0AA1D);
   static const Color error = Color(0xFFEF4444);
   static const Color success = Color(0xFF22C55E);
 

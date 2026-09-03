@@ -57,15 +57,15 @@ class PaystackService {
     display: flex; align-items: center; justify-content: center;
     flex-direction: column;
   }
-  .msg { color: #D4A84B; font-size: 14px; text-align: center; padding: 24px; }
+  .msg { color: #F0AA1D; font-size: 14px; text-align: center; padding: 24px; }
   .spinner {
     width: 28px; height: 28px; margin-bottom: 14px;
-    border: 3px solid rgba(212,168,75,0.25); border-top-color: #D4A84B;
+    border: 3px solid rgba(240,170,29,0.25); border-top-color: #F0AA1D;
     border-radius: 50%; animation: spin 0.8s linear infinite;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
   .retry {
-    margin-top: 14px; color: #0B0B0B; background: #D4A84B; border: none;
+    margin-top: 14px; color: #0B0B0B; background: #F0AA1D; border: none;
     padding: 10px 18px; border-radius: 8px; font-weight: 700; font-size: 13px;
   }
 </style>

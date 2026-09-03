@@ -139,7 +139,7 @@ class ChannelData {
       description:
           'Social media marketing agency expert. Build a 6-figure '
           'SMMA and get high-paying clients.',
-      accentColor: Color(0xFFF59E0B),
+      accentColor: Color(0xFFF0AA1D),
       category: 'Sales & Marketing',
       focus: 'SMMA & social media marketing',
       initials: 'JP',
@@ -153,7 +153,7 @@ class ChannelData {
           'Raw interviews with self-made millionaires sharing exactly '
           'how they built their wealth — struggles, turning points and '
           'strategies that really worked.',
-      accentColor: Color(0xFFD97706),
+      accentColor: Color(0xFFF0AA1D),
       category: 'How They Got Rich',
       focus: 'Millionaire interviews & wealth journeys',
       initials: 'SK',

@@ -53,11 +53,13 @@ class _AppHeader extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
       child: Row(
         children: [
-          const RumuoMark(size: 34, borderRadius: 9),
+          const RumuoMark(size: 48, borderRadius: 12),
           const SizedBox(width: 10),
           Text('Rumuo',
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                  fontWeight: FontWeight.w800, letterSpacing: -0.5)),
+                  fontSize: 32,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: -0.5)),
           const Spacer(),
           IconButton(
             icon: Icon(Icons.search_rounded, color: AppTheme.textMuted(context)),
