@@ -1,0 +1,845 @@
+{
+  "categoryId": "online_hustles_14_blogging_seo",
+  "status": "channels_enriched_v1",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UC1emV4A8liRs9p80CY8ElUQ",
+      "name": "freeCodeCamp.org",
+      "handle": "@freecodecamp",
+      "description": "Free programming, web development, data, algorithms, and career learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "F",
+      "focus": "Blogging & SEO Content Sites: Free programming, web development, data, algorithms, and career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1emV4A8liRs9p80CY8ElUQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC29ju8bIPH5as8OGnQzwJyA",
+      "name": "Traversy Media",
+      "handle": "@TraversyMedia",
+      "description": "Web development, programming, APIs, tools, and project-based learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TM",
+      "focus": "Blogging & SEO Content Sites: Web development, programming, APIs, tools, and project-based learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC29ju8bIPH5as8OGnQzwJyA; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCW5YeuERMmlnqo4oq8vwUpg",
+      "name": "The Net Ninja",
+      "handle": "@NetNinja",
+      "description": "Web development, JavaScript, frameworks, databases, and coding projects.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "TN",
+      "focus": "Blogging & SEO Content Sites: Web development, JavaScript, frameworks, databases, and coding projects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCW5YeuERMmlnqo4oq8vwUpg; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2Xd-TjJByJyK2w1zNwY0zQ",
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "description": "Fast technical explainers on web development, cloud, AI, and software tools.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "F",
+      "focus": "Blogging & SEO Content Sites: Fast technical explainers on web development, cloud, AI, and software tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2Xd-TjJByJyK2w1zNwY0zQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCJoS8wONbN1zKh2oKn1RbEw",
+      "name": "Corey Schafer",
+      "handle": "@CoreySchafer",
+      "description": "Python, programming fundamentals, automation, and developer workflows.",
+      "accentColor": "0xFF0891B2",
+      "initials": "CS",
+      "focus": "Blogging & SEO Content Sites: Python, programming fundamentals, automation, and developer workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCJoS8wONbN1zKh2oKn1RbEw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "name": "Programming with Mosh",
+      "handle": "@ProgrammingwithMosh",
+      "description": "Programming, software engineering, web development, and career skills.",
+      "accentColor": "0xFFDB4437",
+      "initials": "PW",
+      "focus": "Blogging & SEO Content Sites: Programming, software engineering, web development, and career skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWv7vMbMWH4-V0ZXdmDpPBA; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "name": "Google for Developers",
+      "handle": "@GoogleDevelopers",
+      "description": "Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "accentColor": "0xFF0F766E",
+      "initials": "GF",
+      "focus": "Blogging & SEO Content Sites: Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_x5XG1OV2P6uZZ5FSM9Ttw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl7NIJlHZjJB_VisjGIhLUw",
+      "name": "Canva",
+      "handle": "@Canva",
+      "description": "Design, visual communication, social media content, and creator workflows.",
+      "accentColor": "0xFF9333EA",
+      "initials": "C",
+      "focus": "Blogging & SEO Content Sites: Design, visual communication, social media content, and creator workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl7NIJlHZjJB_VisjGIhLUw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
+      "accentColor": "0xFFB45309",
+      "initials": "A",
+      "focus": "Blogging & SEO Content Sites: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF475569",
+      "initials": "HM",
+      "focus": "Blogging & SEO Content Sites: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwf_BHwAGw3DrK9dPjtnYAw",
+      "name": "Creator Wizard",
+      "handle": "@CreatorWizard",
+      "description": "Creator strategy, audience building, content systems, and digital products.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CW",
+      "focus": "Blogging & SEO Content Sites: Creator strategy, audience building, content systems, and digital products.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwf_BHwAGw3DrK9dPjtnYAw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKegeYEy0lJxpkjWRthaRMw",
+      "name": "Think Media",
+      "handle": "@ThinkMediaTV",
+      "description": "YouTube strategy, video systems, content marketing, and audience growth.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TM",
+      "focus": "Blogging & SEO Content Sites: YouTube strategy, video systems, content marketing, and audience growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKegeYEy0lJxpkjWRthaRMw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCSApI9wlWUEJMToyFvyIRKQ",
+      "name": "Pat Flynn",
+      "handle": "@patflynn",
+      "description": "Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "PF",
+      "focus": "Blogging & SEO Content Sites: Online business, digital products, ethical marketing, and creator entrepreneurship.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCSApI9wlWUEJMToyFvyIRKQ; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFzI5d_KJl69NNP8_0ttbOw",
+      "name": "Semrush",
+      "handle": "@Semrush",
+      "description": "SEO, digital marketing, analytics, content, and online business education.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "S",
+      "focus": "Blogging & SEO Content Sites: SEO, digital marketing, analytics, content, and online business education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFzI5d_KJl69NNP8_0ttbOw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCs26XZBwrSZLiTEH8wcoVXw",
+      "name": "Moz",
+      "handle": "@Moz",
+      "description": "SEO, search strategy, content, local marketing, and web visibility.",
+      "accentColor": "0xFF0891B2",
+      "initials": "M",
+      "focus": "Blogging & SEO Content Sites: SEO, search strategy, content, local marketing, and web visibility.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCs26XZBwrSZLiTEH8wcoVXw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "OF",
+      "focus": "Blogging & SEO Content Sites: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "Y",
+      "focus": "Blogging & SEO Content Sites: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SO",
+      "focus": "Blogging & SEO Content Sites: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFFB45309",
+      "initials": "KA",
+      "focus": "Blogging & SEO Content Sites: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF475569",
+      "initials": "C",
+      "focus": "Blogging & SEO Content Sites: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Blogging & SEO Content Sites learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "ClickStartNG",
+      "url": "https://www.clickstartng.com.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian make-money-online practical guides."
+    },
+    {
+      "name": "NaijaMonie",
+      "url": "https://naijamonie.com/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian online income resource."
+    },
+    {
+      "name": "Money.ng",
+      "url": "https://www.money.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian personal finance and side hustles."
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech and digital economy."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian entrepreneurship."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech coverage."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian startup and business tips."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Selar Blog",
+      "url": "https://selar.com/blog/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian digital product and creator economy blog."
+    },
+    {
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/",
+      "region": "Global",
+      "focus": "SEO, content strategy, keyword research, and audience growth.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Search Engine Land",
+      "url": "https://searchengineland.com/",
+      "region": "Global",
+      "focus": "Search, digital marketing, advertising, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Social Media Examiner",
+      "url": "https://www.socialmediaexaminer.com/",
+      "region": "Global",
+      "focus": "Social media strategy, content, advertising, and community.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Buffer Resources",
+      "url": "https://buffer.com/resources/",
+      "region": "Global",
+      "focus": "Social media, content creation, workflow, and creator practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Hootsuite Blog",
+      "url": "https://blog.hootsuite.com/",
+      "region": "Global",
+      "focus": "Social media management, analytics, content, and marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Later Blog",
+      "url": "https://later.com/blog/",
+      "region": "Global",
+      "focus": "Social media, creator marketing, content planning, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Copyblogger",
+      "url": "https://copyblogger.com/",
+      "region": "Global",
+      "focus": "Writing, content marketing, audience, and digital products.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Zapier Blog",
+      "url": "https://zapier.com/blog/",
+      "region": "Global",
+      "focus": "Automation, productivity, apps, workflows, and online operations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog",
+      "region": "Global",
+      "focus": "E-commerce, product, marketing, operations, and entrepreneurship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Moz Blog",
+      "url": "https://moz.com/blog",
+      "region": "Global",
+      "focus": "SEO, search strategy, content, and digital marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService resolves RSS/Atom alternates and conventional feed paths at runtime."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Google Books preview.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Company of One",
+      "author": "Paul Jarvis",
+      "freeSourceUrl": "https://companyofone.co",
+      "freeSourceType": "web",
+      "freeSourceNote": "Staying small and profitable.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781328972354-L.jpg"
+    },
+    {
+      "title": "Rework",
+      "author": "Jason Fried & David Heinemeier Hansson",
+      "freeSourceUrl": "https://basecamp.com/books/rework",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Basecamp books.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://personalmba.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free concepts list.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591843528-L.jpg"
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "freeSourceUrl": "https://jamesclear.com/atomic-habits",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free resources on building consistency.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+    },
+    {
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/deep-work/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Focused work habits.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg"
+    },
+    {
+      "title": "So Good They Can't Ignore You",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/so-good/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Career capital framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455505623-L.jpg"
+    },
+    {
+      "title": "OpenStax Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Fully free open textbook.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "OpenStax.",
+      "coverUrl": "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp",
+      "coverCandidates": [
+        "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp"
+      ]
+    },
+    {
+      "title": "eMarketing: The Essential Guide to Marketing in a Digital World - 7th Edition",
+      "author": "Dionne Solomons - Author / Tania Kliphuis - Author / Michelle Wadley - Author",
+      "freeSourceUrl": "https://strapi-prd.redandyellow.co.za/uploads/e_Marketing_Red_Yellow_Textbook_Latest_26e55d2cfe.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/emarketing-the-essential-guide-to-marketing-in-a-digital-world",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780639707808-L.jpg"
+    },
+    {
+      "title": "Launch! Advertising and Promotion in Real Time",
+      "author": "Michael Solomon - Author / Lisa Duke Cornell - Author / Amit Nizan - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Launch!%20Advertising%20and%20Promotion%20in%20Real%20Time.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/launch-advertising-and-promotion-in-real-time",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780982043028-L.jpg"
+    },
+    {
+      "title": "Principles of Marketing",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://biz.libretexts.org/Bookshelves/Marketing/Principles_of_Marketing_(LibreTexts)",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-marketing",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135193-L.jpg"
+    },
+    {
+      "title": "Mass Communication, Media, and Culture - An Introduction to Mass Communication",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://socialsci.libretexts.org/Bookshelves/Communication/Journalism_and_Mass_Communication/Book%3A_Mass_Communication_Media_and_Culture",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/understanding-media-and-culture-an-introduction-to-mass-communication",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135261-L.jpg"
+    },
+    {
+      "title": "Legal Aspects of Marketing and Sales",
+      "author": "Don Mayer - Author / Daniel Warner - Author / George J. Siedel - Author / Jethro K. Lieberman - Author",
+      "freeSourceUrl": "https://saylordotorg.github.io/text_legal-aspects-of-marketing-and-sales/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; Law - Administrative Law; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/legal-aspects-of-marketing-and-sales",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453343289-L.jpg"
+    },
+    {
+      "title": "Introducing Marketing",
+      "author": "John Burnett - Author",
+      "freeSourceUrl": "http://solr.bccampus.ca:8001/bcc/file/ddbe3343-9796-4801-a0cb-7af7b02e3191/1/Core%20Concepts%20of%20Marketing.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introducing-marketing"
+    },
+    {
+      "title": "Media Studies 101",
+      "author": "Erika Pearson - Author",
+      "freeSourceUrl": "https://opentextbc.ca/mediastudies101/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/media-studies-101",
+      "coverUrl": "https://opentextbc.ca/mediastudies101/wp-content/uploads/sites/20/2018/10/OTB030-01-MediaStudies101.jpg",
+      "coverCandidates": [
+        "https://opentextbc.ca/mediastudies101/wp-content/uploads/sites/20/2018/10/OTB030-01-MediaStudies101.jpg"
+      ]
+    },
+    {
+      "title": "Media Innovation and Entrepreneurship",
+      "author": "Michelle Ferrier - Editor / Elizabeth Mays - Editor",
+      "freeSourceUrl": "https://press.rebus.community/media-innovation-and-entrepreneurship/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/media-innovation-and-entrepreneurship",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781989014011-L.jpg"
+    },
+    {
+      "title": "Media, Society, Culture and You",
+      "author": "Mark Poepsel - Author",
+      "freeSourceUrl": "https://press.rebus.community/mscy/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/media-society-culture-and-you"
+    },
+    {
+      "title": "eMarketing - The Essential Guide to Online Marketing",
+      "author": "BCcampus",
+      "freeSourceUrl": "https://open.bccampus.ca/browse-our-collection/find-open-textbooks/?uuid=65ed5b9b-a7dc-4e73-ae37-76e23e04ee46&contributor&keyword&subject",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/emarketing-the-essential-guide-to-online-marketing"
+    },
+    {
+      "title": "Digital Foundations: Introduction to Media Design with the Adobe Creative Cloud - Revised Edition",
+      "author": "xtine burrough - Author / Michael Mandiberg - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/digitalfoundations/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-foundations-introduction-to-media-design-with-the-adobe-creative-cloud-revised-edition"
+    },
+    {
+      "title": "Writing for Electronic Media",
+      "author": "Brian Champagne - Author",
+      "freeSourceUrl": "https://uen.pressbooks.pub/writingforelectronicmedia/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/writing-for-electronic-media"
+    },
+    {
+      "title": "Tools for Podcasting",
+      "author": "Jill Olmsted - Author",
+      "freeSourceUrl": "https://pressbooks.pub/toolsforpodcasting/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/tools-for-podcasting",
+      "coverUrl": "https://pressbooks.pub/app/uploads/sites/3202/2018/10/FINAL-COVER-Tools-Podcasting-683x1024-1.jpg",
+      "coverCandidates": [
+        "https://pressbooks.pub/app/uploads/sites/3202/2018/10/FINAL-COVER-Tools-Podcasting-683x1024-1.jpg"
+      ]
+    },
+    {
+      "title": "New Media Futures",
+      "author": "Daniel Faltesek - Author / Daniel Adams - Illustrator",
+      "freeSourceUrl": "https://open.oregonstate.education/new-media-futures/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/new-media-futures-faltesek"
+    },
+    {
+      "title": "Strategic Marketing in the Global Forest Industries - Third Edition",
+      "author": "Eric Hansen - Author / Heikki Juslin - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/strategicmarketing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/strategic-marketing-in-the-global-forest-industries-third-edition"
+    },
+    {
+      "title": "Humans R Social Media - 2024 \"Living Book\" Edition",
+      "author": "Diana Daly - Author / Jacquie Kuru - Author / Alexandria Fripp - Author / Nathan Schneider - Author",
+      "freeSourceUrl": "https://opentextbooks.library.arizona.edu/humansrsocialmedia/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/humans-r-social-media-open-textbook-edition"
+    },
+    {
+      "title": "Technology, Media Literacy, and the Human Subject: A Posthuman Approach",
+      "author": "Richard S. Lewis - Author",
+      "freeSourceUrl": "https://www.openbookpublishers.com/books/10.11647/obp.0253",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/technology-media-literacy-and-the-human-subject-a-posthuman-approach",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781800641846-L.jpg"
+    },
+    {
+      "title": "Digital Marketing Strategy",
+      "author": "Pierre-Yann Dolbec - Author",
+      "freeSourceUrl": "https://opentextbooks.concordia.ca/digitalmarketing/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-marketing-strategy"
+    },
+    {
+      "title": "Introduction to Social Media",
+      "author": "Cheryl Lawson - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/introtosocialmedia/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; Journalism, Media Studies & Communications; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-social-media"
+    },
+    {
+      "title": "Customer Centric Strategy - 2nd Edition",
+      "author": "Kerri Shields - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/customercentricstrategy2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/customer-centric-strategy"
+    },
+    {
+      "title": "The American Journalism Handbook: Concepts, Issues, and Skills - 1st Ed.",
+      "author": "Rodrigo Zamith - Author",
+      "freeSourceUrl": "https://books.rodrigozamith.com/the-american-journalism-handbook/files/Rodrigo%20Zamith%20-%20The%20American%20Journalism%20Handbook.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-american-journalism-handbook-concepts-issues-and-skills"
+    },
+    {
+      "title": "The International Journalism Handbook - 1st Ed.",
+      "author": "Rodrigo Zamith - Author",
+      "freeSourceUrl": "https://books.rodrigozamith.com/the-international-journalism-handbook/files/Rodrigo%20Zamith%20-%20The%20International%20Journalism%20Handbook.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; Journalism, Media Studies & Communications - Print Journalism; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-international-journalism-handbook"
+    },
+    {
+      "title": "Principles of Marketing",
+      "author": "Maria Gomez Albrecht - Author / Mark Green - Author / Linda Hoffman - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-marketing",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-marketing-2022",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781711471525-L.jpg"
+    },
+    {
+      "title": "PRODUCCIÓN DE NOTICIAS TELEVISIVAS EN ESPAÑOL EN ESTADOS UNIDOS DE AMÉRICA",
+      "author": "Julián Rodríguez - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/usahispanictvnews/open/download?type=pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/produccion-de-noticias-televisivas-en-espanol-en-estados-unidos-de-america",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648169854-L.jpg"
+    },
+    {
+      "title": "Crawford Automation – A Guided Application of Structured Problem Solving",
+      "author": "Stephen Thomson - Author / Kevin Hollis - Author / Laurie Turnbull - Author",
+      "freeSourceUrl": "https://ecampusontario.pressbooks.pub/crawfordcase/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; Engineering & Technology; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/crawford-automation-a-guided-application-of-structured-problem-solving"
+    },
+    {
+      "title": "Mastering Strategic Management",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://biz.libretexts.org/Bookshelves/Management/Mastering_Strategic_Management",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/mastering-strategic-management-2015",
+      "coverUrl": "https://a.mtstatic.com/@public/production/site_7336/1641605597-social-share.png",
+      "coverCandidates": [
+        "https://a.mtstatic.com/@public/production/site_7336/1641605597-social-share.png"
+      ]
+    },
+    {
+      "title": "Foundations in Digital Marketing",
+      "author": "Rochelle Grayson - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/foundations-in-digital-marketing-building-meaningful-customer-relationships-and-engaged-audiences-bccampus-404/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-in-digital-marketing"
+    },
+    {
+      "title": "Sports Marketing: An Australian Perspective",
+      "author": "Jessica Richards - Author",
+      "freeSourceUrl": "https://westernsydney.pressbooks.pub/sportmarketing/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sports-marketing-an-australian-perspective"
+    },
+    {
+      "title": "Customer Insights - Second Edition",
+      "author": "Aila Khan - Author / Mohammad Munir Hossain - Author / Sabreena Zoha Amin - Author",
+      "freeSourceUrl": "https://westernsydney.pressbooks.pub/customerinsights2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/customer-insights"
+    },
+    {
+      "title": "Introduction to Communication and Media Studies",
+      "author": "J.J. Sylvia IV - Author",
+      "freeSourceUrl": "https://rotel.pressbooks.pub/comm-media-studies/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-communication-and-media-studies"
+    },
+    {
+      "title": "Fashion and Apparel Consumer Behavior",
+      "author": "Andrea Niosi - Author / Doreen Chung - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/fashionapparelcb/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fashion-and-apparel-consumer-behavior"
+    },
+    {
+      "title": "Marketing Principles From The River City",
+      "author": "Jodie L Ferguson - Author / Cesar Zamudio - Author",
+      "freeSourceUrl": "https://pressbooks.library.vcu.edu/marketingprinciples/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/marketing-principles-from-the-river-city",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781965417065-L.jpg"
+    },
+    {
+      "title": "The Marketing Map: Navigating the Principles of Marketing for Tourism, Hospitality, and Services",
+      "author": "Lian Dumouchel - Author",
+      "freeSourceUrl": "https://marketingmap.pressbooks.tru.ca/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-marketing-map-navigating-the-principles-of-marketing-for-tourism-hospitality-and-services"
+    },
+    {
+      "title": "Converged Storytelling for Modern Audiences",
+      "author": "Willie R. Tubbs - Author",
+      "freeSourceUrl": "https://pressbooks.uwf.edu/multimediastorytelling/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Journalism, Media Studies & Communications - New Media Journalism; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/converged-storytelling-for-modern-audiences"
+    },
+    {
+      "title": "Applied Business Analytics for Marketing Decision-Making",
+      "author": "Jose Mendoza - Author",
+      "freeSourceUrl": "https://nyu.manifoldapp.org/projects/applied-business-analytics-for-marketing-decision-making",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Marketing; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/applied-business-analytics-for-marketing-decision-making",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9798996140732-L.jpg"
+    }
+  ],
+  "integrationNotes": "Stub for Blogging & SEO Content Sites. Capital: Low (domain + hosting). Summary: Build niche blogs or content sites, rank on Google, and monetize with AdSense, affiliates and digital products.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": [
+    "2026-08-23: Review the 35 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 35 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+}

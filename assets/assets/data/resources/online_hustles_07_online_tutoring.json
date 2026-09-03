@@ -1,0 +1,602 @@
+{
+  "categoryId": "online_hustles_07_online_tutoring",
+  "status": "channels_enriched_v1",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UCsT-Y0dMKWn6_3_8eNoUdPg",
+      "name": "Edutopia",
+      "handle": "@Edutopia",
+      "description": "Evidence-informed teaching, learning design, classroom practice, and education leadership.",
+      "accentColor": "0xFF2563EB",
+      "initials": "E",
+      "focus": "Online Tutoring: Evidence-informed teaching, learning design, classroom practice, and education leadership.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCsT-Y0dMKWn6_3_8eNoUdPg; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCxEKnVOYnzM70yH7kDrU7bQ",
+      "name": "Cult of Pedagogy",
+      "handle": "@cultofpedagogy",
+      "description": "Teaching methods, classroom management, assessment, and teacher development.",
+      "accentColor": "0xFF16A34A",
+      "initials": "CO",
+      "focus": "Online Tutoring: Teaching methods, classroom management, assessment, and teacher development.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxEKnVOYnzM70yH7kDrU7bQ; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCibvNgcTZQ02PucorqcTvLg",
+      "name": "Teaching Channel",
+      "handle": "@TeachingChannel",
+      "description": "Teacher practice, instructional strategies, curriculum, and professional learning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "TC",
+      "focus": "Online Tutoring: Teacher practice, instructional strategies, curriculum, and professional learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCibvNgcTZQ02PucorqcTvLg; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "OF",
+      "focus": "Online Tutoring: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF0891B2",
+      "initials": "Y",
+      "focus": "Online Tutoring: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFFDB4437",
+      "initials": "C",
+      "focus": "Online Tutoring: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF0F766E",
+      "initials": "KA",
+      "focus": "Online Tutoring: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCrNATZgcaxpYjoUpD2pgSEA",
+      "name": "ASCD",
+      "handle": "@ASCD",
+      "description": "Curriculum, instruction, school leadership, and education improvement.",
+      "accentColor": "0xFF9333EA",
+      "initials": "A",
+      "focus": "Online Tutoring: Curriculum, instruction, school leadership, and education improvement.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCrNATZgcaxpYjoUpD2pgSEA; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1Up4TuDvGZraQUj9vxUaxQ",
+      "name": "Harvard Graduate School of Education",
+      "handle": "@HarvardEducation",
+      "description": "Research, education policy, teaching, learning, and human development.",
+      "accentColor": "0xFFB45309",
+      "initials": "HG",
+      "focus": "Online Tutoring: Research, education policy, teaching, learning, and human development.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1Up4TuDvGZraQUj9vxUaxQ; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCL-yKZ_kCuKBHyeRfePpvuw",
+      "name": "Education Week",
+      "handle": "@EducationWeek",
+      "description": "Education policy, practice, leadership, and teaching profession coverage.",
+      "accentColor": "0xFF475569",
+      "initials": "EW",
+      "focus": "Online Tutoring: Education policy, practice, leadership, and teaching profession coverage.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCL-yKZ_kCuKBHyeRfePpvuw; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCQXK1NOakx7-IPrBbFcMc6Q",
+      "name": "The New York Times Learning Network",
+      "handle": "@TheLearningNetwork",
+      "description": "Classroom activities, media literacy, writing, and critical thinking.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TN",
+      "focus": "Online Tutoring: Classroom activities, media literacy, writing, and critical thinking.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCQXK1NOakx7-IPrBbFcMc6Q; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SO",
+      "focus": "Online Tutoring: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "V",
+      "focus": "Online Tutoring: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "S",
+      "focus": "Online Tutoring: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF0891B2",
+      "initials": "TS",
+      "focus": "Online Tutoring: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct official YouTube handle page @theschooloflifetv resolved to channel ID UC7IcJI8PUf5Z3zKxnZvTBog; verified against the official channel page on 2026-08-26."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFDB4437",
+      "initials": "S",
+      "focus": "Online Tutoring: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF0F766E",
+      "initials": "N",
+      "focus": "Online Tutoring: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF9333EA",
+      "initials": "3",
+      "focus": "Online Tutoring: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCq8ZAAsI89IoJ-fn1gYpO3g",
+      "name": "Kurzgesagt – In a Nutshell",
+      "handle": "@Kurzgesagt",
+      "description": "Research-based explanations of science, society, technology, and long-term human questions.",
+      "accentColor": "0xFFB45309",
+      "initials": "KI",
+      "focus": "Online Tutoring: Research-based explanations of science, society, technology, and long-term human questions.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCq8ZAAsI89IoJ-fn1gYpO3g; selected for the Online Tutoring learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5Jnt7OgEHro3W7kr-jjCrw",
+      "name": "Big Think",
+      "handle": "@BigThink",
+      "description": "Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "accentColor": "0xFF475569",
+      "initials": "BT",
+      "focus": "Online Tutoring: Ideas and conversations about psychology, philosophy, science, leadership, and society.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5Jnt7OgEHro3W7kr-jjCrw; selected for the Online Tutoring learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "ClickStartNG",
+      "url": "https://www.clickstartng.com.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian make-money-online practical guides."
+    },
+    {
+      "name": "NaijaMonie",
+      "url": "https://naijamonie.com/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian online income resource."
+    },
+    {
+      "name": "Money.ng",
+      "url": "https://www.money.ng/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian personal finance and side hustles."
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech and digital economy."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian entrepreneurship."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "African tech coverage."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian startup and business tips."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Selar Blog",
+      "url": "https://selar.com/blog/",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Nigerian digital product and creator economy blog."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Education Week",
+      "url": "https://www.edweek.org/",
+      "region": "Global",
+      "focus": "Education policy, schools, teaching, leadership, and research.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "EdSurge",
+      "url": "https://www.edsurge.com/",
+      "region": "Global",
+      "focus": "Education technology, learning science, teaching, and institutions.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Inside Higher Ed",
+      "url": "https://www.insidehighered.com/",
+      "region": "Global",
+      "focus": "Higher education, teaching, policy, research, and academic work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "TeachThought",
+      "url": "https://www.teachthought.com/",
+      "region": "Global",
+      "focus": "Pedagogy, critical thinking, learning design, and classroom practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Cult of Pedagogy",
+      "url": "https://www.cultofpedagogy.com/",
+      "region": "Global",
+      "focus": "Teaching methods, classroom management, assessment, and teacher growth.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Faculty Focus",
+      "url": "https://www.facultyfocus.com/",
+      "region": "Global",
+      "focus": "College teaching, instructional design, assessment, and faculty development.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "EdTech Magazine",
+      "url": "https://edtechmagazine.com/",
+      "region": "Global",
+      "focus": "Education technology, institutions, IT, and learning environments.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindShift",
+      "url": "https://www.kqed.org/mindshift",
+      "region": "Global",
+      "focus": "Learning, schools, technology, and education change.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview — technician/manager/entrepreneur framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Google Books preview.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter — profit before expenses system.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Company of One",
+      "author": "Paul Jarvis",
+      "freeSourceUrl": "https://companyofone.co",
+      "freeSourceType": "web",
+      "freeSourceNote": "Staying small and profitable.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781328972354-L.jpg"
+    },
+    {
+      "title": "Rework",
+      "author": "Jason Fried & David Heinemeier Hansson",
+      "freeSourceUrl": "https://basecamp.com/books/rework",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free excerpts — simple business thinking.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Basecamp books.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://personalmba.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free concepts list.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591843528-L.jpg"
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "freeSourceUrl": "https://jamesclear.com/atomic-habits",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free resources on building consistency.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+    },
+    {
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/deep-work/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Focused work habits.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg"
+    },
+    {
+      "title": "So Good They Can't Ignore You",
+      "author": "Cal Newport",
+      "freeSourceUrl": "https://www.calnewport.com/books/so-good/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Career capital framework.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "Author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781455505623-L.jpg"
+    },
+    {
+      "title": "OpenStax Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Fully free open textbook.",
+      "verifiedOn": "2026-08-08",
+      "verificationMethod": "OpenStax.",
+      "coverUrl": "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp",
+      "coverCandidates": [
+        "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp"
+      ]
+    },
+    {
+      "title": "Teaching in a Digital Age: Guidelines for designing teaching and learning - 2nd Edition",
+      "author": "A.W. (Tony) Bates - Author",
+      "freeSourceUrl": "https://pressbooks.bccampus.ca/teachinginadigitalagev2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-in-a-digital-age-guidelines-for-designing-teaching-and-learning-for-a-digital-age"
+    },
+    {
+      "title": "Foundational Practices of Online Writing Instruction",
+      "author": "Beth L. Hewett - Editor / Kevin Eric DePew - Editor / Elif Guler - Editor / Robbin Zeff Warner - Editor",
+      "freeSourceUrl": "https://wacclearinghouse.org/books/perspectives/owi/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundational-practices-of-online-writing-instruction",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781602356672-L.jpg"
+    },
+    {
+      "title": "Teaching Crowds: Learning and Social Media",
+      "author": "Jon Dron - Author / Terry Anderson - Author",
+      "freeSourceUrl": "https://www.aupress.ca/books/120235-teaching-crowds/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-crowds-learning-and-social-media",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781927356814-L.jpg"
+    },
+    {
+      "title": "Education for a Digital World: Advice, Guidelines and Effective Practice from Around Globe",
+      "author": "Sandy Hirtz - Author / David G. Harper - Author",
+      "freeSourceUrl": "https://oasis.col.org/bitstream/handle/11599/52/Education_for_a_Digital_World.pdf?sequence=1&isAllowed=y",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/education-for-a-digital-world-advice-guidelines-and-effective-practice-from-around-globe",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781894975292-L.jpg"
+    },
+    {
+      "title": "Learning to Learn Online",
+      "author": "Kwantlen Polytechnic University Learning Centres - Author / Christina Page - Author / Adam Vincent - Author",
+      "freeSourceUrl": "https://kpu.pressbooks.pub/learningtolearnonline/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/learning-to-learn-online"
+    },
+    {
+      "title": "Foundations of Educational Technology",
+      "author": "Penny Thompson - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/foundationsofeducationaltechnology/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-educational-technology"
+    },
+    {
+      "title": "Creating Online Learning Experiences",
+      "author": "Matt Crosslin - Author / Brett Benham - Author / Justin T. Dellinger - Author / Amber Patterson - Author / Peggy Semingson - Author / Catherine A. Spann - Author / Brittany Usman - Author / Harriet Watkins - Author / Justin T. Dellinger - Editor / Rebecca Heiser - Editor / Katerina Riviou - Editor / Brittany Usman - Editor",
+      "freeSourceUrl": "https://uta.pressbooks.pub/onlinelearning/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/creating-online-learning-experiences",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780989887816-L.jpg"
+    },
+    {
+      "title": "Hybrid-Flexible Course Design",
+      "author": "Brian Beatty - Author",
+      "freeSourceUrl": "https://edtechbooks.org/hyflex",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/hybrid-flexible-course-design-beatty"
+    },
+    {
+      "title": "Learning in the Digital Age",
+      "author": "Tutaleni Asino - Editor / Rebecca Bayeck - Author / Wilmon Brown - Author / Raymond W. Francis - Author / Tammi Kolski - Author / Kathy Essmiller - Author / Cathy L. Green - Author / Sarah L. Lewis - Author / Corrine McCabe - Author / Josephine Shikongo - Author / Tammy Wise - Author / Jose Fulgencio - Author",
+      "freeSourceUrl": "https://open.library.okstate.edu/learninginthedigitalage/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/learning-in-the-digital-age"
+    },
+    {
+      "title": "The Asynchronous Cookbook",
+      "author": "DLINQ staff contributors - Author",
+      "freeSourceUrl": "https://pressbooks.middcreate.net/asynchronouscookbook/wp-content/uploads/sites/2/2023/06/The-Asynchronous-Cookbook-DLINQ-2023.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Education - Distance Education; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-asynchronous-cookbook"
+    },
+    {
+      "title": "From Lab to Laptop: Case studies in teaching practical courses online",
+      "author": "Tab Betts - Editor / Paolo Oprandi - Editor",
+      "freeSourceUrl": "https://openpress.sussex.ac.uk/fromlabtolaptop/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Distance Education; Education; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/from-lab-to-laptop-case-studies-in-teaching-practical-courses-online"
+    }
+  ],
+  "integrationNotes": "Stub for Online Tutoring. Capital: ₦0. Summary: Teach academic subjects, languages, exam prep (WAEC, JAMB, IELTS, SAT) or skills via Zoom, Google Meet or WhatsApp.. Enrich with category-specific Nigerian YouTube channels and blogs in next pass.",
+  "actionRequired": [
+    "2026-08-23: Review the 11 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 11 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+}

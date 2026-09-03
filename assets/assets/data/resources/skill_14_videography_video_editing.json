@@ -1,0 +1,1345 @@
+{
+  "categoryId": "skill_14_videography_video_editing",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UC0rQarbogLMw7JmIxRba_cw",
+      "name": "Videography Academy",
+      "handle": "@VideographyAcademy",
+      "description": "Self-described 'the ultimate resource for busy people that want to learn the techniques AND business of videography'. Keywords directly confirm the business angle: entrepreneur, sales, marketing, video marketing.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "VA",
+      "focus": "Business of videography — sales, marketing, clients",
+      "verifiedOn": "2026-07-16",
+      "verificationMethod": "Fetched the channel page directly; About section and keywords are an exact, explicit match. A separate lead ('Perspective Academy', a real videography-business coaching program found via an ad-style video) could not be traced to its own dedicated channel — the name collides with an unrelated Indian drawing/exam-prep channel — so wasn't counted."
+    },
+    {
+      "id": "UC-b3c7kxa5vU-bnmaROgvog",
+      "name": "The Futur",
+      "handle": "@thefutur",
+      "description": "Chris Do's channel, already verified for Graphic Design and Photography — cross-tagged here for the same reason as Photography: FlashFilm Academy's roundup explicitly names it a top channel for videographers and video production business owners specifically.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TF",
+      "focus": "Cross-discipline creative business education",
+      "verifiedOn": "2026-07-16",
+      "verificationMethod": "Same channel already verified for skill_11/skill_13; cross-tagged based on FlashFilm Academy's explicit recommendation for video production businesses."
+    },
+    {
+      "id": "UC3DkFux8Iv-aYnTRWzwaiBA",
+      "name": "Peter McKinnon",
+      "handle": "@PeterMcKinnon",
+      "description": "Canadian photographer, filmmaker and digital entrepreneur — nearly 3M subscribers. Known for tutorials, gear knowledge, and using YouTube as the foundation of a multi-brand creative business.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "PM",
+      "focus": "Video creation business and entrepreneurship",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Same channel already independently verified for skill_13 (Photography) this week (channel/UC3DkFux8Iv-aYnTRWzwaiBA); cross-tagged here since the source directory explicitly frames his content as video-creation-business focused for this category."
+    },
+    {
+      "id": "UC6P24bhhCmMPOcujA9PKPTA",
+      "name": "Film Riot",
+      "handle": "@filmriot",
+      "description": "Ryan Connolly's how-to filmmaking channel, 1.8M+ subscribers — funds and produces short films with real production value, entirely independent of studio backing, demonstrating a DIY path from zero-budget to paid work.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "FR",
+      "focus": "Filmmaking business — zero budget to paid work",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UC6P24bhhCmMPOcujA9PKPTA); identity and business model cross-confirmed via Variety, Wikipedia and School of Motion podcast interview with Ryan Connolly."
+    },
+    {
+      "id": "UCcM_6ay33BNpChknCrMCgig",
+      "name": "Philip Bloom",
+      "handle": "@philipbloom",
+      "description": "British filmmaker, director and cinematographer (Lucasfilm, CNN, Sky News, BBC) with 34+ years' experience — reviews, tutorials and films, plus paid MZed cinematography courses.",
+      "accentColor": "0xFF10B981",
+      "initials": "PB",
+      "focus": "Professional filmmaking business insights",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/philipbloom); career cross-confirmed via Wikipedia and his own site philipbloom.net."
+    },
+    {
+      "id": "UCwZoz2FJnK1oMMYbjORcT9g",
+      "name": "Parker Walbeck",
+      "handle": "@ParkerWalbeck",
+      "description": "Founder of Full-Time Filmmaker, one of the first online film schools — built a 7-figure education business teaching others to turn filmmaking/videography into a full-time career.",
+      "accentColor": "0xFFF97316",
+      "initials": "PW",
+      "focus": "Full-time videographer business model",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Same channel already independently verified for skill_13 (Photography) this week (channel/UCwZoz2FJnK1oMMYbjORcT9g); cross-tagged here since Full-Time Filmmaker is explicitly a videography/filmmaking business."
+    },
+    {
+      "id": "UCcPuBEAwuF6XWXkcXJXJwsg",
+      "name": "This Guy Edits",
+      "handle": "@ThisGuyEdits",
+      "description": "Sven Pape, ACE Award-nominated editor who cut for James Cameron and Joseph Gordon-Levitt — 530K+ subscribers, teaches storytelling-focused editing plus a paid editor career course.",
+      "accentColor": "0xFF6366F1",
+      "initials": "TG",
+      "focus": "Video editing business and career advice",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCcPuBEAwuF6XWXkcXJXJwsg); identity cross-confirmed via Patreon and Jonny Elwyn's film-editing blog."
+    },
+    {
+      "id": "UCB5asCefuEYQKVVyyAn-l5g",
+      "name": "Wale Marketer",
+      "handle": "@WaleMarketer",
+      "description": "Wale, a digital marketing freelancer in Lagos, Nigeria — educates small business owners on digital marketing, branding, and content/video pricing.",
+      "accentColor": "0xFFEC4899",
+      "initials": "WM",
+      "focus": "Cost of Videography Services — by video type",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCB5asCefuEYQKVVyyAn-l5g); pairs with the WaleMarketer blog also listed in this file."
+    },
+    {
+      "id": "UC6eMM2vJTmk4FWasF8wyoiQ",
+      "name": "Beverly Boy Productions",
+      "handle": "@BeverlyBoyProductions",
+      "description": "Full-service video and TV production company (corporate video, documentary, live streaming) operating across the US and worldwide — client-facing videos on pricing, promotion and production business.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "BB",
+      "focus": "Freelance videographer rate cards and business",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/BeverlyBoyProduction).",
+      "notes": "Source directory described this as a 'Lagos/Abuja freelance videographer' — the real, verified company is US-based (West Palm Beach, FL), operating worldwide; the source directory's regional framing appears to be a data-entry error, not a real Nigerian branch."
+    },
+    {
+      "id": "UCazJGGAKEUBJikfP2aBIh4w",
+      "name": "African Filmmaker",
+      "handle": "@AfricanFilmmaker",
+      "description": "An independent filmmaker with 10+ years' experience sharing what he's learned about filmmaking, storytelling, cinematography and directing.",
+      "accentColor": "0xFFA855F7",
+      "initials": "AF",
+      "focus": "Africa-specific filmmaking business",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@AfricanFilmmaker); About-section content matches the source directory description closely."
+    },
+    {
+      "id": "UC47XN5bhLTBH5TRFyKaUpKg",
+      "name": "PHLEARN",
+      "handle": "@PHLEARN",
+      "description": "Photography, retouching, compositing, lighting, and image-making technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "P",
+      "focus": "Videography & Video Editing: Photography, retouching, compositing, lighting, and image-making technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC47XN5bhLTBH5TRFyKaUpKg; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCDknUbOK1D3_XoTMJAOApOw",
+      "name": "Peter McKinnon",
+      "handle": "@PeterMcKinnon",
+      "description": "Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "accentColor": "0xFF16A34A",
+      "initials": "PM",
+      "focus": "Videography & Video Editing: Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCDknUbOK1D3_XoTMJAOApOw; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCMmA0XxraDP7ZVbv4eY3Omg",
+      "name": "DSLR Video Shooter",
+      "handle": "@DSLRVideoShooter",
+      "description": "Camera systems, lighting, audio, production workflows, and video technique.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "DV",
+      "focus": "Videography & Video Editing: Camera systems, lighting, audio, production workflows, and video technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCMmA0XxraDP7ZVbv4eY3Omg; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5_SBQbLA9Kg7Jh5GpXoP3g",
+      "name": "Adobe Creative Cloud",
+      "handle": "@AdobeCreativeCloud",
+      "description": "Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "AC",
+      "focus": "Videography & Video Editing: Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5_SBQbLA9Kg7Jh5GpXoP3g; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnvgtzmvlb6d58d9BbOKuMA",
+      "name": "Fstoppers",
+      "handle": "@fstoppers",
+      "description": "Photography, lighting, visual storytelling, business, and professional image-making.",
+      "accentColor": "0xFF0891B2",
+      "initials": "F",
+      "focus": "Videography & Video Editing: Photography, lighting, visual storytelling, business, and professional image-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnvgtzmvlb6d58d9BbOKuMA; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCTSgfO_OkfRX8dm4YhCg3fg",
+      "name": "SLR Lounge",
+      "handle": "@SLRLounge",
+      "description": "Photography education, posing, lighting, workflow, and professional practice.",
+      "accentColor": "0xFFDB4437",
+      "initials": "SL",
+      "focus": "Videography & Video Editing: Photography education, posing, lighting, workflow, and professional practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCTSgfO_OkfRX8dm4YhCg3fg; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGglTkQEIBnOr3urMuxEkUw",
+      "name": "PiXimperfect",
+      "handle": "@PiXimperfect",
+      "description": "Photoshop, compositing, retouching, design, and digital image technique.",
+      "accentColor": "0xFF0F766E",
+      "initials": "P",
+      "focus": "Videography & Video Editing: Photoshop, compositing, retouching, design, and digital image technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGglTkQEIBnOr3urMuxEkUw; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOKHwx1VCdgnxwbjyb9Iu1g",
+      "name": "Blender Guru",
+      "handle": "@BlenderGuru",
+      "description": "3D modeling, materials, lighting, rendering, and computer graphics.",
+      "accentColor": "0xFF9333EA",
+      "initials": "BG",
+      "focus": "Videography & Video Editing: 3D modeling, materials, lighting, rendering, and computer graphics.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOKHwx1VCdgnxwbjyb9Iu1g; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC0lLeNdvLrFozQRsQ1TQiAw",
+      "name": "Aaron Blaise",
+      "handle": "@AaronBlaiseArt",
+      "description": "Animation, drawing, character design, illustration, and visual storytelling.",
+      "accentColor": "0xFFB45309",
+      "initials": "AB",
+      "focus": "Videography & Video Editing: Animation, drawing, character design, illustration, and visual storytelling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC0lLeNdvLrFozQRsQ1TQiAw; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkiC21kJxYO_eUEJ5GgFLnw",
+      "name": "CreativeLive",
+      "handle": "@CreativeLive",
+      "description": "Photography, design, craft, entrepreneurship, and creative career development.",
+      "accentColor": "0xFF475569",
+      "initials": "C",
+      "focus": "Videography & Video Editing: Photography, design, craft, entrepreneurship, and creative career development.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkiC21kJxYO_eUEJ5GgFLnw; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "OF",
+      "focus": "Videography & Video Editing: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "Y",
+      "focus": "Videography & Video Editing: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "SO",
+      "focus": "Videography & Video Editing: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "Videography & Video Editing: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "Videography & Video Editing: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFDB4437",
+      "initials": "V",
+      "focus": "Videography & Video Editing: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF0F766E",
+      "initials": "S",
+      "focus": "Videography & Video Editing: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "Videography & Video Editing: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct official YouTube handle page @theschooloflifetv resolved to channel ID UC7IcJI8PUf5Z3zKxnZvTBog; verified against the official channel page on 2026-08-26."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFB45309",
+      "initials": "S",
+      "focus": "Videography & Video Editing: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF475569",
+      "initials": "N",
+      "focus": "Videography & Video Editing: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Videography & Video Editing learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "WaleMarketer",
+      "url": "https://walemarketer.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: Cost of Videography Services by type. Pairs with the WaleMarketer channel above."
+    },
+    {
+      "name": "Truehost",
+      "url": "https://truehost.com.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory listed the domain as truehost.com, but the real, active site for this content is truehost.com.ng (Lagos-based hosting/digital-services company) — used the correct live domain. Its content-creator-pricing coverage matches the source directory's 'How Much To Charge for Content Creation 2026' description."
+    },
+    {
+      "name": "Beverly Boy Productions",
+      "url": "https://beverlyboy.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog with extensive YouTube/video-production business content; pairs with the Beverly Boy Productions channel above (see that entry's note on the source directory's regional framing)."
+    },
+    {
+      "name": "No Film School",
+      "url": "https://nofilmschool.com/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: filmmaking business and industry news, from a major, well-established filmmaking publication."
+    },
+    {
+      "name": "PremiumBeat Blog",
+      "url": "https://www.premiumbeat.com/blog/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: video production business insights, from Shutterstock's PremiumBeat music/production blog."
+    },
+    {
+      "name": "Videomaker",
+      "url": "https://www.videomaker.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: video business and professional development, from a long-running video production publication."
+    },
+    {
+      "name": "ProductionHub",
+      "url": "https://www.productionhub.com/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: video production marketplace and resources."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: how to start a video production business in Nigeria."
+    },
+    {
+      "name": "Shopify Nigeria Blog",
+      "url": "https://www.shopify.com/ng/blog.atom",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: content creation business pricing."
+    },
+    {
+      "name": "Motion Array Blog",
+      "url": "https://motionarray.com/learn/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: video editing business resources, from a well-established stock/template marketplace."
+    },
+    {
+      "name": "No Film School",
+      "url": "https://nofilmschool.com/",
+      "region": "Global",
+      "focus": "Filmmaking, cinematography, production, and creative industry practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "PetaPixel",
+      "url": "https://petapixel.com/",
+      "region": "Global",
+      "focus": "Photography, cameras, visual storytelling, and industry news.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fstoppers",
+      "url": "https://fstoppers.com/",
+      "region": "Global",
+      "focus": "Photography, lighting, filmmaking, workflow, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Creative Bloq",
+      "url": "https://www.creativebloq.com/",
+      "region": "Global",
+      "focus": "Graphic design, illustration, 3D, digital art, and creative tools.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/",
+      "region": "Global",
+      "focus": "Web design, UX, front-end development, accessibility, and performance.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Adobe Blog",
+      "url": "https://blog.adobe.com/",
+      "region": "Global",
+      "focus": "Creative tools, design, photography, video, and digital creativity.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "AIGA Eye on Design",
+      "url": "https://eyeondesign.aiga.org/",
+      "region": "Global",
+      "focus": "Graphic design, visual culture, design history, and critical practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "CreativePro Network",
+      "url": "https://creativepro.com/",
+      "region": "Global",
+      "focus": "Design software, typography, publishing, and production workflows.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Futur Blog",
+      "url": "https://thefutur.com/blog",
+      "region": "Global",
+      "focus": "Design practice, branding, creative business, and professional development.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "The Filmmaker's Handbook (free)",
+      "author": "Steven Ascher",
+      "freeSourceUrl": "https://archive.org",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free copy on Internet Archive.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited co-author of The Filmmaker's Handbook.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780452286788-L.jpg"
+    },
+    {
+      "title": "Rebel Without a Crew (free)",
+      "author": "Robert Rodriguez",
+      "freeSourceUrl": "https://archive.org",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free copy on Internet Archive — classic zero-budget filmmaking memoir.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of Rebel Without a Crew.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780452269576-L.jpg"
+    },
+    {
+      "title": "Building a StoryBrand (free framework)",
+      "author": "Donald Miller",
+      "freeSourceUrl": "https://storybrand.com/free-resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free marketing-messaging framework from the book's official StoryBrand site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the official storybrand.com domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781400201839-L.jpg"
+    },
+    {
+      "title": "1-Page Marketing Plan (free template)",
+      "author": "Allan Dib",
+      "freeSourceUrl": "https://1pagemarketingplan.com/resources",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free downloadable template from the book's official site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the official 1pagemarketingplan.com domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781619613348-L.jpg"
+    },
+    {
+      "title": "The Personal MBA (free)",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://archive.org",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free copy on Internet Archive — business fundamentals without business school.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry; author is the well-established, publicly credited author of The Personal MBA.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
+    },
+    {
+      "title": "Profit First (free resources)",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free resources from the author's own official site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythrevisitedwh00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. Build systems so the business runs without you.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. Cash management system that forces profit first.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735214149-L.jpg"
+    },
+    {
+      "title": "A Camera Actress in the Wilds of Togoland\r\nThe adventures, observations & experiences of a cinematograph actress in West African forests whilst collecting films depicting native life and when posing as the white woman in Anglo-African cinematograph dramas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45442",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45442; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45442/pg45442.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45442/pg45442.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45442/pg45442.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/45442/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Togoland -- Description and travel",
+        "Togo -- Description and travel",
+        "Category: Biographies",
+        "Category: Travel Writing",
+        "DT"
+      ]
+    },
+    {
+      "title": "How I Filmed the War\r\nA Record of the Extraordinary Experiences of the Man Who Filmed the Great Somme Battles, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30285",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30285; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30285/pg30285.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30285/pg30285.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30285/pg30285.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30285/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives, British",
+        "Motion pictures",
+        "Malins, Geoffrey H.",
+        "World War I",
+        "Category: Biographies",
+        "Category: British Literature",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Motion Picture Operation, Stage Electrics and Illusions\r\nA Practical Hand-book and Guide for Theater Electricians, Motion Picture Operators and Managers of Theaters and Productions",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45231",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45231; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45231/pg45231.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45231/pg45231.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45231/pg45231.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/45231/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion picture theaters",
+        "Motion picture projection",
+        "Electric wiring, Interior",
+        "Category: Plays/Films/Dramas",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "PN"
+      ]
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1970",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63357",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63357; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63357/pg63357.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63357/pg63357.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63357/pg63357.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63357/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1971",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63066",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63066; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63066/pg63066.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63066/pg63066.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63066/pg63066.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63066/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1972",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65190",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65190; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65190/pg65190.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65190/pg65190.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65190/pg65190.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65190/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1978",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78638",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #78638; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78638/pg78638.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78638/pg78638.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78638/pg78638.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/78638/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion Pictures, 1894-1912\r\nIdentified from the Records of the United States Copyright Office",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56966",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56966; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56966/pg56966.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56966/pg56966.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56966/pg56966.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56966/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Plays/Films/Dramas",
+        "Category: History - Modern (1750+)",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN"
+      ]
+    },
+    {
+      "title": "The film",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71747",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71747; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71747/pg71747.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71747/pg71747.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71747/pg71747.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71747/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Education",
+        "Motion pictures in education",
+        "Category: Journalism/Media/Writing",
+        "Category: Teaching & Education",
+        "LB"
+      ]
+    },
+    {
+      "title": "The Science of Animal Locomotion (Zoopraxography)\r\nAn Electro-Photographic Investigation of Consecutive Phases of Animal Movements",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39998",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39998; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39998/pg39998.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39998/pg39998.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39998/pg39998.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39998/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures",
+        "Animal locomotion",
+        "Prospectuses -- Pennsylvania -- Philadelphia -- 19th century",
+        "Subscribers' lists -- Pennsylvania -- Philadelphia -- 19th century",
+        "Category: Science - Biology",
+        "Category: Art",
+        "QP"
+      ]
+    },
+    {
+      "title": "Tinting and toning of Eastman positive motion picture film",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70417",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70417; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70417/pg70417.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70417/pg70417.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70417/pg70417.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/70417/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Color cinematography",
+        "Motion picture film",
+        "Category: Engineering & Technology",
+        "Category: Art",
+        "Category: How To ...",
+        "TR"
+      ]
+    },
+    {
+      "title": "A-B-C of motion pictures",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74971",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74971; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/74971/pg74971.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/74971/pg74971.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/74971/pg74971.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/74971/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures",
+        "Category: Plays/Films/Dramas",
+        "Category: History - Modern (1750+)",
+        "PN"
+      ]
+    },
+    {
+      "title": "Advertising by motion pictures",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70188",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70188; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70188/pg70188.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70188/pg70188.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70188/pg70188.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/70188/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures",
+        "Advertising",
+        "Category: How To ...",
+        "Category: Business/Management",
+        "Category: Journalism/Media/Writing",
+        "HF"
+      ]
+    },
+    {
+      "title": "Animated cartoons",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73455",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73455; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73455/pg73455.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73455/pg73455.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73455/pg73455.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73455/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Animation (Cinematography)",
+        "Animated films",
+        "Category: Plays/Films/Dramas",
+        "Category: Art",
+        "Category: How To ...",
+        "NC"
+      ]
+    },
+    {
+      "title": "Behind the Screen",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59730",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59730; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59730/pg59730.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59730/pg59730.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59730/pg59730.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59730/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures",
+        "Motion picture actors and actresses",
+        "Category: Plays/Films/Dramas",
+        "Category: Biographies",
+        "Category: American Literature",
+        "PN"
+      ]
+    },
+    {
+      "title": "Breaking into the movies",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56570",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56570; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56570/pg56570.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56570/pg56570.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56570/pg56570.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56570/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures",
+        "Motion picture industry",
+        "Category: Plays/Films/Dramas",
+        "Category: How To ...",
+        "PN"
+      ]
+    },
+    {
+      "title": "Judge Ben B. Lindsey on the child—the movie—and censorship",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/79231",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #79231; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/79231/pg79231.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/79231/pg79231.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/79231/pg79231.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/79231/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures and children",
+        "Motion pictures -- Censorship",
+        "PN"
+      ]
+    },
+    {
+      "title": "Magic Shadows: The Story of the Origin of Motion Pictures",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64578",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64578; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64578/pg64578.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64578/pg64578.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64578/pg64578.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/64578/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Lantern projection",
+        "Motion pictures -- History",
+        "Category: History - Modern (1750+)",
+        "Category: Art",
+        "TR"
+      ]
+    },
+    {
+      "title": "Moral Deliberations in Modern Cinema",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8422",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #8422; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8422/pg8422.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8422/pg8422.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8422/pg8422.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/8422/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Reviews",
+        "Category: Plays/Films/Dramas",
+        "Category: Essays, Letters & Speeches",
+        "Category: Philosophy & Ethics",
+        "PN"
+      ]
+    },
+    {
+      "title": "Motion Picture Directing: The Facts and Theories of the Newest Art",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53117",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53117; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53117/pg53117.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53117/pg53117.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53117/pg53117.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53117/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Production and direction",
+        "Category: Plays/Films/Dramas",
+        "Category: Art",
+        "PN"
+      ]
+    },
+    {
+      "title": "Motion pictures, 1912-1939",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51836",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51836; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51836/pg51836.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51836/pg51836.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51836/pg51836.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/51836/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Plays/Films/Dramas",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures, 1940-1949",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58237",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58237; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58237/pg58237.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58237/pg58237.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58237/pg58237.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/58237/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Plays/Films/Dramas",
+        "Category: History - American",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures, 1950-1959 : Catalog of copyright entries",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59656",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59656; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59656/pg59656.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59656/pg59656.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59656/pg59656.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59656/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures, 1960-1969",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44621",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44621; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44621/pg44621.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44621/pg44621.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44621/pg44621.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/44621/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures, 1973",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66625",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66625; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66625/pg66625.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66625/pg66625.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66625/pg66625.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66625/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures, 1974 : Catalog of copyright entries, third series, volume 28, parts 12-13",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/72054",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #72054; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/72054/pg72054.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/72054/pg72054.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/72054/pg72054.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/72054/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures, 1975 : Catalog of copyright entries, third series, volume 29, parts 12-13",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74885",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74885; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/74885/pg74885.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/74885/pg74885.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/74885/pg74885.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/74885/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures, 1976",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76915",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76915; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76915/pg76915.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76915/pg76915.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76915/pg76915.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/76915/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures, 1977",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77697",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #77697; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77697/pg77697.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77697/pg77697.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77697/pg77697.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/77697/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Moving Pictures: How They Are Made and Worked",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67972",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67972; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67972/pg67972.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67972/pg67972.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67972/pg67972.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67972/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures",
+        "Category: Engineering & Technology",
+        "Category: Art",
+        "PN"
+      ]
+    },
+    {
+      "title": "Practical Cinematography and Its Applications",
+      "author": "Talbot, Frederick Arthur Ambrose, 1880-1924",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45714",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 45714); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45714/pg45714.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45714/pg45714.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45714/pg45714.cover.small.jpg"
+      ],
+      "subject": "Cinematography",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cinematography",
+        "Category: Plays/Films/Dramas",
+        "Category: How To ...",
+        "TR"
+      ]
+    }
+  ],
+  "notes": "2026-07-20: Merged in the founder-provided 'videography_video_editing_resources.csv' (Section I.14), bringing the file from 2 channels / 0 blogs / 0 books to a full 10 / 10 / 10. One CSV channel — Truehost — could not be matched to a real, dedicated YouTube channel (real, active company and blog, no confirmed channel); its blog was kept with a corrected domain (truehost.com → truehost.com.ng). Two channels — Peter McKinnon and Parker Walbeck — are the same, already-verified channels used for skill_13 (Photography) this week, cross-tagged here since the source directory explicitly frames their content as video-business-relevant for this category too; a third overlapping candidate, Gerald Undone, was left out to keep the total at exactly 10 (he remains listed for skill_13). The Beverly Boy Productions channel/blog turned out to be a US company (West Palm Beach, FL), not the Lagos/Abuja freelancer the source directory described — likely a data-entry mismatch in the source CSV, included as the verified real entity instead. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 30 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 30 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

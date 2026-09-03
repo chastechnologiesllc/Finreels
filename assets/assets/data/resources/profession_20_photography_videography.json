@@ -1,0 +1,2136 @@
+{
+  "categoryId": "profession_20_photography_videography",
+  "status": "verified",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UC3DkFux8Iv-aYnTRWzwaiBA",
+      "name": "Peter McKinnon",
+      "handle": "@PeterMcKinnon",
+      "description": "Commercial production company scaling and brand deals — building a photography and video production business at trade and agency scale.",
+      "accentColor": "0xFFEC4899",
+      "initials": "PM",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC3DkFux8Iv-aYnTRWzwaiBA cross-confirmed from skill_13_photography.json and skill_14_videography_video_editing.json (independently verified in both)."
+    },
+    {
+      "id": "UC5bp5_6h-ZxkBz6S_33ZUVg",
+      "name": "Mango Street",
+      "handle": "@MangoStreet",
+      "description": "Rachel and Daniel Kordan's commercial photography agency — B2B client work, agency building, and the business model of a working photography production company.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "MS",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC5bp5_6h-ZxkBz6S_33ZUVg cross-confirmed from skill_13_photography.json (independently verified)."
+    },
+    {
+      "id": "UCwZoz2FJnK1oMMYbjORcT9g",
+      "name": "Parker Walbeck",
+      "handle": "@ParkerWalbeck",
+      "description": "Full-time video production agency business model — building and running a video production agency as a sustainable, scalable trade business.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "PW",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCwZoz2FJnK1oMMYbjORcT9g cross-confirmed from skill_13_photography.json and skill_14_videography_video_editing.json (independently verified in both)."
+    },
+    {
+      "id": "UC6P24bhhCmMPOcujA9PKPTA",
+      "name": "Film Riot",
+      "handle": "@FilmRiot",
+      "description": "Commercial filmmaking enterprise and zero-budget production scaling — trade-level content on running a filmmaking and video production business.",
+      "accentColor": "0xFF10B981",
+      "initials": "FR",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC6P24bhhCmMPOcujA9PKPTA cross-confirmed from skill_14_videography_video_editing.json (listed as @filmriot lowercase). CSV uses @FilmRiot — same channel."
+    },
+    {
+      "id": "UCje7Tvb0ADzlWik5FiQCc8Q",
+      "name": "Sue Bryce Education",
+      "handle": "@SueBryce",
+      "description": "Portrait photography studio empire and B2B systems — Sue Bryce's channel on building a scalable photography studio business model and enterprise pricing strategy.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "SB",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCje7Tvb0ADzlWik5FiQCc8Q cross-confirmed from skill_13_photography.json (independently verified)."
+    },
+    {
+      "id": "UC_43mQmHwHPTBBqImFrWU3Q",
+      "name": "Sean Tucker",
+      "handle": "@SeanTucker",
+      "description": "Commercial videography ethics and creative agency business — building a sustainable commercial photography/videography agency with craft and integrity.",
+      "accentColor": "0xFFEF4444",
+      "initials": "ST",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC_43mQmHwHPTBBqImFrWU3Q cross-confirmed from skill_13_photography.json (listed as @seantuck). CSV uses @SeanTucker — same channel."
+    },
+    {
+      "id": "UC09qASY4ixFS-KXIH6Nw0rg",
+      "name": "Gerald Undone",
+      "handle": "@GeraldUndone",
+      "description": "Commercial gear procurement and agency decision frameworks — making sound equipment and business decisions when running a professional production agency.",
+      "accentColor": "0xFF6366F1",
+      "initials": "GU",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC09qASY4ixFS-KXIH6Nw0rg cross-confirmed from skill_13_photography.json (listed as @geraldundone). CSV uses @GeraldUndone — same channel."
+    },
+    {
+      "id": "UCbnbfJD1N9DWyp5vHH27VYA",
+      "name": "StockFrames and Arts",
+      "handle": "@stockframes",
+      "description": "Nigerian picture framing, canvas print, and visual arts supply business — covers the framing and print fulfilment side of commercial photography operations in Nigeria.",
+      "accentColor": "0xFFF97316",
+      "initials": "SF",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCbnbfJD1N9DWyp5vHH27VYA fetched from youtube.com/@stockframes/videos (2026-07-25). Note: CSV description says 'Nigerian commercial photography business and trade'; the channel is actually a picture-frames and canvas-arts supply business. Description updated to reflect the accurate channel content. Relevant to commercial photographers who resell framed/printed work."
+    },
+    {
+      "id": "UCB5asCefuEYQKVVyyAn-l5g",
+      "name": "WaleMarketer",
+      "handle": "@WaleMarketer",
+      "description": "Granular commercial pricing strategy for Nigerian creatives — how to price photography and videography services profitably in the Nigerian market.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "WM",
+      "focus": "Photography & videography trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCB5asCefuEYQKVVyyAn-l5g cross-confirmed from skill_14_videography_video_editing.json (independently verified). Blog counterpart also confirmed."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC47XN5bhLTBH5TRFyKaUpKg",
+      "name": "PHLEARN",
+      "handle": "@PHLEARN",
+      "description": "Photography, retouching, compositing, lighting, and image-making technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "P",
+      "focus": "Photography & Videography (Trade): Photography, retouching, compositing, lighting, and image-making technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC47XN5bhLTBH5TRFyKaUpKg; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCDknUbOK1D3_XoTMJAOApOw",
+      "name": "Peter McKinnon",
+      "handle": "@PeterMcKinnon",
+      "description": "Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "accentColor": "0xFF16A34A",
+      "initials": "PM",
+      "focus": "Photography & Videography (Trade): Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCDknUbOK1D3_XoTMJAOApOw; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCMmA0XxraDP7ZVbv4eY3Omg",
+      "name": "DSLR Video Shooter",
+      "handle": "@DSLRVideoShooter",
+      "description": "Camera systems, lighting, audio, production workflows, and video technique.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "DV",
+      "focus": "Photography & Videography (Trade): Camera systems, lighting, audio, production workflows, and video technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCMmA0XxraDP7ZVbv4eY3Omg; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5_SBQbLA9Kg7Jh5GpXoP3g",
+      "name": "Adobe Creative Cloud",
+      "handle": "@AdobeCreativeCloud",
+      "description": "Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "AC",
+      "focus": "Photography & Videography (Trade): Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5_SBQbLA9Kg7Jh5GpXoP3g; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnvgtzmvlb6d58d9BbOKuMA",
+      "name": "Fstoppers",
+      "handle": "@fstoppers",
+      "description": "Photography, lighting, visual storytelling, business, and professional image-making.",
+      "accentColor": "0xFF0891B2",
+      "initials": "F",
+      "focus": "Photography & Videography (Trade): Photography, lighting, visual storytelling, business, and professional image-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnvgtzmvlb6d58d9BbOKuMA; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCTSgfO_OkfRX8dm4YhCg3fg",
+      "name": "SLR Lounge",
+      "handle": "@SLRLounge",
+      "description": "Photography education, posing, lighting, workflow, and professional practice.",
+      "accentColor": "0xFFDB4437",
+      "initials": "SL",
+      "focus": "Photography & Videography (Trade): Photography education, posing, lighting, workflow, and professional practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCTSgfO_OkfRX8dm4YhCg3fg; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGglTkQEIBnOr3urMuxEkUw",
+      "name": "PiXimperfect",
+      "handle": "@PiXimperfect",
+      "description": "Photoshop, compositing, retouching, design, and digital image technique.",
+      "accentColor": "0xFF0F766E",
+      "initials": "P",
+      "focus": "Photography & Videography (Trade): Photoshop, compositing, retouching, design, and digital image technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGglTkQEIBnOr3urMuxEkUw; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOKHwx1VCdgnxwbjyb9Iu1g",
+      "name": "Blender Guru",
+      "handle": "@BlenderGuru",
+      "description": "3D modeling, materials, lighting, rendering, and computer graphics.",
+      "accentColor": "0xFF9333EA",
+      "initials": "BG",
+      "focus": "Photography & Videography (Trade): 3D modeling, materials, lighting, rendering, and computer graphics.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOKHwx1VCdgnxwbjyb9Iu1g; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC0lLeNdvLrFozQRsQ1TQiAw",
+      "name": "Aaron Blaise",
+      "handle": "@AaronBlaiseArt",
+      "description": "Animation, drawing, character design, illustration, and visual storytelling.",
+      "accentColor": "0xFFB45309",
+      "initials": "AB",
+      "focus": "Photography & Videography (Trade): Animation, drawing, character design, illustration, and visual storytelling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC0lLeNdvLrFozQRsQ1TQiAw; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkiC21kJxYO_eUEJ5GgFLnw",
+      "name": "CreativeLive",
+      "handle": "@CreativeLive",
+      "description": "Photography, design, craft, entrepreneurship, and creative career development.",
+      "accentColor": "0xFF475569",
+      "initials": "C",
+      "focus": "Photography & Videography (Trade): Photography, design, craft, entrepreneurship, and creative career development.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkiC21kJxYO_eUEJ5GgFLnw; selected for the Photography & Videography (Trade) learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "FStoppers",
+      "url": "https://fstoppers.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Photography industry news and business. Feed URL independently confirmed via Feedspot RSS directory listing. (fstoppers.com/feed confirmed via Feedspot Photography RSS directory, 2026-07-25)."
+    },
+    {
+      "name": "PetaPixel",
+      "url": "https://petapixel.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Photography industry trends, gear, and trade. Feed URL independently confirmed via Feedspot RSS directory listing. (petapixel.com/feed confirmed via Feedspot Photography RSS directory, 2026-07-25)."
+    },
+    {
+      "name": "Mango Street Blog",
+      "url": "https://mangostreet.com/blogs/news.atom",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Shopify-hosted Mango Street blog. Standard Shopify Atom feed URL — Standard Shopify Atom feed URL — same pattern confirmed across existing skill files."
+    },
+    {
+      "name": "ProInvoice Blog",
+      "url": "https://proinvoice.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Nigerian commercial photography invoicing and business guide. Standard WordPress /feed/ URL — Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01). Photography trade business guide, capital, and margins."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Production studio supply chain and setup guides for Nigeria. Verify canonical domain before first ingest."
+    },
+    {
+      "name": "Shopify Photography Blog",
+      "url": "https://www.shopify.com/blogs/news.atom",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Standard Shopify Atom feed URL — same pattern confirmed across existing skill files. Covers selling commercial prints and B2B photography services online."
+    },
+    {
+      "name": "WaleMarketer",
+      "url": "https://walemarketer.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_14_videography_video_editing.json)."
+    },
+    {
+      "name": "Sue Bryce Media",
+      "url": "https://suebryce.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Portrait photography studio empire and B2B systems. Standard WordPress /feed/ URL — Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "No Film School",
+      "url": "https://nofilmschool.com/",
+      "region": "Global",
+      "focus": "Filmmaking, cinematography, production, and creative industry practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "PetaPixel",
+      "url": "https://petapixel.com/",
+      "region": "Global",
+      "focus": "Photography, cameras, visual storytelling, and industry news.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fstoppers",
+      "url": "https://fstoppers.com/",
+      "region": "Global",
+      "focus": "Photography, lighting, filmmaking, workflow, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Creative Bloq",
+      "url": "https://www.creativebloq.com/",
+      "region": "Global",
+      "focus": "Graphic design, illustration, 3D, digital art, and creative tools.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/",
+      "region": "Global",
+      "focus": "Web design, UX, front-end development, accessibility, and performance.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Adobe Blog",
+      "url": "https://blog.adobe.com/",
+      "region": "Global",
+      "focus": "Creative tools, design, photography, video, and digital creativity.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "AIGA Eye on Design",
+      "url": "https://eyeondesign.aiga.org/",
+      "region": "Global",
+      "focus": "Graphic design, visual culture, design history, and critical practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "CreativePro Network",
+      "url": "https://creativepro.com/",
+      "region": "Global",
+      "focus": "Design software, typography, publishing, and production workflows.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Futur Blog",
+      "url": "https://thefutur.com/blog",
+      "region": "Global",
+      "focus": "Design practice, branding, creative business, and professional development.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free overview and chapter excerpts from the author's official site — cash-flow management system for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV. Author's own domain, consistent with skill_01 entry.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — small-business operations, financing, and management.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "openstax.org is a peer-reviewed open textbook publisher. URL from user-provided CSV.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — entrepreneurship principles, ideation, and business model design.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Same OpenStax catalogue URL; select the specific title on the catalogue page.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot marketing blog — practical digital marketing guides for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot blog is a widely recognised free marketing resource. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free US SBA startup guide — globally applicable for structuring a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "sba.gov is a US government domain. URL from user-provided CSV.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification course covering inbound marketing strategy for any trade or service business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot Academy courses are free with registration. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — planning, organising, leading, and controlling a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Direct OpenStax book URL confirmed stable via feedspot/open textbook listings.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Theatrical Worlds",
+      "author": "Charles Mitchell - Editor",
+      "freeSourceUrl": "https://ufdc.ufl.edu/AA00021870/00001",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-NoDerivs) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-NoDerivs; catalog record: https://open.umn.edu/opentextbooks/textbooks/theatrical-worlds",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781616101664-L.jpg"
+    },
+    {
+      "title": "Understanding Basic Music Theory",
+      "author": "Catherine Schmidt-Jones - Author",
+      "freeSourceUrl": "https://openstax.org/general/cnx-404",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/understanding-basic-music-theory-2013",
+      "coverUrl": "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp",
+      "coverCandidates": [
+        "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp"
+      ]
+    },
+    {
+      "title": "Music and the Child",
+      "author": "Natalie Sarrazin - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=1587",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-and-the-child",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341208-L.jpg"
+    },
+    {
+      "title": "Graphic Design and Print Production Fundamentals",
+      "author": "Wayne Collins - Author / Alex Haas - Author / Ken Jeffery - Author / Alan Martin - Author / Roberto Medeiros - Author / Steven Tomljanovic - Author",
+      "freeSourceUrl": "https://opentextbc.ca/graphicdesign/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; Computer Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/graphic-design-and-print-production-fundamentals"
+    },
+    {
+      "title": "Introduction to Art: Design, Context, and Meaning",
+      "author": "Pamela Sachant - Author / Peggy Blood - Author / Jeffery A LeMieux - Author",
+      "freeSourceUrl": "https://web.ung.edu/media/university-press/Introduction%20to%20Art-082817.pdf?t=1510261341891",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-art-design-context-and-meaning"
+    },
+    {
+      "title": "Understanding Music: Past and Present",
+      "author": "Alan Clark - Author / Thomas Heflin - Author / Jeffery Kluball - Author / Elizabeth Kramer - Author",
+      "freeSourceUrl": "https://web.ung.edu/media/university-press/Understanding%20Music-Past%20and%20Present-082817.pdf?t=1510261279926",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/understanding-music-past-and-present",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781940771335-L.jpg"
+    },
+    {
+      "title": "Music: Its Language, History, and Culture",
+      "author": "Douglas Cohen - Author",
+      "freeSourceUrl": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1002&context=bc_oers",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-its-language-history-and-culture",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780991388707-L.jpg"
+    },
+    {
+      "title": "Exploring Movie Construction & Production: What’s so exciting about movies?",
+      "author": "John Reich - Author",
+      "freeSourceUrl": "https://milneopentextbooks.org/download-page/?dlm-dp-dl=2494",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/exploring-movie-construction-production-what-s-so-exciting-about-movies",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341468-L.jpg"
+    },
+    {
+      "title": "Music Fundamentals 1: Pitch and Major Scales and Keys",
+      "author": "Terry B. Ewell - Author / Catherine Schmidt-Jones - Author",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col10714",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-fundamentals-1-pitch-and-major-scales-and-keys",
+      "coverUrl": "https://archive.org/services/img/cnx-org-col10714",
+      "coverCandidates": [
+        "https://archive.org/services/img/cnx-org-col10714"
+      ]
+    },
+    {
+      "title": "Music Fundamentals 2: Rhythm and Meter",
+      "author": "Terry B. Ewell - Author / Catherine Schmidt-Jones - Author",
+      "freeSourceUrl": "https://archive.org/details/cnx-org-col10716",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-fundamentals-2-rhythm-and-meter",
+      "coverUrl": "https://archive.org/services/img/cnx-org-col10716",
+      "coverCandidates": [
+        "https://archive.org/services/img/cnx-org-col10716"
+      ]
+    },
+    {
+      "title": "Sound Reasoning",
+      "author": "Anthony Brandt - Author / Robert McClure - Author",
+      "freeSourceUrl": "https://openstax.org/general/cnx-404",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/sound-reasoning",
+      "coverUrl": "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp",
+      "coverCandidates": [
+        "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp"
+      ]
+    },
+    {
+      "title": "An Introduction to Technical Theatre",
+      "author": "Tal Sanders - Author",
+      "freeSourceUrl": "https://commons.pacificu.edu/works/publication-book/61qg8-geh81",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-technical-theatre",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781945398872-L.jpg"
+    },
+    {
+      "title": "Moving Pictures:  An Introduction to Cinema",
+      "author": "Russell Leigh Sharman - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/movingpictures/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/moving-pictures-an-introduction-to-cinema"
+    },
+    {
+      "title": "Sight-Reading for Guitar",
+      "author": "Chelsea Green - Author",
+      "freeSourceUrl": "https://press.rebus.community/sightreadingforguitar/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/sight-reading-for-guitar"
+    },
+    {
+      "title": "Guide to Ancient Near Eastern Art",
+      "author": "Ruth Ezra - Editor / Beth Harris - Editor / Steven Zucker - Editor",
+      "freeSourceUrl": "https://smarthistory.org/a-guide-to-ancient-near-eastern-art-smarthistory-book/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/smarthistory-guide-to-ancient-near-eastern-art-ezra"
+    },
+    {
+      "title": "Guide to Ancient Egyptian Art",
+      "author": "Ruth Ezra - Editor / Beth Harris - Editor / Steven Zucker - Editor",
+      "freeSourceUrl": "https://smarthistory.org/smarthistory-guide-to-ancient-egyptian-art/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-ancient-egyptian-art-ezra"
+    },
+    {
+      "title": "Guide to Ancient Aegean Art",
+      "author": "Ruth Ezra - Editor / Beth Harris - Editor / Steven Zucker - Editor",
+      "freeSourceUrl": "https://smarthistory.org/smarthistory-guide-to-ancient-aegean-art-2/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-ancient-aegean-art-ezra"
+    },
+    {
+      "title": "Guide to Ancient Etruscan Art",
+      "author": "Ruth Ezra - Editor / Beth Harris - Editor / Steven Zucker - Editor",
+      "freeSourceUrl": "https://smarthistory.org/etrruscan-book/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-ancient-etruscan-art-ezra"
+    },
+    {
+      "title": "Guide to Ancient Greek Art",
+      "author": "Ruth Ezra - Editor / Beth Harris - Editor / Steven Zucker - Editor",
+      "freeSourceUrl": "https://smarthistory.org/guide-ancient-greek/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-ancient-greek-art-ezra"
+    },
+    {
+      "title": "Guide to Ancient Roman art",
+      "author": "Ruth Ezra - Editor / Beth Harris - Editor / Steven Zucker - Editor",
+      "freeSourceUrl": "https://smarthistory.org/guide-to-ancient-roman-art/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-ancient-roman-art-ezra"
+    },
+    {
+      "title": "Teaching Low Brass",
+      "author": "Steven Maxwell - Author",
+      "freeSourceUrl": "https://www.fulcrum.org/concern/monographs/1n79h781j",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-low-brass-maxwell",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548162-L.jpg"
+    },
+    {
+      "title": "Vocal Techniques for the Instrumentalist - 2nd edition",
+      "author": "Amy Rosine - Author",
+      "freeSourceUrl": "https://kstatelibraries.pressbooks.pub/vocal-techniques/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/vocal-techniques-for-the-instrumentalist-2nd-edition-rosine",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781944548407-L.jpg"
+    },
+    {
+      "title": "Technical Theatre Practicum - Version 1",
+      "author": "Christopher R Boltz - Author",
+      "freeSourceUrl": "https://www.canyons.edu/_resources/documents/academics/onlineeducation/TechnicalTheatrePracticumV1.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/technical-theatre-practicum-version-1-boltz"
+    },
+    {
+      "title": "Music on the Move",
+      "author": "Danielle Fosler-Lussier - Author",
+      "freeSourceUrl": "https://www.fulcrum.org/concern/monographs/m613n040s",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-on-the-move-fosler-lussier",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780472901289-L.jpg"
+    },
+    {
+      "title": "Resonances: Engaging Music in Its Cultural Context",
+      "author": "Esther Morgan-Ellis - Editor",
+      "freeSourceUrl": "https://ung.edu/university-press/books/resonances-engaging-music.php",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/resonances-engaging-music-in-its-cultural-context",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781940771311-L.jpg"
+    },
+    {
+      "title": "Brass Techniques and Pedagogy",
+      "author": "Brian Weidner - Author",
+      "freeSourceUrl": "https://pressbooks.palni.org/brasstechniquesandpedagogy/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/brass-techniques-and-pedagogy"
+    },
+    {
+      "title": "Guide to Italian art in the 1300s",
+      "author": "Ruth Ezra - Editor / Beth Harris - Editor / Steve Zucker - Editor",
+      "freeSourceUrl": "https://smarthistory.org/guide-to-italian-art-in-the-1300s/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-italian-art-in-the-1300s"
+    },
+    {
+      "title": "Guide to Italian art in the 1400s",
+      "author": "Ruth Ezra - Editor / Beth Harris - Editor / Steven Zucker - Editor",
+      "freeSourceUrl": "https://smarthistory.org/guide-to-italian-art-in-the-1400s/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-italian-art-in-the-1400s"
+    },
+    {
+      "title": "Music Theory for the 21st-Century Classroom",
+      "author": "Robert Hutchinson - Author",
+      "freeSourceUrl": "https://human.libretexts.org/Bookshelves/Music/Music_Theory/Music_Theory_for_the_21st-Century_Classroom_(Hutchinson)",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Free Documentation License (GNU)) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Free Documentation License (GNU); catalog record: https://open.umn.edu/opentextbooks/textbooks/music-theory-for-the-21st-century-classroom"
+    },
+    {
+      "title": "Fundamentals, Function, and Form: Theory and Analysis of Tonal Western Art Music",
+      "author": "Andre Mount  - Author",
+      "freeSourceUrl": "https://milnepublishing.geneseo.edu/fundamentals-function-form/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-function-and-form-theory-and-analysis-of-tonal-western-art-music",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781942341994-L.jpg"
+    },
+    {
+      "title": "Storytelling on Screen: An Online Playback Theatre Archive and Guidebook",
+      "author": "Jordan Rosin - Author / Heidi Winters Vogel - Author / Sammy Lebron - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/cc3fe480-d246-4f39-9c43-bd844eb1e728",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/storytelling-on-screen-an-online-playback-theatre-archive-guidebook"
+    },
+    {
+      "title": "Music in World Cultures",
+      "author": "Matthew Mihalka  - Author / Justin R. Hunter - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/musicinworldcultures/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/music-in-world-cultures"
+    },
+    {
+      "title": "Guide to Byzantine Art",
+      "author": "Evan Freeman - Editor / Anne McClanan  - Author",
+      "freeSourceUrl": "https://www.printme1.com/700ad3e87",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/guide-to-byzantine-art",
+      "coverUrl": "https://www.printme1.com/pdf/374a0e737/9-2-print-Smarthistory-Guide-to-Byzantine-Art.jpg",
+      "coverCandidates": [
+        "https://www.printme1.com/pdf/374a0e737/9-2-print-Smarthistory-Guide-to-Byzantine-Art.jpg"
+      ]
+    },
+    {
+      "title": "The Bright Continent: African Art History",
+      "author": "Kathy Curnow - Author",
+      "freeSourceUrl": "https://pressbooks.ulib.csuohio.edu/bright-continent/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-bright-continent-african-art-history"
+    },
+    {
+      "title": "Fundamentals of Music Theory",
+      "author": "Nikki Moran - Author / Michael Edwards - Author / Richard Worth - Author / Zack Moir - Author / John Kitchen - Author",
+      "freeSourceUrl": "https://books.ed.ac.uk/edinburgh-diamond/catalog/view/ed-9781912669226/1/45",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-music-theory"
+    },
+    {
+      "title": "A Practical Approach to Understanding Music Theory - 1st",
+      "author": "Charles Brooks - Author",
+      "freeSourceUrl": "https://una.pressbooks.pub/music-theory/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-practical-approach-to-understanding-music-theory"
+    },
+    {
+      "title": "Ancient Greek I: A 21st Century Approach",
+      "author": "Philip @. Peek - Author",
+      "freeSourceUrl": "https://www.openbookpublishers.com/books/10.11647/obp.0264",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/ancient-greek-i-a-21st-century-approach",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781800642560-L.jpg"
+    },
+    {
+      "title": "Documentary Making for Digital Humanists",
+      "author": "Darren R. Reid - Author / Brett Sanders - Author",
+      "freeSourceUrl": "https://www.openbookpublishers.com/books/10.11647/obp.0255",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/documentary-making-for-digital-humanists",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781800641969-L.jpg"
+    },
+    {
+      "title": "Making and Being",
+      "author": "Susan Jahoda - Author / Caroline Woolard - Author",
+      "freeSourceUrl": "https://makingandbeing.com/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Education - Curriculum & Instruction; Humanities - Arts; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/making-and-being"
+    },
+    {
+      "title": "Introduction to Philosophy: Aesthetic Theory and Practice",
+      "author": "Yuriko Saito  - Author / Ruth Sonderegger  - Author / Ines Kleesattel  - Author",
+      "freeSourceUrl": "https://press.rebus.community/intro-to-phil-aesthetics/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-philosophy-aesthetic-theory-and-practice",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781989014295-L.jpg"
+    },
+    {
+      "title": "American Encounters: Art, History, and Cultural Identity",
+      "author": "Angela L Miller - Author / Janet Catherine Berlo - Author / Bryan J Wolf - Author / Jennifer L Roberts - Author",
+      "freeSourceUrl": "https://human.libretexts.org/Bookshelves/Art/Art_Introduction_and_Fundamentals/American_Encounters%3A_Art_History_and_Cultural_Identity_(Miller_Berlo_Wolf_and_Roberts)",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/american-encounters-art-history-and-cultural-identity"
+    },
+    {
+      "title": "Dress, Appearance, and Diversity in U.S. Society",
+      "author": "Kelly L. Reddy-Best - Author / Abbey K Elder - Editor / Lesya Hassall - Editor",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/dressappearancediversity/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/dress-appearance-and-diversity-in-u-s-society"
+    },
+    {
+      "title": "Tutorials of Visual Graphic Communication Programs for Interior Design, Volume 2",
+      "author": "Yongyeon Cho - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/visualgraphiccomm2/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/tutorials-of-visual-graphic-communication-programs-for-interior-design-volume-2"
+    },
+    {
+      "title": "Where Does Art Come From?",
+      "author": "Leah McCurdy - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/wheredoesartcomefrom/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/where-does-art-come-from",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648160042-L.jpg"
+    },
+    {
+      "title": "Open Music Theory - Version 2",
+      "author": "Mark Gotham - Author / Kyle Gullings - Author / Chelsey Hamm - Author / Bryn Hughes - Author / Brian Jarvis - Author / Megan Lavengood - Author / John Peterson - Author",
+      "freeSourceUrl": "https://viva.pressbooks.pub/openmusictheory/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; Education; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/open-music-theory"
+    },
+    {
+      "title": "The Path to Funding: The Artist’s Guide to Building Your Audience, Generating Income, and Realizing Career Sustainability",
+      "author": "Zane Forshee - Author / Christina Manceor - Author / Robin McGinness - Author",
+      "freeSourceUrl": "https://pressbooks.pub/pathtofunding/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; Business - Entrepreneurship; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-artist-s-guide-to-building-your-audience-generating-income-and-realizing-career-sustainability"
+    },
+    {
+      "title": "#TheatreAppreciation",
+      "author": "Kiara Pipino - Editor",
+      "freeSourceUrl": "https://theatreappreciation.pressbooks.sunycreate.cloud/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/theatreappreciation",
+      "coverUrl": "https://theatreappreciation.pressbooks.sunycreate.cloud/wp-content/uploads/sites/33/2022/11/cover2.jpg",
+      "coverCandidates": [
+        "https://theatreappreciation.pressbooks.sunycreate.cloud/wp-content/uploads/sites/33/2022/11/cover2.jpg"
+      ]
+    },
+    {
+      "title": "Exploring the Arts: A Brief Introduction to Art, Theatre, Music, and Dance",
+      "author": "Doris Hall - Author / Kimberly Berkeley - Author / Nubia Nurain Khan - Author",
+      "freeSourceUrl": "https://louis.pressbooks.pub/exploringarts/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/exploring-the-arts-a-brief-introduction-to-art-theatre-music-and-dance"
+    },
+    {
+      "title": "Symbiotic Posthumanist Ecologies in Western Literature, Philosophy and Art: Towards Theory and Practice Volume 11",
+      "author": "Peggy Karpouzou - Editor / Nikoleta Zampaki - Editor",
+      "freeSourceUrl": "https://www.peterlang.com/free_download?document_id=1288773&product_form=ebook&publication_type=pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/symbiotic-posthumanist-ecologies-in-western-literature-philosophy-and-art-towards-theory-and-practice-volume-11",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9783631882917-L.jpg"
+    },
+    {
+      "title": "Public Speaking as Performance Subtitle: Practicing Public Speaking in the Theatre & Performance Classroom",
+      "author": "Mechele Leon - Author",
+      "freeSourceUrl": "https://opentext.ku.edu/publicspeakingperformance/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/public-speaking-as-performance-subtitle-practicing-public-speaking-in-the-theatre-performance-classroom"
+    },
+    {
+      "title": "Foundations of Aural Skills",
+      "author": "Timothy Chenette - Author",
+      "freeSourceUrl": "https://uen.pressbooks.pub/auralskills/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/foundations-of-aural-skills"
+    },
+    {
+      "title": "Teaching Apparel Production",
+      "author": "Sheri Deaton - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/teachingappareldesign/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/teaching-apparel-production"
+    },
+    {
+      "title": "Communicating Fashion: Trend Research and Forecasting",
+      "author": "Gozde Goncu Berk - Author / Marilyn DeLong - Author",
+      "freeSourceUrl": "https://open.lib.umn.edu/communicatingfashion/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/communicating-fashion-trend-research-and-forecasting"
+    },
+    {
+      "title": "Huma 207: Exploring the Arts and Culture of the World",
+      "author": "Karen Brown - Author / Michal Yadlin - Author",
+      "freeSourceUrl": "https://cwi.pressbooks.pub/humanities207/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/huma-207-exploring-the-arts-and-culture-of-the-world"
+    },
+    {
+      "title": "Navigating the Arts",
+      "author": "Lucia Colombari - Author / Catherine Juliano-Lykins - Author",
+      "freeSourceUrl": "https://shareok.org/items/1cea342d-6d84-4a15-9efc-ee95216d6f15",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/navigating-the-arts"
+    },
+    {
+      "title": "Learning Digital Photography",
+      "author": "Eric Demattos - Author",
+      "freeSourceUrl": "https://nic.pressbooks.pub/learningdigitalphotography/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/learning-digital-photography"
+    },
+    {
+      "title": "Documenting Community Stories: Arkansas Legends and Lore",
+      "author": "Lauren Adams Willette - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/afta/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/documenting-community-stories-arkansas-legends-and-lore"
+    },
+    {
+      "title": "Westonia: Selected Works of Elizabeth Jane Weston",
+      "author": "Bret Mulligan - Author / Mary Anna Ball - Author / Felix K. Bieneman - Author / Hannah Rebecca Cohen - Author / Erica S. Collin - Author / Harry Cottrell - Author / Rowan Killina - Author / Celia Levy - Author / Priya Nwakanma - Author / Claire Pettit - Author / Claudia van Vloten - Author",
+      "freeSourceUrl": "https://pixeliapublishing.org/book/westonia/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Humanities - Arts; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/westonia-selected-works-of-elizabeth-jane-weston"
+    },
+    {
+      "title": "A Camera Actress in the Wilds of Togoland\r\nThe adventures, observations & experiences of a cinematograph actress in West African forests whilst collecting films depicting native life and when posing as the white woman in Anglo-African cinematograph dramas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45442",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45442; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45442/pg45442.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45442/pg45442.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45442/pg45442.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/45442/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Togoland -- Description and travel",
+        "Togo -- Description and travel",
+        "Category: Biographies",
+        "Category: Travel Writing",
+        "DT"
+      ]
+    },
+    {
+      "title": "A Manual of Photographic Chemistry, Including the Practice of the Collodion Process",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63710",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63710; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63710/pg63710.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63710/pg63710.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63710/pg63710.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63710/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photography",
+        "Photographic chemistry",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: How To ...",
+        "TR"
+      ]
+    },
+    {
+      "title": "A photographic record of the Russo-Japanese war",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76109",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76109; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76109/pg76109.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76109/pg76109.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76109/pg76109.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/76109/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Russo-Japanese War, 1904-1905 -- Pictorial works",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "DS"
+      ]
+    },
+    {
+      "title": "Airplane Photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53508",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53508; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53508/pg53508.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53508/pg53508.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53508/pg53508.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53508/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Aerial photography",
+        "Category: History - Warfare",
+        "Category: Engineering & Technology",
+        "TR"
+      ]
+    },
+    {
+      "title": "Around the world in eighty minutes\r\nPhotographic reproductions of the most magnificent edifices, the most interesting remains and the most beautiful scenes on the earth's surface",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69543",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69543; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69543/pg69543.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69543/pg69543.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69543/pg69543.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69543/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Views",
+        "Historic sites -- Pictorial works",
+        "Category: Travel Writing",
+        "G"
+      ]
+    },
+    {
+      "title": "Cruisings in the Cascades\nA Narrative of Travel, Exploration, Amateur Photography,\nHunting, and Fishing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36654",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36654; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36654/pg36654.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36654/pg36654.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36654/pg36654.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36654/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Hunting -- United States",
+        "Fishing -- United States",
+        "Travel",
+        "Category: Adventure",
+        "Category: Travel Writing",
+        "Category: Nature/Gardening/Animals",
+        "SK"
+      ]
+    },
+    {
+      "title": "Descriptive Catalogue of Photographs of North American Indians",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39089",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39089; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39089/pg39089.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39089/pg39089.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39089/pg39089.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39089/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Indians of North America -- Biography",
+        "Indians of North America -- Portraits -- Catalogs",
+        "Category: History - American",
+        "Category: Archaeology & Anthropology",
+        "E011"
+      ]
+    },
+    {
+      "title": "Essay on art and photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71518",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71518; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71518/pg71518.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71518/pg71518.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71518/pg71518.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71518/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Art and photography",
+        "Category: Essays, Letters & Speeches",
+        "Category: Art",
+        "TR"
+      ]
+    },
+    {
+      "title": "Fifty Photographic Views of Plymouth",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67232",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67232; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67232/pg67232.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67232/pg67232.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67232/pg67232.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67232/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Plymouth (Mass.) -- Pictorial works",
+        "Category: History - American",
+        "F001"
+      ]
+    },
+    {
+      "title": "George Eliot Centenary, November 1919\r\nCatalogue of Relics, Manuscrips, Prints, Paintings, Photographs & Books relating to George Eliot",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30959",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30959; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30959/pg30959.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30959/pg30959.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30959/pg30959.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30959/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Eliot, George, 1819-1880 -- Exhibitions",
+        "Category: Biographies",
+        "Category: Classics of Literature",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "How I Filmed the War\r\nA Record of the Extraordinary Experiences of the Man Who Filmed the Great Somme Battles, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30285",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30285; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30285/pg30285.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30285/pg30285.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30285/pg30285.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30285/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives, British",
+        "Motion pictures",
+        "Malins, Geoffrey H.",
+        "World War I",
+        "Category: Biographies",
+        "Category: British Literature",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Magic, Stage Illusions and Scientific Diversions, Including Trick Photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45235",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45235; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45235/pg45235.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45235/pg45235.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45235/pg45235.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/45235/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Magic tricks",
+        "Category: Art",
+        "Category: How To ...",
+        "GV"
+      ]
+    },
+    {
+      "title": "Marvels of Scientific Invention\r\nAn Interesting Account in Non-Technical Language of the Invention of Guns, Torpedoes, Submarine Mines, Up-to-Date Smelting, Freezing, Colour Photography, and Many Other Recent Discoveries of Science",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38045",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38045; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38045/pg38045.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38045/pg38045.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38045/pg38045.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38045/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Inventions",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Engineering & Technology",
+        "T"
+      ]
+    },
+    {
+      "title": "Mississippi Piney Woods: A Photographic Study of Folk Architecture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61801",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61801; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61801/pg61801.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61801/pg61801.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61801/pg61801.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/61801/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Architecture, Domestic -- Mississippi -- Piney Woods",
+        "Vernacular architecture -- Mississippi -- Piney Woods",
+        "Barns -- Mississippi -- Piney Woods",
+        "Category: History - American",
+        "Category: Architecture",
+        "Category: Art",
+        "NA"
+      ]
+    },
+    {
+      "title": "Motion Picture Operation, Stage Electrics and Illusions\r\nA Practical Hand-book and Guide for Theater Electricians, Motion Picture Operators and Managers of Theaters and Productions",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45231",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45231; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45231/pg45231.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45231/pg45231.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45231/pg45231.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/45231/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion picture theaters",
+        "Motion picture projection",
+        "Electric wiring, Interior",
+        "Category: Plays/Films/Dramas",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "PN"
+      ]
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1970",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63357",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63357; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63357/pg63357.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63357/pg63357.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63357/pg63357.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63357/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1971",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63066",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63066; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63066/pg63066.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63066/pg63066.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63066/pg63066.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63066/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1972",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65190",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65190; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65190/pg65190.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65190/pg65190.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65190/pg65190.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65190/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion pictures and filmstrips, 1978",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78638",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #78638; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78638/pg78638.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78638/pg78638.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78638/pg78638.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/78638/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "PN",
+        "Z"
+      ]
+    },
+    {
+      "title": "Motion Pictures, 1894-1912\r\nIdentified from the Records of the United States Copyright Office",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56966",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56966; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56966/pg56966.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56966/pg56966.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56966/pg56966.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56966/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures -- Catalogs",
+        "Category: Plays/Films/Dramas",
+        "Category: History - Modern (1750+)",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PN"
+      ]
+    },
+    {
+      "title": "Myths of China and Japan\r\nwith illustrations in colour & monochrome after paintings and photographs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67344",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67344; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67344/pg67344.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67344/pg67344.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67344/pg67344.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67344/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "China -- Civilization",
+        "Japan -- Civilization",
+        "Folklore -- Japan",
+        "Folklore -- China",
+        "Mythology, Chinese",
+        "Mythology, Japanese",
+        "Category: Mythology, Legends & Folklore",
+        "BL",
+        "GR"
+      ]
+    },
+    {
+      "title": "Naturalistic Photography for Students of the Art.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56833",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56833; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56833/pg56833.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56833/pg56833.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56833/pg56833.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56833/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photography",
+        "Art",
+        "Category: Art",
+        "Category: How To ...",
+        "TR"
+      ]
+    },
+    {
+      "title": "On the Construction of a Silvered Glass Telescope\r\nFifteen and a half inches in aperture, and its use in celestial photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53542",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53542; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53542/pg53542.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53542/pg53542.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53542/pg53542.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53542/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Astronomy",
+        "Astronomical photography",
+        "Reflecting telescopes",
+        "Category: Science - Physics",
+        "Category: Engineering & Technology",
+        "QB"
+      ]
+    },
+    {
+      "title": "Original Photographs Taken on the Battlefields during the Civil War of the United States",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43922",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43922; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43922/pg43922.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43922/pg43922.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43922/pg43922.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/43922/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "United States -- History -- Civil War, 1861-1865 -- Campaigns",
+        "United States -- History -- Civil War, 1861-1865 -- Pictorial works",
+        "Category: History - American",
+        "Category: History - Warfare",
+        "E456"
+      ]
+    },
+    {
+      "title": "Paris under the Commune\r\nThe Seventy-Three Days of the Second Siege; with Numerous Illustrations, Sketches Taken on the Spot, and Portraits (from the Original Photographs)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/10861",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #10861; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/10861/pg10861.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/10861/pg10861.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/10861/pg10861.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/10861/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Paris (France) -- History -- Commune, 1871",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "DC"
+      ]
+    },
+    {
+      "title": "Photographic Amusements, Ninth Edition\nIncluding A Description of a Number of Novel Effects Obtainable with the Camera",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39691",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39691; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39691/pg39691.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39691/pg39691.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39691/pg39691.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39691/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Trick photography",
+        "Photography",
+        "Category: Art",
+        "Category: How To ...",
+        "TR"
+      ]
+    },
+    {
+      "title": "Photographic investigations of faint nebulae",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71654",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71654; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71654/pg71654.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71654/pg71654.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71654/pg71654.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71654/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Nebulae",
+        "Category: Science - Physics",
+        "QB"
+      ]
+    },
+    {
+      "title": "Photographic Reproduction Processes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24016",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24016; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24016/pg24016.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24016/pg24016.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24016/pg24016.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24016/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photographic reproduction of plans, drawings, etc.",
+        "Photography -- Printing processes",
+        "Photography",
+        "Category: Engineering & Technology",
+        "Category: Art",
+        "TR"
+      ]
+    },
+    {
+      "title": "Photographs of Nebulæ and Clusters, Made with the Crossley Reflector",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36470",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36470; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36470/pg36470.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36470/pg36470.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36470/pg36470.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36470/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Nebulae",
+        "Stars -- Clusters",
+        "Astronomical photography",
+        "Crossley reflector",
+        "Category: Science - Physics",
+        "Category: Science - Earth/Agricultural/Farming",
+        "QB"
+      ]
+    },
+    {
+      "title": "Photography at home",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78373",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #78373; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78373/pg78373.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78373/pg78373.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78373/pg78373.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/78373/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photography -- Handbooks, manuals, etc.",
+        "TR"
+      ]
+    },
+    {
+      "title": "Photography in the studio and in the field",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42982",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #42982; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42982/pg42982.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42982/pg42982.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42982/pg42982.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/42982/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photography",
+        "Category: Art",
+        "Category: How To ...",
+        "TR"
+      ]
+    },
+    {
+      "title": "Photography self taught",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77383",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #77383; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77383/pg77383.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77383/pg77383.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77383/pg77383.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/77383/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photography -- Handbooks, manuals, etc.",
+        "TR"
+      ]
+    },
+    {
+      "title": "Shakspeare's Mental Photographs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56851",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56851; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56851/pg56851.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56851/pg56851.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56851/pg56851.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56851/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Shakespeare, William, 1564-1616 -- Miscellanea",
+        "Fortune-telling",
+        "Shakespeare, William, 1564-1616 -- Quotations",
+        "Category: Plays/Films/Dramas",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Shepp's Photographs of the World",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26037",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #26037; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26037/pg26037.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26037/pg26037.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26037/pg26037.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/26037/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Views",
+        "Category: Travel Writing",
+        "Category: History - Modern (1750+)",
+        "Category: Art",
+        "Category: Archaeology & Anthropology",
+        "G"
+      ]
+    },
+    {
+      "title": "Souvenir of Gay Head: Indelible Photographs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33108",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33108; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33108/pg33108.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33108/pg33108.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33108/pg33108.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/33108/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Gay Head (Mass.) -- Pictorial works",
+        "Category: History - American",
+        "Category: Art",
+        "Category: Archaeology & Anthropology",
+        "F001"
+      ]
+    },
+    {
+      "title": "The Barnet Book of Photography: A Collection of Practical Articles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40468",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #40468; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40468/pg40468.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40468/pg40468.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40468/pg40468.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/40468/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photography",
+        "Category: How To ...",
+        "TR"
+      ]
+    },
+    {
+      "title": "The Bird Book\r\nIllustrating in natural colors more than seven hundred North American birds; also several hundred photographs of their nests and eggs.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30000",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30000; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30000/pg30000.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30000/pg30000.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30000/pg30000.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30000/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Birds -- North America",
+        "Animal",
+        "Animals-Wild-Birds",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "The Case Against Spirit Photographs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61352",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61352; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61352/pg61352.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61352/pg61352.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61352/pg61352.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/61352/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Spiritualism",
+        "Parapsychology",
+        "Spirit photography",
+        "Category: History - Other",
+        "Category: Psychiatry/Psychology",
+        "BF"
+      ]
+    },
+    {
+      "title": "The Case for Spirit Photography\nWith corroborative evidence by experienced researchers and photographers",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59809",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59809; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59809/pg59809.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59809/pg59809.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59809/pg59809.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59809/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Spiritualism",
+        "Spirit photography",
+        "Category: Religion/Spirituality",
+        "BF"
+      ]
+    },
+    {
+      "title": "The Essentials of Illustration\r\nA Practical Guide to the Reproduction of Drawings & Photographs for the Use of Scientists & Others",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34869",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34869; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34869/pg34869.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34869/pg34869.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34869/pg34869.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34869/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Illustration of books",
+        "Engraving -- Printing",
+        "Photomechanical processes",
+        "Category: Science - Biology",
+        "Category: Art",
+        "Category: How To ...",
+        "NE"
+      ]
+    },
+    {
+      "title": "The Evolution of Photography\r\nWith a Chronological Record of Discoveries, Inventions, Etc., Contributions to Photographic Literature, and Personal Reminescences Extending over Forty Years",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38866",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38866; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38866/pg38866.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38866/pg38866.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38866/pg38866.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38866/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photography -- History",
+        "Photography",
+        "Category: History - Modern (1750+)",
+        "Category: Art",
+        "TR"
+      ]
+    },
+    {
+      "title": "The Face of the Earth as Seen from the Air\nA Study in the Application of Airplane Photography to Geography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62068",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62068; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62068/pg62068.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62068/pg62068.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62068/pg62068.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62068/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Physical geography",
+        "Cartography",
+        "Aerial photography",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Engineering & Technology",
+        "TR"
+      ]
+    },
+    {
+      "title": "The film",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71747",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71747; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71747/pg71747.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71747/pg71747.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71747/pg71747.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71747/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Education",
+        "Motion pictures in education",
+        "Category: Journalism/Media/Writing",
+        "Category: Teaching & Education",
+        "LB"
+      ]
+    },
+    {
+      "title": "The History and Practice of the Art of Photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/168",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #168; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/168/pg168.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/168/pg168.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/168/pg168.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/168/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photography",
+        "Daguerreotype",
+        "Art",
+        "Category: History - Modern (1750+)",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Art",
+        "Category: How To ...",
+        "TR"
+      ]
+    },
+    {
+      "title": "The Mentor: Photography, Vol. 6, Num. 12, Serial No. 160, August 1, 1918",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49640",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49640; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49640/pg49640.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49640/pg49640.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49640/pg49640.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49640/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Photography",
+        "The Mentor",
+        "Category: Art",
+        "Category: How To ...",
+        "TR"
+      ]
+    },
+    {
+      "title": "The Science of Animal Locomotion (Zoopraxography)\r\nAn Electro-Photographic Investigation of Consecutive Phases of Animal Movements",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39998",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39998; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39998/pg39998.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39998/pg39998.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39998/pg39998.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39998/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Motion pictures",
+        "Animal locomotion",
+        "Prospectuses -- Pennsylvania -- Philadelphia -- 19th century",
+        "Subscribers' lists -- Pennsylvania -- Philadelphia -- 19th century",
+        "Category: Science - Biology",
+        "Category: Art",
+        "QP"
+      ]
+    },
+    {
+      "title": "The Veil Lifted: Modern Developments of Spirit Photography",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59451",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59451; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59451/pg59451.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59451/pg59451.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59451/pg59451.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59451/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Spiritualism",
+        "Spirit photography",
+        "Category: History - Modern (1750+)",
+        "Category: Science - Physics",
+        "Category: Archaeology & Anthropology",
+        "Category: Religion/Spirituality",
+        "BF"
+      ]
+    },
+    {
+      "title": "Tinting and toning of Eastman positive motion picture film",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70417",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70417; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70417/pg70417.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70417/pg70417.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70417/pg70417.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/70417/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Color cinematography",
+        "Motion picture film",
+        "Category: Engineering & Technology",
+        "Category: Art",
+        "Category: How To ...",
+        "TR"
+      ]
+    },
+    {
+      "title": "Vision by radio, radio photographs, radio photograms",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73845",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73845; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73845/pg73845.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73845/pg73845.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73845/pg73845.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73845/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Phototelegraphy",
+        "Category: Engineering & Technology",
+        "Category: Journalism/Media/Writing",
+        "TK"
+      ]
+    },
+    {
+      "title": "Wireless Transmission of Photographs\nSecond Edition, Revised and Enlarged 1919",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34052",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34052; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34052/pg34052.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34052/pg34052.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34052/pg34052.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34052/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Phototelegraphy",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    }
+  ],
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). All previously cross-referenced skill_13/skill_14 IDs confirmed consistent. StockFrames channel confirmed as a Nigerian picture-frames and canvas-arts supply business (not a photography content channel as described in source CSV) — description updated to accurately reflect content while noting its relevance to photographers selling printed work. FStoppers and PetaPixel RSS feeds independently confirmed via Feedspot photography RSS directory. 2026-08-23: Added 58 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 50 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 58 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI.",
+    "2026-08-23: Review the 50 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

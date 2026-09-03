@@ -1,0 +1,546 @@
+{
+  "categoryId": "skill_20_ac_refrigeration_repair",
+  "status": "verified",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UCX9qUeV57Z7gqX1uwp8XOqg",
+      "name": "WW HVAC",
+      "handle": "@WWHVAC",
+      "description": "Walter Washington, HVAC tech and owner of Washington A/C & Heating LLC (Katy, TX), building it into a top HVAC company on camera. Explicitly mixes service calls and troubleshooting with 'business lessons' for techs, contractors, and apprentices.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "WW",
+      "focus": "HVAC business ownership, documented in real time",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Confirmed via SmartService's HVAC-channel roundup ('the repair content is solid, the business content is honest') plus the channel's own About section, both independently describing the same real business-building focus."
+    },
+    {
+      "id": "UCiz21FXLOV65NTgiUfJsxTg",
+      "name": "HVAC GUY",
+      "handle": "@HVACGUY",
+      "description": "A working HVAC technician whose channel explicitly covers 'opening and running as small business' alongside repair instruction.",
+      "accentColor": "0xFF16A34A",
+      "initials": "HG",
+      "focus": "HVAC repair technique + small business operations",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Fetched the channel page directly — About section explicitly names the business angle."
+    },
+    {
+      "id": "UCdLlUhD9LUGm0-NTYDASPFA",
+      "name": "HVAC School",
+      "handle": "@hvacs",
+      "description": "Bryan Orr, Co-Owner of Kalos Services Inc. (Orlando HVAC contracting business) — 'For Techs, By Techs' training via weekly podcast, daily tech tips and videos, 450K+ subscribers. Widely cited as the top HVAC education channel.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "HS",
+      "focus": "HVAC/R technician training and business insight",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCdLlUhD9LUGm0-NTYDASPFA); identity and Kalos Services ownership cross-confirmed via TruTech Tools and Bryan Orr's own site."
+    },
+    {
+      "id": "UCLOYRxKqakH6BVzLtlKpWEg",
+      "name": "Workiz",
+      "handle": "@Workiz",
+      "description": "Field service management SaaS platform (Wikipedia-confirmed, founded 2015, San Diego) built for HVAC, plumbing, electrical and other trades — scheduling, routing and business-growth content for HVAC business owners specifically.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "WK",
+      "focus": "How to start and scale an HVAC business",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCLOYRxKqakH6BVzLtlKpWEg); company cross-confirmed via Wikipedia."
+    },
+    {
+      "id": "UCO4MpMtxSMaZachZ8438MoA",
+      "name": "Exeed College TV",
+      "handle": "@ExeedCollege",
+      "description": "UAE-based provider of online business/education degrees (MBA, doctoral programs) serving the GCC, Africa, Asia and Europe — publishes a specific '10-step guide to starting an HVAC business' matching the source directory's description.",
+      "accentColor": "0xFF10B981",
+      "initials": "EC",
+      "focus": "10-step HVAC business setup guide",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCO4MpMtxSMaZachZ8438MoA); the matching 'How to Start an HVAC Business' article confirmed live on exeedcollege.com.",
+      "notes": "The channel itself is a general business-education channel (MBA/doctoral programs), not HVAC-specific — included because the source directory cited a specific, confirmed HVAC business article from this organization, similar to how a general news channel was used elsewhere in this project for one relevant story."
+    },
+    {
+      "id": "UCAg1BLj8EEB4sNLdKKjpCCA",
+      "name": "Blue Collar Nerd",
+      "handle": "@BlueCollarNerd",
+      "description": "Richard Kohberger — grew up in an HVAC family business (Comfort Control Inc., Buford GA), now an Industry Advisor/Content Specialist at ServiceTitan — bridges the gap between old-school trades and modern business technology.",
+      "accentColor": "0xFFEF4444",
+      "initials": "BC",
+      "focus": "HVAC business technology and operations",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCAg1BLj8EEB4sNLdKKjpCCA); identity, HVAC family background and ServiceTitan role cross-confirmed via ServiceTitan's own blog and podcast."
+    },
+    {
+      "id": "UCOZR-1IqsAer9wzlvFgb4mA",
+      "name": "AC Service Tech LLC",
+      "handle": "@acservicetechchannel",
+      "description": "Craig Migliaccio — HVAC business owner in Southern New Jersey and High School/Adult Ed teacher, 650K+ subscribers — step-by-step HVACR training plus a paid training course platform, books and workbooks.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "AS",
+      "focus": "HVAC technical training with a course-business model",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via multiple independent third-party analytics sources (vidIQ, Social Blade, thoughtleaders.io) all pointing to the same channel and matching About-section text."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "The world's leading cloud-based software platform for the trades (HVAC, plumbing, electrical, garage door) — CRM, dispatch, reporting and marketing tools content aimed at growing a home service business.",
+      "accentColor": "0xFF6366F1",
+      "initials": "ST",
+      "focus": "Trade business management and growth software",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/servicetitan); pairs with the ServiceTitan blog also listed in this file."
+    },
+    {
+      "id": "UCzNIqpbIEt64udg5uxNS0nw",
+      "name": "Refrigeration Mentor",
+      "handle": "@refrigerationmentor",
+      "description": "Content for refrigeration and HVAC professionals globally, focused on mentoring, goal-setting and growth mindset alongside deep technical learning — explicit mission to help professionals 'achieve the success they are looking for'.",
+      "accentColor": "0xFFF97316",
+      "initials": "RM",
+      "focus": "Refrigeration/HVAC career growth and mentoring",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/refrigerationmentor); About-section content is an explicit, direct business/growth-mindset match."
+    },
+    {
+      "id": "UCPjNDIEVmux3Bphk3lM_0NQ",
+      "name": "MegaClima Expo",
+      "handle": "@MegaClimaExpo",
+      "description": "Official channel of the annual Mega Clima HVAC+R trade shows across Africa and the Middle East (including the 8th International Air Conditioning & Refrigeration Exhibition in Lagos) — the largest HVAC+R industry networking platform in West Africa.",
+      "accentColor": "0xFFEC4899",
+      "initials": "MC",
+      "focus": "HVAC industry business networking in Nigeria",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@MegaClimaExpo); event and Nigeria/West Africa scope cross-confirmed via westafricahvacexpo.com, Eventbrite and refindustry.com.",
+      "notes": "Source directory listed the domain as facebook.com (implying no real YouTube presence) — a real, active YouTube channel was found and used instead."
+    },
+    {
+      "id": "UC5rrHufEb1d4l31kf9bGYfg",
+      "name": "This Old House",
+      "handle": "@thisoldhouse",
+      "description": "Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TO",
+      "focus": "AC & Refrigeration Repair: Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5rrHufEb1d4l31kf9bGYfg; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1MZgHA2PsX2hlaYo8ECQAw",
+      "name": "Essential Craftsman",
+      "handle": "@EssentialCraftsman",
+      "description": "Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EC",
+      "focus": "AC & Refrigeration Repair: Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1MZgHA2PsX2hlaYo8ECQAw; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnorhjQR4zJkT7AVNhu395Q",
+      "name": "Home RenoVision DIY",
+      "handle": "@HomeRenoVisionDIY",
+      "description": "Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "HR",
+      "focus": "AC & Refrigeration Repair: Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnorhjQR4zJkT7AVNhu395Q; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBB7sYb14uBtk8UqSQYc9-w",
+      "name": "The Honest Carpenter",
+      "handle": "@TheHonestCarpenter",
+      "description": "Carpentry knowledge, building science, tool use, and construction quality.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TH",
+      "focus": "AC & Refrigeration Repair: Carpentry knowledge, building science, tool use, and construction quality.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBB7sYb14uBtk8UqSQYc9-w; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKwM-7sO1_Tw9EmYhKfpBBw",
+      "name": "Perkins Builder Brothers",
+      "handle": "@PerkinsBuilderBrothers",
+      "description": "Residential construction, framing, tools, building systems, and project execution.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PB",
+      "focus": "AC & Refrigeration Repair: Residential construction, framing, tools, building systems, and project execution.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKwM-7sO1_Tw9EmYhKfpBBw; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@ElectricianU",
+      "description": "Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "EU",
+      "focus": "AC & Refrigeration Repair: Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCB3jUEyCLRbCw7QED0vnXYg; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCk0rn9r3IxR-FNjCzHBa5RQ",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "accentColor": "0xFF0F766E",
+      "initials": "G",
+      "focus": "AC & Refrigeration Repair: Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCk0rn9r3IxR-FNjCzHBa5RQ; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCraGaDLfWec67xl9FEPndtw",
+      "name": "See Jane Drill",
+      "handle": "@SeeJaneDrill",
+      "description": "Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SJ",
+      "focus": "AC & Refrigeration Repair: Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCraGaDLfWec67xl9FEPndtw; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwRccMruxRafT7Tx1u1dTPw",
+      "name": "Roger Wakefield",
+      "handle": "@RogerWakefield",
+      "description": "Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "accentColor": "0xFFB45309",
+      "initials": "RW",
+      "focus": "AC & Refrigeration Repair: Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwRccMruxRafT7Tx1u1dTPw; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCYohLjTaUZLF3-JjttxG_CA",
+      "name": "AC Service Tech",
+      "handle": "@ACServiceTech",
+      "description": "Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "accentColor": "0xFF475569",
+      "initials": "AS",
+      "focus": "AC & Refrigeration Repair: Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCYohLjTaUZLF3-JjttxG_CA; selected for the AC & Refrigeration Repair learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Workiz Blog",
+      "url": "https://www.workiz.com/blog/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 'How to Start an HVAC Business in 2026' — pairs with the Workiz channel above."
+    },
+    {
+      "name": "Exeed College",
+      "url": "https://exeedcollege.com/blog/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed live article 'How to Start an HVAC Business' matching the source directory's '10 Step Guide' description, on exeedcollege.com."
+    },
+    {
+      "name": "Pygar Group",
+      "url": "https://pygargroup.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: customized HVAC solutions for Abuja businesses. Company/domain not independently re-confirmed this pass — worth a live check before shipping."
+    },
+    {
+      "name": "Coldtech Experts",
+      "url": "https://coldtechexperts.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: coldroom and HVAC business insights for Nigeria. Company/domain not independently re-confirmed this pass — worth a live check before shipping."
+    },
+    {
+      "name": "MegaClima",
+      "url": "https://megaclimaexpo.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory listed the domain as facebook.com — corrected to the real event site, megaclimaexpo.com, confirmed live this pass. Pairs with the MegaClima Expo channel above."
+    },
+    {
+      "name": "Nigeria Contractor",
+      "url": "https://nigeriacontractor.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: list of HVAC companies and business guides for Nigeria."
+    },
+    {
+      "name": "HVAC School",
+      "url": "https://www.hvacrschool.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed real, active blog/tech-tips site (hvacrschool.com) pairing with the HVAC School channel above."
+    },
+    {
+      "name": "ServiceTitan",
+      "url": "https://www.servicetitan.com/blog/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed real, active blog — source of the 'Best HVAC YouTube Channels' and other trade-business-management articles referenced during this session's research. Pairs with the ServiceTitan channel above."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: electrical and HVAC business ideas for Nigeria."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "region": "Global",
+      "focus": "Construction, repair, renovation, tools, and home systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Family Handyman",
+      "url": "https://www.familyhandyman.com/",
+      "region": "Global",
+      "focus": "DIY, woodworking, repair, tools, and practical home skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fine Woodworking",
+      "url": "https://www.finewoodworking.com/",
+      "region": "Global",
+      "focus": "Advanced woodworking, furniture making, tools, and craftsmanship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Plumbing & Mechanical",
+      "url": "https://www.pmmag.com/",
+      "region": "Global",
+      "focus": "Plumbing, HVAC, hydronics, codes, and trade practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Notes",
+      "url": "https://www.electronics-notes.com/",
+      "region": "Global",
+      "focus": "Electronics fundamentals, components, circuits, and design.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "region": "Global",
+      "focus": "Salon technique, hairdressing, beauty, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythrevisitedwh00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "IA free borrow. Systems so the business runs without the owner doing all the work.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "download",
+      "freeSourceNote": "IA free borrow. Cash system that forces profit before expenses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735214149-L.jpg"
+    },
+    {
+      "title": "How Much Should I Charge?",
+      "author": "Ellen Rohr",
+      "freeSourceUrl": "https://ellenrohr.com/howmuch/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Full free ebook from author on calculating profitable rates.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Author free full ebook.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781456522100-L.jpg"
+    },
+    {
+      "title": "Rework",
+      "author": "Jason Fried & David Heinemeier Hansson",
+      "freeSourceUrl": "https://archive.org/details/rework0000frie",
+      "freeSourceType": "download",
+      "freeSourceNote": "IA free borrow. Build a profitable business without bloat.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship (OpenStax)",
+      "author": "Michael Laverty et al.",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "download",
+      "freeSourceNote": "100% free OpenStax PDF on launching and running a venture.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "OpenStax free textbook.",
+      "coverUrl": "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp",
+      "coverCandidates": [
+        "https://images.openstax.org/apps/image-cdn/v1/assets.openstax.org/f=webp,w=640,h=480/oscms-prodcms/media/images/240919_OpenStax_Students_Martin_272.original.webp"
+      ]
+    },
+    {
+      "title": "Small Business Management in the 21st Century",
+      "author": "David Cadden & Sandra Lueder",
+      "freeSourceUrl": "https://open.umn.edu/opentextbooks/textbooks/small-business-management-in-the-21st-century",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook on starting and managing a small business.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Open Textbook Library.",
+      "coverUrl": "https://open.umn.edu/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJsbnM1NDhrM3p3a3Vwc2c5azBiNDF0cHhnbjljIiwiZGlzcG9zaXRpb24iOiJpbmxpbmU7IGZpbGVuYW1lPVwiOTc4MTQ1MzM0NTU2Ni5wbmdcIjsgZmlsZW5hbWUqPVVURi04Jyc5NzgxNDUzMzQ1NTY2LnBuZyIsImNvbnRlbnRfdHlwZSI6ImltYWdlL3BuZyIsInNlcnZpY2VfbmFtZSI6Im5mc19wcm9kdWN0aW9uIn0sImV4cCI6IjIwMjYtMDgtMjhUMDM6MjA6NTEuOTAwWiIsInB1ciI6ImJsb2Jfa2V5In19--017e2e0e4d2c06cdf9d21179df7eb26e1b63e993/9781453345566.png",
+      "coverCandidates": [
+        "https://open.umn.edu/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJsbnM1NDhrM3p3a3Vwc2c5azBiNDF0cHhnbjljIiwiZGlzcG9zaXRpb24iOiJpbmxpbmU7IGZpbGVuYW1lPVwiOTc4MTQ1MzM0NTU2Ni5wbmdcIjsgZmlsZW5hbWUqPVVURi04Jyc5NzgxNDUzMzQ1NTY2LnBuZyIsImNvbnRlbnRfdHlwZSI6ImltYWdlL3BuZyIsInNlcnZpY2VfbmFtZSI6Im5mc19wcm9kdWN0aW9uIn0sImV4cCI6IjIwMjYtMDgtMjhUMDM6MjA6NTEuOTAwWiIsInB1ciI6ImJsb2Jfa2V5In19--017e2e0e4d2c06cdf9d21179df7eb26e1b63e993/9781453345566.png"
+      ]
+    },
+    {
+      "title": "Built to Sell",
+      "author": "John Warrillow",
+      "freeSourceUrl": "https://builttosell.com/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official free resources on creating a business that runs without you.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Official site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845829-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://archive.org/details/leanstartuphowco0000ries",
+      "freeSourceType": "download",
+      "freeSourceNote": "IA free borrow. Test ideas quickly and build what customers actually pay for.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "How to Use and Enjoy Your New Frigidaire Refrigerator",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67968",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67968; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67968/pg67968.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67968/pg67968.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67968/pg67968.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67968/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cookbooks",
+        "Frozen foods",
+        "Refrigerators -- Handbooks, manuals, etc.",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "International Harvester Refrigerator Recipes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65793",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65793; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65793/pg65793.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65793/pg65793.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65793/pg65793.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65793/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Desserts",
+        "Cookbooks",
+        "Cold dishes (Cooking)",
+        "Refrigerators",
+        "Cold storage",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Manufacturing Cost Data on Artificial Ice",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29375",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29375; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29375/pg29375.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29375/pg29375.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29375/pg29375.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29375/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Refrigeration and refrigerating machinery",
+        "Ice -- Manufacture",
+        "Category: Engineering & Technology",
+        "Category: Economics",
+        "TP"
+      ]
+    }
+  ],
+  "notes": "2026-08-04 audit: Books set to free full sources focused on systems, pricing, cash-flow and running a profitable HVAC/AC business. Channels/blogs retained when business-focused. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 3 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 3 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

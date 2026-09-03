@@ -1,0 +1,512 @@
+{
+  "categoryId": "business_02_provision_store_mini_mart",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCUytHzLfHi9Ed1NoY6hcjaA",
+      "name": "Jumia Nigeria Vendor University",
+      "handle": "@jumianigeriavendoruniversi885",
+      "description": "Africa's #1 e-commerce platform vendor education channel. Covers how to become a Jumia seller, manage inventory, pricing strategy, and grow product sales across Nigeria. 4.5M+ monthly visitors to the platform. Directly relevant for provision store owners wanting to add an online wholesale or retail distribution channel.",
+      "accentColor": "0xFF0369A1",
+      "initials": "JV",
+      "focus": "Vendor and seller education — how to stock, list, and sell on Africa's #1 e-commerce platform",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED TradeDepot (no dedicated YouTube channel found). Jumia Nigeria Vendor University confirmed via live fetch of youtube.com/channel/UCUytHzLfHi9Ed1NoY6hcjaA."
+    },
+    {
+      "id": "UCRApoo2RnIcX4ocFmKZwYSg",
+      "name": "Cowrywise",
+      "handle": "@Cowrywise",
+      "description": "Nigerian savings and investment fintech platform with dedicated YouTube content on building wealth, managing business cash flow, emergency funds, and investment planning. Essential for provision store owners who need to separate business and personal finances, manage float, and build reserves for bulk stocking.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "CW",
+      "focus": "Savings, investment, and money management education for Nigerian small business owners",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED Kippa Africa (no confirmed YouTube channel at @kippaafrica). Cowrywise confirmed via live fetch of youtube.com/channel/UCRApoo2RnIcX4ocFmKZwYSg."
+    },
+    {
+      "id": "UClvfiEDbTxQDT4kXDpFA43g",
+      "name": "Jumia Nigeria",
+      "handle": "@JumiaNigeriaNG",
+      "description": "Nigeria's number one online shopping destination covering electronics, fashion, home appliances, FMCG products, and more with payment-on-delivery. For provision store owners, Jumia represents both a sourcing channel (wholesale) and a distribution channel (list your store's products). Their content covers deals, campaigns, and seller opportunities across Nigeria.",
+      "accentColor": "0xFF059669",
+      "initials": "JN",
+      "focus": "Nigeria's #1 online shopping platform — e-commerce, product listings, fashion, FMCG",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED Bumpa (no confirmed YouTube channel at @getbumpa). Jumia Nigeria confirmed via live fetch of youtube.com/channel/UClvfiEDbTxQDT4kXDpFA43g."
+    },
+    {
+      "id": "UCQodXFArJzNhtdQe8tFyY5g",
+      "name": "FMCIDE Nigeria",
+      "handle": "@FMCIDENigeria",
+      "description": "Official channel of Nigeria's Federal Ministry of Communications, Innovation & Digital Economy. Covers the government's digital economy agenda, MSME digitisation programmes, e-commerce support schemes, and policy updates affecting FMCG distribution and retail business in Nigeria. Relevant for provision store owners wanting to access government support schemes.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "FM",
+      "focus": "Federal Ministry of Communications, Innovation & Digital Economy — official government channel",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED FMCGAfrica (no YouTube channel found at that handle). FMCIDE Nigeria confirmed via live fetch of youtube.com/@FMCIDENigeria."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Television",
+      "handle": "@BDTV-NG",
+      "description": "Official BusinessDay newspaper YouTube channel — tracks FMCG price movements, inflation impact on margins, and market trends affecting stock purchasing decisions for provision stores.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "BD",
+      "focus": "Nigerian business news — FMCG pricing and retail economic context",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Handle CORRECTED to @BDTV-NG."
+    },
+    {
+      "id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "name": "Learn With Shopify",
+      "handle": "@learnwithshopify",
+      "description": "Shopify's official entrepreneurship channel — how to take a retail business online, set up an e-commerce store, manage inventory digitally. Relevant for provision stores adding a delivery channel.",
+      "accentColor": "0xFF16A34A",
+      "initials": "LS",
+      "focus": "Retail business digitisation and e-commerce growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. REPLACED: CSV had 'Shopify Retail' — Shopify has one official channel."
+    },
+    {
+      "id": "UCwSEKXMVMzeDLEti4XA5rJg",
+      "name": "Connectnigeria",
+      "handle": "@connectnigeria",
+      "description": "The Official YouTube channel of ConnectNigeria.com — Nigeria's premier information portal connecting businesses and entrepreneurs. Covers how-to guides for retail businesses, provision store startup costs, stocking strategies, and marketing for Nigerian SMEs.",
+      "accentColor": "0xFFEA580C",
+      "initials": "CN",
+      "focus": "Nigeria's premier business information portal — startup guides, retail business, SME content",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED RetailOwner (handle not confirmed as a real YouTube channel). ConnectNigeria confirmed via live fetch of youtube.com/user/connectnigeria. Handle @connectnigeria."
+    },
+    {
+      "id": "UCBIAbIysVyppFIiQP9CV-zQ",
+      "name": "Flutterwave",
+      "handle": "@theflutterwave",
+      "description": "Flutterwave is Africa's leading payment infrastructure company powering millions of transactions across 34 countries. Their YouTube channel covers payment solutions for businesses, how to accept mobile payments at point of sale, e-commerce integration, and the payment infrastructure enabling provision stores to sell online and accept digital payments.",
+      "accentColor": "0xFF6D28D9",
+      "initials": "FW",
+      "focus": "Pan-African payment solutions — enabling businesses to accept and send money across Africa",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED MAX.ng (no confirmed YouTube channel at @maxng). Flutterwave confirmed via live fetch of youtube.com/@theflutterwave. Handle @theflutterwave."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCxIJaCMEptJjxmmQgGFsnCg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "YC",
+      "focus": "Provision Store/Mini-Mart: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "name": "Harvard Business Review",
+      "handle": "@HarvardBusinessReview",
+      "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
+      "accentColor": "0xFF16A34A",
+      "initials": "HB",
+      "focus": "Provision Store/Mini-Mart: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWLGZL69LhjjgGRKhcAE_w",
+      "name": "Google for Startups",
+      "handle": "@GoogleforStartups",
+      "description": "Startup growth, technology, product, marketing, and founder education.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "GF",
+      "focus": "Provision Store/Mini-Mart: Startup growth, technology, product, marketing, and founder education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "HM",
+      "focus": "Provision Store/Mini-Mart: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
+      "accentColor": "0xFF0891B2",
+      "initials": "A",
+      "focus": "Provision Store/Mini-Mart: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
+      "name": "Neil Patel",
+      "handle": "@NeilPatel",
+      "description": "Digital marketing, SEO, content, customer acquisition, and online business.",
+      "accentColor": "0xFFDB4437",
+      "initials": "NP",
+      "focus": "Provision Store/Mini-Mart: Digital marketing, SEO, content, customer acquisition, and online business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl-Zrl0QhF66lu1aGXaTbfw; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCA2CiHJ0xCLC6Dt7w5_Hxvw",
+      "name": "Money & Macro",
+      "handle": "@MoneyMacro",
+      "description": "Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "MM",
+      "focus": "Provision Store/Mini-Mart: Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCA2CiHJ0xCLC6Dt7w5_Hxvw; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOErWFfNOQzXsgE7f5S_ULw",
+      "name": "Ben Felix",
+      "handle": "@BenFelixCSI",
+      "description": "Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "accentColor": "0xFF9333EA",
+      "initials": "BF",
+      "focus": "Provision Store/Mini-Mart: Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOErWFfNOQzXsgE7f5S_ULw; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFCEuCsyWP0YkP3CZ3Mr01Q",
+      "name": "The Plain Bagel",
+      "handle": "@ThePlainBagel",
+      "description": "Investing, economics, personal finance, risk, and financial decision-making.",
+      "accentColor": "0xFFB45309",
+      "initials": "TP",
+      "focus": "Provision Store/Mini-Mart: Investing, economics, personal finance, risk, and financial decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFCEuCsyWP0YkP3CZ3Mr01Q; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLvnJL8htRR1T9cbSccaoVw",
+      "name": "Aswath Damodaran",
+      "handle": "@AswathDamodaranonValuation",
+      "description": "Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "accentColor": "0xFF475569",
+      "initials": "AD",
+      "focus": "Provision Store/Mini-Mart: Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLvnJL8htRR1T9cbSccaoVw; selected for the Provision Store/Mini-Mart learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "How to start a provision store in Nigeria — capital requirements, stocking, and location selection."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed RSS. Covers mini-mart business setup and retail entrepreneurship in Nigeria."
+    },
+    {
+      "name": "TradeDepot Blog",
+      "url": "https://tradedepot.co/blog/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "TradeDepot blog — FMCG distribution and retail stocking strategy. NOTE: URL uses tradedepot.co domain — verify correct domain before deploying (may be tradedepot.com)."
+    },
+    {
+      "name": "Kippa Blog",
+      "url": "https://kippa.africa/blog/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Kippa official blog — bookkeeping for small businesses, inventory tracking, and financial management for Nigerian retail stores."
+    },
+    {
+      "name": "Retail Owner",
+      "url": "https://retailowner.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Independent retail business operations, margins, and store management. Standard WordPress RSS format."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog/rss",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Shopify official blog — retail e-commerce, inventory management, and taking a physical store online."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Splice Nigeria — retail business stories, provision store economics, and SME market opportunities."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview at Google Books — technician/manager/entrepreneur framework essential for anyone moving from solo operator to business owner",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (f5fp.com — third-party site for a copyrighted book). Google Books preview is legitimate. Full book recommended for purchase.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter and framework at mikemichalowicz.com — take profit before expenses using envelope-style account allocation",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Official author site — free chapter available. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview at theleanstartup.com — build-measure-learn frameworks from the official author site",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (bdebooks.com — third-party site for a copyrighted book). Replaced with official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — operations, finance, marketing and HR for small businesses. No paywall, no DRM.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed academic textbook. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free complete entrepreneurship coursebook — ideation, business model design, funding, and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "HubSpot Marketing Resources",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at hubspot.com/resources — 198+ free marketing guides, templates, and ebooks. No paywall.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot — genuinely free with no paywall. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official startup guide at sba.gov — business structure, licensing, financing, and operations fundamentals",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SBA.gov — U.S. government, permanently free. No URL correction needed.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "course",
+      "freeSourceNote": "Free certification course at HubSpot Academy — complete inbound marketing curriculum with official certification on completion",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy — free with official certification. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — POLC framework: planning, organising, leading, and controlling a business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "The Treaty With China, its Provisions Explained New York Tribune, Tuesday, August 28, 1868",
+      "author": "Twain, Mark, 1835-1910",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33077",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 33077); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33077/pg33077.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33077/pg33077.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33077/pg33077.cover.small.jpg"
+      ],
+      "subject": "United States -- Foreign relations -- China",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "United States -- Foreign relations -- China",
+        "China -- Foreign relations -- United States",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Politics",
+        "DS",
+        "E660"
+      ]
+    }
+  ],
+  "integrationNotes": "3/10 channels confirmed with UCxxx IDs (BusinessDay TV, Learn With Shopify, NairametricsTV). 7 RESOLVE channels require handle verification. Real companies (TradeDepot, Kippa Africa, Bumpa, MAX.ng) likely have YouTube channels — verify before deploying. Unknown channels (RetailBusinessAfrica, FMCGAfrica, RetailOwner) — if absent at those handles, replace with verified Nigerian retail/FMCG channels. Key corrections: Shopify Retail → Learn With Shopify; BusinessDay → @BDTV-NG; Nairametrics → @NairametricsTV. TradeDepot blog: verify .co vs .com domain.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ],
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
+}

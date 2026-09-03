@@ -1,0 +1,676 @@
+{
+  "categoryId": "profession_05_accounting",
+  "status": "verified",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UCOVYQamvkiM8_aCGw6nQ7xg",
+      "name": "Value Pricing Academy",
+      "handle": "@ValuePricingAcademy",
+      "description": "Ron Baker's channel on value-based pricing — replacing hourly billing with fixed, value-aligned pricing models. Revolutionary approach to accounting firm profitability that helps Nigerian accountants move from commoditized compliance work to premium advisory services.",
+      "accentColor": "0xFF2563EB",
+      "initials": "VP",
+      "focus": "Value pricing, fixed fees, and accounting firm profitability",
+      "region": "Global",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified channel from prior profession_05 pass."
+    },
+    {
+      "id": "UC3gq--uR2KSrKb5yFLRdvKQ",
+      "name": "Corvee (formerly Andrew Argue, CPA)",
+      "handle": "@AndrewArgueCPA",
+      "description": "Andrew Argue — CPA who scaled a modern accounting firm and now teaches other accountants how to build, price, and systematize an accounting practice. Covers firm growth, client acquisition, tax planning niches, and building a location-independent accounting business.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "CV",
+      "focus": "Accounting firm growth, tax planning niches, and modern practice building",
+      "region": "Global",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified channel from prior profession_05 pass."
+    },
+    {
+      "id": "UCbyI83sd_j3FLBiViYAQKHw",
+      "name": "Long for Success, LLC",
+      "handle": "@LongforSuccess",
+      "description": "Practical accounting firm growth content — covering business advisory services, client retention, staffing, systems, and the operational challenges of scaling an accounting practice. Grounded, real-world content for accountants building serious firms.",
+      "accentColor": "0xFF16A34A",
+      "initials": "LS",
+      "focus": "Accounting firm operations, staffing, and client advisory services",
+      "region": "Global",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified channel from prior profession_05 pass."
+    },
+    {
+      "id": "UCtYFvS9h6iYkaxUh4fcrxvQ",
+      "name": "ICAN Nigeria",
+      "handle": "@ICANigeria",
+      "description": "The Institute of Chartered Accountants of Nigeria — the pre-eminent professional accounting body in Nigeria since 1965. Channel covers ACA/FCA examinations, professional development, accounting standards, and the business environment for Nigerian accountants. Essential for ICAN-certified professionals.",
+      "accentColor": "0xFF0891B2",
+      "initials": "IC",
+      "focus": "ICAN examination, Nigerian accounting standards, and professional development",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCtYFvS9h6iYkaxUh4fcrxvQ confirmed via search in prior session — ICAN Nigeria YouTube channel identified from multiple Nigerian accounting directories. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCtYFvS9h6iYkaxUh4fcrxvQ"
+    },
+    {
+      "id": "UCSeMv47DTcNzDueivGQOEYQ",
+      "name": "Intuit Accountants",
+      "handle": "@intuitaccountants",
+      "description": "Intuit Accountants (Firm of the Future) — Intuit's channel for accounting and tax professionals. Covers ProAdvisor certification, QuickBooks adoption, practice management, and the business of running a modern accounting firm. 'Helping accounting and tax professionals save time, grow their practice and serve as trusted advisors.'",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "IA",
+      "focus": "QuickBooks, accounting tech, and modern accounting practice management",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCSeMv47DTcNzDueivGQOEYQ confirmed via direct fetch. Handle @intuitaccountants. About: 'Helping accounting and tax professionals save time, grow their practice and serve as trusted advisors.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCSeMv47DTcNzDueivGQOEYQ"
+    },
+    {
+      "id": "UC00MExfC3vuP9680IUW0jLA",
+      "name": "Hector Garcia CPA",
+      "handle": "@HectorGarciaCPA",
+      "description": "Hector Garcia — practicing CPA and the world's most-watched QuickBooks tutorial creator. Shares deep QuickBooks Online and Desktop tutorials, accounting workflow automation, and how to build an efficient accounting practice using technology. Essential for accountants who serve small businesses.",
+      "accentColor": "0xFF047857",
+      "initials": "HG",
+      "focus": "QuickBooks tutorials, bookkeeping workflows, and accounting technology",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UC00MExfC3vuP9680IUW0jLA confirmed via direct fetch of youtube.com/@HectorGarciaCPA. Handle @HectorGarciaCPA. About: 'Hector Garcia, CPA sharing about QuickBooks and Accounting Videos.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC00MExfC3vuP9680IUW0jLA"
+    },
+    {
+      "id": "UC0L18TlrAa3Ym4WfiVAtA3w",
+      "name": "AICPA",
+      "handle": "@AICPAMultiMedia",
+      "description": "American Institute of CPAs — the world's largest accounting body. Their channel provides continuing education, CPA exam updates, practice management resources, and professional standards for accountants globally. A reference for any serious accounting professional regardless of country.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "AI",
+      "focus": "CPA continuing education, accounting standards, and professional development",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UC0L18TlrAa3Ym4WfiVAtA3w confirmed via direct fetch of youtube.com/user/aicpamultimedia. Handle @AICPAMultiMedia. About: 'Combining AICPA and CIMA — empower CPAs and CGMA holders.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC0L18TlrAa3Ym4WfiVAtA3w"
+    },
+    {
+      "id": "UC1Hsdln0VVAViDyFjuoOCzQ",
+      "name": "Accounting Today",
+      "handle": "@accountingtodayofficial",
+      "description": "Accounting Today — the leading information resource for public accountants serving the community of professionals providing tax prep, bookkeeping, auditing, and business advisory to individuals and small businesses. Covers accounting firm news, M&A, technology adoption, and profession trends.",
+      "accentColor": "0xFFDB2777",
+      "initials": "AT",
+      "focus": "Accounting firm industry news, trends, and professional resources",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UC1Hsdln0VVAViDyFjuoOCzQ confirmed via direct fetch — youtube.com/@accountingtodayofficial/videos. Handle @accountingtodayofficial. About: 'Accounting Today is the leading information resource for public accountants.' RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UC1Hsdln0VVAViDyFjuoOCzQ"
+    },
+    {
+      "id": "UCYJLdSmyKoXCbnd-pklMn5Q",
+      "name": "Accounting Stuff",
+      "handle": "@AccountingStuff",
+      "description": "James Hearle — Big 4 trained accountant from the UK with 1M+ subscribers and 200+ free tutorials since 2018. Covers accounting fundamentals (debits/credits, journal entries, financial statements, ratio analysis) with exceptional clarity. Ideal for Nigerian accounting students and small business owners learning the basics.",
+      "accentColor": "0xFF92400E",
+      "initials": "AS",
+      "focus": "Accounting fundamentals, bookkeeping, and financial statement education",
+      "region": "Global",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID UCYJLdSmyKoXCbnd-pklMn5Q confirmed via VidIQ stats page (vidiq.com/youtube-stats/channel/UCYJLdSmyKoXCbnd-pklMn5Q/) and YouTube community URL. Handle @AccountingStuff. Confirmed: James Hearle, Big 4 background, 1M+ subscribers since 2018. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCYJLdSmyKoXCbnd-pklMn5Q"
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "OF",
+      "focus": "Accounting: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Accounting learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "Y",
+      "focus": "Accounting: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Accounting learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "SO",
+      "focus": "Accounting: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Accounting learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "Accounting: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Accounting learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "Accounting: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Accounting learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFDB4437",
+      "initials": "V",
+      "focus": "Accounting: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Accounting learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF0F766E",
+      "initials": "S",
+      "focus": "Accounting: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Accounting learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "Accounting: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct official YouTube handle page @theschooloflifetv resolved to channel ID UC7IcJI8PUf5Z3zKxnZvTBog; verified against the official channel page on 2026-08-26."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFB45309",
+      "initials": "S",
+      "focus": "Accounting: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Accounting learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF475569",
+      "initials": "N",
+      "focus": "Accounting: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Accounting learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "CPA Trendlines",
+      "url": "https://www.cpatrendlines.com/feed",
+      "region": "Global",
+      "focus": "CPA firm market data, benchmarks, and accounting profession trends",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Pre-existing verified blog from prior profession_05 pass. RSS confirmed at cpatrendlines.com/feed."
+    },
+    {
+      "name": "Accounting Today",
+      "url": "https://www.accountingtoday.com/feed",
+      "region": "Global",
+      "focus": "Accounting firm industry news, M&A, tech adoption, and profession changes",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to verified Accounting Today YouTube channel. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Going Concern",
+      "url": "https://goingconcern.com/feed",
+      "region": "Global",
+      "focus": "Accounting firm culture, career, industry news, and Big 4 developments",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Going Concern is the #1 irreverent accounting news site. RSS at standard /feed/ path on goingconcern.com."
+    },
+    {
+      "name": "Journal of Accountancy (AICPA)",
+      "url": "https://www.journalofaccountancy.com/rss.html",
+      "region": "Global",
+      "focus": "CPA technical guidance, tax law, standards, and practice management",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Official publication of the verified AICPA YouTube channel. Journal of Accountancy (est. 1905) is the world's most authoritative CPA publication. RSS at /rss.html."
+    },
+    {
+      "name": "Firm of the Future",
+      "url": "https://www.firmofthefuture.com/feed",
+      "region": "Global",
+      "focus": "Modern accounting practice technology, QuickBooks, and firm growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Intuit's Firm of the Future blog — companion to verified Intuit Accountants YouTube channel. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Accounting Stuff Blog",
+      "url": "https://accountingstuff.com/feed",
+      "region": "Global",
+      "focus": "Accounting fundamentals, bookkeeping cheat sheets, and beginner guides",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to verified Accounting Stuff YouTube channel (James Hearle). RSS at standard /feed/ path on accountingstuff.com."
+    },
+    {
+      "name": "ICAN Nigeria News",
+      "url": "https://ican.org.ng/feed",
+      "region": "Nigeria",
+      "focus": "ICAN news, accountancy developments, and Nigerian accounting profession updates",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Companion blog to the verified ICAN Nigeria YouTube channel. Official ICAN website at ican.org.ng. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "region": "Nigeria",
+      "focus": "Accounting business ideas and bookkeeping startup guides for Nigerian entrepreneurs",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "RSS validated in prior skill integrations. Nigerian entrepreneurship publication with accounting-specific content."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "region": "Nigeria",
+      "focus": "Accounting firm startup guides and bookkeeping business ideas in Nigeria",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "RSS validated in skill_08 and skill_17. Nigerian entrepreneurship blog with accounting profession content."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Accounting Today",
+      "url": "https://www.accountingtoday.com/",
+      "region": "Global",
+      "focus": "Accounting profession, tax, technology, and practice management.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Journal of Accountancy",
+      "url": "https://www.journalofaccountancy.com/",
+      "region": "Global",
+      "focus": "Accounting, audit, tax, ethics, and professional standards.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "AICPA",
+      "url": "https://www.aicpa-cima.com/",
+      "region": "Global",
+      "focus": "Accounting, assurance, ethics, finance, and professional development.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "IFRS Foundation",
+      "url": "https://www.ifrs.org/news-and-events/",
+      "region": "Global",
+      "focus": "International financial reporting, standards, and accounting practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Federal Reserve Bank of St. Louis",
+      "url": "https://www.stlouisfed.org/on-the-economy",
+      "region": "Global",
+      "focus": "Economics, monetary policy, data, and financial systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Corporate Finance Institute",
+      "url": "https://corporatefinanceinstitute.com/resources/",
+      "region": "Global",
+      "focus": "Financial modeling, valuation, accounting, and corporate finance.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter at mikemichalowicz.com — take profit before expenses to build a financially healthy accounting business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free chapter confirmed at mikemichalowicz.com. Recommended by professional practice coaches and healthcare business advisors.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — finance, marketing, HR, and operations fundamentals for running a professional practice",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Peer-reviewed open textbook published by OpenStax (Rice University). Freely available online. Used in verified prior skill integrations.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — from idea to launch to scale for professional service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Peer-reviewed open textbook published by OpenStax (Rice University). Freely available online. Covers business planning, funding, and growth frameworks.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free guides at hubspot.com/resources — social media, SEO, and lead generation for professional service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot free resource library confirmed active at hubspot.com/resources. Used in verified prior skill integrations.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at sba.gov — step-by-step roadmap for legally registering and launching a professional practice",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free official US government resource. Universally applicable for launching a licensed professional service business anywhere.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification at HubSpot Academy — attract patients or clients to your practice through content and SEO",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Free industry-recognized certification confirmed at HubSpot Academy. Used in verified prior skill integrations.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook at openstax.org — management fundamentals for professionals building and leading a team",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Peer-reviewed open textbook published by OpenStax (Rice University). Freely available online. Covers planning, organizing, leading, and controlling a professional team.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Accounting in the Finance World",
+      "author": "University of Minnesota Libraries Publishing",
+      "freeSourceUrl": "https://biz.libretexts.org/Bookshelves/Accounting/Accounting_in_the_Finance_World",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/financial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781946135100-L.jpg"
+    },
+    {
+      "title": "Money and Banking",
+      "author": "Robert E. Wright - Author",
+      "freeSourceUrl": "https://www.saylor.org/site/textbooks/Money%20and%20Banking.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/money-and-banking",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780982043080-L.jpg"
+    },
+    {
+      "title": "Beginning Excel 2019",
+      "author": "Noreen Brown - Author / Barbara Lave - Author / Julie Romey - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/beginningexcel19/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/beginning-excel"
+    },
+    {
+      "title": "Managerial Accounting",
+      "author": "Kurt Heisinger - Author / Joe Hoyle - Author",
+      "freeSourceUrl": "https://resources.saylor.org/wwwresources/archived/site/textbooks/Managerial%20Accounting.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/managerial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781453345290-L.jpg"
+    },
+    {
+      "title": "Introduction to Financial Accounting - 2024-A-D",
+      "author": "David Annand - Author / Henry Dauderis - Author / Tilly Jensen - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/introduction-to-financial-accounting-2024-a-d-vretta-lyryx-inc-445/#question-4",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-financial-accounting"
+    },
+    {
+      "title": "Accounting Principles: A Business Perspective",
+      "author": "Roger H. Hermanson - Author / James D. Edwards - Author / Michael W. Maher - Author",
+      "freeSourceUrl": "https://openlibrary.ecampusontario.ca/item-details/?id=7eb265b3-f8b7-431c-bc1b-12e512f26f17#/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/accounting-principles-a-business-perspective"
+    },
+    {
+      "title": "Intermediate Financial Accounting - 2021-A Volume 1",
+      "author": "Glenn Arnold - Author / Suzanne Kyle - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/intermediate-financial-accounting-volume-1-2021a-lyryx-166/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-1"
+    },
+    {
+      "title": "Intermediate Financial Accounting - 2021-A Volume 2",
+      "author": "Glenn Arnold - Author / Suzanne Kyle - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/intermediate-financial-accounting-volume-2-2021a-lyryx-167/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-2"
+    },
+    {
+      "title": "Financial Strategy for Public Managers",
+      "author": "Sharon Kioko - Author / Justin Marlowe - Author",
+      "freeSourceUrl": "https://uw.pressbooks.pub/financialstrategy/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/financial-strategy-for-public-managers"
+    },
+    {
+      "title": "Principles of Financial Accounting",
+      "author": "Christine Jonick - Author",
+      "freeSourceUrl": "https://web.ung.edu/media/university-press/Principles-of-Financial-Accounting.pdf?t=1542408454385",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-financial-accounting"
+    },
+    {
+      "title": "Introduction to Financial Accounting: U.S. GAAP Adaptation - 2021-A",
+      "author": "David Annand - Author / Donna Marchand - Author / Henry Dauderis - Author",
+      "freeSourceUrl": "https://oer.usk.ac.id/files/original/9166224f9de5ddaa52c8902c2cd8af5e.pdf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-financial-accounting-u-s-gaap-adaptation"
+    },
+    {
+      "title": "Principles of Accounting Volume 1 Financial Accounting",
+      "author": "Contributing Authors - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-financial-accounting",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-accounting-volume-1-financial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172678-L.jpg"
+    },
+    {
+      "title": "Principles of Accounting Volume 2 Managerial Accounting",
+      "author": "Contributing Authors - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-managerial-accounting",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-accounting-volume-2-managerial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172593-L.jpg"
+    },
+    {
+      "title": "Principles of Managerial Accounting",
+      "author": "Christine Jonick - Author",
+      "freeSourceUrl": "https://web.ung.edu/media/university-press/Principles%20of%20Managerial%20Accounting.pdf?t=1661449521181",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-fo-managerial-accounting",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781940771458-L.jpg"
+    },
+    {
+      "title": "Sistema de Costos por Órdenes de Producción para PYMES",
+      "author": "Rosa Verónica Núñez-Liberio - Author / Marco Vinicio Suarez-Núñez - Author / Cecilia Mercedes Navarrete-Zambrano - Author / Silvana Elizabeth Ruiz-López - Author / Patricia Yajaira Almenaba-Guerrero - Author",
+      "freeSourceUrl": "https://www.editorialgrupo-aea.com/index.php/EditorialGrupoAEA/catalog/view/26/43/137",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sistema-de-costos-por-ordenes-de-produccion-para-pymes",
+      "coverUrl": "https://www.editorialgrupo-aea.com/imagenes/Logo_Editorial_Grupo_AEA.png",
+      "coverCandidates": [
+        "https://www.editorialgrupo-aea.com/imagenes/Logo_Editorial_Grupo_AEA.png"
+      ]
+    },
+    {
+      "title": "Principles of Strategic Management Accounting",
+      "author": "Stijn Masschelein - Author",
+      "freeSourceUrl": "https://oercollective.caul.edu.au/principles-strategic-management-accounting/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/principles-of-strategic-management-accounting"
+    },
+    {
+      "title": "Financial and Managerial Accounting",
+      "author": "Lolita Paff - Author",
+      "freeSourceUrl": "https://psu.pb.unizin.org/acctg211/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/financial-and-managerial-accounting"
+    },
+    {
+      "title": "Gateway to Business Analytics with Microsoft Excel®",
+      "author": "Humberto Barreto - Author",
+      "freeSourceUrl": "https://pressbooks.palni.org/gatewaytobusinessanalytics/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/gateway-to-business-analytics-with-microsoft-excel"
+    },
+    {
+      "title": "The Most EXCELlent OER Spreadsheets Textbook Published (in 2025)",
+      "author": "Marcus Lacher - Author",
+      "freeSourceUrl": "https://minnstate.pressbooks.pub/spreadsheets2025/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Business - Accounting; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-most-excellent-oer-spreadsheets-textbook-published-in-2025"
+    }
+  ],
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 19 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI."
+  ],
+  "notes": "2026-08-23: Added 19 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+}

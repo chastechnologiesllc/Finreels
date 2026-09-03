@@ -1,0 +1,789 @@
+{
+  "categoryId": "profession_08_estate_management_surveying",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UC4lH-odQ5ll-85fkpWxDYmA",
+      "name": "Steven Ndukwu",
+      "handle": "@StevenNdukwu",
+      "description": "Nigerian real estate developer with 774K+ subscribers — documents real estate development, property investment and estate management in Africa. Most-subscribed Nigerian real estate YouTube channel.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "SN",
+      "focus": "Nigerian real estate development, investment and estate management",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via FeedSpot Nigeria Real Estate YouTube Channels 2026 directory. Replaces NIESV (Nigerian Institution of Estate Surveyors and Valuers — professional body with no active YouTube channel). 2026-07-24."
+    },
+    {
+      "id": "UCHYod0MG2RP1hcYJ7FX534A",
+      "name": "Eden Oasis",
+      "handle": "@EdenOasis",
+      "description": "Nigeria's largest commercial and residential real estate sales organisation on YouTube — 102K+ subscribers. Covers property valuation, commercial real estate deals and estate management in Nigeria.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EO",
+      "focus": "Nigerian commercial real estate sales and estate management",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via FeedSpot Nigeria Real Estate YouTube Channels 2026 directory. Replaces ESVARBON (Estate Surveyors Registration Board — government regulatory body with no active YouTube channel). 2026-07-24."
+    },
+    {
+      "id": "UCWIhPRM3fGG0apcq1b7WMhg",
+      "name": "RICS — Royal Institution of Chartered Surveyors",
+      "handle": "@RICS",
+      "description": "Everything designed to effect positive change in the built and natural environments — global surveying and valuation standards, professional progression and trusted market data.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "RI",
+      "focus": "Global surveying, valuation and land management standards",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCWIhPRM3fGG0apcq1b7WMhg). 2026-07-24."
+    },
+    {
+      "id": "UCVWDbXqQ8cupuVpotWNt2eg",
+      "name": "BiggerPockets",
+      "handle": "@BiggerPockets",
+      "description": "Teaches everyday people how to build wealth through real estate — covers valuation, investing strategy, property management and agency business models. No get-rich-quick schemes.",
+      "accentColor": "0xFFEC4899",
+      "initials": "BP",
+      "focus": "Real estate valuation, investing and agency business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCVWDbXqQ8cupuVpotWNt2eg). 2026-07-24."
+    },
+    {
+      "id": "UCjhQIV6xPRiYLj2kWElMbjg",
+      "name": "Comfort Properties",
+      "handle": "@ComfortProperties",
+      "description": "Nigerian real estate agency and property management company — 24.8K+ subscribers. Covers agency business operations, client acquisition, property management and the Nigerian real estate market.",
+      "accentColor": "0xFFEF4444",
+      "initials": "CP",
+      "focus": "Nigerian real estate agency and property management business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via FeedSpot Nigeria Real Estate YouTube Channels 2026 directory. Replaces 'Nigerian Real Estate Hub' which could not be confirmed as a specific YouTube channel. 2026-07-24."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Nigeria",
+      "handle": "@BusinessDayNG",
+      "description": "Nigeria's leading business newspaper — covers real estate valuations, property market analysis and estate management sector news.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "BD",
+      "focus": "Nigerian property market news and valuation analysis",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCsVZWCV-LutMa89JgR8-KGw). 2026-07-24."
+    },
+    {
+      "id": "UC6mGHNrWBOD12iqKCHqxmZw",
+      "name": "Appraisal Institute",
+      "handle": "@AINational",
+      "description": "US-based professional body for real estate appraisers — covers valuation standards, the business of appraisal practice and professional development for property valuers worldwide.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "AI",
+      "focus": "Real estate valuation and appraisal business standards",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UC6mGHNrWBOD12iqKCHqxmZw). 2026-07-24."
+    },
+    {
+      "id": "UCIf6t3gpKr_D46xuWlj9UAQ",
+      "name": "Knowledge at Wharton",
+      "handle": "@KnowledgeAtWharton",
+      "description": "Online business journal of The Wharton School of UPenn — covers real estate economics, property investment strategy and business education for estate management professionals.",
+      "accentColor": "0xFF16A34A",
+      "initials": "WH",
+      "focus": "Real estate economics and estate management business education",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed via YouTube search result (youtube.com/channel/UCIf6t3gpKr_D46xuWlj9UAQ). Replaces 'Land Economy Channel' which does not exist as a specific YouTube channel. 2026-07-24."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "OF",
+      "focus": "Estate Management/Surveying: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Estate Management/Surveying learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "Y",
+      "focus": "Estate Management/Surveying: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Estate Management/Surveying learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "SO",
+      "focus": "Estate Management/Surveying: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Estate Management/Surveying learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "Estate Management/Surveying: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Estate Management/Surveying learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "Estate Management/Surveying: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Estate Management/Surveying learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFDB4437",
+      "initials": "V",
+      "focus": "Estate Management/Surveying: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Estate Management/Surveying learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF0F766E",
+      "initials": "S",
+      "focus": "Estate Management/Surveying: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Estate Management/Surveying learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "Estate Management/Surveying: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct official YouTube handle page @theschooloflifetv resolved to channel ID UC7IcJI8PUf5Z3zKxnZvTBog; verified against the official channel page on 2026-08-26."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFB45309",
+      "initials": "S",
+      "focus": "Estate Management/Surveying: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Estate Management/Surveying learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF475569",
+      "initials": "N",
+      "focus": "Estate Management/Surveying: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Estate Management/Surveying learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "NIESV Blog",
+      "url": "https://niesv.org.ng/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: estate_management_surveying_resources.csv. Estate valuation, practice and advocacy in Nigeria. Standard /feed — confirm before ship."
+    },
+    {
+      "name": "ESVARBON News",
+      "url": "https://esvarbon.gov.ng/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Estate surveying registration in Nigeria. Government site — may not publish RSS; check before ship."
+    },
+    {
+      "name": "RICS News",
+      "url": "https://www.rics.org/news-insights/rss",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Global surveying and valuation standards. RICS publishes RSS at /news-insights/rss — confirm this path."
+    },
+    {
+      "name": "BiggerPockets Blog",
+      "url": "https://www.biggerpockets.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Real estate valuation, investing and agency. Standard WordPress /feed."
+    },
+    {
+      "name": "PropertyPro.ng Blog",
+      "url": "https://blog.propertypro.ng/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Nigerian real estate market and valuation. Standard WordPress /feed."
+    },
+    {
+      "name": "Nigerian Real Estate Hub",
+      "url": "https://nigerianrealestatehub.com/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Agency, valuation and property management trends. Standard /feed — confirm before ship."
+    },
+    {
+      "name": "Entrepreneurs.ng Surveying",
+      "url": "https://entrepreneurs.ng/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Source: CSV. Estate management business guide. Feed confirmed active in prior sessions."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService resolves RSS/Atom alternates and conventional feed paths at runtime."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free resources + chapter access at author's official site",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL confirmed live in prior skill sessions.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Completely free peer-reviewed textbook — download PDF or read online, no signup",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax is a verified free publisher from Rice University. URL confirmed live.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Completely free peer-reviewed management textbook from OpenStax",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax confirmed live. Covers business operations, leadership and scaling.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Business Ethics",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/business-ethics",
+      "freeSourceType": "web",
+      "freeSourceNote": "Completely free peer-reviewed business ethics textbook from OpenStax",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax confirmed live. Covers ethical standards directly relevant to licensed professions.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172174-L.jpg"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free U.S. government guide — no signup required",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SBA.gov is the official US government small business site. Confirm exact guide page URL before ship.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification — covers inbound strategy for professional service firms",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy confirmed free. Course available without payment.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/digital-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy course — digital marketing for service businesses",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy confirmed free.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "A start in life. A journey across America. Fruit farming in California",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12022",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12022; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12022/pg12022.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12022/pg12022.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12022/pg12022.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/12022/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "California -- Description and travel",
+        "United States -- Description and travel",
+        "Agriculture -- California",
+        "Urbanization -- California",
+        "Real estate development -- California",
+        "Fruit-culture -- California",
+        "Ethnic groups -- California",
+        "Category: Travel Writing",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: How To ...",
+        "E151"
+      ]
+    },
+    {
+      "title": "Incidents on land and water",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75851",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75851; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75851/pg75851.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75851/pg75851.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75851/pg75851.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/75851/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "California -- Description and travel",
+        "Voyages to the Pacific coast",
+        "Urbanization -- California",
+        "Real estate development -- California",
+        "Business -- California",
+        "California -- Gold discoveries",
+        "Ethnic groups -- California",
+        "Category: Biographies",
+        "Category: Adventure",
+        "Category: Travel Writing",
+        "Category: History - American",
+        "F850.5"
+      ]
+    },
+    {
+      "title": "Narrative of the surveying voyages of His Majesty's ships Adventure and Beagle, between the years 1826 and 1836. Volume I. Proceedings of the First Expedition, 1826-1830",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38961",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38961; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38961/pg38961.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38961/pg38961.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38961/pg38961.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38961/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Beagle Expedition (1831-1836)",
+        "South America -- Description and travel",
+        "Natural history -- South America",
+        "Indians of South America -- Patagonia (Argentina and Chile)",
+        "Patagonia (Argentina and Chile) -- Description and travel",
+        "Adventure and Beagle expedition (1826-1830)",
+        "Fuegians",
+        "Travel",
+        "Category: Travel Writing",
+        "Category: History - Modern (1750+)",
+        "Category: Environmental Issues",
+        "Category: Archaeology & Anthropology",
+        "G",
+        "F2801"
+      ]
+    },
+    {
+      "title": "Surveying and Levelling Instruments, Theoretically and Practically Described.\r\nFor construction, qualities, selection, preservation, adjustments, and uses; with other apparatus and appliances used by civil engineers and surveyors in the field.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63834",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63834; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63834/pg63834.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63834/pg63834.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63834/pg63834.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63834/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Surveying -- Instruments",
+        "Category: Engineering & Technology",
+        "TA"
+      ]
+    },
+    {
+      "title": "Adobe days",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74799",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74799; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/74799/pg74799.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/74799/pg74799.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/74799/pg74799.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/74799/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Agriculture -- California",
+        "Urbanization -- California",
+        "Real estate development -- California",
+        "Mines and mineral resources -- California",
+        "Ethnic groups -- California",
+        "Women -- California",
+        "Bixby Smith, Sarah, 1871-1935 -- Childhood and youth",
+        "Sheep ranches -- California",
+        "Frontier and pioneer life -- California -- Los Angeles",
+        "Los Angeles (Calif.) -- Biography",
+        "Los Angeles (Calif.) -- History",
+        "Category: Biographies",
+        "Category: History - American",
+        "F850.5"
+      ]
+    },
+    {
+      "title": "California, 1849-1913; Or, The Rambling Sketches and Experiences of Sixty-four Years' Residence in that State",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4638",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4638; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4638/pg4638.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4638/pg4638.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4638/pg4638.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4638/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Frontier and pioneer life -- California",
+        "Urbanization -- California",
+        "Real estate development -- California",
+        "Business -- California",
+        "Law -- Political aspects -- California",
+        "Mines and mineral resources -- California",
+        "Category: Biographies",
+        "Category: Adventure",
+        "Category: History - American",
+        "F850.5"
+      ]
+    },
+    {
+      "title": "Hints to Travellers, Scientific and General, Vol. 2\r\nTenth edition, revised and corrected",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67668",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67668; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67668/pg67668.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67668/pg67668.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67668/pg67668.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67668/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Topographical surveying",
+        "Scientific expeditions -- Handbooks, manuals, etc.",
+        "Spherical astronomy",
+        "Category: Travel Writing",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: How To ...",
+        "Q"
+      ]
+    },
+    {
+      "title": "Our Italy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28506",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #28506; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28506/pg28506.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28506/pg28506.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28506/pg28506.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/28506/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Agriculture -- California",
+        "Urbanization -- California",
+        "Real estate development -- California",
+        "Business -- California",
+        "California, Southern -- Description and travel",
+        "Category: Travel Writing",
+        "Category: Science - Earth/Agricultural/Farming",
+        "F850.5"
+      ]
+    },
+    {
+      "title": "The Adventures of a Forty-niner\r\nAn Historic Description of California, with Events and Ideas of San Francisco and Its People in Those Early Days",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12518",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12518; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12518/pg12518.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12518/pg12518.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12518/pg12518.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/12518/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "California -- Description and travel",
+        "San Francisco (Calif.) -- History",
+        "Urbanization -- California",
+        "Real estate development -- California",
+        "Business -- California",
+        "California -- Gold discoveries",
+        "Category: Biographies",
+        "Category: Adventure",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "F850.5"
+      ]
+    },
+    {
+      "title": "The land of gold; reality versus fiction",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69295",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69295; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69295/pg69295.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69295/pg69295.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69295/pg69295.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69295/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "California -- Description and travel",
+        "Voyages to the Pacific coast",
+        "Urbanization -- California",
+        "Real estate development -- California",
+        "California -- Gold discoveries",
+        "Law -- Political aspects -- California",
+        "Ethnic groups -- California",
+        "Category: Travel Writing",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "F850.5"
+      ]
+    },
+    {
+      "title": "Valuation of Real Estate in the Town of Acton. November 2, 1850.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66705",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66705; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66705/pg66705.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66705/pg66705.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66705/pg66705.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66705/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Real property -- Valuation -- Massachusetts -- Acton -- History",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: Economics",
+        "HD"
+      ]
+    },
+    {
+      "title": "Journal of my journey over the mountains while surveying for Lord Thomas Fairfax, baron of Cameron, in the northern neck of Virginia, beyond the Blue Ridge, in 1747-8.",
+      "author": "Washington, George, 1732-1799; Toner, Joseph M. (Joseph Meredith), 1825-1896 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52395",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52395); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52395/pg52395.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52395/pg52395.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52395/pg52395.cover.small.jpg"
+      ],
+      "subject": "Virginia -- Description and travel -- Early works to 1800",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Virginia -- Description and travel -- Early works to 1800",
+        "Washington, George, 1732-1799 -- Travel -- Shenandoah River Valley (Va. and W. Va.)",
+        "Washington, George, 1732-1799 -- Diaries",
+        "Shenandoah River Valley (Va. and W. Va.) -- Description and travel -- Early works to 1800",
+        "Category: Biographies",
+        "Category: Travel Writing",
+        "Category: History - American",
+        "E300"
+      ]
+    }
+  ],
+  "notes": "All 10 channels fully verified with confirmed UC* IDs (2026-07-24). Replacements: NIESV (no YouTube) → Steven Ndukwu (774K subs, top Nigerian real estate channel); ESVARBON (no YouTube — government body) → Eden Oasis (102K subs, Nigeria's largest commercial RE channel); Nigerian Real Estate Hub (not confirmed) → Comfort Properties (24.8K subs); Land Economy Channel (does not exist) → Knowledge at Wharton. All replacements confirmed via FeedSpot Nigeria Real Estate 2026 directory or YouTube search. Blogs: ESVARBON is a government site. RICS uses a specific /news-insights/rss path. Connect Nigeria flagged. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 11 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 11 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

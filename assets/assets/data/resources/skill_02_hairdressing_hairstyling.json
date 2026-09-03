@@ -1,0 +1,1093 @@
+{
+  "categoryId": "skill_02_hairdressing_hairstyling",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UC5_ZJ2QMb-19TLKDl6JuVbg",
+      "name": "Louis Ihuefo",
+      "handle": "@Louisihuefo",
+      "description": "Lagos-based hairstylist and YouTuber — self-described 'No 1 hairstylist and YouTuber in Africa'. Runs paid workshops teaching the hairstyling trade alongside tutorial content.",
+      "accentColor": "0xFFEC4899",
+      "initials": "LI",
+      "focus": "Hairstyling business & workshops",
+      "verifiedOn": "2026-07-11",
+      "verificationMethod": "Cross-corroborated across 4 independent search results (channel page + 3 video pages) all pointing to the same channel ID; self-description and Lagos workshop link confirm topical + regional match."
+    },
+    {
+      "id": "UCAh3w8uN7SWB0QYFJ8AZH_A",
+      "name": "Grow My Salon Business",
+      "handle": "@Growmysalonbusiness",
+      "description": "Led by Antony Whitaker — short, practical videos for beauty and salon owners on running the business side of a salon, from a coach who has trained hairdressers, salon managers and their teams in 50+ countries.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "GM",
+      "focus": "Salon management and growth",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCAh3w8uN7SWB0QYFJ8AZH_A); About-section content matches the source directory's description and the founder's own growmysalonbusiness.com site."
+    },
+    {
+      "id": "UCX-yMj_mwNUL37OrGGvWDXg",
+      "name": "Thriving Stylist (Britt Seva)",
+      "handle": "@BrittSeva",
+      "description": "Britt Seva, Social Media & Marketing Strategist for hair stylists — the YouTube home of the Thriving Stylist brand and podcast, covering marketing and business-building for stylists and salon owners.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "TS",
+      "focus": "Business-focused content for hair professionals",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory listed the brand handle '@thrivingstylist', which YouTube no longer resolves directly; fetched the channel's current canonical URL (youtube.com/c/BrittSeva) and confirmed it is the same Thriving Stylist brand/host (thrivingstylist.com, same podcast) now publishing under creator name 'Britt Seva'."
+    },
+    {
+      "id": "UCa4WbwzCsrQENRkKyHCxsPw",
+      "name": "iKhokha",
+      "handle": "@ikhokha",
+      "description": "South African fintech offering card machines, payment gateways and business tools for small businesses, including salons — publishes free courses/webinars on using payments and social platforms to grow a business.",
+      "accentColor": "0xFF10B981",
+      "initials": "IK",
+      "focus": "Salon business guide with payment solutions",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/Ikhokha); About-section confirms it is the official iKhokha company channel matching ikhokha.com."
+    },
+    {
+      "id": "UCknS--yNghlON5C3TlHiTWw",
+      "name": "Tabatha Coffey",
+      "handle": "@TabathaCoffey",
+      "description": "Australian hairstylist, salon owner and Bravo TV personality (Tabatha's Salon Takeover / Tabatha Takes Over) — covers the reality of turning around struggling salon businesses.",
+      "accentColor": "0xFFEF4444",
+      "initials": "TC",
+      "focus": "Bravo TV personality covering salon business reality",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@TabathaCoffey); identity cross-confirmed against Wikipedia bio (hairstylist, salon owner, Tabatha Takes Over host)."
+    },
+    {
+      "id": "UCUUOUXV5xmEqGWGf9eUyjdQ",
+      "name": "Sam Villa Hair Tutorials",
+      "handle": "@SamVillaHair",
+      "description": "Sam Villa, Redken Global Artistic Ambassador — free cutting/styling education plus business systems content for salon owners and stylists, from a 30-year hair educator with 500k+ subscribers.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "SV",
+      "focus": "Business systems for salon owners and stylists",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Channel ID cross-confirmed via a third-party YouTube analytics listing (vidiq) referencing the 'Sam Villa Hair Tutorials' channel; identity matched against Beauty Launchpad and Luxy Hair profiles of Sam Villa. Not fetched directly from the channel page itself — worth a direct confirm before shipping."
+    },
+    {
+      "id": "UCnFzOCx_dheaB5yUjVnzjSw",
+      "name": "The Salon Business",
+      "handle": "@TheSalonBusiness",
+      "description": "Powered by Mangomint (salon/spa software) — practical marketing ideas and free weekly education for hair salon, nail salon, spa, beauty salon, and barbershop owners.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "SB",
+      "focus": "Salon marketing and growth",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Same channel already independently verified for business_08_salon_barbing_beauty_spa (direct channel-page fetch, ID UCnFzOCx_dheaB5yUjVnzjSw); reused here since salon/spa marketing education is directly on-topic for hairdressing business."
+    },
+    {
+      "id": "UCmi9wFeEZCV9gMDO-Sw_F-w",
+      "name": "TheSalonGuy",
+      "handle": "@TheSalonGuy",
+      "description": "1.1M+ subscriber channel from a 30-year salon, fashion and media industry veteran — haircut tutorials, styling tips, and a full brand including haircare products, books and courses.",
+      "accentColor": "0xFFF97316",
+      "initials": "SG",
+      "focus": "Haircut tutorials, styling & personal brand-building",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/TheSalonGuy → channel/UCmi9wFeEZCV9gMDO-Sw_F-w); About-section confirms salon/hairstyling focus and subscriber count."
+    },
+    {
+      "id": "UCc9Tp0Ctm-MVOU6DBw9xLRg",
+      "name": "SalonBiz",
+      "handle": "@SalonBiz",
+      "description": "Salon and spa management software company (est. 1984, Denver CO) — client engagement, staff scheduling and business-operations content for salon owners.",
+      "accentColor": "0xFF6366F1",
+      "initials": "SB",
+      "focus": "Salon business software & operations",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCc9Tp0Ctm-MVOU6DBw9xLRg); identity cross-confirmed against SalonBiz's own site (salonbizsoftware.com) and LinkedIn/Crunchbase profiles."
+    },
+    {
+      "id": "UCoU7oC0WD6vDkEC6X7kfg3g",
+      "name": "The Beauty Biz Agency",
+      "handle": "@thebeautybizagency",
+      "description": "Explicitly for salon owners, spa owners, beauty business owners and independent stylists — salon leadership, pricing for profit, team management, client retention.",
+      "accentColor": "0xFFEC4899",
+      "initials": "BB",
+      "focus": "Salon/spa business systems, pricing, team management",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Same channel already independently verified for business_08_salon_barbing_beauty_spa (direct channel-page fetch, ID UCoU7oC0WD6vDkEC6X7kfg3g); reused here since it's directly on-topic for hairdressing/salon business."
+    },
+    {
+      "id": "UCeasbjVyx227l2ETO-xAssw",
+      "name": "Free Salon Education",
+      "handle": "@FreeSalonEducation",
+      "description": "Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "FS",
+      "focus": "Hairdressing & Hairstyling: Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCeasbjVyx227l2ETO-xAssw; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChWcYTNVbFfBDbjWnhdHrBw",
+      "name": "Brad Mondo",
+      "handle": "@BradMondo",
+      "description": "Hair color, haircut analysis, salon technique, and hair-care education.",
+      "accentColor": "0xFF16A34A",
+      "initials": "BM",
+      "focus": "Hairdressing & Hairstyling: Hair color, haircut analysis, salon technique, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChWcYTNVbFfBDbjWnhdHrBw; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCEcT5Ttsnl3kBMqyHmojobQ",
+      "name": "Makeup by Mario",
+      "handle": "@MakeupbyMARIO",
+      "description": "Professional makeup artistry, complexion, technique, and product application.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "MB",
+      "focus": "Hairdressing & Hairstyling: Professional makeup artistry, complexion, technique, and product application.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCEcT5Ttsnl3kBMqyHmojobQ; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFghPtzFcmyDiID1ASMA4Dg",
+      "name": "Lisa Eldridge",
+      "handle": "@LisaEldridge",
+      "description": "Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "LE",
+      "focus": "Hairdressing & Hairstyling: Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFghPtzFcmyDiID1ASMA4Dg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCS7mVvlpXr7Rd7opwQbvgjQ",
+      "name": "Jackie Aina",
+      "handle": "@JackieAina",
+      "description": "Makeup technique, product education, representation, and beauty industry knowledge.",
+      "accentColor": "0xFF0891B2",
+      "initials": "JA",
+      "focus": "Hairdressing & Hairstyling: Makeup technique, product education, representation, and beauty industry knowledge.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCS7mVvlpXr7Rd7opwQbvgjQ; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWOzDU-st_OsZHNrOEPjR4Q",
+      "name": "The Makeup Chair",
+      "handle": "@TheMakeupChair",
+      "description": "Makeup fundamentals, application, face structure, and technique.",
+      "accentColor": "0xFFDB4437",
+      "initials": "TM",
+      "focus": "Hairdressing & Hairstyling: Makeup fundamentals, application, face structure, and technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWOzDU-st_OsZHNrOEPjR4Q; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCzTKskwIc_-a0cGvCXA848Q",
+      "name": "NikkieTutorials",
+      "handle": "@NikkieTutorials",
+      "description": "Makeup artistry, product technique, creative looks, and beauty communication.",
+      "accentColor": "0xFF0F766E",
+      "initials": "N",
+      "focus": "Hairdressing & Hairstyling: Makeup artistry, product technique, creative looks, and beauty communication.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCzTKskwIc_-a0cGvCXA848Q; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_L8_r3xbfLZnQWX8vKaStg",
+      "name": "Hairlicious Inc",
+      "handle": "@HairliciousInc",
+      "description": "Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "accentColor": "0xFF9333EA",
+      "initials": "HI",
+      "focus": "Hairdressing & Hairstyling: Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_L8_r3xbfLZnQWX8vKaStg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkGyDv3DZjIa4wYsb1aUPaA",
+      "name": "Manes by Mell",
+      "handle": "@ManesByMell",
+      "description": "Curly hair science, technique, routines, and hair-care education.",
+      "accentColor": "0xFFB45309",
+      "initials": "MB",
+      "focus": "Hairdressing & Hairstyling: Curly hair science, technique, routines, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkGyDv3DZjIa4wYsb1aUPaA; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF475569",
+      "initials": "OF",
+      "focus": "Hairdressing & Hairstyling: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "Y",
+      "focus": "Hairdressing & Hairstyling: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SO",
+      "focus": "Hairdressing & Hairstyling: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "KA",
+      "focus": "Hairdressing & Hairstyling: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "C",
+      "focus": "Hairdressing & Hairstyling: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFF0891B2",
+      "initials": "V",
+      "focus": "Hairdressing & Hairstyling: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFFDB4437",
+      "initials": "S",
+      "focus": "Hairdressing & Hairstyling: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF0F766E",
+      "initials": "TS",
+      "focus": "Hairdressing & Hairstyling: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct official YouTube handle page @theschooloflifetv resolved to channel ID UC7IcJI8PUf5Z3zKxnZvTBog; verified against the official channel page on 2026-08-26."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFF9333EA",
+      "initials": "S",
+      "focus": "Hairdressing & Hairstyling: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFFB45309",
+      "initials": "N",
+      "focus": "Hairdressing & Hairstyling: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF475569",
+      "initials": "3",
+      "focus": "Hairdressing & Hairstyling: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the Hairdressing & Hairstyling learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 'How To Set Up, Run & Start a Hair Salon in Nigeria' on Splice's blog. Note: a related Splice feed (blog.withsplice.com/feed/) is already used for skill_03 (Barbing) and business_08 (Salon/Barbing/Spa) — worth a duplicate check between the two domains before shipping."
+    },
+    {
+      "name": "Shopify Nigeria Blog",
+      "url": "https://www.shopify.com/ng/blog.atom",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: '12 Hair Salon Promotions' article covering client retention and loyalty, on Shopify's Nigeria blog."
+    },
+    {
+      "name": "Grow My Salon Business",
+      "url": "https://growmysalonbusiness.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Antony Whitaker's own salon-management blog, matching the verified channel above."
+    },
+    {
+      "name": "Salon Business Boss",
+      "url": "https://salonbusinessboss.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed real, active blog (salonbusinessboss.com) run by Shawn Chun / Honest Business Plans LLC, with salon-specific operations and marketing articles. The companion YouTube channel in the source directory could not be independently confirmed this round (see notes)."
+    },
+    {
+      "name": "Thriving Stylist",
+      "url": "https://thrivingstylist.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Britt Seva's business-education site for independent stylists, matching the verified channel above."
+    },
+    {
+      "name": "Pesabook (Kenya)",
+      "url": "https://www.pesabook.co.ke/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: profit-margin math and financial-planning content for salons, from a Kenyan financial-tools platform."
+    },
+    {
+      "name": "iKhokha",
+      "url": "https://www.ikhokha.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Salon guide with payment integration, on the official iKhokha blog — matches the verified channel above."
+    },
+    {
+      "name": "Melan Magazine",
+      "url": "https://melanmagazine.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: interview with a Ghanaian-born London salon owner."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://bintusart.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: salon business guide covering WhatsApp marketing, Nigeria-focused."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "The Fantastic Hairdresser — Free Blog",
+      "author": "Alan Austin-Smith",
+      "freeSourceUrl": "https://www.thefantastichairdresser.com/blog",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free business-growth articles for salon professionals from the author of the 'Hairdressers Bible' — covers motivation, team management, client experience, and salon profitability.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://thefantastichairdresser.com/resources not found in any search index (2026-07-30). Replaced with /blog — confirmed active via web search (search snippet: 'GROW YOUR SALON BUSINESS FOR FREE! THIS BLOG WILL OFFER VALUABLE, SOUND ADVICE/TIPS FOR ANY INDIVIDUAL IN THE HAIR AND BEAUTY INDUSTRY.').",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781907333002-L.jpg"
+    },
+    {
+      "title": "Salon Business Start-Up Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, complete small-business startup guide from the U.S. Small Business Administration — covers planning, launch, management, and growth. Fully applicable to opening a hair salon.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.sba.gov/business-guide/salon returned 404 — SBA has no /salon subpage (confirmed via web search, 2026-07-30). Replaced with the canonical SBA business guide landing page sba.gov/business-guide — a stable U.S. government domain URL.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Million Dollar Stylist",
+      "author": "Marquetta Breslin",
+      "freeSourceUrl": "https://www.marquettabreslin.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official site of Million Dollar Stylist author Marquetta Breslin — free business articles, coaching resources, and blog posts for hair stylists and beauty professionals.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://marquettabreslin.com/free-resources not found in any search index (2026-07-30). Replaced with the confirmed-active root domain marquettabreslin.com — author's official site with free blog content confirmed via web search.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780578011011-L.jpg"
+    },
+    {
+      "title": "GROW Your Salon Business — Free Resources",
+      "author": "Antony Whitaker",
+      "freeSourceUrl": "https://growmysalonbusiness.com/free-resources/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free PDF guides, checklists, and audio from Antony Whitaker — includes the '15 Traits of Top Stylists' guide, a Salon Management Checklist, and the Six Pillars of Salon Success audio. No payment required.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://growmysalonbusiness.com/podcast status uncertain. Upgraded to /free-resources/ — confirmed active via web search (search snippet confirms free PDFs and audio guides available, last indexed May 2026).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781907333002-L.jpg"
+    },
+    {
+      "title": "Hair Salon Marketing Guide",
+      "author": "Shopify",
+      "freeSourceUrl": "https://www.shopify.com/blog/salon-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free 2025 salon marketing guide from Shopify — covers social media, Google presence, client retention, before-and-after content, reviews, and loyalty programs. No signup required.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://blog.hubspot.com/marketing/hair-salon-marketing not found in HubSpot sitemap or search index (2026-07-30). Replaced with Shopify's comprehensive salon marketing guide — confirmed active via web search (search snippet: 'As of 2025, the beauty salon market sits at a $264.93 billion valuation... salon marketing best practices', last indexed 2025).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build systems that work without the owner. Directly applicable to running a salon.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://f5fp.com/e-myth-revisited-free-pdf loads F5 Financial advisory firm (wrong page — confirmed broken in skill_01 in-app testing, 2026-07-30). Replaced with Internet Archive copy — free PDF confirmed accessible via web search (direct PDF at ia801708.us.archive.org).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — cash-flow management system that allocates profit first, keeping small service businesses solvent. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.mikemichalowicz.com/profit-first-book returned blank/black screen (confirmed broken in skill_01 in-app testing, 2026-07-30). Replaced with Internet Archive borrowable copy confirmed via web search.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Building a StoryBrand (free framework)",
+      "author": "Donald Miller",
+      "freeSourceUrl": "https://storybrand.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official StoryBrand site with free marketing-messaging framework overview, weekly video tips from Donald Miller, and resources to clarify your salon's brand message so clients take action.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://storybrand.com/free-resources not found in any search index (2026-07-30). Replaced with the root domain storybrand.com — confirmed active via web search (site offers free weekly videos and framework overview).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781400201839-L.jpg"
+    },
+    {
+      "title": "1-Page Marketing Plan (free canvas template)",
+      "author": "Allan Dib",
+      "freeSourceUrl": "https://successwise.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free downloadable 1-Page Marketing Plan canvas from Allan Dib's official site — the 9-square template lets you map your entire salon marketing strategy on a single page. Email opt-in required to download.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://1pagemarketingplan.com/resources likely dead — Allan Dib moved to successwise.com (confirmed via multiple sources: podcast transcripts, Shortform book notes, and author bios all cite successwise.com as his current site, 2026-07-30).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781619613348-L.jpg"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open-license textbook from OpenStax covering management fundamentals — planning, organising, leading, and controlling. Fully applicable to running and scaling a hair salon business.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no book by that slug (confirmed via web search, 2026-07-30). Replaced with openstax.org/details/books/principles-management — confirmed active (© Apr 23, 2026 OpenStax, indexed in search results).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Board-Work; or the Art of Wig-making, Etc. Designed For the Use of Hairdressers and Especially of Young Men in the Trade. To Which Is Added Remarks Upon Razors, Razor-sharpening, Razor Strops, & Miscellaneous Recipes, Specially Selected.",
+      "author": "Creer, Edwin",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58636",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58636); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58636/pg58636.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58636/pg58636.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58636/pg58636.cover.small.jpg"
+      ],
+      "subject": "Hairwork",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Hairwork",
+        "Barbering",
+        "Wigs",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Theory of Silk Weaving A Treatise on the Construction and Application of Weaves, and the Decomposition and Calculation of Broad and Narrow, Plain, Novelty and Jacquard Silk Fabrics",
+      "author": "Wolfensberger, Arnold",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14600",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 14600); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14600/pg14600.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14600/pg14600.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14600/pg14600.cover.small.jpg"
+      ],
+      "subject": "Weaving",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Weaving",
+        "Silk industry",
+        "Technology",
+        "Manufacturing",
+        "Crafts",
+        "Category: Engineering & Technology",
+        "TS"
+      ]
+    },
+    {
+      "title": "Aboriginal American Weaving",
+      "author": "Kissell, Mary Lois",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24568",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24568); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24568/pg24568.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24568/pg24568.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24568/pg24568.cover.small.jpg"
+      ],
+      "subject": "Indian textile fabrics -- North America",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indian textile fabrics -- North America",
+        "Weaving",
+        "Anthropology",
+        "Technology",
+        "Native America",
+        "Crafts",
+        "Category: History - American",
+        "Category: Art",
+        "Category: Environmental Issues",
+        "Category: Archaeology & Anthropology",
+        "E011",
+        "GN",
+        "NK"
+      ]
+    },
+    {
+      "title": "Seat Weaving",
+      "author": "Perry, L. Day, 1887-1955",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53288",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53288); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53288/pg53288.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53288/pg53288.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53288/pg53288.cover.small.jpg"
+      ],
+      "subject": "Chair caning",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Chair caning",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TT"
+      ]
+    },
+    {
+      "title": "Jacquard Weaving and Designing",
+      "author": "Bell, T. F.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53318",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53318); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53318/pg53318.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53318/pg53318.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53318/pg53318.cover.small.jpg"
+      ],
+      "subject": "Decoration and ornament",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Decoration and ornament",
+        "Weaving",
+        "Jacquard weaving",
+        "Category: Engineering & Technology",
+        "Category: Art",
+        "TS"
+      ]
+    },
+    {
+      "title": "Cotton Weaving and Designing 6th Edition",
+      "author": "Taylor, John T.; Nisbet, Harry [Editor]; Wilkinson, Frederick [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57031",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57031); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57031/pg57031.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57031/pg57031.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57031/pg57031.cover.small.jpg"
+      ],
+      "subject": "Cotton weaving",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cotton weaving",
+        "Textile design",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TS"
+      ]
+    },
+    {
+      "title": "Gimp Braiding Projects",
+      "author": "White, Charles E.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61293",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 61293); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61293/pg61293.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61293/pg61293.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61293/pg61293.cover.small.jpg"
+      ],
+      "subject": "Plastics craft",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Plastics craft",
+        "Braid",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TT"
+      ]
+    },
+    {
+      "title": "The History of Silk, Cotton, Linen, Wool, and Other Fibrous Substances; Including Observations on Spinning, Dyeing, and Weaving.",
+      "author": "Gilroy, Clinton G.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65967",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65967); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65967/pg65967.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65967/pg65967.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65967/pg65967.cover.small.jpg"
+      ],
+      "subject": "History, Ancient",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "History, Ancient",
+        "Textile fabrics -- History",
+        "Category: History - Other",
+        "TS"
+      ]
+    },
+    {
+      "title": "The salon and English letters",
+      "author": "Tinker, Chauncey Brewster, 1876-1963",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71916",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 71916); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71916/pg71916.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71916/pg71916.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71916/pg71916.cover.small.jpg"
+      ],
+      "subject": "English literature -- 18th century -- History and criticism",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English literature -- 18th century -- History and criticism",
+        "Great Britain -- Intellectual life -- 18th century",
+        "Salons -- Great Britain -- History -- 18th century",
+        "Johnson, Samuel, 1709-1784 -- Contemporaries",
+        "Category: Literature - Other",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: History - Schools & Universities",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Making of a Man: Being a Description of Artificial Limbs and How They May Be Adopted by Those Who Have Suffered Loss of Their Natural Limbs",
+      "author": "George R. Fuller Co. (Rochester, N.Y.)",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65975",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65975); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65975/pg65975.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65975/pg65975.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65975/pg65975.cover.small.jpg"
+      ],
+      "subject": "Artificial limbs -- Catalogs",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Artificial limbs -- Catalogs",
+        "Prosthesis -- Catalogs",
+        "Category: Engineering & Technology",
+        "Category: Health & Medicine",
+        "RD"
+      ]
+    },
+    {
+      "title": "The Bible, King James version, Book 52: 1 Thessalonians",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8052",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8052); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8052/pg8052.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8052/pg8052.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8052/pg8052.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians, 1st",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians, 1st",
+        "Category: Essays, Letters & Speeches",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "The Bible, King James version, Book 53: 2 Thessalonians",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8053",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8053); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8053/pg8053.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8053/pg8053.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8053/pg8053.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians, 2nd",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians, 2nd",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "The World English Bible (WEB): 1 Thessalonians",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8279",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8279); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8279/pg8279.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8279/pg8279.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8279/pg8279.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians, 1st",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians, 1st",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "The World English Bible (WEB): 2 Thessalonians",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8280",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8280); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8280/pg8280.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8280/pg8280.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8280/pg8280.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians, 2nd",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians, 2nd",
+        "Category: Essays, Letters & Speeches",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "Weymouth New Testament in Modern Speech, 1 Thessalonians",
+      "author": "Weymouth, Richard Francis, 1822-1902",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8840",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8840); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8840/pg8840.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8840/pg8840.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8840/pg8840.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "Weymouth New Testament in Modern Speech, 2 Thessalonians",
+      "author": "Weymouth, Richard Francis, 1822-1902",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8841",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 8841); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8841/pg8841.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8841/pg8841.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8841/pg8841.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "Expositions of Holy Scripture Second Corinthians, Galatians, and Philippians Chapters I to End. Colossians, Thessalonians, and First Timothy.",
+      "author": "Maclaren, Alexander, 1826-1910",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21190",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 21190); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21190/pg21190.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21190/pg21190.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21190/pg21190.cover.small.jpg"
+      ],
+      "subject": "Bible. Epistles of Paul -- Commentaries",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Epistles of Paul -- Commentaries",
+        "Christianity",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "With the French in France and Salonika",
+      "author": "Davis, Richard Harding, 1864-1916",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30812",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 30812); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30812/pg30812.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30812/pg30812.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30812/pg30812.cover.small.jpg"
+      ],
+      "subject": "World War, 1914-1918 -- Personal narratives",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "World War, 1914-1918 -- Personal narratives",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Salona, Fairfax County, Virginia",
+      "author": "Anderson, Ellen L.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40662",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40662); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40662/pg40662.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40662/pg40662.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40662/pg40662.cover.small.jpg"
+      ],
+      "subject": "Salona (McLean, Va.)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Salona (McLean, Va.)",
+        "Category: History - American",
+        "F206"
+      ]
+    },
+    {
+      "title": "The Expositor's Bible: The Epistles to the Thessalonians",
+      "author": "Denney, James, 1856-1917; Nicoll, W. Robertson (William Robertson), Sir, 1851-1923 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42753",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 42753); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42753/pg42753.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42753/pg42753.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42753/pg42753.cover.small.jpg"
+      ],
+      "subject": "Bible. Thessalonians -- Criticism, interpretation, etc.",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible. Thessalonians -- Criticism, interpretation, etc.",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    },
+    {
+      "title": "The Preacher's Complete Homiletic Commentary of the Books of the Bible: Volume 29 (of 32) The Preacher's Complete Homiletic Commentary of the Epistles of St. Paul the Apostle: Galatians, Ephesians, Philippians, Colossians, and I-II Thessalonians",
+      "author": "Barlow, George",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62148",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 62148); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62148/pg62148.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62148/pg62148.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62148/pg62148.cover.small.jpg"
+      ],
+      "subject": "Bible -- Commentaries",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bible -- Commentaries",
+        "Bible. Epistles of Paul -- Commentaries",
+        "Category: Religion/Spirituality",
+        "BS"
+      ]
+    }
+  ],
+  "notes": "2026-07-20: Merged in 27 rows from the founder-provided 'hairdressing_business_resources.csv' (Section I.2). Five new channels, ten new blogs, and ten new books/guides added on top of the existing Louis Ihuefo entry. Items deliberately left out or flagged rather than integrated as-is: (1) 'Sergey Zverev' — multiple same-named YouTube channels exist (a personal channel, a 'Topic' auto-channel, and others) and the specific '@sergeyzverev' handle from the CSV could not be matched to one with confidence; needs a direct fetch of the actual handle before adding. (2) 'Naija Hair Salon TV' — no channel by this name could be confirmed in this pass; may be inactive, renamed, or a data-entry error in the source CSV. (3) 'Salon Business Boss' channel — only one old testimonial video was found, not a dedicated content channel; the ID in the CSV's RSS template ('channel_id=UC...') was a placeholder, not a real ID, so the channel entry was left out (its blog was still added, since salonbusinessboss.com is confirmed real and active). (4) 'SwiftPesa (Kenya)' and the standalone 'Pesabook (Kenya)' Platform-type rows (fintech tools with no RSS feed, not channels/blogs/books) don't fit this file's three-bucket schema — Pesabook's own blog was added instead; SwiftPesa was omitted entirely. Every 'UC...' string in the source CSV's RSS_Feed column was a literal template placeholder, not a real ID — every real channel ID above was independently looked up via YouTube channel-page fetches or search, not copied from the CSV. Follow-up (same day): brought channels up to 10 (parity with the 10 blogs / 10 books) by adding 4 more independently verified, on-topic channels — The Salon Business and The Beauty Biz Agency (both already verified for business_08, reused here as directly relevant), plus newly verified TheSalonGuy and SalonBiz. 'Sergey Zverev', 'Naija Hair Salon TV', and a standalone 'Salon Business Boss' channel remain excluded — still no confident channel match found for any of the three after a second pass.\n\nBooks audit (2026-07-30): All 10 book URLs audited via web search. 9 of 10 had broken or risky URLs. Fixes: (1) /resources → /blog (confirmed active). (2) sba.gov/business-guide/salon → /business-guide (no /salon subpage exists). (3) marquettabreslin.com/free-resources not found → root domain. (4) /podcast → /free-resources/ (confirmed active with free PDFs). (5) HubSpot hair-salon-marketing URL not found in HubSpot index → replaced with Shopify salon marketing guide (confirmed active, 2025). (6) f5fp.com broken (wrong page) → archive.org E-Myth PDF. (7) mikemichalowicz.com/profit-first-book blank → archive.org borrow. (8) storybrand.com/free-resources not found → root domain storybrand.com. (9) 1pagemarketingplan.com/resources → successwise.com (Dib's current site). (10) openstax.org/books/small-business-management is 404 → /principles-management (confirmed active Apr 2026). 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 21 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

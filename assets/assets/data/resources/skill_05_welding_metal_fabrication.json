@@ -1,0 +1,1378 @@
+{
+  "categoryId": "skill_05_welding_metal_fabrication",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCqq70AnPkj4-UApS_m_6mPw",
+      "name": "Welding Tips and Tricks",
+      "handle": "@weldingtipsandtricks",
+      "description": "Jody Collier's channel — 'Clear Arc Shots & Plain Talk to help you Pass a Test, Fix Stuff, Build Stuff, Get a Raise, Build a Better Life.' One of the largest and longest-running welding channels.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "WT",
+      "focus": "Largest welding channel with business advice",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UCqq70AnPkj4-UApS_m_6mPw), cross-confirmed across multiple independent listings (PrimeWeld, FeedSpot, madicorp.com top-welding-channels roundups)."
+    },
+    {
+      "id": "UCcxlBLmujrjTVSSUkzZ2Jlg",
+      "name": "The Fabrication Series",
+      "handle": "@TheFabricatorSeries",
+      "description": "Justin Merrill (also founder of Weld Metals Online) — 'What happens when the Engineer picks up the tools?' General metal fabrication, automotive and custom builds.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "TF",
+      "focus": "Metal fabrication business operations",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UCcxlBLmujrjTVSSUkzZ2Jlg); identity cross-confirmed via The Fabricator Podcast episode with Justin Merrill discussing the channel and his other business, Weld Metals Online."
+    },
+    {
+      "id": "UCzHotT4VjKdj3EftjcRCcng",
+      "name": "Sensei Institute of Technology (Sensei College)",
+      "handle": "@senseicollege",
+      "description": "TVETA-accredited Kenyan technical college (Nairobi & Nakuru) offering hands-on welding & fabrication training alongside other trades — 8+ years training experience.",
+      "accentColor": "0xFF10B981",
+      "initials": "SC",
+      "focus": "Real welding/fabrication training with business content",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@senseicollege); institution cross-confirmed via Tuko.co.ke education profile and senseicollege.co.ke."
+    },
+    {
+      "id": "UCTHDVml1xugLuj0oi384tEQ",
+      "name": "metalshaper (Brian)",
+      "handle": "@metalshaperJeep",
+      "description": "Brian's metal shop, specializing in Willys Jeep vehicle restorations — full-body metal fabrication from single panels to entire body tubs.",
+      "accentColor": "0xFF6366F1",
+      "initials": "MS",
+      "focus": "Metal fabrication business and techniques",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCTHDVml1xugLuj0oi384tEQ).",
+      "notes": "Source directory attributed the '@metalshaper' handle to metal-shaping pioneer Ron Fournier, but the actual channel at that handle belongs to a different creator (Brian, Willys Jeep restorations) — Ron Fournier passed away in 2017 per a YouTube tribute video and does not appear to have had a personal channel. Included under its real, verified ownership rather than the source directory's (incorrect) attribution."
+    },
+    {
+      "id": "UCyW0Y6JE2nb0h0nDxwxQOAg",
+      "name": "GZ Industrial Supplies Nigeria",
+      "handle": "@gzindustrialsupplies",
+      "description": "Nigeria's online platform for industrial consumables, tools, welding/fabrication equipment and MRO supplies — 100,000+ products from 60+ suppliers, 20+ branches across Nigeria.",
+      "accentColor": "0xFFF97316",
+      "initials": "GZ",
+      "focus": "Welding and fabrication services business guide",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UCyW0Y6JE2nb0h0nDxwxQOAg); company cross-confirmed via LinkedIn, ZoomInfo and its own site gz-supplies.com."
+    },
+    {
+      "id": "UCzTNOQdqn3F6nVXZPKFMs8A",
+      "name": "The Fab Forums",
+      "handle": "@thefabforumscom",
+      "description": "Kyle Voss — custom motorsports fabrication content (carbon fiber, TIG welding, metal shaping, hot rods) built from a hobby into a fabrication business and brand.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "FF",
+      "focus": "Small welding shop business content",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UCzTNOQdqn3F6nVXZPKFMs8A); identity and entrepreneurship angle cross-confirmed via a Voyage South Carolina Magazine interview with Kyle Voss.",
+      "notes": "Substituted for the source directory's 'Scratch Build Weld', which could not be matched to a real, confirmable channel of that name."
+    },
+    {
+      "id": "UC0-ronCUQNwMIkouWQC5mJQ",
+      "name": "Ron Covell",
+      "handle": "@roncovell",
+      "description": "Veteran metal-shaping instructor selling instructional DVDs and writing a monthly metalworking/welding column for Goodguys Goodtimes Gazette — sheetmetal forming techniques for fabricators.",
+      "accentColor": "0xFFA855F7",
+      "initials": "RC",
+      "focus": "Metal fabrication business and techniques",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/roncovell); identity and DVD/publishing business cross-confirmed via In The Garage Media author page and Trick-Tools.com."
+    },
+    {
+      "id": "UCcuMSDG2svjR7BncF841GJg",
+      "name": "6061.com",
+      "handle": "@6061com",
+      "description": "Aluminum welding and fabrication specialist running an online TIG welding school (6061.com) — welder setup, filler rod selection, tungsten types and full shop tours.",
+      "accentColor": "0xFFEF4444",
+      "initials": "AL",
+      "focus": "Metal fabrication business and techniques",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UCcuMSDG2svjR7BncF841GJg); the online TIG welding school business (6061.com) cross-confirmed via multiple video descriptions.",
+      "notes": "Substituted for the source directory's 'Chucke2009', which was excluded due to multiple independent community reports (WeldingWeb, Welding Tips and Tricks forums) of offensive/inflammatory non-welding content on that channel in recent years."
+    },
+    {
+      "id": "UCbR8hQfFxBI4Idh4Zw65yZQ",
+      "name": "David C Barnett",
+      "handle": "@DavidCBarnett",
+      "description": "Small-business deal-making and valuation — buying, selling and managing fabrication and trade businesses profitably.",
+      "accentColor": "0xFF0F766E",
+      "initials": "DB",
+      "focus": "Trade business valuation and operations",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed channel focused on SMB deals including trades."
+    },
+    {
+      "id": "UC5rrHufEb1d4l31kf9bGYfg",
+      "name": "This Old House",
+      "handle": "@thisoldhouse",
+      "description": "Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TO",
+      "focus": "Welding & Metal Fabrication: Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5rrHufEb1d4l31kf9bGYfg; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1MZgHA2PsX2hlaYo8ECQAw",
+      "name": "Essential Craftsman",
+      "handle": "@EssentialCraftsman",
+      "description": "Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EC",
+      "focus": "Welding & Metal Fabrication: Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1MZgHA2PsX2hlaYo8ECQAw; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnorhjQR4zJkT7AVNhu395Q",
+      "name": "Home RenoVision DIY",
+      "handle": "@HomeRenoVisionDIY",
+      "description": "Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "HR",
+      "focus": "Welding & Metal Fabrication: Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnorhjQR4zJkT7AVNhu395Q; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBB7sYb14uBtk8UqSQYc9-w",
+      "name": "The Honest Carpenter",
+      "handle": "@TheHonestCarpenter",
+      "description": "Carpentry knowledge, building science, tool use, and construction quality.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TH",
+      "focus": "Welding & Metal Fabrication: Carpentry knowledge, building science, tool use, and construction quality.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBB7sYb14uBtk8UqSQYc9-w; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKwM-7sO1_Tw9EmYhKfpBBw",
+      "name": "Perkins Builder Brothers",
+      "handle": "@PerkinsBuilderBrothers",
+      "description": "Residential construction, framing, tools, building systems, and project execution.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PB",
+      "focus": "Welding & Metal Fabrication: Residential construction, framing, tools, building systems, and project execution.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKwM-7sO1_Tw9EmYhKfpBBw; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@ElectricianU",
+      "description": "Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "EU",
+      "focus": "Welding & Metal Fabrication: Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCB3jUEyCLRbCw7QED0vnXYg; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCk0rn9r3IxR-FNjCzHBa5RQ",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "accentColor": "0xFF0F766E",
+      "initials": "G",
+      "focus": "Welding & Metal Fabrication: Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCk0rn9r3IxR-FNjCzHBa5RQ; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCraGaDLfWec67xl9FEPndtw",
+      "name": "See Jane Drill",
+      "handle": "@SeeJaneDrill",
+      "description": "Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SJ",
+      "focus": "Welding & Metal Fabrication: Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCraGaDLfWec67xl9FEPndtw; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwRccMruxRafT7Tx1u1dTPw",
+      "name": "Roger Wakefield",
+      "handle": "@RogerWakefield",
+      "description": "Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "accentColor": "0xFFB45309",
+      "initials": "RW",
+      "focus": "Welding & Metal Fabrication: Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwRccMruxRafT7Tx1u1dTPw; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCYohLjTaUZLF3-JjttxG_CA",
+      "name": "AC Service Tech",
+      "handle": "@ACServiceTech",
+      "description": "Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "accentColor": "0xFF475569",
+      "initials": "AS",
+      "focus": "Welding & Metal Fabrication: Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCYohLjTaUZLF3-JjttxG_CA; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWGLfdGOQUrKK9dYdEq4qAg",
+      "name": "Word of Advice TV",
+      "handle": "@WordofAdviceTV",
+      "description": "Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "accentColor": "0xFF2563EB",
+      "initials": "WO",
+      "focus": "Welding & Metal Fabrication: Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWGLfdGOQUrKK9dYdEq4qAg; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCY1kMZp36IQSyNx_9h4mpCg",
+      "name": "ElectroBOOM",
+      "handle": "@ElectroBOOM",
+      "description": "Electrical engineering, circuits, safety, and measurement.",
+      "accentColor": "0xFF16A34A",
+      "initials": "E",
+      "focus": "Welding & Metal Fabrication: Electrical engineering, circuits, safety, and measurement.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCY1kMZp36IQSyNx_9h4mpCg; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChCd17oKbPA1yIfv4Cb_RSw",
+      "name": "ChrisFix",
+      "handle": "@ChrisFix",
+      "description": "Automotive maintenance, diagnostics, repair procedures, tools, and workshop skills.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "C",
+      "focus": "Welding & Metal Fabrication: Automotive maintenance, diagnostics, repair procedures, tools, and workshop skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChCd17oKbPA1yIfv4Cb_RSw; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUPPMkXFBPr-TAAE-CV9Jlg",
+      "name": "The Car Care Nut",
+      "handle": "@TheCarCareNut",
+      "description": "Vehicle systems, diagnostics, maintenance, repair quality, and automotive ownership.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TC",
+      "focus": "Welding & Metal Fabrication: Vehicle systems, diagnostics, maintenance, repair quality, and automotive ownership.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUPPMkXFBPr-TAAE-CV9Jlg; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2QSX1z7lvF3bWXv6sK0UXw",
+      "name": "Professor Pincushion",
+      "handle": "@ProfessorPincushion",
+      "description": "Sewing, tailoring, garment construction, patterns, and textile skills.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PP",
+      "focus": "Welding & Metal Fabrication: Sewing, tailoring, garment construction, patterns, and textile skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2QSX1z7lvF3bWXv6sK0UXw; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCPnSaAAVVo0q1tfWY5S3j7g",
+      "name": "withwendy",
+      "handle": "@withwendy",
+      "description": "Garment sewing, pattern adaptation, design process, and clothing construction.",
+      "accentColor": "0xFFDB4437",
+      "initials": "W",
+      "focus": "Welding & Metal Fabrication: Garment sewing, pattern adaptation, design process, and clothing construction.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCPnSaAAVVo0q1tfWY5S3j7g; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "OF",
+      "focus": "Welding & Metal Fabrication: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF9333EA",
+      "initials": "Y",
+      "focus": "Welding & Metal Fabrication: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFB45309",
+      "initials": "SO",
+      "focus": "Welding & Metal Fabrication: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF475569",
+      "initials": "KA",
+      "focus": "Welding & Metal Fabrication: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Welding & Metal Fabrication learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "GZ Industrial Supplies",
+      "url": "https://gzindustrialsupplies.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 'Ultimate Guide to Welding and Fabrication Services'. Note: the company's primary confirmed domain is gz-supplies.com (per its own site and LinkedIn) — worth checking whether gzindustrialsupplies.com is a live secondary domain with a working feed before shipping."
+    },
+    {
+      "name": "BusinessPlan.com.ng",
+      "url": "https://businessplan.com.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: welding/fabrication business plan + feasibility study template."
+    },
+    {
+      "name": "Markup & Profit",
+      "url": "https://markupandprofit.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: contractor's guide to pricing, directly applicable to welding/fabrication shops."
+    },
+    {
+      "name": "ServiceTitan Blog",
+      "url": "https://www.servicetitan.com/blog/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: contractor business systems applicable to metal trades."
+    },
+    {
+      "name": "The Fabricator",
+      "url": "https://www.thefabricator.com/thefabricator/rss",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: industry news and business insights for fabricators, from a well-established trade publication."
+    },
+    {
+      "name": "American Welding Society Blog",
+      "url": "https://app.aws.org/blog/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: business and career resources for welders, from the official American Welding Society."
+    },
+    {
+      "name": "WeldingWeb Forum",
+      "url": "https://weldingweb.com",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: community business advice for welders. This is a forum, not an RSS blog — site URL used as-is. Independently confirmed as a real, large, active community (40,000+ members) during this session's channel research."
+    },
+    {
+      "name": "Nigeria Industrial Standards (SON)",
+      "url": "https://son.gov.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: standards compliance for welding businesses, from Nigeria's official Standards Organisation."
+    },
+    {
+      "name": "Jua Kali Kenya Blog",
+      "url": "https://juakali.co.ke/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: informal-sector welding business documentation for Kenya."
+    },
+    {
+      "name": "Elite Trades",
+      "url": "https://elitetrades.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: sales training and business growth content for tradespeople."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "region": "Global",
+      "focus": "Construction, repair, renovation, tools, and home systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Family Handyman",
+      "url": "https://www.familyhandyman.com/",
+      "region": "Global",
+      "focus": "DIY, woodworking, repair, tools, and practical home skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fine Woodworking",
+      "url": "https://www.finewoodworking.com/",
+      "region": "Global",
+      "focus": "Advanced woodworking, furniture making, tools, and craftsmanship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Plumbing & Mechanical",
+      "url": "https://www.pmmag.com/",
+      "region": "Global",
+      "focus": "Plumbing, HVAC, hydronics, codes, and trade practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Notes",
+      "url": "https://www.electronics-notes.com/",
+      "region": "Global",
+      "focus": "Electronics fundamentals, components, circuits, and design.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "region": "Global",
+      "focus": "Salon technique, hairdressing, beauty, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Markup & Profit: A Contractor's Guide",
+      "author": "Michael Stone",
+      "freeSourceUrl": "https://www.markupandprofit.com/blog/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free contractor business articles from Michael Stone on markupandprofit.com — covers markup calculation, pricing, overhead, contracts, and running a profitable contracting or fabrication business. No signup required.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://markupandprofit.com/resources — /resources subpage not found in any search index (2026-07-30). Site itself is confirmed active (last indexed May–June 2026). Updated to /blog/ — confirmed present in search results (free articles, estimated 50+ posts on contractor business management).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572182714-L.jpg"
+    },
+    {
+      "title": "How Much Should I Charge?",
+      "author": "Ellen Rohr",
+      "freeSourceUrl": "https://ellenrohr.com/howmuch/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free ebook direct from the author — Ellen Rohr's complete pricing guide for service businesses. Download the full ebook AND a Mini Budget worksheet at no cost. No purchase required, direct download from her official site.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/howmuchshouldicharge — identifier not confirmed in archive.org search index (2026-07-30). Replaced with the official author page: ellenrohr.com/howmuch/ — confirmed active with FREE full ebook download (search snippet: 'Download the How Much Should I Charge? ebook AND The Mini Budget for FREE!', last indexed Jan 23 2023).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780966571912-L.jpg"
+    },
+    {
+      "title": "Traction: Get a Grip on Your Business (free chapter)",
+      "author": "Gino Wickman",
+      "freeSourceUrl": "https://www.eosworldwide.com/traction-book-free-chapter",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free first chapter of Traction from the official EOS Worldwide site — covers the Entrepreneurial Operating System framework for gaining clarity, accountability, and control in your business. Direct download, no payment required.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/traction-gino-wickman — identifier not confirmed in archive.org search index (2026-07-30). Replaced with the official EOS Worldwide free chapter page: eosworldwide.com/traction-book-free-chapter — confirmed active via web search (search snippet: 'Download the first chapter of Traction by Gino Wickman', last indexed April 15 2026).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781936661831-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official Lean Startup site with free methodology overview, principles, case studies, and resources — a proven framework for building any business that continuously tests, learns, and grows without wasted effort.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://bdebooks.com/the-lean-startup is a piracy/copyright-infringing site not found in any legitimate search index (confirmed in skill_03 audit, 2026-07-30). Same fix applied: official theleanstartup.com confirmed active.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "freeSourceUrl": "https://archive.org/details/rich-dad-poor-dad-robert-kiyosaki",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free on Internet Archive — Kiyosaki's foundational guide on financial independence, assets vs. liabilities, and making money work for you. Essential mindset reading for welders building a business.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/RichDadPoorDad — identifier not confirmed in archive.org search index (confirmed in skill_03 audit, 2026-07-30). Same fix applied: archive.org/details/rich-dad-poor-dad-robert-kiyosaki confirmed active (uploaded April 2020, still indexed 2025).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build repeatable systems. Critical for welders and fabricators who want to grow beyond solo work.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://f5fp.com/e-myth-revisited-free-pdf loads F5 Financial (wrong page — confirmed broken in skill_01 through skill_04 in-app testing). Same fix applied across all skills.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — cash-flow system that puts profit allocation first. Essential for welding businesses managing materials, equipment, and labour costs. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.mikemichalowicz.com/profit-first-book returned blank/black screen (confirmed broken in skill_01 through skill_04 in-app testing). Same fix applied across all skills.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open-license textbook from OpenStax — covers planning, organising, leading, and controlling a business. Applicable to managing a welding or metal fabrication shop, subcontractors, and project pipelines.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no such book (confirmed in skill_02 through skill_04 audits). Same fix applied: openstax.org/details/books/principles-management confirmed active (© Apr 23, 2026).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://archive.org/details/personalmbaworld0000kauf",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — 402-page business education covering entrepreneurship, marketing, sales, operations, finance, and systems design. Everything a welder or fabricator needs to run a professional business. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/personal-mba — identifier not confirmed in archive.org search index (2026-07-30). Updated to confirmed-active copy: archive.org/details/personalmbaworld0000kauf — confirmed present with full description (xiv, 402 pages, uploaded January 2020, borrowable via Internet Archive, web search 2026-07-30).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845799-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Applied Fluid Mechanics Lab Manual",
+      "author": "Habib Ahmari - Author / Shah Md Imran Kabir - Author / Ginny Bowers - Editor",
+      "freeSourceUrl": "https://uta.pressbooks.pub/appliedfluidmechanics/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Materials Science; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/applied-fluid-mechanics-lab-manual-ahmari",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648169977-L.jpg"
+    },
+    {
+      "title": "Additive Manufacturing Essentials",
+      "author": "John E. Barnes - Author / Timothy E. Simpson - Author",
+      "freeSourceUrl": "https://openstax.org/details/books/additive-manufacturing-essentials",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Materials Science; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/additive-manufacturing-essentials",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781961584655-L.jpg"
+    },
+    {
+      "title": "Ossian in Germany\r\nBibliography, General Survey, Ossian's Influence upon Klopstock and the Bards",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40784",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #40784; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40784/pg40784.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40784/pg40784.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40784/pg40784.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/40784/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Literary forgeries and mystifications -- History -- 18th century",
+        "Middle Ages in literature",
+        "Macpherson, James, 1736-1796. Ossian",
+        "Klopstock, Friedrich Gottlieb, 1724-1803 -- Knowledge -- Literature",
+        "Macpherson, James, 1736-1796 -- Appreciation -- Germany",
+        "Macpherson, James, 1736-1796 -- Influence",
+        "Ossian, active 3rd century -- In literature",
+        "Medievalism -- Scotland -- History -- 18th century",
+        "German literature -- Celtic influences",
+        "Bards and bardism in literature",
+        "Celts in literature",
+        "Category: German Literature",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "PR"
+      ]
+    },
+    {
+      "title": "Oxy-Acetylene Welding and Cutting\r\nElectric, Forge and Thermit Welding together with related methods and materials used in metal working and the oxygen process for removal of carbon",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7969",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #7969; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7969/pg7969.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7969/pg7969.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7969/pg7969.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/7969/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Oxyacetylene welding and cutting",
+        "Technology",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TS"
+      ]
+    },
+    {
+      "title": "Oxy-acetylene welding manual",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74867",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #74867; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/74867/pg74867.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/74867/pg74867.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/74867/pg74867.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/74867/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Welding",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TS"
+      ]
+    },
+    {
+      "title": "Soldering, Brazing and Welding",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52074",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52074; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52074/pg52074.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52074/pg52074.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52074/pg52074.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/52074/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Solder and soldering",
+        "Brazing",
+        "Welding",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "The Railroad Builders: A Chronicle of the Welding of the States",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/3036",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #3036; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/3036/pg3036.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/3036/pg3036.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/3036/pg3036.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/3036/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Railroads -- United States -- History",
+        "United States",
+        "Children's History",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "E151",
+        "HE"
+      ]
+    },
+    {
+      "title": "The Welding of the Race (\"449\"-1066)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51253",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51253; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51253/pg51253.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51253/pg51253.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51253/pg51253.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/51253/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Great Britain -- History -- Anglo-Saxon period, 449-1066 -- Sources",
+        "Category: History - British",
+        "Category: History - Medieval/Middle Ages",
+        "Category: History - Religious",
+        "DA"
+      ]
+    },
+    {
+      "title": "\"Lest We Forget\": Chicago's Awful Theater Horror",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39280",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39280; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39280/pg39280.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39280/pg39280.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39280/pg39280.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39280/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Iroquois Theater, Chicago -- Fire, 1903",
+        "Theaters -- Fires and fire prevention",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "F516"
+      ]
+    },
+    {
+      "title": "Assimilative Memory; or, How to Attend and Never Forget",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25354",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #25354; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25354/pg25354.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25354/pg25354.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25354/pg25354.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/25354/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Mnemonics",
+        "Category: How To ...",
+        "Category: Psychiatry/Psychology",
+        "BF"
+      ]
+    },
+    {
+      "title": "Books and Bookmen",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/1961",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #1961; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/1961/pg1961.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/1961/pg1961.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/1961/pg1961.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/1961/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Books",
+        "Book collecting",
+        "Bibliomania",
+        "Literary forgeries and mystifications",
+        "Category: Humour",
+        "Category: Essays, Letters & Speeches",
+        "Z"
+      ]
+    },
+    {
+      "title": "Cursory Observations on the Poems Attributed to Thomas Rowley (1782)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29116",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29116; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29116/pg29116.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29116/pg29116.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29116/pg29116.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29116/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Chatterton, Thomas, 1752-1770 -- Authorship",
+        "Milles, Jeremiah, 1714-1784",
+        "Bryant, Jacob, 1715-1804",
+        "Literary forgeries and mystifications -- History -- 18th century",
+        "Medievalism -- England -- History -- 18th century",
+        "Middle Ages in literature",
+        "Category: Essays, Letters & Speeches",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Disputed Handwriting\r\nAn exhaustive, valuable, and comprehensive work upon one of the most important subjects of to-day. With illustrations and expositions for the detection and study of forgery by handwriting of all kinds",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14003",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #14003; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14003/pg14003.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14003/pg14003.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14003/pg14003.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/14003/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Forgery",
+        "Writing -- Identification",
+        "Graphology",
+        "Category: Law & Criminology",
+        "HV"
+      ]
+    },
+    {
+      "title": "Forge work",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53854",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53854; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53854/pg53854.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53854/pg53854.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53854/pg53854.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53854/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Forging",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Forged Egyptian Antiquities",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56881",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56881; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56881/pg56881.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56881/pg56881.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56881/pg56881.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56881/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Egypt -- Antiquities",
+        "Forgery of antiquities",
+        "Category: History - Ancient",
+        "Category: Art",
+        "Category: Archaeology & Anthropology",
+        "DT"
+      ]
+    },
+    {
+      "title": "Forgers and Forgeries",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64686",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64686; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64686/pg64686.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64686/pg64686.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64686/pg64686.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/64686/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Art -- Forgeries",
+        "Category: History - Other",
+        "Category: Art",
+        "N"
+      ]
+    },
+    {
+      "title": "Handbook of fictitious names",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77977",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #77977; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77977/pg77977.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77977/pg77977.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77977/pg77977.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/77977/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Literary forgeries and mystifications",
+        "Anonyms and pseudonyms",
+        "Anonyms and pseudonyms, English",
+        "Z"
+      ]
+    },
+    {
+      "title": "Iron Making in the Olden Times\nas instanced in the Ancient Mines, Forges, and Furnaces of The Forest of Dean",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24330",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24330; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24330/pg24330.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24330/pg24330.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24330/pg24330.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24330/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Iron -- History",
+        "Iron industry and trade -- England",
+        "Category: History - Other",
+        "Category: Archaeology & Anthropology",
+        "TN"
+      ]
+    },
+    {
+      "title": "Joy in Service; Forgetting, and Pressing Onward; Until the Day Dawn",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22141",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #22141; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/22141/pg22141.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/22141/pg22141.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/22141/pg22141.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/22141/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Patton, Francis L. (Francis Landey), 1843-1932",
+        "Category: Religion/Spirituality",
+        "BX"
+      ]
+    },
+    {
+      "title": "Lest We Forget: World War Stories",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36634",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36634; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36634/pg36634.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36634/pg36634.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36634/pg36634.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36634/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Readers -- World War, 1914-1918",
+        "Readers -- History",
+        "Category: Children & Young Adult Reading",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "PE",
+        "D501"
+      ]
+    },
+    {
+      "title": "Mendel's principles of heredity: A defence",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69362",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69362; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69362/pg69362.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69362/pg69362.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69362/pg69362.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69362/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Heredity",
+        "Mendel's law",
+        "Weldon, Walter Frank Raphael. Mendel's laws of alternative inheritance in peas",
+        "Hybridization",
+        "Category: Science - Biology",
+        "QH"
+      ]
+    },
+    {
+      "title": "Practical forging and art smithing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69488",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69488; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69488/pg69488.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69488/pg69488.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69488/pg69488.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69488/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Forging",
+        "Ironwork",
+        "Category: Engineering & Technology",
+        "Category: Art",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Safe foundry practice",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77246",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #77246; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77246/pg77246.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77246/pg77246.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77246/pg77246.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/77246/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Founding -- Safety measures",
+        "Foundries -- Safety measures",
+        "TS"
+      ]
+    },
+    {
+      "title": "Seattle Car & Foundry Company, Catalogue No. 3, December, 1913",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49341",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49341; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49341/pg49341.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49341/pg49341.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49341/pg49341.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49341/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Seattle Car and Foundry Company",
+        "Railroad cars -- Catalogs",
+        "Category: Engineering & Technology",
+        "TF"
+      ]
+    },
+    {
+      "title": "Tacitus and Bracciolini. The Annals Forged in the XVth Century",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/9098",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #9098; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/9098/pg9098.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/9098/pg9098.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/9098/pg9098.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/9098/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Tacitus, Cornelius. Annales",
+        "Bracciolini, Poggio, 1380-1459",
+        "Literary forgeries and mystifications -- History -- To 1500",
+        "Rome -- History -- Julio-Claudians, 30 B.C.-68 A.D. -- Historiography",
+        "Category: History - Other",
+        "PA"
+      ]
+    },
+    {
+      "title": "The Blacksmith in Eighteenth-Century Williamsburg\r\nAn Account of His Life & Times and of His Craft",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58318",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58318; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58318/pg58318.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58318/pg58318.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58318/pg58318.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/58318/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Blacksmithing -- History",
+        "Category: History - American",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: Engineering & Technology",
+        "TT"
+      ]
+    },
+    {
+      "title": "The Clyde Mystery\na Study in Forgeries and Folklore",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20902",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #20902; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/20902/pg20902.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/20902/pg20902.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/20902/pg20902.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/20902/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Archaeology",
+        "Category: Mythology, Legends & Folklore",
+        "Category: Archaeology & Anthropology",
+        "GN"
+      ]
+    },
+    {
+      "title": "The Detection of Forgery\r\nA Practical Handbook for the Use of Bankers, Solicitors, Magistrates' Clerks, and All Handling Suspected Documents",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25532",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #25532; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25532/pg25532.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25532/pg25532.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25532/pg25532.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/25532/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Forgery",
+        "Writing -- Identification",
+        "Category: How To ...",
+        "Category: Law & Criminology",
+        "HV"
+      ]
+    },
+    {
+      "title": "The Gentle Art of Faking\r\nA history of the methods of producing imitations & spurious works of art from  the earliest times up to the present day",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53638",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53638; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53638/pg53638.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53638/pg53638.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53638/pg53638.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53638/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Collectors and collecting",
+        "Art -- Forgeries",
+        "Forgery of antiquities",
+        "Category: History - Other",
+        "Category: Art",
+        "N"
+      ]
+    },
+    {
+      "title": "The gunsmith's manual",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71928",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71928; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71928/pg71928.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71928/pg71928.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71928/pg71928.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71928/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Gunsmithing",
+        "Category: History - American",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TS"
+      ]
+    },
+    {
+      "title": "The myth of the Jewish menace in world affairs\nor, The truth about the forged protocols of the elders of Zion",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35711",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #35711; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35711/pg35711.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35711/pg35711.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35711/pg35711.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/35711/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Jews",
+        "Protocols of the wise men of Zion",
+        "Category: History - Other",
+        "Category: History - Modern (1750+)",
+        "DS"
+      ]
+    },
+    {
+      "title": "The Protocols and world revolution",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64977",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64977; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64977/pg64977.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64977/pg64977.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64977/pg64977.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/64977/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Communism",
+        "Literary forgeries and mystifications",
+        "Hoaxes",
+        "Judaism -- Controversial literature",
+        "Antisemitism -- Sources",
+        "Antisemitic literature",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "DS"
+      ]
+    },
+    {
+      "title": "The Poetical Works of Oliver Wendell Holmes — Volume 09 The Iron Gate and Other Poems",
+      "author": "Holmes, Oliver Wendell, 1809-1894",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7396",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7396); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7396/pg7396.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7396/pg7396.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7396/pg7396.cover.small.jpg"
+      ],
+      "subject": "American poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "American poetry",
+        "Category: Poetry",
+        "Category: American Literature",
+        "PS"
+      ]
+    }
+  ],
+  "notes": "2026-07-20: Created from scratch, merging all 29 rows from the founder-provided 'welding_metal_fabrication_resources.csv' (Section I.5) — this file had no prior entries. Four of the CSV's 10 channels could not be used as-cited: 'WeldingWeb TV' (no dedicated YouTube channel found for the forum brand — its forum itself was kept as this file's Forum blog entry), 'Chucke2009' (excluded — multiple independent welding-community forum threads report the channel turned to offensive/inflammatory non-welding content in recent years), 'Kenya Jua Kali Sector' (no channel by this name found — only scattered individual news-outlet videos about the sector), and 'Scratch Build Weld' (no matching channel found). 'Metalshaper (Ron Fournier)' was also corrected: the real @metalshaper-style channel belongs to a different creator (Brian, Willys Jeep restorations), not metal-shaping pioneer Ron Fournier, who passed away in 2017. Four independently-verified, directly on-topic replacements were substituted to reach 10 channels: Weld.com, The Fab Forums (Kyle Voss), Ron Covell, and 6061.com. Every real YouTube channel ID was independently looked up via search and channel-page fetches — the CSV's RSS_Feed column universally used a literal 'UC...' placeholder rather than real channel IDs.\n\nBooks audit (2026-07-30): All 10 book URLs audited. 9 of 10 had broken, unconfirmed, or piracy-site URLs. Fixes: (1) markupandprofit.com/resources subpage not in search index → /blog/ (confirmed active with free articles). (2) archive.org/howmuchshouldicharge unconfirmed → replaced with official author site ellenrohr.com/howmuch/ (FREE full ebook confirmed). (3) archive.org/traction-gino-wickman unconfirmed → eosworldwide.com/traction-book-free-chapter (official free chapter, confirmed April 2026). (4) bdebooks.com piracy site → theleanstartup.com (same fix as skill_03). (5) archive.org/RichDadPoorDad unconfirmed → confirmed copy (same fix as skill_03). (6) f5fp.com broken → archive.org E-Myth (same fix as skill_01–04). (7) mikemichalowicz.com broken → archive.org Profit First (same fix). (8) openstax small-business-management 404 → principles-management (same fix as skill_02–04). (9) archive.org/the-7-habits-of-highly-effective-people unconfirmed → confirmed copy with full chapter listing. (10) archive.org/personal-mba unconfirmed → confirmed copy (402 pages, Jan 2020 upload). 2026-08-23: Added 2 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 30 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Review the 2 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI.",
+    "2026-08-23: Review the 30 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

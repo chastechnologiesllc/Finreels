@@ -1,0 +1,2588 @@
+{
+  "categoryId": "skill_15_catering_baking",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UC9VgddRDM-F0LdKvXEhhBGw",
+      "name": "Sussy's Cakes Recipes",
+      "handle": "@sussycakesrecipes",
+      "description": "Sussan Apeh, a Lagos-based, professionally trained cake artist, pastry chef and small chops specialist with a Business Administration degree (Babcock University). Primarily a recipe/technique channel, but runs paid 24/7 online business training alongside it and has at least one video specifically on 'how to start up a catering business at low cost'.",
+      "accentColor": "0xFFEC4899",
+      "initials": "SC",
+      "focus": "Baking/confectionery technique, with a genuine but secondary business thread",
+      "verifiedOn": "2026-07-16",
+      "verificationMethod": "Fetched the channel page directly. Flagged honestly: unlike most channels counted this session, this one's primary content is recipes/technique, not business — included because the business thread is real (credentials, paid training, an explicit business-focused video) and no cleaner Nigeria-specific business-of-catering channel surfaced."
+    },
+    {
+      "id": "UCkso0LnQDZRpT4Fv1bvrZhw",
+      "name": "Baking for Business",
+      "handle": "@bakingforbusiness",
+      "description": "Chef Schonberg — certified chef and marketing enthusiast dedicated entirely to helping bakers start and grow a thriving baking business from home, including a top-rated podcast for bakers and treat makers.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "BB",
+      "focus": "Home bakery business — marketing, pricing, tools",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@bakingforbusiness); About-section and keywords ('bakery marketing', 'bakery pricing') are an explicit, direct match for this category."
+    },
+    {
+      "id": "UC-ycu3LU1PGDXLG_aUJ3OQA",
+      "name": "Chef Fregz",
+      "handle": "@cheffregz9996",
+      "description": "Gbubemi 'Chef Fregz' Fregene — Nigeria's leading celebrity chef, Le Cordon Bleu-trained, founder of DVARD Catering Service, with brand collaborations spanning EbonyLife TV, DStv and more.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "CF",
+      "focus": "Nigerian celebrity chef & catering entrepreneurship",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UC-ycu3LU1PGDXLG_aUJ3OQA); identity, culinary training and DVARD Catering Service founding cross-confirmed via Wikipedia."
+    },
+    {
+      "id": "UCiY_lNURQNeJbcBFMiMRNqw",
+      "name": "Marketing Food Online",
+      "handle": "@MarketingFoodOnline",
+      "description": "Team of experienced food entrepreneurs with 30 years' hands-on experience and 800+ food startups consulted — 1,000+ free videos on starting a food business from home, food trucks, selling food online, and starting a bakery.",
+      "accentColor": "0xFF10B981",
+      "initials": "MF",
+      "focus": "Starting and growing a food business — the whole playbook",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCiY_lNURQNeJbcBFMiMRNqw); pairs with the Marketing Food Online blog also listed in this file."
+    },
+    {
+      "id": "UCnka1A32ye14_yCvXIWTOuQ",
+      "name": "Diary of a Kitchen Lover",
+      "handle": "@diaryofakitchenlover",
+      "description": "Tolani Tayo-Osikoya ('Chef T') — Nigerian chef, food blogger and entrepreneur, 3M+ subscribers, recognized as one of the top 50 most impactful voices of women in Africa; ambassador for Knorr, PZ Cussons and Malta Guinness.",
+      "accentColor": "0xFFF97316",
+      "initials": "DK",
+      "focus": "Nigerian food content creator turned brand entrepreneur",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCnka1A32ye14_yCvXIWTOuQ); identity, subscriber count and entrepreneurship cross-confirmed via Wikipedia.",
+      "notes": "Like Sussy's Cakes Recipes, primary content is recipes, not pure business — included for the real, well-documented 'turning recipes into revenue' entrepreneurial thread (brand ambassadorships, business interviews)."
+    },
+    {
+      "id": "UCZm9TDaPIxG3TtRlD1dlduw",
+      "name": "Auguste Escoffier School of Culinary Arts",
+      "handle": "@escoffierschool",
+      "description": "Accredited culinary school offering an online Food Entrepreneurship program covering business planning, pricing, marketing and legal concerns for restaurants, food trucks, home-based catering businesses and private chefs.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "AE",
+      "focus": "Formal food-business education (catering, baking & pastry)",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/escoffierschool); Food Entrepreneurship program cross-confirmed via escoffier.edu."
+    },
+    {
+      "id": "UCBPXsE8zTtokUZcKoOAYKFw",
+      "name": "Sweet Dreams Bake Shoppe",
+      "handle": "@sdbakeshoppe",
+      "description": "Ashleigh, self-taught baker — cake/cookie decorating tutorials alongside real home-baking-business content: pricing, 'how to make money as a baker', small business check-ins, and running a home bakery.",
+      "accentColor": "0xFF6366F1",
+      "initials": "SD",
+      "focus": "Home baking business tips alongside technique",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCBPXsE8zTtokUZcKoOAYKFw); keywords list ('home baking business', 'how to make money baking', 'baking business tips') confirms the business angle."
+    },
+    {
+      "id": "UCFCqwDPb0XYI4B0rTOetegg",
+      "name": "How to Start a Catering Business",
+      "handle": "@Howtostartacateringbusiness",
+      "description": "A channel explicitly dedicated to launching and growing a catering business — business plans, licenses/permits, menu design, equipment, marketing, operations and financial management.",
+      "accentColor": "0xFFEF4444",
+      "initials": "HC",
+      "focus": "Catering business fundamentals, start to finish",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@Howtostartacateringbusiness); About-section is an explicit, direct match for this category."
+    },
+    {
+      "id": "UCSbDzXi6CbS-f5CPizqYK9A",
+      "name": "CaterZen",
+      "handle": "@CaterZen",
+      "description": "Catering management software company (by Restaurant Catering Systems) — sales, marketing and operations content to help restaurants and caterers grow their catering revenue, plus the Catering/Barbecue Catering Smarts podcast.",
+      "accentColor": "0xFFA855F7",
+      "initials": "CZ",
+      "focus": "Catering sales, marketing and operations software",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCSbDzXi6CbS-f5CPizqYK9A); company cross-confirmed via caterzen.com and multiple podcast/interview appearances of founder Michael Attias."
+    },
+    {
+      "id": "UC2EsUE7vBIr7u7oFS11X7eA",
+      "name": "Marketing Food Online2",
+      "handle": "@MarketingFoodOnline2",
+      "description": "Companion/backup channel to Marketing Food Online, run by the same team of food entrepreneurs — extended content, food truck starts, Q&As and deeper dives on growing a food business.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "M2",
+      "focus": "Extended food-business strategy content",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UC2EsUE7vBIr7u7oFS11X7eA); same Marketing Food Online team, confirmed via their own site's channel-network page."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "OF",
+      "focus": "Catering & Baking: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Catering & Baking learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "Y",
+      "focus": "Catering & Baking: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Catering & Baking learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "SO",
+      "focus": "Catering & Baking: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Catering & Baking learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "Catering & Baking: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Catering & Baking learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "Catering & Baking: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Catering & Baking learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFDB4437",
+      "initials": "V",
+      "focus": "Catering & Baking: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Catering & Baking learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF0F766E",
+      "initials": "S",
+      "focus": "Catering & Baking: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Catering & Baking learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "Catering & Baking: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct official YouTube handle page @theschooloflifetv resolved to channel ID UC7IcJI8PUf5Z3zKxnZvTBog; verified against the official channel page on 2026-08-26."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFB45309",
+      "initials": "S",
+      "focus": "Catering & Baking: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Catering & Baking learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF475569",
+      "initials": "N",
+      "focus": "Catering & Baking: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Catering & Baking learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "WithinNigeria",
+      "url": "https://www.withinnigeria.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed real, live articles matching this category exactly: 'Complete Guide to Starting a Catering Business in Nigeria for Owambe Events' and 'How Much Does an Owambe Party Cost in Nigeria in 2026' — equipment costs, logistics, owambe-specific menu economics."
+    },
+    {
+      "name": "Marketing Food Online",
+      "url": "https://marketingfoodonline.com/blogs/news/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog pairing with the Marketing Food Online YouTube channel above — home bakery marketing plans, cottage food business tips, pricing."
+    },
+    {
+      "name": "Escoffier Food Entrepreneurship Blog",
+      "url": "https://www.escoffier.edu/blog/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog from an accredited culinary school's Food Entrepreneurship program — business planning, pricing, marketing for caterers and bakers."
+    },
+    {
+      "name": "The Food Corridor",
+      "url": "https://www.thefoodcorridor.com/blog/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'How to Start a Catering Business Step-by-Step' — licensing, shared-kitchen options, scaling strategies for food entrepreneurs."
+    },
+    {
+      "name": "The Restaurant HQ",
+      "url": "https://www.therestauranthq.com/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'How to Start a Catering Business in 10 Steps' — staffing, marketing, contracts."
+    },
+    {
+      "name": "Sling",
+      "url": "https://getsling.com/blog/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'How To Start A Catering Business in 20 Steps' — financing, advertising, marketing."
+    },
+    {
+      "name": "The Restaurant Warehouse",
+      "url": "https://therestaurantwarehouse.com/blogs/restaurant-equipment.atom",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'How to Start a Catering Business from Scratch' — business plan, legal/financial setup, kitchen and supply chain, marketing."
+    },
+    {
+      "name": "Pastry Arts Magazine",
+      "url": "https://pastryartsmag.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, established pastry-industry trade publication — sales channels and business strategy for cottage food/bakery operators."
+    },
+    {
+      "name": "Baking Subs",
+      "url": "https://www.bakingsubs.com/blog/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Real, active blog: 'Home Bakery Business Plan Template' and 'Home Bakery Business Checklist' — startup costs, pricing formulas, legal setup."
+    },
+    {
+      "name": "CaterZen",
+      "url": "https://www.caterzen.com/podcast/feed",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Pairs with the CaterZen YouTube channel above — the Barbecue Catering Smarts podcast covers real catering-business growth strategies from working caterers."
+    },
+    {
+      "name": "King Arthur Baking",
+      "url": "https://www.kingarthurbaking.com/blog",
+      "region": "Global",
+      "focus": "Baking science, recipes, ingredients, and professional technique.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "ChefSteps",
+      "url": "https://www.chefsteps.com/",
+      "region": "Global",
+      "focus": "Culinary technique, food science, and professional cooking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Taste of Home",
+      "url": "https://www.tasteofhome.com/",
+      "region": "Global",
+      "focus": "Cooking, baking, food preparation, and family food culture.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modernist Pantry",
+      "url": "https://blog.modernistpantry.com/",
+      "region": "Global",
+      "focus": "Food science, culinary ingredients, technique, and experimentation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First (free resources)",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free resources from the author's own official site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook covering small-business fundamentals.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the official openstax.org domain, a well-established open-textbook publisher.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on starting and running a business.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business (free eBook)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://www.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free eBook hosted on HubSpot's own site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry, hosted on hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, complete startup guide hosted directly on the official sba.gov site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry, hosted on a U.S. government domain.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification (free course)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course, not a written book — hosted on HubSpot's own academy site.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry, hosted on academy.hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on management fundamentals.",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythrevisitedwh00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. Build systems so the business runs without you.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "10 Cakes Husbands Like Best: From Spry's Recipe Round-up",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63004",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63004; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63004/pg63004.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63004/pg63004.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63004/pg63004.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63004/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cake",
+        "Oils and fats, Edible",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "10 Luscious New Cakes, Made by Spry's Amazing New One-Bowl Method",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59589",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59589; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59589/pg59589.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59589/pg59589.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59589/pg59589.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59589/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cake",
+        "Oils and fats, Edible",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "50 Wonderful Ways to Use Lucerne Sour Cream, From Appetizers to Desserts\r\nRecipes from the Test Kitchen of the American Dairy Association",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63670",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63670; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63670/pg63670.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63670/pg63670.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63670/pg63670.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63670/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Cookbooks",
+        "Cooking (Dairy products)",
+        "Cooking (Sour cream and milk)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "A brief guide to the Food Collection",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64712",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64712; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64712/pg64712.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64712/pg64712.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64712/pg64712.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/64712/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Exhibition catalogs",
+        "Bethnal Green Museum",
+        "Food -- Exhibitions",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Nutrition",
+        "HQ"
+      ]
+    },
+    {
+      "title": "A friend in the kitchen",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61451",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61451; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61451/pg61451.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61451/pg61451.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61451/pg61451.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/61451/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Vegetarian cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "A Handbook of Fish Cookery: How to buy, dress, cook, and eat fish",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53525",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53525; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53525/pg53525.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53525/pg53525.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53525/pg53525.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53525/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking (Fish)",
+        "Cookbooks and Cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "A handbook of invalid cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54568",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54568; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54568/pg54568.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54568/pg54568.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54568/pg54568.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54568/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking for the sick",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RM"
+      ]
+    },
+    {
+      "title": "A Treatise of Cleanness in Meats and Drinks, of the Preparation of Food,\r\nthe Excellency of Good Airs, and the Benefits of Clean Sweet Beds. Also of the Generation of Bugs, and Their Cure. To Which Is Added, a Short Discourse of the Pain in the Teeth, Shewing What Cause It Does Chiefly Proceed, and Also How to Prevent It.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52657",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52657; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52657/pg52657.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52657/pg52657.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52657/pg52657.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/52657/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Hygiene -- Early works to 1800",
+        "Teeth -- Care and hygiene",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RA"
+      ]
+    },
+    {
+      "title": "A Treatise on Adulterations of Food, and Culinary Poisons\r\nExhibiting the Fraudulent Sophistications of Bread, Beer, Wine, Spiritous Liquors, Tea, Coffee, Cream, Confectionery, Vinegar, Mustard, Pepper, Cheese, Olive Oil, Pickles, and Other Articles Employed in Domestic Economy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/19031",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #19031; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/19031/pg19031.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/19031/pg19031.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/19031/pg19031.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/19031/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food adulteration and inspection",
+        "Technology",
+        "Cookbooks and Cooking",
+        "Medicine",
+        "Chemistry",
+        "Category: Cooking & Drinking",
+        "Category: Health & Medicine",
+        "TX"
+      ]
+    },
+    {
+      "title": "A Treatise on Bread, and Bread-making",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66331",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66331; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66331/pg66331.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66331/pg66331.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66331/pg66331.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66331/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Bread",
+        "Category: History - Other",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "A treatise on the art of making good wholesome bread of wheat, oats, rye, barley and other farinaceous grains\r\nExhibiting the alimentary properties and chemical constitution of different kinds of bread corn, and of the various substitutes used for bread, in different parts of the world",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60424",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60424; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60424/pg60424.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60424/pg60424.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60424/pg60424.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60424/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Bread",
+        "Category: History - Other",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Cooking & Drinking",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "A treatise on the esculent funguses of England\r\ncontaining an account of their classical history, uses, characters, development, structure, nutritious properties, modes of cooking and preserving, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58853",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58853; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58853/pg58853.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58853/pg58853.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58853/pg58853.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/58853/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Mushrooms -- England",
+        "Category: Science - Biology",
+        "Category: Cooking & Drinking",
+        "Category: Nutrition",
+        "QK"
+      ]
+    },
+    {
+      "title": "American Cookery: The Art of Dressing Viands, Fish, Poultry, and Vegetables",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12815",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12815; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12815/pg12815.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12815/pg12815.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12815/pg12815.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/12815/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American -- Early works to 1800",
+        "Cookbooks and Cooking",
+        "Category: History - American",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "An Ideal Kitchen: Miss Parloa's Kitchen Companion\r\nA Guide for All Who Would Be Good Housekeepers",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53892",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53892; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53892/pg53892.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53892/pg53892.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53892/pg53892.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53892/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Kitchen utensils",
+        "Home economics",
+        "Cooking, American",
+        "Kitchens",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Beef Slaughtering, Cutting, Preserving, and Cooking on the Farm",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62848",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62848; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62848/pg62848.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62848/pg62848.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62848/pg62848.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62848/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Meat cutting",
+        "Slaughtering and slaughter-houses",
+        "Beef",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "SF"
+      ]
+    },
+    {
+      "title": "Betty Crocker's Frosting Secrets\r\nFancy Cake Decorating; New Cake-trimming Short Cuts; Fabulous Party Cake Ideas; Fun With Frostings",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62188",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62188; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62188/pg62188.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62188/pg62188.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62188/pg62188.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62188/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cake decorating",
+        "Icings (Confectionery)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Book of American Baking\r\nA Practical Guide Covering Various Branches of the Baking Industry, Including Cakes, Buns, and Pastry, Bread Making, Pie Baking, Etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49797",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49797; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49797/pg49797.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49797/pg49797.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49797/pg49797.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49797/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Quantity cooking",
+        "Baking",
+        "Baked products industry -- United States",
+        "Baking -- United States",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Bread and cake baking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78839",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #78839; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78839/pg78839.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78839/pg78839.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78839/pg78839.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/78839/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cookbooks",
+        "Bread",
+        "Cake",
+        "TX"
+      ]
+    },
+    {
+      "title": "Broken Bread, from an Evangelist's Wallet",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24242",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24242; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24242/pg24242.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24242/pg24242.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24242/pg24242.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24242/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Meditations",
+        "Christian life -- Methodist authors",
+        "Category: Religion/Spirituality",
+        "BV"
+      ]
+    },
+    {
+      "title": "Cakes & Ale\r\nA Dissertation on Banquets Interspersed with Various Recipes, More or Less Original, and anecdotes, mainly veracious",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43278",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43278; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43278/pg43278.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43278/pg43278.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43278/pg43278.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/43278/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Gastronomy",
+        "Cooking, English",
+        "Entertaining",
+        "Dinners and dining",
+        "Category: Humour",
+        "Category: Essays, Letters & Speeches",
+        "Category: British Literature",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Camp fires and camp cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75442",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75442; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75442/pg75442.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75442/pg75442.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75442/pg75442.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/75442/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Cooking for military personnel",
+        "Category: History - American",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "UC"
+      ]
+    },
+    {
+      "title": "Camping and camp cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73671",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73671; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73671/pg73671.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73671/pg73671.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73671/pg73671.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73671/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Camping",
+        "Outdoor cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "Category: Nature/Gardening/Animals",
+        "SK"
+      ]
+    },
+    {
+      "title": "Canning, Freezing, Storing Garden Produce",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59977",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59977; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59977/pg59977.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59977/pg59977.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59977/pg59977.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59977/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Canning and preserving",
+        "Fruit -- Preservation -- United States",
+        "Vegetables -- Preservation -- United States",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Choice Recipes and Menus Using Canned Foods",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66069",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66069; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66069/pg66069.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66069/pg66069.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66069/pg66069.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66069/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cookbooks",
+        "Canned foods",
+        "Cooking (Canned foods)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Classic Variations in Cooking with Texas Eggs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62665",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62665; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62665/pg62665.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62665/pg62665.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62665/pg62665.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62665/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking (Eggs)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "Clayton's Quaker Cook-Book\r\nBeing a Practical Treatise on the Culinary Art Adapted to the Tastes and Wants of All Classes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38823",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38823; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38823/pg38823.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38823/pg38823.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38823/pg38823.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38823/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Cottage Cheese Recipe Book\r\nAppetizers, Salads, Salad Dressings, Breads, Main Dishes, Desserts",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65327",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65327; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65327/pg65327.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65327/pg65327.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65327/pg65327.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65327/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cookbooks",
+        "Cooking (Dairy products)",
+        "Cooking (Cottage cheese)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Culinary Chemistry\r\nThe Scientific Principles of Cookery, with Concise Instructions for Preparing Good and Wholesome Pickles, Vinegar, Conserves, Fruit Jellies, Marmalades, and Various Other Alimentary Substances Employed in Domestic Economy, with Observations on the Chemical Constitution and Nutritive Qualities of Different Kinds of Food.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60163",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60163; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60163/pg60163.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60163/pg60163.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60163/pg60163.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60163/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking",
+        "Food poisoning",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Cooking & Drinking",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "Culinary Herbs: Their Cultivation Harvesting Curing and Uses",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21414",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #21414; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21414/pg21414.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21414/pg21414.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21414/pg21414.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/21414/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Herbs",
+        "Horticulture",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "SB"
+      ]
+    },
+    {
+      "title": "Culture and Cooking; Or, Art in the Kitchen",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29982",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29982; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29982/pg29982.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29982/pg29982.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29982/pg29982.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29982/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Cookbooks and Cooking",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Curious Facts in the History of Insects; Including Spiders and Scorpions.\r\nA Complete Collection of the Legends, Superstitions, Beliefs, and Ominous Signs Connected with Insects; Together with Their Uses in Medicine, Art, and as Food; and a Summary of Their Remarkable Injuries and Appearances.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41625",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41625; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41625/pg41625.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41625/pg41625.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41625/pg41625.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41625/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Insects",
+        "Category: Mythology, Legends & Folklore",
+        "Category: History - Other",
+        "Category: Nature/Gardening/Animals",
+        "Category: Archaeology & Anthropology",
+        "QL"
+      ]
+    },
+    {
+      "title": "Detection of the Common Food Adulterants",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43545",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43545; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43545/pg43545.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43545/pg43545.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43545/pg43545.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/43545/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food adulteration and inspection",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "TX"
+      ]
+    },
+    {
+      "title": "Directions for Cooking by Troops, in Camp and Hospital\r\nPrepared for the Army of Virginia, and published by order of the Surgeon General, with essays on \"taking food,\" and \"what food.\"",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49833",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49833; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49833/pg49833.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49833/pg49833.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49833/pg49833.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49833/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking for the sick",
+        "Quantity cooking",
+        "Cooking for military personnel",
+        "Category: History - American",
+        "Category: Cooking & Drinking",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "Women in Science, Technology, Engineering, and Mathematics",
+        "RM"
+      ]
+    },
+    {
+      "title": "Dressed Game and Poultry à la Mode",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/31982",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #31982; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/31982/pg31982.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/31982/pg31982.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/31982/pg31982.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/31982/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking (Game)",
+        "Cooking (Poultry)",
+        "Cookbooks and Cooking",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 1",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46511",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46511; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46511/pg46511.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46511/pg46511.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46511/pg46511.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/46511/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "RM"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 2",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48746",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48746; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48746/pg48746.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48746/pg48746.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48746/pg48746.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/48746/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RM"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 3",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50213",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50213; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50213/pg50213.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50213/pg50213.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50213/pg50213.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50213/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RM"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 4",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47701",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #47701; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47701/pg47701.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47701/pg47701.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47701/pg47701.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/47701/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "RM"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 5",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50660",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50660; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50660/pg50660.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50660/pg50660.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50660/pg50660.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50660/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RM"
+      ]
+    },
+    {
+      "title": "Everyday Foods in War Time",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14066",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #14066; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14066/pg14066.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14066/pg14066.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14066/pg14066.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/14066/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Food conservation",
+        "World War I",
+        "Category: History - Modern (1750+)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "The royal baker and pastry cook",
+      "author": "Royal Baking Powder Company",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73744",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 73744); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73744/pg73744.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73744/pg73744.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73744/pg73744.cover.small.jpg"
+      ],
+      "subject": "Pastry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pastry",
+        "Cooking, American",
+        "Baking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Baker's Coconut Recipes",
+      "author": "Franklin Baker Co.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65326",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65326); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65326/pg65326.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65326/pg65326.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65326/pg65326.cover.small.jpg"
+      ],
+      "subject": "Desserts",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Desserts",
+        "Cookbooks",
+        "Cooking (Coconut)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "The pudding and pastry book",
+      "author": "Douglas, Elizabeth",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68567",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 68567); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68567/pg68567.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68567/pg68567.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68567/pg68567.cover.small.jpg"
+      ],
+      "subject": "Cooking",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking",
+        "Pastry",
+        "Frozen desserts",
+        "Cookbooks",
+        "Puddings",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Toadstools, mushrooms, fungi, edible and poisonous; one thousand American fungi How to select and cook the edible; how to distinguish and avoid the poisonous, with full botanic descriptions. Toadstool poisons and their treatment, instructions to students, recipes for cooking, etc., etc.",
+      "author": "McIlvaine, Charles, 1840-1909; Macadam, Robert K.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51393",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 51393); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51393/pg51393.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51393/pg51393.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51393/pg51393.cover.small.jpg"
+      ],
+      "subject": "Cooking (Mushrooms)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking (Mushrooms)",
+        "Mushrooms",
+        "Edible mushrooms -- North America",
+        "Mushrooms, Poisonous -- North America",
+        "Fungi -- North America",
+        "Category: Science - Biology",
+        "Category: Cooking & Drinking",
+        "Category: Nature/Gardening/Animals",
+        "QK"
+      ]
+    },
+    {
+      "title": "Outdoor Life and Indian Stories Making open air life attractive to young Americans by telling them all about woodcraft, signs and signaling, the stars, fishing, camping, camp cooking, how to tie knots and how to make fire without matches, and many other fascinating open air pursuits. Also, stories of noted hunters and scouts, great indians and warriors, including Daniel Boone, Kit Carson, General Custer, Pontiac, Tecumseh, King Philip, Black Hawk, Brandt, Sitting Bull, and a host of others whose names are famous; all of them true and interesting",
+      "author": "Ellis, Edward Sylvester, 1840-1916",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59002",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 59002); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59002/pg59002.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59002/pg59002.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59002/pg59002.cover.small.jpg"
+      ],
+      "subject": "Indians of North America",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indians of North America",
+        "Camping",
+        "Category: Children & Young Adult Reading",
+        "Category: History - American",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "E011"
+      ]
+    },
+    {
+      "title": "Over 250 Ways to Cook and Serve Fish and Other Productions of the Sea A Choice Collection of Recipes, Representing the Latest and Most Approved Methods of Cooking",
+      "author": "Shute & Merchant",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66316",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 66316); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66316/pg66316.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66316/pg66316.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66316/pg66316.cover.small.jpg"
+      ],
+      "subject": "Cooking (Seafood)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking (Seafood)",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Ye butcher, ye baker, ye candlestick-maker",
+      "author": "Seaver, Robert, 1873-1922",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73649",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 73649); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73649/pg73649.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73649/pg73649.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73649/pg73649.cover.small.jpg"
+      ],
+      "subject": "Humorous poetry, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Humorous poetry, American",
+        "Occupations -- Poetry",
+        "Occupations -- Humor",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "Category: Humour",
+        "PS"
+      ]
+    },
+    {
+      "title": "A Little Book for A Little Cook",
+      "author": "Hubbard, L. P.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24125",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24125); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24125/pg24125.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24125/pg24125.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24125/pg24125.cover.small.jpg"
+      ],
+      "subject": "Pillsbury Company",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pillsbury Company",
+        "Bread -- Poetry",
+        "Flour -- Poetry",
+        "Wheat -- Poetry",
+        "Baking -- Juvenile literature",
+        "Cooking -- Juvenile literature",
+        "Children's Instructional Books",
+        "Category: Children & Young Adult Reading",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "The House An Episode in the Lives of Reuben Baker, Astronomer, and of His Wife, Alice",
+      "author": "Field, Eugene, 1850-1895",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21808",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 21808); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21808/pg21808.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21808/pg21808.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21808/pg21808.cover.small.jpg"
+      ],
+      "subject": "Humorous stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Humorous stories",
+        "Home ownership -- Fiction",
+        "Category: Humour",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Flight of Pony Baker A Boy's Town Story",
+      "author": "Howells, William Dean, 1837-1920",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22219",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 22219); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/22219/pg22219.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/22219/pg22219.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/22219/pg22219.cover.small.jpg"
+      ],
+      "subject": "Children -- Conduct of life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Children -- Conduct of life -- Juvenile fiction",
+        "Friendship -- Juvenile fiction",
+        "Siblings -- Juvenile fiction",
+        "Runaway children -- Juvenile fiction",
+        "Amusements -- Juvenile fiction",
+        "Parent and child -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Gentle Art of Cooking Wives",
+      "author": "Worthington, Elizabeth Strong, 1851-1916",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26187",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 26187); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26187/pg26187.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26187/pg26187.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26187/pg26187.cover.small.jpg"
+      ],
+      "subject": "Marriage",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Marriage",
+        "Category: Humour",
+        "Category: Novels",
+        "Category: British Literature",
+        "Category: Gender & Sexuality Studies",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Boston Cooking-School Magazine (Vol. XV, No. 2, Aug.-Sept., 1910)",
+      "author": "Various; Hill, Janet McKenzie, 1852-1933 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41940",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 41940); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41940/pg41940.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41940/pg41940.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41940/pg41940.cover.small.jpg"
+      ],
+      "subject": "Cooking -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking -- Periodicals",
+        "Home economics -- Periodicals",
+        "Category: Cooking & Drinking",
+        "Category: Journalism/Media/Writing",
+        "AP",
+        "TX"
+      ]
+    },
+    {
+      "title": "Pole Baker: A Novel",
+      "author": "Harben, Will N. (Will Nathaniel), 1858-1919",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51918",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 51918); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51918/pg51918.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51918/pg51918.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51918/pg51918.cover.small.jpg"
+      ],
+      "subject": "Georgia -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Georgia -- Fiction",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "A Boy's Fortune; Or, The Strange Adventures of Ben Baker",
+      "author": "Alger, Horatio, Jr., 1832-1899; Merrill, Frank T., 1848-1923 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52017",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52017); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52017/pg52017.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52017/pg52017.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52017/pg52017.cover.small.jpg"
+      ],
+      "subject": "Adventure and adventurers -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Adventure and adventurers -- Juvenile fiction",
+        "Fortune -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Sermons of the Rev. Francis A. Baker, Priest of the Congregation of St. Paul With a Memoir of His Life",
+      "author": "Baker, Francis A. (Francis Aloysius), 1820-1865; Hewit, A. F. (Augustine Francis), 1820-1897 [Contributor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58812",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58812); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58812/pg58812.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58812/pg58812.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58812/pg58812.cover.small.jpg"
+      ],
+      "subject": "Catholic Church -- Sermons",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Catholic Church -- Sermons",
+        "Sermons, American -- 19th century",
+        "Baker, Francis A. (Francis Aloysius), 1820-1865",
+        "Category: Biographies",
+        "Category: Religion/Spirituality",
+        "BX"
+      ]
+    },
+    {
+      "title": "Baker's Dozens",
+      "author": "Harmon, Jim, 1933-2010",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60683",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 60683); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60683/pg60683.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60683/pg60683.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60683/pg60683.cover.small.jpg"
+      ],
+      "subject": "Science fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Science fiction",
+        "Short stories",
+        "Criminals -- Fiction",
+        "Identity -- Fiction",
+        "Category: Short Stories",
+        "Category: Science-Fiction & Fantasy",
+        "PS"
+      ]
+    },
+    {
+      "title": "Tested Recipes: Waterless Cooking for Better Meals, Better Health",
+      "author": "Tested Recipe Institute (New York, N.Y.)",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64703",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 64703); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64703/pg64703.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64703/pg64703.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64703/pg64703.cover.small.jpg"
+      ],
+      "subject": "Cooking, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, American",
+        "Cookware",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "TX"
+      ]
+    },
+    {
+      "title": "Betsy Baker! or, Too Attentive by Half; A Farce, in One Act",
+      "author": "Morton, John Maddison, 1811-1891",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64794",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 64794); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64794/pg64794.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64794/pg64794.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64794/pg64794.cover.small.jpg"
+      ],
+      "subject": "English drama (Comedy)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English drama (Comedy)",
+        "Women -- Drama",
+        "Farces",
+        "Category: Humour",
+        "Category: Plays/Films/Dramas",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Recipes Used in the Cooking Schools, U. S. Army",
+      "author": "United States. Army",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65250",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65250); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65250/pg65250.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65250/pg65250.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65250/pg65250.cover.small.jpg"
+      ],
+      "subject": "Cooking",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking",
+        "United States. Army -- Commissariat",
+        "Cooking for military personnel -- Handbooks, manuals, etc.",
+        "Category: History - Modern (1750+)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "UC"
+      ]
+    },
+    {
+      "title": "You're really cooking when you're cooking with Seven-Up!",
+      "author": "Seven-Up Company",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65743",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65743); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65743/pg65743.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65743/pg65743.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65743/pg65743.cover.small.jpg"
+      ],
+      "subject": "Cooking, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, American",
+        "Cookbooks",
+        "Cooking (Soft drinks)",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "What Every Housewife Should Know About Electric Cooking (1945)",
+      "author": "General Motors Corporation. Frigidaire Division",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65804",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65804); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65804/pg65804.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65804/pg65804.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65804/pg65804.cover.small.jpg"
+      ],
+      "subject": "Stoves, Electric",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Stoves, Electric",
+        "Electric cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "The \"ideal\" cookery book: A reliable guide for home cooking containing 249 useful and dainty recipes (third edition)",
+      "author": "Clarke, Lilian",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69876",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69876); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69876/pg69876.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69876/pg69876.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69876/pg69876.cover.small.jpg"
+      ],
+      "subject": "Cooking",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Valuable cooking receipts",
+      "author": "Murrey, Thomas J. (Thomas Jefferson), 1844?-1900",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77612",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 77612); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77612/pg77612.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77612/pg77612.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77612/pg77612.cover.small.jpg"
+      ],
+      "subject": "Cooking, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, American",
+        "TX"
+      ]
+    },
+    {
+      "title": "Oliver Constable, miller and baker, Vol. 1 (of 3)",
+      "author": "Tytler, Sarah, 1827-1914",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78299",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 78299); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78299/pg78299.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78299/pg78299.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78299/pg78299.cover.small.jpg"
+      ],
+      "subject": "England -- Social conditions -- 19th century -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "England -- Social conditions -- 19th century -- Fiction",
+        "PR"
+      ]
+    },
+    {
+      "title": "Oliver Constable, miller and baker, Vol. 2 (of 3)",
+      "author": "Tytler, Sarah, 1827-1914",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78315",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 78315); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78315/pg78315.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78315/pg78315.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78315/pg78315.cover.small.jpg"
+      ],
+      "subject": "England -- Social conditions -- 19th century -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "England -- Social conditions -- 19th century -- Fiction",
+        "PR"
+      ]
+    },
+    {
+      "title": "Oliver Constable, miller and baker, Vol. 3 (of 3)",
+      "author": "Tytler, Sarah, 1827-1914",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78319",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 78319); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78319/pg78319.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78319/pg78319.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78319/pg78319.cover.small.jpg"
+      ],
+      "subject": "England -- Social conditions -- 19th century -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "England -- Social conditions -- 19th century -- Fiction",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Cyder-Maker's Instructor, Sweet-Maker's Assistant, and Victualler's and Housekeeper's Director In Three Parts",
+      "author": "Chapman, Thomas (Wine cooper)",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15407",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 15407); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/15407/pg15407.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/15407/pg15407.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/15407/pg15407.cover.small.jpg"
+      ],
+      "subject": "Liquors",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Liquors",
+        "Wine and wine making",
+        "Cider",
+        "Cooking (Cider)",
+        "Cookbooks and Cooking",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TP"
+      ]
+    },
+    {
+      "title": "The Wine Press and the Cellar: A Manual for the Wine-Maker and the Cellar-Man",
+      "author": "Rixford, Emmet H. (Emmet Hawkins), 1841-1928",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66524",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 66524); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66524/pg66524.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66524/pg66524.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66524/pg66524.cover.small.jpg"
+      ],
+      "subject": "Wine and wine making",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Wine and wine making",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TP"
+      ]
+    },
+    {
+      "title": "Mrs. Mary Eales's receipts. (1733)",
+      "author": "Eales, Mary",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20735",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 20735); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/20735/pg20735.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/20735/pg20735.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/20735/pg20735.cover.small.jpg"
+      ],
+      "subject": "Confectionery -- Early works to 1800",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Confectionery -- Early works to 1800",
+        "Pastry -- Early works to 1800",
+        "Cookbooks and Cooking",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "The Calumet book of oven triumphs!",
+      "author": "General Foods Corporation",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65398",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65398); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65398/pg65398.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65398/pg65398.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65398/pg65398.cover.small.jpg"
+      ],
+      "subject": "Cooking, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, American",
+        "Cookbooks",
+        "Baking",
+        "Baking powder",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "A Poetical Cook-Book",
+      "author": "Moss, Maria J.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25631",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 25631); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25631/pg25631.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25631/pg25631.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25631/pg25631.cover.small.jpg"
+      ],
+      "subject": "Poetry",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Poetry",
+        "Cooking, American",
+        "Cookbooks and Cooking",
+        "Category: Poetry",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Armour's Monthly Cook Book, Volume 2, No. 12, October 1913 A Monthly Magazine of Household Interest",
+      "author": "Various; McClure, Mary Jane [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26005",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 26005); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26005/pg26005.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26005/pg26005.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26005/pg26005.cover.small.jpg"
+      ],
+      "subject": "Cooking -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking -- Periodicals",
+        "Menus -- Periodicals",
+        "Cookbooks and Cooking",
+        "Armour's Monthly Cook Book",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "The Golden Age Cook Book",
+      "author": "Dwight, Henrietta Latham, 1840-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26209",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 26209); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26209/pg26209.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26209/pg26209.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26209/pg26209.cover.small.jpg"
+      ],
+      "subject": "Cooking",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking",
+        "Vegetarian cooking",
+        "Cookbooks and Cooking",
+        "Category: Cooking & Drinking",
+        "Category: Nutrition",
+        "Category: Philosophy & Ethics",
+        "TX"
+      ]
+    },
+    {
+      "title": "The Mary Frances cook book",
+      "author": "Fryer, Jane Eayre, 1876-; Boyer, Jane Allen, 1875-1940 [Illustrator]; Hays, Margaret G., 1874-1925 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38215",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38215); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38215/pg38215.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38215/pg38215.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38215/pg38215.cover.small.jpg"
+      ],
+      "subject": "Cooking, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, American",
+        "Cooking, American -- Juvenile literature",
+        "Mary Frances (Fictitious character) -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "The Golden Rule Cook Book: Six hundred recipes for meatless dishes",
+      "author": "Sharpe, M. R. L. (Maud Russell Lorraine), 1867-1949",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55555",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55555); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55555/pg55555.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55555/pg55555.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55555/pg55555.cover.small.jpg"
+      ],
+      "subject": "Cooking, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, American",
+        "Vegetarian cooking",
+        "Vegetarianism",
+        "Category: Cooking & Drinking",
+        "Category: Nutrition",
+        "Category: Philosophy & Ethics",
+        "TX"
+      ]
+    },
+    {
+      "title": "A Handbook of Cookery for a Small House",
+      "author": "Conrad, Jessie, 1873-1936; Conrad, Joseph, 1857-1924 [Author of introduction, etc.]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67482",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67482); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67482/pg67482.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67482/pg67482.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67482/pg67482.cover.small.jpg"
+      ],
+      "subject": "Cooking, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, English",
+        "Cookbooks",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "The Auxiliary cook book",
+      "author": "Hebrew Sheltering Guardian Society. Auxiliary Society",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68909",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 68909); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68909/pg68909.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68909/pg68909.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68909/pg68909.cover.small.jpg"
+      ],
+      "subject": "Cooking, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, American",
+        "Cookbooks",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Cook book of tested receipes",
+      "author": "Cary, Ida Lee",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68983",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 68983); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68983/pg68983.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68983/pg68983.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68983/pg68983.cover.small.jpg"
+      ],
+      "subject": "Cooking, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, American",
+        "Cookbooks",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Dairying exemplified, or, The business of cheese-making Laid down from approved rules, collected from the most experienced dairy-women, of several counties. Digested under various heads. From a series of observations, during thirty years practice in the cheese trade. The second edition corrected and improved",
+      "author": "Twamley, J. (Josiah)",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69922",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69922); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69922/pg69922.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69922/pg69922.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69922/pg69922.cover.small.jpg"
+      ],
+      "subject": "Cheese",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cheese",
+        "Cheese industry -- Great Britain -- 18th century",
+        "Dairying -- Great Britain -- 18th century",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "SF"
+      ]
+    },
+    {
+      "title": "Hand-book on cheese making",
+      "author": "Newell, George E.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70813",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 70813); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70813/pg70813.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70813/pg70813.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70813/pg70813.cover.small.jpg"
+      ],
+      "subject": "Cheese",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cheese",
+        "Category: History - American",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "SF"
+      ]
+    },
+    {
+      "title": "Chinese cook book",
+      "author": "Galster, Vernon, 1880-1937",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/74369",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 74369); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/74369/pg74369.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/74369/pg74369.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/74369/pg74369.cover.small.jpg"
+      ],
+      "subject": "Cookbooks",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cookbooks",
+        "Cooking, Chinese",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "The progress meatless cook book",
+      "author": "Lake, Carlotta M. (Carlotta Mixer), 1869-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77733",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 77733); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77733/pg77733.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77733/pg77733.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77733/pg77733.cover.small.jpg"
+      ],
+      "subject": "Cooking, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking, American",
+        "Vegetarian cooking",
+        "Formulas, recipes, etc.",
+        "TX"
+      ]
+    },
+    {
+      "title": "The kitchen garden and the cook",
+      "author": "Pearse, Cecilia Maria de Candia, 1853-1926",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78799",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 78799); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78799/pg78799.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78799/pg78799.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78799/pg78799.cover.small.jpg"
+      ],
+      "subject": "Vegetable gardening",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Vegetable gardening",
+        "Cooking, English",
+        "Cooking (Vegetables)",
+        "Kitchen gardens",
+        "SB",
+        "TX"
+      ]
+    },
+    {
+      "title": "The Bakerian lecture",
+      "author": "Young, Thomas, 1773-1829",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/79069",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 79069); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/79069/pg79069.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/79069/pg79069.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/79069/pg79069.cover.small.jpg"
+      ],
+      "subject": "Ophthalmology",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Ophthalmology",
+        "Eye -- Accommodation and refraction",
+        "Eyeglasses",
+        "Cornea",
+        "Nerves",
+        "Pupil (Eye)",
+        "Refraction",
+        "Retina",
+        "Visual perception",
+        "RE"
+      ]
+    },
+    {
+      "title": "The Closet of Sir Kenelm Digby Knight Opened",
+      "author": "Digby, Kenelm, 1603-1665; Macdonell, Anne [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/16441",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 16441); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/16441/pg16441.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/16441/pg16441.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/16441/pg16441.cover.small.jpg"
+      ],
+      "subject": "Liquors",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Liquors",
+        "Cooking -- Early works to 1800",
+        "Wine and wine making -- Early works to 1800",
+        "Digby, Kenelm, Sir, 1603-1665",
+        "Cookbooks and Cooking",
+        "Crafts",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "A History of Champagne, with Notes on the Other Sparkling Wines of France",
+      "author": "Vizetelly, Henry, 1820-1894",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46953",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 46953); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46953/pg46953.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46953/pg46953.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46953/pg46953.cover.small.jpg"
+      ],
+      "subject": "Champagne (Wine) -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Champagne (Wine) -- History",
+        "Wine and wine making -- France",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "Category: Cooking & Drinking",
+        "TP"
+      ]
+    },
+    {
+      "title": "The Art of Drinking: A Historical Sketch",
+      "author": "Gervinus, Georg Gottfried, 1805-1871",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47076",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 47076); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47076/pg47076.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47076/pg47076.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47076/pg47076.cover.small.jpg"
+      ],
+      "subject": "Wine and wine making",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Wine and wine making",
+        "Drinking customs",
+        "Beer",
+        "Category: History - Other",
+        "Category: Cooking & Drinking",
+        "Category: Philosophy & Ethics",
+        "GT"
+      ]
+    },
+    {
+      "title": "The Flowing Bowl A Treatise on Drinks of All Kinds and of All Periods, Interspersed with Sundry Anecdotes and Reminiscences",
+      "author": "Spencer, Edward, 1844-1910",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57179",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57179); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57179/pg57179.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57179/pg57179.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57179/pg57179.cover.small.jpg"
+      ],
+      "subject": "Liquors",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Liquors",
+        "Wine and wine making",
+        "Alcoholic beverages",
+        "Category: Humour",
+        "Category: History - Other",
+        "Category: Cooking & Drinking",
+        "TP"
+      ]
+    },
+    {
+      "title": "Host and Guest",
+      "author": "Kirwan, A. V. (Andrew Valentine), 1804-1870",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70445",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 70445); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70445/pg70445.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70445/pg70445.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70445/pg70445.cover.small.jpg"
+      ],
+      "subject": "Wine and wine making",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Wine and wine making",
+        "Dinners and dining",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Old-time recipes for home made wines, cordials and liqueurs from fruits, flowers, vegetables, and shrubs",
+      "author": "Wright, Helen S. (Helen Saunders), 1874-1957 [Compiler]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75708",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 75708); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75708/pg75708.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75708/pg75708.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75708/pg75708.cover.small.jpg"
+      ],
+      "subject": "Wine and wine making",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Wine and wine making",
+        "Beverages",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    }
+  ],
+  "notes": "2026-07-20: The founder-provided 'catering_baking_resources.csv' contained only real data for its 10 books — all 10 channels and all 10 blogs were unresolved placeholders ('Business Channel 1'–'10', 'generic.com'), unlike every other CSV processed this project. Channels and blogs for this category were therefore independently sourced and verified from scratch rather than merged from the CSV. Real, rich Nigeria-specific business content exists in blog form (WithinNigeria's 'Complete Guide to Starting a Catering Business in Nigeria for Owambe Events') — confirmed and added this pass. Two channels (Sussy's Cakes Recipes, Diary of a Kitchen Lover) are primarily recipe/technique content with a real but secondary business thread, flagged individually rather than presented as pure business channels. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 40 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 50 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 40 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

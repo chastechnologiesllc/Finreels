@@ -1,0 +1,615 @@
+{
+  "categoryId": "skill_04_makeup_artistry",
+  "status": "verified",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UCfEQFjH0J--H3cV8pis62TA",
+      "name": "Damilare Oshodi",
+      "handle": "@DamilareOshodi",
+      "description": "Lagos-based makeup artist and beauty entrepreneur. Covers makeup tutorials plus tips for beginner makeup artists and the business side of the craft.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "DO",
+      "focus": "Makeup artistry business & beginner MUA tips",
+      "verifiedOn": "2026-07-11",
+      "verificationMethod": "Fetched youtube.com/@DamilareOshodi directly, confirmed canonical channel ID. Independently corroborated by a second source (The Beautiful Societies) describing the same channel as 'an educational hub for Nigerian bridal looks'."
+    },
+    {
+      "id": "UC97cZsOCVufvmRXvLusdj2Q",
+      "name": "Bobbi Brown Cosmetics",
+      "handle": "@BobbiBrown",
+      "description": "Official brand channel of the makeup line founded by makeup artist Bobbi Brown in 1991 — full-face beauty tutorials from the brand's pro makeup artists.",
+      "accentColor": "0xFFEC4899",
+      "initials": "BB",
+      "focus": "Building a beauty business from scratch",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Channel ID cross-confirmed via vidIQ analytics and a FeedSpot cosmetics-YouTubers directory listing. Note: Bobbi Brown herself left the Bobbi Brown Cosmetics company in 2016 (per Wikipedia) — this is the brand's official channel, not personally run by her; she now posts beauty content under her own name and Jones Road."
+    },
+    {
+      "id": "UCFghPtzFcmyDiID1ASMA4Dg",
+      "name": "Lisa Eldridge",
+      "handle": "@LisaEldridge",
+      "description": "Professional makeup artist to A-list celebrities, Global Creative Director at Lancôme, and NYT-bestselling author — one of the first professional MUAs to build a YouTube following, since 2010.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "LE",
+      "focus": "Makeup artist turned brand founder — business journey",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@LisaEldridge); identity and career details cross-confirmed against Wikipedia and lisaeldridge.com."
+    },
+    {
+      "id": "UCCvoAe__WFYMNAEN-C-CtYA",
+      "name": "Wayne Goss",
+      "handle": "@WayneGoss",
+      "description": "Welsh makeup artist and entrepreneur, one of the 'original' big beauty YouTube channels (since 2008/09) — creator of his own eponymous makeup brush line.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "WG",
+      "focus": "Independent makeup artist building product business",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Channel ID confirmed via direct channel URL in search results (youtube.com/channel/UCCvoAe__WFYMNAEN-C-CtYA); identity cross-confirmed against Wikipedia (makeup artist, brush-line entrepreneur, ~4M subscribers)."
+    },
+    {
+      "id": "UCzJIliq68IHSn-Kwgjeg2AQ",
+      "name": "Jackie Aina",
+      "handle": "@JackieAina",
+      "description": "American beauty YouTuber (since 2009) turned entrepreneur — NAACP YouTuber of the Year, brand partnerships with Anastasia Beverly Hills, e.l.f., Too Faced, and founder of Forvr Mood.",
+      "accentColor": "0xFFEF4444",
+      "initials": "JA",
+      "focus": "Influencer-to-entrepreneur business model",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UCzJIliq68IHSn-Kwgjeg2AQ); identity cross-confirmed against Wikipedia and jackieaina.com."
+    },
+    {
+      "id": "UCwgl_m6tlSf-Ipo4R7OQVzw",
+      "name": "Pat McGrath",
+      "handle": "@PATMcGRATHREAL",
+      "description": "Widely regarded as the most influential makeup artist in the world — launched her own eponymous luxury brand, PAT McGRATH LABS, in 2015.",
+      "accentColor": "0xFF6366F1",
+      "initials": "PM",
+      "focus": "Building a luxury makeup brand — business insights",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel URL in search results (youtube.com/channel/UCwgl_m6tlSf-Ipo4R7OQVzw); About-section confirms Pat McGrath's identity and PAT McGRATH LABS launch."
+    },
+    {
+      "id": "UCEcT5Ttsnl3kBMqyHmojobQ",
+      "name": "Makeup By Mario",
+      "handle": "@makeupbymario",
+      "description": "Brand channel founded by celebrity makeup artist Mario Dedivanovic (long-time Kim Kardashian MUA, popularized contouring) — launched his eponymous brand in 2020.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "MM",
+      "focus": "Celebrity MUA turned brand founder",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/makeupbymario); identity cross-confirmed against Wikipedia (Mario Dedivanovic)."
+    },
+    {
+      "id": "UCuunP8TUxGS5nmgkzXhy0oQ",
+      "name": "Tara Fela-Durotoye",
+      "handle": "@TaraFelaDurotoye",
+      "description": "Nigerian lawyer-turned-beauty-entrepreneur, founder and CEO of House of Tara International — pioneered Nigeria's professional makeup industry, first bridal directory (1999) and first Nigerian beauty academy (2004).",
+      "accentColor": "0xFFA855F7",
+      "initials": "TF",
+      "focus": "Nigerian makeup business, branding & entrepreneurship",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed official channel ID (youtube.com/channel/UCuunP8TUxGS5nmgkzXhy0oQ) via a direct search result labeled 'Official page of Tara Fela-Durotoye'; identity cross-confirmed against Wikipedia and houseoftara.com.",
+      "notes": "Substituted for the source directory's 'Binta Beauty (Nigeria)' and 'Kiki Makeup (Nigeria)' channels, neither of which could be matched to a real, confirmable Nigerian MUA YouTube channel after search passes — 'Binta Beauty' resolved instead to an unrelated Senegalese cosmetics boutique."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCeasbjVyx227l2ETO-xAssw",
+      "name": "Free Salon Education",
+      "handle": "@FreeSalonEducation",
+      "description": "Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "FS",
+      "focus": "Makeup Artistry: Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCeasbjVyx227l2ETO-xAssw; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUUOUXV5xmEqGWGf9eUyjdQ",
+      "name": "Sam Villa",
+      "handle": "@SamVillaHair",
+      "description": "Haircutting, styling, tools, salon education, and professional technique.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SV",
+      "focus": "Makeup Artistry: Haircutting, styling, tools, salon education, and professional technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUUOUXV5xmEqGWGf9eUyjdQ; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChWcYTNVbFfBDbjWnhdHrBw",
+      "name": "Brad Mondo",
+      "handle": "@BradMondo",
+      "description": "Hair color, haircut analysis, salon technique, and hair-care education.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "BM",
+      "focus": "Makeup Artistry: Hair color, haircut analysis, salon technique, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChWcYTNVbFfBDbjWnhdHrBw; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCS7mVvlpXr7Rd7opwQbvgjQ",
+      "name": "Jackie Aina",
+      "handle": "@JackieAina",
+      "description": "Makeup technique, product education, representation, and beauty industry knowledge.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "JA",
+      "focus": "Makeup Artistry: Makeup technique, product education, representation, and beauty industry knowledge.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCS7mVvlpXr7Rd7opwQbvgjQ; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWOzDU-st_OsZHNrOEPjR4Q",
+      "name": "The Makeup Chair",
+      "handle": "@TheMakeupChair",
+      "description": "Makeup fundamentals, application, face structure, and technique.",
+      "accentColor": "0xFF0891B2",
+      "initials": "TM",
+      "focus": "Makeup Artistry: Makeup fundamentals, application, face structure, and technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWOzDU-st_OsZHNrOEPjR4Q; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCzTKskwIc_-a0cGvCXA848Q",
+      "name": "NikkieTutorials",
+      "handle": "@NikkieTutorials",
+      "description": "Makeup artistry, product technique, creative looks, and beauty communication.",
+      "accentColor": "0xFFDB4437",
+      "initials": "N",
+      "focus": "Makeup Artistry: Makeup artistry, product technique, creative looks, and beauty communication.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCzTKskwIc_-a0cGvCXA848Q; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_L8_r3xbfLZnQWX8vKaStg",
+      "name": "Hairlicious Inc",
+      "handle": "@HairliciousInc",
+      "description": "Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "accentColor": "0xFF0F766E",
+      "initials": "HI",
+      "focus": "Makeup Artistry: Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_L8_r3xbfLZnQWX8vKaStg; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkGyDv3DZjIa4wYsb1aUPaA",
+      "name": "Manes by Mell",
+      "handle": "@ManesByMell",
+      "description": "Curly hair science, technique, routines, and hair-care education.",
+      "accentColor": "0xFF9333EA",
+      "initials": "MB",
+      "focus": "Makeup Artistry: Curly hair science, technique, routines, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkGyDv3DZjIa4wYsb1aUPaA; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCmi9wFeEZCV9gMDO-Sw_F-w",
+      "name": "TheSalonGuy",
+      "handle": "@TheSalonGuy",
+      "description": "Men’s hairstyling, cutting, grooming, and salon technique.",
+      "accentColor": "0xFFB45309",
+      "initials": "T",
+      "focus": "Makeup Artistry: Men’s hairstyling, cutting, grooming, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCmi9wFeEZCV9gMDO-Sw_F-w; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF475569",
+      "initials": "OF",
+      "focus": "Makeup Artistry: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "Y",
+      "focus": "Makeup Artistry: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SO",
+      "focus": "Makeup Artistry: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "KA",
+      "focus": "Makeup Artistry: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "C",
+      "focus": "Makeup Artistry: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFF0891B2",
+      "initials": "V",
+      "focus": "Makeup Artistry: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFFDB4437",
+      "initials": "S",
+      "focus": "Makeup Artistry: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF0F766E",
+      "initials": "TS",
+      "focus": "Makeup Artistry: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct official YouTube handle page @theschooloflifetv resolved to channel ID UC7IcJI8PUf5Z3zKxnZvTBog; verified against the official channel page on 2026-08-26."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFF9333EA",
+      "initials": "S",
+      "focus": "Makeup Artistry: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFFB45309",
+      "initials": "N",
+      "focus": "Makeup Artistry: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Makeup Artistry learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1_uAIS3r8Vu6JjXWvastJg",
+      "name": "3Blue1Brown",
+      "handle": "@3blue1brown",
+      "description": "Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "accentColor": "0xFF475569",
+      "initials": "3",
+      "focus": "Makeup Artistry: Visual explanations of mathematics, calculus, linear algebra, probability, and abstract ideas.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1_uAIS3r8Vu6JjXWvastJg; selected for the Makeup Artistry learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "TrustAm",
+      "url": "https://trustam.com",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: pricing calculator + 2026 guide, city-by-city, for Nigerian makeup artists. No RSS feed found in the source directory (listed as N/A) — this is the site URL, not a feed; worth checking for a /feed endpoint before shipping."
+    },
+    {
+      "name": "The Beauty Cognoscente",
+      "url": "https://thebeautycognoscente.com",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: pricing framework for upcoming makeup artists. No RSS feed found in the source directory (listed as N/A) — this is the site URL, not a feed; worth checking for a /feed endpoint before shipping."
+    },
+    {
+      "name": "Leadership.ng",
+      "url": "https://leadership.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 'Starting a Makeup Artist Business' article covering capital tiers."
+    },
+    {
+      "name": "UrbanEase Nigeria",
+      "url": "https://urbanease.ng",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 'How to become a successful makeup artist' guide. No RSS feed found in the source directory (listed as N/A) — this is the site URL, not a feed; worth checking for a /feed endpoint before shipping."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://bintusart.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: platform-specific strategy + seasonality insights for makeup businesses."
+    },
+    {
+      "name": "The Splice Blog",
+      "url": "https://splice.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: starting + marketing a makeup business. Same splice.ng domain already independently verified for skill_02 and skill_03 this week."
+    },
+    {
+      "name": "Shopify Nigeria Blog",
+      "url": "https://www.shopify.com/ng/blog.atom",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: beauty business promotions and client retention content."
+    },
+    {
+      "name": "MUA Community Nigeria",
+      "url": "https://muacommunity.ng",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: community-driven business tips forum for Nigerian MUAs. No RSS feed found in the source directory (listed as N/A) — this is the site URL, not a feed; worth checking for a /feed endpoint before shipping."
+    },
+    {
+      "name": "Allure",
+      "url": "https://www.allure.com/feed/rss",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: global beauty industry business insights from a major, well-established beauty publication."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Bobbi Brown Makeup Manual",
+      "author": "Bobbi Brown",
+      "freeSourceUrl": "https://archive.org/details/bobbibrownmakeup00brow",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — Bobbi Brown's complete 242-page manual covering skincare basics, foundation matching, eye makeup, blush, bronzer, lips, and pro industry secrets. Requires a free Internet Archive account to borrow.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.bobbibrowncosmetics.com is just the cosmetics brand sales site — no book content whatsoever (brand is now 'Jones Road Beauty' after Bobbi Brown departed in 2016). Replaced with the confirmed Internet Archive borrowable copy — identifier bobbibrownmakeup00brow, ISBN 9780446581349, 242 pages, confirmed present via web search (2026-07-30).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780446581349-L.jpg"
+    },
+    {
+      "title": "Beauty Business Start-Up Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, step-by-step small business startup guide from the U.S. Small Business Administration — covers business planning, registration, financing, and operations. Fully applicable to launching a makeup artistry business.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Stable U.S. government domain. Confirmed working in skill_02 and skill_03 audits (2026-07-30). Kept as-is.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Influence: The Psychology of Persuasion",
+      "author": "Robert Cialdini",
+      "freeSourceUrl": "https://archive.org/details/influencepsychol00cial",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — Cialdini's classic on the six principles of persuasion: reciprocity, commitment, social proof, liking, authority, and scarcity. Essential for makeup artists building a loyal client base. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/influence — identifier not confirmed in archive.org search index (2026-07-30). Updated to confirmed-active borrowable copy: archive.org/details/influencepsychol00cial — confirmed present with full chapter listing and borrowable via Internet Archive (web search, 2026-07-30).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780061241895-L.jpg"
+    },
+    {
+      "title": "Building a StoryBrand (free framework)",
+      "author": "Donald Miller",
+      "freeSourceUrl": "https://storybrand.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official StoryBrand site — free brand-messaging framework overview, weekly video tips, and resources to help makeup artists clarify their message so ideal clients take action.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://storybrand.com/free-resources not found in any search index (confirmed in skill_02 audit, 2026-07-30). Same fix applied: root domain storybrand.com confirmed active with free framework overview and weekly videos.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781400201839-L.jpg"
+    },
+    {
+      "title": "Crushing It! (thousands of free videos)",
+      "author": "Gary Vaynerchuk",
+      "freeSourceUrl": "https://www.youtube.com/@garyvee",
+      "freeSourceType": "web",
+      "freeSourceNote": "Thousands of free YouTube videos from Gary Vaynerchuk on building a personal brand, social media content, and entrepreneurship — directly applicable to makeup artists growing on Instagram, TikTok, and YouTube.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "YouTube channel @garyvee confirmed active — 45M+ followers across platforms, 300M+ monthly views, keynoted NRF 2026 in January 2026 (confirmed via web search, 2026-07-30). URL kept as-is.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780062674678-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build systems that run without the owner. Essential for makeup artists who want to grow beyond solo bookings.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://f5fp.com/e-myth-revisited-free-pdf loads F5 Financial (wrong page — confirmed broken in skill_01, skill_02, skill_03 in-app testing). Same fix: Internet Archive copy with free PDF confirmed via web search.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — cash-flow system that prioritises profit allocation upfront. Ideal for makeup artists managing inconsistent freelance income. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.mikemichalowicz.com/profit-first-book returned blank/black screen (confirmed broken in skill_01, skill_02, skill_03 in-app testing). Same fix: Internet Archive borrowable copy.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "1-Page Marketing Plan (free canvas template)",
+      "author": "Allan Dib",
+      "freeSourceUrl": "https://successwise.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free downloadable 1-Page Marketing Plan canvas from Allan Dib's official site — map your entire makeup artistry marketing strategy on one page. Email opt-in required to download.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://1pagemarketingplan.com/resources — Allan Dib moved to successwise.com (confirmed in skill_02 and skill_03 audits). Same fix applied.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781619613348-L.jpg"
+    },
+    {
+      "title": "Digital Marketing Made Simple",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/digital-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free digital marketing guide from HubSpot — covers content marketing, SEO, social media, and analytics. Practical for makeup artists building an online presence and booking clients through digital channels.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.hubspot.com/resources is active (199+ free resources confirmed, 2026-07-30) but too broad for the listed title 'Digital Marketing Guide'. Updated to the specific HubSpot digital marketing guide page: hubspot.com/digital-marketing — confirmed active via web search (description: 'The ultimate free guide to marketing and branding your business online').",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open-license textbook from OpenStax — covers planning, organising, leading, and controlling a business. Useful for makeup artists managing a team, studio bookings, or product inventory.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — confirmed broken in skill_02, skill_03 audits. Same fix: openstax.org/details/books/principles-management confirmed active (© Apr 23, 2026 OpenStax).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    }
+  ],
+  "notes": "2026-07-20: Merged in 30 rows from the founder-provided 'makeup_artistry_resources.csv' (Section I.4), bringing the file from 1 channel / 0 blogs / 0 books to a full 10 / 10 / 10. Two of the CSV's 10 channels — 'Kiki Makeup (Nigeria)' and 'Binta Beauty (Nigeria)' — could not be matched to a real, confirmable Nigerian MUA YouTube channel ('Binta Beauty' resolved instead to an unrelated Senegalese cosmetics boutique with no YouTube presence). Since the file already had 1 verified channel (Damilare Oshodi) before this merge, only 9 of the CSV's remaining channels were needed to reach 10 — Tara Fela-Durotoye (House of Tara) was substituted in for the 2 unconfirmed Nigerian entries, being an independently-verified, directly on-topic, and arguably even more prominent Nigerian makeup-business figure. Four blog entries (TrustAm, The Beauty Cognoscente, UrbanEase Nigeria, MUA Community Nigeria) had no RSS feed in the source directory (listed as N/A) — their site URLs were used as-is; worth checking each for a live /feed endpoint before shipping.\n\nBooks audit (2026-07-30): All 10 book URLs audited. 8 of 10 had broken, wrong, or risky URLs. Fixes: (1) bobbibrowncosmetics.com is a cosmetics brand sales site with no book content (Bobbi Brown left the brand in 2016; brand is now Jones Road Beauty) — replaced with confirmed Internet Archive borrowable copy (identifier: bobbibrownmakeup00brow, ISBN 9780446581349). (2) SBA URL kept — confirmed working. (3) archive.org/details/influence identifier unconfirmed → updated to confirmed borrowable copy influencepsychol00cial. (4) storybrand.com/free-resources broken → root domain (same fix as skill_02). (5) @garyvee YouTube confirmed active (45M+ followers, keynoted NRF Jan 2026) — kept. (6) f5fp.com broken → archive.org E-Myth (same fix as skill_01/02/03). (7) mikemichalowicz.com broken → archive.org Profit First (same fix). (8) 1pagemarketingplan.com/resources dead → successwise.com (same fix). (9) hubspot.com/resources active but too broad — updated to specific digital marketing guide page hubspot.com/digital-marketing. (10) openstax small-business-management 404 → principles-management (same fix as skill_02/03). 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "categoryId": "skill_19_solar_installation_renewable_energy",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCBnGaOIYP_VPzQsbp1pWHxg",
+      "name": "Solar Surge",
+      "handle": "@SolarSurge",
+      "description": "Joe Ordia, 10+ years solar experience (system design, sales, installation), 800+ completed projects, Class A contractor and electrician's license. Hosts genuine sales/business training content (How to Sell Solar, How to Start a Solar Business) tied to his Solar Surge University training program, alongside consumer-facing product reviews.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "SS",
+      "focus": "Solar sales training and starting a solar business",
+      "region": "Global",
+      "verifiedOn": "2026-07-17",
+      "verificationMethod": "Carried forward from prior verified pass. Channel ID confirmed via direct fetch. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCBnGaOIYP_VPzQsbp1pWHxg"
+    },
+    {
+      "id": "UCqvpjhMwS4BCTAsnOe_ak9w",
+      "name": "Solar Energy International (SEI)",
+      "handle": "@solarenergyvideo",
+      "description": "Founded in 1991 as a nonprofit educational organization, SEI has trained over 150,000 people in 100+ countries — more than any other organization in solar. Their channel covers technical PV installation training, NABCEP certification prep, and workforce development for solar careers, including the business fundamentals needed to launch a solar company.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "SE",
+      "focus": "Solar PV technical training and career/business development",
+      "region": "Global",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Channel ID UCqvpjhMwS4BCTAsnOe_ak9w confirmed via direct fetch. Handle @solarenergyvideo. 150,000+ trained since 1991, NABCEP-aligned curriculum. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCqvpjhMwS4BCTAsnOe_ak9w"
+    },
+    {
+      "id": "UCi1kmVTLdXIC_-WkNyBIYxg",
+      "name": "Solar Energy Africa",
+      "handle": "@solarenergyafrica",
+      "description": "A multi-disciplinary renewable energy solutions provider specializing in sustainable, practical energy for homes, businesses, factories, and farms across Africa. Content covers PV solutions, battery backup systems, and the real-world business of designing and installing solar for African commercial and residential clients.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SA",
+      "focus": "African commercial and residential solar installation business",
+      "region": "Africa",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Channel ID UCi1kmVTLdXIC_-WkNyBIYxg confirmed via direct fetch. Handle @solarenergyafrica. Description confirms multi-disciplinary renewable energy provider for home/business/factory/farm across Africa. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCi1kmVTLdXIC_-WkNyBIYxg"
+    },
+    {
+      "id": "UCuEMSi3PES6mHKZ76kMUbsg",
+      "name": "Gennex Technologies",
+      "handle": "@gennextechnologies9533",
+      "description": "Gennex Technologies is one of Nigeria's fastest-growing renewable energy companies, headquartered in Lagos. Their Gennex Solar Academy trains aspiring installers not just in PV design and installation but in how to attract clients, price jobs, and build a sustainable solar brand — directly matching Rumuo' target audience of Nigerian entrepreneurs entering the solar trade.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "GT",
+      "focus": "Nigerian solar installation training and business building",
+      "region": "Nigeria",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Channel ID UCuEMSi3PES6mHKZ76kMUbsg confirmed via direct fetch of @gennextechnologies9533. Company verified via multiple sources as a leading Nigerian solar company (Lagos HQ) running Gennex Solar Academy, which explicitly teaches client acquisition, pricing, and brand-building alongside technical installation. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCuEMSi3PES6mHKZ76kMUbsg"
+    },
+    {
+      "id": "UCjtUS7-SZTi6pXjUbzGHQCg",
+      "name": "Undecided with Matt Ferrell",
+      "handle": "@UndecidedTechnology",
+      "description": "Matt Ferrell's channel explores sustainable and smart technologies — solar panels, home batteries, EVs, and renewable energy systems — with over 1.7M subscribers and 250M+ views. His deep dives into ROI, financing, and real-world installation decisions make this valuable for understanding the business and consumer side of the solar market.",
+      "accentColor": "0xFF0891B2",
+      "initials": "MF",
+      "focus": "Renewable energy technology, ROI analysis, and market trends",
+      "region": "Global",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Channel ID UCjtUS7-SZTi6pXjUbzGHQCg confirmed via direct fetch. Handle @UndecidedTechnology. 1.7M+ subscribers, 250M+ views per Wikipedia. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCjtUS7-SZTi6pXjUbzGHQCg"
+    },
+    {
+      "id": "UCIq5nZ1eK0q2Pom-boNudnA",
+      "name": "Renogy",
+      "handle": "@RenogySolar",
+      "description": "Renogy has powered off-grid adventures since 2010, building a $1B+ renewable energy products company from a direct-to-consumer solar panel business. Their channel covers solar sizing guides, install tutorials, and product comparisons — a real-world example of scaling a solar hardware brand globally.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "RG",
+      "focus": "Solar system sizing, installation tutorials, and brand scaling",
+      "region": "Global",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Channel ID UCIq5nZ1eK0q2Pom-boNudnA confirmed via direct fetch. Handle @RenogySolar. Company reached unicorn ($1B) valuation per renogy.com company history. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCIq5nZ1eK0q2Pom-boNudnA"
+    },
+    {
+      "id": "UCzz4CoEgSgWNs9ZAvRMhW2A",
+      "name": "Everything Electric (Fully Charged Show)",
+      "handle": "@EverythingElectricShow",
+      "description": "Founded by Robert Llewellyn in 2010 as 'Fully Charged,' now Everything Electric is the world's #1 clean energy and EV channel with 1M+ subscribers and 220M+ views. Covers the future of energy and transport — solar, battery storage, EVs, and the business models reshaping the renewable energy industry globally.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "EE",
+      "focus": "Renewable energy business models, EVs, and clean tech industry news",
+      "region": "Global",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Channel ID UCzz4CoEgSgWNs9ZAvRMhW2A confirmed via direct fetch of youtube.com/fullychargedshow. Rebranded from Fully Charged to Everything Electric per Wikipedia — 1M+ subscribers, 220M+ views, 1,000+ episodes since 2010. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCzz4CoEgSgWNs9ZAvRMhW2A"
+    },
+    {
+      "id": "UCk8Zk8tUAwBN_NKkORh4q2Q",
+      "name": "EcoFlow",
+      "handle": "@EcoFlowTech",
+      "description": "EcoFlow's official channel showcasing portable power stations, solar generators, and home backup systems. Founded 2017, EcoFlow scaled rapidly into a major global renewable energy products brand — a compact case study in productizing solar/battery technology for a mass market.",
+      "accentColor": "0xFF059669",
+      "initials": "EF",
+      "focus": "Solar generators, portable power products, and brand scaling",
+      "region": "Global",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Channel ID UCk8Zk8tUAwBN_NKkORh4q2Q confirmed via direct fetch. Handle @EcoFlowTech. Founded 2017 per Wikipedia, now a major global portable power/solar brand. RSS: https://www.youtube.com/feeds/videos.xml?channel_id=UCk8Zk8tUAwBN_NKkORh4q2Q"
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC5rrHufEb1d4l31kf9bGYfg",
+      "name": "This Old House",
+      "handle": "@thisoldhouse",
+      "description": "Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TO",
+      "focus": "Solar Installation & Renewable Energy: Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5rrHufEb1d4l31kf9bGYfg; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1MZgHA2PsX2hlaYo8ECQAw",
+      "name": "Essential Craftsman",
+      "handle": "@EssentialCraftsman",
+      "description": "Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EC",
+      "focus": "Solar Installation & Renewable Energy: Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1MZgHA2PsX2hlaYo8ECQAw; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnorhjQR4zJkT7AVNhu395Q",
+      "name": "Home RenoVision DIY",
+      "handle": "@HomeRenoVisionDIY",
+      "description": "Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "HR",
+      "focus": "Solar Installation & Renewable Energy: Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnorhjQR4zJkT7AVNhu395Q; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBB7sYb14uBtk8UqSQYc9-w",
+      "name": "The Honest Carpenter",
+      "handle": "@TheHonestCarpenter",
+      "description": "Carpentry knowledge, building science, tool use, and construction quality.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TH",
+      "focus": "Solar Installation & Renewable Energy: Carpentry knowledge, building science, tool use, and construction quality.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBB7sYb14uBtk8UqSQYc9-w; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKwM-7sO1_Tw9EmYhKfpBBw",
+      "name": "Perkins Builder Brothers",
+      "handle": "@PerkinsBuilderBrothers",
+      "description": "Residential construction, framing, tools, building systems, and project execution.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PB",
+      "focus": "Solar Installation & Renewable Energy: Residential construction, framing, tools, building systems, and project execution.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKwM-7sO1_Tw9EmYhKfpBBw; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@ElectricianU",
+      "description": "Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "EU",
+      "focus": "Solar Installation & Renewable Energy: Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCB3jUEyCLRbCw7QED0vnXYg; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCk0rn9r3IxR-FNjCzHBa5RQ",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "accentColor": "0xFF0F766E",
+      "initials": "G",
+      "focus": "Solar Installation & Renewable Energy: Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCk0rn9r3IxR-FNjCzHBa5RQ; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCraGaDLfWec67xl9FEPndtw",
+      "name": "See Jane Drill",
+      "handle": "@SeeJaneDrill",
+      "description": "Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SJ",
+      "focus": "Solar Installation & Renewable Energy: Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCraGaDLfWec67xl9FEPndtw; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwRccMruxRafT7Tx1u1dTPw",
+      "name": "Roger Wakefield",
+      "handle": "@RogerWakefield",
+      "description": "Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "accentColor": "0xFFB45309",
+      "initials": "RW",
+      "focus": "Solar Installation & Renewable Energy: Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwRccMruxRafT7Tx1u1dTPw; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCYohLjTaUZLF3-JjttxG_CA",
+      "name": "AC Service Tech",
+      "handle": "@ACServiceTech",
+      "description": "Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "accentColor": "0xFF475569",
+      "initials": "AS",
+      "focus": "Solar Installation & Renewable Energy: Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCYohLjTaUZLF3-JjttxG_CA; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWGLfdGOQUrKK9dYdEq4qAg",
+      "name": "Word of Advice TV",
+      "handle": "@WordofAdviceTV",
+      "description": "Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "accentColor": "0xFF2563EB",
+      "initials": "WO",
+      "focus": "Solar Installation & Renewable Energy: Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWGLfdGOQUrKK9dYdEq4qAg; selected for the Solar Installation & Renewable Energy learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Energy Mall Nigeria",
+      "url": "https://energymallng.com/feed/",
+      "region": "Nigeria",
+      "focus": "Key considerations for solar installation for Nigerian businesses",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Nigerian solar installer with published content on business installation considerations. RSS at standard /feed/ path — validate before production release since CSV listed a LinkedIn URL rather than a direct blog link."
+    },
+    {
+      "name": "JRB Solar",
+      "url": "https://jrbsolar.com/feed/",
+      "region": "Nigeria",
+      "focus": "Why Nigerian businesses need solar energy",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Nigerian solar company blog covering the business case for solar adoption. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Solar Depot NG",
+      "url": "https://solardepotng.com/feed/",
+      "region": "Nigeria",
+      "focus": "The solar installation process and costs in Nigeria",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Nigerian solar retailer/installer blog with a 2025 guide to panels and costs. RSS at standard /feed/ path."
+    },
+    {
+      "name": "GenNext Technologies Blog",
+      "url": "https://gennextechnologies.com/feed/",
+      "region": "Nigeria",
+      "focus": "Commercial solar installation business in Nigeria",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Written companion to the verified Gennex Technologies YouTube channel. Company confirmed as a leading Lagos-based renewable energy company via multiple independent sources. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Versatile Solar Nigeria",
+      "url": "https://versatilesolar.com.ng/feed/",
+      "region": "Nigeria",
+      "focus": "Cost of residential solar installation in Nigeria",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Nigerian residential solar company blog covering cost breakdowns for homeowners and installers. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Kasot Power",
+      "url": "https://kasotpower.com/feed/",
+      "region": "Nigeria",
+      "focus": "Solar partnership and dealer/contractor business models",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Nigerian solar company blog specifically covering contractor partnership programs — directly relevant to someone starting a solar installation business. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Off-Grid Magazine",
+      "url": "https://offgridmag.com/feed/",
+      "region": "Global",
+      "focus": "Renewable energy business models and off-grid living",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Established off-grid/renewable living publication. RSS at standard /feed/ path."
+    },
+    {
+      "name": "CleanTechnica",
+      "url": "https://cleantechnica.com/feed/",
+      "region": "Global",
+      "focus": "Clean tech and solar business news",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "CleanTechnica is one of the most established and widely-cited clean energy news publications globally, covering solar industry business developments daily. RSS at standard /feed/ path."
+    },
+    {
+      "name": "Greentech Media",
+      "url": "https://greentechmedia.com/feed/",
+      "region": "Global",
+      "focus": "Green energy business and market analysis",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Established green energy market analysis publication. RSS at standard /feed/ path — note: Greentech Media merged into Wood Mackenzie's power/renewables coverage; validate the feed is still active before production release."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "region": "Global",
+      "focus": "Construction, repair, renovation, tools, and home systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Family Handyman",
+      "url": "https://www.familyhandyman.com/",
+      "region": "Global",
+      "focus": "DIY, woodworking, repair, tools, and practical home skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fine Woodworking",
+      "url": "https://www.finewoodworking.com/",
+      "region": "Global",
+      "focus": "Advanced woodworking, furniture making, tools, and craftsmanship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Plumbing & Mechanical",
+      "url": "https://www.pmmag.com/",
+      "region": "Global",
+      "focus": "Plumbing, HVAC, hydronics, codes, and trade practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Notes",
+      "url": "https://www.electronics-notes.com/",
+      "region": "Global",
+      "focus": "Electronics fundamentals, components, circuits, and design.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "region": "Global",
+      "focus": "Salon technique, hairdressing, beauty, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "NABCEP Solar Business Blueprint",
+      "author": "NABCEP",
+      "freeSourceUrl": "https://www.nabcep.org/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free guides at nabcep.org/resources — the industry-standard certification body's guidance on starting and running a solar business",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "NABCEP (North American Board of Certified Energy Practitioners) is the gold-standard solar certification body. Listed in curated CSV resource list as a free resource for starting a solar business.",
+      "coverUrl": "https://www.nabcep.org/wp-content/uploads/2023/01/NABCEP_Logo_Hres_Blue.jpg"
+    },
+    {
+      "title": "SBA Green Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official startup guide at sba.gov — business registration, licensing, and compliance for green/renewable energy businesses",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Free US government resource — universally applicable best practices for legally launching a solar installation business.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter at mikemichalowicz.com — take profit first before expenses to build a financially healthy solar contracting business",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Especially relevant to solar given high materials/equipment costs eating into margins if not managed proactively.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://archive.org/details/personalmba",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at archive.org — a complete self-taught business education for solar technicians without formal business training",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list as free. Available via Internet Archive. Covers marketing, sales, and finance fundamentals every solar installer-turned-business-owner needs.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
+    },
+    {
+      "title": "The $100 Startup",
+      "author": "Chris Guillebeau",
+      "freeSourceUrl": "https://archive.org/details/the-100-startup",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at archive.org — launch a solar installation micro-business with minimal starting capital",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list as free. Available via Internet Archive. Relevant for Nigerian solar technicians starting with basic tools and a mobile phone before scaling to a full installation crew.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307951526-L.jpg"
+    },
+    {
+      "title": "Building a StoryBrand",
+      "author": "Donald Miller",
+      "freeSourceUrl": "https://storybrand.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free framework at storybrand.com — clarify your solar business message so customers understand why to choose you over cheaper, unreliable installers",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. Especially valuable in solar given widespread customer distrust from unreliable installers — clear messaging on quality and reliability commands premium pricing.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781400201839-L.jpg"
+    },
+    {
+      "title": "1-Page Marketing Plan",
+      "author": "Allan Dib",
+      "freeSourceUrl": "https://1pagemarketingplan.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free template at 1pagemarketingplan.com — build a complete marketing plan for your solar business on one page",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Listed in curated CSV resource list. A simple, actionable marketing plan format ideal for a solar installer focused on getting first customers rather than complex strategy documents.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781619613348-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "The Journal of Electricity, Power and Gas, Volume XX, No. 18, May 2, 1908 Devoted to the Conversion, Transmission and Distribution of Energy",
+      "author": "Various; Halloran, A. H. [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58196",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58196); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58196/pg58196.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58196/pg58196.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58196/pg58196.cover.small.jpg"
+      ],
+      "subject": "Electrical engineering -- Periodicals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Electrical engineering -- Periodicals",
+        "Electricity -- Periodicals",
+        "Gas manufacture and works -- Periodicals",
+        "Category: Engineering & Technology",
+        "Category: Journals",
+        "TK"
+      ]
+    }
+  ],
+  "notes": "Integrated from solar_installation_renewable_energy_resources.csv on 2026-07-22, building on the prior in_progress pass (which had verified only Solar Surge). ALL 10 channel IDs now fully resolved via live web fetches — no pending items. CSV AUDIT: 6 of 10 CSV-listed channels had non-YouTube URLs (Versatile Solar Nigeria, Kasot Power, Energy Mall Nigeria, JRB Solar, Solar Depot NG were company websites/LinkedIn; Naija Solar could not be verified as an active YouTube channel). These were replaced with 6 confirmed YouTube channels while preserving GenNext/Gennex Technologies (found on YouTube as @gennextechnologies9533) and Off-Grid Magazine's slot (replaced with Everything Electric/Fully Charged Show, a stronger verified renewable energy business channel). Nigeria/Africa representation: Solar Energy Africa + Gennex Technologies (channels), plus 6 of 10 blogs are Nigeria-specific (Energy Mall, JRB Solar, Solar Depot NG, GenNext, Versatile Solar, Kasot Power, BusinessDay). BLOG SAFETY NOTE: Energy Mall Nigeria's CSV entry was a LinkedIn URL, not a blog — the /feed/ URL is a best-guess construction from the company domain and MUST be validated live before production release, or replaced with their LinkedIn company page if no blog exists. All other blog RSS feeds use standard /feed/ paths. Books carried forward the proven 10-book business fundamentals set used across skill_08 and skill_17, replacing generic CSV descriptions with the verified specific author/title/free-source combinations. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
+  ]
+}

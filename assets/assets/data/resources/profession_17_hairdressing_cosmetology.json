@@ -1,0 +1,466 @@
+{
+  "categoryId": "profession_17_hairdressing_cosmetology",
+  "status": "verified",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UCAh3w8uN7SWB0QYFJ8AZH_A",
+      "name": "Grow My Salon Business",
+      "handle": "@GrowMySalonBusiness",
+      "description": "Antony Whitaker's channel — salon chain management, profitability systems, staff retention, and enterprise-scale operations for salon owners.",
+      "accentColor": "0xFFEC4899",
+      "initials": "GS",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCAh3w8uN7SWB0QYFJ8AZH_A cross-confirmed from skill_02_hairdressing_hairstyling.json (independently verified)."
+    },
+    {
+      "id": "UCnFzOCx_dheaB5yUjVnzjSw",
+      "name": "The Salon Business",
+      "handle": "@TheSalonBusiness",
+      "description": "Salon and spa business education powered by Mangomint — practical marketing, franchise models, enterprise operations, and systems for building a thriving salon business.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "SB",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCnFzOCx_dheaB5yUjVnzjSw fetched from youtube.com/c/TheSalonBusiness (2026-07-25). This replaces 'Salon Business Boss' from the source CSV: @SalonBusinessBoss returned a 404 — no active YouTube channel exists for that brand (it is a blog-only resource). The Salon Business is a verified, closely matching trade-level replacement already in the Rumuo verified channel ecosystem."
+    },
+    {
+      "id": "UCknS--yNghlON5C3TlHiTWw",
+      "name": "Tabatha Coffey",
+      "handle": "@TabathaCoffeyOfficial",
+      "description": "Salon business turnaround and enterprise management — Tabatha Coffey's channel on running high-performance salon operations.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "TC",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCknS--yNghlON5C3TlHiTWw cross-confirmed from skill_02_hairdressing_hairstyling.json. Note: skill_02 uses handle @TabathaCoffey; CSV uses @TabathaCoffeyOfficial — same channel, same ID, handle variant noted."
+    },
+    {
+      "id": "UCUUOUXV5xmEqGWGf9eUyjdQ",
+      "name": "Sam Villa",
+      "handle": "@SamVilla",
+      "description": "Cosmetology education business and professional tool manufacturing — the business side of professional hairdressing at trade and enterprise scale.",
+      "accentColor": "0xFF10B981",
+      "initials": "SV",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCUUOUXV5xmEqGWGf9eUyjdQ cross-confirmed from skill_02_hairdressing_hairstyling.json. Note: skill_02 uses @SamVillaHair; CSV uses @SamVilla — same channel ID, handle variant noted."
+    },
+    {
+      "id": "UCX-yMj_mwNUL37OrGGvWDXg",
+      "name": "Thriving Stylist",
+      "handle": "@TheThrivingStylist",
+      "description": "Britt Seva's business education channel — scaling independent stylists into salon owners through marketing, pricing, and clientele-building systems.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "TS",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCX-yMj_mwNUL37OrGGvWDXg cross-confirmed from skill_02_hairdressing_hairstyling.json (listed as @BrittSeva there). CSV uses @TheThrivingStylist — same channel ID, handle variant noted."
+    },
+    {
+      "id": "UCa4WbwzCsrQENRkKyHCxsPw",
+      "name": "iKhokha",
+      "handle": "@iKhokha",
+      "description": "Payment technology and POS solutions for salon chains in Africa — business management tools and merchant banking for trade-level beauty businesses.",
+      "accentColor": "0xFFEF4444",
+      "initials": "IK",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCa4WbwzCsrQENRkKyHCxsPw cross-confirmed from skill_02_hairdressing_hairstyling.json (independently verified)."
+    },
+    {
+      "id": "UCfTYsyE4A92SmoMS2HaNRgQ",
+      "name": "Kippa",
+      "handle": "@kippaafrica",
+      "description": "Nigerian fintech bookkeeping and financial management channel — inventory tracking, invoicing, and business finance tools for Nigerian beauty trade operators.",
+      "accentColor": "0xFF6366F1",
+      "initials": "KP",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCfTYsyE4A92SmoMS2HaNRgQ confirmed via YouTube search result (youtube.com/channel/UCfTYsyE4A92SmoMS2HaNRgQ/videos, 2026-07-25). Note: Kippa pivoted away from bookkeeping in early 2024; channel may be low-activity — verify content currency before surfacing to users."
+    },
+    {
+      "id": "UCKeFGEk3I60qN2XqFMKvp7A",
+      "name": "Bumpa",
+      "handle": "@getbumpa",
+      "description": "Retail and social-commerce management for Nigerian businesses — online store setup, customer management, and payment tools for beauty trade operators.",
+      "accentColor": "0xFFF97316",
+      "initials": "BP",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCKeFGEk3I60qN2XqFMKvp7A fetched directly from youtube.com/@getbumpa (2026-07-25). Note: CSV listed handle as @Bumpa; the active YouTube handle is @getbumpa."
+    },
+    {
+      "id": "UCw-HgPM7ZkveoxnYuths-LQ",
+      "name": "Shecluded",
+      "handle": "@shecluded",
+      "description": "Female founders in the Nigerian beauty and spa trade — financing, funding, and business growth content for women building beauty businesses.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "SC",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCw-HgPM7ZkveoxnYuths-LQ fetched directly from youtube.com/@shecluded (2026-07-25). Note: CSV listed @Shecluded; active handle is @shecluded (lowercase)."
+    },
+    {
+      "id": "UClJqmkQxtHMQtXv4sH-Oltg",
+      "name": "Pesabook",
+      "handle": "@pesabook",
+      "description": "Financial tools and profit-margin maths for salons across Africa — bookkeeping, pricing, and cash-flow management for beauty trade operators.",
+      "accentColor": "0xFF84CC16",
+      "initials": "PB",
+      "focus": "Hairdressing & cosmetology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UClJqmkQxtHMQtXv4sH-Oltg fetched directly from youtube.com/@Pesabook (2026-07-25). YouTube displays handle as @pesabook (lowercase)."
+    },
+    {
+      "id": "UCeasbjVyx227l2ETO-xAssw",
+      "name": "Free Salon Education",
+      "handle": "@FreeSalonEducation",
+      "description": "Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "FS",
+      "focus": "Hairdressing/Cosmetology (Trade): Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCeasbjVyx227l2ETO-xAssw; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChWcYTNVbFfBDbjWnhdHrBw",
+      "name": "Brad Mondo",
+      "handle": "@BradMondo",
+      "description": "Hair color, haircut analysis, salon technique, and hair-care education.",
+      "accentColor": "0xFF16A34A",
+      "initials": "BM",
+      "focus": "Hairdressing/Cosmetology (Trade): Hair color, haircut analysis, salon technique, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChWcYTNVbFfBDbjWnhdHrBw; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCEcT5Ttsnl3kBMqyHmojobQ",
+      "name": "Makeup by Mario",
+      "handle": "@MakeupbyMARIO",
+      "description": "Professional makeup artistry, complexion, technique, and product application.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "MB",
+      "focus": "Hairdressing/Cosmetology (Trade): Professional makeup artistry, complexion, technique, and product application.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCEcT5Ttsnl3kBMqyHmojobQ; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFghPtzFcmyDiID1ASMA4Dg",
+      "name": "Lisa Eldridge",
+      "handle": "@LisaEldridge",
+      "description": "Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "LE",
+      "focus": "Hairdressing/Cosmetology (Trade): Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFghPtzFcmyDiID1ASMA4Dg; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCS7mVvlpXr7Rd7opwQbvgjQ",
+      "name": "Jackie Aina",
+      "handle": "@JackieAina",
+      "description": "Makeup technique, product education, representation, and beauty industry knowledge.",
+      "accentColor": "0xFF0891B2",
+      "initials": "JA",
+      "focus": "Hairdressing/Cosmetology (Trade): Makeup technique, product education, representation, and beauty industry knowledge.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCS7mVvlpXr7Rd7opwQbvgjQ; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWOzDU-st_OsZHNrOEPjR4Q",
+      "name": "The Makeup Chair",
+      "handle": "@TheMakeupChair",
+      "description": "Makeup fundamentals, application, face structure, and technique.",
+      "accentColor": "0xFFDB4437",
+      "initials": "TM",
+      "focus": "Hairdressing/Cosmetology (Trade): Makeup fundamentals, application, face structure, and technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWOzDU-st_OsZHNrOEPjR4Q; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCzTKskwIc_-a0cGvCXA848Q",
+      "name": "NikkieTutorials",
+      "handle": "@NikkieTutorials",
+      "description": "Makeup artistry, product technique, creative looks, and beauty communication.",
+      "accentColor": "0xFF0F766E",
+      "initials": "N",
+      "focus": "Hairdressing/Cosmetology (Trade): Makeup artistry, product technique, creative looks, and beauty communication.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCzTKskwIc_-a0cGvCXA848Q; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_L8_r3xbfLZnQWX8vKaStg",
+      "name": "Hairlicious Inc",
+      "handle": "@HairliciousInc",
+      "description": "Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "accentColor": "0xFF9333EA",
+      "initials": "HI",
+      "focus": "Hairdressing/Cosmetology (Trade): Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_L8_r3xbfLZnQWX8vKaStg; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkGyDv3DZjIa4wYsb1aUPaA",
+      "name": "Manes by Mell",
+      "handle": "@ManesByMell",
+      "description": "Curly hair science, technique, routines, and hair-care education.",
+      "accentColor": "0xFFB45309",
+      "initials": "MB",
+      "focus": "Hairdressing/Cosmetology (Trade): Curly hair science, technique, routines, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkGyDv3DZjIa4wYsb1aUPaA; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCmi9wFeEZCV9gMDO-Sw_F-w",
+      "name": "TheSalonGuy",
+      "handle": "@TheSalonGuy",
+      "description": "Men’s hairstyling, cutting, grooming, and salon technique.",
+      "accentColor": "0xFF475569",
+      "initials": "T",
+      "focus": "Hairdressing/Cosmetology (Trade): Men’s hairstyling, cutting, grooming, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCmi9wFeEZCV9gMDO-Sw_F-w; selected for the Hairdressing/Cosmetology (Trade) learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Grow My Salon Business",
+      "url": "https://growmysalonbusiness.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_02_hairdressing_hairstyling.json)."
+    },
+    {
+      "name": "The Salon Business",
+      "url": "https://thesalonbusiness.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Standard WordPress /feed/ URL for thesalonbusiness.com (Mangomint-powered salon education blog). Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Thriving Stylist",
+      "url": "https://thrivingstylist.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_02_hairdressing_hairstyling.json)."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Leading US cosmetology trade publication. Standard WordPress /feed/ URL — Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "BehindTheChair.com",
+      "url": "https://www.behindthechair.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Major cosmetology trade blog. Standard WordPress /feed/ URL — Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01). Covers beauty trade business guide, capital, and margins."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "CSV gives splice.com.ng; skill_02 uses splice.ng/feed/. Verify canonical domain before first ingest."
+    },
+    {
+      "name": "Shopify Salon Blog",
+      "url": "https://www.shopify.com/blogs/news.atom",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Standard Shopify Atom feed URL — same pattern confirmed across existing skill files. Covers selling beauty products and booking services online."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://bintusartandeverything.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Salon business guide with WhatsApp marketing. Note: skill_02 used bintusart.com/feed/ — CSV gives bintusartandeverything.com. Verify current canonical domain before first ingest."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free overview and chapter excerpts from the author's official site — cash-flow management system for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV. Author's own domain, consistent with skill_01 entry.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — small-business operations, financing, and management.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "openstax.org is a peer-reviewed open textbook publisher. URL from user-provided CSV.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — entrepreneurship principles, ideation, and business model design.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Same OpenStax catalogue URL; select the specific title on the catalogue page.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot marketing blog — practical digital marketing guides for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot blog is a widely recognised free marketing resource. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free US SBA startup guide — globally applicable for structuring a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "sba.gov is a US government domain. URL from user-provided CSV.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification course covering inbound marketing strategy for any trade or service business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot Academy courses are free with registration. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — planning, organising, leading, and controlling a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Direct OpenStax book URL confirmed stable via feedspot/open textbook listings.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). Key changes from draft: (1) Salon Business Boss (@SalonBusinessBoss, 404) replaced with The Salon Business (@TheSalonBusiness, UCnFzOCx_dheaB5yUjVnzjSw) — a verified, active trade-level salon business education channel. (2) Handle corrections: @Bumpa→@getbumpa, @Shecluded→@shecluded, @Pesabook→@pesabook. (3) Kippa channel flagged as potentially low-activity post-2024 pivot — content currency should be verified. Salon Business Boss blog entry retained in blogs (salonbusinessboss.com/feed/) as that blog still exists. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "categoryId": "business_08_salon_barbing_beauty_spa",
+  "status": "verified",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UCu0UZ8GtAwQIeEm9xClszFQ",
+      "name": "Tabatha Takes Over",
+      "handle": "@TabathaTakesOver",
+      "description": "Tabatha Coffey's official channel -- an Australian hairstylist, salon owner, and Bravo TV personality who rescues struggling salons and small businesses with tough-love business turnarounds.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "TC",
+      "focus": "Salon business reality, management, and turnaround",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real via the official channel's own About description, cross-checked against Wikipedia's Tabatha Coffey and Tabatha Takes Over articles."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCeasbjVyx227l2ETO-xAssw",
+      "name": "Free Salon Education",
+      "handle": "@FreeSalonEducation",
+      "description": "Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "FS",
+      "focus": "Salon/Barbing/Beauty Spa: Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCeasbjVyx227l2ETO-xAssw; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUUOUXV5xmEqGWGf9eUyjdQ",
+      "name": "Sam Villa",
+      "handle": "@SamVillaHair",
+      "description": "Haircutting, styling, tools, salon education, and professional technique.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SV",
+      "focus": "Salon/Barbing/Beauty Spa: Haircutting, styling, tools, salon education, and professional technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUUOUXV5xmEqGWGf9eUyjdQ; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChWcYTNVbFfBDbjWnhdHrBw",
+      "name": "Brad Mondo",
+      "handle": "@BradMondo",
+      "description": "Hair color, haircut analysis, salon technique, and hair-care education.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "BM",
+      "focus": "Salon/Barbing/Beauty Spa: Hair color, haircut analysis, salon technique, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChWcYTNVbFfBDbjWnhdHrBw; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCEcT5Ttsnl3kBMqyHmojobQ",
+      "name": "Makeup by Mario",
+      "handle": "@MakeupbyMARIO",
+      "description": "Professional makeup artistry, complexion, technique, and product application.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "MB",
+      "focus": "Salon/Barbing/Beauty Spa: Professional makeup artistry, complexion, technique, and product application.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCEcT5Ttsnl3kBMqyHmojobQ; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFghPtzFcmyDiID1ASMA4Dg",
+      "name": "Lisa Eldridge",
+      "handle": "@LisaEldridge",
+      "description": "Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "accentColor": "0xFF0891B2",
+      "initials": "LE",
+      "focus": "Salon/Barbing/Beauty Spa: Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFghPtzFcmyDiID1ASMA4Dg; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCS7mVvlpXr7Rd7opwQbvgjQ",
+      "name": "Jackie Aina",
+      "handle": "@JackieAina",
+      "description": "Makeup technique, product education, representation, and beauty industry knowledge.",
+      "accentColor": "0xFFDB4437",
+      "initials": "JA",
+      "focus": "Salon/Barbing/Beauty Spa: Makeup technique, product education, representation, and beauty industry knowledge.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCS7mVvlpXr7Rd7opwQbvgjQ; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWOzDU-st_OsZHNrOEPjR4Q",
+      "name": "The Makeup Chair",
+      "handle": "@TheMakeupChair",
+      "description": "Makeup fundamentals, application, face structure, and technique.",
+      "accentColor": "0xFF0F766E",
+      "initials": "TM",
+      "focus": "Salon/Barbing/Beauty Spa: Makeup fundamentals, application, face structure, and technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWOzDU-st_OsZHNrOEPjR4Q; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCzTKskwIc_-a0cGvCXA848Q",
+      "name": "NikkieTutorials",
+      "handle": "@NikkieTutorials",
+      "description": "Makeup artistry, product technique, creative looks, and beauty communication.",
+      "accentColor": "0xFF9333EA",
+      "initials": "N",
+      "focus": "Salon/Barbing/Beauty Spa: Makeup artistry, product technique, creative looks, and beauty communication.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCzTKskwIc_-a0cGvCXA848Q; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_L8_r3xbfLZnQWX8vKaStg",
+      "name": "Hairlicious Inc",
+      "handle": "@HairliciousInc",
+      "description": "Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "accentColor": "0xFFB45309",
+      "initials": "HI",
+      "focus": "Salon/Barbing/Beauty Spa: Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_L8_r3xbfLZnQWX8vKaStg; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkGyDv3DZjIa4wYsb1aUPaA",
+      "name": "Manes by Mell",
+      "handle": "@ManesByMell",
+      "description": "Curly hair science, technique, routines, and hair-care education.",
+      "accentColor": "0xFF475569",
+      "initials": "MB",
+      "focus": "Salon/Barbing/Beauty Spa: Curly hair science, technique, routines, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkGyDv3DZjIa4wYsb1aUPaA; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCmi9wFeEZCV9gMDO-Sw_F-w",
+      "name": "TheSalonGuy",
+      "handle": "@TheSalonGuy",
+      "description": "Men’s hairstyling, cutting, grooming, and salon technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "T",
+      "focus": "Salon/Barbing/Beauty Spa: Men’s hairstyling, cutting, grooming, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCmi9wFeEZCV9gMDO-Sw_F-w; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "OF",
+      "focus": "Salon/Barbing/Beauty Spa: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "Y",
+      "focus": "Salon/Barbing/Beauty Spa: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "SO",
+      "focus": "Salon/Barbing/Beauty Spa: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF0891B2",
+      "initials": "KA",
+      "focus": "Salon/Barbing/Beauty Spa: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFFDB4437",
+      "initials": "C",
+      "focus": "Salon/Barbing/Beauty Spa: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFF0F766E",
+      "initials": "V",
+      "focus": "Salon/Barbing/Beauty Spa: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF9333EA",
+      "initials": "S",
+      "focus": "Salon/Barbing/Beauty Spa: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Salon/Barbing/Beauty Spa learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Salon Today",
+      "url": "https://www.salontoday.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real during channel research -- referenced directly by Modern Salon's own channel as their business-education sister site."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real and active -- parent site of the confirmed Modern Salon YouTube channel."
+    },
+    {
+      "name": "Grow My Salon Business",
+      "url": "https://growmysalonbusiness.com/",
+      "verifiedOn": "2026-07-19",
+      "verificationMethod": "REUSED from the pre-existing business_08 file, cross-confirmed against growmysalonbusiness.com's own About page."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real, including a working RSS feed (entrepreneurs.ng/feed/) verified in prior sessions."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://blog.withsplice.com/feed/",
+      "verifiedOn": "2026-07-19",
+      "verificationMethod": "REUSED from the pre-existing business_08 file, which found a directly matching article: 'How To Run A Successful Spa Business In Nigeria.'"
+    },
+    {
+      "name": "Sola Salon Studios Blog",
+      "url": "https://www.solasalonstudios.com/blog",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SUBSTITUTED for 'Shopify Beauty' (too generic for this category). Sola's blog is confirmed real -- directly referenced during channel research, covering studio inspiration and business tips."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://www.bintusartandeverything.com/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "REUSED verification from skill_10_phone_electronics_repair.json (prior session) -- this Nigeria blog was independently confirmed real then."
+    },
+    {
+      "name": "iKhokha Blog",
+      "url": "https://ikhokha.com/blog",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SUBSTITUTED for 'HubSpot' (too generic for this category). iKhokha confirmed real during channel research -- a South African fintech whose blog covers small-business payment and operations tips directly relevant to salons."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Domain confirmed real (reused across multiple prior files)."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://profitfirstbook.com/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Genuinely free full copy of the book, offered courtesy of Relay (Profit First's official banking platform partner) -- no archive.org account/borrow required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_20 file. CSV lists domain as mikemichalowicz.com, but the actual free-book offer lives at profitfirstbook.com (same author's ecosystem).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "Jason Anderson (University of Kansas Pressbooks)",
+      "freeSourceUrl": "https://opentext.ku.edu/smallbusinessmanagement/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, Creative Commons-licensed open textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SOURCE CORRECTED: the CSV lists this as 'OpenStax/Rice University', but OpenStax has never published a title called 'Small Business Management' -- their actual 6-book business series is Introduction to Business, Business Ethics, Principles of Management, Entrepreneurship, Principles of Accounting, and Organizational Behavior (confirmed via Rice University's own 2018 announcement). Substituted the genuinely free, real University of Kansas open textbook of this exact title. Small-business content within the OpenStax ecosystem lives inside Principles of Management, Ch. 7.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/entrepreneurship/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org and cross-referenced against Rice University's official announcement of the OpenStax business textbook series.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/digital-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live. NOTE: official course title is 'Digital Marketing Certification Course' (the CSV's 'for Small Business' framing is close but not the literal title).",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free via SBA.gov -- official U.S. Small Business Administration business planning framework. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Reused from prior verified skill_10/skill_20 files. SBA.gov confirmed as a free, public, no-login resource.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "Course",
+      "freeSourceNote": "Free HubSpot Academy certification course. No cost to enroll or complete.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via direct fetch of the course URL and HubSpot's own resources page listing it among free courses.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax/Rice University",
+      "freeSourceUrl": "https://openstax.org/books/principles-management/pages/1-introduction",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, peer-reviewed OpenStax textbook. No account required.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed live via openstax.org, authored by David S. Bright and Anastasia H. Cortes. Chapter 7 covers small-business management directly.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    }
+  ],
+  "notes": "Fully rebuilt 2026-07-24, updating the pre-existing business_08 file. Every channel now points to a real, live, immediately-usable resource -- either a confirmed YouTube channel or, where a specific channel ID couldn't be pinned down for a real company, that company's own confirmed live website (clearly marked 'USES OFFICIAL WEBSITE' in each entry). 'Salon Business Boss' and 'Beauty Business Boss' were replaced with Modern Salon; 'Nigerian Beauty Expo' was replaced with Nairametrics TV. The pre-existing verified 'The Beauty Biz Agency' entry was reinstated as the 10th slot since it wasn't in this CSV's own list but is a strong, already-verified fit. 'The Salon Business' (the other pre-existing entry) was not reinstated to avoid redundancy with Modern Salon and Sola, both of which cover similar ground. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
+  ]
+}

@@ -1,0 +1,870 @@
+{
+  "categoryId": "skill_16_event_decoration_planning",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCYo2a3nP2o7gXi3nu1_OmwA",
+      "name": "Event Planning Blueprint",
+      "handle": "@eventplanningblueprint",
+      "description": "Melanie Woodward, 15+ years planning events for Honda, HGTV and Fortune 500 companies, managed events with 30,000+ attendees. Channel exists specifically to help people 'start your event planning business today' — client acquisition, pricing, avoiding common business mistakes.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "EP",
+      "focus": "Event planning business — clients, pricing, growth",
+      "verifiedOn": "2026-07-16",
+      "verificationMethod": "Extremely well corroborated across 8+ independent sources (Social Tables' and FeedSpot's event-planner-channel roundups, InEvent interview, LiveAbout bio, a PR Newswire release, and the channel's own About page) all describing the same person, career history, and channel."
+    },
+    {
+      "id": "UCq-RNGyPgsFrojXW74zbVBQ",
+      "name": "Preston Bailey",
+      "handle": "@PrestonBaileyOnline",
+      "description": "World-renowned event/floral designer (40+ years, clients include royal families and celebrities). Runs paid 'PB Live!' education including how he prices his designs for profit, plus a free webinar series on business mistakes.",
+      "accentColor": "0xFFD946EF",
+      "initials": "PB",
+      "focus": "Luxury event design business — pricing, mistakes to avoid",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/@PrestonBaileyOnline directly, confirmed canonical channel ID. Cross-checked against his own site (prestonbailey.com/education) and LinkedIn."
+    },
+    {
+      "id": "UC5srHQplt5m4YZA-CRQ1cmw",
+      "name": "ColinCowie",
+      "handle": "@ColinCowie",
+      "description": "Celebrity event planner (Oprah, Jennifer Aniston, Kim Kardashian), Chairman/CEO of Colin Cowie Lifestyle and consulting firm Thrive Hospitality, author of 11 books on events. Note: channel content itself leans lifestyle/entertaining rather than explicit business teaching — included on the strength of his standing as one of the industry's top named business authorities.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "CC",
+      "focus": "Luxury event planning business",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/user/colincowie directly, confirmed canonical channel ID. Cross-checked against colincowie.com and BizBash's 'Most Influential' profile."
+    },
+    {
+      "id": "UC0aiTNDSDnx9g_Gslol73sw",
+      "name": "Eventigo",
+      "handle": "@Eventigo",
+      "description": "Lagos-based event planning company. Own channel description explicitly covers 'event business advice: pricing, branding, client management & scaling', plus a companion podcast (Vibe & Thrive) and real Nigerian event behind-the-scenes content.",
+      "accentColor": "0xFF10B981",
+      "initials": "EV",
+      "focus": "Nigerian event planning business — pricing, branding, client management",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/c/eventigo directly, confirmed canonical channel ID and bio. Company's own blog (myeventigo.com) independently confirms real, active Nigerian event business."
+    },
+    {
+      "id": "UCKe6CYkpo0igA8a3PI1wHcA",
+      "name": "EC Marketing Agency (Event Certificate)",
+      "handle": "@EventCertificate",
+      "description": "Jody-Ann Rowe — Jamaican-born, Canada-based. Built and sold a digital marketing agency after 15 yrs managing five- and six-figure corporate events. Channel covers SEO, Google Business Profile, Pinterest, and content marketing specifically for service-based businesses including event planners. Note: the channel has rebranded from 'Event Certificate' to 'EC Marketing Agency' but the handle and event-planning keyword tags remain. Best fit for client acquisition and getting found online.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "EC",
+      "focus": "Event business marketing — SEO, client acquisition, visibility",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/@EventCertificate directly, confirmed canonical channel ID UCKe6CYkpo0igA8a3PI1wHcA, current bio and keyword tags. Cross-checked against eventcube.io's curated '15 YouTube Channels Every Events Professional Needs to Know' list (Feb 2026) which independently cites this channel for pricing and marketing content."
+    },
+    {
+      "id": "UCk5qc2jTyrjjczmuKqnW8EA",
+      "name": "Yes! Event Decor & More",
+      "handle": "@YesEventDecor",
+      "description": "Lonielle Cousar — event designer and business coach with 10+ years experience, 86K+ subscribers. Tutorials, themes and colour schemes, plus business-side content such as 'Why Event Decorating Businesses FAIL' (pricing mistakes, financial mismanagement, client communication). Best craft+business mix in the event-decoration space.",
+      "accentColor": "0xFFEC4899",
+      "initials": "YE",
+      "focus": "Event decoration — tutorials, themes, business pitfalls",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/@YesEventDecor directly, confirmed canonical channel ID UCk5qc2jTyrjjczmuKqnW8EA and bio. Cross-checked against eventcube.io's curated list and independent subscriber-count data."
+    },
+    {
+      "id": "UCOX5oCRCrZ1FTai-M8chBZA",
+      "name": "Bash Besties",
+      "handle": "@BashBesties",
+      "description": "Taylor (LA) — 55K+ subscribers. Own bio explicitly says: 'Thinking of starting your own event planning business? We share tools, tips, and inspo to help you build your brand and start strong.' Mix of DIY balloon/backdrop tutorials and light business content (booking clients, pricing).",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "BB",
+      "focus": "Event decoration — DIY tutorials + starting a planning business",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/@BashBesties directly, confirmed canonical channel ID UCOX5oCRCrZ1FTai-M8chBZA and bio. Cross-checked against eventcube.io curated list."
+    },
+    {
+      "id": "UCn8cbD7yFnP2EsyKwRXOePg",
+      "name": "GreeneyedAmbition",
+      "handle": "@GreeneyedAmbition",
+      "description": "Jese Gary — business coach for catering and event planning owners. Own bio: 'Learn the unsexy things about running and scaling your business. Content to shift from being an entrepreneur to running a business.' Covers pricing, team expansion, marketing, and avoiding costly corporate-event-industry mistakes. Strongest pure-business fit among all event channels reviewed.",
+      "accentColor": "0xFF10B981",
+      "initials": "GA",
+      "focus": "Event business coaching — scaling, pricing, systems, team",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/@GreeneyedAmbition directly, confirmed canonical channel ID UCn8cbD7yFnP2EsyKwRXOePg and bio. Keywords explicitly include 'event decorating business', 'balloon decorating business', 'event planning business'. Cross-checked against eventcube.io curated list."
+    },
+    {
+      "id": "UCVvM0ofLqO3txk9-TPirVnw",
+      "name": "Logan Clements",
+      "handle": "@loganclements",
+      "description": "Freelance event producer and showcaller — 9+ years, 180+ events including Tokyo 2020 and Paris 2024 Olympics. Covers budgeting and pricing, client communication, event team coordination, freelance tips and business growth. Especially strong for event production logistics combined with business strategy.",
+      "accentColor": "0xFF0EA5E9",
+      "initials": "LC",
+      "focus": "Event production + freelance business — pricing, clients, operations",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/@loganclements directly, confirmed canonical channel ID UCVvM0ofLqO3txk9-TPirVnw and bio. Cross-checked against eventcube.io curated list and Logan Strategy Group's own site."
+    },
+    {
+      "id": "UCeAGNJEqzWIqhJAxdbdSHvQ",
+      "name": "Living Luxuriously for Less",
+      "handle": "@LivingLuxuriouslyforLess",
+      "description": "Melanie Turner (Florence, AL) — 215K+ subscribers. DIY event decoration and full walkthroughs on creating luxury-looking setups affordably. Note: bio and keywords are craft/decoration-focused rather than explicitly business-focused. Strongest decoration-specific audience in the 10; included because the skill is explicitly 'event decoration and planning', not only business coaching.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "LL",
+      "focus": "Event decoration — luxury looks on a budget, DIY walkthroughs",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Fetched youtube.com/@LivingLuxuriouslyforLess directly, confirmed canonical channel ID UCeAGNJEqzWIqhJAxdbdSHvQ and bio. Cross-checked against eventcube.io curated list (215K+ subscriber count independently confirmed there)."
+    },
+    {
+      "id": "UC47XN5bhLTBH5TRFyKaUpKg",
+      "name": "PHLEARN",
+      "handle": "@PHLEARN",
+      "description": "Photography, retouching, compositing, lighting, and image-making technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "P",
+      "focus": "Event Decoration & Planning: Photography, retouching, compositing, lighting, and image-making technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC47XN5bhLTBH5TRFyKaUpKg; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCDknUbOK1D3_XoTMJAOApOw",
+      "name": "Peter McKinnon",
+      "handle": "@PeterMcKinnon",
+      "description": "Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "accentColor": "0xFF16A34A",
+      "initials": "PM",
+      "focus": "Event Decoration & Planning: Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCDknUbOK1D3_XoTMJAOApOw; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC6P24bhhCmMPOcujA9PKPTA",
+      "name": "Film Riot",
+      "handle": "@FilmRiot",
+      "description": "Filmmaking, directing, cinematography, production, and visual storytelling.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "FR",
+      "focus": "Event Decoration & Planning: Filmmaking, directing, cinematography, production, and visual storytelling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC6P24bhhCmMPOcujA9PKPTA; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCMmA0XxraDP7ZVbv4eY3Omg",
+      "name": "DSLR Video Shooter",
+      "handle": "@DSLRVideoShooter",
+      "description": "Camera systems, lighting, audio, production workflows, and video technique.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "DV",
+      "focus": "Event Decoration & Planning: Camera systems, lighting, audio, production workflows, and video technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCMmA0XxraDP7ZVbv4eY3Omg; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5_SBQbLA9Kg7Jh5GpXoP3g",
+      "name": "Adobe Creative Cloud",
+      "handle": "@AdobeCreativeCloud",
+      "description": "Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "accentColor": "0xFF0891B2",
+      "initials": "AC",
+      "focus": "Event Decoration & Planning: Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5_SBQbLA9Kg7Jh5GpXoP3g; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnvgtzmvlb6d58d9BbOKuMA",
+      "name": "Fstoppers",
+      "handle": "@fstoppers",
+      "description": "Photography, lighting, visual storytelling, business, and professional image-making.",
+      "accentColor": "0xFFDB4437",
+      "initials": "F",
+      "focus": "Event Decoration & Planning: Photography, lighting, visual storytelling, business, and professional image-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnvgtzmvlb6d58d9BbOKuMA; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCTSgfO_OkfRX8dm4YhCg3fg",
+      "name": "SLR Lounge",
+      "handle": "@SLRLounge",
+      "description": "Photography education, posing, lighting, workflow, and professional practice.",
+      "accentColor": "0xFF0F766E",
+      "initials": "SL",
+      "focus": "Event Decoration & Planning: Photography education, posing, lighting, workflow, and professional practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCTSgfO_OkfRX8dm4YhCg3fg; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGglTkQEIBnOr3urMuxEkUw",
+      "name": "PiXimperfect",
+      "handle": "@PiXimperfect",
+      "description": "Photoshop, compositing, retouching, design, and digital image technique.",
+      "accentColor": "0xFF9333EA",
+      "initials": "P",
+      "focus": "Event Decoration & Planning: Photoshop, compositing, retouching, design, and digital image technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGglTkQEIBnOr3urMuxEkUw; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOKHwx1VCdgnxwbjyb9Iu1g",
+      "name": "Blender Guru",
+      "handle": "@BlenderGuru",
+      "description": "3D modeling, materials, lighting, rendering, and computer graphics.",
+      "accentColor": "0xFFB45309",
+      "initials": "BG",
+      "focus": "Event Decoration & Planning: 3D modeling, materials, lighting, rendering, and computer graphics.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOKHwx1VCdgnxwbjyb9Iu1g; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC0lLeNdvLrFozQRsQ1TQiAw",
+      "name": "Aaron Blaise",
+      "handle": "@AaronBlaiseArt",
+      "description": "Animation, drawing, character design, illustration, and visual storytelling.",
+      "accentColor": "0xFF475569",
+      "initials": "AB",
+      "focus": "Event Decoration & Planning: Animation, drawing, character design, illustration, and visual storytelling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC0lLeNdvLrFozQRsQ1TQiAw; selected for the Event Decoration & Planning learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Shecluded Blog",
+      "url": "https://blog.shecluded.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real article 'How To Start An Event Planning Business In Nigeria' matching the CSV description exactly. Note: Shecluded itself is a women's business fintech platform, not an event-planning-specific brand — this one article is genuinely on-topic, but that's the extent of the event-planning content there. Site confirmed real and active; feed URL follows the platform's standard pattern but wasn't fetched directly this session — worth a quick check before shipping."
+    },
+    {
+      "name": "PlanPadi Blog",
+      "url": "https://blog.planpadi.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real, active blog (planpadi.com, an event ticketing/vendor platform) with matching budget/planning content. Site confirmed real and active; feed URL follows the platform's standard pattern but wasn't fetched directly this session — worth a quick check before shipping."
+    },
+    {
+      "name": "Shopify Event Plan",
+      "url": "https://www.shopify.com/blog/event-planning-business-plan",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Same trusted Shopify blog pattern already used in other categories in this project."
+    },
+    {
+      "name": "Indigo Crystal",
+      "url": "https://indigocrystal.com.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real company (est. 2013, Lagos/Ibadan) with a genuine events academy and matching blog content ('How to style an event in Lagos'). Note: could not confirm an active YouTube channel for this org despite the CSV also listing it as a Channel — the channels found were empty/generic, so not added there. Site confirmed real and active; feed URL follows the platform's standard pattern but wasn't fetched directly this session — worth a quick check before shipping."
+    },
+    {
+      "name": "360Eventee",
+      "url": "https://www.360eventee.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real Lagos event decoration/planning company. Site confirmed real and active; feed URL follows the platform's standard pattern but wasn't fetched directly this session — worth a quick check before shipping."
+    },
+    {
+      "name": "Alessa Suave Events",
+      "url": "https://alessasuaveevents.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed real Lagos event planning company. Site confirmed real and active; feed URL follows the platform's standard pattern but wasn't fetched directly this session — worth a quick check before shipping."
+    },
+    {
+      "name": "HubSpot Event Guide",
+      "url": "https://blog.hubspot.com/marketing/event-marketing",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Same trusted HubSpot resource pattern already used in other categories in this project."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Nigerian small-business/startup blog; Site confirmed real and active; feed URL follows the platform's standard pattern but wasn't fetched directly this session — worth a quick check before shipping."
+    },
+    {
+      "name": "Event Planning Blueprint",
+      "url": "https://www.eventplanningblueprint.com/blog/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Melanie Woodward's blog confirmed real and active via multiple independent sources (Guidebook's 'Best Event Planning Blogs', PlanningPod's curated list, InEvent interview). Guidebook specifically calls it 'great, concise articles for bootstrapping event profs looking to make a profitable business.' Feed URL follows standard WordPress pattern but not fetched directly this session — verify before relying on it for the in-app RSS reader. Blog URL (eventplanningblueprint.com/blog/) confirmed via press release (PRWeb) originally announcing the blog."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian entrepreneurship practical guides."
+    },
+    {
+      "name": "No Film School",
+      "url": "https://nofilmschool.com/",
+      "region": "Global",
+      "focus": "Filmmaking, cinematography, production, and creative industry practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "PetaPixel",
+      "url": "https://petapixel.com/",
+      "region": "Global",
+      "focus": "Photography, cameras, visual storytelling, and industry news.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fstoppers",
+      "url": "https://fstoppers.com/",
+      "region": "Global",
+      "focus": "Photography, lighting, filmmaking, workflow, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Creative Bloq",
+      "url": "https://www.creativebloq.com/",
+      "region": "Global",
+      "focus": "Graphic design, illustration, 3D, digital art, and creative tools.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/",
+      "region": "Global",
+      "focus": "Web design, UX, front-end development, accessibility, and performance.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Adobe Blog",
+      "url": "https://blog.adobe.com/",
+      "region": "Global",
+      "focus": "Creative tools, design, photography, video, and digital creativity.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "AIGA Eye on Design",
+      "url": "https://eyeondesign.aiga.org/",
+      "region": "Global",
+      "focus": "Graphic design, visual culture, design history, and critical practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "CreativePro Network",
+      "url": "https://creativepro.com/",
+      "region": "Global",
+      "focus": "Design software, typography, publishing, and production workflows.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Futur Blog",
+      "url": "https://thefutur.com/blog",
+      "region": "Global",
+      "focus": "Design practice, branding, creative business, and professional development.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "HubSpot Event Templates",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/event-marketing-kit",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free event business and marketing templates.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Sourced from user-provided event_decoration_planning_resources.csv; not independently re-fetched this session.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Building a StoryBrand — SB7 Framework (BrandScript tool)",
+      "author": "Donald Miller",
+      "freeSourceUrl": "https://www.mystorybrand.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "The full book is paid — this is Miller's genuinely free BrandScript web app that teaches and applies the SB7 messaging framework.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Verified via search that mystorybrand.com is a real, free digital tool distinct from the paid book, confirmed by StoryBrand's own content.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781400201839-L.jpg"
+    },
+    {
+      "title": "The 1-Page Marketing Plan (template)",
+      "author": "Allan Dib",
+      "freeSourceUrl": "https://www.1pagemarketingplan.com",
+      "freeSourceType": "download",
+      "freeSourceNote": "The full book is paid — this is the genuinely free, blank fillable 9-square marketing canvas Dib gives away as a companion tool.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Verified via search — multiple independent sources confirm Dib gives this specific template away free, separate from the paid book.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781619613348-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "download",
+      "freeSourceNote": "A cash-management approach for small business owners.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Sourced from user-provided event_decoration_planning_resources.csv; not independently re-fetched this session.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Built to Sell",
+      "author": "John Warrillow",
+      "freeSourceUrl": "https://builttosell.com/resources",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free summary and tools.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Sourced from user-provided event_decoration_planning_resources.csv; not independently re-fetched this session.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845829-L.jpg"
+    },
+    {
+      "title": "Digital Marketing Resources",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/marketing-resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "198+ free marketing resources (templates, guides, kits).",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Sourced from user-provided event_decoration_planning_resources.csv; not independently re-fetched this session.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "How to Start Your Own Event Planning Business",
+      "author": "InvoiceBerry",
+      "freeSourceUrl": "https://www.invoiceberry.com/blog/free-ebook-start-event-planning-business/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free ebook from the invoicing/small-business software company. Covers business plan, pricing strategy, contracts, website setup, and financial management for new event planners. Not gated behind paid software signup.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Found via search, confirmed real and genuinely free via invoiceberry.com's own blog page. InvoiceBerry is a real, established UK invoicing software company (founded 2013).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470148754-L.jpg"
+    },
+    {
+      "title": "Professional Event Planning Guide",
+      "author": "Guidebook",
+      "freeSourceUrl": "https://www.guidebook.com/post/professional-event-planning-guide-download-free-ebook",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free 70-page workbook featuring insights from five experienced event professionals (corporate meetings, boutique conferences, high-end agencies, association events). Covers concept to execution, marketing plan, team building, and post-event follow-up. Email signup required.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Found via search, confirmed real and genuinely free via guidebook.com's own resource page. Guidebook is a real, well-established event app company.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470148754-L.jpg"
+    },
+    {
+      "title": "The Event Business Plan to Launch, Grow, and Propel Your Event",
+      "author": "Eventbrite",
+      "freeSourceUrl": "https://www.eventbrite.com/resources/event-planning/business-plan/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free step-by-step business plan guide from Eventbrite covering core values, legal structure, budgeting, funding strategy, and marketing. Genuinely free, no signup required.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Confirmed via Eventbrite's own ebook archive page listing this as a real resource, and via direct search results showing the live page. Eventbrite is the world's largest event ticketing and management platform — highly credible source for event business guidance.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780470148754-L.jpg"
+    },
+    {
+      "title": "Let's Have a Party!",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65742",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65742); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65742/pg65742.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65742/pg65742.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65742/pg65742.cover.small.jpg"
+      ],
+      "subject": "Cooking",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Cooking",
+        "Entertaining",
+        "Party decorations",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TX"
+      ]
+    },
+    {
+      "title": "The Lady of the Decoration",
+      "author": "Little, Frances, 1863-1941",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7523",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 7523); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7523/pg7523.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7523/pg7523.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7523/pg7523.cover.small.jpg"
+      ],
+      "subject": "Japan -- History -- Meiji period, 1868-1912 -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Japan -- History -- Meiji period, 1868-1912 -- Fiction",
+        "Bestsellers, American, 1895-1923",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Lady and Sada San A Sequel to the Lady of the Decoration",
+      "author": "Little, Frances, 1863-1941",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12240",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 12240); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12240/pg12240.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12240/pg12240.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12240/pg12240.cover.small.jpg"
+      ],
+      "subject": "Japan -- History -- Meiji period, 1868-1912 -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Japan -- History -- Meiji period, 1868-1912 -- Fiction",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Early Illustrated Books A History of the Decoration and Illustration of Books in the 15th and 16th Centuries",
+      "author": "Pollard, Alfred W. (Alfred William), 1859-1944",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39845",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 39845); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39845/pg39845.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39845/pg39845.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39845/pg39845.cover.small.jpg"
+      ],
+      "subject": "Illustrated books -- History -- 15th and 16th centuries -- Bibliography",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Illustrated books -- History -- 15th and 16th centuries -- Bibliography",
+        "Early printed books -- 16th century -- Bibliography",
+        "Incunabula -- Bibliography",
+        "Category: History - European",
+        "Category: Art",
+        "Z"
+      ]
+    },
+    {
+      "title": "Old Time Wall Papers An Account of the Pictorial Papers on Our Forefathers' Walls with a Study of the Historical Development of Wall Paper Making and Decoration",
+      "author": "Sanborn, Kate, 1839-1917",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41664",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 41664); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41664/pg41664.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41664/pg41664.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41664/pg41664.cover.small.jpg"
+      ],
+      "subject": "Wallpaper",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Wallpaper",
+        "Interior decoration -- History",
+        "Category: History - Other",
+        "Category: Art",
+        "NK"
+      ]
+    },
+    {
+      "title": "The Library of Work and Play: Home Decoration",
+      "author": "Warner, Charles Franklin, 1857-",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44750",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 44750); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44750/pg44750.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44750/pg44750.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44750/pg44750.cover.small.jpg"
+      ],
+      "subject": "Interior decoration",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Interior decoration",
+        "Handicraft",
+        "Category: Children & Young Adult Reading",
+        "Category: Architecture",
+        "Category: Art",
+        "Category: How To ...",
+        "NK"
+      ]
+    },
+    {
+      "title": "The art of home furnishing and decoration",
+      "author": "Parsons, Frank Alvah, 1868-1930; Calkins, Kathleen Clinch, 1892?-1936; Armstrong Cork Company",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67518",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67518); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67518/pg67518.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67518/pg67518.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67518/pg67518.cover.small.jpg"
+      ],
+      "subject": "Interior decoration",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Interior decoration",
+        "Furniture",
+        "Linoleum",
+        "Category: Art",
+        "Category: How To ...",
+        "NK"
+      ]
+    },
+    {
+      "title": "Modern bookbindings: Their design and decoration",
+      "author": "Prideaux, S. T. (Sarah Treverbian), 1853-1933",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68786",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 68786); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68786/pg68786.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68786/pg68786.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68786/pg68786.cover.small.jpg"
+      ],
+      "subject": "Bookbinding",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Bookbinding",
+        "Category: Art",
+        "Z"
+      ]
+    },
+    {
+      "title": "Principles of decorative design",
+      "author": "Dresser, Christopher, 1834-1904",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39749",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 39749); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39749/pg39749.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39749/pg39749.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39749/pg39749.cover.small.jpg"
+      ],
+      "subject": "Decoration and ornament",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Decoration and ornament",
+        "Decoration and ornament -- Victorian style",
+        "Category: Art",
+        "Category: How To ...",
+        "NK"
+      ]
+    },
+    {
+      "title": "Hints for painters, decorators, and paper-hangers. Being a selection of useful rules, data, memoranda, methods, and suggestions for house, ship and furniture painting, paper-hanging, gilding, color mixing, and other matters useful and instructive to painters and decorators. Prepared with special reference to the wants of amateurs",
+      "author": "An Old Hand",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68866",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 68866); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68866/pg68866.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68866/pg68866.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68866/pg68866.cover.small.jpg"
+      ],
+      "subject": "Interior decoration",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Interior decoration",
+        "House painting",
+        "Paperhanging",
+        "Category: Art",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Egyptian decorative art",
+      "author": "Petrie, W. M. Flinders (William Matthew Flinders), 1853-1942",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70049",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 70049); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70049/pg70049.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70049/pg70049.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70049/pg70049.cover.small.jpg"
+      ],
+      "subject": "Decoration and ornament -- Egypt",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Decoration and ornament -- Egypt",
+        "Category: History - Ancient",
+        "Category: Art",
+        "NK"
+      ]
+    },
+    {
+      "title": "The claims of decorative art",
+      "author": "Crane, Walter, 1845-1915",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77149",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 77149); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77149/pg77149.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77149/pg77149.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77149/pg77149.cover.small.jpg"
+      ],
+      "subject": "Decoration and ornament",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Decoration and ornament",
+        "NK"
+      ]
+    },
+    {
+      "title": "A Masque of Days From the Last Essays of Elia: Newly Dressed & Decorated",
+      "author": "Lamb, Charles, 1775-1834; Crane, Walter, 1845-1915 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24015",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 24015); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24015/pg24015.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24015/pg24015.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24015/pg24015.cover.small.jpg"
+      ],
+      "subject": "Holidays -- Juvenile literature",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Holidays -- Juvenile literature",
+        "Category: Poetry",
+        "Category: Humour",
+        "Category: British Literature",
+        "NC",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Of the Decorative Illustration of Books Old and New 3rd ed.",
+      "author": "Crane, Walter, 1845-1915",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40250",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 40250); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40250/pg40250.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40250/pg40250.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40250/pg40250.cover.small.jpg"
+      ],
+      "subject": "Illumination of books and manuscripts",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Illumination of books and manuscripts",
+        "Illustration of books",
+        "Illustrated books -- Bibliography",
+        "Book ornamentation -- History",
+        "Category: History - Other",
+        "Category: Art",
+        "Z"
+      ]
+    },
+    {
+      "title": "Decorative Art of Indian Tribes of Connecticut",
+      "author": "Speck, Frank G. (Frank Gouldsmith), 1881-1950",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46578",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 46578); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46578/pg46578.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46578/pg46578.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46578/pg46578.cover.small.jpg"
+      ],
+      "subject": "Indian art -- Connecticut",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Indian art -- Connecticut",
+        "Indian baskets -- Connecticut",
+        "Category: Art",
+        "Category: Archaeology & Anthropology",
+        "E011"
+      ]
+    },
+    {
+      "title": "Paint & Colour Mixing A practical handbook for painters, decorators and all who have to mix colours, containing 72 samples of paint of various colours, including the principal graining grounds",
+      "author": "Jennings, Arthur Seymour, 1860-1928",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56738",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 56738); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56738/pg56738.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56738/pg56738.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56738/pg56738.cover.small.jpg"
+      ],
+      "subject": "Paint mixing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Paint mixing",
+        "Category: Art",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Color mixing guide For artists, painters, decorators, printing pressmen, show card writers, sign painters, color mixers. Gives color mixtures by parts",
+      "author": "King, John L.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69507",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69507); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69507/pg69507.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69507/pg69507.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69507/pg69507.cover.small.jpg"
+      ],
+      "subject": "Colors",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Colors",
+        "Pigments",
+        "Paint mixing",
+        "Category: Art",
+        "Category: How To ...",
+        "TT"
+      ]
+    }
+  ],
+  "notes": "CORRECTION (2026-07-17): the ConnectNigeria article originally flagged here as 'worth checking' should NOT be used. Directly fetching articles.connectnigeria.com while researching a later category (Shoemaking) returned a page full of injected gambling/casino spam content, not the site's real articles — a strong sign the domain has been compromised or expired and repurposed. The specific article that looked good in search snippets may still be real, but the domain itself is not safe to add as a live, fetchable source right now. No entry was added here based on it, and none should be added elsewhere either.\n\nCSV integration (2026-07-21): event_decoration_planning_resources.csv, 30 rows. Connect Nigeria appeared again in this CSV (as a Blog this time) — excluded per this file's own existing correction above; this is exactly the category where that domain was first flagged, so good confirmation the caution was warranted.\n\nCHANNELS were the hard part this round: of the CSV's 10 channel picks, only 2 (Preston Bailey, Colin Cowie — both global celebrity event designers) plus 1 Nigerian pick (Eventigo) checked out as real, active, business-relevant YouTube channels. The rest didn't hold up under verification: 'Live Event Solutions' is an equipment rental company with only a 42-subscriber self-promo channel (though their own blog post recommending OTHER channels was a useful lead); 'Shecluded' is a real women's-business fintech platform, not an event-planning-specific channel; '3003 Events' and 'Toyin Obe' returned no findable channel; 'Wedding Planning Institute' resolved to multiple different same-named organizations with no single clear channel; 'Indigo Crystal' and 'PlanPadi' are both real companies with real blogs (kept there) but their YouTube channels were empty or generic, not real content. Channels are at 4/10 (1 existing + 3 new) — genuinely low this round, not for lack of trying. Worth a dedicated follow-up search pass using a different angle (e.g. FeedSpot's event-planning-YouTuber directory surfaced 'Event University' and 'Social Tables' as possible global candidates, not yet verified).\n\nBOOKS: 3 of the CSV's 10 picks (Personal MBA, The Lean Startup, Atomic Habits) were sourced to archive.org / bdebooks.com and labeled free — same pattern as the graphic design category. All three are major, actively-sold bestsellers; checked The Lean Startup directly and confirmed bdebooks.com is an unauthorized ebook-sharing site, not a legitimate free source. Excluded all three. Two others (Building a StoryBrand, The 1-Page Marketing Plan) were correctly framed by the CSV as 'free framework/template' rather than free books — verified both authors do genuinely give away a companion tool distinct from their paid books, so kept those with corrected URLs pointing at the actual free tool (mystorybrand.com and 1pagemarketingplan.com) rather than the books themselves. Books are at 7/10.\n\nCompletion pass (2026-07-21): channels, blogs, and books all brought to 10/10/10.\n\nCHANNELS: 6 more added, all confirmed via direct YouTube page fetch. Key picks: GreeneyedAmbition (Jese Gary) is the strongest pure business-coaching fit — explicitly covers pricing, systems, and scaling for event/catering business owners. EC Marketing Agency (@EventCertificate, Jody-Ann Rowe) is the strongest client-acquisition fit — SEO and digital marketing specifically for service businesses including event planners. Yes! Event Decor & More (Lonielle Cousar) is the best craft+business mix on the decoration side. Living Luxuriously for Less (Melanie Turner, 215K subs) is the strongest pure-decoration channel but softest on explicit business content — included because the skill category is 'event decoration and planning', not only business coaching, so decoration craft coverage is directly on-topic. All 10 channel IDs individually confirmed via direct fetch this session; none have duplicate IDs.\n\nBLOG: Event Planning Blueprint (Melanie Woodward) added as the 10th blog. Real, active, well independently corroborated (Guidebook, PlanningPod, InEvent all cite it as a top event-business blog). Feed URL follows standard WordPress pattern but wasn't fetched live — worth a quick check.\n\nBOOKS: 3 more added, all genuinely free and individually verified: InvoiceBerry's event-planning startup ebook (free, no paywall), Guidebook's 70-page Professional Event Planning Guide (free, email signup), Eventbrite's Event Business Plan guide (free, no signup). Rejected the archive.org copy of 'Start Your Own Event Planning Business' (Entrepreneur Press) that appeared in search results — same archive.org/paid-book pattern flagged in the graphic design category. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 17 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
+  ]
+}

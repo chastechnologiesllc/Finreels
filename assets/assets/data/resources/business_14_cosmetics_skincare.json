@@ -1,0 +1,715 @@
+{
+  "categoryId": "business_14_cosmetics_skincare",
+  "profession": "Cosmetics & Skincare",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCzJIliq68IHSn-Kwgjeg2AQ",
+      "name": "Jackie Aina",
+      "handle": "@jackieaina",
+      "description": "Nigerian-American beauty creator and entrepreneur. Founder of Forvr Mood and FORVR Bod. Known for changing beauty standards and advocating for inclusivity. Business side: collabs, brand launches, and entrepreneurial content.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "JA",
+      "focus": "Beauty entrepreneurship, brand building, inclusivity",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UCzJIliq68IHSn-Kwgjeg2AQ. ID confirmed."
+    },
+    {
+      "id": "UC2sYit3cZ2CuD_8FHYH7O_Q",
+      "name": "Skincare by Hyram",
+      "handle": "@skincarebyhyram",
+      "description": "Hyram Yarbro — skincare educator who built a 7M+ subscriber channel. Later co-founded Selfless by Hyram skincare brand with Inditex. Best example of audience-to-brand entrepreneurship in the skincare space.",
+      "accentColor": "0xFF10B981",
+      "initials": "SH",
+      "focus": "Skincare science, product formulation, brand building",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UC2sYit3cZ2CuD_8FHYH7O_Q confirmed from Google search result. Hyram's channel is widely cited in beauty media. Confirm RSS feed in-app."
+    },
+    {
+      "id": "UC_oJUYInCjcw9czSRqMUKCA",
+      "name": "Chemist Confessions",
+      "handle": "@ChemistConfessions",
+      "description": "Two skincare chemists — Gloria Lu and Victoria Fu — navigating cosmetic formulation and product development. Founders of their own skincare brand. Best channel for understanding cosmetic chemistry from a business and R&D perspective.",
+      "accentColor": "0xFF0EA5E9",
+      "initials": "CC",
+      "focus": "Cosmetic chemistry, product formulation, skincare brand R&D",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UC_oJUYInCjcw9czSRqMUKCA. ID confirmed."
+    },
+    {
+      "id": "UCqpj89pw0G4I35X9wIKeyjA",
+      "name": "BellaNaija Style",
+      "handle": "@bellanaija",
+      "description": "Africa's No.1 digital lifestyle brand. Strong coverage of Nigerian beauty, cosmetics, skincare entrepreneurs and product launches. Key channel for Nigerian cosmetics and skincare business context.",
+      "accentColor": "0xFFEC4899",
+      "initials": "BN",
+      "focus": "Nigerian beauty, cosmetics business and brand coverage",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/user/bellanaija. ID confirmed."
+    },
+    {
+      "id": "UCFghPtzFcmyDiID1ASMA4Dg",
+      "name": "Lisa Eldridge",
+      "handle": "@LisaEldridge",
+      "description": "Lisa Eldridge MBE — professional makeup artist and Global Creative Director of Lancôme, 2M+ subscribers. NY Times bestselling author on makeup history. Founder of Lisa Eldridge Beauty cosmetics brand. No sponsored content policy — highly trusted.",
+      "accentColor": "0xFF6366F1",
+      "initials": "LE",
+      "focus": "Professional makeup artistry, cosmetics brand building",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UCFghPtzFcmyDiID1ASMA4Dg. ID confirmed."
+    },
+    {
+      "id": "UCg6P323bLV4zMSWFqFhvWMg",
+      "name": "Lab Muffin Beauty Science",
+      "handle": "@LabMuffinBeautyScience",
+      "description": "Michelle Wong — chemistry PhD and science educator. Explains the science behind beauty products clearly. Essential for formulation entrepreneurs to understand ingredient claims, active percentages, and what skincare can realistically do.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "LM",
+      "focus": "Cosmetic chemistry, ingredient science, formulation facts",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UCg6P323bLV4zMSWFqFhvWMg. ID confirmed."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCxIJaCMEptJjxmmQgGFsnCg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "YC",
+      "focus": "Cosmetics & Skincare: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "name": "Harvard Business Review",
+      "handle": "@HarvardBusinessReview",
+      "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
+      "accentColor": "0xFF16A34A",
+      "initials": "HB",
+      "focus": "Cosmetics & Skincare: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWLGZL69LhjjgGRKhcAE_w",
+      "name": "Google for Startups",
+      "handle": "@GoogleforStartups",
+      "description": "Startup growth, technology, product, marketing, and founder education.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "GF",
+      "focus": "Cosmetics & Skincare: Startup growth, technology, product, marketing, and founder education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "HM",
+      "focus": "Cosmetics & Skincare: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
+      "accentColor": "0xFF0891B2",
+      "initials": "A",
+      "focus": "Cosmetics & Skincare: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
+      "name": "Neil Patel",
+      "handle": "@NeilPatel",
+      "description": "Digital marketing, SEO, content, customer acquisition, and online business.",
+      "accentColor": "0xFFDB4437",
+      "initials": "NP",
+      "focus": "Cosmetics & Skincare: Digital marketing, SEO, content, customer acquisition, and online business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl-Zrl0QhF66lu1aGXaTbfw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCA2CiHJ0xCLC6Dt7w5_Hxvw",
+      "name": "Money & Macro",
+      "handle": "@MoneyMacro",
+      "description": "Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "MM",
+      "focus": "Cosmetics & Skincare: Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCA2CiHJ0xCLC6Dt7w5_Hxvw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOErWFfNOQzXsgE7f5S_ULw",
+      "name": "Ben Felix",
+      "handle": "@BenFelixCSI",
+      "description": "Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "accentColor": "0xFF9333EA",
+      "initials": "BF",
+      "focus": "Cosmetics & Skincare: Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOErWFfNOQzXsgE7f5S_ULw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFCEuCsyWP0YkP3CZ3Mr01Q",
+      "name": "The Plain Bagel",
+      "handle": "@ThePlainBagel",
+      "description": "Investing, economics, personal finance, risk, and financial decision-making.",
+      "accentColor": "0xFFB45309",
+      "initials": "TP",
+      "focus": "Cosmetics & Skincare: Investing, economics, personal finance, risk, and financial decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFCEuCsyWP0YkP3CZ3Mr01Q; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLvnJL8htRR1T9cbSccaoVw",
+      "name": "Aswath Damodaran",
+      "handle": "@AswathDamodaranonValuation",
+      "description": "Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "accentColor": "0xFF475569",
+      "initials": "AD",
+      "focus": "Cosmetics & Skincare: Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLvnJL8htRR1T9cbSccaoVw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCHwkW7lTTzf19xg5R4gfwVw",
+      "name": "CFA Institute",
+      "handle": "@CFAInstitute",
+      "description": "Investment analysis, ethics, portfolio management, and professional finance.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CI",
+      "focus": "Cosmetics & Skincare: Investment analysis, ethics, portfolio management, and professional finance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHwkW7lTTzf19xg5R4gfwVw; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChjfv8-vAA1CZA84f-h5X_Q",
+      "name": "GaryVee",
+      "handle": "@GaryVee",
+      "description": "Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "accentColor": "0xFF16A34A",
+      "initials": "G",
+      "focus": "Cosmetics & Skincare: Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChjfv8-vAA1CZA84f-h5X_Q; selected for the Cosmetics & Skincare learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian SME blog. Feed URL confirmed via FeedSpot."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian startup/small-business blog. Standard WordPress feed pattern."
+    },
+    {
+      "name": "HubSpot Marketing Blog",
+      "url": "https://blog.hubspot.com/marketing/rss.xml",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot's official marketing RSS feed. Confirmed active."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog.atom",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Shopify's official blog feed. Confirmed active."
+    },
+    {
+      "name": "Global Cosmetic Industry (GCI)",
+      "url": "https://www.cosmeticsandtoiletries.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Cosmetics & Toiletries (cosmeticsandtoiletries.com, part of Global Cosmetic Industry) is a real, peer-reviewed industry publication for cosmetics formulators and brand owners. Standard RSS feed pattern."
+    },
+    {
+      "name": "Beauty Independent",
+      "url": "https://www.beautyindependent.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Beauty Independent (beautyindependent.com) is confirmed as a real, active media outlet covering indie beauty brand building, investment, and retail. LinkedIn presence confirmed. Standard WordPress feed."
+    },
+    {
+      "name": "Cosmetics Design — Africa",
+      "url": "https://www.cosmeticsdesign-africa.com/rss/news",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "cosmeticsdesign-africa.com is a real industry publication (part of William Reed's CosmeticsDesign network). Covers African cosmetics regulation, market trends, and brand news."
+    },
+    {
+      "name": "Paula's Choice — Skincare Ingredient Dictionary",
+      "url": "https://www.paulaschoice.com/ingredient-dictionary/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Paula's Choice is a globally trusted skincare brand with a free ingredient dictionary and skincare blog. Standard feed pattern."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Author's own site — free chapter samples and companion resources for the Profit First cash-management system.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Author's official domain. Free sample chapters confirmed via site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/business-fundamentals",
+      "freeSourceType": "download",
+      "freeSourceNote": "Genuinely free open textbook covering business fundamentals. No signup required.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax is a peer-reviewed free textbook publisher backed by Rice University. URL confirmed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook covering the full entrepreneur journey from ideation to scaling.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/marketing-resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "198+ free marketing resources (templates, guides, kits) from HubSpot.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot official resource hub. Confirmed free, no paywall.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free comprehensive step-by-step guide to starting and running a small business. Government resource, no signup.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "SBA.gov confirmed URL.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course covering inbound marketing fundamentals — content, SEO, social media, email, conversions.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot Academy confirmed. Genuinely free, recognized certification.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook — planning, organising, leading and controlling a business operation.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "FDA Cosmetics Guidance — How to Register and Market Cosmetics",
+      "author": "U.S. Food and Drug Administration",
+      "freeSourceUrl": "https://www.fda.gov/cosmetics",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free US FDA cosmetics regulations and guidance — registration, labelling, claims, ingredient restrictions. Directly applicable to NAFDAC compliance since Nigeria's framework mirrors international standards.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "FDA.gov is a US government site. Cosmetics section confirmed. Free, no signup required.",
+      "coverUrl": "https://www.fda.gov/files/FDA_logo-FDA-large.jpg"
+    },
+    {
+      "title": "NAFDAC Guidelines for Cosmetics Registration",
+      "author": "NAFDAC Nigeria",
+      "freeSourceUrl": "https://www.nafdac.gov.ng/category/cosmetics/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official guidelines from Nigeria's regulatory body for cosmetics — registration requirements, prohibited ingredients, labelling standards, and fees for Nigerian market cosmetics approval.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "NAFDAC (nafdac.gov.ng) is the confirmed official Nigerian government website. Cosmetics section confirmed via search.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NAFDAC_Logo.png/220px-NAFDAC_Logo.png"
+    },
+    {
+      "title": "Plastic and cosmetic surgery",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73452",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73452; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73452/pg73452.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73452/pg73452.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73452/pg73452.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73452/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Surgery, Plastic",
+        "Category: Health & Medicine",
+        "RD"
+      ]
+    },
+    {
+      "title": "The Art of Perfumery, and Methods of Obtaining the Odors of Plants\r\nWith Instructions for the Manufacture of Perfumes for the Handkerchief, Scented Powders, Odorous Vinegars, Dentifrices, Pomatums, Cosmetics, Perfumed Soap, Etc., to which is Added an Appendix on Preparing Artificial Fruit-Essences, Etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/16378",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #16378; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/16378/pg16378.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/16378/pg16378.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/16378/pg16378.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/16378/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cosmetics",
+        "Perfumes",
+        "Technology",
+        "Category: History - Other",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TP"
+      ]
+    },
+    {
+      "title": "The Complete Distiller\r\nContaining, I. The method of performing the various processes of distillation, with descriptions of the several instruments: the whole doctrine of fermentation: the manner of drawing spirits from malt, raisins, molasses, sugar, &c. and of rectifying them: with instructions for imitating, to the greatest perfection, both the colour and flavour of French brandies. II. The manner of distilling all kinds of simple waters from plants, flowers, &c. III. The method of making all the compound waters and rich cordials so largely imported from France and Italy; as likewise all those now made in Great Britain. To which are added, accurate descriptions of the several drugs, plants, flowers, fruits, &c. used by distillers, and instructions for chusing the best of each kind...",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65020",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65020; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65020/pg65020.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65020/pg65020.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65020/pg65020.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65020/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Formulas, recipes, etc. -- Early works to 1800",
+        "Perfumes -- Early works to 1800",
+        "Distillation -- Early works to 1800",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TP"
+      ]
+    },
+    {
+      "title": "The Toilet of Flora\r\nor, A collection of the most simple and approved methods of preparing baths, essences, pomatums, powders, perfumes, and sweet-scented waters. With receipts for cosmetics of every kind, that can smooth and brighten the skin, give force to beauty, and take off the appearance of old age and decay",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44276",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44276; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44276/pg44276.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44276/pg44276.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44276/pg44276.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/44276/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cosmetics -- Early works to 1800",
+        "Perfumes -- Early works to 1800",
+        "Beauty, Personal -- Early works to 1800",
+        "Category: How To ...",
+        "TP"
+      ]
+    },
+    {
+      "title": "A practical treatise on the manufacture of perfumery",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50139",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50139; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50139/pg50139.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50139/pg50139.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50139/pg50139.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50139/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cosmetics",
+        "Perfumes",
+        "Perfumes industry",
+        "Category: History - Other",
+        "Category: How To ...",
+        "TP"
+      ]
+    },
+    {
+      "title": "My secrets of beauty",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76421",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76421; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76421/pg76421.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76421/pg76421.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76421/pg76421.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/76421/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Beauty, Personal",
+        "Cosmetics",
+        "Category: Fashion",
+        "Category: How To ...",
+        "RA"
+      ]
+    },
+    {
+      "title": "Perfumes and their preparation",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55735",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #55735; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55735/pg55735.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55735/pg55735.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55735/pg55735.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/55735/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cosmetics",
+        "Perfumes",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: How To ...",
+        "TP"
+      ]
+    },
+    {
+      "title": "The Ladies Book of Useful Information\nCompiled from many sources",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26368",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #26368; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26368/pg26368.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26368/pg26368.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26368/pg26368.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/26368/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Women -- Health and hygiene",
+        "Interior decoration",
+        "Physiology -- Popular works",
+        "Decoration and ornament",
+        "Marriage",
+        "Beauty, Personal",
+        "Conduct of life -- Early works to 1900",
+        "Cosmetics",
+        "Traditional medicine",
+        "Sexual ethics",
+        "Pregnancy",
+        "Cooking for the sick",
+        "Menstruation",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "Category: Parenthood & Family Relations",
+        "HQ",
+        "RA"
+      ]
+    },
+    {
+      "title": "The Woman Beautiful; or, The Art of Beauty Culture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23750",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #23750; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23750/pg23750.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23750/pg23750.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23750/pg23750.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/23750/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Beauty, Personal",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "RA"
+      ]
+    },
+    {
+      "title": "The Making of William Edwards; or, The Story of the Bridge of Beauty",
+      "author": "Banks, G. Linnaeus (George Linnaeus), Mrs., 1821-1897",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38212",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38212); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38212/pg38212.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38212/pg38212.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38212/pg38212.cover.small.jpg"
+      ],
+      "subject": "Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fiction",
+        "Category: Historical Novels",
+        "Category: Novels",
+        "PR"
+      ]
+    }
+  ],
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nCosmetics had the most globally strong channels (Huda Beauty, Jackie Aina, Hyram, Chemist Confessions, Dr. Dray, Lisa Eldridge, Lab Muffin) all confirmed. Slots 9 and 10 (House of Tara, NAFDAC Nigeria) have handles confirmed from independent sources but channel IDs need API resolution — these are the most Nigeria-specific and business-relevant entries in this category. Beauty Independent (blog only), Cosmetic Design Africa (blog only), NAFDAC Nigeria (government site) could not be confirmed as active YouTube channels through search — replaced with the above. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 9 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 1 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 9 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

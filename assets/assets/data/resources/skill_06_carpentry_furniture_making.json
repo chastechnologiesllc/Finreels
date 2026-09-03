@@ -1,0 +1,2150 @@
+{
+  "categoryId": "skill_06_carpentry_furniture_making",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCBB7sYb14uBtk8UqSQYc9-w",
+      "name": "Steve Ramsey – Woodworking for Mere Mortals",
+      "handle": "@SteveRamsey",
+      "description": "Steve Ramsey's channel has 1.9M subscribers and is one of the most-watched woodworking channels on YouTube. Focuses on accessible beginner woodworking on a budget — ideal for carpenters who need to understand how to create content that teaches and sells.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "SR",
+      "focus": "Beginner-accessible woodworking and content business model",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via NoxInfluencer analytics (UCBB7sYb14uBtk8UqSQYc9-w) and live YouTube channel fetch. Handle @SteveRamsey confirmed."
+    },
+    {
+      "id": "UCckETVOT59aYw80B36aP9vw",
+      "name": "Matthias Wandel",
+      "handle": "@matthiaswandel",
+      "description": "Canadian engineer and woodworker with 1.72M+ subscribers and 588M+ total views — the largest woodworking channel by total views on YouTube. Engineering-led approach to shop layout, jig design, and woodworking systems. Teaches how to optimise a carpentry shop for output and efficiency.",
+      "accentColor": "0xFF92400E",
+      "initials": "MW",
+      "focus": "Engineering approach to shop efficiency and system design",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/user/matthiaswandel. Handle @matthiaswandel confirmed."
+    },
+    {
+      "id": "UC6x7GwJxuoABSosgVXDYtTw",
+      "name": "I Like to Make Stuff",
+      "handle": "@iliketomakestuff",
+      "description": "Bob Clagett's maker-business channel covering woodworking, metalworking, electronics, and 3D printing. 900K+ subscribers. Valuable for carpenters who want to understand how a craft creator monetises skills — pricing, sponsorships, plans sales, and community building.",
+      "accentColor": "0xFFEA580C",
+      "initials": "IL",
+      "focus": "Maker business — monetising craft skills across multiple products",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via search result youtube.com/channel/UC6x7GwJxuoABSosgVXDYtTw. Handle @iliketomakestuff confirmed."
+    },
+    {
+      "id": "UCbhADZ0qpHjXpbApNEjzvgw",
+      "name": "Africa's Young Entrepreneurs",
+      "handle": "@africasy0ungentrepreneurs",
+      "description": "Official YouTube channel of the Africa's Young Entrepreneurs Organization (A.Y.E.) — the largest entrepreneurship network in Africa with 12M members. Covers business strategy, trade skills, and entrepreneurship pathways across the continent, including carpentry and furniture making.",
+      "accentColor": "0xFF16A34A",
+      "initials": "AY",
+      "focus": "Pan-African entrepreneurship and trade business education",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/channel/UCbhADZ0qpHjXpbApNEjzvgw. CRITICAL handle correction: actual YouTube handle is @africasy0ungentrepreneurs — uses a ZERO (0) not the letter O. CSV had @africasyoungentrepreneurs (letter O) which does not resolve to this channel."
+    },
+    {
+      "id": "UC4v2tQ8GqP0RbmAzhp4IFkQ",
+      "name": "April Wilkerson",
+      "handle": "@AprilWilkerson",
+      "description": "Self-taught woodworker and DIY creator with 1.3M+ subscribers. Creator of Wilker Do's — a commercial and retail wood shop (Hill Country Wood Shed). Demonstrates the full arc from hobby woodworker to running a CNC production operation and retail business. Business background (UT Arlington, business management).",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "AW",
+      "focus": "DIY woodworking to commercial shop business — full arc",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/user/AprilWilkersonDIY. Handle corrected from @aprildawilkerson (CSV) to @AprilWilkerson (actual YouTube handle)."
+    },
+    {
+      "id": "UCKp44bWWZIiOPShPN_ytShw",
+      "name": "The Wood Whisperer",
+      "handle": "@woodwhisperer",
+      "description": "Marc Spagnuolo's channel — launched 2006, the longest-running online woodworking series. Family-run small business model relying on community support, course sales (The Wood Whisperer Guild), and a subscription guild. Excellent case study in building a sustainable woodworking content business over two decades.",
+      "accentColor": "0xFF854D0E",
+      "initials": "WW",
+      "focus": "Fine furniture making and sustainable woodworking content business",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/channel/UCKp44bWWZIiOPShPN_ytShw. Handle corrected from @thewoodwhisperer (CSV) to @woodwhisperer (actual YouTube handle)."
+    },
+    {
+      "id": "UCtaykeSsGhtn2o2BsPm-rsw",
+      "name": "Make Something",
+      "handle": "@MakeSomething",
+      "description": "David Picciuto's woodworking channel focused on design thinking and the creative process. 500+ videos over 10 years, featured on NBC's Making It. Covers the 'why' behind making — useful for carpenters who want to understand how to position craft as art and build an audience around a design-focused practice.",
+      "accentColor": "0xFF0369A1",
+      "initials": "MS",
+      "focus": "Design-led woodworking and creative business positioning",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/channel/UCtaykeSsGhtn2o2BsPm-rsw. Replaces @hudumaglobal (CSV entry) — Huduma Global is a Kenya diaspora services company with no YouTube channel at that handle."
+    },
+    {
+      "id": "UC-7XY-W_C84cW2MNqujgFpg",
+      "name": "Jay Bates",
+      "handle": "@JayBates",
+      "description": "Jay Bates (Jays Custom Creations) is a Mississippi-based woodworker who turned a hobby into a business — selling plans, building client projects, and documenting the business systems behind a production woodworking shop. 600K+ subscribers. Practical DIY-to-business content for carpenters at the growth stage.",
+      "accentColor": "0xFF059669",
+      "initials": "JB",
+      "focus": "DIY to production shop — plans, pricing and business systems",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@JayBates. Replaces @nigeriancarpentertv (CSV entry) — no YouTube channel found at that handle. Jay Bates covers the craft-to-business transition that the Rumuo skill audience needs."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC5rrHufEb1d4l31kf9bGYfg",
+      "name": "This Old House",
+      "handle": "@thisoldhouse",
+      "description": "Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TO",
+      "focus": "Carpentry & Furniture Making: Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5rrHufEb1d4l31kf9bGYfg; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1MZgHA2PsX2hlaYo8ECQAw",
+      "name": "Essential Craftsman",
+      "handle": "@EssentialCraftsman",
+      "description": "Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EC",
+      "focus": "Carpentry & Furniture Making: Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1MZgHA2PsX2hlaYo8ECQAw; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnorhjQR4zJkT7AVNhu395Q",
+      "name": "Home RenoVision DIY",
+      "handle": "@HomeRenoVisionDIY",
+      "description": "Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "HR",
+      "focus": "Carpentry & Furniture Making: Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnorhjQR4zJkT7AVNhu395Q; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKwM-7sO1_Tw9EmYhKfpBBw",
+      "name": "Perkins Builder Brothers",
+      "handle": "@PerkinsBuilderBrothers",
+      "description": "Residential construction, framing, tools, building systems, and project execution.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "PB",
+      "focus": "Carpentry & Furniture Making: Residential construction, framing, tools, building systems, and project execution.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKwM-7sO1_Tw9EmYhKfpBBw; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@ElectricianU",
+      "description": "Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "accentColor": "0xFF0891B2",
+      "initials": "EU",
+      "focus": "Carpentry & Furniture Making: Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCB3jUEyCLRbCw7QED0vnXYg; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCk0rn9r3IxR-FNjCzHBa5RQ",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "accentColor": "0xFFDB4437",
+      "initials": "G",
+      "focus": "Carpentry & Furniture Making: Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCk0rn9r3IxR-FNjCzHBa5RQ; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCraGaDLfWec67xl9FEPndtw",
+      "name": "See Jane Drill",
+      "handle": "@SeeJaneDrill",
+      "description": "Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "accentColor": "0xFF0F766E",
+      "initials": "SJ",
+      "focus": "Carpentry & Furniture Making: Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCraGaDLfWec67xl9FEPndtw; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwRccMruxRafT7Tx1u1dTPw",
+      "name": "Roger Wakefield",
+      "handle": "@RogerWakefield",
+      "description": "Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "accentColor": "0xFF9333EA",
+      "initials": "RW",
+      "focus": "Carpentry & Furniture Making: Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwRccMruxRafT7Tx1u1dTPw; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCYohLjTaUZLF3-JjttxG_CA",
+      "name": "AC Service Tech",
+      "handle": "@ACServiceTech",
+      "description": "Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "accentColor": "0xFFB45309",
+      "initials": "AS",
+      "focus": "Carpentry & Furniture Making: Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCYohLjTaUZLF3-JjttxG_CA; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWGLfdGOQUrKK9dYdEq4qAg",
+      "name": "Word of Advice TV",
+      "handle": "@WordofAdviceTV",
+      "description": "Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "accentColor": "0xFF475569",
+      "initials": "WO",
+      "focus": "Carpentry & Furniture Making: Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWGLfdGOQUrKK9dYdEq4qAg; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCY1kMZp36IQSyNx_9h4mpCg",
+      "name": "ElectroBOOM",
+      "handle": "@ElectroBOOM",
+      "description": "Electrical engineering, circuits, safety, and measurement.",
+      "accentColor": "0xFF2563EB",
+      "initials": "E",
+      "focus": "Carpentry & Furniture Making: Electrical engineering, circuits, safety, and measurement.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCY1kMZp36IQSyNx_9h4mpCg; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChCd17oKbPA1yIfv4Cb_RSw",
+      "name": "ChrisFix",
+      "handle": "@ChrisFix",
+      "description": "Automotive maintenance, diagnostics, repair procedures, tools, and workshop skills.",
+      "accentColor": "0xFF16A34A",
+      "initials": "C",
+      "focus": "Carpentry & Furniture Making: Automotive maintenance, diagnostics, repair procedures, tools, and workshop skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChCd17oKbPA1yIfv4Cb_RSw; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUPPMkXFBPr-TAAE-CV9Jlg",
+      "name": "The Car Care Nut",
+      "handle": "@TheCarCareNut",
+      "description": "Vehicle systems, diagnostics, maintenance, repair quality, and automotive ownership.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "TC",
+      "focus": "Carpentry & Furniture Making: Vehicle systems, diagnostics, maintenance, repair quality, and automotive ownership.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUPPMkXFBPr-TAAE-CV9Jlg; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2QSX1z7lvF3bWXv6sK0UXw",
+      "name": "Professor Pincushion",
+      "handle": "@ProfessorPincushion",
+      "description": "Sewing, tailoring, garment construction, patterns, and textile skills.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "PP",
+      "focus": "Carpentry & Furniture Making: Sewing, tailoring, garment construction, patterns, and textile skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2QSX1z7lvF3bWXv6sK0UXw; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCPnSaAAVVo0q1tfWY5S3j7g",
+      "name": "withwendy",
+      "handle": "@withwendy",
+      "description": "Garment sewing, pattern adaptation, design process, and clothing construction.",
+      "accentColor": "0xFF0891B2",
+      "initials": "W",
+      "focus": "Carpentry & Furniture Making: Garment sewing, pattern adaptation, design process, and clothing construction.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCPnSaAAVVo0q1tfWY5S3j7g; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "OF",
+      "focus": "Carpentry & Furniture Making: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "Y",
+      "focus": "Carpentry & Furniture Making: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SO",
+      "focus": "Carpentry & Furniture Making: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFFB45309",
+      "initials": "KA",
+      "focus": "Carpentry & Furniture Making: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF475569",
+      "initials": "C",
+      "focus": "Carpentry & Furniture Making: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Carpentry & Furniture Making learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Income Nigeria",
+      "url": "https://incomenigeria.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Established Nigerian business site covering financing sources, startup costs, and capital access for furniture-making businesses."
+    },
+    {
+      "name": "Qeeva Advisory",
+      "url": "https://qeeva.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Nigerian advisory blog covering furniture-making business guides including staffing models and pricing frameworks."
+    },
+    {
+      "name": "Africa's Young Entrepreneurs",
+      "url": "https://africasyoungentrepreneurs.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Note: AYE organization primary domain is ayeorganization.com — verify this domain resolves correctly and returns RSS before deploying."
+    },
+    {
+      "name": "StartupSpot",
+      "url": "https://startupspot.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Nigerian startup guide site covering furniture business setup, BOI loans, cooperative models, and local grant access."
+    },
+    {
+      "name": "Counseal",
+      "url": "https://counseal.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Covers four carpentry business models: showroom retail, online sales, bespoke commissions, and second-hand furniture flipping."
+    },
+    {
+      "name": "AllenVest",
+      "url": "https://allenvest.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Social media and referral marketing strategies for furniture makers — Instagram, WhatsApp, and word-of-mouth growth for carpentry businesses."
+    },
+    {
+      "name": "Kashgain",
+      "url": "https://kashgain.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Digital presence and website marketing strategies for Nigerian trade businesses — attracting corporate furniture clients."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Established Nigerian entrepreneur publication. Covers modular and space-saving furniture as a growing Nigerian market opportunity."
+    },
+    {
+      "name": "Worker.ng",
+      "url": "https://worker.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Covers carpentry pricing methodology: materials + labour + transport + margin breakdown for Nigerian carpenters."
+    },
+    {
+      "name": "Huduma Global (Kenya)",
+      "url": "https://hudumaglobal.com/blog/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL CORRECTED: CSV had https://hudumaglobal.com/feed/ — site confirmed live at hudumaglobal.com with active blog at /blog/. Standard WordPress /feed/ may not be active; use /blog/ as the canonical blog URL. Content confirmed: in-depth carpentry and furniture business guides for Kenya, including real timber sourcing costs and market analysis (articles dated Feb 2026)."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "region": "Global",
+      "focus": "Construction, repair, renovation, tools, and home systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Family Handyman",
+      "url": "https://www.familyhandyman.com/",
+      "region": "Global",
+      "focus": "DIY, woodworking, repair, tools, and practical home skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fine Woodworking",
+      "url": "https://www.finewoodworking.com/",
+      "region": "Global",
+      "focus": "Advanced woodworking, furniture making, tools, and craftsmanship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Plumbing & Mechanical",
+      "url": "https://www.pmmag.com/",
+      "region": "Global",
+      "focus": "Plumbing, HVAC, hydronics, codes, and trade practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Notes",
+      "url": "https://www.electronics-notes.com/",
+      "region": "Global",
+      "focus": "Electronics fundamentals, components, circuits, and design.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "region": "Global",
+      "focus": "Salon technique, hairdressing, beauty, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Woodworker's Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at sba.gov — covers licensing, pricing, marketing, and financial planning for trades businesses. No paywall.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "SBA.gov is a U.S. government site — permanently free, no paywall. Content applies globally for business structuring fundamentals.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Markup & Profit: A Contractor's Guide",
+      "author": "Michael Stone",
+      "freeSourceUrl": "https://www.markupandprofit.com/blog/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free contractor business articles from Michael Stone — covers markup, pricing, overhead, contracts, and running a profitable trade business. No signup required.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://markupandprofit.com/resources — /resources subpage not found in search index (confirmed in skill_05 audit). Same fix applied: /blog/ confirmed active (site last indexed May–June 2026).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free resources and methodology overview at theleanstartup.com — official author site with validated learning frameworks",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL CORRECTED: CSV had bdebooks.com which is a third-party site of uncertain legitimacy. Replaced with theleanstartup.com — Eric Ries's official site which offers free resources and methodology content.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build repeatable systems that work without the owner.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://books.google.com/books?id=SHi_fU0AlO0C is a limited Google Books preview (typically 20–30% of pages only). Replaced with confirmed Internet Archive free PDF — same fix applied across skill_01–05 in-app testing.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — cash-flow system that prioritises profit allocation upfront. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.mikemichalowicz.com/profit-first-book returned blank/black screen (confirmed broken in skill_01–05 in-app testing). Same fix applied.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The $100 Startup",
+      "author": "Chris Guillebeau",
+      "freeSourceUrl": "https://www.100startup.com/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Free resource library from the official $100 Startup companion site — business plans, launch checklists, and promotion frameworks from Chris Guillebeau's book. Free, no credit card required.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/the-100-startup — identifier not confirmed in archive.org search index (2026-07-30). Replaced with official companion site 100startup.com — confirmed active (search snippet: 'Get the free resource library... Free. No credit card.').",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307951526-L.jpg"
+    },
+    {
+      "title": "Good to Great",
+      "author": "Jim Collins",
+      "freeSourceUrl": "https://archive.org/details/goodtogreatwhyso0000coll",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Free to borrow via Internet Archive — Jim Collins' research on what separates truly great companies from good ones: Level 5 Leadership, the Hedgehog Concept, and disciplined culture. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/good-to-great — identifier not confirmed in archive.org search index (2026-07-30). Updated to confirmed-active copy: goodtogreatwhyso0000coll (xii, 300 pages, uploaded June 2020, confirmed via web search).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780066620992-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://archive.org/details/personalmbaworld0000kauf",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Free to borrow via Internet Archive — 402-page business education covering entrepreneurship, marketing, sales, operations, and finance. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/personal-mba — identifier not confirmed in archive.org search index (confirmed in skill_05 audit). Same fix applied: personalmbaworld0000kauf confirmed (xiv, 402 pages, uploaded January 2020).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
+    },
+    {
+      "title": "Rework",
+      "author": "Jason Fried & David Heinemeier Hansson",
+      "freeSourceUrl": "https://openlibrary.org/works/OL15168112W/Rework",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Free to borrow via Open Library — the counterintuitive business playbook from the founders of Basecamp: do less, build simpler, ignore the competition. Requires a free Open Library account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/rework — identifier not confirmed in archive.org search index (2026-07-30). Replaced with confirmed Open Library page: OL15168112W — confirmed present via web search (full book description, September 2022).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307463746-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open-license textbook from OpenStax — covers planning, organising, leading, and controlling a business. Directly applicable to managing a small business.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no book by that slug (confirmed broken in skill_02–05 audits). Same fix applied: principles-management confirmed active © Apr 23, 2026.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "A Course In Wood Turning",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15460",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #15460; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/15460/pg15460.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/15460/pg15460.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/15460/pg15460.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/15460/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Turning (Lathe work)",
+        "Woodwork",
+        "Technology",
+        "Crafts",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Ancient and Modern Furniture and Woodwork",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54602",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54602; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54602/pg54602.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54602/pg54602.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54602/pg54602.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54602/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Woodwork",
+        "Furniture",
+        "Category: History - Ancient",
+        "Category: Art",
+        "NK"
+      ]
+    },
+    {
+      "title": "British Manufacturing Industries: Pottery, Glass and Silicates, Furniture and Woodwork.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38953",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38953; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38953/pg38953.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38953/pg38953.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38953/pg38953.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38953/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Manufacturing industries -- Great Britain",
+        "Category: History - British",
+        "Category: Engineering & Technology",
+        "Category: Art",
+        "TS"
+      ]
+    },
+    {
+      "title": "Carpentry",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70226",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70226; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70226/pg70226.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70226/pg70226.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70226/pg70226.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/70226/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Carpentry",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TH"
+      ]
+    },
+    {
+      "title": "Carpentry and Woodwork",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43574",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43574; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43574/pg43574.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43574/pg43574.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43574/pg43574.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/43574/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Carpentry",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TT"
+      ]
+    },
+    {
+      "title": "Carpentry for Boys\r\nIn a Simple Language, Including Chapters on Drawing, Laying Out Work, Designing and Architecture With 250 Original Illustrations",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20763",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #20763; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/20763/pg20763.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/20763/pg20763.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/20763/pg20763.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/20763/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Carpentry",
+        "Technology",
+        "Woodwork",
+        "Crafts",
+        "Category: Children & Young Adult Reading",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TH"
+      ]
+    },
+    {
+      "title": "Chats on Cottage and Farmhouse Furniture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44603",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44603; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44603/pg44603.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44603/pg44603.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44603/pg44603.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/44603/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Furniture -- England",
+        "Country furniture -- England",
+        "Textile fabrics -- England",
+        "Category: History - British",
+        "Category: Art",
+        "Category: Archaeology & Anthropology",
+        "NK"
+      ]
+    },
+    {
+      "title": "Correlated courses in woodwork and mechanical drawing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68118",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #68118; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68118/pg68118.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68118/pg68118.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68118/pg68118.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/68118/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Mechanical drawing",
+        "Woodwork (Manual training)",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TT"
+      ]
+    },
+    {
+      "title": "Elementary Course in Woodwork\nDesigned for use in high and technical schools, with one hundred and thirty-four illustrations: First Edition",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66616",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66616; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66616/pg66616.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66616/pg66616.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66616/pg66616.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66616/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Woodwork (Manual training)",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Elementary woodworking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69725",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69725; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69725/pg69725.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69725/pg69725.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69725/pg69725.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69725/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Woodwork",
+        "Trees",
+        "Woodworking tools",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TT"
+      ]
+    },
+    {
+      "title": "Elements of woodwork",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69019",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69019; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69019/pg69019.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69019/pg69019.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69019/pg69019.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69019/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Woodwork (Manual training)",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Essentials of woodworking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71855",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71855; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71855/pg71855.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71855/pg71855.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71855/pg71855.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71855/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Woodwork (Manual training)",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TT"
+      ]
+    },
+    {
+      "title": "Handwork in Wood",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20846",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #20846; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/20846/pg20846.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/20846/pg20846.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/20846/pg20846.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/20846/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Woodwork",
+        "Technology",
+        "Crafts",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Keeping Down the Cost of Your Woodwork",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66920",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66920; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66920/pg66920.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66920/pg66920.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66920/pg66920.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66920/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Trade catalogs",
+        "Curtis Companies -- Catalogs",
+        "Millwork (Woodwork) -- Catalogs",
+        "Woodwork -- Catalogs",
+        "Category: Architecture",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Rustic Carpentry",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41668",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41668; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41668/pg41668.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41668/pg41668.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41668/pg41668.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41668/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Rustic woodwork",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TT"
+      ]
+    },
+    {
+      "title": "Seasoning of Wood",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26598",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #26598; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26598/pg26598.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26598/pg26598.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26598/pg26598.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/26598/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Lumber -- Drying",
+        "Technology",
+        "Manufacturing",
+        "Woodwork",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TS"
+      ]
+    },
+    {
+      "title": "The Book of the Aquarium and Water Cabinet\r\nor Practical Instructions on the Formation, Stocking, and Mangement, in all Seasons, of Collections of Fresh Water and Marine Life",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/40701",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #40701; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/40701/pg40701.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/40701/pg40701.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/40701/pg40701.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/40701/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Aquatic plants",
+        "Aquariums",
+        "Aquarium plants",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "QH"
+      ]
+    },
+    {
+      "title": "The Mechanical Properties of Wood\r\nIncluding a Discussion of the Factors Affecting the Mechanical Properties, and Methods of Timber Testing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12299",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12299; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12299/pg12299.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12299/pg12299.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12299/pg12299.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/12299/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Wood",
+        "Wood -- Testing",
+        "Technology",
+        "Manufacturing",
+        "Woodwork",
+        "Engineering",
+        "Crafts",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Engineering & Technology",
+        "TA"
+      ]
+    },
+    {
+      "title": "Wood-Carving: Design and Workmanship",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22107",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #22107; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/22107/pg22107.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/22107/pg22107.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/22107/pg22107.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/22107/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Wood-carving",
+        "Technology",
+        "Woodwork",
+        "Crafts",
+        "Category: Art",
+        "Category: How To ...",
+        "NK"
+      ]
+    },
+    {
+      "title": "Wood-working for Beginners: A Manual for Amateurs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43604",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43604; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43604/pg43604.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43604/pg43604.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43604/pg43604.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/43604/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Woodwork",
+        "Carpentry",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TT"
+      ]
+    },
+    {
+      "title": "Woodwork joints",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21531",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #21531; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21531/pg21531.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21531/pg21531.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21531/pg21531.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/21531/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Woodwork",
+        "Carpentry",
+        "Technology",
+        "Crafts",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Woodworking Tools 1600-1900",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27238",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #27238; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/27238/pg27238.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/27238/pg27238.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/27238/pg27238.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/27238/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Woodworking tools -- History",
+        "Woodwork",
+        "Category: History - American",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "Q",
+        "T"
+      ]
+    },
+    {
+      "title": "A Book of Distinctive Interiors",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56467",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56467; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56467/pg56467.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56467/pg56467.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56467/pg56467.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56467/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Interior decoration",
+        "Furniture",
+        "Category: Architecture",
+        "Category: Art",
+        "Category: How To ...",
+        "NK"
+      ]
+    },
+    {
+      "title": "A Boy's Workshop: With plans and designs for in-door and out-door work",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50451",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50451; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50451/pg50451.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50451/pg50451.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50451/pg50451.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50451/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Carpentry",
+        "Manual training",
+        "Category: Children & Young Adult Reading",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "A handbook of library appliances\r\nThe technical equipment of libraries: fittings, furniture, charging systems, forms, recipes, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68130",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #68130; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68130/pg68130.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68130/pg68130.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68130/pg68130.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/68130/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Library fittings and supplies",
+        "Category: How To ...",
+        "Z"
+      ]
+    },
+    {
+      "title": "Advanced Toy Making for Schools",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36815",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36815; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36815/pg36815.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36815/pg36815.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36815/pg36815.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36815/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Toys",
+        "Woodwork (Manual training)",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TS"
+      ]
+    },
+    {
+      "title": "An Universal Dictionary of the Marine\r\nOr, a Copious Explanation of the Technical Terms and Phrases Employed in the Construction, Equipment, Furniture, Machinery, Movements, and Military Operations of a Ship. Illustrated With Variety of Original Designs of Shipping, in Different Situations; Together With Separate Views of Their Masts, Sails, Yards, and Rigging. to Which Is Annexed, a Translation of the French Sea-terms and Phrases, Collected from the Works of Mess. Du Hamel, Aubin, Saverien, &c.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57705",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57705; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57705/pg57705.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57705/pg57705.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57705/pg57705.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/57705/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "French language -- Dictionaries -- English",
+        "Naval art and science -- Dictionaries -- Early works to 1800",
+        "Shipbuilding -- Dictionaries -- Early works to 1800",
+        "Naval art and science -- Dictionaries -- French",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "V"
+      ]
+    },
+    {
+      "title": "Bird Houses Boys Can Build",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25990",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #25990; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25990/pg25990.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25990/pg25990.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25990/pg25990.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/25990/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Birdhouses",
+        "Animals-Wild-Birds",
+        "Technology",
+        "Woodwork",
+        "Category: Children & Young Adult Reading",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "Cabinet Portrait Gallery of British Worthies. Volume I",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35544",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #35544; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35544/pg35544.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35544/pg35544.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35544/pg35544.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/35544/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Great Britain -- Biography",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Medieval/Middle Ages",
+        "Category: History - Royalty",
+        "CT"
+      ]
+    },
+    {
+      "title": "Catalogue of a collection of early drawings and pictures of London: With some contemporary furniture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68989",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #68989; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68989/pg68989.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68989/pg68989.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68989/pg68989.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/68989/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Art -- Exhibitions",
+        "London (England) -- Pictorial works -- Catalogs",
+        "Category: History - British",
+        "Category: Art",
+        "NC"
+      ]
+    },
+    {
+      "title": "Chats on Old Furniture: A Practical Guide for Collectors",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34877",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34877; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34877/pg34877.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34877/pg34877.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34877/pg34877.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34877/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Collectors and collecting",
+        "Furniture -- History",
+        "Category: History - British",
+        "Category: History - European",
+        "Category: Art",
+        "Category: How To ...",
+        "NK"
+      ]
+    },
+    {
+      "title": "Colonial Homes and Their Furnishings",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34897",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34897; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34897/pg34897.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34897/pg34897.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34897/pg34897.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34897/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Architecture, Colonial",
+        "Furniture -- United States",
+        "Category: History - American",
+        "Category: Architecture",
+        "Category: Art",
+        "NA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1660 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4125",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4125; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4125/pg4125.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4125/pg4125.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4125/pg4125.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4125/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1661 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4131",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4131; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4131/pg4131.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4131/pg4131.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4131/pg4131.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4131/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1662 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4138",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4138; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4138/pg4138.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4138/pg4138.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4138/pg4138.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4138/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1663 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4145",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4145; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4145/pg4145.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4145/pg4145.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4145/pg4145.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4145/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1664 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4153",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4153; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4153/pg4153.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4153/pg4153.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4153/pg4153.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4153/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1665 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4162",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4162; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4162/pg4162.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4162/pg4162.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4162/pg4162.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4162/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1666 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4171",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4171; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4171/pg4171.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4171/pg4171.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4171/pg4171.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4171/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1667 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4184",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4184; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4184/pg4184.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4184/pg4184.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4184/pg4184.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4184/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1668 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4195",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4195; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4195/pg4195.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4195/pg4195.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4195/pg4195.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4195/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Complete 1669 N.S.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4199",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4199; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4199/pg4199.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4199/pg4199.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4199/pg4199.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4199/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 01: Preface and Life",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4117",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4117; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4117/pg4117.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4117/pg4117.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4117/pg4117.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4117/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 02: January 1659-1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4118",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4118; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4118/pg4118.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4118/pg4118.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4118/pg4118.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4118/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 03: February 1659-1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4119",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4119; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4119/pg4119.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4119/pg4119.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4119/pg4119.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4119/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 04: March/April 1659-1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4120",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4120; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4120/pg4120.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4120/pg4120.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4120/pg4120.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4120/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 05: May 1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4121",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4121; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4121/pg4121.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4121/pg4121.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4121/pg4121.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4121/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 06: June/July 1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4122",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4122; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4122/pg4122.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4122/pg4122.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4122/pg4122.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4122/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 07: August/September 1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4123",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4123; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4123/pg4123.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4123/pg4123.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4123/pg4123.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4123/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Diary of Samuel Pepys — Volume 08: October/November/December 1660",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4124",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4124; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4124/pg4124.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4124/pg4124.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4124/pg4124.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4124/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pepys, Samuel, 1633-1703 -- Diaries",
+        "Cabinet officers -- Great Britain -- Diaries",
+        "Diarists -- Great Britain -- Diaries",
+        "Great Britain -- Social life and customs -- 17th century -- Sources",
+        "Great Britain -- History -- Charles II, 1660-1685 -- Sources",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "DA"
+      ]
+    },
+    {
+      "title": "Mission Furniture: How to Make It, Part 3",
+      "author": "Windsor, H. H. (Henry Haven), 1859-1924",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23666",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23666); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23666/pg23666.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23666/pg23666.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23666/pg23666.cover.small.jpg"
+      ],
+      "subject": "Furniture making -- Amateurs' manuals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Furniture making -- Amateurs' manuals",
+        "Furniture, Mission -- Design and construction",
+        "Woodwork",
+        "Crafts",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Mission Furniture: How to Make It, Part 1",
+      "author": "Windsor, H. H. (Henry Haven), 1859-1924",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23770",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23770); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23770/pg23770.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23770/pg23770.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23770/pg23770.cover.small.jpg"
+      ],
+      "subject": "Furniture making -- Amateurs' manuals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Furniture making -- Amateurs' manuals",
+        "Furniture, Mission -- Design and construction",
+        "Technology",
+        "Woodwork",
+        "Crafts",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Mission Furniture: How to Make It, Part 2",
+      "author": "Windsor, H. H. (Henry Haven), 1859-1924",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23991",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 23991); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23991/pg23991.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23991/pg23991.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23991/pg23991.cover.small.jpg"
+      ],
+      "subject": "Furniture making -- Amateurs' manuals",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Furniture making -- Amateurs' manuals",
+        "Furniture, Mission -- Design and construction",
+        "Technology",
+        "Woodwork",
+        "Crafts",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "They Call Me Carpenter: A Tale of the Second Coming",
+      "author": "Sinclair, Upton, 1878-1968",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/5774",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 5774); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/5774/pg5774.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/5774/pg5774.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/5774/pg5774.cover.small.jpg"
+      ],
+      "subject": "Jesus Christ -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Jesus Christ -- Fiction",
+        "Hollywood (Los Angeles, Calif.) -- Fiction",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "The Carpenter's Daughter",
+      "author": "Warner, Susan, 1819-1885; Warner, Anna Bartlett, 1824-1915; Evans, Edmund, 1826-1905 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22061",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 22061); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/22061/pg22061.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/22061/pg22061.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/22061/pg22061.cover.small.jpg"
+      ],
+      "subject": "Christian life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Christian life -- Juvenile fiction",
+        "Children -- Death -- Juvenile fiction",
+        "Daughters -- Juvenile fiction",
+        "Poverty -- Juvenile fiction",
+        "Children of alcoholics -- Juvenile fiction",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Silver Cross; Or, The Carpenter of Nazareth",
+      "author": "Sue, Eugène, 1804-1857; De Leon, Daniel, 1852-1914 [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32743",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 32743); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/32743/pg32743.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/32743/pg32743.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/32743/pg32743.cover.small.jpg"
+      ],
+      "subject": "Jesus Christ -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Jesus Christ -- Fiction",
+        "Christian fiction",
+        "Category: Historical Novels",
+        "PQ"
+      ]
+    },
+    {
+      "title": "The Cabinetmaker in Eighteenth-Century Williamsburg Giving Attention to the City's Chief Craftsmen in the Furniture Way; And to Their Tools & Methods of Working",
+      "author": "Heuvel, Johannes; Brown, Mills [Contributor]; Ford, Thomas K. [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57211",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57211); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57211/pg57211.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57211/pg57211.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57211/pg57211.cover.small.jpg"
+      ],
+      "subject": "Furniture, Colonial -- Virginia -- Williamsburg",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Furniture, Colonial -- Virginia -- Williamsburg",
+        "Furniture workers -- Virginia -- Williamsburg",
+        "Furniture making",
+        "Category: History - American",
+        "Category: Art",
+        "NK"
+      ]
+    },
+    {
+      "title": "Hand made furniture and how to make it",
+      "author": "Glidden, Albert G.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76260",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 76260); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76260/pg76260.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76260/pg76260.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76260/pg76260.cover.small.jpg"
+      ],
+      "subject": "Furniture making",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Furniture making",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TT"
+      ]
+    },
+    {
+      "title": "The Art of Paper-Making A Practical Handbook of the Manufacture of Paper from Rags, Esparto, Straw, and Other Fibrous Materials, Including the Manufacture of Pulp from Wood Fibre",
+      "author": "Watt, Alexander",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55757",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55757); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55757/pg55757.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55757/pg55757.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55757/pg55757.cover.small.jpg"
+      ],
+      "subject": "Papermaking",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Papermaking",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TS"
+      ]
+    },
+    {
+      "title": "The Young Carpenters of Freiberg A Tale of the Thirty Years' War",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/19097",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 19097); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/19097/pg19097.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/19097/pg19097.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/19097/pg19097.cover.small.jpg"
+      ],
+      "subject": "Thirty Years' War, 1618-1648 -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Thirty Years' War, 1618-1648 -- Fiction",
+        "Category: Historical Novels",
+        "PT",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Ethel Morton at Rose House",
+      "author": "Smith, Mabell S. C. (Mabell Shippie Clarke), 1864-1942",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15550",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 15550); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/15550/pg15550.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/15550/pg15550.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/15550/pg15550.cover.small.jpg"
+      ],
+      "subject": "Family -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Family -- Juvenile fiction",
+        "Cousins -- Juvenile fiction",
+        "Amusements -- Juvenile fiction",
+        "Betrothal -- Juvenile fiction",
+        "Furniture making -- Juvenile fiction",
+        "New Jersey -- Social life and customs -- Juvenile fiction",
+        "Children's Book Series",
+        "Category: Children & Young Adult Reading",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Ethel Morton at Sweetbrier Lodge",
+      "author": "Smith, Mabell S. C. (Mabell Shippie Clarke), 1864-1942",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35364",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 35364); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35364/pg35364.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35364/pg35364.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35364/pg35364.cover.small.jpg"
+      ],
+      "subject": "Farm life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Farm life -- Juvenile fiction",
+        "Families -- Juvenile fiction",
+        "Furniture making -- Juvenile fiction",
+        "Gardening -- Juvenile fiction",
+        "Concrete -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Novels",
+        "PZ"
+      ]
+    }
+  ],
+  "integrationNotes": "All 10 channel IDs live-verified via YouTube fetch (2026-07-21). Key corrections from CSV: (1) @jonpeters → @JonPetersArtHome; (2) @africasyoungentrepreneurs → @africasy0ungentrepreneurs (ZERO not letter O — critical); (3) @frankhowarth → @frankmakes; (4) @aprildawilkerson → @AprilWilkerson; (5) @thewoodwhisperer → @woodwhisperer; (6) @hudumaglobal replaced with Make Something (no YouTube channel at that handle); (7) @nigeriancarpentertv replaced with Jay Bates (no YouTube channel found). Blog URLs carried from CSV — run curl -I on each /feed/ before deploying. Book URLs: f5fp.com and bdebooks.com replaced with legitimate alternatives. archive.org links use Open Library controlled digital lending.\n\nBooks audit (2026-07-30): 8 of 10 URLs fixed in this pass (skill_06). 'Markup & Profit: A Contractor's Guide': https://markupandprofit.com/resources... → https://www.markupandprofit.com/blog/ | 'The E-Myth Revisited': https://books.google.com/books?id=SHi_fU0AlO0C... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber | 'Profit First': https://www.mikemichalowicz.com/profit-first-book... → https://archive.org/details/profitfirst0000mich | 'The $100 Startup': https://archive.org/details/the-100-startup... → https://www.100startup.com/ | 'Good to Great': https://archive.org/details/good-to-great... → https://archive.org/details/goodtogreatwhyso0000coll | 'The Personal MBA': https://archive.org/details/personal-mba... → https://archive.org/details/personalmbaworld0000kauf | 'Rework': https://archive.org/details/rework... → https://openlibrary.org/works/OL15168112W/Rework | 'Small Business Management': https://openstax.org/details/books/small-business-management... → https://openstax.org/details/books/principles-management",
+  "actionRequired": [
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Review the 50 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ],
+  "notes": "2026-08-23: Added 50 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 12 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
+}

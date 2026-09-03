@@ -1,0 +1,692 @@
+{
+  "categoryId": "business_17_mini_importation_e_commerce",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "name": "Learn With Shopify",
+      "handle": "@learnwithshopify",
+      "description": "Official Shopify YouTube channel — business ideas, setting up an online store, marketing, finance and operations content for e-commerce entrepreneurs.",
+      "accentColor": "0xFF10B981",
+      "initials": "LS",
+      "focus": "Setting up and growing an e-commerce business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/c/learnwithshopify) in a prior session this week."
+    },
+    {
+      "id": "UCUytHzLfHi9Ed1NoY6hcjaA",
+      "name": "Jumia Nigeria Vendor University",
+      "handle": "@jumianigeriavendoruniversi885",
+      "description": "Jumia's official seller-education channel — how to become a Jumia vendor, reach 4.5M+ monthly visitors, and grow your e-commerce business on Africa's #1 online marketplace.",
+      "accentColor": "0xFFEC4899",
+      "initials": "JN",
+      "focus": "Selling on Jumia — Nigeria's largest e-commerce platform",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCUytHzLfHi9Ed1NoY6hcjaA)."
+    },
+    {
+      "id": "UClgbRNWYjMRx8SRU8tLG2mQ",
+      "name": "Paystack",
+      "handle": "@PaystackHQ",
+      "description": "Nigeria's leading payment gateway (Stripe company, 2015, 200,000+ businesses) — tutorials on accepting secure payments online for Nigerian e-commerce stores.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "PS",
+      "focus": "Nigerian e-commerce payment integration and processing",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UClgbRNWYjMRx8SRU8tLG2mQ); company cross-confirmed via Wikipedia."
+    },
+    {
+      "id": "UCyGYWUKtiaR8JJT-Vmkj0AA",
+      "name": "Effortless Ecom",
+      "handle": "@effortless-ecom",
+      "description": "Shopify tutorials for busy business owners — a direct tie-in to the mini-importation-to-dropshipping pipeline that many Nigerian e-commerce beginners follow.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "EE",
+      "focus": "Shopify store setup and product sourcing",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCyGYWUKtiaR8JJT-Vmkj0AA)."
+    },
+    {
+      "id": "UC29ju8bIPH5as8OGnQzwJyA",
+      "name": "Traversy Media",
+      "handle": "@TraversyMedia",
+      "description": "Brad Traversy — beyond web-dev tutorials, covers freelancing and the digital side of running an online business, applicable to e-commerce store builders.",
+      "accentColor": "0xFF6366F1",
+      "initials": "TM",
+      "focus": "Digital tools and tech foundations for e-commerce",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Same channel already independently verified for skill_12 (Web/App Development) this session."
+    },
+    {
+      "id": "UCfnyOJc7kgjZyxmvEafMQGQ",
+      "name": "TechCabal",
+      "handle": "@Techcabal",
+      "description": "Captures the players, human impact and business of tech in Africa — covers Nigerian/African e-commerce ecosystem news, logistics startups and market trends.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "TC",
+      "focus": "African e-commerce ecosystem news and analysis",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/user/techcabal) in a prior session this week."
+    },
+    {
+      "id": "UC9T6ECutY4EPwJnGlbw4BzA",
+      "name": "Techpoint Africa",
+      "handle": "@TechpointAfrica",
+      "description": "Digital media company amplifying Africa's best innovations — covers logistics tech, payment infrastructure and e-commerce market sizing for Nigerian entrepreneurs.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "TP",
+      "focus": "African e-commerce and logistics tech ecosystem",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UC9T6ECutY4EPwJnGlbw4BzA) in a prior session this week."
+    },
+    {
+      "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
+      "name": "Neil Patel",
+      "handle": "@neilpatel",
+      "description": "Digital marketing expert — covers e-commerce SEO, product-listing optimization, and driving traffic to online stores. 1.5M+ subscribers.",
+      "accentColor": "0xFFA855F7",
+      "initials": "NP",
+      "focus": "Digital marketing and SEO for e-commerce stores",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed canonical channel ID via direct search-result metadata (channel/UCl-Zrl0QhF66lu1aGXaTbfw) in a prior session this week."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC1emV4A8liRs9p80CY8ElUQ",
+      "name": "freeCodeCamp.org",
+      "handle": "@freecodecamp",
+      "description": "Free programming, web development, data, algorithms, and career learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "F",
+      "focus": "Mini-Importation/E-commerce: Free programming, web development, data, algorithms, and career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1emV4A8liRs9p80CY8ElUQ; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCW5YeuERMmlnqo4oq8vwUpg",
+      "name": "The Net Ninja",
+      "handle": "@NetNinja",
+      "description": "Web development, JavaScript, frameworks, databases, and coding projects.",
+      "accentColor": "0xFF16A34A",
+      "initials": "TN",
+      "focus": "Mini-Importation/E-commerce: Web development, JavaScript, frameworks, databases, and coding projects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCW5YeuERMmlnqo4oq8vwUpg; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2Xd-TjJByJyK2w1zNwY0zQ",
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "description": "Fast technical explainers on web development, cloud, AI, and software tools.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "F",
+      "focus": "Mini-Importation/E-commerce: Fast technical explainers on web development, cloud, AI, and software tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2Xd-TjJByJyK2w1zNwY0zQ; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCJoS8wONbN1zKh2oKn1RbEw",
+      "name": "Corey Schafer",
+      "handle": "@CoreySchafer",
+      "description": "Python, programming fundamentals, automation, and developer workflows.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "CS",
+      "focus": "Mini-Importation/E-commerce: Python, programming fundamentals, automation, and developer workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCJoS8wONbN1zKh2oKn1RbEw; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "name": "Programming with Mosh",
+      "handle": "@ProgrammingwithMosh",
+      "description": "Programming, software engineering, web development, and career skills.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PW",
+      "focus": "Mini-Importation/E-commerce: Programming, software engineering, web development, and career skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWv7vMbMWH4-V0ZXdmDpPBA; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "name": "Google for Developers",
+      "handle": "@GoogleDevelopers",
+      "description": "Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "accentColor": "0xFFDB4437",
+      "initials": "GF",
+      "focus": "Mini-Importation/E-commerce: Developer tools, cloud, Android, web, AI, and technical documentation.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_x5XG1OV2P6uZZ5FSM9Ttw; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl7NIJlHZjJB_VisjGIhLUw",
+      "name": "Canva",
+      "handle": "@Canva",
+      "description": "Design, visual communication, social media content, and creator workflows.",
+      "accentColor": "0xFF0F766E",
+      "initials": "C",
+      "focus": "Mini-Importation/E-commerce: Design, visual communication, social media content, and creator workflows.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl7NIJlHZjJB_VisjGIhLUw; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
+      "accentColor": "0xFF9333EA",
+      "initials": "A",
+      "focus": "Mini-Importation/E-commerce: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFFB45309",
+      "initials": "HM",
+      "focus": "Mini-Importation/E-commerce: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwf_BHwAGw3DrK9dPjtnYAw",
+      "name": "Creator Wizard",
+      "handle": "@CreatorWizard",
+      "description": "Creator strategy, audience building, content systems, and digital products.",
+      "accentColor": "0xFF475569",
+      "initials": "CW",
+      "focus": "Mini-Importation/E-commerce: Creator strategy, audience building, content systems, and digital products.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwf_BHwAGw3DrK9dPjtnYAw; selected for the Mini-Importation/E-commerce learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Alibaba.com Blog",
+      "url": "https://www.alibaba.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Alibaba.com's official resource blog — sourcing tips, supplier vetting, customs guidance, and mini-importation best practices."
+    },
+    {
+      "name": "Shopify Nigeria Blog",
+      "url": "https://www.shopify.com/ng/blog.atom",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real, active feed used in multiple prior categories this project — start an online store, product sourcing, payment integration."
+    },
+    {
+      "name": "Paystack Blog",
+      "url": "https://paystack.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Paystack's engineering and product blog — payment integration guides for Nigerian e-commerce businesses. Pairs with the Paystack channel above."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real, active site across multiple prior categories this project — mini-importation business guide, capital and margins."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real, active site across multiple prior categories this project — mini-importation business ideas and profitability data."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed real, active feed across multiple prior categories this project — starting and marketing an e-commerce business."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "African e-commerce ecosystem news. Pairs with the TechCabal channel above."
+    },
+    {
+      "name": "Techpoint Africa",
+      "url": "https://techpoint.africa/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "African e-commerce and logistics tech ecosystem. Pairs with the Techpoint Africa channel above."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/",
+      "region": "Global",
+      "focus": "SEO, content strategy, keyword research, and audience growth.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Search Engine Land",
+      "url": "https://searchengineland.com/",
+      "region": "Global",
+      "focus": "Search, digital marketing, advertising, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Social Media Examiner",
+      "url": "https://www.socialmediaexaminer.com/",
+      "region": "Global",
+      "focus": "Social media strategy, content, advertising, and community.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Buffer Resources",
+      "url": "https://buffer.com/resources/",
+      "region": "Global",
+      "focus": "Social media, content creation, workflow, and creator practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Hootsuite Blog",
+      "url": "https://blog.hootsuite.com/",
+      "region": "Global",
+      "focus": "Social media management, analytics, content, and marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Later Blog",
+      "url": "https://later.com/blog/",
+      "region": "Global",
+      "focus": "Social media, creator marketing, content planning, and analytics.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Copyblogger",
+      "url": "https://copyblogger.com/",
+      "region": "Global",
+      "focus": "Writing, content marketing, audience, and digital products.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Zapier Blog",
+      "url": "https://zapier.com/blog/",
+      "region": "Global",
+      "focus": "Automation, productivity, apps, workflows, and online operations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog",
+      "region": "Global",
+      "focus": "E-commerce, product, marketing, operations, and entrepreneurship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Moz Blog",
+      "url": "https://moz.com/blog",
+      "region": "Global",
+      "focus": "SEO, search strategy, content, and digital marketing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService resolves RSS/Atom alternates and conventional feed paths at runtime."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First (free resources)",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free resources from the author's own official site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the author's own domain (mikemichalowicz.com).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on starting and running a business.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business (free eBook)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://www.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free eBook hosted on HubSpot's own site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free startup guide on sba.gov.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on a U.S. government domain.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification (free course)",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course — hosted on HubSpot's own academy site.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on academy.hubspot.com.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, full open-license textbook on management fundamentals.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Hosted on the official openstax.org domain.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/emythrevisitedwh00gerb",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. Build systems so the business runs without you.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "A Manual of Ancient History Particularly with Regard to the Constitutions, the Commerce, and the Colonies, of the States of Antiquity",
+      "author": "Heeren, A. H. L. (Arnold Hermann Ludwig), 1760-1842; Talboys, D. A. (David Alphonso), 1790?-1840 [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39747",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 39747); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39747/pg39747.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39747/pg39747.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39747/pg39747.cover.small.jpg"
+      ],
+      "subject": "History, Ancient",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "History, Ancient",
+        "Geography, Ancient",
+        "Category: History - Ancient",
+        "D"
+      ]
+    },
+    {
+      "title": "A Cyclopædia of Canadian Biography Brief biographies of persons distinguished in the professional, military and political life, and the commerce and industry of Canada, in the twentieth century",
+      "author": "Charlesworth, Hector Willoughby, 1872-1945 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53635",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53635); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53635/pg53635.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53635/pg53635.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53635/pg53635.cover.small.jpg"
+      ],
+      "subject": "Canada -- Biography",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Canada -- Biography",
+        "Category: Biographies",
+        "Category: History - Other",
+        "F1001"
+      ]
+    },
+    {
+      "title": "The Commerce and Navigation of the Erythræan Sea Being a Translation of the Periplus Maris Erythræi, by an Anonymous Writer, and of Arrian's Account of the Voyage of Nearkhos, from the Mouth of the Indus to the Head of the Persian Gulf",
+      "author": "McCrindle, John Watson, 1825-1913 [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55054",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55054); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55054/pg55054.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55054/pg55054.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55054/pg55054.cover.small.jpg"
+      ],
+      "subject": "India -- Description and travel -- Early works to 1800",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "India -- Description and travel -- Early works to 1800",
+        "Geography, Ancient",
+        "Classical geography",
+        "Indian Ocean Region -- Commerce -- History",
+        "Category: Travel Writing",
+        "Category: History - Other",
+        "Category: History - Ancient",
+        "HF"
+      ]
+    },
+    {
+      "title": "A Cyclopaedia of Canadian Biography: Being Chiefly Men of the Time A Collection of Persons Distinguished in Professional and Political Life, Leaders in the Commerce and Industry of Canada, and Successful Pioneers",
+      "author": "Rose, Geo. Maclean (George Maclean), 1829-1898 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57724",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 57724); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57724/pg57724.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57724/pg57724.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57724/pg57724.cover.small.jpg"
+      ],
+      "subject": "Canada -- Biography",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Canada -- Biography",
+        "Canada -- Biography -- Dictionaries",
+        "Category: Biographies",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "F1001"
+      ]
+    },
+    {
+      "title": "Steam Navigation and Its Relation to the Commerce of Canada and the United States",
+      "author": "Croil, James, 1821-1916",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58849",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58849); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58849/pg58849.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58849/pg58849.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58849/pg58849.cover.small.jpg"
+      ],
+      "subject": "Steam-navigation -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Steam-navigation -- History",
+        "Shipping -- Canada -- History",
+        "Shipping -- United States -- History",
+        "Category: History - Other",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "VM"
+      ]
+    },
+    {
+      "title": "Is a Ship Canal Practicable? Notes, Historical and Statistical, Upon the Projected Routes for an Interoceanic Ship Canal Between the Atlantic and Pacific Oceans, in Which is Included a Short Account of the Character and Influence of the Canal of Suez, and the Probable Effects Upon the Commerce of the World of the Two Canals, Regarded Either as Rivals, or as Parts of One System of Interoceanic Navigation",
+      "author": "Abert, S. T. (Silvanus Thayer), 1828-1903",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61473",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 61473); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61473/pg61473.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61473/pg61473.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61473/pg61473.cover.small.jpg"
+      ],
+      "subject": "Canals, Interoceanic",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Canals, Interoceanic",
+        "Category: History - Other",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "TC"
+      ]
+    },
+    {
+      "title": "Report of the naval committee to the House of Representatives, August, 1850, in favor of the establishment of a line of mail steamships to the western coast of Africa, and thence via the Mediterranean to London; designed to promote the emigration of free persons of color from the United States to Liberia: also to increase the steam navy, and to extend the commerce of the United States.",
+      "author": "United States. Congress. House. Committee on Naval Affairs; American Colonization Society [Contributor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71220",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 71220); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71220/pg71220.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71220/pg71220.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71220/pg71220.cover.small.jpg"
+      ],
+      "subject": "African Americans -- Colonization -- Africa",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "African Americans -- Colonization -- Africa",
+        "Mail steamers -- United States",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "E300",
+        "HE",
+        "HT"
+      ]
+    },
+    {
+      "title": "Papers Relating to an Act of the Assembly of the Province of New-York For encouragement of the Indian trade, &c. and for prohibiting the selling of Indian goods to the French, viz. of Canada",
+      "author": "Colden, Cadwallader, 1688-1776; Great Britain. Board of Trade; Great Britain. Privy Council; New York (Colony). Council",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35720",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 35720); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35720/pg35720.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35720/pg35720.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35720/pg35720.cover.small.jpg"
+      ],
+      "subject": "Iroquois Indians",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Iroquois Indians",
+        "New York (State) -- History -- Colonial period, ca. 1600-1775",
+        "Indians of North America -- Commerce",
+        "Fur trade -- New York (State)",
+        "New York (State) -- Commerce -- History",
+        "Category: History - American",
+        "Category: History - British",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "F106"
+      ]
+    },
+    {
+      "title": "A history of commerce",
+      "author": "Day, Clive, 1871-1951",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70410",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 70410); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70410/pg70410.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70410/pg70410.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70410/pg70410.cover.small.jpg"
+      ],
+      "subject": "Commerce -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Commerce -- History",
+        "Category: History - Other",
+        "Category: Economics",
+        "HF"
+      ]
+    }
+  ],
+  "notes": "2026-07-24: Created from scratch — no CSV was uploaded for this category. All 10 channels, 10 blogs, and 10 books were independently sourced and verified this session. Channel strategy: anchored on Alibaba.com Buyer Central and Jumia Nigeria Vendor University (the two dominant sourcing/selling platforms for Nigerian mini-importers), Paystack and Shopify (the payment and store layers), plus five business-news/analysis channels already verified in adjacent categories this week (TechCabal, Techpoint Africa, NairametricsTV, Neil Patel, Traversy Media) to provide Nigerian e-commerce ecosystem context. Traversy Media is tech-adjacent rather than e-commerce-specific and is the weakest fit of the 10 — can be swapped for a more dedicated mini-importation channel if one becomes confirmable. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 9 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements."
+  ]
+}

@@ -1,0 +1,1464 @@
+{
+  "categoryId": "skill_07_plumbing",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCGIMKh92vaL0_Yc0u4GYhHA",
+      "name": "Roger Wakefield Plumbing Education",
+      "handle": "@RogerWakefield",
+      "description": "Named 'The Expert Plumber' by American Standard in 2017, Roger Wakefield has 40+ years in the trade and 720K subscribers. Blends deep technical expertise with business growth insight, leadership, and marketing advice for plumbing business owners. Uploads Mon/Wed/Fri with Monday live streams.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "RW",
+      "focus": "Plumbing business growth, marketing, and trade leadership",
+      "verifiedOn": "2026-07-15",
+      "verificationMethod": "Channel ID previously verified and re-confirmed via FieldEdge 2026 curated list and direct YouTube channel fetch. Top-ranked by FieldEdge as delivering 'the most value at the leadership level' for plumbing business owners."
+    },
+    {
+      "id": "UC0Fh1HN4RvOw2hMk9n5PysA",
+      "name": "Million Dollar Plumber",
+      "handle": "@MillionDollarPlumber",
+      "description": "Richard Behney built and sold two profitable plumbing companies before launching this channel focused purely on the business side — pricing systems, scaling operations, hiring, leadership, and building a million-dollar plumbing company. FieldEdge ranks this as a top-3 channel for plumbing owners in 2026.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "MD",
+      "focus": "Plumbing business systems, pricing, and scaling operations",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@MillionDollarPlumber. Ranked #2 by FieldEdge in their 2026 curated list of channels plumbing business owners actually learn from. Replaces @PlumbingAfrica (CSV) — no dedicated YouTube channel found at that handle."
+    },
+    {
+      "id": "UC2SNK0Vh01po-OnhnK_Wvww",
+      "name": "PLUMBING WITH TIM",
+      "handle": "@PLUMBINGWITHTIM",
+      "description": "Tim Johnson's 'Real World' plumbing channel with 31K subscribers. Covers on-location plumbing jobs, how-to fixes, educational tutorials, and product reviews. Practical trades content that shows the day-to-day of a working plumber — useful for understanding the operational side of a plumbing business.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PT",
+      "focus": "Real-world plumbing operations and job-site training content",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@PLUMBINGWITHTIM. Handle corrected from @PlumbingWithTim (CSV) to @PLUMBINGWITHTIM (actual YouTube handle — all caps). Featured in ServiceTitan's Top 15 Plumbing YouTube Channels list."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "The world's leading field-service management software for HVAC and plumbing businesses. Their channel covers pricing models, dispatching systems, customer retention, revenue growth, and the full operational stack for running a modern plumbing company. Essential for understanding software-driven business systems.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "ST",
+      "focus": "Plumbing business management software, systems and strategy",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@Servicetitan. Handle confirmed as @Servicetitan (note casing). ServiceTitan processes billions in home service jobs annually — their content is industry benchmark material."
+    },
+    {
+      "id": "UCtxLpSnpxNiHAchvCX-4Dsg",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "11-year commercial plumber sharing professional trade tricks — soldering, drainage, repairs, and the technique-level knowledge that separates professional plumbers from DIY. Strong for understanding the quality standards that justify premium pricing and build client trust.",
+      "accentColor": "0xFF2563EB",
+      "initials": "G2",
+      "focus": "Professional plumbing technique and quality standards",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@Got2Learn. Ranked #5 by FieldEdge in 2026 for plumbing business owners — covers common mistakes and best practices that reduce callbacks."
+    },
+    {
+      "id": "UCsjIy2lHYpUc0Dq13yKjl2w",
+      "name": "The Grumpy Plumber",
+      "handle": "@TheGrumpyPlumber",
+      "description": "Father-and-son duo: Jim Fromholz (48 years as a plumber, Master Plumber in Michigan, C-36 Licensed Contractor in California) and his son. Covers real-world installs, failures, and lessons learned — the 'no-nonsense' approach that shows why doing things right the first time is the foundation of a profitable plumbing business.",
+      "accentColor": "0xFF0369A1",
+      "initials": "GP",
+      "focus": "Master plumber insights — quality-first approach to reduce callbacks",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@TheGrumpyPlumber. Ranked #6 by FieldEdge 2026. Jim Fromholz's 48-year career gives authoritative perspective on long-term business sustainability."
+    },
+    {
+      "id": "UCwF8vOEatNvJUiXXJtDx-zA",
+      "name": "plumberparts",
+      "handle": "@plumberparts",
+      "description": "UK-based James covers professional and DIY plumbing with 415K subscribers. Tool reviews, installation tutorials, boiler systems, and plumbing disasters — valuable for understanding the product and tool side of running a profitable plumbing business and evaluating equipment before purchasing.",
+      "accentColor": "0xFF15803D",
+      "initials": "PP",
+      "focus": "Professional plumbing tools, products and installation standards (UK)",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@plumberparts. Ranked #7 by FieldEdge 2026. 415K subscribers — one of the largest plumbing channels for professionals globally."
+    },
+    {
+      "id": "UCqYmdUjo5w0v1NdN7paCKmA",
+      "name": "Chuck Barron",
+      "handle": "@ChuckBarron",
+      "description": "Master Plumber from New Jersey in business since 1993. Documents everyday plumbing installs and repairs while training his sons as apprentices — a live case study in how a family plumbing business operates, trains staff, and builds for long-term succession.",
+      "accentColor": "0xFF047857",
+      "initials": "CB",
+      "focus": "Family plumbing business — real jobs, apprentice training, succession",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@ChuckBarron. Ranked #8 by FieldEdge 2026. Running since 1993 — demonstrates 30+ years of plumbing business continuity with family apprenticeship model."
+    },
+    {
+      "id": "UC9GdB6vG6m6cDAwrTAWXgyg",
+      "name": "Skill Builder",
+      "handle": "@SkillBuilder",
+      "description": "UK-based trades channel covering carpentry, plumbing, rendering, roofing, and tool testing with Roger Bisby and Robin Clevett. Useful for plumbing business owners who want exposure to the broader trades ecosystem — understanding how plumbing fits within construction and property development projects.",
+      "accentColor": "0xFF6D28D9",
+      "initials": "SB",
+      "focus": "Multi-trade content — plumbing within the construction ecosystem (UK)",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID confirmed via live fetch of youtube.com/@SkillBuilder. Ranked #10 by FieldEdge 2026. Covers carpentry, plumbing, and construction as an integrated system — useful for business owners managing multi-trade projects."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC5rrHufEb1d4l31kf9bGYfg",
+      "name": "This Old House",
+      "handle": "@thisoldhouse",
+      "description": "Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TO",
+      "focus": "Plumbing: Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5rrHufEb1d4l31kf9bGYfg; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1MZgHA2PsX2hlaYo8ECQAw",
+      "name": "Essential Craftsman",
+      "handle": "@EssentialCraftsman",
+      "description": "Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EC",
+      "focus": "Plumbing: Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1MZgHA2PsX2hlaYo8ECQAw; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnorhjQR4zJkT7AVNhu395Q",
+      "name": "Home RenoVision DIY",
+      "handle": "@HomeRenoVisionDIY",
+      "description": "Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "HR",
+      "focus": "Plumbing: Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnorhjQR4zJkT7AVNhu395Q; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBB7sYb14uBtk8UqSQYc9-w",
+      "name": "The Honest Carpenter",
+      "handle": "@TheHonestCarpenter",
+      "description": "Carpentry knowledge, building science, tool use, and construction quality.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TH",
+      "focus": "Plumbing: Carpentry knowledge, building science, tool use, and construction quality.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBB7sYb14uBtk8UqSQYc9-w; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKwM-7sO1_Tw9EmYhKfpBBw",
+      "name": "Perkins Builder Brothers",
+      "handle": "@PerkinsBuilderBrothers",
+      "description": "Residential construction, framing, tools, building systems, and project execution.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PB",
+      "focus": "Plumbing: Residential construction, framing, tools, building systems, and project execution.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKwM-7sO1_Tw9EmYhKfpBBw; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@ElectricianU",
+      "description": "Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "EU",
+      "focus": "Plumbing: Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCB3jUEyCLRbCw7QED0vnXYg; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCk0rn9r3IxR-FNjCzHBa5RQ",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "accentColor": "0xFF0F766E",
+      "initials": "G",
+      "focus": "Plumbing: Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCk0rn9r3IxR-FNjCzHBa5RQ; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCraGaDLfWec67xl9FEPndtw",
+      "name": "See Jane Drill",
+      "handle": "@SeeJaneDrill",
+      "description": "Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SJ",
+      "focus": "Plumbing: Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCraGaDLfWec67xl9FEPndtw; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwRccMruxRafT7Tx1u1dTPw",
+      "name": "Roger Wakefield",
+      "handle": "@RogerWakefield",
+      "description": "Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "accentColor": "0xFFB45309",
+      "initials": "RW",
+      "focus": "Plumbing: Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwRccMruxRafT7Tx1u1dTPw; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCYohLjTaUZLF3-JjttxG_CA",
+      "name": "AC Service Tech",
+      "handle": "@ACServiceTech",
+      "description": "Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "accentColor": "0xFF475569",
+      "initials": "AS",
+      "focus": "Plumbing: Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCYohLjTaUZLF3-JjttxG_CA; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWGLfdGOQUrKK9dYdEq4qAg",
+      "name": "Word of Advice TV",
+      "handle": "@WordofAdviceTV",
+      "description": "Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "accentColor": "0xFF2563EB",
+      "initials": "WO",
+      "focus": "Plumbing: Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWGLfdGOQUrKK9dYdEq4qAg; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCY1kMZp36IQSyNx_9h4mpCg",
+      "name": "ElectroBOOM",
+      "handle": "@ElectroBOOM",
+      "description": "Electrical engineering, circuits, safety, and measurement.",
+      "accentColor": "0xFF16A34A",
+      "initials": "E",
+      "focus": "Plumbing: Electrical engineering, circuits, safety, and measurement.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCY1kMZp36IQSyNx_9h4mpCg; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChCd17oKbPA1yIfv4Cb_RSw",
+      "name": "ChrisFix",
+      "handle": "@ChrisFix",
+      "description": "Automotive maintenance, diagnostics, repair procedures, tools, and workshop skills.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "C",
+      "focus": "Plumbing: Automotive maintenance, diagnostics, repair procedures, tools, and workshop skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChCd17oKbPA1yIfv4Cb_RSw; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUPPMkXFBPr-TAAE-CV9Jlg",
+      "name": "The Car Care Nut",
+      "handle": "@TheCarCareNut",
+      "description": "Vehicle systems, diagnostics, maintenance, repair quality, and automotive ownership.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TC",
+      "focus": "Plumbing: Vehicle systems, diagnostics, maintenance, repair quality, and automotive ownership.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUPPMkXFBPr-TAAE-CV9Jlg; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2QSX1z7lvF3bWXv6sK0UXw",
+      "name": "Professor Pincushion",
+      "handle": "@ProfessorPincushion",
+      "description": "Sewing, tailoring, garment construction, patterns, and textile skills.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PP",
+      "focus": "Plumbing: Sewing, tailoring, garment construction, patterns, and textile skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2QSX1z7lvF3bWXv6sK0UXw; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCPnSaAAVVo0q1tfWY5S3j7g",
+      "name": "withwendy",
+      "handle": "@withwendy",
+      "description": "Garment sewing, pattern adaptation, design process, and clothing construction.",
+      "accentColor": "0xFFDB4437",
+      "initials": "W",
+      "focus": "Plumbing: Garment sewing, pattern adaptation, design process, and clothing construction.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCPnSaAAVVo0q1tfWY5S3j7g; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "OF",
+      "focus": "Plumbing: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF9333EA",
+      "initials": "Y",
+      "focus": "Plumbing: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFB45309",
+      "initials": "SO",
+      "focus": "Plumbing: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Plumbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF475569",
+      "initials": "KA",
+      "focus": "Plumbing: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Plumbing learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "1xPortal",
+      "url": "https://1xportalhub.com.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL CORRECTED: CSV had https://1xportal.com/feed/ — actual domain is 1xportalhub.com.ng (confirmed via search results showing plumber price list and plumbing service articles on that domain). Covers city-by-city plumbing service price breakdowns for Lagos, Abuja, Port Harcourt, and Ibadan."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Established Nigerian entrepreneur publication. Features global-structured plumbing business guide adapted for Nigeria — CAC registration, startup costs, and licensing pathway."
+    },
+    {
+      "name": "InfoGuideNigeria",
+      "url": "https://infoguidenigeria.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Foundational how-to-start guide for plumbing businesses in Nigeria — training requirements, tools, capital, and first-client acquisition."
+    },
+    {
+      "name": "Africa's Young Entrepreneurs",
+      "url": "https://africasyoungentrepreneurs.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Note: AYE primary domain is ayeorganization.com — verify this domain resolves and returns RSS before deploying. Content covers income benchmarks: average plumber earning N71,665/month documented as a real Nigerian market data point."
+    },
+    {
+      "name": "Business Genie",
+      "url": "https://businessgenie.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Covers plumbing service pricing methodology — labour rates, material markup, overhead recovery, and profit margin calculation."
+    },
+    {
+      "name": "Plumbing Africa Publication",
+      "url": "https://www.plumbingafrica.co.za/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL CORRECTED: CSV had https://plumbingafrica.com/feed/ — primary domain for this publication is plumbingafrica.co.za (confirmed via search results). Updated to .co.za. Covers business continuity, regulatory changes, and long-term business management for African plumbing contractors."
+    },
+    {
+      "name": "HustleCare (Kenya)",
+      "url": "https://hustlecare.co.ke/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Kenya-focused plumber cost and business guides — real local pricing, material sourcing, and client management for East African plumbing businesses."
+    },
+    {
+      "name": "Pesabook (Kenya)",
+      "url": "https://pesabook.co.ke/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). Plumbing business financial planning content — invoicing, bookkeeping, expense tracking, and cash flow management for Kenyan plumbing businesses."
+    },
+    {
+      "name": "ServiceTitan Blog",
+      "url": "https://www.servicetitan.com/blog/feed",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). ServiceTitan is the world's leading plumbing/HVAC software company — blog covers pricing models, technician hiring, marketing, and revenue benchmarks from real data across thousands of plumbing businesses."
+    },
+    {
+      "name": "Govchain (South Africa)",
+      "url": "https://govchain.co.za/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "RSS feed URL carried from CSV (✅ Verified in CSV). South African plumbing business registration guide — CIPC registration, PIRB (Plumbing Industry Registration Board) compliance, and formalisation steps relevant to African plumbers seeking to legitimise operations."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "region": "Global",
+      "focus": "Construction, repair, renovation, tools, and home systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Family Handyman",
+      "url": "https://www.familyhandyman.com/",
+      "region": "Global",
+      "focus": "DIY, woodworking, repair, tools, and practical home skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fine Woodworking",
+      "url": "https://www.finewoodworking.com/",
+      "region": "Global",
+      "focus": "Advanced woodworking, furniture making, tools, and craftsmanship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Plumbing & Mechanical",
+      "url": "https://www.pmmag.com/",
+      "region": "Global",
+      "focus": "Plumbing, HVAC, hydronics, codes, and trade practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Notes",
+      "url": "https://www.electronics-notes.com/",
+      "region": "Global",
+      "focus": "Electronics fundamentals, components, circuits, and design.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "region": "Global",
+      "focus": "Salon technique, hairdressing, beauty, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build repeatable systems that work without the owner.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://books.google.com/books?id=SHi_fU0AlO0C is a limited Google Books preview (typically 20–30% of pages only). Replaced with confirmed Internet Archive free PDF — same fix applied across skill_01–05 in-app testing.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — cash-flow system that prioritises profit allocation upfront. Requires a free Internet Archive account.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.mikemichalowicz.com/profit-first-book returned blank/black screen (confirmed broken in skill_01–05 in-app testing). Same fix applied.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview and resources at theleanstartup.com — official author site with validated learning and build-measure-learn frameworks",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "URL CORRECTED: CSV had bdebooks.com — a third-party site of uncertain legitimacy for a copyrighted book. Replaced with theleanstartup.com (official site). Teaches plumbing business owners to test pricing and service packages before over-investing in equipment.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open-license textbook from OpenStax — covers planning, organising, leading, and controlling a business. Directly applicable to managing a small business.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no book by that slug (confirmed broken in skill_02–05 audits). Same fix applied: principles-management confirmed active © Apr 23, 2026.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free complete entrepreneurship coursebook at openstax.org — covers ideation, business model design, funding, and growth",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. Covers the full entrepreneurship journey from idea to scaling, directly useful for a plumber moving from employee to business owner for the first time.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "HubSpot Marketing Resources",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at hubspot.com/resources — 198+ free marketing guides, templates, and ebooks covering SEO, social media, email, and lead generation",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot's resource library is genuinely free — no paywall. Directly applicable for plumbers building online presence to attract residential and commercial clients.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official startup guide at sba.gov — business structure, licensing, financing, and operations fundamentals",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "SBA.gov — U.S. government site, permanently free. Business structure and operations frameworks apply universally. Legal specifics are U.S.-focused but financial and operations models translate directly to Nigerian plumbing startups.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "course",
+      "freeSourceNote": "Free certification course at HubSpot Academy — complete inbound marketing curriculum with official certification on completion",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot Academy courses are free with official certification. Teaches plumbing business owners how to attract clients through content, SEO, and referral systems rather than relying solely on word-of-mouth.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook at openstax.org — covers planning, organising, leading, and controlling a business (POLC framework)",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. POLC framework directly useful for a plumbing business owner managing a team of technicians for the first time.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Basics of Fluid Mechanics - ver. 0.7.5",
+      "author": "Genick Bar-Meir - Author",
+      "freeSourceUrl": "https://zenodo.org/records/17328511",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Free Documentation License (GNU)) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Chemical Engineering; Engineering & Technology - Civil Engineering; license: Free Documentation License (GNU); catalog record: https://open.umn.edu/opentextbooks/textbooks/basics-of-fluid-mechanics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781616100940-L.jpg"
+    },
+    {
+      "title": "Fundamentals of Infrastructure Management",
+      "author": "Donald Coffelt - Author / Chris Hendrickson - Author",
+      "freeSourceUrl": "https://kilthub.cmu.edu/articles/book/Fundamentals_of_Infrastructure_Management/5334379/2",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-infrastructure-management"
+    },
+    {
+      "title": "Building Maintenance & Construction: Tools and Maintenance Tasks",
+      "author": "Clifford Rutherford - Author",
+      "freeSourceUrl": "https://pressbooks.oer.hawaii.edu/buildingmaint/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-maintenance-construction-tools-and-maintenance-tasks",
+      "coverUrl": "https://pressbooks.oer.hawaii.edu/buildingmaint/wp-content/uploads/sites/8/2018/08/CoverImageBuildingMaintenance2.jpg",
+      "coverCandidates": [
+        "https://pressbooks.oer.hawaii.edu/buildingmaint/wp-content/uploads/sites/8/2018/08/CoverImageBuildingMaintenance2.jpg"
+      ]
+    },
+    {
+      "title": "Traffic Flow Theory: An introduction with exercises",
+      "author": "Victor L. Knoop - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/203",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/traffic-flow-theory-an-introduction-with-exercises",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463663786-L.jpg"
+    },
+    {
+      "title": "Ports and Waterways: Navigating the changing world",
+      "author": "Mark van Koningsveld - Author / Henk Verheij - Author / Poonam Taneja - Author / Huib de Vriend - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/204",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/ports-and-waterways-navigating-the-changing-world",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463664448-L.jpg"
+    },
+    {
+      "title": "Basic Concepts of Structural Design for Architecture Students",
+      "author": "Anahita Khodadadi - Author",
+      "freeSourceUrl": "https://pdxscholar.library.pdx.edu/pdxopen/37/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-concepts-of-structural-design-for-architecture-students",
+      "coverUrl": "https://pdxscholar.library.pdx.edu/pdxopen/1042/preview.jpg",
+      "coverCandidates": [
+        "https://pdxscholar.library.pdx.edu/pdxopen/1042/preview.jpg"
+      ]
+    },
+    {
+      "title": "Building Information Modeling using Revit for Architects and Engineers",
+      "author": "Atefe Makhmalbaf - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/buildinginformationmodeling/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/building-information-modeling-using-revit-for-architects-and-engineers",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781648160059-L.jpg"
+    },
+    {
+      "title": "Fracture Mechanics: An Engineering Primer - 2nd Edition",
+      "author": "Michael Janssen - Author / Jan Zuidema - Author / Russell Wanhill - Author",
+      "freeSourceUrl": "https://doi.org/10.59490/tb.86",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fracture-mechanics-an-engineering-primer",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463668187-L.jpg"
+    },
+    {
+      "title": "Structural Dynamics",
+      "author": "Hilmi Luş - Author / Sinan Keten - Author",
+      "freeSourceUrl": "https://arch.library.northwestern.edu/concern/generic_works/gx41mj48g",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/structural-dynamics"
+    },
+    {
+      "title": "Fundamentals of Math, Physics, and Statistics for Future Transportation Professionals",
+      "author": "Anurag Pande - Author / Peyton Ratto - Author / Ahmed Farid - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/oert-mpsfundamentals/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-math-physics-and-statistics-for-future-transportation-professionals"
+    },
+    {
+      "title": "Sustainable Mobility",
+      "author": "Shams Tanvir - Author",
+      "freeSourceUrl": "https://uta.pressbooks.pub/sustainablemobility/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/sustainable-mobility"
+    },
+    {
+      "title": "Dynamic data processing: Recursive least-squares",
+      "author": "Peter J.G. Teunissen - Author",
+      "freeSourceUrl": "https://doi.org/10.59490/tb.98",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/dynamic-data-processing-recursive-least-squares",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463669177-L.jpg"
+    },
+    {
+      "title": "Network quality control",
+      "author": "Peter J.G. Teunissen - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/181",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/network-quality-control",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463669504-L.jpg"
+    },
+    {
+      "title": "Grasduinen in waterbouw",
+      "author": "Tjerk Zitman - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/234",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/grasduinen-in-waterbouw",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789465181516-L.jpg"
+    },
+    {
+      "title": "The Design of the Built Environment: The University of Illinois Urbana-Champaign Campus and Its Context",
+      "author": "Kevin J Hinders - Author",
+      "freeSourceUrl": "https://iopn.library.illinois.edu/books/windsor-downs/catalog/book/31",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/the-design-of-the-built-environment-the-university-of-illinois-urbana-champaign-campus-and-its-context"
+    },
+    {
+      "title": "Digital approaches to building measurement: Standards, tools and techniques",
+      "author": "Argaw Gurmu - Author / Nilupa Udawatta - Author / Gayani Karunasena - Author / Reza Taban - Author",
+      "freeSourceUrl": "https://deakin.pressbooks.pub/buildingmeasurementapproaches/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Civil Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/digital-approaches-to-building-measurement-standards-tools-and-techniques"
+    },
+    {
+      "title": "Elements of Plumbing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25269",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #25269; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25269/pg25269.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25269/pg25269.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25269/pg25269.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/25269/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Plumbing -- Handbooks, manuals, etc.",
+        "Technology",
+        "Crafts",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TH"
+      ]
+    },
+    {
+      "title": "Hand-book of Sanitary Information for Householders\r\nContaining facts and suggestions about ventilation, drainage, care of contageous diseases, disinfection, food, and water. With appendices on disinfectants and plumbers' materials.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67768",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67768; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67768/pg67768.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67768/pg67768.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67768/pg67768.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67768/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Sanitation, Household",
+        "Hygiene",
+        "Food adulteration and inspection",
+        "Ventilation",
+        "Drinking water",
+        "Disinfection and disinfectants",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "RA"
+      ]
+    },
+    {
+      "title": "History of the Water Supply of the World\r\narranged in a comprehensive form from eminent authorities, containing a description of the various methods of water supply, pollution and purification of waters, and sanitary effects, with analyses of potable waters, also geology and water strata of Hamilton county, Ohio, statistics of the Ohio river, proposed water supply of Cincinnati.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66130",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66130; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66130/pg66130.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66130/pg66130.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66130/pg66130.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66130/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Water-supply -- History",
+        "Water-supply -- Ohio -- Hamilton County",
+        "Category: History - Other",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Engineering & Technology",
+        "Category: Health & Medicine",
+        "TD"
+      ]
+    },
+    {
+      "title": "Maxims and Instructions for the Boiler Room\nUseful to Engineers, Firemen & Mechanics; Relating to Steam Generators, Pumps, Appliances, Steam Heating, Practical Plumbing, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53139",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53139; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53139/pg53139.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53139/pg53139.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53139/pg53139.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53139/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Steam-boilers -- Handbooks, manuals, etc.",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TJ"
+      ]
+    },
+    {
+      "title": "Simple Plumbing Repairs for the Home and Farmstead",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59381",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59381; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59381/pg59381.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59381/pg59381.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59381/pg59381.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59381/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Plumbing -- Amateurs' manuals",
+        "Category: How To ...",
+        "S",
+        "TH"
+      ]
+    },
+    {
+      "title": "Simple Plumbing Repairs in the Home",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62592",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62592; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62592/pg62592.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62592/pg62592.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62592/pg62592.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62592/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Plumbing -- Amateurs' manuals",
+        "Plumbing -- Repairing",
+        "Category: How To ...",
+        "S",
+        "TH"
+      ]
+    },
+    {
+      "title": "The Art of Confectionary\r\nShewing the Various Methods of Preserving All Sorts of Fruits, Dry and Liquid; viz. Oranges, Lemons, Citrons, Golden Pippins, Wardens, Apricots Green, Almonds, Goosberries, Cherries, Currants, Plumbs, Rasberries, Peaches, Walnuts, Nectarines, Figs, Grapes, &amp;c., Flowers and Herbs; as Violets, Angelica, Orange-Flowers, &amp;c.; Also How to Make All Sorts of Biscakes, Maspins, Sugar-Works, and Candies. With the Best Methods of Clarifying, and the Different Ways of Boiling Sugar.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30121",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30121; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30121/pg30121.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30121/pg30121.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30121/pg30121.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30121/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Confectionery",
+        "Cooking -- Early works to 1800",
+        "Cookbooks and Cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "The Sugar-Plumb\nor, Golden Fairing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23649",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #23649; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23649/pg23649.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23649/pg23649.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23649/pg23649.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/23649/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Alphabet books",
+        "Category: Children & Young Adult Reading",
+        "Category: Poetry",
+        "PZ"
+      ]
+    },
+    {
+      "title": "A Special Mortality among Infants at Loughton, in the Epping Rural Sanitary District",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53863",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53863; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53863/pg53863.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53863/pg53863.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53863/pg53863.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53863/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Powders -- Toxicology -- England -- Loughton (Essex)",
+        "Infants -- Death -- England -- Loughton (Essex)",
+        "Infants -- Health and hygiene -- England -- Loughton (Essex)",
+        "Loughton (Essex, England) -- Social conditions -- 19th century",
+        "Category: History - Modern (1750+)",
+        "Category: Health & Medicine",
+        "RA"
+      ]
+    },
+    {
+      "title": "Bad Drains; and How to Test Them\r\nWith notes on the ventilation of sewers, drains, and sanitary fittings, and the origin and transmission of zymotic disease",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60721",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60721; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60721/pg60721.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60721/pg60721.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60721/pg60721.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60721/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Sewerage",
+        "Category: Engineering & Technology",
+        "Category: Health & Medicine",
+        "TD"
+      ]
+    },
+    {
+      "title": "Drug Supplies in the American Revolution",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27076",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #27076; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/27076/pg27076.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/27076/pg27076.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/27076/pg27076.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/27076/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Pharmacy -- History -- United States",
+        "United States -- History -- Revolution, 1775-1783 -- Medical and sanitary affairs",
+        "Category: History - American",
+        "Category: History - Warfare",
+        "Category: Health & Medicine",
+        "Q"
+      ]
+    },
+    {
+      "title": "Epidemics Resulting from Wars",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59822",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59822; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59822/pg59822.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59822/pg59822.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59822/pg59822.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59822/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Military hygiene",
+        "Medicine, Military -- History",
+        "Epidemics -- History",
+        "Armies -- Medical and sanitary affairs",
+        "Category: History - Other",
+        "Category: History - Warfare",
+        "Category: Health & Medicine",
+        "RA"
+      ]
+    },
+    {
+      "title": "Hospital transports",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52122",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52122; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52122/pg52122.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52122/pg52122.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52122/pg52122.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/52122/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "United States -- History -- Civil War, 1861-1865 -- Hospitals",
+        "United States -- History -- Civil War, 1861-1865 -- Personal narratives",
+        "United States -- History -- Civil War, 1861-1865 -- Medical care",
+        "United States Sanitary Commission",
+        "Hospital ships -- United States -- History -- 19th century",
+        "Hospital ships -- Virginia -- History -- 19th century",
+        "Transports -- United States -- History -- 19th century",
+        "Transports -- Virginia -- History -- 19th century",
+        "Medical personnel -- United States -- Correspondence",
+        "Peninsular Campaign, 1862",
+        "Category: Biographies",
+        "Category: History - American",
+        "Category: History - Warfare",
+        "Category: Health & Medicine",
+        "E456"
+      ]
+    },
+    {
+      "title": "London (Ancient and Modern) from the Sanitary and Medical Point of View",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54904",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54904; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54904/pg54904.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54904/pg54904.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54904/pg54904.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54904/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Sanitation -- England -- London -- History -- 19th century",
+        "Medicine -- England -- London -- History -- 19th century",
+        "Category: History - British",
+        "Category: History - Ancient",
+        "Category: History - Medieval/Middle Ages",
+        "Category: History - Modern (1750+)",
+        "Category: Health & Medicine",
+        "Category: Environmental Issues",
+        "RA"
+      ]
+    },
+    {
+      "title": "Mechanics of the Household\nA Course of Study Devoted to Domestic Machinery and Household Mechanical Appliances",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50846",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50846; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50846/pg50846.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50846/pg50846.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50846/pg50846.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50846/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Plumbing",
+        "Heating",
+        "Lighting",
+        "Category: Science - Physics",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Medical Sketches of the Expedition to Egypt, from India",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57535",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57535; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57535/pg57535.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57535/pg57535.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57535/pg57535.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/57535/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Medicine, Military",
+        "Great Britain. Army -- Sanitary affairs",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "Category: Health & Medicine",
+        "RC",
+        "UH"
+      ]
+    },
+    {
+      "title": "Napoleon's Campaign in Russia, Anno 1812; Medico-Historical",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/7973",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #7973; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/7973/pg7973.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/7973/pg7973.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/7973/pg7973.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/7973/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Napoleonic Wars, 1800-1815 -- Campaigns -- Russia",
+        "Napoleon I, Emperor of the French, 1769-1821 -- Military leadership",
+        "Napoleonic Wars, 1800-1815 -- Campaigns -- Russia -- Medical and sanitary affairs",
+        "France",
+        "Napoleonic(Bookshelf)",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "Category: Health & Medicine",
+        "DC"
+      ]
+    },
+    {
+      "title": "Report of the Sanitary Committee of the Commissioners of Sewers of the City of London, together with a report of the Medical Officer of Health on the objections raised by the Butchers' Trade Society to the bye-laws proposed for the regulation of slaughter-houses",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67634",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67634; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67634/pg67634.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67634/pg67634.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67634/pg67634.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67634/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Sewerage",
+        "Slaughtering and slaughter-houses -- Law and legislation -- Great Britain",
+        "Category: Health & Medicine",
+        "Category: Environmental Issues",
+        "Category: Reports & Conference Proceedings",
+        "RA"
+      ]
+    },
+    {
+      "title": "Report to Her Majesty's Principal Secretary of State For the Home Department, from the Poor Law Commissioners, on an Inquiry Into the Sanitary Condition of the Labouring Population of Great Britain; With Appendices",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65090",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65090; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65090/pg65090.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65090/pg65090.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65090/pg65090.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65090/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Public health -- Great Britain",
+        "Housing -- Great Britain",
+        "Category: History - British",
+        "Category: Health & Medicine",
+        "Category: Reports & Conference Proceedings",
+        "RA"
+      ]
+    },
+    {
+      "title": "Reports Relating to the Sanitary Condition of the City of London",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54622",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54622; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54622/pg54622.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54622/pg54622.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54622/pg54622.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54622/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Sanitation -- England -- London",
+        "Cemeteries -- England -- London",
+        "Mortality -- Statistics",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: Health & Medicine",
+        "Category: Reports & Conference Proceedings",
+        "RA"
+      ]
+    },
+    {
+      "title": "Sanitary and Social Lectures and Essays",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/1637",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #1637; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/1637/pg1637.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/1637/pg1637.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/1637/pg1637.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/1637/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Essays",
+        "Social problems",
+        "Category: Essays, Letters & Speeches",
+        "Category: Health & Medicine",
+        "Category: Gender & Sexuality Studies",
+        "Category: Sociology",
+        "Category: Parenthood & Family Relations",
+        "HV"
+      ]
+    },
+    {
+      "title": "Sanitary Statistics of Native Colonial Schools and Hospitals",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52653",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52653; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52653/pg52653.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52653/pg52653.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52653/pg52653.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/52653/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Hospital buildings -- Sanitation -- Statistics",
+        "Category: History - Modern (1750+)",
+        "Category: Health & Medicine",
+        "Category: Reports & Conference Proceedings",
+        "Category: Teaching & Education",
+        "Women in Science, Technology, Engineering, and Mathematics",
+        "RA"
+      ]
+    },
+    {
+      "title": "The cremation of the dead\r\nconsidered from an aesthetic, sanitary, religious, historical, medico-legal, and economical standpoint",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54176",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54176; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54176/pg54176.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54176/pg54176.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54176/pg54176.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54176/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cremation",
+        "Category: History - Other",
+        "Category: Health & Medicine",
+        "Category: Religion/Spirituality",
+        "RA"
+      ]
+    },
+    {
+      "title": "The Dwelling House",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47970",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #47970; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47970/pg47970.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47970/pg47970.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47970/pg47970.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/47970/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Sanitary engineering",
+        "Plumbing",
+        "Category: Science - Biology",
+        "Category: Architecture",
+        "Category: Health & Medicine",
+        "Category: Environmental Issues",
+        "TD"
+      ]
+    },
+    {
+      "title": "The horrors of Wittenberg",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/78203",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #78203; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/78203/pg78203.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/78203/pg78203.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/78203/pg78203.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/78203/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "World War, 1914-1918 -- Prisoners and prisons",
+        "World War, 1914-1918 -- Medical and sanitary affairs",
+        "D501"
+      ]
+    },
+    {
+      "title": "Drainage modifications and glaciation in the Danbury region, Connecticut",
+      "author": "Harvey, Ruth Sawyer, 1876-1977",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33050",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 33050); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33050/pg33050.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33050/pg33050.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33050/pg33050.cover.small.jpg"
+      ],
+      "subject": "Glacial epoch",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Glacial epoch",
+        "Geology -- Connecticut",
+        "Category: Science - Earth/Agricultural/Farming",
+        "QE"
+      ]
+    },
+    {
+      "title": "Descriptive Pamphlet of the Richmond Mill Furnishing Works All sizes of mill stones and complete grinding and bolting combined husk or portable flouring mills, portable corn and feed mills; smut and separating machines; zigzag and oat separators, dustless separators, warehouse separators, water wheels; mill shafting; pulleys; spur and bevel, iron and core, gearing....",
+      "author": "Richmond Mill Furnishing Works",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51500",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 51500); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51500/pg51500.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51500/pg51500.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51500/pg51500.cover.small.jpg"
+      ],
+      "subject": "Nordyke, Marmon & Company -- Catalogs",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Nordyke, Marmon & Company -- Catalogs",
+        "Flour industry -- Equipment and supplies -- Catalogs",
+        "Milling machinery -- Catalogs",
+        "Mills and mill-work -- Equipment and supplies -- Catalogs",
+        "Category: Engineering & Technology",
+        "TS"
+      ]
+    }
+  ],
+  "integrationNotes": "All 10 channel IDs live-verified via YouTube fetch (2026-07-21). Key corrections from CSV: (1) @PlumbingAfrica replaced with Million Dollar Plumber — no YouTube channel at that handle; (2) @PropelAKenya replaced — PropelA is a Swisscontact/Hilti Foundation programme with no dedicated YouTube channel; (3) @TheExpertPlumber removed — this is Roger Wakefield's title, not a separate channel (duplicate); (4) @PlumbingWithTim handle corrected to @PLUMBINGWITHTIM (all caps); (5) @HustleCareKenya, @PesabookKenya, @PlumbingBusinessCoach, @NigerianPlumbersAssoc all replaced — no verified YouTube channels found at those handles. Replacements sourced from FieldEdge's 2026 curated list of channels plumbing business owners actually learn from. Blog corrections: 1xportal.com → 1xportalhub.com.ng; plumbingafrica.com → plumbingafrica.co.za. Book corrections: f5fp.com and bdebooks.com replaced with legitimate author/publisher sources; archive.org links replaced with official sites where available.\n\nBooks audit (2026-07-30): 3 of 10 URLs fixed in this pass (skill_07). 'The E-Myth Revisited': https://books.google.com/books?id=SHi_fU0AlO0C... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber | 'Profit First': https://www.mikemichalowicz.com/profit-first-book... → https://archive.org/details/profitfirst0000mich | 'Small Business Management': https://openstax.org/details/books/small-business-management... → https://openstax.org/details/books/principles-management",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Review the 16 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI.",
+    "2026-08-23: Review the 25 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ],
+  "notes": "2026-08-23: Added 16 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 25 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 2 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
+}

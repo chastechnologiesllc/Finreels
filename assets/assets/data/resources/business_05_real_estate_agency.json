@@ -1,0 +1,647 @@
+{
+  "categoryId": "business_05_real_estate_agency",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCFvGW2SGrjigO5QzT7DPkJQ",
+      "name": "Ryan Serhant",
+      "handle": "@SerhantRyan",
+      "description": "Founder and CEO of SERHANT. brokerage — Netflix's Owning Manhattan, Bravo's Million Dollar Listing New York. Over $5B in personal sales, $10B+ through his firm. Channel covers luxury listings, sales psychology, brand building, and the business of becoming a top-tier real estate agent.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "RS",
+      "focus": "Luxury real estate sales, brand building, and agent business development",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Handle CORRECTED: CSV had @RyanSerhant — actual handle is @SerhantRyan (name reversed). 1.2M+ subscribers."
+    },
+    {
+      "id": "UCV6KDgJskWaEckne5aPA0aQ",
+      "name": "Graham Stephan",
+      "handle": "@GrahamStephan",
+      "description": "Real estate investor and financial content creator with 5.16M subscribers. Started in real estate at 18, over $120M in residential sales. Covers real estate investing, market analysis, passive income, and building wealth through property.",
+      "accentColor": "0xFF15803D",
+      "initials": "GS",
+      "focus": "Real estate investing, market analysis, and building wealth through property",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed. 5.16M subscribers confirmed."
+    },
+    {
+      "id": "UCVWDbXqQ8cupuVpotWNt2eg",
+      "name": "BiggerPockets",
+      "handle": "@biggerpockets",
+      "description": "World's largest real estate investing community — 1.3M+ subscribers. Hosts Dave Meyer and Henry Washington publish Mon/Wed/Fri covering rental properties, BRRRR, flipping, and building a real estate investing business.",
+      "accentColor": "0xFF0369A1",
+      "initials": "BP",
+      "focus": "Real estate investing community — the most comprehensive YouTube resource",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed. 1.3M+ subscribers confirmed."
+    },
+    {
+      "id": "UCthDYmxo3c0NpSXdc26lpjA",
+      "name": "Nigeria Real Estate Blog",
+      "handle": "@nigeriarealestateblog",
+      "description": "Nigeria Real Estate Blog YouTube channel — covers real estate news, tips, and advice for homeowners, investors, and property agents. Publishes property market insights, investment guidance, and how-to content for navigating the Nigerian property market including documentation, title verification, and agent best practices.",
+      "accentColor": "0xFF16A34A",
+      "initials": "NR",
+      "focus": "Nigerian real estate news, investment tips, and property market insights",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "REPLACED NigerianRealEstateHub (handle not confirmed as a real YouTube channel). Nigeria Real Estate Blog confirmed via live fetch of youtube.com/channel/UCthDYmxo3c0NpSXdc26lpjA."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Television",
+      "handle": "@BDTV-NG",
+      "description": "Official BusinessDay newspaper channel covering Nigerian real estate market analysis, property prices, mortgage trends, and investment outlooks. Essential economic context for real estate agents.",
+      "accentColor": "0xFF0891B2",
+      "initials": "BD",
+      "focus": "Nigerian real estate market news and economic analysis",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. CORRECTED: CSV had 'BusinessDay Real Estate' as a separate sub-channel — no such channel exists. Using main @BDTV-NG."
+    },
+    {
+      "id": "UCIHdDJ0tjn_3j-FS7s_X1kQ",
+      "name": "Valuetainment",
+      "handle": "@Valuetainment",
+      "description": "Patrick Bet-David — real estate and agency business case studies, strategy and scaling tactics.",
+      "accentColor": "0xFF4F46E5",
+      "initials": "VT",
+      "focus": "Real estate and agency strategy",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed business strategy with real estate content."
+    },
+    {
+      "id": "UCctXZhXmG-kf3tlIXgVZUlw",
+      "name": "Gary Vaynerchuk",
+      "handle": "@garyvee",
+      "description": "Brand building and sales for service businesses including real estate agents.",
+      "accentColor": "0xFF2563EB",
+      "initials": "GV",
+      "focus": "Sales and branding for agents",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed marketing/sales channel."
+    },
+    {
+      "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
+      "name": "Entrepreneurs.ng",
+      "handle": "@EntrepreneursNg",
+      "description": "Nigerian entrepreneurship guides including real estate agency setup, funding and marketing.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "EN",
+      "focus": "Nigerian real estate business",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed Nigerian entrepreneurship channel."
+    },
+    {
+      "id": "UCxIJaCMEptJjxmmQgGFsnCg",
+      "name": "Y Combinator",
+      "handle": "@ycombinator",
+      "description": "Startup formation, product development, fundraising, hiring, and founder learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "YC",
+      "focus": "Real Estate Agency: Startup formation, product development, fundraising, hiring, and founder learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCxIJaCMEptJjxmmQgGFsnCg; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWo4IA01TXzBeGJJKWHOG9g",
+      "name": "Harvard Business Review",
+      "handle": "@HarvardBusinessReview",
+      "description": "Management, strategy, leadership, organizational behavior, and decision-making.",
+      "accentColor": "0xFF16A34A",
+      "initials": "HB",
+      "focus": "Real Estate Agency: Management, strategy, leadership, organizational behavior, and decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWo4IA01TXzBeGJJKWHOG9g; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWLGZL69LhjjgGRKhcAE_w",
+      "name": "Google for Startups",
+      "handle": "@GoogleforStartups",
+      "description": "Startup growth, technology, product, marketing, and founder education.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "GF",
+      "focus": "Real Estate Agency: Startup growth, technology, product, marketing, and founder education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWLGZL69LhjjgGRKhcAE_w; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkWVA1_vkY9GLyuLAre97AQ",
+      "name": "HubSpot Marketing",
+      "handle": "@HubSpotMarketing",
+      "description": "Marketing, CRM, sales, content, customer experience, and growth.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "HM",
+      "focus": "Real Estate Agency: Marketing, CRM, sales, content, customer experience, and growth.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkWVA1_vkY9GLyuLAre97AQ; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGcAPjsNRj2BwCHM1xzFUeQ",
+      "name": "Ahrefs",
+      "handle": "@AhrefsCom",
+      "description": "SEO, content marketing, keyword research, and digital growth systems.",
+      "accentColor": "0xFF0891B2",
+      "initials": "A",
+      "focus": "Real Estate Agency: SEO, content marketing, keyword research, and digital growth systems.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGcAPjsNRj2BwCHM1xzFUeQ; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
+      "name": "Neil Patel",
+      "handle": "@NeilPatel",
+      "description": "Digital marketing, SEO, content, customer acquisition, and online business.",
+      "accentColor": "0xFFDB4437",
+      "initials": "NP",
+      "focus": "Real Estate Agency: Digital marketing, SEO, content, customer acquisition, and online business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCl-Zrl0QhF66lu1aGXaTbfw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCA2CiHJ0xCLC6Dt7w5_Hxvw",
+      "name": "Money & Macro",
+      "handle": "@MoneyMacro",
+      "description": "Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "MM",
+      "focus": "Real Estate Agency: Economics, monetary policy, finance, markets, and macroeconomic reasoning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCA2CiHJ0xCLC6Dt7w5_Hxvw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOErWFfNOQzXsgE7f5S_ULw",
+      "name": "Ben Felix",
+      "handle": "@BenFelixCSI",
+      "description": "Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "accentColor": "0xFF9333EA",
+      "initials": "BF",
+      "focus": "Real Estate Agency: Evidence-based investing, personal finance, portfolio construction, and financial literacy.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOErWFfNOQzXsgE7f5S_ULw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFCEuCsyWP0YkP3CZ3Mr01Q",
+      "name": "The Plain Bagel",
+      "handle": "@ThePlainBagel",
+      "description": "Investing, economics, personal finance, risk, and financial decision-making.",
+      "accentColor": "0xFFB45309",
+      "initials": "TP",
+      "focus": "Real Estate Agency: Investing, economics, personal finance, risk, and financial decision-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFCEuCsyWP0YkP3CZ3Mr01Q; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLvnJL8htRR1T9cbSccaoVw",
+      "name": "Aswath Damodaran",
+      "handle": "@AswathDamodaranonValuation",
+      "description": "Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "accentColor": "0xFF475569",
+      "initials": "AD",
+      "focus": "Real Estate Agency: Valuation, corporate finance, investing, accounting, and financial modeling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLvnJL8htRR1T9cbSccaoVw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCHwkW7lTTzf19xg5R4gfwVw",
+      "name": "CFA Institute",
+      "handle": "@CFAInstitute",
+      "description": "Investment analysis, ethics, portfolio management, and professional finance.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CI",
+      "focus": "Real Estate Agency: Investment analysis, ethics, portfolio management, and professional finance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHwkW7lTTzf19xg5R4gfwVw; selected for the Real Estate Agency learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChjfv8-vAA1CZA84f-h5X_Q",
+      "name": "GaryVee",
+      "handle": "@GaryVee",
+      "description": "Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "accentColor": "0xFF16A34A",
+      "initials": "G",
+      "focus": "Real Estate Agency: Entrepreneurship, marketing, communication, leadership, and creator business.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChjfv8-vAA1CZA84f-h5X_Q; selected for the Real Estate Agency learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "BiggerPockets Blog",
+      "url": "https://www.biggerpockets.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "World's largest real estate investing community — investing strategies, property analysis, and building a real estate business."
+    },
+    {
+      "name": "PropertyPro.ng Blog",
+      "url": "https://blog.propertypro.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Nigeria's largest property listing platform — property prices, hotspot areas, and market trends."
+    },
+    {
+      "name": "Nigerian Real Estate Hub",
+      "url": "https://www.nigerianrealestatehub.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "C of O documentation, land titles, and property investment guidance in Nigeria."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Real estate agency startup guides, licensing, and building a property business in Nigeria."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Real estate agent career guides, client acquisition, and marketing for Nigerian property agents."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog/rss",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Building a real estate brand online, social media marketing, and digital presence for property agents."
+    },
+    {
+      "name": "HubSpot Marketing Blog",
+      "url": "https://blog.hubspot.com/marketing/rss.xml",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "CRM for real estate, lead generation, email marketing, and inbound marketing for property agents."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    },
+    {
+      "name": "How We Made It in Africa",
+      "url": "https://howwemadeitinafrica.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African business case studies."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview at Google Books — technician/manager/entrepreneur framework essential for anyone moving from solo operator to business owner",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (f5fp.com — third-party site for a copyrighted book). Google Books preview is legitimate. Full book recommended for purchase.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter and framework at mikemichalowicz.com — take profit before expenses using envelope-style account allocation",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Official author site — free chapter available. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview at theleanstartup.com — build-measure-learn frameworks from the official author site",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (bdebooks.com — third-party site for a copyrighted book). Replaced with official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — operations, finance, marketing and HR for small businesses. No paywall, no DRM.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed academic textbook. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free complete entrepreneurship coursebook — ideation, business model design, funding, and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "HubSpot Marketing Resources",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at hubspot.com/resources — 198+ free marketing guides, templates, and ebooks. No paywall.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot — genuinely free with no paywall. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official startup guide at sba.gov — business structure, licensing, financing, and operations fundamentals",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SBA.gov — U.S. government, permanently free. No URL correction needed.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "course",
+      "freeSourceNote": "Free certification course at HubSpot Academy — complete inbound marketing curriculum with official certification on completion",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy — free with official certification. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — POLC framework: planning, organising, leading, and controlling a business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "The Origin of Property in Land With an introductory chapter on the English manor by W. J. Ashley",
+      "author": "Fustel de Coulanges, 1830-1889; Ashley, W. J. (William James), 1860-1927 [Contributor]; Ashley, Margaret, 1859-1922 [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67558",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67558); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67558/pg67558.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67558/pg67558.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67558/pg67558.cover.small.jpg"
+      ],
+      "subject": "Land tenure -- Law and legislation -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Land tenure -- Law and legislation -- History",
+        "Real property -- History",
+        "Manors -- Great Britain",
+        "Category: History - Other",
+        "K"
+      ]
+    },
+    {
+      "title": "Three Plays: The Fiddler's House, The Land, Thomas Muskerry",
+      "author": "Colum, Padraic, 1881-1972",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11878",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 11878); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11878/pg11878.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11878/pg11878.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11878/pg11878.cover.small.jpg"
+      ],
+      "subject": "Irish drama -- 20th century",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Irish drama -- 20th century",
+        "Category: Plays/Films/Dramas",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "No Man's Land: A History of El Camino Real",
+      "author": "Nardini, Louis Raphael",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55055",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55055); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55055/pg55055.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55055/pg55055.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55055/pg55055.cover.small.jpg"
+      ],
+      "subject": "El Camino Real de los Tejas National Historic Trail (Tex. and La.)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "El Camino Real de los Tejas National Historic Trail (Tex. and La.)",
+        "Louisiana -- History",
+        "Category: Mythology, Legends & Folklore",
+        "Category: History - American",
+        "Category: History - European",
+        "Category: History - Ancient",
+        "F350.5"
+      ]
+    },
+    {
+      "title": "House property & its management",
+      "author": "Hill, Octavia, 1838-1912; Gibbon, Gwilym, Sir, 1874-1948 [Author of introduction, etc.]; Jeffery, M. M. [Editor]; Neville, Edith [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75837",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 75837); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75837/pg75837.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75837/pg75837.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75837/pg75837.cover.small.jpg"
+      ],
+      "subject": "Working class -- England -- London",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Working class -- England -- London",
+        "Working class -- Dwellings",
+        "Housing -- England -- London",
+        "Landlord and tenant -- England -- London",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - British",
+        "Category: Sociology",
+        "HD"
+      ]
+    },
+    {
+      "title": "The Store Boy",
+      "author": "Alger, Horatio, Jr., 1832-1899",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/10724",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 10724); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/10724/pg10724.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/10724/pg10724.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/10724/pg10724.cover.small.jpg"
+      ],
+      "subject": "Conduct of life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Conduct of life -- Juvenile fiction",
+        "Adventure and adventurers -- Juvenile fiction",
+        "Mystery and detective stories",
+        "Swindlers and swindling -- Juvenile fiction",
+        "New York (N.Y.) -- History -- 1865-1898 -- Juvenile fiction",
+        "Real estate agents -- Juvenile fiction",
+        "Children's Fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Bob Burton; or, The Young Ranchman of the Missouri",
+      "author": "Alger, Horatio, Jr., 1832-1899",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52194",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52194); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52194/pg52194.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52194/pg52194.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52194/pg52194.cover.small.jpg"
+      ],
+      "subject": "Conduct of life -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Conduct of life -- Juvenile fiction",
+        "Young men -- Conduct of life -- Juvenile fiction",
+        "Bildungsromans",
+        "Adventure and adventurers -- Juvenile fiction",
+        "Ranches -- Juvenile fiction",
+        "Success -- Juvenile fiction",
+        "Families -- Juvenile fiction",
+        "Middle West -- Juvenile fiction",
+        "Real estate agents -- Juvenile fiction",
+        "Conspiracies -- Juvenile fiction",
+        "Extortion -- Juvenile fiction",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    }
+  ],
+  "integrationNotes": "6/10 channels confirmed with UCxxx IDs (Ryan Serhant, Graham Stephan, BiggerPockets, PropertyPro Africa, Private Property Nigeria, BusinessDay TV, NairametricsTV). 3 channels RESOLVE (NigerianRealEstateHub, SpleetNG, REDANofficial). Key corrections: (1) Ryan Serhant handle CORRECTED to @SerhantRyan; (2) PropertyPro handle CORRECTED to @PropertyPro_Africa; (3) RealtyBlueprints REPLACED with Private Property Nigeria (UCMsJQo00U2H7PGNR6FozwHQ — no YouTube channel found at RealtyBlueprints handle); (4) BusinessDay Real Estate and Nairametrics Real Estate have no sub-channels — using main channels.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global."
+  ],
+  "notes": "2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 6 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26."
+}

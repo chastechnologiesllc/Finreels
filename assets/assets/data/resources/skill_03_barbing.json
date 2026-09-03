@@ -1,0 +1,1112 @@
+{
+  "categoryId": "skill_03_barbing",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCD9Oybf28FhVdVDG6hwg6Yw",
+      "name": "Chris Bossio",
+      "handle": "@chrisbossio",
+      "description": "Co-owner of the Headlines barbershop chain (7 locations, Tampa FL) and founder of Tomb45 — built his barbershop and product-line business through YouTube. 'Educator of the Year' 2019, CT Barber Expo.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "CB",
+      "focus": "Barbershop ownership, branding & entrepreneurship",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Channel ID cross-confirmed via vidIQ analytics listing and a YouTube Blog creator-story feature on Chris Bossio; identity matched against Al Dia News and Tomb45 Academy bios (barbershop owner, Tomb45 founder, ~425K subscribers)."
+    },
+    {
+      "id": "UCL1OKwOOhcYAMc1FXFYH_qg",
+      "name": "Barber World TV",
+      "handle": "@BARBERWORLDTV",
+      "description": "Travels to barbershops around the world to see how local barbers 'put it down behind the chair' — barbershop culture, industry trends and business insight from a global perspective.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "BW",
+      "focus": "Barbershop business and industry trends",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Channel ID cross-confirmed across multiple video/membership links (youtube.com/channel/UCL1OKwOOhcYAMc1FXFYH_qg) referenced from the show's own X/Twitter account and Patreon."
+    },
+    {
+      "id": "UCulviy5F0w7S8kXd_Shg-_g",
+      "name": "The Rich Barber",
+      "handle": "@therichbarber",
+      "description": "Chuka Torres — opened three barbershops, built a barbering-tools brand (10-Second Blade Setter), and wrote 'The Rich Barber Method' on mindset, client experience and marketing for barbers.",
+      "accentColor": "0xFFEF4444",
+      "initials": "RB",
+      "focus": "Business mindset and shop scaling for barbers",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Channel ID found via direct YouTube channel search matching the brand name; identity and founder bio (Chuka Torres/'Chuka the Barber') cross-confirmed against therichbarber.com's own About page."
+    },
+    {
+      "id": "UCV4pSKVqWkbiFj2bihSg4MA",
+      "name": "Matty Conrad",
+      "handle": "@mattyconradgrooming",
+      "description": "Founder/creative director of Victory Barber & Brand — multi-award-winning barber, educator and GQ grooming expert with 25+ years in the industry, sharing shop and brand-building experience.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "MC",
+      "focus": "Barbershop business and grooming industry insights",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@mattyconradgrooming); About-section matches mattyconrad.com bio (Victory Barber & Brand founder)."
+    },
+    {
+      "id": "UCl6ICaB9meBcSMQ5Zmr446g",
+      "name": "Tuko / Tuco - Kenya",
+      "handle": "@Tuko",
+      "description": "Kenya's major digital-news YouTube channel — human-interest and business stories from across Kenya, including features on tradespeople like barbershop managers and their real earnings.",
+      "accentColor": "0xFF10B981",
+      "initials": "TK",
+      "focus": "Nairobi barbershop manager earning story & Kenyan business human-interest content",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed official channel ID (UCl6ICaB9meBcSMQ5Zmr446g) via the channel's own About description and cross-referenced against corp.tuko.co.ke's advertising page describing the same YouTube presence.",
+      "notes": "General Kenyan news channel, not barbing-specific — included for the specific barbershop-earnings human-interest story flagged in the source directory; most content is unrelated general news."
+    },
+    {
+      "id": "UCj1szocxtcDWjbOMpSgtx5Q",
+      "name": "Nasty Barbers Haircut Tutorials",
+      "handle": "@nastybarbershaircuttutoria8457",
+      "description": "Haircut tutorials from the Nasty Barbers brand — high-end barbering technique and business-model content from a well-known barbering media brand.",
+      "accentColor": "0xFFEC4899",
+      "initials": "NB",
+      "focus": "High-end barbering business model breakdowns",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCj1szocxtcDWjbOMpSgtx5Q); About-section confirms the Nasty Barbers brand tie-in."
+    },
+    {
+      "id": "UCqT-tQxBama-y9KLxjH9OWw",
+      "name": "Seancutshair",
+      "handle": "@Seancutshair",
+      "description": "Sean Ralston, owner of Klutch Barber Co. (Owensboro, KY) — haircut tutorials, equipment reviews, and barbershop business tips and tricks in one channel.",
+      "accentColor": "0xFF06B6D4",
+      "initials": "SC",
+      "focus": "Barbering technique + shop business combo content",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/@Seancutshair); About-section confirms shop ownership and business-topics focus.",
+      "notes": "Substituted for the source directory's 'Barbering Techniques' channel, which could not be matched to a real, active channel after two search passes."
+    },
+    {
+      "id": "UCVIG2QAWl-DsW1BIYLJhKRQ",
+      "name": "Collins",
+      "handle": "@Collinsmfgco",
+      "description": "Collins Manufacturing Company — leading US domestic salon and barber equipment manufacturer (barber chairs, furniture). Practical content on equipping a new barbershop.",
+      "accentColor": "0xFFF97316",
+      "initials": "CO",
+      "focus": "Barbershop equipment and setup",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCVIG2QAWl-DsW1BIYLJhKRQ); About-section confirms it's the official Collins equipment-manufacturer channel."
+    },
+    {
+      "id": "UCRqdwih5euobCnMMdj6d4zQ",
+      "name": "Keller International",
+      "handle": "@Kellerinternational",
+      "description": "Salon and barber equipment wholesaler (since 1999) — new-product updates and how-to videos for outfitting barbershops and cosmetology schools.",
+      "accentColor": "0xFF6366F1",
+      "initials": "KI",
+      "focus": "Barbershop equipment, setup and business operations",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Confirmed canonical channel ID via direct channel-page fetch (youtube.com/channel/UCRqdwih5euobCnMMdj6d4zQ); About-section confirms official equipment-wholesaler channel.",
+      "notes": "Substituted for the source directory's 'Barber Innovations TV' channel, which could not be matched to a real, active channel after two search passes."
+    },
+    {
+      "id": "UCoU7oC0WD6vDkEC6X7kfg3g",
+      "name": "The Beauty Biz Agency",
+      "handle": "@thebeautybizagency",
+      "description": "Explicitly for salon, spa and beauty business owners and independent stylists — pricing for profit, team management, and client retention, directly applicable to barbershop owners too.",
+      "accentColor": "0xFFA855F7",
+      "initials": "BB",
+      "focus": "Salon/barbershop business systems, pricing, team management",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Same channel already independently verified for business_08_salon_barbing_beauty_spa (direct channel-page fetch, ID UCoU7oC0WD6vDkEC6X7kfg3g); reused here to round out 10 channels since its content is directly on-topic for barbershop business."
+    },
+    {
+      "id": "UCeasbjVyx227l2ETO-xAssw",
+      "name": "Free Salon Education",
+      "handle": "@FreeSalonEducation",
+      "description": "Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "FS",
+      "focus": "Barbing: Professional hairdressing education, cutting, coloring, styling, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCeasbjVyx227l2ETO-xAssw; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUUOUXV5xmEqGWGf9eUyjdQ",
+      "name": "Sam Villa",
+      "handle": "@SamVillaHair",
+      "description": "Haircutting, styling, tools, salon education, and professional technique.",
+      "accentColor": "0xFF16A34A",
+      "initials": "SV",
+      "focus": "Barbing: Haircutting, styling, tools, salon education, and professional technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUUOUXV5xmEqGWGf9eUyjdQ; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChWcYTNVbFfBDbjWnhdHrBw",
+      "name": "Brad Mondo",
+      "handle": "@BradMondo",
+      "description": "Hair color, haircut analysis, salon technique, and hair-care education.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "BM",
+      "focus": "Barbing: Hair color, haircut analysis, salon technique, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChWcYTNVbFfBDbjWnhdHrBw; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCEcT5Ttsnl3kBMqyHmojobQ",
+      "name": "Makeup by Mario",
+      "handle": "@MakeupbyMARIO",
+      "description": "Professional makeup artistry, complexion, technique, and product application.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "MB",
+      "focus": "Barbing: Professional makeup artistry, complexion, technique, and product application.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCEcT5Ttsnl3kBMqyHmojobQ; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCFghPtzFcmyDiID1ASMA4Dg",
+      "name": "Lisa Eldridge",
+      "handle": "@LisaEldridge",
+      "description": "Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "accentColor": "0xFF0891B2",
+      "initials": "LE",
+      "focus": "Barbing: Professional makeup technique, beauty history, artistry, and practical tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCFghPtzFcmyDiID1ASMA4Dg; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCS7mVvlpXr7Rd7opwQbvgjQ",
+      "name": "Jackie Aina",
+      "handle": "@JackieAina",
+      "description": "Makeup technique, product education, representation, and beauty industry knowledge.",
+      "accentColor": "0xFFDB4437",
+      "initials": "JA",
+      "focus": "Barbing: Makeup technique, product education, representation, and beauty industry knowledge.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCS7mVvlpXr7Rd7opwQbvgjQ; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWOzDU-st_OsZHNrOEPjR4Q",
+      "name": "The Makeup Chair",
+      "handle": "@TheMakeupChair",
+      "description": "Makeup fundamentals, application, face structure, and technique.",
+      "accentColor": "0xFF0F766E",
+      "initials": "TM",
+      "focus": "Barbing: Makeup fundamentals, application, face structure, and technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWOzDU-st_OsZHNrOEPjR4Q; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCzTKskwIc_-a0cGvCXA848Q",
+      "name": "NikkieTutorials",
+      "handle": "@NikkieTutorials",
+      "description": "Makeup artistry, product technique, creative looks, and beauty communication.",
+      "accentColor": "0xFF9333EA",
+      "initials": "N",
+      "focus": "Barbing: Makeup artistry, product technique, creative looks, and beauty communication.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCzTKskwIc_-a0cGvCXA848Q; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC_L8_r3xbfLZnQWX8vKaStg",
+      "name": "Hairlicious Inc",
+      "handle": "@HairliciousInc",
+      "description": "Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "accentColor": "0xFFB45309",
+      "initials": "HI",
+      "focus": "Barbing: Hair care, scalp health, styling routines, and evidence-aware hair education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC_L8_r3xbfLZnQWX8vKaStg; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkGyDv3DZjIa4wYsb1aUPaA",
+      "name": "Manes by Mell",
+      "handle": "@ManesByMell",
+      "description": "Curly hair science, technique, routines, and hair-care education.",
+      "accentColor": "0xFF475569",
+      "initials": "MB",
+      "focus": "Barbing: Curly hair science, technique, routines, and hair-care education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkGyDv3DZjIa4wYsb1aUPaA; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCmi9wFeEZCV9gMDO-Sw_F-w",
+      "name": "TheSalonGuy",
+      "handle": "@TheSalonGuy",
+      "description": "Men’s hairstyling, cutting, grooming, and salon technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "T",
+      "focus": "Barbing: Men’s hairstyling, cutting, grooming, and salon technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCmi9wFeEZCV9gMDO-Sw_F-w; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "OF",
+      "focus": "Barbing: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "Y",
+      "focus": "Barbing: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "SO",
+      "focus": "Barbing: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF0891B2",
+      "initials": "KA",
+      "focus": "Barbing: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFFDB4437",
+      "initials": "C",
+      "focus": "Barbing: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFF0F766E",
+      "initials": "V",
+      "focus": "Barbing: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF9333EA",
+      "initials": "S",
+      "focus": "Barbing: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Barbing learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFFB45309",
+      "initials": "TS",
+      "focus": "Barbing: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct official YouTube handle page @theschooloflifetv resolved to channel ID UC7IcJI8PUf5Z3zKxnZvTBog; verified against the official channel page on 2026-08-26."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFF475569",
+      "initials": "S",
+      "focus": "Barbing: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Barbing learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Joadre",
+      "url": "https://joadre.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 'How To Start A Barbing Salon Business In Nigeria' article."
+    },
+    {
+      "name": "Business Post Nigeria",
+      "url": "https://businesspost.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: real interviews with Lagos barbershop owners."
+    },
+    {
+      "name": "Morviss.com",
+      "url": "https://morviss.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 'Cost of Starting a Barbing Salon Business in Nigeria'."
+    },
+    {
+      "name": "Investment4Business",
+      "url": "https://investment4business.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: full cost-breakdown guide for barbershops."
+    },
+    {
+      "name": "Nigerian Queries",
+      "url": "https://nigerianqueries.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 2025 guide comparing side-hustle vs. standard-scale barbershops."
+    },
+    {
+      "name": "The Splice Blog",
+      "url": "https://splice.ng/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: free business-plan template + equipment checklist for barbers. Replaces the previously-filed blog.withsplice.com/feed/ entry for this same Splice brand — splice.ng matches the domain independently verified for skill_02 (Hairdressing) this same week; worth a one-time check to confirm which domain currently serves the live feed before shipping."
+    },
+    {
+      "name": "Aqila Media",
+      "url": "https://aqilamedia.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 2025 guide covering CAC, FIRS/TIN and NAFDAC registration for barbershops."
+    },
+    {
+      "name": "Huduma Global",
+      "url": "https://hudumaglobal.com/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "hudumaglobal.com confirmed as a real, active Kenya-diaspora business-services site (own blog with business-setup guides); source directory cites it as a diaspora guide for barbing businesses specifically. No dedicated YouTube channel could be confirmed for this brand (see channels notes)."
+    },
+    {
+      "name": "HustleCare",
+      "url": "https://hustlecare.co.ke/feed/",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: 2026 cost guide for Kenyan barbershops. NOTE: during this pass, Hustlecare's live site resolved at hustlecare.net rather than hustlecare.co.ke — worth confirming which domain (or whether both) currently serves the real feed before shipping."
+    },
+    {
+      "name": "Shopify Nigeria Blog",
+      "url": "https://www.shopify.com/ng/blog.atom",
+      "verifiedOn": "2026-07-20",
+      "verificationMethod": "Source directory entry: barbershop marketing and client retention content on Shopify's Nigeria blog."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Barbershop Business Start-Up Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free, step-by-step small business startup guide from the U.S. Small Business Administration — covers business planning, registration, financing, and operations. Fully applicable to launching a barbershop.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Stable U.S. government domain. URL confirmed working in skill_02 audit (2026-07-30). Kept as-is.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Barber Business: 6-Figure Guide (200+ free videos)",
+      "author": "Chris Bossio",
+      "freeSourceUrl": "https://www.youtube.com/@chrisbossio",
+      "freeSourceType": "web",
+      "freeSourceNote": "Over 1,630 free YouTube videos from barber business coach Chris Bossio — covering cuts, client retention, pricing, and building a 6-figure barbershop brand. 425K subscribers, updated regularly.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "YouTube channel @chrisbossio confirmed active via web search — 425K subscribers, 1,630+ videos, last upload Dec 15 2025 (data from vidiq.com, Dec 24 2025). URL kept as-is.",
+      "coverUrl": "https://yt3.googleusercontent.com/ytc/AIdro_mCcgRpL5Bk1RKrgBIIBQBLq3QRpOAME3BNKZiR6w=s176-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build repeatable systems. Essential reading for any barbershop owner who wants to stop working IN the chair and start working ON the business.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://f5fp.com/e-myth-revisited-free-pdf loads F5 Financial (wrong page — confirmed broken in skill_01 & skill_02 in-app testing, 2026-07-30). Same fix applied here: Internet Archive copy with free PDF confirmed via web search (direct PDF at ia801708.us.archive.org).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free to borrow via Internet Archive — cash-flow system that prioritises profit allocation upfront, keeping small service businesses solvent. Requires a free Internet Archive account to borrow.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.mikemichalowicz.com/profit-first-book returned blank/black screen (confirmed broken in skill_01 & skill_02 in-app testing, 2026-07-30). Same fix applied: Internet Archive borrowable copy confirmed via web search.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "1-Page Marketing Plan (free canvas template)",
+      "author": "Allan Dib",
+      "freeSourceUrl": "https://successwise.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free downloadable 1-Page Marketing Plan canvas from Allan Dib's official site — the 9-square template lets you map your entire barbershop marketing strategy on one page. Email opt-in required to download.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://1pagemarketingplan.com/resources — Allan Dib has moved to successwise.com (confirmed by multiple sources: podcast transcripts, Shortform book notes, author bios, 2026-07-30). Same fix applied as skill_02.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781619613348-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Official Lean Startup site with free methodology overview, principles, case studies, and resources — a proven framework for building a barbershop business that continuously tests, learns, and grows.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://bdebooks.com/the-lean-startup/ is a piracy/copyright-infringing site — not found in any legitimate search index (2026-07-30). Replaced with the official theleanstartup.com site confirmed active via web search (full methodology and free resources available).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "freeSourceUrl": "https://archive.org/details/rich-dad-poor-dad-robert-kiyosaki",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free on Internet Archive — Kiyosaki's foundational guide to financial independence, the difference between assets and liabilities, and how to make money work for you instead of working for money.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/RichDadPoorDad — identifier not confirmed in archive.org search index (2026-07-30). Updated to confirmed-active copy: archive.org/details/rich-dad-poor-dad-robert-kiyosaki (confirmed present in archive.org search results, uploaded April 2020, still active 2025).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open-license textbook from OpenStax — covers planning, organising, leading, and controlling a business. Directly applicable to managing staff, finances, and operations in a barbershop.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://openstax.org/details/books/small-business-management is a 404 — OpenStax has no book by that slug (confirmed in skill_02 audit, 2026-07-30). Same fix applied: openstax.org/details/books/principles-management confirmed active (© Apr 23, 2026 OpenStax).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "How Much Should I Charge?",
+      "author": "Ellen Rohr",
+      "freeSourceUrl": "https://ellenrohr.com/howmuch/",
+      "freeSourceType": "download",
+      "freeSourceNote": "Full free ebook from author. Calculate a real hourly rate and set prices that produce profit.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Author offers full ebook free.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781456522100-L.jpg"
+    },
+    {
+      "title": "Jasmin: Barber, Poet, Philanthropist",
+      "author": "Smiles, Samuel, 1812-1904",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/838",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 838); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/838/pg838.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/838/pg838.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/838/pg838.cover.small.jpg"
+      ],
+      "subject": "Jasmin, 1798-1864",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Jasmin, 1798-1864",
+        "Poets, French -- Biography",
+        "Category: Biographies",
+        "PC"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 1",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4401",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4401); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4401/pg4401.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4401/pg4401.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4401/pg4401.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Humour",
+        "Category: Novels",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 2",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4402",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4402); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4402/pg4402.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4402/pg4402.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4402/pg4402.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 3",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4403",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4403); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4403/pg4403.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4403/pg4403.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4403/pg4403.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Volume 4",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4404",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4404); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4404/pg4404.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4404/pg4404.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4404/pg4404.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Adventure",
+        "Category: Novels",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Shaving of Shagpat; an Arabian entertainment — Complete",
+      "author": "Meredith, George, 1828-1909",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4405",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 4405); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4405/pg4405.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4405/pg4405.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4405/pg4405.cover.small.jpg"
+      ],
+      "subject": "Fantasy fiction, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fantasy fiction, English",
+        "Arab countries -- Fiction",
+        "Category: Science-Fiction & Fantasy",
+        "Category: Humour",
+        "Category: Adventure",
+        "Category: Novels",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Barber of Paris",
+      "author": "Kock, Paul de, 1793-1871; Norris, Edith Mary, 1858- [Translator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37453",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 37453); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37453/pg37453.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37453/pg37453.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37453/pg37453.cover.small.jpg"
+      ],
+      "subject": "French fiction -- Translations into English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "French fiction -- Translations into English",
+        "Paris (France) -- Social life and customs -- Fiction",
+        "Category: Historical Novels",
+        "Category: Novels",
+        "Category: French Literature",
+        "PQ"
+      ]
+    },
+    {
+      "title": "Shaving Made Easy: What the Man Who Shaves Ought to Know",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43166",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 43166); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43166/pg43166.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43166/pg43166.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43166/pg43166.cover.small.jpg"
+      ],
+      "subject": "Shaving",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Shaving",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "The Annals of the Barber-Surgeons of London",
+      "author": "Young, Sidney, 1843- [Compiler]; Young, Austin T. [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49011",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 49011); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49011/pg49011.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49011/pg49011.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49011/pg49011.cover.small.jpg"
+      ],
+      "subject": "Barbers' Company (London, England) -- History",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Barbers' Company (London, England) -- History",
+        "Surgery -- England -- London -- History -- Sources",
+        "Barbers -- England -- London -- History -- Sources",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: Health & Medicine",
+        "RD"
+      ]
+    },
+    {
+      "title": "Devlin the Barber",
+      "author": "Farjeon, B. L. (Benjamin Leopold), 1833-1903",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53044",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 53044); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53044/pg53044.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53044/pg53044.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53044/pg53044.cover.small.jpg"
+      ],
+      "subject": "Detective and mystery stories",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Detective and mystery stories",
+        "English fiction -- 19th century",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "The Wigmaker in Eighteenth-Century Williamsburg An Account of His Barbering, Hair-dressing, & Peruke-Making Services, & Some Remarks on Wigs of Various Styles.",
+      "author": "Bullock, Thomas K.; Tonkin, Maurice B.; Townsend, Raymond R. [Contributor]; Ford, Thomas K. [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58384",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58384); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58384/pg58384.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58384/pg58384.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58384/pg58384.cover.small.jpg"
+      ],
+      "subject": "Wigmakers",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Wigmakers",
+        "Wigs -- History",
+        "Category: History - American",
+        "GT",
+        "TT"
+      ]
+    },
+    {
+      "title": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "author": "Rymer, James Malcolm, 1814?-1884; Prest, Thomas Peckett, 1810-1859",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59828",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 59828); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59828/pg59828.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59828/pg59828.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59828/pg59828.cover.small.jpg"
+      ],
+      "subject": "Historical fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Historical fiction",
+        "Horror tales",
+        "Revenge -- Fiction",
+        "Young women -- Fiction",
+        "Missing persons -- Fiction",
+        "Suspense fiction",
+        "Murder -- Fiction",
+        "Mystery fiction",
+        "Todd, Sweeney (Legendary character) -- Fiction",
+        "Barbers -- Fiction",
+        "Bakers -- Fiction",
+        "Cannibalism -- Fiction",
+        "Fleet Street (London, England) -- Fiction",
+        "London (England) -- Social life and customs -- 18th century -- Fiction",
+        "Penny dreadfuls",
+        "Category: Romance",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Novels",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Tales of the clipper ships",
+      "author": "Smith, C. Fox (Cicely Fox), 1882-1954; Smith, Phil W. [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67242",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67242); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67242/pg67242.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67242/pg67242.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67242/pg67242.cover.small.jpg"
+      ],
+      "subject": "Short stories, English",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Short stories, English",
+        "Clipper ships -- Fiction",
+        "Category: Short Stories",
+        "Category: Adventure",
+        "PR"
+      ]
+    },
+    {
+      "title": "The clipper ship era an epitome of famous American and British clipper ships, their owners, builders, commanders, and crews, 1843-1869",
+      "author": "Clark, Arthur H., 1841-1922",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69154",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69154); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69154/pg69154.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69154/pg69154.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69154/pg69154.cover.small.jpg"
+      ],
+      "subject": "Clipper ships -- United States",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Clipper ships -- United States",
+        "Clipper ships -- Great Britain",
+        "Category: History - American",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "VK"
+      ]
+    },
+    {
+      "title": "The barber's chair; and, The hedgehog letters",
+      "author": "Jerrold, Douglas William, 1803-1857; Jerrold, Blanchard, 1826-1884 [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69868",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69868); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69868/pg69868.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69868/pg69868.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69868/pg69868.cover.small.jpg"
+      ],
+      "subject": "English wit and humor",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "English wit and humor",
+        "English literature -- 19th century",
+        "Category: Humour",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Trichocosmos: Notes historical, æsthetical, ethnological, physiological, anecdotal and tonsorial, on the hair & beard",
+      "author": "Anonymous",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68781",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 68781); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68781/pg68781.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68781/pg68781.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68781/pg68781.cover.small.jpg"
+      ],
+      "subject": "Hairdressing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Hairdressing",
+        "Barbering",
+        "Beards",
+        "Hair",
+        "Wigs",
+        "Category: History - Other",
+        "Category: Art",
+        "Category: Archaeology & Anthropology",
+        "GT",
+        "TT"
+      ]
+    },
+    {
+      "title": "The Colonial Clippers",
+      "author": "Lubbock, Basil, 1876-1944",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52897",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52897); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52897/pg52897.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52897/pg52897.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52897/pg52897.cover.small.jpg"
+      ],
+      "subject": "Merchant marine -- Great Britain",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Merchant marine -- Great Britain",
+        "Clipper ships",
+        "Category: History - Other",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "VK"
+      ]
+    },
+    {
+      "title": "Shavings: A Novel",
+      "author": "Lincoln, Joseph Crosby, 1870-1944",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/2452",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 2452); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/2452/pg2452.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/2452/pg2452.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/2452/pg2452.cover.small.jpg"
+      ],
+      "subject": "Man-woman relationships -- Fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Man-woman relationships -- Fiction",
+        "Massachusetts -- Fiction",
+        "Toymakers -- Fiction",
+        "Thieves -- Fiction",
+        "Cape Cod (Mass.) -- Fiction",
+        "Category: Humour",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Barbers' Manual (Part 1); Text Book on Taxidermy (Part 2)",
+      "author": "McConnaughay, T. J.",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52850",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 52850); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52850/pg52850.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52850/pg52850.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52850/pg52850.cover.small.jpg"
+      ],
+      "subject": "Taxidermy",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Taxidermy",
+        "Barbering",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "QL",
+        "TT"
+      ]
+    },
+    {
+      "title": "Shavings & Scrapes from many parts",
+      "author": "Joubert, Jules, 1824-1907",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58230",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 58230); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58230/pg58230.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58230/pg58230.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58230/pg58230.cover.small.jpg"
+      ],
+      "subject": "Pacific Area -- Description and travel",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pacific Area -- Description and travel",
+        "Joubert, Jules, 1824-1907 -- Travel -- Pacific Area",
+        "Pacific Area -- Social life and customs",
+        "Category: Biographies",
+        "Category: Travel Writing",
+        "DU"
+      ]
+    }
+  ],
+  "notes": "2026-07-20: Merged in 30 rows from the founder-provided 'barbing_business_resources.csv' (Section I.3), bringing the file from 0 channels / 1 blog / 0 books to a full 10 / 10 / 10. Four of the CSV's 10 channels — 'Huduma Global', 'Tuko.co.ke' (kept, but repurposed — see below), 'HustleCare', 'Barbering Techniques', and 'Barber Innovations TV' — could not be matched to a real, confirmable YouTube channel after two search passes (Huduma Global and HustleCare appear to be real businesses with real blogs, just with no dedicated/findable YouTube presence; 'Barbering Techniques' and 'Barber Innovations TV' returned no matching branded channel at all). To reach 10 verified channels, 3 independently-sourced, directly on-topic replacements were substituted: Seancutshair, Collins (equipment manufacturer), and Keller International (equipment wholesaler) — plus The Beauty Biz Agency, reused from business_08. The Tuko.co.ke channel was kept despite being a general Kenyan news channel (not barbing-specific), since the source directory's citation was for one specific human-interest story about a Nairobi barbershop manager's earnings — most of its catalog is unrelated. Two blog URLs are flagged for a pre-ship domain check: Splice (this file's existing blog.withsplice.com/feed/ entry was replaced with the CSV's splice.ng/feed/, matching the domain already verified for skill_02 this week — the two may be the same brand on different domains) and HustleCare (site currently resolves at hustlecare.net, not the CSV's hustlecare.co.ke).\n\nBooks audit (2026-07-30): All 10 book URLs audited. 7 of 10 had broken or risky URLs. Fixes: (1) SBA URL kept — confirmed working in skill_02. (2) YouTube @chrisbossio kept — confirmed 425K subs, active Dec 2025. (3) f5fp.com broken → archive.org E-Myth (same fix as skill_01/02). (4) mikemichalowicz.com broken → archive.org Profit First (same fix as skill_01/02). (5) archive.org/howtowinfriendsandinfluencepeople identifier unconfirmed → updated to confirmed archive.org copy with 2,647 views. (6) 1pagemarketingplan.com/resources dead → successwise.com (same fix as skill_02). (7) bdebooks.com is a piracy site not found in legitimate search index → replaced with official theleanstartup.com. (8) archive.org/RichDadPoorDad identifier unconfirmed → updated to confirmed copy. (9) archive.org/atomic-habits confirmed active — kept. (10) openstax small-business-management 404 → principles-management (same fix as skill_02). 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 20 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free."
+  ]
+}

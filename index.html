@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/Rumuo/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Rumuo - Financial Literacy Video Hub by chAs Technologies LLC">
+  <meta name="robots" content="index,follow">
+  <meta name="application-name" content="Rumuo">
+  <link rel="canonical" href="https://chastechnologiesllc.github.io/Rumuo/">
+
+  <!-- Declare support for both light and dark colour schemes.
+       This alone makes most modern browsers use the correct system scrollbar,
+       form control, and default background colours before any CSS runs. -->
+  <meta name="color-scheme" content="light dark">
+
+  <!-- Open Graph / WhatsApp / social share — absolute icon so previews show logo -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rumuo">
+  <meta property="og:title" content="Rumuo">
+  <meta property="og:description" content="Rumuo - Financial Literacy Video Hub by chAs Technologies LLC">
+  <meta property="og:image" content="https://chastechnologiesllc.github.io/Rumuo/icons/Icon-512.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:url" content="https://chastechnologiesllc.github.io/Rumuo/">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Rumuo">
+  <meta name="twitter:description" content="Rumuo - Financial Literacy Video Hub by chAs Technologies LLC">
+  <meta name="twitter:image" content="https://chastechnologiesllc.github.io/Rumuo/icons/Icon-512.png">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Rumuo">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+  <title>Rumuo</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#000000">
+
+  <style>
+    /*
+     * Pre-Flutter-load body background.
+     * Matches AppTheme.lightBg / AppTheme.darkBg so the page-load blank
+     * frame is the same colour the Flutter splash will render, eliminating
+     * the white-flash-before-dark-app (or vice-versa) that users see on
+     * slow connections before flutter_bootstrap.js takes over.
+     */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #ffffff; /* light default — AppTheme.lightBg */
+    }
+    @media (prefers-color-scheme: dark) {
+      html, body {
+        background-color: #000000; /* dark — AppTheme.darkBg */
+      }
+    }
+
+    /*
+     * YouTube iframe platform-view containers.
+     * Flutter web wraps each HtmlElementView in a <flt-platform-view> div.
+     * Without this rule the outer div is transparent; on a white body this
+     * means a white flash is visible while the iframe's own black background
+     * hasn't painted yet.
+     */
+    flt-platform-view iframe {
+      background-color: #000000 !important;
+    }
+
+    /* Paint the same splash composition as the mobile/iOS Flutter splash
+       before Flutter's JS bundle downloads. It is the only Web splash. */
+    #rumuo-web-boot {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: grid;
+      place-items: center;
+      background: #ffffff;
+      color: #111111;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      transition: opacity 180ms ease-out;
+    }
+    #rumuo-web-boot.is-hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    #rumuo-web-boot .boot-content {
+      display: grid;
+      justify-items: center;
+      gap: 0;
+      /* Native splash composition sits just above the visual midpoint. */
+      transform: translateY(-4vh);
+    }
+    #rumuo-web-boot .boot-mark {
+      display: block;
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+      border-radius: 26px;
+    }
+    #rumuo-web-boot .boot-name {
+      margin-top: 24px;
+      color: #0a0a0a;
+      font-size: 38px;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      line-height: 1;
+    }
+    #rumuo-web-boot .boot-status {
+      margin-top: 8px;
+      color: #F0AA1D;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+    #rumuo-web-boot .boot-by {
+      position: absolute;
+      bottom: 40px;
+      color: #0a0a0a;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+    @media (prefers-color-scheme: dark) {
+      #rumuo-web-boot {
+        background: #000000;
+        color: #ffffff;
+      }
+      #rumuo-web-boot .boot-name,
+      #rumuo-web-boot .boot-by {
+        color: #f5f5f5;
+      }
+      #rumuo-web-boot .boot-status {
+        color: #F0AA1D;
+      }
+    }
+  </style>
+
+  <!-- AdSense loader (test client). Replace client= with production ca-pub. -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3940256099942544"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="rumuo-web-boot" role="status" aria-live="polite" aria-label="Loading Rumuo">
+    <div class="boot-content">
+      <img class="boot-mark" src="icons/Icon-192.png" alt="Rumuo" />
+      <div class="boot-name">Rumuo</div>
+      <div class="boot-status">Opening your discovery space…</div>
+    </div>
+    <div class="boot-by">by chAs</div>
+  </div>
+  <script>
+    (function () {
+      var boot = document.getElementById('rumuo-web-boot');
+      if (!boot) return;
+      function hideBoot() {
+        boot.classList.add('is-hidden');
+        window.setTimeout(function () {
+          if (boot.parentNode) boot.parentNode.removeChild(boot);
+        }, 220);
+      }
+      // This is the only Web splash. Keep it in place until Flutter has
+      // painted the first usable onboarding or shell frame; hiding on an
+      // earlier engine frame would create a blank/second-page transition.
+      window.addEventListener('rumuo-app-ready', hideBoot, { once: true });
+    }());
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

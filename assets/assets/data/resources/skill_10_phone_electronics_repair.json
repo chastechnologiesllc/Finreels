@@ -1,0 +1,1533 @@
+{
+  "categoryId": "skill_10_phone_electronics_repair",
+  "status": "verified",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UCWFKCr40YwOZQx8FHU_ZqqQ",
+      "name": "JerryRigEverything",
+      "handle": "@jerryrigeverything",
+      "description": "Repair YouTuber turned phone case business owner — the clearest example of a hands-on repair skill becoming a scalable product and content business, built entirely in public on YouTube.",
+      "accentColor": "0xFF3B82F6",
+      "initials": "JR",
+      "focus": "Repair skill → scalable product and content business",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "ID UCWFKCr40YwOZQx8FHU_ZqqQ confirmed via Wikidata cross-referenced with YouTube API data. Handle @jerryrigeverything confirmed active."
+    },
+    {
+      "id": "UCHbx9IUW7eCeJsC4sBCTNBA",
+      "name": "iFixit",
+      "handle": "@iFixit",
+      "description": "Repair business advocacy plus tool sales model — 25,000+ free device manuals, proprietary repair tool kits, and right-to-repair campaigning combined into a complete repair ecosystem and business.",
+      "accentColor": "0xFF16A34A",
+      "initials": "IF",
+      "focus": "Repair business advocacy + tool sales model",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "ID UCHbx9IUW7eCeJsC4sBCTNBA confirmed via Wikidata (multiple YouTube API data points 2021–2024 citing the same ID). Handle @iFixit confirmed active."
+    },
+    {
+      "id": "UCCOrp7GPgZA8EGrbOcIAsyQ",
+      "name": "Phone Repair Guru",
+      "handle": "@phonerepairguru",
+      "description": "Phone repair shop business content — practical video on what it takes to operate a repair shop, covering pricing, parts sourcing, and customer handling.",
+      "accentColor": "0xFFEC4899",
+      "initials": "PG",
+      "focus": "Phone repair shop business operations",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "ID UCCOrp7GPgZA8EGrbOcIAsyQ confirmed from direct YouTube channel URL appearing in search results. Handle @phonerepairguru confirmed active."
+    },
+    {
+      "id": "UCfOrKQtC1tDfGf_fFVb8pYw",
+      "name": "TronicsFix",
+      "handle": "@tronicsfix",
+      "description": "Electronics repair business journey — follows the real experience of running a physical repair shop, with behind-the-scenes content on revenue, operations, and the business of repair.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "TF",
+      "focus": "Electronics repair business journey",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "ID UCfOrKQtC1tDfGf_fFVb8pYw confirmed from direct YouTube URL appearing across archive.org mirrors, noxinfluencer, and tronicsfix.com own site. Handle @tronicsfix confirmed active."
+    },
+    {
+      "id": "UCfHl7Qc9Bb84qxMIU2WMq1g",
+      "name": "Go Cell Phone Repair",
+      "handle": "@gocellphonerepair",
+      "description": "Hands-on repair demonstrations for late-model cell phones, tablets, and game consoles — practical teardown and fix videos covering the full range of devices a repair shop would encounter.",
+      "accentColor": "0xFF84CC16",
+      "initials": "GC",
+      "focus": "Multi-device repair demonstrations — phones, tablets, consoles",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "NAME CORRECTED: CSV listed 'Tablet & Phone Repair'. Closest confirmed channel is 'Go Cell Phone Repair' (UCfHl7Qc9Bb84qxMIU2WMq1g) — YouTube URL confirmed in search results. Channel covers phones, tablets, and game consoles, matching the CSV intent. Confirm this is the intended channel before shipping."
+    },
+    {
+      "id": "UCooKQlg-HZ0PFAPc4Ymg3RA",
+      "name": "Electronics Repair School",
+      "handle": "@electronicsrepairschool",
+      "description": "Repair training with business setup guides — combines technical instruction with step-by-step guidance on formalising a repair business, from tools to customer acquisition.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "ER",
+      "focus": "Repair training + business setup guidance",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "ID UCooKQlg-HZ0PFAPc4Ymg3RA confirmed from direct YouTube channel URL in search results. Handle @electronicsrepairschool confirmed active."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC5rrHufEb1d4l31kf9bGYfg",
+      "name": "This Old House",
+      "handle": "@thisoldhouse",
+      "description": "Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TO",
+      "focus": "Phone & Electronics Repair: Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5rrHufEb1d4l31kf9bGYfg; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1MZgHA2PsX2hlaYo8ECQAw",
+      "name": "Essential Craftsman",
+      "handle": "@EssentialCraftsman",
+      "description": "Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EC",
+      "focus": "Phone & Electronics Repair: Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1MZgHA2PsX2hlaYo8ECQAw; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnorhjQR4zJkT7AVNhu395Q",
+      "name": "Home RenoVision DIY",
+      "handle": "@HomeRenoVisionDIY",
+      "description": "Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "HR",
+      "focus": "Phone & Electronics Repair: Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnorhjQR4zJkT7AVNhu395Q; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBB7sYb14uBtk8UqSQYc9-w",
+      "name": "The Honest Carpenter",
+      "handle": "@TheHonestCarpenter",
+      "description": "Carpentry knowledge, building science, tool use, and construction quality.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TH",
+      "focus": "Phone & Electronics Repair: Carpentry knowledge, building science, tool use, and construction quality.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBB7sYb14uBtk8UqSQYc9-w; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKwM-7sO1_Tw9EmYhKfpBBw",
+      "name": "Perkins Builder Brothers",
+      "handle": "@PerkinsBuilderBrothers",
+      "description": "Residential construction, framing, tools, building systems, and project execution.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PB",
+      "focus": "Phone & Electronics Repair: Residential construction, framing, tools, building systems, and project execution.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKwM-7sO1_Tw9EmYhKfpBBw; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@ElectricianU",
+      "description": "Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "EU",
+      "focus": "Phone & Electronics Repair: Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCB3jUEyCLRbCw7QED0vnXYg; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCk0rn9r3IxR-FNjCzHBa5RQ",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "accentColor": "0xFF0F766E",
+      "initials": "G",
+      "focus": "Phone & Electronics Repair: Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCk0rn9r3IxR-FNjCzHBa5RQ; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCraGaDLfWec67xl9FEPndtw",
+      "name": "See Jane Drill",
+      "handle": "@SeeJaneDrill",
+      "description": "Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SJ",
+      "focus": "Phone & Electronics Repair: Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCraGaDLfWec67xl9FEPndtw; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwRccMruxRafT7Tx1u1dTPw",
+      "name": "Roger Wakefield",
+      "handle": "@RogerWakefield",
+      "description": "Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "accentColor": "0xFFB45309",
+      "initials": "RW",
+      "focus": "Phone & Electronics Repair: Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwRccMruxRafT7Tx1u1dTPw; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCYohLjTaUZLF3-JjttxG_CA",
+      "name": "AC Service Tech",
+      "handle": "@ACServiceTech",
+      "description": "Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "accentColor": "0xFF475569",
+      "initials": "AS",
+      "focus": "Phone & Electronics Repair: Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCYohLjTaUZLF3-JjttxG_CA; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCWGLfdGOQUrKK9dYdEq4qAg",
+      "name": "Word of Advice TV",
+      "handle": "@WordofAdviceTV",
+      "description": "Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "accentColor": "0xFF2563EB",
+      "initials": "WO",
+      "focus": "Phone & Electronics Repair: Home repair, plumbing, heating, electrical, and practical maintenance guidance.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCWGLfdGOQUrKK9dYdEq4qAg; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCY1kMZp36IQSyNx_9h4mpCg",
+      "name": "ElectroBOOM",
+      "handle": "@ElectroBOOM",
+      "description": "Electrical engineering, circuits, safety, and measurement.",
+      "accentColor": "0xFF16A34A",
+      "initials": "E",
+      "focus": "Phone & Electronics Repair: Electrical engineering, circuits, safety, and measurement.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCY1kMZp36IQSyNx_9h4mpCg; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UChCd17oKbPA1yIfv4Cb_RSw",
+      "name": "ChrisFix",
+      "handle": "@ChrisFix",
+      "description": "Automotive maintenance, diagnostics, repair procedures, tools, and workshop skills.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "C",
+      "focus": "Phone & Electronics Repair: Automotive maintenance, diagnostics, repair procedures, tools, and workshop skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UChCd17oKbPA1yIfv4Cb_RSw; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCUPPMkXFBPr-TAAE-CV9Jlg",
+      "name": "The Car Care Nut",
+      "handle": "@TheCarCareNut",
+      "description": "Vehicle systems, diagnostics, maintenance, repair quality, and automotive ownership.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TC",
+      "focus": "Phone & Electronics Repair: Vehicle systems, diagnostics, maintenance, repair quality, and automotive ownership.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUPPMkXFBPr-TAAE-CV9Jlg; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2QSX1z7lvF3bWXv6sK0UXw",
+      "name": "Professor Pincushion",
+      "handle": "@ProfessorPincushion",
+      "description": "Sewing, tailoring, garment construction, patterns, and textile skills.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PP",
+      "focus": "Phone & Electronics Repair: Sewing, tailoring, garment construction, patterns, and textile skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2QSX1z7lvF3bWXv6sK0UXw; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCPnSaAAVVo0q1tfWY5S3j7g",
+      "name": "withwendy",
+      "handle": "@withwendy",
+      "description": "Garment sewing, pattern adaptation, design process, and clothing construction.",
+      "accentColor": "0xFFDB4437",
+      "initials": "W",
+      "focus": "Phone & Electronics Repair: Garment sewing, pattern adaptation, design process, and clothing construction.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCPnSaAAVVo0q1tfWY5S3j7g; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "OF",
+      "focus": "Phone & Electronics Repair: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF9333EA",
+      "initials": "Y",
+      "focus": "Phone & Electronics Repair: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFB45309",
+      "initials": "SO",
+      "focus": "Phone & Electronics Repair: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF475569",
+      "initials": "KA",
+      "focus": "Phone & Electronics Repair: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Phone & Electronics Repair learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Carlcare",
+      "url": "https://www.carlcare.com/ng/tips-detail/starting-a-mobile-repair-business-in-Nigeria/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Specific article URL confirmed via search results. Carlcare Nigeria tips page — includes Ikeja, Lagos training centre address and enrollment guidance."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/mobile-phone-repair-business/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Specific article URL confirmed via search results. 2025 guide — includes 60–75% gross margin calculation on a single screen replacement job. Live and indexed."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://bintusartandeverything.com/how-to-start-a-mobile-phone-repair-business-in-nigeria/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Specific article URL confirmed via search results (April 2026). Covers tools-and-capital tier breakdown — ₦50,000 to ₦300,000 startup range — and beginner-to-advanced tool progression."
+    },
+    {
+      "name": "OtuInfo",
+      "url": "https://otuinfo.com/how-to-make-money-fixing-mobile-phones/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Specific article URL confirmed via search results. Real weekly-income math: 10 repairs/week × ₦5,000 average profit = ₦50,000/week. Live and indexed."
+    },
+    {
+      "name": "Africa's Young Entrepreneurs",
+      "url": "https://ayeorganization.com/2023/08/31/how-to-start-a-mobile-phone-repair-business-in-nigeria-africa/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "URL CORRECTED: CSV listed domain as africasyoungentrepreneurs.com (Instagram handle). Actual website is ayeorganization.com. Specific article URL confirmed via search results. AYE head office in Akure, Ondo State, Nigeria."
+    },
+    {
+      "name": "ThePointNG",
+      "url": "https://www.thepointng.com/starting-a-mobile-phone-repair-business-in-nigeria/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Specific article URL confirmed via search results. Nigerian phone repair guide — covers market entry, specialisation, pricing, and customer acquisition. Live and indexed."
+    },
+    {
+      "name": "iFixit Blog",
+      "url": "https://www.ifixit.com/News",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "ifixit.com/News confirmed as the canonical blog/news section. Covers repair business model and right-to-repair advocacy."
+    },
+    {
+      "name": "Phone Repair Business Guide",
+      "url": "https://phonerepairbusinessguide.com/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "SOFT FLAG: Domain did not appear in search results during verification pass. Site may be low-traffic or inactive. Confirm site is live at phonerepairbusinessguide.com before shipping; if dead, replace with an alternative free business guide."
+    },
+    {
+      "name": "Mobile Repair Business",
+      "url": "https://mobilerepairbusiness.com/",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "SOFT FLAG: Domain did not appear in search results during verification pass. Site may be low-traffic or inactive. Confirm site is live at mobilerepairbusiness.com before shipping; if dead, replace with an alternative."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "region": "Global",
+      "focus": "Construction, repair, renovation, tools, and home systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Family Handyman",
+      "url": "https://www.familyhandyman.com/",
+      "region": "Global",
+      "focus": "DIY, woodworking, repair, tools, and practical home skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fine Woodworking",
+      "url": "https://www.finewoodworking.com/",
+      "region": "Global",
+      "focus": "Advanced woodworking, furniture making, tools, and craftsmanship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Plumbing & Mechanical",
+      "url": "https://www.pmmag.com/",
+      "region": "Global",
+      "focus": "Plumbing, HVAC, hydronics, codes, and trade practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Notes",
+      "url": "https://www.electronics-notes.com/",
+      "region": "Global",
+      "focus": "Electronics fundamentals, components, circuits, and design.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "region": "Global",
+      "focus": "Salon technique, hairdressing, beauty, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Harvard Health",
+      "url": "https://www.health.harvard.edu/blog",
+      "region": "Global",
+      "focus": "Health, wellbeing, prevention, and medical explainers.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/",
+      "region": "Global",
+      "focus": "History, science, culture, art, and public scholarship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "region": "Global",
+      "focus": "Technology, science, innovation, and social implications.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/",
+      "region": "Global",
+      "focus": "Space science, Earth science, missions, and scientific discovery.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Electronics Repair Business Guide",
+      "author": "SBA.gov",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free via SBA.gov — official U.S. Small Business Administration business planning framework. No account required.",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "SBA.gov is a confirmed free public resource. URL points to the business plan guide section. No login or registration required.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "iFixit Repair Manuals",
+      "author": "iFixit",
+      "freeSourceUrl": "https://www.ifixit.com/Guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Thousands of free repair manuals, tutorials, and how-to guides from iFixit — covering phones, tablets, laptops, and all electronics. The world's largest free repair manual library.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.ifixit.com/Manuals — /Manuals path not confirmed in search index. Updated to https://www.ifixit.com/Guide — confirmed active via web search (search snippet: 'Repair Manuals for Every Thing — iFixit | Thousands of repair manuals, tutorials, and how-to guides', 2026-07-30).",
+      "coverUrl": "https://assets.ifixit.com/static/icons/ifixit/apple-touch-icon.png"
+    },
+    {
+      "title": "The $100 Startup",
+      "author": "Chris Guillebeau",
+      "freeSourceUrl": "https://archive.org/details/100startupreinve0000guil",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Available via Internet Archive. Free account required to borrow (14-day lending period).",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "URL CORRECTED: Original guess 'the-100-startup' was wrong. Confirmed identifier is '100startupreinve0000guil'. Item is in the 'printdisabled' collection — free borrow requires a free Internet Archive account. Not a direct PDF download without login.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307951526-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Official Lean Startup site — free methodology overview, principles, case studies, and resources for building a business that continuously tests, learns, and grows.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://bdebooks.com/books/the-lean-startup-by-eric-ries-pdf-free-download/ is a piracy/copyright-infringing site (same domain confirmed piracy in skill_03 audit). Same fix applied.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "freeSourceUrl": "https://archive.org/details/rich-dad-poor-dad-robert-kiyosaki",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free on Internet Archive — Kiyosaki's foundational guide to financial independence, assets vs. liabilities, and making money work for you.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://archive.org/details/KiyosakiRichDadPoorDad — identifier not confirmed in archive.org search index (2026-07-30). Same fix applied as skill_03: rich-dad-poor-dad-robert-kiyosaki confirmed active (uploaded April 2020, still indexed 2025).",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg"
+    },
+    {
+      "title": "The Personal MBA",
+      "author": "Josh Kaufman",
+      "freeSourceUrl": "https://archive.org/details/personalmbaworld0000kauf",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Available via Internet Archive. Free account required to borrow (14-day lending period).",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "Identifier 'personalmbaworld0000kauf' confirmed in search results. Item is in the 'internetarchivebooks' collection — access-restricted borrow requires a free Internet Archive account. Not a direct download without login.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781591845188-L.jpg"
+    },
+    {
+      "title": "Crushing It!",
+      "author": "Gary Vaynerchuk",
+      "freeSourceUrl": "https://www.youtube.com/@garyvee",
+      "freeSourceType": "video",
+      "freeSourceNote": "Free via Gary Vaynerchuk's YouTube channel — personal brand and content business building, applicable to repair technicians building a local audience and referral pipeline.",
+      "verifiedOn": "2026-07-22",
+      "verificationMethod": "YouTube channel @garyvee confirmed active. Note: this is video content, not a PDF. CSV explicitly listed Format as 'Video' and domain as 'youtube.com/@garyvee' — intentional choice by the research team.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780062674678-L.jpg"
+    },
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://archive.org/details/TheEMythRevisitedMichaelE.Gerber",
+      "freeSourceType": "PDF",
+      "freeSourceNote": "Free to read and download via Internet Archive — why most small businesses fail and how to build repeatable systems that work without the owner.",
+      "verifiedOn": "2026-07-30",
+      "verificationMethod": "Previous URL https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-Revisited-b.pdf is a dead direct PDF on the broken f5fp.com domain. Same fix applied as skill_01–05.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://archive.org/details/profitfirst0000mich",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. Cash management system that forces profit first.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780735214149-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Atoms in Agriculture: Applications of Nuclear Science to Agriculture (Revised)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49036",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49036; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49036/pg49036.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49036/pg49036.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49036/pg49036.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49036/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Radioisotopes in agriculture",
+        "Agriculture -- Research",
+        "Category: Science - Physics",
+        "Category: Science - Earth/Agricultural/Farming",
+        "S"
+      ]
+    },
+    {
+      "title": "Experiments with Alternate Currents of High Potential and High Frequency\r\nA Lecture Delivered before the Institution of Electrical Engineers, London",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/13476",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #13476; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/13476/pg13476.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/13476/pg13476.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/13476/pg13476.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/13476/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Electric currents, Alternating",
+        "Electric discharges",
+        "Incandescent lamps",
+        "Telegraph, Wireless",
+        "Category: Biographies",
+        "Category: Science - Physics",
+        "Category: Engineering & Technology",
+        "QC"
+      ]
+    },
+    {
+      "title": "Lightning Rod Conference\r\nReport of the Delegates from the Following Societies, Viz.: Meteorological Society, Royal Institute of British Architects, Society of Telegraph Engineers and of Electricians, Physical Society. With a Code of Rules for the Erection of Lightning Conductors; and Various Appendices",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58367",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58367; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58367/pg58367.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58367/pg58367.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58367/pg58367.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/58367/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Lightning conductors",
+        "Lightning conductors -- Bibliography",
+        "Category: Engineering & Technology",
+        "Category: Architecture",
+        "TH"
+      ]
+    },
+    {
+      "title": "On the relation which ought to subsist between the strength of an electric current and the diameter of conductors, to prevent overheating\r\nA paper read at the Society of Telegraph-Engineers and Electricians, March 27th, 1884.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69374",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69374; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69374/pg69374.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69374/pg69374.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69374/pg69374.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69374/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Electric conductors",
+        "TK"
+      ]
+    },
+    {
+      "title": "The American Electro Magnetic Telegraph\r\nWith the Reports of Congress, and a Description of All Telegraphs Known, Employing Electricity or Galvanism",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61533",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61533; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61533/pg61533.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61533/pg61533.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61533/pg61533.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/61533/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telegraph -- History",
+        "Category: American Literature",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "The Hacker Crackdown: Law and Disorder on the Electronic Frontier",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/101",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #101; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/101/pg101.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/101/pg101.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/101/pg101.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/101/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Computer crimes -- United States",
+        "Telephone -- Corrupt practices -- United States",
+        "Computer programming -- Corrupt practices -- United States",
+        "Category: History - Modern (1750+)",
+        "Category: Law & Criminology",
+        "HV"
+      ]
+    },
+    {
+      "title": "The Romance of Modern Invention\r\nContaining Interesting Descriptions in Non-technical Language of Wireless Telegraphy, Liquid Air, Modern Artillery, Submarines, Dirigible Torpedoes, Solar Motors, Airships, &c. &c.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41160",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41160; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41160/pg41160.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41160/pg41160.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41160/pg41160.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41160/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Inventions",
+        "Category: Children & Young Adult Reading",
+        "Category: Science - Physics",
+        "Category: Engineering & Technology",
+        "T"
+      ]
+    },
+    {
+      "title": "The Telephone\r\nAn Account of the Phenomena of Electricity, Magnetism, and Sound, as Involved in Its Action",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33154",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33154; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33154/pg33154.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33154/pg33154.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33154/pg33154.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/33154/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telephone",
+        "Technology",
+        "Category: Science - Physics",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "The telephone, the microphone & the phonograph",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75683",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75683; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75683/pg75683.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75683/pg75683.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75683/pg75683.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/75683/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telephone",
+        "Microphone",
+        "Phonograph",
+        "Category: History - Modern (1750+)",
+        "Category: Science - Physics",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "Underground: Hacking, madness and obsession on the electronic frontier",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/4686",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #4686; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/4686/pg4686.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/4686/pg4686.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/4686/pg4686.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/4686/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Computer hackers -- Australia -- Biography",
+        "Computer crimes -- Australia",
+        "Computer security -- Australia",
+        "Category: Engineering & Technology",
+        "Category: Psychiatry/Psychology",
+        "HV"
+      ]
+    },
+    {
+      "title": "Vision by radio, radio photographs, radio photograms",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73845",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73845; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73845/pg73845.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73845/pg73845.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73845/pg73845.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73845/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Phototelegraphy",
+        "Category: Engineering & Technology",
+        "Category: Journalism/Media/Writing",
+        "TK"
+      ]
+    },
+    {
+      "title": "Wireless Transmission of Photographs\nSecond Edition, Revised and Enlarged 1919",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34052",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34052; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34052/pg34052.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34052/pg34052.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34052/pg34052.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34052/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Phototelegraphy",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "Workshop on Electronic Texts: Proceedings, 9-10 June 1992",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53/pg53.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53/pg53.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53/pg53.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Text processing (Computer science) -- Congresses",
+        "Electronic books",
+        "Electronic publishing -- Congresses",
+        "Category: Engineering & Technology",
+        "Category: Reports & Conference Proceedings",
+        "Z"
+      ]
+    },
+    {
+      "title": "A Brief Account of Radio-activity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32307",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #32307; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/32307/pg32307.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/32307/pg32307.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/32307/pg32307.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/32307/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Radioactivity",
+        "Category: Science - Physics",
+        "Category: Science - Chemistry/Biochemistry",
+        "QC"
+      ]
+    },
+    {
+      "title": "A History of EBooks",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29801",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29801; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29801/pg29801.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29801/pg29801.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29801/pg29801.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29801/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Electronic books",
+        "Category: History - Modern (1750+)",
+        "Z"
+      ]
+    },
+    {
+      "title": "A Story of the Telegraph",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50864",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50864; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50864/pg50864.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50864/pg50864.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50864/pg50864.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50864/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telegraph -- History",
+        "Cables, Submarine -- History",
+        "Telegraph -- Canada -- History",
+        "Telegraph, Wireless -- History",
+        "Telegraph, Wireless -- Canada -- History",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "Americans All, Immigrants All",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61635",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61635; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61635/pg61635.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61635/pg61635.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61635/pg61635.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/61635/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Americanization",
+        "Immigrants -- United States -- History",
+        "Acculturation -- United States",
+        "Radio in education",
+        "Category: History - Other",
+        "Category: History - American",
+        "JV"
+      ]
+    },
+    {
+      "title": "Atoms, Nature, and Man: Man-made Radioactivity in the Environment",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48038",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48038; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48038/pg48038.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48038/pg48038.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48038/pg48038.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/48038/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Nuclear energy",
+        "Category: Science - Physics",
+        "Category: Science - Biology",
+        "Category: Environmental Issues",
+        "QC"
+      ]
+    },
+    {
+      "title": "Booknology: The eBook (1971-2010)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33460",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33460; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33460/pg33460.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33460/pg33460.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33460/pg33460.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/33460/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Electronic books",
+        "Category: History - Modern (1750+)",
+        "Category: Journalism/Media/Writing",
+        "Z"
+      ]
+    },
+    {
+      "title": "Computers—the machines we think with",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/72572",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #72572; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/72572/pg72572.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/72572/pg72572.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/72572/pg72572.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/72572/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Computers -- Popular works",
+        "Electronic data processing -- Popular works",
+        "Category: Engineering & Technology",
+        "QA"
+      ]
+    },
+    {
+      "title": "Cyclopedia of Telephony and Telegraphy, Vol. 1\r\nA General Reference Work on Telephony, etc. etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15617",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #15617; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/15617/pg15617.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/15617/pg15617.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/15617/pg15617.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/15617/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telephone",
+        "Telegraph",
+        "Technology",
+        "Category: Engineering & Technology",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "TK"
+      ]
+    },
+    {
+      "title": "Cyclopedia of Telephony and Telegraphy, Vol. 2\nA General Reference Work on Telephony, etc. etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33437",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33437; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33437/pg33437.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33437/pg33437.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33437/pg33437.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/33437/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telephone",
+        "Telegraph",
+        "Technology",
+        "Category: Engineering & Technology",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "TK"
+      ]
+    },
+    {
+      "title": "Delco Radio Owner's Manual Model 633; Delcotron Generator Installation",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/31407",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #31407; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/31407/pg31407.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/31407/pg31407.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/31407/pg31407.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/31407/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Radio -- Receivers and reception -- Handbooks, manuals, etc.",
+        "Technology",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TK"
+      ]
+    },
+    {
+      "title": "E-mail 101",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75/pg75.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75/pg75.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75/pg75.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/75/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Electronic mail systems",
+        "Category: How To ...",
+        "TK"
+      ]
+    },
+    {
+      "title": "Ebooks: Neither E, Nor Books\r\nPaper for the O'Reilly Emerging Technologies Conference, 2004",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11077",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11077; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11077/pg11077.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11077/pg11077.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11077/pg11077.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/11077/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Electronic books",
+        "Category: Essays, Letters & Speeches",
+        "Category: Journalism/Media/Writing",
+        "Z"
+      ]
+    },
+    {
+      "title": "Emerson Radio Model 39 Warranty Card",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36877",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36877; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36877/pg36877.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36877/pg36877.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36877/pg36877.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36877/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Radio -- Receivers and reception",
+        "Warranty",
+        "Category: How To ...",
+        "TK"
+      ]
+    },
+    {
+      "title": "Explorations in Australia\r\n1.-Explorations in search of Dr. Leichardt and party. 2.-From Perth to Adelaide, around the great Australian bight. 3.-From Champion Bay, across the desert to the telegraph and to Adelaide. With an appendix on the condition of Western Australia.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/9958",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #9958; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/9958/pg9958.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/9958/pg9958.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/9958/pg9958.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/9958/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Australia -- Description and travel",
+        "Australia -- Discovery and exploration",
+        "Australia",
+        "Category: Travel Writing",
+        "Category: History - Other",
+        "DU"
+      ]
+    },
+    {
+      "title": "From the Print Media to the Internet",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/27030",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #27030; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/27030/pg27030.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/27030/pg27030.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/27030/pg27030.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/27030/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Internet",
+        "Books",
+        "Electronic books",
+        "Libraries",
+        "World Wide Web",
+        "Bookstores",
+        "Publishers and publishing",
+        "Category: Journalism/Media/Writing",
+        "TK",
+        "Z"
+      ]
+    },
+    {
+      "title": "Heroes of the Telegraph",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/979",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #979; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/979/pg979.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/979/pg979.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/979/pg979.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/979/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telegraph -- History",
+        "Category: Biographies",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "Hertzian Wave Wireless Telegraphy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38526",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38526; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38526/pg38526.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38526/pg38526.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38526/pg38526.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38526/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telegraph, Wireless",
+        "Electric waves",
+        "Category: Science - Physics",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "How Old Is It? The Story of Dating in Archeaology",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65151",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65151; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65151/pg65151.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65151/pg65151.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65151/pg65151.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65151/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Radiocarbon dating",
+        "Archaeological dating",
+        "Dendrochronology",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Archaeology & Anthropology",
+        "QC"
+      ]
+    },
+    {
+      "title": "Induction Coils, How to Make, Use, and Repair Them.\r\nIncluding Ruhmkorff, Tesla, and Medical Coils, Roentgen Radiography, Etc. Etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54221",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54221; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54221/pg54221.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54221/pg54221.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54221/pg54221.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54221/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Induction coils",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "QC"
+      ]
+    },
+    {
+      "title": "Lessons in Wireless Telegraphy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63345",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63345; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63345/pg63345.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63345/pg63345.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63345/pg63345.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63345/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telegraph, Wireless",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "Letters of a Radio-Engineer to His Son",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30688",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30688; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30688/pg30688.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30688/pg30688.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30688/pg30688.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30688/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Radio",
+        "Technology",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "Masters of Space\r\nMorse and the Telegraph; Thompson and the Cable; Bell and the Telephone; Marconi and the Wireless Telegraph; Carty and the Wireless Telephone",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12375",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12375; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12375/pg12375.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12375/pg12375.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12375/pg12375.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/12375/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telephone",
+        "Telegraph",
+        "Radio",
+        "Telegraph, Wireless",
+        "Marconi, Guglielmo, marchese, 1874-1937",
+        "Carty, John J. (John Joseph), 1861-1932",
+        "Kelvin, William Thomson, Baron, 1824-1907",
+        "Bell, Alexander Graham, 1847-1922",
+        "Morse, Samuel Finley Breese, 1791-1872",
+        "Category: History - Other",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "Mental Radio",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63693",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63693; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63693/pg63693.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63693/pg63693.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63693/pg63693.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63693/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telepathy",
+        "Sinclair, Upton, 1878-1968",
+        "Sinclair, Mary Craig, 1883-1961",
+        "Telepathy -- Case studies",
+        "Category: Science - Biology",
+        "Category: Psychiatry/Psychology",
+        "BF"
+      ]
+    },
+    {
+      "title": "Nuclear Clocks\nRevised",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49070",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49070; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49070/pg49070.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49070/pg49070.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49070/pg49070.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49070/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Radioactive dating",
+        "Category: Science - Physics",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Archaeology & Anthropology",
+        "QC"
+      ]
+    },
+    {
+      "title": "Our Nuclear Future: Facts, Dangers and Opportunities",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66408",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66408; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66408/pg66408.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66408/pg66408.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66408/pg66408.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66408/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Nuclear energy -- Popular works",
+        "Radioactivity -- Physiological effect",
+        "Nuclear weapons",
+        "Category: Science - Physics",
+        "Category: Environmental Issues",
+        "QC"
+      ]
+    },
+    {
+      "title": "Philipp Reis: Inventor of the Telephone\nA Biographical Sketch",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56542",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56542; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56542/pg56542.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56542/pg56542.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56542/pg56542.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56542/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Telephone -- History",
+        "Reis, Philipp, 1834-1874",
+        "Category: Biographies",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    },
+    {
+      "title": "Preliminary Specifications: Programmed Data Processor Model Three (PDP-3)\nOctober, 1960",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29461",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29461; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29461/pg29461.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29461/pg29461.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29461/pg29461.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29461/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Electronic digital computers",
+        "PDP-3 (Computer)",
+        "Category: Engineering & Technology",
+        "TK"
+      ]
+    }
+  ],
+  "notes": "Verification pass completed 2026-07-22. Counts: 10 channels / 10 blogs / 10 books. REMAINING SHIP-BLOCKERS (2): Channel 6 'Nigerian Phone Repair' and Channel 8 'Kenyan Phone Repair Business' have no confirmed YouTube channel IDs — CSV labels appear to be descriptive, not actual channel names. Manual YouTube search required for both before these two entries can ship. All other items resolved. CONFIRMED CHANNEL IDs (8/10): JerryRigEverything, iFixit, Phone Repair Guru, TronicsFix, Carlcare Service Global, Phone Repair Hub, Go Cell Phone Repair, Electronics Repair School. NAME CORRECTIONS APPLIED (2): 'Mobile Repair Hub' → Phone Repair Hub; 'Tablet & Phone Repair' → Go Cell Phone Repair. URL CORRECTIONS APPLIED: Africa's Young Entrepreneurs corrected from africasyoungentrepreneurs.com to ayeorganization.com with confirmed article URL; ThePointNG, OtuInfo, Bintus, Entrepreneurs.ng all upgraded to specific article URLs; Carlcare upgraded to specific article URL. ARCHIVE.ORG IDs CORRECTED: $100 Startup, Rich Dad Poor Dad, Atomic Habits, 4-Hour Work Week all updated to confirmed identifiers. Rich Dad Poor Dad and Atomic Habits and 4-Hour Work Week are in opensource collections (no-account download). $100 Startup and Personal MBA require a free IA account to borrow. SOFT FLAGS: phonerepairbusinessguide.com and mobilerepairbusiness.com not confirmed live — check before shipping; BusinessDay Nigeria still needs a specific article URL.\n\nBooks audit (2026-07-30): 5 of 10 URLs fixed in this pass (skill_10). 'iFixit Repair Manuals': https://www.ifixit.com/Manuals... → https://www.ifixit.com/Guide | 'The Lean Startup': https://bdebooks.com/books/the-lean-startup-by-eric-ries-pdf... → https://theleanstartup.com | 'Rich Dad Poor Dad': https://archive.org/details/KiyosakiRichDadPoorDad... → https://archive.org/details/rich-dad-poor-dad-robert-kiyosaki | 'Atomic Habits': https://archive.org/details/atomic-habits-pdfdrive... → https://jamesclear.com/atomic-habits | 'The E-Myth Revisited': https://www.f5fp.com/wp-content/uploads/2014/12/The-e-Myth-R... → https://archive.org/details/TheEMythRevisitedMichaelE.Gerber 2026-08-23: Added 40 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Review the 40 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

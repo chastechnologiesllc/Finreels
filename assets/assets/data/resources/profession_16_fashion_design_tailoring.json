@@ -1,0 +1,1607 @@
+{
+  "categoryId": "profession_16_fashion_design_tailoring",
+  "status": "verified",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UCBktEIlB_kIAv5wX1SdhpBg",
+      "name": "Business of Fashion (BoF)",
+      "handle": "@BOF",
+      "description": "The leading global fashion trade publication — supply chain, enterprise scaling, and B2B industry intelligence covering the business of fashion at scale.",
+      "accentColor": "0xFFEC4899",
+      "initials": "BF",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCBktEIlB_kIAv5wX1SdhpBg fetched directly from youtube.com/@BoF (2026-07-25). Note: YouTube displays handle as @BOF (uppercase). Source: user-provided CSV (III.56)."
+    },
+    {
+      "id": "UCRWRDhbADXmnp7JmfqpyM2g",
+      "name": "Fashion Brain Academy",
+      "handle": "@fashionbrainacademy",
+      "description": "Jane Hamill's channel — scaling fashion labels, inventory management, and B2B operations for fashion entrepreneurs ready to grow beyond solo production.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "FB",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCRWRDhbADXmnp7JmfqpyM2g fetched directly from youtube.com/@FashionBrainAcademy (2026-07-25). Blog counterpart already confirmed in skill_01."
+    },
+    {
+      "id": "UCg1yTRFTHx_8e7-t3MPdWXw",
+      "name": "She Leads Africa",
+      "handle": "@SheLeadsAfrica",
+      "description": "Community helping young African women achieve professional and entrepreneurial success — pan-African fashion manufacturing and brand scaling content.",
+      "accentColor": "0xFF8B5CF6",
+      "initials": "SL",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCg1yTRFTHx_8e7-t3MPdWXw fetched directly from youtube.com/@SheLeadsAfrica (2026-07-25). Blog counterpart already confirmed in skill_01 (domain .org)."
+    },
+    {
+      "id": "UC7sFwsT1_W_UcEzrGyyCZRg",
+      "name": "Stylebyreme",
+      "handle": "@Stylebyreme",
+      "description": "Happy Osereme Okojie — Abuja-based fashion tutor teaching sewing and pattern-making with explicit focus on turning skill into income at trade scale.",
+      "accentColor": "0xFFEF4444",
+      "initials": "SR",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC7sFwsT1_W_UcEzrGyyCZRg cross-confirmed from skill_01_tailoring_fashion_design.json (independently verified via NoxInfluencer)."
+    },
+    {
+      "id": "UCjQ_pqco2oMHDLWwPxJKk6w",
+      "name": "Kemafrik",
+      "handle": "@Kemafrik",
+      "description": "Nigerian fashion designer teaching sewing techniques, pattern drafting, and the business side of fashion — trade operations and scaling in the Nigerian market.",
+      "accentColor": "0xFF6366F1",
+      "initials": "KM",
+      "focus": "Fashion design & tailoring trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCjQ_pqco2oMHDLWwPxJKk6w cross-confirmed from skill_01_tailoring_fashion_design.json (independently verified via FeedSpot Nigeria Fashion directory)."
+    },
+    {
+      "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
+      "name": "Dayo Adetiloye Business Hub",
+      "handle": "@DayoAdetiloye",
+      "description": "Nigerian business coach — practical entrepreneurship including fashion and creative business plans, funding and CAC registration.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "DA",
+      "focus": "Nigerian entrepreneurship including fashion",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed Nigerian business education channel."
+    },
+    {
+      "id": "UCghGOFhJxMQl28jYD6NNKrw",
+      "name": "Entrepreneurs.ng",
+      "handle": "@EntrepreneursNg",
+      "description": "Nigeria's entrepreneurship hub — practical guides for starting and growing fashion and creative businesses in Nigeria.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "EN",
+      "focus": "Nigerian creative business",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed Nigerian entrepreneurship channel."
+    },
+    {
+      "id": "UC47XN5bhLTBH5TRFyKaUpKg",
+      "name": "PHLEARN",
+      "handle": "@PHLEARN",
+      "description": "Photography, retouching, compositing, lighting, and image-making technique.",
+      "accentColor": "0xFF2563EB",
+      "initials": "P",
+      "focus": "Fashion Design & Tailoring (Trade): Photography, retouching, compositing, lighting, and image-making technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC47XN5bhLTBH5TRFyKaUpKg; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCDknUbOK1D3_XoTMJAOApOw",
+      "name": "Peter McKinnon",
+      "handle": "@PeterMcKinnon",
+      "description": "Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "accentColor": "0xFF16A34A",
+      "initials": "PM",
+      "focus": "Fashion Design & Tailoring (Trade): Photography, filmmaking, lighting, editing, visual storytelling, and creator craft.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCDknUbOK1D3_XoTMJAOApOw; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC6P24bhhCmMPOcujA9PKPTA",
+      "name": "Film Riot",
+      "handle": "@FilmRiot",
+      "description": "Filmmaking, directing, cinematography, production, and visual storytelling.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "FR",
+      "focus": "Fashion Design & Tailoring (Trade): Filmmaking, directing, cinematography, production, and visual storytelling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC6P24bhhCmMPOcujA9PKPTA; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCMmA0XxraDP7ZVbv4eY3Omg",
+      "name": "DSLR Video Shooter",
+      "handle": "@DSLRVideoShooter",
+      "description": "Camera systems, lighting, audio, production workflows, and video technique.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "DV",
+      "focus": "Fashion Design & Tailoring (Trade): Camera systems, lighting, audio, production workflows, and video technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCMmA0XxraDP7ZVbv4eY3Omg; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC5_SBQbLA9Kg7Jh5GpXoP3g",
+      "name": "Adobe Creative Cloud",
+      "handle": "@AdobeCreativeCloud",
+      "description": "Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "accentColor": "0xFF0891B2",
+      "initials": "AC",
+      "focus": "Fashion Design & Tailoring (Trade): Official tutorials for graphic design, photography, video, illustration, and creative tools.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5_SBQbLA9Kg7Jh5GpXoP3g; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnvgtzmvlb6d58d9BbOKuMA",
+      "name": "Fstoppers",
+      "handle": "@fstoppers",
+      "description": "Photography, lighting, visual storytelling, business, and professional image-making.",
+      "accentColor": "0xFFDB4437",
+      "initials": "F",
+      "focus": "Fashion Design & Tailoring (Trade): Photography, lighting, visual storytelling, business, and professional image-making.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnvgtzmvlb6d58d9BbOKuMA; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCTSgfO_OkfRX8dm4YhCg3fg",
+      "name": "SLR Lounge",
+      "handle": "@SLRLounge",
+      "description": "Photography education, posing, lighting, workflow, and professional practice.",
+      "accentColor": "0xFF0F766E",
+      "initials": "SL",
+      "focus": "Fashion Design & Tailoring (Trade): Photography education, posing, lighting, workflow, and professional practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCTSgfO_OkfRX8dm4YhCg3fg; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCGglTkQEIBnOr3urMuxEkUw",
+      "name": "PiXimperfect",
+      "handle": "@PiXimperfect",
+      "description": "Photoshop, compositing, retouching, design, and digital image technique.",
+      "accentColor": "0xFF9333EA",
+      "initials": "P",
+      "focus": "Fashion Design & Tailoring (Trade): Photoshop, compositing, retouching, design, and digital image technique.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCGglTkQEIBnOr3urMuxEkUw; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCOKHwx1VCdgnxwbjyb9Iu1g",
+      "name": "Blender Guru",
+      "handle": "@BlenderGuru",
+      "description": "3D modeling, materials, lighting, rendering, and computer graphics.",
+      "accentColor": "0xFFB45309",
+      "initials": "BG",
+      "focus": "Fashion Design & Tailoring (Trade): 3D modeling, materials, lighting, rendering, and computer graphics.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCOKHwx1VCdgnxwbjyb9Iu1g; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC0lLeNdvLrFozQRsQ1TQiAw",
+      "name": "Aaron Blaise",
+      "handle": "@AaronBlaiseArt",
+      "description": "Animation, drawing, character design, illustration, and visual storytelling.",
+      "accentColor": "0xFF475569",
+      "initials": "AB",
+      "focus": "Fashion Design & Tailoring (Trade): Animation, drawing, character design, illustration, and visual storytelling.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC0lLeNdvLrFozQRsQ1TQiAw; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkiC21kJxYO_eUEJ5GgFLnw",
+      "name": "CreativeLive",
+      "handle": "@CreativeLive",
+      "description": "Photography, design, craft, entrepreneurship, and creative career development.",
+      "accentColor": "0xFF2563EB",
+      "initials": "C",
+      "focus": "Fashion Design & Tailoring (Trade): Photography, design, craft, entrepreneurship, and creative career development.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkiC21kJxYO_eUEJ5GgFLnw; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "OF",
+      "focus": "Fashion Design & Tailoring (Trade): Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "Y",
+      "focus": "Fashion Design & Tailoring (Trade): Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Fashion Design & Tailoring (Trade) learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Business of Fashion",
+      "url": "https://www.businessoffashion.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "BoF is a subscription-based publication. Standard WordPress /feed/ URL constructed — verify live; BoF may serve headlines-only via RSS."
+    },
+    {
+      "name": "Vogue Business",
+      "url": "https://www.voguebusiness.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Condé Nast fashion-trade publication. Standard WordPress /feed/ URL constructed — verify live before first ingest."
+    },
+    {
+      "name": "Fashion Brain Academy",
+      "url": "https://www.fashionbrainacademy.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01_tailoring_fashion_design.json)"
+    },
+    {
+      "name": "She Leads Africa",
+      "url": "https://sheleadsafrica.org/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01 — domain is .org, not .com as in CSV). Pan-African fashion manufacturing and brand scaling."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01_tailoring_fashion_design.json). Fashion trade business guide, capital, and margins."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "CSV gives splice.com.ng; skill_02 uses splice.ng/feed/. Use splice.com.ng/feed/ and verify canonical domain before first ingest."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "TechCabal covers African fashion-tech and e-commerce. Standard WordPress /feed/ URL — Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Shopify Fashion Blog",
+      "url": "https://www.shopify.com/blogs/news.atom",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Standard Shopify Atom feed URL — same pattern confirmed across existing skill files. Covers B2B fashion wholesale and e-commerce operations."
+    },
+    {
+      "name": "WWD (Women's Wear Daily)",
+      "url": "https://wwd.com/fashion-news/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed via Feedspot RSS directory (wwd.com/fashion-news/feed). Feed URL independently confirmed via Feedspot RSS directory listing."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "No Film School",
+      "url": "https://nofilmschool.com/",
+      "region": "Global",
+      "focus": "Filmmaking, cinematography, production, and creative industry practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "PetaPixel",
+      "url": "https://petapixel.com/",
+      "region": "Global",
+      "focus": "Photography, cameras, visual storytelling, and industry news.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fstoppers",
+      "url": "https://fstoppers.com/",
+      "region": "Global",
+      "focus": "Photography, lighting, filmmaking, workflow, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Creative Bloq",
+      "url": "https://www.creativebloq.com/",
+      "region": "Global",
+      "focus": "Graphic design, illustration, 3D, digital art, and creative tools.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/",
+      "region": "Global",
+      "focus": "Web design, UX, front-end development, accessibility, and performance.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Adobe Blog",
+      "url": "https://blog.adobe.com/",
+      "region": "Global",
+      "focus": "Creative tools, design, photography, video, and digital creativity.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "AIGA Eye on Design",
+      "url": "https://eyeondesign.aiga.org/",
+      "region": "Global",
+      "focus": "Graphic design, visual culture, design history, and critical practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "CreativePro Network",
+      "url": "https://creativepro.com/",
+      "region": "Global",
+      "focus": "Design software, typography, publishing, and production workflows.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Futur Blog",
+      "url": "https://thefutur.com/blog",
+      "region": "Global",
+      "focus": "Design practice, branding, creative business, and professional development.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free overview and chapter excerpts from the author's official site — cash-flow management system for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV. Author's own domain, consistent with skill_01 entry.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — small-business operations, financing, and management.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "openstax.org is a peer-reviewed open textbook publisher. URL from user-provided CSV.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — entrepreneurship principles, ideation, and business model design.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Same OpenStax catalogue URL; select the specific title on the catalogue page.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot marketing blog — practical digital marketing guides for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot blog is a widely recognised free marketing resource. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free US SBA startup guide — globally applicable for structuring a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "sba.gov is a US government domain. URL from user-provided CSV.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification course covering inbound marketing strategy for any trade or service business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot Academy courses are free with registration. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — planning, organising, leading, and controlling a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Direct OpenStax book URL confirmed stable via feedspot/open textbook listings.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "A Short Treatise on Boots and Shoes, Ancient and Modern",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65623",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65623; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65623/pg65623.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65623/pg65623.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65623/pg65623.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65623/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Footwear -- History",
+        "Category: History - Other",
+        "Category: Fashion",
+        "TS"
+      ]
+    },
+    {
+      "title": "Aims and Aids for Girls and Young Women\nOn the Various Duties of Life, Physical, Intellectual, And\nMoral Development; Self-Culture, Improvement, Dress, Beauty,\nFashion, Employment, Education, The Home Relations, Their\nDuties To Young Men, Marriage, Womanhood And Happiness.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20819",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #20819; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/20819/pg20819.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/20819/pg20819.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/20819/pg20819.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/20819/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Conduct of life",
+        "Young women",
+        "Category: Health & Medicine",
+        "Category: Gender & Sexuality Studies",
+        "Category: Parenthood & Family Relations",
+        "Category: Teaching & Education",
+        "BJ"
+      ]
+    },
+    {
+      "title": "Customs and Fashions in Old New England",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24159",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24159; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24159/pg24159.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24159/pg24159.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24159/pg24159.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24159/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "New England -- Social life and customs -- To 1775",
+        "United States",
+        "Category: History - American",
+        "F001"
+      ]
+    },
+    {
+      "title": "Easy to Make Fashions: from Rochelle's Mohlon Orlon Acrylic Fiber. Volume B22.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61315",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61315; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61315/pg61315.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61315/pg61315.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61315/pg61315.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/61315/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Knitting -- Patterns",
+        "Crocheting -- Patterns",
+        "Category: Fashion",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TT"
+      ]
+    },
+    {
+      "title": "Fashion parade",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69974",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69974; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69974/pg69974.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69974/pg69974.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69974/pg69974.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69974/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Knitting -- Patterns",
+        "Crocheting -- Patterns",
+        "Sweaters",
+        "Category: Fashion",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TT"
+      ]
+    },
+    {
+      "title": "Fashionable Philosophy, and Other Sketches",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17120",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #17120; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17120/pg17120.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17120/pg17120.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17120/pg17120.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/17120/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "English literature -- 19th century",
+        "Category: Humour",
+        "Category: Essays, Letters & Speeches",
+        "Category: British Literature",
+        "Category: Philosophy & Ethics",
+        "PR"
+      ]
+    },
+    {
+      "title": "Fashions in Literature",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/3109",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #3109; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/3109/pg3109.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/3109/pg3109.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/3109/pg3109.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/3109/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Literature",
+        "Category: Essays, Letters & Speeches",
+        "Category: Journalism/Media/Writing",
+        "PS"
+      ]
+    },
+    {
+      "title": "Handicraft for Girls\r\nA Tentative Course in Needlework, Basketry, Designing, Paper and Cardboard Construction, Textile Fibers and Fabrics and Home Decoration and Care",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34854",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34854; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34854/pg34854.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34854/pg34854.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34854/pg34854.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34854/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Needlework",
+        "Handicraft",
+        "Technology",
+        "Crafts",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TT"
+      ]
+    },
+    {
+      "title": "Hardy Perennials and Old Fashioned Flowers\r\nDescribing the Most Desirable Plants, for Borders, Rockeries, and Shrubberies.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/18913",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #18913; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/18913/pg18913.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/18913/pg18913.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/18913/pg18913.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/18913/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Flowers",
+        "Perennials",
+        "Horticulture",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "SB"
+      ]
+    },
+    {
+      "title": "In Fashions: for Him, for Her, in Knits, in Crochets",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62842",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62842; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62842/pg62842.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62842/pg62842.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62842/pg62842.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62842/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Knitting -- Patterns",
+        "Crocheting -- Patterns",
+        "Category: Fashion",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Ladies' dress shoes of the nineteenth century",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75531",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75531; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75531/pg75531.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75531/pg75531.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75531/pg75531.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/75531/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Women's shoes -- History -- 19th century",
+        "Women's shoes -- History -- 19th century -- Pictorial works",
+        "Category: History - Modern (1750+)",
+        "Category: Art",
+        "Category: Fashion",
+        "GT"
+      ]
+    },
+    {
+      "title": "Ladies' old-fashioned shoes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77314",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #77314; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77314/pg77314.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77314/pg77314.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77314/pg77314.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/77314/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Women's shoes -- History",
+        "Women's shoes -- History -- Pictorial works",
+        "GT"
+      ]
+    },
+    {
+      "title": "Mood fashions",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69987",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69987; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69987/pg69987.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69987/pg69987.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69987/pg69987.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69987/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Knitting -- Patterns",
+        "Crocheting -- Patterns",
+        "Category: Fashion",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Old Fashioned Flowers, and other out-of-door studies",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55591",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #55591; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55591/pg55591.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55591/pg55591.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55591/pg55591.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/55591/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Gardening",
+        "Flowers",
+        "Category: Essays, Letters & Speeches",
+        "Category: Nature/Gardening/Animals",
+        "Nobel Prizes in Literature",
+        "SB"
+      ]
+    },
+    {
+      "title": "Old-Fashioned Ethics and Common-Sense Metaphysics\nWith Some of Their Applications",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29917",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29917; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29917/pg29917.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29917/pg29917.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29917/pg29917.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29917/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Utilitarianism",
+        "Metaphysics",
+        "Category: Philosophy & Ethics",
+        "BJ"
+      ]
+    },
+    {
+      "title": "Origin and Early History of the Fashion Plate",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34472",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34472; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34472/pg34472.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34472/pg34472.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34472/pg34472.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34472/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fashion -- History",
+        "Category: History - Early Modern (c. 1450-1750)",
+        "Category: History - Modern (1750+)",
+        "Category: Art",
+        "Category: Fashion",
+        "GT"
+      ]
+    },
+    {
+      "title": "Practical Cooking and Dinner Giving\r\nA Treatise Containing Practical Instructions in Cooking; in the Combination and Serving of Dishes; and in the Fashionable Modes of Entertaining at Breakfast, Lunch, and Dinner",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59713",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59713; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59713/pg59713.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59713/pg59713.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59713/pg59713.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59713/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Real Life In London, Volumes I. and II.\r\nOr, The Rambles and Adventures of Bob Tallyho, Esq., and His Cousin, the Hon. Tom Dashall, Through the Metropolis; Exhibiting a Living Picture of Fashionable Characters, Manners, and Amusements in High and Low Life (1821)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/20484",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #20484; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/20484/pg20484.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/20484/pg20484.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/20484/pg20484.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/20484/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "London (England) -- Social life and customs -- 19th century",
+        "Category: Humour",
+        "Category: Novels",
+        "Category: British Literature",
+        "DA"
+      ]
+    },
+    {
+      "title": "Some points in choosing textiles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76441",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76441; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76441/pg76441.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76441/pg76441.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76441/pg76441.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/76441/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Textile fabrics",
+        "Category: Fashion",
+        "Category: How To ...",
+        "TS"
+      ]
+    },
+    {
+      "title": "Textile Fabrics\r\nA Descriptive Catalogue of the Collection of Church-vestments, Dresses, Silk Stuffs, Needlework and Tapestries, forming that Section of the Museum",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66172",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66172; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66172/pg66172.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66172/pg66172.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66172/pg66172.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66172/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Textile fabrics",
+        "Art objects -- England -- London -- Catalogs",
+        "Category: History - Other",
+        "Category: Art",
+        "Category: Fashion",
+        "NK"
+      ]
+    },
+    {
+      "title": "Textiles and Clothing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21534",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #21534; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21534/pg21534.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21534/pg21534.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21534/pg21534.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/21534/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Textile industry",
+        "Textile fabrics",
+        "Sewing",
+        "Dressmaking",
+        "Technology",
+        "Crafts",
+        "Category: Art",
+        "Category: Fashion",
+        "TT",
+        "TX"
+      ]
+    },
+    {
+      "title": "Textiles, for Commercial, Industrial, and Domestic Arts Schools\r\nAlso Adapted to Those Engaged in Wholesale and Retail Dry Goods, Wool, Cotton, and Dressmaker's Trades",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24077",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24077; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24077/pg24077.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24077/pg24077.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24077/pg24077.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24077/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Textile industry",
+        "Textile fabrics",
+        "Technology",
+        "Manufacturing",
+        "Category: Engineering & Technology",
+        "Category: Teaching & Education",
+        "TS"
+      ]
+    },
+    {
+      "title": "The American Gentleman's Guide to Politeness and Fashion\nor, Familiar Letters to his Nephews",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39005",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39005; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39005/pg39005.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39005/pg39005.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39005/pg39005.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39005/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Etiquette",
+        "Category: Fashion",
+        "Category: How To ...",
+        "BJ"
+      ]
+    },
+    {
+      "title": "The Autobiography of an Electron\r\nWherein the Scientific Ideas of the Present Time Are Explained in an Interesting and Novel Fashion",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36456",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36456; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36456/pg36456.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36456/pg36456.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36456/pg36456.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36456/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Electricity",
+        "Electrons",
+        "Category: Science - Physics",
+        "QC"
+      ]
+    },
+    {
+      "title": "The Bath Road: History, Fashion, & Frivolity on an Old Highway",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37921",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37921; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37921/pg37921.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37921/pg37921.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37921/pg37921.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/37921/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "England -- Description and travel",
+        "England -- Social life and customs",
+        "Bath Road (England)",
+        "Category: Travel Writing",
+        "Category: History - British",
+        "DA"
+      ]
+    },
+    {
+      "title": "The Book of Old-Fashioned Flowers\nAnd Other Plants Which Thrive in the Open-Air of England",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48740",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48740; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48740/pg48740.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48740/pg48740.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48740/pg48740.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/48740/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Flower gardening -- England",
+        "Gardening -- England",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "SB"
+      ]
+    },
+    {
+      "title": "The Book of the Feet: A History of Boots and Shoes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56978",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56978; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56978/pg56978.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56978/pg56978.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56978/pg56978.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56978/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Shoemakers",
+        "Footwear -- History",
+        "Category: History - Other",
+        "Category: Fashion",
+        "TS"
+      ]
+    },
+    {
+      "title": "The Decline and Fall of Whist: An Old Fashioned View of New Fangled Play",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54145",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54145; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54145/pg54145.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54145/pg54145.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54145/pg54145.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54145/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Whist",
+        "Category: Humour",
+        "Category: Sports/Hobbies",
+        "GV"
+      ]
+    },
+    {
+      "title": "The Evolution of Fashion",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34845",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34845; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34845/pg34845.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34845/pg34845.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34845/pg34845.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34845/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fashion -- History",
+        "Costume -- History",
+        "Category: History - Other",
+        "Category: Fashion",
+        "GT"
+      ]
+    },
+    {
+      "title": "The Fashionable World Displayed",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62238",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62238; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62238/pg62238.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62238/pg62238.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62238/pg62238.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62238/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Great Britain -- Social conditions -- 19th century",
+        "Category: Essays, Letters & Speeches",
+        "Category: Sociology",
+        "HN"
+      ]
+    },
+    {
+      "title": "The history of fashion in France",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76717",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76717; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76717/pg76717.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76717/pg76717.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76717/pg76717.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/76717/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Clothing and dress -- France -- History",
+        "Category: History - European",
+        "Category: Fashion",
+        "GT"
+      ]
+    },
+    {
+      "title": "The Junior Classics, Volume 6: Old-Fashioned Tales",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/6577",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #6577; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/6577/pg6577.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/6577/pg6577.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/6577/pg6577.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/6577/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Children's literature",
+        "Children's Anthologies",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Mirror of the Graces\r\nContaining General Instructions for Combining Elegance, Simplicity, and Economy with Fashion in Dress; Hints on Female Accomplishments and Manners; and Directions for the Preservation of Health and Beauty",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67790",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67790; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67790/pg67790.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67790/pg67790.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67790/pg67790.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67790/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Beauty, Personal",
+        "Clothing and dress -- Great Britain -- History -- 19th century",
+        "Etiquette -- Great Britain",
+        "Category: Fashion",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "Category: Parenthood & Family Relations",
+        "BJ",
+        "TT"
+      ]
+    },
+    {
+      "title": "A dictionary of men's wear",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76299",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76299; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76299/pg76299.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76299/pg76299.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76299/pg76299.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/76299/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Clothing and dress -- Dictionaries",
+        "Tailoring -- Dictionaries",
+        "Men's furnishing goods",
+        "Category: Fashion",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "TT"
+      ]
+    },
+    {
+      "title": "A Hand-book of Precious Stones",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60512",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60512; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60512/pg60512.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60512/pg60512.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60512/pg60512.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60512/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Precious stones",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Fashion",
+        "QE",
+        "TS"
+      ]
+    },
+    {
+      "title": "A Short Treatise on Head Wear, Ancient and Modern",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65624",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65624; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65624/pg65624.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65624/pg65624.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65624/pg65624.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65624/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Hats -- History",
+        "Category: History - Other",
+        "Category: Art",
+        "Category: Fashion",
+        "TS"
+      ]
+    },
+    {
+      "title": "A Treatise on Hat-Making and Felting\r\nIncluding a Full Exposition of the Singular Properties of Fur, Wool, and Hair",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47090",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #47090; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47090/pg47090.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47090/pg47090.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47090/pg47090.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/47090/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Hats",
+        "Crafts",
+        "Category: History - Other",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Engineering & Technology",
+        "Category: Fashion",
+        "Category: How To ...",
+        "TS"
+      ]
+    },
+    {
+      "title": "An embroidery book",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69723",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69723; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69723/pg69723.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69723/pg69723.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69723/pg69723.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69723/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Embroidery",
+        "Category: Art",
+        "Category: Fashion",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Ancient Egyptian, Assyrian, and Persian costumes and decorations",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54280",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54280; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54280/pg54280.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54280/pg54280.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54280/pg54280.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54280/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Clothing and dress -- Egypt",
+        "Clothing and dress -- Assyria",
+        "Clothing and dress -- Iran",
+        "Category: History - Ancient",
+        "Category: Art",
+        "Category: Fashion",
+        "GT"
+      ]
+    },
+    {
+      "title": "Appropriate Clothes for the High School Girl",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37007",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37007; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37007/pg37007.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37007/pg37007.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37007/pg37007.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/37007/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Clothing and dress",
+        "Category: Fashion",
+        "Category: How To ...",
+        "Category: Parenthood & Family Relations",
+        "TX"
+      ]
+    },
+    {
+      "title": "Art in Needlework: A Book about Embroidery",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28269",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #28269; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28269/pg28269.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28269/pg28269.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28269/pg28269.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/28269/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Embroidery",
+        "Needlework",
+        "Crafts",
+        "Category: Art",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Baltimore Hats, Past and Present",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39780",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39780; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39780/pg39780.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39780/pg39780.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39780/pg39780.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39780/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Hats",
+        "Hat trade -- Maryland -- Baltimore -- History",
+        "Category: History - American",
+        "Category: Fashion",
+        "TS"
+      ]
+    },
+    {
+      "title": "Beeton's Book of Needlework",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15147",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #15147; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/15147/pg15147.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/15147/pg15147.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/15147/pg15147.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/15147/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Needlework -- Patterns",
+        "Crocheting",
+        "Knitting",
+        "Lace and lace making",
+        "Technology",
+        "Crafts",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "TT"
+      ]
+    },
+    {
+      "title": "Bulkies [Sweaters to Knit and Crochet]",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66271",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66271; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66271/pg66271.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66271/pg66271.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66271/pg66271.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66271/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Knitting -- Patterns",
+        "Crocheting -- Patterns",
+        "Sweaters",
+        "Category: Fashion",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Cameo Cutting",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64054",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64054; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64054/pg64054.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64054/pg64054.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64054/pg64054.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/64054/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cameos",
+        "Shell engraving -- Handbooks, manuals, etc.",
+        "Carving (Decorative arts) -- Technique",
+        "Category: Art",
+        "Category: Fashion",
+        "Category: How To ...",
+        "NK"
+      ]
+    },
+    {
+      "title": "Chats on Costume",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46949",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46949; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46949/pg46949.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46949/pg46949.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46949/pg46949.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/46949/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Clothing and dress",
+        "Category: History - Other",
+        "Category: Art",
+        "Category: Fashion",
+        "GT"
+      ]
+    },
+    {
+      "title": "Chats on Old Lace and Needlework",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/26120",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #26120; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/26120/pg26120.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/26120/pg26120.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/26120/pg26120.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/26120/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Lace and lace making",
+        "Needlework",
+        "Technology",
+        "Crafts",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "Category: Art",
+        "TT",
+        "NK"
+      ]
+    },
+    {
+      "title": "Church Needlework: A manual of practical instruction",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57608",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57608; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57608/pg57608.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57608/pg57608.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57608/pg57608.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/57608/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Embroidery",
+        "Needlework",
+        "Church vestments",
+        "Ecclesiastical embroidery",
+        "Category: Art",
+        "Category: How To ...",
+        "NK"
+      ]
+    },
+    {
+      "title": "Clothing and Health: An Elementary Textbook of Home Making",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47585",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #47585; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47585/pg47585.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47585/pg47585.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47585/pg47585.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/47585/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Clothing and dress",
+        "Sewing",
+        "Category: Fashion",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "Category: Teaching & Education",
+        "TT"
+      ]
+    },
+    {
+      "title": "Corticelli Home Needlework, 1898: A Manual of Art, Embroidery and Knitting",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51204",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51204; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51204/pg51204.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51204/pg51204.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51204/pg51204.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/51204/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Knitting",
+        "Embroidery",
+        "Crafts",
+        "Category: Art",
+        "Category: How To ...",
+        "TT"
+      ]
+    }
+  ],
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). All 10 channel IDs verified by direct youtube.com page fetch or cross-confirmed from existing skill files. Two handle corrections applied: @ZikokoTV (CSV) → @Zikokomag (correct active handle; @ZikokoTV returned 404). WWD blog feed confirmed via Feedspot. Salon Business Boss had no YouTube channel — not relevant to this file. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 50 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 50 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

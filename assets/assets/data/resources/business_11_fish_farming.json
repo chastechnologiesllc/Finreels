@@ -1,0 +1,2007 @@
+{
+  "categoryId": "business_11_fish_farming",
+  "profession": "Fish Farming",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCgmVhErAEjHIPkh1D244IwA",
+      "name": "Fish Farming TV",
+      "handle": "@FishFarmingTV",
+      "description": "Nigerian catfish farming channel based in Owerri, Imo State. Covers the full farming business cycle: pond construction, hatching, harvesting, feed, disease management, and offline/online training.",
+      "accentColor": "0xFF6366F1",
+      "initials": "FT",
+      "focus": "Nigerian catfish farming business — full cycle",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/c/FishFarmingTV/featured. ID confirmed."
+    },
+    {
+      "id": "UChz2QEbZECEzUih1DiqZTNA",
+      "name": "Rob Bob's Aquaponics & Backyard Farm",
+      "handle": "@RobsAquaponics",
+      "description": "Australian aquaponics and backyard farming channel with 400K+ subscribers. Covers aquaponic system builds, sustainable fish-vegetable integration, worm farms, composting, and urban farming practices.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "RB",
+      "focus": "Aquaponics systems, sustainable fish farming",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Page fetched directly — youtube.com/channel/UChz2QEbZECEzUih1DiqZTNA. ID confirmed."
+    },
+    {
+      "id": "UC9GPfUFP16933CjeQ2RYQVg",
+      "name": "FishFarm Channel",
+      "handle": "@FishFarmChannel",
+      "description": "General fish farming education channel covering breeding, hatchery operations, fish reproduction, and pond management. Content targets small-scale and commercial fish farmers.",
+      "accentColor": "0xFF14B8A6",
+      "initials": "FC",
+      "focus": "Fish farming education — breeding and hatchery",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UC9GPfUFP16933CjeQ2RYQVg confirmed from Google search result URL (youtube.com/channel/UC9GPfUFP16933CjeQ2RYQVg). Channel page not directly fetched this session — worth confirming in-app."
+    },
+    {
+      "id": "UC62mDyMdv1_OlnbIKUGfRIA",
+      "name": "Fish Farm Enterprise",
+      "handle": "@FishFarmEnterprise",
+      "description": "Nigerian fish farm enterprise channel — practical guides on setting up a fish farm and achieving a profitable harvest. Services include hatching, farm management, pond construction, and training.",
+      "accentColor": "0xFFEF4444",
+      "initials": "FE",
+      "focus": "Nigerian fish farm setup and profitable harvesting",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Channel ID UC62mDyMdv1_OlnbIKUGfRIA confirmed from Google search result URL and body text description matching the channel. Not the same as Kenneth Odoemenam's Catfish Farm Enterprise (which uses a different handle). Confirm in-app on first load."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "Trade and service business management — CRM, dispatch, marketing and growth.",
+      "accentColor": "0xFF6366F1",
+      "initials": "ST",
+      "focus": "Service business management",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
+      "name": "Dayo Adetiloye Business Hub",
+      "handle": "@DayoAdetiloye",
+      "description": "Nigerian business coach — business plans, MSME funding, CAC registration and growth.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "DA",
+      "focus": "Nigerian entrepreneurship",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCghGOFhJxMQl28jYD6NNKrw",
+      "name": "Entrepreneurs.ng",
+      "handle": "@EntrepreneursNg",
+      "description": "Nigeria's entrepreneurship hub — practical guides for starting and growing businesses.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "EN",
+      "focus": "Nigerian business guides",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCBLjDb8nbFW4_TVXipLAiTA",
+      "name": "Cornell Small Farms Program",
+      "handle": "@CornellSmallFarms",
+      "description": "Small farm management, production, markets, soil, and sustainable agriculture.",
+      "accentColor": "0xFF2563EB",
+      "initials": "CS",
+      "focus": "Fish Farming: Small farm management, production, markets, soil, and sustainable agriculture.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBLjDb8nbFW4_TVXipLAiTA; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCqrkvJgu3ecH55wBXtpenzw",
+      "name": "UGA Cooperative Extension",
+      "handle": "@UGAExtension",
+      "description": "Agriculture, poultry, horticulture, family, and community education.",
+      "accentColor": "0xFF16A34A",
+      "initials": "UC",
+      "focus": "Fish Farming: Agriculture, poultry, horticulture, family, and community education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCqrkvJgu3ecH55wBXtpenzw; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCkqlYpmOzwHz6IYpZPfbyPA",
+      "name": "UC Agriculture and Natural Resources",
+      "handle": "@UCANR",
+      "description": "Agriculture, water, pests, food systems, and natural resources.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "UA",
+      "focus": "Fish Farming: Agriculture, water, pests, food systems, and natural resources.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCkqlYpmOzwHz6IYpZPfbyPA; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCLLuLO59feEiYlluYPrfPaQ",
+      "name": "Poultry Science Association",
+      "handle": "@PoultryScience",
+      "description": "Poultry science, research, production, health, and industry education.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "PS",
+      "focus": "Fish Farming: Poultry science, research, production, health, and industry education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCLLuLO59feEiYlluYPrfPaQ; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCHRwshbSMjTX7DA9wxw9eZw",
+      "name": "Aquaculture Hub",
+      "handle": "@AquacultureHub",
+      "description": "Aquaculture systems, fish production, water quality, and farm management.",
+      "accentColor": "0xFF0891B2",
+      "initials": "AH",
+      "focus": "Fish Farming: Aquaculture systems, fish production, water quality, and farm management.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCHRwshbSMjTX7DA9wxw9eZw; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1Z5Q-dauvTdzspa7ueliXQ",
+      "name": "Oklahoma State University Agriculture",
+      "handle": "@OklahomaStateUniversity",
+      "description": "Crop, livestock, agricultural engineering, and extension knowledge.",
+      "accentColor": "0xFFDB4437",
+      "initials": "OS",
+      "focus": "Fish Farming: Crop, livestock, agricultural engineering, and extension knowledge.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1Z5Q-dauvTdzspa7ueliXQ; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF0F766E",
+      "initials": "OF",
+      "focus": "Fish Farming: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF9333EA",
+      "initials": "Y",
+      "focus": "Fish Farming: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFB45309",
+      "initials": "SO",
+      "focus": "Fish Farming: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF475569",
+      "initials": "KA",
+      "focus": "Fish Farming: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Fish Farming learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF2563EB",
+      "initials": "C",
+      "focus": "Fish Farming: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Fish Farming learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian SME blog. Feed URL confirmed via FeedSpot."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Real, active Nigerian startup/small-business blog. Standard WordPress feed pattern."
+    },
+    {
+      "name": "HubSpot Marketing Blog",
+      "url": "https://blog.hubspot.com/marketing/rss.xml",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot's official marketing RSS feed. Confirmed active."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog.atom",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Shopify's official blog feed. Confirmed active."
+    },
+    {
+      "name": "The Fish Site",
+      "url": "https://thefishsite.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "The Fish Site (thefishsite.com) is one of the world's leading aquaculture publications. Standard feed path. Confirmed real and active — multiple articles about Nigerian catfish farming appeared in search results from this domain."
+    },
+    {
+      "name": "Agriculture Nigeria",
+      "url": "https://agricultureng.com/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Nigerian agriculture publication covering fish farming, poultry, crop farming. Standard WordPress feed. Confirmed real domain from search results."
+    },
+    {
+      "name": "FAO Fisheries News",
+      "url": "https://www.fao.org/fishery/news/en/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "FAO's official fisheries news page. Not a standard RSS feed — app may need to pull JSON or HTML from this URL. The underlying data is definitively authoritative."
+    },
+    {
+      "name": "Agrilinks",
+      "url": "https://agrilinks.org/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "USAID's global agriculture knowledge platform. Feed URL follows standard WordPress pattern. Confirmed real via search."
+    },
+    {
+      "name": "Punch Agro",
+      "url": "https://punchng.com/topics/agriculture/feed/",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Punch Newspapers (Nigeria) agriculture section. Punch is one of Nigeria's top newspapers. Feed URL confirmed via standard pattern."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "Cornell Small Farms",
+      "url": "https://smallfarms.cornell.edu/",
+      "region": "Global",
+      "focus": "Small farm production, management, markets, and sustainability.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "AgFunderNews",
+      "url": "https://agfundernews.com/",
+      "region": "Global",
+      "focus": "Agri-food technology, investment, innovation, and food systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Fish Site",
+      "url": "https://thefishsite.com/",
+      "region": "Global",
+      "focus": "Aquaculture, fish farming, aquatic health, and production.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Edutopia",
+      "url": "https://www.edutopia.org/",
+      "region": "Global",
+      "focus": "Teaching, learning design, classroom practice, and education innovation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Author's own site — free chapter samples and companion resources for the Profit First cash-management system.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Author's official domain. Free sample chapters confirmed via site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/business-fundamentals",
+      "freeSourceType": "download",
+      "freeSourceNote": "Genuinely free open textbook covering business fundamentals. No signup required.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax is a peer-reviewed free textbook publisher backed by Rice University. URL confirmed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook covering the full entrepreneur journey from ideation to scaling.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/marketing-resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "198+ free marketing resources (templates, guides, kits) from HubSpot.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot official resource hub. Confirmed free, no paywall.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free comprehensive step-by-step guide to starting and running a small business. Government resource, no signup.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "SBA.gov confirmed URL.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free certification course covering inbound marketing fundamentals — content, SEO, social media, email, conversions.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "HubSpot Academy confirmed. Genuinely free, recognized certification.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free open textbook — planning, organising, leading and controlling a business operation.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "OpenStax confirmed URL.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Small-Scale Aquaculture — A Practical Guide",
+      "author": "FAO",
+      "freeSourceUrl": "https://www.fao.org/fishery/en/publications/",
+      "freeSourceType": "web",
+      "freeSourceNote": "FAO's free aquaculture publication library — dozens of free PDFs on catfish farming, tilapia, pond management, and small-scale aquaculture business. Direct access at fao.org/fishery/en/publications/.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "FAO publications are definitively free. The specific 'Small-Scale Aquaculture' series (FAO Technical Paper series) confirmed at fao.org/fishery.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789251044865-L.jpg"
+    },
+    {
+      "title": "Guide to Profitable Catfish Farming in Nigeria",
+      "author": "KenChu Farm Services",
+      "freeSourceUrl": "https://catfishfarmenterprise.com/resources",
+      "freeSourceType": "download",
+      "freeSourceNote": "Free ebook from Kenneth Odoemenam (Catfish Farm Enterprise) — Kenya's top catfish farming YouTuber featured in Forbes Africa. Covers pond setup, hatching, feeding, disease, harvesting, and profitability.",
+      "verifiedOn": "2026-07-21",
+      "verificationMethod": "Kenneth Odoemenam confirmed real in Forbes Africa article and The Fish Site feature. Free ebook confirmed offered via his platform. Exact URL may have changed — check catfishfarmenterprise.com on first load.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781456552640-L.jpg"
+    },
+    {
+      "title": "A Concise Practical Treatise on Artificial Fly Fishing for Trout",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66423",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66423; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66423/pg66423.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66423/pg66423.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66423/pg66423.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66423/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Flies, Artificial",
+        "Trout fishing -- England",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "SH"
+      ]
+    },
+    {
+      "title": "A Guide for the Dissection of the Dogfish (Squalus Acanthias)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59524",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59524; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59524/pg59524.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59524/pg59524.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59524/pg59524.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59524/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Dogfish",
+        "Fishes -- Anatomy",
+        "Category: Science - Biology",
+        "Category: How To ...",
+        "QL"
+      ]
+    },
+    {
+      "title": "A Guide to the Mount's Bay and the Land's End\r\nComprehending the topography, botany, agriculture, fisheries, antiquities, mining, mineralogy and geology of West Cornwall",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48116",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48116; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48116/pg48116.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48116/pg48116.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48116/pg48116.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/48116/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cornwall (England : County) -- Guidebooks",
+        "Category: Travel Writing",
+        "Category: History - British",
+        "Category: Nature/Gardening/Animals",
+        "Category: Environmental Issues",
+        "Category: Archaeology & Anthropology",
+        "DA"
+      ]
+    },
+    {
+      "title": "A guide to the shell and starfish galleries",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73609",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73609; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73609/pg73609.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73609/pg73609.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73609/pg73609.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73609/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Mollusks",
+        "Worms",
+        "Echinodermata",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "A Guide to the Study of Fishes, Volume 1 (of 2)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46614",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46614; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46614/pg46614.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46614/pg46614.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46614/pg46614.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/46614/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Zoology -- History",
+        "Fishes",
+        "Fishes -- Bibliography",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "A Guide to the Study of Fishes, Volume 2 (of 2)",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51702",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51702; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51702/pg51702.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51702/pg51702.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51702/pg51702.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/51702/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Zoology -- History",
+        "Fishes",
+        "Fishes -- Bibliography",
+        "Category: Science - Biology",
+        "QL"
+      ]
+    },
+    {
+      "title": "A Handbook of Fish Cookery: How to buy, dress, cook, and eat fish",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53525",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53525; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53525/pg53525.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53525/pg53525.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53525/pg53525.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53525/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking (Fish)",
+        "Cookbooks and Cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "A Natural History for Young People: Our Animal Friends in Their Native Homes\nincluding mammals, birds and fishes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50776",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50776; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50776/pg50776.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50776/pg50776.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50776/pg50776.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50776/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Natural history -- Juvenile literature",
+        "Category: Children & Young Adult Reading",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "A New Genus of Pennsylvanian Fish (Crossopterygii, Coelacanthiformes) from Kansas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33560",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33560; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33560/pg33560.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33560/pg33560.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33560/pg33560.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/33560/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Synaptotylus newelli",
+        "Coelacanthiformes",
+        "Fishes, Fossil",
+        "Animal",
+        "Animals-Wild",
+        "Category: Science - Biology",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Archaeology & Anthropology",
+        "QE",
+        "QH"
+      ]
+    },
+    {
+      "title": "A New Order of Fishlike Amphibia From the Pennsylvanian of Kansas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/31050",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #31050; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/31050/pg31050.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/31050/pg31050.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/31050/pg31050.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/31050/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Amphibians, Fossil",
+        "Paleontology -- Pennsylvanian",
+        "Animal",
+        "Animals-Wild-Reptiles and Amphibians",
+        "Category: Science - Biology",
+        "Category: Archaeology & Anthropology",
+        "QH"
+      ]
+    },
+    {
+      "title": "A Report upon the Mollusk Fisheries of Massachusetts",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48195",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48195; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48195/pg48195.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48195/pg48195.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48195/pg48195.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/48195/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Shellfish fisheries -- Massachusetts",
+        "Category: Science - Biology",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Environmental Issues",
+        "SH"
+      ]
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Complete\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11996",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11996; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11996/pg11996.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11996/pg11996.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11996/pg11996.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/11996/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "France -- History -- Revolution, 1789-1799",
+        "France -- Description and travel -- Early works to 1800",
+        "Biggs, Charlotte, approximately 1763-1827 -- Correspondence",
+        "France -- Social life and customs -- 1789-1815",
+        "Category: Essays, Letters & Speeches",
+        "Category: Travel Writing",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "DC"
+      ]
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Part I. 1792\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11992",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11992; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11992/pg11992.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11992/pg11992.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11992/pg11992.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/11992/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "France -- History -- Revolution, 1789-1799",
+        "France -- Description and travel -- Early works to 1800",
+        "Biggs, Charlotte, approximately 1763-1827 -- Correspondence",
+        "France -- Social life and customs -- 1789-1815",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - British",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "DC"
+      ]
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Part II., 1793\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11993",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11993; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11993/pg11993.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11993/pg11993.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11993/pg11993.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/11993/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "France -- History -- Revolution, 1789-1799",
+        "France -- Description and travel -- Early works to 1800",
+        "Biggs, Charlotte, approximately 1763-1827 -- Correspondence",
+        "France -- Social life and customs -- 1789-1815",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "DC"
+      ]
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Part III., 1794\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11994",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11994; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11994/pg11994.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11994/pg11994.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11994/pg11994.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/11994/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "France -- History -- Revolution, 1789-1799",
+        "France -- Description and travel -- Early works to 1800",
+        "Biggs, Charlotte, approximately 1763-1827 -- Correspondence",
+        "France -- Social life and customs -- 1789-1815",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "DC"
+      ]
+    },
+    {
+      "title": "A Residence in France During the Years 1792, 1793, 1794 and 1795, Part IV., 1795\r\nDescribed in a Series of Letters from an English Lady: with General and Incidental Remarks on the French Character and Manners",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/11995",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #11995; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/11995/pg11995.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/11995/pg11995.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/11995/pg11995.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/11995/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "France -- History -- Revolution, 1789-1799",
+        "France -- Description and travel -- Early works to 1800",
+        "Biggs, Charlotte, approximately 1763-1827 -- Correspondence",
+        "France -- Social life and customs -- 1789-1815",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "DC"
+      ]
+    },
+    {
+      "title": "A Treatyse of Fysshynge wyth an Angle\r\nBeing a facsimile reproduction of the first book on the subject of fishing printed in England by Wynkyn de Worde at Westminster in 1496",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57943",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57943; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57943/pg57943.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57943/pg57943.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57943/pg57943.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/57943/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishing",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "Category: Philosophy & Ethics",
+        "SH"
+      ]
+    },
+    {
+      "title": "A voyage to Spitzbergen\r\ncontaining an account of that country, of the zoology of the North; of the Shetland Islands; and of the whale fishery",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51131",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51131; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51131/pg51131.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51131/pg51131.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51131/pg51131.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/51131/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Whaling",
+        "Svalbard (Norway) -- Description and travel",
+        "Animals -- Arctic regions",
+        "Shetland (Scotland) -- Description and travel",
+        "Category: Adventure",
+        "Category: Travel Writing",
+        "Category: History - Modern (1750+)",
+        "G"
+      ]
+    },
+    {
+      "title": "All Afloat: A Chronicle of Craft and Waterways",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24808",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24808; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24808/pg24808.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24808/pg24808.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24808/pg24808.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24808/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Canada -- History",
+        "Navigation -- History",
+        "Inland navigation -- Canada",
+        "Fisheries -- Canada",
+        "Category: History - Other",
+        "VK",
+        "F1001"
+      ]
+    },
+    {
+      "title": "Amateur Fish Culture",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24719",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24719; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24719/pg24719.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24719/pg24719.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24719/pg24719.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24719/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Aquaculture",
+        "Fish culture",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: How To ...",
+        "SH"
+      ]
+    },
+    {
+      "title": "American Cookery: The Art of Dressing Viands, Fish, Poultry, and Vegetables",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12815",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12815; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12815/pg12815.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12815/pg12815.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12815/pg12815.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/12815/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American -- Early works to 1800",
+        "Cookbooks and Cooking",
+        "Category: History - American",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "An introduction to the study of fishes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/72060",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #72060; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/72060/pg72060.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/72060/pg72060.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/72060/pg72060.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/72060/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishes",
+        "Ichthyology",
+        "Category: Science - Biology",
+        "QL"
+      ]
+    },
+    {
+      "title": "Charles Carleton Coffin: War Correspondent, Traveller, Author, and Statesman",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22238",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #22238; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/22238/pg22238.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/22238/pg22238.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/22238/pg22238.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/22238/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Coffin, Charles Carleton, 1823-1896",
+        "Category: Biographies",
+        "Category: History - American",
+        "Category: Journalism/Media/Writing",
+        "E151"
+      ]
+    },
+    {
+      "title": "Correspondence and Report from His Majesty's Consul at Boma Respecting the Administration of the Independent State of the Congo [and Further Correspondence]",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50573",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50573; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50573/pg50573.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50573/pg50573.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50573/pg50573.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50573/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Congo (Democratic Republic) -- Politics and government",
+        "Congo (Democratic Republic)",
+        "Rubber industry and trade -- Congo (Democratic Republic)",
+        "Category: History - Other",
+        "Category: History - European",
+        "Category: History - Modern (1750+)",
+        "DT"
+      ]
+    },
+    {
+      "title": "Cruisings in the Cascades\nA Narrative of Travel, Exploration, Amateur Photography,\nHunting, and Fishing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36654",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36654; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36654/pg36654.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36654/pg36654.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36654/pg36654.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36654/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Hunting -- United States",
+        "Fishing -- United States",
+        "Travel",
+        "Category: Adventure",
+        "Category: Travel Writing",
+        "Category: Nature/Gardening/Animals",
+        "SK"
+      ]
+    },
+    {
+      "title": "Dr. Grenfell's Parish: The Deep Sea Fisherman",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39130",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39130; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39130/pg39130.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39130/pg39130.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39130/pg39130.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39130/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Labrador (N.L.) -- Description and travel",
+        "Newfoundland and Labrador -- Description and travel",
+        "Grenfell, Wilfred Thomason, Sir, 1865-1940",
+        "Royal National Mission to Deep Sea Fishermen",
+        "Category: Biographies",
+        "Category: History - Other",
+        "Category: Health & Medicine",
+        "F1001"
+      ]
+    },
+    {
+      "title": "Early Letters of George Wm. Curtis to John S. Dwight; Brook Farm and Concord",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/8222",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #8222; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/8222/pg8222.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/8222/pg8222.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/8222/pg8222.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/8222/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Authors, American -- 19th century -- Correspondence",
+        "Brook Farm Phalanx (West Roxbury, Boston, Mass.)",
+        "Curtis, George William, 1824-1892 -- Correspondence",
+        "Dwight, John Sullivan, 1813-1893 -- Correspondence",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "Category: History - American",
+        "PS"
+      ]
+    },
+    {
+      "title": "Extracts from the Diary and Correspondence of the Late Amos Lawrence; with a brief account of some incidents of his life",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/42522",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #42522; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/42522/pg42522.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/42522/pg42522.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/42522/pg42522.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/42522/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Lawrence, Amos, 1786-1852 -- Diaries",
+        "Lawrence, Amos, 1786-1852 -- Correspondence",
+        "Merchants -- Massachusetts -- Boston -- Biography",
+        "Philanthropists -- Massachusetts -- Boston -- Biography",
+        "Boston (Mass.) -- Biography",
+        "Category: Biographies",
+        "Category: History - American",
+        "F001"
+      ]
+    },
+    {
+      "title": "Favorite Fish and Fishing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43797",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43797; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43797/pg43797.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43797/pg43797.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43797/pg43797.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/43797/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishes -- North America",
+        "Fishing -- North America",
+        "Category: Sports/Hobbies",
+        "Category: Nature/Gardening/Animals",
+        "SH"
+      ]
+    },
+    {
+      "title": "Fish Populations, Following a Drought, in the Neosho and Marais des Cygnes Rivers of Kansas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34787",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34787; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34787/pg34787.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34787/pg34787.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34787/pg34787.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34787/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fish populations",
+        "Freshwater fishes -- Kansas -- Population dynamics -- Stocks",
+        "Animal",
+        "Animals-Wild",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "Category: Environmental Issues",
+        "QH"
+      ]
+    },
+    {
+      "title": "Fish Stories",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34672",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34672; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34672/pg34672.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34672/pg34672.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34672/pg34672.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34672/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishing",
+        "Animal",
+        "Animals-Wild",
+        "Category: Short Stories",
+        "Category: Humour",
+        "Category: Nature/Gardening/Animals",
+        "SH"
+      ]
+    },
+    {
+      "title": "Fisherman's Luck and Some Other Uncertain Things",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/1139",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #1139; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/1139/pg1139.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/1139/pg1139.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/1139/pg1139.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/1139/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishing",
+        "Category: Essays, Letters & Speeches",
+        "Category: Sports/Hobbies",
+        "Category: Nature/Gardening/Animals",
+        "PS"
+      ]
+    },
+    {
+      "title": "Fishes of Chautauqua, Cowley and Elk Counties, Kansas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34523",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34523; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34523/pg34523.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34523/pg34523.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34523/pg34523.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34523/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishes -- Kansas",
+        "Animal",
+        "Animals-Wild",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QH"
+      ]
+    },
+    {
+      "title": "Fishes of the Big Blue River Basin, Kansas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37742",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37742; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37742/pg37742.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37742/pg37742.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37742/pg37742.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/37742/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishes -- Kansas",
+        "Animal",
+        "Animals-Wild",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QH"
+      ]
+    },
+    {
+      "title": "Fishes of the Wakarusa River in Kansas",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/31513",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #31513; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/31513/pg31513.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/31513/pg31513.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/31513/pg31513.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/31513/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishes -- Kansas -- Wakarusa River",
+        "Animal",
+        "Animals-Wild",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "Category: Environmental Issues",
+        "QH"
+      ]
+    },
+    {
+      "title": "Fishes, Flowers, & Fire as Elements and Deities in the Phallic Faiths & Worship of the Ancient Religions of Greece, Babylon, Rome, India, &c.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37713",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37713; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37713/pg37713.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37713/pg37713.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37713/pg37713.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/37713/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Phallicism",
+        "Category: Mythology, Legends & Folklore",
+        "Category: Archaeology & Anthropology",
+        "Category: Religion/Spirituality",
+        "BL"
+      ]
+    },
+    {
+      "title": "Fishing and Shooting Sketches",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/35351",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #35351; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/35351/pg35351.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/35351/pg35351.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/35351/pg35351.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/35351/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishing",
+        "Hunting",
+        "Category: Essays, Letters & Speeches",
+        "Category: Sports/Hobbies",
+        "Category: Nature/Gardening/Animals",
+        "SH",
+        "SK"
+      ]
+    },
+    {
+      "title": "Fishing from the Earliest Times",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57845",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57845; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57845/pg57845.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57845/pg57845.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57845/pg57845.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/57845/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishing -- History",
+        "Category: History - Other",
+        "Category: History - Ancient",
+        "SH"
+      ]
+    },
+    {
+      "title": "Fishing Grounds of the Gulf of Maine",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/15035",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #15035; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/15035/pg15035.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/15035/pg15035.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/15035/pg15035.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/15035/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fisheries -- Maine, Gulf of",
+        "Category: History - Other",
+        "Category: Science - Biology",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Environmental Issues",
+        "SH"
+      ]
+    },
+    {
+      "title": "Fishing in British Columbia\nWith a Chapter on Tuna Fishing at Santa Catalina",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28719",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #28719; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28719/pg28719.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28719/pg28719.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28719/pg28719.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/28719/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishing -- British Columbia",
+        "Category: Travel Writing",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "SH"
+      ]
+    },
+    {
+      "title": "Fishing with a Worm",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/16369",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #16369; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/16369/pg16369.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/16369/pg16369.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/16369/pg16369.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/16369/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishing",
+        "Category: Essays, Letters & Speeches",
+        "Category: Sports/Hobbies",
+        "PS"
+      ]
+    },
+    {
+      "title": "Fishing with Floating Flies",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46169",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46169; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46169/pg46169.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46169/pg46169.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46169/pg46169.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/46169/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Trout fishing",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "SH"
+      ]
+    },
+    {
+      "title": "Fishing with the fly",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46680",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46680; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46680/pg46680.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46680/pg46680.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46680/pg46680.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/46680/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Flies, Artificial",
+        "Fly fishing",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "Category: Nature/Gardening/Animals",
+        "SH"
+      ]
+    },
+    {
+      "title": "Fly Fishing in Wonderland",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37278",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37278; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37278/pg37278.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37278/pg37278.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37278/pg37278.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/37278/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishing -- Yellowstone National Park",
+        "Category: Travel Writing",
+        "Category: Sports/Hobbies",
+        "Category: Nature/Gardening/Animals",
+        "SH"
+      ]
+    },
+    {
+      "title": "Full Speed Ahead: Tales from the Log of a Correspondent with Our Navy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60196",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60196; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60196/pg60196.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60196/pg60196.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60196/pg60196.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60196/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "World War, 1914-1918 -- Naval operations",
+        "United States. Navy",
+        "Category: Adventure",
+        "Category: Travel Writing",
+        "Category: History - American",
+        "Category: History - Warfare",
+        "D501"
+      ]
+    },
+    {
+      "title": "Game Birds and Game Fishes of the Pacific Coast",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38032",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38032; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38032/pg38032.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38032/pg38032.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38032/pg38032.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38032/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Game and game-birds -- Pacific Coast",
+        "Animal",
+        "Animals-Wild",
+        "Animals-Wild-Trapping",
+        "Animals-Wild-Birds",
+        "Category: Sports/Hobbies",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "Geographic Variation in the North American Cyprinid Fish, Hybopsis gracilis",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38425",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38425; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38425/pg38425.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38425/pg38425.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38425/pg38425.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38425/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cyprinidae",
+        "Fishes -- North America",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QH"
+      ]
+    },
+    {
+      "title": "History of the government of the island of Newfoundland\r\nWith an appendix containing the Acts of Parliament made respecting the trade and fishery",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59449",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59449; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59449/pg59449.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59449/pg59449.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59449/pg59449.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59449/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fisheries -- Newfoundland and Labrador -- Newfoundland, Island of",
+        "Newfoundland, Island of (N.L.) -- Politics and government",
+        "Category: History - Other",
+        "F1001"
+      ]
+    },
+    {
+      "title": "Home Taxidermy for Pleasure and Profit\nA Guide for Those Who Wish to Prepare and Mount Animals, Birds, Fish, Reptiles, etc., for Home, Den, or Office Decoration",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/23259",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #23259; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/23259/pg23259.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/23259/pg23259.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/23259/pg23259.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/23259/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Taxidermy",
+        "Animals-Wild-Trapping",
+        "Crafts",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "Hortus Inclusus\nMessages from the Wood to the Garden, Sent in Happy Days\nto the Sister Ladies of the Thwaite, Coniston",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/22230",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #22230; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/22230/pg22230.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/22230/pg22230.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/22230/pg22230.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/22230/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Ruskin, John, 1819-1900 -- Correspondence",
+        "Category: Essays, Letters & Speeches",
+        "Category: Art",
+        "Category: Nature/Gardening/Animals",
+        "PR"
+      ]
+    },
+    {
+      "title": "How to Cook Fish",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/18542",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #18542; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/18542/pg18542.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/18542/pg18542.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/18542/pg18542.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/18542/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking (Fish)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Impressions of a War Correspondent",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21661",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #21661; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21661/pg21661.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21661/pg21661.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21661/pg21661.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/21661/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "South African War, 1899-1902",
+        "China -- History -- Boxer Rebellion, 1899-1901",
+        "Boer War",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "Category: Journalism/Media/Writing",
+        "DS",
+        "DT"
+      ]
+    },
+    {
+      "title": "Jelly-Fish, Star-Fish, and Sea-Urchins: Being a Research on Primitive Nervous Systems",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46607",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46607; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46607/pg46607.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46607/pg46607.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46607/pg46607.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/46607/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Invertebrates -- Nervous system",
+        "Jellyfishes",
+        "Starfishes",
+        "Sea urchins",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "Letters to his mother, Ann Borrow, and other correspondents",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/28784",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #28784; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/28784/pg28784.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/28784/pg28784.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/28784/pg28784.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/28784/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Authors, English -- 19th century -- Correspondence",
+        "Borrow, George, 1803-1881 -- Correspondence",
+        "Category: Biographies",
+        "Category: Essays, Letters & Speeches",
+        "Category: Travel Writing",
+        "Category: British Literature",
+        "PR"
+      ]
+    },
+    {
+      "title": "Marvels of Pond-life\r\nOr, A Year's Microscopic Recreations Among the Polyps, Infusoria, Rotifers, Water-bears and Polyzoa",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36903",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36903; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36903/pg36903.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36903/pg36903.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36903/pg36903.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36903/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Microscopy",
+        "Freshwater animals -- England",
+        "Pond animals",
+        "Animal",
+        "Animals-Wild",
+        "Category: Science - Biology",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "Maxims and Hints on Angling, Chess, Shooting, and Other Matters\r\nAlso, Miseries of Fishing",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36821",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #36821; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36821/pg36821.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36821/pg36821.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36821/pg36821.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/36821/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Fishing",
+        "Chess",
+        "Maxims",
+        "Shooting",
+        "Category: Humour",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "GV",
+        "SH",
+        "SK"
+      ]
+    },
+    {
+      "title": "Memories, by Admiral of the Fleet, Lord Fisher",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/68034",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #68034; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/68034/pg68034.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/68034/pg68034.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/68034/pg68034.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/68034/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Admirals -- Great Britain -- Biography",
+        "Great Britain. Royal Navy",
+        "Fisher, John Arbuthnot Fisher, Baron, 1841-1920",
+        "Category: Biographies",
+        "Category: History - British",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "DA"
+      ]
+    },
+    {
+      "title": "Mr. Punch with Rod and Gun: The Humours of Fishing and Shooting",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/45748",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #45748; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/45748/pg45748.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/45748/pg45748.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/45748/pg45748.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/45748/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "English wit and humor",
+        "English wit and humor, Pictorial",
+        "Hunting -- Anecdotes",
+        "Hunting -- Humor",
+        "Fishing -- Anecdotes",
+        "Fishing -- Humor",
+        "Category: Humour",
+        "Category: British Literature",
+        "Category: Sports/Hobbies",
+        "PN"
+      ]
+    },
+    {
+      "title": "Natural History in Anecdote\r\nIllustrating the nature, habits, manners and customs of animals, birds, fishes, reptiles, etc., etc., etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37959",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37959; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37959/pg37959.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37959/pg37959.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37959/pg37959.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/37959/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Animal behavior",
+        "Zoology -- Popular works",
+        "Animal",
+        "Animals-Wild",
+        "Category: Nature/Gardening/Animals",
+        "QL"
+      ]
+    },
+    {
+      "title": "New England Salmon Hatcheries and Salmon Fisheries in the Late 19th Century",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17171",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #17171; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17171/pg17171.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17171/pg17171.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17171/pg17171.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/17171/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Salmon -- New England",
+        "Fish hatcheries -- New England",
+        "Fisheries -- New England",
+        "Category: History - American",
+        "Category: Science - Biology",
+        "Category: Science - Earth/Agricultural/Farming",
+        "SH"
+      ]
+    },
+    {
+      "title": "The Lobster Fishery of Maine Bulletin of the United States Fish Commission, Vol. 19, Pages 241-265, 1899",
+      "author": "Cobb, John N. (John Nathan), 1868-1930",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17475",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 17475); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17475/pg17475.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17475/pg17475.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17475/pg17475.cover.small.jpg"
+      ],
+      "subject": "Lobster fisheries -- Maine",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Lobster fisheries -- Maine",
+        "Category: History - American",
+        "Category: Science - Biology",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Environmental Issues",
+        "SH"
+      ]
+    },
+    {
+      "title": "The Arctic regions and the northern whale-fishery",
+      "author": "Scoresby, William, 1789-1857",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69389",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69389); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69389/pg69389.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69389/pg69389.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69389/pg69389.cover.small.jpg"
+      ],
+      "subject": "Arctic regions",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Arctic regions",
+        "Whaling -- Arctic regions",
+        "Category: Travel Writing",
+        "Category: History - Other",
+        "Category: History - Modern (1750+)",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Nature/Gardening/Animals",
+        "G"
+      ]
+    },
+    {
+      "title": "The northern whale-fishery",
+      "author": "Scoresby, William, 1789-1857",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69504",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 69504); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69504/pg69504.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69504/pg69504.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69504/pg69504.cover.small.jpg"
+      ],
+      "subject": "Whaling -- Arctic regions",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Whaling -- Arctic regions",
+        "Category: History - Other",
+        "Category: Science - Earth/Agricultural/Farming",
+        "Category: Environmental Issues",
+        "SH"
+      ]
+    },
+    {
+      "title": "Whale Fishery of New England",
+      "author": "State Street Trust Company (Boston, Mass.) [Editor]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/55152",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 55152); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/55152/pg55152.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/55152/pg55152.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/55152/pg55152.cover.small.jpg"
+      ],
+      "subject": "Whaling",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Whaling",
+        "Category: History - Other",
+        "Category: History - American",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "SH"
+      ]
+    },
+    {
+      "title": "The Experienced Angler; or Angling Improved Imparting Many of the Aptest Ways and Choicest Experiments for the Taking Most Sorts of Fish in Pond or River",
+      "author": "Venables, Robert, 1612?-1687; Walton, Izaak, 1593-1683 [Author of introduction, etc.]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67474",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 67474); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67474/pg67474.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67474/pg67474.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67474/pg67474.cover.small.jpg"
+      ],
+      "subject": "Fishing",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Fishing",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "SH"
+      ]
+    }
+  ],
+  "notes": "NOTE: 'The Lean Startup' (bdebooks.com) and 'Atomic Habits' (archive.org) were both in the source CSV but excluded — bdebooks.com is an unauthorised ebook-sharing site, and archive.org's copy of Atomic Habits is a controlled-lending scan of a commercially-sold book, not a free download. Both were replaced with the category-specific resources below.\n\nChannel slots 9 and 10 use the same FAO channel and WorldFish as distinct content focuses. If the app deduplicates by channel ID, slot 9 can be replaced with FAO Education Hub (@faovideo, ID: UCHbx9IUW7eCeJsC4sBCTNBA from youtube.com/faovideo) and slot 10 with WorldFish resolved via API. CSV's original channel picks (Agric TV Nigeria, Vetline Africa, Obasanjo Farms, Nigerian Farmer) could not be verified as active YouTube channels through multiple targeted searches — none returned YouTube channel page URLs. 2026-08-23: Removed disallowed generic or unauthorized-looking ebook hosts and duplicate book records during repository-wide compliance cleanup. 2026-08-23: Added 60 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 5 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Re-research removed entries using a legitimate open, public-domain, institutional, government, or author-controlled source before adding replacements.",
+    "2026-08-23: Review the 60 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}

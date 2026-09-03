@@ -1,0 +1,1409 @@
+{
+  "categoryId": "business_04_food_vending_catering_meal_prep",
+  "status": "verified",
+  "lastUpdated": "2026-08-23",
+  "channels": [
+    {
+      "id": "UCJV7Qy0bakHCGnsx4tK7iaw",
+      "name": "The Restaurant Boss",
+      "handle": "@TheRestaurantBoss",
+      "description": "Ryan Gromfin's restaurant business coaching channel — increasing profits, controlling food and labour costs, marketing, menu engineering, and how to build a restaurant business system. Active community of restaurant owners worldwide. Replaces 'Restaurant Owners Uncorked' from CSV (a Vimeo/podcast series with no dedicated YouTube channel).",
+      "accentColor": "0xFFB45309",
+      "initials": "RB",
+      "focus": "Restaurant business profitability, cost control, and operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Replaces Restaurant Owners Uncorked — that show is a podcast on Vimeo/Podomatic; no YouTube channel exists."
+    },
+    {
+      "id": "UCCNvbv5IQV77Gsh-c-v8nfg",
+      "name": "Zeelicious Foods",
+      "handle": "@ZeeliciousFoods",
+      "description": "Winifred Nwania — Nigeria's #1 food YouTube channel with 1.1M+ subscribers and 73M+ views. YouTube Black Voices Creator Class 2021 alum. Hosts DStv's My Naija Plate. Nigerian and continental recipes. Essential for food businesses wanting to understand content-led customer acquisition in Nigeria.",
+      "accentColor": "0xFFDC2626",
+      "initials": "ZF",
+      "focus": "Nigeria's #1 food channel — 1.1M subs, recipe-led brand building",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed."
+    },
+    {
+      "id": "UCWOLNjWWkU4ADFLb5WuqVKw",
+      "name": "Foodies And Spice",
+      "handle": "@FoodiesAndSpice",
+      "description": "Geena Ehikodi's Nigerian food show — fun cooking and eating content from 'the best cook show in Nigeria'. Covers Nigerian recipes, food reviews, and catering-style content. Popular with Nigerian food entrepreneurs wanting to understand their audience.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "FS",
+      "focus": "Nigerian food entertainment and cooking content",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. No correction needed."
+    },
+    {
+      "id": "UC6oFqFPZ5AbrkJmKHfh3C5A",
+      "name": "Toast, Inc.",
+      "handle": "@Toasttab",
+      "description": "Operating system for restaurants — serves hundreds of thousands of food businesses globally. Channel covers POS setup, menu engineering, startup costs, marketing, and real operator success stories. The definitive resource for understanding how to run a digitally-managed food service business.",
+      "accentColor": "0xFF0369A1",
+      "initials": "TI",
+      "focus": "Restaurant and food service business systems — POS, marketing, operations",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. CSV listed as 'Toast POS' — official channel name is Toast, Inc. Handle @Toasttab confirmed."
+    },
+    {
+      "id": "UCgiZJgpmzcbCW30ywLHVPkQ",
+      "name": "SisiYemmieTV",
+      "handle": "@SisiYemmieTV",
+      "description": "Yemisi Odusanya — Nigerian food and lifestyle blogger with 1.1M subscribers, award-winning cookbook author (3 published cookbooks), and mom of 5. Started 2010. Nigerian Food Time Table, recipe tutorials, family meal prep. 141M+ total views. Replaces 'EatDrink' from CSV — no Nigerian food channel exists at that handle.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "SY",
+      "focus": "1.1M-sub Nigerian food creator — recipes, meal prep, family cooking",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Replaces EatDrink from CSV — no relevant food channel found at @EatDrink handle."
+    },
+    {
+      "id": "UCsVZWCV-LutMa89JgR8-KGw",
+      "name": "BusinessDay Television",
+      "handle": "@BDTV-NG",
+      "description": "Official BusinessDay newspaper YouTube channel — Nigeria's leading business publication. Essential for food businesses tracking economic trends, market opportunities, and business news affecting the Nigerian food industry.",
+      "accentColor": "0xFF1D4ED8",
+      "initials": "BD",
+      "focus": "Nigerian business news — food industry economics and market trends",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. Handle CORRECTED: CSV had 'BusinessDay Nigeria' — actual YouTube handle is @BDTV-NG."
+    },
+    {
+      "id": "UC7geKfz2-IH0rsgRBtHTm0g",
+      "name": "Learn With Shopify",
+      "handle": "@learnwithshopify",
+      "description": "Shopify's official entrepreneurship channel — online food businesses, meal kit e-commerce, catering brand building, digital marketing, and AI for business growth. Essential for food vendors adding an online ordering or product sales channel.",
+      "accentColor": "0xFF16A34A",
+      "initials": "LS",
+      "focus": "E-commerce and online food business launch and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Channel ID live-verified via YouTube page fetch. REPLACED: CSV had 'Shopify Food & Beverage' — Shopify has one official channel; no food-specific sub-channel exists."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "Trade and service business management — CRM, dispatch, marketing and growth.",
+      "accentColor": "0xFF6366F1",
+      "initials": "ST",
+      "focus": "Service business management",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC3YxJzFvjfjRZN0a7HR6x1w",
+      "name": "OpenLearn from The Open University",
+      "handle": "@OpenLearn_OU",
+      "description": "Free learning across education, society, science, and lifelong learning.",
+      "accentColor": "0xFF2563EB",
+      "initials": "OF",
+      "focus": "Food Vending/Catering/Meal-Prep: Free learning across education, society, science, and lifelong learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC3YxJzFvjfjRZN0a7HR6x1w; selected for the Food Vending/Catering/Meal-Prep learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC4EY_qnSeAP1xGsh61eOoJA",
+      "name": "YaleCourses",
+      "handle": "@YaleCourses",
+      "description": "Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "accentColor": "0xFF16A34A",
+      "initials": "Y",
+      "focus": "Food Vending/Catering/Meal-Prep: Psychology, neuroscience, philosophy, social science, and clinical-adjacent learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC4EY_qnSeAP1xGsh61eOoJA; selected for the Food Vending/Catering/Meal-Prep learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+      "name": "Stanford Online",
+      "handle": "@StanfordOnline",
+      "description": "Psychology, learning, decision-making, leadership, and human behavior.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "SO",
+      "focus": "Food Vending/Catering/Meal-Prep: Psychology, learning, decision-making, leadership, and human behavior.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBa5G_ESCn8Yd4vw5U-gIcg; selected for the Food Vending/Catering/Meal-Prep learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC2ri4rEb8abnNwXvTjg5ARw",
+      "name": "Khan Academy",
+      "handle": "@khanacademy",
+      "description": "Foundational and advanced learning with practice across core subjects.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "KA",
+      "focus": "Food Vending/Catering/Meal-Prep: Foundational and advanced learning with practice across core subjects.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC2ri4rEb8abnNwXvTjg5ARw; selected for the Food Vending/Catering/Meal-Prep learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q",
+      "name": "CrashCourse",
+      "handle": "@CrashCourse",
+      "description": "Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "accentColor": "0xFF0891B2",
+      "initials": "C",
+      "focus": "Food Vending/Catering/Meal-Prep: Structured psychology, neuroscience, sociology, and behavioral science foundations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCX6b17PVsYBQ0ip5gyeme-Q; selected for the Food Vending/Catering/Meal-Prep learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCin0m13qWv3-051xlWlHamA",
+      "name": "Veritasium",
+      "handle": "@Veritasium",
+      "description": "Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "accentColor": "0xFFDB4437",
+      "initials": "V",
+      "focus": "Food Vending/Catering/Meal-Prep: Evidence-based science and engineering explanations with experiments and expert interviews.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCin0m13qWv3-051xlWlHamA; selected for the Food Vending/Catering/Meal-Prep learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC8VkNBOwvsTlFjoSnNSMmxw",
+      "name": "SmarterEveryDay",
+      "handle": "@SmarterEveryDay",
+      "description": "Practical science, engineering, technology, and problem-solving investigations.",
+      "accentColor": "0xFF0F766E",
+      "initials": "S",
+      "focus": "Food Vending/Catering/Meal-Prep: Practical science, engineering, technology, and problem-solving investigations.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC8VkNBOwvsTlFjoSnNSMmxw; selected for the Food Vending/Catering/Meal-Prep learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC7IcJI8PUf5Z3zKxnZvTBog",
+      "name": "The School of Life",
+      "handle": "@theschooloflifetv",
+      "description": "Psychology, emotional intelligence, relationships, and self-awareness.",
+      "accentColor": "0xFF9333EA",
+      "initials": "TS",
+      "focus": "Food Vending/Catering/Meal-Prep: Psychology, emotional intelligence, relationships, and self-awareness.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct official YouTube handle page @theschooloflifetv resolved to channel ID UC7IcJI8PUf5Z3zKxnZvTBog; verified against the official channel page on 2026-08-26."
+    },
+    {
+      "id": "UCUdettijNYvLAm4AixZv4RA",
+      "name": "SciShow",
+      "handle": "@SciShow",
+      "description": "Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "accentColor": "0xFFB45309",
+      "initials": "S",
+      "focus": "Food Vending/Catering/Meal-Prep: Accessible science education spanning biology, chemistry, physics, medicine, and Earth science.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCUdettijNYvLAm4AixZv4RA; selected for the Food Vending/Catering/Meal-Prep learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCtwKon9qMt5YLVgQt1tvJKg",
+      "name": "Numberphile",
+      "handle": "@numberphile",
+      "description": "Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "accentColor": "0xFF475569",
+      "initials": "N",
+      "focus": "Food Vending/Catering/Meal-Prep: Mathematics, numbers, proofs, history, and mathematical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCtwKon9qMt5YLVgQt1tvJKg; selected for the Food Vending/Catering/Meal-Prep learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Toast Blog",
+      "url": "https://pos.toasttab.com/blog/feed",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Toast official restaurant blog — pricing, marketing, food costs, operations. Major industry resource."
+    },
+    {
+      "name": "Restaurant Owner",
+      "url": "https://www.restaurantowner.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "restaurantowner.com — guides, cost calculators, and profitability frameworks for independent restaurant owners."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://startuptipsdaily.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Nigerian startup publication with food business guides, catering costs, and meal prep entrepreneurship content."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Confirmed from prior skills. Established Nigerian entrepreneur publication covering food business."
+    },
+    {
+      "name": "Shopify Blog",
+      "url": "https://www.shopify.com/blog/rss",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Shopify official blog — how to start and grow a food product business online."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Splice Nigeria business media — food vending, street food business, and food entrepreneurship stories."
+    },
+    {
+      "name": "Bintus Art and Everything",
+      "url": "https://bintusartandeverything.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Nigerian food and lifestyle blog with recipe-based business content and food vendor stories."
+    },
+    {
+      "name": "SME Guide",
+      "url": "https://smeguide.com/feed/",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Nigerian SME resource hub — food business content including CAC registration, pricing, and marketing."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "TechCabal",
+      "url": "https://techcabal.com/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "African tech & business practical coverage."
+    },
+    {
+      "name": "King Arthur Baking",
+      "url": "https://www.kingarthurbaking.com/blog",
+      "region": "Global",
+      "focus": "Baking science, recipes, ingredients, and professional technique.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "ChefSteps",
+      "url": "https://www.chefsteps.com/",
+      "region": "Global",
+      "focus": "Culinary technique, food science, and professional cooking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Taste of Home",
+      "url": "https://www.tasteofhome.com/",
+      "region": "Global",
+      "focus": "Cooking, baking, food preparation, and family food culture.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modernist Pantry",
+      "url": "https://blog.modernistpantry.com/",
+      "region": "Global",
+      "focus": "Food science, culinary ingredients, technique, and experimentation.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "MindTools",
+      "url": "https://www.mindtools.com/",
+      "region": "Global",
+      "focus": "Leadership, communication, management, teamwork, and career skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "The Decision Lab",
+      "url": "https://thedecisionlab.com/",
+      "region": "Global",
+      "focus": "Behavioral science, decision-making, psychology, and public policy.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "freeSourceUrl": "https://books.google.com/books?id=SHi_fU0AlO0C",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free preview at Google Books — technician/manager/entrepreneur framework essential for anyone moving from solo operator to business owner",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (f5fp.com — third-party site for a copyrighted book). Google Books preview is legitimate. Full book recommended for purchase.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780887307287-L.jpg"
+    },
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://www.mikemichalowicz.com/profit-first-book",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free chapter and framework at mikemichalowicz.com — take profit before expenses using envelope-style account allocation",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "Official author site — free chapter available. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "freeSourceUrl": "https://theleanstartup.com",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free methodology overview at theleanstartup.com — build-measure-learn frameworks from the official author site",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "URL CORRECTED from CSV (bdebooks.com — third-party site for a copyrighted book). Replaced with official author site.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/small-business-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — operations, finance, marketing and HR for small businesses. No paywall, no DRM.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed academic textbook. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/entrepreneurship",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free complete entrepreneurship coursebook — ideation, business model design, funding, and growth",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "HubSpot Marketing Resources",
+      "author": "HubSpot",
+      "freeSourceUrl": "https://www.hubspot.com/resources",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free at hubspot.com/resources — 198+ free marketing guides, templates, and ebooks. No paywall.",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot — genuinely free with no paywall. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free official startup guide at sba.gov — business structure, licensing, financing, and operations fundamentals",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "SBA.gov — U.S. government, permanently free. No URL correction needed.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "course",
+      "freeSourceNote": "Free certification course at HubSpot Academy — complete inbound marketing curriculum with official certification on completion",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "HubSpot Academy — free with official certification. No URL correction needed.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free peer-reviewed textbook — POLC framework: planning, organising, leading, and controlling a business",
+      "verifiedOn": "2026-07-24",
+      "verificationMethod": "OpenStax — permanently free, peer-reviewed. No URL correction needed.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "10 Cakes Husbands Like Best: From Spry's Recipe Round-up",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63004",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63004; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63004/pg63004.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63004/pg63004.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63004/pg63004.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63004/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cake",
+        "Oils and fats, Edible",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "10 Luscious New Cakes, Made by Spry's Amazing New One-Bowl Method",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59589",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59589; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59589/pg59589.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59589/pg59589.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59589/pg59589.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59589/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cake",
+        "Oils and fats, Edible",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "50 Wonderful Ways to Use Lucerne Sour Cream, From Appetizers to Desserts\r\nRecipes from the Test Kitchen of the American Dairy Association",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63670",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #63670; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63670/pg63670.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63670/pg63670.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63670/pg63670.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/63670/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Cookbooks",
+        "Cooking (Dairy products)",
+        "Cooking (Sour cream and milk)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "A brief guide to the Food Collection",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64712",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64712; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64712/pg64712.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64712/pg64712.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64712/pg64712.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/64712/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Exhibition catalogs",
+        "Bethnal Green Museum",
+        "Food -- Exhibitions",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Nutrition",
+        "HQ"
+      ]
+    },
+    {
+      "title": "A friend in the kitchen",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/61451",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #61451; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/61451/pg61451.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/61451/pg61451.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/61451/pg61451.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/61451/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Vegetarian cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "A Handbook of Fish Cookery: How to buy, dress, cook, and eat fish",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53525",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53525; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53525/pg53525.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53525/pg53525.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53525/pg53525.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53525/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking (Fish)",
+        "Cookbooks and Cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "A handbook of invalid cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/54568",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #54568; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/54568/pg54568.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/54568/pg54568.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/54568/pg54568.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/54568/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking for the sick",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RM"
+      ]
+    },
+    {
+      "title": "A Treatise of Cleanness in Meats and Drinks, of the Preparation of Food,\r\nthe Excellency of Good Airs, and the Benefits of Clean Sweet Beds. Also of the Generation of Bugs, and Their Cure. To Which Is Added, a Short Discourse of the Pain in the Teeth, Shewing What Cause It Does Chiefly Proceed, and Also How to Prevent It.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/52657",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #52657; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/52657/pg52657.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/52657/pg52657.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/52657/pg52657.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/52657/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Hygiene -- Early works to 1800",
+        "Teeth -- Care and hygiene",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RA"
+      ]
+    },
+    {
+      "title": "A Treatise on Adulterations of Food, and Culinary Poisons\r\nExhibiting the Fraudulent Sophistications of Bread, Beer, Wine, Spiritous Liquors, Tea, Coffee, Cream, Confectionery, Vinegar, Mustard, Pepper, Cheese, Olive Oil, Pickles, and Other Articles Employed in Domestic Economy",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/19031",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #19031; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/19031/pg19031.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/19031/pg19031.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/19031/pg19031.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/19031/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food adulteration and inspection",
+        "Technology",
+        "Cookbooks and Cooking",
+        "Medicine",
+        "Chemistry",
+        "Category: Cooking & Drinking",
+        "Category: Health & Medicine",
+        "TX"
+      ]
+    },
+    {
+      "title": "A Treatise on Bread, and Bread-making",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66331",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66331; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66331/pg66331.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66331/pg66331.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66331/pg66331.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66331/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Bread",
+        "Category: History - Other",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "A treatise on the art of making good wholesome bread of wheat, oats, rye, barley and other farinaceous grains\r\nExhibiting the alimentary properties and chemical constitution of different kinds of bread corn, and of the various substitutes used for bread, in different parts of the world",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60424",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60424; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60424/pg60424.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60424/pg60424.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60424/pg60424.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60424/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Bread",
+        "Category: History - Other",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Cooking & Drinking",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "A treatise on the esculent funguses of England\r\ncontaining an account of their classical history, uses, characters, development, structure, nutritious properties, modes of cooking and preserving, etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/58853",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #58853; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/58853/pg58853.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/58853/pg58853.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/58853/pg58853.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/58853/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Mushrooms -- England",
+        "Category: Science - Biology",
+        "Category: Cooking & Drinking",
+        "Category: Nutrition",
+        "QK"
+      ]
+    },
+    {
+      "title": "American Cookery: The Art of Dressing Viands, Fish, Poultry, and Vegetables",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12815",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12815; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12815/pg12815.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12815/pg12815.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12815/pg12815.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/12815/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American -- Early works to 1800",
+        "Cookbooks and Cooking",
+        "Category: History - American",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "An Ideal Kitchen: Miss Parloa's Kitchen Companion\r\nA Guide for All Who Would Be Good Housekeepers",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/53892",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #53892; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/53892/pg53892.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/53892/pg53892.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/53892/pg53892.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/53892/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Kitchen utensils",
+        "Home economics",
+        "Cooking, American",
+        "Kitchens",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Beef Slaughtering, Cutting, Preserving, and Cooking on the Farm",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62848",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62848; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62848/pg62848.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62848/pg62848.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62848/pg62848.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62848/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Meat cutting",
+        "Slaughtering and slaughter-houses",
+        "Beef",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "SF"
+      ]
+    },
+    {
+      "title": "Betty Crocker's Frosting Secrets\r\nFancy Cake Decorating; New Cake-trimming Short Cuts; Fabulous Party Cake Ideas; Fun With Frostings",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62188",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62188; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62188/pg62188.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62188/pg62188.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62188/pg62188.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62188/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cake decorating",
+        "Icings (Confectionery)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Book of American Baking\r\nA Practical Guide Covering Various Branches of the Baking Industry, Including Cakes, Buns, and Pastry, Bread Making, Pie Baking, Etc.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49797",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49797; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49797/pg49797.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49797/pg49797.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49797/pg49797.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49797/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Quantity cooking",
+        "Baking",
+        "Baked products industry -- United States",
+        "Baking -- United States",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Cakes & Ale\r\nA Dissertation on Banquets Interspersed with Various Recipes, More or Less Original, and anecdotes, mainly veracious",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43278",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43278; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43278/pg43278.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43278/pg43278.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43278/pg43278.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/43278/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Gastronomy",
+        "Cooking, English",
+        "Entertaining",
+        "Dinners and dining",
+        "Category: Humour",
+        "Category: Essays, Letters & Speeches",
+        "Category: British Literature",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Camp fires and camp cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75442",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75442; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75442/pg75442.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75442/pg75442.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75442/pg75442.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/75442/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Cooking for military personnel",
+        "Category: History - American",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "UC"
+      ]
+    },
+    {
+      "title": "Camping and camp cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73671",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73671; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73671/pg73671.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73671/pg73671.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73671/pg73671.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73671/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Camping",
+        "Outdoor cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "Category: Nature/Gardening/Animals",
+        "SK"
+      ]
+    },
+    {
+      "title": "Canning, Freezing, Storing Garden Produce",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/59977",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #59977; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/59977/pg59977.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/59977/pg59977.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/59977/pg59977.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/59977/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Canning and preserving",
+        "Fruit -- Preservation -- United States",
+        "Vegetables -- Preservation -- United States",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Choice Recipes and Menus Using Canned Foods",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66069",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66069; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66069/pg66069.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66069/pg66069.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66069/pg66069.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66069/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cookbooks",
+        "Canned foods",
+        "Cooking (Canned foods)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Classic Variations in Cooking with Texas Eggs",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/62665",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #62665; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/62665/pg62665.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/62665/pg62665.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/62665/pg62665.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/62665/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking (Eggs)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "Clayton's Quaker Cook-Book\r\nBeing a Practical Treatise on the Culinary Art Adapted to the Tastes and Wants of All Classes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38823",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38823; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38823/pg38823.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38823/pg38823.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38823/pg38823.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38823/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Cottage Cheese Recipe Book\r\nAppetizers, Salads, Salad Dressings, Breads, Main Dishes, Desserts",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65327",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65327; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65327/pg65327.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65327/pg65327.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65327/pg65327.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65327/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cookbooks",
+        "Cooking (Dairy products)",
+        "Cooking (Cottage cheese)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "TX"
+      ]
+    },
+    {
+      "title": "Culinary Chemistry\r\nThe Scientific Principles of Cookery, with Concise Instructions for Preparing Good and Wholesome Pickles, Vinegar, Conserves, Fruit Jellies, Marmalades, and Various Other Alimentary Substances Employed in Domestic Economy, with Observations on the Chemical Constitution and Nutritive Qualities of Different Kinds of Food.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60163",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60163; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60163/pg60163.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60163/pg60163.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60163/pg60163.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60163/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking",
+        "Food poisoning",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: Cooking & Drinking",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "Culinary Herbs: Their Cultivation Harvesting Curing and Uses",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/21414",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #21414; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/21414/pg21414.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/21414/pg21414.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/21414/pg21414.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/21414/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Herbs",
+        "Horticulture",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nature/Gardening/Animals",
+        "SB"
+      ]
+    },
+    {
+      "title": "Culture and Cooking; Or, Art in the Kitchen",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29982",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29982; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29982/pg29982.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29982/pg29982.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29982/pg29982.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29982/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Cookbooks and Cooking",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Curious Facts in the History of Insects; Including Spiders and Scorpions.\r\nA Complete Collection of the Legends, Superstitions, Beliefs, and Ominous Signs Connected with Insects; Together with Their Uses in Medicine, Art, and as Food; and a Summary of Their Remarkable Injuries and Appearances.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41625",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41625; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41625/pg41625.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41625/pg41625.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41625/pg41625.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41625/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Insects",
+        "Category: Mythology, Legends & Folklore",
+        "Category: History - Other",
+        "Category: Nature/Gardening/Animals",
+        "Category: Archaeology & Anthropology",
+        "QL"
+      ]
+    },
+    {
+      "title": "Detection of the Common Food Adulterants",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/43545",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #43545; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/43545/pg43545.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/43545/pg43545.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/43545/pg43545.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/43545/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food adulteration and inspection",
+        "Category: Science - Chemistry/Biochemistry",
+        "Category: How To ...",
+        "Category: Health & Medicine",
+        "TX"
+      ]
+    },
+    {
+      "title": "Directions for Cooking by Troops, in Camp and Hospital\r\nPrepared for the Army of Virginia, and published by order of the Surgeon General, with essays on \"taking food,\" and \"what food.\"",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49833",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49833; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49833/pg49833.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49833/pg49833.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49833/pg49833.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49833/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking for the sick",
+        "Quantity cooking",
+        "Cooking for military personnel",
+        "Category: History - American",
+        "Category: Cooking & Drinking",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "Women in Science, Technology, Engineering, and Mathematics",
+        "RM"
+      ]
+    },
+    {
+      "title": "Dressed Game and Poultry à la Mode",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/31982",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #31982; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/31982/pg31982.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/31982/pg31982.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/31982/pg31982.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/31982/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking (Game)",
+        "Cooking (Poultry)",
+        "Cookbooks and Cooking",
+        "Category: Cooking & Drinking",
+        "TX"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 1",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46511",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46511; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46511/pg46511.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46511/pg46511.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46511/pg46511.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/46511/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "RM"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 2",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/48746",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #48746; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/48746/pg48746.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/48746/pg48746.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/48746/pg48746.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/48746/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RM"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 3",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50213",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50213; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50213/pg50213.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50213/pg50213.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50213/pg50213.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50213/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RM"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 4",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/47701",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #47701; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/47701/pg47701.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/47701/pg47701.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/47701/pg47701.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/47701/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "RM"
+      ]
+    },
+    {
+      "title": "Encyclopedia of Diet: A Treatise on the Food Question, Vol. 5",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50660",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #50660; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50660/pg50660.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50660/pg50660.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50660/pg50660.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/50660/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Food",
+        "Diet",
+        "Diet in disease",
+        "Category: Health & Medicine",
+        "Category: Nutrition",
+        "RM"
+      ]
+    },
+    {
+      "title": "Everyday Foods in War Time",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/14066",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #14066; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/14066/pg14066.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/14066/pg14066.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/14066/pg14066.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/14066/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Food conservation",
+        "World War I",
+        "Category: History - Modern (1750+)",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    },
+    {
+      "title": "Famous old receipts used a hundred years and more in the kitchens of the North and the South, contributed by descendants",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/77552",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #77552; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/77552/pg77552.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/77552/pg77552.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/77552/pg77552.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/77552/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking, American",
+        "Menus",
+        "Cookbooks",
+        "TX"
+      ]
+    },
+    {
+      "title": "First lessons in the principles of cooking",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/75832",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #75832; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/75832/pg75832.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/75832/pg75832.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/75832/pg75832.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/75832/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cooking",
+        "Category: Cooking & Drinking",
+        "Category: How To ...",
+        "Category: Nutrition",
+        "TX"
+      ]
+    }
+  ],
+  "integrationNotes": "10/10 channels fully verified with UCxxx IDs. Key replacements from CSV: (1) Restaurant Owners Uncorked → The Restaurant Boss (UCJV7Qy0bakHCGnsx4tK7iaw) — podcast, no YouTube channel; (2) EatDrink → SisiYemmieTV (UCgiZJgpmzcbCW30ywLHVPkQ) — @EatDrink handle not a relevant Nigerian food channel; (3) Shopify Food & Beverage → Learn With Shopify — Shopify has one official channel. Key handle corrections: Diary of a Kitchen Lover @diaryofakitchenlover (all lowercase), BusinessDay @BDTV-NG. Books: f5fp.com→Google Books, bdebooks.com→theleanstartup.com, archive.org/atomic-habits→jamesclear.com across all 5 skills.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Review the 40 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ],
+  "notes": "2026-08-23: Added 40 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content."
+}

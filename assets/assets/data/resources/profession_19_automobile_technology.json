@@ -1,0 +1,1874 @@
+{
+  "categoryId": "profession_19_automobile_technology",
+  "status": "verified",
+  "lastUpdated": "2026-08-26",
+  "channels": [
+    {
+      "id": "UCH7WT6FDHtqN7eMtYLRkOSw",
+      "name": "South Main Auto",
+      "handle": "@SouthMainAuto",
+      "description": "Auto repair shop chain operations and advanced diagnostics — real-world content on running a professional auto repair business at trade scale.",
+      "accentColor": "0xFFEC4899",
+      "initials": "SM",
+      "focus": "Automobile technology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCH7WT6FDHtqN7eMtYLRkOSw cross-confirmed from skill_09_auto_mechanics.json (independently verified)."
+    },
+    {
+      "id": "UChrcmQsFOVG4BW-yBBQujJA",
+      "name": "RLO Training",
+      "handle": "@RLOTraining",
+      "description": "Auto repair shop management systems and training — enterprise operations for automotive service businesses including staffing, revenue management, and shop scaling.",
+      "accentColor": "0xFF10B981",
+      "initials": "RL",
+      "focus": "Automobile technology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UChrcmQsFOVG4BW-yBBQujJA fetched directly from youtube.com/@RLOTraining (2026-07-25). Blog counterpart (rlotraining.com/blog/feed) already confirmed in skill_09."
+    },
+    {
+      "id": "UCgwFAX01m1tT0XyqU19WGtw",
+      "name": "ServiceTitan",
+      "handle": "@Servicetitan",
+      "description": "World-leading field-service and trade business management software — how automotive and trade businesses use technology to streamline operations, dispatch, billing, and scaling.",
+      "accentColor": "0xFF6366F1",
+      "initials": "ST",
+      "focus": "Automobile technology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UCgwFAX01m1tT0XyqU19WGtw confirmed via YouTube search result (youtube.com/channel/UCgwFAX01m1tT0XyqU19WGtw, 2026-07-25). Blog counterpart (servicetitan.com/blog/feed) already confirmed in skill_09."
+    },
+    {
+      "id": "UC7PkJMdC9mOCfHcJJK6XJBA",
+      "name": "Pine Hollow Auto Diagnostics",
+      "handle": "@PineHollowAutoDiagnostics",
+      "description": "Diagnostic business model and shop scaling — how a professional auto diagnostics service is built and run at trade scale.",
+      "accentColor": "0xFFF97316",
+      "initials": "PH",
+      "focus": "Automobile technology trade",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Channel ID UC7PkJMdC9mOCfHcJJK6XJBA cross-confirmed from skill_09_auto_mechanics.json (independently verified)."
+    },
+    {
+      "id": "UCKeFGEk3I60qN2XqFMKvp7A",
+      "name": "Bumpa",
+      "handle": "@getbumpa",
+      "description": "Nigerian retail and social-commerce management — helps workshops and service businesses manage orders, sales and branding.",
+      "accentColor": "0xFF15803D",
+      "initials": "BN",
+      "focus": "Nigerian service business tools",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed Nigerian business tools channel."
+    },
+    {
+      "id": "UCn-hX1cX2CrQdyDh-qik1ZA",
+      "name": "How I Built This",
+      "handle": "@HowIBuiltThis",
+      "description": "Guy Raz founder interviews — how businesses including automotive and service brands were built from scratch.",
+      "accentColor": "0xFFCA8A04",
+      "initials": "GR",
+      "focus": "Founder business building stories",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed founder interview channel."
+    },
+    {
+      "id": "UCIHdDJ0tjn_3j-FS7s_X1kQ",
+      "name": "Valuetainment",
+      "handle": "@Valuetainment",
+      "description": "Patrick Bet-David — entrepreneurship case studies, strategy and tactics for building service and trade businesses.",
+      "accentColor": "0xFF4F46E5",
+      "initials": "VT",
+      "focus": "Entrepreneurship strategy",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed business strategy channel."
+    },
+    {
+      "id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "name": "Alex Hormozi",
+      "handle": "@AlexHormozi",
+      "description": "Offer creation, pricing and scaling systems for profitable businesses.",
+      "accentColor": "0xFFEA580C",
+      "initials": "AH",
+      "focus": "Business scaling and offers",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQuLmwdlNzJXtnBKl5rpnRg",
+      "name": "Mike Michalowicz",
+      "handle": "@MikeMichalowiczOfficial",
+      "description": "Profit First, cash flow systems and operational clarity for small business owners.",
+      "accentColor": "0xFF059669",
+      "initials": "MM",
+      "focus": "Cash flow and profit systems",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UCQXg8BIj8E7G9JA7nUM3f8Q",
+      "name": "Dayo Adetiloye Business Hub",
+      "handle": "@DayoAdetiloye",
+      "description": "Nigerian business coach — business plans, MSME funding, CAC registration and growth.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "DA",
+      "focus": "Nigerian entrepreneurship",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Confirmed."
+    },
+    {
+      "id": "UC5rrHufEb1d4l31kf9bGYfg",
+      "name": "This Old House",
+      "handle": "@thisoldhouse",
+      "description": "Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "accentColor": "0xFF2563EB",
+      "initials": "TO",
+      "focus": "Automobile Technology (Trade): Practical building, renovation, electrical, plumbing, carpentry, and home-maintenance education.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC5rrHufEb1d4l31kf9bGYfg; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UC1MZgHA2PsX2hlaYo8ECQAw",
+      "name": "Essential Craftsman",
+      "handle": "@EssentialCraftsman",
+      "description": "Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "accentColor": "0xFF16A34A",
+      "initials": "EC",
+      "focus": "Automobile Technology (Trade): Foundational craftsmanship, construction, metalwork, tools, and practical problem-solving.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UC1MZgHA2PsX2hlaYo8ECQAw; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCnorhjQR4zJkT7AVNhu395Q",
+      "name": "Home RenoVision DIY",
+      "handle": "@HomeRenoVisionDIY",
+      "description": "Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "accentColor": "0xFFF0AA1D",
+      "initials": "HR",
+      "focus": "Automobile Technology (Trade): Hands-on renovation, drywall, flooring, tiling, plumbing, and project planning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCnorhjQR4zJkT7AVNhu395Q; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCBB7sYb14uBtk8UqSQYc9-w",
+      "name": "The Honest Carpenter",
+      "handle": "@TheHonestCarpenter",
+      "description": "Carpentry knowledge, building science, tool use, and construction quality.",
+      "accentColor": "0xFF7C3AED",
+      "initials": "TH",
+      "focus": "Automobile Technology (Trade): Carpentry knowledge, building science, tool use, and construction quality.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCBB7sYb14uBtk8UqSQYc9-w; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCKwM-7sO1_Tw9EmYhKfpBBw",
+      "name": "Perkins Builder Brothers",
+      "handle": "@PerkinsBuilderBrothers",
+      "description": "Residential construction, framing, tools, building systems, and project execution.",
+      "accentColor": "0xFF0891B2",
+      "initials": "PB",
+      "focus": "Automobile Technology (Trade): Residential construction, framing, tools, building systems, and project execution.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCKwM-7sO1_Tw9EmYhKfpBBw; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCB3jUEyCLRbCw7QED0vnXYg",
+      "name": "Electrician U",
+      "handle": "@ElectricianU",
+      "description": "Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "accentColor": "0xFFDB4437",
+      "initials": "EU",
+      "focus": "Automobile Technology (Trade): Electrical installation, wiring, code concepts, tools, and electrician career learning.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCB3jUEyCLRbCw7QED0vnXYg; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCk0rn9r3IxR-FNjCzHBa5RQ",
+      "name": "Got2Learn",
+      "handle": "@Got2Learn",
+      "description": "Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "accentColor": "0xFF0F766E",
+      "initials": "G",
+      "focus": "Automobile Technology (Trade): Hands-on electrical, HVAC, refrigeration, and trade troubleshooting tutorials.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCk0rn9r3IxR-FNjCzHBa5RQ; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCraGaDLfWec67xl9FEPndtw",
+      "name": "See Jane Drill",
+      "handle": "@SeeJaneDrill",
+      "description": "Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "accentColor": "0xFF9333EA",
+      "initials": "SJ",
+      "focus": "Automobile Technology (Trade): Accessible DIY maintenance, repairs, tools, and home-improvement skills.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCraGaDLfWec67xl9FEPndtw; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCwRccMruxRafT7Tx1u1dTPw",
+      "name": "Roger Wakefield",
+      "handle": "@RogerWakefield",
+      "description": "Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "accentColor": "0xFFB45309",
+      "initials": "RW",
+      "focus": "Automobile Technology (Trade): Plumbing fundamentals, diagnosis, installation, maintenance, and trade practice.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCwRccMruxRafT7Tx1u1dTPw; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    },
+    {
+      "id": "UCYohLjTaUZLF3-JjttxG_CA",
+      "name": "AC Service Tech",
+      "handle": "@ACServiceTech",
+      "description": "Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "accentColor": "0xFF475569",
+      "initials": "AS",
+      "focus": "Automobile Technology (Trade): Air-conditioning, refrigeration, electrical diagnostics, and HVAC service training.",
+      "region": "Global",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct YouTube handle page resolved to channel ID UCYohLjTaUZLF3-JjttxG_CA; selected for the Automobile Technology (Trade) learning pathway beyond business-only content."
+    }
+  ],
+  "blogs": [
+    {
+      "name": "ServiceTitan Blog",
+      "url": "https://www.servicetitan.com/blog/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json)."
+    },
+    {
+      "name": "RLO Training Blog",
+      "url": "https://rlotraining.com/blog/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json)."
+    },
+    {
+      "name": "OttoXpress Blog",
+      "url": "https://ottoxpress.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json). OttoXpress blog retained even though their YouTube channel was replaced by Autochek Africa."
+    },
+    {
+      "name": "Motor.com",
+      "url": "https://www.motor.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json as 'Motor Age')."
+    },
+    {
+      "name": "AutoSuccess",
+      "url": "https://www.autosuccessonline.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "AutoSuccess — auto dealership and repair enterprise management. Standard WordPress /feed/ URL. Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "Entrepreneurs.ng",
+      "url": "https://entrepreneurs.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_01). Auto trade business guide, capital, and margins."
+    },
+    {
+      "name": "Splice Blog",
+      "url": "https://splice.com.ng/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Covers auto repair supply chain and setup guides for Nigeria. Verify canonical domain before first ingest."
+    },
+    {
+      "name": "StartupTipsDaily",
+      "url": "https://www.startuptipsdaily.com/feed",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Feed URL confirmed in existing verified skill file. (skill_09_auto_mechanics.json)."
+    },
+    {
+      "name": "Repairer Driven News",
+      "url": "https://www.repairerdrivennews.com/feed/",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Global auto body and repair enterprise news. Standard WordPress /feed/ URL. Standard WordPress /feed/ pattern — needs live verification before first ingest."
+    },
+    {
+      "name": "SME Digest",
+      "url": "https://smedigest.com.ng/feed/",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Nigerian SME practical content."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "region": "Global",
+      "focus": "Construction, repair, renovation, tools, and home systems.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Family Handyman",
+      "url": "https://www.familyhandyman.com/",
+      "region": "Global",
+      "focus": "DIY, woodworking, repair, tools, and practical home skills.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Fine Woodworking",
+      "url": "https://www.finewoodworking.com/",
+      "region": "Global",
+      "focus": "Advanced woodworking, furniture making, tools, and craftsmanship.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Plumbing & Mechanical",
+      "url": "https://www.pmmag.com/",
+      "region": "Global",
+      "focus": "Plumbing, HVAC, hydronics, codes, and trade practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Electronics Notes",
+      "url": "https://www.electronics-notes.com/",
+      "region": "Global",
+      "focus": "Electronics fundamentals, components, circuits, and design.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Modern Salon",
+      "url": "https://www.modernsalon.com/",
+      "region": "Global",
+      "focus": "Salon technique, hairdressing, beauty, and professional practice.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Yale Insights",
+      "url": "https://insights.som.yale.edu/",
+      "region": "Global",
+      "focus": "Research and ideas on leadership, society, economics, and organizations.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Greater Good Magazine",
+      "url": "https://greatergood.berkeley.edu/",
+      "region": "Global",
+      "focus": "Psychology, wellbeing, relationships, compassion, and human flourishing.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Farnam Street",
+      "url": "https://fs.blog/",
+      "region": "Global",
+      "focus": "Mental models, decision-making, learning, and clear thinking.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    },
+    {
+      "name": "Ness Labs",
+      "url": "https://nesslabs.com/",
+      "region": "Global",
+      "focus": "Learning, productivity, creativity, neuroscience, and mindful work.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Direct source URL returned successfully; BlogRssService supports RSS/Atom autodiscovery for homepage URLs."
+    }
+  ],
+  "books": [
+    {
+      "title": "Profit First",
+      "author": "Mike Michalowicz",
+      "freeSourceUrl": "https://mikemichalowicz.com/profit-first/",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free overview and chapter excerpts from the author's official site — cash-flow management system for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "URL from user-provided CSV. Author's own domain, consistent with skill_01 entry.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781635767407-L.jpg"
+    },
+    {
+      "title": "Small Business Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — small-business operations, financing, and management.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "openstax.org is a peer-reviewed open textbook publisher. URL from user-provided CSV.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781951693633-L.jpg"
+    },
+    {
+      "title": "Entrepreneurship",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/subjects/business",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — entrepreneurship principles, ideation, and business model design.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Same OpenStax catalogue URL; select the specific title on the catalogue page.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172488-L.jpg"
+    },
+    {
+      "title": "Digital Marketing for Small Business",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://blog.hubspot.com/marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot marketing blog — practical digital marketing guides for trade businesses.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot blog is a widely recognised free marketing resource. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Starting a Business Guide",
+      "author": "U.S. Small Business Administration (SBA)",
+      "freeSourceUrl": "https://www.sba.gov/business-guide",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free US SBA startup guide — globally applicable for structuring a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "sba.gov is a US government domain. URL from user-provided CSV.",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/US-SmallBusinessAdmin-Logo.svg/330px-US-SmallBusinessAdmin-Logo.svg.png"
+    },
+    {
+      "title": "Inbound Marketing Certification",
+      "author": "HubSpot Academy",
+      "freeSourceUrl": "https://academy.hubspot.com/courses/inbound-marketing",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free HubSpot Academy certification course covering inbound marketing strategy for any trade or service business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "HubSpot Academy courses are free with registration. URL from user-provided CSV.",
+      "coverUrl": "https://www.hubspot.com/hubfs/assets/hubspot.com/buzz/hubspotlogo-web-color.png"
+    },
+    {
+      "title": "Principles of Management",
+      "author": "OpenStax / Rice University",
+      "freeSourceUrl": "https://openstax.org/details/books/principles-management",
+      "freeSourceType": "web",
+      "freeSourceNote": "Free open textbook — planning, organising, leading, and controlling a trade business.",
+      "verifiedOn": "2026-07-25",
+      "verificationMethod": "Direct OpenStax book URL confirmed stable via feedspot/open textbook listings.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781947172340-L.jpg"
+    },
+    {
+      "title": "Markup & Profit",
+      "author": "Michael C. Stone",
+      "freeSourceUrl": "https://archive.org/details/markupprofitcont00ston",
+      "freeSourceType": "download",
+      "freeSourceNote": "Internet Archive free borrow. How to calculate real markup that produces actual profit for trades and service businesses.",
+      "verifiedOn": "2026-08-04",
+      "verificationMethod": "Verified IA item.",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781572180864-L.jpg"
+    },
+    {
+      "title": "Fundamentals of Compressible Flow Mechanics - ver. 0.5.4",
+      "author": "Genick Bar-Meir - Author",
+      "freeSourceUrl": "https://zenodo.org/records/18217916",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-compressible-flow-mechanics"
+    },
+    {
+      "title": "Manufacturing Processes 4-5",
+      "author": "LamNgeun Virasak - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/manufacturingprocesses45/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/manufacturing-processes-4-5"
+    },
+    {
+      "title": "Interpretation of Metal Fab Drawings",
+      "author": "Cameren Moran - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/weldsymbols/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/interpretation-of-metal-fab-drawings",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781636350615-L.jpg"
+    },
+    {
+      "title": "Basic Blueprint Reading",
+      "author": "Ric Costin - Author",
+      "freeSourceUrl": "https://openoregon.pressbooks.pub/blueprint/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/basic-blueprint-reading",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781636350318-L.jpg"
+    },
+    {
+      "title": "Stability of Ships and Other Bodies - ver 0.7.0",
+      "author": "Genick Bar-Meir - Author",
+      "freeSourceUrl": "https://zenodo.org/records/5784893",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Free Documentation License (GNU)) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Free Documentation License (GNU); catalog record: https://open.umn.edu/opentextbooks/textbooks/stability-of-ships-and-other-bodies"
+    },
+    {
+      "title": "Aerodynamics and Aircraft Performance - 3rd edition",
+      "author": "James F. Marchman III - Author",
+      "freeSourceUrl": "https://vtechworks.lib.vt.edu/items/a9bd021c-4dfa-45c7-b3cd-33722b87265d",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/aerodynamics-and-aircraft-performance",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781949373639-L.jpg"
+    },
+    {
+      "title": "Engineering Statics: Open and Interactive",
+      "author": "Daniel W. Baker - Author / William Haynes - Author",
+      "freeSourceUrl": "https://engineeringstatics.org/frontmatter.html",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-statics-open-and-interactive",
+      "coverUrl": "http://engineeringstatics.org/external/images/front_cover-160x200.png",
+      "coverCandidates": [
+        "http://engineeringstatics.org/external/images/front_cover-160x200.png"
+      ]
+    },
+    {
+      "title": "Intermediate Fluid Mechanics",
+      "author": "James Liburdy - Author",
+      "freeSourceUrl": "https://open.oregonstate.education/intermediate-fluid-mechanics/",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/intermediate-fluid-mechanics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781955101103-L.jpg"
+    },
+    {
+      "title": "Introduction to Mechanical Engineering Design",
+      "author": "Jacqulyn A. Baughman - Author",
+      "freeSourceUrl": "https://www.iastatedigitalpress.com/plugins/books/131/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-mechanical-engineering-design"
+    },
+    {
+      "title": "A Guide to MATLAB for ME 160",
+      "author": "Austin Bray - Author / Reza Montazami - Author",
+      "freeSourceUrl": "https://iastate.pressbooks.pub/matlabguide/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/a-guide-to-matlab-for-me-160"
+    },
+    {
+      "title": "Engineering Mechanics: Statics",
+      "author": "Elisabeth (Libby) Osgood - Author / Gayla Cameron - Author / Emma Christensen - Author",
+      "freeSourceUrl": "https://pressbooks.library.upei.ca/statics/open/download?type=epub",
+      "freeSourceType": "ebook",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial-ShareAlike) with a $0.00 ebook format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-mechanics-statics"
+    },
+    {
+      "title": "Werktuigkundige Systemen",
+      "author": "Jan C. Cool - Author / Gabriëlle J.M. Tuijthof - Editor / Giuseppe Radaelli - Editor / Regine W. Vroom - Editor",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/152",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/werktuigkundige-systemen",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463667241-L.jpg"
+    },
+    {
+      "title": "Essential Mechanics - Statics and Strength of Materials with MATLAB and Octave",
+      "author": "P. Venkataraman - Author",
+      "freeSourceUrl": "https://repository.rit.edu/cgi/viewcontent.cgi?article=1002&context=ritbooks",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/essential-mechanics-statics-and-strength-of-materials-with-matlab-and-octave",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9780988881129-L.jpg"
+    },
+    {
+      "title": "Engineering Systems, Dynamics, Modelling, Simulation, and Design",
+      "author": "Mehrzad Tabatabaian - Author",
+      "freeSourceUrl": "https://collection.bccampus.ca/textbooks/engineering-systems-dynamics-modelling-simulation-and-design-lagrangian-and-bond-graph-methods-british-columbia-institute-of-technology-111/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-systems-dynamics-modelling-simulation-and-design"
+    },
+    {
+      "title": "From theORy to application: learning to optimize with Operations Research in an interactive way",
+      "author": "Alessandro Bombelli - Author / Bilge Atasoy - Author / Stefano Fazi - Author / Doris Boschma - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/175",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/from-theory-to-application-learning-to-optimize-with-operations-research-in-an-interactive-way",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789463668507-L.jpg"
+    },
+    {
+      "title": "Introduction to Mechanical Design and Manufacturing",
+      "author": "David Jensen - Author",
+      "freeSourceUrl": "https://uark.pressbooks.pub/mechanicaldesign/",
+      "freeSourceType": "online",
+      "freeSourceNote": "Openly licensed textbook (Attribution-NonCommercial) with a $0.00 online format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-NonCommercial; catalog record: https://open.umn.edu/opentextbooks/textbooks/introduction-to-mechanical-design-and-manufacturing"
+    },
+    {
+      "title": "Engineering Thermodynamics",
+      "author": "Olivier Cleynen - Author",
+      "freeSourceUrl": "https://thermodynamicsbook.com/",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution-ShareAlike) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution-ShareAlike; catalog record: https://open.umn.edu/opentextbooks/textbooks/engineering-thermodynamics",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9781446710067-L.jpg"
+    },
+    {
+      "title": "Transitioning towards a circular (healthcare) economy: Circular Economy principles, leadership, policy and decision-making",
+      "author": "Bart van Straten - Author / Bruno Bruins - Author / Tim Horeman - Author",
+      "freeSourceUrl": "https://books.open.tudelft.nl/home/catalog/book/217",
+      "freeSourceType": "pdf",
+      "freeSourceNote": "Openly licensed textbook (Attribution) with a $0.00 pdf format in the Open Textbook Library catalog.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Open Textbook Library catalog record; subject match: Engineering & Technology - Mechanical Engineering; license: Attribution; catalog record: https://open.umn.edu/opentextbooks/textbooks/transitioning-towards-a-circular-healthcare-economy-circular-economy-principles-leadership-policy-and-decision-making",
+      "coverUrl": "https://covers.openlibrary.org/b/isbn/9789465180502-L.jpg"
+    },
+    {
+      "title": "Across the Prairie in a Motor Caravan\nA 3,000 Mile Tour by Two Englishwomen on Behalf of Religious Education",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/34447",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #34447; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/34447/pg34447.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/34447/pg34447.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/34447/pg34447.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/34447/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Missions -- Canada",
+        "Category: Travel Writing",
+        "Category: Religion/Spirituality",
+        "BV"
+      ]
+    },
+    {
+      "title": "An Illustrated Directory of the Specifications of All Domestic and Foreign Motor-cars and Motor Business Wagons, Gasoline, Steam and Electric, Sold in This Country, 1907",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65005",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65005; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65005/pg65005.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65005/pg65005.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65005/pg65005.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65005/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles -- Catalogs",
+        "Category: Engineering & Technology",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "TL"
+      ]
+    },
+    {
+      "title": "Automobile Biographies\nAn Account of the Lives and the Work of Those Who Have Been Identified with the Invention and Development of Self-Propelled Vehicles on the Common Roads",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41891",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41891; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41891/pg41891.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41891/pg41891.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41891/pg41891.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41891/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles -- History",
+        "Category: Biographies",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "TL"
+      ]
+    },
+    {
+      "title": "Automobiles",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73790",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73790; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73790/pg73790.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73790/pg73790.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73790/pg73790.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73790/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles",
+        "Category: Children & Young Adult Reading",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TL"
+      ]
+    },
+    {
+      "title": "British Highways and Byways from a Motor Car\r\nBeing a Record of a Five Thousand Mile Tour in England, Wales and Scotland",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17297",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #17297; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17297/pg17297.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17297/pg17297.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17297/pg17297.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/17297/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Great Britain -- Maps",
+        "Great Britain -- Description and travel",
+        "United Kingdom",
+        "Category: Travel Writing",
+        "Category: History - British",
+        "DA"
+      ]
+    },
+    {
+      "title": "By motor to the Golden Gate",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/73784",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #73784; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/73784/pg73784.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/73784/pg73784.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/73784/pg73784.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/73784/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "West (U.S.) -- Description and travel",
+        "United States -- Description and travel",
+        "Automobile travel",
+        "Post, Emily, 1872-1960 -- Travel -- United States",
+        "Category: Adventure",
+        "Category: Travel Writing",
+        "Category: American Literature",
+        "E151"
+      ]
+    },
+    {
+      "title": "C.A. Coey's School of Motoring, 1424-26 Michigan Ave. Chicago",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/49307",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #49307; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/49307/pg49307.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/49307/pg49307.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/49307/pg49307.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/49307/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobile driver education",
+        "Category: History - American",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "Category: Teaching & Education",
+        "TL"
+      ]
+    },
+    {
+      "title": "Electricity in Locomotion\r\nAn Account of Its Mechanism, Its Achievements, and Its Prospects",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/51242",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #51242; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/51242/pg51242.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/51242/pg51242.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/51242/pg51242.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/51242/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Electric railroads",
+        "Electric automobiles",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "TF"
+      ]
+    },
+    {
+      "title": "English-French and French-English dictionary of the motor car, cycle, and boat",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41217",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41217; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41217/pg41217.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41217/pg41217.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41217/pg41217.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41217/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles -- Dictionaries",
+        "English language -- Dictionaries -- French",
+        "French language -- Dictionaries -- English",
+        "Category: Encyclopedias/Dictionaries/Reference",
+        "TL"
+      ]
+    },
+    {
+      "title": "Europe from a Motor Car",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/41588",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #41588; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/41588/pg41588.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/41588/pg41588.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/41588/pg41588.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/41588/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Europe -- Description and travel",
+        "Category: Adventure",
+        "Category: Travel Writing",
+        "D"
+      ]
+    },
+    {
+      "title": "Henry Ford's Own Story\r\nHow a Farmer Boy Rose to the Power that goes with Many Millions, Yet Never Lost Touch with Humanity",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/46121",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #46121; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/46121/pg46121.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/46121/pg46121.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/46121/pg46121.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/46121/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Ford, Henry, 1863-1947",
+        "Automobile industry and trade -- United States -- History",
+        "Businesspeople -- United States -- Biography",
+        "Category: Biographies",
+        "Category: History - American",
+        "Category: Business/Management",
+        "HD"
+      ]
+    },
+    {
+      "title": "Italian Highways and Byways from a Motor Car",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/44212",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #44212; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/44212/pg44212.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/44212/pg44212.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/44212/pg44212.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/44212/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Italy -- Description and travel",
+        "Category: Travel Writing",
+        "DG"
+      ]
+    },
+    {
+      "title": "Motor Camping",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66988",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66988; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66988/pg66988.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66988/pg66988.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66988/pg66988.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66988/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Camping",
+        "Automobile travel",
+        "Category: Travel Writing",
+        "Category: How To ...",
+        "Category: Sports/Hobbies",
+        "GV"
+      ]
+    },
+    {
+      "title": "Motor Transports in War",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56323",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56323; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56323/pg56323.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56323/pg56323.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56323/pg56323.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56323/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "World War, 1914-1918 -- Transportation",
+        "Automobiles, Military",
+        "Category: History - Modern (1750+)",
+        "Category: History - Warfare",
+        "Category: Engineering & Technology",
+        "UC"
+      ]
+    },
+    {
+      "title": "Motor-car principles; the gasoline automobile",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70194",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #70194; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70194/pg70194.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70194/pg70194.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70194/pg70194.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/70194/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles",
+        "Category: Engineering & Technology",
+        "TL"
+      ]
+    },
+    {
+      "title": "Mr. Punch Awheel: The Humours of Motoring and Cycling",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29022",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29022; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29022/pg29022.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29022/pg29022.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29022/pg29022.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29022/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "English wit and humor",
+        "English wit and humor, Pictorial",
+        "Automobiles -- Anecdotes",
+        "Cycling -- Anecdotes",
+        "Humor",
+        "Category: Humour",
+        "Category: Essays, Letters & Speeches",
+        "Category: British Literature",
+        "PN"
+      ]
+    },
+    {
+      "title": "Practical Hand Book of Gas, Oil and Steam Engines\r\nStationary, Marine, Traction; Gas Burners, Oil Burners, Etc.; Farm, Traction, Automobile, Locomotive; A simple, practical and comprehensive book on the construction, operation and repair of all kinds of engines. Dealing with the various parts in detail and the various types of engines and also the use of different kinds of fuel.",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/56776",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #56776; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/56776/pg56776.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/56776/pg56776.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/56776/pg56776.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/56776/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Internal combustion engines",
+        "Traction-engines",
+        "Category: Science - Physics",
+        "Category: Engineering & Technology",
+        "TJ"
+      ]
+    },
+    {
+      "title": "Practical House, Wagon and Automobile Painter\r\nincluding sign painting, and valuable hints and recipes",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/67109",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #67109; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/67109/pg67109.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/67109/pg67109.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/67109/pg67109.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/67109/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Alphabets",
+        "Painting, Industrial",
+        "House painting",
+        "Sign painting",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TT"
+      ]
+    },
+    {
+      "title": "Putnam's Automobile Handbook: The Care and Management of the Modern Motor-Car",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65673",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #65673; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65673/pg65673.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65673/pg65673.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65673/pg65673.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/65673/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles -- Handbooks, manuals, etc.",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TL"
+      ]
+    },
+    {
+      "title": "Souvenir Map and Guide for Tourists in the Black Hills of South Dakota\nMaps prepared especially for the use of Automobile Tourists",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60217",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #60217; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60217/pg60217.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60217/pg60217.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60217/pg60217.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/60217/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobile travel -- Guidebooks",
+        "Black Hills (S.D. and Wyo.) -- Guidebooks",
+        "Category: Travel Writing",
+        "F590.3"
+      ]
+    },
+    {
+      "title": "Story of the automobile: Its history and development from 1760 to 1917\r\nWith an analysis of the standing and prospects of the automobile industry",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/66607",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #66607; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/66607/pg66607.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/66607/pg66607.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/66607/pg66607.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/66607/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles -- History",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "TL"
+      ]
+    },
+    {
+      "title": "The 1893 Duryea Automobile In the Museum of History and Technology",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/30055",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #30055; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/30055/pg30055.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/30055/pg30055.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/30055/pg30055.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/30055/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Duryea automobile",
+        "Technology",
+        "Category: History - American",
+        "Category: Engineering & Technology",
+        "Q"
+      ]
+    },
+    {
+      "title": "The automobile owner's guide",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/69375",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #69375; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/69375/pg69375.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/69375/pg69375.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/69375/pg69375.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/69375/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles",
+        "Automobiles -- Handbooks, manuals, etc.",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TL"
+      ]
+    },
+    {
+      "title": "The Automobile Storage Battery: Its Care And Repair",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/29718",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #29718; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/29718/pg29718.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/29718/pg29718.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/29718/pg29718.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/29718/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Storage batteries",
+        "Automobiles -- Electric equipment",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TL"
+      ]
+    },
+    {
+      "title": "The Lake of the Sky\nLake Tahoe in the High Sierras of California and Nevada, its History, Indians, Discovery by Frémont, Legendary Lore, Various Namings, Physical Characteristics, Glacial Phenomena, Geology, Single Outlet, Automobile Routes, Historic Towns, Early Mining Excitements, Steamer Ride, Mineral Springs, Mountain and Lake Resorts, Trail and Camping Out Trips, Summer Residences, Fishing, Hunting, Flowers, Birds, Animals, Trees, and Chaparral, with a Full Account of the Tahoe National Forest, the Public Use of the Water of Lake Tahoe and Much Other Interesting Matter",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/13170",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #13170; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/13170/pg13170.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/13170/pg13170.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/13170/pg13170.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/13170/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Washoe Indians",
+        "Tahoe, Lake (Calif. and Nev.)",
+        "Tahoe National Forest (Calif.)",
+        "Native America",
+        "Category: Travel Writing",
+        "Category: Nature/Gardening/Animals",
+        "F850.5"
+      ]
+    },
+    {
+      "title": "The Motor Car Dumpy Book",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/24609",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #24609; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/24609/pg24609.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/24609/pg24609.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/24609/pg24609.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/24609/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Picture books for children",
+        "Automobiles -- Juvenile literature",
+        "Children's Picture Books",
+        "Category: Children & Young Adult Reading",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Motor Routes of France\r\nTo the Châteaux of Touraine, Biarritz, the Pyrenees, the Riviera, & the Rhone Valley",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/57133",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #57133; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/57133/pg57133.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/57133/pg57133.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/57133/pg57133.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/57133/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "France -- Description and travel",
+        "Automobile travel -- France -- Guidebooks",
+        "Category: Travel Writing",
+        "Category: French Literature",
+        "DC",
+        "GV"
+      ]
+    },
+    {
+      "title": "Through East Anglia in a Motor Car",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38938",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #38938; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38938/pg38938.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38938/pg38938.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38938/pg38938.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/38938/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Norfolk (England) -- Description and travel",
+        "Suffolk (England) -- Description and travel",
+        "Travel",
+        "Category: Travel Writing",
+        "Category: British Literature",
+        "DA"
+      ]
+    },
+    {
+      "title": "Two Thousand Miles on an Automobile\r\nBeing a Desultory Narrative of a Trip Through New England, New York, Canada, and the West, By \"Chauffeur\"",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12380",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #12380; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12380/pg12380.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12380/pg12380.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12380/pg12380.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/12380/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "United States -- Description and travel",
+        "United States -- Social life and customs -- 1865-1918",
+        "Eddy, Arthur Jerome, 1859-1920 -- Travel -- United States",
+        "Automobile travel -- United States -- History -- 20th century",
+        "Transportation",
+        "Category: Humour",
+        "Category: Travel Writing",
+        "E151"
+      ]
+    },
+    {
+      "title": "A boy's text book on gas engines",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/71991",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #71991; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/71991/pg71991.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/71991/pg71991.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/71991/pg71991.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/71991/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles -- Motors",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TL"
+      ]
+    },
+    {
+      "title": "Across the Continent by the Lincoln Highway",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33320",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #33320; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33320/pg33320.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33320/pg33320.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33320/pg33320.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/33320/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "United States -- Description and travel",
+        "Automobile travel",
+        "Lincoln Highway",
+        "Category: Travel Writing",
+        "Category: American Literature",
+        "E151"
+      ]
+    },
+    {
+      "title": "D.C. Powered Timing Light Model 161.2158 for 12 Volt Ignition Systems\nSears Owners Manual",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39714",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #39714; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39714/pg39714.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39714/pg39714.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39714/pg39714.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/39714/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Automobiles -- Motors -- Testing -- Equipment and supplies",
+        "Automobiles -- Ignition -- Maintenance and repair",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TL"
+      ]
+    },
+    {
+      "title": "Deeds Barn and the Self Starter",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/64831",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #64831; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/64831/pg64831.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/64831/pg64831.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/64831/pg64831.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/64831/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Carillon Historical Park (Dayton, Ohio)",
+        "Automobiles -- Starting devices",
+        "Deeds, E. A. (Edward Andrew), 1874-1960",
+        "Category: Biographies",
+        "Category: History - Modern (1750+)",
+        "Category: Engineering & Technology",
+        "TL"
+      ]
+    },
+    {
+      "title": "El Toro",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/76338",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #76338; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/76338/pg76338.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/76338/pg76338.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/76338/pg76338.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/76338/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Cuba -- Description and travel",
+        "Automobile travel -- Cuba",
+        "Category: Adventure",
+        "Category: Travel Writing",
+        "Category: American Literature",
+        "F1751"
+      ]
+    },
+    {
+      "title": "Essex Terraplane Six 1933 Owner's Manual of Information",
+      "author": "Project Gutenberg contributors",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37863",
+      "freeSourceType": "online",
+      "freeSourceNote": "Public-domain supplemental practical resource in Project Gutenberg’s official catalog; historical content must be paired with current standards where applicable.",
+      "verifiedOn": "2026-08-23",
+      "verificationMethod": "Project Gutenberg catalog record #37863; matched practical keyword rule from title/subject metadata.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37863/pg37863.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37863/pg37863.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37863/pg37863.cover.small.jpg",
+        "https://www.gutenberg.org/cache/epub/37863/images/cover.jpg"
+      ],
+      "searchKeywords": [
+        "Hudson automobile -- Handbooks, manuals, etc.",
+        "Category: Engineering & Technology",
+        "Category: How To ...",
+        "TL"
+      ]
+    },
+    {
+      "title": "The Automobile Girls at Washington; Or, Checkmating the Plots of Foreign Spies",
+      "author": "Crane, Laura Dent",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/12559",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 12559); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/12559/pg12559.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/12559/pg12559.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/12559/pg12559.cover.small.jpg"
+      ],
+      "subject": "Adventure and adventurers -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Adventure and adventurers -- Juvenile fiction",
+        "Girls -- Societies and clubs -- Juvenile fiction",
+        "Automobile travel -- Juvenile fiction",
+        "Washington (D.C.) -- Juvenile fiction",
+        "Spies -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Automobile Girls in the Berkshires; Or, The Ghost of Lost Man's Trail",
+      "author": "Crane, Laura Dent",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/25811",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 25811); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/25811/pg25811.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/25811/pg25811.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/25811/pg25811.cover.small.jpg"
+      ],
+      "subject": "Adventure and adventurers -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Adventure and adventurers -- Juvenile fiction",
+        "Girls -- Societies and clubs -- Juvenile fiction",
+        "Airships -- Juvenile fiction",
+        "Berkshire Hills (Mass.) -- Juvenile fiction",
+        "Automobile travel -- Juvenile fiction",
+        "Horses -- Juvenile fiction",
+        "Children's Book Series",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Automobile Girls at Chicago; Or, Winning Out Against Heavy Odds",
+      "author": "Crane, Laura Dent",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32437",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 32437); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/32437/pg32437.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/32437/pg32437.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/32437/pg32437.cover.small.jpg"
+      ],
+      "subject": "Friendship -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Friendship -- Juvenile fiction",
+        "Vacations -- Juvenile fiction",
+        "Treasure troves -- Juvenile fiction",
+        "Girls -- Societies and clubs -- Juvenile fiction",
+        "Mystery and detective stories",
+        "Automobile travel -- Juvenile fiction",
+        "Chicago (Ill.) -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Automobile Girls at Newport; Or, Watching the Summer Parade",
+      "author": "Crane, Laura Dent",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/36273",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 36273); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/36273/pg36273.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/36273/pg36273.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/36273/pg36273.cover.small.jpg"
+      ],
+      "subject": "Adventure and adventurers -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Adventure and adventurers -- Juvenile fiction",
+        "Girls -- Societies and clubs -- Juvenile fiction",
+        "Automobile travel -- Juvenile fiction",
+        "Brigands and robbers -- Juvenile fiction",
+        "Newport (R.I.) -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Automobile Girls Along the Hudson; Or, Fighting Fire in Sleepy Hollow",
+      "author": "Crane, Laura Dent",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/37454",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 37454); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/37454/pg37454.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/37454/pg37454.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/37454/pg37454.cover.small.jpg"
+      ],
+      "subject": "Vacations -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Vacations -- Juvenile fiction",
+        "Adventure and adventurers -- Juvenile fiction",
+        "Girls -- Societies and clubs -- Juvenile fiction",
+        "Automobile travel -- Juvenile fiction",
+        "Brigands and robbers -- Juvenile fiction",
+        "Hudson River (N.Y. and N.J.) -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Automobile Girls at Palm Beach; Or, Proving Their Mettle Under Southern Skies",
+      "author": "Crane, Laura Dent",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/38123",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 38123); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/38123/pg38123.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/38123/pg38123.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/38123/pg38123.cover.small.jpg"
+      ],
+      "subject": "Vacations -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Vacations -- Juvenile fiction",
+        "Girls -- Societies and clubs -- Juvenile fiction",
+        "Mystery and detective stories",
+        "Princesses -- Juvenile fiction",
+        "Automobile travel -- Juvenile fiction",
+        "Swindlers and swindling -- Juvenile fiction",
+        "Palm Beach (Fla.) -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Uncle Wiggily's Automobile",
+      "author": "Garis, Howard Roger, 1873-1962; Wisa, Louis, 1873-1953 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/60017",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 60017); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/60017/pg60017.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/60017/pg60017.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/60017/pg60017.cover.small.jpg"
+      ],
+      "subject": "Dogs -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Dogs -- Juvenile fiction",
+        "Animals -- Juvenile fiction",
+        "Children's stories",
+        "Birds -- Juvenile fiction",
+        "Squirrels -- Juvenile fiction",
+        "Rabbits -- Juvenile fiction",
+        "Automobile travel -- Juvenile fiction",
+        "Uncle Wiggily (Fictitious character) -- Juvenile fiction",
+        "Halloween -- Juvenile fiction",
+        "Opossums -- Juvenile fiction",
+        "Category: Short Stories",
+        "Category: Children & Young Adult Reading",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Araminta and the Automobile",
+      "author": "Loomis, Charles Battell, 1861-1911; Lang, Otto [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/63009",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 63009); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/63009/pg63009.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/63009/pg63009.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/63009/pg63009.cover.small.jpg"
+      ],
+      "subject": "Short stories, American",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Short stories, American",
+        "Automobiles -- Fiction",
+        "Category: Romance",
+        "Category: Humour",
+        "Category: Novels",
+        "Category: American Literature",
+        "PS"
+      ]
+    },
+    {
+      "title": "Bunny Brown and His Sister Sue on an Auto Tour",
+      "author": "Hope, Laura Lee; Nosworthy, Florence England, 1872-1936 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/17095",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 17095); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/17095/pg17095.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/17095/pg17095.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/17095/pg17095.cover.small.jpg"
+      ],
+      "subject": "Siblings -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Siblings -- Juvenile fiction",
+        "Automobile travel -- Juvenile fiction",
+        "Brown, Bunny (Fictitious character) -- Juvenile fiction",
+        "Children's Book Series",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Speedwell Boys and Their Racing Auto; Or, A Run for the Golden Cup",
+      "author": "Rockwood, Roy",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50282",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 50282); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50282/pg50282.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50282/pg50282.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50282/pg50282.cover.small.jpg"
+      ],
+      "subject": "Motorcycling -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Motorcycling -- Juvenile fiction",
+        "Automobile racing -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Uncle Wiggily's funny auto",
+      "author": "Garis, Howard Roger, 1873-1962; Campbell, Lang, 1882-1937 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/70783",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 70783); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/70783/pg70783.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/70783/pg70783.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/70783/pg70783.cover.small.jpg"
+      ],
+      "subject": "Animals -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Animals -- Juvenile fiction",
+        "Humorous stories, American",
+        "Rabbits -- Juvenile fiction",
+        "Swine -- Juvenile fiction",
+        "Foxes -- Juvenile fiction",
+        "Automobile travel -- Juvenile fiction",
+        "Muskrat -- Juvenile fiction",
+        "Geese -- Juvenile fiction",
+        "Alligators -- Juvenile fiction",
+        "Wolves -- Juvenile fiction",
+        "Uncle Wiggily (Fictitious character) -- Juvenile fiction",
+        "Gardening -- Juvenile fiction",
+        "Snow -- Juvenile fiction",
+        "Tricksters -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Humour",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Auto Boys' Mystery",
+      "author": "Braden, James A. (James Andrew), 1872-1955; Russell, Alfred [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/32742",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 32742); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/32742/pg32742.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/32742/pg32742.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/32742/pg32742.cover.small.jpg"
+      ],
+      "subject": "Automobiles -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Automobiles -- Juvenile fiction",
+        "Young men -- Juvenile fiction",
+        "Mystery fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Adventure",
+        "Category: Novels",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Auto Boys' Vacation",
+      "author": "Braden, James A. (James Andrew), 1872-1955; Furman, E. A. [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/33476",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 33476); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/33476/pg33476.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/33476/pg33476.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/33476/pg33476.cover.small.jpg"
+      ],
+      "subject": "Vacations -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Vacations -- Juvenile fiction",
+        "Automobiles -- Juvenile fiction",
+        "Young men -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Crime, Thrillers and Mystery",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "The Auto Boys' Quest",
+      "author": "Braden, James A. (James Andrew), 1872-1955; DeBebian, Arthur, 1887-1967 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/39102",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 39102); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/39102/pg39102.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/39102/pg39102.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/39102/pg39102.cover.small.jpg"
+      ],
+      "subject": "Automobiles -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Automobiles -- Juvenile fiction",
+        "Young men -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "Category: Novels",
+        "Category: American Literature",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Uncle Wiggily's Auto Sled or, How Mr. Hedgehog Helped Him Get Up the Slippery Hill; and, How Uncle Wiggily Made a Snow Pudding. Also, What Happened in the Snow Fort",
+      "author": "Garis, Howard Roger, 1873-1962; Campbell, Lang, 1882-1937 [Illustrator]",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/50405",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 50405); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/50405/pg50405.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/50405/pg50405.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/50405/pg50405.cover.small.jpg"
+      ],
+      "subject": "Animals -- Juvenile fiction",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Animals -- Juvenile fiction",
+        "Humorous stories, American",
+        "Puddings -- Juvenile fiction",
+        "Rabbits -- Juvenile fiction",
+        "Automobiles -- Juvenile fiction",
+        "Swine -- Juvenile fiction",
+        "Uncle Wiggily (Fictitious character) -- Juvenile fiction",
+        "Snow -- Juvenile fiction",
+        "Sleds -- Juvenile fiction",
+        "Fortification -- Juvenile fiction",
+        "Snowballs -- Juvenile fiction",
+        "Tricksters -- Juvenile fiction",
+        "Category: Children & Young Adult Reading",
+        "Category: Adventure",
+        "PZ"
+      ]
+    },
+    {
+      "title": "Pioneer Auto Museum and Antique Town, Murdo, South Dakota",
+      "author": "Pioneer Auto Museum (Murdo, S.D.)",
+      "freeSourceUrl": "https://www.gutenberg.org/ebooks/65547",
+      "freeSourceType": "web",
+      "freeSourceNote": "Project Gutenberg edition. Public-domain status follows Project Gutenberg policy and can vary by jurisdiction; readers should check local copyright law.",
+      "verificationMethod": "Imported from Project Gutenberg official pg_catalog.csv (ebook 65547); English Text record with catalog subjects/bookshelves and stable ebook URL.",
+      "coverUrl": "https://www.gutenberg.org/cache/epub/65547/pg65547.cover.medium.jpg",
+      "coverCandidates": [
+        "https://www.gutenberg.org/cache/epub/65547/pg65547.cover.medium.jpg",
+        "https://www.gutenberg.org/cache/epub/65547/pg65547.cover.small.jpg"
+      ],
+      "subject": "Pioneer Auto Museum (Murdo, S.D.)",
+      "region": "Global",
+      "license": "Project Gutenberg public-domain edition; jurisdiction varies",
+      "searchKeywords": [
+        "Pioneer Auto Museum (Murdo, S.D.)",
+        "Antique and classic cars -- South Dakota -- Murdo",
+        "Automobiles -- Museums -- South Dakota -- Murdo",
+        "Category: Biographies",
+        "Category: History - American",
+        "TL"
+      ]
+    }
+  ],
+  "notes": "Fully integrated and all channel IDs resolved (2026-07-25). Key changes from draft: (1) OttoXpress (@OttoXpress, 404) replaced with Autochek Africa (@autochekafrica2536, UCyYCUDC804Vpup4zPWaK9dw) — verified African auto B2B platform. OttoXpress blog entry retained. (2) @Nairametrics (404) → @NairametricsTV (UC1GBKv15keKOgHbEBEMeo9w, launched Jan 2025). (3) EngineeringAll and OttoXpress FETCH_YOUTUBE_HANDLE_* placeholders fully resolved. (4) Zikoko handle corrected @ZikokoTV→@Zikokomag (consistent with p16 and p18). 2026-08-23: Added 18 high-confidence openly licensed textbook records from the Open Textbook Library catalog; records were limited to titles with a non-empty license and a $0.00 Online, PDF, or eBook format. 2026-08-23: Added 35 selected Project Gutenberg public-domain non-fiction records to the General collection. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. 2026-08-23: Added researched educational channels and blogs spanning the full learning pathway, not only business content. Added 16 Project Gutenberg public-domain catalog records with source links and cover candidates on 2026-08-26.",
+  "actionRequired": [
+    "2026-08-04: Removed generic personal-dev books (Atomic Habits etc.) and pure-news blogs (BusinessDay, Nairametrics, Connect Nigeria, BellaNaija). Replaced with free practical business books (E-Myth, Profit First, Markup & Profit, How Much Should I Charge?, Lean Startup, Rework, Personal MBA, Traction, Company of One, OpenStax Entrepreneurship) and Nigerian/African SME blogs. Priority: Nigeria → Africa → Global. All books free.",
+    "2026-08-04 full audit: Removed pure-technical tutorials, pure-news and generic personal-dev sources. Kept/replaced with category-specific business operations content (pricing, clients, cash flow, systems, scaling). Books forced free (IA/OpenStax/Bookdio/author free). Priority Nigeria→Africa→Global.",
+    "2026-08-23: Removed 2 existing book entries hosted on disallowed generic or unauthorized-looking ebook domains; these require replacement with legitimate free sources.",
+    "2026-08-23: Review the 18 Open Textbook Library additions for pathway sequencing and local relevance before promoting them in the UI.",
+    "2026-08-23: Review the 35 Project Gutenberg additions for pathway sequencing and contemporary-context caveats; public-domain works may be historical."
+  ]
+}
